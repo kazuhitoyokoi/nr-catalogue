@@ -23,4 +23,6 @@ jobs:
       - uses: actions/checkout@v3
       - name: Run a multi-line script
         run: |
-          curl -s https://catalogue.nodered.org/catalogue.json | jq '.[]' | jq '.[].id' | xargs -I{} npm install {}
+          curl -s https://catalogue.nodered.org/catalogue.json | jq '.[]' | jq '"npm install "+ .[].id' > batch.bat
+          chmod 777 batch.bat || true
+          batch.bat
