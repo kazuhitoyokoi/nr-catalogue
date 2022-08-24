@@ -17,12 +17,10 @@ jobs:
   build:
     strategy:
       matrix:
-        os: [ windows-latest, macos-latest, ubuntu-latest ]
+        os: [ macos-latest, ubuntu-latest ]
     runs-on: ${{matrix.os}}
     steps:
       - uses: actions/checkout@v3
       - name: Run a multi-line script
         run: |
-          curl -s https://catalogue.nodered.org/catalogue.json | jq '.[]' | jq '"npm install "+ .[].id' > batch.bat
-          chmod 777 batch.bat | true
-          batch.bat
+          curl -s https://catalogue.nodered.org/catalogue.json | jq '.[]' | jq '.[].id' | xargs -I{} npm install {}
