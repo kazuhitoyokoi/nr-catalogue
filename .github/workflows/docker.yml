@@ -6,8 +6,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
-      - name: Run a multi-line script
-        run: |
+      - run: |
           curl -O https://catalogue.nodered.org/catalogue.json
           cat catalogue.json | jq '.modules|.[]|.id+"@"+.version' | head | xargs -I{} sh docker.sh {}
           echo '{"name": "Catalogue for docker","updated_at": "`node -e 'console.log(new Date())'`","modules":' > docs/container.json
