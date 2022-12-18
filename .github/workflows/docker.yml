@@ -9,9 +9,10 @@ jobs:
       - run: |
           curl -O https://catalogue.nodered.org/catalogue.json
           cat catalogue.json | jq '.modules|.[]|.id+"@"+.version' | head | xargs -I{} sh docker.sh {}
-          echo '{"name": "Catalogue for docker","updated_at": "`node -e 'console.log(new Date())'`","modules":' > docs/container.json
-          cat *.tmp | jq -s . >> docs/docker.json
-          echo '}' >> docs/docker.json
+          echo '{ "name": "Catalogue for docker", "updated_at": "`node -e 'console.log(new Date())'`", "modules": ' > output.json
+          cat *.tmp | jq -s . >> output.json
+          echo '}' >> output.json
+          cat output.json | jq . > docs/docker.json
           git config --global user.email "kazuhitoyokoi@nodered.jp"
           git config --global user.name "Kazuhito Yokoi"
           git add docs/docker.json
