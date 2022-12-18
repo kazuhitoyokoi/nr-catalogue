@@ -11,9 +11,13 @@ jobs:
           cat catalogue.json | jq '.modules|.[]|.id+"@"+.version' | head | xargs -I{} sh docker.sh {}
           ls
           echo '{ "name": "Catalogue for docker", "updated_at": "`node -e 'console.log(new Date())'`", "modules": ' > output.json
+          cat output.json
           cat *.tmp | jq -s . >> output.json
+          cat output.json
           echo '}' >> output.json
+          cat output.json
           cat output.json | jq . > docs/docker.json
+          cat docs/docker.json
           git config --global user.email "kazuhitoyokoi@nodered.jp"
           git config --global user.name "Kazuhito Yokoi"
           git add docs/docker.json
