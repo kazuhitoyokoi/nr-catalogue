@@ -13,6 +13,7 @@ jobs:
       - run: |
           curl -O https://catalogue.nodered.org/catalogue.json
           cat catalogue.json | jq '.modules|.[]|.id+"@"+.version' | head -n 2 | xargs -I{} sh docker.sh {}
+          ls
           echo "{ \"name\": \"Catalogue for docker\", \"updated_at\": \"`node -e 'console.log(new Date())'`\", \"modules\": `jq -s . *.tmp` }" | jq . > docs/docker.json
           git config --global user.email "kazuhitoyokoi@nodered.jp"
           git config --global user.name "Kazuhito Yokoi"
