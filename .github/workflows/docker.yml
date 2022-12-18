@@ -3,6 +3,8 @@ on:
     branches: [ main ]
 jobs:
   build:
+    permissions:
+      actions: write
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
