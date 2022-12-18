@@ -4,7 +4,7 @@ for (var i = 0; i < modules.length; i++) {
     var cmd = 'npm install ' + modules[i].id + '@' + modules[i].version;
     console.log(cmd);
     try {
-        console.log(child_process.execSync(cmd).toString());
+        child_process.execSync(cmd);
     } catch (e) {
         console.log(e);
     }
