@@ -1,139 +1,30 @@
 {
   "name": "Catalogue for docker",
-  "updated_at": "2022-12-18T16:10:35.772Z",
+  "updated_at": "2022-12-18T16:12:57.284Z",
   "modules": [
     {
-      "id": "node-red-contrib-duckdb",
-      "version": "0.0.7",
-      "description": "Node-red node for duckdb",
-      "updated_at": "2022-12-17T19:12:33.479Z",
+      "id": "node-red-contrib-gsi",
+      "version": "1.9.106",
+      "description": "GSI (Corrently GrünstromIndex) Nodes for Node-Red. Based on GreenPowerIndex Decorators and Corrently API.",
+      "updated_at": "2022-12-16T12:21:17.682Z",
       "types": [
-        "duckdb",
-        "duckdb-sql",
-        "duckdb import",
-        "duckdb export"
+        "retrieve-forecast",
+        "current-value"
       ],
       "keywords": [
         "node-red",
-        "node-red-contrib",
-        "duckdb",
-        "duck db",
-        "embedded database"
+        "gsi",
+        "blockchain",
+        "corrently",
+        "stromdao",
+        "obis",
+        "energy",
+        "greenpowerindex",
+        "gsi",
+        "co2footprint",
+        "openems"
       ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-duckdb"
-    },
-    {
-      "id": "@hurenkam/hue-services",
-      "version": "0.6.2",
-      "description": "Custom node-red nodes for interfacing with philips hue devices",
-      "updated_at": "2022-12-17T01:15:27.573Z",
-      "types": [],
-      "keywords": [
-        "node-red",
-        "hue",
-        "clip"
-      ],
-      "url": "https://flows.nodered.org/node/@hurenkam/hue-services"
-    },
-    {
-      "id": "@yuliqi/node-red-mydb",
-      "version": "0.0.6",
-      "description": "A Node-RED node to read and write to a My database",
-      "updated_at": "2022-12-17T17:00:26.108Z",
-      "types": [
-        "MydbDatabase",
-        "mydb"
-      ],
-      "keywords": [
-        "node-red",
-        "node-red-mydb",
-        "mysql",
-        "sequelize"
-      ],
-      "url": "https://flows.nodered.org/node/@yuliqi/node-red-mydb"
-    },
-    {
-      "id": "node-red-contrib-whatsapp-link",
-      "version": "0.1.25",
-      "description": "Whatsapp connection with Node-Red | No third party APIs",
-      "updated_at": "2022-12-17T18:31:14.456Z",
-      "types": [
-        "admin",
-        "chats-in",
-        "chats-out",
-        "group-out",
-        "whatsappLink"
-      ],
-      "keywords": [
-        "node-red",
-        "whatsapp",
-        "message",
-        "whatsapp Group",
-        "whatsapp Chat"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-whatsapp-link"
-    },
-    {
-      "id": "node-red-contrib-fasac",
-      "version": "0.1.0",
-      "description": "Node-RED-Modul zur Bereitstellung von Szenario-Bausteinen für FASAC, einem Framework zur automatisierten Simulation von APT-Szenarien in einem Kubernetes-Cluster.",
-      "updated_at": "2022-12-17T16:51:54.883Z",
-      "types": [
-        "awx-config",
-        "cluster-config",
-        "Mailserver: Start",
-        "Metasploit: Start",
-        "Metasploit: Create Meterpreter",
-        "Scenario Plane: Prepare",
-        "Scenario Plane: Clean",
-        "Workload: Stop",
-        "VM: Start",
-        "MsfRpc: Config",
-        "MsfRpc: Listener Start",
-        "MsfRpc: Session Command"
-      ],
-      "keywords": [
-        "node-red",
-        "fasac"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-fasac"
-    },
-    {
-      "id": "@kevingodell/node-red-mp4frag",
-      "version": "0.1.1-beta.1",
-      "description": "Parse a fragmented mp4 from a buffer and send it to a downstream node or serve it via socket.io and http.",
-      "updated_at": "2022-12-17T05:02:03.136Z",
-      "types": [
-        "mp4frag"
-      ],
-      "keywords": [
-        "node-red",
-        "buffer",
-        "mp4",
-        "fragmented",
-        "fmp4",
-        "parser",
-        "ffmpeg",
-        "video",
-        "cctv"
-      ],
-      "url": "https://flows.nodered.org/node/@kevingodell/node-red-mp4frag"
-    },
-    {
-      "id": "node-red-contrib-meross",
-      "version": "2.1.0",
-      "description": "This provides nodes for controlling Meross devices.",
-      "updated_at": "2022-12-17T16:19:37.587Z",
-      "types": [
-        "meross-config",
-        "smartplug-control",
-        "smartgarage-control"
-      ],
-      "keywords": [
-        "node-red",
-        "meross"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-meross"
+      "url": "https://flows.nodered.org/node/node-red-contrib-gsi"
     },
     {
       "id": "node-red-contrib-timer",
@@ -154,75 +45,18 @@
       "url": "https://flows.nodered.org/node/node-red-contrib-timer"
     },
     {
-      "id": "node-red-contrib-onstar2",
-      "version": "2.1.1",
-      "description": "An updated Node-RED Library using OnStarJS, an unofficial client library for the OnStar Vehicle API",
-      "updated_at": "2022-12-16T17:01:24.551Z",
+      "id": "@kevingodell/node-red-ffmpeg",
+      "version": "0.1.1-beta.3",
+      "description": "Spawn a long-running ffmpeg process to handle video/image processing.",
+      "updated_at": "2022-12-17T05:29:18.324Z",
       "types": [
-        "get-account-vehicles",
-        "get-diagnostics",
-        "lock-myvehicle",
-        "unlock-myvehicle",
-        "start-myvehicle",
-        "cancel-start-myvehicle",
-        "alert-myvehicle",
-        "alert-myvehicle-lights",
-        "alert-myvehicle-horn",
-        "cancel-alert-myvehicle",
-        "locate-vehicle",
-        "mycharge-override",
-        "get-mycharge-profile",
-        "set-mycharge-profile",
-        "onstar2"
+        "ffmpeg"
       ],
       "keywords": [
         "node-red",
-        "OnStar",
-        "Chevrolet",
-        "Chevy",
-        "GM",
-        "GMC",
-        "Buick",
-        "Cadillac"
+        "ffmpeg"
       ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-onstar2"
-    },
-    {
-      "id": "node-red-contrib-telegrambot-home",
-      "version": "0.7.2",
-      "description": "Useful nodes for connecting your home to Telegram",
-      "updated_at": "2022-12-17T17:56:44.317Z",
-      "types": [
-        "telegrambot-config",
-        "telegrambot-command",
-        "telegrambot-switch",
-        "telegrambot-notify",
-        "telegrambot-payload"
-      ],
-      "keywords": [
-        "node-red",
-        "telegram",
-        "bot"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-telegrambot-home"
-    },
-    {
-      "id": "node-red-contrib-dashboard-bar-chart-data",
-      "version": "0.9.93",
-      "description": "Transforms sensor measurements or meter readings to be displayed in dashboard-chart as bar-chart",
-      "updated_at": "2022-12-16T16:09:23.442Z",
-      "types": [
-        "bar-chart-data"
-      ],
-      "keywords": [
-        "node-red",
-        "dashboard",
-        "chart",
-        "bar-chart",
-        "bar",
-        "timeseries"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-dashboard-bar-chart-data"
+      "url": "https://flows.nodered.org/node/@kevingodell/node-red-ffmpeg"
     },
     {
       "id": "@jambonz/node-red-contrib-jambonz",
@@ -271,28 +105,208 @@
       "url": "https://flows.nodered.org/node/@jambonz/node-red-contrib-jambonz"
     },
     {
-      "id": "node-red-contrib-gsi",
-      "version": "1.9.106",
-      "description": "GSI (Corrently GrünstromIndex) Nodes for Node-Red. Based on GreenPowerIndex Decorators and Corrently API.",
-      "updated_at": "2022-12-16T12:21:17.682Z",
+      "id": "node-red-contrib-onstar2",
+      "version": "2.1.1",
+      "description": "An updated Node-RED Library using OnStarJS, an unofficial client library for the OnStar Vehicle API",
+      "updated_at": "2022-12-16T17:01:24.551Z",
       "types": [
-        "retrieve-forecast",
-        "current-value"
+        "get-account-vehicles",
+        "get-diagnostics",
+        "lock-myvehicle",
+        "unlock-myvehicle",
+        "start-myvehicle",
+        "cancel-start-myvehicle",
+        "alert-myvehicle",
+        "alert-myvehicle-lights",
+        "alert-myvehicle-horn",
+        "cancel-alert-myvehicle",
+        "locate-vehicle",
+        "mycharge-override",
+        "get-mycharge-profile",
+        "set-mycharge-profile",
+        "onstar2"
       ],
       "keywords": [
         "node-red",
-        "gsi",
-        "blockchain",
-        "corrently",
-        "stromdao",
-        "obis",
-        "energy",
-        "greenpowerindex",
-        "gsi",
-        "co2footprint",
-        "openems"
+        "OnStar",
+        "Chevrolet",
+        "Chevy",
+        "GM",
+        "GMC",
+        "Buick",
+        "Cadillac"
       ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-gsi"
+      "url": "https://flows.nodered.org/node/node-red-contrib-onstar2"
+    },
+    {
+      "id": "node-red-contrib-dashboard-bar-chart-data",
+      "version": "0.9.93",
+      "description": "Transforms sensor measurements or meter readings to be displayed in dashboard-chart as bar-chart",
+      "updated_at": "2022-12-16T16:09:23.442Z",
+      "types": [
+        "bar-chart-data"
+      ],
+      "keywords": [
+        "node-red",
+        "dashboard",
+        "chart",
+        "bar-chart",
+        "bar",
+        "timeseries"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-dashboard-bar-chart-data"
+    },
+    {
+      "id": "node-red-contrib-fasac",
+      "version": "0.1.0",
+      "description": "Node-RED-Modul zur Bereitstellung von Szenario-Bausteinen für FASAC, einem Framework zur automatisierten Simulation von APT-Szenarien in einem Kubernetes-Cluster.",
+      "updated_at": "2022-12-17T16:51:54.883Z",
+      "types": [
+        "awx-config",
+        "cluster-config",
+        "Mailserver: Start",
+        "Metasploit: Start",
+        "Metasploit: Create Meterpreter",
+        "Scenario Plane: Prepare",
+        "Scenario Plane: Clean",
+        "Workload: Stop",
+        "VM: Start",
+        "MsfRpc: Config",
+        "MsfRpc: Listener Start",
+        "MsfRpc: Session Command"
+      ],
+      "keywords": [
+        "node-red",
+        "fasac"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-fasac"
+    },
+    {
+      "id": "node-red-contrib-duckdb",
+      "version": "0.0.7",
+      "description": "Node-red node for duckdb",
+      "updated_at": "2022-12-17T19:12:33.479Z",
+      "types": [
+        "duckdb",
+        "duckdb-sql",
+        "duckdb import",
+        "duckdb export"
+      ],
+      "keywords": [
+        "node-red",
+        "node-red-contrib",
+        "duckdb",
+        "duck db",
+        "embedded database"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-duckdb"
+    },
+    {
+      "id": "@hurenkam/hue-services",
+      "version": "0.6.2",
+      "description": "Custom node-red nodes for interfacing with philips hue devices",
+      "updated_at": "2022-12-17T01:15:27.573Z",
+      "types": [],
+      "keywords": [
+        "node-red",
+        "hue",
+        "clip"
+      ],
+      "url": "https://flows.nodered.org/node/@hurenkam/hue-services"
+    },
+    {
+      "id": "@kevingodell/node-red-mp4frag",
+      "version": "0.1.1-beta.1",
+      "description": "Parse a fragmented mp4 from a buffer and send it to a downstream node or serve it via socket.io and http.",
+      "updated_at": "2022-12-17T05:02:03.136Z",
+      "types": [
+        "mp4frag"
+      ],
+      "keywords": [
+        "node-red",
+        "buffer",
+        "mp4",
+        "fragmented",
+        "fmp4",
+        "parser",
+        "ffmpeg",
+        "video",
+        "cctv"
+      ],
+      "url": "https://flows.nodered.org/node/@kevingodell/node-red-mp4frag"
+    },
+    {
+      "id": "node-red-contrib-telegrambot-home",
+      "version": "0.7.2",
+      "description": "Useful nodes for connecting your home to Telegram",
+      "updated_at": "2022-12-17T17:56:44.317Z",
+      "types": [
+        "telegrambot-config",
+        "telegrambot-command",
+        "telegrambot-switch",
+        "telegrambot-notify",
+        "telegrambot-payload"
+      ],
+      "keywords": [
+        "node-red",
+        "telegram",
+        "bot"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-telegrambot-home"
+    },
+    {
+      "id": "@yuliqi/node-red-mydb",
+      "version": "0.0.6",
+      "description": "A Node-RED node to read and write to a My database",
+      "updated_at": "2022-12-17T17:00:26.108Z",
+      "types": [
+        "MydbDatabase",
+        "mydb"
+      ],
+      "keywords": [
+        "node-red",
+        "node-red-mydb",
+        "mysql",
+        "sequelize"
+      ],
+      "url": "https://flows.nodered.org/node/@yuliqi/node-red-mydb"
+    },
+    {
+      "id": "node-red-contrib-meross",
+      "version": "2.1.0",
+      "description": "This provides nodes for controlling Meross devices.",
+      "updated_at": "2022-12-17T16:19:37.587Z",
+      "types": [
+        "meross-config",
+        "smartplug-control",
+        "smartgarage-control"
+      ],
+      "keywords": [
+        "node-red",
+        "meross"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-meross"
+    },
+    {
+      "id": "node-red-contrib-whatsapp-link",
+      "version": "0.1.25",
+      "description": "Whatsapp connection with Node-Red | No third party APIs",
+      "updated_at": "2022-12-17T18:31:14.456Z",
+      "types": [
+        "admin",
+        "chats-in",
+        "chats-out",
+        "group-out",
+        "whatsappLink"
+      ],
+      "keywords": [
+        "node-red",
+        "whatsapp",
+        "message",
+        "whatsapp Group",
+        "whatsapp Chat"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-whatsapp-link"
     },
     {
       "id": "node-red-contrib-data-table-viewer",
@@ -309,20 +323,6 @@
         "flow editor"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-data-table-viewer"
-    },
-    {
-      "id": "@kevingodell/node-red-ffmpeg",
-      "version": "0.1.1-beta.3",
-      "description": "Spawn a long-running ffmpeg process to handle video/image processing.",
-      "updated_at": "2022-12-17T05:29:18.324Z",
-      "types": [
-        "ffmpeg"
-      ],
-      "keywords": [
-        "node-red",
-        "ffmpeg"
-      ],
-      "url": "https://flows.nodered.org/node/@kevingodell/node-red-ffmpeg"
     }
   ]
 }
