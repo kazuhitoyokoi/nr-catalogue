@@ -1,7 +1,130 @@
 {
   "name": "Catalogue for docker",
-  "updated_at": "2022-12-18T14:30:28.375Z",
+  "updated_at": "2022-12-18T14:35:00.746Z",
   "modules": [
+    {
+      "id": "node-red-contrib-ale-iot-hub",
+      "version": "0.0.22",
+      "description": "Alcatel-Lucent Enterprise IOT HUB Nodes for Node Red",
+      "updated_at": "2022-12-15T13:09:59.291Z",
+      "types": [
+        "iot-hub-client",
+        "iot in",
+        "__errors__",
+        "iot out",
+        "__errors__",
+        "iot function"
+      ],
+      "keywords": [
+        "node-red",
+        "rainbow",
+        "cloud",
+        "IoT",
+        "IM",
+        "chat",
+        "presence"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-ale-iot-hub"
+    },
+    {
+      "id": "node-red-contrib-ampio",
+      "version": "0.6.3",
+      "description": "Ampio node",
+      "updated_at": "2022-12-16T07:11:09.872Z",
+      "types": [
+        "Ampio IN",
+        "Ampio OUT",
+        "Ampio LCD",
+        "Ampio Events",
+        "ampioconfig"
+      ],
+      "keywords": [
+        "ampio",
+        "node-red"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-ampio"
+    },
+    {
+      "id": "node-red-contrib-axis-com",
+      "version": "1.1.4",
+      "description": "Simplified integration with Axis devices",
+      "updated_at": "2022-12-16T09:55:04.014Z",
+      "types": [
+        "Device Access",
+        "Axis device",
+        "Axis camera",
+        "Axis ACAP",
+        "Axis Security"
+      ],
+      "keywords": [
+        "node-red",
+        "Axis",
+        "Camera"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-axis-com"
+    },
+    {
+      "id": "node-red-contrib-dashboard-bar-chart-data",
+      "version": "0.9.93",
+      "description": "Transforms sensor measurements or meter readings to be displayed in dashboard-chart as bar-chart",
+      "updated_at": "2022-12-16T16:09:23.442Z",
+      "types": [
+        "bar-chart-data"
+      ],
+      "keywords": [
+        "node-red",
+        "dashboard",
+        "chart",
+        "bar-chart",
+        "bar",
+        "timeseries"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-dashboard-bar-chart-data"
+    },
+    {
+      "id": "node-red-contrib-data-table-viewer",
+      "version": "0.0.5",
+      "description": "Node-red node show data on flow screen in a tabular fasion",
+      "updated_at": "2022-12-16T23:00:11.704Z",
+      "types": [
+        "table-viewer"
+      ],
+      "keywords": [
+        "node-red",
+        "node-red-contrib",
+        "table viewer",
+        "flow editor"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-data-table-viewer"
+    },
+    {
+      "id": "node-red-contrib-dotnsf-gpt35",
+      "version": "1.1.5",
+      "updated_at": "2022-12-14T21:22:35.693Z",
+      "types": [
+        "GPT 3.5"
+      ],
+      "keywords": [
+        "node-red",
+        "dotnsf",
+        "gpt"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-dotnsf-gpt35"
+    },
+    {
+      "id": "node-red-contrib-dotnsf-gpt",
+      "version": "1.1.2",
+      "updated_at": "2022-12-15T14:07:31.730Z",
+      "types": [
+        "GPT"
+      ],
+      "keywords": [
+        "node-red",
+        "dotnsf",
+        "gpt"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-dotnsf-gpt"
+    },
     {
       "id": "node-red-contrib-duckdb",
       "version": "0.0.7",
@@ -48,6 +171,93 @@
       "url": "https://flows.nodered.org/node/node-red-contrib-fasac"
     },
     {
+      "id": "node-red-contrib-gsi",
+      "version": "1.9.106",
+      "description": "GSI (Corrently GrünstromIndex) Nodes for Node-Red. Based on GreenPowerIndex Decorators and Corrently API.",
+      "updated_at": "2022-12-16T12:21:17.682Z",
+      "types": [
+        "retrieve-forecast",
+        "current-value"
+      ],
+      "keywords": [
+        "node-red",
+        "gsi",
+        "blockchain",
+        "corrently",
+        "stromdao",
+        "obis",
+        "energy",
+        "greenpowerindex",
+        "gsi",
+        "co2footprint",
+        "openems"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-gsi"
+    },
+    {
+      "id": "node-red-contrib-iiot-opcua",
+      "version": "4.1.2",
+      "description": "An Industrial IoT OPC UA toolbox contribution package for Node-RED based on node-opcua.",
+      "updated_at": "2022-12-14T22:00:27.758Z",
+      "types": [
+        "OPCUA-IIoT-Connector",
+        "OPCUA-IIoT-Flex-Connector",
+        "OPCUA-IIoT-Inject",
+        "OPCUA-IIoT-Node",
+        "OPCUA-IIoT-Event",
+        "OPCUA-IIoT-Listener",
+        "OPCUA-IIoT-Read",
+        "OPCUA-IIoT-Write",
+        "OPCUA-IIoT-Response",
+        "OPCUA-IIoT-Browser",
+        "OPCUA-IIoT-Crawler",
+        "OPCUA-IIoT-Server",
+        "OPCUA-IIoT-Flex-Server",
+        "OPCUA-IIoT-Server-ASO",
+        "OPCUA-IIoT-Server-Command",
+        "OPCUA-IIoT-Result-Filter",
+        "OPCUA-IIoT-Method-Caller",
+        "OPCUA-IIoT-Discovery"
+      ],
+      "keywords": [
+        "node-red",
+        "plus4nodered",
+        "opcua",
+        "automation",
+        "biancoroyal"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-iiot-opcua"
+    },
+    {
+      "id": "node-red-contrib-knx-ultimate",
+      "version": "1.4.10",
+      "description": "Control your KNX intallation via Node-Red! Single Node KNX IN/OUT with optional ETS group address importer. Easy to use and highly configurable.",
+      "updated_at": "2022-12-15T10:42:01.098Z",
+      "types": [
+        "knxUltimate",
+        "knxUltimateSceneController",
+        "knxUltimateWatchDog",
+        "knxUltimateLogger",
+        "knxUltimate-config",
+        "knxUltimateGlobalContext",
+        "knxUltimateAlerter",
+        "knxUltimateLoadControl",
+        "knxUltimateViewer"
+      ],
+      "keywords": [
+        "node-red",
+        "KNX",
+        "ETS",
+        "eib",
+        "eibd",
+        "knxd",
+        "konnex",
+        "IOT",
+        "KNX Secure"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-knx-ultimate"
+    },
+    {
       "id": "node-red-contrib-meross",
       "version": "2.1.0",
       "description": "This provides nodes for controlling Meross devices.",
@@ -62,6 +272,93 @@
         "meross"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-meross"
+    },
+    {
+      "id": "node-red-contrib-onstar2",
+      "version": "2.1.1",
+      "description": "An updated Node-RED Library using OnStarJS, an unofficial client library for the OnStar Vehicle API",
+      "updated_at": "2022-12-16T17:01:24.551Z",
+      "types": [
+        "get-account-vehicles",
+        "get-diagnostics",
+        "lock-myvehicle",
+        "unlock-myvehicle",
+        "start-myvehicle",
+        "cancel-start-myvehicle",
+        "alert-myvehicle",
+        "alert-myvehicle-lights",
+        "alert-myvehicle-horn",
+        "cancel-alert-myvehicle",
+        "locate-vehicle",
+        "mycharge-override",
+        "get-mycharge-profile",
+        "set-mycharge-profile",
+        "onstar2"
+      ],
+      "keywords": [
+        "node-red",
+        "OnStar",
+        "Chevrolet",
+        "Chevy",
+        "GM",
+        "GMC",
+        "Buick",
+        "Cadillac"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-onstar2"
+    },
+    {
+      "id": "node-red-contrib-postgresql",
+      "version": "0.11.3",
+      "description": "Node-RED node for PostgreSQL, supporting parameters, split, back-pressure",
+      "updated_at": "2022-12-15T12:13:33.118Z",
+      "types": [
+        "postgreSQLConfig",
+        "postgresql"
+      ],
+      "keywords": [
+        "backpressure",
+        "node-red-contrib",
+        "node-red",
+        "nodered",
+        "postgres",
+        "postgresql",
+        "timescale"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-postgresql"
+    },
+    {
+      "id": "node-red-contrib-prediktor-edge-management",
+      "version": "1.14.0",
+      "description": "A collection of nodes to communicate with Prediktor Edge Management",
+      "updated_at": "2022-12-16T12:11:43.262Z",
+      "types": [
+        "ping-em",
+        "restore-namespace",
+        "restore-variable-mappings",
+        "prediktor-edge-management",
+        "upload-hive-config"
+      ],
+      "keywords": [
+        "prediktor",
+        "node-red"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-prediktor-edge-management"
+    },
+    {
+      "id": "node-red-contrib-python-function-ps",
+      "version": "0.0.10",
+      "description": "Function Node for execute python in Node-RED",
+      "updated_at": "2022-12-14T05:13:19.975Z",
+      "types": [
+        "python-function-ps"
+      ],
+      "keywords": [
+        "node-red",
+        "function",
+        "python"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-python-function-ps"
     },
     {
       "id": "node-red-contrib-telegrambot-home",
@@ -120,6 +417,36 @@
         "whatsapp Chat"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-whatsapp-link"
+    },
+    {
+      "id": "node-red-contrib-wiz-local-control",
+      "version": "1.0.1",
+      "description": "Local WIZ control for Node-RED",
+      "updated_at": "2022-12-14T21:32:18.297Z",
+      "types": [
+        "wiz-device",
+        "wiz-config"
+      ],
+      "keywords": [
+        "node-red",
+        "wiz",
+        "local wiz"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-wiz-local-control"
+    },
+    {
+      "id": "node-red-node-tail",
+      "version": "0.4.0",
+      "description": "A node to tail files for Node-RED",
+      "updated_at": "2022-12-14T11:46:03.662Z",
+      "types": [
+        "tail"
+      ],
+      "keywords": [
+        "node-red",
+        "tail"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-node-tail"
     }
   ]
 }
