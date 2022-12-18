@@ -21,7 +21,7 @@ jobs:
       - name: Run a multi-line script
         run: |
           curl -O https://catalogue.nodered.org/catalogue.json
-          cat catalogue.json | jq '.modules|.[]|.id+"@"+.version' | xargs -I{} sh container.sh {}
+          cat catalogue.json | jq '.modules|.[]|.id+"@"+.version' | head -n 10 | xargs -I{} sh container.sh {}
           echo '{"name": "Catalogue for Node-RED container","updated_at": "`node -e 'console.log(new Date())'`","modules":' > docs/container.json
           cat *.tmp | jq -s . >> docs/container.json
           echo '}' >> docs/container.json
