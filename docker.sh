@@ -4,4 +4,4 @@ docker build -t tmp .
 if [ $? -eq 0 ]; then
     echo $1 | sed -r "s/@[^@]+$//" | xargs -I{} jq '.modules | .[] | select(.id=="{}")' catalogue.json > $1.tmp
 fi
-docker rmi tmp
+docker rmi tmp || true
