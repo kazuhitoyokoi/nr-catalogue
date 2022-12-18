@@ -1,6 +1,6 @@
 {
   "name": "Catalogue for docker",
-  "updated_at": "2022-12-18T14:17:45.497Z",
+  "updated_at": "2022-12-18T14:20:53.659Z",
   "modules": [
     {
       "id": "node-red-contrib-duckdb",
@@ -21,6 +21,84 @@
         "embedded database"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-duckdb"
+    },
+    {
+      "id": "node-red-contrib-fasac",
+      "version": "0.1.0",
+      "description": "Node-RED-Modul zur Bereitstellung von Szenario-Bausteinen für FASAC, einem Framework zur automatisierten Simulation von APT-Szenarien in einem Kubernetes-Cluster.",
+      "updated_at": "2022-12-17T16:51:54.883Z",
+      "types": [
+        "awx-config",
+        "cluster-config",
+        "Mailserver: Start",
+        "Metasploit: Start",
+        "Metasploit: Create Meterpreter",
+        "Scenario Plane: Prepare",
+        "Scenario Plane: Clean",
+        "Workload: Stop",
+        "VM: Start",
+        "MsfRpc: Config",
+        "MsfRpc: Listener Start",
+        "MsfRpc: Session Command"
+      ],
+      "keywords": [
+        "node-red",
+        "fasac"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-fasac"
+    },
+    {
+      "id": "node-red-contrib-meross",
+      "version": "2.1.0",
+      "description": "This provides nodes for controlling Meross devices.",
+      "updated_at": "2022-12-17T16:19:37.587Z",
+      "types": [
+        "meross-config",
+        "smartplug-control",
+        "smartgarage-control"
+      ],
+      "keywords": [
+        "node-red",
+        "meross"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-meross"
+    },
+    {
+      "id": "node-red-contrib-telegrambot-home",
+      "version": "0.7.2",
+      "description": "Useful nodes for connecting your home to Telegram",
+      "updated_at": "2022-12-17T17:56:44.317Z",
+      "types": [
+        "telegrambot-config",
+        "telegrambot-command",
+        "telegrambot-switch",
+        "telegrambot-notify",
+        "telegrambot-payload"
+      ],
+      "keywords": [
+        "node-red",
+        "telegram",
+        "bot"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-telegrambot-home"
+    },
+    {
+      "id": "node-red-contrib-timer",
+      "version": "1.0.4",
+      "description": "timer node",
+      "updated_at": "2022-12-17T02:28:13.480Z",
+      "types": [
+        "timer-node"
+      ],
+      "keywords": [
+        "node-red",
+        "timer",
+        "timing",
+        "sequencing",
+        "duty cycle",
+        "delay"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-timer"
     },
     {
       "id": "node-red-contrib-whatsapp-link",
