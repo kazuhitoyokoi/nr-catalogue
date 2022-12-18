@@ -10,7 +10,7 @@ jobs:
           curl -O https://catalogue.nodered.org/catalogue.json
           cat catalogue.json | jq '.modules|.[]|.id+"@"+.version' | head -n 2 | xargs -I{} sh docker.sh {}
           ls
-          echo '{ "name": "Catalogue for docker", "updated_at": "`node -e \'console.log(new Date())\'`", "modules": ' > output.json
+          echo "{ \"name\": \"Catalogue for docker\", \"updated_at\": \"`node -e 'console.log(new Date())'`\", \"modules\": " > output.json
           cat output.json
           cat *.tmp | jq -s . >> output.json
           cat output.json
