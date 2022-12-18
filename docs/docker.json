@@ -1,7 +1,78 @@
 {
   "name": "Catalogue for docker",
-  "updated_at": "2022-12-18T16:05:01.440Z",
+  "updated_at": "2022-12-18T16:10:35.772Z",
   "modules": [
+    {
+      "id": "node-red-contrib-duckdb",
+      "version": "0.0.7",
+      "description": "Node-red node for duckdb",
+      "updated_at": "2022-12-17T19:12:33.479Z",
+      "types": [
+        "duckdb",
+        "duckdb-sql",
+        "duckdb import",
+        "duckdb export"
+      ],
+      "keywords": [
+        "node-red",
+        "node-red-contrib",
+        "duckdb",
+        "duck db",
+        "embedded database"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-duckdb"
+    },
+    {
+      "id": "@hurenkam/hue-services",
+      "version": "0.6.2",
+      "description": "Custom node-red nodes for interfacing with philips hue devices",
+      "updated_at": "2022-12-17T01:15:27.573Z",
+      "types": [],
+      "keywords": [
+        "node-red",
+        "hue",
+        "clip"
+      ],
+      "url": "https://flows.nodered.org/node/@hurenkam/hue-services"
+    },
+    {
+      "id": "@yuliqi/node-red-mydb",
+      "version": "0.0.6",
+      "description": "A Node-RED node to read and write to a My database",
+      "updated_at": "2022-12-17T17:00:26.108Z",
+      "types": [
+        "MydbDatabase",
+        "mydb"
+      ],
+      "keywords": [
+        "node-red",
+        "node-red-mydb",
+        "mysql",
+        "sequelize"
+      ],
+      "url": "https://flows.nodered.org/node/@yuliqi/node-red-mydb"
+    },
+    {
+      "id": "node-red-contrib-whatsapp-link",
+      "version": "0.1.25",
+      "description": "Whatsapp connection with Node-Red | No third party APIs",
+      "updated_at": "2022-12-17T18:31:14.456Z",
+      "types": [
+        "admin",
+        "chats-in",
+        "chats-out",
+        "group-out",
+        "whatsappLink"
+      ],
+      "keywords": [
+        "node-red",
+        "whatsapp",
+        "message",
+        "whatsapp Group",
+        "whatsapp Chat"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-whatsapp-link"
+    },
     {
       "id": "node-red-contrib-fasac",
       "version": "0.1.0",
@@ -28,81 +99,6 @@
       "url": "https://flows.nodered.org/node/node-red-contrib-fasac"
     },
     {
-      "id": "node-red-contrib-gsi",
-      "version": "1.9.106",
-      "description": "GSI (Corrently GrünstromIndex) Nodes for Node-Red. Based on GreenPowerIndex Decorators and Corrently API.",
-      "updated_at": "2022-12-16T12:21:17.682Z",
-      "types": [
-        "retrieve-forecast",
-        "current-value"
-      ],
-      "keywords": [
-        "node-red",
-        "gsi",
-        "blockchain",
-        "corrently",
-        "stromdao",
-        "obis",
-        "energy",
-        "greenpowerindex",
-        "gsi",
-        "co2footprint",
-        "openems"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-gsi"
-    },
-    {
-      "id": "@kevingodell/node-red-ffmpeg",
-      "version": "0.1.1-beta.3",
-      "description": "Spawn a long-running ffmpeg process to handle video/image processing.",
-      "updated_at": "2022-12-17T05:29:18.324Z",
-      "types": [
-        "ffmpeg"
-      ],
-      "keywords": [
-        "node-red",
-        "ffmpeg"
-      ],
-      "url": "https://flows.nodered.org/node/@kevingodell/node-red-ffmpeg"
-    },
-    {
-      "id": "node-red-contrib-telegrambot-home",
-      "version": "0.7.2",
-      "description": "Useful nodes for connecting your home to Telegram",
-      "updated_at": "2022-12-17T17:56:44.317Z",
-      "types": [
-        "telegrambot-config",
-        "telegrambot-command",
-        "telegrambot-switch",
-        "telegrambot-notify",
-        "telegrambot-payload"
-      ],
-      "keywords": [
-        "node-red",
-        "telegram",
-        "bot"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-telegrambot-home"
-    },
-    {
-      "id": "node-red-contrib-dashboard-bar-chart-data",
-      "version": "0.9.93",
-      "description": "Transforms sensor measurements or meter readings to be displayed in dashboard-chart as bar-chart",
-      "updated_at": "2022-12-16T16:09:23.442Z",
-      "types": [
-        "bar-chart-data"
-      ],
-      "keywords": [
-        "node-red",
-        "dashboard",
-        "chart",
-        "bar-chart",
-        "bar",
-        "timeseries"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-dashboard-bar-chart-data"
-    },
-    {
       "id": "@kevingodell/node-red-mp4frag",
       "version": "0.1.1-beta.1",
       "description": "Parse a fragmented mp4 from a buffer and send it to a downstream node or serve it via socket.io and http.",
@@ -124,118 +120,6 @@
       "url": "https://flows.nodered.org/node/@kevingodell/node-red-mp4frag"
     },
     {
-      "id": "node-red-contrib-data-table-viewer",
-      "version": "0.0.5",
-      "description": "Node-red node show data on flow screen in a tabular fasion",
-      "updated_at": "2022-12-16T23:00:11.704Z",
-      "types": [
-        "table-viewer"
-      ],
-      "keywords": [
-        "node-red",
-        "node-red-contrib",
-        "table viewer",
-        "flow editor"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-data-table-viewer"
-    },
-    {
-      "id": "@yuliqi/node-red-mydb",
-      "version": "0.0.6",
-      "description": "A Node-RED node to read and write to a My database",
-      "updated_at": "2022-12-17T17:00:26.108Z",
-      "types": [
-        "MydbDatabase",
-        "mydb"
-      ],
-      "keywords": [
-        "node-red",
-        "node-red-mydb",
-        "mysql",
-        "sequelize"
-      ],
-      "url": "https://flows.nodered.org/node/@yuliqi/node-red-mydb"
-    },
-    {
-      "id": "node-red-contrib-duckdb",
-      "version": "0.0.7",
-      "description": "Node-red node for duckdb",
-      "updated_at": "2022-12-17T19:12:33.479Z",
-      "types": [
-        "duckdb",
-        "duckdb-sql",
-        "duckdb import",
-        "duckdb export"
-      ],
-      "keywords": [
-        "node-red",
-        "node-red-contrib",
-        "duckdb",
-        "duck db",
-        "embedded database"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-duckdb"
-    },
-    {
-      "id": "@jambonz/node-red-contrib-jambonz",
-      "version": "2.3.0",
-      "description": "Node-RED nodes for jambonz",
-      "updated_at": "2022-12-16T14:08:17.310Z",
-      "types": [
-        "webhook in",
-        "webhook out",
-        "audio in",
-        "jambonz_auth",
-        "aws_auth",
-        "enqueue",
-        "lex",
-        "say",
-        "dtmf",
-        "cfg",
-        "conference",
-        "gather",
-        "listen",
-        "sip:decline",
-        "sip:request",
-        "sip:refer",
-        "hangup",
-        "message",
-        "tag",
-        "pause",
-        "dequeue",
-        "play",
-        "dial",
-        "redirect",
-        "dialogflow",
-        "leave",
-        "rasa",
-        "user auth",
-        "create-call",
-        "create-sms",
-        "lcc",
-        "get_alerts",
-        "get_calls",
-        "get_recent_calls"
-      ],
-      "keywords": [
-        "node-red"
-      ],
-      "url": "https://flows.nodered.org/node/@jambonz/node-red-contrib-jambonz"
-    },
-    {
-      "id": "@hurenkam/hue-services",
-      "version": "0.6.2",
-      "description": "Custom node-red nodes for interfacing with philips hue devices",
-      "updated_at": "2022-12-17T01:15:27.573Z",
-      "types": [],
-      "keywords": [
-        "node-red",
-        "hue",
-        "clip"
-      ],
-      "url": "https://flows.nodered.org/node/@hurenkam/hue-services"
-    },
-    {
       "id": "node-red-contrib-meross",
       "version": "2.1.0",
       "description": "This provides nodes for controlling Meross devices.",
@@ -250,27 +134,6 @@
         "meross"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-meross"
-    },
-    {
-      "id": "node-red-contrib-whatsapp-link",
-      "version": "0.1.25",
-      "description": "Whatsapp connection with Node-Red | No third party APIs",
-      "updated_at": "2022-12-17T18:31:14.456Z",
-      "types": [
-        "admin",
-        "chats-in",
-        "chats-out",
-        "group-out",
-        "whatsappLink"
-      ],
-      "keywords": [
-        "node-red",
-        "whatsapp",
-        "message",
-        "whatsapp Group",
-        "whatsapp Chat"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-whatsapp-link"
     },
     {
       "id": "node-red-contrib-timer",
@@ -323,6 +186,143 @@
         "Cadillac"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-onstar2"
+    },
+    {
+      "id": "node-red-contrib-telegrambot-home",
+      "version": "0.7.2",
+      "description": "Useful nodes for connecting your home to Telegram",
+      "updated_at": "2022-12-17T17:56:44.317Z",
+      "types": [
+        "telegrambot-config",
+        "telegrambot-command",
+        "telegrambot-switch",
+        "telegrambot-notify",
+        "telegrambot-payload"
+      ],
+      "keywords": [
+        "node-red",
+        "telegram",
+        "bot"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-telegrambot-home"
+    },
+    {
+      "id": "node-red-contrib-dashboard-bar-chart-data",
+      "version": "0.9.93",
+      "description": "Transforms sensor measurements or meter readings to be displayed in dashboard-chart as bar-chart",
+      "updated_at": "2022-12-16T16:09:23.442Z",
+      "types": [
+        "bar-chart-data"
+      ],
+      "keywords": [
+        "node-red",
+        "dashboard",
+        "chart",
+        "bar-chart",
+        "bar",
+        "timeseries"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-dashboard-bar-chart-data"
+    },
+    {
+      "id": "@jambonz/node-red-contrib-jambonz",
+      "version": "2.3.0",
+      "description": "Node-RED nodes for jambonz",
+      "updated_at": "2022-12-16T14:08:17.310Z",
+      "types": [
+        "webhook in",
+        "webhook out",
+        "audio in",
+        "jambonz_auth",
+        "aws_auth",
+        "enqueue",
+        "lex",
+        "say",
+        "dtmf",
+        "cfg",
+        "conference",
+        "gather",
+        "listen",
+        "sip:decline",
+        "sip:request",
+        "sip:refer",
+        "hangup",
+        "message",
+        "tag",
+        "pause",
+        "dequeue",
+        "play",
+        "dial",
+        "redirect",
+        "dialogflow",
+        "leave",
+        "rasa",
+        "user auth",
+        "create-call",
+        "create-sms",
+        "lcc",
+        "get_alerts",
+        "get_calls",
+        "get_recent_calls"
+      ],
+      "keywords": [
+        "node-red"
+      ],
+      "url": "https://flows.nodered.org/node/@jambonz/node-red-contrib-jambonz"
+    },
+    {
+      "id": "node-red-contrib-gsi",
+      "version": "1.9.106",
+      "description": "GSI (Corrently GrünstromIndex) Nodes for Node-Red. Based on GreenPowerIndex Decorators and Corrently API.",
+      "updated_at": "2022-12-16T12:21:17.682Z",
+      "types": [
+        "retrieve-forecast",
+        "current-value"
+      ],
+      "keywords": [
+        "node-red",
+        "gsi",
+        "blockchain",
+        "corrently",
+        "stromdao",
+        "obis",
+        "energy",
+        "greenpowerindex",
+        "gsi",
+        "co2footprint",
+        "openems"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-gsi"
+    },
+    {
+      "id": "node-red-contrib-data-table-viewer",
+      "version": "0.0.5",
+      "description": "Node-red node show data on flow screen in a tabular fasion",
+      "updated_at": "2022-12-16T23:00:11.704Z",
+      "types": [
+        "table-viewer"
+      ],
+      "keywords": [
+        "node-red",
+        "node-red-contrib",
+        "table viewer",
+        "flow editor"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-data-table-viewer"
+    },
+    {
+      "id": "@kevingodell/node-red-ffmpeg",
+      "version": "0.1.1-beta.3",
+      "description": "Spawn a long-running ffmpeg process to handle video/image processing.",
+      "updated_at": "2022-12-17T05:29:18.324Z",
+      "types": [
+        "ffmpeg"
+      ],
+      "keywords": [
+        "node-red",
+        "ffmpeg"
+      ],
+      "url": "https://flows.nodered.org/node/@kevingodell/node-red-ffmpeg"
     }
   ]
 }
