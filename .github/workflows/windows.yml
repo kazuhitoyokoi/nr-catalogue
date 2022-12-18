@@ -13,7 +13,6 @@ jobs:
       - run: |
           curl -O https://catalogue.nodered.org/catalogue.json
           node create-script.js catalogue.json > script.sh
-          cat script.sh
           ./script.sh
           #echo "{ \"name\": \"Catalogue for docker\", \"updated_at\": \"`node -e 'console.log(new Date())'`\", \"modules\": `jq -s . *.tmp` }" | jq . > docs/windows.json
           git config --global user.email "kazuhitoyokoi@nodered.jp"
