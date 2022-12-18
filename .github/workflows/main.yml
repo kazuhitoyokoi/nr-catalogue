@@ -28,3 +28,8 @@ jobs:
           echo '{"name": "Catalogue for Node-RED container","updated_at": "`node -e 'console.log(new Date())'`","modules":' > docs/container.json
           cat *.tmp | jq -s . >> docs/container.json
           echo '}' >> docs/container.json
+          git config --global user.email "kazuhitoyokoi@nodered.jp"
+          git config --global user.name "Kazuhito Yokoi"
+          git add docs/container.json
+          git commit -m "Add zip file which includes the latest Node-RED"
+          git push
