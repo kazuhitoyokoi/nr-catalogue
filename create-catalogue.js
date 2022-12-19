@@ -32,4 +32,4 @@ var catalogue = JSON.stringify({
     updated_at: new Date(),
     modules: newModules
 }, null, 2);
-fs.writeFileSync(path.join(process.argv[2], process.platform), catalogue);
+fs.writeFileSync(path.join(process.argv[3], process.platform), catalogue);
