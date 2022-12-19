@@ -26,8 +26,9 @@ for (var i = 0; i < modules.length; i++) {
     }
 }
 
-console.log(JSON.stringify({
+var catalogue = JSON.stringify({
     name: "Catalogue for " + process.platform,
     updated_at: new Date(),
     modules: newModules
-}, null, 2));
+}, null, 2);
+fs.writeFileSync(process.argv[2], catalogue);
