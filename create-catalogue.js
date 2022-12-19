@@ -25,4 +25,8 @@ for (var i = 0; i < modules.length; i++) {
     }
 }
 
-console.log(newModules);
+console.log(JSON.strigify({
+    name: "Catalogue for " + process.platform,
+    updated_at: new Date(),
+    modules: newModules
+}, null, 4));
