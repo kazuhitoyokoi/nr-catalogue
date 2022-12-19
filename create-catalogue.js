@@ -25,7 +25,7 @@ for (var i = 0; i < modules.length; i++) {
     }
 }
 
-console.log(JSON.strigify({
+console.log(JSON.stringify({
     name: "Catalogue for " + process.platform,
     updated_at: new Date(),
     modules: newModules
