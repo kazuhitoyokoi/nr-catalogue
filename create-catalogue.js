@@ -33,4 +33,5 @@ var catalogue = JSON.stringify({
     updated_at: new Date(),
     modules: newModules
 }, null, 2);
-fs.writeFileSync(path.join(process.argv[3], process.platform + '.json'), catalogue);
+try { fs.mkdirSync('docs'); } catch (e) {}
+fs.writeFileSync(path.join('docs', process.platform + '.json'), catalogue);
