@@ -19,3 +19,18 @@ jobs:
           git add docs/*
           git commit -m "Update catalogue"
           git push
+  macos:
+    runs-on: macos-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v3
+      - run: |
+          git config --global user.email "kazuhitoyokoi@nodered.jp"
+          git config --global user.name "Kazuhito Yokoi"
+          #curl -O https://catalogue.nodered.org/catalogue.json
+          npm install fs-extra
+          node create-catalogue.js catalogue.json docs
+          git add docs/*
+          git commit -m "Update catalogue"
+          git push
