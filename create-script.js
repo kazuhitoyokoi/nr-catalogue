@@ -17,6 +17,6 @@ for (var i = 0; i < modules.length; i++) {
         child_process.execSync('git add ' + filename);
         child_process.execSync('git commit -m "Update cache"');
         child_process.execSync('git push');
-    } catch (e) {}
+    } catch (e) { console.log(e); }
 }
 console.log(newModules);
