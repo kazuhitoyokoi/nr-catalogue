@@ -16,4 +16,6 @@ jobs:
           echo dir
           dir
           echo del /S /Q node_modules package.json package-lock.json
-          del /S /Q node_modules package.json package-lock.json
+          del /S /Q node_modules
+          echo dir
+          dir
