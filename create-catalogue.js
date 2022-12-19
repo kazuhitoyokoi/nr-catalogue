@@ -2,7 +2,8 @@ var child_process = require('child_process');
 var modules = require('./' + process.argv[2]).modules;
 var newModules = [];
 var fs = require('fs-extra');
-fs.mkdirSync('./tmp');
+fs.mkdirSync('tmp');
+fs.mkdirSync(process.platform);
 
 for (var i = 0; i < modules.length; i++) {
     var filename = './' + process.platform + '/' + modules[i].id.replaceAll('/', '_')+ '@' + modules[i].version;
@@ -29,4 +30,4 @@ console.log(JSON.stringify({
     name: "Catalogue for " + process.platform,
     updated_at: new Date(),
     modules: newModules
-}, null, 4));
+}, null, 2));
