@@ -14,7 +14,7 @@ jobs:
           git config --global user.email "kazuhitoyokoi@nodered.jp"
           git config --global user.name "Kazuhito Yokoi"
           #curl -O https://catalogue.nodered.org/catalogue.json
-          node create-script.js catalogue.json
+          node create-catalogue.js catalogue.json
           git add docs/windows.json
           git commit -m "Update catalogue"
           git push
