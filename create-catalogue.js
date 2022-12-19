@@ -1,5 +1,5 @@
 var child_process = require('child_process');
-var fs = require('fs');
+var fs = require('fs-extra')
 var modules = require('./' + process.argv[2]).modules;
 var newModules = [];
 for (var i = 0; i < modules.length; i++) {
@@ -11,12 +11,9 @@ for (var i = 0; i < modules.length; i++) {
         console.log(cmd);
         try {
             var spawn = child_process.spawnSync(cmd, { shell: true });
-            if (process.platform === 'win32') {
-                child_process.execSync('del /S /Q node_modules package.json package-lock.json');
-                child_process.execSync('rmdir /S /Q node_modules');
-            } else {
-                child_process.execSync('rm -fr node_modules package.json package-lock.json');
-            }
+            fs.removeSync('node_modules');
+            fs.removeSync('package.json');
+            fs.removeSync('package-lock.json');
             fs.writeFileSync(filename, spawn.stderr.toString() + '\n----\n' + spawn.stdout.toString());
             child_process.execSync('git add ' + filename);
             child_process.execSync('git commit -m "Update cache"');
