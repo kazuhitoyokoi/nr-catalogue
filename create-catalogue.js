@@ -1,6 +1,7 @@
 var child_process = require('child_process');
 var path = require('path');
 var fs = require('fs-extra');
+
 try { fs.mkdirSync(process.platform); } catch (e) {}
 var modules = JSON.parse(fs.readFileSync(process.argv[2])).modules;
 var newModules = [];
@@ -32,4 +33,4 @@ var catalogue = JSON.stringify({
     updated_at: new Date(),
     modules: newModules
 }, null, 2);
-fs.writeFileSync(path.join(process.argv[3], process.platform), catalogue);
+fs.writeFileSync(path.join(process.argv[3], process.platform + '.json'), catalogue);
