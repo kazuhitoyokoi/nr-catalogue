@@ -7,14 +7,14 @@ for (var i = 0; i < modules.length; i++) {
     var cmd = 'npm install ' + modules[i].id + '@' + modules[i].version;
     console.log(cmd);
     try {
-        child_process.execSync(cmd);
+        var stdout = child_process.execSync(cmd);
         newModules.push(modules[i]);
         if (process.platform === 'win32') {
             child_process.execSync('del /S /Q node_modules package.json package-lock.json');
         } else {
             child_process.execSync('rm -fr node_modules package.json package-lock.json');
         }
-        fs.writeFileSync(filename, JSON.stringify(modules[i], null, 4));
+        fs.writeFileSync(filename, stdout.toString());
         child_process.execSync('git add ' + filename);
         child_process.execSync('git commit -m "Update cache"');
         child_process.execSync('git push');
