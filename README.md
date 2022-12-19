@@ -1,4 +1,5 @@
 # Verified catalogues for Node-RED
+The follwing JSON data is verified catalogues for Node-RED. Using GitHub Actions on Windows, macOS and Ubuntu, the catalogues are tested in the these environemnt.
 
 - Windows
 
