@@ -3,7 +3,7 @@ var modules = require('./' + process.argv[2]).modules;
 var newModules = [];
 var fs = require('fs-extra');
 fs.mkdirSync('tmp');
-fs.mkdirSync(process.platform);
+try ( fs.mkdirSync(process.platform); } catch (e) {}
 
 for (var i = 0; i < modules.length; i++) {
     var filename = process.platform + '/' + modules[i].id.replaceAll('/', '_')+ '@' + modules[i].version;
