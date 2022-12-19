@@ -6,7 +6,7 @@ fs.mkdirSync('tmp');
 fs.mkdirSync(process.platform);
 
 for (var i = 0; i < modules.length; i++) {
-    var filename = './' + process.platform + '/' + modules[i].id.replaceAll('/', '_')+ '@' + modules[i].version;
+    var filename = process.platform + '/' + modules[i].id.replaceAll('/', '_')+ '@' + modules[i].version;
     if(fs.existsSync(filename)){
         newModules.push(modules[i]);
     } else {
