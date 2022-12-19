@@ -13,7 +13,7 @@ for (var i = 0; i < modules.length; i++) {
         var cmd = 'npm install ' + modules[i].id + '@' + modules[i].version;
         console.log(cmd);
         try {
-            var spawn = child_process.spawnSync(cmd, { cwd: './tmp', shell: true });
+            var spawn = child_process.spawnSync(cmd, { cwd: 'tmp', shell: true });
             fs.removeSync('./tmp/node_modules');
             fs.removeSync('./tmp/package.json');
             fs.removeSync('./tmp/package-lock.json');
