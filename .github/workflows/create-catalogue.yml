@@ -4,11 +4,8 @@ on:
   schedule:
     - cron: '0 15 * * *'
 jobs:
-  build:
-    strategy:
-      matrix:
-        os: [windows-latest, macos-latest]
-    runs-on: ${{ matrix.os }}
+  windows:
+    runs-on: windows-latest
     permissions:
       contents: write
     steps:
