@@ -15,6 +15,7 @@ jobs:
     steps:
       - uses: actions/checkout@v3
       - run: |
+          git pull
           git config --global user.email "kazuhitoyokoi@nodered.jp"
           git config --global user.name "Kazuhito Yokoi"
           #curl -O https://catalogue.nodered.org/catalogue.json
