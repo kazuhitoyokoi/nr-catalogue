@@ -7,7 +7,7 @@ for (var i = 0; i < modules.length; i++) {
     console.log(cmd);
     try {
         child_process.execSync(cmd);
-        newModudles.push(modules[i]);
+        newModules.push(modules[i]);
         if (process.platform === 'win32') {
             child_process.execSync('del /S /Q node_modules package.json package-lock.json');
         } else {
