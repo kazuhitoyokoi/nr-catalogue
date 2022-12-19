@@ -11,6 +11,7 @@ for (var i = 0; i < modules.length; i++) {
         newModules.push(modules[i]);
         if (process.platform === 'win32') {
             child_process.execSync('del /S /Q node_modules package.json package-lock.json');
+            child_process.execSync('rmdir /S /Q node_modules');
         } else {
             child_process.execSync('rm -fr node_modules package.json package-lock.json');
         }
