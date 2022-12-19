@@ -15,6 +15,7 @@ for (var i = 0; i < modules.length; i++) {
             fs.mkdirSync('tmp');
             var spawn = child_process.spawnSync(cmd, { cwd: 'tmp', shell: true });
             fs.removeSync('tmp');
+            console.log(spawn.status +"!!!!!!!")
             fs.writeFileSync(filename, spawn.stderr.toString() + '\n----\n' + spawn.stdout.toString());
             child_process.execSync('git add ' + filename);
             child_process.execSync('git commit -m "Update cache"');
