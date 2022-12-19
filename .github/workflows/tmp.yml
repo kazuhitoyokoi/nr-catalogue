@@ -15,7 +15,7 @@ jobs:
           npm install node-red-contrib-matrix-chat@0.7.0
           echo dir
           dir
-          echo del /S /Q node_modules package.json package-lock.json
-          del /S /Q node_modules
+          echo del /S node_modules package.json package-lock.json
+          del /S node_modules
           echo dir
           dir
