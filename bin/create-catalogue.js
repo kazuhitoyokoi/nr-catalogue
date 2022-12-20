@@ -2,6 +2,7 @@ var child_process = require('child_process');
 var path = require('path');
 var fs = require('fs-extra');
 
+process.platform = process.argv[3] || process.platform;
 try { fs.mkdirSync(process.platform); } catch (e) {}
 var modules = JSON.parse(fs.readFileSync(process.argv[2])).modules;
 var newModules = [];
