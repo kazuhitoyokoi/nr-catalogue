@@ -1,0 +1,31 @@
+
+----
+Sending build context to Docker daemon  8.992MB
+Step 1/2 : FROM nodered/node-red
+ ---> a15fc0f4e930
+Step 2/2 : RUN npm install npm install node-red-contrib-ui-simple-level@1.0.0
+ ---> Running in 3599ae72823b
+
+added 26 packages, and audited 551 packages in 10s
+
+47 packages are looking for funding
+  run `npm fund` for details
+
+6 vulnerabilities (5 low, 1 moderate)
+
+To address issues that do not require attention, run:
+  npm audit fix
+
+To address all issues (including breaking changes), run:
+  npm audit fix --force
+
+Run `npm audit` for details.
+[91mnpm notice 
+[0m[91mnpm notice New major version of npm available! 8.11.0 -> 9.2.0
+npm notice Changelog: <https://github.com/npm/cli/releases/tag/v9.2.0>
+npm notice Run `npm install -g npm@9.2.0` to update!
+npm notice 
+[0mRemoving intermediate container 3599ae72823b
+ ---> e6c784ba653c
+Successfully built e6c784ba653c
+Successfully tagged tmp:latest
