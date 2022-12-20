@@ -1,0 +1,31 @@
+
+----
+Sending build context to Docker daemon  11.15MB
+Step 1/2 : FROM nodered/node-red
+ ---> a15fc0f4e930
+Step 2/2 : RUN npm install npm install @daizyio/node-red-contrib-daizy@0.0.14
+ ---> Running in 3e87e3908a50
+
+added 6 packages, and audited 531 packages in 5s
+
+47 packages are looking for funding
+  run `npm fund` for details
+
+6 vulnerabilities (5 low, 1 moderate)
+
+To address issues that do not require attention, run:
+  npm audit fix
+
+To address all issues (including breaking changes), run:
+  npm audit fix --force
+
+Run `npm audit` for details.
+[91mnpm notice[0m[91m 
+npm notice[0m[91m New major version of npm available! 8.11.0 -> 9.2.0
+npm notice Changelog: <https://github.com/npm/cli/releases/tag/v9.2.0>
+npm[0m[91m notice Run `npm install -g npm@9.2.0` to update!
+npm notice 
+[0mRemoving intermediate container 3e87e3908a50
+ ---> 8ccce1a04118
+Successfully built 8ccce1a04118
+Successfully tagged tmp:latest
