@@ -1,0 +1,31 @@
+
+----
+Sending build context to Docker daemon   19.2MB
+Step 1/2 : FROM nodered/node-red
+ ---> a15fc0f4e930
+Step 2/2 : RUN npm install npm install node-red-contrib-deepstack@0.3.0
+ ---> Running in 6c8dd21a5e6b
+
+added 29 packages, and audited 554 packages in 8s
+
+50 packages are looking for funding
+  run `npm fund` for details
+
+8 vulnerabilities (5 low, 3 moderate)
+
+To address issues that do not require attention, run:
+  npm audit fix
+
+To address all issues (including breaking changes), run:
+  npm audit fix --force
+
+Run `npm audit` for details.
+[91mnpm [0m[91mnotice 
+[0m[91mnpm[0m[91m [0m[91mnotice[0m[91m New major version of npm available! 8.11.0 -> 9.2.0
+[0m[91mnpm[0m[91m [0m[91mnotice[0m[91m Changelog: <https://github.com/npm/cli/releases/tag/v9.2.0>
+[0m[91mnpm[0m[91m [0m[91mnotice[0m[91m Run `npm install -g npm@9.2.0` to update!
+[0m[91mnpm notice[0m[91m 
+[0mRemoving intermediate container 6c8dd21a5e6b
+ ---> c9e41f15bdb8
+Successfully built c9e41f15bdb8
+Successfully tagged tmp:latest
