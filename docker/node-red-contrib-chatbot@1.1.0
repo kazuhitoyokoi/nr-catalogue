@@ -1,0 +1,69 @@
+
+----
+Sending build context to Docker daemon  5.988MB
+Step 1/2 : FROM nodered/node-red
+ ---> a15fc0f4e930
+Step 2/2 : RUN npm install npm install node-red-contrib-chatbot@1.1.0
+ ---> Running in 29fdb57ba36a
+[91mnpm WARN ERESOLVE overriding peer dependency
+[0m[91mnpm WARN deprecated formidable@1.0.17: Please upgrade to latest, formidable@v2 or formidable@v3! Check these notes: https://bit.ly/2ZEqIau
+[0m[91mnpm WARN deprecated source-map-url@0.4.1: See https://github.com/lydell/source-map-url#deprecated
+[0m[91mnpm WARN deprecated urix@0.1.0: Please see https://github.com/lydell/urix#deprecated
+[0m[91mnpm WARN deprecated resolve-url@0.2.1: https://github.com/lydell/resolve-url#deprecated
+[0m[91mnpm WARN deprecated source-map-resolve@0.5.3: See https://github.com/lydell/source-map-resolve#deprecated
+[0m[91mnpm WARN deprecated querystring@0.2.0: The querystring API is considered Legacy. new code should use the URLSearchParams API instead.
+[0m[91mnpm WARN deprecated @npmcli/move-file@1.1.2: This functionality has been moved to @npmcli/fs
+[0m[91mnpm[0m[91m [0m[91mWARN[0m[91m [0m[91mdeprecated[0m[91m har-validator@5.1.5: this library is no longer supported
+[0m[91mnpm WARN [0m[91mdeprecated request-promise@4.2.6: request-promise has been deprecated because it extends the now deprecated request package, see https://github.com/request/request/issues/3142
+[0m[91mnpm[0m[91m [0m[91mWARN[0m[91m [0m[91mdeprecated[0m[91m apollo-tracing@0.16.0: The `apollo-tracing` package is no longer part of Apollo Server 3. See https://www.apollographql.com/docs/apollo-server/migration/#tracing for details
+[0m[91mnpm[0m[91m [0m[91mWARN[0m[91m [0m[91mdeprecated[0m[91m apollo-server-plugin-base@0.14.0: The `apollo-server-plugin-base` package is part of Apollo Server v2 and v3, which are now deprecated (end-of-life October 22nd 2023). This package's functionality is now found in the `@apollo/server` package. See https://www.apollographql.com/docs/apollo-server/previous-versions/ for more details.
+[0m[91mnpm[0m[91m [0m[91mWARN[0m[91m [0m[91mdeprecated[0m[91m apollo-datasource@0.10.0: The `apollo-datasource` package is part of Apollo Server v2 and v3, which are now deprecated (end-of-life October 22nd 2023). See https://www.apollographql.com/docs/apollo-server/previous-versions/ for more details.
+[0m[91mnpm[0m[91m [0m[91mWARN[0m[91m [0m[91mdeprecated[0m[91m graphql-extensions@0.16.0: The `graphql-extensions` API has been removed from Apollo Server 3. Use the plugin API instead: https://www.apollographql.com/docs/apollo-server/integrations/plugins/
+[0m[91mnpm[0m[91m [0m[91mWARN[0m[91m [0m[91mdeprecated[0m[91m apollo-server-types@0.10.0: The `apollo-server-types` package is part of Apollo Server v2 and v3, which are now deprecated (end-of-life October 22nd 2023). This package's functionality is now found in the `@apollo/server` package. See https://www.apollographql.com/docs/apollo-server/previous-versions/ for more details.
+[0m[91mnpm[0m[91m [0m[91mWARN[0m[91m [0m[91mdeprecated[0m[91m apollo-server-errors@2.5.0: The `apollo-server-errors` package is part of Apollo Server v2 and v3, which are now deprecated (end-of-life October 22nd 2023). This package's functionality is now found in the `@apollo/server` package. See https://www.apollographql.com/docs/apollo-server/previous-versions/ for more details.
+[0m[91mnpm WARN deprecated apollo-cache-control@0.15.0: The functionality provided by the `apollo-cache-control` package is built in to `apollo-server-core` starting with Apollo Server 3. See https://www.apollographql.com/docs/apollo-server/migration/#cachecontrol for details.
+[0m[91mnpm WARN[0m[91m [0m[91mdeprecated[0m[91m connect@1.9.2: connect 1.x series is deprecated
+[0m[91mnpm[0m[91m [0m[91mWARN[0m[91m [0m[91mdeprecated[0m[91m apollo-server-caching@0.7.0: This package is part of the legacy caching implementation used by Apollo Server v2 and v3, and is no longer maintained. We recommend you switch to the newer Keyv-based implementation (which is compatible with all versions of Apollo Server). See https://www.apollographql.com/docs/apollo-server/v3/performance/cache-backends#legacy-caching-implementation for more details.
+[0m[91mnpm[0m[91m [0m[91mWARN[0m[91m [0m[91mdeprecated[0m[91m chokidar@2.1.8: Chokidar 2 does not receive security updates since 2019. Upgrade to chokidar 3 with 15x fewer dependencies
+[0m[91mnpm[0m[91m [0m[91mWARN[0m[91m [0m[91mdeprecated[0m[91m apollo-reporting-protobuf@0.8.0: The `apollo-reporting-protobuf` package is part of Apollo Server v2 and v3, which are now deprecated (end-of-life October 22nd 2023). This package's functionality is now found in the `@apollo/usage-reporting-protobuf` package. See https://www.apollographql.com/docs/apollo-server/previous-versions/ for more details.
+[0m[91mnpm WARN deprecated apollo-server-env@3.2.0: The `apollo-server-env` package is part of Apollo Server v2 and v3, which are now deprecated (end-of-life October 22nd 2023). This package's functionality is now found in the `@apollo/utils.fetcher` package. See https://www.apollographql.com/docs/apollo-server/previous-versions/ for more details.
+[0m[91mnpm WARN deprecated request@2.88.2: request has been deprecated, see https://github.com/request/request/issues/3142
+[0m[91mnpm WARN deprecated apollo-server-express@2.26.1: The `apollo-server-express` package is part of Apollo Server v2 and v3, which are now deprecated (end-of-life October 22nd 2023). This package's functionality is now found in the `@apollo/server` package. See https://www.apollographql.com/docs/apollo-server/previous-versions/ for more details.
+[0m[91mnpm[0m[91m [0m[91mWARN[0m[91m [0m[91mdeprecated[0m[91m bson@1.0.9: Fixed a critical issue with BSON serialization documented in CVE-2019-2391, see https://bit.ly/2KcpXdo for more details
+[0m[91mnpm[0m[91m [0m[91mWARN[0m[91m [0m[91mdeprecated[0m[91m uuid@3.4.0: Please upgrade  to version 7 or higher.  Older versions may use Math.random() in certain circumstances, which is known to be problematic.  See https://v8.dev/blog/math-random for details.
+[0m[91mnpm[0m[91m [0m[91mWARN[0m[91m [0m[91mdeprecated[0m[91m uuid@3.4.0: Please upgrade  to version 7 or higher.  Older versions may use Math.random() in certain circumstances, which is known to be problematic.  See https://v8.dev/blog/math-random for details.
+[0m[91mnpm[0m[91m [0m[91mWARN[0m[91m [0m[91mdeprecated[0m[91m uuid@3.4.0: Please upgrade  to version 7 or higher.  Older versions may use Math.random() in certain circumstances, which is known to be problematic.  See https://v8.dev/blog/math-random for details.
+[0m[91mnpm[0m[91m [0m[91mWARN[0m[91m [0m[91mdeprecated[0m[91m mkdirp@0.3.0: Legacy versions of mkdirp are no longer supported. Please update to mkdirp 1.x. (Note that the API surface has changed to use Promises in 1.x.)
+[0m[91mnpm[0m[91m [0m[91mWARN[0m[91m [0m[91mdeprecated[0m[91m subscriptions-transport-ws@0.9.19: The `subscriptions-transport-ws` package is no longer maintained. We recommend you use `graphql-ws` instead. For help migrating Apollo software to `graphql-ws`, see https://www.apollographql.com/docs/apollo-server/data/subscriptions/#switching-from-subscriptions-transport-ws    For general help using `graphql-ws`, see https://github.com/enisdenjo/graphql-ws/blob/master/README.md
+[0m[91mnpm[0m[91m [0m[91mWARN[0m[91m [0m[91mdeprecated[0m[91m uuid@3.4.0: Please upgrade  to version 7 or higher.  Older versions may use Math.random() in certain circumstances, which is known to be problematic.  See https://v8.dev/blog/math-random for details.
+[0m[91mnpm[0m[91m [0m[91mWARN[0m[91m [0m[91mdeprecated[0m[91m express@2.5.11: express 2.x series is deprecated
+[0m[91mnpm[0m[91m [0m[91mWARN[0m[91m [0m[91mdeprecated[0m[91m graphql-tools@4.0.8: This package has been deprecated and now it only exports makeExecutableSchema.\nAnd it will no longer receive updates.\nWe recommend you to migrate to scoped packages such as @graphql-tools/schema, @graphql-tools/utils and etc.\nCheck out https://www.graphql-tools.com to learn what package you should use instead
+[0m[91mnpm[0m[91m [0m[91mWARN[0m[91m [0m[91mdeprecated[0m[91m sequelize@5.22.5: Please update to v6 or higher! A migration guide can be found here: https://sequelize.org/v6/manual/upgrade-to-v6.html
+[0m[91mnpm[0m[91m [0m[91mWARN[0m[91m [0m[91mdeprecated[0m[91m apollo-server-core@2.26.1: The `apollo-server-core` package is part of Apollo Server v2 and v3, which are now deprecated (end-of-life October 22nd 2023). This package's functionality is now found in the `@apollo/server` package. See https://www.apollographql.com/docs/apollo-server/previous-versions/ for more details.
+[0m[91mnpm WARN deprecated core-js@2.6.12: core-js@<3.23.3 is no longer maintained and not recommended for usage due to the number of issues. Because of the V8 engine whims, feature detection in old core-js versions could cause a slowdown up to 100x even if nothing is polyfilled. Some versions have web compatibility issues. Please, upgrade your dependencies to the actual version of core-js.
+[0m[91mnpm WARN deprecated core-js@2.6.12: core-js@<3.23.3 is no longer maintained and not recommended for usage due to the number of issues. Because of the V8 engine whims, feature detection in old core-js versions could cause a slowdown up to 100x even if nothing is polyfilled. Some versions have web compatibility issues. Please, upgrade your dependencies to the actual version of core-js.
+[0m[91mnpm WARN deprecated core-js@2.6.12: core-js@<3.23.3 is no longer maintained and not recommended for usage due to the number of issues. Because of the V8 engine whims, feature detection in old core-js versions could cause a slowdown up to 100x even if nothing is polyfilled. Some versions have web compatibility issues. Please, upgrade your dependencies to the actual version of core-js.
+[0m
+added 1242 packages, changed 2 packages, and audited 1767 packages in 1m
+
+132 packages are looking for funding
+  run `npm fund` for details
+
+40 vulnerabilities (6 low, 10 moderate, 22 high, 2 critical)
+
+To address issues that do not require attention, run:
+  npm audit fix
+
+To address all issues (including breaking changes), run:
+  npm audit fix --force
+
+Run `npm audit` for details.
+[91mnpm[0m[91m [0m[91mnotice[0m[91m 
+[0m[91mnpm[0m[91m [0m[91mnotice[0m[91m New major version of npm available! 8.11.0 -> 9.2.0
+[0m[91mnpm[0m[91m [0m[91mnotice[0m[91m Changelog: <https://github.com/npm/cli/releases/tag/v9.2.0>
+[0m[91mnpm[0m[91m [0m[91mnotice[0m[91m Run `npm install -g npm@9.2.0` to update!
+[0m[91mnpm[0m[91m [0m[91mnotice[0m[91m 
+[0mRemoving intermediate container 29fdb57ba36a
+ ---> a4420d289eba
+Successfully built a4420d289eba
+Successfully tagged tmp:latest
