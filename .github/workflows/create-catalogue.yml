@@ -4,7 +4,23 @@ on:
   schedule:
     - cron: '0 7,15,23 * * *'
 jobs:
-  build:
+  docker:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v3
+      - run: |
+          git pull
+          git config --global user.email "kazuhitoyokoi@nodered.jp"
+          git config --global user.name "Kazuhito Yokoi"
+          curl -O https://catalogue.nodered.org/catalogue.json
+          npm install --prefix bin fs-extra
+          node bin/create-catalogue.js catalogue.json docker
+          git add docs/*
+          git commit -m "Update catalogue"
+          git push
+  os:
     strategy:
       max-parallel: 1
       matrix:
