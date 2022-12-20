@@ -17,7 +17,7 @@ for (var i = 0; i < modules.length; i++) {
         try {
             var spawn;
             if (platform === 'docker') {
-                fs.writeSync('Dockerfile', 'FROM nodered/node-red\nRUN npm install ' + cmd);
+                fs.writeFileSync('Dockerfile', 'FROM nodered/node-red\nRUN npm install ' + cmd);
                 spawn = child_process.spawnSync('docker build -t tmp .', { shell: true });
                 child_process.spawnSync('docker rmi tmp', { shell: true });
             } else {
