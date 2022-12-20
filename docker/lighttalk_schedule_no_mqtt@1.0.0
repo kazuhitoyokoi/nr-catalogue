@@ -1,0 +1,31 @@
+
+----
+Sending build context to Docker daemon  2.365MB
+Step 1/2 : FROM nodered/node-red
+ ---> a15fc0f4e930
+Step 2/2 : RUN npm install npm install lighttalk_schedule_no_mqtt@1.0.0
+ ---> Running in 6ef67d4601fb
+
+added 3 packages, and audited 528 packages in 5s
+
+47 packages are looking for funding
+  run `npm fund` for details
+
+6 vulnerabilities (5 low, 1 moderate)
+
+To address issues that do not require attention, run:
+  npm audit fix
+
+To address all issues (including breaking changes), run:
+  npm audit fix --force
+
+Run `npm audit` for details.
+[91mnpm [0m[91mnotice[0m[91m 
+npm notice New major version of npm available! 8.11.0 -> 9.2.0
+npm notice[0m[91m Changelog: <https://github.com/npm/cli/releases/tag/v9.2.0>
+npm notice Run `npm install -g npm@9.2.0` to update!
+npm[0m[91m [0m[91mnotice 
+[0mRemoving intermediate container 6ef67d4601fb
+ ---> b65052b820cb
+Successfully built b65052b820cb
+Successfully tagged tmp:latest
