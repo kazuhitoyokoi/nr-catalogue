@@ -1,0 +1,43 @@
+
+----
+Sending build context to Docker daemon  7.382MB
+Step 1/2 : FROM nodered/node-red
+ ---> a15fc0f4e930
+Step 2/2 : RUN npm install npm install node-red-contrib-snap4city-d3-dashboard-widgets@0.0.13
+ ---> Running in 80f4e5390c67
+[91mnpm WARN [0m[91mdeprecated har-validator@5.1.5: this library is no longer supported
+[0m[91mnpm WARN deprecated[0m[91m date-format@3.0.0: 3.x is no longer supported. Please upgrade to 4.x or higher.
+[0m[91mnpm WARN deprecated[0m[91m httpclient@0.1.0: Use standard fetch API instead
+[0m[91mnpm[0m[91m [0m[91mWARN[0m[91m [0m[91mdeprecated[0m[91m date-format@2.1.0: 2.x is no longer supported. Please upgrade to 4.x or higher.
+[0m[91mnpm[0m[91m [0m[91mWARN[0m[91m [0m[91mdeprecated[0m[91m node-uuid@1.4.8: Use uuid module instead
+[0m[91mnpm[0m[91m [0m[91mWARN[0m[91m [0m[91mdeprecated[0m[91m uuid@3.4.0: Please upgrade  to version 7 or higher.  Older versions may use Math.random() in certain circumstances, which is known to be problematic.  See https://v8.dev/blog/math-random for details.
+[0m[91mnpm[0m[91m [0m[91mWARN[0m[91m [0m[91mdeprecated[0m[91m streamroller@2.2.4: 2.x is no longer supported. Please upgrade to 3.x or higher.
+[0m[91mnpm[0m[91m [0m[91mWARN[0m[91m [0m[91mdeprecated[0m[91m request@2.88.2: request has been deprecated, see https://github.com/request/request/issues/3142
+[0m[91mnpm[0m[91m [0m[91mWARN[0m[91m [0m[91mdeprecated[0m[91m google-protobuf@4.0.0-rc.2: 4.0.0 RC releases have been superseded by 3.13.0 release
+[0m
+added 186 packages, changed 1 package, and audited 711 packages in 13s
+
+63 packages are looking for funding
+  run `npm fund` for details
+
+11 vulnerabilities (5 low, 5 moderate, 1 critical)
+
+To address issues that do not require attention, run:
+  npm audit fix
+
+To address all issues possible (including breaking changes), run:
+  npm audit fix --force
+
+Some issues need review, and may require choosing
+a different dependency.
+
+Run `npm audit` for details.
+[91mnpm notice[0m[91m 
+npm notice New major version of npm available! 8.11.0 -> 9.2.0
+npm notice Changelog: <https://github.com/npm/cli/releases/tag/v9.2.0>
+npm notice Run `npm install -g npm@9.2.0` to update!
+npm notice 
+[0mRemoving intermediate container 80f4e5390c67
+ ---> 642bfe17ef62
+Successfully built 642bfe17ef62
+Successfully tagged tmp:latest
