@@ -1,0 +1,34 @@
+
+----
+Sending build context to Docker daemon  27.23MB
+Step 1/2 : FROM nodered/node-red
+ ---> a15fc0f4e930
+Step 2/2 : RUN npm install npm install node-red-contrib-fronius-solar@1.0.3
+ ---> Running in a7edcebdadf4
+[91mnpm WARN skipping integrity check for git dependency ssh://git@github.com/mwittig/node-http-digest-client.git[0m[91m 
+[0m[91mnpm[0m[91m WARN deprecated cross-spawn-async@2.2.5: cross-spawn no longer requires a build toolchain, use it instead
+[0m[91mnpm [0m[91mWARN [0m[91mdeprecated[0m[91m core-js@2.6.12: core-js@<3.23.3 is no longer maintained and not recommended for usage due to the number of issues. Because of the V8 engine whims, feature detection in old core-js versions could cause a slowdown up to 100x even if nothing is polyfilled. Some versions have web compatibility issues. Please, upgrade your dependencies to the actual version of core-js.
+[0m
+added 365 packages, and audited 890 packages in 20s
+
+71 packages are looking for funding
+  run `npm fund` for details
+
+14 vulnerabilities (5 low, 6 moderate, 3 high)
+
+To address issues that do not require attention, run:
+  npm audit fix
+
+To address all issues (including breaking changes), run:
+  npm audit fix --force
+
+Run `npm audit` for details.
+[91mnpm [0m[91mnotice[0m[91m 
+[0m[91mnpm[0m[91m [0m[91mnotice[0m[91m New major version of npm available! 8.11.0 -> 9.2.0
+[0m[91mnpm[0m[91m [0m[91mnotice[0m[91m Changelog: <https://github.com/npm/cli/releases/tag/v9.2.0>
+[0m[91mnpm[0m[91m [0m[91mnotice[0m[91m Run `npm install -g npm@9.2.0` to update!
+[0m[91mnpm[0m[91m [0m[91mnotice[0m[91m 
+[0mRemoving intermediate container a7edcebdadf4
+ ---> b5661648063a
+Successfully built b5661648063a
+Successfully tagged tmp:latest
