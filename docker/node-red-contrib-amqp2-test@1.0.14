@@ -1,0 +1,36 @@
+
+----
+Sending build context to Docker daemon   7.92MB
+Step 1/2 : FROM nodered/node-red
+ ---> a15fc0f4e930
+Step 2/2 : RUN npm install npm install node-red-contrib-amqp2-test@1.0.14
+ ---> Running in 6d769b24c382
+[91mnpm[0m[91m WARN EBADENGINE Unsupported engine {
+npm WARN EBADENGINE   package: 'amqplib@0.4.2',
+npm WARN EBADENGINE   required: { node: '>=0.8 <6 || ^6' },
+npm WARN EBADENGINE   current: { node: 'v16.16.0', npm: '8.11.0' }
+npm WARN EBADENGINE }
+[0m
+added 20 packages, and audited 545 packages in 6s
+
+47 packages are looking for funding
+  run `npm fund` for details
+
+6 vulnerabilities (5 low, 1 moderate)
+
+To address issues that do not require attention, run:
+  npm audit fix
+
+To address all issues (including breaking changes), run:
+  npm audit fix --force
+
+Run `npm audit` for details.
+[91mnpm[0m[91m [0m[91mnotice[0m[91m 
+[0m[91mnpm[0m[91m [0m[91mnotice[0m[91m New major version of npm available! 8.11.0 -> 9.2.0
+[0m[91mnpm[0m[91m [0m[91mnotice[0m[91m Changelog: <https://github.com/npm/cli/releases/tag/v9.2.0>
+[0m[91mnpm[0m[91m [0m[91mnotice[0m[91m Run `npm install -g npm@9.2.0` to update!
+[0m[91mnpm[0m[91m [0m[91mnotice[0m[91m 
+[0mRemoving intermediate container 6d769b24c382
+ ---> 879fa3bb31ef
+Successfully built 879fa3bb31ef
+Successfully tagged tmp:latest
