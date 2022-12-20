@@ -15,9 +15,16 @@ for (var i = 0; i < modules.length; i++) {
         var cmd = 'npm install ' + modules[i].id + '@' + modules[i].version;
         console.log(cmd);
         try {
-            fs.mkdirSync('tmp');
-            var spawn = child_process.spawnSync(cmd, { cwd: 'tmp', shell: true });
-            fs.removeSync('tmp');
+            var spawn;
+            if (platform === 'docker') {
+                fs.writeSync('Dockerfile', 'FROM nodered/node-red\nRUN npm install ' + cmd);
+                spawn = child_process.spawnSync('docker build -t tmp .', { shell: true });
+                child_process.spawnSync('docker rmi tmp', { shell: true });
+            } else {
+                fs.mkdirSync('tmp');
+                spawn = child_process.spawnSync(cmd, { cwd: 'tmp', shell: true });
+                fs.removeSync('tmp');
+            }
             if (spawn.status == 0) {
                 fs.writeFileSync(filename, spawn.stderr.toString() + '\n----\n' + spawn.stdout.toString());
                 child_process.execSync('git add ' + filename);
