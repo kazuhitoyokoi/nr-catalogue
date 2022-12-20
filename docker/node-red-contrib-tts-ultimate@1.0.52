@@ -1,0 +1,34 @@
+
+----
+Sending build context to Docker daemon  3.698MB
+Step 1/2 : FROM nodered/node-red
+ ---> a15fc0f4e930
+Step 2/2 : RUN npm install npm install node-red-contrib-tts-ultimate@1.0.52
+ ---> Running in 1b35ae932fd0
+[91mnpm[0m[91m [0m[91mWARN deprecated querystring@0.2.0: The querystring API is considered Legacy. new code should use the URLSearchParams API instead.
+[0m[91mnpm WARN deprecated formidable@1.2.2: Please upgrade to latest, formidable@v2 or formidable@v3! Check these notes: https://bit.ly/2ZEqIau
+[0m[91mnpm[0m[91m [0m[91mWARN[0m[91m [0m[91mdeprecated[0m[91m uuid@3.3.2: Please upgrade  to version 7 or higher.  Older versions may use Math.random() in certain circumstances, which is known to be problematic.  See https://v8.dev/blog/math-random for details.
+[0m
+added 123 packages, changed 1 package, and audited 648 packages in 45s
+
+63 packages are looking for funding
+  run `npm fund` for details
+
+6 vulnerabilities (5 low, 1 moderate)
+
+To address issues that do not require attention, run:
+  npm audit fix
+
+To address all issues (including breaking changes), run:
+  npm audit fix --force
+
+Run `npm audit` for details.
+[91mnpm notice 
+npm notice New major version of npm available! 8.11.0 -> 9.2.0
+npm[0m[91m notice Changelog: <https://github.com/npm/cli/releases/tag/v9.2.0>
+npm notice Run `npm install -g npm@9.2.0` to update!
+npm notice 
+[0mRemoving intermediate container 1b35ae932fd0
+ ---> 8e661cbc03c9
+Successfully built 8e661cbc03c9
+Successfully tagged tmp:latest
