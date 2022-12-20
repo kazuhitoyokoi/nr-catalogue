@@ -2,13 +2,13 @@ var child_process = require('child_process');
 var path = require('path');
 var fs = require('fs-extra');
 
-process.platform = process.argv[3] || process.platform;
-try { fs.mkdirSync(process.platform); } catch (e) {}
+var platform = process.argv[3] || process.platform;
+try { fs.mkdirSync(platform); } catch (e) {}
 var modules = JSON.parse(fs.readFileSync(process.argv[2])).modules;
 var newModules = [];
 
 for (var i = 0; i < modules.length; i++) {
-    var filename = path.join(process.platform, modules[i].id.replaceAll('/', '_')+ '@' + modules[i].version);
+    var filename = path.join(platform, modules[i].id.replaceAll('/', '_')+ '@' + modules[i].version);
     if(fs.existsSync(filename)){
         newModules.push(modules[i]);
     } else {
@@ -30,7 +30,7 @@ for (var i = 0; i < modules.length; i++) {
 }
 
 var catalogue = JSON.stringify({
-    name: "Catalogue for " + process.platform,
+    name: "Catalogue for " + platform,
     updated_at: new Date(),
     modules: newModules
 }, null, 2);
