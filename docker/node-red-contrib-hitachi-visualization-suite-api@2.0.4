@@ -1,0 +1,37 @@
+
+----
+Sending build context to Docker daemon  7.854MB
+Step 1/2 : FROM nodered/node-red
+ ---> a15fc0f4e930
+Step 2/2 : RUN npm install npm install node-red-contrib-hitachi-visualization-suite-api@2.0.4
+ ---> Running in 0189a118f475
+[91mnpm WARN deprecated har-validator@5.1.5: this library is no longer supported
+[0m[91mnpm WARN deprecated uuid@3.4.0: Please upgrade  to version 7 or higher.  Older versions may use Math.random() in certain circumstances, which is known to be problematic.  See https://v8.dev/blog/math-random for details.
+[0m[91mnpm WARN deprecated request@2.88.2: request has been deprecated, see https://github.com/request/request/issues/3142
+[0m
+added 45 packages, and audited 570 packages in 7s
+
+53 packages are looking for funding
+  run `npm fund` for details
+
+8 vulnerabilities (5 low, 1 moderate, 2 high)
+
+To address issues that do not require attention, run:
+  npm audit fix
+
+To address all issues possible (including breaking changes), run:
+  npm audit fix --force
+
+Some issues need review, and may require choosing
+a different dependency.
+
+Run `npm audit` for details.
+[91mnpm notice 
+[0m[91mnpm notice New major version of npm available! 8.11.0 -> 9.2.0
+npm notice Changelog: <https://github.com/npm/cli/releases/tag/v9.2.0>
+npm notice Run `npm install -g npm@9.2.0` to update!
+npm notice 
+[0mRemoving intermediate container 0189a118f475
+ ---> 5f92e958e2f1
+Successfully built 5f92e958e2f1
+Successfully tagged tmp:latest
