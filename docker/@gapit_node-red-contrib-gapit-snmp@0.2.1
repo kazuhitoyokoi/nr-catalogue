@@ -1,0 +1,31 @@
+
+----
+Sending build context to Docker daemon  8.642MB
+Step 1/2 : FROM nodered/node-red
+ ---> a15fc0f4e930
+Step 2/2 : RUN npm install npm install @gapit/node-red-contrib-gapit-snmp@0.2.1
+ ---> Running in 3e70d3eceb03
+
+added 7 packages, and audited 532 packages in 6s
+
+47 packages are looking for funding
+  run `npm fund` for details
+
+6 vulnerabilities (5 low, 1 moderate)
+
+To address issues that do not require attention, run:
+  npm audit fix
+
+To address all issues (including breaking changes), run:
+  npm audit fix --force
+
+Run `npm audit` for details.
+[91mnpm[0m[91m notice 
+npm notice[0m[91m New major version of npm available! 8.11.0 -> 9.2.0
+[0m[91mnpm notice[0m[91m Changelog: <https://github.com/npm/cli/releases/tag/v9.2.0>
+npm [0m[91mnotice Run `npm install -g npm@9.2.0` to update!
+[0m[91mnpm notice 
+[0mRemoving intermediate container 3e70d3eceb03
+ ---> 155b4f642871
+Successfully built 155b4f642871
+Successfully tagged tmp:latest
