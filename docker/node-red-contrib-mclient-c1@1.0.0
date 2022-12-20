@@ -1,0 +1,36 @@
+
+----
+Sending build context to Docker daemon  7.788MB
+Step 1/2 : FROM nodered/node-red
+ ---> a15fc0f4e930
+Step 2/2 : RUN npm install npm install node-red-contrib-mclient-c1@1.0.0
+ ---> Running in ef7cf1077812
+[91mnpm[0m[91m WARN EBADENGINE Unsupported engine {
+npm WARN [0m[91mEBADENGINE   package: 'amqplib@0.5.6',
+npm WARN EBADENGINE   required: { node: '>=0.8 <=12' },
+npm WARN EBADENGINE   current: { node: 'v16.16.0', npm: '8.11.0' }
+[0m[91mnpm WARN EBADENGINE }
+[0m
+added 13 packages, and audited 538 packages in 6s
+
+47 packages are looking for funding
+  run `npm fund` for details
+
+8 vulnerabilities (5 low, 2 moderate, 1 critical)
+
+To address issues that do not require attention, run:
+  npm audit fix
+
+To address all issues (including breaking changes), run:
+  npm audit fix --force
+
+Run `npm audit` for details.
+[91mnpm[0m[91m notice 
+npm notice New major version of npm available! 8.11.0 -> 9.2.0
+npm notice Changelog: <https://github.com/npm/cli/releases/tag/v9.2.0>
+npm notice Run `npm install -g npm@9.2.0` to update!
+npm notice 
+[0mRemoving intermediate container ef7cf1077812
+ ---> 3041776c71bf
+Successfully built 3041776c71bf
+Successfully tagged tmp:latest
