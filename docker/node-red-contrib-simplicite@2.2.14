@@ -1,0 +1,32 @@
+
+----
+Sending build context to Docker daemon  30.26MB
+Step 1/2 : FROM nodered/node-red
+ ---> a15fc0f4e930
+Step 2/2 : RUN npm install npm install node-red-contrib-simplicite@2.2.14
+ ---> Running in 7b3e5092062d
+[91mnpm[0m[91m WARN deprecated node-red-contrib-simplicite@2.2.14: Deprecated
+[0m
+added 9 packages, and audited 534 packages in 6s
+
+47 packages are looking for funding
+  run `npm fund` for details
+
+6 vulnerabilities (5 low, 1 moderate)
+
+To address issues that do not require attention, run:
+  npm audit fix
+
+To address all issues (including breaking changes), run:
+  npm audit fix --force
+
+Run `npm audit` for details.
+[91mnpm notice[0m[91m 
+npm notice New major version of npm available! 8.11.0 -> 9.2.0
+[0m[91mnpm notice Changelog: <https://github.com/npm/cli/releases/tag/v9.2.0>
+npm notice Run `npm install -g npm@9.2.0` to update!
+npm notice 
+[0mRemoving intermediate container 7b3e5092062d
+ ---> b5616ca7f193
+Successfully built b5616ca7f193
+Successfully tagged tmp:latest
