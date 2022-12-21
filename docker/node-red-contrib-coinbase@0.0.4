@@ -1,0 +1,44 @@
+
+----
+Sending build context to Docker daemon   29.9MB
+Step 1/2 : FROM nodered/node-red
+ ---> a15fc0f4e930
+Step 2/2 : RUN npm install npm install node-red-contrib-coinbase@0.0.4
+ ---> Running in c58d804d4cdb
+[91mnpm[0m[91m WARN deprecated hoek@4.2.1: This version has been deprecated in accordance with the hapi support policy (hapi.im/support). Please upgrade to the latest version to get the best features, bug fixes, and security patches. If you are unable to upgrade at this time, paid support is available for older versions (hapi.im/commercial).
+[0m[91mnpm [0m[91mWARN deprecated sntp@2.1.0: This module moved to @hapi/sntp. Please make sure to switch over as this distribution is no longer supported and may contain bugs and critical security issues.
+[0m[91mnpm WARN deprecated[0m[91m boom@4.3.1: This version has been deprecated in accordance with the hapi support policy (hapi.im/support). Please upgrade to the latest version to get the best features, bug fixes, and security patches. If you are unable to upgrade at this time, paid support is available for older versions (hapi.im/commercial).
+[0m[91mnpm WARN deprecated[0m[91m cryptiles@3.1.4: This version has been deprecated in accordance with the hapi support policy (hapi.im/support). Please upgrade to the latest version to get the best features, bug fixes, and security patches. If you are unable to upgrade at this time, paid support is available for older versions (hapi.im/commercial).
+[0m[91mnpm[0m[91m [0m[91mWARN[0m[91m [0m[91mdeprecated[0m[91m har-validator@5.0.3: this library is no longer supported
+[0m[91mnpm[0m[91m [0m[91mWARN[0m[91m [0m[91mdeprecated[0m[91m boom@5.2.0: This version has been deprecated in accordance with the hapi support policy (hapi.im/support). Please upgrade to the latest version to get the best features, bug fixes, and security patches. If you are unable to upgrade at this time, paid support is available for older versions (hapi.im/commercial).
+[0m[91mnpm[0m[91m WARN deprecated hawk@6.0.2: This module moved to @hapi/hawk. Please make sure to switch over as this distribution is no longer supported and may contain bugs and critical security issues.
+[0m[91mnpm WARN[0m[91m deprecated uuid@3.4.0: Please upgrade  to version 7 or higher.  Older versions may use Math.random() in certain circumstances, which is known to be problematic.  See https://v8.dev/blog/math-random for details.
+[0m[91mnpm[0m[91m [0m[91mWARN[0m[91m [0m[91mdeprecated[0m[91m request@2.85.0: request has been deprecated, see https://github.com/request/request/issues/3142
+[0m[91mnpm WARN [0m[91mdeprecated coinbase@2.0.8: This package has been deprecated. Refer to the latest Coinbase API docs for support: https://docs.cloud.coinbase.com/sign-in-with-coinbase/docs
+[0m
+added 55 packages, and audited 580 packages in 5s
+
+47 packages are looking for funding
+  run `npm fund` for details
+
+14 vulnerabilities (5 low, 4 moderate, 2 high, 3 critical)
+
+To address issues that do not require attention, run:
+  npm audit fix
+
+To address all issues possible (including breaking changes), run:
+  npm audit fix --force
+
+Some issues need review, and may require choosing
+a different dependency.
+
+Run `npm audit` for details.
+[91mnpm notice[0m[91m 
+npm notice New major version of npm available! 8.11.0 -> 9.2.0
+npm notice Changelog: <https://github.com/npm/cli/releases/tag/v9.2.0>
+npm notice[0m[91m Run `npm install -g npm@9.2.0` to update!
+npm notice 
+[0mRemoving intermediate container c58d804d4cdb
+ ---> 4cd3608022e9
+Successfully built 4cd3608022e9
+Successfully tagged tmp:latest
