@@ -1,0 +1,37 @@
+
+----
+Sending build context to Docker daemon   37.9MB
+Step 1/2 : FROM nodered/node-red
+ ---> a15fc0f4e930
+Step 2/2 : RUN npm install npm install @makeproaudio/node-red-contrib-makehaus@0.0.5
+ ---> Running in e0079bca2f3c
+[91mnpm WARN deprecated @types/socket.io-parser@3.0.0: This is a stub types definition. socket.io-parser provides its own type definitions, so you do not need this installed.
+[0m[91mnpm WARN deprecated debug@4.1.1: Debug versions >=3.2.0 <3.2.7 || >=4 <4.3.1 have a low-severity ReDos regression when used in a Node.js environment. It is recommended you upgrade to 3.2.7 or 4.3.1. (https://github.com/visionmedia/debug/issues/797)
+[0m[91mnpm WARN deprecated debug@4.1.1: Debug versions >=3.2.0 <3.2.7 || >=4 <4.3.1 have a low-severity ReDos regression when used in a Node.js environment. It is recommended you upgrade to 3.2.7 or 4.3.1. (https://github.com/visionmedia/debug/issues/797)
+[0m[91mnpm WARN deprecated @makeproaudio/node-red-contrib-makehaus@0.0.5: @makeproaudio has moved to @makepro-x.
+[0m[91mnpm WARN deprecated @makeproaudio/parameters-js@1.0.13: @makeproaudio has moved to @makepro-x.
+[0m[91mnpm[0m[91m WARN [0m[91mdeprecated @makeproaudio/makehaus-nodered-lib@1.0.6: @makeproaudio has moved to @makepro-x.
+[0m
+added 85 packages, and audited 610 packages in 10s
+
+50 packages are looking for funding
+  run `npm fund` for details
+
+6 vulnerabilities (5 low, 1 moderate)
+
+To address issues that do not require attention, run:
+  npm audit fix
+
+To address all issues (including breaking changes), run:
+  npm audit fix --force
+
+Run `npm audit` for details.
+[91mnpm notice 
+npm notice[0m[91m New major version of npm available! 8.11.0 -> 9.2.0
+npm notice Changelog: <https://github.com/npm/cli/releases/tag/v9.2.0>
+[0m[91mnpm[0m[91m notice[0m[91m Run `npm install -g npm@9.2.0` to update!
+npm notice 
+[0mRemoving intermediate container e0079bca2f3c
+ ---> 6fea85ec6ef3
+Successfully built 6fea85ec6ef3
+Successfully tagged tmp:latest
