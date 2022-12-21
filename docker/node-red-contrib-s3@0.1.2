@@ -1,0 +1,36 @@
+
+----
+Sending build context to Docker daemon  23.08MB
+Step 1/2 : FROM nodered/node-red
+ ---> a15fc0f4e930
+Step 2/2 : RUN npm install npm install node-red-contrib-s3@0.1.2
+ ---> Running in 83503a47084f
+[91mnpm[0m[91m [0m[91mWARN deprecated minimatch@2.0.4: Please update to minimatch 3.0.2 or higher to avoid a RegExp DoS issue
+[0m[91mnpm[0m[91m [0m[91mWARN[0m[91m [0m[91mdeprecated[0m[91m querystring@0.2.0: The querystring API is considered Legacy. new code should use the URLSearchParams API instead.
+[0m
+added 26 packages, changed 1 package, and audited 551 packages in 5s
+
+55 packages are looking for funding
+  run `npm fund` for details
+
+8 vulnerabilities (5 low, 1 moderate, 2 high)
+
+To address issues that do not require attention, run:
+  npm audit fix
+
+To address all issues possible (including breaking changes), run:
+  npm audit fix --force
+
+Some issues need review, and may require choosing
+a different dependency.
+
+Run `npm audit` for details.
+[91mnpm [0m[91mnotice 
+npm notice New major version of npm available! 8.11.0 -> 9.2.0
+npm notice Changelog: <https://github.com/npm/cli/releases/tag/v9.2.0>
+npm notice Run `npm install -g npm@9.2.0` to update!
+npm notice 
+[0mRemoving intermediate container 83503a47084f
+ ---> 50b48a5628f4
+Successfully built 50b48a5628f4
+Successfully tagged tmp:latest
