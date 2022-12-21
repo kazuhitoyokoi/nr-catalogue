@@ -1,0 +1,32 @@
+
+----
+Sending build context to Docker daemon  100.8MB
+Step 1/2 : FROM nodered/node-red
+ ---> a15fc0f4e930
+Step 2/2 : RUN npm install npm install node-red-contrib-web-components@0.6.0
+ ---> Running in 7f757f2b46c2
+[91mnpm[0m[91m WARN deprecated uuid@3.4.0: Please upgrade  to version 7 or higher.  Older versions may use Math.random() in certain circumstances, which is known to be problematic.  See https://v8.dev/blog/math-random for details.
+[0m
+added 7 packages, and audited 532 packages in 4s
+
+47 packages are looking for funding
+  run `npm fund` for details
+
+6 vulnerabilities (5 low, 1 moderate)
+
+To address issues that do not require attention, run:
+  npm audit fix
+
+To address all issues (including breaking changes), run:
+  npm audit fix --force
+
+Run `npm audit` for details.
+[91mnpm[0m[91m notice[0m[91m 
+npm[0m[91m [0m[91mnotice[0m[91m New major version of npm available! 8.11.0 -> 9.2.0
+npm [0m[91mnotice[0m[91m Changelog: <https://github.com/npm/cli/releases/tag/v9.2.0>
+npm[0m[91m [0m[91mnotice Run `npm install -g npm@9.2.0` to update!
+npm [0m[91mnotice[0m[91m 
+[0mRemoving intermediate container 7f757f2b46c2
+ ---> acfa2ee25c37
+Successfully built acfa2ee25c37
+Successfully tagged tmp:latest
