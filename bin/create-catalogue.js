@@ -21,9 +21,9 @@ for (var i = 0; i < modules.length; i++) {
                 spawn = child_process.spawnSync('docker build -t tmp .', { shell: true });
                 child_process.spawnSync('docker rmi tmp', { shell: true });
             } else {
-                fs.mkdirSync('tmp');
-                spawn = child_process.spawnSync(cmd, { cwd: 'tmp', shell: true });
-                fs.removeSync('tmp');
+                fs.mkdirSync('filename');
+                spawn = child_process.spawnSync(cmd, { cwd: 'filename', shell: true });
+                fs.removeSync('filename');
             }
             if (spawn.status == 0) {
                 fs.writeFileSync(filename, spawn.stderr.toString() + '\n----\n' + spawn.stdout.toString());
