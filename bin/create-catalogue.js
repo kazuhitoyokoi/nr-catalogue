@@ -1,4 +1,5 @@
 var child_process = require('child_process');
+var crypto = require('crypto');
 var path = require('path');
 var fs = require('fs-extra');
 
@@ -21,9 +22,10 @@ for (var i = 0; i < modules.length; i++) {
                 spawn = child_process.spawnSync('docker build -t tmp .', { shell: true });
                 child_process.spawnSync('docker rmi tmp', { shell: true });
             } else {
-                fs.mkdirSync(filename);
-                spawn = child_process.spawnSync(cmd, { cwd: filename, shell: true });
-                fs.removeSync(filename);
+                var tmpdir = crypto.randomBytes(8).toString('hex');
+                fs.mkdirSync(tmpdir);
+                spawn = child_process.spawnSync(cmd, { cwd: tmpdir, shell: true });
+                fs.removeSync(tmpdir);
             }
             if (spawn.status == 0) {
                 fs.writeFileSync(filename, spawn.stderr.toString() + '\n----\n' + spawn.stdout.toString());
@@ -31,15 +33,13 @@ for (var i = 0; i < modules.length; i++) {
                 child_process.execSync('git commit -m "Update cache"');
                 child_process.execSync('git push');
                 newModules.push(modules[i]);
+            } else {
+                console.log(spawn.stderr.toString() + '\n----\n' + spawn.stdout.toString());
             }
         } catch (e) { console.log(e); }
     }
 }
 
-var catalogue = JSON.stringify({
-    name: "Catalogue for " + platform,
-    updated_at: new Date(),
-    modules: newModules
-}, null, 2);
 try { fs.mkdirSync('docs'); } catch (e) {}
+var catalogue = JSON.stringify({ name: "Catalogue for " + platform, updated_at: new Date(), modules: newModules }, null, 2);
 fs.writeFileSync(path.join('docs', process.platform + '.json'), catalogue);
