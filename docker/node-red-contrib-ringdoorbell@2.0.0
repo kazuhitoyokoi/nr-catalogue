@@ -1,0 +1,37 @@
+
+----
+Sending build context to Docker daemon  135.6MB
+Step 1/2 : FROM nodered/node-red
+ ---> a15fc0f4e930
+Step 2/2 : RUN npm install npm install node-red-contrib-ringdoorbell@2.0.0
+ ---> Running in d5fe28d4ed68
+[91mnpm[0m[91m WARN deprecated lodash.compose@2.4.1: This package is discontinued. Use lodash.flowright@^3.0.0.
+[0m[91mnpm[0m[91m WARN deprecated promiscuous@0.6.0: Package no longer supported. Contact Support at https://www.npmjs.com/support for more info.
+[0m[91mnpm WARN[0m[91m deprecated axios@0.18.1: Critical security vulnerability fixed in v0.21.1. For more information, see https://github.com/axios/axios/pull/3410
+[0m
+added 28 packages, and audited 553 packages in 7s
+
+48 packages are looking for funding
+  run `npm fund` for details
+
+11 vulnerabilities (5 low, 2 moderate, 4 high)
+
+To address issues that do not require attention, run:
+  npm audit fix
+
+To address all issues possible (including breaking changes), run:
+  npm audit fix --force
+
+Some issues need review, and may require choosing
+a different dependency.
+
+Run `npm audit` for details.
+[91mnpm notice 
+npm notice[0m[91m New major version of npm available! 8.11.0 -> 9.2.0
+npm notice Changelog: <https://github.com/npm/cli/releases/tag/v9.2.0>
+npm notice Run `npm install -g npm@9.2.0` to update!
+npm notice 
+[0mRemoving intermediate container d5fe28d4ed68
+ ---> 1187e63d2cd5
+Successfully built 1187e63d2cd5
+Successfully tagged tmp:latest
