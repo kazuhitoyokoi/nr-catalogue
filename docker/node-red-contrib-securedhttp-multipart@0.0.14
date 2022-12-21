@@ -1,0 +1,39 @@
+
+----
+Sending build context to Docker daemon  18.78MB
+Step 1/2 : FROM nodered/node-red
+ ---> a15fc0f4e930
+Step 2/2 : RUN npm install npm install node-red-contrib-securedhttp-multipart@0.0.14
+ ---> Running in 4b0f84236a12
+[91mnpm[0m[91m WARN deprecated har-validator@5.1.5: this library is no longer supported
+[0m[91mnpm[0m[91m WARN deprecated multer@1.4.4: Multer 1.x is affected by CVE-2022-24434. This is fixed in v1.4.4-lts.1 which drops support for versions of Node.js before 6. Please upgrade to at least Node.js 6 and version 1.4.4-lts.1 of Multer. If you need support for older versions of Node.js, we are open to accepting patches that would fix the CVE on the main 1.x release line, whilst maintaining compatibility with Node.js 0.10.
+[0m[91mnpm WARN [0m[91mdeprecated formidable@1.2.6: Please upgrade to latest, formidable@v2 or formidable@v3! Check these notes: https://bit.ly/2ZEqIau
+[0m[91mnpm[0m[91m [0m[91mWARN[0m[91m [0m[91mdeprecated[0m[91m uuid@3.4.0: Please upgrade  to version 7 or higher.  Older versions may use Math.random() in certain circumstances, which is known to be problematic.  See https://v8.dev/blog/math-random for details.
+[0m[91mnpm[0m[91m [0m[91mWARN[0m[91m [0m[91mdeprecated[0m[91m request@2.88.2: request has been deprecated, see https://github.com/request/request/issues/3142
+[0m
+added 54 packages, and audited 579 packages in 5s
+
+49 packages are looking for funding
+  run `npm fund` for details
+
+10 vulnerabilities (5 low, 1 moderate, 4 high)
+
+To address issues that do not require attention, run:
+  npm audit fix
+
+To address all issues possible (including breaking changes), run:
+  npm audit fix --force
+
+Some issues need review, and may require choosing
+a different dependency.
+
+Run `npm audit` for details.
+[91mnpm[0m[91m notice 
+npm notice New major version of npm available! 8.11.0 -> 9.2.0
+npm notice Changelog: <https://github.com/npm/cli/releases/tag/v9.2.0>
+npm notice Run `npm install -g npm@9.2.0` to update!
+[0m[91mnpm notice 
+[0mRemoving intermediate container 4b0f84236a12
+ ---> dfe0a66bc9e6
+Successfully built dfe0a66bc9e6
+Successfully tagged tmp:latest
