@@ -1,0 +1,36 @@
+
+----
+Sending build context to Docker daemon  137.1MB
+Step 1/2 : FROM nodered/node-red
+ ---> a15fc0f4e930
+Step 2/2 : RUN npm install npm install node-red-contrib-webduino@0.0.15
+ ---> Running in e31ff6554d08
+[91mnpm WARN EBADENGINE[0m[91m Unsupported engine {
+npm WARN[0m[91m EBADENGINE[0m[91m   package: 'webduino-js@0.7.0',
+npm [0m[91mWARN EBADENGINE   required: { node: '^16.17.0' },
+npm[0m[91m WARN EBADENGINE   current: { node: 'v16.16.0', npm: '8.11.0' }
+npm [0m[91mWARN [0m[91mEBADENGINE[0m[91m }
+[0m
+added 8 packages, and audited 533 packages in 4s
+
+47 packages are looking for funding
+  run `npm fund` for details
+
+6 vulnerabilities (5 low, 1 moderate)
+
+To address issues that do not require attention, run:
+  npm audit fix
+
+To address all issues (including breaking changes), run:
+  npm audit fix --force
+
+Run `npm audit` for details.
+[91mnpm[0m[91m notice 
+[0m[91mnpm notice[0m[91m New major version of npm available! 8.11.0 -> 9.2.0
+npm notice Changelog: <https://github.com/npm/cli/releases/tag/v9.2.0>
+[0m[91mnpm[0m[91m [0m[91mnotice Run `npm install -g npm@9.2.0` to update!
+[0m[91mnpm[0m[91m [0m[91mnotice 
+[0mRemoving intermediate container e31ff6554d08
+ ---> 28365a8036ef
+Successfully built 28365a8036ef
+Successfully tagged tmp:latest
