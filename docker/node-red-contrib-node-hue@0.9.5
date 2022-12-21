@@ -1,0 +1,36 @@
+
+----
+Sending build context to Docker daemon  134.3MB
+Step 1/2 : FROM nodered/node-red
+ ---> a15fc0f4e930
+Step 2/2 : RUN npm install npm install node-red-contrib-node-hue@0.9.5
+ ---> Running in a3f9047f46d3
+[91mnpm[0m[91m [0m[91mWARN[0m[91m [0m[91mdeprecated mumath@3.3.4: Redundant dependency in your project.
+[0m[91mnpm[0m[91m [0m[91mWARN[0m[91m [0m[91mdeprecated[0m[91m axios@0.19.2: Critical security vulnerability fixed in v0.21.1. For more information, see https://github.com/axios/axios/pull/3410
+[0m
+added 20 packages, and audited 545 packages in 5s
+
+47 packages are looking for funding
+  run `npm fund` for details
+
+10 vulnerabilities (5 low, 3 moderate, 2 high)
+
+To address issues that do not require attention, run:
+  npm audit fix
+
+To address all issues possible (including breaking changes), run:
+  npm audit fix --force
+
+Some issues need review, and may require choosing
+a different dependency.
+
+Run `npm audit` for details.
+[91mnpm notice[0m[91m 
+npm notice New major version of npm available! 8.11.0 -> 9.2.0
+npm notice[0m[91m Changelog: <https://github.com/npm/cli/releases/tag/v9.2.0>
+npm notice Run `npm install -g npm@9.2.0` to update!
+npm [0m[91mnotice 
+[0mRemoving intermediate container a3f9047f46d3
+ ---> f5877a8b256d
+Successfully built f5877a8b256d
+Successfully tagged tmp:latest
