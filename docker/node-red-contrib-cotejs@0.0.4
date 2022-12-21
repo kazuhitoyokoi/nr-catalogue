@@ -1,0 +1,37 @@
+
+----
+Sending build context to Docker daemon  40.43MB
+Step 1/2 : FROM nodered/node-red
+ ---> a15fc0f4e930
+Step 2/2 : RUN npm install npm install node-red-contrib-cotejs@0.0.4
+ ---> Running in 05b66b3c62ba
+[91mnpm[0m[91m WARN[0m[91m [0m[91mdeprecated[0m[91m node-uuid@1.4.8: Use uuid module instead
+[0m[91mnpm[0m[91m [0m[91mWARN[0m[91m [0m[91mdeprecated[0m[91m uuid@3.4.0: Please upgrade  to version 7 or higher.  Older versions may use Math.random() in certain circumstances, which is known to be problematic.  See https://v8.dev/blog/math-random for details.
+[0m[91mnpm WARN deprecated uws@9.14.0: New code is available at github.com/uNetworking/uWebSockets.js
+[0m
+added 60 packages, and audited 585 packages in 19s
+
+47 packages are looking for funding
+  run `npm fund` for details
+
+17 vulnerabilities (5 low, 2 moderate, 5 high, 5 critical)
+
+To address issues that do not require attention, run:
+  npm audit fix
+
+To address all issues possible (including breaking changes), run:
+  npm audit fix --force
+
+Some issues need review, and may require choosing
+a different dependency.
+
+Run `npm audit` for details.
+[91mnpm[0m[91m notice 
+npm [0m[91mnotice New major version of npm available! 8.11.0 -> 9.2.0
+npm notice[0m[91m Changelog: <https://github.com/npm/cli/releases/tag/v9.2.0>
+npm notice Run `npm install -g npm@9.2.0` to update!
+npm[0m[91m [0m[91mnotice 
+[0mRemoving intermediate container 05b66b3c62ba
+ ---> adeafdab6a6e
+Successfully built adeafdab6a6e
+Successfully tagged tmp:latest
