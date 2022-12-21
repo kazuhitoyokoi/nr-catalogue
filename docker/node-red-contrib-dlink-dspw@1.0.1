@@ -1,0 +1,35 @@
+
+----
+Sending build context to Docker daemon  123.5MB
+Step 1/2 : FROM nodered/node-red
+ ---> a15fc0f4e930
+Step 2/2 : RUN npm install npm install node-red-contrib-dlink-dspw@1.0.1
+ ---> Running in e2f02d577ac7
+[91mnpm[0m[91m [0m[91mWARN[0m[91m [0m[91mdeprecated[0m[91m xmldom@0.1.31: Deprecated due to CVE-2021-21366 resolved in 0.5.0
+[0m
+added 24 packages, and audited 549 packages in 5s
+
+47 packages are looking for funding
+  run `npm fund` for details
+
+9 vulnerabilities (7 low, 1 moderate, 1 critical)
+
+To address issues that do not require attention, run:
+  npm audit fix
+
+To address all issues possible (including breaking changes), run:
+  npm audit fix --force
+
+Some issues need review, and may require choosing
+a different dependency.
+
+Run `npm audit` for details.
+[91mnpm[0m[91m [0m[91mnotice[0m[91m 
+[0m[91mnpm[0m[91m [0m[91mnotice[0m[91m New major version of npm available! 8.11.0 -> 9.2.0
+[0m[91mnpm[0m[91m [0m[91mnotice[0m[91m Changelog: <https://github.com/npm/cli/releases/tag/v9.2.0>
+[0m[91mnpm[0m[91m [0m[91mnotice[0m[91m Run `npm install -g npm@9.2.0` to update!
+[0m[91mnpm[0m[91m notice[0m[91m 
+[0mRemoving intermediate container e2f02d577ac7
+ ---> 104385fc37d4
+Successfully built 104385fc37d4
+Successfully tagged tmp:latest
