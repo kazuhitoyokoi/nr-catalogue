@@ -1,0 +1,36 @@
+
+----
+Sending build context to Docker daemon    116MB
+Step 1/2 : FROM nodered/node-red
+ ---> a15fc0f4e930
+Step 2/2 : RUN npm install npm install node-red-contrib-ttn@2.0.5
+ ---> Running in f8d636111f0f
+[91mnpm WARN deprecated node-pre-gyp@0.11.0: Please upgrade to @mapbox/node-pre-gyp: the non-scoped node-pre-gyp package is deprecated and only the @mapbox scoped package will recieve updates in the future
+[0m[91mnpm WARN deprecated ttn@2.3.3: Deprecated package
+[0m[91mnpm WARN deprecated node-red-contrib-ttn@2.0.5: Deprecated package
+[0m[91mnpm[0m[91m [0m[91mWARN[0m[91m [0m[91mdeprecated[0m[91m core-js@2.6.12: core-js@<3.23.3 is no longer maintained and not recommended for usage due to the number of issues. Because of the V8 engine whims, feature detection in old core-js versions could cause a slowdown up to 100x even if nothing is polyfilled. Some versions have web compatibility issues. Please, upgrade your dependencies to the actual version of core-js.
+[0m[91mnpm[0m[91m [0m[91mWARN[0m[91m [0m[91mdeprecated[0m[91m grpc@1.24.11: This library will not receive further updates other than security fixes. We recommend using @grpc/grpc-js instead.
+[0m
+added 160 packages, and audited 685 packages in 13s
+
+47 packages are looking for funding
+  run `npm fund` for details
+
+12 vulnerabilities (5 low, 1 moderate, 6 high)
+
+To address issues that do not require attention, run:
+  npm audit fix
+
+To address all issues (including breaking changes), run:
+  npm audit fix --force
+
+Run `npm audit` for details.
+[91mnpm notice 
+npm notice[0m[91m New major version of npm available! 8.11.0 -> 9.2.0
+npm notice Changelog: <https://github.com/npm/cli/releases/tag/v9.2.0>
+npm notice Run `npm install -g npm@9.2.0` to update!
+[0m[91mnpm notice[0m[91m 
+[0mRemoving intermediate container f8d636111f0f
+ ---> 4fb113c35732
+Successfully built 4fb113c35732
+Successfully tagged tmp:latest
