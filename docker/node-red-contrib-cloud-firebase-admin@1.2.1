@@ -1,0 +1,35 @@
+
+----
+Sending build context to Docker daemon   48.9MB
+Step 1/2 : FROM nodered/node-red
+ ---> a15fc0f4e930
+Step 2/2 : RUN npm install npm install node-red-contrib-cloud-firebase-admin@1.2.1
+ ---> Running in bd898ecc281c
+[91mnpm WARN deprecated gcs-resumable-upload@2.3.3: gcs-resumable-upload is deprecated. Support will end on 11/01/2023
+[0m
+added 165 packages, changed 1 package, and audited 690 packages in 19s
+
+79 packages are looking for funding
+  run `npm fund` for details
+
+23 vulnerabilities (5 low, 6 moderate, 12 high)
+
+To address issues that do not require attention, run:
+  npm audit fix
+
+To address all issues possible (including breaking changes), run:
+  npm audit fix --force
+
+Some issues need review, and may require choosing
+a different dependency.
+
+Run `npm audit` for details.
+[91mnpm notice[0m[91m 
+npm notice[0m[91m New major version of npm available! 8.11.0 -> 9.2.0
+npm notice Changelog: <https://github.com/npm/cli/releases/tag/v9.2.0>
+npm notice[0m[91m Run `npm install -g npm@9.2.0` to update!
+npm notice 
+[0mRemoving intermediate container bd898ecc281c
+ ---> b2d83e8385c2
+Successfully built b2d83e8385c2
+Successfully tagged tmp:latest
