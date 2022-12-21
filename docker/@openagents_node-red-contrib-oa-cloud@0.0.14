@@ -1,0 +1,116 @@
+
+----
+Sending build context to Docker daemon  12.17MB
+Step 1/2 : FROM nodered/node-red
+latest: Pulling from nodered/node-red
+530afca65e2e: Pulling fs layer
+95ca4541bf43: Pulling fs layer
+b831dd745300: Pulling fs layer
+86937321b535: Pulling fs layer
+986b5a8e194c: Pulling fs layer
+8b31a1a18921: Pulling fs layer
+deb1e56fcbab: Pulling fs layer
+4f4fb700ef54: Pulling fs layer
+05b6071b0782: Pulling fs layer
+63313e8d0415: Pulling fs layer
+1fd1ea3c3c94: Pulling fs layer
+332f3e1fb659: Pulling fs layer
+1f6d3e59ce46: Pulling fs layer
+1c09c45fc9eb: Pulling fs layer
+fe5233784052: Pulling fs layer
+97a70172ba21: Pulling fs layer
+26d3234c875a: Pulling fs layer
+986b5a8e194c: Waiting
+8b31a1a18921: Waiting
+deb1e56fcbab: Waiting
+4f4fb700ef54: Waiting
+05b6071b0782: Waiting
+63313e8d0415: Waiting
+1fd1ea3c3c94: Waiting
+332f3e1fb659: Waiting
+1f6d3e59ce46: Waiting
+1c09c45fc9eb: Waiting
+fe5233784052: Waiting
+97a70172ba21: Waiting
+26d3234c875a: Waiting
+86937321b535: Waiting
+b831dd745300: Verifying Checksum
+b831dd745300: Download complete
+530afca65e2e: Verifying Checksum
+530afca65e2e: Download complete
+86937321b535: Verifying Checksum
+86937321b535: Download complete
+986b5a8e194c: Verifying Checksum
+986b5a8e194c: Download complete
+8b31a1a18921: Verifying Checksum
+8b31a1a18921: Download complete
+530afca65e2e: Pull complete
+95ca4541bf43: Verifying Checksum
+95ca4541bf43: Download complete
+4f4fb700ef54: Verifying Checksum
+4f4fb700ef54: Download complete
+63313e8d0415: Verifying Checksum
+63313e8d0415: Download complete
+05b6071b0782: Verifying Checksum
+05b6071b0782: Download complete
+deb1e56fcbab: Verifying Checksum
+deb1e56fcbab: Download complete
+332f3e1fb659: Verifying Checksum
+332f3e1fb659: Download complete
+1fd1ea3c3c94: Verifying Checksum
+1fd1ea3c3c94: Download complete
+1f6d3e59ce46: Verifying Checksum
+1f6d3e59ce46: Download complete
+1c09c45fc9eb: Verifying Checksum
+1c09c45fc9eb: Download complete
+26d3234c875a: Verifying Checksum
+26d3234c875a: Download complete
+fe5233784052: Verifying Checksum
+fe5233784052: Download complete
+97a70172ba21: Verifying Checksum
+97a70172ba21: Download complete
+95ca4541bf43: Pull complete
+b831dd745300: Pull complete
+86937321b535: Pull complete
+986b5a8e194c: Pull complete
+8b31a1a18921: Pull complete
+deb1e56fcbab: Pull complete
+4f4fb700ef54: Pull complete
+05b6071b0782: Pull complete
+63313e8d0415: Pull complete
+1fd1ea3c3c94: Pull complete
+332f3e1fb659: Pull complete
+1f6d3e59ce46: Pull complete
+1c09c45fc9eb: Pull complete
+fe5233784052: Pull complete
+97a70172ba21: Pull complete
+26d3234c875a: Pull complete
+Digest: sha256:524316b9b84cb5bbfe006c117f3dad31ee806804b12e4b866047a65e2080e92d
+Status: Downloaded newer image for nodered/node-red:latest
+ ---> a15fc0f4e930
+Step 2/2 : RUN npm install npm install @openagents/node-red-contrib-oa-cloud@0.0.14
+ ---> Running in 543636c1e24f
+
+added 55 packages, and audited 580 packages in 6s
+
+50 packages are looking for funding
+  run `npm fund` for details
+
+6 vulnerabilities (5 low, 1 moderate)
+
+To address issues that do not require attention, run:
+  npm audit fix
+
+To address all issues (including breaking changes), run:
+  npm audit fix --force
+
+Run `npm audit` for details.
+[91mnpm notice[0m[91m 
+npm notice[0m[91m New major version of npm available! 8.11.0 -> 9.2.0
+npm notice[0m[91m Changelog: <https://github.com/npm/cli/releases/tag/v9.2.0>
+npm notice[0m[91m Run `npm install -g npm@9.2.0` to update!
+npm[0m[91m notice[0m[91m 
+[0mRemoving intermediate container 543636c1e24f
+ ---> 8a94ecab17fa
+Successfully built 8a94ecab17fa
+Successfully tagged tmp:latest
