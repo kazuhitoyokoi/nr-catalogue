@@ -1,0 +1,37 @@
+
+----
+Sending build context to Docker daemon  103.2MB
+Step 1/2 : FROM nodered/node-red
+ ---> a15fc0f4e930
+Step 2/2 : RUN npm install npm install node-red-contrib-nba@1.0.9
+ ---> Running in 845205fa139d
+[91mnpm WARN[0m[91m deprecated querystring@0.2.0: The querystring API is considered Legacy. new code should use the URLSearchParams API instead.
+[0m[91mnpm[0m[91m WARN deprecated mkdirp@0.5.4: Legacy versions of mkdirp are no longer supported. Please update to mkdirp 1.x. (Note that the API surface has changed to use Promises in 1.x.)
+[0m[91mnpm WARN deprecated[0m[91m debug@3.2.6: Debug versions >=3.2.0 <3.2.7 || >=4 <4.3.1 have a low-severity ReDos regression when used in a Node.js environment. It is recommended you upgrade to 3.2.7 or 4.3.1. (https://github.com/visionmedia/debug/issues/797)
+[0m
+added 147 packages, changed 1 package, and audited 672 packages in 10s
+
+79 packages are looking for funding
+  run `npm fund` for details
+
+11 vulnerabilities (6 low, 1 moderate, 4 high)
+
+To address issues that do not require attention, run:
+  npm audit fix
+
+To address all issues possible (including breaking changes), run:
+  npm audit fix --force
+
+Some issues need review, and may require choosing
+a different dependency.
+
+Run `npm audit` for details.
+[91mnpm [0m[91mnotice 
+npm notice New major version of npm available! 8.11.0 -> 9.2.0
+npm notice Changelog: <https://github.com/npm/cli/releases/tag/v9.2.0>
+[0m[91mnpm notice Run `npm install -g npm@9.2.0` to update!
+npm notice[0m[91m 
+[0mRemoving intermediate container 845205fa139d
+ ---> 2185f789f2cb
+Successfully built 2185f789f2cb
+Successfully tagged tmp:latest
