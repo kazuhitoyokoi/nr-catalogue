@@ -1,0 +1,40 @@
+
+----
+Sending build context to Docker daemon    150MB
+Step 1/2 : FROM nodered/node-red
+ ---> a15fc0f4e930
+Step 2/2 : RUN npm install npm install node-red-contrib-jquerify@0.0.6
+ ---> Running in 5f19ff815f13
+[91mnpm [0m[91mWARN deprecated[0m[91m har-validator@5.1.5: this library is no longer supported
+[0m[91mnpm WARN deprecated request-promise-native@1.0.9: request-promise-native has been deprecated because it extends the now deprecated request package, see https://github.com/request/request/issues/3142
+[0m[91mnpm WARN deprecated w3c-hr-time@1.0.2: Use your platform's native performance.now() and performance.timeOrigin.
+[0m[91mnpm WARN deprecated left-pad@1.3.0: use String.prototype.padStart()
+[0m[91mnpm WARN deprecated uuid@3.4.0: Please upgrade  to version 7 or higher.  Older versions may use Math.random() in certain circumstances, which is known to be problematic.  See https://v8.dev/blog/math-random for details.
+[0m[91mnpm WARN deprecated request@2.88.2: request has been deprecated, see https://github.com/request/request/issues/3142
+[0m
+added 90 packages, and audited 615 packages in 6s
+
+48 packages are looking for funding
+  run `npm fund` for details
+
+8 vulnerabilities (5 low, 3 moderate)
+
+To address issues that do not require attention, run:
+  npm audit fix
+
+To address all issues possible (including breaking changes), run:
+  npm audit fix --force
+
+Some issues need review, and may require choosing
+a different dependency.
+
+Run `npm audit` for details.
+[91mnpm notice[0m[91m 
+npm notice New major version of npm available! 8.11.0 -> 9.2.0
+npm notice Changelog: <https://github.com/npm/cli/releases/tag/v9.2.0>
+[0m[91mnpm notice Run `npm install -g npm@9.2.0` to update!
+npm notice 
+[0mRemoving intermediate container 5f19ff815f13
+ ---> cf2b6f4c940a
+Successfully built cf2b6f4c940a
+Successfully tagged tmp:latest
