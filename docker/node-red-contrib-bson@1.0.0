@@ -1,0 +1,36 @@
+
+----
+Sending build context to Docker daemon  13.34MB
+Step 1/2 : FROM nodered/node-red
+ ---> a15fc0f4e930
+Step 2/2 : RUN npm install npm install node-red-contrib-bson@1.0.0
+ ---> Running in 97762ffa91cb
+[91mnpm[0m[91m WARN [0m[91mEBADENGINE[0m[91m Unsupported engine {
+npm [0m[91mWARN[0m[91m [0m[91mEBADENGINE[0m[91m   package: 'node-red-contrib-bson@1.0.0',
+npm WARN[0m[91m EBADENGINE[0m[91m   required: { node: '^0.12.7' },
+npm[0m[91m WARN [0m[91mEBADENGINE   current: { node: 'v16.16.0', npm: '8.11.0' }
+npm [0m[91mWARN [0m[91mEBADENGINE[0m[91m }
+[0m
+added 4 packages, and audited 529 packages in 5s
+
+47 packages are looking for funding
+  run `npm fund` for details
+
+6 vulnerabilities (5 low, 1 moderate)
+
+To address issues that do not require attention, run:
+  npm audit fix
+
+To address all issues (including breaking changes), run:
+  npm audit fix --force
+
+Run `npm audit` for details.
+[91mnpm[0m[91m [0m[91mnotice[0m[91m 
+[0m[91mnpm[0m[91m [0m[91mnotice[0m[91m New major version of npm available! 8.11.0 -> 9.2.0
+[0m[91mnpm[0m[91m [0m[91mnotice[0m[91m Changelog: <https://github.com/npm/cli/releases/tag/v9.2.0>
+npm[0m[91m [0m[91mnotice[0m[91m Run `npm install -g npm@9.2.0` to update!
+[0m[91mnpm[0m[91m [0m[91mnotice[0m[91m 
+[0mRemoving intermediate container 97762ffa91cb
+ ---> d5233bd2ba83
+Successfully built d5233bd2ba83
+Successfully tagged tmp:latest
