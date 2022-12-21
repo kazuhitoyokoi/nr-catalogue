@@ -1,0 +1,34 @@
+
+----
+Sending build context to Docker daemon  133.6MB
+Step 1/2 : FROM nodered/node-red
+ ---> a15fc0f4e930
+Step 2/2 : RUN npm install npm install node-red-contrib-ble-central@1.0.13
+ ---> Running in 7ad5911d1409
+
+added 12 packages, and audited 537 packages in 7s
+
+47 packages are looking for funding
+  run `npm fund` for details
+
+9 vulnerabilities (8 low, 1 moderate)
+
+To address issues that do not require attention, run:
+  npm audit fix
+
+To address all issues possible (including breaking changes), run:
+  npm audit fix --force
+
+Some issues need review, and may require choosing
+a different dependency.
+
+Run `npm audit` for details.
+[91mnpm[0m[91m notice 
+npm notice New major version of npm available! 8.11.0 -> 9.2.0
+[0m[91mnpm notice Changelog: <https://github.com/npm/cli/releases/tag/v9.2.0>
+npm notice Run `npm install -g npm@9.2.0` to update!
+npm notice 
+[0mRemoving intermediate container 7ad5911d1409
+ ---> 9b548dac22e6
+Successfully built 9b548dac22e6
+Successfully tagged tmp:latest
