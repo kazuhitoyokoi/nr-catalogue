@@ -1,0 +1,33 @@
+
+----
+Sending build context to Docker daemon  136.2MB
+Step 1/2 : FROM nodered/node-red
+ ---> a15fc0f4e930
+Step 2/2 : RUN npm install npm install node-red-contrib-google-action@1.2.1
+ ---> Running in b1ff654dbf17
+[91mnpm[0m[91m WARN deprecated axios@0.18.1: Critical security vulnerability fixed in v0.21.1. For more information, see https://github.com/axios/axios/pull/3410
+[0m[91mnpm[0m[91m WARN deprecated axios@0.18.1: Critical security vulnerability fixed in v0.21.1. For more information, see https://github.com/axios/axios/pull/3410
+[0m
+added 36 packages, and audited 561 packages in 5s
+
+48 packages are looking for funding
+  run `npm fund` for details
+
+15 vulnerabilities (5 low, 7 moderate, 3 high)
+
+To address issues that do not require attention, run:
+  npm audit fix
+
+To address all issues (including breaking changes), run:
+  npm audit fix --force
+
+Run `npm audit` for details.
+[91mnpm[0m[91m notice 
+npm notice New major version of npm available! 8.11.0 -> 9.2.0
+npm notice Changelog: <https://github.com/npm/cli/releases/tag/v9.2.0>
+npm notice Run `npm install -g npm@9.2.0` to update!
+npm notice[0m[91m 
+[0mRemoving intermediate container b1ff654dbf17
+ ---> 9f5d6db54729
+Successfully built 9f5d6db54729
+Successfully tagged tmp:latest
