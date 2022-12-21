@@ -1,0 +1,39 @@
+
+----
+Sending build context to Docker daemon  79.52MB
+Step 1/2 : FROM nodered/node-red
+ ---> a15fc0f4e930
+Step 2/2 : RUN npm install npm install node-red-contrib-calendar-trigger@0.9.1
+ ---> Running in f697d39f0e11
+[91mnpm [0m[91mWARN[0m[91m EBADENGINE Unsupported engine {
+npm[0m[91m [0m[91mWARN EBADENGINE   package: 'node-red-contrib-calendar-trigger@0.9.1',
+npm WARN [0m[91mEBADENGINE[0m[91m   required: { node: '^0.12.7' },
+[0m[91mnpm WARN[0m[91m [0m[91mEBADENGINE   current: { node: 'v16.16.0', npm: '8.11.0' }
+npm [0m[91mWARN EBADENGINE }
+[0m
+added 5 packages, and audited 530 packages in 3s
+
+47 packages are looking for funding
+  run `npm fund` for details
+
+8 vulnerabilities (7 low, 1 moderate)
+
+To address issues that do not require attention, run:
+  npm audit fix
+
+To address all issues possible (including breaking changes), run:
+  npm audit fix --force
+
+Some issues need review, and may require choosing
+a different dependency.
+
+Run `npm audit` for details.
+[91mnpm[0m[91m notice 
+npm notice New major version of npm available! 8.11.0 -> 9.2.0
+npm notice Changelog: <https://github.com/npm/cli/releases/tag/v9.2.0>
+npm notice Run `npm install -g npm@9.2.0` to update!
+[0m[91mnpm[0m[91m notice 
+[0mRemoving intermediate container f697d39f0e11
+ ---> 73c84031970e
+Successfully built 73c84031970e
+Successfully tagged tmp:latest
