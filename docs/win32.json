@@ -1,7 +1,58 @@
 {
   "name": "Catalogue for win32",
-  "updated_at": "2022-12-22T00:03:34.703Z",
+  "updated_at": "2022-12-22T11:03:02.241Z",
   "modules": [
+    {
+      "id": "lighttalk_schedule_nodes",
+      "version": "1.0.6",
+      "description": "schedule node for node-red",
+      "updated_at": "2022-12-22T02:19:21.127Z",
+      "types": [
+        "라이트토크"
+      ],
+      "keywords": [
+        "node-red"
+      ],
+      "url": "https://flows.nodered.org/node/lighttalk_schedule_nodes"
+    },
+    {
+      "id": "@bitpoolos/edge-uploader",
+      "version": "1.0.10",
+      "description": "A Node-RED module to push data to Bitpool.",
+      "updated_at": "2022-12-21T23:54:38.027Z",
+      "types": [
+        "uploader",
+        "Bitpool-Pool-Settings",
+        "Bitpool-Api-Key",
+        "metatag",
+        "Bitpool-Cloud-Settings",
+        "Bitpool-Tag-Library"
+      ],
+      "keywords": [
+        "node-red",
+        "bitpool",
+        "bitpoolos",
+        "edge",
+        "big data",
+        "iot"
+      ],
+      "url": "https://flows.nodered.org/node/@bitpoolos/edge-uploader"
+    },
+    {
+      "id": "@oscm/node-red-contrib-oscm-socketio",
+      "version": "0.1.2",
+      "description": "Node Red client to work with OSCM server",
+      "updated_at": "2022-12-21T19:24:57.178Z",
+      "types": [
+        "socketio-listener"
+      ],
+      "keywords": [
+        "node-red",
+        "socket.io",
+        "oscm"
+      ],
+      "url": "https://flows.nodered.org/node/@oscm/node-red-contrib-oscm-socketio"
+    },
     {
       "id": "node-red-contrib-deconz",
       "version": "2.3.8",
@@ -1960,19 +2011,6 @@
         "nats"
       ],
       "url": "https://flows.nodered.org/node/@kurago-dev/node-red-contrib-nats"
-    },
-    {
-      "id": "lighttalk_schedule_nodes",
-      "version": "1.0.5",
-      "description": "schedule node for node-red",
-      "updated_at": "2022-12-01T01:19:03.630Z",
-      "types": [
-        "라이트토크"
-      ],
-      "keywords": [
-        "node-red"
-      ],
-      "url": "https://flows.nodered.org/node/lighttalk_schedule_nodes"
     },
     {
       "id": "node-red-contrib-sftp-ssh2",
@@ -4073,29 +4111,6 @@
         "mbus"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-m-bus"
-    },
-    {
-      "id": "@bitpoolos/edge-uploader",
-      "version": "1.0.9",
-      "description": "A Node-RED module to push data to Bitpool.",
-      "updated_at": "2022-11-10T07:04:40.842Z",
-      "types": [
-        "uploader",
-        "Bitpool-Pool-Settings",
-        "Bitpool-Api-Key",
-        "metatag",
-        "Bitpool-Cloud-Settings",
-        "Bitpool-Tag-Library"
-      ],
-      "keywords": [
-        "node-red",
-        "bitpool",
-        "bitpoolos",
-        "edge",
-        "big data",
-        "iot"
-      ],
-      "url": "https://flows.nodered.org/node/@bitpoolos/edge-uploader"
     },
     {
       "id": "node-red-contrib-home-assistant-discovery",
@@ -12927,6 +12942,27 @@
         "remote"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-harmony-extra"
+    },
+    {
+      "id": "nodered-lutron-caseta",
+      "version": "1.0.2",
+      "description": "Lutron Caseta integration with Nodered",
+      "updated_at": "2022-05-11T08:09:58.194Z",
+      "types": [
+        "lutron-config",
+        "lutron-status",
+        "lutron-control"
+      ],
+      "keywords": [
+        "lutron",
+        "caseta",
+        "dimmer",
+        "light",
+        "switch",
+        "node-red",
+        "node"
+      ],
+      "url": "https://flows.nodered.org/node/nodered-lutron-caseta"
     },
     {
       "id": "nodered-contrib-sms77",
@@ -34022,27 +34058,6 @@
         "castv2"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-cast"
-    },
-    {
-      "id": "nodered-lutron-caseta",
-      "version": "1.0.1",
-      "description": "Lutron Caseta integration with Nodered",
-      "updated_at": "2020-12-07T19:54:51.657Z",
-      "types": [
-        "lutron-config",
-        "lutron-status",
-        "lutron-control"
-      ],
-      "keywords": [
-        "lutron",
-        "caseta",
-        "dimmer",
-        "light",
-        "switch",
-        "node-red",
-        "node"
-      ],
-      "url": "https://flows.nodered.org/node/nodered-lutron-caseta"
     },
     {
       "id": "node-red-contrib-custom-ffmpeg-video",
