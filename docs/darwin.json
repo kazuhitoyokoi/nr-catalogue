@@ -1,7 +1,120 @@
 {
   "name": "Catalogue for darwin",
-  "updated_at": "2022-12-22T14:28:07.659Z",
+  "updated_at": "2022-12-23T11:46:07.761Z",
   "modules": [
+    {
+      "id": "node-red-contrib-hikvision-ultimate",
+      "version": "1.0.66",
+      "description": "A native set of nodes for Hikvision (and compatible) Cameras, Alarms, Radars, NVR, Doorbells, etc.",
+      "updated_at": "2022-12-23T08:38:06.602Z",
+      "types": [
+        "Hikvision-config",
+        "AXPro-config",
+        "Doorbell-config",
+        "ANPR-config",
+        "hikvisionUltimateText",
+        "hikvisionUltimateAlarm",
+        "hikvisionUltimateAlarmRaw",
+        "hikvisionUltimateANPR",
+        "hikvisionUltimatePTZ",
+        "hikvisionUltimatePicture",
+        "hikvisionUltimateXML",
+        "hikvisionUltimateDoorbell",
+        "hikvisionUltimateAxPro"
+      ],
+      "keywords": [
+        "node-red",
+        "hikvision",
+        "alarm",
+        "camera",
+        "radar",
+        "ANPR",
+        "license plate",
+        "doorbell",
+        "door intercom",
+        "Ax Pro"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-hikvision-ultimate"
+    },
+    {
+      "id": "@kevingodell/node-red-ui-mp4frag",
+      "version": "0.1.1-beta.1",
+      "description": "Play fragmented mp4 video in the node-red-dashboard.",
+      "updated_at": "2022-12-23T03:33:01.440Z",
+      "types": [
+        "ui_mp4frag"
+      ],
+      "keywords": [
+        "node-red",
+        "node-red-dashboard",
+        "mp4",
+        "fragmented",
+        "fmp4",
+        "video"
+      ],
+      "url": "https://flows.nodered.org/node/@kevingodell/node-red-ui-mp4frag"
+    },
+    {
+      "id": "@bitpoolos/edge-bacnet",
+      "version": "1.0.9",
+      "description": "A bacnet gateway for node-red",
+      "updated_at": "2022-12-23T02:53:30.488Z",
+      "types": [
+        "Bacnet-Gateway",
+        "Bacnet-Discovery",
+        "Bacnet-Write",
+        "Bitpool-Bacnet-Object",
+        "Bitpool-Inject"
+      ],
+      "keywords": [
+        "node-red",
+        "bitpool",
+        "bitpoolos",
+        "edge",
+        "big data",
+        "iot",
+        "BACnet"
+      ],
+      "url": "https://flows.nodered.org/node/@bitpoolos/edge-bacnet"
+    },
+    {
+      "id": "@openagents/node-red-contrib-oa-cloud",
+      "version": "0.0.18",
+      "description": "Node-RED nodes for Cloud File Management",
+      "updated_at": "2022-12-22T19:58:24.447Z",
+      "types": [],
+      "keywords": [
+        "node-red",
+        "google",
+        "cloud",
+        "gcs",
+        "openagents",
+        "openconnect"
+      ],
+      "url": "https://flows.nodered.org/node/@openagents/node-red-contrib-oa-cloud"
+    },
+    {
+      "id": "node-red-node-email",
+      "version": "1.18.3",
+      "description": "Node-RED nodes to send and receive simple emails.",
+      "updated_at": "2022-12-22T11:40:55.399Z",
+      "types": [
+        "e-mail",
+        "e-mail in",
+        "e-mail mta"
+      ],
+      "keywords": [
+        "node-red",
+        "email",
+        "gmail",
+        "imap",
+        "pop",
+        "smtp",
+        "smtp-server",
+        "mta"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-node-email"
+    },
     {
       "id": "@mschaeffler/node-red-dualled",
       "version": "1.1.1",
@@ -59,6 +172,38 @@
         "node-red"
       ],
       "url": "https://flows.nodered.org/node/lighttalk_schedule_nodes"
+    },
+    {
+      "id": "@flexdash/node-red-fd-corewidgets",
+      "version": "0.4.60",
+      "description": "A set of core FlexDash widgets for Node-RED.",
+      "updated_at": "2022-12-22T00:37:56.714Z",
+      "types": [],
+      "keywords": [
+        "dashboard",
+        "flexdash",
+        "node-red"
+      ],
+      "url": "https://flows.nodered.org/node/@flexdash/node-red-fd-corewidgets"
+    },
+    {
+      "id": "@flexdash/node-red-flexdash",
+      "version": "0.4.129",
+      "description": "Node-RED nodes for the FlexDash dashboard",
+      "updated_at": "2022-12-22T00:37:26.526Z",
+      "types": [
+        "flexdash dashboard",
+        "flexdash tab",
+        "flexdash iframe",
+        "flexdash ctrl",
+        "flexdash dev server"
+      ],
+      "keywords": [
+        "flexdash",
+        "dashboard",
+        "node-red"
+      ],
+      "url": "https://flows.nodered.org/node/@flexdash/node-red-flexdash"
     },
     {
       "id": "@bitpoolos/edge-uploader",
@@ -119,24 +264,6 @@
         "node-red"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-deconz"
-    },
-    {
-      "id": "@openagents/node-red-contrib-oa-cloud",
-      "version": "0.0.14",
-      "description": "Node-RED nodes for Cloud File Management",
-      "updated_at": "2022-12-21T11:18:37.440Z",
-      "types": [
-        "oa-cloud-copy"
-      ],
-      "keywords": [
-        "node-red",
-        "google",
-        "cloud",
-        "gcs",
-        "openagents",
-        "openconnect"
-      ],
-      "url": "https://flows.nodered.org/node/@openagents/node-red-contrib-oa-cloud"
     },
     {
       "id": "node-red-contrib-log-elk-chemical-ai",
@@ -1063,38 +1190,6 @@
         "node-red"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-mock-cli"
-    },
-    {
-      "id": "@flexdash/node-red-fd-corewidgets",
-      "version": "0.4.57",
-      "description": "A set of core FlexDash widgets for Node-RED.",
-      "updated_at": "2022-12-13T06:39:48.609Z",
-      "types": [],
-      "keywords": [
-        "dashboard",
-        "flexdash",
-        "node-red"
-      ],
-      "url": "https://flows.nodered.org/node/@flexdash/node-red-fd-corewidgets"
-    },
-    {
-      "id": "@flexdash/node-red-flexdash",
-      "version": "0.4.126",
-      "description": "Node-RED nodes for the FlexDash dashboard",
-      "updated_at": "2022-12-13T06:20:40.249Z",
-      "types": [
-        "flexdash dashboard",
-        "flexdash tab",
-        "flexdash iframe",
-        "flexdash ctrl",
-        "flexdash dev server"
-      ],
-      "keywords": [
-        "flexdash",
-        "dashboard",
-        "node-red"
-      ],
-      "url": "https://flows.nodered.org/node/@flexdash/node-red-flexdash"
     },
     {
       "id": "node-red-contrib-chronos",
@@ -2263,29 +2358,6 @@
         "diff"
       ],
       "url": "https://flows.nodered.org/node/@steveorevo/node-red-flow2src"
-    },
-    {
-      "id": "@bitpoolos/edge-bacnet",
-      "version": "1.0.5",
-      "description": "A bacnet gateway for node-red",
-      "updated_at": "2022-11-29T01:55:53.079Z",
-      "types": [
-        "Bacnet-Gateway",
-        "Bacnet-Discovery",
-        "Bacnet-Write",
-        "Bitpool-Bacnet-Object",
-        "Bitpool-Inject"
-      ],
-      "keywords": [
-        "node-red",
-        "bitpool",
-        "bitpoolos",
-        "edge",
-        "big data",
-        "iot",
-        "BACnet"
-      ],
-      "url": "https://flows.nodered.org/node/@bitpoolos/edge-bacnet"
     },
     {
       "id": "@inutil-labs/node-red-whin-whatsapp",
@@ -4262,28 +4334,6 @@
         "node-red"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-weatherflow-api-client"
-    },
-    {
-      "id": "node-red-node-email",
-      "version": "1.18.2",
-      "description": "Node-RED nodes to send and receive simple emails.",
-      "updated_at": "2022-11-08T13:53:50.799Z",
-      "types": [
-        "e-mail",
-        "e-mail in",
-        "e-mail mta"
-      ],
-      "keywords": [
-        "node-red",
-        "email",
-        "gmail",
-        "imap",
-        "pop",
-        "smtp",
-        "smtp-server",
-        "mta"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-node-email"
     },
     {
       "id": "node-red-contrib-gatewayex",
@@ -8404,38 +8454,6 @@
         "legacy"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-pdfjs-mac"
-    },
-    {
-      "id": "node-red-contrib-hikvision-ultimate",
-      "version": "1.0.64",
-      "description": "A native set of nodes for Hikvision (and compatible) Cameras, Alarms, Radars, NVR, Doorbells, etc.",
-      "updated_at": "2022-09-01T05:51:52.730Z",
-      "types": [
-        "Hikvision-config",
-        "Doorbell-config",
-        "ANPR-config",
-        "hikvisionUltimateText",
-        "hikvisionUltimateAlarm",
-        "hikvisionUltimateAlarmRaw",
-        "hikvisionUltimateANPR",
-        "hikvisionUltimatePTZ",
-        "hikvisionUltimatePicture",
-        "hikvisionUltimateXML",
-        "hikvisionUltimateDoorbell"
-      ],
-      "keywords": [
-        "node-red",
-        "hikvision",
-        "alarm",
-        "camera",
-        "radar",
-        "ANPR",
-        "license plate",
-        "doorbell",
-        "door intercom",
-        "anker"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-hikvision-ultimate"
     },
     {
       "id": "node-red-contrib-renault-ze",
