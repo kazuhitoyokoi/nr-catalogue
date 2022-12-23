@@ -1,7 +1,57 @@
 {
   "name": "Catalogue for win32",
-  "updated_at": "2022-12-23T10:47:23.355Z",
+  "updated_at": "2022-12-23T19:20:50.022Z",
   "modules": [
+    {
+      "id": "node-red-contrib-hikvision-ultimate",
+      "version": "1.0.67",
+      "description": "A native set of nodes for Hikvision (and compatible) Cameras, Alarms, Radars, NVR, Doorbells, etc.",
+      "updated_at": "2022-12-23T15:25:54.497Z",
+      "types": [
+        "Hikvision-config",
+        "AXPro-config",
+        "Doorbell-config",
+        "ANPR-config",
+        "hikvisionUltimateText",
+        "hikvisionUltimateAlarm",
+        "hikvisionUltimateAlarmRaw",
+        "hikvisionUltimateANPR",
+        "hikvisionUltimatePTZ",
+        "hikvisionUltimatePicture",
+        "hikvisionUltimateXML",
+        "hikvisionUltimateDoorbell",
+        "hikvisionUltimateAxPro"
+      ],
+      "keywords": [
+        "node-red",
+        "hikvision",
+        "alarm",
+        "camera",
+        "radar",
+        "ANPR",
+        "license plate",
+        "doorbell",
+        "door intercom",
+        "Ax Pro"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-hikvision-ultimate"
+    },
+    {
+      "id": "@chvdapi/node-red-baiduface",
+      "version": "0.0.1",
+      "description": "基于畅维通达chvdapi系列边缘计算板卡运行，可以与数字量输出接口配合控制外部门锁等设备",
+      "updated_at": "2022-12-23T12:36:00.557Z",
+      "types": [
+        "PN6400_baiduFaceRecg",
+        "PN6400_baiduFaceAdd",
+        "baiduFaceKey",
+        "PN6400_baiduFaceInit"
+      ],
+      "keywords": [
+        "node-red"
+      ],
+      "url": "https://flows.nodered.org/node/@chvdapi/node-red-baiduface"
+    },
     {
       "id": "@kevingodell/node-red-ui-mp4frag",
       "version": "0.1.1-beta.1",
@@ -58,40 +108,6 @@
         "openconnect"
       ],
       "url": "https://flows.nodered.org/node/@openagents/node-red-contrib-oa-cloud"
-    },
-    {
-      "id": "node-red-contrib-hikvision-ultimate",
-      "version": "1.0.65",
-      "description": "A native set of nodes for Hikvision (and compatible) Cameras, Alarms, Radars, NVR, Doorbells, etc.",
-      "updated_at": "2022-12-22T17:00:47.773Z",
-      "types": [
-        "Hikvision-config",
-        "AXPro-config",
-        "Doorbell-config",
-        "ANPR-config",
-        "hikvisionUltimateText",
-        "hikvisionUltimateAlarm",
-        "hikvisionUltimateAlarmRaw",
-        "hikvisionUltimateANPR",
-        "hikvisionUltimatePTZ",
-        "hikvisionUltimatePicture",
-        "hikvisionUltimateXML",
-        "hikvisionUltimateDoorbell",
-        "hikvisionUltimateAxPro"
-      ],
-      "keywords": [
-        "node-red",
-        "hikvision",
-        "alarm",
-        "camera",
-        "radar",
-        "ANPR",
-        "license plate",
-        "doorbell",
-        "door intercom",
-        "Ax Pro"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-hikvision-ultimate"
     },
     {
       "id": "node-red-node-email",
