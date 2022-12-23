@@ -42,4 +42,4 @@ for (var i = 0; i < modules.length; i++) {
 
 try { fs.mkdirSync('docs'); } catch (e) {}
 var catalogue = JSON.stringify({ name: "Catalogue for " + platform, updated_at: new Date(), modules: newModules }, null, 2);
-fs.writeFileSync(path.join('docs', process.platform + '.json'), catalogue);
+fs.writeFileSync(path.join('docs', platform + '.json'), catalogue);
