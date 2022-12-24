@@ -44,3 +44,18 @@ jobs:
           git add docs/*
           git commit -m "Update catalogue"
           git push
+  join:
+    needs: os
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v3
+      - run: |
+          git pull
+          git config --global user.email "kazuhitoyokoi@nodered.jp"
+          git config --global user.name "Kazuhito Yokoi"
+          node bin/join-catalogue.js
+          git add docs/*
+          git commit -m "Update catalogue"
+          git push
