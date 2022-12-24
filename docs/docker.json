@@ -1,28 +1,30 @@
 {
   "name": "Catalogue for docker",
-  "updated_at": "2022-12-23T16:25:56.444Z",
+  "updated_at": "2022-12-24T00:28:29.361Z",
   "modules": [
     {
-      "id": "@chvdapi/node-red-baiduface",
-      "version": "0.0.1",
-      "description": "基于畅维通达chvdapi系列边缘计算板卡运行，可以与数字量输出接口配合控制外部门锁等设备",
-      "updated_at": "2022-12-23T12:36:00.557Z",
+      "id": "@openagents/node-red-contrib-oa-cloud",
+      "version": "0.0.21",
+      "description": "Node-RED nodes for Cloud File Management",
+      "updated_at": "2022-12-23T19:59:52.632Z",
       "types": [
-        "PN6400_baiduFaceRecg",
-        "PN6400_baiduFaceAdd",
-        "baiduFaceKey",
-        "PN6400_baiduFaceInit"
+        "oa-cloud-copy"
       ],
       "keywords": [
-        "node-red"
+        "node-red",
+        "google",
+        "cloud",
+        "gcs",
+        "openagents",
+        "openconnect"
       ],
-      "url": "https://flows.nodered.org/node/@chvdapi/node-red-baiduface"
+      "url": "https://flows.nodered.org/node/@openagents/node-red-contrib-oa-cloud"
     },
     {
       "id": "node-red-contrib-hikvision-ultimate",
-      "version": "1.0.66",
+      "version": "1.0.69",
       "description": "A native set of nodes for Hikvision (and compatible) Cameras, Alarms, Radars, NVR, Doorbells, etc.",
-      "updated_at": "2022-12-23T08:38:06.602Z",
+      "updated_at": "2022-12-23T16:50:44.734Z",
       "types": [
         "Hikvision-config",
         "AXPro-config",
@@ -51,6 +53,22 @@
         "Ax Pro"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-hikvision-ultimate"
+    },
+    {
+      "id": "@chvdapi/node-red-baiduface",
+      "version": "0.0.1",
+      "description": "基于畅维通达chvdapi系列边缘计算板卡运行，可以与数字量输出接口配合控制外部门锁等设备",
+      "updated_at": "2022-12-23T12:36:00.557Z",
+      "types": [
+        "PN6400_baiduFaceRecg",
+        "PN6400_baiduFaceAdd",
+        "baiduFaceKey",
+        "PN6400_baiduFaceInit"
+      ],
+      "keywords": [
+        "node-red"
+      ],
+      "url": "https://flows.nodered.org/node/@chvdapi/node-red-baiduface"
     },
     {
       "id": "@kevingodell/node-red-ui-mp4frag",
@@ -92,22 +110,6 @@
         "BACnet"
       ],
       "url": "https://flows.nodered.org/node/@bitpoolos/edge-bacnet"
-    },
-    {
-      "id": "@openagents/node-red-contrib-oa-cloud",
-      "version": "0.0.18",
-      "description": "Node-RED nodes for Cloud File Management",
-      "updated_at": "2022-12-22T19:58:24.447Z",
-      "types": [],
-      "keywords": [
-        "node-red",
-        "google",
-        "cloud",
-        "gcs",
-        "openagents",
-        "openconnect"
-      ],
-      "url": "https://flows.nodered.org/node/@openagents/node-red-contrib-oa-cloud"
     },
     {
       "id": "node-red-node-email",
