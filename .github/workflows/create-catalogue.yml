@@ -25,7 +25,7 @@ jobs:
     strategy:
       max-parallel: 1
       matrix:
-        os: [ windows-latest, macos-latest, ubuntu-latest ]
+        os: [ ubuntu-latestwindows-latest, macos-latest ]
     runs-on: ${{ matrix.os }}
     permissions:
       contents: write
