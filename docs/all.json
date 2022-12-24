@@ -1,7 +1,60 @@
 {
   "name": "Catalogue for verified nodes",
-  "updated_at": "2022-12-24T13:30:44.733Z",
+  "updated_at": "2022-12-24T19:56:39.443Z",
   "modules": [
+    {
+      "id": "node-red-node-email",
+      "version": "1.18.4",
+      "description": "Node-RED nodes to send and receive simple emails.",
+      "updated_at": "2022-12-24T14:04:47.396Z",
+      "types": [
+        "e-mail",
+        "e-mail in",
+        "e-mail mta"
+      ],
+      "keywords": [
+        "node-red",
+        "email",
+        "gmail",
+        "imap",
+        "pop",
+        "smtp",
+        "smtp-server",
+        "mta"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-node-email"
+    },
+    {
+      "id": "node-red-contrib-myhome-bticino-v2",
+      "version": "2.3.0",
+      "description": "Control Bticino / Legrand MyHome components from Node-RED",
+      "updated_at": "2022-12-24T09:13:34.481Z",
+      "types": [
+        "myhome-gateway",
+        "myhome-eventsession",
+        "myhome-commandsession",
+        "myhome-energy",
+        "myhome-light",
+        "__errors__",
+        "myhome-shutter",
+        "__errors__",
+        "myhome-scenario",
+        "myhome-thermo-central",
+        "myhome-thermo-zone"
+      ],
+      "keywords": [
+        "node-red",
+        "BTicino",
+        "Legrand",
+        "MyHome",
+        "OpenWebNet",
+        "OWN",
+        "CEN",
+        "CEN+",
+        "SCS"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-myhome-bticino-v2"
+    },
     {
       "id": "node-red-contrib-dashbored",
       "version": "1.0.1",
@@ -156,28 +209,6 @@
         "BACnet"
       ],
       "url": "https://flows.nodered.org/node/@bitpoolos/edge-bacnet"
-    },
-    {
-      "id": "node-red-node-email",
-      "version": "1.18.3",
-      "description": "Node-RED nodes to send and receive simple emails.",
-      "updated_at": "2022-12-22T11:40:55.399Z",
-      "types": [
-        "e-mail",
-        "e-mail in",
-        "e-mail mta"
-      ],
-      "keywords": [
-        "node-red",
-        "email",
-        "gmail",
-        "imap",
-        "pop",
-        "smtp",
-        "smtp-server",
-        "mta"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-node-email"
     },
     {
       "id": "@mschaeffler/node-red-dualled",
@@ -5989,36 +6020,6 @@
         "presence"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-ale-rainbow"
-    },
-    {
-      "id": "node-red-contrib-myhome-bticino-v2",
-      "version": "2.2.4",
-      "description": "Control Bticino / Legrand MyHome components from Node-RED",
-      "updated_at": "2022-10-09T17:54:39.259Z",
-      "types": [
-        "myhome-gateway",
-        "myhome-eventsession",
-        "myhome-commandsession",
-        "myhome-light",
-        "__errors__",
-        "myhome-shutter",
-        "__errors__",
-        "myhome-scenario",
-        "myhome-thermo-central",
-        "myhome-thermo-zone"
-      ],
-      "keywords": [
-        "node-red",
-        "BTicino",
-        "Legrand",
-        "MyHome",
-        "OpenWebNet",
-        "OWN",
-        "CEN",
-        "CEN+",
-        "SCS"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-myhome-bticino-v2"
     },
     {
       "id": "node-red-contrib-bsb-lan",
