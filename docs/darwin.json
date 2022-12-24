@@ -1,7 +1,47 @@
 {
   "name": "Catalogue for darwin",
-  "updated_at": "2022-12-24T13:22:17.413Z",
+  "updated_at": "2022-12-24T19:55:57.082Z",
   "modules": [
+    {
+      "id": "@openagents/node-red-contrib-oa-cloud",
+      "version": "0.0.22",
+      "description": "Node-RED nodes for Cloud File Management",
+      "updated_at": "2022-12-24T16:16:45.756Z",
+      "types": [
+        "oa-cloud-copy"
+      ],
+      "keywords": [
+        "node-red",
+        "google",
+        "cloud",
+        "gcs",
+        "openagents",
+        "openconnect"
+      ],
+      "url": "https://flows.nodered.org/node/@openagents/node-red-contrib-oa-cloud"
+    },
+    {
+      "id": "node-red-node-email",
+      "version": "1.18.4",
+      "description": "Node-RED nodes to send and receive simple emails.",
+      "updated_at": "2022-12-24T14:04:47.396Z",
+      "types": [
+        "e-mail",
+        "e-mail in",
+        "e-mail mta"
+      ],
+      "keywords": [
+        "node-red",
+        "email",
+        "gmail",
+        "imap",
+        "pop",
+        "smtp",
+        "smtp-server",
+        "mta"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-node-email"
+    },
     {
       "id": "node-red-contrib-myhome-bticino-v2",
       "version": "2.3.0",
@@ -78,24 +118,6 @@
         "pro"
       ],
       "url": "https://flows.nodered.org/node/hdl-automation-nodered"
-    },
-    {
-      "id": "@openagents/node-red-contrib-oa-cloud",
-      "version": "0.0.21",
-      "description": "Node-RED nodes for Cloud File Management",
-      "updated_at": "2022-12-23T19:59:52.632Z",
-      "types": [
-        "oa-cloud-copy"
-      ],
-      "keywords": [
-        "node-red",
-        "google",
-        "cloud",
-        "gcs",
-        "openagents",
-        "openconnect"
-      ],
-      "url": "https://flows.nodered.org/node/@openagents/node-red-contrib-oa-cloud"
     },
     {
       "id": "node-red-contrib-hikvision-ultimate",
@@ -187,28 +209,6 @@
         "BACnet"
       ],
       "url": "https://flows.nodered.org/node/@bitpoolos/edge-bacnet"
-    },
-    {
-      "id": "node-red-node-email",
-      "version": "1.18.3",
-      "description": "Node-RED nodes to send and receive simple emails.",
-      "updated_at": "2022-12-22T11:40:55.399Z",
-      "types": [
-        "e-mail",
-        "e-mail in",
-        "e-mail mta"
-      ],
-      "keywords": [
-        "node-red",
-        "email",
-        "gmail",
-        "imap",
-        "pop",
-        "smtp",
-        "smtp-server",
-        "mta"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-node-email"
     },
     {
       "id": "@mschaeffler/node-red-dualled",
@@ -12599,6 +12599,27 @@
         "node-red"
       ],
       "url": "https://flows.nodered.org/node/@kjgalr/node-red-plc-next-connector"
+    },
+    {
+      "id": "node-red-contrib-telos-eosio",
+      "version": "1.1.0",
+      "description": "A Node-Red node designed to publish data to Telos or a different eosio blockchain",
+      "updated_at": "2022-05-23T17:15:44.165Z",
+      "types": [
+        "eosio-push",
+        "telos-transfer"
+      ],
+      "keywords": [
+        "telos",
+        "blockchain",
+        "eosio",
+        "iot",
+        "transaction",
+        "action",
+        "node",
+        "node-red"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-telos-eosio"
     },
     {
       "id": "smithtek-node-red-eagleio",
