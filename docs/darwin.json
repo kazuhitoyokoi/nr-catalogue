@@ -1,7 +1,116 @@
 {
   "name": "Catalogue for darwin",
-  "updated_at": "2022-12-26T20:14:51.040Z",
+  "updated_at": "2022-12-27T20:23:20.803Z",
   "modules": [
+    {
+      "id": "@bannsaenger/node-red-contrib-artnet-controller",
+      "version": "0.1.1",
+      "description": "Node-RED node that controls lights via Art-Net. Acts as a Art-Net controller.",
+      "updated_at": "2022-12-27T18:45:57.703Z",
+      "types": [
+        "Art-Net Out",
+        "Art-Net In",
+        "Art-Net Sender",
+        "Art-Net Controller"
+      ],
+      "keywords": [
+        "node-red",
+        "artnet",
+        "art-net",
+        "dmx",
+        "dmxnet",
+        "light"
+      ],
+      "url": "https://flows.nodered.org/node/@bannsaenger/node-red-contrib-artnet-controller"
+    },
+    {
+      "id": "node-red-contrib-iosense-lastdpv2",
+      "version": "1.2.2",
+      "description": "Poll I/O Sense Data, last sensor data point",
+      "updated_at": "2022-12-27T16:23:52.056Z",
+      "types": [],
+      "keywords": [
+        "node-red"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-iosense-lastdpv2"
+    },
+    {
+      "id": "node-red-contrib-tensorflow",
+      "version": "0.4.1",
+      "description": "TensorFlow.js nodes using pre-trained models",
+      "updated_at": "2022-12-27T14:42:27.914Z",
+      "types": [
+        "cocossd",
+        "handpose",
+        "mobilenet",
+        "posenet"
+      ],
+      "keywords": [
+        "node-red",
+        "tensorflow"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-tensorflow"
+    },
+    {
+      "id": "node-red-contrib-virtual-smart-home",
+      "version": "3.0.7",
+      "description": "A Node-RED node that represents a 'virtual device' which can be controlled via Alexa. Requires the virtual smart home skill to be enabled for your Amazon account.",
+      "updated_at": "2022-12-27T11:39:02.703Z",
+      "types": [
+        "vsh-connection",
+        "vsh-virtual-device"
+      ],
+      "keywords": [
+        "Alexa",
+        "Echo",
+        "smart-home",
+        "node-red",
+        "virtual smart home",
+        "virtual device",
+        "vsh"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-virtual-smart-home"
+    },
+    {
+      "id": "node-red-contrib-polkadot",
+      "version": "0.0.11",
+      "description": "Provides a way to interact with a polkadot based chain through the JS client library.",
+      "updated_at": "2022-12-27T08:10:00.680Z",
+      "types": [
+        "client",
+        "chain info",
+        "query state",
+        "transfer",
+        "balance",
+        "transact"
+      ],
+      "keywords": [
+        "node-red",
+        "polkadot",
+        "substrate",
+        "client"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-polkadot"
+    },
+    {
+      "id": "@flexdash/node-red-flexdash",
+      "version": "0.4.132",
+      "description": "Node-RED nodes for the FlexDash dashboard",
+      "updated_at": "2022-12-26T18:29:24.396Z",
+      "types": [
+        "flexdash dashboard",
+        "flexdash tab",
+        "flexdash iframe",
+        "flexdash ctrl",
+        "flexdash dev server"
+      ],
+      "keywords": [
+        "flexdash",
+        "dashboard",
+        "node-red"
+      ],
+      "url": "https://flows.nodered.org/node/@flexdash/node-red-flexdash"
+    },
     {
       "id": "node-red-contrib-dynamic-request-validator",
       "version": "1.1.5",
@@ -71,25 +180,6 @@
         "node-red"
       ],
       "url": "https://flows.nodered.org/node/@flexdash/node-red-fd-corewidgets"
-    },
-    {
-      "id": "@flexdash/node-red-flexdash",
-      "version": "0.4.131",
-      "description": "Node-RED nodes for the FlexDash dashboard",
-      "updated_at": "2022-12-25T19:56:58.312Z",
-      "types": [
-        "flexdash dashboard",
-        "flexdash tab",
-        "flexdash iframe",
-        "flexdash ctrl",
-        "flexdash dev server"
-      ],
-      "keywords": [
-        "flexdash",
-        "dashboard",
-        "node-red"
-      ],
-      "url": "https://flows.nodered.org/node/@flexdash/node-red-flexdash"
     },
     {
       "id": "node-red-contrib-whatsapp-link",
@@ -975,27 +1065,6 @@
         "node-red"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-prediktor-edge-management"
-    },
-    {
-      "id": "@bannsaenger/node-red-contrib-artnet-controller",
-      "version": "0.0.1",
-      "description": "Node-RED node that controls lights via Art-Net. Acts as a Art-Net controller.",
-      "updated_at": "2022-12-16T11:55:06.442Z",
-      "types": [
-        "Art-Net Out",
-        "Art-Net In",
-        "Art-Net Sender",
-        "Art-Net Controller"
-      ],
-      "keywords": [
-        "node-red",
-        "artnet",
-        "art-net",
-        "dmx",
-        "dmxnet",
-        "light"
-      ],
-      "url": "https://flows.nodered.org/node/@bannsaenger/node-red-contrib-artnet-controller"
     },
     {
       "id": "node-red-contrib-axis-com",
@@ -4256,27 +4325,6 @@
       "url": "https://flows.nodered.org/node/node-red-contrib-axis-acs"
     },
     {
-      "id": "node-red-contrib-polkadot",
-      "version": "0.0.9",
-      "description": "Provides a way to interact with a polkadot based chain through the JS client library.",
-      "updated_at": "2022-11-10T14:05:19.947Z",
-      "types": [
-        "client",
-        "chain info",
-        "query state",
-        "transfer",
-        "balance",
-        "transact"
-      ],
-      "keywords": [
-        "node-red",
-        "polkadot",
-        "substrate",
-        "client"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-polkadot"
-    },
-    {
       "id": "node-red-contrib-m-bus",
       "version": "3.0.0",
       "description": "Node-Red node for M-Bus protocol",
@@ -5853,26 +5901,6 @@
       "url": "https://flows.nodered.org/node/node-red-contrib-exec-queue"
     },
     {
-      "id": "node-red-contrib-virtual-smart-home",
-      "version": "3.0.6",
-      "description": "A Node-RED node that represents a 'virtual device' which can be controlled via Alexa. Requires the virtual smart home skill to be enabled for your Amazon account.",
-      "updated_at": "2022-10-13T14:52:44.683Z",
-      "types": [
-        "vsh-connection",
-        "vsh-virtual-device"
-      ],
-      "keywords": [
-        "Alexa",
-        "Echo",
-        "smart-home",
-        "node-red",
-        "virtual smart home",
-        "virtual device",
-        "vsh"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-virtual-smart-home"
-    },
-    {
       "id": "@nd-enerserve/node-red-smartpi",
       "version": "0.1.6",
       "description": "nodes for the smartpi",
@@ -7072,23 +7100,6 @@
         "digital to analog"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-iiot-rpi-mcp4728"
-    },
-    {
-      "id": "node-red-contrib-tensorflow",
-      "version": "0.3.1",
-      "description": "TensorFlow.js nodes using pre-trained models",
-      "updated_at": "2022-09-25T12:59:36.682Z",
-      "types": [
-        "cocossd",
-        "handpose",
-        "mobilenet",
-        "posenet"
-      ],
-      "keywords": [
-        "node-red",
-        "tensorflow"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-tensorflow"
     },
     {
       "id": "node-red-node-ui-lineargauge",
