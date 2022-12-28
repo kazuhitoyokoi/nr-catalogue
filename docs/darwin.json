@@ -1,7 +1,155 @@
 {
   "name": "Catalogue for darwin",
-  "updated_at": "2022-12-27T20:23:20.803Z",
+  "updated_at": "2022-12-28T19:49:31.622Z",
   "modules": [
+    {
+      "id": "node-red-contrib-shelly",
+      "version": "10.12.0",
+      "description": "Shelly nodes.",
+      "updated_at": "2022-12-28T15:55:22.982Z",
+      "types": [
+        "shelly-gen1-server",
+        "shelly-gen1",
+        "shelly-gen2-server",
+        "shelly-gen2",
+        "shelly-cloud-server",
+        "shelly-cloud"
+      ],
+      "keywords": [
+        "node-red",
+        "shelly"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-shelly"
+    },
+    {
+      "id": "node-red-contrib-soundweb",
+      "version": "0.0.3",
+      "description": "A collection of nodes for controlling BSS soundweb devices.",
+      "updated_at": "2022-12-28T15:53:09.371Z",
+      "types": [
+        "soundweb-server",
+        "soundweb-dbGain",
+        "soundweb-percent",
+        "soundweb-variable",
+        "soundweb-parameterPresets"
+      ],
+      "keywords": [
+        "node-red",
+        "BSS",
+        "BLU",
+        "Soundweb",
+        "Harman",
+        "Audio DSP",
+        "Audio Architect",
+        "London Architect"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-soundweb"
+    },
+    {
+      "id": "node-red-contrib-hikvision-ultimate",
+      "version": "1.0.70",
+      "description": "A native set of nodes for Hikvision (and compatible) Cameras, Alarms, Radars, NVR, Doorbells, etc.",
+      "updated_at": "2022-12-28T14:42:48.124Z",
+      "types": [
+        "Hikvision-config",
+        "AXPro-config",
+        "Doorbell-config",
+        "ANPR-config",
+        "hikvisionUltimateText",
+        "hikvisionUltimateAlarm",
+        "hikvisionUltimateAlarmRaw",
+        "hikvisionUltimateANPR",
+        "hikvisionUltimatePTZ",
+        "hikvisionUltimatePicture",
+        "hikvisionUltimateXML",
+        "hikvisionUltimateDoorbell",
+        "hikvisionUltimateAxPro"
+      ],
+      "keywords": [
+        "node-red",
+        "hikvision",
+        "alarm",
+        "camera",
+        "radar",
+        "ANPR",
+        "license plate",
+        "doorbell",
+        "door intercom",
+        "Ax Pro"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-hikvision-ultimate"
+    },
+    {
+      "id": "node-red-contrib-huemagic-fork",
+      "version": "4.2.6",
+      "description": "Philips Hue node to control bridges, lights, groups, scenes, rules, taps, switches, buttons, motion sensors, temperature sensors and Lux sensors using Node-RED.",
+      "updated_at": "2022-12-28T13:09:06.568Z",
+      "types": [
+        "hue-bridge",
+        "hue-bridge-node",
+        "hue-magic",
+        "hue-light",
+        "hue-group",
+        "hue-scene",
+        "hue-buttons",
+        "hue-motion",
+        "hue-temperature",
+        "hue-brightness",
+        "hue-rules"
+      ],
+      "keywords": [
+        "node-red",
+        "node-red-contrib",
+        "contrib",
+        "philips",
+        "hue",
+        "smart-home",
+        "home-automation",
+        "api",
+        "iot"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-huemagic-fork"
+    },
+    {
+      "id": "node-red-contrib-iosense-lastdpv2",
+      "version": "2.1.0",
+      "description": "node-red-contrib-iosense-lastdpv2 ---------------------------------",
+      "updated_at": "2022-12-28T10:41:00.948Z",
+      "types": [],
+      "keywords": [
+        "node-red"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-iosense-lastdpv2"
+    },
+    {
+      "id": "@openagents/node-red-contrib-oa-cloud",
+      "version": "0.0.32",
+      "description": "Node-RED nodes for Cloud File Management",
+      "updated_at": "2022-12-28T02:00:20.582Z",
+      "types": [
+        "oa-cloud-copy"
+      ],
+      "keywords": [
+        "node-red",
+        "google",
+        "cloud",
+        "gcs",
+        "openagents",
+        "openconnect"
+      ],
+      "url": "https://flows.nodered.org/node/@openagents/node-red-contrib-oa-cloud"
+    },
+    {
+      "id": "node-red-contrib-iosense-queryv2",
+      "version": "0.1.0",
+      "description": "node-red-contrib-iosense-queryv2 --------------------------------",
+      "updated_at": "2022-12-28T00:56:03.399Z",
+      "types": [],
+      "keywords": [
+        "node-red"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-iosense-queryv2"
+    },
     {
       "id": "@bannsaenger/node-red-contrib-artnet-controller",
       "version": "0.1.1",
@@ -22,17 +170,6 @@
         "light"
       ],
       "url": "https://flows.nodered.org/node/@bannsaenger/node-red-contrib-artnet-controller"
-    },
-    {
-      "id": "node-red-contrib-iosense-lastdpv2",
-      "version": "1.2.2",
-      "description": "Poll I/O Sense Data, last sensor data point",
-      "updated_at": "2022-12-27T16:23:52.056Z",
-      "types": [],
-      "keywords": [
-        "node-red"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-iosense-lastdpv2"
     },
     {
       "id": "node-red-contrib-tensorflow",
@@ -245,24 +382,6 @@
       "url": "https://flows.nodered.org/node/node-red-contrib-letsfiware-ngsi"
     },
     {
-      "id": "@openagents/node-red-contrib-oa-cloud",
-      "version": "0.0.22",
-      "description": "Node-RED nodes for Cloud File Management",
-      "updated_at": "2022-12-24T16:16:45.756Z",
-      "types": [
-        "oa-cloud-copy"
-      ],
-      "keywords": [
-        "node-red",
-        "google",
-        "cloud",
-        "gcs",
-        "openagents",
-        "openconnect"
-      ],
-      "url": "https://flows.nodered.org/node/@openagents/node-red-contrib-oa-cloud"
-    },
-    {
       "id": "node-red-node-email",
       "version": "1.18.4",
       "description": "Node-RED nodes to send and receive simple emails.",
@@ -360,40 +479,6 @@
         "pro"
       ],
       "url": "https://flows.nodered.org/node/hdl-automation-nodered"
-    },
-    {
-      "id": "node-red-contrib-hikvision-ultimate",
-      "version": "1.0.69",
-      "description": "A native set of nodes for Hikvision (and compatible) Cameras, Alarms, Radars, NVR, Doorbells, etc.",
-      "updated_at": "2022-12-23T16:50:44.734Z",
-      "types": [
-        "Hikvision-config",
-        "AXPro-config",
-        "Doorbell-config",
-        "ANPR-config",
-        "hikvisionUltimateText",
-        "hikvisionUltimateAlarm",
-        "hikvisionUltimateAlarmRaw",
-        "hikvisionUltimateANPR",
-        "hikvisionUltimatePTZ",
-        "hikvisionUltimatePicture",
-        "hikvisionUltimateXML",
-        "hikvisionUltimateDoorbell",
-        "hikvisionUltimateAxPro"
-      ],
-      "keywords": [
-        "node-red",
-        "hikvision",
-        "alarm",
-        "camera",
-        "radar",
-        "ANPR",
-        "license plate",
-        "doorbell",
-        "door intercom",
-        "Ax Pro"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-hikvision-ultimate"
     },
     {
       "id": "@chvdapi/node-red-baiduface",
@@ -1698,25 +1783,6 @@
         "LoRaWan"
       ],
       "url": "https://flows.nodered.org/node/@mschaeffler/node-red-lora"
-    },
-    {
-      "id": "node-red-contrib-shelly",
-      "version": "10.11.0",
-      "description": "Shelly nodes.",
-      "updated_at": "2022-12-08T22:55:35.925Z",
-      "types": [
-        "shelly-gen1-server",
-        "shelly-gen1",
-        "shelly-gen2-server",
-        "shelly-gen2",
-        "shelly-cloud-server",
-        "shelly-cloud"
-      ],
-      "keywords": [
-        "node-red",
-        "shelly"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-shelly"
     },
     {
       "id": "node-red-contrib-wazo-platform",
@@ -3566,37 +3632,6 @@
         "calendar"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-trashschedule"
-    },
-    {
-      "id": "node-red-contrib-huemagic-fork",
-      "version": "4.2.5",
-      "description": "Philips Hue node to control bridges, lights, groups, scenes, rules, taps, switches, buttons, motion sensors, temperature sensors and Lux sensors using Node-RED.",
-      "updated_at": "2022-11-19T19:49:00.200Z",
-      "types": [
-        "hue-bridge",
-        "hue-bridge-node",
-        "hue-magic",
-        "hue-light",
-        "hue-group",
-        "hue-scene",
-        "hue-buttons",
-        "hue-motion",
-        "hue-temperature",
-        "hue-brightness",
-        "hue-rules"
-      ],
-      "keywords": [
-        "node-red",
-        "node-red-contrib",
-        "contrib",
-        "philips",
-        "hue",
-        "smart-home",
-        "home-automation",
-        "api",
-        "iot"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-huemagic-fork"
     },
     {
       "id": "node-red-contrib-alphaess",
