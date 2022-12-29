@@ -1,7 +1,257 @@
 {
   "name": "Catalogue for darwin",
-  "updated_at": "2022-12-28T19:49:31.622Z",
+  "updated_at": "2022-12-29T20:21:09.004Z",
   "modules": [
+    {
+      "id": "node-red-near-protocol",
+      "version": "0.0.2",
+      "description": "Allows to run smart-contract methods on Node RED",
+      "updated_at": "2022-12-29T17:24:27.547Z",
+      "types": [
+        "Near Contract"
+      ],
+      "keywords": [
+        "nodered",
+        "node-red",
+        "near-protocol",
+        "blockchain",
+        "smart-contract"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-near-protocol"
+    },
+    {
+      "id": "node-red-contrib-salus-control",
+      "version": "1.0.5",
+      "description": "Manage and control a salus-it500 device.",
+      "updated_at": "2022-12-29T14:43:06.570Z",
+      "types": [
+        "Retrieve ID and Token",
+        "Set temperature",
+        "Current temperature",
+        "Set Auto",
+        "Heat Status"
+      ],
+      "keywords": [
+        "node-red",
+        "salus",
+        "it500"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-salus-control"
+    },
+    {
+      "id": "@eswarpr/node-red-azure-service-bus",
+      "version": "1.0.6",
+      "description": "A set of Node-RED nodes for sending and receiving messages from Azure Service Bus topics",
+      "updated_at": "2022-12-29T14:05:11.145Z",
+      "types": [
+        "Azure Service Bus - Receive Topic Message",
+        "Azure Service Bus - Send Topic Message"
+      ],
+      "keywords": [
+        "node-red",
+        "azure",
+        "service bus",
+        "topic"
+      ],
+      "url": "https://flows.nodered.org/node/@eswarpr/node-red-azure-service-bus"
+    },
+    {
+      "id": "@alpine-code/node-red-contrib-minio",
+      "version": "0.0.12",
+      "description": "Minio for Node-RED ",
+      "updated_at": "2022-12-29T11:12:04.493Z",
+      "types": [
+        "minio-config",
+        "minio-buckets",
+        "minio-files",
+        "minio-objects",
+        "minio-presigned",
+        "minio-notifications",
+        "minio-policies"
+      ],
+      "keywords": [
+        "node-red",
+        "minio",
+        "s3"
+      ],
+      "url": "https://flows.nodered.org/node/@alpine-code/node-red-contrib-minio"
+    },
+    {
+      "id": "node-red-contrib-semilimes",
+      "version": "1.0.42",
+      "description": "Node-RED semilimes",
+      "updated_at": "2022-12-29T10:01:01.298Z",
+      "types": [
+        "sme-connector",
+        "sme-listener",
+        "sme-sender",
+        "sme-uploader",
+        "sme-bucketcreator",
+        "sme-bucketselector",
+        "sme-bucketupdater",
+        "sme-sshtunnel",
+        "sme-textmessage",
+        "sme-htmlmessage",
+        "sme-filemessage",
+        "sme-calendarmessage",
+        "sme-webviewmessage",
+        "sme-form",
+        "sme-formsubmission",
+        "sme-formsetter",
+        "sme-messageoption",
+        "sme-messagedeleter",
+        "sme-label",
+        "sme-textbox",
+        "sme-buttonlist",
+        "sme-singlechoice",
+        "sme-multichoice",
+        "sme-toggle",
+        "sme-slider",
+        "sme-datepicker",
+        "sme-timepicker",
+        "sme-locationpicker",
+        "sme-photopicker",
+        "sme-filepicker",
+        "sme-contactpicker",
+        "sme-qrscanner",
+        "sme-nfcreader",
+        "sme-conversationpicker"
+      ],
+      "keywords": [
+        "node-red",
+        "semilimes"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-semilimes"
+    },
+    {
+      "id": "node-red-contrib-tensorflow",
+      "version": "0.4.2",
+      "description": "TensorFlow.js nodes using pre-trained models",
+      "updated_at": "2022-12-29T08:34:42.229Z",
+      "types": [
+        "cocossd",
+        "handpose",
+        "mobilenet",
+        "posenet"
+      ],
+      "keywords": [
+        "node-red",
+        "tensorflow"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-tensorflow"
+    },
+    {
+      "id": "node-red-contrib-netatmo-energy",
+      "version": "0.9.2",
+      "description": "A node-red to interact with Netatmo thermostat",
+      "updated_at": "2022-12-29T06:43:48.777Z",
+      "types": [
+        "netatmoconfig",
+        "homesdata",
+        "homestatus",
+        "setthermmode",
+        "setroomthermpoint",
+        "getroommeasure",
+        "switchhomeschedule"
+      ],
+      "keywords": [
+        "node-red",
+        "netatmo",
+        "energy"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-netatmo-energy"
+    },
+    {
+      "id": "@studiobox/node-red-contrib-ui-widget-thermometer",
+      "version": "0.5.4",
+      "description": "Easy to use Node-RED UI Widget on Node-RED Dashboard for display termperature data",
+      "updated_at": "2022-12-29T01:52:53.693Z",
+      "types": [
+        "ui_widget_thermometer"
+      ],
+      "keywords": [
+        "node-red",
+        "node-red-dashboard",
+        "ui-widget",
+        "dashboard-ui",
+        "widget-thermometer",
+        "ui-widget-thermometer",
+        "thermometer",
+        "widget",
+        "temperature"
+      ],
+      "url": "https://flows.nodered.org/node/@studiobox/node-red-contrib-ui-widget-thermometer"
+    },
+    {
+      "id": "node-red-contrib-persistent-fsm",
+      "version": "1.2.1",
+      "description": "A Node Red node for implementing a finite state machine.",
+      "updated_at": "2022-12-29T00:48:23.950Z",
+      "types": [
+        "state-machine"
+      ],
+      "keywords": [
+        "node-red",
+        "iot",
+        "state machine",
+        "finite state machine",
+        "state",
+        "transition"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-persistent-fsm"
+    },
+    {
+      "id": "node-red-contrib-tplink",
+      "version": "1.0.1",
+      "description": "A collection of Node-RED nodes for TP-Link smart-home devices.",
+      "updated_at": "2022-12-28T20:05:45.476Z",
+      "types": [
+        "kasa"
+      ],
+      "keywords": [
+        "node-red",
+        "tplink",
+        "tp-link",
+        "kasa",
+        "iot",
+        "hs100",
+        "hs105",
+        "hs107",
+        "hs110",
+        "hs200",
+        "hs220",
+        "hs300",
+        "kp303",
+        "kp400",
+        "lb100",
+        "lb110",
+        "lb120",
+        "lb130",
+        "lb200",
+        "lb230",
+        "home",
+        "smart",
+        "smartplug",
+        "smartswitch",
+        "smartbulb"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-tplink"
+    },
+    {
+      "id": "@vital91/node-red-contrib-ecowatt",
+      "version": "0.1.1",
+      "description": "A sample node to get RTE EcoWatt forcast",
+      "updated_at": "2022-12-28T18:08:31.031Z",
+      "types": [
+        "ecowatt"
+      ],
+      "keywords": [
+        "ecowatt",
+        "RTE",
+        "node-red"
+      ],
+      "url": "https://flows.nodered.org/node/@vital91/node-red-contrib-ecowatt"
+    },
     {
       "id": "node-red-contrib-shelly",
       "version": "10.12.0",
@@ -170,23 +420,6 @@
         "light"
       ],
       "url": "https://flows.nodered.org/node/@bannsaenger/node-red-contrib-artnet-controller"
-    },
-    {
-      "id": "node-red-contrib-tensorflow",
-      "version": "0.4.1",
-      "description": "TensorFlow.js nodes using pre-trained models",
-      "updated_at": "2022-12-27T14:42:27.914Z",
-      "types": [
-        "cocossd",
-        "handpose",
-        "mobilenet",
-        "posenet"
-      ],
-      "keywords": [
-        "node-red",
-        "tensorflow"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-tensorflow"
     },
     {
       "id": "node-red-contrib-virtual-smart-home",
@@ -8736,27 +8969,6 @@
       "url": "https://flows.nodered.org/node/node-red-contrib-kore-whatsappbot"
     },
     {
-      "id": "node-red-contrib-netatmo-energy",
-      "version": "0.9.1",
-      "description": "A node-red to interact with Netatmo thermostat",
-      "updated_at": "2022-08-26T16:48:52.734Z",
-      "types": [
-        "netatmoconfig",
-        "homesdata",
-        "homestatus",
-        "setthermmode",
-        "setroomthermpoint",
-        "getroommeasure",
-        "switchhomeschedule"
-      ],
-      "keywords": [
-        "node-red",
-        "netatmo",
-        "energy"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-netatmo-energy"
-    },
-    {
       "id": "node-red-contrib-amqp2-test",
       "version": "1.0.14",
       "description": "testing creating a configurable amqp out node",
@@ -9302,53 +9514,6 @@
         "watt prices"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-nordpool-api-plus"
-    },
-    {
-      "id": "node-red-contrib-semilimes",
-      "version": "1.0.41",
-      "description": "Node-RED semilimes",
-      "updated_at": "2022-08-15T13:13:41.065Z",
-      "types": [
-        "sme-connector",
-        "sme-listener",
-        "sme-sender",
-        "sme-uploader",
-        "sme-bucketcreator",
-        "sme-bucketselector",
-        "sme-bucketupdater",
-        "sme-sshtunnel",
-        "sme-textmessage",
-        "sme-htmlmessage",
-        "sme-filemessage",
-        "sme-calendarmessage",
-        "sme-webviewmessage",
-        "sme-form",
-        "sme-formsubmission",
-        "sme-formsetter",
-        "sme-messageoption",
-        "sme-messagedeleter",
-        "sme-label",
-        "sme-textbox",
-        "sme-buttonlist",
-        "sme-singlechoice",
-        "sme-multichoice",
-        "sme-toggle",
-        "sme-slider",
-        "sme-datepicker",
-        "sme-timepicker",
-        "sme-locationpicker",
-        "sme-photopicker",
-        "sme-filepicker",
-        "sme-contactpicker",
-        "sme-qrscanner",
-        "sme-nfcreader",
-        "sme-conversationpicker"
-      ],
-      "keywords": [
-        "node-red",
-        "semilimes"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-semilimes"
     },
     {
       "id": "@gapit/node-red-contrib-gapit-snmp",
@@ -13781,24 +13946,6 @@
       "url": "https://flows.nodered.org/node/@juraj336/node-red-buffer-xlsx"
     },
     {
-      "id": "node-red-contrib-persistent-fsm",
-      "version": "1.2.0",
-      "description": "A Node Red node for implementing a finite state machine.",
-      "updated_at": "2022-05-07T18:41:01.830Z",
-      "types": [
-        "state-machine"
-      ],
-      "keywords": [
-        "node-red",
-        "iot",
-        "state machine",
-        "finite state machine",
-        "state",
-        "transition"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-persistent-fsm"
-    },
-    {
       "id": "node-red-little-ha-wechat",
       "version": "1.0.0",
       "description": "使用微信公众号控制Home Assistant里的智能设备",
@@ -15619,27 +15766,6 @@
       "url": "https://flows.nodered.org/node/@studiobox/node-red-contrib-ui-widget-humidity-tree"
     },
     {
-      "id": "@studiobox/node-red-contrib-ui-widget-thermometer",
-      "version": "0.5.3",
-      "description": "Easy to use Node-RED UI Widget on Node-RED Dashboard for display termperature data",
-      "updated_at": "2022-03-31T16:40:38.680Z",
-      "types": [
-        "ui_widget_thermometer"
-      ],
-      "keywords": [
-        "node-red",
-        "node-red-dashboard",
-        "ui-widget",
-        "dashboard-ui",
-        "widget-thermometer",
-        "ui-widget-thermometer",
-        "thermometer",
-        "widget",
-        "temperature"
-      ],
-      "url": "https://flows.nodered.org/node/@studiobox/node-red-contrib-ui-widget-thermometer"
-    },
-    {
       "id": "node-red-contrib-mm-ws",
       "version": "1.1.2",
       "description": "adds Node to listen to all events on a mattermost websocket for a user by Personal Access Token adds Node to send messages with attachments support",
@@ -16433,24 +16559,6 @@
         "node-red"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-gira-endpoint"
-    },
-    {
-      "id": "node-red-contrib-salus-control",
-      "version": "1.0.3",
-      "description": "Manage and control a salus-it500 device.",
-      "updated_at": "2022-03-04T20:58:43.374Z",
-      "types": [
-        "Retrieve ID and Token",
-        "Set temperature",
-        "Current temperature",
-        "Set Auto"
-      ],
-      "keywords": [
-        "node-red",
-        "salus",
-        "it500"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-salus-control"
     },
     {
       "id": "node-red-contrib-tetronik-daks-iot",
@@ -19622,204 +19730,6 @@
         "mysql"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-mysql2"
-    },
-    {
-      "id": "@alpine-code/node-red-contrib-rabbitmq-bus",
-      "version": "0.1.4",
-      "description": "RabbitMQ Bus for Node-RED ",
-      "updated_at": "2021-12-27T14:31:42.664Z",
-      "types": [
-        "rabbitmq-bus-config",
-        "rabbitmq-bus-emit",
-        "rabbitmq-bus-on",
-        "rabbitmq-bus-on-ack"
-      ],
-      "keywords": [
-        "node-red",
-        "rabbitmq"
-      ],
-      "url": "https://flows.nodered.org/node/@alpine-code/node-red-contrib-rabbitmq-bus"
-    },
-    {
-      "id": "@alpine-code/node-red-contrib-minio",
-      "version": "0.0.10",
-      "description": "Minio for Node-RED ",
-      "updated_at": "2021-12-27T14:31:42.429Z",
-      "types": [
-        "minio-config",
-        "minio-buckets",
-        "minio-files",
-        "minio-objects",
-        "minio-presigned",
-        "minio-notifications",
-        "minio-policies"
-      ],
-      "keywords": [
-        "node-red",
-        "minio",
-        "s3"
-      ],
-      "url": "https://flows.nodered.org/node/@alpine-code/node-red-contrib-minio"
-    },
-    {
-      "id": "@alpine-code/node-red-contrib-zeebe",
-      "version": "0.7.8",
-      "description": "Zeebe nodes for Node-RED ",
-      "updated_at": "2021-12-27T14:31:41.987Z",
-      "types": [
-        "zeebe",
-        "process-instance",
-        "task-worker",
-        "complete-task",
-        "message",
-        "start-message",
-        "deploy"
-      ],
-      "keywords": [
-        "node-red",
-        "zeebe",
-        "camunda",
-        "bpmn",
-        "workflow",
-        "microservice"
-      ],
-      "url": "https://flows.nodered.org/node/@alpine-code/node-red-contrib-zeebe"
-    },
-    {
-      "id": "@alpine-code/node-red-contrib-salesforce",
-      "version": "1.0.4",
-      "description": "Salesforce for Node-RED ",
-      "updated_at": "2021-12-27T14:31:40.919Z",
-      "types": [
-        "salesforce-config",
-        "salesforce-operation",
-        "salesforce-apex",
-        "salesforce-chatter",
-        "salesforce-stream"
-      ],
-      "keywords": [
-        "node-red",
-        "salesforce",
-        "jsforce"
-      ],
-      "url": "https://flows.nodered.org/node/@alpine-code/node-red-contrib-salesforce"
-    },
-    {
-      "id": "@alpine-code/node-red-contrib-papertrail",
-      "version": "0.3.6",
-      "description": "Papertrail for Node-RED ",
-      "updated_at": "2021-12-27T14:31:40.857Z",
-      "types": [
-        "papertrail-config",
-        "papertrail-log"
-      ],
-      "keywords": [
-        "node-red",
-        "papertrail"
-      ],
-      "url": "https://flows.nodered.org/node/@alpine-code/node-red-contrib-papertrail"
-    },
-    {
-      "id": "@alpine-code/node-red-contrib-graphql",
-      "version": "0.1.4",
-      "description": "graphql for Node-RED ",
-      "updated_at": "2021-12-27T14:31:40.832Z",
-      "types": [
-        "graphql-config",
-        "graphql-query",
-        "graphql-mutate",
-        "graphql-subscribe"
-      ],
-      "keywords": [
-        "node-red",
-        "graphql"
-      ],
-      "url": "https://flows.nodered.org/node/@alpine-code/node-red-contrib-graphql"
-    },
-    {
-      "id": "@alpine-code/node-red-contrib-camunda",
-      "version": "2.2.10",
-      "description": "Camunda for Node-RED ",
-      "updated_at": "2021-12-27T14:31:39.914Z",
-      "types": [
-        "camunda-config",
-        "camunda-task-worker",
-        "camunda-complete-task",
-        "camunda-workflow-instance",
-        "camunda-publish-message",
-        "camunda-variables-helper",
-        "camunda-deploy"
-      ],
-      "keywords": [
-        "node-red",
-        "camunda",
-        "bpmn",
-        "workflow",
-        "microservice"
-      ],
-      "url": "https://flows.nodered.org/node/@alpine-code/node-red-contrib-camunda"
-    },
-    {
-      "id": "@alpine-code/node-red-contrib-logtail",
-      "version": "1.0.5",
-      "description": "Logtail for Node-RED ",
-      "updated_at": "2021-12-27T14:31:39.180Z",
-      "types": [
-        "logtail-config",
-        "logtail-log"
-      ],
-      "keywords": [
-        "node-red",
-        "logtail"
-      ],
-      "url": "https://flows.nodered.org/node/@alpine-code/node-red-contrib-logtail"
-    },
-    {
-      "id": "@alpine-code/node-red-contrib-aws-ses",
-      "version": "0.0.5",
-      "description": "AWS SES for Node-RED ",
-      "updated_at": "2021-12-27T14:31:38.289Z",
-      "types": [
-        "aws-ses-config",
-        "aws-ses-send"
-      ],
-      "keywords": [
-        "node-red",
-        "aws-ses"
-      ],
-      "url": "https://flows.nodered.org/node/@alpine-code/node-red-contrib-aws-ses"
-    },
-    {
-      "id": "@alpine-code/node-red-contrib-google",
-      "version": "0.0.8",
-      "description": "Google for Node-RED ",
-      "updated_at": "2021-12-27T14:31:38.146Z",
-      "types": [
-        "google-config",
-        "google-operation"
-      ],
-      "keywords": [
-        "node-red",
-        "google"
-      ],
-      "url": "https://flows.nodered.org/node/@alpine-code/node-red-contrib-google"
-    },
-    {
-      "id": "@alpine-code/node-red-contrib-google-cloud",
-      "version": "0.0.3",
-      "description": "Google Cloud for Node-RED ",
-      "updated_at": "2021-12-27T14:31:38.080Z",
-      "types": [
-        "google-cloud-config",
-        "google-cloud-bigquery-create-dataset",
-        "google-cloud-bigquery-list-datasets",
-        "google-cloud-bigquery-insert-rows"
-      ],
-      "keywords": [
-        "node-red",
-        "google-cloud"
-      ],
-      "url": "https://flows.nodered.org/node/@alpine-code/node-red-contrib-google-cloud"
     },
     {
       "id": "node-red-contrib-ikea-tradfri",
@@ -37281,43 +37191,6 @@
       "url": "https://flows.nodered.org/node/node-red-contrib-ina-sensor"
     },
     {
-      "id": "node-red-contrib-tplink",
-      "version": "1.0.0",
-      "description": "A collection of Node-RED nodes for TP-Link smart-home devices.",
-      "updated_at": "2020-09-13T16:23:01.804Z",
-      "types": [
-        "kasa"
-      ],
-      "keywords": [
-        "node-red",
-        "tplink",
-        "tp-link",
-        "kasa",
-        "iot",
-        "hs100",
-        "hs105",
-        "hs107",
-        "hs110",
-        "hs200",
-        "hs220",
-        "hs300",
-        "kp303",
-        "kp400",
-        "lb100",
-        "lb110",
-        "lb120",
-        "lb130",
-        "lb200",
-        "lb230",
-        "home",
-        "smart",
-        "smartplug",
-        "smartswitch",
-        "smartbulb"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-tplink"
-    },
-    {
       "id": "node-red-contrib-alibabacloud",
       "version": "0.2.0",
       "description": "Alibaba cloud (aliyun) nodes for Node-RED",
@@ -53629,6 +53502,157 @@
         "automation"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-avr-pioneer"
+    },
+    {
+      "id": "node-red-contrib-talib",
+      "version": "0.0.8",
+      "description": "TA-Lib nodes for node-RED",
+      "updated_at": "2019-02-02T15:45:58.131Z",
+      "types": [
+        "AD",
+        "ADOSC",
+        "ADX",
+        "ADXR",
+        "APO",
+        "AROON",
+        "AROONOSC",
+        "ATR",
+        "AVGPRICE",
+        "BBANDS",
+        "BETA",
+        "BOP",
+        "CCI",
+        "CDL2CROWS",
+        "CDL3BLACKCROWS",
+        "CDL3INSIDE",
+        "CDL3LINESTRIKE",
+        "CDL3OUTSIDE",
+        "CDL3STARSINSOUTH",
+        "CDL3WHITESOLDIERS",
+        "CDLABANDONEDBABY",
+        "CDLADVANCEBLOCK",
+        "CDLBELTHOLD",
+        "CDLBREAKAWAY",
+        "CDLCLOSINGMARUBOZU",
+        "CDLCONCEALBABYSWALL",
+        "CDLCOUNTERATTACK",
+        "CDLDARKCLOUDCOVER",
+        "CDLDOJI",
+        "CDLDOJISTAR",
+        "CDLDRAGONFLYDOJI",
+        "CDLENGULFING",
+        "CDLEVENINGDOJISTAR",
+        "CDLEVENINGSTAR",
+        "CDLGAPSIDESIDEWHITE",
+        "CDLGRAVESTONEDOJI",
+        "CDLHAMMER",
+        "CDLHANGINGMAN",
+        "CDLHARAMI",
+        "CDLHARAMICROSS",
+        "CDLHIGHWAVE",
+        "CDLHIKKAKE",
+        "CDLHIKKAKEMOD",
+        "CDLHOMINGPIGEON",
+        "CDLIDENTICAL3CROWS",
+        "CDLINNECK",
+        "CDLINVERTEDHAMMER",
+        "CDLKICKING",
+        "CDLKICKINGBYLENGTH",
+        "CDLLADDERBOTTOM",
+        "CDLLONGLEGGEDDOJI",
+        "CDLLONGLINE",
+        "CDLMARUBOZU",
+        "CDLMATCHINGLOW",
+        "CDLMATHOLD",
+        "CDLMORNINGDOJISTAR",
+        "CDLMORNINGSTAR",
+        "CDLONNECK",
+        "CDLPIERCING",
+        "CDLRICKSHAWMAN",
+        "CDLRISEFALL3METHODS",
+        "CDLSEPARATINGLINES",
+        "CDLSHOOTINGSTAR",
+        "CDLSHORTLINE",
+        "CDLSPINNINGTOP",
+        "CDLSTALLEDPATTERN",
+        "CDLSTICKSANDWICH",
+        "CDLTAKURI",
+        "CDLTASUKIGAP",
+        "CDLTHRUSTING",
+        "CDLTRISTAR",
+        "CDLUNIQUE3RIVER",
+        "CDLUPSIDEGAP2CROWS",
+        "CDLXSIDEGAP3METHODS",
+        "CMO",
+        "CORREL",
+        "DEMA",
+        "DX",
+        "EMA",
+        "HT_DCPERIOD",
+        "HT_DCPHASE",
+        "HT_PHASOR",
+        "HT_SINE",
+        "HT_TRENDLINE",
+        "HT_TRENDMODE",
+        "KAMA",
+        "LINEARREG",
+        "LINEARREG_ANGLE",
+        "LINEARREG_INTERCEPT",
+        "LINEARREG_SLOPE",
+        "MA",
+        "MACD",
+        "MACDEXT",
+        "MACDFIX",
+        "MAMA",
+        "MAX",
+        "MAXINDEX",
+        "MEDPRICE",
+        "MFI",
+        "MIDPOINT",
+        "MIDPRICE",
+        "MIN",
+        "MININDEX",
+        "MINMAX",
+        "MINMAXINDEX",
+        "MINUS_DI",
+        "MINUS_DM",
+        "MOM",
+        "NATR",
+        "OBV",
+        "PLUS_DI",
+        "PLUS_DM",
+        "PPO",
+        "ROC",
+        "ROCP",
+        "ROCR",
+        "ROCR100",
+        "RSI",
+        "SAR",
+        "SAREXT",
+        "SMA",
+        "STDDEV",
+        "STOCH",
+        "STOCHF",
+        "STOCHRSI",
+        "SUM",
+        "T3",
+        "TEMA",
+        "TRANGE",
+        "TRIX",
+        "TSF",
+        "TYPPRICE",
+        "ULTOSC",
+        "VAR",
+        "WCLPRICE",
+        "WILLR",
+        "WMA"
+      ],
+      "keywords": [
+        "node-red",
+        "TA-Lib",
+        "trading"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-talib"
     },
     {
       "id": "ncd-red-ads7828",
