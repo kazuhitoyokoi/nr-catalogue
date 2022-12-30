@@ -1,15 +1,17 @@
 {
   "name": "Catalogue for docker",
-  "updated_at": "2022-12-29T16:30:31.474Z",
+  "updated_at": "2022-12-30T16:18:03.427Z",
   "modules": [
     {
       "id": "@eswarpr/node-red-azure-service-bus",
-      "version": "1.0.6",
-      "description": "A set of Node-RED nodes for sending and receiving messages from Azure Service Bus topics",
-      "updated_at": "2022-12-29T14:05:11.145Z",
+      "version": "1.0.11",
+      "description": "A set of Node-RED nodes for sending and receiving messages from Azure Service Bus topics and queues",
+      "updated_at": "2022-12-30T13:13:49.797Z",
       "types": [
+        "Azure Service Bus - Send Topic Message",
+        "Azure Service Bus - Send Queue Message",
         "Azure Service Bus - Receive Topic Message",
-        "Azure Service Bus - Send Topic Message"
+        "Azure Service Bus - Receive Queue Message"
       ],
       "keywords": [
         "node-red",
@@ -18,6 +20,170 @@
         "topic"
       ],
       "url": "https://flows.nodered.org/node/@eswarpr/node-red-azure-service-bus"
+    },
+    {
+      "id": "@teemill/node-red-custom-product",
+      "version": "1.0.1",
+      "description": "This node connects Node-RED to the Teemill API, and enables you to create a flow that will take any image then put it on a t-shirt. The Node accepts images in Base64 format and will return a custom product URL where people can buy that image on a real pro",
+      "updated_at": "2022-12-30T13:04:23.225Z",
+      "types": [
+        "custom product"
+      ],
+      "keywords": [
+        "node-red"
+      ],
+      "url": "https://flows.nodered.org/node/@teemill/node-red-custom-product"
+    },
+    {
+      "id": "node-red-contrib-discovergy-meter",
+      "version": "0.7.3",
+      "description": "Allows to work with a Discovergy Smart Meter (Electricity only) within Node RED flows",
+      "updated_at": "2022-12-30T11:45:31.268Z",
+      "types": [
+        "discovergy-config",
+        "Discovergy Meter",
+        "Available Meters"
+      ],
+      "keywords": [
+        "discovergy",
+        "smartmeter",
+        "corrently",
+        "isms",
+        "stromzähler",
+        "node-red",
+        "electricitymeter",
+        "easymeter",
+        "powermeter",
+        "energyprice",
+        "strompreis"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-discovergy-meter"
+    },
+    {
+      "id": "node-red-contrib-twitter-2.0",
+      "version": "1.1.3",
+      "description": "NodeRED nodes to wrap the v1.1 of the Twitter API",
+      "updated_at": "2022-12-30T11:21:24.898Z",
+      "types": [
+        "twitter-search",
+        "twitter-favorite",
+        "twitter-retweet",
+        "twitter-user",
+        "twitter-client"
+      ],
+      "keywords": [
+        "node-red",
+        "contrib-twitter",
+        "twitter",
+        "redconnect"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-twitter-2.0"
+    },
+    {
+      "id": "node-red-contrib-soundweb",
+      "version": "0.0.4",
+      "description": "A collection of nodes for controlling BSS soundweb devices.",
+      "updated_at": "2022-12-30T02:04:50.723Z",
+      "types": [
+        "soundweb-server",
+        "soundweb-dbGain",
+        "soundweb-percent",
+        "soundweb-variable",
+        "soundweb-parameterPresets"
+      ],
+      "keywords": [
+        "node-red",
+        "BSS",
+        "BLU",
+        "Soundweb",
+        "Harman",
+        "Audio DSP",
+        "Audio Architect",
+        "London Architect"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-soundweb"
+    },
+    {
+      "id": "node-red-contrib-letsfiware-ngsi",
+      "version": "0.5.0",
+      "description": "Node-RED implementation for FIWARE Open APIs",
+      "updated_at": "2022-12-30T01:49:53.613Z",
+      "types": [
+        "NGSI Entity",
+        "NGSI source",
+        "NGSI Batch update",
+        "NGSI subscription",
+        "NGSI GTFS Realtime",
+        "NGSI to worldmap",
+        "FIWARE version",
+        "Open APIs"
+      ],
+      "keywords": [
+        "node-red",
+        "contrib",
+        "fiware",
+        "ngsi",
+        "context",
+        "process",
+        "data",
+        "json"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-letsfiware-ngsi"
+    },
+    {
+      "id": "node-red-contrib-google-smarthome",
+      "version": "0.4.2",
+      "description": "Lets you control Node-Red via Google Assistant or the Google Home App",
+      "updated_at": "2022-12-29T22:46:16.037Z",
+      "types": [
+        "googlesmarthome-client",
+        "google-mgmt",
+        "google-device"
+      ],
+      "keywords": [
+        "google",
+        "smarthome",
+        "assistant",
+        "iot",
+        "node-red"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-google-smarthome"
+    },
+    {
+      "id": "node-red-near-protocol",
+      "version": "0.0.2",
+      "description": "Allows to run smart-contract methods on Node RED",
+      "updated_at": "2022-12-29T17:24:27.547Z",
+      "types": [
+        "Near Contract"
+      ],
+      "keywords": [
+        "nodered",
+        "node-red",
+        "near-protocol",
+        "blockchain",
+        "smart-contract"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-near-protocol"
+    },
+    {
+      "id": "node-red-contrib-salus-control",
+      "version": "1.0.5",
+      "description": "Manage and control a salus-it500 device.",
+      "updated_at": "2022-12-29T14:43:06.570Z",
+      "types": [
+        "Retrieve ID and Token",
+        "Set temperature",
+        "Current temperature",
+        "Set Auto",
+        "Heat Status"
+      ],
+      "keywords": [
+        "node-red",
+        "salus",
+        "it500"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-salus-control"
     },
     {
       "id": "@alpine-code/node-red-contrib-minio",
@@ -103,25 +269,6 @@
         "tensorflow"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-tensorflow"
-    },
-    {
-      "id": "node-red-contrib-salus-control",
-      "version": "1.0.4",
-      "description": "Manage and control a salus-it500 device.",
-      "updated_at": "2022-12-29T07:58:43.079Z",
-      "types": [
-        "Retrieve ID and Token",
-        "Set temperature",
-        "Current temperature",
-        "Set Auto",
-        "Heat Status"
-      ],
-      "keywords": [
-        "node-red",
-        "salus",
-        "it500"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-salus-control"
     },
     {
       "id": "node-red-contrib-netatmo-energy",
@@ -253,30 +400,6 @@
         "shelly"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-shelly"
-    },
-    {
-      "id": "node-red-contrib-soundweb",
-      "version": "0.0.3",
-      "description": "A collection of nodes for controlling BSS soundweb devices.",
-      "updated_at": "2022-12-28T15:53:09.371Z",
-      "types": [
-        "soundweb-server",
-        "soundweb-dbGain",
-        "soundweb-percent",
-        "soundweb-variable",
-        "soundweb-parameterPresets"
-      ],
-      "keywords": [
-        "node-red",
-        "BSS",
-        "BLU",
-        "Soundweb",
-        "Harman",
-        "Audio DSP",
-        "Audio Architect",
-        "London Architect"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-soundweb"
     },
     {
       "id": "node-red-contrib-hikvision-ultimate",
@@ -569,33 +692,6 @@
         "websocket"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-home-assistant-websocket"
-    },
-    {
-      "id": "node-red-contrib-letsfiware-ngsi",
-      "version": "0.4.0",
-      "description": "Node-RED implementation for FIWARE Open APIs",
-      "updated_at": "2022-12-25T07:06:25.878Z",
-      "types": [
-        "NGSI Entity",
-        "NGSI source",
-        "NGSI Batch update",
-        "NGSI subscription",
-        "NGSI GTFS Realtime",
-        "NGSI to worldmap",
-        "FIWARE version",
-        "Open APIs"
-      ],
-      "keywords": [
-        "node-red",
-        "contrib",
-        "fiware",
-        "ngsi",
-        "context",
-        "process",
-        "data",
-        "json"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-letsfiware-ngsi"
     },
     {
       "id": "node-red-node-email",
@@ -1027,25 +1123,6 @@
         "node-red"
       ],
       "url": "https://flows.nodered.org/node/@yuliqi/node-red-mydb"
-    },
-    {
-      "id": "node-red-contrib-google-smarthome",
-      "version": "0.4.1",
-      "description": "Lets you control Node-Red via Google Assistant or the Google Home App",
-      "updated_at": "2022-12-18T18:09:52.839Z",
-      "types": [
-        "googlesmarthome-client",
-        "google-mgmt",
-        "google-device"
-      ],
-      "keywords": [
-        "google",
-        "smarthome",
-        "assistant",
-        "iot",
-        "node-red"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-google-smarthome"
     },
     {
       "id": "node-red-contrib-uibuilder",
@@ -8810,31 +8887,6 @@
       "url": "https://flows.nodered.org/node/node-red-contrib-google-analytics-ga"
     },
     {
-      "id": "node-red-contrib-discovergy-meter",
-      "version": "0.7.2",
-      "description": "Allows to work with a Discovergy Smart Meter (Electricity only) within Node RED flows",
-      "updated_at": "2022-08-29T23:30:46.997Z",
-      "types": [
-        "discovergy-config",
-        "Discovergy Meter",
-        "Available Meters"
-      ],
-      "keywords": [
-        "discovergy",
-        "smartmeter",
-        "corrently",
-        "isms",
-        "stromzähler",
-        "node-red",
-        "electricitymeter",
-        "easymeter",
-        "powermeter",
-        "energyprice",
-        "strompreis"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-discovergy-meter"
-    },
-    {
       "id": "node-red-contrib-mclient-c1",
       "version": "1.0.0",
       "description": "Fullfillment Client for MCore",
@@ -13320,6 +13372,27 @@
         "timing"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-timed-counter"
+    },
+    {
+      "id": "node-red-contrib-switch-break",
+      "version": "1.0.2",
+      "description": "A Node-RED denial of traffic service",
+      "updated_at": "2022-05-11T04:05:13.342Z",
+      "types": [
+        "break director",
+        "break actor"
+      ],
+      "keywords": [
+        "node",
+        "node-red",
+        "sensor",
+        "switch",
+        "halt",
+        "break",
+        "traffic",
+        "state-machine"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-switch-break"
     },
     {
       "id": "node-red-contrib-suncron",
@@ -33057,27 +33130,6 @@
         "handlebarsjs"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-handlebarsjs"
-    },
-    {
-      "id": "node-red-contrib-switch-break",
-      "version": "1.0.1",
-      "description": "A Node-RED denial of traffic service",
-      "updated_at": "2021-01-07T19:44:20.801Z",
-      "types": [
-        "break director",
-        "break actor"
-      ],
-      "keywords": [
-        "node",
-        "node-red",
-        "sensor",
-        "switch",
-        "halt",
-        "break",
-        "traffic",
-        "state-machine"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-switch-break"
     },
     {
       "id": "node-red-contrib-ams-decoder",
