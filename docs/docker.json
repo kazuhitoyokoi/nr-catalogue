@@ -1,7 +1,133 @@
 {
   "name": "Catalogue for docker",
-  "updated_at": "2022-12-30T16:18:03.427Z",
+  "updated_at": "2022-12-31T16:20:16.424Z",
   "modules": [
+    {
+      "id": "node-red-contrib-twitter-2.0",
+      "version": "1.1.5",
+      "description": "NodeRED nodes to wrap the v1.1 of the Twitter API",
+      "updated_at": "2022-12-31T14:03:33.707Z",
+      "types": [
+        "twitter-search",
+        "twitter-favorite",
+        "twitter-retweet",
+        "twitter-user",
+        "twitter-client"
+      ],
+      "keywords": [
+        "node-red",
+        "contrib-twitter",
+        "twitter",
+        "redconnect"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-twitter-2.0"
+    },
+    {
+      "id": "node-red-contrib-web-worldmap",
+      "version": "2.32.2",
+      "description": "A Node-RED node to provide a web page of a world map for plotting things on.",
+      "updated_at": "2022-12-31T13:58:57.705Z",
+      "types": [
+        "worldmap",
+        "ui_worldmap",
+        "worldmap in",
+        "worldmap-tracks",
+        "worldmap-hull"
+      ],
+      "keywords": [
+        "node-red",
+        "map",
+        "world"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-web-worldmap"
+    },
+    {
+      "id": "node-red-dashboard",
+      "version": "3.3.0",
+      "description": "A set of dashboard nodes for Node-RED",
+      "updated_at": "2022-12-31T13:41:46.762Z",
+      "types": [
+        "ui_base",
+        "ui_button",
+        "ui_dropdown",
+        "ui_switch",
+        "ui_slider",
+        "ui_numeric",
+        "ui_text_input",
+        "ui_date_picker",
+        "ui_colour_picker",
+        "ui_form",
+        "ui_text",
+        "ui_gauge",
+        "ui_chart",
+        "ui_audio",
+        "ui_toast",
+        "ui_ui_control",
+        "ui_template",
+        "ui_link",
+        "ui_tab",
+        "ui_group",
+        "ui_spacer"
+      ],
+      "keywords": [
+        "node-red"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-dashboard"
+    },
+    {
+      "id": "nr-ipfs",
+      "version": "0.5.0",
+      "description": "IPFS Nodes for Node-RED Event Automation",
+      "updated_at": "2022-12-31T01:43:21.984Z",
+      "types": [
+        "ipfs-get",
+        "ipfs-add",
+        "ipfs-config"
+      ],
+      "keywords": [
+        "ipfs",
+        "node-red",
+        "stromdao",
+        "tydids"
+      ],
+      "url": "https://flows.nodered.org/node/nr-ipfs"
+    },
+    {
+      "id": "node-red-contrib-obix-niagara-connector",
+      "version": "3.0.0",
+      "description": "Connector from Niagara to Node-Red using Obix",
+      "updated_at": "2022-12-30T22:08:38.626Z",
+      "types": [
+        "Niagara Obix Connector",
+        "Niagara Obix History",
+        "Niagara Obix Variable",
+        "Niagara Obix Watcher"
+      ],
+      "keywords": [
+        "node-red",
+        "Tridium",
+        "Niagara",
+        "Obix"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-obix-niagara-connector"
+    },
+    {
+      "id": "node-red-contrib-unifi",
+      "version": "0.2.11",
+      "description": "Node for Node-RED to connect to a UniFi Controller ",
+      "updated_at": "2022-12-30T22:05:47.308Z",
+      "types": [
+        "unificonfig",
+        "Unifi"
+      ],
+      "keywords": [
+        "node-red",
+        "unifi",
+        "ubnt",
+        "Ubiquiti Networks"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-unifi"
+    },
     {
       "id": "@eswarpr/node-red-azure-service-bus",
       "version": "1.0.11",
@@ -58,26 +184,6 @@
         "strompreis"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-discovergy-meter"
-    },
-    {
-      "id": "node-red-contrib-twitter-2.0",
-      "version": "1.1.3",
-      "description": "NodeRED nodes to wrap the v1.1 of the Twitter API",
-      "updated_at": "2022-12-30T11:21:24.898Z",
-      "types": [
-        "twitter-search",
-        "twitter-favorite",
-        "twitter-retweet",
-        "twitter-user",
-        "twitter-client"
-      ],
-      "keywords": [
-        "node-red",
-        "contrib-twitter",
-        "twitter",
-        "redconnect"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-twitter-2.0"
     },
     {
       "id": "node-red-contrib-soundweb",
@@ -1670,25 +1776,6 @@
         "turf"
       ],
       "url": "https://flows.nodered.org/node/red-contrib-turf-module"
-    },
-    {
-      "id": "node-red-contrib-web-worldmap",
-      "version": "2.32.0",
-      "description": "A Node-RED node to provide a web page of a world map for plotting things on.",
-      "updated_at": "2022-12-13T14:41:35.175Z",
-      "types": [
-        "worldmap",
-        "ui_worldmap",
-        "worldmap in",
-        "worldmap-tracks",
-        "worldmap-hull"
-      ],
-      "keywords": [
-        "node-red",
-        "map",
-        "world"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-web-worldmap"
     },
     {
       "id": "node-red-contrib-chunks-to-lines",
@@ -3344,39 +3431,6 @@
         "node-red"
       ],
       "url": "https://flows.nodered.org/node/@flowforge/nr-tools-plugin"
-    },
-    {
-      "id": "node-red-dashboard",
-      "version": "3.2.3",
-      "description": "A set of dashboard nodes for Node-RED",
-      "updated_at": "2022-11-23T19:08:37.182Z",
-      "types": [
-        "ui_base",
-        "ui_button",
-        "ui_dropdown",
-        "ui_switch",
-        "ui_slider",
-        "ui_numeric",
-        "ui_text_input",
-        "ui_date_picker",
-        "ui_colour_picker",
-        "ui_form",
-        "ui_text",
-        "ui_gauge",
-        "ui_chart",
-        "ui_audio",
-        "ui_toast",
-        "ui_ui_control",
-        "ui_template",
-        "ui_link",
-        "ui_tab",
-        "ui_group",
-        "ui_spacer"
-      ],
-      "keywords": [
-        "node-red"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-dashboard"
     },
     {
       "id": "node-red-contrib-smartnora",
@@ -8389,23 +8443,6 @@
         "Keras"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-fv-detection-nodes"
-    },
-    {
-      "id": "node-red-contrib-unifi",
-      "version": "0.2.9",
-      "description": "Node for Node-RED to connect to a UniFi Controller ",
-      "updated_at": "2022-09-07T19:04:12.740Z",
-      "types": [
-        "unificonfig",
-        "Unifi"
-      ],
-      "keywords": [
-        "node-red",
-        "unifi",
-        "ubnt",
-        "Ubiquiti Networks"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-unifi"
     },
     {
       "id": "@pizzaprogram/mcp-pcf-aio",
@@ -23990,25 +24027,6 @@
         "sferalabs"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-sfera-labs-iono-pi"
-    },
-    {
-      "id": "node-red-contrib-obix-niagara-connector",
-      "version": "2.0.4",
-      "description": "Connector from Niagara to Node-Red using Obix",
-      "updated_at": "2021-08-26T13:54:06.352Z",
-      "types": [
-        "Niagara Obix Connector",
-        "Niagara Obix History",
-        "Niagara Obix Variable",
-        "Niagara Obix Watcher"
-      ],
-      "keywords": [
-        "node-red",
-        "Tridium",
-        "Niagara",
-        "Obix"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-obix-niagara-connector"
     },
     {
       "id": "sqlite-plugin-red",
