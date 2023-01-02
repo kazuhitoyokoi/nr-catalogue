@@ -1,17 +1,100 @@
 {
   "name": "Catalogue for verified nodes",
-  "updated_at": "2023-01-01T19:50:16.920Z",
+  "updated_at": "2023-01-02T20:18:51.867Z",
   "modules": [
     {
+      "id": "node-red-contrib-letsfiware-ngsi",
+      "version": "0.6.0",
+      "description": "Node-RED implementation for FIWARE Open APIs",
+      "updated_at": "2023-01-02T12:43:40.475Z",
+      "types": [
+        "NGSI Entity",
+        "NGSI source",
+        "NGSI Batch update",
+        "NGSI subscription",
+        "NGSI GTFS Realtime",
+        "NGSI to worldmap",
+        "FIWARE version",
+        "Open APIs"
+      ],
+      "keywords": [
+        "node-red",
+        "contrib",
+        "fiware",
+        "ngsi",
+        "context",
+        "process",
+        "data",
+        "json"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-letsfiware-ngsi"
+    },
+    {
+      "id": "node-red-contrib-ui-upload",
+      "version": "0.6.0",
+      "description": "Node-RED Dashboard UI widget node for uploading a file content by Socket.io streaming",
+      "updated_at": "2023-01-02T10:34:59.482Z",
+      "types": [],
+      "keywords": [
+        "upload",
+        "backpressure",
+        "websocket",
+        "ui",
+        "dashboard",
+        "node-red",
+        "node-red-contrib",
+        "node-red-ui",
+        "nodered"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-ui-upload"
+    },
+    {
+      "id": "node-red-contrib-ui-artless-gauge",
+      "version": "0.3.12",
+      "description": "A Node-RED dashboard ui node. Gauge with minimal design",
+      "updated_at": "2023-01-02T10:24:06.937Z",
+      "types": [
+        "ui_artlessgauge"
+      ],
+      "keywords": [
+        "node-red",
+        "gauge",
+        "dashboard"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-ui-artless-gauge"
+    },
+    {
+      "id": "node-red-contrib-coap",
+      "version": "0.8.0",
+      "description": "CoAP support in Node-RED",
+      "updated_at": "2023-01-02T08:42:24.898Z",
+      "types": [
+        "coap-server",
+        "coap in",
+        "coap response",
+        "coap request"
+      ],
+      "keywords": [
+        "node-red",
+        "node-red-contrib",
+        "iot",
+        "coap",
+        "udp",
+        "cbor"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-coap"
+    },
+    {
       "id": "node-red-contrib-whatsapp-link",
-      "version": "0.1.28",
+      "version": "0.1.28-B",
       "description": "Node to send and receive whatsapp chats and group messages. | No third party APIs",
-      "updated_at": "2023-01-01T13:37:14.927Z",
+      "updated_at": "2023-01-01T16:39:46.756Z",
       "types": [
         "admin",
         "chats-in",
         "chats-out",
         "group-out",
+        "reply",
         "whatsappLink"
       ],
       "keywords": [
@@ -247,33 +330,6 @@
         "London Architect"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-soundweb"
-    },
-    {
-      "id": "node-red-contrib-letsfiware-ngsi",
-      "version": "0.5.0",
-      "description": "Node-RED implementation for FIWARE Open APIs",
-      "updated_at": "2022-12-30T01:49:53.613Z",
-      "types": [
-        "NGSI Entity",
-        "NGSI source",
-        "NGSI Batch update",
-        "NGSI subscription",
-        "NGSI GTFS Realtime",
-        "NGSI to worldmap",
-        "FIWARE version",
-        "Open APIs"
-      ],
-      "keywords": [
-        "node-red",
-        "contrib",
-        "fiware",
-        "ngsi",
-        "context",
-        "process",
-        "data",
-        "json"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-letsfiware-ngsi"
     },
     {
       "id": "node-red-contrib-google-smarthome",
@@ -12818,25 +12874,6 @@
       "url": "https://flows.nodered.org/node/wangyuefeng-contrib-ha-wechat"
     },
     {
-      "id": "node-red-contrib-ui-upload",
-      "version": "0.5.2",
-      "description": "Node-RED Dashboard UI widget node for uploading a file content by Socket.io streaming",
-      "updated_at": "2022-05-19T19:02:40.513Z",
-      "types": [],
-      "keywords": [
-        "upload",
-        "backpressure",
-        "websocket",
-        "ui",
-        "dashboard",
-        "node-red",
-        "node-red-contrib",
-        "node-red-ui",
-        "nodered"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-ui-upload"
-    },
-    {
       "id": "@objectiveinternational/node-red-node-azure-service-bus",
       "version": "1.0.0",
       "description": "A node-red node for posting messages to an Azure Service Bus using the @azure/service-bus library",
@@ -13126,27 +13163,6 @@
         "node-red"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-mongodb-singleton"
-    },
-    {
-      "id": "node-red-contrib-coap",
-      "version": "0.7.6",
-      "description": "CoAP support in Node-RED",
-      "updated_at": "2022-05-11T14:14:57.823Z",
-      "types": [
-        "coap-server",
-        "coap in",
-        "coap response",
-        "coap request"
-      ],
-      "keywords": [
-        "node-red",
-        "node-red-contrib",
-        "iot",
-        "coap",
-        "udp",
-        "cbor"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-coap"
     },
     {
       "id": "node-red-contrib-wsjt-x",
@@ -27751,21 +27767,6 @@
         "nlp"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-nlp"
-    },
-    {
-      "id": "node-red-contrib-ui-artless-gauge",
-      "version": "0.3.11",
-      "description": "A Node-RED dashboard ui node. Gauge with minimal design",
-      "updated_at": "2021-04-28T15:54:30.110Z",
-      "types": [
-        "ui_artlessgauge"
-      ],
-      "keywords": [
-        "node-red",
-        "gauge",
-        "dashboard"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-ui-artless-gauge"
     },
     {
       "id": "node-red-contrib-rewinder",
