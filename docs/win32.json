@@ -1,12 +1,12 @@
 {
   "name": "Catalogue for win32",
-  "updated_at": "2023-01-04T19:20:12.128Z",
+  "updated_at": "2023-01-05T18:42:36.707Z",
   "modules": [
     {
       "id": "@digitalnodecom/node-red-contrib-generic-s3",
-      "version": "1.1.1",
+      "version": "1.3.0",
       "description": "Generic node-red S3 nodes",
-      "updated_at": "2023-01-04T13:31:36.276Z",
+      "updated_at": "2023-01-05T14:33:33.054Z",
       "types": [
         "client-s3",
         "List Buckets",
@@ -23,6 +23,108 @@
         "generic"
       ],
       "url": "https://flows.nodered.org/node/@digitalnodecom/node-red-contrib-generic-s3"
+    },
+    {
+      "id": "node-red-near-protocol",
+      "version": "1.0.0",
+      "description": "Allows to run Near Protocol blockchain smart-contract methods on Node RED",
+      "updated_at": "2023-01-05T09:40:03.851Z",
+      "types": [
+        "Near Contract",
+        "Contract Method"
+      ],
+      "keywords": [
+        "nodered",
+        "node-red",
+        "near-protocol",
+        "blockchain",
+        "smart-contract"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-near-protocol"
+    },
+    {
+      "id": "node-red-mocknode",
+      "version": "0.1.4",
+      "description": "A Node-RED node to create a mock by mockjs",
+      "updated_at": "2023-01-05T06:35:31.919Z",
+      "types": [
+        "mocknode"
+      ],
+      "keywords": [
+        "node-red",
+        "data-generator",
+        "mockjs",
+        "json",
+        "mock"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-mocknode"
+    },
+    {
+      "id": "node-red-contrib-deconz",
+      "version": "2.3.9",
+      "description": "deCONZ connectivity nodes for node-red",
+      "updated_at": "2023-01-04T22:09:10.060Z",
+      "types": [
+        "deconz-api",
+        "deconz-input",
+        "deconz-get",
+        "deconz-output",
+        "deconz-event",
+        "deconz-battery",
+        "deconz-server"
+      ],
+      "keywords": [
+        "deconz",
+        "drezden",
+        "conbee",
+        "node-red"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-deconz"
+    },
+    {
+      "id": "node-red-contrib-soundweb",
+      "version": "1.0.1",
+      "description": "A collection of nodes for controlling BSS soundweb devices.",
+      "updated_at": "2023-01-04T20:42:01.471Z",
+      "types": [
+        "soundweb-server",
+        "soundweb-dbGain",
+        "soundweb-percent",
+        "soundweb-discrete",
+        "soundweb-scalarLinear",
+        "soundweb-delay",
+        "soundweb-frequency",
+        "soundweb-speed",
+        "soundweb-venuePresets",
+        "soundweb-parameterPresets",
+        "soundweb-variable"
+      ],
+      "keywords": [
+        "node-red",
+        "BSS",
+        "BLU",
+        "Soundweb",
+        "Harman",
+        "Audio DSP",
+        "Audio Architect",
+        "London Architect"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-soundweb"
+    },
+    {
+      "id": "node-red-contrib-graphql",
+      "version": "2.1.2",
+      "description": "A Node-RED node to make GraphQL calls",
+      "updated_at": "2023-01-04T19:12:49.377Z",
+      "types": [
+        "graphql-server",
+        "graphql"
+      ],
+      "keywords": [
+        "node-red",
+        "graphql"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-graphql"
     },
     {
       "id": "node-red-contrib-socketio-extended",
@@ -127,21 +229,6 @@
         "node-red"
       ],
       "url": "https://flows.nodered.org/node/@flexdash/node-red-fd-corewidgets"
-    },
-    {
-      "id": "node-red-contrib-graphql",
-      "version": "2.1.1",
-      "description": "A Node-RED node to make GraphQL calls",
-      "updated_at": "2023-01-03T22:18:57.589Z",
-      "types": [
-        "graphql-server",
-        "graphql"
-      ],
-      "keywords": [
-        "node-red",
-        "graphql"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-graphql"
     },
     {
       "id": "node-red-contrib-web-worldmap",
@@ -261,36 +348,6 @@
         "powersaver"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-genetic-charging-strategy"
-    },
-    {
-      "id": "node-red-contrib-soundweb",
-      "version": "1.0.0",
-      "description": "A collection of nodes for controlling BSS soundweb devices.",
-      "updated_at": "2023-01-03T00:06:29.259Z",
-      "types": [
-        "soundweb-server",
-        "soundweb-dbGain",
-        "soundweb-percent",
-        "soundweb-discrete",
-        "soundweb-scalarLinear",
-        "soundweb-delay",
-        "soundweb-frequency",
-        "soundweb-speed",
-        "soundweb-venuePresets",
-        "soundweb-parameterPresets",
-        "soundweb-variable"
-      ],
-      "keywords": [
-        "node-red",
-        "BSS",
-        "BLU",
-        "Soundweb",
-        "Harman",
-        "Audio DSP",
-        "Audio Architect",
-        "London Architect"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-soundweb"
     },
     {
       "id": "node-red-contrib-ra-bizwechat",
@@ -586,23 +643,6 @@
         "node-red"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-google-smarthome"
-    },
-    {
-      "id": "node-red-near-protocol",
-      "version": "0.0.2",
-      "description": "Allows to run smart-contract methods on Node RED",
-      "updated_at": "2022-12-29T17:24:27.547Z",
-      "types": [
-        "Near Contract"
-      ],
-      "keywords": [
-        "nodered",
-        "node-red",
-        "near-protocol",
-        "blockchain",
-        "smart-contract"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-near-protocol"
     },
     {
       "id": "node-red-contrib-salus-control",
@@ -1064,6 +1104,19 @@
       "url": "https://flows.nodered.org/node/node-red-contrib-data-table-viewer"
     },
     {
+      "id": "node-red-contrib-1wire",
+      "version": "0.0.2",
+      "description": "A Node-RED node to read a 1-wire temperature sensor",
+      "updated_at": "2022-12-25T13:53:21.726Z",
+      "types": [
+        "1-Wire"
+      ],
+      "keywords": [
+        "node-red"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-1wire"
+    },
+    {
       "id": "node-red-contrib-home-assistant-websocket",
       "version": "0.48.0",
       "description": "Node-RED integration with Home Assistant through websocket and REST API",
@@ -1329,28 +1382,6 @@
         "oscm"
       ],
       "url": "https://flows.nodered.org/node/@oscm/node-red-contrib-oscm-socketio"
-    },
-    {
-      "id": "node-red-contrib-deconz",
-      "version": "2.3.8",
-      "description": "deCONZ connectivity nodes for node-red",
-      "updated_at": "2022-12-21T17:31:49.320Z",
-      "types": [
-        "deconz-api",
-        "deconz-input",
-        "deconz-get",
-        "deconz-output",
-        "deconz-event",
-        "deconz-battery",
-        "deconz-server"
-      ],
-      "keywords": [
-        "deconz",
-        "drezden",
-        "conbee",
-        "node-red"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-deconz"
     },
     {
       "id": "node-red-contrib-log-elk-chemical-ai",
@@ -72103,19 +72134,6 @@
         "webservices"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-route-parser"
-    },
-    {
-      "id": "node-red-contrib-1wire",
-      "version": "0.0.1",
-      "description": "A Node-RED node to read a 1-wire temperature sensor",
-      "updated_at": "2015-03-16T16:08:54.364Z",
-      "types": [
-        "1-Wire"
-      ],
-      "keywords": [
-        "node-red"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-1wire"
     },
     {
       "id": "node-red-contrib-sparkcore",
