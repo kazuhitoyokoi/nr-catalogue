@@ -1,47 +1,87 @@
 {
   "name": "Catalogue for docker",
-  "updated_at": "2023-01-05T16:22:00.387Z",
+  "updated_at": "2023-01-06T16:27:31.498Z",
   "modules": [
     {
-      "id": "node-red-near-protocol",
-      "version": "1.0.0",
-      "description": "Allows to run Near Protocol blockchain smart-contract methods on Node RED",
-      "updated_at": "2023-01-05T09:40:03.851Z",
+      "id": "@equans/smart-buildings-occupancy",
+      "version": "2.1.0",
+      "description": "Node-Red block for occupancy strategy",
+      "updated_at": "2023-01-06T13:51:13.639Z",
       "types": [
-        "Near Contract",
-        "Contract Method"
+        "Occupancy Strategy"
       ],
       "keywords": [
-        "nodered",
-        "node-red",
-        "near-protocol",
-        "blockchain",
-        "smart-contract"
+        "node-red"
       ],
-      "url": "https://flows.nodered.org/node/node-red-near-protocol"
+      "url": "https://flows.nodered.org/node/@equans/smart-buildings-occupancy"
     },
     {
-      "id": "node-red-mocknode",
-      "version": "0.1.4",
-      "description": "A Node-RED node to create a mock by mockjs",
-      "updated_at": "2023-01-05T06:35:31.919Z",
+      "id": "node-red-contrib-meross",
+      "version": "2.2.1",
+      "description": "This provides nodes for controlling Meross devices.",
+      "updated_at": "2023-01-06T12:51:03.890Z",
       "types": [
-        "mocknode"
+        "meross-config",
+        "smartplug-control",
+        "smartgarage-control"
       ],
       "keywords": [
         "node-red",
-        "data-generator",
-        "mockjs",
-        "json",
-        "mock"
+        "meross"
       ],
-      "url": "https://flows.nodered.org/node/node-red-mocknode"
+      "url": "https://flows.nodered.org/node/node-red-contrib-meross"
+    },
+    {
+      "id": "ghgnotary",
+      "version": "0.5.1",
+      "description": "Node-RED Nodes to work with a Greenhouse Gas notary service for certification of emission events (like charging sessions) or metered readings.",
+      "updated_at": "2023-01-06T12:50:36.461Z",
+      "types": [
+        "event-notary",
+        "metered-notary",
+        "certificates",
+        "present",
+        "presentations",
+        "remembervp",
+        "signer",
+        "validator",
+        "statistics",
+        "wallet-config"
+      ],
+      "keywords": [
+        "greenhousegas",
+        "tydids",
+        "ghg",
+        "certification",
+        "emissions",
+        "stromdao",
+        "idideal",
+        "node-red"
+      ],
+      "url": "https://flows.nodered.org/node/ghgnotary"
+    },
+    {
+      "id": "node-red-contrib-unifi",
+      "version": "0.2.12",
+      "description": "Node for Node-RED to connect to a UniFi Controller ",
+      "updated_at": "2023-01-06T12:27:54.934Z",
+      "types": [
+        "unificonfig",
+        "Unifi"
+      ],
+      "keywords": [
+        "node-red",
+        "unifi",
+        "ubnt",
+        "Ubiquiti Networks"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-unifi"
     },
     {
       "id": "@digitalnodecom/node-red-contrib-generic-s3",
-      "version": "1.2.1",
+      "version": "1.3.1",
       "description": "Generic node-red S3 nodes",
-      "updated_at": "2023-01-05T02:26:43.198Z",
+      "updated_at": "2023-01-06T11:49:46.904Z",
       "types": [
         "client-s3",
         "List Buckets",
@@ -58,6 +98,73 @@
         "generic"
       ],
       "url": "https://flows.nodered.org/node/@digitalnodecom/node-red-contrib-generic-s3"
+    },
+    {
+      "id": "node-red-contrib-sonos-events",
+      "version": "1.2.0",
+      "description": "A single Node-RED node to handle SONOS events in a local network.",
+      "updated_at": "2023-01-06T10:41:15.161Z",
+      "types": [
+        "sonosevents-selection",
+        "sonosevents-config"
+      ],
+      "keywords": [
+        "sonos",
+        "node-red",
+        "music",
+        "events",
+        "node-red-contrib-sonos-events"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-sonos-events"
+    },
+    {
+      "id": "node-red-near-protocol",
+      "version": "1.0.1",
+      "description": "Allows to run Near Protocol blockchain smart-contract methods on Node RED",
+      "updated_at": "2023-01-06T05:57:59.537Z",
+      "types": [
+        "Near Contract",
+        "Contract Method"
+      ],
+      "keywords": [
+        "nodered",
+        "node-red",
+        "near-protocol",
+        "blockchain",
+        "smart-contract"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-near-protocol"
+    },
+    {
+      "id": "node-red-contrib-cb-arp",
+      "version": "1.0.0",
+      "description": "This node provides the content of the ARP table",
+      "updated_at": "2023-01-05T19:55:37.958Z",
+      "types": [
+        "arp"
+      ],
+      "keywords": [
+        "node-red",
+        "arp"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-cb-arp"
+    },
+    {
+      "id": "node-red-mocknode",
+      "version": "0.1.6",
+      "description": "A Node-RED node to gen Data by mockjs",
+      "updated_at": "2023-01-05T08:03:32.059Z",
+      "types": [
+        "mocknode"
+      ],
+      "keywords": [
+        "node-red",
+        "data-generator",
+        "mockjs",
+        "json",
+        "mock"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-mocknode"
     },
     {
       "id": "node-red-contrib-deconz",
@@ -281,6 +388,24 @@
         "node-red"
       ],
       "url": "https://flows.nodered.org/node/node-red-dashboard"
+    },
+    {
+      "id": "node-red-contrib-homebridge-automation",
+      "version": "0.1.4",
+      "description": "NodeRED Automation for HomeBridge",
+      "updated_at": "2023-01-03T15:23:29.185Z",
+      "types": [
+        "hb-conf",
+        "hb-event",
+        "hb-resume",
+        "hb-status",
+        "hb-control"
+      ],
+      "keywords": [
+        "node-red",
+        "HomeBridge"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-homebridge-automation"
     },
     {
       "id": "node-red-contrib-onstar2",
@@ -572,23 +697,6 @@
         "Obix"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-obix-niagara-connector"
-    },
-    {
-      "id": "node-red-contrib-unifi",
-      "version": "0.2.11",
-      "description": "Node for Node-RED to connect to a UniFi Controller ",
-      "updated_at": "2022-12-30T22:05:47.308Z",
-      "types": [
-        "unificonfig",
-        "Unifi"
-      ],
-      "keywords": [
-        "node-red",
-        "unifi",
-        "ubnt",
-        "Ubiquiti Networks"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-unifi"
     },
     {
       "id": "@eswarpr/node-red-azure-service-bus",
@@ -1599,22 +1707,6 @@
         "bot"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-telegrambot-home"
-    },
-    {
-      "id": "node-red-contrib-meross",
-      "version": "2.1.0",
-      "description": "This provides nodes for controlling Meross devices.",
-      "updated_at": "2022-12-17T16:19:37.587Z",
-      "types": [
-        "meross-config",
-        "smartplug-control",
-        "smartgarage-control"
-      ],
-      "keywords": [
-        "node-red",
-        "meross"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-meross"
     },
     {
       "id": "@kevingodell/node-red-ffmpeg",
@@ -7948,20 +8040,6 @@
       "url": "https://flows.nodered.org/node/@node-red-contrib-themes/theme-collection"
     },
     {
-      "id": "node-red-contrib-cb-arp",
-      "version": "0.1.1",
-      "description": "This node provides the content of the ARP table",
-      "updated_at": "2022-09-21T15:41:52.459Z",
-      "types": [
-        "arp"
-      ],
-      "keywords": [
-        "node-red",
-        "arp"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-cb-arp"
-    },
-    {
       "id": "node-red-contrib-klower-case",
       "version": "1.1.0",
       "description": "i2r test program",
@@ -11027,19 +11105,6 @@
       "url": "https://flows.nodered.org/node/node-red-contrib-bcrypt"
     },
     {
-      "id": "@equans/smart-buildings-occupancy",
-      "version": "2.0.0",
-      "description": "Node-Red block for occupancy strategy",
-      "updated_at": "2022-07-15T15:21:31.280Z",
-      "types": [
-        "Occupancy Sensing"
-      ],
-      "keywords": [
-        "node-red"
-      ],
-      "url": "https://flows.nodered.org/node/@equans/smart-buildings-occupancy"
-    },
-    {
       "id": "node-red-contrib-get-oura-data",
       "version": "1.6.2",
       "description": "Get client data from Oura API",
@@ -11345,24 +11410,6 @@
         "manager"
       ],
       "url": "https://flows.nodered.org/node/kdbx-red"
-    },
-    {
-      "id": "node-red-contrib-sonos-events",
-      "version": "1.1.0",
-      "description": "A single Node-RED node to handle SONOS events in a local network.",
-      "updated_at": "2022-07-03T19:17:59.268Z",
-      "types": [
-        "sonosevents-selection",
-        "sonosevents-config"
-      ],
-      "keywords": [
-        "sonos",
-        "node-red",
-        "music",
-        "events",
-        "node-red-contrib-sonos-events"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-sonos-events"
     },
     {
       "id": "node-red-contrib-prib-functions",
@@ -14196,6 +14243,22 @@
         "xlsx"
       ],
       "url": "https://flows.nodered.org/node/@juraj336/node-red-buffer-xlsx"
+    },
+    {
+      "id": "keyble-nodered",
+      "version": "0.3.0",
+      "description": "Node-RED nodes for controlling eQ-3 eqiva bluetooth smart locks",
+      "updated_at": "2022-05-07T06:23:50.576Z",
+      "types": [],
+      "keywords": [
+        "eqiva",
+        "eq-3",
+        "key-ble",
+        "keyble",
+        "node-red",
+        "smart lock"
+      ],
+      "url": "https://flows.nodered.org/node/keyble-nodered"
     },
     {
       "id": "node-red-little-ha-wechat",
@@ -28052,24 +28115,6 @@
         "convert"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-sox-utils"
-    },
-    {
-      "id": "node-red-contrib-homebridge-automation",
-      "version": "0.0.85",
-      "description": "NodeRED Automation for HomeBridge",
-      "updated_at": "2021-05-01T14:14:52.920Z",
-      "types": [
-        "hb-conf",
-        "hb-event",
-        "hb-resume",
-        "hb-status",
-        "hb-control"
-      ],
-      "keywords": [
-        "node-red",
-        "HomeBridge"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-homebridge-automation"
     },
     {
       "id": "node-red-contrib-io23",
