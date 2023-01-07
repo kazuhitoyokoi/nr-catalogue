@@ -1,7 +1,160 @@
 {
   "name": "Catalogue for verified nodes",
-  "updated_at": "2023-01-06T20:18:07.339Z",
+  "updated_at": "2023-01-07T19:31:03.357Z",
   "modules": [
+    {
+      "id": "node-red-contrib-sonos-plus",
+      "version": "6.4.2",
+      "description": "A set of Node-RED nodes to control SONOS player in your local network.",
+      "updated_at": "2023-01-07T13:25:46.583Z",
+      "types": [
+        "sonos-config",
+        "sonos-manage-mysonos",
+        "sonos-universal"
+      ],
+      "keywords": [
+        "sonos",
+        "node-red",
+        "music",
+        "node-red-contrib-sonos-plus"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-sonos-plus"
+    },
+    {
+      "id": "node-red-near-protocol",
+      "version": "1.0.2",
+      "description": "Allows to run Near Protocol blockchain smart-contract methods on Node RED",
+      "updated_at": "2023-01-07T08:06:46.686Z",
+      "types": [
+        "Near Contract",
+        "Contract Method"
+      ],
+      "keywords": [
+        "nodered",
+        "node-red",
+        "near-protocol",
+        "blockchain",
+        "smart-contract"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-near-protocol"
+    },
+    {
+      "id": "@gorootde/node-red-grist",
+      "version": "1.0.3",
+      "description": "getgrist.com connectivity for NodeRed",
+      "updated_at": "2023-01-07T02:35:41.878Z",
+      "types": [
+        "grist-records",
+        "grist-document",
+        "grist-server"
+      ],
+      "keywords": [
+        "node-red",
+        "grist"
+      ],
+      "url": "https://flows.nodered.org/node/@gorootde/node-red-grist"
+    },
+    {
+      "id": "node-red-contrib-simple-webdriver",
+      "version": "0.2.2",
+      "description": "SimpleWebdriver nodes for Node-RED initially based on node-red-contrib-selenium-wd2",
+      "updated_at": "2023-01-06T20:35:45.560Z",
+      "types": [
+        "click on",
+        "close browser",
+        "find element",
+        "get attribute",
+        "get cookie",
+        "get text",
+        "get title",
+        "get value",
+        "navigate",
+        "open browser",
+        "run script",
+        "screenshot",
+        "send keys",
+        "set attribute",
+        "set cookie",
+        "set value",
+        "switch frame",
+        "__errors__"
+      ],
+      "keywords": [
+        "node-red",
+        "selenium",
+        "simple-webdriver",
+        "webdriver",
+        "RPA",
+        "chromedriver",
+        "geckodriver"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-simple-webdriver"
+    },
+    {
+      "id": "node-red-contrib-ale-rainbow",
+      "version": "1.82.5",
+      "description": "Alcatel-Lucent Enterprise Rainbow Nodes for Node Red",
+      "updated_at": "2023-01-06T17:33:52.557Z",
+      "types": [
+        "Login",
+        "Send_IM",
+        "Notified_IM",
+        "Notified_Event",
+        "event-select",
+        "Notified_IM_Read",
+        "Ack_IM_Read",
+        "Notified_Presence",
+        "Set_Presence",
+        "CnxState",
+        "Send_Channel",
+        "Notified_Channel",
+        "Rainbow_function"
+      ],
+      "keywords": [
+        "node-red",
+        "rainbow",
+        "cloud",
+        "IoT",
+        "IM",
+        "chat",
+        "presence"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-ale-rainbow"
+    },
+    {
+      "id": "node-red-contrib-aw365-jwt-token",
+      "version": "1.0.4",
+      "description": "creates a jwt token from msg.body and msg.secret",
+      "updated_at": "2023-01-06T16:15:27.922Z",
+      "types": [
+        "aw365-jwt-token"
+      ],
+      "keywords": [
+        "node-red",
+        "aw365",
+        "jwt",
+        "jwt-token"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-aw365-jwt-token"
+    },
+    {
+      "id": "node-red-contrib-sonos-events",
+      "version": "1.2.1",
+      "description": "A single Node-RED node to handle SONOS events in a local network.",
+      "updated_at": "2023-01-06T16:00:52.229Z",
+      "types": [
+        "sonosevents-selection",
+        "sonosevents-config"
+      ],
+      "keywords": [
+        "sonos",
+        "node-red",
+        "music",
+        "events",
+        "node-red-contrib-sonos-events"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-sonos-events"
+    },
     {
       "id": "@equans/smart-buildings-occupancy",
       "version": "2.1.0",
@@ -98,42 +251,6 @@
         "generic"
       ],
       "url": "https://flows.nodered.org/node/@digitalnodecom/node-red-contrib-generic-s3"
-    },
-    {
-      "id": "node-red-contrib-sonos-events",
-      "version": "1.2.0",
-      "description": "A single Node-RED node to handle SONOS events in a local network.",
-      "updated_at": "2023-01-06T10:41:15.161Z",
-      "types": [
-        "sonosevents-selection",
-        "sonosevents-config"
-      ],
-      "keywords": [
-        "sonos",
-        "node-red",
-        "music",
-        "events",
-        "node-red-contrib-sonos-events"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-sonos-events"
-    },
-    {
-      "id": "node-red-near-protocol",
-      "version": "1.0.1",
-      "description": "Allows to run Near Protocol blockchain smart-contract methods on Node RED",
-      "updated_at": "2023-01-06T05:57:59.537Z",
-      "types": [
-        "Near Contract",
-        "Contract Method"
-      ],
-      "keywords": [
-        "nodered",
-        "node-red",
-        "near-protocol",
-        "blockchain",
-        "smart-contract"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-near-protocol"
     },
     {
       "id": "node-red-contrib-cb-arp",
@@ -1396,6 +1513,30 @@
       "url": "https://flows.nodered.org/node/@bitpoolos/edge-bacnet"
     },
     {
+      "id": "node-red-contrib-ale-iot-hub",
+      "version": "0.0.23",
+      "description": "Alcatel-Lucent Enterprise IOT HUB Nodes for Node Red",
+      "updated_at": "2022-12-22T10:47:56.660Z",
+      "types": [
+        "iot-hub-client",
+        "iot in",
+        "__errors__",
+        "iot out",
+        "__errors__",
+        "iot function"
+      ],
+      "keywords": [
+        "node-red",
+        "rainbow",
+        "cloud",
+        "IoT",
+        "IM",
+        "chat",
+        "presence"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-ale-iot-hub"
+    },
+    {
       "id": "@mschaeffler/node-red-dualled",
       "version": "1.1.1",
       "description": "control dual (CCT) LEDs.",
@@ -1952,30 +2093,6 @@
         "gpt"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-dotnsf-gpt"
-    },
-    {
-      "id": "node-red-contrib-ale-iot-hub",
-      "version": "0.0.22",
-      "description": "Alcatel-Lucent Enterprise IOT HUB Nodes for Node Red",
-      "updated_at": "2022-12-15T13:09:59.291Z",
-      "types": [
-        "iot-hub-client",
-        "iot in",
-        "__errors__",
-        "iot out",
-        "__errors__",
-        "iot function"
-      ],
-      "keywords": [
-        "node-red",
-        "rainbow",
-        "cloud",
-        "IoT",
-        "IM",
-        "chat",
-        "presence"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-ale-iot-hub"
     },
     {
       "id": "@definy/node-red",
@@ -2672,39 +2789,6 @@
         "nodejs"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-etriopenapi"
-    },
-    {
-      "id": "node-red-contrib-simple-webdriver",
-      "version": "0.2.1",
-      "description": "SimpleWebdriver nodes for Node-RED initially based on node-red-contrib-selenium-wd2",
-      "updated_at": "2022-12-07T21:13:52.951Z",
-      "types": [
-        "click on",
-        "close browser",
-        "find element",
-        "get attribute",
-        "get cookie",
-        "get text",
-        "get title",
-        "get value",
-        "navigate",
-        "open browser",
-        "run script",
-        "screenshot",
-        "send keys",
-        "set attribute",
-        "set cookie",
-        "set value",
-        "switch frame",
-        "__errors__"
-      ],
-      "keywords": [
-        "node-red",
-        "selenium",
-        "simple-webdriver",
-        "webdriver"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-simple-webdriver"
     },
     {
       "id": "@smartdcc/dccboxed-nodered-nodes",
@@ -6743,37 +6827,6 @@
       "url": "https://flows.nodered.org/node/node-red-contrib-auroral"
     },
     {
-      "id": "node-red-contrib-ale-rainbow",
-      "version": "1.82.4",
-      "description": "Alcatel-Lucent Enterprise Rainbow Nodes for Node Red",
-      "updated_at": "2022-10-10T12:32:20.079Z",
-      "types": [
-        "Login",
-        "Send_IM",
-        "Notified_IM",
-        "Notified_Event",
-        "event-select",
-        "Notified_IM_Read",
-        "Ack_IM_Read",
-        "Notified_Presence",
-        "Set_Presence",
-        "CnxState",
-        "Send_Channel",
-        "Notified_Channel",
-        "Rainbow_function"
-      ],
-      "keywords": [
-        "node-red",
-        "rainbow",
-        "cloud",
-        "IoT",
-        "IM",
-        "chat",
-        "presence"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-ale-rainbow"
-    },
-    {
       "id": "node-red-contrib-bsb-lan",
       "version": "1.2.0",
       "description": "A node-red node that makes the communication with BSB-Lan very easy",
@@ -8619,24 +8672,6 @@
         "websocket"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-ignition-nodes"
-    },
-    {
-      "id": "node-red-contrib-sonos-plus",
-      "version": "6.4.1",
-      "description": "A set of Node-RED nodes to control SONOS player in your local network.",
-      "updated_at": "2022-09-09T08:02:32.504Z",
-      "types": [
-        "sonos-config",
-        "sonos-manage-mysonos",
-        "sonos-universal"
-      ],
-      "keywords": [
-        "sonos",
-        "node-red",
-        "music",
-        "node-red-contrib-sonos-plus"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-sonos-plus"
     },
     {
       "id": "node-red-contrib-fv-detection-nodes",
