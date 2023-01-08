@@ -1,7 +1,160 @@
 {
   "name": "Catalogue for darwin",
-  "updated_at": "2023-01-07T19:30:42.652Z",
+  "updated_at": "2023-01-08T19:48:29.706Z",
   "modules": [
+    {
+      "id": "@eswarpr/node-red-modn-counter",
+      "version": "1.0.1",
+      "description": "A node-RED node to simulate mod-N counters like SN74LS90 or SN74LS92 in your flows",
+      "updated_at": "2023-01-08T17:46:00.270Z",
+      "types": [
+        "mod-n counter"
+      ],
+      "keywords": [
+        "node-red",
+        "mod-n counter"
+      ],
+      "url": "https://flows.nodered.org/node/@eswarpr/node-red-modn-counter"
+    },
+    {
+      "id": "node-red-contrib-things",
+      "version": "3.2.5",
+      "description": "A set of Node-RED nodes that uses an agnostic state management system to keep IOT device states and provide a uniform control system.",
+      "updated_at": "2023-01-08T15:12:00.001Z",
+      "types": [
+        "Thing Setup",
+        "Thing Update",
+        "Thing Trigger",
+        "Thing Get",
+        "Thing Test",
+        "Thing List",
+        "Thing Command",
+        "Thing Process",
+        "__errors__"
+      ],
+      "keywords": [
+        "node-red",
+        "iot",
+        "state management"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-things"
+    },
+    {
+      "id": "node-red-near-protocol",
+      "version": "1.0.3",
+      "description": "Allows to run Near Protocol blockchain smart-contract methods on Node RED",
+      "updated_at": "2023-01-08T12:41:42.405Z",
+      "types": [
+        "Near Contract",
+        "Contract Method"
+      ],
+      "keywords": [
+        "nodered",
+        "node-red",
+        "near-protocol",
+        "blockchain",
+        "smart-contract"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-near-protocol"
+    },
+    {
+      "id": "node-red-contrib-obs-ws",
+      "version": "0.2.8",
+      "description": "Connect to OBS Studio and control it/receive events. Node-Red bindings for obs-websocket-js.",
+      "updated_at": "2023-01-08T09:56:12.922Z",
+      "types": [
+        "obs-instance",
+        "obs connection status",
+        "obs event",
+        "obs request",
+        "SetCurrentProgramScene",
+        "TriggerStudioModeTransition"
+      ],
+      "keywords": [
+        "node-red",
+        "obs-websocket",
+        "obs-websocket-js"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-obs-ws"
+    },
+    {
+      "id": "node-red-contrib-alexa-remote2-mattl0",
+      "version": "5.10.1",
+      "description": "node-red nodes for interacting with alexa",
+      "updated_at": "2023-01-08T04:28:35.120Z",
+      "types": [
+        "alexa-remote-account",
+        "alexa-remote-init",
+        "alexa-remote-event",
+        "alexa-remote-smarthome",
+        "alexa-remote-routine",
+        "alexa-remote-echo",
+        "alexa-remote-other",
+        "alexa-remote-list"
+      ],
+      "keywords": [
+        "node-red",
+        "alexa remote",
+        "alexa",
+        "echo"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-alexa-remote2-mattl0"
+    },
+    {
+      "id": "ghgnotary",
+      "version": "0.5.3",
+      "description": "Node-RED Nodes to work with a Greenhouse Gas notary service for certification of emission events (like charging sessions) or metered readings.",
+      "updated_at": "2023-01-08T01:31:15.183Z",
+      "types": [
+        "event-notary",
+        "metered-notary",
+        "certificate",
+        "certificates",
+        "present",
+        "presentations",
+        "remembervp",
+        "signer",
+        "validator",
+        "statistics",
+        "transfer",
+        "Import CERT",
+        "Owned NFTs",
+        "Emissions",
+        "Savings",
+        "wallet-config"
+      ],
+      "keywords": [
+        "greenhousegas",
+        "tydids",
+        "ghg",
+        "certification",
+        "emissions",
+        "stromdao",
+        "idideal",
+        "node-red"
+      ],
+      "url": "https://flows.nodered.org/node/ghgnotary"
+    },
+    {
+      "id": "@kevingodell/node-red-pipe2jpeg",
+      "version": "0.1.1-beta.1",
+      "description": "Parse a jpeg from a buffer and send it to a downstream node or serve it via http.",
+      "updated_at": "2023-01-07T19:31:48.643Z",
+      "types": [
+        "pipe2jpeg"
+      ],
+      "keywords": [
+        "node-red",
+        "buffer",
+        "jpeg",
+        "mjpeg",
+        "parser",
+        "ffmpeg",
+        "video",
+        "cctv"
+      ],
+      "url": "https://flows.nodered.org/node/@kevingodell/node-red-pipe2jpeg"
+    },
     {
       "id": "@gorootde/node-red-grist",
       "version": "1.1.0",
@@ -57,24 +210,6 @@
         "node-red-contrib-sonos-plus"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-sonos-plus"
-    },
-    {
-      "id": "node-red-near-protocol",
-      "version": "1.0.2",
-      "description": "Allows to run Near Protocol blockchain smart-contract methods on Node RED",
-      "updated_at": "2023-01-07T08:06:46.686Z",
-      "types": [
-        "Near Contract",
-        "Contract Method"
-      ],
-      "keywords": [
-        "nodered",
-        "node-red",
-        "near-protocol",
-        "blockchain",
-        "smart-contract"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-near-protocol"
     },
     {
       "id": "node-red-contrib-simple-webdriver",
@@ -205,35 +340,6 @@
         "meross"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-meross"
-    },
-    {
-      "id": "ghgnotary",
-      "version": "0.5.1",
-      "description": "Node-RED Nodes to work with a Greenhouse Gas notary service for certification of emission events (like charging sessions) or metered readings.",
-      "updated_at": "2023-01-06T12:50:36.461Z",
-      "types": [
-        "event-notary",
-        "metered-notary",
-        "certificates",
-        "present",
-        "presentations",
-        "remembervp",
-        "signer",
-        "validator",
-        "statistics",
-        "wallet-config"
-      ],
-      "keywords": [
-        "greenhousegas",
-        "tydids",
-        "ghg",
-        "certification",
-        "emissions",
-        "stromdao",
-        "idideal",
-        "node-red"
-      ],
-      "url": "https://flows.nodered.org/node/ghgnotary"
     },
     {
       "id": "node-red-contrib-unifi",
@@ -5646,29 +5752,6 @@
       "url": "https://flows.nodered.org/node/lighttalk_nodes"
     },
     {
-      "id": "node-red-contrib-alexa-remote2-mattl0",
-      "version": "5.10.0",
-      "description": "node-red nodes for interacting with alexa",
-      "updated_at": "2022-10-31T05:33:26.645Z",
-      "types": [
-        "alexa-remote-account",
-        "alexa-remote-init",
-        "alexa-remote-event",
-        "alexa-remote-smarthome",
-        "alexa-remote-routine",
-        "alexa-remote-echo",
-        "alexa-remote-other",
-        "alexa-remote-list"
-      ],
-      "keywords": [
-        "node-red",
-        "alexa remote",
-        "alexa",
-        "echo"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-alexa-remote2-mattl0"
-    },
-    {
       "id": "node-red-contrib-vat-lookup",
       "version": "1.0.14",
       "description": "\"# node-red-contrib-vat-lookup\"",
@@ -5985,29 +6068,6 @@
       "url": "https://flows.nodered.org/node/node-red-contrib-wechat4u"
     },
     {
-      "id": "node-red-contrib-things",
-      "version": "3.2.4",
-      "description": "A set of Node-RED nodes that uses an agnostic state management system to keep IOT device states and provide a uniform control system.",
-      "updated_at": "2022-10-25T22:17:35.769Z",
-      "types": [
-        "Thing Setup",
-        "Thing Update",
-        "Thing Trigger",
-        "Thing Get",
-        "Thing Test",
-        "Thing List",
-        "Thing Command",
-        "Thing Process",
-        "__errors__"
-      ],
-      "keywords": [
-        "node-red",
-        "iot",
-        "state management"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-things"
-    },
-    {
       "id": "node-red-contrib-blockly",
       "version": "2.0.1",
       "description": "A Node Red node for visual programming a function using Blockly",
@@ -6121,26 +6181,6 @@
         "light theme"
       ],
       "url": "https://flows.nodered.org/node/@bitpoolos/edge-theme-light"
-    },
-    {
-      "id": "node-red-contrib-obs-ws",
-      "version": "0.2.7",
-      "description": "Connect to OBS Studio and control it/receive events. Node-Red bindings for obs-websocket-js.",
-      "updated_at": "2022-10-23T15:44:49.498Z",
-      "types": [
-        "obs-instance",
-        "obs connection status",
-        "obs event",
-        "obs request",
-        "SetCurrentProgramScene",
-        "TriggerStudioModeTransition"
-      ],
-      "keywords": [
-        "node-red",
-        "obs-websocket",
-        "obs-websocket-js"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-obs-ws"
     },
     {
       "id": "ttb-node-intents",
