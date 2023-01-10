@@ -1,7 +1,211 @@
 {
   "name": "Catalogue for darwin",
-  "updated_at": "2023-01-09T20:02:35.489Z",
+  "updated_at": "2023-01-10T19:56:39.078Z",
   "modules": [
+    {
+      "id": "ghgnotary",
+      "version": "0.5.14",
+      "description": "Node-RED Nodes to work with a Greenhouse Gas notary service for certification of emission events (like charging sessions) or metered readings.",
+      "updated_at": "2023-01-10T18:04:55.539Z",
+      "types": [
+        "event-notary",
+        "metered-notary",
+        "certificate",
+        "certificates",
+        "present",
+        "presentations",
+        "remembervp",
+        "signer",
+        "validator",
+        "statistics",
+        "transfer",
+        "Import CERT",
+        "Owned NFTs",
+        "Received NFTs",
+        "Aggregation",
+        "Emissions",
+        "Savings",
+        "Filter NFT",
+        "wallet-config"
+      ],
+      "keywords": [
+        "greenhousegas",
+        "tydids",
+        "ghg",
+        "certification",
+        "emissions",
+        "stromdao",
+        "idideal",
+        "node-red"
+      ],
+      "url": "https://flows.nodered.org/node/ghgnotary"
+    },
+    {
+      "id": "node-red-contrib-hikvision-ultimate",
+      "version": "1.0.71",
+      "description": "A native set of nodes for Hikvision (and compatible) Cameras, Alarms, Radars, NVR, Doorbells, etc.",
+      "updated_at": "2023-01-10T14:56:04.606Z",
+      "types": [
+        "Hikvision-config",
+        "AXPro-config",
+        "Doorbell-config",
+        "ANPR-config",
+        "hikvisionUltimateText",
+        "hikvisionUltimateAlarm",
+        "hikvisionUltimateAlarmRaw",
+        "hikvisionUltimateANPR",
+        "hikvisionUltimatePTZ",
+        "hikvisionUltimatePicture",
+        "hikvisionUltimateXML",
+        "hikvisionUltimateDoorbell",
+        "hikvisionUltimateAxPro"
+      ],
+      "keywords": [
+        "node-red",
+        "hikvision",
+        "alarm",
+        "camera",
+        "radar",
+        "ANPR",
+        "license plate",
+        "doorbell",
+        "door intercom",
+        "Ax Pro"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-hikvision-ultimate"
+    },
+    {
+      "id": "node-red-contrib-sonos-plus",
+      "version": "6.6.0",
+      "description": "A set of Node-RED nodes to control SONOS player in your local network.",
+      "updated_at": "2023-01-10T14:55:28.776Z",
+      "types": [
+        "sonos-config",
+        "sonos-manage-mysonos",
+        "sonos-universal"
+      ],
+      "keywords": [
+        "sonos",
+        "node-red",
+        "music",
+        "node-red-contrib-sonos-plus"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-sonos-plus"
+    },
+    {
+      "id": "node-red-contrib-loxone",
+      "version": "0.10.13",
+      "description": "Connecting the Loxone Miniserver to node-red via Websocket API",
+      "updated_at": "2023-01-10T10:40:45.664Z",
+      "types": [
+        "loxone-control-in",
+        "loxone-control-out",
+        "loxone-miniserver",
+        "loxone-webservice",
+        "loxone-online",
+        "loxone-keepalive",
+        "loxone-stream-in",
+        "loxone-stream-all"
+      ],
+      "keywords": [
+        "node-red",
+        "loxone"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-loxone"
+    },
+    {
+      "id": "@ralphwetzel/node-red-mcu-plugin",
+      "version": "1.1.2",
+      "description": "Plugin to integrate Node-RED MCU Edition into the Node-RED Editor",
+      "updated_at": "2023-01-10T09:34:14.767Z",
+      "types": [],
+      "keywords": [
+        "node-red",
+        "node-red-mcu",
+        "Node-RED",
+        "Node-RED MCU Edition",
+        "node-red-mcu-plugin"
+      ],
+      "url": "https://flows.nodered.org/node/@ralphwetzel/node-red-mcu-plugin"
+    },
+    {
+      "id": "node-red-contrib-tibber-api",
+      "version": "5.1.3",
+      "description": "Node Red module for integrating with Tibber api",
+      "updated_at": "2023-01-10T06:38:14.028Z",
+      "types": [
+        "tibber-api-endpoint",
+        "tibber-feed",
+        "tibber-query",
+        "tibber-data",
+        "tibber-notify"
+      ],
+      "keywords": [
+        "node-red",
+        "tibber",
+        "iot",
+        "power",
+        "home-automation",
+        "smarthome",
+        "energy"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-tibber-api"
+    },
+    {
+      "id": "@digitalnodecom/node-red-contrib-generic-s3",
+      "version": "1.6.1",
+      "description": "Generic node-red S3 nodes",
+      "updated_at": "2023-01-10T06:23:47.981Z",
+      "types": [
+        "client-s3",
+        "List Buckets",
+        "Create Bucket",
+        "List Objects",
+        "List Objects V2",
+        "List Object Versions",
+        "Get Object",
+        "Head Object",
+        "Put Object",
+        "Put Objects",
+        "Delete Object"
+      ],
+      "keywords": [
+        "node-red",
+        "s3",
+        "generic"
+      ],
+      "url": "https://flows.nodered.org/node/@digitalnodecom/node-red-contrib-generic-s3"
+    },
+    {
+      "id": "lighttalk_schedule_no_mqtt",
+      "version": "1.0.1",
+      "description": "sending payload with schedule",
+      "updated_at": "2023-01-10T01:57:34.295Z",
+      "types": [
+        "스케쥴노드"
+      ],
+      "keywords": [
+        "node-red"
+      ],
+      "url": "https://flows.nodered.org/node/lighttalk_schedule_no_mqtt"
+    },
+    {
+      "id": "node-red-node-dropbox",
+      "version": "2.1.0",
+      "description": "Node-RED nodes to watch and download files from Dropbox",
+      "updated_at": "2023-01-09T20:38:54.371Z",
+      "types": [
+        "dropbox-config",
+        "dropbox in",
+        "dropbox",
+        "dropbox out"
+      ],
+      "keywords": [
+        "node-red",
+        "dropbox"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-node-dropbox"
+    },
     {
       "id": "node-red-contrib-blynk-ws",
       "version": "1.0.8",
@@ -98,43 +302,6 @@
       "url": "https://flows.nodered.org/node/node-red-contrib-zont-online"
     },
     {
-      "id": "ghgnotary",
-      "version": "0.5.5",
-      "description": "Node-RED Nodes to work with a Greenhouse Gas notary service for certification of emission events (like charging sessions) or metered readings.",
-      "updated_at": "2023-01-09T14:52:30.014Z",
-      "types": [
-        "event-notary",
-        "metered-notary",
-        "certificate",
-        "certificates",
-        "present",
-        "presentations",
-        "remembervp",
-        "signer",
-        "validator",
-        "statistics",
-        "transfer",
-        "Import CERT",
-        "Owned NFTs",
-        "Received NFTs",
-        "Emissions",
-        "Savings",
-        "Filter NFT",
-        "wallet-config"
-      ],
-      "keywords": [
-        "greenhousegas",
-        "tydids",
-        "ghg",
-        "certification",
-        "emissions",
-        "stromdao",
-        "idideal",
-        "node-red"
-      ],
-      "url": "https://flows.nodered.org/node/ghgnotary"
-    },
-    {
       "id": "@eswarpr/node-red-modn-counter",
       "version": "1.0.5",
       "description": "A node-RED node to simulate mod-N counters like SN74LS90 or SN74LS92 in your flows",
@@ -166,31 +333,6 @@
       "url": "https://flows.nodered.org/node/node-red-contrib-nixtla"
     },
     {
-      "id": "@digitalnodecom/node-red-contrib-generic-s3",
-      "version": "1.6.0",
-      "description": "Generic node-red S3 nodes",
-      "updated_at": "2023-01-09T13:03:36.259Z",
-      "types": [
-        "client-s3",
-        "List Buckets",
-        "Create Bucket",
-        "List Objects",
-        "List Objects V2",
-        "List Object Versions",
-        "Get Object",
-        "Head Object",
-        "Put Object",
-        "Put Objects",
-        "Delete Object"
-      ],
-      "keywords": [
-        "node-red",
-        "s3",
-        "generic"
-      ],
-      "url": "https://flows.nodered.org/node/@digitalnodecom/node-red-contrib-generic-s3"
-    },
-    {
       "id": "node-red-contrib-iiot-rpi-max7219",
       "version": "1.0.20",
       "description": "A Node-Red node for max7219 8-Digit LED Display",
@@ -212,24 +354,6 @@
         "matrix"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-iiot-rpi-max7219"
-    },
-    {
-      "id": "node-red-contrib-sonos-plus",
-      "version": "6.5.0",
-      "description": "A set of Node-RED nodes to control SONOS player in your local network.",
-      "updated_at": "2023-01-09T09:44:55.055Z",
-      "types": [
-        "sonos-config",
-        "sonos-manage-mysonos",
-        "sonos-universal"
-      ],
-      "keywords": [
-        "sonos",
-        "node-red",
-        "music",
-        "node-red-contrib-sonos-plus"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-sonos-plus"
     },
     {
       "id": "node-red-contrib-ui-upload",
@@ -352,29 +476,6 @@
         "node-red"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-mock-cli"
-    },
-    {
-      "id": "node-red-contrib-tibber-api",
-      "version": "5.1.0",
-      "description": "Node Red module for integrating with Tibber api",
-      "updated_at": "2023-01-09T06:05:58.577Z",
-      "types": [
-        "tibber-api-endpoint",
-        "tibber-feed",
-        "tibber-query",
-        "tibber-data",
-        "tibber-notify"
-      ],
-      "keywords": [
-        "node-red",
-        "tibber",
-        "iot",
-        "power",
-        "home-automation",
-        "smarthome",
-        "energy"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-tibber-api"
     },
     {
       "id": "node-red-contrib-dockerode",
@@ -1472,40 +1573,6 @@
         "shelly"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-shelly"
-    },
-    {
-      "id": "node-red-contrib-hikvision-ultimate",
-      "version": "1.0.70",
-      "description": "A native set of nodes for Hikvision (and compatible) Cameras, Alarms, Radars, NVR, Doorbells, etc.",
-      "updated_at": "2022-12-28T14:42:48.124Z",
-      "types": [
-        "Hikvision-config",
-        "AXPro-config",
-        "Doorbell-config",
-        "ANPR-config",
-        "hikvisionUltimateText",
-        "hikvisionUltimateAlarm",
-        "hikvisionUltimateAlarmRaw",
-        "hikvisionUltimateANPR",
-        "hikvisionUltimatePTZ",
-        "hikvisionUltimatePicture",
-        "hikvisionUltimateXML",
-        "hikvisionUltimateDoorbell",
-        "hikvisionUltimateAxPro"
-      ],
-      "keywords": [
-        "node-red",
-        "hikvision",
-        "alarm",
-        "camera",
-        "radar",
-        "ANPR",
-        "license plate",
-        "doorbell",
-        "door intercom",
-        "Ax Pro"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-hikvision-ultimate"
     },
     {
       "id": "node-red-contrib-huemagic-fork",
@@ -3047,19 +3114,6 @@
       "url": "https://flows.nodered.org/node/lighttalk_relay_nodes"
     },
     {
-      "id": "lighttalk_schedule_no_mqtt",
-      "version": "1.0.0",
-      "description": "sending payload with schedule",
-      "updated_at": "2022-12-08T04:40:42.831Z",
-      "types": [
-        "스케쥴노드"
-      ],
-      "keywords": [
-        "node-red"
-      ],
-      "url": "https://flows.nodered.org/node/lighttalk_schedule_no_mqtt"
-    },
-    {
       "id": "node-red-contrib-simplest-soap",
       "version": "1.0.2",
       "description": "The simplest SOAP wrapper for node-red",
@@ -4011,23 +4065,6 @@
         "node-red"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-spruthub"
-    },
-    {
-      "id": "node-red-node-dropbox",
-      "version": "2.0.0",
-      "description": "Node-RED nodes to watch and download files from Dropbox",
-      "updated_at": "2022-11-24T17:56:51.485Z",
-      "types": [
-        "dropbox-config",
-        "dropbox in",
-        "dropbox",
-        "dropbox out"
-      ],
-      "keywords": [
-        "node-red",
-        "dropbox"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-node-dropbox"
     },
     {
       "id": "node-red-node-aws",
@@ -15665,27 +15702,6 @@
         "dummy-json"
       ],
       "url": "https://flows.nodered.org/node/node-red-node-data-generator"
-    },
-    {
-      "id": "node-red-contrib-loxone",
-      "version": "0.10.12",
-      "description": "Connecting the Loxone Miniserver to node-red via Websocket API",
-      "updated_at": "2022-04-08T11:06:53.713Z",
-      "types": [
-        "loxone-control-in",
-        "loxone-control-out",
-        "loxone-miniserver",
-        "loxone-webservice",
-        "loxone-online",
-        "loxone-keepalive",
-        "loxone-stream-in",
-        "loxone-stream-all"
-      ],
-      "keywords": [
-        "node-red",
-        "loxone"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-loxone"
     },
     {
       "id": "node-red-contrib-intexspa",
