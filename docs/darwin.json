@@ -1,7 +1,135 @@
 {
   "name": "Catalogue for darwin",
-  "updated_at": "2023-01-10T19:56:39.078Z",
+  "updated_at": "2023-01-11T20:01:15.453Z",
   "modules": [
+    {
+      "id": "node-red-contrib-esphome",
+      "version": "0.0.1",
+      "description": "Node-RED nodes to ESPhome devices.",
+      "updated_at": "2023-01-11T17:29:43.353Z",
+      "types": [
+        "esphome-device",
+        "esphome-in",
+        "esphome-out"
+      ],
+      "keywords": [
+        "node-red",
+        "esphome",
+        "esp",
+        "home"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-esphome"
+    },
+    {
+      "id": "node-red-contrib-hikvision-ultimate",
+      "version": "1.1.0",
+      "description": "A native set of nodes for Hikvision (and compatible) Cameras, Alarms, Radars, NVR, Doorbells, etc.",
+      "updated_at": "2023-01-11T17:07:54.353Z",
+      "types": [
+        "Hikvision-config",
+        "AXPro-config",
+        "Doorbell-config",
+        "ANPR-config",
+        "hikvisionUltimateText",
+        "hikvisionUltimateAlarm",
+        "hikvisionUltimateAlarmRaw",
+        "hikvisionUltimateANPR",
+        "hikvisionUltimatePTZ",
+        "hikvisionUltimatePicture",
+        "hikvisionUltimateXML",
+        "hikvisionUltimateDoorbell",
+        "hikvisionUltimateAxPro"
+      ],
+      "keywords": [
+        "node-red",
+        "hikvision",
+        "alarm",
+        "camera",
+        "radar",
+        "ANPR",
+        "license plate",
+        "doorbell",
+        "door intercom",
+        "Ax Pro"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-hikvision-ultimate"
+    },
+    {
+      "id": "node-red-contrib-sonos-plus",
+      "version": "6.6.1",
+      "description": "A set of Node-RED nodes to control SONOS player in your local network.",
+      "updated_at": "2023-01-11T12:48:03.441Z",
+      "types": [
+        "sonos-config",
+        "sonos-manage-mysonos",
+        "sonos-universal"
+      ],
+      "keywords": [
+        "sonos",
+        "node-red",
+        "music",
+        "node-red-contrib-sonos-plus"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-sonos-plus"
+    },
+    {
+      "id": "openapi-red",
+      "version": "1.1.3",
+      "description": "OpenAPI (Swagger) client for node-red ",
+      "updated_at": "2023-01-11T08:52:17.034Z",
+      "types": [
+        "openApi-red"
+      ],
+      "keywords": [
+        "node-red",
+        "swagger",
+        "swagger client",
+        "openApi",
+        "openApi client",
+        "open api",
+        "open api client",
+        "open",
+        "api"
+      ],
+      "url": "https://flows.nodered.org/node/openapi-red"
+    },
+    {
+      "id": "node-red-node-dropbox",
+      "version": "2.1.1",
+      "description": "Node-RED nodes to watch and download files from Dropbox",
+      "updated_at": "2023-01-10T22:44:38.608Z",
+      "types": [
+        "dropbox-config",
+        "dropbox in",
+        "dropbox",
+        "dropbox out"
+      ],
+      "keywords": [
+        "node-red",
+        "dropbox"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-node-dropbox"
+    },
+    {
+      "id": "@buglss/node-red-crontinject",
+      "version": "2.2.2",
+      "description": "It is an extended clone of core inject node with cronti package.",
+      "updated_at": "2023-01-10T22:27:53.570Z",
+      "types": [
+        "crontinject"
+      ],
+      "keywords": [
+        "inject",
+        "cronti",
+        "node-red",
+        "cronjo",
+        "crontab",
+        "crontime",
+        "repeater",
+        "schedule"
+      ],
+      "url": "https://flows.nodered.org/node/@buglss/node-red-crontinject"
+    },
     {
       "id": "ghgnotary",
       "version": "0.5.14",
@@ -39,58 +167,6 @@
         "node-red"
       ],
       "url": "https://flows.nodered.org/node/ghgnotary"
-    },
-    {
-      "id": "node-red-contrib-hikvision-ultimate",
-      "version": "1.0.71",
-      "description": "A native set of nodes for Hikvision (and compatible) Cameras, Alarms, Radars, NVR, Doorbells, etc.",
-      "updated_at": "2023-01-10T14:56:04.606Z",
-      "types": [
-        "Hikvision-config",
-        "AXPro-config",
-        "Doorbell-config",
-        "ANPR-config",
-        "hikvisionUltimateText",
-        "hikvisionUltimateAlarm",
-        "hikvisionUltimateAlarmRaw",
-        "hikvisionUltimateANPR",
-        "hikvisionUltimatePTZ",
-        "hikvisionUltimatePicture",
-        "hikvisionUltimateXML",
-        "hikvisionUltimateDoorbell",
-        "hikvisionUltimateAxPro"
-      ],
-      "keywords": [
-        "node-red",
-        "hikvision",
-        "alarm",
-        "camera",
-        "radar",
-        "ANPR",
-        "license plate",
-        "doorbell",
-        "door intercom",
-        "Ax Pro"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-hikvision-ultimate"
-    },
-    {
-      "id": "node-red-contrib-sonos-plus",
-      "version": "6.6.0",
-      "description": "A set of Node-RED nodes to control SONOS player in your local network.",
-      "updated_at": "2023-01-10T14:55:28.776Z",
-      "types": [
-        "sonos-config",
-        "sonos-manage-mysonos",
-        "sonos-universal"
-      ],
-      "keywords": [
-        "sonos",
-        "node-red",
-        "music",
-        "node-red-contrib-sonos-plus"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-sonos-plus"
     },
     {
       "id": "node-red-contrib-loxone",
@@ -190,23 +266,6 @@
       "url": "https://flows.nodered.org/node/lighttalk_schedule_no_mqtt"
     },
     {
-      "id": "node-red-node-dropbox",
-      "version": "2.1.0",
-      "description": "Node-RED nodes to watch and download files from Dropbox",
-      "updated_at": "2023-01-09T20:38:54.371Z",
-      "types": [
-        "dropbox-config",
-        "dropbox in",
-        "dropbox",
-        "dropbox out"
-      ],
-      "keywords": [
-        "node-red",
-        "dropbox"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-node-dropbox"
-    },
-    {
       "id": "node-red-contrib-blynk-ws",
       "version": "1.0.8",
       "description": "Node Red integration with Blynk App and Server through websockets",
@@ -264,27 +323,6 @@
         "London Architect"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-soundweb"
-    },
-    {
-      "id": "openapi-red",
-      "version": "1.1.2",
-      "description": "OpenAPI (Swagger) client for node-red ",
-      "updated_at": "2023-01-09T16:16:44.720Z",
-      "types": [
-        "openApi-red"
-      ],
-      "keywords": [
-        "node-red",
-        "swagger",
-        "swagger client",
-        "openApi",
-        "openApi client",
-        "open api",
-        "open api client",
-        "open",
-        "api"
-      ],
-      "url": "https://flows.nodered.org/node/openapi-red"
     },
     {
       "id": "node-red-contrib-zont-online",
@@ -6319,26 +6357,6 @@
         "text-to-speech"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-coefont-text2speech"
-    },
-    {
-      "id": "@buglss/node-red-crontinject",
-      "version": "2.2.1",
-      "description": "It is an extended clone of core inject node with cronti package.",
-      "updated_at": "2022-10-24T22:12:47.971Z",
-      "types": [
-        "crontinject"
-      ],
-      "keywords": [
-        "inject",
-        "cronti",
-        "node-red",
-        "cronjo",
-        "crontab",
-        "crontime",
-        "repeater",
-        "schedule"
-      ],
-      "url": "https://flows.nodered.org/node/@buglss/node-red-crontinject"
     },
     {
       "id": "node-red-contrib-alice",
