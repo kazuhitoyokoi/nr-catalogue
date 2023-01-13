@@ -1,7 +1,160 @@
 {
   "name": "Catalogue for docker",
-  "updated_at": "2023-01-12T16:29:07.857Z",
+  "updated_at": "2023-01-13T16:16:38.985Z",
   "modules": [
+    {
+      "id": "node-red-contrib-aw365-ustimezonecheck",
+      "version": "0.0.7",
+      "description": "checks a 3 digit area code and sort in the timezone open/close",
+      "updated_at": "2023-01-13T14:17:35.610Z",
+      "types": [
+        "aw365-timezone"
+      ],
+      "keywords": [
+        "node-red",
+        "aw365",
+        "timezone",
+        "areacode"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-aw365-ustimezonecheck"
+    },
+    {
+      "id": "@iotopen/node-red-contrib-lynx",
+      "version": "1.5.1",
+      "description": "NodeRED integration for IoT Open Lynx",
+      "updated_at": "2023-01-13T11:54:38.802Z",
+      "types": [
+        "lynx-server",
+        "lynx-in",
+        "lynx-out",
+        "lynx-get-meta",
+        "lynx-get-status",
+        "lynx-notification"
+      ],
+      "keywords": [
+        "node-red",
+        "lynx",
+        "iotopen"
+      ],
+      "url": "https://flows.nodered.org/node/@iotopen/node-red-contrib-lynx"
+    },
+    {
+      "id": "node-red-node-snmp",
+      "version": "1.0.6",
+      "description": "A Node-RED node that gets and sets SNMP oid values. Supports v1, v2c and v3",
+      "updated_at": "2023-01-13T11:42:48.582Z",
+      "types": [
+        "snmp",
+        "snmp set",
+        "snmp table",
+        "snmp subtree",
+        "snmp walker"
+      ],
+      "keywords": [
+        "node-red",
+        "snmp",
+        "oid",
+        "snmpv3"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-node-snmp"
+    },
+    {
+      "id": "@binsoul/node-red-contrib-statistics",
+      "version": "0.0.1",
+      "description": "Perform statistical operations on a configurable duration of incoming data.",
+      "updated_at": "2023-01-13T11:01:34.925Z",
+      "types": [
+        "binsoul-statistics"
+      ],
+      "keywords": [
+        "node-red",
+        "statistics"
+      ],
+      "url": "https://flows.nodered.org/node/@binsoul/node-red-contrib-statistics"
+    },
+    {
+      "id": "node-red-contrib-aw365-jwt-token",
+      "version": "1.0.6",
+      "description": "creates a jwt token from msg.body and msg.secret",
+      "updated_at": "2023-01-13T09:26:06.784Z",
+      "types": [
+        "aw365-jwt-token"
+      ],
+      "keywords": [
+        "node-red",
+        "aw365",
+        "jwt",
+        "jwt-token"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-aw365-jwt-token"
+    },
+    {
+      "id": "node-red-contrib-tibber-api",
+      "version": "5.1.6",
+      "description": "Node Red module for integrating with Tibber api",
+      "updated_at": "2023-01-12T21:17:21.268Z",
+      "types": [
+        "tibber-api-endpoint",
+        "tibber-feed",
+        "tibber-query",
+        "tibber-data",
+        "tibber-notify"
+      ],
+      "keywords": [
+        "node-red",
+        "tibber",
+        "iot",
+        "power",
+        "home-automation",
+        "smarthome",
+        "energy"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-tibber-api"
+    },
+    {
+      "id": "node-red-contrib-whatsapp-link",
+      "version": "0.1.29",
+      "description": "Node to send and receive whatsapp chats and group messages. | No third party APIs",
+      "updated_at": "2023-01-12T20:16:30.368Z",
+      "types": [
+        "admin",
+        "chats-in",
+        "chats-out",
+        "group-out",
+        "reply",
+        "whatsappLink"
+      ],
+      "keywords": [
+        "node-red",
+        "whatsapp",
+        "message",
+        "whatsapp Group",
+        "whatsapp Chat"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-whatsapp-link"
+    },
+    {
+      "id": "@yousolution/node-red-contrib-you-ftp-sftp",
+      "version": "1.9.0",
+      "description": "A node-red node that support FTP and SFTP file transfer using $() environment variables to control the ftp connection details",
+      "updated_at": "2023-01-12T15:44:44.277Z",
+      "types": [
+        "ftp",
+        "ftp in",
+        "sftp",
+        "sftp in",
+        "ftps",
+        "ftps in"
+      ],
+      "keywords": [
+        "node-red",
+        "ftp",
+        "sftp",
+        "ftps",
+        "redconnect"
+      ],
+      "url": "https://flows.nodered.org/node/@yousolution/node-red-contrib-you-ftp-sftp"
+    },
     {
       "id": "node-red-contrib-hikvision-ultimate",
       "version": "1.1.1",
@@ -105,29 +258,6 @@
         "server"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-http-instance-cors"
-    },
-    {
-      "id": "node-red-contrib-tibber-api",
-      "version": "5.1.4",
-      "description": "Node Red module for integrating with Tibber api",
-      "updated_at": "2023-01-11T20:31:41.954Z",
-      "types": [
-        "tibber-api-endpoint",
-        "tibber-feed",
-        "tibber-query",
-        "tibber-data",
-        "tibber-notify"
-      ],
-      "keywords": [
-        "node-red",
-        "tibber",
-        "iot",
-        "power",
-        "home-automation",
-        "smarthome",
-        "energy"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-tibber-api"
     },
     {
       "id": "node-red-contrib-esphome",
@@ -770,22 +900,6 @@
       "url": "https://flows.nodered.org/node/node-red-contrib-ale-rainbow"
     },
     {
-      "id": "node-red-contrib-aw365-jwt-token",
-      "version": "1.0.4",
-      "description": "creates a jwt token from msg.body and msg.secret",
-      "updated_at": "2023-01-06T16:15:27.922Z",
-      "types": [
-        "aw365-jwt-token"
-      ],
-      "keywords": [
-        "node-red",
-        "aw365",
-        "jwt",
-        "jwt-token"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-aw365-jwt-token"
-    },
-    {
       "id": "node-red-contrib-sonos-events",
       "version": "1.2.1",
       "description": "A single Node-RED node to handle SONOS events in a local network.",
@@ -1265,28 +1379,6 @@
         "cbor"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-coap"
-    },
-    {
-      "id": "node-red-contrib-whatsapp-link",
-      "version": "0.1.28-B",
-      "description": "Node to send and receive whatsapp chats and group messages. | No third party APIs",
-      "updated_at": "2023-01-01T16:39:46.756Z",
-      "types": [
-        "admin",
-        "chats-in",
-        "chats-out",
-        "group-out",
-        "reply",
-        "whatsappLink"
-      ],
-      "keywords": [
-        "node-red",
-        "whatsapp",
-        "message",
-        "whatsapp Group",
-        "whatsapp Chat"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-whatsapp-link"
     },
     {
       "id": "@gogovega/node-red-contrib-firebase-realtime-database",
@@ -7049,25 +7141,6 @@
       "url": "https://flows.nodered.org/node/node-red-contrib-flow-manager"
     },
     {
-      "id": "@yousolution/node-red-contrib-you-ftp-sftp",
-      "version": "1.8.11",
-      "description": "A node-red node that support FTP and SFTP file transfer using $() environment variables to control the ftp connection details",
-      "updated_at": "2022-10-11T10:49:42.520Z",
-      "types": [
-        "ftp",
-        "ftp in",
-        "sftp",
-        "sftp in"
-      ],
-      "keywords": [
-        "node-red",
-        "ftp",
-        "sftp",
-        "redconnect"
-      ],
-      "url": "https://flows.nodered.org/node/@yousolution/node-red-contrib-you-ftp-sftp"
-    },
-    {
       "id": "@yousolution/node-red-contrib-you-paypal",
       "version": "0.0.1",
       "description": "Unofficial module PayPal API for NODE-RED",
@@ -8856,26 +8929,6 @@
         "hypertegrity"
       ],
       "url": "https://flows.nodered.org/node/@hypertegrity/node-red-contrib-k8s-helper"
-    },
-    {
-      "id": "node-red-node-snmp",
-      "version": "1.0.5",
-      "description": "A Node-RED node that gets and sets SNMP oid values. Supports v1, v2c and v3",
-      "updated_at": "2022-09-14T14:20:25.657Z",
-      "types": [
-        "snmp",
-        "snmp set",
-        "snmp table",
-        "snmp subtree",
-        "snmp walker"
-      ],
-      "keywords": [
-        "node-red",
-        "snmp",
-        "oid",
-        "snmpv3"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-node-snmp"
     },
     {
       "id": "node-red-contrib-kolibri",
@@ -12074,26 +12127,6 @@
         "node-red"
       ],
       "url": "https://flows.nodered.org/node/@festo-ax/node-red-contrib-festo-smartenance"
-    },
-    {
-      "id": "@iotopen/node-red-contrib-lynx",
-      "version": "1.5.0",
-      "description": "NodeRED integration for IoT Open Lynx",
-      "updated_at": "2022-06-23T16:02:16.168Z",
-      "types": [
-        "lynx-server",
-        "lynx-in",
-        "lynx-out",
-        "lynx-get-meta",
-        "lynx-get-status",
-        "lynx-notification"
-      ],
-      "keywords": [
-        "node-red",
-        "lynx",
-        "iotopen"
-      ],
-      "url": "https://flows.nodered.org/node/@iotopen/node-red-contrib-lynx"
     },
     {
       "id": "@daizyio/node-red-contrib-daizy",
