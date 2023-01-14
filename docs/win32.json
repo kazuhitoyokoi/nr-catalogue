@@ -1,7 +1,102 @@
 {
   "name": "Catalogue for win32",
-  "updated_at": "2023-01-13T18:40:34.248Z",
+  "updated_at": "2023-01-14T19:06:34.241Z",
   "modules": [
+    {
+      "id": "@jambonz/node-red-contrib-jambonz",
+      "version": "2.3.1",
+      "description": "Node-RED nodes for jambonz",
+      "updated_at": "2023-01-14T13:59:44.462Z",
+      "types": [
+        "webhook in",
+        "webhook out",
+        "audio in",
+        "jambonz_auth",
+        "aws_auth",
+        "enqueue",
+        "lex",
+        "say",
+        "dtmf",
+        "cfg",
+        "conference",
+        "gather",
+        "listen",
+        "sip:decline",
+        "sip:request",
+        "sip:refer",
+        "hangup",
+        "message",
+        "tag",
+        "pause",
+        "dequeue",
+        "play",
+        "dial",
+        "redirect",
+        "dialogflow",
+        "leave",
+        "rasa",
+        "user auth",
+        "create-call",
+        "create-sms",
+        "lcc",
+        "get_alerts",
+        "get_calls",
+        "get_recent_calls"
+      ],
+      "keywords": [
+        "node-red"
+      ],
+      "url": "https://flows.nodered.org/node/@jambonz/node-red-contrib-jambonz"
+    },
+    {
+      "id": "node-red-contrib-pi-plates",
+      "version": "0.2.0",
+      "description": "control Pi-Plates boards from Node-RED",
+      "updated_at": "2023-01-13T19:51:54.288Z",
+      "types": [
+        "pi_plate",
+        "ppRelay",
+        "ppADC",
+        "ppAllADC",
+        "ppCURRENT",
+        "ppDAC",
+        "ppDIN",
+        "ppDOUT",
+        "ppFREQ",
+        "ppLED",
+        "ppTEMP",
+        "ppTHERMO",
+        "ppPWM",
+        "ppMotor"
+      ],
+      "keywords": [
+        "node-red",
+        "pi-plates",
+        "Pi",
+        "Plates",
+        "relay",
+        "automation",
+        "adc",
+        "dac",
+        "ds18b20",
+        "thermocouple",
+        "iot"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-pi-plates"
+    },
+    {
+      "id": "node-red-contrib-js-storage",
+      "version": "1.0.2",
+      "description": "Node-RED storage plugin to store flows as js files for easy readability, code reviews and scans",
+      "updated_at": "2023-01-13T19:33:01.308Z",
+      "types": [],
+      "keywords": [
+        "node-red",
+        "js",
+        "storage"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-js-storage"
+    },
     {
       "id": "node-red-contrib-aw365-ustimezonecheck",
       "version": "0.0.7",
@@ -1238,19 +1333,6 @@
         "Cadillac"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-onstar2"
-    },
-    {
-      "id": "node-red-contrib-js-storage",
-      "version": "1.0.0",
-      "description": "Node-RED storage plugin to store flows as js files for easy readability, code reviews and scans",
-      "updated_at": "2023-01-03T09:32:34.124Z",
-      "types": [],
-      "keywords": [
-        "node-red",
-        "js",
-        "storage"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-js-storage"
     },
     {
       "id": "node-red-contrib-genetic-charging-strategy",
@@ -2576,52 +2658,6 @@
         "timeseries"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-dashboard-bar-chart-data"
-    },
-    {
-      "id": "@jambonz/node-red-contrib-jambonz",
-      "version": "2.3.0",
-      "description": "Node-RED nodes for jambonz",
-      "updated_at": "2022-12-16T14:08:17.310Z",
-      "types": [
-        "webhook in",
-        "webhook out",
-        "audio in",
-        "jambonz_auth",
-        "aws_auth",
-        "enqueue",
-        "lex",
-        "say",
-        "dtmf",
-        "cfg",
-        "conference",
-        "gather",
-        "listen",
-        "sip:decline",
-        "sip:request",
-        "sip:refer",
-        "hangup",
-        "message",
-        "tag",
-        "pause",
-        "dequeue",
-        "play",
-        "dial",
-        "redirect",
-        "dialogflow",
-        "leave",
-        "rasa",
-        "user auth",
-        "create-call",
-        "create-sms",
-        "lcc",
-        "get_alerts",
-        "get_calls",
-        "get_recent_calls"
-      ],
-      "keywords": [
-        "node-red"
-      ],
-      "url": "https://flows.nodered.org/node/@jambonz/node-red-contrib-jambonz"
     },
     {
       "id": "node-red-contrib-gsi",
@@ -22108,40 +22144,6 @@
         "cc2652"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-zigbee"
-    },
-    {
-      "id": "node-red-contrib-pi-plates",
-      "version": "0.1.7",
-      "description": "control Pi-Plates boards from Node-RED",
-      "updated_at": "2021-11-11T20:40:24.985Z",
-      "types": [
-        "pi_plate",
-        "ppRelay",
-        "ppADC",
-        "ppAllADC",
-        "ppDAC",
-        "ppDIN",
-        "ppDOUT",
-        "ppFREQ",
-        "ppLED",
-        "ppTEMP",
-        "ppTHERMO",
-        "ppPWM"
-      ],
-      "keywords": [
-        "node-red",
-        "pi-plates",
-        "Pi",
-        "Plates",
-        "relay",
-        "automation",
-        "adc",
-        "dac",
-        "ds18b20",
-        "thermocouple",
-        "iot"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-pi-plates"
     },
     {
       "id": "node-red-contrib-varland-plating",
