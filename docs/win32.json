@@ -1,7 +1,135 @@
 {
   "name": "Catalogue for win32",
-  "updated_at": "2023-01-14T19:06:34.241Z",
+  "updated_at": "2023-01-15T18:52:39.587Z",
   "modules": [
+    {
+      "id": "@binsoul/node-red-contrib-statistics",
+      "version": "0.1.0",
+      "description": "Perform statistical operations on a configurable duration of incoming data.",
+      "updated_at": "2023-01-15T15:29:49.301Z",
+      "types": [
+        "binsoul-statistics"
+      ],
+      "keywords": [
+        "node-red",
+        "statistics",
+        "average",
+        "mean",
+        "moving window"
+      ],
+      "url": "https://flows.nodered.org/node/@binsoul/node-red-contrib-statistics"
+    },
+    {
+      "id": "node-red-contrib-nixtla",
+      "version": "1.0.2",
+      "description": "Nodes for connecting to the Nixtla APIs.",
+      "updated_at": "2023-01-15T13:05:35.555Z",
+      "types": [
+        "nixtla",
+        "nixtla-config"
+      ],
+      "keywords": [
+        "node-red",
+        "nixtla",
+        "ml",
+        "timeseries"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-nixtla"
+    },
+    {
+      "id": "node-red-contrib-nordpool-api-plus",
+      "version": "4.4.0",
+      "description": "A Node-Red Node for collecting `day ahead` prices from Nord Pool Group.",
+      "updated_at": "2023-01-14T19:34:06.948Z",
+      "types": [
+        "nordpool-api-plus"
+      ],
+      "keywords": [
+        "node-red",
+        "nord pool",
+        "watt prices"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-nordpool-api-plus"
+    },
+    {
+      "id": "node-red-contrib-pi-plates",
+      "version": "0.2.2",
+      "description": "control Pi-Plates boards from Node-RED",
+      "updated_at": "2023-01-14T19:33:47.554Z",
+      "types": [
+        "pi_plate",
+        "ppRelay",
+        "ppADC",
+        "ppAllADC",
+        "ppCURRENT",
+        "ppDAC",
+        "ppDIN",
+        "ppDOUT",
+        "ppFREQ",
+        "ppLED",
+        "ppTEMP",
+        "ppTHERMO",
+        "ppPWM",
+        "ppMotor"
+      ],
+      "keywords": [
+        "node-red",
+        "pi-plates",
+        "Pi",
+        "Plates",
+        "relay",
+        "automation",
+        "adc",
+        "dac",
+        "ds18b20",
+        "thermocouple",
+        "iot"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-pi-plates"
+    },
+    {
+      "id": "node-red-contrib-iiot-rpi-pcf857x",
+      "version": "1.0.20",
+      "description": "A Node-Red node for pcf8574(A), pcf8575, pcf8574(A) + hd44780-LCD",
+      "updated_at": "2023-01-14T17:52:11.613Z",
+      "types": [
+        "pcf857x-in",
+        "pcf857x-out",
+        "hd44780",
+        "__errors__"
+      ],
+      "keywords": [
+        "node-red",
+        "raspberry pi",
+        "rpi",
+        "pcf8574",
+        "pcf8575",
+        "hd44780",
+        "iot",
+        "iiot",
+        "digital",
+        "dio",
+        "display",
+        "lcd",
+        "1602",
+        "2004"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-iiot-rpi-pcf857x"
+    },
+    {
+      "id": "node-red-contrib-cb-arp",
+      "version": "1.0.1",
+      "description": "This node provides the content of the ARP table",
+      "updated_at": "2023-01-14T16:45:18.430Z",
+      "types": [
+        "arp"
+      ],
+      "keywords": [
+        "node-red",
+        "arp"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-cb-arp"
+    },
     {
       "id": "@jambonz/node-red-contrib-jambonz",
       "version": "2.3.1",
@@ -47,42 +175,6 @@
         "node-red"
       ],
       "url": "https://flows.nodered.org/node/@jambonz/node-red-contrib-jambonz"
-    },
-    {
-      "id": "node-red-contrib-pi-plates",
-      "version": "0.2.0",
-      "description": "control Pi-Plates boards from Node-RED",
-      "updated_at": "2023-01-13T19:51:54.288Z",
-      "types": [
-        "pi_plate",
-        "ppRelay",
-        "ppADC",
-        "ppAllADC",
-        "ppCURRENT",
-        "ppDAC",
-        "ppDIN",
-        "ppDOUT",
-        "ppFREQ",
-        "ppLED",
-        "ppTEMP",
-        "ppTHERMO",
-        "ppPWM",
-        "ppMotor"
-      ],
-      "keywords": [
-        "node-red",
-        "pi-plates",
-        "Pi",
-        "Plates",
-        "relay",
-        "automation",
-        "adc",
-        "dac",
-        "ds18b20",
-        "thermocouple",
-        "iot"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-pi-plates"
     },
     {
       "id": "node-red-contrib-js-storage",
@@ -152,20 +244,6 @@
         "snmpv3"
       ],
       "url": "https://flows.nodered.org/node/node-red-node-snmp"
-    },
-    {
-      "id": "@binsoul/node-red-contrib-statistics",
-      "version": "0.0.1",
-      "description": "Perform statistical operations on a configurable duration of incoming data.",
-      "updated_at": "2023-01-13T11:01:34.925Z",
-      "types": [
-        "binsoul-statistics"
-      ],
-      "keywords": [
-        "node-red",
-        "statistics"
-      ],
-      "url": "https://flows.nodered.org/node/@binsoul/node-red-contrib-statistics"
     },
     {
       "id": "node-red-contrib-aw365-jwt-token",
@@ -619,23 +697,6 @@
       "url": "https://flows.nodered.org/node/@eswarpr/node-red-modn-counter"
     },
     {
-      "id": "node-red-contrib-nixtla",
-      "version": "1.0.1",
-      "description": "Nodes for connecting to the Nixtla APIs.",
-      "updated_at": "2023-01-09T13:46:05.813Z",
-      "types": [
-        "nixtla",
-        "nixtla-config"
-      ],
-      "keywords": [
-        "node-red",
-        "nixtla",
-        "ml",
-        "timeseries"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-nixtla"
-    },
-    {
       "id": "node-red-contrib-iiot-rpi-max7219",
       "version": "1.0.20",
       "description": "A Node-Red node for max7219 8-Digit LED Display",
@@ -1057,20 +1118,6 @@
         "Ubiquiti Networks"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-unifi"
-    },
-    {
-      "id": "node-red-contrib-cb-arp",
-      "version": "1.0.0",
-      "description": "This node provides the content of the ARP table",
-      "updated_at": "2023-01-05T19:55:37.958Z",
-      "types": [
-        "arp"
-      ],
-      "keywords": [
-        "node-red",
-        "arp"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-cb-arp"
     },
     {
       "id": "node-red-mocknode",
@@ -10161,21 +10208,6 @@
         "TOF050C"
       ],
       "url": "https://flows.nodered.org/node/@ondrejmiko/node-red-contrib-vl6180"
-    },
-    {
-      "id": "node-red-contrib-nordpool-api-plus",
-      "version": "4.3.1",
-      "description": "A Node-Red Node for collecting `day ahead` prices from Nord Pool Group.",
-      "updated_at": "2022-08-15T14:25:44.097Z",
-      "types": [
-        "nordpool-api-plus"
-      ],
-      "keywords": [
-        "node-red",
-        "nord pool",
-        "watt prices"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-nordpool-api-plus"
     },
     {
       "id": "@gapit/node-red-contrib-gapit-snmp",
