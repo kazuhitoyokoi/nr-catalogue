@@ -1,7 +1,125 @@
 {
   "name": "Catalogue for docker",
-  "updated_at": "2023-01-15T16:10:03.902Z",
+  "updated_at": "2023-01-16T16:11:05.298Z",
   "modules": [
+    {
+      "id": "@sparktime/node-red-contrib-wamp-auth",
+      "version": "0.0.3",
+      "description": "Node-RED nodes to talk to WAMP with auth",
+      "updated_at": "2023-01-16T12:59:31.775Z",
+      "types": [
+        "wamp in",
+        "wamp out",
+        "wamp call",
+        "wamp-client"
+      ],
+      "keywords": [
+        "node-red",
+        "wamp"
+      ],
+      "url": "https://flows.nodered.org/node/@sparktime/node-red-contrib-wamp-auth"
+    },
+    {
+      "id": "cloud4machine-cloud-nodered",
+      "version": "0.2.33",
+      "description": "A collection of node red nodes to define custom cloud⁴machine flows",
+      "updated_at": "2023-01-16T10:35:05.065Z",
+      "types": [
+        "rule set",
+        "mqtt-cloud-broker",
+        "mqtt cloud in",
+        "mqtt cloud out"
+      ],
+      "keywords": [
+        "node-red",
+        "cloud4machine",
+        "grob-net4industry"
+      ],
+      "url": "https://flows.nodered.org/node/cloud4machine-cloud-nodered"
+    },
+    {
+      "id": "node-red-contrib-node-line-api",
+      "version": "0.8.6",
+      "description": "LINE API nodes for Node-RED, include LINE Notify and LINE Messaging API, for easy to interact with LINE application.",
+      "updated_at": "2023-01-16T09:05:47.596Z",
+      "types": [
+        "node-line-notify",
+        "node-line-bot-push-message",
+        "node-line-bot-multicast-message",
+        "node-line-bot-broadcast-message",
+        "node-line-bot-reply-message",
+        "node-line-bot-webhook",
+        "line-messaging-api-config",
+        "node-line-bot-replyToken-provider",
+        "node-line-bot-quick-reply-item",
+        "node-line-bot-quick-reply-collector"
+      ],
+      "keywords": [
+        "node-red",
+        "line",
+        "line-api",
+        "line-notify",
+        "line-messageing-api",
+        "line-push-message",
+        "line-multicast-message",
+        "line-broadcast-message",
+        "line-reply-message",
+        "line-webhook",
+        "line-quick-reply"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-node-line-api"
+    },
+    {
+      "id": "node-red-contrib-aw365-ustimezonecheck",
+      "version": "0.1.0",
+      "description": "checks a 3 digit area code and sort in the timezone open/close",
+      "updated_at": "2023-01-16T08:09:26.186Z",
+      "types": [
+        "aw365-timezone"
+      ],
+      "keywords": [
+        "node-red",
+        "aw365",
+        "timezone",
+        "areacode"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-aw365-ustimezonecheck"
+    },
+    {
+      "id": "@binsoul/node-red-contrib-statistics",
+      "version": "0.1.2",
+      "description": "Perform statistical operations on a configurable duration of incoming data.",
+      "updated_at": "2023-01-16T05:47:15.535Z",
+      "types": [
+        "binsoul-statistics"
+      ],
+      "keywords": [
+        "node-red",
+        "statistics",
+        "average",
+        "mean",
+        "moving window"
+      ],
+      "url": "https://flows.nodered.org/node/@binsoul/node-red-contrib-statistics"
+    },
+    {
+      "id": "@rockprofile/node-red-contrib-mastodon",
+      "version": "1.0.2",
+      "description": "A collection of Ned Red nodes to perform actions against a Mastodon instance.",
+      "updated_at": "2023-01-15T23:21:16.540Z",
+      "types": [
+        "mastodon",
+        "mastodon-server",
+        "send-toot"
+      ],
+      "keywords": [
+        "mastodon",
+        "node",
+        "node-red",
+        "toots"
+      ],
+      "url": "https://flows.nodered.org/node/@rockprofile/node-red-contrib-mastodon"
+    },
     {
       "id": "node-red-contrib-nixtla",
       "version": "1.0.2",
@@ -18,6 +136,26 @@
         "timeseries"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-nixtla"
+    },
+    {
+      "id": "@mschaeffler/node-red-lora",
+      "version": "2.1.2",
+      "description": "Five nodes to send and receive LoRaWan messages via a gateway via the Semtech UDP protocol.",
+      "updated_at": "2023-01-15T12:50:52.860Z",
+      "types": [
+        "lorawan-server",
+        "lorawan-keys",
+        "lorawan-packet-decoder",
+        "lorawan-packet-encoder",
+        "lorawan-packet-checkFC",
+        "lorawan-queue-message"
+      ],
+      "keywords": [
+        "node-red",
+        "lora",
+        "LoRaWan"
+      ],
+      "url": "https://flows.nodered.org/node/@mschaeffler/node-red-lora"
     },
     {
       "id": "node-red-contrib-nordpool-api-plus",
@@ -114,6 +252,22 @@
       "url": "https://flows.nodered.org/node/node-red-contrib-cb-arp"
     },
     {
+      "id": "@mschaeffler/node-red-dualled",
+      "version": "1.1.2",
+      "description": "control dual (CCT) LEDs.",
+      "updated_at": "2023-01-14T14:06:09.085Z",
+      "types": [
+        "confDualLed",
+        "ctrlDualLed",
+        "feedbackDualLed"
+      ],
+      "keywords": [
+        "node-red",
+        "LED"
+      ],
+      "url": "https://flows.nodered.org/node/@mschaeffler/node-red-dualled"
+    },
+    {
       "id": "@jambonz/node-red-contrib-jambonz",
       "version": "2.3.1",
       "description": "Node-RED nodes for jambonz",
@@ -173,22 +327,6 @@
       "url": "https://flows.nodered.org/node/node-red-contrib-js-storage"
     },
     {
-      "id": "node-red-contrib-aw365-ustimezonecheck",
-      "version": "0.0.7",
-      "description": "checks a 3 digit area code and sort in the timezone open/close",
-      "updated_at": "2023-01-13T14:17:35.610Z",
-      "types": [
-        "aw365-timezone"
-      ],
-      "keywords": [
-        "node-red",
-        "aw365",
-        "timezone",
-        "areacode"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-aw365-ustimezonecheck"
-    },
-    {
       "id": "@iotopen/node-red-contrib-lynx",
       "version": "1.5.1",
       "description": "NodeRED integration for IoT Open Lynx",
@@ -227,20 +365,6 @@
         "snmpv3"
       ],
       "url": "https://flows.nodered.org/node/node-red-node-snmp"
-    },
-    {
-      "id": "@binsoul/node-red-contrib-statistics",
-      "version": "0.0.1",
-      "description": "Perform statistical operations on a configurable duration of incoming data.",
-      "updated_at": "2023-01-13T11:01:34.925Z",
-      "types": [
-        "binsoul-statistics"
-      ],
-      "keywords": [
-        "node-red",
-        "statistics"
-      ],
-      "url": "https://flows.nodered.org/node/@binsoul/node-red-contrib-statistics"
     },
     {
       "id": "node-red-contrib-aw365-jwt-token",
@@ -2291,22 +2415,6 @@
       "url": "https://flows.nodered.org/node/node-red-contrib-ale-iot-hub"
     },
     {
-      "id": "@mschaeffler/node-red-dualled",
-      "version": "1.1.1",
-      "description": "control dual (CCT) LEDs.",
-      "updated_at": "2022-12-22T10:22:22.625Z",
-      "types": [
-        "confDualLed",
-        "ctrlDualLed",
-        "feedbackDualLed"
-      ],
-      "keywords": [
-        "node-red",
-        "LED"
-      ],
-      "url": "https://flows.nodered.org/node/@mschaeffler/node-red-dualled"
-    },
-    {
       "id": "node-red-contrib-schneider-powerlogic",
       "version": "1.0.11",
       "description": "A Node-RED nodes to read Schneider PowerLogic series over Modbus TCP/IP.",
@@ -3227,26 +3335,6 @@
         "clip"
       ],
       "url": "https://flows.nodered.org/node/@hurenkam/node-red-hue-services"
-    },
-    {
-      "id": "@mschaeffler/node-red-lora",
-      "version": "2.1.1",
-      "description": "Five nodes to send and receive LoRaWan messages via a gateway via the Semtech UDP protocol.",
-      "updated_at": "2022-12-09T13:29:07.031Z",
-      "types": [
-        "lorawan-server",
-        "lorawan-keys",
-        "lorawan-packet-decoder",
-        "lorawan-packet-encoder",
-        "lorawan-packet-checkFC",
-        "lorawan-queue-message"
-      ],
-      "keywords": [
-        "node-red",
-        "lora",
-        "LoRaWan"
-      ],
-      "url": "https://flows.nodered.org/node/@mschaeffler/node-red-lora"
     },
     {
       "id": "node-red-contrib-wazo-platform",
@@ -5044,24 +5132,6 @@
         "cache"
       ],
       "url": "https://flows.nodered.org/node/@atomic-org/lru-cache"
-    },
-    {
-      "id": "cloud4machine-cloud-nodered",
-      "version": "0.2.31",
-      "description": "A collection of node red nodes to define custom cloud⁴machine flows",
-      "updated_at": "2022-11-18T13:48:17.292Z",
-      "types": [
-        "rule set",
-        "mqtt-cloud-broker",
-        "mqtt cloud in",
-        "mqtt cloud out"
-      ],
-      "keywords": [
-        "node-red",
-        "cloud4machine",
-        "grob-net4industry"
-      ],
-      "url": "https://flows.nodered.org/node/cloud4machine-cloud-nodered"
     },
     {
       "id": "@lunatone/node-red-dali",
@@ -8918,6 +8988,22 @@
         "vvb001"
       ],
       "url": "https://flows.nodered.org/node/@inuse/node-red-contrib-ifm-vvb001"
+    },
+    {
+      "id": "node-red-contrib-sendmail",
+      "version": "1.0.7",
+      "description": "send emails with help of a local senmdmail command.",
+      "updated_at": "2022-09-15T06:43:53.891Z",
+      "types": [
+        "sendmail"
+      ],
+      "keywords": [
+        "node-red",
+        "email",
+        "sendmail",
+        "nullmailer"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-sendmail"
     },
     {
       "id": "@mschaeffler/node-red-asterisk-ami-manager",
@@ -15510,38 +15596,6 @@
       "url": "https://flows.nodered.org/node/@yousolution/node-red-contrib-you-yousolution.cloud"
     },
     {
-      "id": "node-red-contrib-node-line-api",
-      "version": "0.8.5",
-      "description": "LINE API nodes for Node-RED, include LINE Notify and LINE Messaging API, for easy to interact with LINE application.",
-      "updated_at": "2022-04-19T12:57:54.273Z",
-      "types": [
-        "node-line-notify",
-        "node-line-bot-push-message",
-        "node-line-bot-multicast-message",
-        "node-line-bot-broadcast-message",
-        "node-line-bot-reply-message",
-        "node-line-bot-webhook",
-        "line-messaging-api-config",
-        "node-line-bot-replyToken-provider",
-        "node-line-bot-quick-reply-item",
-        "node-line-bot-quick-reply-collector"
-      ],
-      "keywords": [
-        "node-red",
-        "line",
-        "line-api",
-        "line-notify",
-        "line-messageing-api",
-        "line-push-message",
-        "line-multicast-message",
-        "line-broadcast-message",
-        "line-reply-message",
-        "line-webhook",
-        "line-quick-reply"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-node-line-api"
-    },
-    {
       "id": "node-red-contrib-filesystem",
       "version": "1.0.0",
       "description": "Node-RED nodes to work with filesystem. You can copy, move, link, delete files, create, list and remove folders and get info.",
@@ -17578,22 +17632,6 @@
         "ng"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-ng"
-    },
-    {
-      "id": "node-red-contrib-sendmail",
-      "version": "1.0.6",
-      "description": "send emails with help of a local senmdmail command.",
-      "updated_at": "2022-02-28T09:45:13.942Z",
-      "types": [
-        "sendmail"
-      ],
-      "keywords": [
-        "node-red",
-        "email",
-        "sendmail",
-        "nullmailer"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-sendmail"
     },
     {
       "id": "node-red-contrib-ui-multistate-switch",
