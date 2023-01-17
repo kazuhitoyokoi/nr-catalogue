@@ -1,0 +1,31 @@
+
+----
+Sending build context to Docker daemon   31.5MB
+Step 1/2 : FROM nodered/node-red
+ ---> a15fc0f4e930
+Step 2/2 : RUN npm install npm install @ralphwetzel/node-red-mcu-gate@1.0.0
+ ---> Running in 32be13588118
+
+added 3 packages, and audited 527 packages in 4s
+
+47 packages are looking for funding
+  run `npm fund` for details
+
+6 vulnerabilities (5 low, 1 moderate)
+
+To address issues that do not require attention, run:
+  npm audit fix
+
+To address all issues (including breaking changes), run:
+  npm audit fix --force
+
+Run `npm audit` for details.
+[91mnpm[0m[91m [0m[91mnotice[0m[91m 
+[0m[91mnpm[0m[91m [0m[91mnotice[0m[91m New major version of npm available! 8.11.0 -> 9.3.0
+[0m[91mnpm[0m[91m [0m[91mnotice[0m[91m Changelog: <https://github.com/npm/cli/releases/tag/v9.3.0>
+[0m[91mnpm[0m[91m [0m[91mnotice[0m[91m Run `npm install -g npm@9.3.0` to update!
+[0m[91mnpm[0m[91m [0m[91mnotice[0m[91m 
+[0mRemoving intermediate container 32be13588118
+ ---> c10238b9a5bd
+Successfully built c10238b9a5bd
+Successfully tagged tmp:latest
