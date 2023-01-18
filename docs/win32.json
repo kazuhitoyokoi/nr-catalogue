@@ -1,12 +1,193 @@
 {
   "name": "Catalogue for win32",
-  "updated_at": "2023-01-17T19:08:06.502Z",
+  "updated_at": "2023-01-18T18:39:58.519Z",
   "modules": [
     {
+      "id": "node-red-contrib-iiot-rpi-max7219",
+      "version": "1.0.21",
+      "description": "A Node-Red node for max7219 8-Digit LED Display",
+      "updated_at": "2023-01-18T13:37:56.002Z",
+      "types": [
+        "max7219-7seg",
+        "max7219-mtx"
+      ],
+      "keywords": [
+        "node-red",
+        "raspberry pi",
+        "rpi",
+        "max7219",
+        "iot",
+        "iiot",
+        "display",
+        "led",
+        "7-segment",
+        "matrix"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-iiot-rpi-max7219"
+    },
+    {
+      "id": "node-red-contrib-knx-ultimate",
+      "version": "1.4.11",
+      "description": "Control your KNX intallation via Node-Red! Single Node KNX IN/OUT with optional ETS group address importer. Easy to use and highly configurable.",
+      "updated_at": "2023-01-18T12:09:03.479Z",
+      "types": [
+        "knxUltimate",
+        "knxUltimateSceneController",
+        "knxUltimateWatchDog",
+        "knxUltimateLogger",
+        "knxUltimate-config",
+        "knxUltimateGlobalContext",
+        "knxUltimateAlerter",
+        "knxUltimateLoadControl",
+        "knxUltimateViewer"
+      ],
+      "keywords": [
+        "node-red",
+        "KNX",
+        "ETS",
+        "eib",
+        "eibd",
+        "knxd",
+        "konnex",
+        "IOT",
+        "KNX Secure"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-knx-ultimate"
+    },
+    {
+      "id": "@inutil-labs/node-red-whin-whatsapp",
+      "version": "0.0.9",
+      "description": "Whin is a whatsapp node for node-red, through a shared gateway",
+      "updated_at": "2023-01-18T11:42:51.896Z",
+      "types": [
+        "whin_send",
+        "whin_receive",
+        "whin_group_commander",
+        "whin_config"
+      ],
+      "keywords": [
+        "node-red",
+        "whin",
+        "whatsapp"
+      ],
+      "url": "https://flows.nodered.org/node/@inutil-labs/node-red-whin-whatsapp"
+    },
+    {
+      "id": "node-red-contrib-monster",
+      "version": "0.0.5",
+      "description": "A collection of Node-RED nodes for Monster.  Includes nodes for S3 client.",
+      "updated_at": "2023-01-18T11:32:52.220Z",
+      "types": [
+        "Monster S3",
+        "monster config"
+      ],
+      "keywords": [
+        "node-red",
+        "s3"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-monster"
+    },
+    {
+      "id": "@sparktime/node-red-contrib-wamp-auth",
+      "version": "0.0.4",
+      "description": "Node-RED nodes to talk to WAMP with auth",
+      "updated_at": "2023-01-18T10:58:57.541Z",
+      "types": [
+        "wamp in",
+        "wamp out",
+        "wamp call",
+        "wamp-client"
+      ],
+      "keywords": [
+        "node-red",
+        "wamp"
+      ],
+      "url": "https://flows.nodered.org/node/@sparktime/node-red-contrib-wamp-auth"
+    },
+    {
+      "id": "@digitalnodecom/node-red-contrib-generic-s3",
+      "version": "1.6.2",
+      "description": "Generic node-red S3 nodes",
+      "updated_at": "2023-01-18T09:44:48.713Z",
+      "types": [
+        "client-s3",
+        "List Buckets",
+        "Create Bucket",
+        "List Objects",
+        "List Objects V2",
+        "List Object Versions",
+        "Get Object",
+        "Head Object",
+        "Put Object",
+        "Put Objects",
+        "Delete Object"
+      ],
+      "keywords": [
+        "node-red",
+        "s3",
+        "generic"
+      ],
+      "url": "https://flows.nodered.org/node/@digitalnodecom/node-red-contrib-generic-s3"
+    },
+    {
+      "id": "node-red-contrib-airbrake",
+      "version": "1.0.0",
+      "description": "Airbrake node red library",
+      "updated_at": "2023-01-18T08:55:09.915Z",
+      "types": [
+        "Airbrake"
+      ],
+      "keywords": [
+        "airbrake",
+        "node-red"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-airbrake"
+    },
+    {
+      "id": "node-red-contrib-mssql-plus",
+      "version": "0.9.1",
+      "description": "A node-red node to execute queries, stored procedures and bulk inserts in Microsoft SQL Server and Azure Databases SQL2000 ~ SQL2019",
+      "updated_at": "2023-01-18T02:02:32.718Z",
+      "types": [
+        "MSSQL-CN",
+        "MSSQL"
+      ],
+      "keywords": [
+        "node-red",
+        "odbc",
+        "unixodbc",
+        "mssql",
+        "sql",
+        "Microsoft",
+        "database",
+        "sql-server",
+        "azure"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-mssql-plus"
+    },
+    {
+      "id": "node-red-contrib-esphome",
+      "version": "0.0.2",
+      "description": "Node-RED nodes to ESPhome devices.",
+      "updated_at": "2023-01-17T18:55:31.566Z",
+      "types": [
+        "esphome-device",
+        "esphome-in",
+        "esphome-out"
+      ],
+      "keywords": [
+        "node-red",
+        "esphome",
+        "esp",
+        "home"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-esphome"
+    },
+    {
       "id": "node-red-contrib-log-elk",
-      "version": "1.2.5",
+      "version": "1.2.7",
       "description": "A Node-RED logging node with multiple outputs using the winston and winston-elasticsearch logging libraries",
-      "updated_at": "2023-01-17T14:53:14.947Z",
+      "updated_at": "2023-01-17T17:22:02.855Z",
       "types": [
         "log-elk",
         "log-elk-logger"
@@ -18,6 +199,140 @@
         "node-red"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-log-elk"
+    },
+    {
+      "id": "node-red-contrib-snap4city-user",
+      "version": "0.9.41",
+      "description": "Nodes for Snap4city project, targeted to standard user (no developer)",
+      "updated_at": "2023-01-17T16:39:08.769Z",
+      "types": [
+        "service-search-near-marker",
+        "service-search-within-circle",
+        "service-search-within-polygon",
+        "service-search-along-path",
+        "distance-from-coordinates",
+        "point-within-polygon",
+        "routing",
+        "heatmap-picker",
+        "coordinates-to-address",
+        "service-info",
+        "full-text-search-near-marker",
+        "full-text-search-within-circle",
+        "full-text-search-within-polygon",
+        "full-text-search-along-path",
+        "full-text-search-usr",
+        "event-search-near-marker",
+        "event-search-within-circle",
+        "event-search-within-polygon",
+        "event-search-along-path",
+        "event-search-usr",
+        "address-search-near-marker",
+        "geometry-search-near-marker",
+        "address-poi-search-by-text-usr",
+        "address-poi-search-by-text-near-marker",
+        "address-poi-search-by-text-within-circle",
+        "bus-routes-search-near-marker",
+        "bus-routes-search-within-circle",
+        "bus-routes-search-within-polygon",
+        "tpl-agencies",
+        "tpl-lines",
+        "tpl-routes-by-agency",
+        "tpl-routes-by-line",
+        "tpl-stops-by-route",
+        "tpl-stop-timeline",
+        "recommendations-within-circle",
+        "value-type-search-near-marker",
+        "value-type-search-within-circle",
+        "value-type-search-within-polygon",
+        "value-type-search-along-path",
+        "get-access-token",
+        "get-my-data",
+        "get-my-kpidata",
+        "get-delegated-kpidata",
+        "get-public-kpidata",
+        "get-my-kpidata-values",
+        "get-public-kpidata-values",
+        "get-delegated-kpidata-values",
+        "get-my-delegator",
+        "get-my-delegated",
+        "get-my-activity",
+        "delegate-my-kpidata",
+        "get-other-activity-on-my-data",
+        "get-iotapps-using-my-kpidata",
+        "save-my-data",
+        "save-my-kpidata-values",
+        "get-my-annotation",
+        "get-anonymous-data",
+        "get-other-data",
+        "iotdirectory-new-device-from-model",
+        "delegate-my-device",
+        "get-my-devices",
+        "change-visibility-my-device",
+        "change-ownership-my-device",
+        "coordinates-from-map",
+        "impulse-button",
+        "numeric-keyboard",
+        "switch-button",
+        "dimmer",
+        "dashboardEvent",
+        "dashboardDevice",
+        "dashboard-geolocator",
+        "dropdown",
+        "dashboardForm",
+        "gauge-chart",
+        "single-content",
+        "speedometer",
+        "bar-content",
+        "column-content",
+        "web-content",
+        "dashboard-time-trend",
+        "bar-series",
+        "radar-series",
+        "pie-chart",
+        "curved-line-series",
+        "table-content",
+        "speak-synthesis",
+        "selector-to-map",
+        "dashboard-map",
+        "event-driven-my-kpi",
+        "synoptic-read",
+        "synoptic-write",
+        "synoptic-subscribe",
+        "sigfox device filter",
+        "sigfox in",
+        "iotdirectory-get-device",
+        "event-log",
+        "orion-service",
+        "fiware orion in",
+        "fiware orion",
+        "orion-test",
+        "fiware-orion-out",
+        "orion-service-api-v2",
+        "orion-subscribe-api-v2",
+        "orion-query-api-v2",
+        "orion-update-api-v2",
+        "orion-out-api-v2",
+        "orion-service-v22",
+        "fiware-orion-in-v22",
+        "fiware-orion-query-v22",
+        "fiware-orion-out-v22",
+        "orion-service-v2",
+        "fiware-orion-in-v2",
+        "fiware-orion-query-v2",
+        "fiware-orion-out-v2",
+        "show-micro-web-app",
+        "show-general-iframe",
+        "twitter-last-channel",
+        "twitter-last-tweet",
+        "snap4city-authentication",
+        "snap4all-button"
+      ],
+      "keywords": [
+        "node-red",
+        "smartcity",
+        "iot"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-snap4city-user"
     },
     {
       "id": "node-red-contrib-airship-polaris",
@@ -154,23 +469,6 @@
         "whatsapp Chat"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-whatsapp-link"
-    },
-    {
-      "id": "@sparktime/node-red-contrib-wamp-auth",
-      "version": "0.0.3",
-      "description": "Node-RED nodes to talk to WAMP with auth",
-      "updated_at": "2023-01-16T12:59:31.775Z",
-      "types": [
-        "wamp in",
-        "wamp out",
-        "wamp call",
-        "wamp-client"
-      ],
-      "keywords": [
-        "node-red",
-        "wamp"
-      ],
-      "url": "https://flows.nodered.org/node/@sparktime/node-red-contrib-wamp-auth"
     },
     {
       "id": "cloud4machine-cloud-nodered",
@@ -667,24 +965,6 @@
       "url": "https://flows.nodered.org/node/node-red-contrib-http-instance-cors"
     },
     {
-      "id": "node-red-contrib-esphome",
-      "version": "0.0.1",
-      "description": "Node-RED nodes to ESPhome devices.",
-      "updated_at": "2023-01-11T17:29:43.353Z",
-      "types": [
-        "esphome-device",
-        "esphome-in",
-        "esphome-out"
-      ],
-      "keywords": [
-        "node-red",
-        "esphome",
-        "esp",
-        "home"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-esphome"
-    },
-    {
       "id": "node-red-contrib-sonos-plus",
       "version": "6.6.1",
       "description": "A set of Node-RED nodes to control SONOS player in your local network.",
@@ -835,31 +1115,6 @@
       "url": "https://flows.nodered.org/node/@ralphwetzel/node-red-mcu-plugin"
     },
     {
-      "id": "@digitalnodecom/node-red-contrib-generic-s3",
-      "version": "1.6.1",
-      "description": "Generic node-red S3 nodes",
-      "updated_at": "2023-01-10T06:23:47.981Z",
-      "types": [
-        "client-s3",
-        "List Buckets",
-        "Create Bucket",
-        "List Objects",
-        "List Objects V2",
-        "List Object Versions",
-        "Get Object",
-        "Head Object",
-        "Put Object",
-        "Put Objects",
-        "Delete Object"
-      ],
-      "keywords": [
-        "node-red",
-        "s3",
-        "generic"
-      ],
-      "url": "https://flows.nodered.org/node/@digitalnodecom/node-red-contrib-generic-s3"
-    },
-    {
       "id": "lighttalk_schedule_no_mqtt",
       "version": "1.0.1",
       "description": "sending payload with schedule",
@@ -929,29 +1184,6 @@
         "mod-n counter"
       ],
       "url": "https://flows.nodered.org/node/@eswarpr/node-red-modn-counter"
-    },
-    {
-      "id": "node-red-contrib-iiot-rpi-max7219",
-      "version": "1.0.20",
-      "description": "A Node-Red node for max7219 8-Digit LED Display",
-      "updated_at": "2023-01-09T10:09:24.100Z",
-      "types": [
-        "max7219-7seg",
-        "max7219-mtx"
-      ],
-      "keywords": [
-        "node-red",
-        "raspberry pi",
-        "rpi",
-        "max7219",
-        "iot",
-        "iiot",
-        "display",
-        "led",
-        "7-segment",
-        "matrix"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-iiot-rpi-max7219"
     },
     {
       "id": "node-red-contrib-ui-upload",
@@ -3008,35 +3240,6 @@
       "url": "https://flows.nodered.org/node/@definy/node-red"
     },
     {
-      "id": "node-red-contrib-knx-ultimate",
-      "version": "1.4.10",
-      "description": "Control your KNX intallation via Node-Red! Single Node KNX IN/OUT with optional ETS group address importer. Easy to use and highly configurable.",
-      "updated_at": "2022-12-15T10:42:01.098Z",
-      "types": [
-        "knxUltimate",
-        "knxUltimateSceneController",
-        "knxUltimateWatchDog",
-        "knxUltimateLogger",
-        "knxUltimate-config",
-        "knxUltimateGlobalContext",
-        "knxUltimateAlerter",
-        "knxUltimateLoadControl",
-        "knxUltimateViewer"
-      ],
-      "keywords": [
-        "node-red",
-        "KNX",
-        "ETS",
-        "eib",
-        "eibd",
-        "knxd",
-        "konnex",
-        "IOT",
-        "KNX Secure"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-knx-ultimate"
-    },
-    {
       "id": "node-red-contrib-iiot-opcua",
       "version": "4.1.2",
       "description": "An Industrial IoT OPC UA toolbox contribution package for Node-RED based on node-opcua.",
@@ -4125,23 +4328,6 @@
       "url": "https://flows.nodered.org/node/@steveorevo/node-red-flow2src"
     },
     {
-      "id": "@inutil-labs/node-red-whin-whatsapp",
-      "version": "0.0.8",
-      "description": "Whin is a whatsapp node for node-red, through a shared gateway",
-      "updated_at": "2022-11-28T21:58:59.639Z",
-      "types": [
-        "whin_send",
-        "whin_receive",
-        "whin_config"
-      ],
-      "keywords": [
-        "node-red",
-        "whin",
-        "whatsapp"
-      ],
-      "url": "https://flows.nodered.org/node/@inutil-labs/node-red-whin-whatsapp"
-    },
-    {
       "id": "@nodecolor/node-red-contrib-azure-iot-hub",
       "version": "0.5.2",
       "description": "Connector to azure on Node-Red",
@@ -4657,140 +4843,6 @@
         "node-red"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-objtalk"
-    },
-    {
-      "id": "node-red-contrib-snap4city-user",
-      "version": "0.9.40",
-      "description": "Nodes for Snap4city project, targeted to standard user (no developer)",
-      "updated_at": "2022-11-22T11:06:14.157Z",
-      "types": [
-        "service-search-near-marker",
-        "service-search-within-circle",
-        "service-search-within-polygon",
-        "service-search-along-path",
-        "distance-from-coordinates",
-        "point-within-polygon",
-        "routing",
-        "heatmap-picker",
-        "coordinates-to-address",
-        "service-info",
-        "full-text-search-near-marker",
-        "full-text-search-within-circle",
-        "full-text-search-within-polygon",
-        "full-text-search-along-path",
-        "full-text-search-usr",
-        "event-search-near-marker",
-        "event-search-within-circle",
-        "event-search-within-polygon",
-        "event-search-along-path",
-        "event-search-usr",
-        "address-search-near-marker",
-        "geometry-search-near-marker",
-        "address-poi-search-by-text-usr",
-        "address-poi-search-by-text-near-marker",
-        "address-poi-search-by-text-within-circle",
-        "bus-routes-search-near-marker",
-        "bus-routes-search-within-circle",
-        "bus-routes-search-within-polygon",
-        "tpl-agencies",
-        "tpl-lines",
-        "tpl-routes-by-agency",
-        "tpl-routes-by-line",
-        "tpl-stops-by-route",
-        "tpl-stop-timeline",
-        "recommendations-within-circle",
-        "value-type-search-near-marker",
-        "value-type-search-within-circle",
-        "value-type-search-within-polygon",
-        "value-type-search-along-path",
-        "get-access-token",
-        "get-my-data",
-        "get-my-kpidata",
-        "get-delegated-kpidata",
-        "get-public-kpidata",
-        "get-my-kpidata-values",
-        "get-public-kpidata-values",
-        "get-delegated-kpidata-values",
-        "get-my-delegator",
-        "get-my-delegated",
-        "get-my-activity",
-        "delegate-my-kpidata",
-        "get-other-activity-on-my-data",
-        "get-iotapps-using-my-kpidata",
-        "save-my-data",
-        "save-my-kpidata-values",
-        "get-my-annotation",
-        "get-anonymous-data",
-        "get-other-data",
-        "iotdirectory-new-device-from-model",
-        "delegate-my-device",
-        "get-my-devices",
-        "change-visibility-my-device",
-        "change-ownership-my-device",
-        "coordinates-from-map",
-        "impulse-button",
-        "numeric-keyboard",
-        "switch-button",
-        "dimmer",
-        "dashboardEvent",
-        "dashboardDevice",
-        "dashboard-geolocator",
-        "dropdown",
-        "dashboardForm",
-        "gauge-chart",
-        "single-content",
-        "speedometer",
-        "bar-content",
-        "column-content",
-        "web-content",
-        "dashboard-time-trend",
-        "bar-series",
-        "radar-series",
-        "pie-chart",
-        "curved-line-series",
-        "table-content",
-        "speak-synthesis",
-        "selector-to-map",
-        "dashboard-map",
-        "event-driven-my-kpi",
-        "synoptic-read",
-        "synoptic-write",
-        "synoptic-subscribe",
-        "sigfox device filter",
-        "sigfox in",
-        "iotdirectory-get-device",
-        "event-log",
-        "orion-service",
-        "fiware orion in",
-        "fiware orion",
-        "orion-test",
-        "fiware-orion-out",
-        "orion-service-api-v2",
-        "orion-subscribe-api-v2",
-        "orion-query-api-v2",
-        "orion-update-api-v2",
-        "orion-out-api-v2",
-        "orion-service-v22",
-        "fiware-orion-in-v22",
-        "fiware-orion-query-v22",
-        "fiware-orion-out-v22",
-        "orion-service-v2",
-        "fiware-orion-in-v2",
-        "fiware-orion-query-v2",
-        "fiware-orion-out-v2",
-        "show-micro-web-app",
-        "show-general-iframe",
-        "twitter-last-channel",
-        "twitter-last-tweet",
-        "snap4city-authentication",
-        "snap4all-button"
-      ],
-      "keywords": [
-        "node-red",
-        "smartcity",
-        "iot"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-snap4city-user"
     },
     {
       "id": "@virtualbat/node-red-contrib-solax-cloud-api-client",
@@ -14518,6 +14570,19 @@
         "buffer"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-buffer-to-png"
+    },
+    {
+      "id": "node-red-contrib-brp069c4",
+      "version": "0.0.8",
+      "description": "Experimental node-red daikin cloud controller",
+      "updated_at": "2022-05-11T02:59:01.278Z",
+      "types": [
+        "daikin_brp069c4"
+      ],
+      "keywords": [
+        "node-red"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-brp069c4"
     },
     {
       "id": "@mindconnect/node-red-contrib-mindconnect",
@@ -25498,28 +25563,6 @@
       "url": "https://flows.nodered.org/node/node-red-contrib-web-of-things"
     },
     {
-      "id": "node-red-contrib-mssql-plus",
-      "version": "0.7.3",
-      "description": "A node-red node to execute queries, stored procedures and bulk inserts in Microsoft SQL Server and Azure Databases SQL2000 ~ SQL2019",
-      "updated_at": "2021-07-29T07:43:35.799Z",
-      "types": [
-        "MSSQL-CN",
-        "MSSQL"
-      ],
-      "keywords": [
-        "node-red",
-        "odbc",
-        "unixodbc",
-        "mssql",
-        "sql",
-        "Microsoft",
-        "database",
-        "sql-server",
-        "azure"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-mssql-plus"
-    },
-    {
       "id": "node-red-contrib-baidu-translate",
       "version": "1.0.3",
       "description": "百度翻译 Node-RED node for Baidu Translate",
@@ -27971,19 +28014,6 @@
         "festo"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-easyip"
-    },
-    {
-      "id": "node-red-contrib-brp069c4",
-      "version": "0.0.7",
-      "description": "Experimental node-red daikin cloud controller",
-      "updated_at": "2021-05-20T18:38:26.564Z",
-      "types": [
-        "daikin_brp069c4"
-      ],
-      "keywords": [
-        "node-red"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-brp069c4"
     },
     {
       "id": "node-red-contrib-business-logic",
