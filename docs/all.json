@@ -1,7 +1,171 @@
 {
   "name": "Catalogue for verified nodes",
-  "updated_at": "2023-01-19T20:30:32.283Z",
+  "updated_at": "2023-01-20T19:26:10.595Z",
   "modules": [
+    {
+      "id": "@martip/node-red-google-apis",
+      "version": "1.0.2",
+      "description": "Node-RED node for accessing the Google APIs, using the official supported client library (google-api-nodejs-client).",
+      "updated_at": "2023-01-20T08:55:37.125Z",
+      "types": [
+        "google-apis-authentication",
+        "google-apis"
+      ],
+      "keywords": [
+        "node-red",
+        "google",
+        "api"
+      ],
+      "url": "https://flows.nodered.org/node/@martip/node-red-google-apis"
+    },
+    {
+      "id": "@inutil-labs/node-red-whin-whatsapp",
+      "version": "0.1.0",
+      "description": "Whin is a whatsapp node for node-red, through a shared gateway",
+      "updated_at": "2023-01-19T21:42:14.533Z",
+      "types": [
+        "whin_send",
+        "whin_receive",
+        "whin_group_commander",
+        "whin_config"
+      ],
+      "keywords": [
+        "node-red",
+        "whin",
+        "whatsapp"
+      ],
+      "url": "https://flows.nodered.org/node/@inutil-labs/node-red-whin-whatsapp"
+    },
+    {
+      "id": "node-red-contrib-simple-webdriver",
+      "version": "0.3.0",
+      "description": "SimpleWebdriver nodes for Node-RED initially based on node-red-contrib-selenium-wd2",
+      "updated_at": "2023-01-19T20:36:26.822Z",
+      "types": [
+        "click on",
+        "close browser",
+        "find element",
+        "get attribute",
+        "get cookie",
+        "get text",
+        "get title",
+        "get value",
+        "navigate",
+        "open browser",
+        "run script",
+        "screenshot",
+        "send keys",
+        "set attribute",
+        "set cookie",
+        "set value",
+        "switch frame",
+        "__errors__"
+      ],
+      "keywords": [
+        "node-red",
+        "selenium",
+        "simple-webdriver",
+        "webdriver",
+        "RPA",
+        "chromedriver",
+        "geckodriver"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-simple-webdriver"
+    },
+    {
+      "id": "node-red-contrib-qsys",
+      "version": "0.0.1",
+      "description": "A collection of nodes for third party control of Q-Sys systems",
+      "updated_at": "2023-01-19T17:42:10.738Z",
+      "types": [
+        "qsys-core",
+        "qsys-ControlSet",
+        "qsys-Presets"
+      ],
+      "keywords": [
+        "node-red",
+        "q-sys",
+        "QSC",
+        "audio",
+        "audio DSP"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-qsys"
+    },
+    {
+      "id": "node-red-contrib-sunevents",
+      "version": "3.1.0",
+      "description": "A node for node-red that generates events based on the position of the Sun at the appropriate time of day",
+      "updated_at": "2023-01-19T16:47:14.204Z",
+      "types": [
+        "sun events"
+      ],
+      "keywords": [
+        "node-red",
+        "suncalc",
+        "sunrise",
+        "sunset",
+        "nadir"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-sunevents"
+    },
+    {
+      "id": "node-red-contrib-soundweb",
+      "version": "1.0.3",
+      "description": "A collection of nodes for controlling BSS soundweb devices.",
+      "updated_at": "2023-01-19T16:32:49.879Z",
+      "types": [
+        "soundweb-server",
+        "soundweb-Control",
+        "soundweb-Presets"
+      ],
+      "keywords": [
+        "node-red",
+        "BSS",
+        "BLU",
+        "Soundweb",
+        "Harman",
+        "Audio DSP",
+        "Audio Architect",
+        "London Architect"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-soundweb"
+    },
+    {
+      "id": "@victronenergy/node-red-contrib-victron",
+      "version": "1.4.26",
+      "description": "Custom Node-RED Nodes for Victron Energy",
+      "updated_at": "2023-01-19T15:06:06.503Z",
+      "types": [
+        "victron-client"
+      ],
+      "keywords": [
+        "node-red"
+      ],
+      "url": "https://flows.nodered.org/node/@victronenergy/node-red-contrib-victron"
+    },
+    {
+      "id": "node-red-contrib-iiot-rpi-max7219",
+      "version": "1.0.22",
+      "description": "A Node-Red node for max7219 8-Digit LED Display",
+      "updated_at": "2023-01-19T14:56:17.014Z",
+      "types": [
+        "max7219-7seg",
+        "max7219-mtx"
+      ],
+      "keywords": [
+        "node-red",
+        "raspberry pi",
+        "rpi",
+        "max7219",
+        "iot",
+        "iiot",
+        "display",
+        "led",
+        "7-segment",
+        "matrix"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-iiot-rpi-max7219"
+    },
     {
       "id": "@digitalnodecom/node-red-contrib-generic-s3",
       "version": "1.6.3",
@@ -251,29 +415,6 @@
       "url": "https://flows.nodered.org/node/node-red-contrib-chatbot"
     },
     {
-      "id": "node-red-contrib-iiot-rpi-max7219",
-      "version": "1.0.21",
-      "description": "A Node-Red node for max7219 8-Digit LED Display",
-      "updated_at": "2023-01-18T13:37:56.002Z",
-      "types": [
-        "max7219-7seg",
-        "max7219-mtx"
-      ],
-      "keywords": [
-        "node-red",
-        "raspberry pi",
-        "rpi",
-        "max7219",
-        "iot",
-        "iiot",
-        "display",
-        "led",
-        "7-segment",
-        "matrix"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-iiot-rpi-max7219"
-    },
-    {
       "id": "node-red-contrib-knx-ultimate",
       "version": "1.4.11",
       "description": "Control your KNX intallation via Node-Red! Single Node KNX IN/OUT with optional ETS group address importer. Easy to use and highly configurable.",
@@ -301,24 +442,6 @@
         "KNX Secure"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-knx-ultimate"
-    },
-    {
-      "id": "@inutil-labs/node-red-whin-whatsapp",
-      "version": "0.0.9",
-      "description": "Whin is a whatsapp node for node-red, through a shared gateway",
-      "updated_at": "2023-01-18T11:42:51.896Z",
-      "types": [
-        "whin_send",
-        "whin_receive",
-        "whin_group_commander",
-        "whin_config"
-      ],
-      "keywords": [
-        "node-red",
-        "whin",
-        "whatsapp"
-      ],
-      "url": "https://flows.nodered.org/node/@inutil-labs/node-red-whin-whatsapp"
     },
     {
       "id": "node-red-contrib-monster",
@@ -1351,35 +1474,6 @@
       "url": "https://flows.nodered.org/node/lighttalk_schedule_no_mqtt"
     },
     {
-      "id": "node-red-contrib-soundweb",
-      "version": "1.0.2",
-      "description": "A collection of nodes for controlling BSS soundweb devices.",
-      "updated_at": "2023-01-09T18:02:28.682Z",
-      "types": [
-        "soundweb-server",
-        "soundweb-dbGain",
-        "soundweb-percent",
-        "soundweb-discrete",
-        "soundweb-scalarLinear",
-        "soundweb-delay",
-        "soundweb-frequency",
-        "soundweb-speed",
-        "soundweb-venuePresets",
-        "soundweb-parameterPresets"
-      ],
-      "keywords": [
-        "node-red",
-        "BSS",
-        "BLU",
-        "Soundweb",
-        "Harman",
-        "Audio DSP",
-        "Audio Architect",
-        "London Architect"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-soundweb"
-    },
-    {
       "id": "node-red-contrib-zont-online",
       "version": "0.0.5",
       "description": "Coming soon",
@@ -1678,42 +1772,6 @@
       "url": "https://flows.nodered.org/node/@gorootde/node-red-grist"
     },
     {
-      "id": "node-red-contrib-simple-webdriver",
-      "version": "0.2.2",
-      "description": "SimpleWebdriver nodes for Node-RED initially based on node-red-contrib-selenium-wd2",
-      "updated_at": "2023-01-06T20:35:45.560Z",
-      "types": [
-        "click on",
-        "close browser",
-        "find element",
-        "get attribute",
-        "get cookie",
-        "get text",
-        "get title",
-        "get value",
-        "navigate",
-        "open browser",
-        "run script",
-        "screenshot",
-        "send keys",
-        "set attribute",
-        "set cookie",
-        "set value",
-        "switch frame",
-        "__errors__"
-      ],
-      "keywords": [
-        "node-red",
-        "selenium",
-        "simple-webdriver",
-        "webdriver",
-        "RPA",
-        "chromedriver",
-        "geckodriver"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-simple-webdriver"
-    },
-    {
       "id": "node-red-contrib-ale-rainbow",
       "version": "1.82.5",
       "description": "Alcatel-Lucent Enterprise Rainbow Nodes for Node Red",
@@ -1879,19 +1937,6 @@
         "node-red"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-socketio-extended"
-    },
-    {
-      "id": "@victronenergy/node-red-contrib-victron",
-      "version": "1.4.25",
-      "description": "Custom Node-RED Nodes for Victron Energy",
-      "updated_at": "2023-01-04T09:33:54.063Z",
-      "types": [
-        "victron-client"
-      ],
-      "keywords": [
-        "node-red"
-      ],
-      "url": "https://flows.nodered.org/node/@victronenergy/node-red-contrib-victron"
     },
     {
       "id": "node-red-contrib-ccxt-v2",
@@ -6656,22 +6701,6 @@
         "node-red"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-zigbee2mqtt"
-    },
-    {
-      "id": "@martip/node-red-google-apis",
-      "version": "1.0.0",
-      "description": "Node-RED node for accessing the Google APIs, using the official supported client library (google-api-nodejs-client).",
-      "updated_at": "2022-10-27T12:53:49.704Z",
-      "types": [
-        "google-apis-authentication",
-        "google-apis"
-      ],
-      "keywords": [
-        "node-red",
-        "google",
-        "api"
-      ],
-      "url": "https://flows.nodered.org/node/@martip/node-red-google-apis"
     },
     {
       "id": "node-red-contrib-evohome",
@@ -30188,23 +30217,6 @@
         "sun events"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-time-switch"
-    },
-    {
-      "id": "node-red-contrib-sunevents",
-      "version": "3.0.3",
-      "description": "A node for node-red that generates events based on the position of the Sun at the appropriate time of day",
-      "updated_at": "2021-03-19T17:45:40.107Z",
-      "types": [
-        "sun events"
-      ],
-      "keywords": [
-        "node-red",
-        "suncalc",
-        "sunrise",
-        "sunset",
-        "nadir"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-sunevents"
     },
     {
       "id": "node-red-contrib-logger",
