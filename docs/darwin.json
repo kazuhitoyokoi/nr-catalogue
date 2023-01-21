@@ -1,7 +1,105 @@
 {
   "name": "Catalogue for darwin",
-  "updated_at": "2023-01-20T19:25:54.912Z",
+  "updated_at": "2023-01-21T19:44:27.757Z",
   "modules": [
+    {
+      "id": "@binsoul/node-red-contrib-statistics",
+      "version": "0.2.0",
+      "description": "Perform statistical operations on a configurable duration of incoming data.",
+      "updated_at": "2023-01-21T17:57:07.672Z",
+      "types": [
+        "binsoul-statistics"
+      ],
+      "keywords": [
+        "node-red",
+        "statistics",
+        "average",
+        "mean",
+        "moving window"
+      ],
+      "url": "https://flows.nodered.org/node/@binsoul/node-red-contrib-statistics"
+    },
+    {
+      "id": "node-red-contrib-hubitat",
+      "version": "1.8.1",
+      "description": "Node Red module for Hubitat API",
+      "updated_at": "2023-01-21T15:51:58.129Z",
+      "types": [
+        "hubitat command",
+        "hubitat config",
+        "hubitat device",
+        "hubitat event",
+        "hubitat hsm",
+        "hubitat hsm-setter",
+        "hubitat location",
+        "hubitat mode",
+        "hubitat mode-setter",
+        "hubitat request"
+      ],
+      "keywords": [
+        "node-red",
+        "hubitat"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-hubitat"
+    },
+    {
+      "id": "node-red-contrib-knx-ultimate",
+      "version": "1.4.12",
+      "description": "Control your KNX intallation via Node-Red! Single Node KNX IN/OUT with optional ETS group address importer. Easy to use and highly configurable.",
+      "updated_at": "2023-01-21T15:44:14.253Z",
+      "types": [
+        "knxUltimate",
+        "knxUltimateSceneController",
+        "knxUltimateWatchDog",
+        "knxUltimateLogger",
+        "knxUltimate-config",
+        "knxUltimateGlobalContext",
+        "knxUltimateAlerter",
+        "knxUltimateLoadControl",
+        "knxUltimateViewer"
+      ],
+      "keywords": [
+        "node-red",
+        "KNX",
+        "ETS",
+        "eib",
+        "eibd",
+        "knxd",
+        "konnex",
+        "IOT",
+        "KNX Secure"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-knx-ultimate"
+    },
+    {
+      "id": "wuitu-device-node",
+      "version": "1.0.4",
+      "description": "Wuitu设备模块节点",
+      "updated_at": "2023-01-21T05:51:11.318Z",
+      "types": [
+        "device-fan",
+        "fan-status-node"
+      ],
+      "keywords": [
+        "Wuitu",
+        "node-red"
+      ],
+      "url": "https://flows.nodered.org/node/wuitu-device-node"
+    },
+    {
+      "id": "node-red-contrib-http-custom-port-raw",
+      "version": "0.0.12",
+      "description": "based on node-red-contrib-http-custom-port, allowed to skip automatical body to JSON parsing and gain access to raw request body",
+      "updated_at": "2023-01-20T21:55:43.786Z",
+      "types": [
+        "node-red-contrib-http-custom-port",
+        "http request update"
+      ],
+      "keywords": [
+        "node-red"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-http-custom-port-raw"
+    },
     {
       "id": "node-red-contrib-sunevents",
       "version": "3.1.1",
@@ -34,6 +132,29 @@
         "api"
       ],
       "url": "https://flows.nodered.org/node/@martip/node-red-google-apis"
+    },
+    {
+      "id": "node-bacnet-contrib-extended",
+      "version": "0.2.0",
+      "description": "Install this package as a pallette by using node red dashboard",
+      "updated_at": "2023-01-20T07:02:22.405Z",
+      "types": [
+        "discover-devices",
+        "read-single-point",
+        "read-single-device",
+        "read-all-devices",
+        "change-of-value",
+        "write-object-property",
+        "read-objects-list-within-device",
+        "read-object-properties"
+      ],
+      "keywords": [
+        "node-red",
+        "node-red-bacnet",
+        "bacnet-COV",
+        "bacnet-change-of-value"
+      ],
+      "url": "https://flows.nodered.org/node/node-bacnet-contrib-extended"
     },
     {
       "id": "@inutil-labs/node-red-whin-whatsapp",
@@ -415,35 +536,6 @@
       "url": "https://flows.nodered.org/node/node-red-contrib-chatbot"
     },
     {
-      "id": "node-red-contrib-knx-ultimate",
-      "version": "1.4.11",
-      "description": "Control your KNX intallation via Node-Red! Single Node KNX IN/OUT with optional ETS group address importer. Easy to use and highly configurable.",
-      "updated_at": "2023-01-18T12:09:03.479Z",
-      "types": [
-        "knxUltimate",
-        "knxUltimateSceneController",
-        "knxUltimateWatchDog",
-        "knxUltimateLogger",
-        "knxUltimate-config",
-        "knxUltimateGlobalContext",
-        "knxUltimateAlerter",
-        "knxUltimateLoadControl",
-        "knxUltimateViewer"
-      ],
-      "keywords": [
-        "node-red",
-        "KNX",
-        "ETS",
-        "eib",
-        "eibd",
-        "knxd",
-        "konnex",
-        "IOT",
-        "KNX Secure"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-knx-ultimate"
-    },
-    {
       "id": "node-red-contrib-monster",
       "version": "0.0.5",
       "description": "A collection of Node-RED nodes for Monster.  Includes nodes for S3 client.",
@@ -725,21 +817,6 @@
       "url": "https://flows.nodered.org/node/@ralphwetzel/node-red-mcu-gate"
     },
     {
-      "id": "wuitu-device-node",
-      "version": "1.0.1",
-      "description": "Wuitu设备模块节点",
-      "updated_at": "2023-01-17T07:08:32.718Z",
-      "types": [
-        "device-fan",
-        "fan-status-node"
-      ],
-      "keywords": [
-        "Wuitu",
-        "node-red"
-      ],
-      "url": "https://flows.nodered.org/node/wuitu-device-node"
-    },
-    {
       "id": "@stardylan/node-red-rigrunner",
       "version": "1.0.1",
       "description": "Node RED Contribution interfacing with the RigRunner 10100i",
@@ -883,23 +960,6 @@
       "url": "https://flows.nodered.org/node/node-red-contrib-aw365-ustimezonecheck"
     },
     {
-      "id": "@binsoul/node-red-contrib-statistics",
-      "version": "0.1.2",
-      "description": "Perform statistical operations on a configurable duration of incoming data.",
-      "updated_at": "2023-01-16T05:47:15.535Z",
-      "types": [
-        "binsoul-statistics"
-      ],
-      "keywords": [
-        "node-red",
-        "statistics",
-        "average",
-        "mean",
-        "moving window"
-      ],
-      "url": "https://flows.nodered.org/node/@binsoul/node-red-contrib-statistics"
-    },
-    {
       "id": "node-red-contrib-mastodon-toots",
       "version": "0.0.1",
       "description": "Node Red node to send and receive Mastodon toots",
@@ -914,6 +974,25 @@
         "node"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-mastodon-toots"
+    },
+    {
+      "id": "node-red-contrib-dwd-local-weather",
+      "version": "1.0.5",
+      "description": "Node Red node to retrieve local weather forecast from DWD (Germany)",
+      "updated_at": "2023-01-15T14:32:44.248Z",
+      "types": [
+        "dwdweather"
+      ],
+      "keywords": [
+        "node-red",
+        "weather",
+        "dwd",
+        "mosmix",
+        "forecast",
+        "Wetter",
+        "Vorhersage"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-dwd-local-weather"
     },
     {
       "id": "node-red-contrib-nixtla",
@@ -9022,25 +9101,6 @@
       "url": "https://flows.nodered.org/node/node-red-contrib-azure-blob-storage-aleph"
     },
     {
-      "id": "node-red-contrib-dwd-local-weather",
-      "version": "1.0.4",
-      "description": "Node Red node to retrieve local weather forecast from DWD (Germany)",
-      "updated_at": "2022-09-17T15:21:02.934Z",
-      "types": [
-        "dwdweather"
-      ],
-      "keywords": [
-        "node-red",
-        "weather",
-        "dwd",
-        "mosmix",
-        "forecast",
-        "Wetter",
-        "Vorhersage"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-dwd-local-weather"
-    },
-    {
       "id": "node-red-contrib-ha-wechat",
       "version": "1.0.6",
       "description": "使用微信公众号控制Home Assistant里的智能设备",
@@ -9514,29 +9574,6 @@
         "channel"
       ],
       "url": "https://flows.nodered.org/node/@pizzaprogram/mcp-pcf-aio"
-    },
-    {
-      "id": "node-bacnet-contrib-extended",
-      "version": "0.1.6",
-      "description": "Install this package as a pallette by using node red dashboard",
-      "updated_at": "2022-09-07T06:14:53.845Z",
-      "types": [
-        "discover-devices",
-        "read-single-point",
-        "read-single-device",
-        "read-all-devices",
-        "change-of-value",
-        "write-a-value",
-        "read-objects-list-within-device",
-        "read-object-properties"
-      ],
-      "keywords": [
-        "node-red",
-        "node-red-bacnet",
-        "bacnet-COV",
-        "bacnet-change-of-value"
-      ],
-      "url": "https://flows.nodered.org/node/node-bacnet-contrib-extended"
     },
     {
       "id": "@thomptronics/node-red-contrib-alexa-notify-me",
@@ -18526,29 +18563,6 @@
         "shutter"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-sun-position"
-    },
-    {
-      "id": "node-red-contrib-hubitat",
-      "version": "1.8.0",
-      "description": "Node Red module for Hubitat API",
-      "updated_at": "2022-02-14T21:32:30.528Z",
-      "types": [
-        "hubitat command",
-        "hubitat config",
-        "hubitat device",
-        "hubitat event",
-        "hubitat hsm",
-        "hubitat hsm-setter",
-        "hubitat location",
-        "hubitat mode",
-        "hubitat mode-setter",
-        "hubitat request"
-      ],
-      "keywords": [
-        "node-red",
-        "hubitat"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-hubitat"
     },
     {
       "id": "node-red-contrib-luxtronik2",
