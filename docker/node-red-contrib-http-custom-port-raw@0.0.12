@@ -1,0 +1,36 @@
+
+----
+Sending build context to Docker daemon  31.57MB
+Step 1/2 : FROM nodered/node-red
+ ---> a15fc0f4e930
+Step 2/2 : RUN npm install npm install node-red-contrib-http-custom-port-raw@0.0.12
+ ---> Running in 4cddcbbb5178
+[91mnpm[0m[91m [0m[91mWARN[0m[91m [0m[91mdeprecated[0m[91m querystring@0.2.1: The querystring API is considered Legacy. new code should use the URLSearchParams API instead.
+[0m[91mnpm[0m[91m [0m[91mWARN[0m[91m [0m[91mdeprecated[0m[91m multer@1.4.4: Multer 1.x is affected by CVE-2022-24434. This is fixed in v1.4.4-lts.1 which drops support for versions of Node.js before 6. Please upgrade to at least Node.js 6 and version 1.4.4-lts.1 of Multer. If you need support for older versions of Node.js, we are open to accepting patches that would fix the CVE on the main 1.x release line, whilst maintaining compatibility with Node.js 0.10.
+[0m
+added 19 packages, and audited 543 packages in 3s
+
+47 packages are looking for funding
+  run `npm fund` for details
+
+10 vulnerabilities (5 low, 1 moderate, 4 high)
+
+To address issues that do not require attention, run:
+  npm audit fix
+
+To address all issues possible (including breaking changes), run:
+  npm audit fix --force
+
+Some issues need review, and may require choosing
+a different dependency.
+
+Run `npm audit` for details.
+[91mnpm notice[0m[91m 
+npm notice New major version of npm available! 8.11.0 -> 9.3.1
+npm notice Changelog: <https://github.com/npm/cli/releases/tag/v9.3.1>
+npm notice Run `npm install -g npm@9.3.1` to update!
+npm notice 
+[0mRemoving intermediate container 4cddcbbb5178
+ ---> c164fe81370e
+Successfully built c164fe81370e
+Successfully tagged tmp:latest
