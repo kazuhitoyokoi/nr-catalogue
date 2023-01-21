@@ -1,7 +1,53 @@
 {
   "name": "Catalogue for verified nodes",
-  "updated_at": "2023-01-20T19:26:10.595Z",
+  "updated_at": "2023-01-21T19:54:02.758Z",
   "modules": [
+    {
+      "id": "wuitu-device-node",
+      "version": "1.0.4",
+      "description": "Wuitu设备模块节点",
+      "updated_at": "2023-01-21T05:51:11.318Z",
+      "types": [
+        "device-fan",
+        "fan-status-node"
+      ],
+      "keywords": [
+        "Wuitu",
+        "node-red"
+      ],
+      "url": "https://flows.nodered.org/node/wuitu-device-node"
+    },
+    {
+      "id": "node-red-contrib-http-custom-port-raw",
+      "version": "0.0.12",
+      "description": "based on node-red-contrib-http-custom-port, allowed to skip automatical body to JSON parsing and gain access to raw request body",
+      "updated_at": "2023-01-20T21:55:43.786Z",
+      "types": [
+        "node-red-contrib-http-custom-port",
+        "http request update"
+      ],
+      "keywords": [
+        "node-red"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-http-custom-port-raw"
+    },
+    {
+      "id": "node-red-contrib-sunevents",
+      "version": "3.1.1",
+      "description": "A node for node-red that generates events based on the position of the Sun at the appropriate time of day",
+      "updated_at": "2023-01-20T14:48:56.287Z",
+      "types": [
+        "sun events"
+      ],
+      "keywords": [
+        "node-red",
+        "suncalc",
+        "sunrise",
+        "sunset",
+        "nadir"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-sunevents"
+    },
     {
       "id": "@martip/node-red-google-apis",
       "version": "1.0.2",
@@ -17,6 +63,29 @@
         "api"
       ],
       "url": "https://flows.nodered.org/node/@martip/node-red-google-apis"
+    },
+    {
+      "id": "node-bacnet-contrib-extended",
+      "version": "0.2.0",
+      "description": "Install this package as a pallette by using node red dashboard",
+      "updated_at": "2023-01-20T07:02:22.405Z",
+      "types": [
+        "discover-devices",
+        "read-single-point",
+        "read-single-device",
+        "read-all-devices",
+        "change-of-value",
+        "write-object-property",
+        "read-objects-list-within-device",
+        "read-object-properties"
+      ],
+      "keywords": [
+        "node-red",
+        "node-red-bacnet",
+        "bacnet-COV",
+        "bacnet-change-of-value"
+      ],
+      "url": "https://flows.nodered.org/node/node-bacnet-contrib-extended"
     },
     {
       "id": "@inutil-labs/node-red-whin-whatsapp",
@@ -90,23 +159,6 @@
         "audio DSP"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-qsys"
-    },
-    {
-      "id": "node-red-contrib-sunevents",
-      "version": "3.1.0",
-      "description": "A node for node-red that generates events based on the position of the Sun at the appropriate time of day",
-      "updated_at": "2023-01-19T16:47:14.204Z",
-      "types": [
-        "sun events"
-      ],
-      "keywords": [
-        "node-red",
-        "suncalc",
-        "sunrise",
-        "sunset",
-        "nadir"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-sunevents"
     },
     {
       "id": "node-red-contrib-soundweb",
@@ -725,21 +777,6 @@
       "url": "https://flows.nodered.org/node/@ralphwetzel/node-red-mcu-gate"
     },
     {
-      "id": "wuitu-device-node",
-      "version": "1.0.1",
-      "description": "Wuitu设备模块节点",
-      "updated_at": "2023-01-17T07:08:32.718Z",
-      "types": [
-        "device-fan",
-        "fan-status-node"
-      ],
-      "keywords": [
-        "Wuitu",
-        "node-red"
-      ],
-      "url": "https://flows.nodered.org/node/wuitu-device-node"
-    },
-    {
       "id": "@stardylan/node-red-rigrunner",
       "version": "1.0.1",
       "description": "Node RED Contribution interfacing with the RigRunner 10100i",
@@ -898,6 +935,25 @@
         "moving window"
       ],
       "url": "https://flows.nodered.org/node/@binsoul/node-red-contrib-statistics"
+    },
+    {
+      "id": "node-red-contrib-dwd-local-weather",
+      "version": "1.0.5",
+      "description": "Node Red node to retrieve local weather forecast from DWD (Germany)",
+      "updated_at": "2023-01-15T14:32:44.248Z",
+      "types": [
+        "dwdweather"
+      ],
+      "keywords": [
+        "node-red",
+        "weather",
+        "dwd",
+        "mosmix",
+        "forecast",
+        "Wetter",
+        "Vorhersage"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-dwd-local-weather"
     },
     {
       "id": "node-red-contrib-nixtla",
@@ -8903,25 +8959,6 @@
       "url": "https://flows.nodered.org/node/node-red-contrib-azure-blob-storage-aleph"
     },
     {
-      "id": "node-red-contrib-dwd-local-weather",
-      "version": "1.0.4",
-      "description": "Node Red node to retrieve local weather forecast from DWD (Germany)",
-      "updated_at": "2022-09-17T15:21:02.934Z",
-      "types": [
-        "dwdweather"
-      ],
-      "keywords": [
-        "node-red",
-        "weather",
-        "dwd",
-        "mosmix",
-        "forecast",
-        "Wetter",
-        "Vorhersage"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-dwd-local-weather"
-    },
-    {
       "id": "node-red-contrib-ha-wechat",
       "version": "1.0.6",
       "description": "使用微信公众号控制Home Assistant里的智能设备",
@@ -9379,29 +9416,6 @@
         "channel"
       ],
       "url": "https://flows.nodered.org/node/@pizzaprogram/mcp-pcf-aio"
-    },
-    {
-      "id": "node-bacnet-contrib-extended",
-      "version": "0.1.6",
-      "description": "Install this package as a pallette by using node red dashboard",
-      "updated_at": "2022-09-07T06:14:53.845Z",
-      "types": [
-        "discover-devices",
-        "read-single-point",
-        "read-single-device",
-        "read-all-devices",
-        "change-of-value",
-        "write-a-value",
-        "read-objects-list-within-device",
-        "read-object-properties"
-      ],
-      "keywords": [
-        "node-red",
-        "node-red-bacnet",
-        "bacnet-COV",
-        "bacnet-change-of-value"
-      ],
-      "url": "https://flows.nodered.org/node/node-bacnet-contrib-extended"
     },
     {
       "id": "@thomptronics/node-red-contrib-alexa-notify-me",
