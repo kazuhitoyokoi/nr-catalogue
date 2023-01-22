@@ -1,7 +1,115 @@
 {
   "name": "Catalogue for darwin",
-  "updated_at": "2023-01-21T19:44:27.757Z",
+  "updated_at": "2023-01-22T19:34:56.855Z",
   "modules": [
+    {
+      "id": "@tataille/node-red-french-holidays",
+      "version": "1.1.2",
+      "description": "A simple node-red component for working whith French holidays.",
+      "updated_at": "2023-01-22T17:15:26.363Z",
+      "types": [
+        "french-holidays"
+      ],
+      "keywords": [
+        "node-red",
+        "french-holidays",
+        "holidays",
+        "france",
+        "specialdays",
+        "weekdays"
+      ],
+      "url": "https://flows.nodered.org/node/@tataille/node-red-french-holidays"
+    },
+    {
+      "id": "node-red-contrib-axios",
+      "version": "1.1.1",
+      "description": "A http request node for Node-RED",
+      "updated_at": "2023-01-22T16:31:22.887Z",
+      "types": [
+        "axios-endpoint",
+        "axios-request"
+      ],
+      "keywords": [
+        "node-red",
+        "http",
+        "request",
+        "axios"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-axios"
+    },
+    {
+      "id": "node-red-contrib-cb-arp",
+      "version": "1.0.2",
+      "description": "This node provides the content of the ARP table",
+      "updated_at": "2023-01-22T16:06:54.880Z",
+      "types": [
+        "arp"
+      ],
+      "keywords": [
+        "node-red",
+        "arp"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-cb-arp"
+    },
+    {
+      "id": "node-red-contrib-salesforce",
+      "version": "0.8.1",
+      "description": "A set of Node-RED nodes to interact with Salesforce and Force.com.",
+      "updated_at": "2023-01-22T15:23:58.798Z",
+      "types": [
+        "soql",
+        "sosl",
+        "dml",
+        "chatter",
+        "streaming",
+        "obm",
+        "connection-config"
+      ],
+      "keywords": [
+        "node-red",
+        "salesforce",
+        "forcedotcom",
+        "Heroku"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-salesforce"
+    },
+    {
+      "id": "@jens_rossbach/node-red-sony-audio",
+      "version": "2.0.2",
+      "description": "Node-RED nodes for querying and controlling Sony audio devices",
+      "updated_at": "2023-01-22T13:28:39.378Z",
+      "types": [
+        "sonyaudio-device",
+        "sonyaudio-control",
+        "sonyaudio-notify"
+      ],
+      "keywords": [
+        "node-red",
+        "sony",
+        "audio",
+        "audio control api",
+        "remote control",
+        "home automation"
+      ],
+      "url": "https://flows.nodered.org/node/@jens_rossbach/node-red-sony-audio"
+    },
+    {
+      "id": "@flexdash/node-red-flexdash",
+      "version": "0.4.142",
+      "description": "Node-RED nodes for the FlexDash dashboard",
+      "updated_at": "2023-01-22T07:17:20.103Z",
+      "types": [
+        "flexdash iframe",
+        "flexdash ctrl",
+        "flexdash dev server"
+      ],
+      "keywords": [
+        "flexdash",
+        "dashboard",
+        "node-red"
+      ],
+      "url": "https://flows.nodered.org/node/@flexdash/node-red-flexdash"
+    },
     {
       "id": "@binsoul/node-red-contrib-statistics",
       "version": "0.2.0",
@@ -1112,20 +1220,6 @@
       "url": "https://flows.nodered.org/node/node-red-contrib-iiot-rpi-pcf857x"
     },
     {
-      "id": "node-red-contrib-cb-arp",
-      "version": "1.0.1",
-      "description": "This node provides the content of the ARP table",
-      "updated_at": "2023-01-14T16:45:18.430Z",
-      "types": [
-        "arp"
-      ],
-      "keywords": [
-        "node-red",
-        "arp"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-cb-arp"
-    },
-    {
       "id": "@mschaeffler/node-red-dualled",
       "version": "1.1.2",
       "description": "control dual (CCT) LEDs.",
@@ -2073,25 +2167,6 @@
         "sensor"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-alarm"
-    },
-    {
-      "id": "@flexdash/node-red-flexdash",
-      "version": "0.4.134",
-      "description": "Node-RED nodes for the FlexDash dashboard",
-      "updated_at": "2023-01-03T22:36:16.843Z",
-      "types": [
-        "flexdash dashboard",
-        "flexdash tab",
-        "flexdash iframe",
-        "flexdash ctrl",
-        "flexdash dev server"
-      ],
-      "keywords": [
-        "flexdash",
-        "dashboard",
-        "node-red"
-      ],
-      "url": "https://flows.nodered.org/node/@flexdash/node-red-flexdash"
     },
     {
       "id": "@flexdash/node-red-fd-corewidgets",
@@ -7461,23 +7536,6 @@
       "url": "https://flows.nodered.org/node/node-red-contrib-freebox"
     },
     {
-      "id": "node-red-contrib-axios",
-      "version": "0.4.0",
-      "description": "A http request node for Node-RED",
-      "updated_at": "2022-10-15T13:49:01.769Z",
-      "types": [
-        "axios-endpoint",
-        "axios-request"
-      ],
-      "keywords": [
-        "node-red",
-        "http",
-        "request",
-        "axios"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-axios"
-    },
-    {
       "id": "@realsixi/node-red-contrib-ring-alarm",
       "version": "0.0.18",
       "description": "Unofficial Node-Red nodes to interact with Ring Alarm System and Ring Cameras.",
@@ -11227,24 +11285,6 @@
       "url": "https://flows.nodered.org/node/nr-janitza-meter"
     },
     {
-      "id": "@tataille/node-red-french-holidays",
-      "version": "1.0.5",
-      "description": "A simple node-red component for working whith French holidays.",
-      "updated_at": "2022-07-28T21:00:11.982Z",
-      "types": [
-        "french-holidays"
-      ],
-      "keywords": [
-        "node-red",
-        "french-holidays",
-        "holidays",
-        "france",
-        "specialdays",
-        "weekdays"
-      ],
-      "url": "https://flows.nodered.org/node/@tataille/node-red-french-holidays"
-    },
-    {
       "id": "node-red-contrib-fuzzy",
       "version": "1.0.1",
       "description": "Event-driven Takagi-Sugeno Fuzzy Inference System implementation for Node-RED",
@@ -13451,26 +13491,6 @@
         "location"
       ],
       "url": "https://flows.nodered.org/node/node-red-node-geofence"
-    },
-    {
-      "id": "@jens_rossbach/node-red-sony-audio",
-      "version": "2.0.1",
-      "description": "Node-RED nodes for querying and controlling Sony audio devices",
-      "updated_at": "2022-06-08T17:04:18.993Z",
-      "types": [
-        "sonyaudio-device",
-        "sonyaudio-control",
-        "sonyaudio-notify"
-      ],
-      "keywords": [
-        "node-red",
-        "sony",
-        "audio",
-        "audio control api",
-        "remote control",
-        "home automation"
-      ],
-      "url": "https://flows.nodered.org/node/@jens_rossbach/node-red-sony-audio"
     },
     {
       "id": "@ubraine/node-red-ubos-detection-service",
@@ -46233,28 +46253,6 @@
         "dialogflow"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-googlehome-actions-v2-piyanggoon"
-    },
-    {
-      "id": "node-red-contrib-salesforce",
-      "version": "0.7.3",
-      "description": "A set of Node-RED nodes to interact with Salesforce and Force.com.",
-      "updated_at": "2019-12-24T07:13:31.867Z",
-      "types": [
-        "soql",
-        "sosl",
-        "dml",
-        "chatter",
-        "streaming",
-        "obm",
-        "connection-config"
-      ],
-      "keywords": [
-        "node-red",
-        "salesforce",
-        "forcedotcom",
-        "Heroku"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-salesforce"
     },
     {
       "id": "node-red-contrib-sony-projector",
