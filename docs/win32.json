@@ -1,7 +1,113 @@
 {
   "name": "Catalogue for win32",
-  "updated_at": "2023-01-21T18:53:31.294Z",
+  "updated_at": "2023-01-22T18:30:12.348Z",
   "modules": [
+    {
+      "id": "@jens_rossbach/node-red-sony-audio",
+      "version": "2.0.2",
+      "description": "Node-RED nodes for querying and controlling Sony audio devices",
+      "updated_at": "2023-01-22T13:28:39.378Z",
+      "types": [
+        "sonyaudio-device",
+        "sonyaudio-control",
+        "sonyaudio-notify"
+      ],
+      "keywords": [
+        "node-red",
+        "sony",
+        "audio",
+        "audio control api",
+        "remote control",
+        "home automation"
+      ],
+      "url": "https://flows.nodered.org/node/@jens_rossbach/node-red-sony-audio"
+    },
+    {
+      "id": "@flexdash/node-red-flexdash",
+      "version": "0.4.142",
+      "description": "Node-RED nodes for the FlexDash dashboard",
+      "updated_at": "2023-01-22T07:17:20.103Z",
+      "types": [
+        "flexdash iframe",
+        "flexdash ctrl",
+        "flexdash dev server"
+      ],
+      "keywords": [
+        "flexdash",
+        "dashboard",
+        "node-red"
+      ],
+      "url": "https://flows.nodered.org/node/@flexdash/node-red-flexdash"
+    },
+    {
+      "id": "@binsoul/node-red-contrib-statistics",
+      "version": "0.2.0",
+      "description": "Perform statistical operations on a configurable duration of incoming data.",
+      "updated_at": "2023-01-21T17:57:07.672Z",
+      "types": [
+        "binsoul-statistics"
+      ],
+      "keywords": [
+        "node-red",
+        "statistics",
+        "average",
+        "mean",
+        "moving window"
+      ],
+      "url": "https://flows.nodered.org/node/@binsoul/node-red-contrib-statistics"
+    },
+    {
+      "id": "node-red-contrib-hubitat",
+      "version": "1.8.1",
+      "description": "Node Red module for Hubitat API",
+      "updated_at": "2023-01-21T15:51:58.129Z",
+      "types": [
+        "hubitat command",
+        "hubitat config",
+        "hubitat device",
+        "hubitat event",
+        "hubitat hsm",
+        "hubitat hsm-setter",
+        "hubitat location",
+        "hubitat mode",
+        "hubitat mode-setter",
+        "hubitat request"
+      ],
+      "keywords": [
+        "node-red",
+        "hubitat"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-hubitat"
+    },
+    {
+      "id": "node-red-contrib-knx-ultimate",
+      "version": "1.4.12",
+      "description": "Control your KNX intallation via Node-Red! Single Node KNX IN/OUT with optional ETS group address importer. Easy to use and highly configurable.",
+      "updated_at": "2023-01-21T15:44:14.253Z",
+      "types": [
+        "knxUltimate",
+        "knxUltimateSceneController",
+        "knxUltimateWatchDog",
+        "knxUltimateLogger",
+        "knxUltimate-config",
+        "knxUltimateGlobalContext",
+        "knxUltimateAlerter",
+        "knxUltimateLoadControl",
+        "knxUltimateViewer"
+      ],
+      "keywords": [
+        "node-red",
+        "KNX",
+        "ETS",
+        "eib",
+        "eibd",
+        "knxd",
+        "konnex",
+        "IOT",
+        "KNX Secure"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-knx-ultimate"
+    },
     {
       "id": "wuitu-device-node",
       "version": "1.0.4",
@@ -467,35 +573,6 @@
       "url": "https://flows.nodered.org/node/node-red-contrib-chatbot"
     },
     {
-      "id": "node-red-contrib-knx-ultimate",
-      "version": "1.4.11",
-      "description": "Control your KNX intallation via Node-Red! Single Node KNX IN/OUT with optional ETS group address importer. Easy to use and highly configurable.",
-      "updated_at": "2023-01-18T12:09:03.479Z",
-      "types": [
-        "knxUltimate",
-        "knxUltimateSceneController",
-        "knxUltimateWatchDog",
-        "knxUltimateLogger",
-        "knxUltimate-config",
-        "knxUltimateGlobalContext",
-        "knxUltimateAlerter",
-        "knxUltimateLoadControl",
-        "knxUltimateViewer"
-      ],
-      "keywords": [
-        "node-red",
-        "KNX",
-        "ETS",
-        "eib",
-        "eibd",
-        "knxd",
-        "konnex",
-        "IOT",
-        "KNX Secure"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-knx-ultimate"
-    },
-    {
       "id": "node-red-contrib-monster",
       "version": "0.0.5",
       "description": "A collection of Node-RED nodes for Monster.  Includes nodes for S3 client.",
@@ -918,23 +995,6 @@
         "areacode"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-aw365-ustimezonecheck"
-    },
-    {
-      "id": "@binsoul/node-red-contrib-statistics",
-      "version": "0.1.2",
-      "description": "Perform statistical operations on a configurable duration of incoming data.",
-      "updated_at": "2023-01-16T05:47:15.535Z",
-      "types": [
-        "binsoul-statistics"
-      ],
-      "keywords": [
-        "node-red",
-        "statistics",
-        "average",
-        "mean",
-        "moving window"
-      ],
-      "url": "https://flows.nodered.org/node/@binsoul/node-red-contrib-statistics"
     },
     {
       "id": "node-red-contrib-dwd-local-weather",
@@ -2034,25 +2094,6 @@
         "sensor"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-alarm"
-    },
-    {
-      "id": "@flexdash/node-red-flexdash",
-      "version": "0.4.134",
-      "description": "Node-RED nodes for the FlexDash dashboard",
-      "updated_at": "2023-01-03T22:36:16.843Z",
-      "types": [
-        "flexdash dashboard",
-        "flexdash tab",
-        "flexdash iframe",
-        "flexdash ctrl",
-        "flexdash dev server"
-      ],
-      "keywords": [
-        "flexdash",
-        "dashboard",
-        "node-red"
-      ],
-      "url": "https://flows.nodered.org/node/@flexdash/node-red-flexdash"
     },
     {
       "id": "@flexdash/node-red-fd-corewidgets",
@@ -13328,26 +13369,6 @@
       "url": "https://flows.nodered.org/node/node-red-node-geofence"
     },
     {
-      "id": "@jens_rossbach/node-red-sony-audio",
-      "version": "2.0.1",
-      "description": "Node-RED nodes for querying and controlling Sony audio devices",
-      "updated_at": "2022-06-08T17:04:18.993Z",
-      "types": [
-        "sonyaudio-device",
-        "sonyaudio-control",
-        "sonyaudio-notify"
-      ],
-      "keywords": [
-        "node-red",
-        "sony",
-        "audio",
-        "audio control api",
-        "remote control",
-        "home automation"
-      ],
-      "url": "https://flows.nodered.org/node/@jens_rossbach/node-red-sony-audio"
-    },
-    {
       "id": "@ubraine/node-red-ubos-detection-service",
       "version": "1.0.0",
       "description": "UBOS",
@@ -18368,29 +18389,6 @@
         "shutter"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-sun-position"
-    },
-    {
-      "id": "node-red-contrib-hubitat",
-      "version": "1.8.0",
-      "description": "Node Red module for Hubitat API",
-      "updated_at": "2022-02-14T21:32:30.528Z",
-      "types": [
-        "hubitat command",
-        "hubitat config",
-        "hubitat device",
-        "hubitat event",
-        "hubitat hsm",
-        "hubitat hsm-setter",
-        "hubitat location",
-        "hubitat mode",
-        "hubitat mode-setter",
-        "hubitat request"
-      ],
-      "keywords": [
-        "node-red",
-        "hubitat"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-hubitat"
     },
     {
       "id": "node-red-contrib-luxtronik2",
