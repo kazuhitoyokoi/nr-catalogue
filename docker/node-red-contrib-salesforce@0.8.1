@@ -1,0 +1,41 @@
+
+----
+Sending build context to Docker daemon   32.5MB
+Step 1/2 : FROM nodered/node-red
+ ---> a15fc0f4e930
+Step 2/2 : RUN npm install npm install node-red-contrib-salesforce@0.8.1
+ ---> Running in f6dbe82f62a1
+[91mnpm[0m[91m [0m[91mWARN EBADENGINE[0m[91m Unsupported engine {
+npm WARN[0m[91m EBADENGINE   package: 'node-red-contrib-salesforce@0.8.1',
+npm WARN EBADENGINE   required: { node: '>18.0' },
+npm WARN EBADENGINE   current: { node: 'v16.16.0', npm: '8.11.0' }
+[0m[91mnpm WARN EBADENGINE }
+[0m[91mnpm WARN EBADENGINE Unsupported engine {
+npm WARN EBADENGINE   package: 'nforce8@2.1.1',
+npm WARN EBADENGINE   required: { node: '>18.0' },
+npm WARN [0m[91mEBADENGINE   current: { node: 'v16.16.0', npm: '8.11.0' }
+npm WARN EBADENGINE }
+[0m
+added 14 packages, changed 1 package, and audited 538 packages in 5s
+
+47 packages are looking for funding
+  run `npm fund` for details
+
+6 vulnerabilities (5 low, 1 moderate)
+
+To address issues that do not require attention, run:
+  npm audit fix
+
+To address all issues (including breaking changes), run:
+  npm audit fix --force
+
+Run `npm audit` for details.
+[91mnpm[0m[91m notice[0m[91m 
+[0m[91mnpm[0m[91m [0m[91mnotice[0m[91m New major version of npm available! 8.11.0 -> 9.3.1
+[0m[91mnpm[0m[91m [0m[91mnotice[0m[91m Changelog: <https://github.com/npm/cli/releases/tag/v9.3.1>
+[0m[91mnpm[0m[91m [0m[91mnotice[0m[91m Run `npm install -g npm@9.3.1` to update!
+[0m[91mnpm[0m[91m [0m[91mnotice[0m[91m 
+[0mRemoving intermediate container f6dbe82f62a1
+ ---> daed8a2ee4c6
+Successfully built daed8a2ee4c6
+Successfully tagged tmp:latest
