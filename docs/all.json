@@ -1,7 +1,176 @@
 {
   "name": "Catalogue for verified nodes",
-  "updated_at": "2023-01-22T19:35:18.952Z",
+  "updated_at": "2023-01-23T20:03:38.705Z",
   "modules": [
+    {
+      "id": "node-red-contrib-smartnora",
+      "version": "1.18.1",
+      "description": "Google Smart Home integration via Smart Nora https://smart-nora.eu/",
+      "updated_at": "2023-01-23T07:49:57.228Z",
+      "types": [
+        "noraf-ac",
+        "noraf-airpurifier",
+        "noraf-blinds",
+        "noraf-camera",
+        "noraf-charger",
+        "noraf-config",
+        "noraf-doorbell",
+        "noraf-fan",
+        "noraf-garage",
+        "noraf-light",
+        "noraf-lock",
+        "noraf-media",
+        "noraf-notify",
+        "noraf-openclose",
+        "noraf-outlet",
+        "noraf-scene",
+        "noraf-security",
+        "noraf-sensor",
+        "noraf-sousvide",
+        "noraf-speaker",
+        "noraf-sprinkler",
+        "noraf-switch",
+        "noraf-thermostat",
+        "noraf-vacuum",
+        "noraf-async"
+      ],
+      "keywords": [
+        "node-red",
+        "google",
+        "google home",
+        "assistant",
+        "smarthome",
+        "smart",
+        "home",
+        "iot"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-smartnora"
+    },
+    {
+      "id": "@jn-se/node-red-contrib-heos",
+      "version": "0.1.0",
+      "description": "Node-RED node for Denon HEOS devices and Denon Home.",
+      "updated_at": "2023-01-22T21:09:33.696Z",
+      "types": [
+        "heos-device",
+        "heos-command",
+        "heos-player-state"
+      ],
+      "keywords": [
+        "node-red",
+        "heos",
+        "denon",
+        "denon home"
+      ],
+      "url": "https://flows.nodered.org/node/@jn-se/node-red-contrib-heos"
+    },
+    {
+      "id": "node-red-contrib-pi-plates",
+      "version": "0.2.3",
+      "description": "control Pi-Plates boards from Node-RED",
+      "updated_at": "2023-01-22T20:24:45.545Z",
+      "types": [
+        "pi_plate",
+        "ppRelay",
+        "ppADC",
+        "ppAllADC",
+        "ppCURRENT",
+        "ppDAC",
+        "ppDIN",
+        "ppDOUT",
+        "ppFREQ",
+        "ppLED",
+        "ppTEMP",
+        "ppTHERMO",
+        "ppPWM",
+        "ppMotor"
+      ],
+      "keywords": [
+        "node-red",
+        "pi-plates",
+        "Pi",
+        "Plates",
+        "relay",
+        "automation",
+        "adc",
+        "dac",
+        "ds18b20",
+        "thermocouple",
+        "iot"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-pi-plates"
+    },
+    {
+      "id": "@tataille/node-red-french-holidays",
+      "version": "1.1.3",
+      "description": "A simple node-red component for working whith French holidays.",
+      "updated_at": "2023-01-22T19:01:41.357Z",
+      "types": [
+        "french-holidays"
+      ],
+      "keywords": [
+        "node-red",
+        "french-holidays",
+        "holidays",
+        "france",
+        "specialdays",
+        "weekdays"
+      ],
+      "url": "https://flows.nodered.org/node/@tataille/node-red-french-holidays"
+    },
+    {
+      "id": "node-red-contrib-axios",
+      "version": "1.1.1",
+      "description": "A http request node for Node-RED",
+      "updated_at": "2023-01-22T16:31:22.887Z",
+      "types": [
+        "axios-endpoint",
+        "axios-request"
+      ],
+      "keywords": [
+        "node-red",
+        "http",
+        "request",
+        "axios"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-axios"
+    },
+    {
+      "id": "node-red-contrib-cb-arp",
+      "version": "1.0.2",
+      "description": "This node provides the content of the ARP table",
+      "updated_at": "2023-01-22T16:06:54.880Z",
+      "types": [
+        "arp"
+      ],
+      "keywords": [
+        "node-red",
+        "arp"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-cb-arp"
+    },
+    {
+      "id": "node-red-contrib-salesforce",
+      "version": "0.8.1",
+      "description": "A set of Node-RED nodes to interact with Salesforce and Force.com.",
+      "updated_at": "2023-01-22T15:23:58.798Z",
+      "types": [
+        "soql",
+        "sosl",
+        "dml",
+        "chatter",
+        "streaming",
+        "obm",
+        "connection-config"
+      ],
+      "keywords": [
+        "node-red",
+        "salesforce",
+        "forcedotcom",
+        "Heroku"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-salesforce"
+    },
     {
       "id": "@jens_rossbach/node-red-sony-audio",
       "version": "2.0.2",
@@ -364,50 +533,6 @@
         "scheduler"
       ],
       "url": "https://flows.nodered.org/node/node-red-node-timeswitch"
-    },
-    {
-      "id": "node-red-contrib-smartnora",
-      "version": "1.18.0",
-      "description": "Google Smart Home integration via Smart Nora https://smart-nora.eu/",
-      "updated_at": "2023-01-19T08:15:48.641Z",
-      "types": [
-        "noraf-ac",
-        "noraf-airpurifier",
-        "noraf-blinds",
-        "noraf-camera",
-        "noraf-charger",
-        "noraf-config",
-        "noraf-doorbell",
-        "noraf-fan",
-        "noraf-garage",
-        "noraf-light",
-        "noraf-lock",
-        "noraf-media",
-        "noraf-notify",
-        "noraf-openclose",
-        "noraf-outlet",
-        "noraf-scene",
-        "noraf-security",
-        "noraf-sensor",
-        "noraf-sousvide",
-        "noraf-speaker",
-        "noraf-sprinkler",
-        "noraf-switch",
-        "noraf-thermostat",
-        "noraf-vacuum",
-        "noraf-async"
-      ],
-      "keywords": [
-        "node-red",
-        "google",
-        "google home",
-        "assistant",
-        "smarthome",
-        "smart",
-        "home",
-        "iot"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-smartnora"
     },
     {
       "id": "@ia-cloud/node-red-contrib-ia-cloud-fds",
@@ -1068,42 +1193,6 @@
       "url": "https://flows.nodered.org/node/node-red-contrib-nordpool-api-plus"
     },
     {
-      "id": "node-red-contrib-pi-plates",
-      "version": "0.2.2",
-      "description": "control Pi-Plates boards from Node-RED",
-      "updated_at": "2023-01-14T19:33:47.554Z",
-      "types": [
-        "pi_plate",
-        "ppRelay",
-        "ppADC",
-        "ppAllADC",
-        "ppCURRENT",
-        "ppDAC",
-        "ppDIN",
-        "ppDOUT",
-        "ppFREQ",
-        "ppLED",
-        "ppTEMP",
-        "ppTHERMO",
-        "ppPWM",
-        "ppMotor"
-      ],
-      "keywords": [
-        "node-red",
-        "pi-plates",
-        "Pi",
-        "Plates",
-        "relay",
-        "automation",
-        "adc",
-        "dac",
-        "ds18b20",
-        "thermocouple",
-        "iot"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-pi-plates"
-    },
-    {
       "id": "node-red-contrib-iiot-rpi-pcf857x",
       "version": "1.0.20",
       "description": "A Node-Red node for pcf8574(A), pcf8575, pcf8574(A) + hd44780-LCD",
@@ -1131,20 +1220,6 @@
         "2004"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-iiot-rpi-pcf857x"
-    },
-    {
-      "id": "node-red-contrib-cb-arp",
-      "version": "1.0.1",
-      "description": "This node provides the content of the ARP table",
-      "updated_at": "2023-01-14T16:45:18.430Z",
-      "types": [
-        "arp"
-      ],
-      "keywords": [
-        "node-red",
-        "arp"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-cb-arp"
     },
     {
       "id": "@mschaeffler/node-red-dualled",
@@ -7414,23 +7489,6 @@
       "url": "https://flows.nodered.org/node/node-red-contrib-freebox"
     },
     {
-      "id": "node-red-contrib-axios",
-      "version": "0.4.0",
-      "description": "A http request node for Node-RED",
-      "updated_at": "2022-10-15T13:49:01.769Z",
-      "types": [
-        "axios-endpoint",
-        "axios-request"
-      ],
-      "keywords": [
-        "node-red",
-        "http",
-        "request",
-        "axios"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-axios"
-    },
-    {
       "id": "@realsixi/node-red-contrib-ring-alarm",
       "version": "0.0.18",
       "description": "Unofficial Node-Red nodes to interact with Ring Alarm System and Ring Cameras.",
@@ -11108,24 +11166,6 @@
         "corrently"
       ],
       "url": "https://flows.nodered.org/node/nr-janitza-meter"
-    },
-    {
-      "id": "@tataille/node-red-french-holidays",
-      "version": "1.0.5",
-      "description": "A simple node-red component for working whith French holidays.",
-      "updated_at": "2022-07-28T21:00:11.982Z",
-      "types": [
-        "french-holidays"
-      ],
-      "keywords": [
-        "node-red",
-        "french-holidays",
-        "holidays",
-        "france",
-        "specialdays",
-        "weekdays"
-      ],
-      "url": "https://flows.nodered.org/node/@tataille/node-red-french-holidays"
     },
     {
       "id": "node-red-contrib-fuzzy",
@@ -45231,28 +45271,6 @@
         "dialogflow"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-googlehome-actions-v2-piyanggoon"
-    },
-    {
-      "id": "node-red-contrib-salesforce",
-      "version": "0.7.3",
-      "description": "A set of Node-RED nodes to interact with Salesforce and Force.com.",
-      "updated_at": "2019-12-24T07:13:31.867Z",
-      "types": [
-        "soql",
-        "sosl",
-        "dml",
-        "chatter",
-        "streaming",
-        "obm",
-        "connection-config"
-      ],
-      "keywords": [
-        "node-red",
-        "salesforce",
-        "forcedotcom",
-        "Heroku"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-salesforce"
     },
     {
       "id": "node-red-contrib-sony-projector",
