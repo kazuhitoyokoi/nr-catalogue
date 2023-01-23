@@ -1,12 +1,132 @@
 {
   "name": "Catalogue for darwin",
-  "updated_at": "2023-01-22T19:34:56.855Z",
+  "updated_at": "2023-01-23T19:58:49.095Z",
   "modules": [
     {
+      "id": "@yousolution/node-red-contrib-you-ftp-sftp",
+      "version": "1.9.1",
+      "description": "A node-red node that support FTP and SFTP file transfer using $() environment variables to control the ftp connection details",
+      "updated_at": "2023-01-23T16:06:35.207Z",
+      "types": [
+        "ftp",
+        "ftp in",
+        "sftp",
+        "sftp in",
+        "ftps",
+        "ftps in"
+      ],
+      "keywords": [
+        "node-red",
+        "ftp",
+        "sftp",
+        "ftps",
+        "redconnect"
+      ],
+      "url": "https://flows.nodered.org/node/@yousolution/node-red-contrib-you-ftp-sftp"
+    },
+    {
+      "id": "node-red-contrib-smartnora",
+      "version": "1.18.1",
+      "description": "Google Smart Home integration via Smart Nora https://smart-nora.eu/",
+      "updated_at": "2023-01-23T07:49:57.228Z",
+      "types": [
+        "noraf-ac",
+        "noraf-airpurifier",
+        "noraf-blinds",
+        "noraf-camera",
+        "noraf-charger",
+        "noraf-config",
+        "noraf-doorbell",
+        "noraf-fan",
+        "noraf-garage",
+        "noraf-light",
+        "noraf-lock",
+        "noraf-media",
+        "noraf-notify",
+        "noraf-openclose",
+        "noraf-outlet",
+        "noraf-scene",
+        "noraf-security",
+        "noraf-sensor",
+        "noraf-sousvide",
+        "noraf-speaker",
+        "noraf-sprinkler",
+        "noraf-switch",
+        "noraf-thermostat",
+        "noraf-vacuum",
+        "noraf-async"
+      ],
+      "keywords": [
+        "node-red",
+        "google",
+        "google home",
+        "assistant",
+        "smarthome",
+        "smart",
+        "home",
+        "iot"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-smartnora"
+    },
+    {
+      "id": "@jn-se/node-red-contrib-heos",
+      "version": "0.1.0",
+      "description": "Node-RED node for Denon HEOS devices and Denon Home.",
+      "updated_at": "2023-01-22T21:09:33.696Z",
+      "types": [
+        "heos-device",
+        "heos-command",
+        "heos-player-state"
+      ],
+      "keywords": [
+        "node-red",
+        "heos",
+        "denon",
+        "denon home"
+      ],
+      "url": "https://flows.nodered.org/node/@jn-se/node-red-contrib-heos"
+    },
+    {
+      "id": "node-red-contrib-pi-plates",
+      "version": "0.2.3",
+      "description": "control Pi-Plates boards from Node-RED",
+      "updated_at": "2023-01-22T20:24:45.545Z",
+      "types": [
+        "pi_plate",
+        "ppRelay",
+        "ppADC",
+        "ppAllADC",
+        "ppCURRENT",
+        "ppDAC",
+        "ppDIN",
+        "ppDOUT",
+        "ppFREQ",
+        "ppLED",
+        "ppTEMP",
+        "ppTHERMO",
+        "ppPWM",
+        "ppMotor"
+      ],
+      "keywords": [
+        "node-red",
+        "pi-plates",
+        "Pi",
+        "Plates",
+        "relay",
+        "automation",
+        "adc",
+        "dac",
+        "ds18b20",
+        "thermocouple",
+        "iot"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-pi-plates"
+    },
+    {
       "id": "@tataille/node-red-french-holidays",
-      "version": "1.1.2",
+      "version": "1.1.3",
       "description": "A simple node-red component for working whith French holidays.",
-      "updated_at": "2023-01-22T17:15:26.363Z",
+      "updated_at": "2023-01-22T19:01:41.357Z",
       "types": [
         "french-holidays"
       ],
@@ -435,50 +555,6 @@
         "scheduler"
       ],
       "url": "https://flows.nodered.org/node/node-red-node-timeswitch"
-    },
-    {
-      "id": "node-red-contrib-smartnora",
-      "version": "1.18.0",
-      "description": "Google Smart Home integration via Smart Nora https://smart-nora.eu/",
-      "updated_at": "2023-01-19T08:15:48.641Z",
-      "types": [
-        "noraf-ac",
-        "noraf-airpurifier",
-        "noraf-blinds",
-        "noraf-camera",
-        "noraf-charger",
-        "noraf-config",
-        "noraf-doorbell",
-        "noraf-fan",
-        "noraf-garage",
-        "noraf-light",
-        "noraf-lock",
-        "noraf-media",
-        "noraf-notify",
-        "noraf-openclose",
-        "noraf-outlet",
-        "noraf-scene",
-        "noraf-security",
-        "noraf-sensor",
-        "noraf-sousvide",
-        "noraf-speaker",
-        "noraf-sprinkler",
-        "noraf-switch",
-        "noraf-thermostat",
-        "noraf-vacuum",
-        "noraf-async"
-      ],
-      "keywords": [
-        "node-red",
-        "google",
-        "google home",
-        "assistant",
-        "smarthome",
-        "smart",
-        "home",
-        "iot"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-smartnora"
     },
     {
       "id": "@ia-cloud/node-red-contrib-ia-cloud-fds",
@@ -1155,42 +1231,6 @@
       "url": "https://flows.nodered.org/node/node-red-contrib-nordpool-api-plus"
     },
     {
-      "id": "node-red-contrib-pi-plates",
-      "version": "0.2.2",
-      "description": "control Pi-Plates boards from Node-RED",
-      "updated_at": "2023-01-14T19:33:47.554Z",
-      "types": [
-        "pi_plate",
-        "ppRelay",
-        "ppADC",
-        "ppAllADC",
-        "ppCURRENT",
-        "ppDAC",
-        "ppDIN",
-        "ppDOUT",
-        "ppFREQ",
-        "ppLED",
-        "ppTEMP",
-        "ppTHERMO",
-        "ppPWM",
-        "ppMotor"
-      ],
-      "keywords": [
-        "node-red",
-        "pi-plates",
-        "Pi",
-        "Plates",
-        "relay",
-        "automation",
-        "adc",
-        "dac",
-        "ds18b20",
-        "thermocouple",
-        "iot"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-pi-plates"
-    },
-    {
       "id": "node-red-contrib-iiot-rpi-pcf857x",
       "version": "1.0.20",
       "description": "A Node-Red node for pcf8574(A), pcf8575, pcf8574(A) + hd44780-LCD",
@@ -1372,28 +1412,6 @@
         "energy"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-tibber-api"
-    },
-    {
-      "id": "@yousolution/node-red-contrib-you-ftp-sftp",
-      "version": "1.9.0",
-      "description": "A node-red node that support FTP and SFTP file transfer using $() environment variables to control the ftp connection details",
-      "updated_at": "2023-01-12T15:44:44.277Z",
-      "types": [
-        "ftp",
-        "ftp in",
-        "sftp",
-        "sftp in",
-        "ftps",
-        "ftps in"
-      ],
-      "keywords": [
-        "node-red",
-        "ftp",
-        "sftp",
-        "ftps",
-        "redconnect"
-      ],
-      "url": "https://flows.nodered.org/node/@yousolution/node-red-contrib-you-ftp-sftp"
     },
     {
       "id": "node-red-contrib-hikvision-ultimate",
@@ -9107,37 +9125,6 @@
         "range"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-visualmapper"
-    },
-    {
-      "id": "node-red-contrib-energenie-ener314rt",
-      "version": "0.5.1",
-      "description": "Node-red module for energenie ENER314-RT board for raspberry pi",
-      "updated_at": "2022-09-18T15:38:44.257Z",
-      "types": [
-        "ook-switch",
-        "ook-dimmer",
-        "openThings-monitor",
-        "openThings-pir",
-        "openThings-door",
-        "openThings-switch",
-        "openThings-trv",
-        "openThings-thermostat",
-        "openThings-cmd",
-        "ener314rt-raw",
-        "openThings-device",
-        "energenie-board"
-      ],
-      "keywords": [
-        "energenie",
-        "radio",
-        "ener314",
-        "ener314rt",
-        "ener314-rt",
-        "node-red",
-        "MiHome",
-        "rf433"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-energenie-ener314rt"
     },
     {
       "id": "node-red-contrib-azure-blob-storage-aleph",
