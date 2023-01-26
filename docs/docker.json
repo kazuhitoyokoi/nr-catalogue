@@ -1,7 +1,181 @@
 {
   "name": "Catalogue for docker",
-  "updated_at": "2023-01-25T16:17:25.165Z",
+  "updated_at": "2023-01-26T16:41:49.664Z",
   "modules": [
+    {
+      "id": "node-red-contrib-norelite",
+      "version": "2.8.1",
+      "description": "A set of Node-Red nodes to ease the implementation of your home automation requirements",
+      "updated_at": "2023-01-26T14:16:00.931Z",
+      "types": [
+        "nrl-config",
+        "nrl-eval in",
+        "nrl-gate in",
+        "nrl-source out",
+        "nrl-switch-config",
+        "nrl-switch out",
+        "nrl-limit",
+        "nrl-dayslimit in",
+        "nrl-hold in",
+        "nrl-route in",
+        "nrl-timelimit in",
+        "nrl-value in",
+        "nrl-set in",
+        "nrl-rfxcom-out",
+        "nrl-tradfri-out",
+        "nrl-tellstick-out",
+        "nrl-zwave-out",
+        "nrl-on in"
+      ],
+      "keywords": [
+        "node-red",
+        "rfxcom",
+        "RFXtrx433",
+        "home",
+        "automation",
+        "light",
+        "control",
+        "tellstick",
+        "zwave",
+        "openzwave",
+        "rules",
+        "persistent",
+        "rule"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-norelite"
+    },
+    {
+      "id": "node-red-contrib-whatsapp-link",
+      "version": "0.1.32-A",
+      "description": "Node to send and receive whatsapp messages in groups and chats. | No third party APIs",
+      "updated_at": "2023-01-26T10:59:59.963Z",
+      "types": [
+        "admin",
+        "chats-in",
+        "chats-out",
+        "group-out",
+        "reply",
+        "whatsappLink"
+      ],
+      "keywords": [
+        "node-red",
+        "whatsapp",
+        "message",
+        "whatsapp Group",
+        "whatsapp Chat"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-whatsapp-link"
+    },
+    {
+      "id": "node-red-contrib-dsfnode",
+      "version": "1.1.10",
+      "description": "Nodes for working with the Duet Software Framework & Duet Control Boards",
+      "updated_at": "2023-01-26T10:38:32.949Z",
+      "types": [
+        "dsf-connector",
+        "dsf-intercept",
+        "dsf-monitor",
+        "dsf-command",
+        "dsf-event"
+      ],
+      "keywords": [
+        "node-red",
+        "3D Printer",
+        "Duet",
+        "DSF",
+        "RepRap",
+        "G Code",
+        "3D Printing",
+        "CNC"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-dsfnode"
+    },
+    {
+      "id": "node-red-contrib-boolean-logic-ultimate",
+      "version": "1.0.59",
+      "description": "A set of Node-RED enhanced boolean logic and utility nodes, flow interruption, blinker, invert, filter, toggle etc.., with persistent values after reboot. Compatible also with Homeassistant values.",
+      "updated_at": "2023-01-26T08:12:10.535Z",
+      "types": [
+        "BooleanLogicUltimate",
+        "InvertUltimate",
+        "FilterUltimate",
+        "InterruptFlowUltimate",
+        "BlinkerUltimate",
+        "SimpleOutputUltimate",
+        "InjectUltimate",
+        "StatusUltimate",
+        "ImpulseUltimate",
+        "SumUltimate",
+        "toggleUltimate",
+        "RailwaySwitchUltimate"
+      ],
+      "keywords": [
+        "node-red",
+        "boolean",
+        "gate",
+        "filter",
+        "logic"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-boolean-logic-ultimate"
+    },
+    {
+      "id": "node-red-contrib-things",
+      "version": "3.2.6",
+      "description": "A set of Node-RED nodes that uses an agnostic state management system to keep IOT device states and provide a uniform control system.",
+      "updated_at": "2023-01-25T23:52:02.068Z",
+      "types": [
+        "Thing Setup",
+        "Thing Update",
+        "Thing Trigger",
+        "Thing Get",
+        "Thing Test",
+        "Thing List",
+        "Thing Command",
+        "Thing Process",
+        "__errors__"
+      ],
+      "keywords": [
+        "node-red",
+        "iot",
+        "state management"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-things"
+    },
+    {
+      "id": "@waldbaer/node-red-persistent-values",
+      "version": "1.0.0",
+      "description": "Persistent values for Node-RED",
+      "updated_at": "2023-01-25T20:36:25.474Z",
+      "types": [
+        "persistent values config",
+        "persistent value"
+      ],
+      "keywords": [
+        "node-red",
+        "context",
+        "persistence",
+        "persistency",
+        "state",
+        "config"
+      ],
+      "url": "https://flows.nodered.org/node/@waldbaer/node-red-persistent-values"
+    },
+    {
+      "id": "node-red-contrib-zont-online",
+      "version": "0.0.7",
+      "description": "Coming soon",
+      "updated_at": "2023-01-25T17:26:58.439Z",
+      "types": [
+        "account",
+        "device"
+      ],
+      "keywords": [
+        "node-red",
+        "zont",
+        "zont-online"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-zont-online"
+    },
     {
       "id": "@andrei-tatar/node-red-contrib-nibetcp",
       "version": "1.1.1",
@@ -220,28 +394,6 @@
         "denon home"
       ],
       "url": "https://flows.nodered.org/node/@jn-se/node-red-contrib-heos"
-    },
-    {
-      "id": "node-red-contrib-whatsapp-link",
-      "version": "0.1.31",
-      "description": "Node to send and receive whatsapp messages in groups and chats. | No third party APIs",
-      "updated_at": "2023-01-23T19:30:25.858Z",
-      "types": [
-        "admin",
-        "chats-in",
-        "chats-out",
-        "group-out",
-        "reply",
-        "whatsappLink"
-      ],
-      "keywords": [
-        "node-red",
-        "whatsapp",
-        "message",
-        "whatsapp Group",
-        "whatsapp Chat"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-whatsapp-link"
     },
     {
       "id": "node-red-contrib-cb-arp",
@@ -1899,21 +2051,6 @@
       "url": "https://flows.nodered.org/node/lighttalk_schedule_no_mqtt"
     },
     {
-      "id": "node-red-contrib-zont-online",
-      "version": "0.0.5",
-      "description": "Coming soon",
-      "updated_at": "2023-01-09T15:44:57.323Z",
-      "types": [
-        "device-out"
-      ],
-      "keywords": [
-        "node-red",
-        "zont",
-        "zont-online"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-zont-online"
-    },
-    {
       "id": "@eswarpr/node-red-modn-counter",
       "version": "1.0.5",
       "description": "A node-RED node to simulate mod-N counters like SN74LS90 or SN74LS92 in your flows",
@@ -2075,29 +2212,6 @@
         "docker"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-dockerode"
-    },
-    {
-      "id": "node-red-contrib-things",
-      "version": "3.2.5",
-      "description": "A set of Node-RED nodes that uses an agnostic state management system to keep IOT device states and provide a uniform control system.",
-      "updated_at": "2023-01-08T15:12:00.001Z",
-      "types": [
-        "Thing Setup",
-        "Thing Update",
-        "Thing Trigger",
-        "Thing Get",
-        "Thing Test",
-        "Thing List",
-        "Thing Command",
-        "Thing Process",
-        "__errors__"
-      ],
-      "keywords": [
-        "node-red",
-        "iot",
-        "state management"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-things"
     },
     {
       "id": "node-red-near-protocol",
@@ -4143,34 +4257,6 @@
         "home automation"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-ecovacs-deebot"
-    },
-    {
-      "id": "node-red-contrib-boolean-logic-ultimate",
-      "version": "1.0.58",
-      "description": "A set of Node-RED enhanced boolean logic and utility nodes, flow interruption, blinker, invert, filter, toggle etc.., with persistent values after reboot. Compatible also with Homeassistant values.",
-      "updated_at": "2022-12-10T14:50:24.566Z",
-      "types": [
-        "BooleanLogicUltimate",
-        "InvertUltimate",
-        "FilterUltimate",
-        "InterruptFlowUltimate",
-        "BlinkerUltimate",
-        "SimpleOutputUltimate",
-        "InjectUltimate",
-        "StatusUltimate",
-        "ImpulseUltimate",
-        "SumUltimate",
-        "toggleUltimate",
-        "RailwaySwitchUltimate"
-      ],
-      "keywords": [
-        "node-red",
-        "boolean",
-        "gate",
-        "filter",
-        "logic"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-boolean-logic-ultimate"
     },
     {
       "id": "node-red-contrib-modbus",
@@ -8933,30 +9019,6 @@
         "watson"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-browser-utils"
-    },
-    {
-      "id": "node-red-contrib-dsfnode",
-      "version": "1.1.9",
-      "description": "Nodes for working with the Duet Software Framework & Duet Control Boards",
-      "updated_at": "2022-09-23T06:23:41.328Z",
-      "types": [
-        "dsf-connector",
-        "dsf-intercept",
-        "dsf-monitor",
-        "dsf-command",
-        "dsf-event"
-      ],
-      "keywords": [
-        "node-red",
-        "3D Printer",
-        "Duet",
-        "DSF",
-        "RepRap",
-        "G Code",
-        "3D Printing",
-        "CNC"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-dsfnode"
     },
     {
       "id": "node-red-contrib-cx-workspace-addon",
@@ -40121,48 +40183,6 @@
         "emoji"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-slack-status"
-    },
-    {
-      "id": "node-red-contrib-norelite",
-      "version": "2.8.0",
-      "description": "A set of Node-Red nodes to ease the implementation of your home automation requirements",
-      "updated_at": "2020-06-02T09:37:43.307Z",
-      "types": [
-        "nrl-config",
-        "nrl-eval in",
-        "nrl-gate in",
-        "nrl-source out",
-        "nrl-switch-config",
-        "nrl-switch out",
-        "nrl-limit",
-        "nrl-dayslimit in",
-        "nrl-hold in",
-        "nrl-route in",
-        "nrl-timelimit in",
-        "nrl-value in",
-        "nrl-set in",
-        "nrl-rfxcom-out",
-        "nrl-tradfri-out",
-        "nrl-tellstick-out",
-        "nrl-zwave-out",
-        "nrl-on in"
-      ],
-      "keywords": [
-        "node-red",
-        "rfxcom",
-        "RFXtrx433",
-        "home",
-        "automation",
-        "light",
-        "control",
-        "tellstick",
-        "zwave",
-        "openzwave",
-        "rules",
-        "persistent",
-        "rule"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-norelite"
     },
     {
       "id": "node-red-contrib-sum",
