@@ -1,0 +1,36 @@
+
+----
+Sending build context to Docker daemon   31.9MB
+Step 1/2 : FROM nodered/node-red
+ ---> a15fc0f4e930
+Step 2/2 : RUN npm install npm install node-red-contrib-dsfnode@1.1.10
+ ---> Running in c9f1684e4f02
+[91mnpm[0m[91m [0m[91mWARN[0m[91m [0m[91mEBADENGINE[0m[91m Unsupported engine {
+[0m[91mnpm[0m[91m [0m[91mWARN[0m[91m [0m[91mEBADENGINE[0m[91m   package: 'node-red-contrib-dsfnode@1.1.10',
+[0m[91mnpm[0m[91m [0m[91mWARN[0m[91m [0m[91mEBADENGINE[0m[91m   required: { node: '>=18.0.0' },
+[0m[91mnpm[0m[91m [0m[91mWARN[0m[91m [0m[91mEBADENGINE[0m[91m   current: { node: 'v16.16.0', npm: '8.11.0' }
+npm[0m[91m [0m[91mWARN[0m[91m [0m[91mEBADENGINE[0m[91m }
+[0m
+added 30 packages, and audited 554 packages in 6s
+
+47 packages are looking for funding
+  run `npm fund` for details
+
+6 vulnerabilities (5 low, 1 moderate)
+
+To address issues that do not require attention, run:
+  npm audit fix
+
+To address all issues (including breaking changes), run:
+  npm audit fix --force
+
+Run `npm audit` for details.
+[91mnpm[0m[91m [0m[91mnotice[0m[91m 
+[0m[91mnpm[0m[91m notice New major version of npm available! 8.11.0 -> 9.4.0
+npm [0m[91mnotice[0m[91m Changelog: <https://github.com/npm/cli/releases/tag/v9.4.0>
+[0m[91mnpm[0m[91m [0m[91mnotice[0m[91m Run `npm install -g npm@9.4.0` to update!
+[0m[91mnpm[0m[91m [0m[91mnotice[0m[91m 
+[0mRemoving intermediate container c9f1684e4f02
+ ---> 7b31310c3cbb
+Successfully built 7b31310c3cbb
+Successfully tagged tmp:latest
