@@ -1,0 +1,32 @@
+
+----
+Sending build context to Docker daemon  31.75MB
+Step 1/2 : FROM nodered/node-red
+ ---> a15fc0f4e930
+Step 2/2 : RUN npm install npm install node-red-contrib-whatsapp-link@0.1.32-A
+ ---> Running in 8f37c500cc2a
+[91mnpm[0m[91m [0m[91mWARN[0m[91m [0m[91mdeprecated[0m[91m puppeteer@13.7.0: < 18.1.0 is no longer supported
+[0m
+added 157 packages, and audited 681 packages in 22s
+
+54 packages are looking for funding
+  run `npm fund` for details
+
+6 vulnerabilities (5 low, 1 moderate)
+
+To address issues that do not require attention, run:
+  npm audit fix
+
+To address all issues (including breaking changes), run:
+  npm audit fix --force
+
+Run `npm audit` for details.
+[91mnpm notice 
+npm notice[0m[91m New major version of npm available! 8.11.0 -> 9.4.0
+npm notice Changelog: <https://github.com/npm/cli/releases/tag/v9.4.0>
+npm notice Run `npm install -g npm@9.4.0` to update!
+npm notice 
+[0mRemoving intermediate container 8f37c500cc2a
+ ---> a3bcd6dc823b
+Successfully built a3bcd6dc823b
+Successfully tagged tmp:latest
