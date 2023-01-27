@@ -1,0 +1,31 @@
+
+----
+Sending build context to Docker daemon  32.67MB
+Step 1/2 : FROM nodered/node-red
+ ---> a15fc0f4e930
+Step 2/2 : RUN npm install npm install @blockbax/node-red-contrib-blockbax@0.0.12
+ ---> Running in 10212b1e9820
+
+added 10 packages, and audited 534 packages in 5s
+
+47 packages are looking for funding
+  run `npm fund` for details
+
+6 vulnerabilities (5 low, 1 moderate)
+
+To address issues that do not require attention, run:
+  npm audit fix
+
+To address all issues (including breaking changes), run:
+  npm audit fix --force
+
+Run `npm audit` for details.
+[91mnpm notice 
+npm notice[0m[91m New major version of npm available! 8.11.0 -> 9.4.0
+npm notice Changelog: <https://github.com/npm/cli/releases/tag/v9.4.0>
+npm notice Run `npm install -g npm@9.4.0` to update!
+npm notice 
+[0mRemoving intermediate container 10212b1e9820
+ ---> 9f888091fba8
+Successfully built 9f888091fba8
+Successfully tagged tmp:latest
