@@ -1,7 +1,159 @@
 {
   "name": "Catalogue for verified nodes",
-  "updated_at": "2023-01-26T20:57:35.644Z",
+  "updated_at": "2023-01-27T19:30:00.599Z",
   "modules": [
+    {
+      "id": "@binsoul/node-red-contrib-statistics",
+      "version": "0.4.0",
+      "description": "Perform statistical operations on a configurable duration of incoming events.",
+      "updated_at": "2023-01-27T13:08:43.275Z",
+      "types": [
+        "binsoul-statistics"
+      ],
+      "keywords": [
+        "node-red",
+        "statistics",
+        "average",
+        "mean",
+        "moving window"
+      ],
+      "url": "https://flows.nodered.org/node/@binsoul/node-red-contrib-statistics"
+    },
+    {
+      "id": "node-red-contrib-near-protocol",
+      "version": "1.0.5",
+      "description": "Allows to run Near Protocol blockchain smart-contract methods on Node RED",
+      "updated_at": "2023-01-27T09:03:08.405Z",
+      "types": [
+        "Near Contract",
+        "Contract Method"
+      ],
+      "keywords": [
+        "nodered",
+        "node-red",
+        "near-protocol",
+        "blockchain",
+        "smart-contract"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-near-protocol"
+    },
+    {
+      "id": "node-red-contrib-timer",
+      "version": "1.0.5",
+      "description": "timer node",
+      "updated_at": "2023-01-26T23:15:31.623Z",
+      "types": [
+        "timer-node"
+      ],
+      "keywords": [
+        "node-red",
+        "timer",
+        "timing",
+        "sequencing",
+        "duty cycle",
+        "delay"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-timer"
+    },
+    {
+      "id": "node-red-contrib-qsys",
+      "version": "1.0.0",
+      "description": "A collection of nodes for third party control of Q-Sys systems",
+      "updated_at": "2023-01-26T23:08:58.524Z",
+      "types": [
+        "qsys-core",
+        "qsys-ControlSet",
+        "qsys-Presets"
+      ],
+      "keywords": [
+        "node-red",
+        "q-sys",
+        "QSC",
+        "audio",
+        "audio DSP"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-qsys"
+    },
+    {
+      "id": "node-red-contrib-proxmox-backup-server",
+      "version": "0.0.2",
+      "description": "A Proxmox Backup Server node for node-red",
+      "updated_at": "2023-01-26T19:23:22.388Z",
+      "types": [
+        "proxmox-backup-server-api",
+        "proxmox-backup-server"
+      ],
+      "keywords": [
+        "node-red"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-proxmox-backup-server"
+    },
+    {
+      "id": "node-red-contrib-hal2",
+      "version": "1.15.0",
+      "description": "A set of nodes to help with basic home automation logic",
+      "updated_at": "2023-01-26T18:29:24.247Z",
+      "types": [
+        "hal2ThingType",
+        "hal2EventHandler",
+        "hal2Thing",
+        "hal2Value",
+        "hal2Event",
+        "hal2Gate",
+        "hal2Action",
+        "hal2Group",
+        "hal2Log"
+      ],
+      "keywords": [
+        "node-red",
+        "home-automation",
+        "iot"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-hal2"
+    },
+    {
+      "id": "node-red-contrib-proficloud",
+      "version": "1.0.67",
+      "description": "Proficloud - IIoT-Platform of Phoenix Contact",
+      "updated_at": "2023-01-26T15:16:33.670Z",
+      "types": [
+        "ProficloudDevice"
+      ],
+      "keywords": [
+        "node-red",
+        "proficloud",
+        "nodered",
+        "arm32v7",
+        "x86",
+        "IIoT",
+        "IoT",
+        "Cloud",
+        "PhoenixContact"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-proficloud"
+    },
+    {
+      "id": "@blockbax/node-red-contrib-blockbax",
+      "version": "0.0.12",
+      "description": "A set of Node-RED nodes to interact with the Blockbax Platform",
+      "updated_at": "2023-01-26T14:34:23.331Z",
+      "types": [
+        "blockbax-parse",
+        "blockbax-send",
+        "blockbax-aggregate",
+        "blockbax-project",
+        "blockbax-subscribe"
+      ],
+      "keywords": [
+        "node-red",
+        "blockbax",
+        "iot",
+        "edge",
+        "sensors",
+        "data"
+      ],
+      "url": "https://flows.nodered.org/node/@blockbax/node-red-contrib-blockbax"
+    },
     {
       "id": "node-red-contrib-norelite",
       "version": "2.8.1",
@@ -313,23 +465,6 @@
         "vølund"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-nibeuplink"
-    },
-    {
-      "id": "@binsoul/node-red-contrib-statistics",
-      "version": "0.3.1",
-      "description": "Perform statistical operations on a configurable duration of incoming events.",
-      "updated_at": "2023-01-24T18:41:11.920Z",
-      "types": [
-        "binsoul-statistics"
-      ],
-      "keywords": [
-        "node-red",
-        "statistics",
-        "average",
-        "mean",
-        "moving window"
-      ],
-      "url": "https://flows.nodered.org/node/@binsoul/node-red-contrib-statistics"
     },
     {
       "id": "node-red-contrib-opcua",
@@ -814,25 +949,6 @@
         "geckodriver"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-simple-webdriver"
-    },
-    {
-      "id": "node-red-contrib-qsys",
-      "version": "0.0.1",
-      "description": "A collection of nodes for third party control of Q-Sys systems",
-      "updated_at": "2023-01-19T17:42:10.738Z",
-      "types": [
-        "qsys-core",
-        "qsys-ControlSet",
-        "qsys-Presets"
-      ],
-      "keywords": [
-        "node-red",
-        "q-sys",
-        "QSC",
-        "audio",
-        "audio DSP"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-qsys"
     },
     {
       "id": "node-red-contrib-soundweb",
@@ -3708,24 +3824,6 @@
       "url": "https://flows.nodered.org/node/@kevingodell/node-red-mp4frag"
     },
     {
-      "id": "node-red-contrib-timer",
-      "version": "1.0.4",
-      "description": "timer node",
-      "updated_at": "2022-12-17T02:28:13.480Z",
-      "types": [
-        "timer-node"
-      ],
-      "keywords": [
-        "node-red",
-        "timer",
-        "timing",
-        "sequencing",
-        "duty cycle",
-        "delay"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-timer"
-    },
-    {
       "id": "@hurenkam/hue-services",
       "version": "0.6.2",
       "description": "Custom node-red nodes for interfacing with philips hue devices",
@@ -4347,28 +4445,6 @@
         "biancoroyal"
       ],
       "url": "https://flows.nodered.org/node/@plus4nodered/node-red-contrib-wago-cc100"
-    },
-    {
-      "id": "@blockbax/node-red-contrib-blockbax",
-      "version": "0.0.11",
-      "description": "A set of Node-RED nodes to interact with the Blockbax Platform",
-      "updated_at": "2022-12-08T12:11:38.314Z",
-      "types": [
-        "blockbax-parse",
-        "blockbax-send",
-        "blockbax-aggregate",
-        "blockbax-project",
-        "blockbax-subscribe"
-      ],
-      "keywords": [
-        "node-red",
-        "blockbax",
-        "iot",
-        "edge",
-        "sensors",
-        "data"
-      ],
-      "url": "https://flows.nodered.org/node/@blockbax/node-red-contrib-blockbax"
     },
     {
       "id": "lighttalk_relay_nodes",
@@ -10789,29 +10865,6 @@
       "url": "https://flows.nodered.org/node/node-red-contrib-amqp-ack"
     },
     {
-      "id": "node-red-contrib-hal2",
-      "version": "1.14.5",
-      "description": "A set of nodes to help with basic home automation logic",
-      "updated_at": "2022-08-12T07:19:38.161Z",
-      "types": [
-        "hal2ThingType",
-        "hal2EventHandler",
-        "hal2Thing",
-        "hal2Value",
-        "hal2Event",
-        "hal2Gate",
-        "hal2Action",
-        "hal2Group",
-        "hal2Log"
-      ],
-      "keywords": [
-        "node-red",
-        "home-automation",
-        "iot"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-hal2"
-    },
-    {
       "id": "node-red-contrib-day-of-week-ja",
       "version": "0.0.4",
       "description": "A Node-RED node for Japanese 曜日 (day of the week).",
@@ -11453,27 +11506,6 @@
         "openavc"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-openavc"
-    },
-    {
-      "id": "node-red-contrib-proficloud",
-      "version": "1.0.66",
-      "description": "Proficloud - IIoT-Platform of Phoenix Contact",
-      "updated_at": "2022-07-25T08:47:04.018Z",
-      "types": [
-        "ProficloudDevice"
-      ],
-      "keywords": [
-        "node-red",
-        "proficloud",
-        "nodered",
-        "arm32v7",
-        "x86",
-        "IIoT",
-        "IoT",
-        "Cloud",
-        "PhoenixContact"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-proficloud"
     },
     {
       "id": "@zhaozhengde/node-red-contrib-ydt-13633-2014",
