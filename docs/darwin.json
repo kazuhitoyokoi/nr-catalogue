@@ -1,7 +1,118 @@
 {
   "name": "Catalogue for darwin",
-  "updated_at": "2023-01-26T20:54:33.023Z",
+  "updated_at": "2023-01-27T19:29:44.517Z",
   "modules": [
+    {
+      "id": "node-red-contrib-rollun-openapi",
+      "version": "1.0.6",
+      "description": "node-red-contrib-rollun-openapi ================",
+      "updated_at": "2023-01-27T17:09:04.665Z",
+      "types": [
+        "rollun-openapi-client",
+        "rollun-openapi-messages",
+        "rollun-openapi-manifest",
+        "rollun-openapi-in",
+        "rollun-openapi-out"
+      ],
+      "keywords": [
+        "node-red"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-rollun-openapi"
+    },
+    {
+      "id": "@blockbax/node-red-contrib-blockbax",
+      "version": "0.0.13",
+      "description": "A set of Node-RED nodes to interact with the Blockbax Platform",
+      "updated_at": "2023-01-27T16:52:18.609Z",
+      "types": [
+        "blockbax-parse",
+        "blockbax-send",
+        "blockbax-aggregate",
+        "blockbax-project",
+        "blockbax-subscribe"
+      ],
+      "keywords": [
+        "node-red",
+        "blockbax",
+        "iot",
+        "edge",
+        "sensors",
+        "data"
+      ],
+      "url": "https://flows.nodered.org/node/@blockbax/node-red-contrib-blockbax"
+    },
+    {
+      "id": "@binsoul/node-red-contrib-statistics",
+      "version": "0.4.0",
+      "description": "Perform statistical operations on a configurable duration of incoming events.",
+      "updated_at": "2023-01-27T13:08:43.275Z",
+      "types": [
+        "binsoul-statistics"
+      ],
+      "keywords": [
+        "node-red",
+        "statistics",
+        "average",
+        "mean",
+        "moving window"
+      ],
+      "url": "https://flows.nodered.org/node/@binsoul/node-red-contrib-statistics"
+    },
+    {
+      "id": "node-red-contrib-near-protocol",
+      "version": "1.0.5",
+      "description": "Allows to run Near Protocol blockchain smart-contract methods on Node RED",
+      "updated_at": "2023-01-27T09:03:08.405Z",
+      "types": [
+        "Near Contract",
+        "Contract Method"
+      ],
+      "keywords": [
+        "nodered",
+        "node-red",
+        "near-protocol",
+        "blockchain",
+        "smart-contract"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-near-protocol"
+    },
+    {
+      "id": "node-red-contrib-timer",
+      "version": "1.0.5",
+      "description": "timer node",
+      "updated_at": "2023-01-26T23:15:31.623Z",
+      "types": [
+        "timer-node"
+      ],
+      "keywords": [
+        "node-red",
+        "timer",
+        "timing",
+        "sequencing",
+        "duty cycle",
+        "delay"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-timer"
+    },
+    {
+      "id": "node-red-contrib-qsys",
+      "version": "1.0.0",
+      "description": "A collection of nodes for third party control of Q-Sys systems",
+      "updated_at": "2023-01-26T23:08:58.524Z",
+      "types": [
+        "qsys-core",
+        "qsys-ControlSet",
+        "qsys-Presets"
+      ],
+      "keywords": [
+        "node-red",
+        "q-sys",
+        "QSC",
+        "audio",
+        "audio DSP"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-qsys"
+    },
     {
       "id": "node-red-contrib-proxmox-backup-server",
       "version": "0.0.2",
@@ -371,23 +482,6 @@
         "vølund"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-nibeuplink"
-    },
-    {
-      "id": "@binsoul/node-red-contrib-statistics",
-      "version": "0.3.1",
-      "description": "Perform statistical operations on a configurable duration of incoming events.",
-      "updated_at": "2023-01-24T18:41:11.920Z",
-      "types": [
-        "binsoul-statistics"
-      ],
-      "keywords": [
-        "node-red",
-        "statistics",
-        "average",
-        "mean",
-        "moving window"
-      ],
-      "url": "https://flows.nodered.org/node/@binsoul/node-red-contrib-statistics"
     },
     {
       "id": "node-red-contrib-opcua",
@@ -872,25 +966,6 @@
         "geckodriver"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-simple-webdriver"
-    },
-    {
-      "id": "node-red-contrib-qsys",
-      "version": "0.0.1",
-      "description": "A collection of nodes for third party control of Q-Sys systems",
-      "updated_at": "2023-01-19T17:42:10.738Z",
-      "types": [
-        "qsys-core",
-        "qsys-ControlSet",
-        "qsys-Presets"
-      ],
-      "keywords": [
-        "node-red",
-        "q-sys",
-        "QSC",
-        "audio",
-        "audio DSP"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-qsys"
     },
     {
       "id": "node-red-contrib-soundweb",
@@ -3798,24 +3873,6 @@
       "url": "https://flows.nodered.org/node/@kevingodell/node-red-mp4frag"
     },
     {
-      "id": "node-red-contrib-timer",
-      "version": "1.0.4",
-      "description": "timer node",
-      "updated_at": "2022-12-17T02:28:13.480Z",
-      "types": [
-        "timer-node"
-      ],
-      "keywords": [
-        "node-red",
-        "timer",
-        "timing",
-        "sequencing",
-        "duty cycle",
-        "delay"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-timer"
-    },
-    {
       "id": "@hurenkam/hue-services",
       "version": "0.6.2",
       "description": "Custom node-red nodes for interfacing with philips hue devices",
@@ -4437,28 +4494,6 @@
         "biancoroyal"
       ],
       "url": "https://flows.nodered.org/node/@plus4nodered/node-red-contrib-wago-cc100"
-    },
-    {
-      "id": "@blockbax/node-red-contrib-blockbax",
-      "version": "0.0.11",
-      "description": "A set of Node-RED nodes to interact with the Blockbax Platform",
-      "updated_at": "2022-12-08T12:11:38.314Z",
-      "types": [
-        "blockbax-parse",
-        "blockbax-send",
-        "blockbax-aggregate",
-        "blockbax-project",
-        "blockbax-subscribe"
-      ],
-      "keywords": [
-        "node-red",
-        "blockbax",
-        "iot",
-        "edge",
-        "sensors",
-        "data"
-      ],
-      "url": "https://flows.nodered.org/node/@blockbax/node-red-contrib-blockbax"
     },
     {
       "id": "lighttalk_relay_nodes",
@@ -15730,23 +15765,6 @@
         "Ikologik"
       ],
       "url": "https://flows.nodered.org/node/ikologik-ftp-nodered"
-    },
-    {
-      "id": "node-red-contrib-rollun-openapi",
-      "version": "1.0.5",
-      "description": "node-red-contrib-rollun-openapi ================",
-      "updated_at": "2022-04-20T19:11:47.301Z",
-      "types": [
-        "rollun-openapi-client",
-        "rollun-openapi-messages",
-        "rollun-openapi-manifest",
-        "rollun-openapi-in",
-        "rollun-openapi-out"
-      ],
-      "keywords": [
-        "node-red"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-rollun-openapi"
     },
     {
       "id": "node-red-contrib-rollun-autodist-api-v062",
