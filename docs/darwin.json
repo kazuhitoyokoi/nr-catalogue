@@ -1,7 +1,173 @@
 {
   "name": "Catalogue for darwin",
-  "updated_at": "2023-01-27T19:29:44.517Z",
+  "updated_at": "2023-01-28T19:33:07.062Z",
   "modules": [
+    {
+      "id": "node-red-contrib-hal2",
+      "version": "1.15.1",
+      "description": "A set of nodes to help with basic home automation logic",
+      "updated_at": "2023-01-28T15:33:14.918Z",
+      "types": [
+        "hal2ThingType",
+        "hal2EventHandler",
+        "hal2Thing",
+        "hal2Value",
+        "hal2Event",
+        "hal2Gate",
+        "hal2Action",
+        "hal2Group",
+        "hal2Log"
+      ],
+      "keywords": [
+        "node-red",
+        "home-automation",
+        "iot"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-hal2"
+    },
+    {
+      "id": "node-red-contrib-boolean-parser",
+      "version": "1.4.4",
+      "description": "A Node-RED node to parse and convert several types of on/off, start/stop, true/false values.",
+      "updated_at": "2023-01-28T14:59:21.839Z",
+      "types": [
+        "bool"
+      ],
+      "keywords": [
+        "node-red",
+        "parser",
+        "boolean",
+        "bool",
+        "translator",
+        "converter",
+        "cast",
+        "on-off"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-boolean-parser"
+    },
+    {
+      "id": "node-red-contrib-twitter-media",
+      "version": "1.0.0",
+      "description": "NodeRED to retrieve media Tweets",
+      "updated_at": "2023-01-28T11:22:16.972Z",
+      "types": [
+        "twitter-media-client",
+        "twitter-media"
+      ],
+      "keywords": [
+        "node-red",
+        "contrib-twitter",
+        "twitter"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-twitter-media"
+    },
+    {
+      "id": "node-red-contrib-ecovacs-deebot",
+      "version": "0.4.6",
+      "description": "Node-RED node for Ecovacs Deebot vacuum cleaner",
+      "updated_at": "2023-01-28T09:44:04.569Z",
+      "types": [
+        "ecovacs-account",
+        "ecovacs-deebot",
+        "ecovacs-deebot-command"
+      ],
+      "keywords": [
+        "node-red",
+        "ecovacs",
+        "deebot",
+        "ozmo",
+        "yeedi",
+        "vacuum",
+        "robot",
+        "airbot",
+        "air purifier",
+        "smart home",
+        "home automation"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-ecovacs-deebot"
+    },
+    {
+      "id": "node-red-contrib-esphome",
+      "version": "0.0.3",
+      "description": "Node-RED nodes to ESPhome devices.",
+      "updated_at": "2023-01-28T08:26:04.226Z",
+      "types": [
+        "esphome-device",
+        "esphome-in",
+        "esphome-out"
+      ],
+      "keywords": [
+        "node-red",
+        "esphome",
+        "esp",
+        "home"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-esphome"
+    },
+    {
+      "id": "node-red-contrib-ccxt-v2",
+      "version": "0.2.13",
+      "description": "A Node-RED node to communicate with crypto exchanges using CCXT library supporting both CCXT Unified and Exchange-specific API calls.",
+      "updated_at": "2023-01-28T03:00:06.859Z",
+      "types": [
+        "ccxt-api-v2",
+        "ccxt-exchange-v2"
+      ],
+      "keywords": [
+        "node-red",
+        "ccxt",
+        "bitcoin",
+        "cryptocurrency",
+        "trading",
+        "cryptoexchange",
+        "cryptotrading"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-ccxt-v2"
+    },
+    {
+      "id": "node-red-contrib-musiccast",
+      "version": "4.1.0",
+      "description": "A Node-RED collection for monitoring and controlling all aspects of a Musiccast network.",
+      "updated_at": "2023-01-28T02:08:21.167Z",
+      "types": [
+        "musiccast-config",
+        "musiccast-zone",
+        "musiccast-input",
+        "musiccast-device",
+        "musiccast-list",
+        "musiccast-link"
+      ],
+      "keywords": [
+        "node-red",
+        "yamaha",
+        "musiccast",
+        "yxc",
+        "music"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-musiccast"
+    },
+    {
+      "id": "node-red-contrib-soundweb",
+      "version": "1.0.4",
+      "description": "A collection of nodes for controlling BSS soundweb devices.",
+      "updated_at": "2023-01-28T01:42:08.420Z",
+      "types": [
+        "soundweb-server",
+        "soundweb-Control",
+        "soundweb-Presets"
+      ],
+      "keywords": [
+        "node-red",
+        "BSS",
+        "BLU",
+        "Soundweb",
+        "Harman",
+        "Audio DSP",
+        "Audio Architect",
+        "London Architect"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-soundweb"
+    },
     {
       "id": "node-red-contrib-rollun-openapi",
       "version": "1.0.6",
@@ -57,6 +223,26 @@
         "moving window"
       ],
       "url": "https://flows.nodered.org/node/@binsoul/node-red-contrib-statistics"
+    },
+    {
+      "id": "nr-gotify",
+      "version": "0.5.6",
+      "description": "NodeRED Node to send Push Messages via Gotify (self-hosted or cloud)",
+      "updated_at": "2023-01-27T11:55:23.900Z",
+      "types": [
+        "Gotify-Send",
+        "Gotify-Receive"
+      ],
+      "keywords": [
+        "pushmessage",
+        "node-red",
+        "node",
+        "push",
+        "service",
+        "gotify",
+        "selfhosted"
+      ],
+      "url": "https://flows.nodered.org/node/nr-gotify"
     },
     {
       "id": "node-red-contrib-near-protocol",
@@ -126,29 +312,6 @@
         "node-red"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-proxmox-backup-server"
-    },
-    {
-      "id": "node-red-contrib-hal2",
-      "version": "1.15.0",
-      "description": "A set of nodes to help with basic home automation logic",
-      "updated_at": "2023-01-26T18:29:24.247Z",
-      "types": [
-        "hal2ThingType",
-        "hal2EventHandler",
-        "hal2Thing",
-        "hal2Value",
-        "hal2Event",
-        "hal2Gate",
-        "hal2Action",
-        "hal2Group",
-        "hal2Log"
-      ],
-      "keywords": [
-        "node-red",
-        "home-automation",
-        "iot"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-hal2"
     },
     {
       "id": "node-red-contrib-proficloud",
@@ -288,6 +451,22 @@
       "url": "https://flows.nodered.org/node/node-red-contrib-boolean-logic-ultimate"
     },
     {
+      "id": "@andrei-tatar/node-red-contrib-nibetcp",
+      "version": "1.1.2",
+      "description": "Node-red integration for Nibe S series heatpumps using modbus over TCP",
+      "updated_at": "2023-01-26T07:02:35.648Z",
+      "types": [
+        "nibe-config",
+        "nibe-register"
+      ],
+      "keywords": [
+        "node-red",
+        "modbus",
+        "nibe"
+      ],
+      "url": "https://flows.nodered.org/node/@andrei-tatar/node-red-contrib-nibetcp"
+    },
+    {
       "id": "node-red-contrib-things",
       "version": "3.2.6",
       "description": "A set of Node-RED nodes that uses an agnostic state management system to keep IOT device states and provide a uniform control system.",
@@ -344,22 +523,6 @@
         "zont-online"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-zont-online"
-    },
-    {
-      "id": "@andrei-tatar/node-red-contrib-nibetcp",
-      "version": "1.1.1",
-      "description": "Node-red integration for Nibe S series heatpumps using modbus over TCP",
-      "updated_at": "2023-01-25T07:28:23.187Z",
-      "types": [
-        "nibe-config",
-        "nibe-register"
-      ],
-      "keywords": [
-        "node-red",
-        "modbus",
-        "nibe"
-      ],
-      "url": "https://flows.nodered.org/node/@andrei-tatar/node-red-contrib-nibetcp"
     },
     {
       "id": "node-red-contrib-onstar2",
@@ -968,28 +1131,6 @@
       "url": "https://flows.nodered.org/node/node-red-contrib-simple-webdriver"
     },
     {
-      "id": "node-red-contrib-soundweb",
-      "version": "1.0.3",
-      "description": "A collection of nodes for controlling BSS soundweb devices.",
-      "updated_at": "2023-01-19T16:32:49.879Z",
-      "types": [
-        "soundweb-server",
-        "soundweb-Control",
-        "soundweb-Presets"
-      ],
-      "keywords": [
-        "node-red",
-        "BSS",
-        "BLU",
-        "Soundweb",
-        "Harman",
-        "Audio DSP",
-        "Audio Architect",
-        "London Architect"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-soundweb"
-    },
-    {
       "id": "@victronenergy/node-red-contrib-victron",
       "version": "1.4.26",
       "description": "Custom Node-RED Nodes for Victron Energy",
@@ -1296,24 +1437,6 @@
         "azure"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-mssql-plus"
-    },
-    {
-      "id": "node-red-contrib-esphome",
-      "version": "0.0.2",
-      "description": "Node-RED nodes to ESPhome devices.",
-      "updated_at": "2023-01-17T18:55:31.566Z",
-      "types": [
-        "esphome-device",
-        "esphome-in",
-        "esphome-out"
-      ],
-      "keywords": [
-        "node-red",
-        "esphome",
-        "esp",
-        "home"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-esphome"
     },
     {
       "id": "node-red-contrib-log-elk",
@@ -2594,26 +2717,6 @@
         "node-red"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-socketio-extended"
-    },
-    {
-      "id": "node-red-contrib-ccxt-v2",
-      "version": "0.2.12",
-      "description": "A Node-RED node to communicate with crypto exchanges using CCXT library supporting both CCXT Unified and Exchange-specific API calls.",
-      "updated_at": "2023-01-04T05:57:22.956Z",
-      "types": [
-        "ccxt-api-v2",
-        "ccxt-exchange-v2"
-      ],
-      "keywords": [
-        "node-red",
-        "ccxt",
-        "bitcoin",
-        "cryptocurrency",
-        "trading",
-        "cryptoexchange",
-        "cryptotrading"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-ccxt-v2"
     },
     {
       "id": "node-red-contrib-alarm",
@@ -4328,31 +4431,6 @@
       "url": "https://flows.nodered.org/node/node-red-contrib-power-saver"
     },
     {
-      "id": "node-red-contrib-ecovacs-deebot",
-      "version": "0.4.5",
-      "description": "Node-RED node for Ecovacs Deebot vacuum cleaner",
-      "updated_at": "2022-12-11T07:33:38.075Z",
-      "types": [
-        "ecovacs-account",
-        "ecovacs-deebot",
-        "ecovacs-deebot-command"
-      ],
-      "keywords": [
-        "node-red",
-        "ecovacs",
-        "deebot",
-        "ozmo",
-        "yeedi",
-        "vacuum",
-        "robot",
-        "airbot",
-        "air purifier",
-        "smart home",
-        "home automation"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-ecovacs-deebot"
-    },
-    {
       "id": "node-red-contrib-modbus",
       "version": "5.25.0",
       "description": "The all in one Modbus TCP and Serial contribution package for Node-RED.",
@@ -6045,26 +6123,6 @@
       "url": "https://flows.nodered.org/node/pekfinger-red"
     },
     {
-      "id": "node-red-contrib-musiccast",
-      "version": "4.0.2",
-      "description": "A Node-RED collection for monitoring and controlling all aspects of a Musiccast network.",
-      "updated_at": "2022-11-17T07:16:23.659Z",
-      "types": [
-        "musiccast-config",
-        "musiccast-zone",
-        "musiccast-input",
-        "musiccast-device",
-        "musiccast-list"
-      ],
-      "keywords": [
-        "node-red",
-        "yamaha",
-        "musiccast",
-        "yxc"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-musiccast"
-    },
-    {
       "id": "node-red-contrib-controltimer",
       "version": "0.3.0",
       "description": "A controllable Node-RED timer node. Start, Stop, Reset, Pause and Continue the timer. Use the timer as a loop or a delay.",
@@ -6431,26 +6489,6 @@
         "node-red"
       ],
       "url": "https://flows.nodered.org/node/@mschaeffler/node-red-hourmeter"
-    },
-    {
-      "id": "node-red-contrib-boolean-parser",
-      "version": "1.3.1",
-      "description": "A Node-RED node to parse and convert several types of on/off, start/stop, true/false values.",
-      "updated_at": "2022-11-11T17:42:25.598Z",
-      "types": [
-        "bool"
-      ],
-      "keywords": [
-        "node-red",
-        "parser",
-        "boolean",
-        "bool",
-        "translator",
-        "converter",
-        "cast",
-        "on-off"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-boolean-parser"
     },
     {
       "id": "@mschaeffler/node-red-logic",
@@ -16728,26 +16766,6 @@
         "node-red"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-ble-sense"
-    },
-    {
-      "id": "nr-gotify",
-      "version": "0.5.4",
-      "description": "NodeRED Node to send Push Messages via Gotify (self-hosted or cloud)",
-      "updated_at": "2022-04-03T10:25:26.429Z",
-      "types": [
-        "Gotify-Send",
-        "Gotify-Receive"
-      ],
-      "keywords": [
-        "pushmessage",
-        "node-red",
-        "node",
-        "push",
-        "service",
-        "gotify",
-        "selfhosted"
-      ],
-      "url": "https://flows.nodered.org/node/nr-gotify"
     },
     {
       "id": "node-red-contrib-smarthome-powerswitch",
