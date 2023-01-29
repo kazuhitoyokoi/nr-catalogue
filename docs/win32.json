@@ -1,7 +1,143 @@
 {
   "name": "Catalogue for win32",
-  "updated_at": "2023-01-28T18:26:11.902Z",
+  "updated_at": "2023-01-29T18:37:24.611Z",
   "modules": [
+    {
+      "id": "node-red-contrib-nanoleaf",
+      "version": "0.5.0",
+      "description": "[![platform](https://img.shields.io/badge/platform-Node--RED-red?logo=nodered)](https://nodered.org) [![Min Node Version](https://img.shields.io/node/v/node-red-contrib-nanoleaf.svg)](https://nodejs.org/en/) [![GitHub version](https://img.shields.io/githu",
+      "updated_at": "2023-01-29T15:10:43.208Z",
+      "types": [
+        "new-access-token",
+        "installation",
+        "brightness",
+        "color",
+        "effect",
+        "effects",
+        "identify",
+        "information",
+        "power-status",
+        "power",
+        "advanced",
+        "event"
+      ],
+      "keywords": [
+        "node-red",
+        "nanoleaf",
+        "aurora",
+        "lights",
+        "light panels",
+        "home automation",
+        "led",
+        "shapes",
+        "hexagons"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-nanoleaf"
+    },
+    {
+      "id": "node-red-contrib-letsfiware-ngsi",
+      "version": "0.7.0",
+      "description": "Node-RED implementation for FIWARE Open APIs",
+      "updated_at": "2023-01-29T04:28:26.910Z",
+      "types": [
+        "NGSI Entity",
+        "NGSI source",
+        "NGSI Batch update",
+        "NGSI subscription",
+        "NGSI GTFS Realtime",
+        "NGSI to worldmap",
+        "FIWARE version",
+        "Historical Context",
+        "NGSI to dashboard",
+        "Open APIs"
+      ],
+      "keywords": [
+        "node-red",
+        "contrib",
+        "fiware",
+        "ngsi",
+        "context",
+        "process",
+        "data",
+        "json"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-letsfiware-ngsi"
+    },
+    {
+      "id": "@sinricpro/node-red-contrib-sinric-pro",
+      "version": "1.1.2",
+      "description": "Official Node-RED support for Sinric devices",
+      "updated_at": "2023-01-29T03:45:32.974Z",
+      "types": [
+        "settings",
+        "device",
+        "reply",
+        "event"
+      ],
+      "keywords": [
+        "node-red",
+        "google home",
+        "assistant",
+        "smarthome",
+        "smart",
+        "home",
+        "iot",
+        "sinric",
+        "sinricpro",
+        "alexa"
+      ],
+      "url": "https://flows.nodered.org/node/@sinricpro/node-red-contrib-sinric-pro"
+    },
+    {
+      "id": "@tve/node-red-fd-html",
+      "version": "0.1.12",
+      "description": "Node-RED nodes to produce HTML and SVG widgets for Flexdash",
+      "updated_at": "2023-01-29T01:40:05.193Z",
+      "types": [],
+      "url": "https://flows.nodered.org/node/@tve/node-red-fd-html"
+    },
+    {
+      "id": "node-red-contrib-wiz-local-control",
+      "version": "1.0.2",
+      "description": "Local WIZ control for Node-RED",
+      "updated_at": "2023-01-29T00:13:34.695Z",
+      "types": [
+        "wiz-device",
+        "wiz-config"
+      ],
+      "keywords": [
+        "node-red",
+        "wiz",
+        "local wiz"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-wiz-local-control"
+    },
+    {
+      "id": "node-red-contrib-blynk-iot",
+      "version": "1.0.0",
+      "description": "Node Red integration with new Blynk IoT Platform",
+      "updated_at": "2023-01-28T18:49:39.149Z",
+      "types": [
+        "blynk-iot-client",
+        "blynk-iot-in-write",
+        "blynk-iot-out-write",
+        "blynk-iot-out-set-property",
+        "blynk-iot-out-sync",
+        "blynk-iot-out-lcd",
+        "blynk-iot-zergba",
+        "blynk-iot-style-btn",
+        "blynk-iot-image-gallery",
+        "blynk-iot-metadata",
+        "blynk-iot-logevent"
+      ],
+      "keywords": [
+        "node-red",
+        "blynk",
+        "iot",
+        "websockets"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-blynk-iot"
+    },
     {
       "id": "node-red-contrib-hal2",
       "version": "1.15.1",
@@ -451,6 +587,22 @@
       "url": "https://flows.nodered.org/node/node-red-contrib-boolean-logic-ultimate"
     },
     {
+      "id": "@andrei-tatar/node-red-contrib-nibetcp",
+      "version": "1.1.2",
+      "description": "Node-red integration for Nibe S series heatpumps using modbus over TCP",
+      "updated_at": "2023-01-26T07:02:35.648Z",
+      "types": [
+        "nibe-config",
+        "nibe-register"
+      ],
+      "keywords": [
+        "node-red",
+        "modbus",
+        "nibe"
+      ],
+      "url": "https://flows.nodered.org/node/@andrei-tatar/node-red-contrib-nibetcp"
+    },
+    {
       "id": "node-red-contrib-things",
       "version": "3.2.6",
       "description": "A set of Node-RED nodes that uses an agnostic state management system to keep IOT device states and provide a uniform control system.",
@@ -507,22 +659,6 @@
         "zont-online"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-zont-online"
-    },
-    {
-      "id": "@andrei-tatar/node-red-contrib-nibetcp",
-      "version": "1.1.1",
-      "description": "Node-red integration for Nibe S series heatpumps using modbus over TCP",
-      "updated_at": "2023-01-25T07:28:23.187Z",
-      "types": [
-        "nibe-config",
-        "nibe-register"
-      ],
-      "keywords": [
-        "node-red",
-        "modbus",
-        "nibe"
-      ],
-      "url": "https://flows.nodered.org/node/@andrei-tatar/node-red-contrib-nibetcp"
     },
     {
       "id": "node-red-contrib-onstar2",
@@ -791,6 +927,23 @@
       "url": "https://flows.nodered.org/node/node-red-contrib-smartnora"
     },
     {
+      "id": "@flexdash/node-red-flexdash",
+      "version": "0.4.143",
+      "description": "Node-RED nodes for the FlexDash dashboard",
+      "updated_at": "2023-01-22T20:56:15.280Z",
+      "types": [
+        "flexdash iframe",
+        "flexdash ctrl",
+        "flexdash dev server"
+      ],
+      "keywords": [
+        "flexdash",
+        "dashboard",
+        "node-red"
+      ],
+      "url": "https://flows.nodered.org/node/@flexdash/node-red-flexdash"
+    },
+    {
       "id": "node-red-contrib-pi-plates",
       "version": "0.2.3",
       "description": "control Pi-Plates boards from Node-RED",
@@ -902,23 +1055,6 @@
         "home automation"
       ],
       "url": "https://flows.nodered.org/node/@jens_rossbach/node-red-sony-audio"
-    },
-    {
-      "id": "@flexdash/node-red-flexdash",
-      "version": "0.4.142",
-      "description": "Node-RED nodes for the FlexDash dashboard",
-      "updated_at": "2023-01-22T07:17:20.103Z",
-      "types": [
-        "flexdash iframe",
-        "flexdash ctrl",
-        "flexdash dev server"
-      ],
-      "keywords": [
-        "flexdash",
-        "dashboard",
-        "node-red"
-      ],
-      "url": "https://flows.nodered.org/node/@flexdash/node-red-flexdash"
     },
     {
       "id": "node-red-contrib-hubitat",
@@ -2831,33 +2967,6 @@
       "url": "https://flows.nodered.org/node/node-red-contrib-ra-bizwechat"
     },
     {
-      "id": "node-red-contrib-letsfiware-ngsi",
-      "version": "0.6.0",
-      "description": "Node-RED implementation for FIWARE Open APIs",
-      "updated_at": "2023-01-02T12:43:40.475Z",
-      "types": [
-        "NGSI Entity",
-        "NGSI source",
-        "NGSI Batch update",
-        "NGSI subscription",
-        "NGSI GTFS Realtime",
-        "NGSI to worldmap",
-        "FIWARE version",
-        "Open APIs"
-      ],
-      "keywords": [
-        "node-red",
-        "contrib",
-        "fiware",
-        "ngsi",
-        "context",
-        "process",
-        "data",
-        "json"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-letsfiware-ngsi"
-    },
-    {
       "id": "node-red-contrib-ui-artless-gauge",
       "version": "0.3.12",
       "description": "A Node-RED dashboard ui node. Gauge with minimal design",
@@ -4171,22 +4280,6 @@
         "biancoroyal"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-iiot-opcua"
-    },
-    {
-      "id": "node-red-contrib-wiz-local-control",
-      "version": "1.0.1",
-      "description": "Local WIZ control for Node-RED",
-      "updated_at": "2022-12-14T21:32:18.297Z",
-      "types": [
-        "wiz-device",
-        "wiz-config"
-      ],
-      "keywords": [
-        "node-red",
-        "wiz",
-        "local wiz"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-wiz-local-control"
     },
     {
       "id": "node-red-contrib-dotnsf-gpt35",
@@ -18831,38 +18924,6 @@
       "url": "https://flows.nodered.org/node/@objectif-lune/node-red-contrib-connect"
     },
     {
-      "id": "node-red-contrib-nanoleaf",
-      "version": "0.4.2",
-      "description": "[![platform](https://img.shields.io/badge/platform-Node--RED-red?logo=nodered)](https://nodered.org) [![Min Node Version](https://img.shields.io/node/v/node-red-contrib-nanoleaf.svg)](https://nodejs.org/en/) [![GitHub version](https://img.shields.io/githu",
-      "updated_at": "2022-02-07T20:57:38.602Z",
-      "types": [
-        "new-access-token",
-        "installation",
-        "brightness",
-        "color",
-        "effect",
-        "effects",
-        "identify",
-        "information",
-        "power-status",
-        "power",
-        "advanced",
-        "event"
-      ],
-      "keywords": [
-        "node-red",
-        "nanoleaf",
-        "aurora",
-        "lights",
-        "light panels",
-        "home automation",
-        "led",
-        "shapes",
-        "hexagons"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-nanoleaf"
-    },
-    {
       "id": "node-red-contrib-amazon-echo-oztourer",
       "version": "0.1.12",
       "description": "Alexa controlled Node-Red nodes supporting latest Amazon Echo devices",
@@ -27076,32 +27137,6 @@
         "plcs"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-services-mentor"
-    },
-    {
-      "id": "node-red-contrib-blynk-iot",
-      "version": "0.2.0",
-      "description": "Node Red integration with new Blynk IoT Platform",
-      "updated_at": "2021-06-27T16:03:19.058Z",
-      "types": [
-        "blynk-iot-client",
-        "blynk-iot-in-app",
-        "blynk-iot-in-read",
-        "blynk-iot-in-write",
-        "blynk-iot-out-write",
-        "blynk-iot-out-set-property",
-        "blynk-iot-out-sync",
-        "blynk-iot-out-lcd",
-        "blynk-iot-zergba",
-        "blynk-iot-style-btn",
-        "blynk-iot-image-gallery"
-      ],
-      "keywords": [
-        "node-red",
-        "blynk",
-        "iot",
-        "websockets"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-blynk-iot"
     },
     {
       "id": "node-red-contrib-socketio",
