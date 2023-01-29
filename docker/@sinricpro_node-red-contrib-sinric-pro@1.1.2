@@ -1,0 +1,33 @@
+
+----
+Sending build context to Docker daemon  31.89MB
+Step 1/2 : FROM nodered/node-red
+ ---> a15fc0f4e930
+Step 2/2 : RUN npm install npm install @sinricpro/node-red-contrib-sinric-pro@1.1.2
+ ---> Running in 0435093d1564
+[91mnpm WARN[0m[91m [0m[91mdeprecated set-value@0.2.0: Critical bug fixed in v3.0.1, please upgrade to the latest version.
+[0m[91mnpm[0m[91m [0m[91mWARN[0m[91m [0m[91mdeprecated[0m[91m crypto@1.0.1: This package is no longer supported. It's now a built-in Node module. If you've depended on crypto, you should switch to the one that's built-in.
+[0m
+added 118 packages, and audited 642 packages in 9s
+
+47 packages are looking for funding
+  run `npm fund` for details
+
+16 vulnerabilities (8 low, 1 moderate, 5 high, 2 critical)
+
+To address issues that do not require attention, run:
+  npm audit fix
+
+To address all issues (including breaking changes), run:
+  npm audit fix --force
+
+Run `npm audit` for details.
+[91mnpm notice[0m[91m 
+npm notice New major version of npm available! 8.11.0 -> 9.4.0
+npm notice Changelog: <https://github.com/npm/cli/releases/tag/v9.4.0>
+npm notice Run `npm install -g npm@9.4.0` to update!
+npm notice 
+[0mRemoving intermediate container 0435093d1564
+ ---> 608fae9d95f2
+Successfully built 608fae9d95f2
+Successfully tagged tmp:latest
