@@ -1,12 +1,229 @@
 {
   "name": "Catalogue for darwin",
-  "updated_at": "2023-01-29T19:46:17.456Z",
+  "updated_at": "2023-01-30T19:56:49.436Z",
   "modules": [
     {
+      "id": "node-red-contrib-yandex-station-management",
+      "version": "0.3.8",
+      "description": "Local management of YandexStation using API on websockets",
+      "updated_at": "2023-01-30T17:28:11.576Z",
+      "types": [
+        "alice-local-in",
+        "alice-local-get",
+        "alice-local-out",
+        "yandex-login",
+        "alice-local-station"
+      ],
+      "keywords": [
+        "node-red"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-yandex-station-management"
+    },
+    {
+      "id": "@smartdcc/dccboxed-nodered-nodes",
+      "version": "0.1.7",
+      "description": "Collection of nodes for NodeRED to facilitate interfacing with DCC Boxed",
+      "updated_at": "2023-01-30T16:25:02.736Z",
+      "types": [],
+      "keywords": [
+        "node-red",
+        "duis",
+        "gbcs",
+        "front-end",
+        "smartdcc",
+        "smartmeter",
+        "smets2"
+      ],
+      "url": "https://flows.nodered.org/node/@smartdcc/dccboxed-nodered-nodes"
+    },
+    {
+      "id": "node-red-contrib-knx-ultimate",
+      "version": "1.4.13",
+      "description": "Control your KNX intallation via Node-Red! Single Node KNX IN/OUT with optional ETS group address importer. Easy to use and highly configurable.",
+      "updated_at": "2023-01-30T13:36:31.409Z",
+      "types": [
+        "knxUltimate",
+        "knxUltimateSceneController",
+        "knxUltimateWatchDog",
+        "knxUltimateLogger",
+        "knxUltimate-config",
+        "knxUltimateGlobalContext",
+        "knxUltimateAlerter",
+        "knxUltimateLoadControl",
+        "knxUltimateViewer"
+      ],
+      "keywords": [
+        "node-red",
+        "KNX",
+        "ETS",
+        "eib",
+        "eibd",
+        "knxd",
+        "konnex",
+        "IOT",
+        "KNX Secure"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-knx-ultimate"
+    },
+    {
+      "id": "@binsoul/node-red-contrib-string-extract",
+      "version": "0.0.1",
+      "description": "Extract values from strings using regular expressions and other methods.",
+      "updated_at": "2023-01-30T10:04:40.070Z",
+      "types": [
+        "binsoul-string-extract"
+      ],
+      "keywords": [
+        "node-red",
+        "string",
+        "extract"
+      ],
+      "url": "https://flows.nodered.org/node/@binsoul/node-red-contrib-string-extract"
+    },
+    {
+      "id": "@chvdapi/node-red-pn6400-led",
+      "version": "0.0.1",
+      "description": "A node by chvda to drive LED on PN6400",
+      "updated_at": "2023-01-30T09:49:59.621Z",
+      "types": [
+        "PN6400_LED"
+      ],
+      "keywords": [
+        "node-red"
+      ],
+      "url": "https://flows.nodered.org/node/@chvdapi/node-red-pn6400-led"
+    },
+    {
+      "id": "@chvdapi/node-red-pn6400-do",
+      "version": "0.0.1",
+      "description": "A node by chvda to drive DO on PN6400",
+      "updated_at": "2023-01-30T09:46:55.668Z",
+      "types": [
+        "PN6400_DO",
+        "PN6400_DO_manual",
+        "PN6400_DO_Status"
+      ],
+      "keywords": [
+        "node-red"
+      ],
+      "url": "https://flows.nodered.org/node/@chvdapi/node-red-pn6400-do"
+    },
+    {
+      "id": "@chvdapi/node-red-pn6400-di",
+      "version": "0.0.1",
+      "description": "A node by chvda to drive DI on PN6400",
+      "updated_at": "2023-01-30T09:41:37.642Z",
+      "types": [
+        "PN6400_DI"
+      ],
+      "keywords": [
+        "node-red"
+      ],
+      "url": "https://flows.nodered.org/node/@chvdapi/node-red-pn6400-di"
+    },
+    {
+      "id": "@chvdapi/node-red-pn6400-ao",
+      "version": "0.0.1",
+      "description": "A node by chvda to drive AO on PN6400",
+      "updated_at": "2023-01-30T09:30:19.180Z",
+      "types": [
+        "PN6400_AO",
+        "PN6400_AO_manual",
+        "PN6400_AO_Status"
+      ],
+      "keywords": [
+        "node-red"
+      ],
+      "url": "https://flows.nodered.org/node/@chvdapi/node-red-pn6400-ao"
+    },
+    {
+      "id": "@chvdapi/node-red-pn6400-ai",
+      "version": "0.0.2",
+      "description": "A node by chvda to drive AI on PN6400",
+      "updated_at": "2023-01-30T09:02:48.039Z",
+      "types": [
+        "PN6400_AI"
+      ],
+      "keywords": [
+        "node-red"
+      ],
+      "url": "https://flows.nodered.org/node/@chvdapi/node-red-pn6400-ai"
+    },
+    {
+      "id": "node-red-contrib-cyblion-edge",
+      "version": "0.0.1",
+      "description": "this is node for cyblion project testing only",
+      "updated_at": "2023-01-30T08:30:00.970Z",
+      "types": [
+        "cyblion-mqtt-broker"
+      ],
+      "keywords": [
+        "node-red"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-cyblion-edge"
+    },
+    {
+      "id": "node-red-cyblion-edge",
+      "version": "1.0.2",
+      "description": "this is node for cyblion project testing only",
+      "updated_at": "2023-01-30T08:24:53.811Z",
+      "types": [
+        "cyblion-mqtt-broker"
+      ],
+      "keywords": [
+        "node-red"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-cyblion-edge"
+    },
+    {
+      "id": "@bitpoolos/edge-uploader",
+      "version": "1.0.12",
+      "description": "A Node-RED module to push data to Bitpool.",
+      "updated_at": "2023-01-30T06:57:17.675Z",
+      "types": [
+        "uploader",
+        "Bitpool-Pool-Settings",
+        "Bitpool-Api-Key",
+        "metatag",
+        "Bitpool-Cloud-Settings",
+        "Bitpool-Tag-Library"
+      ],
+      "keywords": [
+        "node-red",
+        "bitpool",
+        "bitpoolos",
+        "edge",
+        "big data",
+        "iot"
+      ],
+      "url": "https://flows.nodered.org/node/@bitpoolos/edge-uploader"
+    },
+    {
+      "id": "@bannsaenger/node-red-contrib-artnet-controller",
+      "version": "0.1.3",
+      "description": "Node-RED node that controls lights via Art-Net. Acts as a Art-Net controller.",
+      "updated_at": "2023-01-29T23:01:39.251Z",
+      "types": [
+        "Art-Net Out",
+        "Art-Net In",
+        "Art-Net Sender",
+        "Art-Net Controller"
+      ],
+      "keywords": [
+        "node-red",
+        "artnet",
+        "art-net",
+        "dmx",
+        "dmxnet",
+        "light"
+      ],
+      "url": "https://flows.nodered.org/node/@bannsaenger/node-red-contrib-artnet-controller"
+    },
+    {
       "id": "node-red-contrib-rollun-openapi",
-      "version": "2.0.1",
+      "version": "2.0.2",
       "description": "node-red-contrib-rollun-openapi ================",
-      "updated_at": "2023-01-29T18:10:39.858Z",
+      "updated_at": "2023-01-29T21:16:10.641Z",
       "types": [
         "rollun-openapi-client",
         "rollun-openapi-messages",
@@ -710,29 +927,6 @@
       "url": "https://flows.nodered.org/node/node-red-contrib-onstar2"
     },
     {
-      "id": "@bitpoolos/edge-uploader",
-      "version": "1.0.11",
-      "description": "A Node-RED module to push data to Bitpool.",
-      "updated_at": "2023-01-25T00:06:18.262Z",
-      "types": [
-        "uploader",
-        "Bitpool-Pool-Settings",
-        "Bitpool-Api-Key",
-        "metatag",
-        "Bitpool-Cloud-Settings",
-        "Bitpool-Tag-Library"
-      ],
-      "keywords": [
-        "node-red",
-        "bitpool",
-        "bitpoolos",
-        "edge",
-        "big data",
-        "iot"
-      ],
-      "url": "https://flows.nodered.org/node/@bitpoolos/edge-uploader"
-    },
-    {
       "id": "node-red-contrib-telegrambot",
       "version": "15.0.1",
       "description": "Telegram bot nodes for Node-RED",
@@ -1093,35 +1287,6 @@
         "hubitat"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-hubitat"
-    },
-    {
-      "id": "node-red-contrib-knx-ultimate",
-      "version": "1.4.12",
-      "description": "Control your KNX intallation via Node-Red! Single Node KNX IN/OUT with optional ETS group address importer. Easy to use and highly configurable.",
-      "updated_at": "2023-01-21T15:44:14.253Z",
-      "types": [
-        "knxUltimate",
-        "knxUltimateSceneController",
-        "knxUltimateWatchDog",
-        "knxUltimateLogger",
-        "knxUltimate-config",
-        "knxUltimateGlobalContext",
-        "knxUltimateAlerter",
-        "knxUltimateLoadControl",
-        "knxUltimateViewer"
-      ],
-      "keywords": [
-        "node-red",
-        "KNX",
-        "ETS",
-        "eib",
-        "eibd",
-        "knxd",
-        "konnex",
-        "IOT",
-        "KNX Secure"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-knx-ultimate"
     },
     {
       "id": "node-red-contrib-web-worldmap",
@@ -1817,27 +1982,6 @@
         "toots"
       ],
       "url": "https://flows.nodered.org/node/@rockprofile/node-red-contrib-mastodon"
-    },
-    {
-      "id": "@bannsaenger/node-red-contrib-artnet-controller",
-      "version": "0.1.2",
-      "description": "Node-RED node that controls lights via Art-Net. Acts as a Art-Net controller.",
-      "updated_at": "2023-01-17T00:32:55.690Z",
-      "types": [
-        "Art-Net Out",
-        "Art-Net In",
-        "Art-Net Sender",
-        "Art-Net Controller"
-      ],
-      "keywords": [
-        "node-red",
-        "artnet",
-        "art-net",
-        "dmx",
-        "dmxnet",
-        "light"
-      ],
-      "url": "https://flows.nodered.org/node/@bannsaenger/node-red-contrib-artnet-controller"
     },
     {
       "id": "cloud4machine-cloud-nodered",
@@ -4733,23 +4877,6 @@
       "url": "https://flows.nodered.org/node/node-red-contrib-etriopenapi"
     },
     {
-      "id": "@smartdcc/dccboxed-nodered-nodes",
-      "version": "0.1.6",
-      "description": "Collection of nodes for NodeRED to facilitate interfacing with DCC Boxed",
-      "updated_at": "2022-12-07T17:17:52.817Z",
-      "types": [],
-      "keywords": [
-        "node-red",
-        "duis",
-        "gbcs",
-        "front-end",
-        "smartdcc",
-        "smartmeter",
-        "smets2"
-      ],
-      "url": "https://flows.nodered.org/node/@smartdcc/dccboxed-nodered-nodes"
-    },
-    {
       "id": "node-red-contrib-matrix-chat",
       "version": "0.7.0",
       "description": "Matrix chat server client for Node-RED",
@@ -6619,6 +6746,28 @@
         "node-red"
       ],
       "url": "https://flows.nodered.org/node/@mschaeffler/node-red-logic"
+    },
+    {
+      "id": "node-red-contrib-netatmo-dashboard",
+      "version": "1.0.0",
+      "description": "Get JSON payload for NetAtmo dashboard. See http://netatmo.com, https://dev.netatmo.com/doc",
+      "updated_at": "2022-11-10T21:04:28.462Z",
+      "types": [
+        "netatmo-dashboard",
+        "netatmo-config-node",
+        "netatmo-camera"
+      ],
+      "keywords": [
+        "node-red",
+        "netatmo",
+        "camera",
+        "tags",
+        "sensors",
+        "weather",
+        "iot",
+        "ibm"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-netatmo-dashboard"
     },
     {
       "id": "node-red-contrib-axis-acs",
@@ -10830,23 +10979,6 @@
         "cul"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-cul"
-    },
-    {
-      "id": "node-red-contrib-yandex-station-management",
-      "version": "0.3.7",
-      "description": "Local management of YandexStation using API on websockets",
-      "updated_at": "2022-08-20T12:16:04.748Z",
-      "types": [
-        "alice-local-in",
-        "alice-local-get",
-        "alice-local-out",
-        "yandex-login",
-        "alice-local-station"
-      ],
-      "keywords": [
-        "node-red"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-yandex-station-management"
     },
     {
       "id": "node-red-node-mysql-test",
@@ -54982,28 +55114,6 @@
         "sftp"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-sftp"
-    },
-    {
-      "id": "node-red-contrib-netatmo-dashboard",
-      "version": "0.5.2",
-      "description": "Get JSON payload for NetAtmo dashboard. See http://netatmo.com, https://dev.netatmo.com/doc",
-      "updated_at": "2019-01-05T16:43:53.582Z",
-      "types": [
-        "netatmo-dashboard",
-        "netatmo-config-node",
-        "netatmo-camera"
-      ],
-      "keywords": [
-        "node-red",
-        "netatmo",
-        "camera",
-        "tags",
-        "sensors",
-        "weather",
-        "iot",
-        "ibm"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-netatmo-dashboard"
     },
     {
       "id": "node-red-contrib-iconv",
