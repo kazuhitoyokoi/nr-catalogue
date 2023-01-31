@@ -1,7 +1,73 @@
 {
   "name": "Catalogue for verified nodes",
-  "updated_at": "2023-01-30T19:57:05.629Z",
+  "updated_at": "2023-01-31T19:55:32.848Z",
   "modules": [
+    {
+      "id": "node-red-node-serialport",
+      "version": "1.0.3",
+      "description": "Node-RED nodes to talk to serial ports",
+      "updated_at": "2023-01-31T12:25:11.247Z",
+      "types": [
+        "serial in",
+        "serial out",
+        "serial request",
+        "serial-port"
+      ],
+      "keywords": [
+        "node-red",
+        "serial"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-node-serialport"
+    },
+    {
+      "id": "node-red-contrib-home-assistant-websocket",
+      "version": "0.48.1",
+      "description": "Node-RED integration with Home Assistant through websocket and REST API",
+      "updated_at": "2023-01-31T00:24:42.049Z",
+      "types": [],
+      "keywords": [
+        "node-red",
+        "home-assistant",
+        "home assistant",
+        "home automation",
+        "websocket"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-home-assistant-websocket"
+    },
+    {
+      "id": "node-red-contrib-yandex-station-management",
+      "version": "0.3.8",
+      "description": "Local management of YandexStation using API on websockets",
+      "updated_at": "2023-01-30T17:28:11.576Z",
+      "types": [
+        "alice-local-in",
+        "alice-local-get",
+        "alice-local-out",
+        "yandex-login",
+        "alice-local-station"
+      ],
+      "keywords": [
+        "node-red"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-yandex-station-management"
+    },
+    {
+      "id": "@smartdcc/dccboxed-nodered-nodes",
+      "version": "0.1.7",
+      "description": "Collection of nodes for NodeRED to facilitate interfacing with DCC Boxed",
+      "updated_at": "2023-01-30T16:25:02.736Z",
+      "types": [],
+      "keywords": [
+        "node-red",
+        "duis",
+        "gbcs",
+        "front-end",
+        "smartdcc",
+        "smartmeter",
+        "smets2"
+      ],
+      "url": "https://flows.nodered.org/node/@smartdcc/dccboxed-nodered-nodes"
+    },
     {
       "id": "node-red-contrib-knx-ultimate",
       "version": "1.4.13",
@@ -3696,21 +3762,6 @@
       "url": "https://flows.nodered.org/node/node-red-contrib-1wire"
     },
     {
-      "id": "node-red-contrib-home-assistant-websocket",
-      "version": "0.48.0",
-      "description": "Node-RED integration with Home Assistant through websocket and REST API",
-      "updated_at": "2022-12-25T08:52:42.336Z",
-      "types": [],
-      "keywords": [
-        "node-red",
-        "home-assistant",
-        "home assistant",
-        "home automation",
-        "websocket"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-home-assistant-websocket"
-    },
-    {
       "id": "node-red-node-email",
       "version": "1.18.4",
       "description": "Node-RED nodes to send and receive simple emails.",
@@ -4809,23 +4860,6 @@
         "nodejs"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-etriopenapi"
-    },
-    {
-      "id": "@smartdcc/dccboxed-nodered-nodes",
-      "version": "0.1.6",
-      "description": "Collection of nodes for NodeRED to facilitate interfacing with DCC Boxed",
-      "updated_at": "2022-12-07T17:17:52.817Z",
-      "types": [],
-      "keywords": [
-        "node-red",
-        "duis",
-        "gbcs",
-        "front-end",
-        "smartdcc",
-        "smartmeter",
-        "smets2"
-      ],
-      "url": "https://flows.nodered.org/node/@smartdcc/dccboxed-nodered-nodes"
     },
     {
       "id": "node-red-contrib-matrix-chat",
@@ -10860,23 +10894,6 @@
       "url": "https://flows.nodered.org/node/node-red-contrib-cul"
     },
     {
-      "id": "node-red-contrib-yandex-station-management",
-      "version": "0.3.7",
-      "description": "Local management of YandexStation using API on websockets",
-      "updated_at": "2022-08-20T12:16:04.748Z",
-      "types": [
-        "alice-local-in",
-        "alice-local-get",
-        "alice-local-out",
-        "yandex-login",
-        "alice-local-station"
-      ],
-      "keywords": [
-        "node-red"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-yandex-station-management"
-    },
-    {
       "id": "node-red-node-mysql-test",
       "version": "1.0.0",
       "description": "A Node-RED node to read and write to a MySQL database",
@@ -15045,6 +15062,20 @@
       "url": "https://flows.nodered.org/node/node-red-contrib-brp069c4"
     },
     {
+      "id": "node-red-contrib-akinator",
+      "version": "0.1.3",
+      "description": "Node-RED node for akinator",
+      "updated_at": "2022-05-11T02:50:49.863Z",
+      "types": [
+        "akinator"
+      ],
+      "keywords": [
+        "node-red",
+        "akinator"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-akinator"
+    },
+    {
       "id": "@mindconnect/node-red-contrib-mindconnect",
       "version": "3.12.1",
       "description": "node red mindconnect node using mindconnect-nodejs library.",
@@ -18200,23 +18231,6 @@
         "command"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-xterm"
-    },
-    {
-      "id": "node-red-node-serialport",
-      "version": "1.0.1",
-      "description": "Node-RED nodes to talk to serial ports",
-      "updated_at": "2022-02-24T11:54:53.832Z",
-      "types": [
-        "serial in",
-        "serial out",
-        "serial request",
-        "serial-port"
-      ],
-      "keywords": [
-        "node-red",
-        "serial"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-node-serialport"
     },
     {
       "id": "node-red-contrib-tagui",
@@ -34347,20 +34361,6 @@
         "chat"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-gactions-fulfillment"
-    },
-    {
-      "id": "node-red-contrib-akinator",
-      "version": "0.1.1",
-      "description": "Node-RED node for akinator",
-      "updated_at": "2020-12-17T15:34:02.763Z",
-      "types": [
-        "akinator"
-      ],
-      "keywords": [
-        "node-red",
-        "akinator"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-akinator"
     },
     {
       "id": "node-red-contrib-tinkerforge_ledv2",
