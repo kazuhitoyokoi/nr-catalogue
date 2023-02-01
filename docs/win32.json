@@ -1,7 +1,203 @@
 {
   "name": "Catalogue for win32",
-  "updated_at": "2023-01-31T18:50:47.569Z",
+  "updated_at": "2023-02-01T18:57:17.935Z",
   "modules": [
+    {
+      "id": "@smartdcc/dccboxed-nodered-nodes",
+      "version": "0.1.8",
+      "description": "Collection of nodes for NodeRED to facilitate interfacing with DCC Boxed",
+      "updated_at": "2023-02-01T14:20:45.865Z",
+      "types": [],
+      "keywords": [
+        "node-red",
+        "duis",
+        "gbcs",
+        "front-end",
+        "smartdcc",
+        "smartmeter",
+        "smets2"
+      ],
+      "url": "https://flows.nodered.org/node/@smartdcc/dccboxed-nodered-nodes"
+    },
+    {
+      "id": "node-red-contrib-alice",
+      "version": "1.1.5",
+      "description": "**NodeRed Home** (node-red-contrib-alice) - это сервис позволит, в несколько простых шагов, подключить любые ваши устройства заведенные в Node-RED к умному дому от Яндекса и управлять ими с помощью голосового помощника Алиса.",
+      "updated_at": "2023-02-01T14:04:12.976Z",
+      "types": [
+        "alice-service",
+        "alice-device",
+        "On_Off",
+        "Toggle",
+        "Range",
+        "Color",
+        "Mode",
+        "Sensor",
+        "Event"
+      ],
+      "keywords": [
+        "node-red",
+        "yandex",
+        "alice",
+        "яндекс",
+        "алиса"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-alice"
+    },
+    {
+      "id": "@digitalnodecom/node-red-contrib-generic-s3",
+      "version": "1.7.0",
+      "description": "Generic node-red S3 nodes",
+      "updated_at": "2023-02-01T12:00:41.638Z",
+      "types": [
+        "client-s3",
+        "List Buckets",
+        "Create Bucket",
+        "List Objects",
+        "List Objects V2",
+        "List Object Versions",
+        "Get Object",
+        "Head Object",
+        "Put Object",
+        "Put Objects",
+        "Delete Object",
+        "Copy Object"
+      ],
+      "keywords": [
+        "node-red",
+        "s3",
+        "generic"
+      ],
+      "url": "https://flows.nodered.org/node/@digitalnodecom/node-red-contrib-generic-s3"
+    },
+    {
+      "id": "node-red-contrib-thinger",
+      "version": "1.4.2",
+      "description": "Node-Red library for Thinger.io Platform",
+      "updated_at": "2023-02-01T10:46:33.884Z",
+      "types": [
+        "asset-iterator",
+        "bucket-create",
+        "bucket-read",
+        "bucket-write",
+        "device-callback",
+        "device-create",
+        "device-read",
+        "device-stream",
+        "device-write",
+        "endpoint-call",
+        "property-read",
+        "property-write",
+        "storage-read",
+        "storage-write",
+        "server-events",
+        "thinger-server"
+      ],
+      "keywords": [
+        "node-red",
+        "thinger.io",
+        "IoT",
+        "arduino",
+        "raspberry"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-thinger"
+    },
+    {
+      "id": "node-red-contrib-monster",
+      "version": "0.0.11",
+      "description": "A collection of Node-RED nodes for Monster.  Includes nodes for S3 client.",
+      "updated_at": "2023-02-01T08:09:50.937Z",
+      "types": [
+        "Monster S3",
+        "monster config"
+      ],
+      "keywords": [
+        "node-red",
+        "s3"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-monster"
+    },
+    {
+      "id": "@bitpoolos/edge-modbus",
+      "version": "1.4.0",
+      "description": "A set of Node-RED modules to support reading Modbus devices.",
+      "updated_at": "2023-02-01T03:55:28.786Z",
+      "types": [
+        "bp-device",
+        "bp-reader",
+        "bp-decoder",
+        "bp-display",
+        "bp-modbus-io-config",
+        "bp-modbus-client"
+      ],
+      "keywords": [
+        "node-red",
+        "bitpool",
+        "bitpoolos",
+        "edge",
+        "modbus",
+        "rtu",
+        "ascii",
+        "tcp",
+        "serial",
+        "iot"
+      ],
+      "url": "https://flows.nodered.org/node/@bitpoolos/edge-modbus"
+    },
+    {
+      "id": "node-red-contrib-letsfiware-ngsi",
+      "version": "0.7.1",
+      "description": "Node-RED implementation for FIWARE Open APIs",
+      "updated_at": "2023-02-01T03:21:23.303Z",
+      "types": [
+        "NGSI Entity",
+        "NGSI source",
+        "NGSI Batch update",
+        "NGSI subscription",
+        "NGSI GTFS Realtime",
+        "NGSI to worldmap",
+        "FIWARE version",
+        "Historical Context",
+        "NGSI to dashboard",
+        "Open APIs"
+      ],
+      "keywords": [
+        "node-red",
+        "contrib",
+        "fiware",
+        "ngsi",
+        "context",
+        "process",
+        "data",
+        "json"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-letsfiware-ngsi"
+    },
+    {
+      "id": "@sinricpro/node-red-contrib-sinric-pro",
+      "version": "1.2.1",
+      "description": "Official Node-RED support for Sinric devices",
+      "updated_at": "2023-01-31T15:20:39.431Z",
+      "types": [
+        "settings",
+        "device",
+        "response",
+        "event"
+      ],
+      "keywords": [
+        "node-red",
+        "google home",
+        "assistant",
+        "smarthome",
+        "smart",
+        "home",
+        "iot",
+        "sinric",
+        "sinricpro",
+        "alexa"
+      ],
+      "url": "https://flows.nodered.org/node/@sinricpro/node-red-contrib-sinric-pro"
+    },
     {
       "id": "node-red-node-serialport",
       "version": "1.0.3",
@@ -50,23 +246,6 @@
         "node-red"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-yandex-station-management"
-    },
-    {
-      "id": "@smartdcc/dccboxed-nodered-nodes",
-      "version": "0.1.7",
-      "description": "Collection of nodes for NodeRED to facilitate interfacing with DCC Boxed",
-      "updated_at": "2023-01-30T16:25:02.736Z",
-      "types": [],
-      "keywords": [
-        "node-red",
-        "duis",
-        "gbcs",
-        "front-end",
-        "smartdcc",
-        "smartmeter",
-        "smets2"
-      ],
-      "url": "https://flows.nodered.org/node/@smartdcc/dccboxed-nodered-nodes"
     },
     {
       "id": "node-red-contrib-knx-ultimate",
@@ -314,60 +493,6 @@
         "hexagons"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-nanoleaf"
-    },
-    {
-      "id": "node-red-contrib-letsfiware-ngsi",
-      "version": "0.7.0",
-      "description": "Node-RED implementation for FIWARE Open APIs",
-      "updated_at": "2023-01-29T04:28:26.910Z",
-      "types": [
-        "NGSI Entity",
-        "NGSI source",
-        "NGSI Batch update",
-        "NGSI subscription",
-        "NGSI GTFS Realtime",
-        "NGSI to worldmap",
-        "FIWARE version",
-        "Historical Context",
-        "NGSI to dashboard",
-        "Open APIs"
-      ],
-      "keywords": [
-        "node-red",
-        "contrib",
-        "fiware",
-        "ngsi",
-        "context",
-        "process",
-        "data",
-        "json"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-letsfiware-ngsi"
-    },
-    {
-      "id": "@sinricpro/node-red-contrib-sinric-pro",
-      "version": "1.1.2",
-      "description": "Official Node-RED support for Sinric devices",
-      "updated_at": "2023-01-29T03:45:32.974Z",
-      "types": [
-        "settings",
-        "device",
-        "reply",
-        "event"
-      ],
-      "keywords": [
-        "node-red",
-        "google home",
-        "assistant",
-        "smarthome",
-        "smart",
-        "home",
-        "iot",
-        "sinric",
-        "sinricpro",
-        "alexa"
-      ],
-      "url": "https://flows.nodered.org/node/@sinricpro/node-red-contrib-sinric-pro"
     },
     {
       "id": "@tve/node-red-fd-html",
@@ -1515,31 +1640,6 @@
       "url": "https://flows.nodered.org/node/node-red-contrib-iiot-rpi-max7219"
     },
     {
-      "id": "@digitalnodecom/node-red-contrib-generic-s3",
-      "version": "1.6.3",
-      "description": "Generic node-red S3 nodes",
-      "updated_at": "2023-01-19T11:56:39.033Z",
-      "types": [
-        "client-s3",
-        "List Buckets",
-        "Create Bucket",
-        "List Objects",
-        "List Objects V2",
-        "List Object Versions",
-        "Get Object",
-        "Head Object",
-        "Put Object",
-        "Put Objects",
-        "Delete Object"
-      ],
-      "keywords": [
-        "node-red",
-        "s3",
-        "generic"
-      ],
-      "url": "https://flows.nodered.org/node/@digitalnodecom/node-red-contrib-generic-s3"
-    },
-    {
       "id": "node-red-node-timeswitch",
       "version": "1.0.0",
       "description": "A Node-RED node to provide a simple timeswitch to schedule daily on/off events.",
@@ -1717,21 +1817,6 @@
         "node-red"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-chatbot"
-    },
-    {
-      "id": "node-red-contrib-monster",
-      "version": "0.0.5",
-      "description": "A collection of Node-RED nodes for Monster.  Includes nodes for S3 client.",
-      "updated_at": "2023-01-18T11:32:52.220Z",
-      "types": [
-        "Monster S3",
-        "monster config"
-      ],
-      "keywords": [
-        "node-red",
-        "s3"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-monster"
     },
     {
       "id": "@sparktime/node-red-contrib-wamp-auth",
@@ -5477,33 +5562,6 @@
       "url": "https://flows.nodered.org/node/node-red-contrib-cb-suncron"
     },
     {
-      "id": "@bitpoolos/edge-modbus",
-      "version": "1.3.0",
-      "description": "A set of Node-RED modules to support reading Modbus devices.",
-      "updated_at": "2022-11-28T04:10:10.155Z",
-      "types": [
-        "bp-device",
-        "bp-reader",
-        "bp-decoder",
-        "bp-display",
-        "bp-modbus-io-config",
-        "bp-modbus-client"
-      ],
-      "keywords": [
-        "node-red",
-        "bitpool",
-        "bitpoolos",
-        "edge",
-        "modbus",
-        "rtu",
-        "ascii",
-        "tcp",
-        "serial",
-        "iot"
-      ],
-      "url": "https://flows.nodered.org/node/@bitpoolos/edge-modbus"
-    },
-    {
       "id": "@marcelodf12/node-red-contrib-wca-integration",
       "version": "1.1.0",
       "description": "Whatsapp cloud api integration node for node-red",
@@ -7663,31 +7721,6 @@
         "text-to-speech"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-coefont-text2speech"
-    },
-    {
-      "id": "node-red-contrib-alice",
-      "version": "1.1.4",
-      "description": "**NodeRed Home** (node-red-contrib-alice) - это сервис позволит, в несколько простых шагов, подключить любые ваши устройства заведенные в Node-RED к умному дому от Яндекса и управлять ими с помощью голосового помощника Алиса.",
-      "updated_at": "2022-10-24T09:28:08.541Z",
-      "types": [
-        "alice-service",
-        "alice-device",
-        "On_Off",
-        "Toggle",
-        "Range",
-        "Color",
-        "Mode",
-        "Sensor",
-        "Event"
-      ],
-      "keywords": [
-        "node-red",
-        "yandex",
-        "alice",
-        "яндекс",
-        "алиса"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-alice"
     },
     {
       "id": "@bitpoolos/edge-theme-light",
@@ -11708,38 +11741,6 @@
         "ts-fis"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-fuzzy"
-    },
-    {
-      "id": "node-red-contrib-thinger",
-      "version": "1.4.0",
-      "description": "Node-Red library for Thinger.io Platform",
-      "updated_at": "2022-07-27T14:01:26.111Z",
-      "types": [
-        "asset-iterator",
-        "bucket-create",
-        "bucket-read",
-        "bucket-write",
-        "device-callback",
-        "device-create",
-        "device-read",
-        "device-stream",
-        "device-write",
-        "endpoint-call",
-        "property-read",
-        "property-write",
-        "storage-read",
-        "storage-write",
-        "server-events",
-        "thinger-server"
-      ],
-      "keywords": [
-        "node-red",
-        "thinger.io",
-        "IoT",
-        "arduino",
-        "raspberry"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-thinger"
     },
     {
       "id": "node-red-contrib-n2n",
