@@ -1,0 +1,31 @@
+
+----
+Sending build context to Docker daemon  33.12MB
+Step 1/2 : FROM nodered/node-red
+ ---> a15fc0f4e930
+Step 2/2 : RUN npm install npm install node-red-contrib-xkeys_flashrate@0.3.0
+ ---> Running in 06dee5443c41
+
+added 3 packages, and audited 527 packages in 4s
+
+47 packages are looking for funding
+  run `npm fund` for details
+
+7 vulnerabilities (5 low, 2 moderate)
+
+To address issues that do not require attention, run:
+  npm audit fix
+
+To address all issues (including breaking changes), run:
+  npm audit fix --force
+
+Run `npm audit` for details.
+[91mnpm[0m[91m notice[0m[91m 
+npm[0m[91m notice New major version of npm available! 8.11.0 -> 9.4.1
+npm[0m[91m notice Changelog: <https://github.com/npm/cli/releases/tag/v9.4.1>
+npm [0m[91mnotice Run `npm install -g npm@9.4.1` to update!
+npm notice[0m[91m 
+[0mRemoving intermediate container 06dee5443c41
+ ---> 469b53d46827
+Successfully built 469b53d46827
+Successfully tagged tmp:latest
