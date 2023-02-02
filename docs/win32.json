@@ -1,7 +1,358 @@
 {
   "name": "Catalogue for win32",
-  "updated_at": "2023-02-01T18:57:17.935Z",
+  "updated_at": "2023-02-02T18:56:00.900Z",
   "modules": [
+    {
+      "id": "@legacymachine/node-red-contrib-shuttlexpress",
+      "version": "0.0.4",
+      "description": "Node-RED node for the Contour Design ShuttleXpress input device, built around 'node-hid' and 'usb-detection'",
+      "updated_at": "2023-02-02T14:26:43.725Z",
+      "types": [
+        "ShuttleXpress"
+      ],
+      "keywords": [
+        "node-red",
+        "shuttlexpress",
+        "shuttle",
+        "usbhid",
+        "usb-hid",
+        "node-hid",
+        "usb",
+        "cnc",
+        "mpg"
+      ],
+      "url": "https://flows.nodered.org/node/@legacymachine/node-red-contrib-shuttlexpress"
+    },
+    {
+      "id": "node-red-contrib-xkeys_trackball",
+      "version": "0.3.0",
+      "description": "Xkeys trackball node for Node-RED using DCD Protocol",
+      "updated_at": "2023-02-02T13:22:30.604Z",
+      "types": [
+        "xkeys_trackball"
+      ],
+      "keywords": [
+        "X-keys",
+        "Xkeys",
+        "xkeys",
+        "dcdp",
+        "node-red"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-xkeys_trackball"
+    },
+    {
+      "id": "node-red-contrib-xkeys_tbar",
+      "version": "0.3.0",
+      "description": "Xkeys tbar node for Node-RED using DCD Protocol (DCDP)",
+      "updated_at": "2023-02-02T13:18:58.684Z",
+      "types": [
+        "xkeys_tbar"
+      ],
+      "keywords": [
+        "X-keys",
+        "Xkeys",
+        "xkeys",
+        "dcdp",
+        "node-red"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-xkeys_tbar"
+    },
+    {
+      "id": "node-red-contrib-xkeys_rotary",
+      "version": "0.3.0",
+      "description": "Xkeys rotary node for Node-RED using DCD Protocol",
+      "updated_at": "2023-02-02T13:15:53.548Z",
+      "types": [
+        "xkeys_rotary"
+      ],
+      "keywords": [
+        "X-keys",
+        "Xkeys",
+        "xkeys",
+        "dcdp",
+        "node-red"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-xkeys_rotary"
+    },
+    {
+      "id": "node-red-contrib-xkeys_led",
+      "version": "0.3.0",
+      "description": "Xkeys LED node for Node-RED using Dynamic Control Data Protocol (DCDP)",
+      "updated_at": "2023-02-02T13:13:07.796Z",
+      "types": [
+        "xkeys_led"
+      ],
+      "keywords": [
+        "X-keys",
+        "Xkeys",
+        "xkeys",
+        "dcdp",
+        "node-red"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-xkeys_led"
+    },
+    {
+      "id": "node-red-contrib-xkeys_lcd",
+      "version": "0.3.0",
+      "description": "Xkeys LCD node for Node-RED usinf Dynamic Control Data Protocol (DCDP)",
+      "updated_at": "2023-02-02T13:11:06.055Z",
+      "types": [
+        "xkeys_lcd"
+      ],
+      "keywords": [
+        "X-keys",
+        "Xkeys",
+        "xkeys",
+        "dcdp",
+        "node-red"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-xkeys_lcd"
+    },
+    {
+      "id": "node-red-contrib-xkeys_joystick",
+      "version": "0.3.0",
+      "description": "Xkeys joystick node for Node-RED using DCD Protocol",
+      "updated_at": "2023-02-02T13:06:33.822Z",
+      "types": [
+        "xkeys_joystick"
+      ],
+      "keywords": [
+        "X-keys",
+        "Xkeys",
+        "xkeys",
+        "dcdp",
+        "node-red"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-xkeys_joystick"
+    },
+    {
+      "id": "node-red-contrib-xkeys_jogshuttle",
+      "version": "0.3.0",
+      "description": "Xkeys jog & shuttle node for Node-RED using DCD Protocol",
+      "updated_at": "2023-02-02T13:03:11.008Z",
+      "types": [
+        "xkeys_jogshuttle"
+      ],
+      "keywords": [
+        "DCDP",
+        "X-keys",
+        "Xkeys",
+        "xkeys",
+        "node-red"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-xkeys_jogshuttle"
+    },
+    {
+      "id": "node-red-contrib-xkeys_intensity",
+      "version": "0.3.0",
+      "description": "Node-RED node to set intensity Backlight nodes using Dynamic Control Data Protocol (DCDP)",
+      "updated_at": "2023-02-02T12:58:33.821Z",
+      "types": [
+        "xkeys_intensity"
+      ],
+      "keywords": [
+        "X-keys",
+        "Xkeys",
+        "xkeys",
+        "dcdp",
+        "node-red"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-xkeys_intensity"
+    },
+    {
+      "id": "node-red-contrib-xkeys_flashrate",
+      "version": "0.3.0",
+      "description": "Node-RED node to set flashing rate of LED & Backlight nodes using Dynamic Control Data Protocol (DCDP)",
+      "updated_at": "2023-02-02T12:10:21.185Z",
+      "types": [
+        "xkeys_flashrate"
+      ],
+      "keywords": [
+        "X-keys",
+        "Xkeys",
+        "xkeys",
+        "dcdp",
+        "node-red"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-xkeys_flashrate"
+    },
+    {
+      "id": "node-red-contrib-xkeys_button",
+      "version": "0.3.0",
+      "description": "Xkeys button node for Node-RED using DCDP",
+      "updated_at": "2023-02-02T11:38:12.613Z",
+      "types": [
+        "xkeys_button"
+      ],
+      "keywords": [
+        "X-keys",
+        "Xkeys",
+        "dcdp",
+        "node-red"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-xkeys_button"
+    },
+    {
+      "id": "node-red-contrib-xkeys_backlight",
+      "version": "0.3.0",
+      "description": "Xkeys Backlight node for Node-RED using Dynamic Cotrol Data Protocol",
+      "updated_at": "2023-02-02T11:37:43.449Z",
+      "types": [
+        "xkeys_backlight"
+      ],
+      "keywords": [
+        "X-keys",
+        "Xkeys",
+        "xkeys",
+        "dcdp",
+        "node-red"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-xkeys_backlight"
+    },
+    {
+      "id": "node-red-node-pusher",
+      "version": "1.0.0",
+      "description": "A Node-RED node to send and receive messages using Pusher.com",
+      "updated_at": "2023-02-02T11:00:10.738Z",
+      "types": [
+        "pusher in",
+        "pusher out"
+      ],
+      "keywords": [
+        "node-red",
+        "pusher"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-node-pusher"
+    },
+    {
+      "id": "node-red-contrib-hikvision-ultimate",
+      "version": "1.1.2",
+      "description": "A native set of nodes for Hikvision (and compatible) Cameras, Alarms, Radars, NVR, Doorbells, etc.",
+      "updated_at": "2023-02-02T10:08:00.391Z",
+      "types": [
+        "Hikvision-config",
+        "AXPro-config",
+        "Doorbell-config",
+        "ANPR-config",
+        "hikvisionUltimateText",
+        "hikvisionUltimateAlarm",
+        "hikvisionUltimateAlarmRaw",
+        "hikvisionUltimateANPR",
+        "hikvisionUltimatePTZ",
+        "hikvisionUltimatePicture",
+        "hikvisionUltimateXML",
+        "hikvisionUltimateDoorbell",
+        "hikvisionUltimateAxPro"
+      ],
+      "keywords": [
+        "node-red",
+        "hikvision",
+        "alarm",
+        "camera",
+        "radar",
+        "ANPR",
+        "license plate",
+        "doorbell",
+        "door intercom",
+        "Ax Pro"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-hikvision-ultimate"
+    },
+    {
+      "id": "node-red-contrib-alexa-virtual-smarthome",
+      "version": "0.0.32",
+      "description": "Node Red Alexa Smarthome node",
+      "updated_at": "2023-02-02T08:31:48.371Z",
+      "types": [
+        "alexa-adapter",
+        "alexa-device"
+      ],
+      "keywords": [
+        "alexa",
+        "smarthome",
+        "assistant",
+        "iot",
+        "node-red"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-alexa-virtual-smarthome"
+    },
+    {
+      "id": "energyprofiles",
+      "version": "1.0.2",
+      "description": "Tools for standard energy generation/consumption profil generation.",
+      "updated_at": "2023-02-02T00:04:18.298Z",
+      "types": [
+        "Consumption",
+        "Heating",
+        "Balancing",
+        "PV-Generation",
+        "Battery",
+        "ThermalStorage",
+        "corrently-config",
+        "Wind-Generation"
+      ],
+      "keywords": [
+        "energy",
+        "stromdao",
+        "corrently",
+        "profiles",
+        "slp",
+        "node-red"
+      ],
+      "url": "https://flows.nodered.org/node/energyprofiles"
+    },
+    {
+      "id": "@jn-se/node-red-contrib-heos",
+      "version": "0.2.0",
+      "description": "Node-RED node for Denon HEOS devices and Denon Home.",
+      "updated_at": "2023-02-01T21:38:53.105Z",
+      "types": [
+        "heos-device",
+        "heos-command",
+        "heos-player-state"
+      ],
+      "keywords": [
+        "node-red",
+        "heos",
+        "denon",
+        "denon home"
+      ],
+      "url": "https://flows.nodered.org/node/@jn-se/node-red-contrib-heos"
+    },
+    {
+      "id": "node-red-contrib-unide-ppmp",
+      "version": "1.0.0",
+      "description": "[![platform](https://img.shields.io/badge/platform-Node--RED-red)](https://nodered.org) ![NPM](https://img.shields.io/npm/l/node-red-dashboard)",
+      "updated_at": "2023-02-01T20:38:14.365Z",
+      "types": [],
+      "keywords": [
+        "node-red",
+        "ppmp",
+        "unide",
+        "bosch"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-unide-ppmp"
+    },
+    {
+      "id": "node-red-contrib-zigbee2mqtt",
+      "version": "2.7.1",
+      "description": "Zigbee2mqtt connectivity nodes for node-red",
+      "updated_at": "2023-02-01T16:21:42.805Z",
+      "types": [
+        "zigbee2mqtt-in",
+        "zigbee2mqtt-get",
+        "zigbee2mqtt-out",
+        "zigbee2mqtt-bridge",
+        "zigbee2mqtt-server"
+      ],
+      "keywords": [
+        "zigbee2mqtt",
+        "z2m",
+        "mqtt",
+        "node-red"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-zigbee2mqtt"
+    },
     {
       "id": "@smartdcc/dccboxed-nodered-nodes",
       "version": "0.1.8",
@@ -1193,24 +1544,6 @@
         "tulip"
       ],
       "url": "https://flows.nodered.org/node/@tulip/node-red-tulip-api"
-    },
-    {
-      "id": "@jn-se/node-red-contrib-heos",
-      "version": "0.1.1",
-      "description": "Node-RED node for Denon HEOS devices and Denon Home.",
-      "updated_at": "2023-01-23T21:54:39.578Z",
-      "types": [
-        "heos-device",
-        "heos-command",
-        "heos-player-state"
-      ],
-      "keywords": [
-        "node-red",
-        "heos",
-        "denon",
-        "denon home"
-      ],
-      "url": "https://flows.nodered.org/node/@jn-se/node-red-contrib-heos"
     },
     {
       "id": "node-red-contrib-cb-arp",
@@ -2419,40 +2752,6 @@
         "energy"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-tibber-api"
-    },
-    {
-      "id": "node-red-contrib-hikvision-ultimate",
-      "version": "1.1.1",
-      "description": "A native set of nodes for Hikvision (and compatible) Cameras, Alarms, Radars, NVR, Doorbells, etc.",
-      "updated_at": "2023-01-12T11:49:14.392Z",
-      "types": [
-        "Hikvision-config",
-        "AXPro-config",
-        "Doorbell-config",
-        "ANPR-config",
-        "hikvisionUltimateText",
-        "hikvisionUltimateAlarm",
-        "hikvisionUltimateAlarmRaw",
-        "hikvisionUltimateANPR",
-        "hikvisionUltimatePTZ",
-        "hikvisionUltimatePicture",
-        "hikvisionUltimateXML",
-        "hikvisionUltimateDoorbell",
-        "hikvisionUltimateAxPro"
-      ],
-      "keywords": [
-        "node-red",
-        "hikvision",
-        "alarm",
-        "camera",
-        "radar",
-        "ANPR",
-        "license plate",
-        "doorbell",
-        "door intercom",
-        "Ax Pro"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-hikvision-ultimate"
     },
     {
       "id": "node-red-contrib-servicely",
@@ -5602,24 +5901,6 @@
       "url": "https://flows.nodered.org/node/node-red-contrib-doorbird-ultimate"
     },
     {
-      "id": "node-red-contrib-alexa-virtual-smarthome",
-      "version": "0.0.31",
-      "description": "Node Red Alexa Smarthome node",
-      "updated_at": "2022-11-26T21:15:58.838Z",
-      "types": [
-        "alexa-adapter",
-        "alexa-device"
-      ],
-      "keywords": [
-        "alexa",
-        "smarthome",
-        "assistant",
-        "iot",
-        "node-red"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-alexa-virtual-smarthome"
-    },
-    {
       "id": "node-red-contrib-array-permutations",
       "version": "0.0.5",
       "description": "Node-red permutations of an array as repeat or messages.",
@@ -7537,26 +7818,6 @@
         "thingsboard"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-mobius-flow-thingsboard"
-    },
-    {
-      "id": "node-red-contrib-zigbee2mqtt",
-      "version": "2.6.4",
-      "description": "Zigbee2mqtt connectivity nodes for node-red",
-      "updated_at": "2022-10-27T17:39:31.609Z",
-      "types": [
-        "zigbee2mqtt-in",
-        "zigbee2mqtt-get",
-        "zigbee2mqtt-out",
-        "zigbee2mqtt-bridge",
-        "zigbee2mqtt-server"
-      ],
-      "keywords": [
-        "zigbee2mqtt",
-        "z2m",
-        "mqtt",
-        "node-red"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-zigbee2mqtt"
     },
     {
       "id": "node-red-contrib-evohome",
@@ -12360,38 +12621,6 @@
       "url": "https://flows.nodered.org/node/node-red-contrib-mh-z19-co2sensor"
     },
     {
-      "id": "node-red-contrib-xkeys_trackball",
-      "version": "0.2.0",
-      "description": "Xkeys trackball node for Node-RED",
-      "updated_at": "2022-07-10T04:31:10.218Z",
-      "types": [
-        "xkeys_trackball"
-      ],
-      "keywords": [
-        "X-keys",
-        "Xkeys",
-        "xkeys",
-        "node-red"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-xkeys_trackball"
-    },
-    {
-      "id": "node-red-contrib-xkeys_rotary",
-      "version": "0.2.0",
-      "description": "Xkeys rotary node for Node-RED",
-      "updated_at": "2022-07-10T04:30:56.050Z",
-      "types": [
-        "xkeys_rotary"
-      ],
-      "keywords": [
-        "X-keys",
-        "Xkeys",
-        "xkeys",
-        "node-red"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-xkeys_rotary"
-    },
-    {
       "id": "@equans/smart-buildings-daylight-harvesting",
       "version": "1.0.7",
       "description": "Node-Red block for daylight harvesting strategy",
@@ -13126,6 +13355,41 @@
         "node-red"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-example-lower-gao"
+    },
+    {
+      "id": "node-red-contrib-melsec",
+      "version": "1.0.1",
+      "description": "Node-RED Node to communicate with Mitsubishi FX over Programming Port",
+      "updated_at": "2022-06-20T19:20:51.511Z",
+      "types": [
+        "melsec fx endpoint",
+        "melsec fx in",
+        "melsec fx control"
+      ],
+      "keywords": [
+        "melsec",
+        "node-red",
+        "mitsubishi",
+        "cnc"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-melsec"
+    },
+    {
+      "id": "node-red-contrib-focas",
+      "version": "1.1.1",
+      "description": "Node-RED Node to communicate with CNCs using Fanuc FOCAS protocol",
+      "updated_at": "2022-06-20T19:09:06.641Z",
+      "types": [
+        "focas config",
+        "focas node"
+      ],
+      "keywords": [
+        "focas",
+        "node-red",
+        "fanuc",
+        "cnc"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-focas"
     },
     {
       "id": "node-red-contrib-df1",
@@ -17965,22 +18229,6 @@
       "url": "https://flows.nodered.org/node/node-red-contrib-etter"
     },
     {
-      "id": "node-red-contrib-xkeys_lcd",
-      "version": "0.2.2",
-      "description": "Xkeys LCD node for Node-RED",
-      "updated_at": "2022-03-01T13:08:46.763Z",
-      "types": [
-        "xkeys_lcd"
-      ],
-      "keywords": [
-        "X-keys",
-        "Xkeys",
-        "xkeys",
-        "node-red"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-xkeys_lcd"
-    },
-    {
       "id": "node-red-contrib-loewe-tv",
       "version": "0.3.0",
       "description": "Node-red node to control Loewe TV",
@@ -18045,134 +18293,6 @@
         "node-red"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-xkeys_savebacklights"
-    },
-    {
-      "id": "node-red-contrib-xkeys_backlight",
-      "version": "0.2.1",
-      "description": "Xkeys Backlight node for Node-RED",
-      "updated_at": "2022-03-01T05:45:24.125Z",
-      "types": [
-        "xkeys_backlight"
-      ],
-      "keywords": [
-        "X-keys",
-        "Xkeys",
-        "xkeys",
-        "node-red"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-xkeys_backlight"
-    },
-    {
-      "id": "node-red-contrib-xkeys_intensity",
-      "version": "0.2.1",
-      "description": "Node-RED node to set intensity Backlight nodes",
-      "updated_at": "2022-03-01T04:08:44.441Z",
-      "types": [
-        "xkeys_intensity"
-      ],
-      "keywords": [
-        "X-keys",
-        "Xkeys",
-        "xkeys",
-        "node-red"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-xkeys_intensity"
-    },
-    {
-      "id": "node-red-contrib-xkeys_led",
-      "version": "0.2.1",
-      "description": "Xkeys LED node for Node-RED",
-      "updated_at": "2022-03-01T04:04:49.878Z",
-      "types": [
-        "xkeys_led"
-      ],
-      "keywords": [
-        "X-keys",
-        "Xkeys",
-        "xkeys",
-        "node-red"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-xkeys_led"
-    },
-    {
-      "id": "node-red-contrib-xkeys_flashrate",
-      "version": "0.2.1",
-      "description": "Node-RED node to set flashing rate of LED & Backlight nodes",
-      "updated_at": "2022-03-01T04:00:16.449Z",
-      "types": [
-        "xkeys_flashrate"
-      ],
-      "keywords": [
-        "X-keys",
-        "Xkeys",
-        "xkeys",
-        "node-red"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-xkeys_flashrate"
-    },
-    {
-      "id": "node-red-contrib-xkeys_tbar",
-      "version": "0.2.1",
-      "description": "Xkeys tbar node for Node-RED",
-      "updated_at": "2022-03-01T03:45:50.672Z",
-      "types": [
-        "xkeys_tbar"
-      ],
-      "keywords": [
-        "X-keys",
-        "Xkeys",
-        "xkeys",
-        "node-red"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-xkeys_tbar"
-    },
-    {
-      "id": "node-red-contrib-xkeys_joystick",
-      "version": "0.2.1",
-      "description": "Xkeys joystick node for Node-RED",
-      "updated_at": "2022-03-01T03:39:32.658Z",
-      "types": [
-        "xkeys_joystick"
-      ],
-      "keywords": [
-        "X-keys",
-        "Xkeys",
-        "xkeys",
-        "node-red"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-xkeys_joystick"
-    },
-    {
-      "id": "node-red-contrib-xkeys_jogshuttle",
-      "version": "0.2.1",
-      "description": "Xkeys jog & shuttle node for Node-RED",
-      "updated_at": "2022-03-01T03:34:35.754Z",
-      "types": [
-        "xkeys_jogshuttle"
-      ],
-      "keywords": [
-        "X-keys",
-        "Xkeys",
-        "xkeys",
-        "node-red"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-xkeys_jogshuttle"
-    },
-    {
-      "id": "node-red-contrib-xkeys_button",
-      "version": "0.2.1",
-      "description": "Xkeys button node for Node-RED",
-      "updated_at": "2022-03-01T03:27:22.416Z",
-      "types": [
-        "xkeys_button"
-      ],
-      "keywords": [
-        "X-keys",
-        "Xkeys",
-        "xkeys",
-        "node-red"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-xkeys_button"
     },
     {
       "id": "node-red-contrib-ng",
@@ -61706,21 +61826,6 @@
         "alexa"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-alexa-verifier"
-    },
-    {
-      "id": "node-red-node-pusher",
-      "version": "0.1.0",
-      "description": "A Node-RED node to send and receive messages using Pusher.com",
-      "updated_at": "2018-01-18T09:14:06.113Z",
-      "types": [
-        "pusher in",
-        "pusher out"
-      ],
-      "keywords": [
-        "node-red",
-        "pusher"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-node-pusher"
     },
     {
       "id": "node-red-node-redis",
