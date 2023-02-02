@@ -1,0 +1,32 @@
+
+----
+Sending build context to Docker daemon  33.85MB
+Step 1/2 : FROM nodered/node-red
+ ---> a15fc0f4e930
+Step 2/2 : RUN npm install npm install node-red-contrib-alexa-virtual-smarthome@0.0.32
+ ---> Running in d4fd6bb7023b
+[91mnpm[0m[91m [0m[91mWARN[0m[91m [0m[91mdeprecated[0m[91m uuid@3.4.0: Please upgrade  to version 7 or higher.  Older versions may use Math.random() in certain circumstances, which is known to be problematic.  See https://v8.dev/blog/math-random for details.
+[0m
+added 36 packages, and audited 560 packages in 8s
+
+49 packages are looking for funding
+  run `npm fund` for details
+
+7 vulnerabilities (5 low, 2 moderate)
+
+To address issues that do not require attention, run:
+  npm audit fix
+
+To address all issues (including breaking changes), run:
+  npm audit fix --force
+
+Run `npm audit` for details.
+[91mnpm notice[0m[91m 
+npm notice New major version of npm available! 8.11.0 -> 9.4.1
+npm notice[0m[91m Changelog: <https://github.com/npm/cli/releases/tag/v9.4.1>
+npm notice Run `npm install -g npm@9.4.1` to update!
+npm notice[0m[91m 
+[0mRemoving intermediate container d4fd6bb7023b
+ ---> e1ab217128e4
+Successfully built e1ab217128e4
+Successfully tagged tmp:latest
