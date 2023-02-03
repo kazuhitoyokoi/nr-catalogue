@@ -1,0 +1,31 @@
+
+----
+Sending build context to Docker daemon   32.2MB
+Step 1/2 : FROM nodered/node-red
+ ---> a15fc0f4e930
+Step 2/2 : RUN npm install npm install node-red-contrib-google-cloud-ubos@0.0.27
+ ---> Running in fbbe6bfe598a
+
+added 209 packages, changed 1 package, and audited 733 packages in 13s
+
+60 packages are looking for funding
+  run `npm fund` for details
+
+7 vulnerabilities (5 low, 2 moderate)
+
+To address issues that do not require attention, run:
+  npm audit fix
+
+To address all issues (including breaking changes), run:
+  npm audit fix --force
+
+Run `npm audit` for details.
+[91mnpm[0m[91m [0m[91mnotice[0m[91m 
+npm[0m[91m [0m[91mnotice[0m[91m New major version of npm available! 8.11.0 -> 9.4.1
+npm[0m[91m notice Changelog: <https://github.com/npm/cli/releases/tag/v9.4.1>
+npm[0m[91m [0m[91mnotice Run `npm install -g npm@9.4.1` to update!
+npm[0m[91m [0m[91mnotice[0m[91m 
+[0mRemoving intermediate container fbbe6bfe598a
+ ---> 3ac517b0d448
+Successfully built 3ac517b0d448
+Successfully tagged tmp:latest
