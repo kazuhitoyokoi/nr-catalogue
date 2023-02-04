@@ -1,0 +1,31 @@
+
+----
+Sending build context to Docker daemon  32.26MB
+Step 1/2 : FROM nodered/node-red
+ ---> a15fc0f4e930
+Step 2/2 : RUN npm install npm install node-red-contrib-multipart-stream-decoder@1.0.0
+ ---> Running in cf83dc17b5c5
+
+added 13 packages, and audited 537 packages in 5s
+
+47 packages are looking for funding
+  run `npm fund` for details
+
+7 vulnerabilities (5 low, 2 moderate)
+
+To address issues that do not require attention, run:
+  npm audit fix
+
+To address all issues (including breaking changes), run:
+  npm audit fix --force
+
+Run `npm audit` for details.
+[91mnpm notice[0m[91m 
+npm [0m[91mnotice New major version of npm available! 8.11.0 -> 9.4.1
+npm notice Changelog: <https://github.com/npm/cli/releases/tag/v9.4.1>
+npm notice[0m[91m Run `npm install -g npm@9.4.1` to update!
+npm notice 
+[0mRemoving intermediate container cf83dc17b5c5
+ ---> ba75c1f16175
+Successfully built ba75c1f16175
+Successfully tagged tmp:latest
