@@ -1,120 +1,12 @@
 {
   "name": "Catalogue for docker",
-  "updated_at": "2023-02-03T16:21:08.296Z",
+  "updated_at": "2023-02-04T16:34:51.449Z",
   "modules": [
     {
-      "id": "node-red-contrib-foxtrotnode",
-      "version": "1.2.1",
-      "description": "A set of nodes to control Tecomat Foxtrot PLC variables",
-      "updated_at": "2023-02-03T14:07:23.659Z",
-      "types": [
-        "plccoms",
-        "foxtrot-input",
-        "foxtrot-output"
-      ],
-      "keywords": [
-        "node-red",
-        "tecomat",
-        "foxtrot",
-        "plc"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-foxtrotnode"
-    },
-    {
-      "id": "node-red-contrib-google-cloud-ubos",
-      "version": "0.0.27",
-      "description": "Node-RED nodes for Google Cloud Platform",
-      "updated_at": "2023-02-03T13:38:34.678Z",
-      "types": [
-        "google-cloud-credentials",
-        "google-cloud-dns-change-create",
-        "google-cloud-dns-records-list",
-        "google-cloud-private-key",
-        "google-cloud-pubsub in",
-        "google-cloud-pubsub out",
-        "google-cloud-log",
-        "google-cloud-gcs-write",
-        "google-cloud-gcs-read",
-        "google-cloud-gcs-signedURL",
-        "google-cloud-language-entities",
-        "google-cloud-language-sentiment",
-        "google-cloud-tasks",
-        "google-cloud-vision",
-        "google-cloud-ce-metadata",
-        "google-cloud-monitoring",
-        "google-cloud-speech-to-text",
-        "google-cloud-dlp",
-        "google-cloud-translate",
-        "google-cloud-bigquery",
-        "google-cloud-bigquery-insert",
-        "google-cloud-firestore",
-        "google-cloud-iot command-send",
-        "google-cloud-iot config-update",
-        "google-cloud-iot telemetry-send",
-        "google-cloud-iot message-hub",
-        "google-cloud-automl",
-        "google-cloud-text-to-speech",
-        "google-cloud-documentai",
-        "google-cloud-spanner",
-        "google-cloud-compute-engine-instance"
-      ],
-      "keywords": [
-        "node-red",
-        "UBOS",
-        "google",
-        "cloud",
-        "pubsub",
-        "publish",
-        "subscribe",
-        "gcs",
-        "stackdriver",
-        "vision",
-        "sentiment",
-        "speech",
-        "dlp",
-        "translate",
-        "BigQuery",
-        "Firestore",
-        "iot",
-        "compute"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-google-cloud-ubos"
-    },
-    {
-      "id": "@solwena_pl/node-red-contrib-solwenalib",
-      "version": "1.0.9",
-      "description": "nodes for integration with percee system",
-      "updated_at": "2023-02-03T09:36:58.945Z",
-      "types": [],
-      "keywords": [
-        "Solwena",
-        "SolwenaLib",
-        "node-red"
-      ],
-      "url": "https://flows.nodered.org/node/@solwena_pl/node-red-contrib-solwenalib"
-    },
-    {
-      "id": "node-red-contrib-xkeys_setunitid",
-      "version": "0.3.1",
-      "description": "Xkeys Set Unit ID node for Node-RED using Dynamic Control Data Protocol (DCDP)",
-      "updated_at": "2023-02-03T04:57:54.151Z",
-      "types": [
-        "xkeys_setunitid"
-      ],
-      "keywords": [
-        "X-keys",
-        "Xkeys",
-        "xkeys",
-        "dcdp",
-        "node-red"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-xkeys_setunitid"
-    },
-    {
       "id": "@hurenkam/hue-services",
-      "version": "0.6.3",
+      "version": "0.6.4",
       "description": "Custom node-red nodes for interfacing with philips hue devices",
-      "updated_at": "2023-02-03T00:03:18.092Z",
+      "updated_at": "2023-02-03T22:22:32.386Z",
       "types": [],
       "keywords": [
         "node-red",
@@ -124,94 +16,64 @@
       "url": "https://flows.nodered.org/node/@hurenkam/hue-services"
     },
     {
-      "id": "@waldbaer/node-red-persistent-values",
-      "version": "1.1.0",
-      "description": "Persistent values for Node-RED",
-      "updated_at": "2023-02-02T21:15:06.155Z",
+      "id": "node-red-contrib-multipart-stream-decoder",
+      "version": "1.0.0",
+      "description": "Node Red node for decoding multipart streams over http",
+      "updated_at": "2023-02-03T17:45:25.962Z",
       "types": [
-        "persistent values config",
-        "persistent value"
+        "multipart-decoder"
       ],
       "keywords": [
         "node-red",
-        "context",
-        "persistence",
-        "persistency",
-        "state",
-        "config"
+        "multipart",
+        "http",
+        "stream",
+        "mjpeg",
+        "decode",
+        "video",
+        "chunk",
+        "motion"
       ],
-      "url": "https://flows.nodered.org/node/@waldbaer/node-red-persistent-values"
+      "url": "https://flows.nodered.org/node/node-red-contrib-multipart-stream-decoder"
     },
     {
-      "id": "node-red-contrib-mongodb4",
-      "version": "1.10.0",
-      "description": "A MongoDB node for Node-Red without limitations.",
-      "updated_at": "2023-02-02T21:04:56.711Z",
+      "id": "node-red-contrib-rfxcom",
+      "version": "2.12.0",
+      "description": "A set of node-red nodes to use the Rfxcom RFXtrx433 remote control transceiver",
+      "updated_at": "2023-02-03T17:11:36.877Z",
       "types": [
-        "mongodb4-client",
-        "mongodb4"
+        "rfxtrx-port",
+        "rfx-lights-in",
+        "rfx-lights-out",
+        "rfx-fan-out",
+        "rfx-blinds-in",
+        "rfx-blinds-out",
+        "rfx-doorbell-in",
+        "rfx-doorbell-out",
+        "rfx-meter",
+        "rfx-sensor",
+        "rfx-trv-out",
+        "rfx-heat-out",
+        "rfx-detector-in",
+        "rfx-alarm-out",
+        "PT2262-device-list",
+        "rfx-PT2262-in",
+        "rfx-PT2262-out",
+        "rfx-raw-out",
+        "raw-device-list"
       ],
       "keywords": [
         "node-red",
-        "nodes",
-        "mongodb"
+        "rfxcom",
+        "RFXtrx433"
       ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-mongodb4"
-    },
-    {
-      "id": "node-red-contrib-dataprobe-iboot",
-      "version": "0.0.5",
-      "description": "Node-RED node for dataprobe iboot g2 ",
-      "updated_at": "2023-02-02T18:09:55.145Z",
-      "types": [],
-      "keywords": [
-        "node-red",
-        "i-boot",
-        "dataprobe",
-        "g2",
-        "i-boot-g2-2"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-dataprobe-iboot"
-    },
-    {
-      "id": "node-red-contrib-onstar2",
-      "version": "2.1.4",
-      "description": "An updated Node-RED Library using OnStarJS, an unofficial client library for the OnStar Vehicle API",
-      "updated_at": "2023-02-02T17:01:43.533Z",
-      "types": [
-        "get-account-vehicles",
-        "get-diagnostics",
-        "lock-myvehicle",
-        "unlock-myvehicle",
-        "start-myvehicle",
-        "cancel-start-myvehicle",
-        "alert-myvehicle",
-        "alert-myvehicle-lights",
-        "alert-myvehicle-horn",
-        "cancel-alert-myvehicle",
-        "locate-vehicle",
-        "mycharge-override",
-        "get-mycharge-profile",
-        "set-mycharge-profile",
-        "onstar2"
-      ],
-      "keywords": [
-        "node-red",
-        "OnStar",
-        "Chevrolet",
-        "Chevy",
-        "GM",
-        "GMC",
-        "Buick",
-        "Cadillac"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-onstar2"
+      "url": "https://flows.nodered.org/node/node-red-contrib-rfxcom"
     },
     {
       "id": "node-red-contrib-snap4city-user",
-      "version": "0.9.42",
+      "version": "0.9.43",
       "description": "Nodes for Snap4city project, targeted to standard user (no developer)",
-      "updated_at": "2023-02-02T16:40:01.964Z",
+      "updated_at": "2023-02-03T15:10:38.410Z",
       "types": [
         "service-search-near-marker",
         "service-search-within-circle",
@@ -340,6 +202,198 @@
         "iot"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-snap4city-user"
+    },
+    {
+      "id": "node-red-contrib-foxtrotnode",
+      "version": "1.2.1",
+      "description": "A set of nodes to control Tecomat Foxtrot PLC variables",
+      "updated_at": "2023-02-03T14:07:23.659Z",
+      "types": [
+        "plccoms",
+        "foxtrot-input",
+        "foxtrot-output"
+      ],
+      "keywords": [
+        "node-red",
+        "tecomat",
+        "foxtrot",
+        "plc"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-foxtrotnode"
+    },
+    {
+      "id": "node-red-contrib-google-cloud-ubos",
+      "version": "0.0.27",
+      "description": "Node-RED nodes for Google Cloud Platform",
+      "updated_at": "2023-02-03T13:38:34.678Z",
+      "types": [
+        "google-cloud-credentials",
+        "google-cloud-dns-change-create",
+        "google-cloud-dns-records-list",
+        "google-cloud-private-key",
+        "google-cloud-pubsub in",
+        "google-cloud-pubsub out",
+        "google-cloud-log",
+        "google-cloud-gcs-write",
+        "google-cloud-gcs-read",
+        "google-cloud-gcs-signedURL",
+        "google-cloud-language-entities",
+        "google-cloud-language-sentiment",
+        "google-cloud-tasks",
+        "google-cloud-vision",
+        "google-cloud-ce-metadata",
+        "google-cloud-monitoring",
+        "google-cloud-speech-to-text",
+        "google-cloud-dlp",
+        "google-cloud-translate",
+        "google-cloud-bigquery",
+        "google-cloud-bigquery-insert",
+        "google-cloud-firestore",
+        "google-cloud-iot command-send",
+        "google-cloud-iot config-update",
+        "google-cloud-iot telemetry-send",
+        "google-cloud-iot message-hub",
+        "google-cloud-automl",
+        "google-cloud-text-to-speech",
+        "google-cloud-documentai",
+        "google-cloud-spanner",
+        "google-cloud-compute-engine-instance"
+      ],
+      "keywords": [
+        "node-red",
+        "UBOS",
+        "google",
+        "cloud",
+        "pubsub",
+        "publish",
+        "subscribe",
+        "gcs",
+        "stackdriver",
+        "vision",
+        "sentiment",
+        "speech",
+        "dlp",
+        "translate",
+        "BigQuery",
+        "Firestore",
+        "iot",
+        "compute"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-google-cloud-ubos"
+    },
+    {
+      "id": "@solwena_pl/node-red-contrib-solwenalib",
+      "version": "1.0.9",
+      "description": "nodes for integration with percee system",
+      "updated_at": "2023-02-03T09:36:58.945Z",
+      "types": [],
+      "keywords": [
+        "Solwena",
+        "SolwenaLib",
+        "node-red"
+      ],
+      "url": "https://flows.nodered.org/node/@solwena_pl/node-red-contrib-solwenalib"
+    },
+    {
+      "id": "node-red-contrib-xkeys_setunitid",
+      "version": "0.3.1",
+      "description": "Xkeys Set Unit ID node for Node-RED using Dynamic Control Data Protocol (DCDP)",
+      "updated_at": "2023-02-03T04:57:54.151Z",
+      "types": [
+        "xkeys_setunitid"
+      ],
+      "keywords": [
+        "X-keys",
+        "Xkeys",
+        "xkeys",
+        "dcdp",
+        "node-red"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-xkeys_setunitid"
+    },
+    {
+      "id": "@waldbaer/node-red-persistent-values",
+      "version": "1.1.0",
+      "description": "Persistent values for Node-RED",
+      "updated_at": "2023-02-02T21:15:06.155Z",
+      "types": [
+        "persistent values config",
+        "persistent value"
+      ],
+      "keywords": [
+        "node-red",
+        "context",
+        "persistence",
+        "persistency",
+        "state",
+        "config"
+      ],
+      "url": "https://flows.nodered.org/node/@waldbaer/node-red-persistent-values"
+    },
+    {
+      "id": "node-red-contrib-mongodb4",
+      "version": "1.10.0",
+      "description": "A MongoDB node for Node-Red without limitations.",
+      "updated_at": "2023-02-02T21:04:56.711Z",
+      "types": [
+        "mongodb4-client",
+        "mongodb4"
+      ],
+      "keywords": [
+        "node-red",
+        "nodes",
+        "mongodb"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-mongodb4"
+    },
+    {
+      "id": "node-red-contrib-dataprobe-iboot",
+      "version": "0.0.5",
+      "description": "Node-RED node for dataprobe iboot g2 ",
+      "updated_at": "2023-02-02T18:09:55.145Z",
+      "types": [],
+      "keywords": [
+        "node-red",
+        "i-boot",
+        "dataprobe",
+        "g2",
+        "i-boot-g2-2"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-dataprobe-iboot"
+    },
+    {
+      "id": "node-red-contrib-onstar2",
+      "version": "2.1.4",
+      "description": "An updated Node-RED Library using OnStarJS, an unofficial client library for the OnStar Vehicle API",
+      "updated_at": "2023-02-02T17:01:43.533Z",
+      "types": [
+        "get-account-vehicles",
+        "get-diagnostics",
+        "lock-myvehicle",
+        "unlock-myvehicle",
+        "start-myvehicle",
+        "cancel-start-myvehicle",
+        "alert-myvehicle",
+        "alert-myvehicle-lights",
+        "alert-myvehicle-horn",
+        "cancel-alert-myvehicle",
+        "locate-vehicle",
+        "mycharge-override",
+        "get-mycharge-profile",
+        "set-mycharge-profile",
+        "onstar2"
+      ],
+      "keywords": [
+        "node-red",
+        "OnStar",
+        "Chevrolet",
+        "Chevy",
+        "GM",
+        "GMC",
+        "Buick",
+        "Cadillac"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-onstar2"
     },
     {
       "id": "node-red-contrib-xkeys_trackball",
@@ -33895,37 +33949,6 @@
       "url": "https://flows.nodered.org/node/node-red-node-mongodb"
     },
     {
-      "id": "node-red-contrib-rfxcom",
-      "version": "2.11.3",
-      "description": "A set of node-red nodes to use the Rfxcom RFXtrx433 remote control transceiver",
-      "updated_at": "2021-01-21T18:56:32.925Z",
-      "types": [
-        "rfxtrx-port",
-        "rfx-lights-in",
-        "rfx-lights-out",
-        "rfx-fan-out",
-        "rfx-blinds-in",
-        "rfx-blinds-out",
-        "rfx-doorbell-in",
-        "rfx-doorbell-out",
-        "rfx-meter",
-        "rfx-sensor",
-        "rfx-trv-out",
-        "rfx-heat-out",
-        "rfx-detector-in",
-        "rfx-alarm-out",
-        "PT2262-device-list",
-        "rfx-PT2262-in",
-        "rfx-PT2262-out"
-      ],
-      "keywords": [
-        "node-red",
-        "rfxcom",
-        "RFXtrx433"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-rfxcom"
-    },
-    {
       "id": "node-red-contrib-metabase-embed",
       "version": "1.0.5",
       "description": "Embed Metabase dashboards into Node-Red UI",
@@ -54581,25 +54604,6 @@
         "node-red"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-threatgrid-urlsubmit"
-    },
-    {
-      "id": "node-red-contrib-multipart-stream-decoder",
-      "version": "0.0.4",
-      "description": "Node Red node for decoding multipart streams over http",
-      "updated_at": "2019-01-16T21:59:43.294Z",
-      "types": [
-        "multipart-decoder"
-      ],
-      "keywords": [
-        "node-red",
-        "multipart",
-        "http",
-        "stream",
-        "mjpeg",
-        "decode",
-        "video"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-multipart-stream-decoder"
     },
     {
       "id": "node-red-contrib-openshift-client",
