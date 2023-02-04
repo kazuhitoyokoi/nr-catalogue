@@ -1,0 +1,40 @@
+
+----
+Sending build context to Docker daemon  32.56MB
+Step 1/2 : FROM nodered/node-red
+ ---> a15fc0f4e930
+Step 2/2 : RUN npm install npm install node-red-contrib-snap4city-user@0.9.43
+ ---> Running in 7b24c561f8b8
+[91mnpm[0m[91m [0m[91mWARN[0m[91m [0m[91mdeprecated[0m[91m har-validator@5.1.5: this library is no longer supported
+[0m[91mnpm WARN deprecated date-format@3.0.0: 3.x is no longer supported. Please upgrade to 4.x or higher.
+[0m[91mnpm WARN [0m[91mdeprecated httpclient@0.1.0: Use standard fetch API instead
+[0m[91mnpm WARN deprecated date-format@2.1.0: 2.x is no longer supported. Please upgrade to 4.x or higher.
+[0m[91mnpm[0m[91m [0m[91mWARN deprecated node-uuid@1.4.8: Use uuid module instead
+[0m[91mnpm WARN deprecated streamroller@2.2.4: 2.x is no longer supported. Please upgrade to 3.x or higher.
+[0m[91mnpm WARN deprecated uuid@3.4.0: Please upgrade  to version 7 or higher.  Older versions may use Math.random() in certain circumstances, which is known to be problematic.  See https://v8.dev/blog/math-random for details.
+[0m[91mnpm WARN deprecated request@2.88.2: request has been deprecated, see https://github.com/request/request/issues/3142
+[0m[91mnpm WARN deprecated google-protobuf@4.0.0-rc.2: 4.0.0 RC releases have been superseded by 3.13.0 release
+[0m
+added 187 packages, changed 1 package, and audited 711 packages in 11s
+
+63 packages are looking for funding
+  run `npm fund` for details
+
+12 vulnerabilities (5 low, 6 moderate, 1 critical)
+
+To address issues that do not require attention, run:
+  npm audit fix
+
+To address all issues (including breaking changes), run:
+  npm audit fix --force
+
+Run `npm audit` for details.
+[91mnpm notice 
+npm notice New major version of npm available! 8.11.0 -> 9.4.1
+npm notice Changelog: <https://github.com/npm/cli/releases/tag/v9.4.1>
+npm notice[0m[91m Run `npm install -g npm@9.4.1` to update!
+npm notice 
+[0mRemoving intermediate container 7b24c561f8b8
+ ---> f20b4eded5b9
+Successfully built f20b4eded5b9
+Successfully tagged tmp:latest
