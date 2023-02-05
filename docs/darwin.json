@@ -1,7 +1,107 @@
 {
   "name": "Catalogue for darwin",
-  "updated_at": "2023-02-04T19:56:23.351Z",
+  "updated_at": "2023-02-05T19:55:07.607Z",
   "modules": [
+    {
+      "id": "@mschaeffler/node-red-logic",
+      "version": "0.7.1",
+      "description": "nodes for simple operations.",
+      "updated_at": "2023-02-05T16:46:39.497Z",
+      "types": [
+        "counter",
+        "tobool",
+        "or",
+        "and",
+        "tonumber",
+        "reduce",
+        "__errors__",
+        "fallingEdge",
+        "raisingEdge",
+        "hysteresisEdge",
+        "statistics"
+      ],
+      "keywords": [
+        "node-red"
+      ],
+      "url": "https://flows.nodered.org/node/@mschaeffler/node-red-logic"
+    },
+    {
+      "id": "node-red-contrib-victron-modbus",
+      "version": "0.0.1",
+      "description": "Access the Victron equipment via the modbus",
+      "updated_at": "2023-02-05T12:54:37.277Z",
+      "types": [
+        "victron-modbus"
+      ],
+      "keywords": [
+        "node-red",
+        "victron",
+        "modbus"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-victron-modbus"
+    },
+    {
+      "id": "node-red-contrib-semaphoreservice",
+      "version": "0.0.3",
+      "description": "Node-RED node for ",
+      "updated_at": "2023-02-05T10:17:17.856Z",
+      "types": [],
+      "keywords": [
+        "node-red",
+        "node-red-nodegen",
+        "semaphore",
+        " service",
+        " REST",
+        " locks",
+        " synchronization"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-semaphoreservice"
+    },
+    {
+      "id": "@sinricpro/node-red-contrib-sinric-pro",
+      "version": "1.3.1",
+      "description": "Official Node-RED support for Sinric devices",
+      "updated_at": "2023-02-05T01:49:43.456Z",
+      "types": [
+        "appcredential",
+        "device",
+        "response",
+        "event"
+      ],
+      "keywords": [
+        "node-red",
+        "google home",
+        "assistant",
+        "smarthome",
+        "smart",
+        "home",
+        "iot",
+        "sinric",
+        "sinricpro",
+        "alexa"
+      ],
+      "url": "https://flows.nodered.org/node/@sinricpro/node-red-contrib-sinric-pro"
+    },
+    {
+      "id": "@mschaeffler/node-red-lora",
+      "version": "2.1.3",
+      "description": "Five nodes to send and receive LoRaWan messages via a gateway via the Semtech UDP protocol.",
+      "updated_at": "2023-02-04T16:50:22.818Z",
+      "types": [
+        "lorawan-server",
+        "lorawan-keys",
+        "lorawan-packet-decoder",
+        "lorawan-packet-encoder",
+        "lorawan-packet-checkFC",
+        "lorawan-queue-message"
+      ],
+      "keywords": [
+        "node-red",
+        "lora",
+        "LoRaWan"
+      ],
+      "url": "https://flows.nodered.org/node/@mschaeffler/node-red-lora"
+    },
     {
       "id": "@hurenkam/hue-services",
       "version": "0.6.4",
@@ -916,31 +1016,6 @@
         "json"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-letsfiware-ngsi"
-    },
-    {
-      "id": "@sinricpro/node-red-contrib-sinric-pro",
-      "version": "1.2.1",
-      "description": "Official Node-RED support for Sinric devices",
-      "updated_at": "2023-01-31T15:20:39.431Z",
-      "types": [
-        "settings",
-        "device",
-        "response",
-        "event"
-      ],
-      "keywords": [
-        "node-red",
-        "google home",
-        "assistant",
-        "smarthome",
-        "smart",
-        "home",
-        "iot",
-        "sinric",
-        "sinricpro",
-        "alexa"
-      ],
-      "url": "https://flows.nodered.org/node/@sinricpro/node-red-contrib-sinric-pro"
     },
     {
       "id": "node-red-node-serialport",
@@ -2756,26 +2831,6 @@
         "timeseries"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-nixtla"
-    },
-    {
-      "id": "@mschaeffler/node-red-lora",
-      "version": "2.1.2",
-      "description": "Five nodes to send and receive LoRaWan messages via a gateway via the Semtech UDP protocol.",
-      "updated_at": "2023-01-15T12:50:52.860Z",
-      "types": [
-        "lorawan-server",
-        "lorawan-keys",
-        "lorawan-packet-decoder",
-        "lorawan-packet-encoder",
-        "lorawan-packet-checkFC",
-        "lorawan-queue-message"
-      ],
-      "keywords": [
-        "node-red",
-        "lora",
-        "LoRaWan"
-      ],
-      "url": "https://flows.nodered.org/node/@mschaeffler/node-red-lora"
     },
     {
       "id": "node-red-contrib-nordpool-api-plus",
@@ -7257,28 +7312,6 @@
         "node-red"
       ],
       "url": "https://flows.nodered.org/node/@mschaeffler/node-red-hourmeter"
-    },
-    {
-      "id": "@mschaeffler/node-red-logic",
-      "version": "0.6.2",
-      "description": "nodes for simple operations.",
-      "updated_at": "2022-11-11T09:39:14.244Z",
-      "types": [
-        "counter",
-        "tobool",
-        "or",
-        "and",
-        "tonumber",
-        "reduce",
-        "__errors__",
-        "fallingEdge",
-        "raisingEdge",
-        "hysteresisEdge"
-      ],
-      "keywords": [
-        "node-red"
-      ],
-      "url": "https://flows.nodered.org/node/@mschaeffler/node-red-logic"
     },
     {
       "id": "node-red-contrib-netatmo-dashboard",
