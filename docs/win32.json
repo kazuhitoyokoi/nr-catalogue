@@ -1,12 +1,214 @@
 {
   "name": "Catalogue for win32",
-  "updated_at": "2023-02-05T18:57:59.791Z",
+  "updated_at": "2023-02-06T18:36:05.191Z",
   "modules": [
     {
+      "id": "@crescentone/node-red-contrib-xml-validatation",
+      "version": "0.2.2",
+      "description": "Node-RED node node to validate xml content using xsd-schema-validator.",
+      "updated_at": "2023-02-06T14:54:01.556Z",
+      "types": [
+        "xml-validate"
+      ],
+      "keywords": [
+        "xml",
+        "xsd",
+        "validator",
+        "node-red"
+      ],
+      "url": "https://flows.nodered.org/node/@crescentone/node-red-contrib-xml-validatation"
+    },
+    {
+      "id": "@solwena_pl/node-red-contrib-solwenalib",
+      "version": "1.0.15",
+      "description": "nodes for integration with percee system",
+      "updated_at": "2023-02-06T12:20:28.132Z",
+      "types": [],
+      "keywords": [
+        "Solwena",
+        "SolwenaLib",
+        "node-red"
+      ],
+      "url": "https://flows.nodered.org/node/@solwena_pl/node-red-contrib-solwenalib"
+    },
+    {
+      "id": "node-red-contrib-cyblion-edge",
+      "version": "0.0.6",
+      "description": "Node-RED cipherflow special implement for cyblion cloud platform first version for testing only",
+      "updated_at": "2023-02-06T10:08:26.038Z",
+      "types": [
+        "cyblion-mqtt-broker",
+        "cyblion-seal"
+      ],
+      "keywords": [
+        "node-red",
+        "cyblion",
+        "cipherflow"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-cyblion-edge"
+    },
+    {
+      "id": "node-red-contrib-chatbot",
+      "version": "1.2.1",
+      "description": "REDBot a Chat bot for a full featured chat bot for Telegram, Facebook Messenger and Slack. Almost no coding skills required",
+      "updated_at": "2023-02-06T09:43:10.436Z",
+      "types": [
+        "chatbot-telegram-node",
+        "chatbot-telegram-receive",
+        "chatbot-telegram-send",
+        "chatbot-universal-node",
+        "chatbot-universal-receive",
+        "chatbot-universal-send",
+        "chatbot-slack-node",
+        "chatbot-slack-receive",
+        "chatbot-slack-send",
+        "chatbot-twilio-node",
+        "chatbot-twilio-receive",
+        "chatbot-twilio-send",
+        "chatbot-msteams-node",
+        "chatbot-msteams-receive",
+        "chatbot-msteams-send",
+        "chatbot-facebook-node",
+        "chatbot-facebook-receive",
+        "chatbot-facebook-send",
+        "chatbot-whatsapp-node",
+        "chatbot-whatsapp-receive",
+        "chatbot-whatsapp-send",
+        "chatbot-whatsapp-template",
+        "chatbot-viber-node",
+        "chatbot-viber-receive",
+        "chatbot-viber-send",
+        "chatbot-alexa-node",
+        "chatbot-alexa-receive",
+        "chatbot-alexa-send",
+        "chatbot-message",
+        "chatbot-analytics",
+        "chatbot-context",
+        "chatbot-voice",
+        "chatbot-language",
+        "chatbot-parse",
+        "chatbot-document",
+        "chatbot-video",
+        "chatbot-image",
+        "chatbot-sticker",
+        "chatbot-animation",
+        "chatbot-audio",
+        "chatbot-location",
+        "chatbot-ask",
+        "chatbot-inline-buttons",
+        "chatbot-quick-replies",
+        "chatbot-request",
+        "chatbot-log",
+        "chatbot-qrcode",
+        "chatbot-conversation",
+        "chatbot-debug",
+        "chatbot-waiting",
+        "chatbot-authorized",
+        "chatbot-rivescript",
+        "chatbot-messenger-menu",
+        "chatbot-messenger-template",
+        "chatbot-telegram-menu",
+        "chatbot-context-store",
+        "chatbot-inline-query",
+        "chatbot-dialog",
+        "chatbot-rules",
+        "chatbot-params",
+        "chatbot-dialogflow-token",
+        "chatbot-dialogflow",
+        "chatbot-invoice",
+        "chatbot-invoice-shipping",
+        "chatbot-extend",
+        "chatbot-support-table",
+        "chatbot-alexa-card",
+        "chatbot-alexa-directive",
+        "chatbot-alexa-speech",
+        "chatbot-slack-blocks",
+        "chatbot-nlpjs",
+        "chatbot-nlpjs-train",
+        "chatbot-nlpjs-intent",
+        "chatbot-nlpjs-entity",
+        "chatbot-nlpjs-save",
+        "chatbot-nlpjs-load",
+        "chatbot-pop-message",
+        "chatbot-push-message",
+        "chatbot-google-analytics",
+        "mc-graphql",
+        "mc-content",
+        "mc-simulator-receiver",
+        "mc-simulator-sender",
+        "mc-user-payload",
+        "mc-input",
+        "mc-output",
+        "mc-configuration",
+        "mc-queue"
+      ],
+      "keywords": [
+        "node-red"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-chatbot"
+    },
+    {
+      "id": "node-red-cipherflow",
+      "version": "0.2.4",
+      "description": "microsoft seal for Node-RED.",
+      "updated_at": "2023-02-05T22:05:58.453Z",
+      "types": [
+        "seal",
+        "context",
+        "publicKey",
+        "secretKey",
+        "relinKey"
+      ],
+      "keywords": [
+        "node-red",
+        "homomorphic",
+        "encryption",
+        "homomorphic-encryption",
+        "microsoft seal"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-cipherflow"
+    },
+    {
+      "id": "@waldbaer/node-red-persistent-values",
+      "version": "1.1.1",
+      "description": "Persistent values for Node-RED",
+      "updated_at": "2023-02-05T21:22:26.966Z",
+      "types": [
+        "persistent values config",
+        "persistent value"
+      ],
+      "keywords": [
+        "node-red",
+        "context",
+        "persistence",
+        "persistency",
+        "state",
+        "config"
+      ],
+      "url": "https://flows.nodered.org/node/@waldbaer/node-red-persistent-values"
+    },
+    {
+      "id": "node-red-contrib-nibeuplink",
+      "version": "0.2.0",
+      "description": "A Node-Red Node for collecting data from nibe uplink.",
+      "updated_at": "2023-02-05T19:17:12.119Z",
+      "types": [
+        "nibeuplink-config",
+        "nibeuplink"
+      ],
+      "keywords": [
+        "node-red",
+        "nibeuplink",
+        "volund",
+        "vølund"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-nibeuplink"
+    },
+    {
       "id": "node-red-contrib-victron-modbus",
-      "version": "0.0.1",
+      "version": "0.0.2",
       "description": "Access the Victron equipment via the modbus",
-      "updated_at": "2023-02-05T12:54:37.277Z",
+      "updated_at": "2023-02-05T18:53:58.318Z",
       "types": [
         "victron-modbus"
       ],
@@ -16,6 +218,29 @@
         "modbus"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-victron-modbus"
+    },
+    {
+      "id": "@mschaeffler/node-red-logic",
+      "version": "0.7.1",
+      "description": "nodes for simple operations.",
+      "updated_at": "2023-02-05T16:46:39.497Z",
+      "types": [
+        "counter",
+        "tobool",
+        "or",
+        "and",
+        "tonumber",
+        "reduce",
+        "__errors__",
+        "fallingEdge",
+        "raisingEdge",
+        "hysteresisEdge",
+        "statistics"
+      ],
+      "keywords": [
+        "node-red"
+      ],
+      "url": "https://flows.nodered.org/node/@mschaeffler/node-red-logic"
     },
     {
       "id": "node-red-contrib-semaphoreservice",
@@ -58,6 +283,26 @@
         "alexa"
       ],
       "url": "https://flows.nodered.org/node/@sinricpro/node-red-contrib-sinric-pro"
+    },
+    {
+      "id": "@mschaeffler/node-red-lora",
+      "version": "2.1.3",
+      "description": "Five nodes to send and receive LoRaWan messages via a gateway via the Semtech UDP protocol.",
+      "updated_at": "2023-02-04T16:50:22.818Z",
+      "types": [
+        "lorawan-server",
+        "lorawan-keys",
+        "lorawan-packet-decoder",
+        "lorawan-packet-encoder",
+        "lorawan-packet-checkFC",
+        "lorawan-queue-message"
+      ],
+      "keywords": [
+        "node-red",
+        "lora",
+        "LoRaWan"
+      ],
+      "url": "https://flows.nodered.org/node/@mschaeffler/node-red-lora"
     },
     {
       "id": "@hurenkam/hue-services",
@@ -339,19 +584,6 @@
       "url": "https://flows.nodered.org/node/node-red-contrib-google-cloud-ubos"
     },
     {
-      "id": "@solwena_pl/node-red-contrib-solwenalib",
-      "version": "1.0.9",
-      "description": "nodes for integration with percee system",
-      "updated_at": "2023-02-03T09:36:58.945Z",
-      "types": [],
-      "keywords": [
-        "Solwena",
-        "SolwenaLib",
-        "node-red"
-      ],
-      "url": "https://flows.nodered.org/node/@solwena_pl/node-red-contrib-solwenalib"
-    },
-    {
       "id": "node-red-contrib-xkeys_setunitid",
       "version": "0.3.1",
       "description": "Xkeys Set Unit ID node for Node-RED using Dynamic Control Data Protocol (DCDP)",
@@ -367,25 +599,6 @@
         "node-red"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-xkeys_setunitid"
-    },
-    {
-      "id": "@waldbaer/node-red-persistent-values",
-      "version": "1.1.0",
-      "description": "Persistent values for Node-RED",
-      "updated_at": "2023-02-02T21:15:06.155Z",
-      "types": [
-        "persistent values config",
-        "persistent value"
-      ],
-      "keywords": [
-        "node-red",
-        "context",
-        "persistence",
-        "persistency",
-        "state",
-        "config"
-      ],
-      "url": "https://flows.nodered.org/node/@waldbaer/node-red-persistent-values"
     },
     {
       "id": "node-red-contrib-mongodb4",
@@ -1137,19 +1350,6 @@
       "url": "https://flows.nodered.org/node/@chvdapi/node-red-pn6400-ai"
     },
     {
-      "id": "node-red-contrib-cyblion-edge",
-      "version": "0.0.1",
-      "description": "this is node for cyblion project testing only",
-      "updated_at": "2023-01-30T08:30:00.970Z",
-      "types": [
-        "cyblion-mqtt-broker"
-      ],
-      "keywords": [
-        "node-red"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-cyblion-edge"
-    },
-    {
       "id": "node-red-cyblion-edge",
       "version": "1.0.2",
       "description": "this is node for cyblion project testing only",
@@ -1855,23 +2055,6 @@
       "url": "https://flows.nodered.org/node/node-red-contrib-ocpp"
     },
     {
-      "id": "node-red-contrib-nibeuplink",
-      "version": "0.1.0",
-      "description": "A Node-Red Node for collecting data from nibe uplink.",
-      "updated_at": "2023-01-24T21:37:32.612Z",
-      "types": [
-        "nibeuplink-config",
-        "nibeuplink"
-      ],
-      "keywords": [
-        "node-red",
-        "nibeuplink",
-        "volund",
-        "vølund"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-nibeuplink"
-    },
-    {
       "id": "node-red-contrib-opcua",
       "version": "0.2.295",
       "description": "A Node-RED node to communicate via OPC UA based on node-opcua library.",
@@ -2424,106 +2607,6 @@
       "url": "https://flows.nodered.org/node/@ia-cloud/node-red-contrib-ia-cloud-fds"
     },
     {
-      "id": "node-red-contrib-chatbot",
-      "version": "1.2.0",
-      "description": "REDBot a Chat bot for a full featured chat bot for Telegram, Facebook Messenger and Slack. Almost no coding skills required",
-      "updated_at": "2023-01-18T23:06:15.945Z",
-      "types": [
-        "chatbot-telegram-node",
-        "chatbot-telegram-receive",
-        "chatbot-telegram-send",
-        "chatbot-universal-node",
-        "chatbot-universal-receive",
-        "chatbot-universal-send",
-        "chatbot-slack-node",
-        "chatbot-slack-receive",
-        "chatbot-slack-send",
-        "chatbot-twilio-node",
-        "chatbot-twilio-receive",
-        "chatbot-twilio-send",
-        "chatbot-msteams-node",
-        "chatbot-msteams-receive",
-        "chatbot-msteams-send",
-        "chatbot-facebook-node",
-        "chatbot-facebook-receive",
-        "chatbot-facebook-send",
-        "chatbot-whatsapp-node",
-        "chatbot-whatsapp-receive",
-        "chatbot-whatsapp-send",
-        "chatbot-whatsapp-template",
-        "chatbot-viber-node",
-        "chatbot-viber-receive",
-        "chatbot-viber-send",
-        "chatbot-alexa-node",
-        "chatbot-alexa-receive",
-        "chatbot-alexa-send",
-        "chatbot-message",
-        "chatbot-analytics",
-        "chatbot-context",
-        "chatbot-voice",
-        "chatbot-language",
-        "chatbot-parse",
-        "chatbot-document",
-        "chatbot-video",
-        "chatbot-image",
-        "chatbot-sticker",
-        "chatbot-animation",
-        "chatbot-audio",
-        "chatbot-location",
-        "chatbot-ask",
-        "chatbot-inline-buttons",
-        "chatbot-quick-replies",
-        "chatbot-request",
-        "chatbot-log",
-        "chatbot-qrcode",
-        "chatbot-conversation",
-        "chatbot-debug",
-        "chatbot-waiting",
-        "chatbot-authorized",
-        "chatbot-rivescript",
-        "chatbot-messenger-menu",
-        "chatbot-messenger-template",
-        "chatbot-telegram-menu",
-        "chatbot-context-store",
-        "chatbot-inline-query",
-        "chatbot-dialog",
-        "chatbot-rules",
-        "chatbot-params",
-        "chatbot-dialogflow-token",
-        "chatbot-dialogflow",
-        "chatbot-invoice",
-        "chatbot-invoice-shipping",
-        "chatbot-extend",
-        "chatbot-support-table",
-        "chatbot-alexa-card",
-        "chatbot-alexa-directive",
-        "chatbot-alexa-speech",
-        "chatbot-slack-blocks",
-        "chatbot-nlpjs",
-        "chatbot-nlpjs-train",
-        "chatbot-nlpjs-intent",
-        "chatbot-nlpjs-entity",
-        "chatbot-nlpjs-save",
-        "chatbot-nlpjs-load",
-        "chatbot-pop-message",
-        "chatbot-push-message",
-        "chatbot-google-analytics",
-        "mc-graphql",
-        "mc-content",
-        "mc-simulator-receiver",
-        "mc-simulator-sender",
-        "mc-user-payload",
-        "mc-input",
-        "mc-output",
-        "mc-configuration",
-        "mc-queue"
-      ],
-      "keywords": [
-        "node-red"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-chatbot"
-    },
-    {
       "id": "@sparktime/node-red-contrib-wamp-auth",
       "version": "0.0.4",
       "description": "Node-RED nodes to talk to WAMP with auth",
@@ -2772,26 +2855,6 @@
         "timeseries"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-nixtla"
-    },
-    {
-      "id": "@mschaeffler/node-red-lora",
-      "version": "2.1.2",
-      "description": "Five nodes to send and receive LoRaWan messages via a gateway via the Semtech UDP protocol.",
-      "updated_at": "2023-01-15T12:50:52.860Z",
-      "types": [
-        "lorawan-server",
-        "lorawan-keys",
-        "lorawan-packet-decoder",
-        "lorawan-packet-encoder",
-        "lorawan-packet-checkFC",
-        "lorawan-queue-message"
-      ],
-      "keywords": [
-        "node-red",
-        "lora",
-        "LoRaWan"
-      ],
-      "url": "https://flows.nodered.org/node/@mschaeffler/node-red-lora"
     },
     {
       "id": "node-red-contrib-nordpool-api-plus",
@@ -7259,28 +7322,6 @@
       "url": "https://flows.nodered.org/node/@mschaeffler/node-red-hourmeter"
     },
     {
-      "id": "@mschaeffler/node-red-logic",
-      "version": "0.6.2",
-      "description": "nodes for simple operations.",
-      "updated_at": "2022-11-11T09:39:14.244Z",
-      "types": [
-        "counter",
-        "tobool",
-        "or",
-        "and",
-        "tonumber",
-        "reduce",
-        "__errors__",
-        "fallingEdge",
-        "raisingEdge",
-        "hysteresisEdge"
-      ],
-      "keywords": [
-        "node-red"
-      ],
-      "url": "https://flows.nodered.org/node/@mschaeffler/node-red-logic"
-    },
-    {
       "id": "node-red-contrib-netatmo-dashboard",
       "version": "1.0.0",
       "description": "Get JSON payload for NetAtmo dashboard. See http://netatmo.com, https://dev.netatmo.com/doc",
@@ -10225,27 +10266,6 @@
         "youvi"
       ],
       "url": "https://flows.nodered.org/node/@peaknx/node-red-contrib-youvi"
-    },
-    {
-      "id": "node-red-cipherflow",
-      "version": "0.2.0",
-      "description": "microsoft seal for Node-RED.",
-      "updated_at": "2022-09-16T03:05:10.622Z",
-      "types": [
-        "seal",
-        "context",
-        "publicKey",
-        "secretKey",
-        "relinKey"
-      ],
-      "keywords": [
-        "node-red",
-        "homomorphic",
-        "encryption",
-        "homomorphic-encryption",
-        "microsoft seal"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-cipherflow"
     },
     {
       "id": "@lahoco/node-red-contrib-lahoco-core",
@@ -15253,6 +15273,71 @@
       "url": "https://flows.nodered.org/node/node-red-contrib-suncron"
     },
     {
+      "id": "node-red-contrib-sun-position",
+      "version": "2.2.0-beta3",
+      "description": "NodeRED nodes to get sun and moon position",
+      "updated_at": "2022-05-11T04:04:45.321Z",
+      "types": [
+        "position-config",
+        "time-inject",
+        "within-time-switch",
+        "rdg-delay-until",
+        "sun-position",
+        "moon-position",
+        "time-comp",
+        "time-span",
+        "blind-control",
+        "clock-timer"
+      ],
+      "keywords": [
+        "node-red",
+        "nodes",
+        "flow",
+        "sun-position",
+        "moon-position",
+        "heavenly body",
+        "sun",
+        "sun events",
+        "moon",
+        "moon events",
+        "position",
+        "luminary",
+        "sunpos",
+        "suncalc",
+        "mooncalc",
+        "node-red",
+        "router",
+        "switch",
+        "inject",
+        "timer",
+        "time",
+        "timeswitch",
+        "timerswitch",
+        "timespan",
+        "time-range",
+        "time-range-switch",
+        "timecheck",
+        "time-calc",
+        "time-comp",
+        "time-compare",
+        "time-span",
+        "time-offset",
+        "compare",
+        "clock",
+        "schedule",
+        "compare",
+        "calculate",
+        "redmatic",
+        "blind",
+        "blind-control",
+        "home+automation",
+        "cover",
+        "roller",
+        "shutter"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-sun-position"
+    },
+    {
       "id": "node-red-contrib-state",
       "version": "1.6.1",
       "description": "Shared state with persistence, notification, and history",
@@ -19078,70 +19163,6 @@
         "node-red"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-nooperation"
-    },
-    {
-      "id": "node-red-contrib-sun-position",
-      "version": "2.1.1",
-      "description": "NodeRED nodes to get sun and moon position",
-      "updated_at": "2022-02-15T11:39:40.312Z",
-      "types": [
-        "position-config",
-        "time-inject",
-        "within-time-switch",
-        "clock-timer",
-        "time-comp",
-        "time-span",
-        "blind-control",
-        "sun-position",
-        "moon-position"
-      ],
-      "keywords": [
-        "node-red",
-        "nodes",
-        "flow",
-        "sun-position",
-        "moon-position",
-        "heavenly body",
-        "sun",
-        "sun events",
-        "moon",
-        "moon events",
-        "position",
-        "luminary",
-        "sunpos",
-        "suncalc",
-        "mooncalc",
-        "node-red",
-        "router",
-        "switch",
-        "inject",
-        "timer",
-        "time",
-        "timeswitch",
-        "timerswitch",
-        "timespan",
-        "time-range",
-        "time-range-switch",
-        "timecheck",
-        "time-calc",
-        "time-comp",
-        "time-compare",
-        "time-span",
-        "time-offset",
-        "compare",
-        "clock",
-        "schedule",
-        "compare",
-        "calculate",
-        "redmatic",
-        "blind",
-        "blind-control",
-        "home+automation",
-        "cover",
-        "roller",
-        "shutter"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-sun-position"
     },
     {
       "id": "node-red-contrib-luxtronik2",
