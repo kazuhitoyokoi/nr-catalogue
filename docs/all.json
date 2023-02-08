@@ -1,7 +1,179 @@
 {
   "name": "Catalogue for verified nodes",
-  "updated_at": "2023-02-07T19:36:36.347Z",
+  "updated_at": "2023-02-08T20:45:01.678Z",
   "modules": [
+    {
+      "id": "node-red-contrib-airship-zonal-purchases-data",
+      "version": "1.0.1",
+      "description": "A node to retrieve and filter purchases data from Zonal and send relevant info to Airship rest api",
+      "updated_at": "2023-02-08T10:37:58.106Z",
+      "types": [
+        "custom-partner-node-zonal"
+      ],
+      "keywords": [
+        "node-red"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-airship-zonal-purchases-data"
+    },
+    {
+      "id": "node-red-contrib-createrandom",
+      "version": "1.1.0",
+      "description": "Create random values using configurable type generators.",
+      "updated_at": "2023-02-08T10:37:39.412Z",
+      "types": [
+        "createrandom"
+      ],
+      "keywords": [
+        "node-red",
+        "uuid",
+        "guid",
+        "random",
+        "test data",
+        "random user"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-createrandom"
+    },
+    {
+      "id": "node-red-contrib-tibber-api",
+      "version": "5.2.0",
+      "description": "Node Red module for integrating with Tibber api",
+      "updated_at": "2023-02-08T10:25:52.895Z",
+      "types": [
+        "tibber-api-endpoint",
+        "tibber-feed",
+        "tibber-query",
+        "tibber-data",
+        "tibber-notify"
+      ],
+      "keywords": [
+        "node-red",
+        "tibber",
+        "iot",
+        "power",
+        "home-automation",
+        "smarthome",
+        "energy"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-tibber-api"
+    },
+    {
+      "id": "node-red-cyblion-edge",
+      "version": "1.1.1",
+      "description": "Node-RED cipherflow special implement for cyblion cloud platform first version for testing only",
+      "updated_at": "2023-02-08T09:49:54.167Z",
+      "types": [
+        "cyblion-mqtt-broker",
+        "cyblion-seal"
+      ],
+      "keywords": [
+        "node-red",
+        "cyblion",
+        "cipherflow"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-cyblion-edge"
+    },
+    {
+      "id": "node-red-contrib-json-multi-schema",
+      "version": "1.5.1",
+      "description": "Generic JSON data pipeline tools, with dynamic transformation (using JSONata rules), resolving JSON Schema (using JSONata rules), and then validation (using JSON Schema). For Node-RED and for command-line.",
+      "updated_at": "2023-02-08T09:22:07.119Z",
+      "types": [
+        "json-multi-schema-resolver",
+        "json-multi-schema-transformer",
+        "json-multi-schema-validator"
+      ],
+      "keywords": [
+        "FIWARE",
+        "AtomicService",
+        "schema",
+        "validate",
+        "validator",
+        "transform",
+        "JSON",
+        "JSONata",
+        "IoT",
+        "node-red",
+        "nodered"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-json-multi-schema"
+    },
+    {
+      "id": "node-red-contrib-google-smarthome",
+      "version": "0.4.3",
+      "description": "Lets you control Node-Red via Google Assistant or the Google Home App",
+      "updated_at": "2023-02-08T04:45:19.420Z",
+      "types": [
+        "googlesmarthome-client",
+        "google-mgmt",
+        "google-device"
+      ],
+      "keywords": [
+        "google",
+        "smarthome",
+        "assistant",
+        "iot",
+        "node-red"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-google-smarthome"
+    },
+    {
+      "id": "node-red-contrib-esphome",
+      "version": "0.0.5",
+      "description": "Node-RED nodes to ESPhome devices.",
+      "updated_at": "2023-02-08T00:11:38.720Z",
+      "types": [
+        "esphome-device",
+        "esphome-in",
+        "esphome-out"
+      ],
+      "keywords": [
+        "node-red",
+        "esphome",
+        "esp",
+        "home",
+        "esp32",
+        "esp8266"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-esphome"
+    },
+    {
+      "id": "node-red-contrib-rollun-openapi",
+      "version": "2.0.3",
+      "description": "node-red-contrib-rollun-openapi ================",
+      "updated_at": "2023-02-07T19:28:18.077Z",
+      "types": [
+        "rollun-openapi-client",
+        "rollun-openapi-messages",
+        "rollun-openapi-manifest",
+        "rollun-openapi-in",
+        "rollun-openapi-out"
+      ],
+      "keywords": [
+        "node-red"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-rollun-openapi"
+    },
+    {
+      "id": "node-red-contrib-niu-cloud",
+      "version": "1.0.2",
+      "description": "A Node-RED library for connect to NIU Cloud for your electric scooter",
+      "updated_at": "2023-02-07T18:05:46.630Z",
+      "types": [
+        "niu-cloud-client",
+        "niu-cloud"
+      ],
+      "keywords": [
+        "node-red",
+        "niu",
+        "niu-cloud",
+        "e-scooter",
+        "ev",
+        "electric",
+        "scooter",
+        "vehicle"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-niu-cloud"
+    },
     {
       "id": "node-red-contrib-mssql-plus",
       "version": "0.10.0",
@@ -113,38 +285,6 @@
       "url": "https://flows.nodered.org/node/@chvdapi/node-red-pn6400-led"
     },
     {
-      "id": "node-red-cyblion-edge",
-      "version": "1.1.0",
-      "description": "Node-RED cipherflow special implement for cyblion cloud platform first version for testing only",
-      "updated_at": "2023-02-07T07:48:02.789Z",
-      "types": [
-        "cyblion-mqtt-broker",
-        "cyblion-seal"
-      ],
-      "keywords": [
-        "node-red",
-        "cyblion",
-        "cipherflow"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-cyblion-edge"
-    },
-    {
-      "id": "node-red-contrib-createrandom",
-      "version": "1.0.0",
-      "description": "Create random values using configurable type generators.",
-      "updated_at": "2023-02-07T06:44:42.425Z",
-      "types": [
-        "createrandom"
-      ],
-      "keywords": [
-        "node-red",
-        "uuid",
-        "guid",
-        "random"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-createrandom"
-    },
-    {
       "id": "@chvdapi/node-red-pn6400-ai",
       "version": "0.0.3",
       "description": "A node by chvda to drive AI on PN6400",
@@ -199,24 +339,6 @@
         "node-red"
       ],
       "url": "https://flows.nodered.org/node/@chvdapi/node-red-pn6400-do"
-    },
-    {
-      "id": "node-red-contrib-esphome",
-      "version": "0.0.4",
-      "description": "Node-RED nodes to ESPhome devices.",
-      "updated_at": "2023-02-06T22:16:57.038Z",
-      "types": [
-        "esphome-device",
-        "esphome-in",
-        "esphome-out"
-      ],
-      "keywords": [
-        "node-red",
-        "esphome",
-        "esp",
-        "home"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-esphome"
     },
     {
       "id": "@flexdash/node-red-flexdash",
@@ -1501,23 +1623,6 @@
         "light"
       ],
       "url": "https://flows.nodered.org/node/@bannsaenger/node-red-contrib-artnet-controller"
-    },
-    {
-      "id": "node-red-contrib-rollun-openapi",
-      "version": "2.0.2",
-      "description": "node-red-contrib-rollun-openapi ================",
-      "updated_at": "2023-01-29T21:16:10.641Z",
-      "types": [
-        "rollun-openapi-client",
-        "rollun-openapi-messages",
-        "rollun-openapi-manifest",
-        "rollun-openapi-in",
-        "rollun-openapi-out"
-      ],
-      "keywords": [
-        "node-red"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-rollun-openapi"
     },
     {
       "id": "node-red-contrib-homeconnect",
@@ -3071,29 +3176,6 @@
       "url": "https://flows.nodered.org/node/node-red-contrib-aw365-jwt-token"
     },
     {
-      "id": "node-red-contrib-tibber-api",
-      "version": "5.1.6",
-      "description": "Node Red module for integrating with Tibber api",
-      "updated_at": "2023-01-12T21:17:21.268Z",
-      "types": [
-        "tibber-api-endpoint",
-        "tibber-feed",
-        "tibber-query",
-        "tibber-data",
-        "tibber-notify"
-      ],
-      "keywords": [
-        "node-red",
-        "tibber",
-        "iot",
-        "power",
-        "home-automation",
-        "smarthome",
-        "energy"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-tibber-api"
-    },
-    {
       "id": "node-red-contrib-servicely",
       "version": "0.0.19",
       "description": "A set of Node-RED nodes to facilitate integration with Servicely.ai.",
@@ -3378,31 +3460,6 @@
         "nodered"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-parser-ini"
-    },
-    {
-      "id": "node-red-contrib-json-multi-schema",
-      "version": "1.5.0",
-      "description": "Generic JSON data pipeline tools, with dynamic transformation (using JSONata rules), resolving JSON Schema (using JSONata rules), and then validation (using JSON Schema). For Node-RED and for command-line.",
-      "updated_at": "2023-01-09T08:41:05.724Z",
-      "types": [
-        "json-multi-schema-resolver",
-        "json-multi-schema-transformer",
-        "json-multi-schema-validator"
-      ],
-      "keywords": [
-        "FIWARE",
-        "AtomicService",
-        "schema",
-        "validate",
-        "validator",
-        "transform",
-        "JSON",
-        "JSONata",
-        "IoT",
-        "node-red",
-        "nodered"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-json-multi-schema"
     },
     {
       "id": "node-red-contrib-postgresql",
@@ -4048,25 +4105,6 @@
         "strompreis"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-discovergy-meter"
-    },
-    {
-      "id": "node-red-contrib-google-smarthome",
-      "version": "0.4.2",
-      "description": "Lets you control Node-Red via Google Assistant or the Google Home App",
-      "updated_at": "2022-12-29T22:46:16.037Z",
-      "types": [
-        "googlesmarthome-client",
-        "google-mgmt",
-        "google-device"
-      ],
-      "keywords": [
-        "google",
-        "smarthome",
-        "assistant",
-        "iot",
-        "node-red"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-google-smarthome"
     },
     {
       "id": "node-red-contrib-salus-control",
@@ -15555,6 +15593,22 @@
       "url": "https://flows.nodered.org/node/node-red-contrib-decentralized-identity"
     },
     {
+      "id": "node-red-contrib-daikin-cloud",
+      "version": "0.2.1",
+      "description": "Node-red Daikin Cloud Controller (experimental)",
+      "updated_at": "2022-05-11T03:04:54.205Z",
+      "types": [
+        "Daikin-Cloud-Controller"
+      ],
+      "keywords": [
+        "node-red",
+        "daikin",
+        "BRP069C4",
+        "cloud"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-daikin-cloud"
+    },
+    {
       "id": "node-red-contrib-crestron",
       "version": "1.1.2",
       "description": "Node-RED nodes for communicating with a Crestron TCP Server.",
@@ -24829,27 +24883,6 @@
       "url": "https://flows.nodered.org/node/node-red-discord-alternative"
     },
     {
-      "id": "node-red-contrib-niu-cloud",
-      "version": "1.0.0",
-      "description": "A Node-RED library for connect to NIU Cloud for your electric scooter",
-      "updated_at": "2021-09-09T16:36:41.749Z",
-      "types": [
-        "niu-cloud-client",
-        "niu-cloud"
-      ],
-      "keywords": [
-        "node-red",
-        "niu",
-        "niu-cloud",
-        "e-scooter",
-        "ev",
-        "electric",
-        "scooter",
-        "vehicle"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-niu-cloud"
-    },
-    {
       "id": "node-red-contrib-socketio-client-wt",
       "version": "0.4.4",
       "description": "Node Red client to work with socket.io server",
@@ -25444,22 +25477,6 @@
         "Ott"
       ],
       "url": "https://flows.nodered.org/node/node-red-umbparser"
-    },
-    {
-      "id": "node-red-contrib-daikin-cloud",
-      "version": "0.2.0",
-      "description": "Node-red Daikin Cloud Controller (experimental)",
-      "updated_at": "2021-08-20T13:54:20.210Z",
-      "types": [
-        "Daikin-Cloud-Controller"
-      ],
-      "keywords": [
-        "node-red",
-        "daikin",
-        "BRP069C4",
-        "cloud"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-daikin-cloud"
     },
     {
       "id": "node-red-contrib-amcrest-ad110",
