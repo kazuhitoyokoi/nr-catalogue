@@ -1,7 +1,169 @@
 {
   "name": "Catalogue for darwin",
-  "updated_at": "2023-02-08T20:44:44.297Z",
+  "updated_at": "2023-02-09T20:35:18.322Z",
   "modules": [
+    {
+      "id": "@binsoul/node-red-contrib-roller-shutter",
+      "version": "0.0.1",
+      "description": "[![Software License][ico-license]](LICENSE.md)",
+      "updated_at": "2023-02-09T17:27:52.375Z",
+      "types": [
+        "binsoul-roller-shutter"
+      ],
+      "keywords": [
+        "node-red",
+        "roller shutter"
+      ],
+      "url": "https://flows.nodered.org/node/@binsoul/node-red-contrib-roller-shutter"
+    },
+    {
+      "id": "node-red-2stools-packetdecode",
+      "version": "0.9.22",
+      "description": "Decode string data to a respective sensor on IC",
+      "updated_at": "2023-02-09T16:55:05.868Z",
+      "types": [
+        "2stools-packetdecode"
+      ],
+      "keywords": [
+        "node-red",
+        "2solve",
+        "2stools"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-2stools-packetdecode"
+    },
+    {
+      "id": "node-red-contrib-thinger",
+      "version": "1.4.3",
+      "description": "Node-Red library for Thinger.io Platform",
+      "updated_at": "2023-02-09T16:49:05.768Z",
+      "types": [
+        "asset-iterator",
+        "bucket-create",
+        "bucket-read",
+        "bucket-write",
+        "device-callback",
+        "device-create",
+        "device-read",
+        "device-stream",
+        "device-write",
+        "endpoint-call",
+        "property-read",
+        "property-write",
+        "storage-read",
+        "storage-write",
+        "server-events",
+        "thinger-server"
+      ],
+      "keywords": [
+        "node-red",
+        "thinger.io",
+        "IoT",
+        "arduino",
+        "raspberry"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-thinger"
+    },
+    {
+      "id": "node-red-contrib-hash-helper",
+      "version": "0.0.3",
+      "description": "Node-RED node for generating and verifying SHA hashes",
+      "updated_at": "2023-02-09T15:33:05.521Z",
+      "types": [],
+      "keywords": [
+        "node-red-nodegen",
+        "hash",
+        "sha",
+        "hmac",
+        "node-red"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-hash-helper"
+    },
+    {
+      "id": "node-red-contrib-presidio",
+      "version": "0.0.3",
+      "description": "Node-RED node for Microsoft Presidio Analysis and Anonymization",
+      "updated_at": "2023-02-09T15:32:20.864Z",
+      "types": [],
+      "keywords": [
+        "node-red-nodegen",
+        "privacy",
+        " analysis",
+        " anonymization",
+        "node-red"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-presidio"
+    },
+    {
+      "id": "node-red-contrib-crypto-storage",
+      "version": "0.0.5",
+      "description": "Node-RED node for Crypto Storage with Block/Stream Ciphers",
+      "updated_at": "2023-02-09T15:29:48.214Z",
+      "types": [],
+      "keywords": [
+        "node-red"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-crypto-storage"
+    },
+    {
+      "id": "@crescentone/node-red-contrib-c1ee",
+      "version": "0.0.1",
+      "description": "Node-RED node, node to learn how to make nodes.",
+      "updated_at": "2023-02-09T14:53:15.628Z",
+      "types": [
+        "c1ee"
+      ],
+      "keywords": [
+        "easter egg",
+        "node-red"
+      ],
+      "url": "https://flows.nodered.org/node/@crescentone/node-red-contrib-c1ee"
+    },
+    {
+      "id": "node-red-contrib-alice",
+      "version": "1.2.1",
+      "description": "**NodeRed Home** (node-red-contrib-alice) - это сервис позволит, в несколько простых шагов, подключить любые ваши устройства заведенные в Node-RED к умному дому от Яндекса и управлять ими с помощью голосового помощника Алиса.",
+      "updated_at": "2023-02-09T06:14:37.162Z",
+      "types": [
+        "alice-service",
+        "alice-device",
+        "On_Off",
+        "Toggle",
+        "Range",
+        "Color",
+        "Mode",
+        "Sensor",
+        "Event",
+        "Video"
+      ],
+      "keywords": [
+        "node-red",
+        "yandex",
+        "alice",
+        "яндекс",
+        "алиса"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-alice"
+    },
+    {
+      "id": "node-red-contrib-esphome",
+      "version": "0.0.6",
+      "description": "Node-RED nodes to ESPhome devices",
+      "updated_at": "2023-02-09T02:56:09.122Z",
+      "types": [
+        "esphome-device",
+        "esphome-in",
+        "esphome-out"
+      ],
+      "keywords": [
+        "node-red",
+        "esphome",
+        "esp",
+        "home",
+        "esp32",
+        "esp8266"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-esphome"
+    },
     {
       "id": "node-red-contrib-bnr",
       "version": "1.0.5",
@@ -154,26 +316,6 @@
         "node-red"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-google-smarthome"
-    },
-    {
-      "id": "node-red-contrib-esphome",
-      "version": "0.0.5",
-      "description": "Node-RED nodes to ESPhome devices.",
-      "updated_at": "2023-02-08T00:11:38.720Z",
-      "types": [
-        "esphome-device",
-        "esphome-in",
-        "esphome-out"
-      ],
-      "keywords": [
-        "node-red",
-        "esphome",
-        "esp",
-        "home",
-        "esp32",
-        "esp8266"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-esphome"
     },
     {
       "id": "node-red-contrib-rollun-openapi",
@@ -721,6 +863,39 @@
       "url": "https://flows.nodered.org/node/@sinricpro/node-red-contrib-sinric-pro"
     },
     {
+      "id": "node-red-contrib-rfxcom",
+      "version": "2.12.1",
+      "description": "A set of node-red nodes to use the Rfxcom RFXtrx433 remote control transceiver",
+      "updated_at": "2023-02-04T17:30:07.388Z",
+      "types": [
+        "rfxtrx-port",
+        "rfx-lights-in",
+        "rfx-lights-out",
+        "rfx-fan-out",
+        "rfx-blinds-in",
+        "rfx-blinds-out",
+        "rfx-doorbell-in",
+        "rfx-doorbell-out",
+        "rfx-meter",
+        "rfx-sensor",
+        "rfx-trv-out",
+        "rfx-heat-out",
+        "rfx-detector-in",
+        "rfx-alarm-out",
+        "PT2262-device-list",
+        "rfx-PT2262-in",
+        "rfx-PT2262-out",
+        "rfx-raw-out",
+        "raw-device-list"
+      ],
+      "keywords": [
+        "node-red",
+        "rfxcom",
+        "RFXtrx433"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-rfxcom"
+    },
+    {
       "id": "@mschaeffler/node-red-lora",
       "version": "2.1.3",
       "description": "Five nodes to send and receive LoRaWan messages via a gateway via the Semtech UDP protocol.",
@@ -773,39 +948,6 @@
         "motion"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-multipart-stream-decoder"
-    },
-    {
-      "id": "node-red-contrib-rfxcom",
-      "version": "2.12.0",
-      "description": "A set of node-red nodes to use the Rfxcom RFXtrx433 remote control transceiver",
-      "updated_at": "2023-02-03T17:11:36.877Z",
-      "types": [
-        "rfxtrx-port",
-        "rfx-lights-in",
-        "rfx-lights-out",
-        "rfx-fan-out",
-        "rfx-blinds-in",
-        "rfx-blinds-out",
-        "rfx-doorbell-in",
-        "rfx-doorbell-out",
-        "rfx-meter",
-        "rfx-sensor",
-        "rfx-trv-out",
-        "rfx-heat-out",
-        "rfx-detector-in",
-        "rfx-alarm-out",
-        "PT2262-device-list",
-        "rfx-PT2262-in",
-        "rfx-PT2262-out",
-        "rfx-raw-out",
-        "raw-device-list"
-      ],
-      "keywords": [
-        "node-red",
-        "rfxcom",
-        "RFXtrx433"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-rfxcom"
     },
     {
       "id": "node-red-contrib-snap4city-user",
@@ -1410,31 +1552,6 @@
       "url": "https://flows.nodered.org/node/@smartdcc/dccboxed-nodered-nodes"
     },
     {
-      "id": "node-red-contrib-alice",
-      "version": "1.1.5",
-      "description": "**NodeRed Home** (node-red-contrib-alice) - это сервис позволит, в несколько простых шагов, подключить любые ваши устройства заведенные в Node-RED к умному дому от Яндекса и управлять ими с помощью голосового помощника Алиса.",
-      "updated_at": "2023-02-01T14:04:12.976Z",
-      "types": [
-        "alice-service",
-        "alice-device",
-        "On_Off",
-        "Toggle",
-        "Range",
-        "Color",
-        "Mode",
-        "Sensor",
-        "Event"
-      ],
-      "keywords": [
-        "node-red",
-        "yandex",
-        "alice",
-        "яндекс",
-        "алиса"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-alice"
-    },
-    {
       "id": "@digitalnodecom/node-red-contrib-generic-s3",
       "version": "1.7.0",
       "description": "Generic node-red S3 nodes",
@@ -1459,38 +1576,6 @@
         "generic"
       ],
       "url": "https://flows.nodered.org/node/@digitalnodecom/node-red-contrib-generic-s3"
-    },
-    {
-      "id": "node-red-contrib-thinger",
-      "version": "1.4.2",
-      "description": "Node-Red library for Thinger.io Platform",
-      "updated_at": "2023-02-01T10:46:33.884Z",
-      "types": [
-        "asset-iterator",
-        "bucket-create",
-        "bucket-read",
-        "bucket-write",
-        "device-callback",
-        "device-create",
-        "device-read",
-        "device-stream",
-        "device-write",
-        "endpoint-call",
-        "property-read",
-        "property-write",
-        "storage-read",
-        "storage-write",
-        "server-events",
-        "thinger-server"
-      ],
-      "keywords": [
-        "node-red",
-        "thinger.io",
-        "IoT",
-        "arduino",
-        "raspberry"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-thinger"
     },
     {
       "id": "node-red-contrib-monster",
@@ -6031,21 +6116,6 @@
         "ssh"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-sftp-ssh2"
-    },
-    {
-      "id": "node-red-2stools-packetdecode",
-      "version": "0.9.20",
-      "description": "Decode string data to a respective sensor on IC",
-      "updated_at": "2022-11-30T13:45:22.187Z",
-      "types": [
-        "2stools-packetdecode"
-      ],
-      "keywords": [
-        "node-red",
-        "2solve",
-        "2stools"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-2stools-packetdecode"
     },
     {
       "id": "node-red-contrib-ui-statechart",
