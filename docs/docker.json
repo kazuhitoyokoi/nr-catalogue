@@ -1,7 +1,145 @@
 {
   "name": "Catalogue for docker",
-  "updated_at": "2023-02-09T16:17:20.815Z",
+  "updated_at": "2023-02-10T16:11:45.724Z",
   "modules": [
+    {
+      "id": "node-red-contrib-mssql-plus",
+      "version": "0.10.2",
+      "description": "A node-red node to execute queries, stored procedures and bulk inserts in Microsoft SQL Server and Azure Databases SQL2000 ~ SQL2019",
+      "updated_at": "2023-02-10T08:59:38.678Z",
+      "types": [
+        "MSSQL-CN",
+        "MSSQL"
+      ],
+      "keywords": [
+        "node-red",
+        "odbc",
+        "unixodbc",
+        "mssql",
+        "sql",
+        "Microsoft",
+        "database",
+        "sql-server",
+        "azure"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-mssql-plus"
+    },
+    {
+      "id": "@binsoul/node-red-contrib-roller-shutter",
+      "version": "0.0.2",
+      "description": "[![Software License][ico-license]](LICENSE.md)",
+      "updated_at": "2023-02-10T08:42:48.504Z",
+      "types": [
+        "binsoul-roller-shutter"
+      ],
+      "keywords": [
+        "node-red",
+        "roller shutter"
+      ],
+      "url": "https://flows.nodered.org/node/@binsoul/node-red-contrib-roller-shutter"
+    },
+    {
+      "id": "node-red-2stools-packetdecode",
+      "version": "0.9.22",
+      "description": "Decode string data to a respective sensor on IC",
+      "updated_at": "2023-02-09T16:55:05.868Z",
+      "types": [
+        "2stools-packetdecode"
+      ],
+      "keywords": [
+        "node-red",
+        "2solve",
+        "2stools"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-2stools-packetdecode"
+    },
+    {
+      "id": "node-red-contrib-thinger",
+      "version": "1.4.3",
+      "description": "Node-Red library for Thinger.io Platform",
+      "updated_at": "2023-02-09T16:49:05.768Z",
+      "types": [
+        "asset-iterator",
+        "bucket-create",
+        "bucket-read",
+        "bucket-write",
+        "device-callback",
+        "device-create",
+        "device-read",
+        "device-stream",
+        "device-write",
+        "endpoint-call",
+        "property-read",
+        "property-write",
+        "storage-read",
+        "storage-write",
+        "server-events",
+        "thinger-server"
+      ],
+      "keywords": [
+        "node-red",
+        "thinger.io",
+        "IoT",
+        "arduino",
+        "raspberry"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-thinger"
+    },
+    {
+      "id": "node-red-contrib-hash-helper",
+      "version": "0.0.3",
+      "description": "Node-RED node for generating and verifying SHA hashes",
+      "updated_at": "2023-02-09T15:33:05.521Z",
+      "types": [],
+      "keywords": [
+        "node-red-nodegen",
+        "hash",
+        "sha",
+        "hmac",
+        "node-red"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-hash-helper"
+    },
+    {
+      "id": "node-red-contrib-presidio",
+      "version": "0.0.3",
+      "description": "Node-RED node for Microsoft Presidio Analysis and Anonymization",
+      "updated_at": "2023-02-09T15:32:20.864Z",
+      "types": [],
+      "keywords": [
+        "node-red-nodegen",
+        "privacy",
+        " analysis",
+        " anonymization",
+        "node-red"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-presidio"
+    },
+    {
+      "id": "node-red-contrib-crypto-storage",
+      "version": "0.0.5",
+      "description": "Node-RED node for Crypto Storage with Block/Stream Ciphers",
+      "updated_at": "2023-02-09T15:29:48.214Z",
+      "types": [],
+      "keywords": [
+        "node-red"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-crypto-storage"
+    },
+    {
+      "id": "@crescentone/node-red-contrib-c1ee",
+      "version": "0.0.1",
+      "description": "Node-RED node, node to learn how to make nodes.",
+      "updated_at": "2023-02-09T14:53:15.628Z",
+      "types": [
+        "c1ee"
+      ],
+      "keywords": [
+        "easter egg",
+        "node-red"
+      ],
+      "url": "https://flows.nodered.org/node/@crescentone/node-red-contrib-c1ee"
+    },
     {
       "id": "node-red-contrib-alice",
       "version": "1.2.1",
@@ -238,28 +376,6 @@
         "vehicle"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-niu-cloud"
-    },
-    {
-      "id": "node-red-contrib-mssql-plus",
-      "version": "0.10.0",
-      "description": "A node-red node to execute queries, stored procedures and bulk inserts in Microsoft SQL Server and Azure Databases SQL2000 ~ SQL2019",
-      "updated_at": "2023-02-07T13:42:46.277Z",
-      "types": [
-        "MSSQL-CN",
-        "MSSQL"
-      ],
-      "keywords": [
-        "node-red",
-        "odbc",
-        "unixodbc",
-        "mssql",
-        "sql",
-        "Microsoft",
-        "database",
-        "sql-server",
-        "azure"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-mssql-plus"
     },
     {
       "id": "@krakul/node-red-modbus-rtu-slave",
@@ -1423,38 +1539,6 @@
         "generic"
       ],
       "url": "https://flows.nodered.org/node/@digitalnodecom/node-red-contrib-generic-s3"
-    },
-    {
-      "id": "node-red-contrib-thinger",
-      "version": "1.4.2",
-      "description": "Node-Red library for Thinger.io Platform",
-      "updated_at": "2023-02-01T10:46:33.884Z",
-      "types": [
-        "asset-iterator",
-        "bucket-create",
-        "bucket-read",
-        "bucket-write",
-        "device-callback",
-        "device-create",
-        "device-read",
-        "device-stream",
-        "device-write",
-        "endpoint-call",
-        "property-read",
-        "property-write",
-        "storage-read",
-        "storage-write",
-        "server-events",
-        "thinger-server"
-      ],
-      "keywords": [
-        "node-red",
-        "thinger.io",
-        "IoT",
-        "arduino",
-        "raspberry"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-thinger"
     },
     {
       "id": "node-red-contrib-monster",
@@ -6016,21 +6100,6 @@
         "ssh"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-sftp-ssh2"
-    },
-    {
-      "id": "node-red-2stools-packetdecode",
-      "version": "0.9.20",
-      "description": "Decode string data to a respective sensor on IC",
-      "updated_at": "2022-11-30T13:45:22.187Z",
-      "types": [
-        "2stools-packetdecode"
-      ],
-      "keywords": [
-        "node-red",
-        "2solve",
-        "2stools"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-2stools-packetdecode"
     },
     {
       "id": "node-red-contrib-ui-statechart",
