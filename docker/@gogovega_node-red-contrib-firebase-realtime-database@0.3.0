@@ -1,0 +1,31 @@
+
+----
+Sending build context to Docker daemon  32.75MB
+Step 1/2 : FROM nodered/node-red
+ ---> a15fc0f4e930
+Step 2/2 : RUN npm install npm install @gogovega/node-red-contrib-firebase-realtime-database@0.3.0
+ ---> Running in a596417e721a
+
+added 215 packages, and audited 742 packages in 20s
+
+58 packages are looking for funding
+  run `npm fund` for details
+
+10 vulnerabilities (4 low, 1 moderate, 5 high)
+
+To address issues that do not require attention, run:
+  npm audit fix
+
+To address all issues (including breaking changes), run:
+  npm audit fix --force
+
+Run `npm audit` for details.
+[91mnpm notice[0m[91m 
+npm notice New major version of npm available! 8.11.0 -> 9.4.2
+npm notice Changelog: <https://github.com/npm/cli/releases/tag/v9.4.2>
+npm notice[0m[91m Run `npm install -g npm@9.4.2` to update!
+npm notice 
+[0mRemoving intermediate container a596417e721a
+ ---> cc08de48bb48
+Successfully built cc08de48bb48
+Successfully tagged tmp:latest
