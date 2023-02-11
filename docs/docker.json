@@ -1,7 +1,91 @@
 {
   "name": "Catalogue for docker",
-  "updated_at": "2023-02-10T16:11:45.724Z",
+  "updated_at": "2023-02-11T16:21:07.359Z",
   "modules": [
+    {
+      "id": "node-red-contrib-tado-client",
+      "version": "0.10.4",
+      "description": "Tado web API client node for Node Red",
+      "updated_at": "2023-02-11T11:19:51.882Z",
+      "types": [
+        "tado-config",
+        "tado"
+      ],
+      "keywords": [
+        "node-red",
+        "tado"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-tado-client"
+    },
+    {
+      "id": "@waldbaer/node-red-persistent-values",
+      "version": "1.2.0",
+      "description": "A user-friendly abstraction of the Node-RED context stores.",
+      "updated_at": "2023-02-10T23:34:37.962Z",
+      "types": [
+        "persistent values config",
+        "persistent value"
+      ],
+      "keywords": [
+        "node-red",
+        "context",
+        "persistence",
+        "persistency",
+        "state",
+        "config"
+      ],
+      "url": "https://flows.nodered.org/node/@waldbaer/node-red-persistent-values"
+    },
+    {
+      "id": "@gogovega/node-red-contrib-firebase-realtime-database",
+      "version": "0.3.0",
+      "description": "Node-RED nodes to communicate with Google Firebase Realtime Databases",
+      "updated_at": "2023-02-10T21:49:43.094Z",
+      "types": [
+        "database-config",
+        "firebase-in",
+        "firebase-get",
+        "firebase-out"
+      ],
+      "keywords": [
+        "admin",
+        "database",
+        "firebase",
+        "node-red",
+        "realtime"
+      ],
+      "url": "https://flows.nodered.org/node/@gogovega/node-red-contrib-firebase-realtime-database"
+    },
+    {
+      "id": "node-red-2stools-packetdecode",
+      "version": "0.9.23",
+      "description": "Decode string data to a respective sensor on IC",
+      "updated_at": "2023-02-10T18:46:21.055Z",
+      "types": [
+        "2stools-packetdecode"
+      ],
+      "keywords": [
+        "node-red",
+        "2solve",
+        "2stools"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-2stools-packetdecode"
+    },
+    {
+      "id": "red-endpoint-cmtk",
+      "version": "0.0.1",
+      "description": "Endpoint to extract data from Balluff CMTK",
+      "updated_at": "2023-02-10T17:06:24.172Z",
+      "types": [],
+      "keywords": [
+        "Endpoint",
+        "Balluff",
+        "CMTK",
+        "IO-Link",
+        "node-red"
+      ],
+      "url": "https://flows.nodered.org/node/red-endpoint-cmtk"
+    },
     {
       "id": "node-red-contrib-mssql-plus",
       "version": "0.10.2",
@@ -37,21 +121,6 @@
         "roller shutter"
       ],
       "url": "https://flows.nodered.org/node/@binsoul/node-red-contrib-roller-shutter"
-    },
-    {
-      "id": "node-red-2stools-packetdecode",
-      "version": "0.9.22",
-      "description": "Decode string data to a respective sensor on IC",
-      "updated_at": "2023-02-09T16:55:05.868Z",
-      "types": [
-        "2stools-packetdecode"
-      ],
-      "keywords": [
-        "node-red",
-        "2solve",
-        "2stools"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-2stools-packetdecode"
     },
     {
       "id": "node-red-contrib-thinger",
@@ -139,6 +208,106 @@
         "node-red"
       ],
       "url": "https://flows.nodered.org/node/@crescentone/node-red-contrib-c1ee"
+    },
+    {
+      "id": "node-red-contrib-chatbot",
+      "version": "1.2.2",
+      "description": "REDBot a Chat bot for a full featured chat bot for Telegram, Facebook Messenger and Slack. Almost no coding skills required",
+      "updated_at": "2023-02-09T14:21:51.086Z",
+      "types": [
+        "chatbot-telegram-node",
+        "chatbot-telegram-receive",
+        "chatbot-telegram-send",
+        "chatbot-universal-node",
+        "chatbot-universal-receive",
+        "chatbot-universal-send",
+        "chatbot-slack-node",
+        "chatbot-slack-receive",
+        "chatbot-slack-send",
+        "chatbot-twilio-node",
+        "chatbot-twilio-receive",
+        "chatbot-twilio-send",
+        "chatbot-msteams-node",
+        "chatbot-msteams-receive",
+        "chatbot-msteams-send",
+        "chatbot-facebook-node",
+        "chatbot-facebook-receive",
+        "chatbot-facebook-send",
+        "chatbot-whatsapp-node",
+        "chatbot-whatsapp-receive",
+        "chatbot-whatsapp-send",
+        "chatbot-whatsapp-template",
+        "chatbot-viber-node",
+        "chatbot-viber-receive",
+        "chatbot-viber-send",
+        "chatbot-alexa-node",
+        "chatbot-alexa-receive",
+        "chatbot-alexa-send",
+        "chatbot-message",
+        "chatbot-analytics",
+        "chatbot-context",
+        "chatbot-voice",
+        "chatbot-language",
+        "chatbot-parse",
+        "chatbot-document",
+        "chatbot-video",
+        "chatbot-image",
+        "chatbot-sticker",
+        "chatbot-animation",
+        "chatbot-audio",
+        "chatbot-location",
+        "chatbot-ask",
+        "chatbot-inline-buttons",
+        "chatbot-quick-replies",
+        "chatbot-request",
+        "chatbot-log",
+        "chatbot-qrcode",
+        "chatbot-conversation",
+        "chatbot-debug",
+        "chatbot-waiting",
+        "chatbot-authorized",
+        "chatbot-rivescript",
+        "chatbot-messenger-menu",
+        "chatbot-messenger-template",
+        "chatbot-telegram-menu",
+        "chatbot-context-store",
+        "chatbot-inline-query",
+        "chatbot-dialog",
+        "chatbot-rules",
+        "chatbot-params",
+        "chatbot-dialogflow-token",
+        "chatbot-dialogflow",
+        "chatbot-invoice",
+        "chatbot-invoice-shipping",
+        "chatbot-extend",
+        "chatbot-support-table",
+        "chatbot-alexa-card",
+        "chatbot-alexa-directive",
+        "chatbot-alexa-speech",
+        "chatbot-slack-blocks",
+        "chatbot-nlpjs",
+        "chatbot-nlpjs-train",
+        "chatbot-nlpjs-intent",
+        "chatbot-nlpjs-entity",
+        "chatbot-nlpjs-save",
+        "chatbot-nlpjs-load",
+        "chatbot-pop-message",
+        "chatbot-push-message",
+        "chatbot-google-analytics",
+        "mc-graphql",
+        "mc-content",
+        "mc-simulator-receiver",
+        "mc-simulator-sender",
+        "mc-user-payload",
+        "mc-input",
+        "mc-output",
+        "mc-configuration",
+        "mc-queue"
+      ],
+      "keywords": [
+        "node-red"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-chatbot"
     },
     {
       "id": "node-red-contrib-alice",
@@ -610,106 +779,6 @@
       "url": "https://flows.nodered.org/node/node-red-contrib-cyblion-edge"
     },
     {
-      "id": "node-red-contrib-chatbot",
-      "version": "1.2.1",
-      "description": "REDBot a Chat bot for a full featured chat bot for Telegram, Facebook Messenger and Slack. Almost no coding skills required",
-      "updated_at": "2023-02-06T09:43:10.436Z",
-      "types": [
-        "chatbot-telegram-node",
-        "chatbot-telegram-receive",
-        "chatbot-telegram-send",
-        "chatbot-universal-node",
-        "chatbot-universal-receive",
-        "chatbot-universal-send",
-        "chatbot-slack-node",
-        "chatbot-slack-receive",
-        "chatbot-slack-send",
-        "chatbot-twilio-node",
-        "chatbot-twilio-receive",
-        "chatbot-twilio-send",
-        "chatbot-msteams-node",
-        "chatbot-msteams-receive",
-        "chatbot-msteams-send",
-        "chatbot-facebook-node",
-        "chatbot-facebook-receive",
-        "chatbot-facebook-send",
-        "chatbot-whatsapp-node",
-        "chatbot-whatsapp-receive",
-        "chatbot-whatsapp-send",
-        "chatbot-whatsapp-template",
-        "chatbot-viber-node",
-        "chatbot-viber-receive",
-        "chatbot-viber-send",
-        "chatbot-alexa-node",
-        "chatbot-alexa-receive",
-        "chatbot-alexa-send",
-        "chatbot-message",
-        "chatbot-analytics",
-        "chatbot-context",
-        "chatbot-voice",
-        "chatbot-language",
-        "chatbot-parse",
-        "chatbot-document",
-        "chatbot-video",
-        "chatbot-image",
-        "chatbot-sticker",
-        "chatbot-animation",
-        "chatbot-audio",
-        "chatbot-location",
-        "chatbot-ask",
-        "chatbot-inline-buttons",
-        "chatbot-quick-replies",
-        "chatbot-request",
-        "chatbot-log",
-        "chatbot-qrcode",
-        "chatbot-conversation",
-        "chatbot-debug",
-        "chatbot-waiting",
-        "chatbot-authorized",
-        "chatbot-rivescript",
-        "chatbot-messenger-menu",
-        "chatbot-messenger-template",
-        "chatbot-telegram-menu",
-        "chatbot-context-store",
-        "chatbot-inline-query",
-        "chatbot-dialog",
-        "chatbot-rules",
-        "chatbot-params",
-        "chatbot-dialogflow-token",
-        "chatbot-dialogflow",
-        "chatbot-invoice",
-        "chatbot-invoice-shipping",
-        "chatbot-extend",
-        "chatbot-support-table",
-        "chatbot-alexa-card",
-        "chatbot-alexa-directive",
-        "chatbot-alexa-speech",
-        "chatbot-slack-blocks",
-        "chatbot-nlpjs",
-        "chatbot-nlpjs-train",
-        "chatbot-nlpjs-intent",
-        "chatbot-nlpjs-entity",
-        "chatbot-nlpjs-save",
-        "chatbot-nlpjs-load",
-        "chatbot-pop-message",
-        "chatbot-push-message",
-        "chatbot-google-analytics",
-        "mc-graphql",
-        "mc-content",
-        "mc-simulator-receiver",
-        "mc-simulator-sender",
-        "mc-user-payload",
-        "mc-input",
-        "mc-output",
-        "mc-configuration",
-        "mc-queue"
-      ],
-      "keywords": [
-        "node-red"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-chatbot"
-    },
-    {
       "id": "node-red-cipherflow",
       "version": "0.2.4",
       "description": "microsoft seal for Node-RED.",
@@ -729,25 +798,6 @@
         "microsoft seal"
       ],
       "url": "https://flows.nodered.org/node/node-red-cipherflow"
-    },
-    {
-      "id": "@waldbaer/node-red-persistent-values",
-      "version": "1.1.1",
-      "description": "Persistent values for Node-RED",
-      "updated_at": "2023-02-05T21:22:26.966Z",
-      "types": [
-        "persistent values config",
-        "persistent value"
-      ],
-      "keywords": [
-        "node-red",
-        "context",
-        "persistence",
-        "persistency",
-        "state",
-        "config"
-      ],
-      "url": "https://flows.nodered.org/node/@waldbaer/node-red-persistent-values"
     },
     {
       "id": "node-red-contrib-nibeuplink",
@@ -4152,24 +4202,6 @@
       "url": "https://flows.nodered.org/node/node-red-contrib-coap"
     },
     {
-      "id": "@gogovega/node-red-contrib-firebase-realtime-database",
-      "version": "0.2.0",
-      "description": "Node-RED nodes to communicate with Google Firebase Realtime Database",
-      "updated_at": "2022-12-31T17:24:02.903Z",
-      "types": [
-        "database-config",
-        "firebase-in",
-        "firebase-get",
-        "firebase-out"
-      ],
-      "keywords": [
-        "firebase",
-        "node-red",
-        "realtime-database"
-      ],
-      "url": "https://flows.nodered.org/node/@gogovega/node-red-contrib-firebase-realtime-database"
-    },
-    {
       "id": "node-red-contrib-twitter-2.0",
       "version": "1.1.5",
       "description": "NodeRED nodes to wrap the v1.1 of the Twitter API",
@@ -6573,21 +6605,6 @@
         "node-red"
       ],
       "url": "https://flows.nodered.org/node/@meshtastic/node-red-contrib-meshtastic"
-    },
-    {
-      "id": "node-red-contrib-tado-client",
-      "version": "0.10.1",
-      "description": "Tado web API client node for Node Red",
-      "updated_at": "2022-11-24T08:33:07.444Z",
-      "types": [
-        "tado-config",
-        "tado"
-      ],
-      "keywords": [
-        "node-red",
-        "tado"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-tado-client"
     },
     {
       "id": "node-red-contrib-aws-athena-express",
