@@ -1,0 +1,31 @@
+
+----
+Sending build context to Docker daemon   33.1MB
+Step 1/2 : FROM nodered/node-red
+ ---> a15fc0f4e930
+Step 2/2 : RUN npm install npm install @jn-se/node-red-contrib-heos@0.3.0
+ ---> Running in f9a8a018493f
+
+added 4 packages, and audited 531 packages in 4s
+
+50 packages are looking for funding
+  run `npm fund` for details
+
+10 vulnerabilities (4 low, 1 moderate, 5 high)
+
+To address issues that do not require attention, run:
+  npm audit fix
+
+To address all issues (including breaking changes), run:
+  npm audit fix --force
+
+Run `npm audit` for details.
+[91mnpm[0m[91m notice 
+npm notice New major version of npm available! 8.11.0 -> 9.4.2
+npm notice Changelog: <https://github.com/npm/cli/releases/tag/v9.4.2>
+npm [0m[91mnotice Run `npm install -g npm@9.4.2` to update!
+npm notice 
+[0mRemoving intermediate container f9a8a018493f
+ ---> 7cad72d29431
+Successfully built 7cad72d29431
+Successfully tagged tmp:latest
