@@ -1,0 +1,34 @@
+
+----
+Sending build context to Docker daemon  33.59MB
+Step 1/2 : FROM nodered/node-red
+ ---> a15fc0f4e930
+Step 2/2 : RUN npm install npm install @rockprofile/node-red-contrib-mastodon@1.0.4
+ ---> Running in 64c83a98361e
+[91mnpm WARN[0m[91m deprecated har-validator@5.1.5: this library is no longer supported
+[0m[91mnpm WARN [0m[91mdeprecated uuid@3.4.0: Please upgrade  to version 7 or higher.  Older versions may use Math.random() in certain circumstances, which is known to be problematic.  See https://v8.dev/blog/math-random for details.
+[0m[91mnpm WARN deprecated request@2.88.2: request has been deprecated, see https://github.com/request/request/issues/3142
+[0m
+added 41 packages, and audited 568 packages in 5s
+
+51 packages are looking for funding
+  run `npm fund` for details
+
+10 vulnerabilities (4 low, 1 moderate, 5 high)
+
+To address issues that do not require attention, run:
+  npm audit fix
+
+To address all issues (including breaking changes), run:
+  npm audit fix --force
+
+Run `npm audit` for details.
+[91mnpm notice 
+npm notice[0m[91m New major version of npm available! 8.11.0 -> 9.4.2
+npm notice Changelog: <https://github.com/npm/cli/releases/tag/v9.4.2>
+npm notice[0m[91m Run `npm install -g npm@9.4.2` to update!
+npm notice 
+[0mRemoving intermediate container 64c83a98361e
+ ---> 5742ff0f0236
+Successfully built 5742ff0f0236
+Successfully tagged tmp:latest
