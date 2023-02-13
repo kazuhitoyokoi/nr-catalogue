@@ -1,0 +1,32 @@
+
+----
+Sending build context to Docker daemon  32.69MB
+Step 1/2 : FROM nodered/node-red
+ ---> a15fc0f4e930
+Step 2/2 : RUN npm install npm install @ais_automation/node-red-contrib-eqcloud-monitoring@1.4.2
+ ---> Running in fa1d9d84dcb8
+[91mnpm[0m[91m [0m[91mWARN[0m[91m [0m[91mdeprecated[0m[91m @npmcli/move-file@1.1.2: This functionality has been moved to @npmcli/fs
+[0m
+added 88 packages, and audited 615 packages in 8s
+
+51 packages are looking for funding
+  run `npm fund` for details
+
+10 vulnerabilities (4 low, 1 moderate, 5 high)
+
+To address issues that do not require attention, run:
+  npm audit fix
+
+To address all issues (including breaking changes), run:
+  npm audit fix --force
+
+Run `npm audit` for details.
+[91mnpm notice 
+npm notice New major version of npm available! 8.11.0 -> 9.4.2
+npm notice Changelog: <https://github.com/npm/cli/releases/tag/v9.4.2>
+npm notice Run `npm install -g npm@9.4.2` to update!
+npm notice 
+[0mRemoving intermediate container fa1d9d84dcb8
+ ---> d88d81d06e51
+Successfully built d88d81d06e51
+Successfully tagged tmp:latest
