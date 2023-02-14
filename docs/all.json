@@ -1,7 +1,137 @@
 {
   "name": "Catalogue for verified nodes",
-  "updated_at": "2023-02-13T21:25:08.828Z",
+  "updated_at": "2023-02-14T21:10:50.486Z",
   "modules": [
+    {
+      "id": "node-red-contrib-monster",
+      "version": "0.0.13",
+      "description": "A collection of Node-RED nodes for Monster.  Includes nodes for S3 client.",
+      "updated_at": "2023-02-14T12:50:16.453Z",
+      "types": [
+        "Monster S3",
+        "monster config",
+        "monster test"
+      ],
+      "keywords": [
+        "node-red",
+        "s3"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-monster"
+    },
+    {
+      "id": "nr-discovergy-adapter",
+      "version": "0.5.1",
+      "description": "Node-RED Adapter for Discovergy Meters",
+      "updated_at": "2023-02-14T10:09:50.260Z",
+      "types": [
+        "Last Reading"
+      ],
+      "keywords": [
+        "discovergy",
+        "smartmeter",
+        "node-red"
+      ],
+      "url": "https://flows.nodered.org/node/nr-discovergy-adapter"
+    },
+    {
+      "id": "@chvdapi/node-red-pn6400-di",
+      "version": "0.0.3",
+      "description": "A node by chvda to drive DI on PN6400",
+      "updated_at": "2023-02-14T03:18:00.876Z",
+      "types": [
+        "PN6400_DI"
+      ],
+      "keywords": [
+        "node-red"
+      ],
+      "url": "https://flows.nodered.org/node/@chvdapi/node-red-pn6400-di"
+    },
+    {
+      "id": "node-red-contrib-letsfiware-ngsi",
+      "version": "0.8.0",
+      "description": "Node-RED implementation for FIWARE Open APIs",
+      "updated_at": "2023-02-14T01:43:51.105Z",
+      "types": [
+        "NGSI Entity",
+        "NGSI source",
+        "NGSI Attributes",
+        "NGSI Attribute",
+        "NGSI Attribute value",
+        "NGSI Batch update",
+        "NGSI subscription",
+        "GTFS Realtime to NGSI",
+        "NGSI to worldmap",
+        "FIWARE version",
+        "Historical Context",
+        "NGSI to dashboard",
+        "Open APIs"
+      ],
+      "keywords": [
+        "node-red",
+        "contrib",
+        "fiware",
+        "ngsi",
+        "context",
+        "process",
+        "data",
+        "json"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-letsfiware-ngsi"
+    },
+    {
+      "id": "@tataille/node-red-french-holidays",
+      "version": "1.1.4",
+      "description": "A simple node-red component for working whith French holidays.",
+      "updated_at": "2023-02-13T20:34:38.965Z",
+      "types": [
+        "french-holidays"
+      ],
+      "keywords": [
+        "node-red",
+        "french-holidays",
+        "holidays",
+        "france",
+        "specialdays",
+        "weekdays"
+      ],
+      "url": "https://flows.nodered.org/node/@tataille/node-red-french-holidays"
+    },
+    {
+      "id": "node-red-contrib-whatsapp-link",
+      "version": "0.1.34-A",
+      "description": "Node to send and receive whatsapp messages in groups and chats. | No third party APIs",
+      "updated_at": "2023-02-13T18:35:22.540Z",
+      "types": [
+        "admin",
+        "chats-in",
+        "chats-out",
+        "group-out",
+        "reply",
+        "whatsappLink"
+      ],
+      "keywords": [
+        "node-red",
+        "whatsapp",
+        "message",
+        "whatsapp Group",
+        "whatsapp Chat"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-whatsapp-link"
+    },
+    {
+      "id": "@binsoul/node-red-contrib-roller-shutter",
+      "version": "0.0.4",
+      "description": "[![Software License][ico-license]](LICENSE.md)",
+      "updated_at": "2023-02-13T14:55:31.994Z",
+      "types": [
+        "binsoul-roller-shutter"
+      ],
+      "keywords": [
+        "node-red",
+        "roller shutter"
+      ],
+      "url": "https://flows.nodered.org/node/@binsoul/node-red-contrib-roller-shutter"
+    },
     {
       "id": "cloud4machine-cloud-nodered",
       "version": "0.2.35",
@@ -122,20 +252,6 @@
       "url": "https://flows.nodered.org/node/node-red-contrib-huawei-router"
     },
     {
-      "id": "@binsoul/node-red-contrib-roller-shutter",
-      "version": "0.0.3",
-      "description": "[![Software License][ico-license]](LICENSE.md)",
-      "updated_at": "2023-02-12T18:40:08.917Z",
-      "types": [
-        "binsoul-roller-shutter"
-      ],
-      "keywords": [
-        "node-red",
-        "roller shutter"
-      ],
-      "url": "https://flows.nodered.org/node/@binsoul/node-red-contrib-roller-shutter"
-    },
-    {
       "id": "node-red-contrib-car-bmw",
       "version": "0.4.7",
       "description": "Node-RED nodes to connect to BMW ConnectedDrive and read infos of your car.",
@@ -173,28 +289,6 @@
         "toots"
       ],
       "url": "https://flows.nodered.org/node/@rockprofile/node-red-contrib-mastodon"
-    },
-    {
-      "id": "node-red-contrib-whatsapp-link",
-      "version": "0.1.34",
-      "description": "Node to send and receive whatsapp messages in groups and chats. | No third party APIs",
-      "updated_at": "2023-02-12T12:18:12.176Z",
-      "types": [
-        "admin",
-        "chats-in",
-        "chats-out",
-        "group-out",
-        "reply",
-        "whatsappLink"
-      ],
-      "keywords": [
-        "node-red",
-        "whatsapp",
-        "message",
-        "whatsapp Group",
-        "whatsapp Chat"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-whatsapp-link"
     },
     {
       "id": "node-red-contrib-opcua",
@@ -901,19 +995,6 @@
         "node-red"
       ],
       "url": "https://flows.nodered.org/node/@chvdapi/node-red-pn6400-ao"
-    },
-    {
-      "id": "@chvdapi/node-red-pn6400-di",
-      "version": "0.0.2",
-      "description": "A node by chvda to drive DI on PN6400",
-      "updated_at": "2023-02-07T04:14:55.606Z",
-      "types": [
-        "PN6400_DI"
-      ],
-      "keywords": [
-        "node-red"
-      ],
-      "url": "https://flows.nodered.org/node/@chvdapi/node-red-pn6400-di"
     },
     {
       "id": "@chvdapi/node-red-pn6400-do",
@@ -1779,21 +1860,6 @@
       "url": "https://flows.nodered.org/node/@digitalnodecom/node-red-contrib-generic-s3"
     },
     {
-      "id": "node-red-contrib-monster",
-      "version": "0.0.11",
-      "description": "A collection of Node-RED nodes for Monster.  Includes nodes for S3 client.",
-      "updated_at": "2023-02-01T08:09:50.937Z",
-      "types": [
-        "Monster S3",
-        "monster config"
-      ],
-      "keywords": [
-        "node-red",
-        "s3"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-monster"
-    },
-    {
       "id": "@bitpoolos/edge-modbus",
       "version": "1.4.0",
       "description": "A set of Node-RED modules to support reading Modbus devices.",
@@ -1819,35 +1885,6 @@
         "iot"
       ],
       "url": "https://flows.nodered.org/node/@bitpoolos/edge-modbus"
-    },
-    {
-      "id": "node-red-contrib-letsfiware-ngsi",
-      "version": "0.7.1",
-      "description": "Node-RED implementation for FIWARE Open APIs",
-      "updated_at": "2023-02-01T03:21:23.303Z",
-      "types": [
-        "NGSI Entity",
-        "NGSI source",
-        "NGSI Batch update",
-        "NGSI subscription",
-        "NGSI GTFS Realtime",
-        "NGSI to worldmap",
-        "FIWARE version",
-        "Historical Context",
-        "NGSI to dashboard",
-        "Open APIs"
-      ],
-      "keywords": [
-        "node-red",
-        "contrib",
-        "fiware",
-        "ngsi",
-        "context",
-        "process",
-        "data",
-        "json"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-letsfiware-ngsi"
     },
     {
       "id": "node-red-node-serialport",
@@ -2713,24 +2750,6 @@
         "iot"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-pi-plates"
-    },
-    {
-      "id": "@tataille/node-red-french-holidays",
-      "version": "1.1.3",
-      "description": "A simple node-red component for working whith French holidays.",
-      "updated_at": "2023-01-22T19:01:41.357Z",
-      "types": [
-        "french-holidays"
-      ],
-      "keywords": [
-        "node-red",
-        "french-holidays",
-        "holidays",
-        "france",
-        "specialdays",
-        "weekdays"
-      ],
-      "url": "https://flows.nodered.org/node/@tataille/node-red-french-holidays"
     },
     {
       "id": "node-red-contrib-axios",
@@ -15736,6 +15755,22 @@
         "ha-tools"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-ha-tools"
+    },
+    {
+      "id": "node-red-contrib-graphite-tcp",
+      "version": "1.0.11",
+      "description": "Node-RED node that sends metrics to Graphite over the tcp plaintext protocol",
+      "updated_at": "2022-05-11T03:18:21.414Z",
+      "types": [
+        "graphitetcp"
+      ],
+      "keywords": [
+        "node-red",
+        "node-red-contrib",
+        "graphite",
+        "metrics"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-graphite-tcp"
     },
     {
       "id": "node-red-contrib-dynamic-dimmer",
