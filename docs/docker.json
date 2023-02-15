@@ -1,12 +1,76 @@
 {
   "name": "Catalogue for docker",
-  "updated_at": "2023-02-14T16:11:01.919Z",
+  "updated_at": "2023-02-15T16:25:02.263Z",
   "modules": [
     {
+      "id": "nr-discovergy-adapter",
+      "version": "0.5.2",
+      "description": "Node-RED Adapter for Discovergy Meters",
+      "updated_at": "2023-02-15T14:01:28.448Z",
+      "types": [
+        "Last Reading",
+        "Historic Reading"
+      ],
+      "keywords": [
+        "discovergy",
+        "smartmeter",
+        "node-red"
+      ],
+      "url": "https://flows.nodered.org/node/nr-discovergy-adapter"
+    },
+    {
+      "id": "node-red-contrib-brewfather",
+      "version": "2.0.0",
+      "description": "A set of node-red nodes to simplify integration with the Brewfather API",
+      "updated_at": "2023-02-15T10:40:54.255Z",
+      "types": [
+        "brewfather-config",
+        "brewfather-api-request"
+      ],
+      "keywords": [
+        "node-red"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-brewfather"
+    },
+    {
+      "id": "node-red-contrib-xkeys_setunitid",
+      "version": "0.3.3",
+      "description": "Xkeys Set Unit ID node for Node-RED using Dynamic Control Data Protocol (DCDP)",
+      "updated_at": "2023-02-15T00:28:31.943Z",
+      "types": [
+        "xkeys_setunitid"
+      ],
+      "keywords": [
+        "X-keys",
+        "Xkeys",
+        "xkeys",
+        "dcdp",
+        "node-red"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-xkeys_setunitid"
+    },
+    {
+      "id": "node-red-contrib-xkeys_savebacklights",
+      "version": "0.3.1",
+      "description": "Xkeys Save Backlights node for Node-RED using Dynamic Control Data Protocol (DCDP)",
+      "updated_at": "2023-02-15T00:19:07.341Z",
+      "types": [
+        "xkeys_savebacklights"
+      ],
+      "keywords": [
+        "X-keys",
+        "Xkeys",
+        "xkeys",
+        "dcdp",
+        "node-red"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-xkeys_savebacklights"
+    },
+    {
       "id": "node-red-contrib-monster",
-      "version": "0.0.13",
+      "version": "0.0.21",
       "description": "A collection of Node-RED nodes for Monster.  Includes nodes for S3 client.",
-      "updated_at": "2023-02-14T12:50:16.453Z",
+      "updated_at": "2023-02-14T20:05:51.132Z",
       "types": [
         "Monster S3",
         "monster config",
@@ -19,19 +83,18 @@
       "url": "https://flows.nodered.org/node/node-red-contrib-monster"
     },
     {
-      "id": "nr-discovergy-adapter",
-      "version": "0.5.1",
-      "description": "Node-RED Adapter for Discovergy Meters",
-      "updated_at": "2023-02-14T10:09:50.260Z",
+      "id": "@binsoul/node-red-contrib-roller-shutter",
+      "version": "0.0.5",
+      "description": "[![Software License][ico-license]](LICENSE.md)",
+      "updated_at": "2023-02-14T15:22:11.732Z",
       "types": [
-        "Last Reading"
+        "binsoul-roller-shutter"
       ],
       "keywords": [
-        "discovergy",
-        "smartmeter",
-        "node-red"
+        "node-red",
+        "roller shutter"
       ],
-      "url": "https://flows.nodered.org/node/nr-discovergy-adapter"
+      "url": "https://flows.nodered.org/node/@binsoul/node-red-contrib-roller-shutter"
     },
     {
       "id": "@chvdapi/node-red-pn6400-di",
@@ -117,20 +180,6 @@
         "whatsapp Chat"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-whatsapp-link"
-    },
-    {
-      "id": "@binsoul/node-red-contrib-roller-shutter",
-      "version": "0.0.4",
-      "description": "[![Software License][ico-license]](LICENSE.md)",
-      "updated_at": "2023-02-13T14:55:31.994Z",
-      "types": [
-        "binsoul-roller-shutter"
-      ],
-      "keywords": [
-        "node-red",
-        "roller shutter"
-      ],
-      "url": "https://flows.nodered.org/node/@binsoul/node-red-contrib-roller-shutter"
     },
     {
       "id": "cloud4machine-cloud-nodered",
@@ -1455,23 +1504,6 @@
         "plc"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-foxtrotnode"
-    },
-    {
-      "id": "node-red-contrib-xkeys_setunitid",
-      "version": "0.3.1",
-      "description": "Xkeys Set Unit ID node for Node-RED using Dynamic Control Data Protocol (DCDP)",
-      "updated_at": "2023-02-03T04:57:54.151Z",
-      "types": [
-        "xkeys_setunitid"
-      ],
-      "keywords": [
-        "X-keys",
-        "Xkeys",
-        "xkeys",
-        "dcdp",
-        "node-red"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-xkeys_setunitid"
     },
     {
       "id": "node-red-contrib-mongodb4",
@@ -18939,22 +18971,6 @@
       "url": "https://flows.nodered.org/node/node-red-contrib-xkeys_writedata"
     },
     {
-      "id": "node-red-contrib-xkeys_savebacklights",
-      "version": "0.2.1",
-      "description": "Xkeys Save Backlights node for Node-RED",
-      "updated_at": "2022-03-01T05:53:28.279Z",
-      "types": [
-        "xkeys_savebacklights"
-      ],
-      "keywords": [
-        "X-keys",
-        "Xkeys",
-        "xkeys",
-        "node-red"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-xkeys_savebacklights"
-    },
-    {
       "id": "node-red-contrib-ng",
       "version": "0.2.0",
       "description": "TODO",
@@ -34998,20 +35014,6 @@
         "automation"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-light"
-    },
-    {
-      "id": "node-red-contrib-brewfather",
-      "version": "1.2.0",
-      "description": "A set of node-red nodes to simplify integration with the Brewfather API",
-      "updated_at": "2020-12-27T20:57:11.603Z",
-      "types": [
-        "brewfather-config",
-        "brewfather-api-request"
-      ],
-      "keywords": [
-        "node-red"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-brewfather"
     },
     {
       "id": "node-red-contrib-debounce-leading-trailing",
