@@ -1,12 +1,110 @@
 {
   "name": "Catalogue for darwin",
-  "updated_at": "2023-02-14T21:04:57.800Z",
+  "updated_at": "2023-02-15T20:02:20.463Z",
   "modules": [
     {
+      "id": "node-red-contrib-openhab3",
+      "version": "1.4.7",
+      "description": "OpenHAB v3 home automation for node-red, forked from node-red-contrib-openhab2 package",
+      "updated_at": "2023-02-15T16:53:32.809Z",
+      "types": [
+        "openhab2-controller2",
+        "openhab2-in2",
+        "openhab2-get2",
+        "openhab2-monitor2",
+        "openhab2-out2",
+        "openhab2-events2"
+      ],
+      "keywords": [
+        "node-red",
+        "openhab3"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-openhab3"
+    },
+    {
+      "id": "node-red-contrib-victron-modbus",
+      "version": "0.1.1",
+      "description": "Access the Victron equipment via the modbus",
+      "updated_at": "2023-02-15T16:00:48.988Z",
+      "types": [
+        "victron-modbus"
+      ],
+      "keywords": [
+        "node-red",
+        "victron",
+        "modbus"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-victron-modbus"
+    },
+    {
+      "id": "nr-discovergy-adapter",
+      "version": "0.5.2",
+      "description": "Node-RED Adapter for Discovergy Meters",
+      "updated_at": "2023-02-15T14:01:28.448Z",
+      "types": [
+        "Last Reading",
+        "Historic Reading"
+      ],
+      "keywords": [
+        "discovergy",
+        "smartmeter",
+        "node-red"
+      ],
+      "url": "https://flows.nodered.org/node/nr-discovergy-adapter"
+    },
+    {
+      "id": "node-red-contrib-brewfather",
+      "version": "2.0.0",
+      "description": "A set of node-red nodes to simplify integration with the Brewfather API",
+      "updated_at": "2023-02-15T10:40:54.255Z",
+      "types": [
+        "brewfather-config",
+        "brewfather-api-request"
+      ],
+      "keywords": [
+        "node-red"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-brewfather"
+    },
+    {
+      "id": "node-red-contrib-xkeys_setunitid",
+      "version": "0.3.3",
+      "description": "Xkeys Set Unit ID node for Node-RED using Dynamic Control Data Protocol (DCDP)",
+      "updated_at": "2023-02-15T00:28:31.943Z",
+      "types": [
+        "xkeys_setunitid"
+      ],
+      "keywords": [
+        "X-keys",
+        "Xkeys",
+        "xkeys",
+        "dcdp",
+        "node-red"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-xkeys_setunitid"
+    },
+    {
+      "id": "node-red-contrib-xkeys_savebacklights",
+      "version": "0.3.1",
+      "description": "Xkeys Save Backlights node for Node-RED using Dynamic Control Data Protocol (DCDP)",
+      "updated_at": "2023-02-15T00:19:07.341Z",
+      "types": [
+        "xkeys_savebacklights"
+      ],
+      "keywords": [
+        "X-keys",
+        "Xkeys",
+        "xkeys",
+        "dcdp",
+        "node-red"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-xkeys_savebacklights"
+    },
+    {
       "id": "node-red-contrib-monster",
-      "version": "0.0.14",
+      "version": "0.0.21",
       "description": "A collection of Node-RED nodes for Monster.  Includes nodes for S3 client.",
-      "updated_at": "2023-02-14T18:58:21.554Z",
+      "updated_at": "2023-02-14T20:05:51.132Z",
       "types": [
         "Monster S3",
         "monster config",
@@ -31,21 +129,6 @@
         "roller shutter"
       ],
       "url": "https://flows.nodered.org/node/@binsoul/node-red-contrib-roller-shutter"
-    },
-    {
-      "id": "nr-discovergy-adapter",
-      "version": "0.5.1",
-      "description": "Node-RED Adapter for Discovergy Meters",
-      "updated_at": "2023-02-14T10:09:50.260Z",
-      "types": [
-        "Last Reading"
-      ],
-      "keywords": [
-        "discovergy",
-        "smartmeter",
-        "node-red"
-      ],
-      "url": "https://flows.nodered.org/node/nr-discovergy-adapter"
     },
     {
       "id": "@chvdapi/node-red-pn6400-di",
@@ -1154,21 +1237,6 @@
       "url": "https://flows.nodered.org/node/node-red-contrib-nibeuplink"
     },
     {
-      "id": "node-red-contrib-victron-modbus",
-      "version": "0.0.2",
-      "description": "Access the Victron equipment via the modbus",
-      "updated_at": "2023-02-05T18:53:58.318Z",
-      "types": [
-        "victron-modbus"
-      ],
-      "keywords": [
-        "node-red",
-        "victron",
-        "modbus"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-victron-modbus"
-    },
-    {
       "id": "@mschaeffler/node-red-logic",
       "version": "0.7.1",
       "description": "nodes for simple operations.",
@@ -1471,23 +1539,6 @@
         "plc"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-foxtrotnode"
-    },
-    {
-      "id": "node-red-contrib-xkeys_setunitid",
-      "version": "0.3.1",
-      "description": "Xkeys Set Unit ID node for Node-RED using Dynamic Control Data Protocol (DCDP)",
-      "updated_at": "2023-02-03T04:57:54.151Z",
-      "types": [
-        "xkeys_setunitid"
-      ],
-      "keywords": [
-        "X-keys",
-        "Xkeys",
-        "xkeys",
-        "dcdp",
-        "node-red"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-xkeys_setunitid"
     },
     {
       "id": "node-red-contrib-mongodb4",
@@ -9771,25 +9822,6 @@
         "gpio"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-button-events"
-    },
-    {
-      "id": "node-red-contrib-openhab3",
-      "version": "1.4.6",
-      "description": "OpenHAB v3 home automation for node-red, forked from node-red-contrib-openhab2 package",
-      "updated_at": "2022-10-02T18:30:39.566Z",
-      "types": [
-        "openhab2-controller2",
-        "openhab2-in2",
-        "openhab2-get2",
-        "openhab2-monitor2",
-        "openhab2-out2",
-        "openhab2-events2"
-      ],
-      "keywords": [
-        "node-red",
-        "openhab3"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-openhab3"
     },
     {
       "id": "node-red-node-ping",
@@ -18988,22 +19020,6 @@
         "node-red"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-xkeys_writedata"
-    },
-    {
-      "id": "node-red-contrib-xkeys_savebacklights",
-      "version": "0.2.1",
-      "description": "Xkeys Save Backlights node for Node-RED",
-      "updated_at": "2022-03-01T05:53:28.279Z",
-      "types": [
-        "xkeys_savebacklights"
-      ],
-      "keywords": [
-        "X-keys",
-        "Xkeys",
-        "xkeys",
-        "node-red"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-xkeys_savebacklights"
     },
     {
       "id": "node-red-contrib-ng",
@@ -35406,20 +35422,6 @@
         "automation"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-light"
-    },
-    {
-      "id": "node-red-contrib-brewfather",
-      "version": "1.2.0",
-      "description": "A set of node-red nodes to simplify integration with the Brewfather API",
-      "updated_at": "2020-12-27T20:57:11.603Z",
-      "types": [
-        "brewfather-config",
-        "brewfather-api-request"
-      ],
-      "keywords": [
-        "node-red"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-brewfather"
     },
     {
       "id": "node-red-contrib-debounce-leading-trailing",
