@@ -1,7 +1,190 @@
 {
   "name": "Catalogue for verified nodes",
-  "updated_at": "2023-02-15T20:02:37.745Z",
+  "updated_at": "2023-02-16T22:10:21.474Z",
   "modules": [
+    {
+      "id": "@binsoul/node-red-contrib-roller-shutter",
+      "version": "0.0.8",
+      "description": "Control a roller shutter with a sensor for outside illuminance. Optionally use outside and inside temperature for shading during the day and cooling during the night.",
+      "updated_at": "2023-02-16T13:40:04.895Z",
+      "types": [
+        "binsoul-roller-shutter"
+      ],
+      "keywords": [
+        "node-red",
+        "roller shutter"
+      ],
+      "url": "https://flows.nodered.org/node/@binsoul/node-red-contrib-roller-shutter"
+    },
+    {
+      "id": "node-red-contrib-xkeys_flashrate",
+      "version": "0.3.3",
+      "description": "Node-RED node to set flashing rate of LED & Backlight nodes using Dynamic Control Data Protocol (DCDP)",
+      "updated_at": "2023-02-16T12:50:41.489Z",
+      "types": [
+        "xkeys_flashrate"
+      ],
+      "keywords": [
+        "X-keys",
+        "Xkeys",
+        "xkeys",
+        "dcdp",
+        "node-red"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-xkeys_flashrate"
+    },
+    {
+      "id": "node-red-contrib-xkeys_backlight",
+      "version": "0.3.1",
+      "description": "Xkeys Backlight node for Node-RED using Dynamic Cotrol Data Protocol (DCDP)",
+      "updated_at": "2023-02-16T10:28:33.742Z",
+      "types": [
+        "xkeys_backlight"
+      ],
+      "keywords": [
+        "X-keys",
+        "Xkeys",
+        "xkeys",
+        "dcdp",
+        "node-red"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-xkeys_backlight"
+    },
+    {
+      "id": "node-red-contrib-xkeys_led",
+      "version": "0.3.1",
+      "description": "Xkeys LED node for Node-RED using Dynamic Control Data Protocol (DCDP)",
+      "updated_at": "2023-02-16T10:28:16.555Z",
+      "types": [
+        "xkeys_led"
+      ],
+      "keywords": [
+        "X-keys",
+        "Xkeys",
+        "xkeys",
+        "dcdp",
+        "node-red"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-xkeys_led"
+    },
+    {
+      "id": "node-red-contrib-xkeys_intensity",
+      "version": "0.3.1",
+      "description": "Node-RED node to set intensity Backlight nodes using Dynamic Control Data Protocol (DCDP)",
+      "updated_at": "2023-02-16T10:27:27.908Z",
+      "types": [
+        "xkeys_intensity"
+      ],
+      "keywords": [
+        "X-keys",
+        "Xkeys",
+        "xkeys",
+        "dcdp",
+        "node-red"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-xkeys_intensity"
+    },
+    {
+      "id": "@cwe7976/node-red-contrib-easytouch-ble",
+      "version": "1.0.3",
+      "description": "---",
+      "updated_at": "2023-02-16T09:50:37.914Z",
+      "types": [
+        "EasyTouch Status",
+        "EasyTouch Update"
+      ],
+      "keywords": [
+        "node-red"
+      ],
+      "url": "https://flows.nodered.org/node/@cwe7976/node-red-contrib-easytouch-ble"
+    },
+    {
+      "id": "node-red-contrib-timer",
+      "version": "1.0.6",
+      "description": "timer node",
+      "updated_at": "2023-02-15T23:05:55.218Z",
+      "types": [
+        "timer-node"
+      ],
+      "keywords": [
+        "node-red",
+        "timer",
+        "timing",
+        "sequencing",
+        "duty cycle",
+        "delay"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-timer"
+    },
+    {
+      "id": "node-red-contrib-df1-gateway",
+      "version": "1.0.4",
+      "description": "node-red-contrib-df1-gateway",
+      "updated_at": "2023-02-15T20:45:29.408Z",
+      "types": [
+        "df1 gateway"
+      ],
+      "keywords": [
+        "plc",
+        "rockwell",
+        "df1",
+        "gateway",
+        "node-red",
+        "allenbradley"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-df1-gateway"
+    },
+    {
+      "id": "@flexdash/node-red-flexdash",
+      "version": "0.4.148",
+      "description": "Node-RED nodes for the FlexDash dashboard",
+      "updated_at": "2023-02-15T19:44:01.801Z",
+      "types": [
+        "flexdash iframe",
+        "flexdash ctrl",
+        "flexdash dev server"
+      ],
+      "keywords": [
+        "flexdash",
+        "dashboard",
+        "node-red"
+      ],
+      "url": "https://flows.nodered.org/node/@flexdash/node-red-flexdash"
+    },
+    {
+      "id": "node-red-contrib-openhab3",
+      "version": "1.4.7",
+      "description": "OpenHAB v3 home automation for node-red, forked from node-red-contrib-openhab2 package",
+      "updated_at": "2023-02-15T16:53:32.809Z",
+      "types": [
+        "openhab2-controller2",
+        "openhab2-in2",
+        "openhab2-get2",
+        "openhab2-monitor2",
+        "openhab2-out2",
+        "openhab2-events2"
+      ],
+      "keywords": [
+        "node-red",
+        "openhab3"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-openhab3"
+    },
+    {
+      "id": "node-red-contrib-victron-modbus",
+      "version": "0.1.1",
+      "description": "Access the Victron equipment via the modbus",
+      "updated_at": "2023-02-15T16:00:48.988Z",
+      "types": [
+        "victron-modbus"
+      ],
+      "keywords": [
+        "node-red",
+        "victron",
+        "modbus"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-victron-modbus"
+    },
     {
       "id": "nr-discovergy-adapter",
       "version": "0.5.2",
@@ -81,20 +264,6 @@
         "s3"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-monster"
-    },
-    {
-      "id": "@binsoul/node-red-contrib-roller-shutter",
-      "version": "0.0.5",
-      "description": "[![Software License][ico-license]](LICENSE.md)",
-      "updated_at": "2023-02-14T15:22:11.732Z",
-      "types": [
-        "binsoul-roller-shutter"
-      ],
-      "keywords": [
-        "node-red",
-        "roller shutter"
-      ],
-      "url": "https://flows.nodered.org/node/@binsoul/node-red-contrib-roller-shutter"
     },
     {
       "id": "@chvdapi/node-red-pn6400-di",
@@ -1061,23 +1230,6 @@
       "url": "https://flows.nodered.org/node/@chvdapi/node-red-pn6400-do"
     },
     {
-      "id": "@flexdash/node-red-flexdash",
-      "version": "0.4.145",
-      "description": "Node-RED nodes for the FlexDash dashboard",
-      "updated_at": "2023-02-06T20:06:41.445Z",
-      "types": [
-        "flexdash iframe",
-        "flexdash ctrl",
-        "flexdash dev server"
-      ],
-      "keywords": [
-        "flexdash",
-        "dashboard",
-        "node-red"
-      ],
-      "url": "https://flows.nodered.org/node/@flexdash/node-red-flexdash"
-    },
-    {
       "id": "node-red-contrib-ecoflow",
       "version": "0.9.7",
       "description": "Node-RED node to interface with Ecoflow API",
@@ -1185,21 +1337,6 @@
         "vølund"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-nibeuplink"
-    },
-    {
-      "id": "node-red-contrib-victron-modbus",
-      "version": "0.0.2",
-      "description": "Access the Victron equipment via the modbus",
-      "updated_at": "2023-02-05T18:53:58.318Z",
-      "types": [
-        "victron-modbus"
-      ],
-      "keywords": [
-        "node-red",
-        "victron",
-        "modbus"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-victron-modbus"
     },
     {
       "id": "@mschaeffler/node-red-logic",
@@ -1588,23 +1725,6 @@
       "url": "https://flows.nodered.org/node/node-red-contrib-xkeys_rotary"
     },
     {
-      "id": "node-red-contrib-xkeys_led",
-      "version": "0.3.0",
-      "description": "Xkeys LED node for Node-RED using Dynamic Control Data Protocol (DCDP)",
-      "updated_at": "2023-02-02T13:13:07.796Z",
-      "types": [
-        "xkeys_led"
-      ],
-      "keywords": [
-        "X-keys",
-        "Xkeys",
-        "xkeys",
-        "dcdp",
-        "node-red"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-xkeys_led"
-    },
-    {
       "id": "node-red-contrib-xkeys_lcd",
       "version": "0.3.0",
       "description": "Xkeys LCD node for Node-RED usinf Dynamic Control Data Protocol (DCDP)",
@@ -1656,40 +1776,6 @@
       "url": "https://flows.nodered.org/node/node-red-contrib-xkeys_jogshuttle"
     },
     {
-      "id": "node-red-contrib-xkeys_intensity",
-      "version": "0.3.0",
-      "description": "Node-RED node to set intensity Backlight nodes using Dynamic Control Data Protocol (DCDP)",
-      "updated_at": "2023-02-02T12:58:33.821Z",
-      "types": [
-        "xkeys_intensity"
-      ],
-      "keywords": [
-        "X-keys",
-        "Xkeys",
-        "xkeys",
-        "dcdp",
-        "node-red"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-xkeys_intensity"
-    },
-    {
-      "id": "node-red-contrib-xkeys_flashrate",
-      "version": "0.3.0",
-      "description": "Node-RED node to set flashing rate of LED & Backlight nodes using Dynamic Control Data Protocol (DCDP)",
-      "updated_at": "2023-02-02T12:10:21.185Z",
-      "types": [
-        "xkeys_flashrate"
-      ],
-      "keywords": [
-        "X-keys",
-        "Xkeys",
-        "xkeys",
-        "dcdp",
-        "node-red"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-xkeys_flashrate"
-    },
-    {
       "id": "node-red-contrib-xkeys_button",
       "version": "0.3.0",
       "description": "Xkeys button node for Node-RED using DCDP",
@@ -1704,23 +1790,6 @@
         "node-red"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-xkeys_button"
-    },
-    {
-      "id": "node-red-contrib-xkeys_backlight",
-      "version": "0.3.0",
-      "description": "Xkeys Backlight node for Node-RED using Dynamic Cotrol Data Protocol",
-      "updated_at": "2023-02-02T11:37:43.449Z",
-      "types": [
-        "xkeys_backlight"
-      ],
-      "keywords": [
-        "X-keys",
-        "Xkeys",
-        "xkeys",
-        "dcdp",
-        "node-red"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-xkeys_backlight"
     },
     {
       "id": "node-red-node-pusher",
@@ -2376,24 +2445,6 @@
         "smart-contract"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-near-protocol"
-    },
-    {
-      "id": "node-red-contrib-timer",
-      "version": "1.0.5",
-      "description": "timer node",
-      "updated_at": "2023-01-26T23:15:31.623Z",
-      "types": [
-        "timer-node"
-      ],
-      "keywords": [
-        "node-red",
-        "timer",
-        "timing",
-        "sequencing",
-        "duty cycle",
-        "delay"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-timer"
     },
     {
       "id": "node-red-contrib-qsys",
@@ -9694,25 +9745,6 @@
         "gpio"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-button-events"
-    },
-    {
-      "id": "node-red-contrib-openhab3",
-      "version": "1.4.6",
-      "description": "OpenHAB v3 home automation for node-red, forked from node-red-contrib-openhab2 package",
-      "updated_at": "2022-10-02T18:30:39.566Z",
-      "types": [
-        "openhab2-controller2",
-        "openhab2-in2",
-        "openhab2-get2",
-        "openhab2-monitor2",
-        "openhab2-out2",
-        "openhab2-events2"
-      ],
-      "keywords": [
-        "node-red",
-        "openhab3"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-openhab3"
     },
     {
       "id": "node-red-node-ping",
