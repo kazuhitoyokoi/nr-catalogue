@@ -1,0 +1,32 @@
+
+----
+Sending build context to Docker daemon  33.86MB
+Step 1/2 : FROM nodered/node-red
+ ---> a15fc0f4e930
+Step 2/2 : RUN npm install npm install @flexdash/node-red-flexdash@0.4.148
+ ---> Running in 60e85eab35b4
+[91mnpm WARN deprecated sourcemap-codec@1.4.8: Please use @jridgewell/sourcemap-codec instead
+[0m
+added 60 packages, and audited 589 packages in 9s
+
+53 packages are looking for funding
+  run `npm fund` for details
+
+7 vulnerabilities (5 low, 1 moderate, 1 high)
+
+To address issues that do not require attention, run:
+  npm audit fix
+
+To address all issues (including breaking changes), run:
+  npm audit fix --force
+
+Run `npm audit` for details.
+[91mnpm notice 
+npm notice New major version of npm available! 8.11.0 -> 9.5.0
+npm notice Changelog: <https://github.com/npm/cli/releases/tag/v9.5.0>
+npm notice[0m[91m Run `npm install -g npm@9.5.0` to update!
+npm notice 
+[0mRemoving intermediate container 60e85eab35b4
+ ---> ca9af5ae477e
+Successfully built ca9af5ae477e
+Successfully tagged tmp:latest
