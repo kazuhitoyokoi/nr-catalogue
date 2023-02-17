@@ -1,12 +1,85 @@
 {
   "name": "Catalogue for darwin",
-  "updated_at": "2023-02-16T22:01:24.583Z",
+  "updated_at": "2023-02-17T20:14:52.160Z",
   "modules": [
     {
+      "id": "node-red-contrib-alexa-virtual-smarthome",
+      "version": "0.0.33",
+      "description": "Node Red Alexa Smarthome node",
+      "updated_at": "2023-02-17T16:16:11.913Z",
+      "types": [
+        "alexa-adapter",
+        "alexa-device",
+        "alexa-management"
+      ],
+      "keywords": [
+        "alexa",
+        "smarthome",
+        "assistant",
+        "iot",
+        "node-red"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-alexa-virtual-smarthome"
+    },
+    {
+      "id": "@smartdcc/dccboxed-nodered-nodes",
+      "version": "0.1.9",
+      "description": "Collection of nodes for NodeRED to facilitate interfacing with DCC Boxed",
+      "updated_at": "2023-02-17T15:50:13.445Z",
+      "types": [],
+      "keywords": [
+        "node-red",
+        "duis",
+        "gbcs",
+        "front-end",
+        "smartdcc",
+        "smartmeter",
+        "smets2"
+      ],
+      "url": "https://flows.nodered.org/node/@smartdcc/dccboxed-nodered-nodes"
+    },
+    {
+      "id": "node-red-contrib-bigtimer",
+      "version": "2.8.5",
+      "description": "The ultimate Node-Red Timer with dusk, dawn (and variations inc. sunrise, sunset, moonrise and moonset), months, days, manual override, schedule pause, random or fixed offsets, special days and much more. Using STOP now turns the output off.",
+      "updated_at": "2023-02-17T15:39:19.342Z",
+      "types": [
+        "bigtimer"
+      ],
+      "keywords": [
+        "node-red",
+        "bigtimer",
+        "scargill",
+        "timer",
+        "timers",
+        "scheduling",
+        "schedule",
+        "scheduler"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-bigtimer"
+    },
+    {
+      "id": "node-red-contrib-dl-azure-event-hub",
+      "version": "1.3.4",
+      "description": "Send messages to the azure event hub",
+      "updated_at": "2023-02-17T15:31:44.004Z",
+      "types": [
+        "dlEventHubSend"
+      ],
+      "keywords": [
+        "digital-lion",
+        "Azure",
+        "node-red",
+        "EventHub",
+        "SendEvents"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-dl-azure-event-hub"
+    },
+    {
       "id": "@binsoul/node-red-contrib-roller-shutter",
-      "version": "0.0.8",
+      "version": "0.0.10",
       "description": "Control a roller shutter with a sensor for outside illuminance. Optionally use outside and inside temperature for shading during the day and cooling during the night.",
-      "updated_at": "2023-02-16T13:40:04.895Z",
+      "updated_at": "2023-02-17T13:39:00.570Z",
       "types": [
         "binsoul-roller-shutter"
       ],
@@ -15,6 +88,78 @@
         "roller shutter"
       ],
       "url": "https://flows.nodered.org/node/@binsoul/node-red-contrib-roller-shutter"
+    },
+    {
+      "id": "node-red-contrib-brewfather",
+      "version": "2.0.1",
+      "description": "A set of node-red nodes to simplify integration with the Brewfather API",
+      "updated_at": "2023-02-17T13:13:23.255Z",
+      "types": [
+        "brewfather-config",
+        "brewfather-api-request"
+      ],
+      "keywords": [
+        "node-red"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-brewfather"
+    },
+    {
+      "id": "node-red-contrib-openhab3",
+      "version": "1.4.9",
+      "description": "OpenHAB v3 home automation for node-red, forked from node-red-contrib-openhab2 package",
+      "updated_at": "2023-02-17T11:08:02.151Z",
+      "types": [
+        "openhab2-controller2",
+        "openhab2-in2",
+        "openhab2-get2",
+        "openhab2-monitor2",
+        "openhab2-out2",
+        "openhab2-events2"
+      ],
+      "keywords": [
+        "node-red",
+        "openhab3"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-openhab3"
+    },
+    {
+      "id": "node-red-contrib-xkeys_lcd",
+      "version": "0.3.1",
+      "description": "Xkeys LCD node for Node-RED usinf Dynamic Control Data Protocol (DCDP)",
+      "updated_at": "2023-02-16T23:48:46.447Z",
+      "types": [
+        "xkeys_lcd"
+      ],
+      "keywords": [
+        "X-keys",
+        "Xkeys",
+        "xkeys",
+        "dcdp",
+        "node-red"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-xkeys_lcd"
+    },
+    {
+      "id": "node-red-contrib-whatsapp-link",
+      "version": "0.1.35",
+      "description": "Node to send and receive whatsapp messages in groups and chats. | No third party APIs",
+      "updated_at": "2023-02-16T20:49:39.296Z",
+      "types": [
+        "admin",
+        "chats-in",
+        "chats-out",
+        "group-out",
+        "reply",
+        "whatsappLink"
+      ],
+      "keywords": [
+        "node-red",
+        "whatsapp",
+        "message",
+        "whatsapp Group",
+        "whatsapp Chat"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-whatsapp-link"
     },
     {
       "id": "node-red-contrib-xkeys_flashrate",
@@ -152,25 +297,6 @@
       "url": "https://flows.nodered.org/node/@flexdash/node-red-flexdash"
     },
     {
-      "id": "node-red-contrib-openhab3",
-      "version": "1.4.7",
-      "description": "OpenHAB v3 home automation for node-red, forked from node-red-contrib-openhab2 package",
-      "updated_at": "2023-02-15T16:53:32.809Z",
-      "types": [
-        "openhab2-controller2",
-        "openhab2-in2",
-        "openhab2-get2",
-        "openhab2-monitor2",
-        "openhab2-out2",
-        "openhab2-events2"
-      ],
-      "keywords": [
-        "node-red",
-        "openhab3"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-openhab3"
-    },
-    {
       "id": "node-red-contrib-victron-modbus",
       "version": "0.1.1",
       "description": "Access the Victron equipment via the modbus",
@@ -200,20 +326,6 @@
         "node-red"
       ],
       "url": "https://flows.nodered.org/node/nr-discovergy-adapter"
-    },
-    {
-      "id": "node-red-contrib-brewfather",
-      "version": "2.0.0",
-      "description": "A set of node-red nodes to simplify integration with the Brewfather API",
-      "updated_at": "2023-02-15T10:40:54.255Z",
-      "types": [
-        "brewfather-config",
-        "brewfather-api-request"
-      ],
-      "keywords": [
-        "node-red"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-brewfather"
     },
     {
       "id": "node-red-contrib-xkeys_setunitid",
@@ -327,28 +439,6 @@
         "weekdays"
       ],
       "url": "https://flows.nodered.org/node/@tataille/node-red-french-holidays"
-    },
-    {
-      "id": "node-red-contrib-whatsapp-link",
-      "version": "0.1.34-A",
-      "description": "Node to send and receive whatsapp messages in groups and chats. | No third party APIs",
-      "updated_at": "2023-02-13T18:35:22.540Z",
-      "types": [
-        "admin",
-        "chats-in",
-        "chats-out",
-        "group-out",
-        "reply",
-        "whatsappLink"
-      ],
-      "keywords": [
-        "node-red",
-        "whatsapp",
-        "message",
-        "whatsapp Group",
-        "whatsapp Chat"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-whatsapp-link"
     },
     {
       "id": "cloud4machine-cloud-nodered",
@@ -1762,23 +1852,6 @@
       "url": "https://flows.nodered.org/node/node-red-contrib-xkeys_rotary"
     },
     {
-      "id": "node-red-contrib-xkeys_lcd",
-      "version": "0.3.0",
-      "description": "Xkeys LCD node for Node-RED usinf Dynamic Control Data Protocol (DCDP)",
-      "updated_at": "2023-02-02T13:11:06.055Z",
-      "types": [
-        "xkeys_lcd"
-      ],
-      "keywords": [
-        "X-keys",
-        "Xkeys",
-        "xkeys",
-        "dcdp",
-        "node-red"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-xkeys_lcd"
-    },
-    {
       "id": "node-red-contrib-xkeys_joystick",
       "version": "0.3.0",
       "description": "Xkeys joystick node for Node-RED using DCD Protocol",
@@ -1878,24 +1951,6 @@
       "url": "https://flows.nodered.org/node/node-red-contrib-hikvision-ultimate"
     },
     {
-      "id": "node-red-contrib-alexa-virtual-smarthome",
-      "version": "0.0.32",
-      "description": "Node Red Alexa Smarthome node",
-      "updated_at": "2023-02-02T08:31:48.371Z",
-      "types": [
-        "alexa-adapter",
-        "alexa-device"
-      ],
-      "keywords": [
-        "alexa",
-        "smarthome",
-        "assistant",
-        "iot",
-        "node-red"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-alexa-virtual-smarthome"
-    },
-    {
       "id": "energyprofiles",
       "version": "1.0.2",
       "description": "Tools for standard energy generation/consumption profil generation.",
@@ -1953,23 +2008,6 @@
         "node-red"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-zigbee2mqtt"
-    },
-    {
-      "id": "@smartdcc/dccboxed-nodered-nodes",
-      "version": "0.1.8",
-      "description": "Collection of nodes for NodeRED to facilitate interfacing with DCC Boxed",
-      "updated_at": "2023-02-01T14:20:45.865Z",
-      "types": [],
-      "keywords": [
-        "node-red",
-        "duis",
-        "gbcs",
-        "front-end",
-        "smartdcc",
-        "smartmeter",
-        "smets2"
-      ],
-      "url": "https://flows.nodered.org/node/@smartdcc/dccboxed-nodered-nodes"
     },
     {
       "id": "@digitalnodecom/node-red-contrib-generic-s3",
@@ -11138,26 +11176,6 @@
         "volume"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-unit-converter"
-    },
-    {
-      "id": "node-red-contrib-bigtimer",
-      "version": "2.8.3",
-      "description": "The ultimate Node-Red Timer with dusk, dawn (and variations inc. sunrise, sunset, moonrise and moonset), months, days, manual override, schedule pause, random or fixed offsets, special days and much more. Using STOP now turns the output off",
-      "updated_at": "2022-09-06T15:50:08.992Z",
-      "types": [
-        "bigtimer"
-      ],
-      "keywords": [
-        "node-red",
-        "bigtimer",
-        "scargill",
-        "timer",
-        "timers",
-        "scheduling",
-        "schedule",
-        "scheduler"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-bigtimer"
     },
     {
       "id": "node-red-contrib-tplink-tapo-connect-api",
@@ -36057,23 +36075,6 @@
         "msnodesqlv8"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-msnodesql"
-    },
-    {
-      "id": "node-red-contrib-dl-azure-event-hub",
-      "version": "1.2.6",
-      "description": "Send messages to the azure event hub",
-      "updated_at": "2020-12-01T11:10:46.672Z",
-      "types": [
-        "dlEventHubSend"
-      ],
-      "keywords": [
-        "digital-lion",
-        "Azure",
-        "node-red",
-        "EventHub",
-        "SendEvents"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-dl-azure-event-hub"
     },
     {
       "id": "node-red-contrib-edge-impulse",
