@@ -1,7 +1,141 @@
 {
   "name": "Catalogue for win32",
-  "updated_at": "2023-02-17T18:37:43.773Z",
+  "updated_at": "2023-02-18T18:01:45.555Z",
   "modules": [
+    {
+      "id": "node-red-contrib-whatsapp-link",
+      "version": "0.1.36",
+      "description": "Node to send and receive whatsapp messages in groups and chats. | No third party APIs",
+      "updated_at": "2023-02-18T12:55:58.360Z",
+      "types": [
+        "admin",
+        "chats-in",
+        "chats-out",
+        "group-out",
+        "reply",
+        "whatsappLink"
+      ],
+      "keywords": [
+        "node-red",
+        "whatsapp",
+        "message",
+        "whatsapp Group",
+        "whatsapp Chat"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-whatsapp-link"
+    },
+    {
+      "id": "node-red-contrib-virtual-smart-home",
+      "version": "3.0.8",
+      "description": "A Node-RED node that represents a 'virtual device' which can be controlled via Alexa. Requires the virtual smart home skill to be enabled for your Amazon account.",
+      "updated_at": "2023-02-18T12:24:33.871Z",
+      "types": [
+        "vsh-connection",
+        "vsh-virtual-device"
+      ],
+      "keywords": [
+        "Alexa",
+        "Echo",
+        "smart-home",
+        "node-red",
+        "virtual smart home",
+        "virtual device",
+        "vsh"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-virtual-smart-home"
+    },
+    {
+      "id": "node-red-contrib-letsfiware-ngsi",
+      "version": "0.9.0",
+      "description": "Node-RED implementation for FIWARE Open APIs",
+      "updated_at": "2023-02-18T11:05:20.767Z",
+      "types": [
+        "NGSI Entity",
+        "NGSI source",
+        "NGSI Attributes",
+        "NGSI Attribute",
+        "NGSI Attribute value",
+        "NGSI Batch update",
+        "NGSI subscription",
+        "NGSI registration",
+        "NGSI Types",
+        "GTFS Realtime to NGSI",
+        "NGSI to worldmap",
+        "FIWARE version",
+        "Historical Context",
+        "NGSI to dashboard",
+        "Open APIs"
+      ],
+      "keywords": [
+        "node-red",
+        "contrib",
+        "fiware",
+        "ngsi",
+        "context",
+        "process",
+        "data",
+        "json"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-letsfiware-ngsi"
+    },
+    {
+      "id": "node-red-contrib-amazon-echo-theukshadow",
+      "version": "0.1.13",
+      "description": "Alexa controlled Node-Red nodes supporting latest Amazon Echo devices",
+      "updated_at": "2023-02-18T10:46:17.323Z",
+      "types": [
+        "amazon-echo-hub",
+        "amazon-echo-device"
+      ],
+      "keywords": [
+        "node-red",
+        "amazon",
+        "echo",
+        "alexa",
+        "phillips",
+        "hue",
+        "emulator"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-amazon-echo-theukshadow"
+    },
+    {
+      "id": "@aeroniemi/node-red-xled",
+      "version": "2.1.2",
+      "description": "Node-Red nodes for controlling the brightness/colour of Twinkly lights",
+      "updated_at": "2023-02-17T22:53:58.087Z",
+      "types": [
+        "xled-server",
+        "set-brightness",
+        "set-colour-rgb",
+        "set-colour-hsv"
+      ],
+      "keywords": [
+        "node-red",
+        "xled",
+        "twinkly",
+        "led",
+        "lights",
+        "christmas"
+      ],
+      "url": "https://flows.nodered.org/node/@aeroniemi/node-red-xled"
+    },
+    {
+      "id": "nr-discovergy-adapter",
+      "version": "0.5.3",
+      "description": "Node-RED Adapter for Discovergy Meters",
+      "updated_at": "2023-02-17T22:26:46.579Z",
+      "types": [
+        "discovergy-api",
+        "Last Reading",
+        "Historic Reading"
+      ],
+      "keywords": [
+        "discovergy",
+        "smartmeter",
+        "node-red"
+      ],
+      "url": "https://flows.nodered.org/node/nr-discovergy-adapter"
+    },
     {
       "id": "node-red-contrib-alexa-virtual-smarthome",
       "version": "0.0.33",
@@ -138,28 +272,6 @@
         "node-red"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-xkeys_lcd"
-    },
-    {
-      "id": "node-red-contrib-whatsapp-link",
-      "version": "0.1.35",
-      "description": "Node to send and receive whatsapp messages in groups and chats. | No third party APIs",
-      "updated_at": "2023-02-16T20:49:39.296Z",
-      "types": [
-        "admin",
-        "chats-in",
-        "chats-out",
-        "group-out",
-        "reply",
-        "whatsappLink"
-      ],
-      "keywords": [
-        "node-red",
-        "whatsapp",
-        "message",
-        "whatsapp Group",
-        "whatsapp Chat"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-whatsapp-link"
     },
     {
       "id": "node-red-contrib-xkeys_flashrate",
@@ -312,22 +424,6 @@
       "url": "https://flows.nodered.org/node/node-red-contrib-victron-modbus"
     },
     {
-      "id": "nr-discovergy-adapter",
-      "version": "0.5.2",
-      "description": "Node-RED Adapter for Discovergy Meters",
-      "updated_at": "2023-02-15T14:01:28.448Z",
-      "types": [
-        "Last Reading",
-        "Historic Reading"
-      ],
-      "keywords": [
-        "discovergy",
-        "smartmeter",
-        "node-red"
-      ],
-      "url": "https://flows.nodered.org/node/nr-discovergy-adapter"
-    },
-    {
       "id": "node-red-contrib-xkeys_setunitid",
       "version": "0.3.3",
       "description": "Xkeys Set Unit ID node for Node-RED using Dynamic Control Data Protocol (DCDP)",
@@ -389,38 +485,6 @@
         "node-red"
       ],
       "url": "https://flows.nodered.org/node/@chvdapi/node-red-pn6400-di"
-    },
-    {
-      "id": "node-red-contrib-letsfiware-ngsi",
-      "version": "0.8.0",
-      "description": "Node-RED implementation for FIWARE Open APIs",
-      "updated_at": "2023-02-14T01:43:51.105Z",
-      "types": [
-        "NGSI Entity",
-        "NGSI source",
-        "NGSI Attributes",
-        "NGSI Attribute",
-        "NGSI Attribute value",
-        "NGSI Batch update",
-        "NGSI subscription",
-        "GTFS Realtime to NGSI",
-        "NGSI to worldmap",
-        "FIWARE version",
-        "Historical Context",
-        "NGSI to dashboard",
-        "Open APIs"
-      ],
-      "keywords": [
-        "node-red",
-        "contrib",
-        "fiware",
-        "ngsi",
-        "context",
-        "process",
-        "data",
-        "json"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-letsfiware-ngsi"
     },
     {
       "id": "@tataille/node-red-french-holidays",
@@ -4872,26 +4936,6 @@
         "node-red"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-iosense-queryv2"
-    },
-    {
-      "id": "node-red-contrib-virtual-smart-home",
-      "version": "3.0.7",
-      "description": "A Node-RED node that represents a 'virtual device' which can be controlled via Alexa. Requires the virtual smart home skill to be enabled for your Amazon account.",
-      "updated_at": "2022-12-27T11:39:02.703Z",
-      "types": [
-        "vsh-connection",
-        "vsh-virtual-device"
-      ],
-      "keywords": [
-        "Alexa",
-        "Echo",
-        "smart-home",
-        "node-red",
-        "virtual smart home",
-        "virtual device",
-        "vsh"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-virtual-smart-home"
     },
     {
       "id": "node-red-contrib-polkadot",
