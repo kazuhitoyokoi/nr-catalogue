@@ -1,12 +1,111 @@
 {
   "name": "Catalogue for win32",
-  "updated_at": "2023-02-18T18:01:45.555Z",
+  "updated_at": "2023-02-19T19:25:18.379Z",
   "modules": [
     {
+      "id": "node-red-contrib-shelly",
+      "version": "10.13.0",
+      "description": "Shelly nodes.",
+      "updated_at": "2023-02-19T14:35:27.672Z",
+      "types": [
+        "shelly-gen1-server",
+        "shelly-gen1",
+        "shelly-gen2-server",
+        "shelly-gen2",
+        "shelly-cloud-server",
+        "shelly-cloud"
+      ],
+      "keywords": [
+        "node-red",
+        "shelly"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-shelly"
+    },
+    {
+      "id": "node-red-contrib-unide-ppmp",
+      "version": "1.1.2",
+      "description": "The Production Performance Management Protocol (PPMP) is a communication protocol for exchanging production-related data between industrial automation systems. It helps improve efficiency, reduce downtime, and enhance product quality by providing a standa",
+      "updated_at": "2023-02-19T13:34:59.041Z",
+      "types": [],
+      "keywords": [
+        "node-red",
+        "ppmp",
+        "unide",
+        "bosch"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-unide-ppmp"
+    },
+    {
+      "id": "node-red-contrib-wmi",
+      "version": "0.2.6",
+      "description": "Node-RED node for wmi",
+      "updated_at": "2023-02-19T13:22:21.668Z",
+      "types": [],
+      "keywords": [
+        "node-red-nodegen",
+        "node-red",
+        "wmi",
+        "windows"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-wmi"
+    },
+    {
+      "id": "node-red-mysql-r2",
+      "version": "1.0.0",
+      "description": "A Node-RED node that allows you to execute MySQL queries against a specified database table.",
+      "updated_at": "2023-02-19T02:52:55.530Z",
+      "types": [
+        "mysql-r2"
+      ],
+      "keywords": [
+        "node-red",
+        "mysql",
+        "database"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-mysql-r2"
+    },
+    {
+      "id": "node-red-contrib-virtual-smart-home",
+      "version": "3.0.9",
+      "description": "A Node-RED node that represents a 'virtual device' which can be controlled via Alexa. Requires the virtual smart home skill to be enabled for your Amazon account.",
+      "updated_at": "2023-02-18T21:52:10.361Z",
+      "types": [
+        "vsh-connection",
+        "vsh-virtual-device"
+      ],
+      "keywords": [
+        "Alexa",
+        "Echo",
+        "smart-home",
+        "node-red",
+        "virtual smart home",
+        "virtual device",
+        "vsh"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-virtual-smart-home"
+    },
+    {
+      "id": "node-red-contrib-unifi",
+      "version": "0.2.13",
+      "description": "Node for Node-RED to connect to a UniFi Controller ",
+      "updated_at": "2023-02-18T19:32:31.219Z",
+      "types": [
+        "unificonfig",
+        "Unifi"
+      ],
+      "keywords": [
+        "node-red",
+        "unifi",
+        "ubnt",
+        "Ubiquiti Networks"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-unifi"
+    },
+    {
       "id": "node-red-contrib-whatsapp-link",
-      "version": "0.1.36",
+      "version": "0.1.36-A",
       "description": "Node to send and receive whatsapp messages in groups and chats. | No third party APIs",
-      "updated_at": "2023-02-18T12:55:58.360Z",
+      "updated_at": "2023-02-18T19:01:03.962Z",
       "types": [
         "admin",
         "chats-in",
@@ -23,26 +122,6 @@
         "whatsapp Chat"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-whatsapp-link"
-    },
-    {
-      "id": "node-red-contrib-virtual-smart-home",
-      "version": "3.0.8",
-      "description": "A Node-RED node that represents a 'virtual device' which can be controlled via Alexa. Requires the virtual smart home skill to be enabled for your Amazon account.",
-      "updated_at": "2023-02-18T12:24:33.871Z",
-      "types": [
-        "vsh-connection",
-        "vsh-virtual-device"
-      ],
-      "keywords": [
-        "Alexa",
-        "Echo",
-        "smart-home",
-        "node-red",
-        "virtual smart home",
-        "virtual device",
-        "vsh"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-virtual-smart-home"
     },
     {
       "id": "node-red-contrib-letsfiware-ngsi",
@@ -2038,20 +2117,6 @@
         "node-red"
       ],
       "url": "https://flows.nodered.org/node/energyprofiles"
-    },
-    {
-      "id": "node-red-contrib-unide-ppmp",
-      "version": "1.0.0",
-      "description": "[![platform](https://img.shields.io/badge/platform-Node--RED-red)](https://nodered.org) ![NPM](https://img.shields.io/npm/l/node-red-dashboard)",
-      "updated_at": "2023-02-01T20:38:14.365Z",
-      "types": [],
-      "keywords": [
-        "node-red",
-        "ppmp",
-        "unide",
-        "bosch"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-unide-ppmp"
     },
     {
       "id": "node-red-contrib-zigbee2mqtt",
@@ -4242,23 +4307,6 @@
       "url": "https://flows.nodered.org/node/node-red-contrib-meross"
     },
     {
-      "id": "node-red-contrib-unifi",
-      "version": "0.2.12",
-      "description": "Node for Node-RED to connect to a UniFi Controller ",
-      "updated_at": "2023-01-06T12:27:54.934Z",
-      "types": [
-        "unificonfig",
-        "Unifi"
-      ],
-      "keywords": [
-        "node-red",
-        "unifi",
-        "ubnt",
-        "Ubiquiti Networks"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-unifi"
-    },
-    {
       "id": "node-red-mocknode",
       "version": "0.1.6",
       "description": "A Node-RED node to gen Data by mockjs",
@@ -4846,25 +4894,6 @@
         "node-red"
       ],
       "url": "https://flows.nodered.org/node/@vital91/node-red-contrib-ecowatt"
-    },
-    {
-      "id": "node-red-contrib-shelly",
-      "version": "10.12.0",
-      "description": "Shelly nodes.",
-      "updated_at": "2022-12-28T15:55:22.982Z",
-      "types": [
-        "shelly-gen1-server",
-        "shelly-gen1",
-        "shelly-gen2-server",
-        "shelly-gen2",
-        "shelly-cloud-server",
-        "shelly-cloud"
-      ],
-      "keywords": [
-        "node-red",
-        "shelly"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-shelly"
     },
     {
       "id": "node-red-contrib-huemagic-fork",
@@ -17385,20 +17414,6 @@
         "stream"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-sse-client"
-    },
-    {
-      "id": "node-red-contrib-wmi",
-      "version": "0.2.2",
-      "description": "Node-RED node for wmi",
-      "updated_at": "2022-04-09T07:44:31.989Z",
-      "types": [],
-      "keywords": [
-        "node-red-nodegen",
-        "node-red",
-        "wmi",
-        "windows"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-wmi"
     },
     {
       "id": "node-red-contrib-interval-length",
