@@ -1,7 +1,249 @@
 {
   "name": "Catalogue for verified nodes",
-  "updated_at": "2023-02-20T21:28:33.596Z",
+  "updated_at": "2023-02-21T22:53:57.293Z",
   "modules": [
+    {
+      "id": "node-red-contrib-iiot-rpi-pcf857x",
+      "version": "1.0.21",
+      "description": "A Node-Red node for pcf8574(A), pcf8575, pcf8574(A) + hd44780-LCD",
+      "updated_at": "2023-02-21T13:58:47.925Z",
+      "types": [
+        "pcf857x-in",
+        "pcf857x-out",
+        "hd44780",
+        "__errors__",
+        "hd44780-b",
+        "__errors__"
+      ],
+      "keywords": [
+        "node-red",
+        "raspberry pi",
+        "rpi",
+        "pcf8574",
+        "pcf8575",
+        "hd44780",
+        "iot",
+        "iiot",
+        "digital",
+        "dio",
+        "display",
+        "lcd",
+        "1602",
+        "2004"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-iiot-rpi-pcf857x"
+    },
+    {
+      "id": "node-red-contrib-letsfiware-ngsi",
+      "version": "0.10.0",
+      "description": "Node-RED implementation for FIWARE Open APIs",
+      "updated_at": "2023-02-21T12:23:41.553Z",
+      "types": [
+        "NGSI Entity",
+        "NGSI Attributes",
+        "NGSI Attribute",
+        "NGSI Attribute value",
+        "NGSI source",
+        "NGSI Batch update",
+        "NGSI subscription",
+        "NGSI registration",
+        "NGSI Types",
+        "Service and ServicePath",
+        "GTFS Realtime to NGSI",
+        "NGSI to worldmap",
+        "NGSI to dashboard",
+        "FIWARE version",
+        "Historical Context",
+        "NGSI timeseries",
+        "Open APIs"
+      ],
+      "keywords": [
+        "node-red",
+        "contrib",
+        "fiware",
+        "ngsi",
+        "context",
+        "process",
+        "data",
+        "json"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-letsfiware-ngsi"
+    },
+    {
+      "id": "node-red-contrib-epi-aws-s3",
+      "version": "0.0.1",
+      "description": "EpiSensor node to download files from an Amazon S3 bucket",
+      "updated_at": "2023-02-21T11:56:53.116Z",
+      "types": [
+        "epi-aws-s3",
+        "epi-aws-config"
+      ],
+      "keywords": [
+        "episensor",
+        "node-red",
+        "aws",
+        "s3"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-epi-aws-s3"
+    },
+    {
+      "id": "node-red-contrib-xkeys_jogshuttle",
+      "version": "0.3.1",
+      "description": "Xkeys jog & shuttle node for Node-RED using DCD Protocol (DCDP)",
+      "updated_at": "2023-02-21T11:22:23.435Z",
+      "types": [
+        "xkeys_jogshuttle"
+      ],
+      "keywords": [
+        "DCDP",
+        "X-keys",
+        "Xkeys",
+        "xkeys",
+        "node-red"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-xkeys_jogshuttle"
+    },
+    {
+      "id": "@nd-enerserve/node-red-smartpi",
+      "version": "0.2.0",
+      "description": "nodes for the smartpi",
+      "updated_at": "2023-02-21T10:28:29.772Z",
+      "types": [
+        "smartpi-values",
+        "smartpi-input",
+        "smartpi-treshold-trigger",
+        "smartpi-e.temperature-values",
+        "smartpi-e.digital-out"
+      ],
+      "keywords": [
+        "node-red",
+        "smartpi"
+      ],
+      "url": "https://flows.nodered.org/node/@nd-enerserve/node-red-smartpi"
+    },
+    {
+      "id": "node-red-contrib-persistent-global-context",
+      "version": "1.0.0",
+      "description": "Writes all data stored in Global Context to a to local filesystem to keep program data between Node-Red instance deployments and restarts.",
+      "updated_at": "2023-02-21T10:16:11.537Z",
+      "types": [],
+      "keywords": [
+        "node-red",
+        "persistent global context",
+        "context",
+        "local context storage"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-persistent-global-context"
+    },
+    {
+      "id": "@neogramm/node-red-automation-kit",
+      "version": "0.2.0",
+      "description": "Connect to the neogramm automationKit",
+      "updated_at": "2023-02-21T08:33:42.439Z",
+      "types": [
+        "AlarmValue",
+        "DataPointValue",
+        "CreateAlarmDefinition",
+        "CreateDataPointDefinition",
+        "CreateModule"
+      ],
+      "keywords": [
+        "node-red",
+        "iot",
+        "neogramm",
+        "automationKit",
+        "iiot"
+      ],
+      "url": "https://flows.nodered.org/node/@neogramm/node-red-automation-kit"
+    },
+    {
+      "id": "@bitpoolos/edge-bacnet",
+      "version": "1.1.0",
+      "description": "A bacnet gateway for node-red",
+      "updated_at": "2023-02-21T02:50:05.209Z",
+      "types": [
+        "Bacnet-Gateway",
+        "Bacnet-Discovery",
+        "Bacnet-Write",
+        "Bitpool-Bacnet-Object",
+        "Bitpool-Inject"
+      ],
+      "keywords": [
+        "node-red",
+        "bitpool",
+        "bitpoolos",
+        "edge",
+        "big data",
+        "iot",
+        "BACnet"
+      ],
+      "url": "https://flows.nodered.org/node/@bitpoolos/edge-bacnet"
+    },
+    {
+      "id": "nrc-elasticsearch-nodes",
+      "version": "0.2.0",
+      "description": "A set of Node-RED contributed (NRC) nodes for Elasticsearch including search, get, exists, create, update, delete, tail.",
+      "updated_at": "2023-02-20T22:32:10.116Z",
+      "types": [
+        "es-search",
+        "es-create",
+        "es-index",
+        "es-exists",
+        "es-update",
+        "es-delete",
+        "es-get",
+        "es-tail",
+        "es-connection"
+      ],
+      "keywords": [
+        "node-red",
+        "elasticsearch"
+      ],
+      "url": "https://flows.nodered.org/node/nrc-elasticsearch-nodes"
+    },
+    {
+      "id": "@flexdash/node-red-flexdash",
+      "version": "0.4.154",
+      "description": "Node-RED nodes for the FlexDash dashboard",
+      "updated_at": "2023-02-20T21:36:15.948Z",
+      "types": [
+        "flexdash iframe",
+        "flexdash ctrl",
+        "flexdash dev server"
+      ],
+      "keywords": [
+        "flexdash",
+        "dashboard",
+        "node-red"
+      ],
+      "url": "https://flows.nodered.org/node/@flexdash/node-red-flexdash"
+    },
+    {
+      "id": "node-red-contrib-json-tool",
+      "version": "1.12.0",
+      "description": "Personal Node for testing a perfome a specific tasks. Not for Public Use.",
+      "updated_at": "2023-02-20T17:38:20.922Z",
+      "types": [
+        "json-tool"
+      ],
+      "keywords": [
+        "node-red"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-json-tool"
+    },
+    {
+      "id": "node-red-contrib-airship-centegra",
+      "version": "0.1.1",
+      "description": "Centegra to Airship basket integration",
+      "updated_at": "2023-02-20T17:13:55.239Z",
+      "types": [
+        "centegra"
+      ],
+      "keywords": [
+        "node-red"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-airship-centegra"
+    },
     {
       "id": "@victronenergy/node-red-contrib-victron",
       "version": "1.4.28",
@@ -280,40 +522,6 @@
       "url": "https://flows.nodered.org/node/node-red-contrib-whatsapp-link"
     },
     {
-      "id": "node-red-contrib-letsfiware-ngsi",
-      "version": "0.9.0",
-      "description": "Node-RED implementation for FIWARE Open APIs",
-      "updated_at": "2023-02-18T11:05:20.767Z",
-      "types": [
-        "NGSI Entity",
-        "NGSI source",
-        "NGSI Attributes",
-        "NGSI Attribute",
-        "NGSI Attribute value",
-        "NGSI Batch update",
-        "NGSI subscription",
-        "NGSI registration",
-        "NGSI Types",
-        "GTFS Realtime to NGSI",
-        "NGSI to worldmap",
-        "FIWARE version",
-        "Historical Context",
-        "NGSI to dashboard",
-        "Open APIs"
-      ],
-      "keywords": [
-        "node-red",
-        "contrib",
-        "fiware",
-        "ngsi",
-        "context",
-        "process",
-        "data",
-        "json"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-letsfiware-ngsi"
-    },
-    {
       "id": "node-red-contrib-amazon-echo-theukshadow",
       "version": "0.1.13",
       "description": "Alexa controlled Node-Red nodes supporting latest Amazon Echo devices",
@@ -579,23 +787,6 @@
       "url": "https://flows.nodered.org/node/node-red-contrib-df1-gateway"
     },
     {
-      "id": "@flexdash/node-red-flexdash",
-      "version": "0.4.148",
-      "description": "Node-RED nodes for the FlexDash dashboard",
-      "updated_at": "2023-02-15T19:44:01.801Z",
-      "types": [
-        "flexdash iframe",
-        "flexdash ctrl",
-        "flexdash dev server"
-      ],
-      "keywords": [
-        "flexdash",
-        "dashboard",
-        "node-red"
-      ],
-      "url": "https://flows.nodered.org/node/@flexdash/node-red-flexdash"
-    },
-    {
       "id": "node-red-contrib-victron-modbus",
       "version": "0.1.1",
       "description": "Access the Victron equipment via the modbus",
@@ -690,24 +881,6 @@
         "weekdays"
       ],
       "url": "https://flows.nodered.org/node/@tataille/node-red-french-holidays"
-    },
-    {
-      "id": "@nd-enerserve/node-red-smartpi",
-      "version": "0.1.8",
-      "description": "nodes for the smartpi",
-      "updated_at": "2023-02-13T15:54:49.731Z",
-      "types": [
-        "smartpi-values",
-        "smartpi-input",
-        "smartpi-treshold-trigger",
-        "smartpi-e.temperature-values",
-        "smartpi-e.digital-out"
-      ],
-      "keywords": [
-        "node-red",
-        "smartpi"
-      ],
-      "url": "https://flows.nodered.org/node/@nd-enerserve/node-red-smartpi"
     },
     {
       "id": "cloud4machine-cloud-nodered",
@@ -2099,23 +2272,6 @@
         "node-red"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-xkeys_joystick"
-    },
-    {
-      "id": "node-red-contrib-xkeys_jogshuttle",
-      "version": "0.3.0",
-      "description": "Xkeys jog & shuttle node for Node-RED using DCD Protocol",
-      "updated_at": "2023-02-02T13:03:11.008Z",
-      "types": [
-        "xkeys_jogshuttle"
-      ],
-      "keywords": [
-        "DCDP",
-        "X-keys",
-        "Xkeys",
-        "xkeys",
-        "node-red"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-xkeys_jogshuttle"
     },
     {
       "id": "node-red-contrib-xkeys_button",
@@ -3580,35 +3736,6 @@
         "watt prices"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-nordpool-api-plus"
-    },
-    {
-      "id": "node-red-contrib-iiot-rpi-pcf857x",
-      "version": "1.0.20",
-      "description": "A Node-Red node for pcf8574(A), pcf8575, pcf8574(A) + hd44780-LCD",
-      "updated_at": "2023-01-14T17:52:11.613Z",
-      "types": [
-        "pcf857x-in",
-        "pcf857x-out",
-        "hd44780",
-        "__errors__"
-      ],
-      "keywords": [
-        "node-red",
-        "raspberry pi",
-        "rpi",
-        "pcf8574",
-        "pcf8575",
-        "hd44780",
-        "iot",
-        "iiot",
-        "digital",
-        "dio",
-        "display",
-        "lcd",
-        "1602",
-        "2004"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-iiot-rpi-pcf857x"
     },
     {
       "id": "@mschaeffler/node-red-dualled",
@@ -5170,29 +5297,6 @@
         "video"
       ],
       "url": "https://flows.nodered.org/node/@kevingodell/node-red-ui-mp4frag"
-    },
-    {
-      "id": "@bitpoolos/edge-bacnet",
-      "version": "1.0.9",
-      "description": "A bacnet gateway for node-red",
-      "updated_at": "2022-12-23T02:53:30.488Z",
-      "types": [
-        "Bacnet-Gateway",
-        "Bacnet-Discovery",
-        "Bacnet-Write",
-        "Bitpool-Bacnet-Object",
-        "Bitpool-Inject"
-      ],
-      "keywords": [
-        "node-red",
-        "bitpool",
-        "bitpoolos",
-        "edge",
-        "big data",
-        "iot",
-        "BACnet"
-      ],
-      "url": "https://flows.nodered.org/node/@bitpoolos/edge-bacnet"
     },
     {
       "id": "node-red-contrib-ale-iot-hub",
