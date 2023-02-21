@@ -1,0 +1,31 @@
+
+----
+Sending build context to Docker daemon  33.03MB
+Step 1/2 : FROM nodered/node-red
+ ---> a15fc0f4e930
+Step 2/2 : RUN npm install npm install node-red-contrib-letsfiware-ngsi@0.10.0
+ ---> Running in ac1e48b441f7
+
+added 70 packages, and audited 599 packages in 8s
+
+53 packages are looking for funding
+  run `npm fund` for details
+
+7 vulnerabilities (5 low, 1 moderate, 1 high)
+
+To address issues that do not require attention, run:
+  npm audit fix
+
+To address all issues (including breaking changes), run:
+  npm audit fix --force
+
+Run `npm audit` for details.
+[91mnpm[0m[91m [0m[91mnotice[0m[91m 
+[0m[91mnpm[0m[91m [0m[91mnotice[0m[91m New major version of npm available! 8.11.0 -> 9.5.0
+[0m[91mnpm[0m[91m [0m[91mnotice[0m[91m Changelog: <https://github.com/npm/cli/releases/tag/v9.5.0>
+[0m[91mnpm[0m[91m [0m[91mnotice[0m[91m Run `npm install -g npm@9.5.0` to update!
+[0m[91mnpm[0m[91m [0m[91mnotice[0m[91m 
+[0mRemoving intermediate container ac1e48b441f7
+ ---> c48e27df0345
+Successfully built c48e27df0345
+Successfully tagged tmp:latest
