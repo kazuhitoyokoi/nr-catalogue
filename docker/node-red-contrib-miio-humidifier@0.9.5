@@ -1,0 +1,35 @@
+
+----
+Sending build context to Docker daemon  34.18MB
+Step 1/2 : FROM nodered/node-red
+ ---> a15fc0f4e930
+Step 2/2 : RUN npm install npm install node-red-contrib-miio-humidifier@0.9.5
+ ---> Running in acb919da5c99
+[91mnpm[0m[91m WARN deprecated appdirectory@0.1.0: Package no longer supported. Contact Support at https://www.npmjs.com/support for more info.
+[0m
+added 101 packages, and audited 630 packages in 6s
+
+60 packages are looking for funding
+  run `npm fund` for details
+
+13 vulnerabilities (5 low, 7 moderate, 1 high)
+
+To address issues that do not require attention, run:
+  npm audit fix
+
+To address all issues possible (including breaking changes), run:
+  npm audit fix --force
+
+Some issues need review, and may require choosing
+a different dependency.
+
+Run `npm audit` for details.
+[91mnpm notice 
+npm notice New major version of npm available! 8.11.0 -> 9.5.0
+npm notice Changelog: <https://github.com/npm/cli/releases/tag/v9.5.0>
+npm notice Run `npm install -g npm@9.5.0` to update!
+npm notice 
+[0mRemoving intermediate container acb919da5c99
+ ---> b2e653693df3
+Successfully built b2e653693df3
+Successfully tagged tmp:latest
