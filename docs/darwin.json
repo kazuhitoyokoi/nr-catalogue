@@ -1,7 +1,123 @@
 {
   "name": "Catalogue for darwin",
-  "updated_at": "2023-02-21T22:53:34.141Z",
+  "updated_at": "2023-02-22T20:44:28.142Z",
   "modules": [
+    {
+      "id": "@virtualbat/esios-client",
+      "version": "1.2.1",
+      "description": "Utility node to get pmh and pvpc readings.",
+      "updated_at": "2023-02-22T19:00:12.433Z",
+      "types": [
+        "esios-api-client"
+      ],
+      "keywords": [
+        "node-red",
+        "esios",
+        "rest",
+        "client"
+      ],
+      "url": "https://flows.nodered.org/node/@virtualbat/esios-client"
+    },
+    {
+      "id": "@nd-enerserve/node-red-smartpi",
+      "version": "0.2.2",
+      "description": "nodes for the smartpi",
+      "updated_at": "2023-02-22T14:20:01.022Z",
+      "types": [
+        "smartpi-values",
+        "smartpi-input",
+        "smartpi-treshold-trigger",
+        "smartpi-e.temperature-values",
+        "smartpi-e.digital-out"
+      ],
+      "keywords": [
+        "node-red",
+        "smartpi"
+      ],
+      "url": "https://flows.nodered.org/node/@nd-enerserve/node-red-smartpi"
+    },
+    {
+      "id": "node-red-contrib-motechat",
+      "version": "2.5.0",
+      "description": "ultranet topic and payload communication",
+      "updated_at": "2023-02-22T05:29:04.786Z",
+      "types": [
+        "send",
+        "call",
+        "onEvent",
+        "retEvent",
+        "payload",
+        "js",
+        "set",
+        "object",
+        "xobj",
+        "xstorage"
+      ],
+      "keywords": [
+        "node-red",
+        "motechat",
+        "motebus",
+        "ultranet",
+        "ypcloud"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-motechat"
+    },
+    {
+      "id": "@bitpoolos/edge-bacnet",
+      "version": "1.1.1",
+      "description": "A bacnet gateway for node-red",
+      "updated_at": "2023-02-22T04:54:52.746Z",
+      "types": [
+        "Bacnet-Gateway",
+        "Bacnet-Discovery",
+        "Bacnet-Write",
+        "Bitpool-Bacnet-Object",
+        "Bitpool-Inject"
+      ],
+      "keywords": [
+        "node-red",
+        "bitpool",
+        "bitpoolos",
+        "edge",
+        "big data",
+        "iot",
+        "BACnet"
+      ],
+      "url": "https://flows.nodered.org/node/@bitpoolos/edge-bacnet"
+    },
+    {
+      "id": "node-red-contrib-custom-chatgpt",
+      "version": "1.0.4",
+      "description": "ChatGPT in Node-RED",
+      "updated_at": "2023-02-22T00:20:17.248Z",
+      "types": [
+        "chatgpt"
+      ],
+      "keywords": [
+        "node-red",
+        "chatgpt"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-custom-chatgpt"
+    },
+    {
+      "id": "node-red-contrib-http-instance",
+      "version": "1.0.2",
+      "description": "Http(s) server instance with in and response nodes",
+      "updated_at": "2023-02-21T21:48:54.307Z",
+      "types": [
+        "node-inst-server",
+        "http-inst-in",
+        "http-inst-out"
+      ],
+      "keywords": [
+        "node-red",
+        "http",
+        "https",
+        "express",
+        "server"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-http-instance"
+    },
     {
       "id": "node-red-contrib-shelly",
       "version": "10.13.1",
@@ -150,24 +266,6 @@
       "url": "https://flows.nodered.org/node/node-red-contrib-xkeys_jogshuttle"
     },
     {
-      "id": "@nd-enerserve/node-red-smartpi",
-      "version": "0.2.0",
-      "description": "nodes for the smartpi",
-      "updated_at": "2023-02-21T10:28:29.772Z",
-      "types": [
-        "smartpi-values",
-        "smartpi-input",
-        "smartpi-treshold-trigger",
-        "smartpi-e.temperature-values",
-        "smartpi-e.digital-out"
-      ],
-      "keywords": [
-        "node-red",
-        "smartpi"
-      ],
-      "url": "https://flows.nodered.org/node/@nd-enerserve/node-red-smartpi"
-    },
-    {
       "id": "node-red-contrib-persistent-global-context",
       "version": "1.0.0",
       "description": "Writes all data stored in Global Context to a to local filesystem to keep program data between Node-Red instance deployments and restarts.",
@@ -201,29 +299,6 @@
         "iiot"
       ],
       "url": "https://flows.nodered.org/node/@neogramm/node-red-automation-kit"
-    },
-    {
-      "id": "@bitpoolos/edge-bacnet",
-      "version": "1.1.0",
-      "description": "A bacnet gateway for node-red",
-      "updated_at": "2023-02-21T02:50:05.209Z",
-      "types": [
-        "Bacnet-Gateway",
-        "Bacnet-Discovery",
-        "Bacnet-Write",
-        "Bitpool-Bacnet-Object",
-        "Bitpool-Inject"
-      ],
-      "keywords": [
-        "node-red",
-        "bitpool",
-        "bitpoolos",
-        "edge",
-        "big data",
-        "iot",
-        "BACnet"
-      ],
-      "url": "https://flows.nodered.org/node/@bitpoolos/edge-bacnet"
     },
     {
       "id": "nrc-elasticsearch-nodes",
@@ -547,6 +622,106 @@
         "whatsapp Chat"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-whatsapp-link"
+    },
+    {
+      "id": "node-red-contrib-chatbot",
+      "version": "1.2.4",
+      "description": "REDBot a Chat bot for a full featured chat bot for Telegram, Facebook Messenger and Slack. Almost no coding skills required",
+      "updated_at": "2023-02-18T12:50:06.980Z",
+      "types": [
+        "chatbot-telegram-node",
+        "chatbot-telegram-receive",
+        "chatbot-telegram-send",
+        "chatbot-universal-node",
+        "chatbot-universal-receive",
+        "chatbot-universal-send",
+        "chatbot-slack-node",
+        "chatbot-slack-receive",
+        "chatbot-slack-send",
+        "chatbot-twilio-node",
+        "chatbot-twilio-receive",
+        "chatbot-twilio-send",
+        "chatbot-msteams-node",
+        "chatbot-msteams-receive",
+        "chatbot-msteams-send",
+        "chatbot-facebook-node",
+        "chatbot-facebook-receive",
+        "chatbot-facebook-send",
+        "chatbot-whatsapp-node",
+        "chatbot-whatsapp-receive",
+        "chatbot-whatsapp-send",
+        "chatbot-whatsapp-template",
+        "chatbot-viber-node",
+        "chatbot-viber-receive",
+        "chatbot-viber-send",
+        "chatbot-alexa-node",
+        "chatbot-alexa-receive",
+        "chatbot-alexa-send",
+        "chatbot-message",
+        "chatbot-analytics",
+        "chatbot-context",
+        "chatbot-voice",
+        "chatbot-language",
+        "chatbot-parse",
+        "chatbot-document",
+        "chatbot-video",
+        "chatbot-image",
+        "chatbot-sticker",
+        "chatbot-animation",
+        "chatbot-audio",
+        "chatbot-location",
+        "chatbot-ask",
+        "chatbot-inline-buttons",
+        "chatbot-quick-replies",
+        "chatbot-request",
+        "chatbot-log",
+        "chatbot-qrcode",
+        "chatbot-conversation",
+        "chatbot-debug",
+        "chatbot-waiting",
+        "chatbot-authorized",
+        "chatbot-rivescript",
+        "chatbot-messenger-menu",
+        "chatbot-messenger-template",
+        "chatbot-telegram-menu",
+        "chatbot-context-store",
+        "chatbot-inline-query",
+        "chatbot-dialog",
+        "chatbot-rules",
+        "chatbot-params",
+        "chatbot-dialogflow-token",
+        "chatbot-dialogflow",
+        "chatbot-invoice",
+        "chatbot-invoice-shipping",
+        "chatbot-extend",
+        "chatbot-support-table",
+        "chatbot-alexa-card",
+        "chatbot-alexa-directive",
+        "chatbot-alexa-speech",
+        "chatbot-slack-blocks",
+        "chatbot-nlpjs",
+        "chatbot-nlpjs-train",
+        "chatbot-nlpjs-intent",
+        "chatbot-nlpjs-entity",
+        "chatbot-nlpjs-save",
+        "chatbot-nlpjs-load",
+        "chatbot-pop-message",
+        "chatbot-push-message",
+        "chatbot-google-analytics",
+        "mc-graphql",
+        "mc-content",
+        "mc-simulator-receiver",
+        "mc-simulator-sender",
+        "mc-user-payload",
+        "mc-input",
+        "mc-output",
+        "mc-configuration",
+        "mc-queue"
+      ],
+      "keywords": [
+        "node-red"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-chatbot"
     },
     {
       "id": "node-red-contrib-amazon-echo-theukshadow",
@@ -1357,106 +1532,6 @@
         "node-red"
       ],
       "url": "https://flows.nodered.org/node/@crescentone/node-red-contrib-c1ee"
-    },
-    {
-      "id": "node-red-contrib-chatbot",
-      "version": "1.2.2",
-      "description": "REDBot a Chat bot for a full featured chat bot for Telegram, Facebook Messenger and Slack. Almost no coding skills required",
-      "updated_at": "2023-02-09T14:21:51.086Z",
-      "types": [
-        "chatbot-telegram-node",
-        "chatbot-telegram-receive",
-        "chatbot-telegram-send",
-        "chatbot-universal-node",
-        "chatbot-universal-receive",
-        "chatbot-universal-send",
-        "chatbot-slack-node",
-        "chatbot-slack-receive",
-        "chatbot-slack-send",
-        "chatbot-twilio-node",
-        "chatbot-twilio-receive",
-        "chatbot-twilio-send",
-        "chatbot-msteams-node",
-        "chatbot-msteams-receive",
-        "chatbot-msteams-send",
-        "chatbot-facebook-node",
-        "chatbot-facebook-receive",
-        "chatbot-facebook-send",
-        "chatbot-whatsapp-node",
-        "chatbot-whatsapp-receive",
-        "chatbot-whatsapp-send",
-        "chatbot-whatsapp-template",
-        "chatbot-viber-node",
-        "chatbot-viber-receive",
-        "chatbot-viber-send",
-        "chatbot-alexa-node",
-        "chatbot-alexa-receive",
-        "chatbot-alexa-send",
-        "chatbot-message",
-        "chatbot-analytics",
-        "chatbot-context",
-        "chatbot-voice",
-        "chatbot-language",
-        "chatbot-parse",
-        "chatbot-document",
-        "chatbot-video",
-        "chatbot-image",
-        "chatbot-sticker",
-        "chatbot-animation",
-        "chatbot-audio",
-        "chatbot-location",
-        "chatbot-ask",
-        "chatbot-inline-buttons",
-        "chatbot-quick-replies",
-        "chatbot-request",
-        "chatbot-log",
-        "chatbot-qrcode",
-        "chatbot-conversation",
-        "chatbot-debug",
-        "chatbot-waiting",
-        "chatbot-authorized",
-        "chatbot-rivescript",
-        "chatbot-messenger-menu",
-        "chatbot-messenger-template",
-        "chatbot-telegram-menu",
-        "chatbot-context-store",
-        "chatbot-inline-query",
-        "chatbot-dialog",
-        "chatbot-rules",
-        "chatbot-params",
-        "chatbot-dialogflow-token",
-        "chatbot-dialogflow",
-        "chatbot-invoice",
-        "chatbot-invoice-shipping",
-        "chatbot-extend",
-        "chatbot-support-table",
-        "chatbot-alexa-card",
-        "chatbot-alexa-directive",
-        "chatbot-alexa-speech",
-        "chatbot-slack-blocks",
-        "chatbot-nlpjs",
-        "chatbot-nlpjs-train",
-        "chatbot-nlpjs-intent",
-        "chatbot-nlpjs-entity",
-        "chatbot-nlpjs-save",
-        "chatbot-nlpjs-load",
-        "chatbot-pop-message",
-        "chatbot-push-message",
-        "chatbot-google-analytics",
-        "mc-graphql",
-        "mc-content",
-        "mc-simulator-receiver",
-        "mc-simulator-sender",
-        "mc-user-payload",
-        "mc-input",
-        "mc-output",
-        "mc-configuration",
-        "mc-queue"
-      ],
-      "keywords": [
-        "node-red"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-chatbot"
     },
     {
       "id": "node-red-contrib-alice",
@@ -6773,22 +6848,6 @@
       "url": "https://flows.nodered.org/node/@nodecolor/node-red-contrib-azure-iot-hub"
     },
     {
-      "id": "@virtualbat/esios-client",
-      "version": "1.1.6",
-      "description": "Utility node to get pmh and pvpc readings.",
-      "updated_at": "2022-11-28T19:22:11.484Z",
-      "types": [
-        "esios-api-client"
-      ],
-      "keywords": [
-        "node-red",
-        "esios",
-        "rest",
-        "client"
-      ],
-      "url": "https://flows.nodered.org/node/@virtualbat/esios-client"
-    },
-    {
       "id": "@virtualbat/batteries",
       "version": "1.0.18",
       "description": "Virtual Battery from proxima energia",
@@ -10761,32 +10820,6 @@
         "helios-easycontrols"
       ],
       "url": "https://flows.nodered.org/node/@lahoco/node-red-contrib-lahoco-extras"
-    },
-    {
-      "id": "node-red-contrib-motechat",
-      "version": "2.4.9",
-      "description": "ultranet topic and payload communication",
-      "updated_at": "2022-09-19T03:54:54.585Z",
-      "types": [
-        "send",
-        "call",
-        "onEvent",
-        "retEvent",
-        "payload",
-        "js",
-        "set",
-        "object",
-        "xobj",
-        "xstorage"
-      ],
-      "keywords": [
-        "node-red",
-        "motechat",
-        "motebus",
-        "ultranet",
-        "ypcloud"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-motechat"
     },
     {
       "id": "node-red-contrib-lvin-crc16",
@@ -16101,6 +16134,26 @@
         "vacuum"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-miio-roborock"
+    },
+    {
+      "id": "node-red-contrib-miio-humidifier",
+      "version": "0.9.5",
+      "description": "Miio node for Smartmi humidifier (Xiaomi)",
+      "updated_at": "2022-05-11T03:34:30.551Z",
+      "types": [
+        "miio-humidifier-input",
+        "miio-humidifier-output",
+        "miio-humidifier-get",
+        "miio-humidifier-server"
+      ],
+      "keywords": [
+        "miio",
+        "humidifier",
+        "smartmi",
+        "xiaomi",
+        "node-red"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-miio-humidifier"
     },
     {
       "id": "node-red-contrib-linux-memory",
@@ -42123,25 +42176,6 @@
       "url": "https://flows.nodered.org/node/node-red-contrib-fcm-receive-node"
     },
     {
-      "id": "node-red-contrib-http-instance",
-      "version": "1.0.1",
-      "description": "Http(s) server instance with in and response nodes",
-      "updated_at": "2020-05-14T06:02:35.288Z",
-      "types": [
-        "node-inst-server",
-        "http-inst-in",
-        "http-inst-out"
-      ],
-      "keywords": [
-        "node-red",
-        "http",
-        "https",
-        "express",
-        "server"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-http-instance"
-    },
-    {
       "id": "node-red-contrib-nexmo",
       "version": "3.3.1",
       "description": "Node Red module for the Nexmo API",
@@ -43390,26 +43424,6 @@
         "node-red"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-viseo-botbuilder"
-    },
-    {
-      "id": "node-red-contrib-miio-humidifier",
-      "version": "0.9.3",
-      "description": "Miio node for Smartmi humidifier (Xiaomi)",
-      "updated_at": "2020-04-09T06:32:24.307Z",
-      "types": [
-        "miio-humidifier-input",
-        "miio-humidifier-output",
-        "miio-humidifier-get",
-        "miio-humidifier-server"
-      ],
-      "keywords": [
-        "miio",
-        "humidifier",
-        "smartmi",
-        "xiaomi",
-        "node-red"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-miio-humidifier"
     },
     {
       "id": "node-red-contrib-digital-factory",
