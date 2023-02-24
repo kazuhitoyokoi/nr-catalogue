@@ -1,7 +1,156 @@
 {
   "name": "Catalogue for verified nodes",
-  "updated_at": "2023-02-23T19:56:50.443Z",
+  "updated_at": "2023-02-24T21:39:03.101Z",
   "modules": [
+    {
+      "id": "nrc-elasticsearch-nodes",
+      "version": "0.3.7",
+      "description": "A set of Node-RED contributed (NRC) nodes for Elasticsearch including search, get, exists, create, update, delete, tail.",
+      "updated_at": "2023-02-24T13:20:58.830Z",
+      "types": [
+        "es-doc-search",
+        "es-doc-create",
+        "es-doc-index",
+        "es-doc-exists",
+        "es-doc-update",
+        "es-doc-delete",
+        "es-doc-get",
+        "es-doc-tail",
+        "es-index-create",
+        "es-index-exists",
+        "es-connection",
+        "dedot"
+      ],
+      "keywords": [
+        "node-red",
+        "elasticsearch"
+      ],
+      "url": "https://flows.nodered.org/node/nrc-elasticsearch-nodes"
+    },
+    {
+      "id": "node-red-contrib-vioneta-agro-websocket-js",
+      "version": "0.0.1-dev.2474069b5",
+      "description": "Node-RED integration with Vioneta Agro through websocket and REST API",
+      "updated_at": "2023-02-24T09:22:15.142Z",
+      "types": [],
+      "keywords": [
+        "node-red",
+        "vioneta-agro",
+        "vioneta agro",
+        "automation",
+        "websocket"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-vioneta-agro-websocket-js"
+    },
+    {
+      "id": "node-red-contrib-gamedig",
+      "version": "2.1.2",
+      "description": "Query for the status of any game server using node-red",
+      "updated_at": "2023-02-24T06:10:53.607Z",
+      "types": [
+        "query-game-server"
+      ],
+      "keywords": [
+        "node-red",
+        "gamedig",
+        "query game server"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-gamedig"
+    },
+    {
+      "id": "node-red-contrib-dynamic-request-validator",
+      "version": "1.1.6",
+      "description": "Create Schemas to validate request method, body and query parameters.\r Schemas are configured in this node Properties.",
+      "updated_at": "2023-02-24T06:02:25.721Z",
+      "types": [
+        "requestValidator"
+      ],
+      "keywords": [
+        "node-red",
+        "request-validate",
+        "json-request-validator",
+        "schema-request-validator",
+        "HTTPrequest-validator",
+        "ethers",
+        "crypto-validation",
+        "address validation"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-dynamic-request-validator"
+    },
+    {
+      "id": "node-red-contrib-tcube",
+      "version": "0.0.1",
+      "description": "Node-RED integration with eWeLink Cube",
+      "updated_at": "2023-02-24T03:36:46.471Z",
+      "types": [
+        "api-server",
+        "get-devices",
+        "event-state",
+        "event-online",
+        "control-device",
+        "event-add-device",
+        "event-del-device",
+        "event-device-info",
+        "put-device-state",
+        "register-device"
+      ],
+      "keywords": [
+        "node-red",
+        "ewelink",
+        "ewelink-cube"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-tcube"
+    },
+    {
+      "id": "node-red-contrib-xkeys_writedata",
+      "version": "0.3.1",
+      "description": "Xkeys Write Data node for Node-RED with Dynamic Control Data Protocol (DCDP)",
+      "updated_at": "2023-02-23T23:01:36.132Z",
+      "types": [
+        "xkeys_writedata"
+      ],
+      "keywords": [
+        "X-keys",
+        "Xkeys",
+        "xkeys",
+        "dcdp",
+        "node-red"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-xkeys_writedata"
+    },
+    {
+      "id": "node-red-contrib-custom-chatgpt",
+      "version": "1.1.1",
+      "description": "ChatGPT in Node-RED",
+      "updated_at": "2023-02-23T21:09:10.491Z",
+      "types": [
+        "chatgpt"
+      ],
+      "keywords": [
+        "node-red",
+        "chatgpt"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-custom-chatgpt"
+    },
+    {
+      "id": "node-red-contrib-obix-niagara-connector",
+      "version": "3.1.0",
+      "description": "Connector from Niagara to Node-Red using Obix",
+      "updated_at": "2023-02-23T17:39:55.069Z",
+      "types": [
+        "Niagara Obix Connector",
+        "Niagara Obix History",
+        "Niagara Obix Variable",
+        "Niagara Obix Watcher"
+      ],
+      "keywords": [
+        "node-red",
+        "Tridium",
+        "Niagara",
+        "Obix"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-obix-niagara-connector"
+    },
     {
       "id": "node-red-contrib-oauth2",
       "version": "4.1.1",
@@ -258,20 +407,6 @@
       "url": "https://flows.nodered.org/node/node-red-contrib-motechat"
     },
     {
-      "id": "node-red-contrib-custom-chatgpt",
-      "version": "1.0.4",
-      "description": "ChatGPT in Node-RED",
-      "updated_at": "2023-02-22T00:20:17.248Z",
-      "types": [
-        "chatgpt"
-      ],
-      "keywords": [
-        "node-red",
-        "chatgpt"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-custom-chatgpt"
-    },
-    {
       "id": "node-red-contrib-http-instance",
       "version": "1.0.2",
       "description": "Http(s) server instance with in and response nodes",
@@ -435,28 +570,6 @@
         "iiot"
       ],
       "url": "https://flows.nodered.org/node/@neogramm/node-red-automation-kit"
-    },
-    {
-      "id": "nrc-elasticsearch-nodes",
-      "version": "0.2.0",
-      "description": "A set of Node-RED contributed (NRC) nodes for Elasticsearch including search, get, exists, create, update, delete, tail.",
-      "updated_at": "2023-02-20T22:32:10.116Z",
-      "types": [
-        "es-search",
-        "es-create",
-        "es-index",
-        "es-exists",
-        "es-update",
-        "es-delete",
-        "es-get",
-        "es-tail",
-        "es-connection"
-      ],
-      "keywords": [
-        "node-red",
-        "elasticsearch"
-      ],
-      "url": "https://flows.nodered.org/node/nrc-elasticsearch-nodes"
     },
     {
       "id": "@flexdash/node-red-flexdash",
@@ -4838,25 +4951,6 @@
       "url": "https://flows.nodered.org/node/nr-ipfs"
     },
     {
-      "id": "node-red-contrib-obix-niagara-connector",
-      "version": "3.0.0",
-      "description": "Connector from Niagara to Node-Red using Obix",
-      "updated_at": "2022-12-30T22:08:38.626Z",
-      "types": [
-        "Niagara Obix Connector",
-        "Niagara Obix History",
-        "Niagara Obix Variable",
-        "Niagara Obix Watcher"
-      ],
-      "keywords": [
-        "node-red",
-        "Tridium",
-        "Niagara",
-        "Obix"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-obix-niagara-connector"
-    },
-    {
       "id": "@eswarpr/node-red-azure-service-bus",
       "version": "1.0.11",
       "description": "A set of Node-RED nodes for sending and receiving messages from Azure Service Bus topics and queues",
@@ -5220,26 +5314,6 @@
         "client"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-polkadot"
-    },
-    {
-      "id": "node-red-contrib-dynamic-request-validator",
-      "version": "1.1.5",
-      "description": "Create Schemas to validate request method, body and query parameters.\r Schemas are configured in this node Properties.",
-      "updated_at": "2022-12-26T17:16:32.064Z",
-      "types": [
-        "requestValidator"
-      ],
-      "keywords": [
-        "node-red",
-        "request-validate",
-        "json-request-validator",
-        "schema-request-validator",
-        "HTTPrequest-validator",
-        "ethers",
-        "crypto-validation",
-        "address validation"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-dynamic-request-validator"
     },
     {
       "id": "node-red-contrib-duckdb",
@@ -19050,22 +19124,6 @@
       "url": "https://flows.nodered.org/node/node-red-contrib-loewe-tv"
     },
     {
-      "id": "node-red-contrib-xkeys_writedata",
-      "version": "0.2.1",
-      "description": "Xkeys Write Data node for Node-RED",
-      "updated_at": "2022-03-01T06:01:36.987Z",
-      "types": [
-        "xkeys_writedata"
-      ],
-      "keywords": [
-        "X-keys",
-        "Xkeys",
-        "xkeys",
-        "node-red"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-xkeys_writedata"
-    },
-    {
       "id": "node-red-contrib-ng",
       "version": "0.2.0",
       "description": "TODO",
@@ -25499,21 +25557,6 @@
         "dynamic"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-queued-sqlite-fix"
-    },
-    {
-      "id": "node-red-contrib-gamedig",
-      "version": "2.1.1",
-      "description": "Query for the status of any game server using node-red",
-      "updated_at": "2021-09-05T05:00:42.265Z",
-      "types": [
-        "query-game-server"
-      ],
-      "keywords": [
-        "node-red",
-        "gamedig",
-        "query game server"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-gamedig"
     },
     {
       "id": "node-red-contrib-mongoql",
