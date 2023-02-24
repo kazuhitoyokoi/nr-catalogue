@@ -1,45 +1,27 @@
 {
   "name": "Catalogue for darwin",
-  "updated_at": "2023-02-23T19:56:29.425Z",
+  "updated_at": "2023-02-24T21:33:43.072Z",
   "modules": [
     {
-      "id": "node-red-contrib-obix-niagara-connector",
-      "version": "3.1.0",
-      "description": "Connector from Niagara to Node-Red using Obix",
-      "updated_at": "2023-02-23T17:39:55.069Z",
-      "types": [
-        "Niagara Obix Connector",
-        "Niagara Obix History",
-        "Niagara Obix Variable",
-        "Niagara Obix Watcher"
-      ],
+      "id": "node-red-contrib-vioneta-agro-websocket-js",
+      "version": "0.1.4",
+      "description": "Node-RED integration with Vioneta Agro through websocket and REST API",
+      "updated_at": "2023-02-24T18:32:45.003Z",
+      "types": [],
       "keywords": [
         "node-red",
-        "Tridium",
-        "Niagara",
-        "Obix"
+        "vioneta-agro",
+        "vioneta agro",
+        "agro automation",
+        "websocket"
       ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-obix-niagara-connector"
-    },
-    {
-      "id": "node-red-contrib-custom-chatgpt",
-      "version": "1.1.0",
-      "description": "ChatGPT in Node-RED",
-      "updated_at": "2023-02-23T17:01:09.314Z",
-      "types": [
-        "chatgpt"
-      ],
-      "keywords": [
-        "node-red",
-        "chatgpt"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-custom-chatgpt"
+      "url": "https://flows.nodered.org/node/node-red-contrib-vioneta-agro-websocket-js"
     },
     {
       "id": "nrc-elasticsearch-nodes",
-      "version": "0.3.5",
+      "version": "0.3.8",
       "description": "A set of Node-RED contributed (NRC) nodes for Elasticsearch including search, get, exists, create, update, delete, tail.",
-      "updated_at": "2023-02-23T15:28:47.838Z",
+      "updated_at": "2023-02-24T17:27:09.536Z",
       "types": [
         "es-doc-search",
         "es-doc-create",
@@ -59,6 +41,115 @@
         "elasticsearch"
       ],
       "url": "https://flows.nodered.org/node/nrc-elasticsearch-nodes"
+    },
+    {
+      "id": "node-red-contrib-gamedig",
+      "version": "2.1.2",
+      "description": "Query for the status of any game server using node-red",
+      "updated_at": "2023-02-24T06:10:53.607Z",
+      "types": [
+        "query-game-server"
+      ],
+      "keywords": [
+        "node-red",
+        "gamedig",
+        "query game server"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-gamedig"
+    },
+    {
+      "id": "node-red-contrib-dynamic-request-validator",
+      "version": "1.1.6",
+      "description": "Create Schemas to validate request method, body and query parameters.\r Schemas are configured in this node Properties.",
+      "updated_at": "2023-02-24T06:02:25.721Z",
+      "types": [
+        "requestValidator"
+      ],
+      "keywords": [
+        "node-red",
+        "request-validate",
+        "json-request-validator",
+        "schema-request-validator",
+        "HTTPrequest-validator",
+        "ethers",
+        "crypto-validation",
+        "address validation"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-dynamic-request-validator"
+    },
+    {
+      "id": "node-red-contrib-tcube",
+      "version": "0.0.1",
+      "description": "Node-RED integration with eWeLink Cube",
+      "updated_at": "2023-02-24T03:36:46.471Z",
+      "types": [
+        "api-server",
+        "get-devices",
+        "event-state",
+        "event-online",
+        "control-device",
+        "event-add-device",
+        "event-del-device",
+        "event-device-info",
+        "put-device-state",
+        "register-device"
+      ],
+      "keywords": [
+        "node-red",
+        "ewelink",
+        "ewelink-cube"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-tcube"
+    },
+    {
+      "id": "node-red-contrib-xkeys_writedata",
+      "version": "0.3.1",
+      "description": "Xkeys Write Data node for Node-RED with Dynamic Control Data Protocol (DCDP)",
+      "updated_at": "2023-02-23T23:01:36.132Z",
+      "types": [
+        "xkeys_writedata"
+      ],
+      "keywords": [
+        "X-keys",
+        "Xkeys",
+        "xkeys",
+        "dcdp",
+        "node-red"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-xkeys_writedata"
+    },
+    {
+      "id": "node-red-contrib-custom-chatgpt",
+      "version": "1.1.1",
+      "description": "ChatGPT in Node-RED",
+      "updated_at": "2023-02-23T21:09:10.491Z",
+      "types": [
+        "chatgpt"
+      ],
+      "keywords": [
+        "node-red",
+        "chatgpt"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-custom-chatgpt"
+    },
+    {
+      "id": "node-red-contrib-obix-niagara-connector",
+      "version": "3.1.0",
+      "description": "Connector from Niagara to Node-Red using Obix",
+      "updated_at": "2023-02-23T17:39:55.069Z",
+      "types": [
+        "Niagara Obix Connector",
+        "Niagara Obix History",
+        "Niagara Obix Variable",
+        "Niagara Obix Watcher"
+      ],
+      "keywords": [
+        "node-red",
+        "Tridium",
+        "Niagara",
+        "Obix"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-obix-niagara-connector"
     },
     {
       "id": "node-red-contrib-oauth2",
@@ -5262,26 +5353,6 @@
       "url": "https://flows.nodered.org/node/node-red-contrib-polkadot"
     },
     {
-      "id": "node-red-contrib-dynamic-request-validator",
-      "version": "1.1.5",
-      "description": "Create Schemas to validate request method, body and query parameters.\r Schemas are configured in this node Properties.",
-      "updated_at": "2022-12-26T17:16:32.064Z",
-      "types": [
-        "requestValidator"
-      ],
-      "keywords": [
-        "node-red",
-        "request-validate",
-        "json-request-validator",
-        "schema-request-validator",
-        "HTTPrequest-validator",
-        "ethers",
-        "crypto-validation",
-        "address validation"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-dynamic-request-validator"
-    },
-    {
       "id": "node-red-contrib-duckdb",
       "version": "0.1.3",
       "description": "Node-red node for duckdb",
@@ -8165,6 +8236,26 @@
         "Axis"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-axis-acs"
+    },
+    {
+      "id": "node-red-contrib-bosch-shc",
+      "version": "0.3.28",
+      "description": "Bosch Smart Home Controller (SHC) nodes for Node-Red",
+      "updated_at": "2022-11-10T08:39:11.580Z",
+      "types": [
+        "shc-config",
+        "shc-device",
+        "shc-scenario",
+        "shc-fault"
+      ],
+      "keywords": [
+        "node-red",
+        "bosch",
+        "smart",
+        "home",
+        "controller"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-bosch-shc"
     },
     {
       "id": "node-red-contrib-m-bus",
@@ -19292,22 +19383,6 @@
       "url": "https://flows.nodered.org/node/node-red-contrib-loewe-tv"
     },
     {
-      "id": "node-red-contrib-xkeys_writedata",
-      "version": "0.2.1",
-      "description": "Xkeys Write Data node for Node-RED",
-      "updated_at": "2022-03-01T06:01:36.987Z",
-      "types": [
-        "xkeys_writedata"
-      ],
-      "keywords": [
-        "X-keys",
-        "Xkeys",
-        "xkeys",
-        "node-red"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-xkeys_writedata"
-    },
-    {
       "id": "node-red-contrib-ng",
       "version": "0.2.0",
       "description": "TODO",
@@ -22102,26 +22177,6 @@
         "Relay"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-keyestudio-relay-shield-ks0212"
-    },
-    {
-      "id": "node-red-contrib-bosch-shc",
-      "version": "0.3.27",
-      "description": "Bosch Smart Home Controller (SHC) nodes for Node-Red",
-      "updated_at": "2021-12-21T23:42:12.274Z",
-      "types": [
-        "shc-config",
-        "shc-device",
-        "shc-scenario",
-        "shc-fault"
-      ],
-      "keywords": [
-        "node-red",
-        "bosch",
-        "smart",
-        "home",
-        "controller"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-bosch-shc"
     },
     {
       "id": "node-red-contrib-myq",
@@ -25833,21 +25888,6 @@
         "dynamic"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-queued-sqlite-fix"
-    },
-    {
-      "id": "node-red-contrib-gamedig",
-      "version": "2.1.1",
-      "description": "Query for the status of any game server using node-red",
-      "updated_at": "2021-09-05T05:00:42.265Z",
-      "types": [
-        "query-game-server"
-      ],
-      "keywords": [
-        "node-red",
-        "gamedig",
-        "query game server"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-gamedig"
     },
     {
       "id": "node-red-contrib-mongoql",
