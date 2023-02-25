@@ -1,12 +1,41 @@
 {
   "name": "Catalogue for verified nodes",
-  "updated_at": "2023-02-24T21:39:03.101Z",
+  "updated_at": "2023-02-25T22:49:56.299Z",
   "modules": [
     {
+      "id": "node-red-contrib-moralis",
+      "version": "1.0.6",
+      "description": "Provide moralis block",
+      "updated_at": "2023-02-25T04:46:43.768Z",
+      "types": [
+        "moralis",
+        "moralis-config"
+      ],
+      "keywords": [
+        "node-red"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-moralis"
+    },
+    {
+      "id": "node-red-contrib-vioneta-agro-websocket-js",
+      "version": "0.1.4",
+      "description": "Node-RED integration with Vioneta Agro through websocket and REST API",
+      "updated_at": "2023-02-24T18:32:45.003Z",
+      "types": [],
+      "keywords": [
+        "node-red",
+        "vioneta-agro",
+        "vioneta agro",
+        "agro automation",
+        "websocket"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-vioneta-agro-websocket-js"
+    },
+    {
       "id": "nrc-elasticsearch-nodes",
-      "version": "0.3.7",
+      "version": "0.3.8",
       "description": "A set of Node-RED contributed (NRC) nodes for Elasticsearch including search, get, exists, create, update, delete, tail.",
-      "updated_at": "2023-02-24T13:20:58.830Z",
+      "updated_at": "2023-02-24T17:27:09.536Z",
       "types": [
         "es-doc-search",
         "es-doc-create",
@@ -26,21 +55,6 @@
         "elasticsearch"
       ],
       "url": "https://flows.nodered.org/node/nrc-elasticsearch-nodes"
-    },
-    {
-      "id": "node-red-contrib-vioneta-agro-websocket-js",
-      "version": "0.0.1-dev.2474069b5",
-      "description": "Node-RED integration with Vioneta Agro through websocket and REST API",
-      "updated_at": "2023-02-24T09:22:15.142Z",
-      "types": [],
-      "keywords": [
-        "node-red",
-        "vioneta-agro",
-        "vioneta agro",
-        "automation",
-        "websocket"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-vioneta-agro-websocket-js"
     },
     {
       "id": "node-red-contrib-gamedig",
@@ -8167,6 +8181,26 @@
         "Axis"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-axis-acs"
+    },
+    {
+      "id": "node-red-contrib-bosch-shc",
+      "version": "0.3.28",
+      "description": "Bosch Smart Home Controller (SHC) nodes for Node-Red",
+      "updated_at": "2022-11-10T08:39:11.580Z",
+      "types": [
+        "shc-config",
+        "shc-device",
+        "shc-scenario",
+        "shc-fault"
+      ],
+      "keywords": [
+        "node-red",
+        "bosch",
+        "smart",
+        "home",
+        "controller"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-bosch-shc"
     },
     {
       "id": "node-red-contrib-m-bus",
@@ -21888,26 +21922,6 @@
         "Relay"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-keyestudio-relay-shield-ks0212"
-    },
-    {
-      "id": "node-red-contrib-bosch-shc",
-      "version": "0.3.27",
-      "description": "Bosch Smart Home Controller (SHC) nodes for Node-Red",
-      "updated_at": "2021-12-21T23:42:12.274Z",
-      "types": [
-        "shc-config",
-        "shc-device",
-        "shc-scenario",
-        "shc-fault"
-      ],
-      "keywords": [
-        "node-red",
-        "bosch",
-        "smart",
-        "home",
-        "controller"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-bosch-shc"
     },
     {
       "id": "node-red-contrib-myq",
