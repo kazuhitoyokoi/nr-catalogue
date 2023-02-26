@@ -1,7 +1,84 @@
 {
   "name": "Catalogue for verified nodes",
-  "updated_at": "2023-02-25T22:49:56.299Z",
+  "updated_at": "2023-02-26T20:28:09.259Z",
   "modules": [
+    {
+      "id": "node-red-contrib-smb2",
+      "version": "1.2.0",
+      "description": "Node-RED for the SMB protocol",
+      "updated_at": "2023-02-26T12:57:22.920Z",
+      "types": [
+        "SMB",
+        "smb config"
+      ],
+      "keywords": [
+        "node-red",
+        "smb"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-smb2"
+    },
+    {
+      "id": "node-red-contrib-letsfiware-ngsi",
+      "version": "0.13.0",
+      "description": "Node-RED implementation for FIWARE Open APIs",
+      "updated_at": "2023-02-26T00:50:01.160Z",
+      "types": [
+        "NGSI Entity",
+        "NGSI Attributes",
+        "NGSI Attribute",
+        "NGSI Attribute value",
+        "NGSI source",
+        "NGSI Batch update",
+        "NGSI subscription",
+        "NGSI registration",
+        "NGSI Types",
+        "Service and ServicePath",
+        "GTFS Realtime to NGSI",
+        "NGSI to worldmap",
+        "NGSI to dashboard",
+        "OpenWeatherMap to NGSI",
+        "FIWARE version",
+        "Historical Context",
+        "NGSI timeseries",
+        "Open APIs"
+      ],
+      "keywords": [
+        "node-red",
+        "contrib",
+        "fiware",
+        "ngsi",
+        "context",
+        "process",
+        "data",
+        "json"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-letsfiware-ngsi"
+    },
+    {
+      "id": "nrc-elasticsearch-nodes",
+      "version": "0.3.9",
+      "description": "A set of Node-RED contributed (NRC) nodes for Elasticsearch including search, get, exists, create, update, delete, tail.",
+      "updated_at": "2023-02-25T21:05:05.348Z",
+      "types": [
+        "es-doc-search",
+        "es-doc-create",
+        "es-doc-index",
+        "es-doc-exists",
+        "es-doc-update",
+        "es-doc-delete",
+        "es-doc-get",
+        "es-doc-tail",
+        "es-index-create",
+        "es-index-exists",
+        "es-connection",
+        "dedot"
+      ],
+      "keywords": [
+        "node-red",
+        "elasticsearch"
+      ],
+      "url": "https://flows.nodered.org/node/nrc-elasticsearch-nodes"
+    },
     {
       "id": "node-red-contrib-moralis",
       "version": "1.0.6",
@@ -30,31 +107,6 @@
         "websocket"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-vioneta-agro-websocket-js"
-    },
-    {
-      "id": "nrc-elasticsearch-nodes",
-      "version": "0.3.8",
-      "description": "A set of Node-RED contributed (NRC) nodes for Elasticsearch including search, get, exists, create, update, delete, tail.",
-      "updated_at": "2023-02-24T17:27:09.536Z",
-      "types": [
-        "es-doc-search",
-        "es-doc-create",
-        "es-doc-index",
-        "es-doc-exists",
-        "es-doc-update",
-        "es-doc-delete",
-        "es-doc-get",
-        "es-doc-tail",
-        "es-index-create",
-        "es-index-exists",
-        "es-connection",
-        "dedot"
-      ],
-      "keywords": [
-        "node-red",
-        "elasticsearch"
-      ],
-      "url": "https://flows.nodered.org/node/nrc-elasticsearch-nodes"
     },
     {
       "id": "node-red-contrib-gamedig",
@@ -212,43 +264,6 @@
         "heat-pump"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-panasonic-comfort-cloud"
-    },
-    {
-      "id": "node-red-contrib-letsfiware-ngsi",
-      "version": "0.12.0",
-      "description": "Node-RED implementation for FIWARE Open APIs",
-      "updated_at": "2023-02-23T07:20:41.533Z",
-      "types": [
-        "NGSI Entity",
-        "NGSI Attributes",
-        "NGSI Attribute",
-        "NGSI Attribute value",
-        "NGSI source",
-        "NGSI Batch update",
-        "NGSI subscription",
-        "NGSI registration",
-        "NGSI Types",
-        "Service and ServicePath",
-        "GTFS Realtime to NGSI",
-        "NGSI to worldmap",
-        "NGSI to dashboard",
-        "OpenWeatherMap to NGSI",
-        "FIWARE version",
-        "Historical Context",
-        "NGSI timeseries",
-        "Open APIs"
-      ],
-      "keywords": [
-        "node-red",
-        "contrib",
-        "fiware",
-        "ngsi",
-        "context",
-        "process",
-        "data",
-        "json"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-letsfiware-ngsi"
     },
     {
       "id": "node-red-contrib-xkeys_trackball",
