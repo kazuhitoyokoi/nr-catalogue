@@ -1,7 +1,107 @@
 {
   "name": "Catalogue for docker",
-  "updated_at": "2023-02-26T16:16:47.940Z",
+  "updated_at": "2023-02-27T16:12:15.417Z",
   "modules": [
+    {
+      "id": "node-red-contrib-victron-vedirect-usb",
+      "version": "0.0.1",
+      "description": "Access the Victron equipment with a USB VE.Direct cable",
+      "updated_at": "2023-02-27T13:51:07.111Z",
+      "types": [
+        "victron-vedirect-usb"
+      ],
+      "keywords": [
+        "node-red",
+        "victron",
+        "vedirect"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-victron-vedirect-usb"
+    },
+    {
+      "id": "node-red-contrib-persistent-global-context",
+      "version": "1.0.1",
+      "description": "Writes all data stored in Global Context to local filesystem to keep program data between Node-Red instance deployments and restarts.",
+      "updated_at": "2023-02-27T10:28:39.873Z",
+      "types": [],
+      "keywords": [
+        "node-red",
+        "persistent global context",
+        "context",
+        "local context storage"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-persistent-global-context"
+    },
+    {
+      "id": "node-red-contrib-tcube",
+      "version": "0.0.4",
+      "description": "Node-RED integration with eWeLink Cube",
+      "updated_at": "2023-02-27T09:55:34.776Z",
+      "types": [
+        "api-server",
+        "get-devices",
+        "event-state",
+        "event-online",
+        "control-device",
+        "event-add-device",
+        "event-del-device",
+        "event-device-info",
+        "put-device-state",
+        "register-device"
+      ],
+      "keywords": [
+        "node-red",
+        "ewelink",
+        "ewelink-cube"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-tcube"
+    },
+    {
+      "id": "node-red-contrib-nefit-easy2",
+      "version": "2.2.8",
+      "description": "The most extensive Nefit Easy node for Node RED",
+      "updated_at": "2023-02-27T05:01:06.510Z",
+      "types": [
+        "nefit-easy",
+        "nefit-easy-config"
+      ],
+      "keywords": [
+        "node-red",
+        "nefit",
+        "easy"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-nefit-easy2"
+    },
+    {
+      "id": "@virtualbat/solax-battery-slotter",
+      "version": "1.1.0",
+      "description": "Get readings from solax inputs and calculate a battery slot which represents de energy transferred to the virtual battery in a range time.",
+      "updated_at": "2023-02-26T21:07:19.654Z",
+      "types": [
+        "virtual-battery-solax-slotter"
+      ],
+      "keywords": [
+        "node-red",
+        "virtual-battery"
+      ],
+      "url": "https://flows.nodered.org/node/@virtualbat/solax-battery-slotter"
+    },
+    {
+      "id": "@virtualbat/node-red-contrib-solax-cloud-api-client",
+      "version": "1.0.3",
+      "description": "A solax cloud api client",
+      "updated_at": "2023-02-26T20:57:19.291Z",
+      "types": [
+        "solax-cloud-api-client"
+      ],
+      "keywords": [
+        "node-red",
+        "solax",
+        "inverter",
+        "api",
+        "client"
+      ],
+      "url": "https://flows.nodered.org/node/@virtualbat/node-red-contrib-solax-cloud-api-client"
+    },
     {
       "id": "node-red-contrib-smb2",
       "version": "1.2.0",
@@ -142,30 +242,6 @@
         "address validation"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-dynamic-request-validator"
-    },
-    {
-      "id": "node-red-contrib-tcube",
-      "version": "0.0.1",
-      "description": "Node-RED integration with eWeLink Cube",
-      "updated_at": "2023-02-24T03:36:46.471Z",
-      "types": [
-        "api-server",
-        "get-devices",
-        "event-state",
-        "event-online",
-        "control-device",
-        "event-add-device",
-        "event-del-device",
-        "event-device-info",
-        "put-device-state",
-        "register-device"
-      ],
-      "keywords": [
-        "node-red",
-        "ewelink",
-        "ewelink-cube"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-tcube"
     },
     {
       "id": "node-red-contrib-xkeys_writedata",
@@ -564,20 +640,6 @@
         "node-red"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-xkeys_jogshuttle"
-    },
-    {
-      "id": "node-red-contrib-persistent-global-context",
-      "version": "1.0.0",
-      "description": "Writes all data stored in Global Context to a to local filesystem to keep program data between Node-Red instance deployments and restarts.",
-      "updated_at": "2023-02-21T10:16:11.537Z",
-      "types": [],
-      "keywords": [
-        "node-red",
-        "persistent global context",
-        "context",
-        "local context storage"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-persistent-global-context"
     },
     {
       "id": "@neogramm/node-red-automation-kit",
@@ -6584,22 +6646,6 @@
       "url": "https://flows.nodered.org/node/node-red-contrib-daylight-rgbw"
     },
     {
-      "id": "node-red-contrib-nefit-easy2",
-      "version": "2.2.7",
-      "description": "The most extensive Nefit Easy node for Node RED",
-      "updated_at": "2022-12-06T20:03:02.105Z",
-      "types": [
-        "nefit-easy",
-        "nefit-easy-config"
-      ],
-      "keywords": [
-        "node-red",
-        "nefit",
-        "easy"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-nefit-easy2"
-    },
-    {
       "id": "node-red-contrib-file-manager",
       "version": "2.0.8",
       "description": "Handle File System",
@@ -7016,20 +7062,6 @@
       "url": "https://flows.nodered.org/node/@virtualbat/batteries"
     },
     {
-      "id": "@virtualbat/solax-battery-slotter",
-      "version": "1.0.10",
-      "description": "Get readings from solax inputs and calculate a battery slot which represents de energy transferred to the virtual battery in a range time.",
-      "updated_at": "2022-11-28T19:08:25.265Z",
-      "types": [
-        "virtual-battery-solax-slotter"
-      ],
-      "keywords": [
-        "node-red",
-        "virtual-battery"
-      ],
-      "url": "https://flows.nodered.org/node/@virtualbat/solax-battery-slotter"
-    },
-    {
       "id": "@virtualbat/balance-neto-horario",
       "version": "1.1.7",
       "description": "Get readings from solax inputs and calculate a battery slot which represents de energy transferred to the virtual battery in a range time.",
@@ -7369,23 +7401,6 @@
         "node-red"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-objtalk"
-    },
-    {
-      "id": "@virtualbat/node-red-contrib-solax-cloud-api-client",
-      "version": "1.0.2",
-      "description": "A solax cloud api client",
-      "updated_at": "2022-11-22T08:51:11.802Z",
-      "types": [
-        "solax-cloud-api-client"
-      ],
-      "keywords": [
-        "node-red",
-        "solax",
-        "inverter",
-        "api",
-        "client"
-      ],
-      "url": "https://flows.nodered.org/node/@virtualbat/node-red-contrib-solax-cloud-api-client"
     },
     {
       "id": "node-red-contrib-grohe-sense",
