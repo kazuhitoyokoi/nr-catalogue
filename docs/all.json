@@ -1,12 +1,29 @@
 {
   "name": "Catalogue for verified nodes",
-  "updated_at": "2023-02-27T19:19:59.298Z",
+  "updated_at": "2023-02-28T19:40:19.141Z",
   "modules": [
     {
+      "id": "node-red-contrib-auroral",
+      "version": "2.1.6",
+      "description": "Nodes for contributing to AURORAL network",
+      "updated_at": "2023-02-28T14:21:31.235Z",
+      "types": [
+        "registrations",
+        "auroralAgent",
+        "auroralResponse",
+        "auroralDevice"
+      ],
+      "keywords": [
+        "node-red",
+        "auroral"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-auroral"
+    },
+    {
       "id": "node-red-contrib-victron-vedirect-usb",
-      "version": "0.0.1",
+      "version": "0.0.2",
       "description": "Access the Victron equipment with a USB VE.Direct cable",
-      "updated_at": "2023-02-27T13:51:07.111Z",
+      "updated_at": "2023-02-28T10:26:17.974Z",
       "types": [
         "victron-vedirect-usb"
       ],
@@ -16,6 +33,140 @@
         "vedirect"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-victron-vedirect-usb"
+    },
+    {
+      "id": "node-red-cyblion-edge",
+      "version": "1.1.2",
+      "description": "Node-RED cipherflow special implement for cyblion cloud platform first version for testing only",
+      "updated_at": "2023-02-28T09:44:17.533Z",
+      "types": [
+        "cyblion-mqtt-broker",
+        "cyblion-seal"
+      ],
+      "keywords": [
+        "node-red",
+        "cyblion",
+        "cipherflow"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-cyblion-edge"
+    },
+    {
+      "id": "@bitpoolos/edge-uploader",
+      "version": "1.0.13",
+      "description": "A Node-RED module to push data to Bitpool.",
+      "updated_at": "2023-02-28T06:16:48.773Z",
+      "types": [
+        "uploader",
+        "Bitpool-Pool-Settings",
+        "Bitpool-Api-Key",
+        "metatag",
+        "Bitpool-Cloud-Settings",
+        "Bitpool-Tag-Library"
+      ],
+      "keywords": [
+        "node-red",
+        "bitpool",
+        "bitpoolos",
+        "edge",
+        "big data",
+        "iot"
+      ],
+      "url": "https://flows.nodered.org/node/@bitpoolos/edge-uploader"
+    },
+    {
+      "id": "node-red-contrib-esphome",
+      "version": "0.0.8",
+      "description": "Node-RED nodes to ESPhome devices",
+      "updated_at": "2023-02-28T01:37:57.303Z",
+      "types": [
+        "esphome-device",
+        "esphome-in",
+        "esphome-out"
+      ],
+      "keywords": [
+        "node-red",
+        "esphome",
+        "esp",
+        "home",
+        "esp32",
+        "esp8266"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-esphome"
+    },
+    {
+      "id": "@tyntec/node-red-contrib-tyntec",
+      "version": "1.0.1",
+      "description": "<p>   <a href=\"https://tyntec.com\" target=\"_blank\"><img src=\"https://github.com/tyntec/node-red-contrib-tyntec/blob/main/docs/logo.png\" width=\"200\" /></a> </p>",
+      "updated_at": "2023-02-27T19:54:41.933Z",
+      "types": [
+        "send-sms",
+        "tyntec-config",
+        "phone-number"
+      ],
+      "keywords": [
+        "node-red",
+        "tyntec",
+        "sms"
+      ],
+      "url": "https://flows.nodered.org/node/@tyntec/node-red-contrib-tyntec"
+    },
+    {
+      "id": "nrc-tjtoolkit-nodes",
+      "version": "0.0.3",
+      "description": "Node-RED contributed (NRC) toolkit nodes.",
+      "updated_at": "2023-02-27T17:12:13.170Z",
+      "types": [
+        "dedot",
+        "contextConfig"
+      ],
+      "keywords": [
+        "node-red",
+        "elasticsearch"
+      ],
+      "url": "https://flows.nodered.org/node/nrc-tjtoolkit-nodes"
+    },
+    {
+      "id": "@leipert/node-red-contrib-stock-ticker",
+      "version": "2.0.0",
+      "description": "node-red node(s) to get realtime stock information",
+      "updated_at": "2023-02-27T17:06:47.084Z",
+      "types": [
+        "stock-request",
+        "stock-ticker"
+      ],
+      "keywords": [
+        "node-red",
+        "finance",
+        "stocks",
+        "stock-ticker"
+      ],
+      "url": "https://flows.nodered.org/node/@leipert/node-red-contrib-stock-ticker"
+    },
+    {
+      "id": "@digitalnodecom/node-red-contrib-generic-s3",
+      "version": "1.7.1",
+      "description": "Generic node-red S3 nodes",
+      "updated_at": "2023-02-27T15:59:20.483Z",
+      "types": [
+        "client-s3",
+        "List Buckets",
+        "Create Bucket",
+        "List Objects",
+        "List Objects V2",
+        "List Object Versions",
+        "Get Object",
+        "Head Object",
+        "Put Object",
+        "Put Objects",
+        "Delete Object",
+        "Copy Object"
+      ],
+      "keywords": [
+        "node-red",
+        "s3",
+        "generic"
+      ],
+      "url": "https://flows.nodered.org/node/@digitalnodecom/node-red-contrib-generic-s3"
     },
     {
       "id": "node-red-contrib-persistent-global-context",
@@ -1481,26 +1632,6 @@
       "url": "https://flows.nodered.org/node/@ais_automation/node-red-contrib-eqcloud-monitoring"
     },
     {
-      "id": "node-red-contrib-esphome",
-      "version": "0.0.7",
-      "description": "Node-RED nodes to ESPhome devices",
-      "updated_at": "2023-02-12T22:55:12.387Z",
-      "types": [
-        "esphome-device",
-        "esphome-in",
-        "esphome-out"
-      ],
-      "keywords": [
-        "node-red",
-        "esphome",
-        "esp",
-        "home",
-        "esp32",
-        "esp8266"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-esphome"
-    },
-    {
       "id": "@jn-se/node-red-contrib-heos",
       "version": "0.3.1",
       "description": "Node-RED node for Denon HEOS devices and Denon Home.",
@@ -1954,22 +2085,6 @@
         "energy"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-tibber-api"
-    },
-    {
-      "id": "node-red-cyblion-edge",
-      "version": "1.1.1",
-      "description": "Node-RED cipherflow special implement for cyblion cloud platform first version for testing only",
-      "updated_at": "2023-02-08T09:49:54.167Z",
-      "types": [
-        "cyblion-mqtt-broker",
-        "cyblion-seal"
-      ],
-      "keywords": [
-        "node-red",
-        "cyblion",
-        "cipherflow"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-cyblion-edge"
     },
     {
       "id": "node-red-contrib-json-multi-schema",
@@ -2714,32 +2829,6 @@
       "url": "https://flows.nodered.org/node/node-red-contrib-zigbee2mqtt"
     },
     {
-      "id": "@digitalnodecom/node-red-contrib-generic-s3",
-      "version": "1.7.0",
-      "description": "Generic node-red S3 nodes",
-      "updated_at": "2023-02-01T12:00:41.638Z",
-      "types": [
-        "client-s3",
-        "List Buckets",
-        "Create Bucket",
-        "List Objects",
-        "List Objects V2",
-        "List Object Versions",
-        "Get Object",
-        "Head Object",
-        "Put Object",
-        "Put Objects",
-        "Delete Object",
-        "Copy Object"
-      ],
-      "keywords": [
-        "node-red",
-        "s3",
-        "generic"
-      ],
-      "url": "https://flows.nodered.org/node/@digitalnodecom/node-red-contrib-generic-s3"
-    },
-    {
       "id": "@bitpoolos/edge-modbus",
       "version": "1.4.0",
       "description": "A set of Node-RED modules to support reading Modbus devices.",
@@ -2843,29 +2932,6 @@
         "KNX Secure"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-knx-ultimate"
-    },
-    {
-      "id": "@bitpoolos/edge-uploader",
-      "version": "1.0.12",
-      "description": "A Node-RED module to push data to Bitpool.",
-      "updated_at": "2023-01-30T06:57:17.675Z",
-      "types": [
-        "uploader",
-        "Bitpool-Pool-Settings",
-        "Bitpool-Api-Key",
-        "metatag",
-        "Bitpool-Cloud-Settings",
-        "Bitpool-Tag-Library"
-      ],
-      "keywords": [
-        "node-red",
-        "bitpool",
-        "bitpoolos",
-        "edge",
-        "big data",
-        "iot"
-      ],
-      "url": "https://flows.nodered.org/node/@bitpoolos/edge-uploader"
     },
     {
       "id": "@bannsaenger/node-red-contrib-artnet-controller",
@@ -9726,23 +9792,6 @@
         "node-red"
       ],
       "url": "https://flows.nodered.org/node/govee-lan-control"
-    },
-    {
-      "id": "node-red-contrib-auroral",
-      "version": "2.1.5",
-      "description": "Nodes for contributing to AURORAL network",
-      "updated_at": "2022-10-10T12:51:46.674Z",
-      "types": [
-        "registrations",
-        "auroralAgent",
-        "auroralResponse",
-        "auroralDevice"
-      ],
-      "keywords": [
-        "node-red",
-        "auroral"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-auroral"
     },
     {
       "id": "node-red-contrib-bsb-lan",
@@ -23750,23 +23799,6 @@
         "node-red-contrib-galaxy-plc"
       ],
       "url": "https://flows.nodered.org/node/galaxy-plc"
-    },
-    {
-      "id": "@leipert/node-red-contrib-stock-ticker",
-      "version": "1.3.0",
-      "description": "node-red node to get realtime stock information",
-      "updated_at": "2021-11-08T16:25:22.374Z",
-      "types": [
-        "stock-request",
-        "stock-ticker"
-      ],
-      "keywords": [
-        "node-red",
-        "finance",
-        "stocks",
-        "stock-ticker"
-      ],
-      "url": "https://flows.nodered.org/node/@leipert/node-red-contrib-stock-ticker"
     },
     {
       "id": "node-red-node-forge",
