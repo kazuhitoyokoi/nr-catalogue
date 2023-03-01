@@ -1,0 +1,31 @@
+
+----
+Sending build context to Docker daemon  35.11MB
+Step 1/2 : FROM nodered/node-red
+ ---> a15fc0f4e930
+Step 2/2 : RUN npm install npm install @kurago-dev/node-red-contrib-azure@1.0.1
+ ---> Running in 260d3e184e37
+
+added 60 packages, and audited 589 packages in 6s
+
+51 packages are looking for funding
+  run `npm fund` for details
+
+7 vulnerabilities (5 low, 1 moderate, 1 high)
+
+To address issues that do not require attention, run:
+  npm audit fix
+
+To address all issues (including breaking changes), run:
+  npm audit fix --force
+
+Run `npm audit` for details.
+[91mnpm[0m[91m notice[0m[91m 
+npm notice[0m[91m New major version of npm available! 8.11.0 -> 9.5.1
+npm[0m[91m notice Changelog: <https://github.com/npm/cli/releases/tag/v9.5.1>
+npm[0m[91m notice Run `npm install -g npm@9.5.1` to update!
+[0m[91mnpm notice[0m[91m 
+[0mRemoving intermediate container 260d3e184e37
+ ---> 35083e4ecf55
+Successfully built 35083e4ecf55
+Successfully tagged tmp:latest
