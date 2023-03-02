@@ -1,7 +1,144 @@
 {
   "name": "Catalogue for verified nodes",
-  "updated_at": "2023-03-01T21:41:28.175Z",
+  "updated_at": "2023-03-02T21:05:45.740Z",
   "modules": [
+    {
+      "id": "node-red-contrib-airship-ticketco",
+      "version": "1.0.2",
+      "description": "TicketCo to Airship integration for node-red",
+      "updated_at": "2023-03-02T13:57:21.917Z",
+      "types": [
+        "ticketco"
+      ],
+      "keywords": [
+        "node-red"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-airship-ticketco"
+    },
+    {
+      "id": "node-red-contrib-tcube",
+      "version": "0.0.7",
+      "description": "Node-RED integration with eWeLink Cube",
+      "updated_at": "2023-03-02T08:57:14.417Z",
+      "types": [
+        "api-server",
+        "get-devices",
+        "event-state",
+        "event-online",
+        "control-device",
+        "event-add-device",
+        "event-del-device",
+        "event-device-info",
+        "put-device-state",
+        "register-device"
+      ],
+      "keywords": [
+        "node-red",
+        "ewelink",
+        "ewelink-cube"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-tcube"
+    },
+    {
+      "id": "node-red-contrib-tts-ultimate",
+      "version": "1.0.53",
+      "description": "Transforms the text in speech and hear it using Sonos player or generate an audio file to be used with third parties nodes. Works with voices from Amazon, Google (without credentials as well), Microsoft TTS Azure, or your own voice. You can also only crea",
+      "updated_at": "2023-03-02T07:21:23.878Z",
+      "types": [
+        "ttsultimate",
+        "ttsultimate-config",
+        "ownfileultimate"
+      ],
+      "keywords": [
+        "node-red",
+        "polly",
+        "google",
+        "voice",
+        "amazon",
+        "azure",
+        "tts",
+        "sonos",
+        "IOT",
+        "speech",
+        "ttsultimate",
+        "sonospollytts",
+        "neural"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-tts-ultimate"
+    },
+    {
+      "id": "node-red-contrib-simple-chatgpt",
+      "version": "1.1.0",
+      "description": "Node-REDでChatGPTができます。",
+      "updated_at": "2023-03-02T03:16:27.184Z",
+      "types": [
+        "simple-chatgpt"
+      ],
+      "keywords": [
+        "chatgpt",
+        "node-red"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-simple-chatgpt"
+    },
+    {
+      "id": "node-red-contrib-libjpeg-turbo",
+      "version": "1.0.1",
+      "description": "A Node-RED node for fast encoding or decoding jpeg images via libjpeg-turbo",
+      "updated_at": "2023-03-01T20:27:05.593Z",
+      "types": [
+        "jpeg-turbo"
+      ],
+      "keywords": [
+        "node-red",
+        "jpeg",
+        "turbo",
+        "fast",
+        "encode",
+        "decode",
+        "libjpeg",
+        "image"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-libjpeg-turbo"
+    },
+    {
+      "id": "@ozmap/node-red-contrib-oztracer",
+      "version": "1.0.4",
+      "description": "Basic implementations of opentelemetry as tracer inside nodered",
+      "updated_at": "2023-03-01T20:08:02.016Z",
+      "types": [],
+      "keywords": [
+        "node-red",
+        "node",
+        "red",
+        "msg",
+        "oztracer"
+      ],
+      "url": "https://flows.nodered.org/node/@ozmap/node-red-contrib-oztracer"
+    },
+    {
+      "id": "node-red-contrib-chronos",
+      "version": "1.19.0",
+      "description": "Time-based Node-RED scheduling, repeating, queueing, routing, filtering and manipulating nodes",
+      "updated_at": "2023-03-01T18:55:35.329Z",
+      "types": [
+        "chronos-config",
+        "chronos-scheduler",
+        "chronos-repeat",
+        "chronos-delay",
+        "chronos-switch",
+        "chronos-filter",
+        "chronos-change"
+      ],
+      "keywords": [
+        "node-red",
+        "scheduler",
+        "timer",
+        "time",
+        "sun",
+        "moon"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-chronos"
+    },
     {
       "id": "@objectif-lune/node-red-contrib-sendgrid",
       "version": "0.9.7",
@@ -105,21 +242,6 @@
       "url": "https://flows.nodered.org/node/nrc-elasticsearch-nodes"
     },
     {
-      "id": "@ozmap/node-red-contrib-oztracer",
-      "version": "1.0.2",
-      "description": "Basic implementations of opentelemetry as tracer inside nodered",
-      "updated_at": "2023-03-01T13:54:14.345Z",
-      "types": [],
-      "keywords": [
-        "node-red",
-        "node",
-        "red",
-        "msg",
-        "oztracer"
-      ],
-      "url": "https://flows.nodered.org/node/@ozmap/node-red-contrib-oztracer"
-    },
-    {
       "id": "@bitpoolos/edge-modbus",
       "version": "1.5.0",
       "description": "Modules to support reading Modbus devices.",
@@ -181,30 +303,6 @@
         "smart hub"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-caseta"
-    },
-    {
-      "id": "node-red-contrib-tcube",
-      "version": "0.0.6",
-      "description": "Node-RED integration with eWeLink Cube",
-      "updated_at": "2023-03-01T02:35:07.690Z",
-      "types": [
-        "api-server",
-        "get-devices",
-        "event-state",
-        "event-online",
-        "control-device",
-        "event-add-device",
-        "event-del-device",
-        "event-device-info",
-        "put-device-state",
-        "register-device"
-      ],
-      "keywords": [
-        "node-red",
-        "ewelink",
-        "ewelink-cube"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-tcube"
     },
     {
       "id": "node-red-contrib-delay-topic-message",
@@ -569,6 +667,19 @@
         "websocket"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-vioneta-agro-websocket-js"
+    },
+    {
+      "id": "@victronenergy/node-red-contrib-victron",
+      "version": "1.4.30",
+      "description": "Custom Node-RED Nodes for Victron Energy",
+      "updated_at": "2023-02-24T07:19:58.230Z",
+      "types": [
+        "victron-client"
+      ],
+      "keywords": [
+        "node-red"
+      ],
+      "url": "https://flows.nodered.org/node/@victronenergy/node-red-contrib-victron"
     },
     {
       "id": "node-red-contrib-gamedig",
@@ -1066,19 +1177,6 @@
         "node-red"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-airship-centegra"
-    },
-    {
-      "id": "@victronenergy/node-red-contrib-victron",
-      "version": "1.4.28",
-      "description": "Custom Node-RED Nodes for Victron Energy",
-      "updated_at": "2023-02-20T14:28:15.084Z",
-      "types": [
-        "victron-client"
-      ],
-      "keywords": [
-        "node-red"
-      ],
-      "url": "https://flows.nodered.org/node/@victronenergy/node-red-contrib-victron"
     },
     {
       "id": "node-red-contrib-dl-azure-event-hub",
@@ -6384,30 +6482,6 @@
       "url": "https://flows.nodered.org/node/@digproc/node-red-contrib-kafkajs"
     },
     {
-      "id": "node-red-contrib-chronos",
-      "version": "1.18.4",
-      "description": "Time-based Node-RED scheduling, repeating, queueing, routing, filtering and manipulating nodes",
-      "updated_at": "2022-12-12T18:56:44.673Z",
-      "types": [
-        "chronos-config",
-        "chronos-scheduler",
-        "chronos-repeat",
-        "chronos-delay",
-        "chronos-switch",
-        "chronos-filter",
-        "chronos-change"
-      ],
-      "keywords": [
-        "node-red",
-        "scheduler",
-        "timer",
-        "time",
-        "sun",
-        "moon"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-chronos"
-    },
-    {
       "id": "@chriskretschmer/node-red-contrib-senec-cloud",
       "version": "1.1.0",
       "description": "Once installed and added to Node-RED all configuration is done from within the nodes configuration UI.\r You need to provide your username and password combination. If you provide no custom URL, an overview of the first system is queried.",
@@ -6853,20 +6927,6 @@
         "picnic"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-picnic"
-    },
-    {
-      "id": "node-red-contrib-simple-chatgpt",
-      "version": "1.0.0",
-      "description": "Node-REDでChatGPTができます。",
-      "updated_at": "2022-12-05T08:43:37.252Z",
-      "types": [
-        "simple-chatgpt"
-      ],
-      "keywords": [
-        "chatgpt",
-        "node-red"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-simple-chatgpt"
     },
     {
       "id": "node-red-device-configuration",
@@ -8155,33 +8215,6 @@
         "Heroku"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-c1-salesforce4"
-    },
-    {
-      "id": "node-red-contrib-tts-ultimate",
-      "version": "1.0.52",
-      "description": "Transforms the text in speech and hear it using Sonos player or generate an audio file to be used with third parties nodes. Works with voices from Amazon, Google (without credentials as well), Microsoft TTS Azure, or your own voice. You can also only crea",
-      "updated_at": "2022-11-15T15:06:33.162Z",
-      "types": [
-        "ttsultimate",
-        "ttsultimate-config",
-        "ownfileultimate"
-      ],
-      "keywords": [
-        "node-red",
-        "polly",
-        "google",
-        "voice",
-        "amazon",
-        "azure",
-        "tts",
-        "sonos",
-        "IOT",
-        "speech",
-        "ttsultimate",
-        "sonospollytts",
-        "neural"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-tts-ultimate"
     },
     {
       "id": "node-red-contrib-ha-miraie-ac",
