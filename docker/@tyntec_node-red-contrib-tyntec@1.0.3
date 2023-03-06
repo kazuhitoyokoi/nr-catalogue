@@ -1,0 +1,36 @@
+
+----
+Sending build context to Docker daemon  33.74MB
+Step 1/2 : FROM nodered/node-red
+ ---> a15fc0f4e930
+Step 2/2 : RUN npm install npm install @tyntec/node-red-contrib-tyntec@1.0.3
+ ---> Running in 42c627d98dfa
+[91mnpm[0m[91m WARN[0m[91m EBADENGINE Unsupported engine {
+npm WARN[0m[91m EBADENGINE[0m[91m   package: '@tyntec/node-red-contrib-tyntec@1.0.3',
+npm WARN EBADENGINE   required: { node: '>=18.0.0' },
+[0m[91mnpm[0m[91m WARN EBADENGINE   current: { node: 'v16.16.0', npm: '8.11.0' }
+npm WARN EBADENGINE }
+[0m
+added 5 packages, and audited 534 packages in 4s
+
+50 packages are looking for funding
+  run `npm fund` for details
+
+7 vulnerabilities (5 low, 1 moderate, 1 high)
+
+To address issues that do not require attention, run:
+  npm audit fix
+
+To address all issues (including breaking changes), run:
+  npm audit fix --force
+
+Run `npm audit` for details.
+[91mnpm[0m[91m notice 
+npm notice[0m[91m New major version of npm available! 8.11.0 -> 9.6.0
+npm notice Changelog: <https://github.com/npm/cli/releases/tag/v9.6.0>
+npm [0m[91mnotice Run `npm install -g npm@9.6.0` to update!
+[0m[91mnpm notice 
+[0mRemoving intermediate container 42c627d98dfa
+ ---> 7bbb3fe60c82
+Successfully built 7bbb3fe60c82
+Successfully tagged tmp:latest
