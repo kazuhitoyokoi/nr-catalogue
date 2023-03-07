@@ -1,12 +1,96 @@
 {
   "name": "Catalogue for docker",
-  "updated_at": "2023-03-06T16:14:02.166Z",
+  "updated_at": "2023-03-07T16:14:36.369Z",
   "modules": [
     {
-      "id": "node-red-contrib-tcube",
-      "version": "0.0.9",
+      "id": "@nd-enerserve/node-red-smartpi",
+      "version": "0.2.3",
+      "description": "nodes for the smartpi",
+      "updated_at": "2023-03-07T12:43:06.537Z",
+      "types": [
+        "smartpi-values",
+        "smartpi-input",
+        "smartpi-treshold-trigger",
+        "smartpi-e.temperature-values",
+        "smartpi-e.digital-out"
+      ],
+      "keywords": [
+        "node-red",
+        "smartpi"
+      ],
+      "url": "https://flows.nodered.org/node/@nd-enerserve/node-red-smartpi"
+    },
+    {
+      "id": "@ba47/node-red-preferred-language",
+      "version": "0.6.2",
+      "description": "Determine preferred language from browser's Accept-Language.",
+      "updated_at": "2023-03-07T12:25:33.090Z",
+      "types": [
+        "preferred-language"
+      ],
+      "keywords": [
+        "node-red",
+        "i18n",
+        "ba47"
+      ],
+      "url": "https://flows.nodered.org/node/@ba47/node-red-preferred-language"
+    },
+    {
+      "id": "@ba47/node-red-version",
+      "version": "0.3.1",
+      "description": "Display version information of flow",
+      "updated_at": "2023-03-07T12:11:14.613Z",
+      "types": [
+        "version"
+      ],
+      "keywords": [
+        "node-red",
+        "ba47"
+      ],
+      "url": "https://flows.nodered.org/node/@ba47/node-red-version"
+    },
+    {
+      "id": "@equans/smart-buildings-manual-heating-override",
+      "version": "1.0.1",
+      "description": "Manual heating override strategy for Smart Buildings",
+      "updated_at": "2023-03-07T11:17:49.733Z",
+      "types": [
+        "Manual Heating Override"
+      ],
+      "keywords": [
+        "node-red"
+      ],
+      "url": "https://flows.nodered.org/node/@equans/smart-buildings-manual-heating-override"
+    },
+    {
+      "id": "node-red-contrib-ewelink-cube",
+      "version": "1.0.0",
       "description": "Node-RED integration with eWeLink Cube",
-      "updated_at": "2023-03-06T11:51:47.348Z",
+      "updated_at": "2023-03-07T10:41:54.453Z",
+      "types": [
+        "api-server",
+        "get-devices",
+        "event-state",
+        "event-online",
+        "control-device",
+        "event-add-device",
+        "event-del-device",
+        "event-device-info",
+        "put-device-state",
+        "register-device"
+      ],
+      "keywords": [
+        "node-red",
+        "ewelink",
+        "ewelink-cube"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-ewelink-cube"
+    },
+    {
+      "id": "node-red-contrib-tcube",
+      "version": "0.0.12",
+      "description": "Node-RED integration with eWeLink Cube",
+      "updated_at": "2023-03-07T09:29:54.611Z",
       "types": [
         "api-server",
         "get-devices",
@@ -25,6 +109,37 @@
         "ewelink-cube"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-tcube"
+    },
+    {
+      "id": "node-red-l3logger-subflow",
+      "version": "1.0.0",
+      "description": "node-red-l3logger-subflow ===================== This is a Subflow which calls Earthquake survery Api https://perso.telecom-paristech.fr/eagan/class/igr204/data/CausesOfDeath_France_2001-2008.csv to get the data and log them in a local path.",
+      "updated_at": "2023-03-07T05:23:23.913Z",
+      "types": [],
+      "keywords": [
+        "node-red",
+        "L3EarthQuakeData"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-l3logger-subflow"
+    },
+    {
+      "id": "node-red-contrib-uibuilder",
+      "version": "6.1.0",
+      "description": "Easily create data-driven web UI's for Node-RED using any (or no) front-end library.",
+      "updated_at": "2023-03-06T11:53:33.214Z",
+      "types": [],
+      "keywords": [
+        "node-red",
+        "ui",
+        "gui",
+        "dashboard",
+        "spa",
+        "web",
+        "website",
+        "data-driven",
+        "webpage"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-uibuilder"
     },
     {
       "id": "node-red-contrib-esphome",
@@ -1139,24 +1254,6 @@
         "client"
       ],
       "url": "https://flows.nodered.org/node/@virtualbat/esios-client"
-    },
-    {
-      "id": "@nd-enerserve/node-red-smartpi",
-      "version": "0.2.2",
-      "description": "nodes for the smartpi",
-      "updated_at": "2023-02-22T14:20:01.022Z",
-      "types": [
-        "smartpi-values",
-        "smartpi-input",
-        "smartpi-treshold-trigger",
-        "smartpi-e.temperature-values",
-        "smartpi-e.digital-out"
-      ],
-      "keywords": [
-        "node-red",
-        "smartpi"
-      ],
-      "url": "https://flows.nodered.org/node/@nd-enerserve/node-red-smartpi"
     },
     {
       "id": "node-red-contrib-motechat",
@@ -6346,25 +6443,6 @@
         "node-red"
       ],
       "url": "https://flows.nodered.org/node/@yuliqi/node-red-mydb"
-    },
-    {
-      "id": "node-red-contrib-uibuilder",
-      "version": "6.0.0",
-      "description": "Easily create data-driven web UI's for Node-RED using any (or no) front-end library.",
-      "updated_at": "2022-12-18T17:29:19.732Z",
-      "types": [],
-      "keywords": [
-        "node-red",
-        "ui",
-        "gui",
-        "dashboard",
-        "spa",
-        "web",
-        "website",
-        "data-driven",
-        "webpage"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-uibuilder"
     },
     {
       "id": "node-red-contrib-telegrambot-home",
