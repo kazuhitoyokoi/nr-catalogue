@@ -1,0 +1,31 @@
+
+----
+Sending build context to Docker daemon  33.94MB
+Step 1/2 : FROM nodered/node-red
+ ---> a15fc0f4e930
+Step 2/2 : RUN npm install npm install @equans/smart-buildings-manual-heating-override@1.0.1
+ ---> Running in 98a18439ced3
+
+added 28 packages, and audited 557 packages in 6s
+
+50 packages are looking for funding
+  run `npm fund` for details
+
+8 vulnerabilities (6 low, 1 moderate, 1 high)
+
+To address issues that do not require attention, run:
+  npm audit fix
+
+Some issues need review, and may require choosing
+a different dependency.
+
+Run `npm audit` for details.
+[91mnpm notice[0m[91m 
+npm notice[0m[91m New major version of npm available! 8.11.0 -> 9.6.0
+npm notice Changelog: <https://github.com/npm/cli/releases/tag/v9.6.0>
+npm notice[0m[91m Run `npm install -g npm@9.6.0` to update!
+npm notice 
+[0mRemoving intermediate container 98a18439ced3
+ ---> dc4fec9001b7
+Successfully built dc4fec9001b7
+Successfully tagged tmp:latest
