@@ -1,12 +1,43 @@
 {
   "name": "Catalogue for docker",
-  "updated_at": "2023-03-08T16:14:25.857Z",
+  "updated_at": "2023-03-09T16:20:00.024Z",
   "modules": [
     {
+      "id": "node-red-contrib-hue-tunable-white",
+      "version": "1.2.1",
+      "description": "Node-RED node automatic change white color temperature of lights as the day progress.",
+      "updated_at": "2023-03-09T13:25:00.806Z",
+      "types": [
+        "tunable-white"
+      ],
+      "keywords": [
+        "node-red",
+        "tunable white",
+        "daylight",
+        "philips hue",
+        "dynamic white",
+        "daylight",
+        "daylight simulator"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-hue-tunable-white"
+    },
+    {
+      "id": "node-red-contrib-datacake",
+      "version": "0.1.5",
+      "description": "Datacake nodes for Node-RED",
+      "updated_at": "2023-03-09T11:45:18.992Z",
+      "types": [],
+      "keywords": [
+        "node-red",
+        "datacake"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-datacake"
+    },
+    {
       "id": "node-red-contrib-xkeys_jogshuttle",
-      "version": "0.3.2",
+      "version": "0.3.3",
       "description": "Xkeys jog & shuttle node for Node-RED using DCD Protocol (DCDP)",
-      "updated_at": "2023-03-08T12:16:15.248Z",
+      "updated_at": "2023-03-09T06:01:55.350Z",
       "types": [
         "xkeys_jogshuttle"
       ],
@@ -18,6 +49,79 @@
         "node-red"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-xkeys_jogshuttle"
+    },
+    {
+      "id": "node-red-contrib-visualmapper",
+      "version": "0.5.0",
+      "description": "Maps input to output value with multiple editable sections and graphical editor.",
+      "updated_at": "2023-03-08T19:00:40.109Z",
+      "types": [
+        "mapper"
+      ],
+      "keywords": [
+        "node-red",
+        "map",
+        "editor",
+        "keyframes",
+        "range"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-visualmapper"
+    },
+    {
+      "id": "node-red-contrib-moonnode",
+      "version": "0.1.5",
+      "description": "Nodes for working with Moonraker API & Klipper",
+      "updated_at": "2023-03-08T16:30:10.426Z",
+      "types": [
+        "moonNode-connector",
+        "moonNode-monitor",
+        "moonNode-command",
+        "moonNode-event"
+      ],
+      "keywords": [
+        "node-red",
+        "3D Printer",
+        "Moonraker",
+        "Klipper",
+        "G Code",
+        "3D Printing",
+        "CNC"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-moonnode"
+    },
+    {
+      "id": "node-red-contrib-onstar2",
+      "version": "2.1.6",
+      "description": "An updated Node-RED Library using OnStarJS, an unofficial client library for the OnStar Vehicle API",
+      "updated_at": "2023-03-08T15:05:07.699Z",
+      "types": [
+        "get-account-vehicles",
+        "get-diagnostics",
+        "lock-myvehicle",
+        "unlock-myvehicle",
+        "start-myvehicle",
+        "cancel-start-myvehicle",
+        "alert-myvehicle",
+        "alert-myvehicle-lights",
+        "alert-myvehicle-horn",
+        "cancel-alert-myvehicle",
+        "locate-vehicle",
+        "mycharge-override",
+        "get-mycharge-profile",
+        "set-mycharge-profile",
+        "onstar2"
+      ],
+      "keywords": [
+        "node-red",
+        "OnStar",
+        "Chevrolet",
+        "Chevy",
+        "GM",
+        "GMC",
+        "Buick",
+        "Cadillac"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-onstar2"
     },
     {
       "id": "@nd-enerserve/node-red-smartpi",
@@ -1198,6 +1302,24 @@
         "chatgpt"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-custom-chatgpt"
+    },
+    {
+      "id": "node-red-contrib-aprs",
+      "version": "2.2.0",
+      "description": "Node-RED Nodes for connecting to APRS-IS and sending & receiving APRS and CWOP Frames.",
+      "updated_at": "2023-02-23T20:21:21.590Z",
+      "types": [
+        "aprs config",
+        "aprs rx",
+        "aprs tx"
+      ],
+      "keywords": [
+        "node-red",
+        "aprs",
+        "hamradio",
+        "amateurradio"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-aprs"
     },
     {
       "id": "node-red-contrib-obix-niagara-connector",
@@ -2422,40 +2544,6 @@
         "random user"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-createrandom"
-    },
-    {
-      "id": "node-red-contrib-onstar2",
-      "version": "2.1.5",
-      "description": "An updated Node-RED Library using OnStarJS, an unofficial client library for the OnStar Vehicle API",
-      "updated_at": "2023-02-11T23:39:38.021Z",
-      "types": [
-        "get-account-vehicles",
-        "get-diagnostics",
-        "lock-myvehicle",
-        "unlock-myvehicle",
-        "start-myvehicle",
-        "cancel-start-myvehicle",
-        "alert-myvehicle",
-        "alert-myvehicle-lights",
-        "alert-myvehicle-horn",
-        "cancel-alert-myvehicle",
-        "locate-vehicle",
-        "mycharge-override",
-        "get-mycharge-profile",
-        "set-mycharge-profile",
-        "onstar2"
-      ],
-      "keywords": [
-        "node-red",
-        "OnStar",
-        "Chevrolet",
-        "Chevy",
-        "GM",
-        "GMC",
-        "Buick",
-        "Cadillac"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-onstar2"
     },
     {
       "id": "node-red-contrib-tado-client",
@@ -4814,22 +4902,6 @@
       "url": "https://flows.nodered.org/node/node-red-node-snmp"
     },
     {
-      "id": "node-red-contrib-aw365-jwt-token",
-      "version": "1.0.6",
-      "description": "creates a jwt token from msg.body and msg.secret",
-      "updated_at": "2023-01-13T09:26:06.784Z",
-      "types": [
-        "aw365-jwt-token"
-      ],
-      "keywords": [
-        "node-red",
-        "aw365",
-        "jwt",
-        "jwt-token"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-aw365-jwt-token"
-    },
-    {
       "id": "node-red-contrib-servicely",
       "version": "0.0.19",
       "description": "A set of Node-RED nodes to facilitate integration with Servicely.ai.",
@@ -6760,6 +6832,32 @@
       "url": "https://flows.nodered.org/node/@octobus/node-red-contrib-octobus-connector"
     },
     {
+      "id": "node-red-contrib-openai",
+      "version": "1.0.2",
+      "description": "Node-RED node for openai",
+      "updated_at": "2022-12-13T22:42:45.780Z",
+      "types": [
+        "openai",
+        "openaiApiKey"
+      ],
+      "keywords": [
+        "node-red-contrib-contribgen",
+        "node-red",
+        "openai",
+        "chatbot",
+        "AI",
+        "search api",
+        "AI 검색",
+        "Completion",
+        "image generation",
+        "Text Embeddings",
+        "Fine tunes",
+        "Moderations",
+        "nodejs"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-openai"
+    },
+    {
       "id": "red-contrib-turf-module",
       "version": "1.0.4",
       "description": "A node which exposes all the awesome features of the [Turf](https://turfjs.org/) Library for spatial analysis.",
@@ -6829,32 +6927,6 @@
         "topological"
       ],
       "url": "https://flows.nodered.org/node/topological-nodered-wdio"
-    },
-    {
-      "id": "node-red-contrib-openai",
-      "version": "1.0.0",
-      "description": "Node-RED node for openai",
-      "updated_at": "2022-12-12T03:12:27.795Z",
-      "types": [
-        "openai",
-        "openaiApiKey"
-      ],
-      "keywords": [
-        "node-red-contrib-contribgen",
-        "node-red",
-        "openai",
-        "chatbot",
-        "AI",
-        "search api",
-        "AI 검색",
-        "Completion",
-        "image generation",
-        "Text Embeddings",
-        "Fine tunes",
-        "Moderations",
-        "nodejs"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-openai"
     },
     {
       "id": "node-red-contrib-smaregi",
@@ -7296,24 +7368,6 @@
         "node-xlsx"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-xlsx-wrapper"
-    },
-    {
-      "id": "node-red-contrib-aprs",
-      "version": "2.1.1",
-      "description": "Node-RED Nodes for connecting to APRS-IS and sending & receiving APRS and CWOP Frames.",
-      "updated_at": "2022-12-02T19:00:29.402Z",
-      "types": [
-        "aprs config",
-        "aprs rx",
-        "aprs tx"
-      ],
-      "keywords": [
-        "node-red",
-        "aprs",
-        "hamradio",
-        "amateurradio"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-aprs"
     },
     {
       "id": "node-red-contrib-mobius-flow-cloud-connectors",
@@ -11293,28 +11347,6 @@
       "url": "https://flows.nodered.org/node/node-red-contrib-wsdl-soap-server-sim"
     },
     {
-      "id": "node-red-contrib-moonnode",
-      "version": "0.1.4",
-      "description": "Nodes for working with Moonraker API & Klipper",
-      "updated_at": "2022-09-22T07:39:35.443Z",
-      "types": [
-        "moonNode-connector",
-        "moonNode-monitor",
-        "moonNode-command",
-        "moonNode-event"
-      ],
-      "keywords": [
-        "node-red",
-        "3D Printer",
-        "Moonraker",
-        "Klipper",
-        "G Code",
-        "3D Printing",
-        "CNC"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-moonnode"
-    },
-    {
       "id": "@node-red-contrib-themes/theme-collection",
       "version": "3.0.6",
       "description": "Node-RED theme collection",
@@ -11464,23 +11496,6 @@
         "automation"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-ads"
-    },
-    {
-      "id": "node-red-contrib-visualmapper",
-      "version": "0.4.0",
-      "description": "Maps input to output value with multiple editable sections and graphical editor.",
-      "updated_at": "2022-09-18T15:44:13.602Z",
-      "types": [
-        "mapper"
-      ],
-      "keywords": [
-        "node-red",
-        "map",
-        "editor",
-        "keyframes",
-        "range"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-visualmapper"
     },
     {
       "id": "node-red-contrib-azure-blob-storage-aleph",
@@ -33243,25 +33258,6 @@
       "url": "https://flows.nodered.org/node/node-red-contrib-twc-covid19-tracker"
     },
     {
-      "id": "node-red-contrib-hue-tunable-white",
-      "version": "1.1.1",
-      "description": "Node-RED node automatic change white color temperature of lights as the day progress.",
-      "updated_at": "2021-02-24T12:59:44.584Z",
-      "types": [
-        "tunable-white"
-      ],
-      "keywords": [
-        "node-red",
-        "tunable white",
-        "daylight",
-        "philips hue",
-        "dynamic white",
-        "daylight",
-        "daylight simulator"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-hue-tunable-white"
-    },
-    {
       "id": "node-red-contrib-sql-prepare",
       "version": "0.0.9",
       "description": "A node which translate an array input into an sql command",
@@ -40699,18 +40695,6 @@
         "vision"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-biometricvision"
-    },
-    {
-      "id": "node-red-contrib-datacake",
-      "version": "0.1.4",
-      "description": "Datacake nodes for Node-RED",
-      "updated_at": "2020-07-06T14:51:01.729Z",
-      "types": [],
-      "keywords": [
-        "node-red",
-        "datacake"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-datacake"
     },
     {
       "id": "node-red-contrib-msg-router",
