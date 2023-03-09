@@ -1,7 +1,94 @@
 {
   "name": "Catalogue for win32",
-  "updated_at": "2023-03-08T18:07:19.793Z",
+  "updated_at": "2023-03-09T19:25:45.906Z",
   "modules": [
+    {
+      "id": "node-red-contrib-hue-tunable-white",
+      "version": "1.2.1",
+      "description": "Node-RED node automatic change white color temperature of lights as the day progress.",
+      "updated_at": "2023-03-09T13:25:00.806Z",
+      "types": [
+        "tunable-white"
+      ],
+      "keywords": [
+        "node-red",
+        "tunable white",
+        "daylight",
+        "philips hue",
+        "dynamic white",
+        "daylight",
+        "daylight simulator"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-hue-tunable-white"
+    },
+    {
+      "id": "node-red-contrib-datacake",
+      "version": "0.1.5",
+      "description": "Datacake nodes for Node-RED",
+      "updated_at": "2023-03-09T11:45:18.992Z",
+      "types": [],
+      "keywords": [
+        "node-red",
+        "datacake"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-datacake"
+    },
+    {
+      "id": "node-red-contrib-xkeys_jogshuttle",
+      "version": "0.3.3",
+      "description": "Xkeys jog & shuttle node for Node-RED using DCD Protocol (DCDP)",
+      "updated_at": "2023-03-09T06:01:55.350Z",
+      "types": [
+        "xkeys_jogshuttle"
+      ],
+      "keywords": [
+        "DCDP",
+        "X-keys",
+        "Xkeys",
+        "xkeys",
+        "node-red"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-xkeys_jogshuttle"
+    },
+    {
+      "id": "node-red-contrib-visualmapper",
+      "version": "0.5.0",
+      "description": "Maps input to output value with multiple editable sections and graphical editor.",
+      "updated_at": "2023-03-08T19:00:40.109Z",
+      "types": [
+        "mapper"
+      ],
+      "keywords": [
+        "node-red",
+        "map",
+        "editor",
+        "keyframes",
+        "range"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-visualmapper"
+    },
+    {
+      "id": "node-red-contrib-moonnode",
+      "version": "0.1.5",
+      "description": "Nodes for working with Moonraker API & Klipper",
+      "updated_at": "2023-03-08T16:30:10.426Z",
+      "types": [
+        "moonNode-connector",
+        "moonNode-monitor",
+        "moonNode-command",
+        "moonNode-event"
+      ],
+      "keywords": [
+        "node-red",
+        "3D Printer",
+        "Moonraker",
+        "Klipper",
+        "G Code",
+        "3D Printing",
+        "CNC"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-moonnode"
+    },
     {
       "id": "node-red-contrib-onstar2",
       "version": "2.1.6",
@@ -35,23 +122,6 @@
         "Cadillac"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-onstar2"
-    },
-    {
-      "id": "node-red-contrib-xkeys_jogshuttle",
-      "version": "0.3.2",
-      "description": "Xkeys jog & shuttle node for Node-RED using DCD Protocol (DCDP)",
-      "updated_at": "2023-03-08T12:16:15.248Z",
-      "types": [
-        "xkeys_jogshuttle"
-      ],
-      "keywords": [
-        "DCDP",
-        "X-keys",
-        "Xkeys",
-        "xkeys",
-        "node-red"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-xkeys_jogshuttle"
     },
     {
       "id": "@nd-enerserve/node-red-smartpi",
@@ -4838,22 +4908,6 @@
       "url": "https://flows.nodered.org/node/node-red-node-snmp"
     },
     {
-      "id": "node-red-contrib-aw365-jwt-token",
-      "version": "1.0.6",
-      "description": "creates a jwt token from msg.body and msg.secret",
-      "updated_at": "2023-01-13T09:26:06.784Z",
-      "types": [
-        "aw365-jwt-token"
-      ],
-      "keywords": [
-        "node-red",
-        "aw365",
-        "jwt",
-        "jwt-token"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-aw365-jwt-token"
-    },
-    {
       "id": "node-red-contrib-servicely",
       "version": "0.0.19",
       "description": "A set of Node-RED nodes to facilitate integration with Servicely.ai.",
@@ -6778,6 +6832,32 @@
       "url": "https://flows.nodered.org/node/@octobus/node-red-contrib-octobus-connector"
     },
     {
+      "id": "node-red-contrib-openai",
+      "version": "1.0.2",
+      "description": "Node-RED node for openai",
+      "updated_at": "2022-12-13T22:42:45.780Z",
+      "types": [
+        "openai",
+        "openaiApiKey"
+      ],
+      "keywords": [
+        "node-red-contrib-contribgen",
+        "node-red",
+        "openai",
+        "chatbot",
+        "AI",
+        "search api",
+        "AI 검색",
+        "Completion",
+        "image generation",
+        "Text Embeddings",
+        "Fine tunes",
+        "Moderations",
+        "nodejs"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-openai"
+    },
+    {
       "id": "red-contrib-turf-module",
       "version": "1.0.4",
       "description": "A node which exposes all the awesome features of the [Turf](https://turfjs.org/) Library for spatial analysis.",
@@ -6847,32 +6927,6 @@
         "topological"
       ],
       "url": "https://flows.nodered.org/node/topological-nodered-wdio"
-    },
-    {
-      "id": "node-red-contrib-openai",
-      "version": "1.0.0",
-      "description": "Node-RED node for openai",
-      "updated_at": "2022-12-12T03:12:27.795Z",
-      "types": [
-        "openai",
-        "openaiApiKey"
-      ],
-      "keywords": [
-        "node-red-contrib-contribgen",
-        "node-red",
-        "openai",
-        "chatbot",
-        "AI",
-        "search api",
-        "AI 검색",
-        "Completion",
-        "image generation",
-        "Text Embeddings",
-        "Fine tunes",
-        "Moderations",
-        "nodejs"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-openai"
     },
     {
       "id": "node-red-contrib-smaregi",
@@ -11271,28 +11325,6 @@
       "url": "https://flows.nodered.org/node/node-red-contrib-wsdl-soap-server-sim"
     },
     {
-      "id": "node-red-contrib-moonnode",
-      "version": "0.1.4",
-      "description": "Nodes for working with Moonraker API & Klipper",
-      "updated_at": "2022-09-22T07:39:35.443Z",
-      "types": [
-        "moonNode-connector",
-        "moonNode-monitor",
-        "moonNode-command",
-        "moonNode-event"
-      ],
-      "keywords": [
-        "node-red",
-        "3D Printer",
-        "Moonraker",
-        "Klipper",
-        "G Code",
-        "3D Printing",
-        "CNC"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-moonnode"
-    },
-    {
       "id": "@node-red-contrib-themes/theme-collection",
       "version": "3.0.6",
       "description": "Node-RED theme collection",
@@ -11442,23 +11474,6 @@
         "automation"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-ads"
-    },
-    {
-      "id": "node-red-contrib-visualmapper",
-      "version": "0.4.0",
-      "description": "Maps input to output value with multiple editable sections and graphical editor.",
-      "updated_at": "2022-09-18T15:44:13.602Z",
-      "types": [
-        "mapper"
-      ],
-      "keywords": [
-        "node-red",
-        "map",
-        "editor",
-        "keyframes",
-        "range"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-visualmapper"
     },
     {
       "id": "node-red-contrib-azure-blob-storage-aleph",
@@ -33453,25 +33468,6 @@
       "url": "https://flows.nodered.org/node/node-red-contrib-twc-covid19-tracker"
     },
     {
-      "id": "node-red-contrib-hue-tunable-white",
-      "version": "1.1.1",
-      "description": "Node-RED node automatic change white color temperature of lights as the day progress.",
-      "updated_at": "2021-02-24T12:59:44.584Z",
-      "types": [
-        "tunable-white"
-      ],
-      "keywords": [
-        "node-red",
-        "tunable white",
-        "daylight",
-        "philips hue",
-        "dynamic white",
-        "daylight",
-        "daylight simulator"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-hue-tunable-white"
-    },
-    {
       "id": "node-red-contrib-sql-prepare",
       "version": "0.0.9",
       "description": "A node which translate an array input into an sql command",
@@ -40960,18 +40956,6 @@
         "vision"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-biometricvision"
-    },
-    {
-      "id": "node-red-contrib-datacake",
-      "version": "0.1.4",
-      "description": "Datacake nodes for Node-RED",
-      "updated_at": "2020-07-06T14:51:01.729Z",
-      "types": [],
-      "keywords": [
-        "node-red",
-        "datacake"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-datacake"
     },
     {
       "id": "node-red-contrib-msg-router",
