@@ -1,7 +1,72 @@
 {
   "name": "Catalogue for darwin",
-  "updated_at": "2023-03-11T19:16:49.215Z",
+  "updated_at": "2023-03-12T21:08:11.233Z",
   "modules": [
+    {
+      "id": "@gogovega/node-red-contrib-firebase-realtime-database",
+      "version": "0.3.1",
+      "description": "Node-RED nodes to communicate with Google Firebase Realtime Databases",
+      "updated_at": "2023-03-12T12:07:31.875Z",
+      "types": [
+        "database-config",
+        "firebase-in",
+        "firebase-get",
+        "firebase-out"
+      ],
+      "keywords": [
+        "admin",
+        "database",
+        "firebase",
+        "node-red",
+        "realtime"
+      ],
+      "url": "https://flows.nodered.org/node/@gogovega/node-red-contrib-firebase-realtime-database"
+    },
+    {
+      "id": "node-red-contrib-uibuilder",
+      "version": "6.1.1",
+      "description": "Easily create data-driven web UI's for Node-RED using any (or no) front-end library.",
+      "updated_at": "2023-03-12T09:38:58.036Z",
+      "types": [],
+      "keywords": [
+        "node-red",
+        "ui",
+        "gui",
+        "dashboard",
+        "spa",
+        "web",
+        "website",
+        "data-driven",
+        "webpage"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-uibuilder"
+    },
+    {
+      "id": "node-red-contrib-opcua",
+      "version": "0.2.299",
+      "description": "A Node-RED node to communicate via OPC UA based on node-opcua library.",
+      "updated_at": "2023-03-12T08:45:29.285Z",
+      "types": [
+        "OpcUa-Item",
+        "OpcUa-Client",
+        "OpcUa-Browser",
+        "OpcUa-Server",
+        "OpcUa-Endpoint",
+        "OpcUa-Event",
+        "OpcUa-Method",
+        "OpcUa-Rights",
+        "OpcUa-Discovery"
+      ],
+      "keywords": [
+        "node-red",
+        "OPC UA",
+        "opc-ua",
+        "unified automation",
+        "opc foundation",
+        "node-opcua"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-opcua"
+    },
     {
       "id": "node-red-contrib-discord-advanced",
       "version": "3.4.0",
@@ -93,6 +158,39 @@
         "jwt-token"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-aw365-jwt-token"
+    },
+    {
+      "id": "node-red-dashboard",
+      "version": "3.4.0",
+      "description": "A set of dashboard nodes for Node-RED",
+      "updated_at": "2023-03-09T15:34:51.491Z",
+      "types": [
+        "ui_base",
+        "ui_button",
+        "ui_dropdown",
+        "ui_switch",
+        "ui_slider",
+        "ui_numeric",
+        "ui_text_input",
+        "ui_date_picker",
+        "ui_colour_picker",
+        "ui_form",
+        "ui_text",
+        "ui_gauge",
+        "ui_chart",
+        "ui_audio",
+        "ui_toast",
+        "ui_ui_control",
+        "ui_template",
+        "ui_link",
+        "ui_tab",
+        "ui_group",
+        "ui_spacer"
+      ],
+      "keywords": [
+        "node-red"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-dashboard"
     },
     {
       "id": "node-red-contrib-hue-tunable-white",
@@ -431,25 +529,6 @@
         "ewelink-cube"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-tcube"
-    },
-    {
-      "id": "node-red-contrib-uibuilder",
-      "version": "6.1.0",
-      "description": "Easily create data-driven web UI's for Node-RED using any (or no) front-end library.",
-      "updated_at": "2023-03-06T11:53:33.214Z",
-      "types": [],
-      "keywords": [
-        "node-red",
-        "ui",
-        "gui",
-        "dashboard",
-        "spa",
-        "web",
-        "website",
-        "data-driven",
-        "webpage"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-uibuilder"
     },
     {
       "id": "node-red-contrib-esphome",
@@ -1004,32 +1083,6 @@
         "countdown"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-delay-topic-message"
-    },
-    {
-      "id": "node-red-contrib-opcua",
-      "version": "0.2.298",
-      "description": "A Node-RED node to communicate via OPC UA based on node-opcua library.",
-      "updated_at": "2023-02-28T16:43:22.068Z",
-      "types": [
-        "OpcUa-Item",
-        "OpcUa-Client",
-        "OpcUa-Browser",
-        "OpcUa-Server",
-        "OpcUa-Endpoint",
-        "OpcUa-Event",
-        "OpcUa-Method",
-        "OpcUa-Rights",
-        "OpcUa-Discovery"
-      ],
-      "keywords": [
-        "node-red",
-        "OPC UA",
-        "opc-ua",
-        "unified automation",
-        "opc foundation",
-        "node-opcua"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-opcua"
     },
     {
       "id": "@kurago-dev/node-red-contrib-azure",
@@ -2637,26 +2690,6 @@
         "tado"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-tado-client"
-    },
-    {
-      "id": "@gogovega/node-red-contrib-firebase-realtime-database",
-      "version": "0.3.0",
-      "description": "Node-RED nodes to communicate with Google Firebase Realtime Databases",
-      "updated_at": "2023-02-10T21:49:43.094Z",
-      "types": [
-        "database-config",
-        "firebase-in",
-        "firebase-get",
-        "firebase-out"
-      ],
-      "keywords": [
-        "admin",
-        "database",
-        "firebase",
-        "node-red",
-        "realtime"
-      ],
-      "url": "https://flows.nodered.org/node/@gogovega/node-red-contrib-firebase-realtime-database"
     },
     {
       "id": "node-red-2stools-packetdecode",
@@ -5636,39 +5669,6 @@
         "node-red"
       ],
       "url": "https://flows.nodered.org/node/@flexdash/node-red-fd-corewidgets"
-    },
-    {
-      "id": "node-red-dashboard",
-      "version": "3.3.1",
-      "description": "A set of dashboard nodes for Node-RED",
-      "updated_at": "2023-01-03T16:03:46.736Z",
-      "types": [
-        "ui_base",
-        "ui_button",
-        "ui_dropdown",
-        "ui_switch",
-        "ui_slider",
-        "ui_numeric",
-        "ui_text_input",
-        "ui_date_picker",
-        "ui_colour_picker",
-        "ui_form",
-        "ui_text",
-        "ui_gauge",
-        "ui_chart",
-        "ui_audio",
-        "ui_toast",
-        "ui_ui_control",
-        "ui_template",
-        "ui_link",
-        "ui_tab",
-        "ui_group",
-        "ui_spacer"
-      ],
-      "keywords": [
-        "node-red"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-dashboard"
     },
     {
       "id": "node-red-contrib-genetic-charging-strategy",
