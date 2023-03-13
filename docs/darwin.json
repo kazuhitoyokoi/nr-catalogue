@@ -1,7 +1,167 @@
 {
   "name": "Catalogue for darwin",
-  "updated_at": "2023-03-12T21:08:11.233Z",
+  "updated_at": "2023-03-13T21:40:10.578Z",
   "modules": [
+    {
+      "id": "node-red-contrib-aedes",
+      "version": "0.11.1",
+      "description": "Node Red MQTT broker node based on aedes.js",
+      "updated_at": "2023-03-13T17:17:52.050Z",
+      "types": [
+        "aedes broker"
+      ],
+      "keywords": [
+        "node-red",
+        "aedes",
+        "mqtt"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-aedes"
+    },
+    {
+      "id": "node-red-2stools-packetdecode",
+      "version": "0.9.24",
+      "description": "Decode string data to a respective sensor on IC",
+      "updated_at": "2023-03-13T16:54:45.014Z",
+      "types": [
+        "2stools-packetdecode"
+      ],
+      "keywords": [
+        "node-red",
+        "2solve",
+        "2stools"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-2stools-packetdecode"
+    },
+    {
+      "id": "node-red-contrib-opcua",
+      "version": "0.2.300",
+      "description": "A Node-RED node to communicate via OPC UA based on node-opcua library.",
+      "updated_at": "2023-03-13T14:33:14.840Z",
+      "types": [
+        "OpcUa-Item",
+        "OpcUa-Client",
+        "OpcUa-Browser",
+        "OpcUa-Server",
+        "OpcUa-Endpoint",
+        "OpcUa-Event",
+        "OpcUa-Method",
+        "OpcUa-Rights",
+        "OpcUa-Discovery"
+      ],
+      "keywords": [
+        "node-red",
+        "OPC UA",
+        "opc-ua",
+        "unified automation",
+        "opc foundation",
+        "node-opcua"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-opcua"
+    },
+    {
+      "id": "@s1seven/node-red-generate-pdf",
+      "version": "0.0.8",
+      "description": "A simple node-red module that wraps the S1Seven generatePdf module and allows it to be used in node-red.",
+      "updated_at": "2023-03-13T14:29:38.116Z",
+      "types": [
+        "generate pdf"
+      ],
+      "keywords": [
+        "node-red"
+      ],
+      "url": "https://flows.nodered.org/node/@s1seven/node-red-generate-pdf"
+    },
+    {
+      "id": "@s1seven/node-red-s1seven-api",
+      "version": "1.2.0",
+      "description": "Nodes that interact with S1Seven's API",
+      "updated_at": "2023-03-13T14:29:38.019Z",
+      "types": [
+        "hash",
+        "verify certificate",
+        "notarize certificate",
+        "get identities",
+        "get company",
+        "get access token",
+        "api-config"
+      ],
+      "keywords": [
+        "node-red",
+        "s1seven"
+      ],
+      "url": "https://flows.nodered.org/node/@s1seven/node-red-s1seven-api"
+    },
+    {
+      "id": "node-red-contrib-web-worldmap",
+      "version": "2.34.0",
+      "description": "A Node-RED node to provide a web page of a world map for plotting things on.",
+      "updated_at": "2023-03-13T11:23:09.613Z",
+      "types": [
+        "worldmap",
+        "ui_worldmap",
+        "worldmap in",
+        "worldmap-tracks",
+        "worldmap-hull"
+      ],
+      "keywords": [
+        "node-red",
+        "map",
+        "world"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-web-worldmap"
+    },
+    {
+      "id": "node-red-contrib-caseta",
+      "version": "2.1.0",
+      "description": "Node-RED nodes to observe and control a Lutron Caseta home network.",
+      "updated_at": "2023-03-13T01:49:01.774Z",
+      "types": [
+        "caseta-bridge",
+        "caseta-react",
+        "caseta-control",
+        "caseta-query"
+      ],
+      "keywords": [
+        "node-red",
+        "lutron",
+        "caseta",
+        "smartbridge",
+        "smart hub"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-caseta"
+    },
+    {
+      "id": "nr-strompreis",
+      "version": "1.0.0",
+      "description": "NodeRed Node to retrieve electricity price in Germany (local and national)",
+      "updated_at": "2023-03-12T23:28:58.044Z",
+      "types": [
+        "Strompreis"
+      ],
+      "keywords": [
+        "strompreis",
+        "marktdaten",
+        "stromdao",
+        "corrently",
+        "node-red"
+      ],
+      "url": "https://flows.nodered.org/node/nr-strompreis"
+    },
+    {
+      "id": "node-red-contrib-opentelemetry",
+      "version": "1.0.2",
+      "description": "Distributed tracing with OpenTelemetry SDK for Node-RED",
+      "updated_at": "2023-03-12T22:11:12.947Z",
+      "types": [
+        "OpenTelemetry"
+      ],
+      "keywords": [
+        "node-red",
+        "opentelemetry",
+        "tracing"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-opentelemetry"
+    },
     {
       "id": "@gogovega/node-red-contrib-firebase-realtime-database",
       "version": "0.3.1",
@@ -42,32 +202,6 @@
       "url": "https://flows.nodered.org/node/node-red-contrib-uibuilder"
     },
     {
-      "id": "node-red-contrib-opcua",
-      "version": "0.2.299",
-      "description": "A Node-RED node to communicate via OPC UA based on node-opcua library.",
-      "updated_at": "2023-03-12T08:45:29.285Z",
-      "types": [
-        "OpcUa-Item",
-        "OpcUa-Client",
-        "OpcUa-Browser",
-        "OpcUa-Server",
-        "OpcUa-Endpoint",
-        "OpcUa-Event",
-        "OpcUa-Method",
-        "OpcUa-Rights",
-        "OpcUa-Discovery"
-      ],
-      "keywords": [
-        "node-red",
-        "OPC UA",
-        "opc-ua",
-        "unified automation",
-        "opc foundation",
-        "node-opcua"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-opcua"
-    },
-    {
       "id": "node-red-contrib-discord-advanced",
       "version": "3.4.0",
       "description": "Recieve, send, edit, reply, react to and delete Discord messages, handle interactions and much more in Node-RED.",
@@ -85,21 +219,6 @@
         "node-red"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-discord-advanced"
-    },
-    {
-      "id": "node-red-contrib-opentelemetry",
-      "version": "1.0.1",
-      "description": "Distributed tracing with OpenTelemetry SDK for Node-RED",
-      "updated_at": "2023-03-11T02:33:56.229Z",
-      "types": [
-        "OpenTelemetry"
-      ],
-      "keywords": [
-        "node-red",
-        "opentelemetry",
-        "tracing"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-opentelemetry"
     },
     {
       "id": "node-red-contrib-custom-chatgpt",
@@ -719,21 +838,6 @@
       "url": "https://flows.nodered.org/node/node-red-contrib-timed-counter"
     },
     {
-      "id": "node-red-contrib-aedes",
-      "version": "0.10.0",
-      "description": "Node Red MQTT broker node based on aedes.js",
-      "updated_at": "2023-03-03T23:26:36.374Z",
-      "types": [
-        "aedes broker"
-      ],
-      "keywords": [
-        "node-red",
-        "aedes",
-        "mqtt"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-aedes"
-    },
-    {
       "id": "@andrei-tatar/node-red-contrib-nibetcp",
       "version": "1.4.1",
       "description": "Node-red integration for Nibe S series heatpumps using modbus over TCP",
@@ -1047,26 +1151,6 @@
         "rgbw"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-daylight-rgbw"
-    },
-    {
-      "id": "node-red-contrib-caseta",
-      "version": "2.0.0",
-      "description": "Node-RED nodes to observe and control a Lutron Caseta home network.",
-      "updated_at": "2023-03-01T04:33:18.912Z",
-      "types": [
-        "caseta-bridge",
-        "caseta-react",
-        "caseta-control",
-        "caseta-query"
-      ],
-      "keywords": [
-        "node-red",
-        "lutron",
-        "caseta",
-        "smartbridge",
-        "smart hub"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-caseta"
     },
     {
       "id": "node-red-contrib-delay-topic-message",
@@ -2690,21 +2774,6 @@
         "tado"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-tado-client"
-    },
-    {
-      "id": "node-red-2stools-packetdecode",
-      "version": "0.9.23",
-      "description": "Decode string data to a respective sensor on IC",
-      "updated_at": "2023-02-10T18:46:21.055Z",
-      "types": [
-        "2stools-packetdecode"
-      ],
-      "keywords": [
-        "node-red",
-        "2solve",
-        "2stools"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-2stools-packetdecode"
     },
     {
       "id": "red-endpoint-cmtk",
@@ -4498,25 +4567,6 @@
         "hubitat"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-hubitat"
-    },
-    {
-      "id": "node-red-contrib-web-worldmap",
-      "version": "2.33.0",
-      "description": "A Node-RED node to provide a web page of a world map for plotting things on.",
-      "updated_at": "2023-01-21T13:39:04.081Z",
-      "types": [
-        "worldmap",
-        "ui_worldmap",
-        "worldmap in",
-        "worldmap-tracks",
-        "worldmap-hull"
-      ],
-      "keywords": [
-        "node-red",
-        "map",
-        "world"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-web-worldmap"
     },
     {
       "id": "wuitu-device-node",
@@ -8072,38 +8122,6 @@
         "node-red"
       ],
       "url": "https://flows.nodered.org/node/@s1seven/node-red-chartjs"
-    },
-    {
-      "id": "@s1seven/node-red-generate-pdf",
-      "version": "0.0.7",
-      "description": "A simple node-red module that wraps the S1Seven generatePdf module and allows it to be used in node-red.",
-      "updated_at": "2022-11-21T06:54:51.245Z",
-      "types": [
-        "generate pdf"
-      ],
-      "keywords": [
-        "node-red"
-      ],
-      "url": "https://flows.nodered.org/node/@s1seven/node-red-generate-pdf"
-    },
-    {
-      "id": "@s1seven/node-red-s1seven-api",
-      "version": "1.1.0",
-      "description": "Nodes that interact with S1Seven's API",
-      "updated_at": "2022-11-21T06:54:51.151Z",
-      "types": [
-        "hash",
-        "verify certificate",
-        "notarize certificate",
-        "get identities",
-        "get company",
-        "api-config"
-      ],
-      "keywords": [
-        "node-red",
-        "s1seven"
-      ],
-      "url": "https://flows.nodered.org/node/@s1seven/node-red-s1seven-api"
     },
     {
       "id": "node-red-contrib-homekit-bridged",
