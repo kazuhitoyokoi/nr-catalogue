@@ -1,7 +1,104 @@
 {
   "name": "Catalogue for docker",
-  "updated_at": "2023-03-12T16:42:51.983Z",
+  "updated_at": "2023-03-13T16:38:35.816Z",
   "modules": [
+    {
+      "id": "node-red-contrib-opcua",
+      "version": "0.2.300",
+      "description": "A Node-RED node to communicate via OPC UA based on node-opcua library.",
+      "updated_at": "2023-03-13T14:33:14.840Z",
+      "types": [
+        "OpcUa-Item",
+        "OpcUa-Client",
+        "OpcUa-Browser",
+        "OpcUa-Server",
+        "OpcUa-Endpoint",
+        "OpcUa-Event",
+        "OpcUa-Method",
+        "OpcUa-Rights",
+        "OpcUa-Discovery"
+      ],
+      "keywords": [
+        "node-red",
+        "OPC UA",
+        "opc-ua",
+        "unified automation",
+        "opc foundation",
+        "node-opcua"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-opcua"
+    },
+    {
+      "id": "node-red-contrib-web-worldmap",
+      "version": "2.34.0",
+      "description": "A Node-RED node to provide a web page of a world map for plotting things on.",
+      "updated_at": "2023-03-13T11:23:09.613Z",
+      "types": [
+        "worldmap",
+        "ui_worldmap",
+        "worldmap in",
+        "worldmap-tracks",
+        "worldmap-hull"
+      ],
+      "keywords": [
+        "node-red",
+        "map",
+        "world"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-web-worldmap"
+    },
+    {
+      "id": "node-red-contrib-caseta",
+      "version": "2.1.0",
+      "description": "Node-RED nodes to observe and control a Lutron Caseta home network.",
+      "updated_at": "2023-03-13T01:49:01.774Z",
+      "types": [
+        "caseta-bridge",
+        "caseta-react",
+        "caseta-control",
+        "caseta-query"
+      ],
+      "keywords": [
+        "node-red",
+        "lutron",
+        "caseta",
+        "smartbridge",
+        "smart hub"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-caseta"
+    },
+    {
+      "id": "nr-strompreis",
+      "version": "1.0.0",
+      "description": "NodeRed Node to retrieve electricity price in Germany (local and national)",
+      "updated_at": "2023-03-12T23:28:58.044Z",
+      "types": [
+        "Strompreis"
+      ],
+      "keywords": [
+        "strompreis",
+        "marktdaten",
+        "stromdao",
+        "corrently",
+        "node-red"
+      ],
+      "url": "https://flows.nodered.org/node/nr-strompreis"
+    },
+    {
+      "id": "node-red-contrib-opentelemetry",
+      "version": "1.0.2",
+      "description": "Distributed tracing with OpenTelemetry SDK for Node-RED",
+      "updated_at": "2023-03-12T22:11:12.947Z",
+      "types": [
+        "OpenTelemetry"
+      ],
+      "keywords": [
+        "node-red",
+        "opentelemetry",
+        "tracing"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-opentelemetry"
+    },
     {
       "id": "@gogovega/node-red-contrib-firebase-realtime-database",
       "version": "0.3.1",
@@ -42,32 +139,6 @@
       "url": "https://flows.nodered.org/node/node-red-contrib-uibuilder"
     },
     {
-      "id": "node-red-contrib-opcua",
-      "version": "0.2.299",
-      "description": "A Node-RED node to communicate via OPC UA based on node-opcua library.",
-      "updated_at": "2023-03-12T08:45:29.285Z",
-      "types": [
-        "OpcUa-Item",
-        "OpcUa-Client",
-        "OpcUa-Browser",
-        "OpcUa-Server",
-        "OpcUa-Endpoint",
-        "OpcUa-Event",
-        "OpcUa-Method",
-        "OpcUa-Rights",
-        "OpcUa-Discovery"
-      ],
-      "keywords": [
-        "node-red",
-        "OPC UA",
-        "opc-ua",
-        "unified automation",
-        "opc foundation",
-        "node-opcua"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-opcua"
-    },
-    {
       "id": "node-red-contrib-discord-advanced",
       "version": "3.4.0",
       "description": "Recieve, send, edit, reply, react to and delete Discord messages, handle interactions and much more in Node-RED.",
@@ -85,21 +156,6 @@
         "node-red"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-discord-advanced"
-    },
-    {
-      "id": "node-red-contrib-opentelemetry",
-      "version": "1.0.1",
-      "description": "Distributed tracing with OpenTelemetry SDK for Node-RED",
-      "updated_at": "2023-03-11T02:33:56.229Z",
-      "types": [
-        "OpenTelemetry"
-      ],
-      "keywords": [
-        "node-red",
-        "opentelemetry",
-        "tracing"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-opentelemetry"
     },
     {
       "id": "node-red-contrib-custom-chatgpt",
@@ -1047,26 +1103,6 @@
         "rgbw"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-daylight-rgbw"
-    },
-    {
-      "id": "node-red-contrib-caseta",
-      "version": "2.0.0",
-      "description": "Node-RED nodes to observe and control a Lutron Caseta home network.",
-      "updated_at": "2023-03-01T04:33:18.912Z",
-      "types": [
-        "caseta-bridge",
-        "caseta-react",
-        "caseta-control",
-        "caseta-query"
-      ],
-      "keywords": [
-        "node-red",
-        "lutron",
-        "caseta",
-        "smartbridge",
-        "smart hub"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-caseta"
     },
     {
       "id": "node-red-contrib-delay-topic-message",
@@ -4492,25 +4528,6 @@
         "hubitat"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-hubitat"
-    },
-    {
-      "id": "node-red-contrib-web-worldmap",
-      "version": "2.33.0",
-      "description": "A Node-RED node to provide a web page of a world map for plotting things on.",
-      "updated_at": "2023-01-21T13:39:04.081Z",
-      "types": [
-        "worldmap",
-        "ui_worldmap",
-        "worldmap in",
-        "worldmap-tracks",
-        "worldmap-hull"
-      ],
-      "keywords": [
-        "node-red",
-        "map",
-        "world"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-web-worldmap"
     },
     {
       "id": "wuitu-device-node",
