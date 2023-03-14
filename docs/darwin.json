@@ -1,7 +1,97 @@
 {
   "name": "Catalogue for darwin",
-  "updated_at": "2023-03-13T21:40:10.578Z",
+  "updated_at": "2023-03-14T21:27:44.249Z",
   "modules": [
+    {
+      "id": "node-red-contrib-opcua",
+      "version": "0.2.301",
+      "description": "A Node-RED node to communicate via OPC UA based on node-opcua library.",
+      "updated_at": "2023-03-14T16:36:46.982Z",
+      "types": [
+        "OpcUa-Item",
+        "OpcUa-Client",
+        "OpcUa-Browser",
+        "OpcUa-Server",
+        "OpcUa-Endpoint",
+        "OpcUa-Event",
+        "OpcUa-Method",
+        "OpcUa-Rights",
+        "OpcUa-Discovery"
+      ],
+      "keywords": [
+        "node-red",
+        "OPC UA",
+        "opc-ua",
+        "unified automation",
+        "opc foundation",
+        "node-opcua"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-opcua"
+    },
+    {
+      "id": "node-red-contrib-mymazda",
+      "version": "0.0.3",
+      "description": "Node-RED node to connect to a Mazda car that has Mazda Connected Services enabled",
+      "updated_at": "2023-03-14T15:03:20.971Z",
+      "types": [
+        "mymazda-car",
+        "mymazda-account"
+      ],
+      "keywords": [
+        "node-red",
+        "mazda"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-mymazda"
+    },
+    {
+      "id": "node-red-contrib-datacake",
+      "version": "0.1.6",
+      "description": "Datacake nodes for Node-RED",
+      "updated_at": "2023-03-14T10:04:23.439Z",
+      "types": [
+        "datacake-in",
+        "datacake-out",
+        "datacake-configuration"
+      ],
+      "keywords": [
+        "node-red",
+        "datacake"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-datacake"
+    },
+    {
+      "id": "@tataille/node-red-french-holidays",
+      "version": "1.1.5",
+      "description": "A simple node-red component for working whith French holidays.",
+      "updated_at": "2023-03-13T22:24:11.961Z",
+      "types": [
+        "french-holidays"
+      ],
+      "keywords": [
+        "node-red",
+        "french-holidays",
+        "holidays",
+        "france",
+        "specialdays",
+        "weekdays"
+      ],
+      "url": "https://flows.nodered.org/node/@tataille/node-red-french-holidays"
+    },
+    {
+      "id": "node-red-contrib-home-assistant-websocket",
+      "version": "0.49.0",
+      "description": "Node-RED integration with Home Assistant through websocket and REST API",
+      "updated_at": "2023-03-13T21:14:42.523Z",
+      "types": [],
+      "keywords": [
+        "node-red",
+        "home-assistant",
+        "home assistant",
+        "home automation",
+        "websocket"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-home-assistant-websocket"
+    },
     {
       "id": "node-red-contrib-aedes",
       "version": "0.11.1",
@@ -31,32 +121,6 @@
         "2stools"
       ],
       "url": "https://flows.nodered.org/node/node-red-2stools-packetdecode"
-    },
-    {
-      "id": "node-red-contrib-opcua",
-      "version": "0.2.300",
-      "description": "A Node-RED node to communicate via OPC UA based on node-opcua library.",
-      "updated_at": "2023-03-13T14:33:14.840Z",
-      "types": [
-        "OpcUa-Item",
-        "OpcUa-Client",
-        "OpcUa-Browser",
-        "OpcUa-Server",
-        "OpcUa-Endpoint",
-        "OpcUa-Event",
-        "OpcUa-Method",
-        "OpcUa-Rights",
-        "OpcUa-Discovery"
-      ],
-      "keywords": [
-        "node-red",
-        "OPC UA",
-        "opc-ua",
-        "unified automation",
-        "opc foundation",
-        "node-opcua"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-opcua"
     },
     {
       "id": "@s1seven/node-red-generate-pdf",
@@ -329,18 +393,6 @@
         "daylight simulator"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-hue-tunable-white"
-    },
-    {
-      "id": "node-red-contrib-datacake",
-      "version": "0.1.5",
-      "description": "Datacake nodes for Node-RED",
-      "updated_at": "2023-03-09T11:45:18.992Z",
-      "types": [],
-      "keywords": [
-        "node-red",
-        "datacake"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-datacake"
     },
     {
       "id": "node-red-contrib-xkeys_jogshuttle",
@@ -2567,24 +2619,6 @@
       "url": "https://flows.nodered.org/node/@chvdapi/node-red-pn6400-di"
     },
     {
-      "id": "@tataille/node-red-french-holidays",
-      "version": "1.1.4",
-      "description": "A simple node-red component for working whith French holidays.",
-      "updated_at": "2023-02-13T20:34:38.965Z",
-      "types": [
-        "french-holidays"
-      ],
-      "keywords": [
-        "node-red",
-        "french-holidays",
-        "holidays",
-        "france",
-        "specialdays",
-        "weekdays"
-      ],
-      "url": "https://flows.nodered.org/node/@tataille/node-red-french-holidays"
-    },
-    {
       "id": "cloud4machine-cloud-nodered",
       "version": "0.2.35",
       "description": "A collection of node red nodes to define custom cloud⁴machine flows",
@@ -3799,21 +3833,6 @@
         "serial"
       ],
       "url": "https://flows.nodered.org/node/node-red-node-serialport"
-    },
-    {
-      "id": "node-red-contrib-home-assistant-websocket",
-      "version": "0.48.1",
-      "description": "Node-RED integration with Home Assistant through websocket and REST API",
-      "updated_at": "2023-01-31T00:24:42.049Z",
-      "types": [],
-      "keywords": [
-        "node-red",
-        "home-assistant",
-        "home assistant",
-        "home automation",
-        "websocket"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-home-assistant-websocket"
     },
     {
       "id": "@bannsaenger/node-red-contrib-artnet-controller",
