@@ -1,0 +1,31 @@
+
+----
+Sending build context to Docker daemon  34.02MB
+Step 1/2 : FROM nodered/node-red
+ ---> a15fc0f4e930
+Step 2/2 : RUN npm install npm install node-red-contrib-home-assistant-websocket@0.49.0
+ ---> Running in 8b22238fb496
+
+added 177 packages, and audited 707 packages in 10s
+
+65 packages are looking for funding
+  run `npm fund` for details
+
+7 vulnerabilities (5 low, 1 moderate, 1 high)
+
+To address issues that do not require attention, run:
+  npm audit fix
+
+To address all issues (including breaking changes), run:
+  npm audit fix --force
+
+Run `npm audit` for details.
+[91mnpm notice[0m[91m 
+npm notice[0m[91m New major version of npm available! 8.11.0 -> 9.6.1
+npm notice Changelog: <https://github.com/npm/cli/releases/tag/v9.6.1>
+npm notice[0m[91m Run `npm install -g npm@9.6.1` to update!
+npm notice 
+[0mRemoving intermediate container 8b22238fb496
+ ---> f967228be522
+Successfully built f967228be522
+Successfully tagged tmp:latest
