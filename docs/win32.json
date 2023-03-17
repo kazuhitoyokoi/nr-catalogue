@@ -1,7 +1,202 @@
 {
   "name": "Catalogue for win32",
-  "updated_at": "2023-03-16T20:26:52.434Z",
+  "updated_at": "2023-03-17T20:01:49.399Z",
   "modules": [
+    {
+      "id": "node-red-contrib-playwright",
+      "version": "1.0.2",
+      "description": "Playwright wrapper for Node-Red",
+      "updated_at": "2023-03-17T14:27:32.273Z",
+      "types": [],
+      "keywords": [
+        "node-red",
+        "playwright",
+        "browser",
+        "automation"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-playwright"
+    },
+    {
+      "id": "@ifp-software/node-red-contrib-oee-ai-connector",
+      "version": "2.2.1",
+      "description": "Easily connect your production machines to oee.ai – The Industry 4.0 solution for OEE optimization.",
+      "updated_at": "2023-03-17T14:20:18.923Z",
+      "types": [],
+      "keywords": [
+        "industrial",
+        "industry 4.0",
+        "iot",
+        "node-red",
+        "oee",
+        "oee.ai",
+        "sick",
+        "smart-factory",
+        "tdc"
+      ],
+      "url": "https://flows.nodered.org/node/@ifp-software/node-red-contrib-oee-ai-connector"
+    },
+    {
+      "id": "node-red-contrib-backblaze-b2",
+      "version": "1.0.4",
+      "description": "A Node-RED node to watch, save and retreive files from an Backblaze B2 bucket",
+      "updated_at": "2023-03-17T14:02:53.047Z",
+      "types": [
+        "backblaze-config-b2",
+        "Backblaze b2 list",
+        "Backblaze b2 download",
+        "Backblaze b2 delete",
+        "Backblaze b2 upload"
+      ],
+      "keywords": [
+        "node-red",
+        "backblaze",
+        "b2"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-backblaze-b2"
+    },
+    {
+      "id": "node-red-contrib-rasa-actionserver",
+      "version": "1.3.0",
+      "description": "action server for rasa conversational assistants",
+      "updated_at": "2023-03-17T13:57:36.442Z",
+      "types": [
+        "sendtext",
+        "sendbuttons",
+        "sendextra",
+        "setslots",
+        "init",
+        "finish",
+        "simrasa"
+      ],
+      "keywords": [
+        "node-red",
+        "nodes",
+        "rasa",
+        "rasa chatbot",
+        "rasa action server"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-rasa-actionserver"
+    },
+    {
+      "id": "node-red-contrib-victron-vedirect-usb",
+      "version": "0.1.0",
+      "description": "Access the Victron equipment with a USB VE.Direct cable",
+      "updated_at": "2023-03-17T13:53:32.084Z",
+      "types": [
+        "victron-vedirect-usb"
+      ],
+      "keywords": [
+        "node-red",
+        "victron",
+        "vedirect"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-victron-vedirect-usb"
+    },
+    {
+      "id": "@cameo69/node-red-ratelimit",
+      "version": "0.0.9",
+      "description": "implements rate limit with sliding window",
+      "updated_at": "2023-03-17T11:01:12.324Z",
+      "types": [
+        "rate-limiter"
+      ],
+      "keywords": [
+        "node-red",
+        "ratelimit",
+        "ratelimit",
+        "rate limit",
+        "rate",
+        "delay",
+        "burst",
+        "sliding window"
+      ],
+      "url": "https://flows.nodered.org/node/@cameo69/node-red-ratelimit"
+    },
+    {
+      "id": "@spectraautomation/node-red-urban-io",
+      "version": "1.0.2",
+      "updated_at": "2023-03-17T10:48:35.729Z",
+      "types": [
+        "urban-io-config",
+        "urban-input",
+        "urban-output"
+      ],
+      "keywords": [
+        "node-red",
+        "modbus"
+      ],
+      "url": "https://flows.nodered.org/node/@spectraautomation/node-red-urban-io"
+    },
+    {
+      "id": "node-red-contrib-auroral",
+      "version": "2.1.7",
+      "description": "Nodes for contributing to AURORAL network",
+      "updated_at": "2023-03-17T09:40:44.818Z",
+      "types": [
+        "registrations",
+        "auroralAgent",
+        "auroralResponse",
+        "auroralDevice"
+      ],
+      "keywords": [
+        "node-red",
+        "auroral"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-auroral"
+    },
+    {
+      "id": "node-red-contrib-opcua",
+      "version": "0.2.302",
+      "description": "A Node-RED node to communicate via OPC UA based on node-opcua library.",
+      "updated_at": "2023-03-16T18:43:53.130Z",
+      "types": [
+        "OpcUa-Item",
+        "OpcUa-Client",
+        "OpcUa-Browser",
+        "OpcUa-Server",
+        "OpcUa-Endpoint",
+        "OpcUa-Event",
+        "OpcUa-Method",
+        "OpcUa-Rights",
+        "OpcUa-Discovery"
+      ],
+      "keywords": [
+        "node-red",
+        "OPC UA",
+        "opc-ua",
+        "unified automation",
+        "opc foundation",
+        "node-opcua"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-opcua"
+    },
+    {
+      "id": "node-red-contrib-tts-ultimate",
+      "version": "1.0.55",
+      "description": "Transforms the text in speech and hear it using Sonos player or generate an audio file to be used with third parties nodes. Works with voices from Amazon, Google (without credentials as well), Microsoft TTS Azure, or your own voice. You can also only crea",
+      "updated_at": "2023-03-16T18:06:15.118Z",
+      "types": [
+        "ttsultimate",
+        "ttsultimate-config",
+        "ownfileultimate"
+      ],
+      "keywords": [
+        "node-red",
+        "polly",
+        "google",
+        "voice",
+        "amazon",
+        "azure",
+        "tts",
+        "sonos",
+        "IOT",
+        "speech",
+        "ttsultimate",
+        "sonospollytts",
+        "neural"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-tts-ultimate"
+    },
     {
       "id": "node-red-contrib-xkeys_button",
       "version": "0.3.2",
@@ -76,6 +271,35 @@
       "url": "https://flows.nodered.org/node/node-red-contrib-sonos-plus"
     },
     {
+      "id": "@ba47/node-red-preferred-language",
+      "version": "0.6.3",
+      "description": "Determine preferred language from browser's Accept-Language.",
+      "updated_at": "2023-03-15T10:56:43.266Z",
+      "types": [
+        "preferred-language"
+      ],
+      "keywords": [
+        "node-red",
+        "i18n",
+        "ba47"
+      ],
+      "url": "https://flows.nodered.org/node/@ba47/node-red-preferred-language"
+    },
+    {
+      "id": "@ba47/node-red-version",
+      "version": "0.3.2",
+      "description": "Display version information of flow",
+      "updated_at": "2023-03-15T10:51:59.659Z",
+      "types": [
+        "version"
+      ],
+      "keywords": [
+        "node-red",
+        "ba47"
+      ],
+      "url": "https://flows.nodered.org/node/@ba47/node-red-version"
+    },
+    {
       "id": "node-red-node-snmp",
       "version": "2.0.0",
       "description": "A Node-RED node that gets and sets SNMP oid values. Supports v1, v2c and v3",
@@ -115,23 +339,6 @@
       "url": "https://flows.nodered.org/node/node-red-node-pi-gpio"
     },
     {
-      "id": "@ifp-software/node-red-contrib-oee-ai-connector",
-      "version": "2.1.1",
-      "description": "Easily connect your production machines to oee.ai – The Industry 4.0 solution for OEE optimization.",
-      "updated_at": "2023-03-15T08:55:43.143Z",
-      "types": [],
-      "keywords": [
-        "industrial",
-        "industry 4.0",
-        "iot",
-        "node-red",
-        "oee",
-        "oee.ai",
-        "smart-factory"
-      ],
-      "url": "https://flows.nodered.org/node/@ifp-software/node-red-contrib-oee-ai-connector"
-    },
-    {
       "id": "node-red-contrib-tak",
       "version": "3.0.0",
       "description": "Node-RED Nodes for parsing Cursor on Target messages from ATAK and other TAK Products.",
@@ -148,52 +355,6 @@
         "atak"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-tak"
-    },
-    {
-      "id": "@cameo69/node-red-ratelimit",
-      "version": "0.0.8",
-      "description": "implements rate limit with sliding window",
-      "updated_at": "2023-03-14T22:22:06.300Z",
-      "types": [
-        "rate-limiter"
-      ],
-      "keywords": [
-        "node-red",
-        "ratelimit",
-        "ratelimit",
-        "rate limit",
-        "rate",
-        "delay",
-        "burst",
-        "sliding window"
-      ],
-      "url": "https://flows.nodered.org/node/@cameo69/node-red-ratelimit"
-    },
-    {
-      "id": "node-red-contrib-opcua",
-      "version": "0.2.301",
-      "description": "A Node-RED node to communicate via OPC UA based on node-opcua library.",
-      "updated_at": "2023-03-14T16:36:46.982Z",
-      "types": [
-        "OpcUa-Item",
-        "OpcUa-Client",
-        "OpcUa-Browser",
-        "OpcUa-Server",
-        "OpcUa-Endpoint",
-        "OpcUa-Event",
-        "OpcUa-Method",
-        "OpcUa-Rights",
-        "OpcUa-Discovery"
-      ],
-      "keywords": [
-        "node-red",
-        "OPC UA",
-        "opc-ua",
-        "unified automation",
-        "opc foundation",
-        "node-opcua"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-opcua"
     },
     {
       "id": "node-red-contrib-mymazda",
@@ -597,6 +758,25 @@
       "url": "https://flows.nodered.org/node/node-red-contrib-hue-tunable-white"
     },
     {
+      "id": "node-red-contrib-memory-queue",
+      "version": "3.0.0",
+      "description": "A Node-RED node for in memory queue",
+      "updated_at": "2023-03-09T11:17:00.808Z",
+      "types": [
+        "memory-queue",
+        "memqueue in",
+        "memqueue out",
+        "memqueue ack",
+        "memqueue resend"
+      ],
+      "keywords": [
+        "node-red",
+        "queue",
+        "memory queue"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-memory-queue"
+    },
+    {
       "id": "node-red-contrib-visualmapper",
       "version": "0.5.0",
       "description": "Maps input to output value with multiple editable sections and graphical editor.",
@@ -797,35 +977,6 @@
       "url": "https://flows.nodered.org/node/node-red-l3logger-subflow"
     },
     {
-      "id": "@ba47/node-red-preferred-language",
-      "version": "0.6.2",
-      "description": "Determine preferred language from browser's Accept-Language.",
-      "updated_at": "2023-03-07T12:25:33.090Z",
-      "types": [
-        "preferred-language"
-      ],
-      "keywords": [
-        "node-red",
-        "i18n",
-        "ba47"
-      ],
-      "url": "https://flows.nodered.org/node/@ba47/node-red-preferred-language"
-    },
-    {
-      "id": "@ba47/node-red-version",
-      "version": "0.3.1",
-      "description": "Display version information of flow",
-      "updated_at": "2023-03-07T12:11:14.613Z",
-      "types": [
-        "version"
-      ],
-      "keywords": [
-        "node-red",
-        "ba47"
-      ],
-      "url": "https://flows.nodered.org/node/@ba47/node-red-version"
-    },
-    {
       "id": "@equans/smart-buildings-manual-heating-override",
       "version": "1.0.1",
       "description": "Manual heating override strategy for Smart Buildings",
@@ -922,33 +1073,6 @@
         "sms"
       ],
       "url": "https://flows.nodered.org/node/@tyntec/node-red-contrib-tyntec"
-    },
-    {
-      "id": "node-red-contrib-tts-ultimate",
-      "version": "1.0.54",
-      "description": "Transforms the text in speech and hear it using Sonos player or generate an audio file to be used with third parties nodes. Works with voices from Amazon, Google (without credentials as well), Microsoft TTS Azure, or your own voice. You can also only crea",
-      "updated_at": "2023-03-06T06:18:44.339Z",
-      "types": [
-        "ttsultimate",
-        "ttsultimate-config",
-        "ownfileultimate"
-      ],
-      "keywords": [
-        "node-red",
-        "polly",
-        "google",
-        "voice",
-        "amazon",
-        "azure",
-        "tts",
-        "sonos",
-        "IOT",
-        "speech",
-        "ttsultimate",
-        "sonospollytts",
-        "neural"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-tts-ultimate"
     },
     {
       "id": "node-red-contrib-mqtt-sparkplug-plus",
@@ -1418,38 +1542,6 @@
         "blob-storage"
       ],
       "url": "https://flows.nodered.org/node/@kurago-dev/node-red-contrib-azure"
-    },
-    {
-      "id": "node-red-contrib-auroral",
-      "version": "2.1.6",
-      "description": "Nodes for contributing to AURORAL network",
-      "updated_at": "2023-02-28T14:21:31.235Z",
-      "types": [
-        "registrations",
-        "auroralAgent",
-        "auroralResponse",
-        "auroralDevice"
-      ],
-      "keywords": [
-        "node-red",
-        "auroral"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-auroral"
-    },
-    {
-      "id": "node-red-contrib-victron-vedirect-usb",
-      "version": "0.0.2",
-      "description": "Access the Victron equipment with a USB VE.Direct cable",
-      "updated_at": "2023-02-28T10:26:17.974Z",
-      "types": [
-        "victron-vedirect-usb"
-      ],
-      "keywords": [
-        "node-red",
-        "victron",
-        "vedirect"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-victron-vedirect-usb"
     },
     {
       "id": "node-red-cyblion-edge",
@@ -21431,28 +21523,6 @@
       "url": "https://flows.nodered.org/node/@sammachin/node-red-alexa-voice-service"
     },
     {
-      "id": "node-red-contrib-rasa-actionserver",
-      "version": "1.2.0",
-      "description": "action server for rasa conversational assistants",
-      "updated_at": "2022-01-21T19:55:17.456Z",
-      "types": [
-        "sendtext",
-        "sendbuttons",
-        "sendextra",
-        "setslots",
-        "init",
-        "finish"
-      ],
-      "keywords": [
-        "node-red",
-        "nodes",
-        "rasa",
-        "rasa chatbot",
-        "rasa action server"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-rasa-actionserver"
-    },
-    {
       "id": "@ia-cloud/node-red-contrib-ia-cloud-dashboard",
       "version": "0.1.4",
       "description": "ia-cloud Node-RED nodes",
@@ -37621,24 +37691,6 @@
         "node-red"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-netgear"
-    },
-    {
-      "id": "node-red-contrib-memory-queue",
-      "version": "2.0.0",
-      "description": "A Node-RED node for in memory queue",
-      "updated_at": "2020-10-23T21:26:50.612Z",
-      "types": [
-        "memory-queue",
-        "memqueue in",
-        "memqueue out",
-        "memqueue ack"
-      ],
-      "keywords": [
-        "node-red",
-        "queue",
-        "memory queue"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-memory-queue"
     },
     {
       "id": "node-red-contrib-dominodb",
