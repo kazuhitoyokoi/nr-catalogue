@@ -1,12 +1,86 @@
 {
   "name": "Catalogue for darwin",
-  "updated_at": "2023-03-17T21:36:39.879Z",
+  "updated_at": "2023-03-18T21:02:10.004Z",
   "modules": [
     {
+      "id": "node-red-contrib-sonos-plus",
+      "version": "6.7.2",
+      "description": "A set of Node-RED nodes to control SONOS player in your local network.",
+      "updated_at": "2023-03-18T18:23:53.361Z",
+      "types": [
+        "sonos-config",
+        "sonos-manage-mysonos",
+        "sonos-universal"
+      ],
+      "keywords": [
+        "sonos",
+        "node-red",
+        "music",
+        "node-red-contrib-sonos-plus"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-sonos-plus"
+    },
+    {
+      "id": "node-red-contrib-hikvision-ultimate",
+      "version": "1.1.5",
+      "description": "A native set of nodes for Hikvision (and compatible) Cameras, Alarms, Radars, NVR, Doorbells, etc.",
+      "updated_at": "2023-03-18T17:58:45.075Z",
+      "types": [
+        "Hikvision-config",
+        "AXPro-config",
+        "Doorbell-config",
+        "ANPR-config",
+        "AccessControl-config",
+        "hikvisionUltimateText",
+        "hikvisionUltimateAlarm",
+        "hikvisionUltimateAlarmRaw",
+        "hikvisionUltimateANPR",
+        "hikvisionUltimatePTZ",
+        "hikvisionUltimatePicture",
+        "hikvisionUltimateXML",
+        "hikvisionUltimateDoorbell",
+        "hikvisionUltimateAxPro",
+        "hikvisionUltimateAccessControlTerminal"
+      ],
+      "keywords": [
+        "node-red",
+        "hikvision",
+        "alarm",
+        "camera",
+        "radar",
+        "ANPR",
+        "license plate",
+        "doorbell",
+        "door intercom",
+        "access control terminal",
+        "Ax Pro"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-hikvision-ultimate"
+    },
+    {
+      "id": "node-red-contrib-discord-advanced",
+      "version": "3.4.1",
+      "description": "Recieve, send, edit, reply, react to and delete Discord messages, handle interactions and much more in Node-RED.",
+      "updated_at": "2023-03-18T15:32:23.663Z",
+      "types": [
+        "discord-token",
+        "discordMessage",
+        "discordMessageManager",
+        "discordPermissions",
+        "discordReactionManager",
+        "discordClient",
+        "discordInteraction"
+      ],
+      "keywords": [
+        "node-red"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-discord-advanced"
+    },
+    {
       "id": "@martip/node-red-google-apis",
-      "version": "1.0.3",
+      "version": "1.0.4",
       "description": "Node-RED node for accessing the Google APIs, using the official supported client library (google-api-nodejs-client).",
-      "updated_at": "2023-03-17T18:14:43.442Z",
+      "updated_at": "2023-03-18T10:47:10.301Z",
       "types": [
         "google-apis-authentication",
         "google-apis"
@@ -17,6 +91,38 @@
         "api"
       ],
       "url": "https://flows.nodered.org/node/@martip/node-red-google-apis"
+    },
+    {
+      "id": "node-red-contrib-grohe-sense",
+      "version": "0.15.1",
+      "description": "Grohe sense nodes via ondus API.",
+      "updated_at": "2023-03-17T20:38:28.698Z",
+      "types": [
+        "grohe location",
+        "grohe sense"
+      ],
+      "keywords": [
+        "node-red",
+        "grohe",
+        "ondus",
+        "sense"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-grohe-sense"
+    },
+    {
+      "id": "nrc-tjtoolkit-nodes",
+      "version": "0.0.5",
+      "description": "Node-RED contributed (NRC) toolkit nodes.",
+      "updated_at": "2023-03-17T20:33:06.723Z",
+      "types": [
+        "dedot",
+        "contextConfig"
+      ],
+      "keywords": [
+        "node-red",
+        "elasticsearch"
+      ],
+      "url": "https://flows.nodered.org/node/nrc-tjtoolkit-nodes"
     },
     {
       "id": "node-red-contrib-playwright",
@@ -269,24 +375,6 @@
       "url": "https://flows.nodered.org/node/@yousolution/node-red-contrib-you-ftp-sftp"
     },
     {
-      "id": "node-red-contrib-sonos-plus",
-      "version": "6.7.0",
-      "description": "A set of Node-RED nodes to control SONOS player in your local network.",
-      "updated_at": "2023-03-15T15:29:40.187Z",
-      "types": [
-        "sonos-config",
-        "sonos-manage-mysonos",
-        "sonos-universal"
-      ],
-      "keywords": [
-        "sonos",
-        "node-red",
-        "music",
-        "node-red-contrib-sonos-plus"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-sonos-plus"
-    },
-    {
       "id": "@ba47/node-red-preferred-language",
       "version": "0.6.3",
       "description": "Determine preferred language from browser's Accept-Language.",
@@ -386,21 +474,6 @@
         "mazda"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-mymazda"
-    },
-    {
-      "id": "nrc-tjtoolkit-nodes",
-      "version": "0.0.4",
-      "description": "Node-RED contributed (NRC) toolkit nodes.",
-      "updated_at": "2023-03-14T13:16:14.369Z",
-      "types": [
-        "dedot",
-        "contextConfig"
-      ],
-      "keywords": [
-        "node-red",
-        "elasticsearch"
-      ],
-      "url": "https://flows.nodered.org/node/nrc-tjtoolkit-nodes"
     },
     {
       "id": "node-red-contrib-datacake",
@@ -623,25 +696,6 @@
         "webpage"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-uibuilder"
-    },
-    {
-      "id": "node-red-contrib-discord-advanced",
-      "version": "3.4.0",
-      "description": "Recieve, send, edit, reply, react to and delete Discord messages, handle interactions and much more in Node-RED.",
-      "updated_at": "2023-03-11T15:37:14.911Z",
-      "types": [
-        "discord-token",
-        "discordMessage",
-        "discordMessageManager",
-        "discordPermissions",
-        "discordReactionManager",
-        "discordClient",
-        "discordInteraction"
-      ],
-      "keywords": [
-        "node-red"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-discord-advanced"
     },
     {
       "id": "node-red-pushsafer",
@@ -4039,40 +4093,6 @@
         "pusher"
       ],
       "url": "https://flows.nodered.org/node/node-red-node-pusher"
-    },
-    {
-      "id": "node-red-contrib-hikvision-ultimate",
-      "version": "1.1.2",
-      "description": "A native set of nodes for Hikvision (and compatible) Cameras, Alarms, Radars, NVR, Doorbells, etc.",
-      "updated_at": "2023-02-02T10:08:00.391Z",
-      "types": [
-        "Hikvision-config",
-        "AXPro-config",
-        "Doorbell-config",
-        "ANPR-config",
-        "hikvisionUltimateText",
-        "hikvisionUltimateAlarm",
-        "hikvisionUltimateAlarmRaw",
-        "hikvisionUltimateANPR",
-        "hikvisionUltimatePTZ",
-        "hikvisionUltimatePicture",
-        "hikvisionUltimateXML",
-        "hikvisionUltimateDoorbell",
-        "hikvisionUltimateAxPro"
-      ],
-      "keywords": [
-        "node-red",
-        "hikvision",
-        "alarm",
-        "camera",
-        "radar",
-        "ANPR",
-        "license plate",
-        "doorbell",
-        "door intercom",
-        "Ax Pro"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-hikvision-ultimate"
     },
     {
       "id": "node-red-contrib-zigbee2mqtt",
@@ -8297,23 +8317,6 @@
         "node-red"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-objtalk"
-    },
-    {
-      "id": "node-red-contrib-grohe-sense",
-      "version": "0.15.0",
-      "description": "Grohe sense nodes via ondus API.",
-      "updated_at": "2022-11-21T19:21:44.498Z",
-      "types": [
-        "grohe location",
-        "grohe sense"
-      ],
-      "keywords": [
-        "node-red",
-        "grohe",
-        "ondus",
-        "sense"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-grohe-sense"
     },
     {
       "id": "@s1seven/node-red-chartjs",
