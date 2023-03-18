@@ -1,7 +1,92 @@
 {
   "name": "Catalogue for win32",
-  "updated_at": "2023-03-17T20:01:49.399Z",
+  "updated_at": "2023-03-18T19:28:30.350Z",
   "modules": [
+    {
+      "id": "node-red-contrib-discord-advanced",
+      "version": "3.4.1",
+      "description": "Recieve, send, edit, reply, react to and delete Discord messages, handle interactions and much more in Node-RED.",
+      "updated_at": "2023-03-18T15:32:23.663Z",
+      "types": [
+        "discord-token",
+        "discordMessage",
+        "discordMessageManager",
+        "discordPermissions",
+        "discordReactionManager",
+        "discordClient",
+        "discordInteraction"
+      ],
+      "keywords": [
+        "node-red"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-discord-advanced"
+    },
+    {
+      "id": "@martip/node-red-google-apis",
+      "version": "1.0.4",
+      "description": "Node-RED node for accessing the Google APIs, using the official supported client library (google-api-nodejs-client).",
+      "updated_at": "2023-03-18T10:47:10.301Z",
+      "types": [
+        "google-apis-authentication",
+        "google-apis"
+      ],
+      "keywords": [
+        "node-red",
+        "google",
+        "api"
+      ],
+      "url": "https://flows.nodered.org/node/@martip/node-red-google-apis"
+    },
+    {
+      "id": "node-red-contrib-sonos-plus",
+      "version": "6.7.1",
+      "description": "A set of Node-RED nodes to control SONOS player in your local network.",
+      "updated_at": "2023-03-18T08:23:43.613Z",
+      "types": [
+        "sonos-config",
+        "sonos-manage-mysonos",
+        "sonos-universal"
+      ],
+      "keywords": [
+        "sonos",
+        "node-red",
+        "music",
+        "node-red-contrib-sonos-plus"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-sonos-plus"
+    },
+    {
+      "id": "node-red-contrib-grohe-sense",
+      "version": "0.15.1",
+      "description": "Grohe sense nodes via ondus API.",
+      "updated_at": "2023-03-17T20:38:28.698Z",
+      "types": [
+        "grohe location",
+        "grohe sense"
+      ],
+      "keywords": [
+        "node-red",
+        "grohe",
+        "ondus",
+        "sense"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-grohe-sense"
+    },
+    {
+      "id": "nrc-tjtoolkit-nodes",
+      "version": "0.0.5",
+      "description": "Node-RED contributed (NRC) toolkit nodes.",
+      "updated_at": "2023-03-17T20:33:06.723Z",
+      "types": [
+        "dedot",
+        "contextConfig"
+      ],
+      "keywords": [
+        "node-red",
+        "elasticsearch"
+      ],
+      "url": "https://flows.nodered.org/node/nrc-tjtoolkit-nodes"
+    },
     {
       "id": "node-red-contrib-playwright",
       "version": "1.0.2",
@@ -253,24 +338,6 @@
       "url": "https://flows.nodered.org/node/@yousolution/node-red-contrib-you-ftp-sftp"
     },
     {
-      "id": "node-red-contrib-sonos-plus",
-      "version": "6.7.0",
-      "description": "A set of Node-RED nodes to control SONOS player in your local network.",
-      "updated_at": "2023-03-15T15:29:40.187Z",
-      "types": [
-        "sonos-config",
-        "sonos-manage-mysonos",
-        "sonos-universal"
-      ],
-      "keywords": [
-        "sonos",
-        "node-red",
-        "music",
-        "node-red-contrib-sonos-plus"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-sonos-plus"
-    },
-    {
       "id": "@ba47/node-red-preferred-language",
       "version": "0.6.3",
       "description": "Determine preferred language from browser's Accept-Language.",
@@ -370,21 +437,6 @@
         "mazda"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-mymazda"
-    },
-    {
-      "id": "nrc-tjtoolkit-nodes",
-      "version": "0.0.4",
-      "description": "Node-RED contributed (NRC) toolkit nodes.",
-      "updated_at": "2023-03-14T13:16:14.369Z",
-      "types": [
-        "dedot",
-        "contextConfig"
-      ],
-      "keywords": [
-        "node-red",
-        "elasticsearch"
-      ],
-      "url": "https://flows.nodered.org/node/nrc-tjtoolkit-nodes"
     },
     {
       "id": "node-red-contrib-datacake",
@@ -609,25 +661,6 @@
       "url": "https://flows.nodered.org/node/node-red-contrib-uibuilder"
     },
     {
-      "id": "node-red-contrib-discord-advanced",
-      "version": "3.4.0",
-      "description": "Recieve, send, edit, reply, react to and delete Discord messages, handle interactions and much more in Node-RED.",
-      "updated_at": "2023-03-11T15:37:14.911Z",
-      "types": [
-        "discord-token",
-        "discordMessage",
-        "discordMessageManager",
-        "discordPermissions",
-        "discordReactionManager",
-        "discordClient",
-        "discordInteraction"
-      ],
-      "keywords": [
-        "node-red"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-discord-advanced"
-    },
-    {
       "id": "node-red-pushsafer",
       "version": "1.0.4",
       "description": "A PushSafer API wrapper for Node-RED",
@@ -675,6 +708,21 @@
         "gpt-35-turbo-0301"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-custom-chatgpt"
+    },
+    {
+      "id": "@ralphwetzel/node-red-mcu-plugin",
+      "version": "1.2.1",
+      "description": "Plugin to integrate Node-RED MCU Edition into the Node-RED Editor",
+      "updated_at": "2023-03-10T14:24:27.782Z",
+      "types": [],
+      "keywords": [
+        "node-red",
+        "node-red-mcu",
+        "Node-RED",
+        "Node-RED MCU Edition",
+        "node-red-mcu-plugin"
+      ],
+      "url": "https://flows.nodered.org/node/@ralphwetzel/node-red-mcu-plugin"
     },
     {
       "id": "node-red-contrib-random-string",
@@ -4858,22 +4906,6 @@
       "url": "https://flows.nodered.org/node/node-red-contrib-sunevents"
     },
     {
-      "id": "@martip/node-red-google-apis",
-      "version": "1.0.2",
-      "description": "Node-RED node for accessing the Google APIs, using the official supported client library (google-api-nodejs-client).",
-      "updated_at": "2023-01-20T08:55:37.125Z",
-      "types": [
-        "google-apis-authentication",
-        "google-apis"
-      ],
-      "keywords": [
-        "node-red",
-        "google",
-        "api"
-      ],
-      "url": "https://flows.nodered.org/node/@martip/node-red-google-apis"
-    },
-    {
       "id": "node-bacnet-contrib-extended",
       "version": "0.2.0",
       "description": "Install this package as a pallette by using node red dashboard",
@@ -5477,21 +5509,6 @@
         "loxone"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-loxone"
-    },
-    {
-      "id": "@ralphwetzel/node-red-mcu-plugin",
-      "version": "1.1.2",
-      "description": "Plugin to integrate Node-RED MCU Edition into the Node-RED Editor",
-      "updated_at": "2023-01-10T09:34:14.767Z",
-      "types": [],
-      "keywords": [
-        "node-red",
-        "node-red-mcu",
-        "Node-RED",
-        "Node-RED MCU Edition",
-        "node-red-mcu-plugin"
-      ],
-      "url": "https://flows.nodered.org/node/@ralphwetzel/node-red-mcu-plugin"
     },
     {
       "id": "lighttalk_schedule_no_mqtt",
@@ -8281,23 +8298,6 @@
         "node-red"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-objtalk"
-    },
-    {
-      "id": "node-red-contrib-grohe-sense",
-      "version": "0.15.0",
-      "description": "Grohe sense nodes via ondus API.",
-      "updated_at": "2022-11-21T19:21:44.498Z",
-      "types": [
-        "grohe location",
-        "grohe sense"
-      ],
-      "keywords": [
-        "node-red",
-        "grohe",
-        "ondus",
-        "sense"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-grohe-sense"
     },
     {
       "id": "@s1seven/node-red-chartjs",
