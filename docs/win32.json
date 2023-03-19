@@ -1,7 +1,118 @@
 {
   "name": "Catalogue for win32",
-  "updated_at": "2023-03-18T19:28:30.350Z",
+  "updated_at": "2023-03-19T17:36:35.888Z",
   "modules": [
+    {
+      "id": "node-red-contrib-homebridge-automation",
+      "version": "0.1.11",
+      "description": "NodeRED Automation for HomeBridge",
+      "updated_at": "2023-03-19T15:30:24.622Z",
+      "types": [
+        "hb-conf",
+        "hb-event",
+        "hb-resume",
+        "hb-status",
+        "hb-control"
+      ],
+      "keywords": [
+        "node-red",
+        "HomeBridge"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-homebridge-automation"
+    },
+    {
+      "id": "node-red-contrib-mymazda",
+      "version": "0.0.5",
+      "description": "Node-RED node to connect to a Mazda car that has Mazda Connected Services enabled",
+      "updated_at": "2023-03-19T12:44:12.446Z",
+      "types": [
+        "mymazda-car",
+        "mymazda-account"
+      ],
+      "keywords": [
+        "node-red",
+        "mazda"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-mymazda"
+    },
+    {
+      "id": "node-red-contrib-hal2",
+      "version": "1.15.2",
+      "description": "A set of nodes to help with basic home automation logic",
+      "updated_at": "2023-03-19T10:49:35.902Z",
+      "types": [
+        "hal2ThingType",
+        "hal2EventHandler",
+        "hal2Thing",
+        "hal2Value",
+        "hal2Event",
+        "hal2Gate",
+        "hal2Action",
+        "hal2Group",
+        "hal2Log"
+      ],
+      "keywords": [
+        "node-red",
+        "home-automation",
+        "iot"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-hal2"
+    },
+    {
+      "id": "node-red-contrib-sonos-plus",
+      "version": "6.7.2",
+      "description": "A set of Node-RED nodes to control SONOS player in your local network.",
+      "updated_at": "2023-03-18T18:23:53.361Z",
+      "types": [
+        "sonos-config",
+        "sonos-manage-mysonos",
+        "sonos-universal"
+      ],
+      "keywords": [
+        "sonos",
+        "node-red",
+        "music",
+        "node-red-contrib-sonos-plus"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-sonos-plus"
+    },
+    {
+      "id": "node-red-contrib-hikvision-ultimate",
+      "version": "1.1.5",
+      "description": "A native set of nodes for Hikvision (and compatible) Cameras, Alarms, Radars, NVR, Doorbells, etc.",
+      "updated_at": "2023-03-18T17:58:45.075Z",
+      "types": [
+        "Hikvision-config",
+        "AXPro-config",
+        "Doorbell-config",
+        "ANPR-config",
+        "AccessControl-config",
+        "hikvisionUltimateText",
+        "hikvisionUltimateAlarm",
+        "hikvisionUltimateAlarmRaw",
+        "hikvisionUltimateANPR",
+        "hikvisionUltimatePTZ",
+        "hikvisionUltimatePicture",
+        "hikvisionUltimateXML",
+        "hikvisionUltimateDoorbell",
+        "hikvisionUltimateAxPro",
+        "hikvisionUltimateAccessControlTerminal"
+      ],
+      "keywords": [
+        "node-red",
+        "hikvision",
+        "alarm",
+        "camera",
+        "radar",
+        "ANPR",
+        "license plate",
+        "doorbell",
+        "door intercom",
+        "access control terminal",
+        "Ax Pro"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-hikvision-ultimate"
+    },
     {
       "id": "node-red-contrib-discord-advanced",
       "version": "3.4.1",
@@ -36,24 +147,6 @@
         "api"
       ],
       "url": "https://flows.nodered.org/node/@martip/node-red-google-apis"
-    },
-    {
-      "id": "node-red-contrib-sonos-plus",
-      "version": "6.7.1",
-      "description": "A set of Node-RED nodes to control SONOS player in your local network.",
-      "updated_at": "2023-03-18T08:23:43.613Z",
-      "types": [
-        "sonos-config",
-        "sonos-manage-mysonos",
-        "sonos-universal"
-      ],
-      "keywords": [
-        "sonos",
-        "node-red",
-        "music",
-        "node-red-contrib-sonos-plus"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-sonos-plus"
     },
     {
       "id": "node-red-contrib-grohe-sense",
@@ -422,21 +515,6 @@
         "atak"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-tak"
-    },
-    {
-      "id": "node-red-contrib-mymazda",
-      "version": "0.0.3",
-      "description": "Node-RED node to connect to a Mazda car that has Mazda Connected Services enabled",
-      "updated_at": "2023-03-14T15:03:20.971Z",
-      "types": [
-        "mymazda-car",
-        "mymazda-account"
-      ],
-      "keywords": [
-        "node-red",
-        "mazda"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-mymazda"
     },
     {
       "id": "node-red-contrib-datacake",
@@ -914,24 +992,6 @@
         "smartpi"
       ],
       "url": "https://flows.nodered.org/node/@nd-enerserve/node-red-smartpi"
-    },
-    {
-      "id": "node-red-contrib-homebridge-automation",
-      "version": "0.1.10",
-      "description": "NodeRED Automation for HomeBridge",
-      "updated_at": "2023-03-08T01:10:57.975Z",
-      "types": [
-        "hb-conf",
-        "hb-event",
-        "hb-resume",
-        "hb-status",
-        "hb-control"
-      ],
-      "keywords": [
-        "node-red",
-        "HomeBridge"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-homebridge-automation"
     },
     {
       "id": "node-red-contrib-socketio-client-jwt",
@@ -4058,40 +4118,6 @@
       "url": "https://flows.nodered.org/node/node-red-node-pusher"
     },
     {
-      "id": "node-red-contrib-hikvision-ultimate",
-      "version": "1.1.2",
-      "description": "A native set of nodes for Hikvision (and compatible) Cameras, Alarms, Radars, NVR, Doorbells, etc.",
-      "updated_at": "2023-02-02T10:08:00.391Z",
-      "types": [
-        "Hikvision-config",
-        "AXPro-config",
-        "Doorbell-config",
-        "ANPR-config",
-        "hikvisionUltimateText",
-        "hikvisionUltimateAlarm",
-        "hikvisionUltimateAlarmRaw",
-        "hikvisionUltimateANPR",
-        "hikvisionUltimatePTZ",
-        "hikvisionUltimatePicture",
-        "hikvisionUltimateXML",
-        "hikvisionUltimateDoorbell",
-        "hikvisionUltimateAxPro"
-      ],
-      "keywords": [
-        "node-red",
-        "hikvision",
-        "alarm",
-        "camera",
-        "radar",
-        "ANPR",
-        "license plate",
-        "doorbell",
-        "door intercom",
-        "Ax Pro"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-hikvision-ultimate"
-    },
-    {
       "id": "node-red-contrib-zigbee2mqtt",
       "version": "2.7.1",
       "description": "Zigbee2mqtt connectivity nodes for node-red",
@@ -4245,29 +4271,6 @@
         "websockets"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-blynk-iot"
-    },
-    {
-      "id": "node-red-contrib-hal2",
-      "version": "1.15.1",
-      "description": "A set of nodes to help with basic home automation logic",
-      "updated_at": "2023-01-28T15:33:14.918Z",
-      "types": [
-        "hal2ThingType",
-        "hal2EventHandler",
-        "hal2Thing",
-        "hal2Value",
-        "hal2Event",
-        "hal2Gate",
-        "hal2Action",
-        "hal2Group",
-        "hal2Log"
-      ],
-      "keywords": [
-        "node-red",
-        "home-automation",
-        "iot"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-hal2"
     },
     {
       "id": "node-red-contrib-boolean-parser",
