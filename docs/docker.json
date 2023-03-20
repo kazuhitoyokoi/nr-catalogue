@@ -1,7 +1,130 @@
 {
   "name": "Catalogue for docker",
-  "updated_at": "2023-03-19T16:16:31.947Z",
+  "updated_at": "2023-03-20T16:41:00.134Z",
   "modules": [
+    {
+      "id": "@gemini86/node-red-contrib-alarm-manager",
+      "version": "1.1.0",
+      "description": "Monitors condition and status inputs and aggregates alarms conditions into a single emitter node.",
+      "updated_at": "2023-03-20T14:32:29.749Z",
+      "types": [
+        "alarm-manager",
+        "alarm-emitter",
+        "persistence-hook",
+        "condition-monitor",
+        "status-monitor"
+      ],
+      "keywords": [
+        "node-red",
+        "alarm",
+        "alarm manager",
+        "alarm logger",
+        "scheduler",
+        "timer"
+      ],
+      "url": "https://flows.nodered.org/node/@gemini86/node-red-contrib-alarm-manager"
+    },
+    {
+      "id": "node-red-contrib-gatewayex",
+      "version": "0.0.4",
+      "description": "SharpSCADA GatewayEx",
+      "updated_at": "2023-03-20T13:48:07.439Z",
+      "types": [
+        "gateway-broker",
+        "tag value changed",
+        "read tag value",
+        "dynamic tag write",
+        "alarm trigger"
+      ],
+      "keywords": [
+        "node-red",
+        "gatewayex",
+        "sharpscada"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-gatewayex"
+    },
+    {
+      "id": "node-red-contrib-victron-vedirect-usb",
+      "version": "0.1.2",
+      "description": "Access the Victron equipment with a USB VE.Direct cable",
+      "updated_at": "2023-03-20T10:34:10.091Z",
+      "types": [
+        "victron-vedirect-usb"
+      ],
+      "keywords": [
+        "node-red",
+        "victron",
+        "vedirect"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-victron-vedirect-usb"
+    },
+    {
+      "id": "node-red-contrib-knx-ultimate",
+      "version": "1.4.15",
+      "description": "Control your KNX intallation via Node-Red! Single Node KNX IN/OUT with optional ETS group address importer. Easy to use and highly configurable.",
+      "updated_at": "2023-03-20T10:21:08.254Z",
+      "types": [
+        "knxUltimate",
+        "knxUltimateSceneController",
+        "knxUltimateWatchDog",
+        "knxUltimateLogger",
+        "knxUltimate-config",
+        "knxUltimateGlobalContext",
+        "knxUltimateAlerter",
+        "knxUltimateLoadControl",
+        "knxUltimateViewer"
+      ],
+      "keywords": [
+        "node-red",
+        "KNX",
+        "ETS",
+        "eib",
+        "eibd",
+        "knxd",
+        "konnex",
+        "IOT",
+        "KNX Secure"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-knx-ultimate"
+    },
+    {
+      "id": "node-red-contrib-discrete-fsm",
+      "version": "0.0.1",
+      "description": "Discrete node state machine",
+      "updated_at": "2023-03-19T22:07:39.477Z",
+      "types": [
+        "input",
+        "condition",
+        "state",
+        "output"
+      ],
+      "keywords": [
+        "node-red",
+        "fsm",
+        "finite state machine",
+        "state machine",
+        "plc"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-discrete-fsm"
+    },
+    {
+      "id": "node-red-contrib-homebridge-automation",
+      "version": "0.1.11",
+      "description": "NodeRED Automation for HomeBridge",
+      "updated_at": "2023-03-19T15:30:24.622Z",
+      "types": [
+        "hb-conf",
+        "hb-event",
+        "hb-resume",
+        "hb-status",
+        "hb-control"
+      ],
+      "keywords": [
+        "node-red",
+        "HomeBridge"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-homebridge-automation"
+    },
     {
       "id": "node-red-contrib-mymazda",
       "version": "0.0.5",
@@ -236,21 +359,6 @@
         "rasa action server"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-rasa-actionserver"
-    },
-    {
-      "id": "node-red-contrib-victron-vedirect-usb",
-      "version": "0.1.0",
-      "description": "Access the Victron equipment with a USB VE.Direct cable",
-      "updated_at": "2023-03-17T13:53:32.084Z",
-      "types": [
-        "victron-vedirect-usb"
-      ],
-      "keywords": [
-        "node-red",
-        "victron",
-        "vedirect"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-victron-vedirect-usb"
     },
     {
       "id": "@cameo69/node-red-ratelimit",
@@ -976,24 +1084,6 @@
       "url": "https://flows.nodered.org/node/@nd-enerserve/node-red-smartpi"
     },
     {
-      "id": "node-red-contrib-homebridge-automation",
-      "version": "0.1.10",
-      "description": "NodeRED Automation for HomeBridge",
-      "updated_at": "2023-03-08T01:10:57.975Z",
-      "types": [
-        "hb-conf",
-        "hb-event",
-        "hb-resume",
-        "hb-status",
-        "hb-control"
-      ],
-      "keywords": [
-        "node-red",
-        "HomeBridge"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-homebridge-automation"
-    },
-    {
       "id": "node-red-contrib-socketio-client-jwt",
       "version": "0.4.3",
       "description": "Node Red client to work with socket.io server with JWT option",
@@ -1042,35 +1132,6 @@
         "security"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-oauth2"
-    },
-    {
-      "id": "node-red-contrib-knx-ultimate",
-      "version": "1.4.14",
-      "description": "Control your KNX intallation via Node-Red! Single Node KNX IN/OUT with optional ETS group address importer. Easy to use and highly configurable.",
-      "updated_at": "2023-03-07T18:17:46.576Z",
-      "types": [
-        "knxUltimate",
-        "knxUltimateSceneController",
-        "knxUltimateWatchDog",
-        "knxUltimateLogger",
-        "knxUltimate-config",
-        "knxUltimateGlobalContext",
-        "knxUltimateAlerter",
-        "knxUltimateLoadControl",
-        "knxUltimateViewer"
-      ],
-      "keywords": [
-        "node-red",
-        "KNX",
-        "ETS",
-        "eib",
-        "eibd",
-        "knxd",
-        "konnex",
-        "IOT",
-        "KNX Secure"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-knx-ultimate"
     },
     {
       "id": "node-red-l3logger-subflow",
@@ -8276,28 +8337,6 @@
       "url": "https://flows.nodered.org/node/@flowforge/nr-tools-plugin"
     },
     {
-      "id": "@gemini86/node-red-contrib-alarm-manager",
-      "version": "1.0.7",
-      "description": "Monitors condition and status inputs and aggregates alarms conditions into a single emitter node.",
-      "updated_at": "2022-11-22T15:55:38.211Z",
-      "types": [
-        "alarm-manager",
-        "alarm-emitter",
-        "persistence-hook",
-        "condition-monitor",
-        "status-monitor"
-      ],
-      "keywords": [
-        "node-red",
-        "alarm",
-        "alarm manager",
-        "alarm logger",
-        "scheduler",
-        "timer"
-      ],
-      "url": "https://flows.nodered.org/node/@gemini86/node-red-contrib-alarm-manager"
-    },
-    {
       "id": "node-red-contrib-objtalk",
       "version": "0.2.0",
       "description": "integrates [objtalk](https://github.com/objtalk/objtalk) into node-red",
@@ -9258,25 +9297,6 @@
         "node-red"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-weatherflow-api-client"
-    },
-    {
-      "id": "node-red-contrib-gatewayex",
-      "version": "0.0.3",
-      "description": "SharpSCADA GatewayEx",
-      "updated_at": "2022-11-08T02:42:37.319Z",
-      "types": [
-        "gateway-broker",
-        "tag value changed",
-        "read tag value",
-        "dynamic tag write",
-        "alarm trigger"
-      ],
-      "keywords": [
-        "node-red",
-        "gatewayex",
-        "sharpscada"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-gatewayex"
     },
     {
       "id": "@parasaurolophus/node-red-eventsource",
