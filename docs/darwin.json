@@ -1,7 +1,117 @@
 {
   "name": "Catalogue for darwin",
-  "updated_at": "2023-03-20T20:03:54.699Z",
+  "updated_at": "2023-03-21T21:06:34.244Z",
   "modules": [
+    {
+      "id": "node-red-powerbox-dio",
+      "version": "1.0.1",
+      "updated_at": "2023-03-21T14:45:59.519Z",
+      "types": [
+        "pb-dio-in",
+        "pb-dio-out",
+        "watchdog",
+        "watchdog-get"
+      ],
+      "keywords": [
+        "node-red",
+        "gpio"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-powerbox-dio"
+    },
+    {
+      "id": "node-red-contrib-socketio-client-jwt",
+      "version": "0.4.8",
+      "description": "Node Red client to work with socket.io server with JWT option",
+      "updated_at": "2023-03-21T13:07:12.710Z",
+      "types": [
+        "socketio-client-config",
+        "socketio-connector",
+        "socketio-listener",
+        "socketio-emitter",
+        "socketio-callback-emitter"
+      ],
+      "keywords": [
+        "node-red",
+        "socket.io"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-socketio-client-jwt"
+    },
+    {
+      "id": "@autexis/node-red-payload-logger",
+      "version": "1.0.1",
+      "description": "Node-RED Contribution to log data",
+      "updated_at": "2023-03-21T12:55:39.529Z",
+      "types": [
+        "Logger",
+        "LogConfig"
+      ],
+      "keywords": [
+        "node-red"
+      ],
+      "url": "https://flows.nodered.org/node/@autexis/node-red-payload-logger"
+    },
+    {
+      "id": "@shikiryu/node-red-contrib-mastodon-bookmark",
+      "version": "1.0.0",
+      "description": "NodeRED to retrieve Bookmark from Mastodon",
+      "updated_at": "2023-03-21T09:31:33.880Z",
+      "types": [
+        "mastodon-bookmark-client",
+        "mastodon-bookmark"
+      ],
+      "keywords": [
+        "node-red",
+        "contrib-mastodon",
+        "mastodon"
+      ],
+      "url": "https://flows.nodered.org/node/@shikiryu/node-red-contrib-mastodon-bookmark"
+    },
+    {
+      "id": "node-red-contrib-stoptimer-varidelay",
+      "version": "0.5.3",
+      "description": "This node allows for pre-configured, or dynamic delay. It also allows the node to stop the output. It can be configured to be persistent across reboot/restarts/redeploys.",
+      "updated_at": "2023-03-20T23:00:42.874Z",
+      "types": [
+        "stoptimer-varidelay"
+      ],
+      "keywords": [
+        "node-red",
+        "timer",
+        "delay",
+        "stoptimer"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-stoptimer-varidelay"
+    },
+    {
+      "id": "node-red-contrib-docxtemplater",
+      "version": "1.0.3",
+      "description": "Generate docx, pptx, and xlsx from templates (Word, Powerpoint and Excel documents), from Node-Red",
+      "updated_at": "2023-03-20T19:31:36.429Z",
+      "types": [],
+      "keywords": [
+        "docx",
+        "pptx",
+        "templates",
+        "template",
+        "templater",
+        "templating",
+        "report",
+        "xlsx",
+        "generation",
+        "generate",
+        "generator",
+        "microsoft office",
+        "microsoft word",
+        "microsoft powerpoint",
+        "microsoft excel",
+        "create",
+        "make",
+        "Office Open XML",
+        "creator",
+        "node-red"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-docxtemplater"
+    },
     {
       "id": "@cbsanal/node-red-opcua-browse-subscribe",
       "version": "0.0.1",
@@ -482,6 +592,51 @@
         "auroral"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-auroral"
+    },
+    {
+      "id": "node-red-contrib-uhppoted",
+      "version": "1.1.3",
+      "description": "A set of nodes for the UHPPOTE Wiegand Access Controller",
+      "updated_at": "2023-03-16T18:46:39.810Z",
+      "types": [
+        "uhppoted-config",
+        "uhppoted-get-devices",
+        "uhppoted-get-device",
+        "uhppoted-set-ip",
+        "uhppoted-get-time",
+        "uhppoted-set-time",
+        "uhppoted-get-door-control",
+        "uhppoted-set-door-control",
+        "uhppoted-get-listener",
+        "uhppoted-set-listener",
+        "uhppoted-record-special-events",
+        "uhppoted-get-status",
+        "uhppoted-get-cards",
+        "uhppoted-get-card",
+        "uhppoted-get-card-by-index",
+        "uhppoted-put-card",
+        "uhppoted-delete-card",
+        "uhppoted-delete-all-cards",
+        "uhppoted-get-time-profile",
+        "uhppoted-set-time-profile",
+        "uhppoted-clear-time-profiles",
+        "uhppoted-add-task",
+        "uhppoted-clear-task-list",
+        "uhppoted-refresh-task-list",
+        "uhppoted-get-event-index",
+        "uhppoted-set-event-index",
+        "uhppoted-get-event",
+        "uhppoted-open-door",
+        "uhppoted-set-pc-control",
+        "uhppoted-listen"
+      ],
+      "keywords": [
+        "node-red",
+        "uhppote",
+        "Wiegand",
+        "access control"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-uhppoted"
     },
     {
       "id": "node-red-contrib-opcua",
@@ -1126,24 +1281,6 @@
         "smartpi"
       ],
       "url": "https://flows.nodered.org/node/@nd-enerserve/node-red-smartpi"
-    },
-    {
-      "id": "node-red-contrib-socketio-client-jwt",
-      "version": "0.4.3",
-      "description": "Node Red client to work with socket.io server with JWT option",
-      "updated_at": "2023-03-07T21:25:46.964Z",
-      "types": [
-        "socketio-config",
-        "socketio-connector",
-        "socketio-listener",
-        "socketio-emitter",
-        "socketio-callback-emitter"
-      ],
-      "keywords": [
-        "node-red",
-        "socket.io"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-socketio-client-jwt"
     },
     {
       "id": "node-red-contrib-yandex-station-management",
@@ -7017,50 +7154,6 @@
         "cctv"
       ],
       "url": "https://flows.nodered.org/node/@kevingodell/node-red-mp4frag"
-    },
-    {
-      "id": "node-red-contrib-uhppoted",
-      "version": "1.1.2",
-      "description": "A set of nodes for the UHPPOTE Wiegand Access Controller",
-      "updated_at": "2022-12-16T22:34:03.044Z",
-      "types": [
-        "uhppoted-config",
-        "uhppoted-get-devices",
-        "uhppoted-get-device",
-        "uhppoted-set-ip",
-        "uhppoted-get-time",
-        "uhppoted-set-time",
-        "uhppoted-get-door-control",
-        "uhppoted-set-door-control",
-        "uhppoted-get-listener",
-        "uhppoted-set-listener",
-        "uhppoted-record-special-events",
-        "uhppoted-get-status",
-        "uhppoted-get-cards",
-        "uhppoted-get-card",
-        "uhppoted-get-card-by-index",
-        "uhppoted-put-card",
-        "uhppoted-delete-card",
-        "uhppoted-delete-all-cards",
-        "uhppoted-get-time-profile",
-        "uhppoted-set-time-profile",
-        "uhppoted-clear-time-profiles",
-        "uhppoted-add-task",
-        "uhppoted-clear-task-list",
-        "uhppoted-refresh-task-list",
-        "uhppoted-get-event-index",
-        "uhppoted-set-event-index",
-        "uhppoted-get-event",
-        "uhppoted-open-door",
-        "uhppoted-listen"
-      ],
-      "keywords": [
-        "node-red",
-        "uhppote",
-        "Wiegand",
-        "access control"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-uhppoted"
     },
     {
       "id": "node-red-contrib-dashboard-bar-chart-data",
@@ -31916,22 +32009,6 @@
         "image"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-threema"
-    },
-    {
-      "id": "node-red-contrib-stoptimer-varidelay",
-      "version": "0.5.2",
-      "description": "Sends the msg through the 1st output after the timer duration. A new msg received before the timer expires will replace the existing msg and the timer will be restarted, unless the new msg has a payload of 'stop' or 'STOP', which will stop the timer. The ",
-      "updated_at": "2021-04-02T05:41:51.396Z",
-      "types": [
-        "stoptimer-varidelay"
-      ],
-      "keywords": [
-        "node-red",
-        "timer",
-        "delay",
-        "stoptimer"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-stoptimer-varidelay"
     },
     {
       "id": "@ekristoffe/node-red-contrib-os",
