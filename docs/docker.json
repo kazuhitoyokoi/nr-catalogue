@@ -1,7 +1,179 @@
 {
   "name": "Catalogue for docker",
-  "updated_at": "2023-03-22T16:12:16.588Z",
+  "updated_at": "2023-03-23T16:18:14.460Z",
   "modules": [
+    {
+      "id": "@cameo69/node-red-ratelimit",
+      "version": "0.0.12",
+      "description": "implements rate limit with sliding window",
+      "updated_at": "2023-03-23T14:22:20.802Z",
+      "types": [
+        "rate-limiter"
+      ],
+      "keywords": [
+        "node-red",
+        "ratelimit",
+        "ratelimit",
+        "rate limit",
+        "rate",
+        "delay",
+        "queueing",
+        "burst",
+        "sliding window"
+      ],
+      "url": "https://flows.nodered.org/node/@cameo69/node-red-ratelimit"
+    },
+    {
+      "id": "@s1seven/node-red-s1seven-api",
+      "version": "1.3.0",
+      "description": "Nodes that interact with S1Seven's API",
+      "updated_at": "2023-03-23T11:52:49.680Z",
+      "types": [
+        "hash certificate",
+        "__errors__",
+        "verify certificate",
+        "__errors__",
+        "validate certificate",
+        "__errors__",
+        "notarize certificate",
+        "__errors__",
+        "get identities",
+        "__errors__",
+        "get company",
+        "__errors__",
+        "get access token",
+        "__errors__",
+        "api-config"
+      ],
+      "keywords": [
+        "node-red",
+        "s1seven"
+      ],
+      "url": "https://flows.nodered.org/node/@s1seven/node-red-s1seven-api"
+    },
+    {
+      "id": "@s1seven/node-red-generate-pdf",
+      "version": "0.0.9",
+      "description": "A simple node-red module that wraps the S1Seven generatePdf module and allows it to be used in node-red.",
+      "updated_at": "2023-03-23T11:52:49.675Z",
+      "types": [
+        "generate pdf"
+      ],
+      "keywords": [
+        "node-red"
+      ],
+      "url": "https://flows.nodered.org/node/@s1seven/node-red-generate-pdf"
+    },
+    {
+      "id": "@s1seven/node-red-chartjs",
+      "version": "0.0.4",
+      "description": "A simple custom node-red module that wraps chartjs and chartjs-plugin-annotation and serves it for use in node-red.",
+      "updated_at": "2023-03-23T11:52:49.670Z",
+      "types": [
+        "generate chart"
+      ],
+      "keywords": [
+        "node-red"
+      ],
+      "url": "https://flows.nodered.org/node/@s1seven/node-red-chartjs"
+    },
+    {
+      "id": "node-red-contrib-polkadot",
+      "version": "0.0.12",
+      "description": "Provides a way to interact with a polkadot based chain through the JS client library.",
+      "updated_at": "2023-03-23T11:01:45.626Z",
+      "types": [
+        "client",
+        "chain info",
+        "query state",
+        "transfer",
+        "balance",
+        "transact"
+      ],
+      "keywords": [
+        "node-red",
+        "polkadot",
+        "substrate",
+        "client"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-polkadot"
+    },
+    {
+      "id": "node-red-contrib-haier",
+      "version": "1.0.1",
+      "description": "海尔机器人",
+      "updated_at": "2023-03-23T08:53:38.979Z",
+      "types": [
+        "haier-configurator",
+        "haier-roboot"
+      ],
+      "keywords": [
+        "node-red"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-haier"
+    },
+    {
+      "id": "node-red-contrib-sonos-plus",
+      "version": "6.7.3",
+      "description": "A set of Node-RED nodes to control SONOS player in your local network.",
+      "updated_at": "2023-03-23T08:23:10.495Z",
+      "types": [
+        "sonos-config",
+        "sonos-manage-mysonos",
+        "sonos-universal"
+      ],
+      "keywords": [
+        "sonos",
+        "node-red",
+        "music",
+        "node-red-contrib-sonos-plus"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-sonos-plus"
+    },
+    {
+      "id": "@bitpoolos/edge-bacnet",
+      "version": "1.1.5",
+      "description": "A bacnet gateway for node-red",
+      "updated_at": "2023-03-23T00:06:15.738Z",
+      "types": [
+        "Bacnet-Gateway",
+        "Bacnet-Discovery",
+        "Bacnet-Write",
+        "Bitpool-Inject"
+      ],
+      "keywords": [
+        "node-red",
+        "bitpool",
+        "bitpoolos",
+        "edge",
+        "big data",
+        "iot",
+        "BACnet"
+      ],
+      "url": "https://flows.nodered.org/node/@bitpoolos/edge-bacnet"
+    },
+    {
+      "id": "node-red-contrib-whatsapp-link",
+      "version": "0.1.37-A",
+      "description": "Node to send and receive whatsapp messages in groups and chats. | No third party APIs",
+      "updated_at": "2023-03-22T18:52:23.344Z",
+      "types": [
+        "admin",
+        "chats-in",
+        "chats-out",
+        "group-out",
+        "reply",
+        "whatsappLink"
+      ],
+      "keywords": [
+        "node-red",
+        "whatsapp",
+        "message",
+        "whatsapp Group",
+        "whatsapp Chat"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-whatsapp-link"
+    },
     {
       "id": "@nnc/node-red-contrib-wxwork",
       "version": "0.1.1",
@@ -20,27 +192,6 @@
         "weixin"
       ],
       "url": "https://flows.nodered.org/node/@nnc/node-red-contrib-wxwork"
-    },
-    {
-      "id": "@cameo69/node-red-ratelimit",
-      "version": "0.0.11",
-      "description": "implements rate limit with sliding window",
-      "updated_at": "2023-03-22T13:23:55.503Z",
-      "types": [
-        "rate-limiter"
-      ],
-      "keywords": [
-        "node-red",
-        "ratelimit",
-        "ratelimit",
-        "rate limit",
-        "rate",
-        "delay",
-        "queueing",
-        "burst",
-        "sliding window"
-      ],
-      "url": "https://flows.nodered.org/node/@cameo69/node-red-ratelimit"
     },
     {
       "id": "node-red-contrib-html-to-docx",
@@ -403,24 +554,6 @@
         "iot"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-hal2"
-    },
-    {
-      "id": "node-red-contrib-sonos-plus",
-      "version": "6.7.2",
-      "description": "A set of Node-RED nodes to control SONOS player in your local network.",
-      "updated_at": "2023-03-18T18:23:53.361Z",
-      "types": [
-        "sonos-config",
-        "sonos-manage-mysonos",
-        "sonos-universal"
-      ],
-      "keywords": [
-        "sonos",
-        "node-red",
-        "music",
-        "node-red-contrib-sonos-plus"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-sonos-plus"
     },
     {
       "id": "node-red-contrib-hikvision-ultimate",
@@ -923,39 +1056,6 @@
         "2stools"
       ],
       "url": "https://flows.nodered.org/node/node-red-2stools-packetdecode"
-    },
-    {
-      "id": "@s1seven/node-red-generate-pdf",
-      "version": "0.0.8",
-      "description": "A simple node-red module that wraps the S1Seven generatePdf module and allows it to be used in node-red.",
-      "updated_at": "2023-03-13T14:29:38.116Z",
-      "types": [
-        "generate pdf"
-      ],
-      "keywords": [
-        "node-red"
-      ],
-      "url": "https://flows.nodered.org/node/@s1seven/node-red-generate-pdf"
-    },
-    {
-      "id": "@s1seven/node-red-s1seven-api",
-      "version": "1.2.0",
-      "description": "Nodes that interact with S1Seven's API",
-      "updated_at": "2023-03-13T14:29:38.019Z",
-      "types": [
-        "hash",
-        "verify certificate",
-        "notarize certificate",
-        "get identities",
-        "get company",
-        "get access token",
-        "api-config"
-      ],
-      "keywords": [
-        "node-red",
-        "s1seven"
-      ],
-      "url": "https://flows.nodered.org/node/@s1seven/node-red-s1seven-api"
     },
     {
       "id": "node-red-contrib-web-worldmap",
@@ -1649,28 +1749,6 @@
         "schedule"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-sprinkler"
-    },
-    {
-      "id": "@bitpoolos/edge-bacnet",
-      "version": "1.1.4",
-      "description": "A bacnet gateway for node-red",
-      "updated_at": "2023-03-03T01:08:43.553Z",
-      "types": [
-        "Bacnet-Gateway",
-        "Bacnet-Discovery",
-        "Bacnet-Write",
-        "Bitpool-Inject"
-      ],
-      "keywords": [
-        "node-red",
-        "bitpool",
-        "bitpoolos",
-        "edge",
-        "big data",
-        "iot",
-        "BACnet"
-      ],
-      "url": "https://flows.nodered.org/node/@bitpoolos/edge-bacnet"
     },
     {
       "id": "node-red-contrib-airship-ticketco",
@@ -2820,28 +2898,6 @@
         "Ubiquiti Networks"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-unifi"
-    },
-    {
-      "id": "node-red-contrib-whatsapp-link",
-      "version": "0.1.36-A",
-      "description": "Node to send and receive whatsapp messages in groups and chats. | No third party APIs",
-      "updated_at": "2023-02-18T19:01:03.962Z",
-      "types": [
-        "admin",
-        "chats-in",
-        "chats-out",
-        "group-out",
-        "reply",
-        "whatsappLink"
-      ],
-      "keywords": [
-        "node-red",
-        "whatsapp",
-        "message",
-        "whatsapp Group",
-        "whatsapp Chat"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-whatsapp-link"
     },
     {
       "id": "node-red-contrib-chatbot",
@@ -6700,27 +6756,6 @@
       "url": "https://flows.nodered.org/node/node-red-contrib-iosense-queryv2"
     },
     {
-      "id": "node-red-contrib-polkadot",
-      "version": "0.0.11",
-      "description": "Provides a way to interact with a polkadot based chain through the JS client library.",
-      "updated_at": "2022-12-27T08:10:00.680Z",
-      "types": [
-        "client",
-        "chain info",
-        "query state",
-        "transfer",
-        "balance",
-        "transact"
-      ],
-      "keywords": [
-        "node-red",
-        "polkadot",
-        "substrate",
-        "client"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-polkadot"
-    },
-    {
       "id": "node-red-contrib-duckdb",
       "version": "0.1.3",
       "description": "Node-red node for duckdb",
@@ -8505,19 +8540,6 @@
         "node-red"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-objtalk"
-    },
-    {
-      "id": "@s1seven/node-red-chartjs",
-      "version": "0.0.3",
-      "description": "A simple custom node-red module that wraps chartjs and chartjs-plugin-annotation and serves it for use in node-red.",
-      "updated_at": "2022-11-21T06:54:51.246Z",
-      "types": [
-        "generate chart"
-      ],
-      "keywords": [
-        "node-red"
-      ],
-      "url": "https://flows.nodered.org/node/@s1seven/node-red-chartjs"
     },
     {
       "id": "node-red-contrib-homekit-bridged",
@@ -18189,20 +18211,6 @@
         "pocket"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-pocket-api"
-    },
-    {
-      "id": "node-red-contrib-haier",
-      "version": "1.0.0",
-      "description": "海尔机器人",
-      "updated_at": "2022-04-22T06:50:19.651Z",
-      "types": [
-        "haier-configurator",
-        "haier-roboot"
-      ],
-      "keywords": [
-        "node-red"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-haier"
     },
     {
       "id": "@fibrinogen/node-red-contrib-re-http-ntlm-req",
