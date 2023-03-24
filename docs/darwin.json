@@ -1,7 +1,205 @@
 {
   "name": "Catalogue for darwin",
-  "updated_at": "2023-03-23T19:58:43.073Z",
+  "updated_at": "2023-03-24T20:34:41.502Z",
   "modules": [
+    {
+      "id": "@binsoul/node-red-contrib-shelly-pro-3em",
+      "version": "0.0.1",
+      "description": "Retrieves data from a Shelly Pro 3EM device.",
+      "updated_at": "2023-03-24T15:27:42.306Z",
+      "types": [
+        "binsoul-shelly-pro-3em"
+      ],
+      "keywords": [
+        "node-red",
+        "string",
+        "extract"
+      ],
+      "url": "https://flows.nodered.org/node/@binsoul/node-red-contrib-shelly-pro-3em"
+    },
+    {
+      "id": "@chvdapi/node-red-pn6400-led",
+      "version": "0.0.4",
+      "description": "A node by chvda to drive LED on PN6400",
+      "updated_at": "2023-03-24T08:07:38.106Z",
+      "types": [
+        "PN6400_LED"
+      ],
+      "keywords": [
+        "node-red"
+      ],
+      "url": "https://flows.nodered.org/node/@chvdapi/node-red-pn6400-led"
+    },
+    {
+      "id": "@chvdapi/node-red-pn6400-1602lcd",
+      "version": "0.0.7",
+      "description": "drive PCF8574 1602 LCD on PN6400",
+      "updated_at": "2023-03-24T07:56:04.184Z",
+      "types": [
+        "PN6400_1602LCD"
+      ],
+      "keywords": [
+        "node-red",
+        "PN6400",
+        "PCF8574",
+        "LCD",
+        "I2C"
+      ],
+      "url": "https://flows.nodered.org/node/@chvdapi/node-red-pn6400-1602lcd"
+    },
+    {
+      "id": "node-red-contrib-caseta",
+      "version": "2.1.1",
+      "description": "Node-RED nodes to observe and control a Lutron Caseta home network.",
+      "updated_at": "2023-03-24T04:55:44.660Z",
+      "types": [
+        "caseta-bridge",
+        "caseta-react",
+        "caseta-control",
+        "caseta-query"
+      ],
+      "keywords": [
+        "node-red",
+        "lutron",
+        "caseta",
+        "smartbridge",
+        "smart hub"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-caseta"
+    },
+    {
+      "id": "@ia-cloud/node-red-contrib-ia-cloud-fds",
+      "version": "0.1.28",
+      "description": "ia-cloud Node-RED nodes",
+      "updated_at": "2023-03-24T03:58:49.353Z",
+      "types": [
+        "ia-cloud-cnct",
+        "ia-cloud-cnct2",
+        "object-array",
+        "iBRESS Connect",
+        "ibress-cnct",
+        "PLC MC",
+        "PLC MC config",
+        "Modbus-com",
+        "Mitsubishi-com",
+        "RFID",
+        "EnOcean-com",
+        "EnOcean-obj",
+        "signal-watcher",
+        "signal-watcher-AE",
+        "Core_Staff_Sensor",
+        "Itec_CT_Sensor",
+        "Optex_Occupancy_Sensor",
+        "Optex_Rocker_SW",
+        "Watty_HYHQ_Sensor",
+        "Watty_HYHQ_FF_Sensor",
+        "Watty_HYHU3_Sensor",
+        "Watty_HYCO_Sensor",
+        "Watty_HYPM_Sensor",
+        "Watty_Temp_Sensor",
+        "HMI-Schneider",
+        "HMI-Schneider-AE",
+        "HMI-Schneider-com",
+        "ia-cloud-change",
+        "tmp-ctrl-omron",
+        "tmp-ctrl-omron-AE",
+        "ia-cloud-serialport",
+        "URD Current Sensor",
+        "URD AC 1ch sensor",
+        "URD AC 3ch sensor",
+        "unpack",
+        "evaluation",
+        "evaluationAE",
+        "data-range",
+        "smoothing",
+        "de-noise",
+        "de-noise2",
+        "change-detect",
+        "rename-object",
+        "rename-data",
+        "PLC-sim",
+        "aggregation",
+        "choco-watcher",
+        "ia-cloud-simulator",
+        "eq-event",
+        "eq-status",
+        "BLE-sensor"
+      ],
+      "keywords": [
+        "node-red"
+      ],
+      "url": "https://flows.nodered.org/node/@ia-cloud/node-red-contrib-ia-cloud-fds"
+    },
+    {
+      "id": "@parasaurolophus/node-red-dnssd",
+      "version": "1.0.0",
+      "description": "Wrap dnssd package for Node-RED",
+      "updated_at": "2023-03-23T21:01:03.732Z",
+      "types": [
+        "dnssd"
+      ],
+      "keywords": [
+        "node-red",
+        "dnssd",
+        "dns-sd",
+        "bonjour",
+        "avahi",
+        "mdns",
+        "zeroconf"
+      ],
+      "url": "https://flows.nodered.org/node/@parasaurolophus/node-red-dnssd"
+    },
+    {
+      "id": "@ralphwetzel/node-red-mcu-plugin",
+      "version": "1.3.0",
+      "description": "Plugin to integrate Node-RED MCU Edition into the Node-RED Editor",
+      "updated_at": "2023-03-23T20:20:19.201Z",
+      "types": [],
+      "keywords": [
+        "node-red",
+        "node-red-mcu",
+        "Node-RED",
+        "Node-RED MCU Edition",
+        "node-red-mcu-plugin"
+      ],
+      "url": "https://flows.nodered.org/node/@ralphwetzel/node-red-mcu-plugin"
+    },
+    {
+      "id": "node-red-contrib-unifi",
+      "version": "0.2.14",
+      "description": "Node for Node-RED to connect to a UniFi Controller ",
+      "updated_at": "2023-03-23T19:31:34.435Z",
+      "types": [
+        "unificonfig",
+        "Unifi"
+      ],
+      "keywords": [
+        "node-red",
+        "unifi",
+        "ubnt",
+        "Ubiquiti Networks"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-unifi"
+    },
+    {
+      "id": "node-red-contrib-web3-blue",
+      "version": "0.0.1",
+      "description": "Node-RED node for web3 smart contracts",
+      "updated_at": "2023-03-23T19:00:55.231Z",
+      "types": [
+        "rpc",
+        "accounts",
+        "contracts"
+      ],
+      "keywords": [
+        "node-red",
+        "node-inq",
+        "web3-blue",
+        "blue-sec",
+        "physics"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-web3-blue"
+    },
     {
       "id": "node-red-contrib-custom-chatgpt",
       "version": "1.2.3",
@@ -1108,26 +1306,6 @@
       "url": "https://flows.nodered.org/node/node-red-contrib-web-worldmap"
     },
     {
-      "id": "node-red-contrib-caseta",
-      "version": "2.1.0",
-      "description": "Node-RED nodes to observe and control a Lutron Caseta home network.",
-      "updated_at": "2023-03-13T01:49:01.774Z",
-      "types": [
-        "caseta-bridge",
-        "caseta-react",
-        "caseta-control",
-        "caseta-query"
-      ],
-      "keywords": [
-        "node-red",
-        "lutron",
-        "caseta",
-        "smartbridge",
-        "smart hub"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-caseta"
-    },
-    {
       "id": "nr-strompreis",
       "version": "1.0.0",
       "description": "NodeRed Node to retrieve electricity price in Germany (local and national)",
@@ -1217,21 +1395,6 @@
         "IoT"
       ],
       "url": "https://flows.nodered.org/node/node-red-pushsafer"
-    },
-    {
-      "id": "@ralphwetzel/node-red-mcu-plugin",
-      "version": "1.2.1",
-      "description": "Plugin to integrate Node-RED MCU Edition into the Node-RED Editor",
-      "updated_at": "2023-03-10T14:24:27.782Z",
-      "types": [],
-      "keywords": [
-        "node-red",
-        "node-red-mcu",
-        "Node-RED",
-        "Node-RED MCU Edition",
-        "node-red-mcu-plugin"
-      ],
-      "url": "https://flows.nodered.org/node/@ralphwetzel/node-red-mcu-plugin"
     },
     {
       "id": "node-red-contrib-random-string",
@@ -2759,69 +2922,6 @@
       "url": "https://flows.nodered.org/node/@binsoul/node-red-contrib-roller-shutter"
     },
     {
-      "id": "@ia-cloud/node-red-contrib-ia-cloud-fds",
-      "version": "0.1.26",
-      "description": "ia-cloud Node-RED nodes",
-      "updated_at": "2023-02-20T01:18:37.274Z",
-      "types": [
-        "ia-cloud-cnct",
-        "ia-cloud-cnct2",
-        "object-array",
-        "iBRESS Connect",
-        "ibress-cnct",
-        "PLC MC",
-        "PLC MC config",
-        "Modbus-com",
-        "Mitsubishi-com",
-        "RFID",
-        "EnOcean-com",
-        "EnOcean-obj",
-        "signal-watcher",
-        "signal-watcher-AE",
-        "Core_Staff_Sensor",
-        "Itec_CT_Sensor",
-        "Optex_Occupancy_Sensor",
-        "Optex_Rocker_SW",
-        "Watty_HYHQ_Sensor",
-        "Watty_HYHQ_FF_Sensor",
-        "Watty_HYHU3_Sensor",
-        "Watty_HYCO_Sensor",
-        "Watty_HYPM_Sensor",
-        "Watty_Temp_Sensor",
-        "HMI-Schneider",
-        "HMI-Schneider-AE",
-        "HMI-Schneider-com",
-        "ia-cloud-change",
-        "tmp-ctrl-omron",
-        "tmp-ctrl-omron-AE",
-        "ia-cloud-serialport",
-        "URD Current Sensor",
-        "URD AC 1ch sensor",
-        "URD AC 3ch sensor",
-        "unpack",
-        "evaluation",
-        "evaluationAE",
-        "data-range",
-        "smoothing",
-        "de-noise",
-        "de-noise2",
-        "change-detect",
-        "rename-object",
-        "rename-data",
-        "PLC-sim",
-        "aggregation",
-        "choco-watcher",
-        "ia-cloud-simulator",
-        "eq-event",
-        "eq-status",
-        "BLE-sensor"
-      ],
-      "keywords": [
-        "node-red"
-      ],
-      "url": "https://flows.nodered.org/node/@ia-cloud/node-red-contrib-ia-cloud-fds"
-    },
-    {
       "id": "node-red-contrib-unide-ppmp",
       "version": "1.1.2",
       "description": "The Production Performance Management Protocol (PPMP) is a communication protocol for exchanging production-related data between industrial automation systems. It helps improve efficiency, reduce downtime, and enhance product quality by providing a standa",
@@ -2883,23 +2983,6 @@
         "vsh"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-virtual-smart-home"
-    },
-    {
-      "id": "node-red-contrib-unifi",
-      "version": "0.2.13",
-      "description": "Node for Node-RED to connect to a UniFi Controller ",
-      "updated_at": "2023-02-18T19:32:31.219Z",
-      "types": [
-        "unificonfig",
-        "Unifi"
-      ],
-      "keywords": [
-        "node-red",
-        "unifi",
-        "ubnt",
-        "Ubiquiti Networks"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-unifi"
     },
     {
       "id": "node-red-contrib-chatbot",
@@ -3877,19 +3960,6 @@
         "compute"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-google-cloud-ubos"
-    },
-    {
-      "id": "@chvdapi/node-red-pn6400-led",
-      "version": "0.0.3",
-      "description": "A node by chvda to drive LED on PN6400",
-      "updated_at": "2023-02-07T09:15:21.159Z",
-      "types": [
-        "PN6400_LED"
-      ],
-      "keywords": [
-        "node-red"
-      ],
-      "url": "https://flows.nodered.org/node/@chvdapi/node-red-pn6400-led"
     },
     {
       "id": "@chvdapi/node-red-pn6400-ai",
