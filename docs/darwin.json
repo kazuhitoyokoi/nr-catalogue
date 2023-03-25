@@ -1,7 +1,111 @@
 {
   "name": "Catalogue for darwin",
-  "updated_at": "2023-03-24T20:34:41.502Z",
+  "updated_at": "2023-03-25T19:32:46.157Z",
   "modules": [
+    {
+      "id": "node-red-contrib-oauth2",
+      "version": "4.1.4",
+      "description": "The node-red-contrib-oauth2 is a Node-RED node that provides an OAuth2 authentication flow. This node uses the OAuth2 protocol to obtain an access token, which can be used to make authenticated API requests.",
+      "updated_at": "2023-03-25T16:13:21.322Z",
+      "types": [
+        "oauth2"
+      ],
+      "keywords": [
+        "node-red",
+        "oauth2",
+        "security"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-oauth2"
+    },
+    {
+      "id": "node-red-contrib-wsjt-x",
+      "version": "2.0.1",
+      "description": "WSJT-X Data Decoding",
+      "updated_at": "2023-03-25T15:54:35.821Z",
+      "types": [
+        "wsjt-x-decode",
+        "wsjt-x-encode"
+      ],
+      "keywords": [
+        "node-red",
+        "wsjt-x",
+        "wsjtx",
+        "ft8",
+        "ft4",
+        "wspr",
+        "radio",
+        "ham radio",
+        "amatuer radio"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-wsjt-x"
+    },
+    {
+      "id": "node-red-contrib-mymazda",
+      "version": "1.0.0",
+      "description": "Node-RED node to connect to a Mazda car that has Mazda Connected Services enabled",
+      "updated_at": "2023-03-25T13:57:12.118Z",
+      "types": [
+        "mymazda-car",
+        "mymazda-account"
+      ],
+      "keywords": [
+        "node-red",
+        "mazda",
+        "mymazda"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-mymazda"
+    },
+    {
+      "id": "node-red-contrib-eksido-chatgpt",
+      "version": "1.0.14",
+      "description": "A Node-RED node that integrates with ChatGPT API",
+      "updated_at": "2023-03-25T11:34:39.821Z",
+      "types": [
+        "chatgpt"
+      ],
+      "keywords": [
+        "node-red",
+        "chatgpt",
+        "openai"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-eksido-chatgpt"
+    },
+    {
+      "id": "@parasaurolophus/node-red-dnssd",
+      "version": "2.0.2",
+      "description": "Wrap dnssd package for Node-RED",
+      "updated_at": "2023-03-24T21:37:28.597Z",
+      "types": [
+        "dnssd-browser",
+        "dnssd-advertisement"
+      ],
+      "keywords": [
+        "node-red",
+        "dnssd",
+        "dns-sd",
+        "bonjour",
+        "avahi",
+        "mdns",
+        "zeroconf"
+      ],
+      "url": "https://flows.nodered.org/node/@parasaurolophus/node-red-dnssd"
+    },
+    {
+      "id": "node-red-contrib-timeouttrigger",
+      "version": "0.0.4",
+      "description": "This node will pipe any received `msg` to its output. At the same time a time-out interval is set. Upon time-out a defined payload is send. Each new message will reset the time-out.",
+      "updated_at": "2023-03-24T18:34:24.243Z",
+      "types": [
+        "timeouttrigger"
+      ],
+      "keywords": [
+        "node-red",
+        "time-out",
+        "trigger",
+        "iot"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-timeouttrigger"
+    },
     {
       "id": "@binsoul/node-red-contrib-shelly-pro-3em",
       "version": "0.0.1",
@@ -129,25 +233,6 @@
         "node-red"
       ],
       "url": "https://flows.nodered.org/node/@ia-cloud/node-red-contrib-ia-cloud-fds"
-    },
-    {
-      "id": "@parasaurolophus/node-red-dnssd",
-      "version": "1.0.0",
-      "description": "Wrap dnssd package for Node-RED",
-      "updated_at": "2023-03-23T21:01:03.732Z",
-      "types": [
-        "dnssd"
-      ],
-      "keywords": [
-        "node-red",
-        "dnssd",
-        "dns-sd",
-        "bonjour",
-        "avahi",
-        "mdns",
-        "zeroconf"
-      ],
-      "url": "https://flows.nodered.org/node/@parasaurolophus/node-red-dnssd"
     },
     {
       "id": "@ralphwetzel/node-red-mcu-plugin",
@@ -745,21 +830,6 @@
         "HomeBridge"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-homebridge-automation"
-    },
-    {
-      "id": "node-red-contrib-mymazda",
-      "version": "0.0.5",
-      "description": "Node-RED node to connect to a Mazda car that has Mazda Connected Services enabled",
-      "updated_at": "2023-03-19T12:44:12.446Z",
-      "types": [
-        "mymazda-car",
-        "mymazda-account"
-      ],
-      "keywords": [
-        "node-red",
-        "mazda"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-mymazda"
     },
     {
       "id": "node-red-contrib-hal2",
@@ -1603,21 +1673,6 @@
         "node-red"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-yandex-station-management"
-    },
-    {
-      "id": "node-red-contrib-oauth2",
-      "version": "4.1.3",
-      "description": "The node-red-contrib-oauth2 is a Node-RED node that provides an OAuth2 authentication flow. This node uses the OAuth2 protocol to obtain an access token, which can be used to make authenticated API requests.",
-      "updated_at": "2023-03-07T18:35:22.807Z",
-      "types": [
-        "oauth2"
-      ],
-      "keywords": [
-        "node-red",
-        "oauth2",
-        "security"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-oauth2"
     },
     {
       "id": "node-red-l3logger-subflow",
@@ -13856,22 +13911,6 @@
       "url": "https://flows.nodered.org/node/node-red-contrib-objectid"
     },
     {
-      "id": "node-red-contrib-timeouttrigger",
-      "version": "0.0.3",
-      "description": "This node will pipe any received `msg` to its output. At the same time a time-out interval is set. Upon time-out a defined payload is send. Each new message will reset the time-out.",
-      "updated_at": "2022-08-02T05:26:36.311Z",
-      "types": [
-        "timeouttrigger"
-      ],
-      "keywords": [
-        "node-red",
-        "time-out",
-        "trigger",
-        "iot"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-timeouttrigger"
-    },
-    {
       "id": "node-red-contrib-re-http-ntlm-req-v2",
       "version": "0.1.10",
       "description": "HTTP request with NTLM",
@@ -16873,27 +16912,6 @@
         "node-red"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-mongodb-singleton"
-    },
-    {
-      "id": "node-red-contrib-wsjt-x",
-      "version": "1.1.4",
-      "description": "WSJT-X Data Decoding",
-      "updated_at": "2022-05-11T14:09:01.273Z",
-      "types": [
-        "wsjt-x-decode"
-      ],
-      "keywords": [
-        "node-red",
-        "wsjt-x",
-        "wsjtx",
-        "ft8",
-        "ft4",
-        "wspr",
-        "radio",
-        "ham radio",
-        "amatuer radio"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-wsjt-x"
     },
     {
       "id": "node-red-contrib-harmony-extra",
