@@ -1,7 +1,89 @@
 {
   "name": "Catalogue for docker",
-  "updated_at": "2023-03-24T16:15:41.258Z",
+  "updated_at": "2023-03-25T16:20:00.641Z",
   "modules": [
+    {
+      "id": "node-red-contrib-mymazda",
+      "version": "1.0.0",
+      "description": "Node-RED node to connect to a Mazda car that has Mazda Connected Services enabled",
+      "updated_at": "2023-03-25T13:57:12.118Z",
+      "types": [
+        "mymazda-car",
+        "mymazda-account"
+      ],
+      "keywords": [
+        "node-red",
+        "mazda",
+        "mymazda"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-mymazda"
+    },
+    {
+      "id": "node-red-contrib-eksido-chatgpt",
+      "version": "1.0.14",
+      "description": "A Node-RED node that integrates with ChatGPT API",
+      "updated_at": "2023-03-25T11:34:39.821Z",
+      "types": [
+        "chatgpt"
+      ],
+      "keywords": [
+        "node-red",
+        "chatgpt",
+        "openai"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-eksido-chatgpt"
+    },
+    {
+      "id": "@parasaurolophus/node-red-dnssd",
+      "version": "2.0.2",
+      "description": "Wrap dnssd package for Node-RED",
+      "updated_at": "2023-03-24T21:37:28.597Z",
+      "types": [
+        "dnssd-browser",
+        "dnssd-advertisement"
+      ],
+      "keywords": [
+        "node-red",
+        "dnssd",
+        "dns-sd",
+        "bonjour",
+        "avahi",
+        "mdns",
+        "zeroconf"
+      ],
+      "url": "https://flows.nodered.org/node/@parasaurolophus/node-red-dnssd"
+    },
+    {
+      "id": "node-red-contrib-timeouttrigger",
+      "version": "0.0.4",
+      "description": "This node will pipe any received `msg` to its output. At the same time a time-out interval is set. Upon time-out a defined payload is send. Each new message will reset the time-out.",
+      "updated_at": "2023-03-24T18:34:24.243Z",
+      "types": [
+        "timeouttrigger"
+      ],
+      "keywords": [
+        "node-red",
+        "time-out",
+        "trigger",
+        "iot"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-timeouttrigger"
+    },
+    {
+      "id": "@binsoul/node-red-contrib-shelly-pro-3em",
+      "version": "0.0.1",
+      "description": "Retrieves data from a Shelly Pro 3EM device.",
+      "updated_at": "2023-03-24T15:27:42.306Z",
+      "types": [
+        "binsoul-shelly-pro-3em"
+      ],
+      "keywords": [
+        "node-red",
+        "string",
+        "extract"
+      ],
+      "url": "https://flows.nodered.org/node/@binsoul/node-red-contrib-shelly-pro-3em"
+    },
     {
       "id": "@chvdapi/node-red-pn6400-led",
       "version": "0.0.4",
@@ -114,25 +196,6 @@
         "node-red"
       ],
       "url": "https://flows.nodered.org/node/@ia-cloud/node-red-contrib-ia-cloud-fds"
-    },
-    {
-      "id": "@parasaurolophus/node-red-dnssd",
-      "version": "1.0.0",
-      "description": "Wrap dnssd package for Node-RED",
-      "updated_at": "2023-03-23T21:01:03.732Z",
-      "types": [
-        "dnssd"
-      ],
-      "keywords": [
-        "node-red",
-        "dnssd",
-        "dns-sd",
-        "bonjour",
-        "avahi",
-        "mdns",
-        "zeroconf"
-      ],
-      "url": "https://flows.nodered.org/node/@parasaurolophus/node-red-dnssd"
     },
     {
       "id": "@ralphwetzel/node-red-mcu-plugin",
@@ -730,21 +793,6 @@
         "HomeBridge"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-homebridge-automation"
-    },
-    {
-      "id": "node-red-contrib-mymazda",
-      "version": "0.0.5",
-      "description": "Node-RED node to connect to a Mazda car that has Mazda Connected Services enabled",
-      "updated_at": "2023-03-19T12:44:12.446Z",
-      "types": [
-        "mymazda-car",
-        "mymazda-account"
-      ],
-      "keywords": [
-        "node-red",
-        "mazda"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-mymazda"
     },
     {
       "id": "node-red-contrib-hal2",
@@ -13845,22 +13893,6 @@
         "biancoroyal"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-objectid"
-    },
-    {
-      "id": "node-red-contrib-timeouttrigger",
-      "version": "0.0.3",
-      "description": "This node will pipe any received `msg` to its output. At the same time a time-out interval is set. Upon time-out a defined payload is send. Each new message will reset the time-out.",
-      "updated_at": "2022-08-02T05:26:36.311Z",
-      "types": [
-        "timeouttrigger"
-      ],
-      "keywords": [
-        "node-red",
-        "time-out",
-        "trigger",
-        "iot"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-timeouttrigger"
     },
     {
       "id": "node-red-contrib-re-http-ntlm-req-v2",
