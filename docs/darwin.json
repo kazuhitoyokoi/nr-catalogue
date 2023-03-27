@@ -1,7 +1,376 @@
 {
   "name": "Catalogue for darwin",
-  "updated_at": "2023-03-26T21:08:45.275Z",
+  "updated_at": "2023-03-27T22:13:41.478Z",
   "modules": [
+    {
+      "id": "node-red-node-email",
+      "version": "1.19.0",
+      "description": "Node-RED nodes to send and receive simple emails.",
+      "updated_at": "2023-03-27T19:35:44.295Z",
+      "types": [
+        "e-mail",
+        "e-mail in",
+        "e-mail mta"
+      ],
+      "keywords": [
+        "node-red",
+        "email",
+        "gmail",
+        "imap",
+        "pop",
+        "smtp",
+        "smtp-server",
+        "mta"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-node-email"
+    },
+    {
+      "id": "node-red-contrib-whois-parser",
+      "version": "1.0.8",
+      "description": "nodered node to make whois requests based on ruby whois gem (via cmd exec, requires ruby installation)",
+      "updated_at": "2023-03-27T18:47:39.423Z",
+      "types": [
+        "whois-parser"
+      ],
+      "keywords": [
+        "node-red",
+        "nodered",
+        "whois",
+        "ruby",
+        "whois-parser"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-whois-parser"
+    },
+    {
+      "id": "node-red-contrib-opcua",
+      "version": "0.2.303",
+      "description": "A Node-RED node to communicate via OPC UA based on node-opcua library.",
+      "updated_at": "2023-03-27T16:36:04.507Z",
+      "types": [
+        "OpcUa-Item",
+        "OpcUa-Client",
+        "OpcUa-Browser",
+        "OpcUa-Server",
+        "OpcUa-Endpoint",
+        "OpcUa-Event",
+        "OpcUa-Method",
+        "OpcUa-Rights",
+        "OpcUa-Discovery"
+      ],
+      "keywords": [
+        "node-red",
+        "OPC UA",
+        "opc-ua",
+        "unified automation",
+        "opc foundation",
+        "node-opcua"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-opcua"
+    },
+    {
+      "id": "node-red-contrib-redplc-ntptime",
+      "version": "2.0.1",
+      "description": "A Node-Red redPlc node for read NTP Time",
+      "updated_at": "2023-03-27T16:22:22.763Z",
+      "types": [
+        "redplc-ntptime"
+      ],
+      "keywords": [
+        "node-red",
+        "time",
+        "system time",
+        "ntp time",
+        "ntp",
+        "iot",
+        "iiot",
+        "plc",
+        "redplc",
+        "control"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-redplc-ntptime"
+    },
+    {
+      "id": "node-red-contrib-iiot-ntptime",
+      "version": "1.0.23",
+      "description": "A Node-Red node for read NTP server time",
+      "updated_at": "2023-03-27T15:52:31.860Z",
+      "types": [
+        "iiot-ntptime"
+      ],
+      "keywords": [
+        "node-red",
+        "time",
+        "system time",
+        "ntp time",
+        "ntp",
+        "iot",
+        "iiot"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-iiot-ntptime"
+    },
+    {
+      "id": "node-red-contrib-oauth2",
+      "version": "4.1.5",
+      "description": "The node-red-contrib-oauth2 is a Node-RED node that provides an OAuth2 authentication flow. This node uses the OAuth2 protocol to obtain an access token, which can be used to make authenticated API requests.",
+      "updated_at": "2023-03-27T14:43:04.624Z",
+      "types": [
+        "oauth2"
+      ],
+      "keywords": [
+        "node-red",
+        "oauth2",
+        "security"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-oauth2"
+    },
+    {
+      "id": "node-red-ubyte-arangodb",
+      "version": "1.1.0",
+      "description": "Node for connecting to arangodb",
+      "updated_at": "2023-03-27T14:33:01.831Z",
+      "types": [
+        "ArangoDB",
+        "configuration"
+      ],
+      "keywords": [
+        "arangodb",
+        "ubyte",
+        "node-red"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-ubyte-arangodb"
+    },
+    {
+      "id": "node-red-contrib-shelly",
+      "version": "10.13.2",
+      "description": "Shelly nodes.",
+      "updated_at": "2023-03-27T13:26:31.606Z",
+      "types": [
+        "shelly-gen1-server",
+        "shelly-gen1",
+        "shelly-gen2-server",
+        "shelly-gen2",
+        "shelly-cloud-server",
+        "shelly-cloud"
+      ],
+      "keywords": [
+        "node-red",
+        "shelly"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-shelly"
+    },
+    {
+      "id": "@binsoul/node-red-contrib-shelly-pro-3em",
+      "version": "0.1.0",
+      "description": "Retrieves data from a Shelly Pro 3EM device.",
+      "updated_at": "2023-03-27T12:46:47.186Z",
+      "types": [
+        "binsoul-shelly-pro-3em"
+      ],
+      "keywords": [
+        "node-red",
+        "string",
+        "extract"
+      ],
+      "url": "https://flows.nodered.org/node/@binsoul/node-red-contrib-shelly-pro-3em"
+    },
+    {
+      "id": "@chvdapi/node-red-pn6400-1602lcd",
+      "version": "0.0.8",
+      "description": "drive PCF8574 1602 LCD on PN6400",
+      "updated_at": "2023-03-27T11:37:17.283Z",
+      "types": [
+        "PN6400_1602LCD"
+      ],
+      "keywords": [
+        "node-red",
+        "PN6400",
+        "PCF8574",
+        "LCD",
+        "I2C"
+      ],
+      "url": "https://flows.nodered.org/node/@chvdapi/node-red-pn6400-1602lcd"
+    },
+    {
+      "id": "@caitken-com/node-red-contrib-json2mysql",
+      "version": "1.0.3",
+      "description": "JSON to MYSQL",
+      "updated_at": "2023-03-27T11:12:03.974Z",
+      "types": [
+        "json2mysql-server",
+        "json2mysql"
+      ],
+      "keywords": [
+        "mysql",
+        "json",
+        "node-red"
+      ],
+      "url": "https://flows.nodered.org/node/@caitken-com/node-red-contrib-json2mysql"
+    },
+    {
+      "id": "node-red-contrib-sm-ind",
+      "version": "1.0.4",
+      "description": "A Node-RED collection of nodes to control Sequent Microsystems Industrial Automation Card",
+      "updated_at": "2023-03-27T10:05:01.788Z",
+      "types": [
+        "IND 0-10V in",
+        "IND D10V in",
+        "IND 0-10V out",
+        "IND 4-20mA in",
+        "IND 4-20mA out",
+        "IND OPT cnt",
+        "IND OPT in",
+        "IND OD out",
+        "IND CPU Temp",
+        "IND PS Voltage",
+        "IND RasPi Voltage",
+        "IND LED out",
+        "IND Read RTC",
+        "IND OWB Temp",
+        "IND OWB Scan"
+      ],
+      "keywords": [
+        "node-red",
+        "node-red-contrib",
+        "i2c",
+        "industrial",
+        "automation",
+        "0-10V",
+        "4-20mA",
+        "open-drain",
+        "optoisolated",
+        "MODBUS"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-sm-ind"
+    },
+    {
+      "id": "node-red-contrib-xkeys_button",
+      "version": "0.3.3",
+      "description": "Xkeys button node for Node-RED using DCDP",
+      "updated_at": "2023-03-27T08:37:47.659Z",
+      "types": [
+        "xkeys_button"
+      ],
+      "keywords": [
+        "X-keys",
+        "Xkeys",
+        "dcdp",
+        "node-red"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-xkeys_button"
+    },
+    {
+      "id": "node-red-contrib-xkeys_jogshuttle",
+      "version": "0.3.5",
+      "description": "Xkeys jog & shuttle node for Node-RED using DCD Protocol (DCDP)",
+      "updated_at": "2023-03-27T08:37:34.099Z",
+      "types": [
+        "xkeys_jogshuttle"
+      ],
+      "keywords": [
+        "DCDP",
+        "X-keys",
+        "Xkeys",
+        "xkeys",
+        "node-red"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-xkeys_jogshuttle"
+    },
+    {
+      "id": "node-red-contrib-xkeys_joystick",
+      "version": "0.3.2",
+      "description": "Xkeys joystick node for Node-RED using DCD Protocol",
+      "updated_at": "2023-03-27T08:37:20.964Z",
+      "types": [
+        "xkeys_joystick"
+      ],
+      "keywords": [
+        "X-keys",
+        "Xkeys",
+        "xkeys",
+        "dcdp",
+        "node-red"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-xkeys_joystick"
+    },
+    {
+      "id": "node-red-contrib-xkeys_tbar",
+      "version": "0.3.2",
+      "description": "Xkeys tbar node for Node-RED using DCD Protocol (DCDP)",
+      "updated_at": "2023-03-27T08:37:06.858Z",
+      "types": [
+        "xkeys_tbar"
+      ],
+      "keywords": [
+        "X-keys",
+        "Xkeys",
+        "xkeys",
+        "dcdp",
+        "node-red"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-xkeys_tbar"
+    },
+    {
+      "id": "@bitpoolos/edge-bacnet",
+      "version": "1.1.6",
+      "description": "A bacnet gateway for node-red",
+      "updated_at": "2023-03-27T08:09:31.935Z",
+      "types": [
+        "Bacnet-Gateway",
+        "Bacnet-Discovery",
+        "Bacnet-Write",
+        "Bitpool-Inject"
+      ],
+      "keywords": [
+        "node-red",
+        "bitpool",
+        "bitpoolos",
+        "edge",
+        "big data",
+        "iot",
+        "BACnet"
+      ],
+      "url": "https://flows.nodered.org/node/@bitpoolos/edge-bacnet"
+    },
+    {
+      "id": "node-red-contrib-discord-advanced",
+      "version": "3.4.2",
+      "description": "Recieve, send, edit, reply, react to and delete Discord messages, handle interactions and much more in Node-RED.",
+      "updated_at": "2023-03-26T23:29:56.264Z",
+      "types": [
+        "discord-token",
+        "discordMessage",
+        "discordMessageManager",
+        "discordPermissions",
+        "discordReactionManager",
+        "discordActivity",
+        "discordClient",
+        "discordInteraction"
+      ],
+      "keywords": [
+        "node-red"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-discord-advanced"
+    },
+    {
+      "id": "node-red-contrib-boolean-parser",
+      "version": "1.4.5",
+      "description": "A Node-RED node to parse and convert several types of on/off, start/stop, true/false values.",
+      "updated_at": "2023-03-26T21:20:51.813Z",
+      "types": [
+        "bool"
+      ],
+      "keywords": [
+        "node-red",
+        "parser",
+        "boolean",
+        "bool",
+        "translator",
+        "converter",
+        "cast",
+        "on-off"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-boolean-parser"
+    },
     {
       "id": "node-red-contrib-uibuilder",
       "version": "6.3.0",
@@ -56,23 +425,6 @@
         "electric energy meter"
       ],
       "url": "https://flows.nodered.org/node/@chvdapi/node-red-dlt645"
-    },
-    {
-      "id": "node-red-contrib-whois-parser",
-      "version": "1.0.3",
-      "description": "nodered node to make whois requests based on ruby whois gem (via cmd exec, requires ruby installation)",
-      "updated_at": "2023-03-26T11:47:20.577Z",
-      "types": [
-        "whois-parser"
-      ],
-      "keywords": [
-        "node-red",
-        "nodered",
-        "whois",
-        "ruby",
-        "whois-parser"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-whois-parser"
     },
     {
       "id": "node-red-contrib-html-to-docx",
@@ -171,21 +523,6 @@
       "url": "https://flows.nodered.org/node/node-red-contrib-bluelinky"
     },
     {
-      "id": "node-red-contrib-oauth2",
-      "version": "4.1.4",
-      "description": "The node-red-contrib-oauth2 is a Node-RED node that provides an OAuth2 authentication flow. This node uses the OAuth2 protocol to obtain an access token, which can be used to make authenticated API requests.",
-      "updated_at": "2023-03-25T16:13:21.322Z",
-      "types": [
-        "oauth2"
-      ],
-      "keywords": [
-        "node-red",
-        "oauth2",
-        "security"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-oauth2"
-    },
-    {
       "id": "node-red-contrib-wsjt-x",
       "version": "2.0.1",
       "description": "WSJT-X Data Decoding",
@@ -275,21 +612,6 @@
       "url": "https://flows.nodered.org/node/node-red-contrib-timeouttrigger"
     },
     {
-      "id": "@binsoul/node-red-contrib-shelly-pro-3em",
-      "version": "0.0.1",
-      "description": "Retrieves data from a Shelly Pro 3EM device.",
-      "updated_at": "2023-03-24T15:27:42.306Z",
-      "types": [
-        "binsoul-shelly-pro-3em"
-      ],
-      "keywords": [
-        "node-red",
-        "string",
-        "extract"
-      ],
-      "url": "https://flows.nodered.org/node/@binsoul/node-red-contrib-shelly-pro-3em"
-    },
-    {
       "id": "@chvdapi/node-red-pn6400-led",
       "version": "0.0.4",
       "description": "A node by chvda to drive LED on PN6400",
@@ -301,23 +623,6 @@
         "node-red"
       ],
       "url": "https://flows.nodered.org/node/@chvdapi/node-red-pn6400-led"
-    },
-    {
-      "id": "@chvdapi/node-red-pn6400-1602lcd",
-      "version": "0.0.7",
-      "description": "drive PCF8574 1602 LCD on PN6400",
-      "updated_at": "2023-03-24T07:56:04.184Z",
-      "types": [
-        "PN6400_1602LCD"
-      ],
-      "keywords": [
-        "node-red",
-        "PN6400",
-        "PCF8574",
-        "LCD",
-        "I2C"
-      ],
-      "url": "https://flows.nodered.org/node/@chvdapi/node-red-pn6400-1602lcd"
     },
     {
       "id": "node-red-contrib-caseta",
@@ -643,28 +948,6 @@
         "node-red-contrib-sonos-plus"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-sonos-plus"
-    },
-    {
-      "id": "@bitpoolos/edge-bacnet",
-      "version": "1.1.5",
-      "description": "A bacnet gateway for node-red",
-      "updated_at": "2023-03-23T00:06:15.738Z",
-      "types": [
-        "Bacnet-Gateway",
-        "Bacnet-Discovery",
-        "Bacnet-Write",
-        "Bitpool-Inject"
-      ],
-      "keywords": [
-        "node-red",
-        "bitpool",
-        "bitpoolos",
-        "edge",
-        "big data",
-        "iot",
-        "BACnet"
-      ],
-      "url": "https://flows.nodered.org/node/@bitpoolos/edge-bacnet"
     },
     {
       "id": "@nnc/node-red-contrib-wxwork",
@@ -1020,25 +1303,6 @@
       "url": "https://flows.nodered.org/node/node-red-contrib-hikvision-ultimate"
     },
     {
-      "id": "node-red-contrib-discord-advanced",
-      "version": "3.4.1",
-      "description": "Recieve, send, edit, reply, react to and delete Discord messages, handle interactions and much more in Node-RED.",
-      "updated_at": "2023-03-18T15:32:23.663Z",
-      "types": [
-        "discord-token",
-        "discordMessage",
-        "discordMessageManager",
-        "discordPermissions",
-        "discordReactionManager",
-        "discordClient",
-        "discordInteraction"
-      ],
-      "keywords": [
-        "node-red"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-discord-advanced"
-    },
-    {
       "id": "@martip/node-red-google-apis",
       "version": "1.0.4",
       "description": "Node-RED node for accessing the Google APIs, using the official supported client library (google-api-nodejs-client).",
@@ -1237,65 +1501,6 @@
         "access control"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-uhppoted"
-    },
-    {
-      "id": "node-red-contrib-opcua",
-      "version": "0.2.302",
-      "description": "A Node-RED node to communicate via OPC UA based on node-opcua library.",
-      "updated_at": "2023-03-16T18:43:53.130Z",
-      "types": [
-        "OpcUa-Item",
-        "OpcUa-Client",
-        "OpcUa-Browser",
-        "OpcUa-Server",
-        "OpcUa-Endpoint",
-        "OpcUa-Event",
-        "OpcUa-Method",
-        "OpcUa-Rights",
-        "OpcUa-Discovery"
-      ],
-      "keywords": [
-        "node-red",
-        "OPC UA",
-        "opc-ua",
-        "unified automation",
-        "opc foundation",
-        "node-opcua"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-opcua"
-    },
-    {
-      "id": "node-red-contrib-xkeys_button",
-      "version": "0.3.2",
-      "description": "Xkeys button node for Node-RED using DCDP",
-      "updated_at": "2023-03-16T02:16:15.366Z",
-      "types": [
-        "xkeys_button"
-      ],
-      "keywords": [
-        "X-keys",
-        "Xkeys",
-        "dcdp",
-        "node-red"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-xkeys_button"
-    },
-    {
-      "id": "node-red-contrib-xkeys_jogshuttle",
-      "version": "0.3.4",
-      "description": "Xkeys jog & shuttle node for Node-RED using DCD Protocol (DCDP)",
-      "updated_at": "2023-03-16T02:14:53.536Z",
-      "types": [
-        "xkeys_jogshuttle"
-      ],
-      "keywords": [
-        "DCDP",
-        "X-keys",
-        "Xkeys",
-        "xkeys",
-        "node-red"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-xkeys_jogshuttle"
     },
     {
       "id": "@yousolution/node-red-contrib-you-ftp-sftp",
@@ -2715,40 +2920,6 @@
       "url": "https://flows.nodered.org/node/node-red-contrib-xkeys_rotary"
     },
     {
-      "id": "node-red-contrib-xkeys_tbar",
-      "version": "0.3.1",
-      "description": "Xkeys tbar node for Node-RED using DCD Protocol (DCDP)",
-      "updated_at": "2023-02-23T06:42:31.256Z",
-      "types": [
-        "xkeys_tbar"
-      ],
-      "keywords": [
-        "X-keys",
-        "Xkeys",
-        "xkeys",
-        "dcdp",
-        "node-red"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-xkeys_tbar"
-    },
-    {
-      "id": "node-red-contrib-xkeys_joystick",
-      "version": "0.3.1",
-      "description": "Xkeys joystick node for Node-RED using DCD Protocol",
-      "updated_at": "2023-02-23T06:30:04.224Z",
-      "types": [
-        "xkeys_joystick"
-      ],
-      "keywords": [
-        "X-keys",
-        "Xkeys",
-        "xkeys",
-        "dcdp",
-        "node-red"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-xkeys_joystick"
-    },
-    {
       "id": "@waldbaer/node-red-persistent-values",
       "version": "1.3.0",
       "description": "A user-friendly abstraction of the Node-RED context stores.",
@@ -2827,25 +2998,6 @@
         "server"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-http-instance"
-    },
-    {
-      "id": "node-red-contrib-shelly",
-      "version": "10.13.1",
-      "description": "Shelly nodes.",
-      "updated_at": "2023-02-21T20:49:10.180Z",
-      "types": [
-        "shelly-gen1-server",
-        "shelly-gen1",
-        "shelly-gen2-server",
-        "shelly-gen2",
-        "shelly-cloud-server",
-        "shelly-cloud"
-      ],
-      "keywords": [
-        "node-red",
-        "shelly"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-shelly"
     },
     {
       "id": "energyprofiles",
@@ -4826,26 +4978,6 @@
         "websockets"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-blynk-iot"
-    },
-    {
-      "id": "node-red-contrib-boolean-parser",
-      "version": "1.4.4",
-      "description": "A Node-RED node to parse and convert several types of on/off, start/stop, true/false values.",
-      "updated_at": "2023-01-28T14:59:21.839Z",
-      "types": [
-        "bool"
-      ],
-      "keywords": [
-        "node-red",
-        "parser",
-        "boolean",
-        "bool",
-        "translator",
-        "converter",
-        "cast",
-        "on-off"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-boolean-parser"
     },
     {
       "id": "node-red-contrib-twitter-media",
@@ -7005,28 +7137,6 @@
         "node-red"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-1wire"
-    },
-    {
-      "id": "node-red-node-email",
-      "version": "1.18.4",
-      "description": "Node-RED nodes to send and receive simple emails.",
-      "updated_at": "2022-12-24T14:04:47.396Z",
-      "types": [
-        "e-mail",
-        "e-mail in",
-        "e-mail mta"
-      ],
-      "keywords": [
-        "node-red",
-        "email",
-        "gmail",
-        "imap",
-        "pop",
-        "smtp",
-        "smtp-server",
-        "mta"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-node-email"
     },
     {
       "id": "node-red-contrib-myhome-bticino-v2",
@@ -15934,25 +16044,6 @@
       "url": "https://flows.nodered.org/node/@rakwireless/shtc3"
     },
     {
-      "id": "node-red-contrib-iiot-ntptime",
-      "version": "1.0.20",
-      "description": "A Node-Red node for read NTP server time",
-      "updated_at": "2022-06-13T13:59:46.340Z",
-      "types": [
-        "iiot-ntptime"
-      ],
-      "keywords": [
-        "node-red",
-        "time",
-        "system time",
-        "ntp time",
-        "ntp",
-        "iot",
-        "iiot"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-iiot-ntptime"
-    },
-    {
       "id": "node-red-contrib-iiot-systime",
       "version": "1.0.20",
       "description": "A Node-Red node for read system time",
@@ -24640,28 +24731,6 @@
       "url": "https://flows.nodered.org/node/node-red-contrib-sqlitedb"
     },
     {
-      "id": "node-red-contrib-redplc-ntptime",
-      "version": "1.0.6",
-      "description": "Node-Red node for read NTP Time",
-      "updated_at": "2021-11-21T14:30:40.051Z",
-      "types": [
-        "ntptime"
-      ],
-      "keywords": [
-        "node-red",
-        "time",
-        "system time",
-        "ntp time",
-        "ntp",
-        "iot",
-        "iiot",
-        "plc",
-        "redplc",
-        "control"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-redplc-ntptime"
-    },
-    {
       "id": "node-red-contrib-ui-level",
       "version": "0.1.46",
       "description": "A Node Red dashboard ui node. Linear level indicator",
@@ -26253,35 +26322,6 @@
         "node-red"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-xiaomi-gateway"
-    },
-    {
-      "id": "node-red-contrib-sm-ind",
-      "version": "1.0.1",
-      "description": "A Node-RED collection of nodes to control Sequent Microsystems Industrial Automation Card",
-      "updated_at": "2021-09-27T14:03:34.739Z",
-      "types": [
-        "IND 0-10V in",
-        "IND D10V in",
-        "IND 0-10V out",
-        "IND 4-20mA in",
-        "IND 4-20mA out",
-        "IND OPT cnt",
-        "IND OPT in",
-        "IND OD out"
-      ],
-      "keywords": [
-        "node-red",
-        "node-red-contrib",
-        "i2c",
-        "industrial",
-        "automation",
-        "0-10V",
-        "4-20mA",
-        "open-drain",
-        "optoisolated",
-        "MODBUS"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-sm-ind"
     },
     {
       "id": "node-red-contrib-ui-iro-color-picker",
