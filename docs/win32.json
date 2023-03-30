@@ -1,12 +1,135 @@
 {
   "name": "Catalogue for win32",
-  "updated_at": "2023-03-29T19:53:37.292Z",
+  "updated_at": "2023-03-30T20:57:36.865Z",
   "modules": [
     {
+      "id": "node-red-contrib-io-key",
+      "version": "1.4.1",
+      "description": "A collection of nodes to access the io-key cloud with Node-RED.",
+      "updated_at": "2023-03-30T14:29:46.698Z",
+      "types": [
+        "tenant-config",
+        "measurements",
+        "alarms",
+        "events"
+      ],
+      "keywords": [
+        "node-red",
+        "io-key"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-io-key"
+    },
+    {
+      "id": "node-red-contrib-winccoa",
+      "version": "3.2.1",
+      "description": "WinCC OA to Node-RED connector",
+      "updated_at": "2023-03-30T14:28:24.824Z",
+      "types": [
+        "winccoaserver",
+        "winccoaconnect",
+        "winccoaget",
+        "winccoaset",
+        "winccoaquery",
+        "winccoadefaultserver",
+        "winccoagetperiod",
+        "winccoaalertgetperiod",
+        "winccoanames",
+        "winccoagetalias",
+        "winccoagetdescription",
+        "winccoagetformat",
+        "winccoagetunit"
+      ],
+      "keywords": [
+        "node-red",
+        "SIMATIC",
+        "Siemens",
+        "ETM",
+        "WinCC-OA"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-winccoa"
+    },
+    {
+      "id": "@caitken-com/node-red-contrib-json2mysql",
+      "version": "1.0.4",
+      "description": "JSON to MYSQL",
+      "updated_at": "2023-03-30T13:59:12.607Z",
+      "types": [
+        "json2mysql-server",
+        "json2mysql"
+      ],
+      "keywords": [
+        "mysql",
+        "json",
+        "node-red"
+      ],
+      "url": "https://flows.nodered.org/node/@caitken-com/node-red-contrib-json2mysql"
+    },
+    {
+      "id": "node-red-control-path",
+      "version": "1.2.8",
+      "description": "Node RED modules for Control Path",
+      "updated_at": "2023-03-30T12:36:40.389Z",
+      "types": [
+        "Control Path",
+        "Control Path Listen Variable",
+        "Control Path Update Variable"
+      ],
+      "keywords": [
+        "node-red"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-control-path"
+    },
+    {
+      "id": "node-red-contrib-html-to-pdf",
+      "version": "1.0.2",
+      "description": " Node-RED node for converting HTML files to PDF, using the Puppeteer library.",
+      "updated_at": "2023-03-30T11:29:48.166Z",
+      "types": [
+        "html-to-pdf"
+      ],
+      "keywords": [
+        "node-red",
+        "pdf",
+        "html",
+        "puppeteer"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-html-to-pdf"
+    },
+    {
+      "id": "@binsoul/node-red-contrib-deye-sun-g3",
+      "version": "0.0.1",
+      "description": "Retrieves data from a Deye SUN G3 micro inverter using the Solarman v5 protocol.",
+      "updated_at": "2023-03-30T07:25:48.013Z",
+      "types": [
+        "binsoul-deye-sun-g3"
+      ],
+      "keywords": [
+        "node-red",
+        "device",
+        "Solarman v5",
+        "Deye SUN G3"
+      ],
+      "url": "https://flows.nodered.org/node/@binsoul/node-red-contrib-deye-sun-g3"
+    },
+    {
+      "id": "node-red-contrib-haier",
+      "version": "1.0.2",
+      "description": "海尔机器人",
+      "updated_at": "2023-03-30T03:14:03.291Z",
+      "types": [
+        "haier-configurator",
+        "haier-roboot"
+      ],
+      "keywords": [
+        "node-red"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-haier"
+    },
+    {
       "id": "node-red-contrib-custom-chatgpt",
-      "version": "1.2.5",
+      "version": "1.2.8",
       "description": "A Node-RED node that interacts with OpenAI machine learning models to generate text and image outputs like 'ChatGPT' and 'DALL·E 2'.",
-      "updated_at": "2023-03-29T14:51:54.337Z",
+      "updated_at": "2023-03-29T21:54:55.757Z",
       "types": [
         "chatgpt"
       ],
@@ -32,6 +155,64 @@
         "ai"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-custom-chatgpt"
+    },
+    {
+      "id": "node-red-otplc-linux-sys-class-leds",
+      "version": "0.0.9",
+      "description": "Is for reading / writing sys class leds on linux from Node-RED",
+      "updated_at": "2023-03-29T20:47:43.405Z",
+      "types": [
+        "otplcLinuxSysClassLeds"
+      ],
+      "keywords": [
+        "node-red",
+        "otplc",
+        "light",
+        "linux",
+        "sysfs",
+        "leds",
+        "oiyshTerminal",
+        "oit",
+        "plc"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-otplc-linux-sys-class-leds"
+    },
+    {
+      "id": "node-red-contrib-hikvision-ultimate",
+      "version": "1.1.8",
+      "description": "A native set of nodes for Hikvision (and compatible) Cameras, Alarms, Radars, NVR, Doorbells, etc.",
+      "updated_at": "2023-03-29T17:03:55.335Z",
+      "types": [
+        "Hikvision-config",
+        "AXPro-config",
+        "Doorbell-config",
+        "ANPR-config",
+        "AccessControl-config",
+        "hikvisionUltimateText",
+        "hikvisionUltimateAlarm",
+        "hikvisionUltimateAlarmRaw",
+        "hikvisionUltimateANPR",
+        "hikvisionUltimatePTZ",
+        "hikvisionUltimatePicture",
+        "hikvisionUltimateXML",
+        "hikvisionUltimateDoorbell",
+        "hikvisionUltimateAxPro",
+        "hikvisionUltimateAccessControlTerminal"
+      ],
+      "keywords": [
+        "node-red",
+        "hikvision",
+        "alarm",
+        "camera",
+        "radar",
+        "ANPR",
+        "license plate",
+        "doorbell",
+        "door intercom",
+        "access control terminal",
+        "Ax Pro"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-hikvision-ultimate"
     },
     {
       "id": "node-red-contrib-redplc-ntptime",
@@ -73,43 +254,6 @@
         "iiot"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-iiot-ntptime"
-    },
-    {
-      "id": "node-red-contrib-hikvision-ultimate",
-      "version": "1.1.6",
-      "description": "A native set of nodes for Hikvision (and compatible) Cameras, Alarms, Radars, NVR, Doorbells, etc.",
-      "updated_at": "2023-03-29T13:14:14.426Z",
-      "types": [
-        "Hikvision-config",
-        "AXPro-config",
-        "Doorbell-config",
-        "ANPR-config",
-        "AccessControl-config",
-        "hikvisionUltimateText",
-        "hikvisionUltimateAlarm",
-        "hikvisionUltimateAlarmRaw",
-        "hikvisionUltimateANPR",
-        "hikvisionUltimatePTZ",
-        "hikvisionUltimatePicture",
-        "hikvisionUltimateXML",
-        "hikvisionUltimateDoorbell",
-        "hikvisionUltimateAxPro",
-        "hikvisionUltimateAccessControlTerminal"
-      ],
-      "keywords": [
-        "node-red",
-        "hikvision",
-        "alarm",
-        "camera",
-        "radar",
-        "ANPR",
-        "license plate",
-        "doorbell",
-        "door intercom",
-        "access control terminal",
-        "Ax Pro"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-hikvision-ultimate"
     },
     {
       "id": "node-red-contrib-esphome",
@@ -362,35 +506,6 @@
       "url": "https://flows.nodered.org/node/node-red-contrib-kubernetes-client-ubos"
     },
     {
-      "id": "node-red-contrib-winccoa",
-      "version": "3.2.0",
-      "description": "WinCC OA to Node-RED connector",
-      "updated_at": "2023-03-28T08:40:15.226Z",
-      "types": [
-        "winccoaserver",
-        "winccoaconnect",
-        "winccoaget",
-        "winccoaset",
-        "winccoaquery",
-        "winccoadefaultserver",
-        "winccoagetperiod",
-        "winccoaalertgetperiod",
-        "winccoanames",
-        "winccoagetalias",
-        "winccoagetdescription",
-        "winccoagetformat",
-        "winccoagetunit"
-      ],
-      "keywords": [
-        "node-red",
-        "SIMATIC",
-        "Siemens",
-        "ETM",
-        "WinCC-OA"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-winccoa"
-    },
-    {
       "id": "@bitpoolos/edge-bacnet",
       "version": "1.1.7",
       "description": "A bacnet gateway for node-red",
@@ -571,22 +686,6 @@
         "I2C"
       ],
       "url": "https://flows.nodered.org/node/@chvdapi/node-red-pn6400-1602lcd"
-    },
-    {
-      "id": "@caitken-com/node-red-contrib-json2mysql",
-      "version": "1.0.3",
-      "description": "JSON to MYSQL",
-      "updated_at": "2023-03-27T11:12:03.974Z",
-      "types": [
-        "json2mysql-server",
-        "json2mysql"
-      ],
-      "keywords": [
-        "mysql",
-        "json",
-        "node-red"
-      ],
-      "url": "https://flows.nodered.org/node/@caitken-com/node-red-contrib-json2mysql"
     },
     {
       "id": "node-red-contrib-sm-ind",
@@ -1177,20 +1276,6 @@
         "client"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-polkadot"
-    },
-    {
-      "id": "node-red-contrib-haier",
-      "version": "1.0.1",
-      "description": "海尔机器人",
-      "updated_at": "2023-03-23T08:53:38.979Z",
-      "types": [
-        "haier-configurator",
-        "haier-roboot"
-      ],
-      "keywords": [
-        "node-red"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-haier"
     },
     {
       "id": "node-red-contrib-sonos-plus",
@@ -12999,22 +13084,6 @@
         "level"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-tank-volume"
-    },
-    {
-      "id": "node-red-contrib-html-to-pdf",
-      "version": "1.0.1",
-      "description": " Node-RED node for converting HTML files to PDF, using the Puppeteer library.",
-      "updated_at": "2022-09-02T08:35:50.422Z",
-      "types": [
-        "html-to-pdf"
-      ],
-      "keywords": [
-        "node-red",
-        "pdf",
-        "html",
-        "puppeteer"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-html-to-pdf"
     },
     {
       "id": "node-red-contrib-echarts",
@@ -27683,23 +27752,6 @@
         "headless"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-xvfb"
-    },
-    {
-      "id": "node-red-contrib-io-key",
-      "version": "1.4.0",
-      "description": "A collection of nodes to access the io-key cloud with Node-RED.",
-      "updated_at": "2021-08-09T16:14:15.621Z",
-      "types": [
-        "tenant-config",
-        "measurements",
-        "alarms",
-        "events"
-      ],
-      "keywords": [
-        "node-red",
-        "io-key"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-io-key"
     },
     {
       "id": "node-red-contrib-sm-rtd",
