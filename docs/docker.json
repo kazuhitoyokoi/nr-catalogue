@@ -1,7 +1,275 @@
 {
   "name": "Catalogue for docker",
-  "updated_at": "2023-03-30T16:46:42.172Z",
+  "updated_at": "2023-03-31T16:41:46.836Z",
   "modules": [
+    {
+      "id": "node-red-contrib-hikvision-ultimate",
+      "version": "1.1.9",
+      "description": "A native set of nodes for Hikvision (and compatible) Cameras, Alarms, Radars, NVR, Doorbells, etc.",
+      "updated_at": "2023-03-31T12:11:08.835Z",
+      "types": [
+        "Hikvision-config",
+        "AXPro-config",
+        "Doorbell-config",
+        "ANPR-config",
+        "AccessControl-config",
+        "hikvisionUltimateText",
+        "hikvisionUltimateAlarm",
+        "hikvisionUltimateAlarmRaw",
+        "hikvisionUltimateANPR",
+        "hikvisionUltimatePTZ",
+        "hikvisionUltimatePicture",
+        "hikvisionUltimateXML",
+        "hikvisionUltimateDoorbell",
+        "hikvisionUltimateAxPro",
+        "hikvisionUltimateAccessControlTerminal"
+      ],
+      "keywords": [
+        "node-red",
+        "hikvision",
+        "alarm",
+        "camera",
+        "radar",
+        "ANPR",
+        "license plate",
+        "doorbell",
+        "door intercom",
+        "access control terminal",
+        "Ax Pro"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-hikvision-ultimate"
+    },
+    {
+      "id": "node-red-contrib-freebox",
+      "version": "0.0.15",
+      "description": "Freebox api calls for node-red",
+      "updated_at": "2023-03-31T12:05:24.891Z",
+      "types": [
+        "freebox-server",
+        "connection",
+        "api",
+        "lan-browser",
+        "poll"
+      ],
+      "keywords": [
+        "node-red",
+        "freebox"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-freebox"
+    },
+    {
+      "id": "node-red-contrib-mclimate",
+      "version": "1.0.1",
+      "description": "MClimate node",
+      "updated_at": "2023-03-31T12:02:58.478Z",
+      "types": [
+        "vicki-in",
+        "vicki-out",
+        "ht-sensor-in"
+      ],
+      "keywords": [
+        "node-red",
+        "mclimate"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-mclimate"
+    },
+    {
+      "id": "@binsoul/node-red-contrib-deye-sun-g3",
+      "version": "0.0.2",
+      "description": "Retrieves data from a Deye SUN G3 micro inverter using the Solarman v5 protocol.",
+      "updated_at": "2023-03-31T09:39:45.735Z",
+      "types": [
+        "binsoul-deye-sun-g3"
+      ],
+      "keywords": [
+        "node-red",
+        "device",
+        "Solarman v5",
+        "Deye SUN G3"
+      ],
+      "url": "https://flows.nodered.org/node/@binsoul/node-red-contrib-deye-sun-g3"
+    },
+    {
+      "id": "@bitpoolos/edge-bacnet",
+      "version": "1.1.8",
+      "description": "A bacnet gateway for node-red",
+      "updated_at": "2023-03-31T07:07:51.609Z",
+      "types": [
+        "Bacnet-Gateway",
+        "Bacnet-Discovery",
+        "Bacnet-Write",
+        "Bitpool-Inject"
+      ],
+      "keywords": [
+        "node-red",
+        "bitpool",
+        "bitpoolos",
+        "edge",
+        "big data",
+        "iot",
+        "BACnet"
+      ],
+      "url": "https://flows.nodered.org/node/@bitpoolos/edge-bacnet"
+    },
+    {
+      "id": "@ba47/node-red-domino-proton",
+      "version": "0.3.3",
+      "description": "HCL Domino Proton integration for Node-RED",
+      "updated_at": "2023-03-31T05:29:52.004Z",
+      "types": [
+        "DominoDatabase",
+        "createDocuments",
+        "readDocuments",
+        "updateDocuments",
+        "removeItems",
+        "deleteDocuments",
+        "runAgent",
+        "createLog",
+        "explainQuery"
+      ],
+      "keywords": [
+        "node-red",
+        "domino",
+        "proton",
+        "ba47"
+      ],
+      "url": "https://flows.nodered.org/node/@ba47/node-red-domino-proton"
+    },
+    {
+      "id": "@bitpoolos/edge-integriti",
+      "version": "1.0.3",
+      "description": "Node module to connect to Integriti controller.",
+      "updated_at": "2023-03-31T02:38:26.829Z",
+      "types": [
+        "bp-integriti"
+      ],
+      "keywords": [
+        "node-red",
+        "bitpool",
+        "integriti",
+        "security",
+        "edge",
+        "iot"
+      ],
+      "url": "https://flows.nodered.org/node/@bitpoolos/edge-integriti"
+    },
+    {
+      "id": "node-red-contrib-otplc",
+      "version": "0.0.6",
+      "description": "Is for setting a instance of otplc in Node-RED",
+      "updated_at": "2023-03-31T00:50:58.939Z",
+      "types": [
+        "otplcBundle",
+        "otplcEngine"
+      ],
+      "keywords": [
+        "node-red",
+        "otplc",
+        "oiyshTerminal",
+        "oit",
+        "plc"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-otplc"
+    },
+    {
+      "id": "node-red-contrib-onstar2",
+      "version": "2.1.7",
+      "description": "An updated Node-RED Library using OnStarJS, an unofficial client library for the OnStar Vehicle API",
+      "updated_at": "2023-03-31T00:24:27.348Z",
+      "types": [
+        "get-account-vehicles",
+        "get-diagnostics",
+        "lock-myvehicle",
+        "unlock-myvehicle",
+        "start-myvehicle",
+        "cancel-start-myvehicle",
+        "alert-myvehicle",
+        "alert-myvehicle-lights",
+        "alert-myvehicle-horn",
+        "cancel-alert-myvehicle",
+        "locate-vehicle",
+        "mycharge-override",
+        "get-mycharge-profile",
+        "set-mycharge-profile",
+        "onstar2"
+      ],
+      "keywords": [
+        "node-red",
+        "OnStar",
+        "Chevrolet",
+        "Chevy",
+        "GM",
+        "GMC",
+        "Buick",
+        "Cadillac"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-onstar2"
+    },
+    {
+      "id": "@jambonz/node-red-contrib-jambonz",
+      "version": "2.3.2",
+      "description": "Node-RED nodes for jambonz platform",
+      "updated_at": "2023-03-30T23:09:19.589Z",
+      "types": [
+        "webhook in",
+        "webhook out",
+        "audio in",
+        "jambonz_auth",
+        "aws_auth",
+        "enqueue",
+        "lex",
+        "say",
+        "dtmf",
+        "cfg",
+        "conference",
+        "gather",
+        "listen",
+        "sip:decline",
+        "sip:request",
+        "sip:refer",
+        "hangup",
+        "message",
+        "tag",
+        "pause",
+        "dequeue",
+        "play",
+        "dial",
+        "redirect",
+        "dialogflow",
+        "leave",
+        "rasa",
+        "user auth",
+        "create-call",
+        "create-sms",
+        "lcc",
+        "get_alerts",
+        "get_calls",
+        "get_recent_calls"
+      ],
+      "keywords": [
+        "node-red"
+      ],
+      "url": "https://flows.nodered.org/node/@jambonz/node-red-contrib-jambonz"
+    },
+    {
+      "id": "@ifp-software/node-red-contrib-oee-ai-connector",
+      "version": "2.3.0",
+      "description": "Easily connect your production machines to oee.ai – The Industry 4.0 solution for OEE optimization.",
+      "updated_at": "2023-03-30T18:20:22.978Z",
+      "types": [],
+      "keywords": [
+        "industrial",
+        "industry 4.0",
+        "iot",
+        "node-red",
+        "oee",
+        "oee.ai",
+        "sick",
+        "smart-factory",
+        "tdc"
+      ],
+      "url": "https://flows.nodered.org/node/@ifp-software/node-red-contrib-oee-ai-connector"
+    },
     {
       "id": "node-red-contrib-io-key",
       "version": "1.4.1",
@@ -96,22 +364,6 @@
       "url": "https://flows.nodered.org/node/node-red-contrib-html-to-pdf"
     },
     {
-      "id": "@binsoul/node-red-contrib-deye-sun-g3",
-      "version": "0.0.1",
-      "description": "Retrieves data from a Deye SUN G3 micro inverter using the Solarman v5 protocol.",
-      "updated_at": "2023-03-30T07:25:48.013Z",
-      "types": [
-        "binsoul-deye-sun-g3"
-      ],
-      "keywords": [
-        "node-red",
-        "device",
-        "Solarman v5",
-        "Deye SUN G3"
-      ],
-      "url": "https://flows.nodered.org/node/@binsoul/node-red-contrib-deye-sun-g3"
-    },
-    {
       "id": "node-red-contrib-haier",
       "version": "1.0.2",
       "description": "海尔机器人",
@@ -176,43 +428,6 @@
         "plc"
       ],
       "url": "https://flows.nodered.org/node/node-red-otplc-linux-sys-class-leds"
-    },
-    {
-      "id": "node-red-contrib-hikvision-ultimate",
-      "version": "1.1.8",
-      "description": "A native set of nodes for Hikvision (and compatible) Cameras, Alarms, Radars, NVR, Doorbells, etc.",
-      "updated_at": "2023-03-29T17:03:55.335Z",
-      "types": [
-        "Hikvision-config",
-        "AXPro-config",
-        "Doorbell-config",
-        "ANPR-config",
-        "AccessControl-config",
-        "hikvisionUltimateText",
-        "hikvisionUltimateAlarm",
-        "hikvisionUltimateAlarmRaw",
-        "hikvisionUltimateANPR",
-        "hikvisionUltimatePTZ",
-        "hikvisionUltimatePicture",
-        "hikvisionUltimateXML",
-        "hikvisionUltimateDoorbell",
-        "hikvisionUltimateAxPro",
-        "hikvisionUltimateAccessControlTerminal"
-      ],
-      "keywords": [
-        "node-red",
-        "hikvision",
-        "alarm",
-        "camera",
-        "radar",
-        "ANPR",
-        "license plate",
-        "doorbell",
-        "door intercom",
-        "access control terminal",
-        "Ax Pro"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-hikvision-ultimate"
     },
     {
       "id": "node-red-contrib-redplc-ntptime",
@@ -295,30 +510,6 @@
         "sliding window"
       ],
       "url": "https://flows.nodered.org/node/@cameo69/node-red-ratelimit"
-    },
-    {
-      "id": "@ba47/node-red-domino-proton",
-      "version": "0.3.2",
-      "description": "HCL Domino Proton integration for Node-RED",
-      "updated_at": "2023-03-29T11:51:09.087Z",
-      "types": [
-        "DominoDatabase",
-        "createDocuments",
-        "readDocuments",
-        "updateDocuments",
-        "removeItems",
-        "deleteDocuments",
-        "runAgent",
-        "createLog",
-        "explainQuery"
-      ],
-      "keywords": [
-        "node-red",
-        "domino",
-        "proton",
-        "ba47"
-      ],
-      "url": "https://flows.nodered.org/node/@ba47/node-red-domino-proton"
     },
     {
       "id": "@ba47/node-red-preferred-language",
@@ -504,28 +695,6 @@
         "client"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-kubernetes-client-ubos"
-    },
-    {
-      "id": "@bitpoolos/edge-bacnet",
-      "version": "1.1.7",
-      "description": "A bacnet gateway for node-red",
-      "updated_at": "2023-03-28T07:14:31.562Z",
-      "types": [
-        "Bacnet-Gateway",
-        "Bacnet-Discovery",
-        "Bacnet-Write",
-        "Bitpool-Inject"
-      ],
-      "keywords": [
-        "node-red",
-        "bitpool",
-        "bitpoolos",
-        "edge",
-        "big data",
-        "iot",
-        "BACnet"
-      ],
-      "url": "https://flows.nodered.org/node/@bitpoolos/edge-bacnet"
     },
     {
       "id": "@victronenergy/node-red-contrib-victron",
@@ -1656,25 +1825,6 @@
       "url": "https://flows.nodered.org/node/node-red-contrib-playwright"
     },
     {
-      "id": "@ifp-software/node-red-contrib-oee-ai-connector",
-      "version": "2.2.1",
-      "description": "Easily connect your production machines to oee.ai – The Industry 4.0 solution for OEE optimization.",
-      "updated_at": "2023-03-17T14:20:18.923Z",
-      "types": [],
-      "keywords": [
-        "industrial",
-        "industry 4.0",
-        "iot",
-        "node-red",
-        "oee",
-        "oee.ai",
-        "sick",
-        "smart-factory",
-        "tdc"
-      ],
-      "url": "https://flows.nodered.org/node/@ifp-software/node-red-contrib-oee-ai-connector"
-    },
-    {
       "id": "node-red-contrib-backblaze-b2",
       "version": "1.0.4",
       "description": "A Node-RED node to watch, save and retreive files from an Backblaze B2 bucket",
@@ -2161,40 +2311,6 @@
         "CNC"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-moonnode"
-    },
-    {
-      "id": "node-red-contrib-onstar2",
-      "version": "2.1.6",
-      "description": "An updated Node-RED Library using OnStarJS, an unofficial client library for the OnStar Vehicle API",
-      "updated_at": "2023-03-08T15:05:07.699Z",
-      "types": [
-        "get-account-vehicles",
-        "get-diagnostics",
-        "lock-myvehicle",
-        "unlock-myvehicle",
-        "start-myvehicle",
-        "cancel-start-myvehicle",
-        "alert-myvehicle",
-        "alert-myvehicle-lights",
-        "alert-myvehicle-horn",
-        "cancel-alert-myvehicle",
-        "locate-vehicle",
-        "mycharge-override",
-        "get-mycharge-profile",
-        "set-mycharge-profile",
-        "onstar2"
-      ],
-      "keywords": [
-        "node-red",
-        "OnStar",
-        "Chevrolet",
-        "Chevy",
-        "GM",
-        "GMC",
-        "Buick",
-        "Cadillac"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-onstar2"
     },
     {
       "id": "@nd-enerserve/node-red-smartpi",
@@ -6113,52 +6229,6 @@
         "LED"
       ],
       "url": "https://flows.nodered.org/node/@mschaeffler/node-red-dualled"
-    },
-    {
-      "id": "@jambonz/node-red-contrib-jambonz",
-      "version": "2.3.1",
-      "description": "Node-RED nodes for jambonz",
-      "updated_at": "2023-01-14T13:59:44.462Z",
-      "types": [
-        "webhook in",
-        "webhook out",
-        "audio in",
-        "jambonz_auth",
-        "aws_auth",
-        "enqueue",
-        "lex",
-        "say",
-        "dtmf",
-        "cfg",
-        "conference",
-        "gather",
-        "listen",
-        "sip:decline",
-        "sip:request",
-        "sip:refer",
-        "hangup",
-        "message",
-        "tag",
-        "pause",
-        "dequeue",
-        "play",
-        "dial",
-        "redirect",
-        "dialogflow",
-        "leave",
-        "rasa",
-        "user auth",
-        "create-call",
-        "create-sms",
-        "lcc",
-        "get_alerts",
-        "get_calls",
-        "get_recent_calls"
-      ],
-      "keywords": [
-        "node-red"
-      ],
-      "url": "https://flows.nodered.org/node/@jambonz/node-red-contrib-jambonz"
     },
     {
       "id": "node-red-contrib-js-storage",
@@ -11064,24 +11134,6 @@
         "node-red"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-rollun-query-from-table"
-    },
-    {
-      "id": "node-red-contrib-freebox",
-      "version": "0.0.14",
-      "description": "Freebox api calls for node-red",
-      "updated_at": "2022-10-15T14:47:43.669Z",
-      "types": [
-        "freebox-server",
-        "connection",
-        "api",
-        "lan-browser",
-        "poll"
-      ],
-      "keywords": [
-        "node-red",
-        "freebox"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-freebox"
     },
     {
       "id": "@realsixi/node-red-contrib-ring-alarm",
