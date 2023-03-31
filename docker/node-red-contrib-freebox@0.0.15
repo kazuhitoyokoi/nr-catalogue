@@ -1,0 +1,32 @@
+
+----
+Sending build context to Docker daemon  34.67MB
+Step 1/2 : FROM nodered/node-red
+ ---> a15fc0f4e930
+Step 2/2 : RUN npm install npm install node-red-contrib-freebox@0.0.15
+ ---> Running in d27d9d445c63
+[91mnpm WARN deprecated cross-spawn-async@2.2.5: cross-spawn no longer requires a build toolchain, use it instead
+[0m
+added 384 packages, removed 2 packages, changed 5 packages, and audited 913 packages in 18s
+
+180 packages are looking for funding
+  run `npm fund` for details
+
+6 vulnerabilities (5 low, 1 moderate)
+
+To address issues that do not require attention, run:
+  npm audit fix
+
+To address all issues (including breaking changes), run:
+  npm audit fix --force
+
+Run `npm audit` for details.
+[91mnpm notice 
+npm notice New major version of npm available! 8.11.0 -> 9.6.3
+npm notice Changelog: <https://github.com/npm/cli/releases/tag/v9.6.3>
+npm notice[0m[91m Run `npm install -g npm@9.6.3` to update!
+npm notice 
+[0mRemoving intermediate container d27d9d445c63
+ ---> 92c4be06ace7
+Successfully built 92c4be06ace7
+Successfully tagged tmp:latest
