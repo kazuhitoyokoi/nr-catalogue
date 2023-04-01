@@ -1,7 +1,62 @@
 {
   "name": "Catalogue for verified nodes",
-  "updated_at": "2023-03-31T22:19:36.867Z",
+  "updated_at": "2023-04-01T21:18:03.145Z",
   "modules": [
+    {
+      "id": "@programie/node-red-aircon-rac-wf",
+      "version": "1.0.1",
+      "description": "Node-RED nodes for interacting with Mitsubishi Aircon RAC-WF WiFi modules",
+      "updated_at": "2023-04-01T13:59:09.282Z",
+      "types": [
+        "mitsubishi-aircon-getstat",
+        "mitsubishi-aircon-setstat"
+      ],
+      "keywords": [
+        "node-red",
+        "mitsubishi aircon",
+        "rac-wf"
+      ],
+      "url": "https://flows.nodered.org/node/@programie/node-red-aircon-rac-wf"
+    },
+    {
+      "id": "node-red-contrib-socketio-server-jwt",
+      "version": "1.1.4",
+      "description": "Implementation for Node-RED of a SocketIO Sever",
+      "updated_at": "2023-04-01T13:49:15.228Z",
+      "types": [
+        "socketio-config",
+        "socketio-in",
+        "socketio-out",
+        "socketio-join",
+        "socketio-leave",
+        "socketio-rooms",
+        "socketio-listener-callback"
+      ],
+      "keywords": [
+        "node-red"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-socketio-server-jwt"
+    },
+    {
+      "id": "@parasaurolophus/node-red-dnssd",
+      "version": "2.1.0",
+      "description": "Wrap dnssd package for Node-RED",
+      "updated_at": "2023-04-01T11:29:01.944Z",
+      "types": [
+        "dnssd-browser",
+        "dnssd-advertisement"
+      ],
+      "keywords": [
+        "node-red",
+        "dnssd",
+        "dns-sd",
+        "bonjour",
+        "avahi",
+        "mdns",
+        "zeroconf"
+      ],
+      "url": "https://flows.nodered.org/node/@parasaurolophus/node-red-dnssd"
+    },
     {
       "id": "node-red-contrib-hikvision-ultimate",
       "version": "1.1.9",
@@ -250,6 +305,25 @@
         "node-red"
       ],
       "url": "https://flows.nodered.org/node/@jambonz/node-red-contrib-jambonz"
+    },
+    {
+      "id": "@ifp-software/node-red-contrib-oee-ai-connector",
+      "version": "2.3.0",
+      "description": "Easily connect your production machines to oee.ai – The Industry 4.0 solution for OEE optimization.",
+      "updated_at": "2023-03-30T18:20:22.978Z",
+      "types": [],
+      "keywords": [
+        "industrial",
+        "industry 4.0",
+        "iot",
+        "node-red",
+        "oee",
+        "oee.ai",
+        "sick",
+        "smart-factory",
+        "tdc"
+      ],
+      "url": "https://flows.nodered.org/node/@ifp-software/node-red-contrib-oee-ai-connector"
     },
     {
       "id": "node-red-contrib-io-key",
@@ -1151,26 +1225,6 @@
         "mymazda"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-mymazda"
-    },
-    {
-      "id": "@parasaurolophus/node-red-dnssd",
-      "version": "2.0.2",
-      "description": "Wrap dnssd package for Node-RED",
-      "updated_at": "2023-03-24T21:37:28.597Z",
-      "types": [
-        "dnssd-browser",
-        "dnssd-advertisement"
-      ],
-      "keywords": [
-        "node-red",
-        "dnssd",
-        "dns-sd",
-        "bonjour",
-        "avahi",
-        "mdns",
-        "zeroconf"
-      ],
-      "url": "https://flows.nodered.org/node/@parasaurolophus/node-red-dnssd"
     },
     {
       "id": "node-red-contrib-timeouttrigger",
