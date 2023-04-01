@@ -1,7 +1,136 @@
 {
   "name": "Catalogue for darwin",
-  "updated_at": "2023-03-31T22:19:22.575Z",
+  "updated_at": "2023-04-01T21:17:47.016Z",
   "modules": [
+    {
+      "id": "node-red-otplc-linux-sys-class-leds",
+      "version": "0.0.906",
+      "description": "Is for reading / writing sys class leds on linux from Node-RED",
+      "updated_at": "2023-04-01T18:20:02.375Z",
+      "types": [
+        "otplcLinuxSysClassLeds"
+      ],
+      "keywords": [
+        "node-red",
+        "otplc",
+        "light",
+        "linux",
+        "sysfs",
+        "leds",
+        "oiyshTerminal",
+        "oit",
+        "plc"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-otplc-linux-sys-class-leds"
+    },
+    {
+      "id": "node-red-contrib-axis-com",
+      "version": "1.2.1",
+      "description": "Simplified integration with Axis devices",
+      "updated_at": "2023-04-01T16:27:31.646Z",
+      "types": [
+        "Device Access",
+        "Axis device",
+        "Axis camera",
+        "Axis ACAP",
+        "Axis Security"
+      ],
+      "keywords": [
+        "node-red",
+        "Axis",
+        "Camera"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-axis-com"
+    },
+    {
+      "id": "node-red-contrib-otplc",
+      "version": "0.0.904",
+      "description": "Is for setting a instance of otplc in Node-RED",
+      "updated_at": "2023-04-01T15:59:21.550Z",
+      "types": [
+        "otplcBundle",
+        "otplcEngine"
+      ],
+      "keywords": [
+        "node-red",
+        "otplc",
+        "oiyshTerminal",
+        "oit",
+        "plc"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-otplc"
+    },
+    {
+      "id": "@binsoul/node-red-contrib-deye-sun-g3",
+      "version": "0.0.3",
+      "description": "Retrieves data from a Deye SUN G3 micro inverter using the Solarman v5 protocol.",
+      "updated_at": "2023-04-01T15:12:14.139Z",
+      "types": [
+        "binsoul-deye-sun-g3"
+      ],
+      "keywords": [
+        "node-red",
+        "device",
+        "Solarman v5",
+        "Deye SUN G3"
+      ],
+      "url": "https://flows.nodered.org/node/@binsoul/node-red-contrib-deye-sun-g3"
+    },
+    {
+      "id": "@programie/node-red-aircon-rac-wf",
+      "version": "1.0.1",
+      "description": "Node-RED nodes for interacting with Mitsubishi Aircon RAC-WF WiFi modules",
+      "updated_at": "2023-04-01T13:59:09.282Z",
+      "types": [
+        "mitsubishi-aircon-getstat",
+        "mitsubishi-aircon-setstat"
+      ],
+      "keywords": [
+        "node-red",
+        "mitsubishi aircon",
+        "rac-wf"
+      ],
+      "url": "https://flows.nodered.org/node/@programie/node-red-aircon-rac-wf"
+    },
+    {
+      "id": "node-red-contrib-socketio-server-jwt",
+      "version": "1.1.4",
+      "description": "Implementation for Node-RED of a SocketIO Sever",
+      "updated_at": "2023-04-01T13:49:15.228Z",
+      "types": [
+        "socketio-config",
+        "socketio-in",
+        "socketio-out",
+        "socketio-join",
+        "socketio-leave",
+        "socketio-rooms",
+        "socketio-listener-callback"
+      ],
+      "keywords": [
+        "node-red"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-socketio-server-jwt"
+    },
+    {
+      "id": "@parasaurolophus/node-red-dnssd",
+      "version": "2.1.0",
+      "description": "Wrap dnssd package for Node-RED",
+      "updated_at": "2023-04-01T11:29:01.944Z",
+      "types": [
+        "dnssd-browser",
+        "dnssd-advertisement"
+      ],
+      "keywords": [
+        "node-red",
+        "dnssd",
+        "dns-sd",
+        "bonjour",
+        "avahi",
+        "mdns",
+        "zeroconf"
+      ],
+      "url": "https://flows.nodered.org/node/@parasaurolophus/node-red-dnssd"
+    },
     {
       "id": "@crescentone/node-red-contrib-xml-validation",
       "version": "0.2.4",
@@ -90,22 +219,6 @@
       "url": "https://flows.nodered.org/node/node-red-contrib-mclimate"
     },
     {
-      "id": "@binsoul/node-red-contrib-deye-sun-g3",
-      "version": "0.0.2",
-      "description": "Retrieves data from a Deye SUN G3 micro inverter using the Solarman v5 protocol.",
-      "updated_at": "2023-03-31T09:39:45.735Z",
-      "types": [
-        "binsoul-deye-sun-g3"
-      ],
-      "keywords": [
-        "node-red",
-        "device",
-        "Solarman v5",
-        "Deye SUN G3"
-      ],
-      "url": "https://flows.nodered.org/node/@binsoul/node-red-contrib-deye-sun-g3"
-    },
-    {
       "id": "@bitpoolos/edge-bacnet",
       "version": "1.1.8",
       "description": "A bacnet gateway for node-red",
@@ -168,24 +281,6 @@
         "iot"
       ],
       "url": "https://flows.nodered.org/node/@bitpoolos/edge-integriti"
-    },
-    {
-      "id": "node-red-contrib-otplc",
-      "version": "0.0.6",
-      "description": "Is for setting a instance of otplc in Node-RED",
-      "updated_at": "2023-03-31T00:50:58.939Z",
-      "types": [
-        "otplcBundle",
-        "otplcEngine"
-      ],
-      "keywords": [
-        "node-red",
-        "otplc",
-        "oiyshTerminal",
-        "oit",
-        "plc"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-otplc"
     },
     {
       "id": "node-red-contrib-onstar2",
@@ -425,27 +520,6 @@
       "url": "https://flows.nodered.org/node/node-red-contrib-custom-chatgpt"
     },
     {
-      "id": "node-red-otplc-linux-sys-class-leds",
-      "version": "0.0.9",
-      "description": "Is for reading / writing sys class leds on linux from Node-RED",
-      "updated_at": "2023-03-29T20:47:43.405Z",
-      "types": [
-        "otplcLinuxSysClassLeds"
-      ],
-      "keywords": [
-        "node-red",
-        "otplc",
-        "light",
-        "linux",
-        "sysfs",
-        "leds",
-        "oiyshTerminal",
-        "oit",
-        "plc"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-otplc-linux-sys-class-leds"
-    },
-    {
       "id": "node-red-contrib-redplc-ntptime",
       "version": "2.0.2",
       "description": "A Node-Red redPlc node for read NTP Time",
@@ -608,25 +682,6 @@
         "socket.io"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-socketio-client-jwt"
-    },
-    {
-      "id": "node-red-contrib-axis-com",
-      "version": "1.1.5",
-      "description": "Simplified integration with Axis devices",
-      "updated_at": "2023-03-28T19:35:38.335Z",
-      "types": [
-        "Device Access",
-        "Axis device",
-        "Axis camera",
-        "Axis ACAP",
-        "Axis Security"
-      ],
-      "keywords": [
-        "node-red",
-        "Axis",
-        "Camera"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-axis-com"
     },
     {
       "id": "@ralphwetzel/node-red-mcu-plugin",
@@ -1203,26 +1258,6 @@
         "mymazda"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-mymazda"
-    },
-    {
-      "id": "@parasaurolophus/node-red-dnssd",
-      "version": "2.0.2",
-      "description": "Wrap dnssd package for Node-RED",
-      "updated_at": "2023-03-24T21:37:28.597Z",
-      "types": [
-        "dnssd-browser",
-        "dnssd-advertisement"
-      ],
-      "keywords": [
-        "node-red",
-        "dnssd",
-        "dns-sd",
-        "bonjour",
-        "avahi",
-        "mdns",
-        "zeroconf"
-      ],
-      "url": "https://flows.nodered.org/node/@parasaurolophus/node-red-dnssd"
     },
     {
       "id": "node-red-contrib-timeouttrigger",
