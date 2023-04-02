@@ -1,7 +1,170 @@
 {
   "name": "Catalogue for darwin",
-  "updated_at": "2023-04-01T21:17:47.016Z",
+  "updated_at": "2023-04-02T21:03:10.042Z",
   "modules": [
+    {
+      "id": "@gogovega/node-red-contrib-firebase-realtime-database",
+      "version": "0.4.0",
+      "description": "Node-RED nodes to communicate with Google Firebase Realtime Databases",
+      "updated_at": "2023-04-02T15:49:19.605Z",
+      "types": [
+        "database-config",
+        "firebase-in",
+        "firebase-get",
+        "firebase-out"
+      ],
+      "keywords": [
+        "admin",
+        "database",
+        "firebase",
+        "node-red",
+        "realtime"
+      ],
+      "url": "https://flows.nodered.org/node/@gogovega/node-red-contrib-firebase-realtime-database"
+    },
+    {
+      "id": "@chvdapi/node-red-pn6400-accelerate",
+      "version": "0.0.2",
+      "description": "A node by chvda to drive MMA8452 on PN6400",
+      "updated_at": "2023-04-02T14:16:35.435Z",
+      "types": [
+        "PN6400_Acceleration_MMA8452"
+      ],
+      "keywords": [
+        "node-red"
+      ],
+      "url": "https://flows.nodered.org/node/@chvdapi/node-red-pn6400-accelerate"
+    },
+    {
+      "id": "node-red-contrib-ical-events",
+      "version": "2.2.2",
+      "description": "NodeRed calender event adapter",
+      "updated_at": "2023-04-02T13:14:11.591Z",
+      "types": [
+        "ical-config",
+        "ical-events",
+        "__errors__",
+        "ical-sensor",
+        "__errors__",
+        "ical-upcoming",
+        "__errors__"
+      ],
+      "keywords": [
+        "node-red",
+        "ical",
+        "calendar",
+        "caldav",
+        "icloud",
+        "events",
+        "google",
+        "outlook",
+        "apple",
+        "kalender",
+        "nodered",
+        "ics",
+        "Smart Home",
+        "home automation"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-ical-events"
+    },
+    {
+      "id": "@gotillit/tillit-node-red",
+      "version": "1.1.4",
+      "description": "A TilliT node for Node-RED",
+      "updated_at": "2023-04-02T10:38:29.162Z",
+      "types": [
+        "tillit-node-connection",
+        "tillit-out",
+        "tillit-in",
+        "tillit-api"
+      ],
+      "keywords": [
+        "node-red",
+        "tillit"
+      ],
+      "url": "https://flows.nodered.org/node/@gotillit/tillit-node-red"
+    },
+    {
+      "id": "node-red-contrib-ecovacs-deebot",
+      "version": "0.4.7",
+      "description": "Node-RED node for Ecovacs Deebot vacuum cleaner",
+      "updated_at": "2023-04-02T10:22:27.481Z",
+      "types": [
+        "ecovacs-account",
+        "ecovacs-deebot",
+        "ecovacs-deebot-command"
+      ],
+      "keywords": [
+        "node-red",
+        "ecovacs",
+        "deebot",
+        "ozmo",
+        "yeedi",
+        "vacuum",
+        "robot",
+        "airbot",
+        "air purifier",
+        "smart home",
+        "home automation"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-ecovacs-deebot"
+    },
+    {
+      "id": "node-red-contrib-html-to-pdf",
+      "version": "1.0.3",
+      "description": " Node-RED node for converting HTML files to PDF, using the Puppeteer library.",
+      "updated_at": "2023-04-02T09:42:19.067Z",
+      "types": [
+        "html-to-pdf"
+      ],
+      "keywords": [
+        "node-red",
+        "pdf",
+        "html",
+        "puppeteer"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-html-to-pdf"
+    },
+    {
+      "id": "node-red-contrib-dashbored",
+      "version": "1.1.0",
+      "description": "A customizable dashboard for NodeRed",
+      "updated_at": "2023-04-02T00:35:46.412Z",
+      "types": [
+        "dashbored-server",
+        "dashbored-widget",
+        "__errors__",
+        "dashbored-dashbored",
+        "dashbored-widget-node",
+        "dashbored-node"
+      ],
+      "keywords": [
+        "node-red",
+        "dashbored",
+        "dashboard",
+        "ui",
+        "website",
+        "web-ui",
+        "control",
+        "touch"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-dashbored"
+    },
+    {
+      "id": "node-red-contrib-oauth2",
+      "version": "4.1.6",
+      "description": "The node-red-contrib-oauth2 is a Node-RED node that provides an OAuth2 authentication flow. This node uses the OAuth2 protocol to obtain an access token, which can be used to make authenticated API requests.",
+      "updated_at": "2023-04-01T20:44:21.013Z",
+      "types": [
+        "oauth2"
+      ],
+      "keywords": [
+        "node-red",
+        "oauth2",
+        "security"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-oauth2"
+    },
     {
       "id": "node-red-otplc-linux-sys-class-leds",
       "version": "0.0.906",
@@ -459,22 +622,6 @@
       "url": "https://flows.nodered.org/node/node-red-control-path"
     },
     {
-      "id": "node-red-contrib-html-to-pdf",
-      "version": "1.0.2",
-      "description": " Node-RED node for converting HTML files to PDF, using the Puppeteer library.",
-      "updated_at": "2023-03-30T11:29:48.166Z",
-      "types": [
-        "html-to-pdf"
-      ],
-      "keywords": [
-        "node-red",
-        "pdf",
-        "html",
-        "puppeteer"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-html-to-pdf"
-    },
-    {
       "id": "node-red-contrib-haier",
       "version": "1.0.2",
       "description": "海尔机器人",
@@ -844,21 +991,6 @@
         "node-opcua"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-opcua"
-    },
-    {
-      "id": "node-red-contrib-oauth2",
-      "version": "4.1.5",
-      "description": "The node-red-contrib-oauth2 is a Node-RED node that provides an OAuth2 authentication flow. This node uses the OAuth2 protocol to obtain an access token, which can be used to make authenticated API requests.",
-      "updated_at": "2023-03-27T14:43:04.624Z",
-      "types": [
-        "oauth2"
-      ],
-      "keywords": [
-        "node-red",
-        "oauth2",
-        "security"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-oauth2"
     },
     {
       "id": "node-red-ubyte-arangodb",
@@ -2200,26 +2332,6 @@
         "tracing"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-opentelemetry"
-    },
-    {
-      "id": "@gogovega/node-red-contrib-firebase-realtime-database",
-      "version": "0.3.1",
-      "description": "Node-RED nodes to communicate with Google Firebase Realtime Databases",
-      "updated_at": "2023-03-12T12:07:31.875Z",
-      "types": [
-        "database-config",
-        "firebase-in",
-        "firebase-get",
-        "firebase-out"
-      ],
-      "keywords": [
-        "admin",
-        "database",
-        "firebase",
-        "node-red",
-        "realtime"
-      ],
-      "url": "https://flows.nodered.org/node/@gogovega/node-red-contrib-firebase-realtime-database"
     },
     {
       "id": "node-red-pushsafer",
@@ -5394,31 +5506,6 @@
       "url": "https://flows.nodered.org/node/node-red-contrib-twitter-media"
     },
     {
-      "id": "node-red-contrib-ecovacs-deebot",
-      "version": "0.4.6",
-      "description": "Node-RED node for Ecovacs Deebot vacuum cleaner",
-      "updated_at": "2023-01-28T09:44:04.569Z",
-      "types": [
-        "ecovacs-account",
-        "ecovacs-deebot",
-        "ecovacs-deebot-command"
-      ],
-      "keywords": [
-        "node-red",
-        "ecovacs",
-        "deebot",
-        "ozmo",
-        "yeedi",
-        "vacuum",
-        "robot",
-        "airbot",
-        "air purifier",
-        "smart home",
-        "home automation"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-ecovacs-deebot"
-    },
-    {
       "id": "node-red-contrib-ccxt-v2",
       "version": "0.2.13",
       "description": "A Node-RED node to communicate with crypto exchanges using CCXT library supporting both CCXT Unified and Exchange-specific API calls.",
@@ -7520,31 +7607,6 @@
         "SCS"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-myhome-bticino-v2"
-    },
-    {
-      "id": "node-red-contrib-dashbored",
-      "version": "1.0.1",
-      "description": "A customizable dashboard for NodeRed",
-      "updated_at": "2022-12-24T01:18:37.483Z",
-      "types": [
-        "dashbored-server",
-        "dashbored-widget",
-        "__errors__",
-        "dashbored-dashbored",
-        "dashbored-widget-node",
-        "dashbored-node"
-      ],
-      "keywords": [
-        "node-red",
-        "dashbored",
-        "dashboard",
-        "ui",
-        "website",
-        "web-ui",
-        "control",
-        "touch"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-dashbored"
     },
     {
       "id": "hdl-automation-nodered",
@@ -16478,38 +16540,6 @@
         "node-red"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-hx711"
-    },
-    {
-      "id": "node-red-contrib-ical-events",
-      "version": "2.2.1",
-      "description": "NodeRed calender event adapter",
-      "updated_at": "2022-06-10T09:02:04.509Z",
-      "types": [
-        "ical-config",
-        "ical-events",
-        "__errors__",
-        "ical-sensor",
-        "__errors__",
-        "ical-upcoming",
-        "__errors__"
-      ],
-      "keywords": [
-        "node-red",
-        "ical",
-        "calendar",
-        "caldav",
-        "icloud",
-        "events",
-        "google",
-        "outlook",
-        "apple",
-        "kalender",
-        "nodered",
-        "ics",
-        "Smart Home",
-        "home automation"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-ical-events"
     },
     {
       "id": "node-red-contrib-cloudantplus",
