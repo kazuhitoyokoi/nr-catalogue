@@ -1,7 +1,138 @@
 {
   "name": "Catalogue for docker",
-  "updated_at": "2023-04-02T16:17:43.870Z",
+  "updated_at": "2023-04-03T16:30:26.806Z",
   "modules": [
+    {
+      "id": "objt-delivery-eloy-node-upload",
+      "version": "1.0.3",
+      "description": "Custom Objective / Eloy upload node",
+      "updated_at": "2023-04-03T14:21:58.883Z",
+      "types": [],
+      "keywords": [
+        "upload",
+        "backpressure",
+        "websocket",
+        "ui",
+        "dashboard",
+        "node-red",
+        "node-red-contrib",
+        "node-red-ui",
+        "nodered"
+      ],
+      "url": "https://flows.nodered.org/node/objt-delivery-eloy-node-upload"
+    },
+    {
+      "id": "node-red-contrib-io-key",
+      "version": "1.5.0",
+      "description": "A collection of nodes to access the io-key cloud with Node-RED.",
+      "updated_at": "2023-04-03T09:21:44.006Z",
+      "types": [
+        "tenant-config",
+        "measurements",
+        "alarms",
+        "events"
+      ],
+      "keywords": [
+        "node-red",
+        "io-key"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-io-key"
+    },
+    {
+      "id": "node-red-contrib-ecovacs-deebot",
+      "version": "0.4.8",
+      "description": "Node-RED node for Ecovacs Deebot vacuum cleaner",
+      "updated_at": "2023-04-02T19:57:19.608Z",
+      "types": [
+        "ecovacs-account",
+        "ecovacs-deebot",
+        "ecovacs-deebot-command"
+      ],
+      "keywords": [
+        "node-red",
+        "ecovacs",
+        "deebot",
+        "ozmo",
+        "yeedi",
+        "vacuum",
+        "robot",
+        "airbot",
+        "air purifier",
+        "smart home",
+        "home automation"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-ecovacs-deebot"
+    },
+    {
+      "id": "@parasaurolophus/node-red-eventsource",
+      "version": "1.4.0",
+      "description": "Wrap eventsource package as a node",
+      "updated_at": "2023-04-02T19:27:06.968Z",
+      "types": [
+        "EventSource"
+      ],
+      "keywords": [
+        "eventsource",
+        "sse",
+        "node-red"
+      ],
+      "url": "https://flows.nodered.org/node/@parasaurolophus/node-red-eventsource"
+    },
+    {
+      "id": "node-red-contrib-socketio-server-jwt",
+      "version": "1.1.5",
+      "description": "Implementation for Node-RED of a SocketIO Sever",
+      "updated_at": "2023-04-02T18:01:44.800Z",
+      "types": [
+        "socketio-config",
+        "socketio-in",
+        "socketio-out",
+        "socketio-join",
+        "socketio-leave",
+        "socketio-rooms",
+        "socketio-listener-callback"
+      ],
+      "keywords": [
+        "node-red"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-socketio-server-jwt"
+    },
+    {
+      "id": "@gogovega/node-red-contrib-firebase-realtime-database",
+      "version": "0.4.0",
+      "description": "Node-RED nodes to communicate with Google Firebase Realtime Databases",
+      "updated_at": "2023-04-02T15:49:19.605Z",
+      "types": [
+        "database-config",
+        "firebase-in",
+        "firebase-get",
+        "firebase-out"
+      ],
+      "keywords": [
+        "admin",
+        "database",
+        "firebase",
+        "node-red",
+        "realtime"
+      ],
+      "url": "https://flows.nodered.org/node/@gogovega/node-red-contrib-firebase-realtime-database"
+    },
+    {
+      "id": "@binsoul/node-red-contrib-deye-sun-g3",
+      "version": "0.0.4",
+      "description": "Retrieves data from a Deye SUN300/500/600/800/1000/2000G3 micro inverter using the Solarman v5 protocol.",
+      "updated_at": "2023-04-02T14:38:28.534Z",
+      "types": [
+        "binsoul-deye-sun-g3"
+      ],
+      "keywords": [
+        "node-red",
+        "device",
+        "Solarman v5",
+        "Deye SUN G3"
+      ],
+      "url": "https://flows.nodered.org/node/@binsoul/node-red-contrib-deye-sun-g3"
+    },
     {
       "id": "@chvdapi/node-red-pn6400-accelerate",
       "version": "0.0.2",
@@ -63,31 +194,6 @@
         "tillit"
       ],
       "url": "https://flows.nodered.org/node/@gotillit/tillit-node-red"
-    },
-    {
-      "id": "node-red-contrib-ecovacs-deebot",
-      "version": "0.4.7",
-      "description": "Node-RED node for Ecovacs Deebot vacuum cleaner",
-      "updated_at": "2023-04-02T10:22:27.481Z",
-      "types": [
-        "ecovacs-account",
-        "ecovacs-deebot",
-        "ecovacs-deebot-command"
-      ],
-      "keywords": [
-        "node-red",
-        "ecovacs",
-        "deebot",
-        "ozmo",
-        "yeedi",
-        "vacuum",
-        "robot",
-        "airbot",
-        "air purifier",
-        "smart home",
-        "home automation"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-ecovacs-deebot"
     },
     {
       "id": "node-red-contrib-html-to-pdf",
@@ -204,22 +310,6 @@
       "url": "https://flows.nodered.org/node/node-red-contrib-otplc"
     },
     {
-      "id": "@binsoul/node-red-contrib-deye-sun-g3",
-      "version": "0.0.3",
-      "description": "Retrieves data from a Deye SUN G3 micro inverter using the Solarman v5 protocol.",
-      "updated_at": "2023-04-01T15:12:14.139Z",
-      "types": [
-        "binsoul-deye-sun-g3"
-      ],
-      "keywords": [
-        "node-red",
-        "device",
-        "Solarman v5",
-        "Deye SUN G3"
-      ],
-      "url": "https://flows.nodered.org/node/@binsoul/node-red-contrib-deye-sun-g3"
-    },
-    {
       "id": "@programie/node-red-aircon-rac-wf",
       "version": "1.0.1",
       "description": "Node-RED nodes for interacting with Mitsubishi Aircon RAC-WF WiFi modules",
@@ -234,25 +324,6 @@
         "rac-wf"
       ],
       "url": "https://flows.nodered.org/node/@programie/node-red-aircon-rac-wf"
-    },
-    {
-      "id": "node-red-contrib-socketio-server-jwt",
-      "version": "1.1.4",
-      "description": "Implementation for Node-RED of a SocketIO Sever",
-      "updated_at": "2023-04-01T13:49:15.228Z",
-      "types": [
-        "socketio-config",
-        "socketio-in",
-        "socketio-out",
-        "socketio-join",
-        "socketio-leave",
-        "socketio-rooms",
-        "socketio-listener-callback"
-      ],
-      "keywords": [
-        "node-red"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-socketio-server-jwt"
     },
     {
       "id": "@parasaurolophus/node-red-dnssd",
@@ -507,23 +578,6 @@
         "tdc"
       ],
       "url": "https://flows.nodered.org/node/@ifp-software/node-red-contrib-oee-ai-connector"
-    },
-    {
-      "id": "node-red-contrib-io-key",
-      "version": "1.4.1",
-      "description": "A collection of nodes to access the io-key cloud with Node-RED.",
-      "updated_at": "2023-03-30T14:29:46.698Z",
-      "types": [
-        "tenant-config",
-        "measurements",
-        "alarms",
-        "events"
-      ],
-      "keywords": [
-        "node-red",
-        "io-key"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-io-key"
     },
     {
       "id": "node-red-contrib-winccoa",
@@ -2279,26 +2333,6 @@
         "tracing"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-opentelemetry"
-    },
-    {
-      "id": "@gogovega/node-red-contrib-firebase-realtime-database",
-      "version": "0.3.1",
-      "description": "Node-RED nodes to communicate with Google Firebase Realtime Databases",
-      "updated_at": "2023-03-12T12:07:31.875Z",
-      "types": [
-        "database-config",
-        "firebase-in",
-        "firebase-get",
-        "firebase-out"
-      ],
-      "keywords": [
-        "admin",
-        "database",
-        "firebase",
-        "node-red",
-        "realtime"
-      ],
-      "url": "https://flows.nodered.org/node/@gogovega/node-red-contrib-firebase-realtime-database"
     },
     {
       "id": "node-red-pushsafer",
@@ -10157,21 +10191,6 @@
         "node-red"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-weatherflow-api-client"
-    },
-    {
-      "id": "@parasaurolophus/node-red-eventsource",
-      "version": "1.3.5",
-      "description": "Wrap eventsource package as a node",
-      "updated_at": "2022-11-07T14:09:10.787Z",
-      "types": [
-        "EventSource"
-      ],
-      "keywords": [
-        "eventsource",
-        "sse",
-        "node-red"
-      ],
-      "url": "https://flows.nodered.org/node/@parasaurolophus/node-red-eventsource"
     },
     {
       "id": "node-red-contrib-power-monitor",
