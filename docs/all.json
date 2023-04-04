@@ -1,12 +1,88 @@
 {
   "name": "Catalogue for verified nodes",
-  "updated_at": "2023-04-03T22:21:15.316Z",
+  "updated_at": "2023-04-04T23:51:54.547Z",
   "modules": [
     {
-      "id": "objt-delivery-eloy-node-upload",
+      "id": "eloy-ui-upload",
+      "version": "0.0.3",
+      "description": "Custom dashboard node for Eloy",
+      "updated_at": "2023-04-04T14:25:22.955Z",
+      "types": [],
+      "keywords": [
+        "upload",
+        "backpressure",
+        "websocket",
+        "ui",
+        "dashboard",
+        "node-red",
+        "node-red-contrib",
+        "node-red-ui",
+        "nodered"
+      ],
+      "url": "https://flows.nodered.org/node/eloy-ui-upload"
+    },
+    {
+      "id": "@thewiw/node-red-contrib-wiw-bridge",
       "version": "1.0.3",
+      "description": "Tools for communication with What Is What via Bridge Connector",
+      "updated_at": "2023-04-04T11:24:00.767Z",
+      "types": [
+        "dataSources2Wiw",
+        "entities2Wiw",
+        "system2Wiw",
+        "valuesObject2Wiw",
+        "wiwMqttConfig",
+        "wiw2ValuesObject",
+        "wiwLogs",
+        "wiwCheck",
+        "valuesObject2S7"
+      ],
+      "keywords": [
+        "wiw",
+        "the wiw",
+        "what is what",
+        "node-red"
+      ],
+      "url": "https://flows.nodered.org/node/@thewiw/node-red-contrib-wiw-bridge"
+    },
+    {
+      "id": "@tyntec/node-red-contrib-tyntec",
+      "version": "1.1.0",
+      "description": "[![](https://raw.githubusercontent.com/tyntec/node-red-contrib-tyntec/main/docs/logo.png)](https://tyntec.com)",
+      "updated_at": "2023-04-04T08:02:45.491Z",
+      "types": [
+        "send-sms",
+        "tyntec-config",
+        "phone-number"
+      ],
+      "keywords": [
+        "node-red",
+        "tyntec",
+        "sms"
+      ],
+      "url": "https://flows.nodered.org/node/@tyntec/node-red-contrib-tyntec"
+    },
+    {
+      "id": "@binsoul/node-red-contrib-deye-sun-g3",
+      "version": "0.0.5",
+      "description": "Retrieves data from a Deye SUN300/500/600/800/1000/2000G3 micro inverter using the Solarman v5 protocol.",
+      "updated_at": "2023-04-04T06:54:44.611Z",
+      "types": [
+        "binsoul-deye-sun-g3"
+      ],
+      "keywords": [
+        "node-red",
+        "device",
+        "Solarman v5",
+        "Deye SUN G3"
+      ],
+      "url": "https://flows.nodered.org/node/@binsoul/node-red-contrib-deye-sun-g3"
+    },
+    {
+      "id": "objt-delivery-eloy-node-upload",
+      "version": "1.0.5",
       "description": "Custom Objective / Eloy upload node",
-      "updated_at": "2023-04-03T14:21:58.883Z",
+      "updated_at": "2023-04-04T06:37:39.595Z",
       "types": [],
       "keywords": [
         "upload",
@@ -20,6 +96,72 @@
         "nodered"
       ],
       "url": "https://flows.nodered.org/node/objt-delivery-eloy-node-upload"
+    },
+    {
+      "id": "node-red-contrib-tak",
+      "version": "4.0.1",
+      "description": "Node-RED Nodes for encoding & decoding TAK Protocol and Cursor on Target messages from TAK Products.",
+      "updated_at": "2023-04-04T05:42:26.099Z",
+      "types": [
+        "tak",
+        "tak2wm"
+      ],
+      "keywords": [
+        "node-red",
+        "cursor-on-target",
+        "cot",
+        "tak",
+        "atak"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-tak"
+    },
+    {
+      "id": "node-red-contrib-otplc-battery",
+      "version": "0.0.7",
+      "description": "To plc battery easy",
+      "updated_at": "2023-04-04T02:40:02.873Z",
+      "types": [],
+      "keywords": [
+        "oiyshTerminal",
+        "node-red",
+        "otplc",
+        "iot",
+        "plc",
+        "ot-sf2n"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-otplc-battery"
+    },
+    {
+      "id": "node-red-contrib-ot-hz-detector",
+      "version": "0.0.9",
+      "description": "To get hz of signal",
+      "updated_at": "2023-04-03T23:22:03.123Z",
+      "types": [],
+      "keywords": [
+        "node-red",
+        "oiyshTerminal",
+        "ot-sf2n"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-ot-hz-detector"
+    },
+    {
+      "id": "@waldbaer/node-red-persistent-values",
+      "version": "1.3.1",
+      "description": "A user-friendly abstraction of the Node-RED context stores.",
+      "updated_at": "2023-04-03T20:35:14.340Z",
+      "types": [
+        "persistent values config",
+        "persistent value"
+      ],
+      "keywords": [
+        "node-red",
+        "context",
+        "persistence",
+        "persistency",
+        "state",
+        "config"
+      ],
+      "url": "https://flows.nodered.org/node/@waldbaer/node-red-persistent-values"
     },
     {
       "id": "node-red-contrib-io-key",
@@ -116,22 +258,6 @@
         "realtime"
       ],
       "url": "https://flows.nodered.org/node/@gogovega/node-red-contrib-firebase-realtime-database"
-    },
-    {
-      "id": "@binsoul/node-red-contrib-deye-sun-g3",
-      "version": "0.0.4",
-      "description": "Retrieves data from a Deye SUN300/500/600/800/1000/2000G3 micro inverter using the Solarman v5 protocol.",
-      "updated_at": "2023-04-02T14:38:28.534Z",
-      "types": [
-        "binsoul-deye-sun-g3"
-      ],
-      "keywords": [
-        "node-red",
-        "device",
-        "Solarman v5",
-        "Deye SUN G3"
-      ],
-      "url": "https://flows.nodered.org/node/@binsoul/node-red-contrib-deye-sun-g3"
     },
     {
       "id": "@chvdapi/node-red-pn6400-accelerate",
@@ -2206,24 +2332,6 @@
       "url": "https://flows.nodered.org/node/node-red-node-pi-gpio"
     },
     {
-      "id": "node-red-contrib-tak",
-      "version": "3.0.0",
-      "description": "Node-RED Nodes for parsing Cursor on Target messages from ATAK and other TAK Products.",
-      "updated_at": "2023-03-15T00:36:10.697Z",
-      "types": [
-        "tak",
-        "tak2wm"
-      ],
-      "keywords": [
-        "node-red",
-        "cursor-on-target",
-        "cot",
-        "tak",
-        "atak"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-tak"
-    },
-    {
       "id": "node-red-contrib-datacake",
       "version": "0.1.6",
       "description": "Datacake nodes for Node-RED",
@@ -2600,23 +2708,6 @@
         "ewelink-cube"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-tcube"
-    },
-    {
-      "id": "@tyntec/node-red-contrib-tyntec",
-      "version": "1.0.3",
-      "description": "[![](https://raw.githubusercontent.com/tyntec/node-red-contrib-tyntec/main/docs/logo.png)](https://tyntec.com)",
-      "updated_at": "2023-03-06T09:17:19.033Z",
-      "types": [
-        "send-sms",
-        "tyntec-config",
-        "phone-number"
-      ],
-      "keywords": [
-        "node-red",
-        "tyntec",
-        "sms"
-      ],
-      "url": "https://flows.nodered.org/node/@tyntec/node-red-contrib-tyntec"
     },
     {
       "id": "node-red-contrib-mqtt-sparkplug-plus",
@@ -3444,25 +3535,6 @@
         "node-red"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-xkeys_rotary"
-    },
-    {
-      "id": "@waldbaer/node-red-persistent-values",
-      "version": "1.3.0",
-      "description": "A user-friendly abstraction of the Node-RED context stores.",
-      "updated_at": "2023-02-22T22:52:58.826Z",
-      "types": [
-        "persistent values config",
-        "persistent value"
-      ],
-      "keywords": [
-        "node-red",
-        "context",
-        "persistence",
-        "persistency",
-        "state",
-        "config"
-      ],
-      "url": "https://flows.nodered.org/node/@waldbaer/node-red-persistent-values"
     },
     {
       "id": "@virtualbat/esios-client",
@@ -44784,30 +44856,6 @@
         "elv"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-maxcube2"
-    },
-    {
-      "id": "@thewiw/node-red-contrib-wiw-bridge",
-      "version": "1.0.2",
-      "description": "Tools for communication with What Is What via Bridge Connector",
-      "updated_at": "2020-03-07T20:25:44.829Z",
-      "types": [
-        "dataSources2Wiw",
-        "entities2Wiw",
-        "system2Wiw",
-        "valuesObject2Wiw",
-        "wiwMqttConfig",
-        "wiw2ValuesObject",
-        "wiwLogs",
-        "wiwCheck",
-        "valuesObject2S7"
-      ],
-      "keywords": [
-        "wiw",
-        "the wiw",
-        "what is what",
-        "node-red"
-      ],
-      "url": "https://flows.nodered.org/node/@thewiw/node-red-contrib-wiw-bridge"
     },
     {
       "id": "node-red-contrib-sendgrid",
