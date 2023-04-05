@@ -1,0 +1,31 @@
+
+----
+Sending build context to Docker daemon  35.08MB
+Step 1/2 : FROM nodered/node-red
+ ---> a15fc0f4e930
+Step 2/2 : RUN npm install npm install node-red-contrib-ads-application@0.1.0
+ ---> Running in 1318dceeae5f
+
+added 8 packages, and audited 539 packages in 5s
+
+52 packages are looking for funding
+  run `npm fund` for details
+
+7 vulnerabilities (5 low, 1 moderate, 1 high)
+
+To address issues that do not require attention, run:
+  npm audit fix
+
+To address all issues (including breaking changes), run:
+  npm audit fix --force
+
+Run `npm audit` for details.
+[91mnpm[0m[91m notice[0m[91m 
+[0m[91mnpm notice[0m[91m New major version of npm available! 8.11.0 -> 9.6.3
+npm[0m[91m notice Changelog: <https://github.com/npm/cli/releases/tag/v9.6.3>
+npm[0m[91m notice Run `npm install -g npm@9.6.3` to update!
+npm notice 
+[0mRemoving intermediate container 1318dceeae5f
+ ---> 8d608082249e
+Successfully built 8d608082249e
+Successfully tagged tmp:latest
