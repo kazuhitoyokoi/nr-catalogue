@@ -1,7 +1,94 @@
 {
   "name": "Catalogue for darwin",
-  "updated_at": "2023-04-04T23:51:37.410Z",
+  "updated_at": "2023-04-05T22:35:18.071Z",
   "modules": [
+    {
+      "id": "node-red-contrib-uibuilder",
+      "version": "6.3.1",
+      "description": "Easily create data-driven web UI's for Node-RED using any (or no) front-end library.",
+      "updated_at": "2023-04-05T17:32:17.458Z",
+      "types": [],
+      "keywords": [
+        "node-red",
+        "ui",
+        "gui",
+        "dashboard",
+        "spa",
+        "web",
+        "website",
+        "data-driven",
+        "webpage"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-uibuilder"
+    },
+    {
+      "id": "node-red-contrib-otplc-battery",
+      "version": "0.0.8",
+      "description": "To plc battery easy",
+      "updated_at": "2023-04-05T14:08:47.743Z",
+      "types": [],
+      "keywords": [
+        "oiyshTerminal",
+        "node-red",
+        "otplc",
+        "iot",
+        "plc",
+        "ot-sf2n"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-otplc-battery"
+    },
+    {
+      "id": "ui-upload-mf",
+      "version": "0.1.0",
+      "description": "Upload node with multiple file support",
+      "updated_at": "2023-04-05T10:52:55.613Z",
+      "types": [],
+      "keywords": [
+        "upload",
+        "websocket",
+        "ui",
+        "dashboard",
+        "node-red",
+        "node-red-contrib",
+        "node-red-ui",
+        "nodered"
+      ],
+      "url": "https://flows.nodered.org/node/ui-upload-mf"
+    },
+    {
+      "id": "node-red-contrib-ads-application",
+      "version": "0.1.0",
+      "description": "node-red-contrib-ads-client application extention",
+      "updated_at": "2023-04-05T08:52:18.587Z",
+      "types": [
+        "ads-beckhoff-devicemanager"
+      ],
+      "keywords": [
+        "node-red",
+        "ADS",
+        "Beckhoff",
+        "TwinCat",
+        "plc",
+        "MDP",
+        "IPC"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-ads-application"
+    },
+    {
+      "id": "node-red-contrib-oauth2",
+      "version": "4.1.8",
+      "description": "The node-red-contrib-oauth2 is a Node-RED node that provides an OAuth2 authentication flow. This node uses the OAuth2 protocol to obtain an access token, which can be used to make authenticated API requests.",
+      "updated_at": "2023-04-05T02:33:47.825Z",
+      "types": [
+        "oauth2"
+      ],
+      "keywords": [
+        "node-red",
+        "oauth2",
+        "security"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-oauth2"
+    },
     {
       "id": "node-red-contrib-ot-to-status",
       "version": "0.0.5",
@@ -146,22 +233,6 @@
         "atak"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-tak"
-    },
-    {
-      "id": "node-red-contrib-otplc-battery",
-      "version": "0.0.7",
-      "description": "To plc battery easy",
-      "updated_at": "2023-04-04T02:40:02.873Z",
-      "types": [],
-      "keywords": [
-        "oiyshTerminal",
-        "node-red",
-        "otplc",
-        "iot",
-        "plc",
-        "ot-sf2n"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-otplc-battery"
     },
     {
       "id": "node-red-contrib-ot-hz-detector",
@@ -393,21 +464,6 @@
         "touch"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-dashbored"
-    },
-    {
-      "id": "node-red-contrib-oauth2",
-      "version": "4.1.6",
-      "description": "The node-red-contrib-oauth2 is a Node-RED node that provides an OAuth2 authentication flow. This node uses the OAuth2 protocol to obtain an access token, which can be used to make authenticated API requests.",
-      "updated_at": "2023-04-01T20:44:21.013Z",
-      "types": [
-        "oauth2"
-      ],
-      "keywords": [
-        "node-red",
-        "oauth2",
-        "security"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-oauth2"
     },
     {
       "id": "node-red-otplc-linux-sys-class-leds",
@@ -1395,25 +1451,6 @@
       "url": "https://flows.nodered.org/node/node-red-contrib-boolean-parser"
     },
     {
-      "id": "node-red-contrib-uibuilder",
-      "version": "6.3.0",
-      "description": "Easily create data-driven web UI's for Node-RED using any (or no) front-end library.",
-      "updated_at": "2023-03-26T16:47:31.283Z",
-      "types": [],
-      "keywords": [
-        "node-red",
-        "ui",
-        "gui",
-        "dashboard",
-        "spa",
-        "web",
-        "website",
-        "data-driven",
-        "webpage"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-uibuilder"
-    },
-    {
       "id": "@chvdapi/node-red-dlt645",
       "version": "0.0.4",
       "description": "a node communicate with DLT645-2007 electric energy meter",
@@ -1563,6 +1600,25 @@
         "mymazda"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-mymazda"
+    },
+    {
+      "id": "node-red-contrib-sma-webconnect",
+      "version": "0.3.0",
+      "description": "Node-RED node to query the Webconnect interface of SMA inverters",
+      "updated_at": "2023-03-24T20:54:49.482Z",
+      "types": [
+        "sma-webconnect"
+      ],
+      "keywords": [
+        "node-red",
+        "sma",
+        "sunny",
+        "boy",
+        "storage",
+        "tripower",
+        "webconnect"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-sma-webconnect"
     },
     {
       "id": "node-red-contrib-timeouttrigger",
@@ -38022,21 +38078,6 @@
         "CANDY EGG"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-generic-ble"
-    },
-    {
-      "id": "node-red-contrib-sma-webconnect",
-      "version": "0.2.0",
-      "description": "Node-RED node to query the Webconnect interface of SMA inverters",
-      "updated_at": "2020-11-16T22:25:55.981Z",
-      "types": [
-        "sma-webconnect"
-      ],
-      "keywords": [
-        "node-red",
-        "sma",
-        "webconnect"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-sma-webconnect"
     },
     {
       "id": "node-red-contrib-tekos-browser-automation",
