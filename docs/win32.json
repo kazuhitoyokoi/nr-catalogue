@@ -1,7 +1,181 @@
 {
   "name": "Catalogue for win32",
-  "updated_at": "2023-04-05T21:01:23.429Z",
+  "updated_at": "2023-04-06T18:24:22.378Z",
   "modules": [
+    {
+      "id": "@ais_automation/node-red-contrib-eqcloud-monitoring",
+      "version": "1.4.3",
+      "description": "Client for EquipmentCloud® Monitoring",
+      "updated_at": "2023-04-06T13:22:17.250Z",
+      "types": [
+        "Monitoring"
+      ],
+      "keywords": [
+        "node-red",
+        "IoT",
+        "Equipment",
+        "Cloud",
+        "SEMI",
+        "client",
+        "AIS",
+        "AIS Automation",
+        "Kontron",
+        "Single Source of Truth",
+        "EquipmentCloud",
+        "EquipmentCloud®",
+        "EquipmentHub",
+        "Monitoring",
+        "RampUp",
+        "Workflows",
+        "SoftwareCenter",
+        "Maintenance",
+        "OpenIssues",
+        "SpareParts",
+        "RemoteAssistance",
+        "KnowledgeBase",
+        "eDocs",
+        "Device",
+        "DeviceManagement"
+      ],
+      "url": "https://flows.nodered.org/node/@ais_automation/node-red-contrib-eqcloud-monitoring"
+    },
+    {
+      "id": "node-red-contrib-nvl",
+      "version": "1.2.0",
+      "description": "CODESYS Network Variable List parser.",
+      "updated_at": "2023-04-06T13:02:56.326Z",
+      "types": [
+        "nvl-receive",
+        "nvl-send",
+        "nvl-datatypes"
+      ],
+      "keywords": [
+        "node-red",
+        "CODESYS",
+        "nvl",
+        "plc",
+        "iec-61131-3",
+        "61131-3",
+        "netvar",
+        "network variable list",
+        "udp"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-nvl"
+    },
+    {
+      "id": "node-red-contrib-posthog",
+      "version": "1.0.1",
+      "description": "Posthog integration for Node-RED",
+      "updated_at": "2023-04-06T08:17:00.067Z",
+      "types": [
+        "posthog-capture",
+        "posthog-project",
+        "posthog-identify",
+        "posthog-group"
+      ],
+      "keywords": [
+        "node-red"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-posthog"
+    },
+    {
+      "id": "@gregoriusrippenstein/node-red-contrib-neuralnet-builder",
+      "version": "0.0.2",
+      "description": "Node-RED Nodes for creating Artificial Neural Networks (ANNs) using Node-Red.",
+      "updated_at": "2023-04-06T07:18:46.399Z",
+      "types": [
+        "nnb-backprop",
+        "nnb-trainer"
+      ],
+      "keywords": [
+        "node-red"
+      ],
+      "url": "https://flows.nodered.org/node/@gregoriusrippenstein/node-red-contrib-neuralnet-builder"
+    },
+    {
+      "id": "@jambonz/node-red-contrib-jambonz",
+      "version": "2.3.5",
+      "description": "Node-RED nodes for jambonz platform",
+      "updated_at": "2023-04-05T21:51:52.798Z",
+      "types": [
+        "webhook in",
+        "webhook out",
+        "audio in",
+        "jambonz_auth",
+        "aws_auth",
+        "enqueue",
+        "lex",
+        "say",
+        "dtmf",
+        "cfg",
+        "conference",
+        "gather",
+        "listen",
+        "sip:decline",
+        "sip:request",
+        "sip:refer",
+        "hangup",
+        "message",
+        "tag",
+        "pause",
+        "dequeue",
+        "play",
+        "dial",
+        "redirect",
+        "dialogflow",
+        "leave",
+        "rasa",
+        "user auth",
+        "create-call",
+        "create-sms",
+        "lcc",
+        "get_alerts",
+        "get_calls",
+        "get_recent_calls"
+      ],
+      "keywords": [
+        "node-red"
+      ],
+      "url": "https://flows.nodered.org/node/@jambonz/node-red-contrib-jambonz"
+    },
+    {
+      "id": "node-red-contrib-google-smarthome",
+      "version": "0.4.4",
+      "description": "Lets you control Node-Red via Google Assistant or the Google Home App",
+      "updated_at": "2023-04-05T20:52:50.111Z",
+      "types": [
+        "googlesmarthome-client",
+        "google-mgmt",
+        "google-device"
+      ],
+      "keywords": [
+        "google",
+        "smarthome",
+        "assistant",
+        "iot",
+        "node-red"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-google-smarthome"
+    },
+    {
+      "id": "node-red-contrib-uibuilder",
+      "version": "6.3.1",
+      "description": "Easily create data-driven web UI's for Node-RED using any (or no) front-end library.",
+      "updated_at": "2023-04-05T17:32:17.458Z",
+      "types": [],
+      "keywords": [
+        "node-red",
+        "ui",
+        "gui",
+        "dashboard",
+        "spa",
+        "web",
+        "website",
+        "data-driven",
+        "webpage"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-uibuilder"
+    },
     {
       "id": "node-red-contrib-otplc-battery",
       "version": "0.0.8",
@@ -726,52 +900,6 @@
       "url": "https://flows.nodered.org/node/node-red-contrib-onstar2"
     },
     {
-      "id": "@jambonz/node-red-contrib-jambonz",
-      "version": "2.3.2",
-      "description": "Node-RED nodes for jambonz platform",
-      "updated_at": "2023-03-30T23:09:19.589Z",
-      "types": [
-        "webhook in",
-        "webhook out",
-        "audio in",
-        "jambonz_auth",
-        "aws_auth",
-        "enqueue",
-        "lex",
-        "say",
-        "dtmf",
-        "cfg",
-        "conference",
-        "gather",
-        "listen",
-        "sip:decline",
-        "sip:request",
-        "sip:refer",
-        "hangup",
-        "message",
-        "tag",
-        "pause",
-        "dequeue",
-        "play",
-        "dial",
-        "redirect",
-        "dialogflow",
-        "leave",
-        "rasa",
-        "user auth",
-        "create-call",
-        "create-sms",
-        "lcc",
-        "get_alerts",
-        "get_calls",
-        "get_recent_calls"
-      ],
-      "keywords": [
-        "node-red"
-      ],
-      "url": "https://flows.nodered.org/node/@jambonz/node-red-contrib-jambonz"
-    },
-    {
       "id": "@ifp-software/node-red-contrib-oee-ai-connector",
       "version": "2.3.0",
       "description": "Easily connect your production machines to oee.ai – The Industry 4.0 solution for OEE optimization.",
@@ -1432,25 +1560,6 @@
       "url": "https://flows.nodered.org/node/node-red-contrib-boolean-parser"
     },
     {
-      "id": "node-red-contrib-uibuilder",
-      "version": "6.3.0",
-      "description": "Easily create data-driven web UI's for Node-RED using any (or no) front-end library.",
-      "updated_at": "2023-03-26T16:47:31.283Z",
-      "types": [],
-      "keywords": [
-        "node-red",
-        "ui",
-        "gui",
-        "dashboard",
-        "spa",
-        "web",
-        "website",
-        "data-driven",
-        "webpage"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-uibuilder"
-    },
-    {
       "id": "node-red-contrib-html-to-docx",
       "version": "1.0.2",
       "description": "The HTML to DOCX node converts HTML content to a DOCX file for node-red.",
@@ -1583,6 +1692,25 @@
         "mymazda"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-mymazda"
+    },
+    {
+      "id": "node-red-contrib-sma-webconnect",
+      "version": "0.3.0",
+      "description": "Node-RED node to query the Webconnect interface of SMA inverters",
+      "updated_at": "2023-03-24T20:54:49.482Z",
+      "types": [
+        "sma-webconnect"
+      ],
+      "keywords": [
+        "node-red",
+        "sma",
+        "sunny",
+        "boy",
+        "storage",
+        "tripower",
+        "webconnect"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-sma-webconnect"
     },
     {
       "id": "node-red-contrib-timeouttrigger",
@@ -4407,43 +4535,6 @@
       "url": "https://flows.nodered.org/node/cloud4machine-cloud-nodered"
     },
     {
-      "id": "@ais_automation/node-red-contrib-eqcloud-monitoring",
-      "version": "1.4.2",
-      "description": "Client for EquipmentCloud® Monitoring",
-      "updated_at": "2023-02-13T11:44:01.324Z",
-      "types": [
-        "Monitoring"
-      ],
-      "keywords": [
-        "node-red",
-        "IoT",
-        "Equipment",
-        "Cloud",
-        "SEMI",
-        "client",
-        "AIS",
-        "AIS Automation",
-        "Kontron",
-        "Single Source of Truth",
-        "EquipmentCloud",
-        "EquipmentCloud®",
-        "EquipmentHub",
-        "Monitoring",
-        "RampUp",
-        "Workflows",
-        "SoftwareCenter",
-        "Maintenance",
-        "OpenIssues",
-        "SpareParts",
-        "RemoteAssistance",
-        "KnowledgeBase",
-        "eDocs",
-        "Device",
-        "DeviceManagement"
-      ],
-      "url": "https://flows.nodered.org/node/@ais_automation/node-red-contrib-eqcloud-monitoring"
-    },
-    {
       "id": "@jn-se/node-red-contrib-heos",
       "version": "0.3.1",
       "description": "Node-RED node for Denon HEOS devices and Denon Home.",
@@ -4804,25 +4895,6 @@
         "nodered"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-json-multi-schema"
-    },
-    {
-      "id": "node-red-contrib-google-smarthome",
-      "version": "0.4.3",
-      "description": "Lets you control Node-Red via Google Assistant or the Google Home App",
-      "updated_at": "2023-02-08T04:45:19.420Z",
-      "types": [
-        "googlesmarthome-client",
-        "google-mgmt",
-        "google-device"
-      ],
-      "keywords": [
-        "google",
-        "smarthome",
-        "assistant",
-        "iot",
-        "node-red"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-google-smarthome"
     },
     {
       "id": "node-red-contrib-rollun-openapi",
@@ -8051,9 +8123,9 @@
     },
     {
       "id": "@yuliqi/node-red-mydb",
-      "version": "0.0.8",
+      "version": "0.0.9",
       "description": "A Node-RED node to read and write to a My database",
-      "updated_at": "2022-12-19T08:54:30.026Z",
+      "updated_at": "2022-12-19T09:36:59.313Z",
       "types": [
         "MydbDatabase",
         "mydb"
@@ -14744,29 +14816,6 @@
         "node-red"
       ],
       "url": "https://flows.nodered.org/node/@zhaozhengde/node-red-contrib-ydt-13633-2014"
-    },
-    {
-      "id": "node-red-contrib-nvl",
-      "version": "1.1.1",
-      "description": "CODESYS Network Variable List parser.",
-      "updated_at": "2022-07-24T15:00:22.681Z",
-      "types": [
-        "nvl-receive",
-        "nvl-send",
-        "nvl-datatypes"
-      ],
-      "keywords": [
-        "node-red",
-        "CODESYS",
-        "nvl",
-        "plc",
-        "iec-61131-3",
-        "61131-3",
-        "netvar",
-        "network variable list",
-        "udp"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-nvl"
     },
     {
       "id": "node-red-contrib-tfjs-coco-ssd",
@@ -29600,25 +29649,6 @@
       "url": "https://flows.nodered.org/node/node-red-contrib-socketio"
     },
     {
-      "id": "node-red-contrib-schneider-metsepm3200",
-      "version": "0.0.11",
-      "description": "Node to read Schneider PM3200 over Modbus TCP/IP",
-      "updated_at": "2021-06-25T15:10:02.618Z",
-      "types": [
-        "pm3200",
-        "converter"
-      ],
-      "keywords": [
-        "node-red",
-        "schneider",
-        "pm3200",
-        "modbus",
-        "iot",
-        "link150"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-schneider-metsepm3200"
-    },
-    {
       "id": "node-red-contrib-remootio",
       "version": "1.0.12",
       "description": "Node-RED Remootio Integration",
@@ -37819,21 +37849,6 @@
         "CANDY EGG"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-generic-ble"
-    },
-    {
-      "id": "node-red-contrib-sma-webconnect",
-      "version": "0.2.0",
-      "description": "Node-RED node to query the Webconnect interface of SMA inverters",
-      "updated_at": "2020-11-16T22:25:55.981Z",
-      "types": [
-        "sma-webconnect"
-      ],
-      "keywords": [
-        "node-red",
-        "sma",
-        "webconnect"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-sma-webconnect"
     },
     {
       "id": "node-red-contrib-tekos-browser-automation",
