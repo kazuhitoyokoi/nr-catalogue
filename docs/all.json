@@ -1,7 +1,73 @@
 {
   "name": "Catalogue for verified nodes",
-  "updated_at": "2023-04-06T20:03:33.829Z",
+  "updated_at": "2023-04-07T19:03:20.877Z",
   "modules": [
+    {
+      "id": "node-red-contrib-esphome",
+      "version": "0.2.0",
+      "description": "Node-RED nodes to ESPhome devices",
+      "updated_at": "2023-04-07T08:27:14.883Z",
+      "types": [
+        "esphome-device",
+        "esphome-in",
+        "esphome-out"
+      ],
+      "keywords": [
+        "node-red",
+        "esphome",
+        "esp",
+        "home",
+        "esp32",
+        "esp8266"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-esphome"
+    },
+    {
+      "id": "node-red-contrib-home-assistant-websocket",
+      "version": "0.49.1",
+      "description": "Node-RED integration with Home Assistant through websocket and REST API",
+      "updated_at": "2023-04-07T05:51:34.479Z",
+      "types": [],
+      "keywords": [
+        "node-red",
+        "home-assistant",
+        "home assistant",
+        "home automation",
+        "websocket"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-home-assistant-websocket"
+    },
+    {
+      "id": "node-red-contrib-ipfs-client",
+      "version": "0.0.1-s",
+      "description": "Node-RED node for interacting with the IPFS network.",
+      "updated_at": "2023-04-06T20:13:31.361Z",
+      "types": [
+        "IPFSConfig",
+        "IPFSNode"
+      ],
+      "keywords": [
+        "node-red",
+        "node-inq",
+        "ipfs"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-ipfs-client"
+    },
+    {
+      "id": "node-red-contrib-oauth2",
+      "version": "5.0.0",
+      "description": "The node-red-contrib-oauth2 is a Node-RED node that provides an OAuth2 authentication flow. This node uses the OAuth2 protocol to obtain an access token, which can be used to make authenticated API requests.",
+      "updated_at": "2023-04-06T17:56:22.298Z",
+      "types": [
+        "oauth2"
+      ],
+      "keywords": [
+        "node-red",
+        "oauth2",
+        "security"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-oauth2"
+    },
     {
       "id": "@ais_automation/node-red-contrib-eqcloud-monitoring",
       "version": "1.4.3",
@@ -228,21 +294,6 @@
         "IPC"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-ads-application"
-    },
-    {
-      "id": "node-red-contrib-oauth2",
-      "version": "4.1.8",
-      "description": "The node-red-contrib-oauth2 is a Node-RED node that provides an OAuth2 authentication flow. This node uses the OAuth2 protocol to obtain an access token, which can be used to make authenticated API requests.",
-      "updated_at": "2023-04-05T02:33:47.825Z",
-      "types": [
-        "oauth2"
-      ],
-      "keywords": [
-        "node-red",
-        "oauth2",
-        "security"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-oauth2"
     },
     {
       "id": "node-red-contrib-ot-to-status",
@@ -1047,26 +1098,6 @@
         "iiot"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-iiot-ntptime"
-    },
-    {
-      "id": "node-red-contrib-esphome",
-      "version": "0.1.1",
-      "description": "Node-RED nodes to ESPhome devices",
-      "updated_at": "2023-03-29T12:36:12.328Z",
-      "types": [
-        "esphome-device",
-        "esphome-in",
-        "esphome-out"
-      ],
-      "keywords": [
-        "node-red",
-        "esphome",
-        "esp",
-        "home",
-        "esp32",
-        "esp8266"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-esphome"
     },
     {
       "id": "@cameo69/node-red-ratelimit",
@@ -2542,21 +2573,6 @@
         "weekdays"
       ],
       "url": "https://flows.nodered.org/node/@tataille/node-red-french-holidays"
-    },
-    {
-      "id": "node-red-contrib-home-assistant-websocket",
-      "version": "0.49.0",
-      "description": "Node-RED integration with Home Assistant through websocket and REST API",
-      "updated_at": "2023-03-13T21:14:42.523Z",
-      "types": [],
-      "keywords": [
-        "node-red",
-        "home-assistant",
-        "home assistant",
-        "home automation",
-        "websocket"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-home-assistant-websocket"
     },
     {
       "id": "node-red-contrib-aedes",
@@ -25665,26 +25681,6 @@
         "node-red"
       ],
       "url": "https://flows.nodered.org/node/node-red-upload-file-to-box"
-    },
-    {
-      "id": "node-red-contrib-sm-4relind",
-      "version": "1.0.3",
-      "description": "A Node-RED node to control Sequent Microsystems 4Relays-4Inputs Card",
-      "updated_at": "2021-10-22T16:03:08.004Z",
-      "types": [
-        "4relind",
-        "4relindrd",
-        "4relindin"
-      ],
-      "keywords": [
-        "node-red",
-        "node-red-contrib",
-        "i2c",
-        "relay",
-        "optically-coupled-input",
-        "Rapberry-Pi"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-sm-4relind"
     },
     {
       "id": "@datdp88/node-red-contrib-datdp-data-review",
