@@ -1,7 +1,54 @@
 {
   "name": "Catalogue for win32",
-  "updated_at": "2023-04-07T17:30:00.821Z",
+  "updated_at": "2023-04-08T17:59:13.852Z",
   "modules": [
+    {
+      "id": "@moddable-node-red/mcu_restart",
+      "version": "1.0.6",
+      "description": "Restart microcontroller for Node-RED MCU Edition",
+      "updated_at": "2023-04-08T15:06:56.603Z",
+      "types": [
+        "mcu_restart"
+      ],
+      "keywords": [
+        "mcu",
+        "node-red",
+        "node-red-mcu",
+        "restart"
+      ],
+      "url": "https://flows.nodered.org/node/@moddable-node-red/mcu_restart"
+    },
+    {
+      "id": "node-red-contrib-oauth2",
+      "version": "5.0.2",
+      "description": "The node-red-contrib-oauth2 is a Node-RED node that provides an OAuth2 authentication flow. This node uses the OAuth2 protocol to obtain an access token, which can be used to make authenticated API requests.",
+      "updated_at": "2023-04-08T14:00:19.885Z",
+      "types": [
+        "oauth2"
+      ],
+      "keywords": [
+        "node-red",
+        "oauth2",
+        "security"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-oauth2"
+    },
+    {
+      "id": "@programie/node-red-aircon-rac-wf",
+      "version": "1.0.2",
+      "description": "Node-RED nodes for interacting with Mitsubishi Aircon RAC-WF WiFi modules",
+      "updated_at": "2023-04-07T20:01:24.852Z",
+      "types": [
+        "mitsubishi-aircon-getstat",
+        "mitsubishi-aircon-setstat"
+      ],
+      "keywords": [
+        "node-red",
+        "mitsubishi aircon",
+        "rac-wf"
+      ],
+      "url": "https://flows.nodered.org/node/@programie/node-red-aircon-rac-wf"
+    },
     {
       "id": "node-red-contrib-esphome",
       "version": "0.2.0",
@@ -52,21 +99,6 @@
         "ipfs"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-ipfs-client"
-    },
-    {
-      "id": "node-red-contrib-oauth2",
-      "version": "5.0.0",
-      "description": "The node-red-contrib-oauth2 is a Node-RED node that provides an OAuth2 authentication flow. This node uses the OAuth2 protocol to obtain an access token, which can be used to make authenticated API requests.",
-      "updated_at": "2023-04-06T17:56:22.298Z",
-      "types": [
-        "oauth2"
-      ],
-      "keywords": [
-        "node-red",
-        "oauth2",
-        "security"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-oauth2"
     },
     {
       "id": "@ais_automation/node-red-contrib-eqcloud-monitoring",
@@ -728,22 +760,6 @@
         "plc"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-otplc"
-    },
-    {
-      "id": "@programie/node-red-aircon-rac-wf",
-      "version": "1.0.1",
-      "description": "Node-RED nodes for interacting with Mitsubishi Aircon RAC-WF WiFi modules",
-      "updated_at": "2023-04-01T13:59:09.282Z",
-      "types": [
-        "mitsubishi-aircon-getstat",
-        "mitsubishi-aircon-setstat"
-      ],
-      "keywords": [
-        "node-red",
-        "mitsubishi aircon",
-        "rac-wf"
-      ],
-      "url": "https://flows.nodered.org/node/@programie/node-red-aircon-rac-wf"
     },
     {
       "id": "@parasaurolophus/node-red-dnssd",
