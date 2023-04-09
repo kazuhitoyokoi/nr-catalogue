@@ -1,7 +1,222 @@
 {
   "name": "Catalogue for darwin",
-  "updated_at": "2023-04-08T19:37:30.016Z",
+  "updated_at": "2023-04-09T21:07:28.843Z",
   "modules": [
+    {
+      "id": "@jambonz/node-red-contrib-jambonz",
+      "version": "2.3.6",
+      "description": "Node-RED nodes for jambonz platform",
+      "updated_at": "2023-04-09T17:03:07.748Z",
+      "types": [
+        "webhook in",
+        "webhook out",
+        "audio in",
+        "jambonz_auth",
+        "aws_auth",
+        "enqueue",
+        "lex",
+        "say",
+        "dtmf",
+        "cfg",
+        "conference",
+        "gather",
+        "listen",
+        "sip:decline",
+        "sip:request",
+        "sip:refer",
+        "hangup",
+        "message",
+        "tag",
+        "pause",
+        "dequeue",
+        "play",
+        "dial",
+        "redirect",
+        "dialogflow",
+        "leave",
+        "rasa",
+        "user auth",
+        "create-call",
+        "create-sms",
+        "lcc",
+        "get_alerts",
+        "get_calls",
+        "get_recent_calls"
+      ],
+      "keywords": [
+        "node-red"
+      ],
+      "url": "https://flows.nodered.org/node/@jambonz/node-red-contrib-jambonz"
+    },
+    {
+      "id": "@caitken-com/node-red-contrib-daikin-api",
+      "version": "1.0.4",
+      "description": "Daikin Control API",
+      "updated_at": "2023-04-09T13:13:34.597Z",
+      "types": [
+        "daikin-server",
+        "daikin-api"
+      ],
+      "keywords": [
+        "daikin",
+        "airconditioner",
+        "BRP15B61",
+        "node-red"
+      ],
+      "url": "https://flows.nodered.org/node/@caitken-com/node-red-contrib-daikin-api"
+    },
+    {
+      "id": "node-red-contrib-smartnora",
+      "version": "1.18.2",
+      "description": "Google Smart Home integration via Smart Nora https://smart-nora.eu/",
+      "updated_at": "2023-04-09T09:28:56.014Z",
+      "types": [
+        "noraf-ac",
+        "noraf-airpurifier",
+        "noraf-blinds",
+        "noraf-camera",
+        "noraf-charger",
+        "noraf-config",
+        "noraf-doorbell",
+        "noraf-fan",
+        "noraf-garage",
+        "noraf-light",
+        "noraf-lock",
+        "noraf-media",
+        "noraf-notify",
+        "noraf-openclose",
+        "noraf-outlet",
+        "noraf-scene",
+        "noraf-security",
+        "noraf-sensor",
+        "noraf-sousvide",
+        "noraf-speaker",
+        "noraf-sprinkler",
+        "noraf-switch",
+        "noraf-thermostat",
+        "noraf-vacuum",
+        "noraf-async"
+      ],
+      "keywords": [
+        "node-red",
+        "google",
+        "google home",
+        "assistant",
+        "smarthome",
+        "smart",
+        "home",
+        "iot"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-smartnora"
+    },
+    {
+      "id": "node-red-contrib-huemagic-fork",
+      "version": "4.2.7",
+      "description": "Philips Hue node to control bridges, lights, groups, scenes, rules, taps, switches, buttons, motion sensors, temperature sensors and Lux sensors using Node-RED.",
+      "updated_at": "2023-04-09T08:50:23.874Z",
+      "types": [
+        "hue-bridge",
+        "hue-bridge-node",
+        "hue-magic",
+        "hue-light",
+        "hue-group",
+        "hue-scene",
+        "hue-buttons",
+        "hue-motion",
+        "hue-temperature",
+        "hue-brightness",
+        "hue-rules",
+        "hue-dial"
+      ],
+      "keywords": [
+        "node-red",
+        "node-red-contrib",
+        "contrib",
+        "philips",
+        "hue",
+        "smart-home",
+        "home-automation",
+        "api",
+        "iot"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-huemagic-fork"
+    },
+    {
+      "id": "@caitken-com/node-red-contrib-json2mysql",
+      "version": "1.0.5",
+      "description": "JSON to MYSQL",
+      "updated_at": "2023-04-09T06:20:16.293Z",
+      "types": [
+        "json2mysql-server",
+        "json2mysql"
+      ],
+      "keywords": [
+        "mysql",
+        "json",
+        "node-red"
+      ],
+      "url": "https://flows.nodered.org/node/@caitken-com/node-red-contrib-json2mysql"
+    },
+    {
+      "id": "node-contrib-inovelli-status-manager",
+      "version": "0.1.0",
+      "description": "Status manager node for inovelli switch",
+      "updated_at": "2023-04-09T05:35:07.450Z",
+      "types": [
+        "inovelli-status-manager"
+      ],
+      "keywords": [
+        "node-red"
+      ],
+      "url": "https://flows.nodered.org/node/node-contrib-inovelli-status-manager"
+    },
+    {
+      "id": "@cbsanal/node-red-opcua-browse-subscribe",
+      "version": "0.0.4",
+      "description": "A simple node that allows you to browse all child nodes under the topic you enter and subscribe the checked ones.",
+      "updated_at": "2023-04-08T20:05:31.611Z",
+      "types": [
+        "Opcua-Browse-Subscribe",
+        "Opcua-Endpoint-Instance"
+      ],
+      "keywords": [
+        "opcua",
+        "node-opcua",
+        "node-red"
+      ],
+      "url": "https://flows.nodered.org/node/@cbsanal/node-red-opcua-browse-subscribe"
+    },
+    {
+      "id": "node-red-contrib-custom-chatgpt",
+      "version": "1.2.9",
+      "description": "A Node-RED node that interacts with OpenAI machine learning models to generate text and image outputs like 'ChatGPT' and 'DALL·E 2'.",
+      "updated_at": "2023-04-08T19:26:49.362Z",
+      "types": [
+        "chatgpt"
+      ],
+      "keywords": [
+        "node-red",
+        "chatgpt",
+        "nodejs",
+        "javascript",
+        "api",
+        "flow",
+        "npm",
+        "machine-learning",
+        "node",
+        "example",
+        "text-generation",
+        "openai",
+        "image-generation",
+        "code-generation",
+        "conversational-ai",
+        "gpt-3",
+        "gpt-4",
+        "dall-e",
+        "ai"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-custom-chatgpt"
+    },
     {
       "id": "@moddable-node-red/mcu_restart",
       "version": "1.0.6",
@@ -189,52 +404,6 @@
         "node-red"
       ],
       "url": "https://flows.nodered.org/node/@gregoriusrippenstein/node-red-contrib-neuralnet-builder"
-    },
-    {
-      "id": "@jambonz/node-red-contrib-jambonz",
-      "version": "2.3.5",
-      "description": "Node-RED nodes for jambonz platform",
-      "updated_at": "2023-04-05T21:51:52.798Z",
-      "types": [
-        "webhook in",
-        "webhook out",
-        "audio in",
-        "jambonz_auth",
-        "aws_auth",
-        "enqueue",
-        "lex",
-        "say",
-        "dtmf",
-        "cfg",
-        "conference",
-        "gather",
-        "listen",
-        "sip:decline",
-        "sip:request",
-        "sip:refer",
-        "hangup",
-        "message",
-        "tag",
-        "pause",
-        "dequeue",
-        "play",
-        "dial",
-        "redirect",
-        "dialogflow",
-        "leave",
-        "rasa",
-        "user auth",
-        "create-call",
-        "create-sms",
-        "lcc",
-        "get_alerts",
-        "get_calls",
-        "get_recent_calls"
-      ],
-      "keywords": [
-        "node-red"
-      ],
-      "url": "https://flows.nodered.org/node/@jambonz/node-red-contrib-jambonz"
     },
     {
       "id": "node-red-contrib-google-smarthome",
@@ -503,6 +672,38 @@
         "config"
       ],
       "url": "https://flows.nodered.org/node/@waldbaer/node-red-persistent-values"
+    },
+    {
+      "id": "do-red",
+      "version": "0.3.4",
+      "description": "A do-node and corresponding return-node for creating loops and task-lists.",
+      "updated_at": "2023-04-03T12:00:39.272Z",
+      "types": [
+        "do",
+        "__errors__",
+        "do-return",
+        "__errors__"
+      ],
+      "keywords": [
+        "node-red",
+        "nodes",
+        "flow",
+        "loop",
+        "iterate",
+        "collection",
+        "repeat",
+        "tasks",
+        "task-list",
+        "building-plan",
+        "construct",
+        "no-op",
+        "navigate",
+        "navigation",
+        "replace",
+        "append",
+        "rename"
+      ],
+      "url": "https://flows.nodered.org/node/do-red"
     },
     {
       "id": "node-red-contrib-io-key",
@@ -1015,22 +1216,6 @@
       "url": "https://flows.nodered.org/node/node-red-contrib-winccoa"
     },
     {
-      "id": "@caitken-com/node-red-contrib-json2mysql",
-      "version": "1.0.4",
-      "description": "JSON to MYSQL",
-      "updated_at": "2023-03-30T13:59:12.607Z",
-      "types": [
-        "json2mysql-server",
-        "json2mysql"
-      ],
-      "keywords": [
-        "mysql",
-        "json",
-        "node-red"
-      ],
-      "url": "https://flows.nodered.org/node/@caitken-com/node-red-contrib-json2mysql"
-    },
-    {
       "id": "node-red-control-path",
       "version": "1.2.8",
       "description": "Node RED modules for Control Path",
@@ -1058,37 +1243,6 @@
         "node-red"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-haier"
-    },
-    {
-      "id": "node-red-contrib-custom-chatgpt",
-      "version": "1.2.8",
-      "description": "A Node-RED node that interacts with OpenAI machine learning models to generate text and image outputs like 'ChatGPT' and 'DALL·E 2'.",
-      "updated_at": "2023-03-29T21:54:55.757Z",
-      "types": [
-        "chatgpt"
-      ],
-      "keywords": [
-        "node-red",
-        "chatgpt",
-        "nodejs",
-        "javascript",
-        "api",
-        "flow",
-        "npm",
-        "machine-learning",
-        "node",
-        "example",
-        "text-generation",
-        "openai",
-        "image-generation",
-        "code-generation",
-        "conversational-ai",
-        "gpt-3",
-        "gpt-4",
-        "dall-e",
-        "ai"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-custom-chatgpt"
     },
     {
       "id": "node-red-contrib-redplc-ntptime",
@@ -2085,6 +2239,34 @@
       "url": "https://flows.nodered.org/node/node-red-powerbox-dio"
     },
     {
+      "id": "pekfinger-red",
+      "version": "1.0.0-alpha.25",
+      "description": "A web-framework. Basically Svelte for Node-RED. With some sugar.",
+      "updated_at": "2023-03-21T14:26:23.522Z",
+      "types": [
+        "web-entry",
+        "web-page",
+        "__errors__",
+        "web-ressource",
+        "__errors__",
+        "web-event",
+        "web-app",
+        "web-tab"
+      ],
+      "keywords": [
+        "node-red",
+        "svelte",
+        "nodes",
+        "flow",
+        "web",
+        "serve",
+        "app",
+        "webclient",
+        "webserver"
+      ],
+      "url": "https://flows.nodered.org/node/pekfinger-red"
+    },
+    {
       "id": "@autexis/node-red-payload-logger",
       "version": "1.0.1",
       "description": "Node-RED Contribution to log data",
@@ -2129,22 +2311,6 @@
         "stoptimer"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-stoptimer-varidelay"
-    },
-    {
-      "id": "@cbsanal/node-red-opcua-browse-subscribe",
-      "version": "0.0.1",
-      "description": "A simple node that allows you to browse all child nodes under the topic you enter and subscribe the checked ones.",
-      "updated_at": "2023-03-20T18:07:53.654Z",
-      "types": [
-        "Opcua-Browse-Subscribe",
-        "Opcua-Endpoint-Instance"
-      ],
-      "keywords": [
-        "opcua",
-        "node-opcua",
-        "node-red"
-      ],
-      "url": "https://flows.nodered.org/node/@cbsanal/node-red-opcua-browse-subscribe"
     },
     {
       "id": "node-red-contrib-tts-ultimate",
@@ -6135,50 +6301,6 @@
       "url": "https://flows.nodered.org/node/node-red-contrib-cb-arp"
     },
     {
-      "id": "node-red-contrib-smartnora",
-      "version": "1.18.1",
-      "description": "Google Smart Home integration via Smart Nora https://smart-nora.eu/",
-      "updated_at": "2023-01-23T07:49:57.228Z",
-      "types": [
-        "noraf-ac",
-        "noraf-airpurifier",
-        "noraf-blinds",
-        "noraf-camera",
-        "noraf-charger",
-        "noraf-config",
-        "noraf-doorbell",
-        "noraf-fan",
-        "noraf-garage",
-        "noraf-light",
-        "noraf-lock",
-        "noraf-media",
-        "noraf-notify",
-        "noraf-openclose",
-        "noraf-outlet",
-        "noraf-scene",
-        "noraf-security",
-        "noraf-sensor",
-        "noraf-sousvide",
-        "noraf-speaker",
-        "noraf-sprinkler",
-        "noraf-switch",
-        "noraf-thermostat",
-        "noraf-vacuum",
-        "noraf-async"
-      ],
-      "keywords": [
-        "node-red",
-        "google",
-        "google home",
-        "assistant",
-        "smarthome",
-        "smart",
-        "home",
-        "iot"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-smartnora"
-    },
-    {
       "id": "node-red-contrib-pi-plates",
       "version": "0.2.3",
       "description": "control Pi-Plates boards from Node-RED",
@@ -7745,37 +7867,6 @@
         "node-red"
       ],
       "url": "https://flows.nodered.org/node/@vital91/node-red-contrib-ecowatt"
-    },
-    {
-      "id": "node-red-contrib-huemagic-fork",
-      "version": "4.2.6",
-      "description": "Philips Hue node to control bridges, lights, groups, scenes, rules, taps, switches, buttons, motion sensors, temperature sensors and Lux sensors using Node-RED.",
-      "updated_at": "2022-12-28T13:09:06.568Z",
-      "types": [
-        "hue-bridge",
-        "hue-bridge-node",
-        "hue-magic",
-        "hue-light",
-        "hue-group",
-        "hue-scene",
-        "hue-buttons",
-        "hue-motion",
-        "hue-temperature",
-        "hue-brightness",
-        "hue-rules"
-      ],
-      "keywords": [
-        "node-red",
-        "node-red-contrib",
-        "contrib",
-        "philips",
-        "hue",
-        "smart-home",
-        "home-automation",
-        "api",
-        "iot"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-huemagic-fork"
     },
     {
       "id": "node-red-contrib-iosense-lastdpv2",
@@ -9918,34 +10009,6 @@
         "semantic"
       ],
       "url": "https://flows.nodered.org/node/@digitaltwins/node-red-contrib-digital-twin"
-    },
-    {
-      "id": "pekfinger-red",
-      "version": "1.0.0-alpha.20",
-      "description": "A web-framework. Basically Svelte for Node-RED. With some sugar.",
-      "updated_at": "2022-11-17T10:40:04.652Z",
-      "types": [
-        "web-entry",
-        "web-page",
-        "__errors__",
-        "web-ressource",
-        "__errors__",
-        "web-event",
-        "web-app",
-        "web-tab"
-      ],
-      "keywords": [
-        "node-red",
-        "svelte",
-        "nodes",
-        "flow",
-        "web",
-        "serve",
-        "app",
-        "webclient",
-        "webserver"
-      ],
-      "url": "https://flows.nodered.org/node/pekfinger-red"
     },
     {
       "id": "node-red-contrib-controltimer",
@@ -24640,38 +24703,6 @@
       "url": "https://flows.nodered.org/node/node-red-contrib-phoenix-contact"
     },
     {
-      "id": "do-red",
-      "version": "0.3.3",
-      "description": "A do-node and corresponding return-node for creating loops and task-lists.",
-      "updated_at": "2021-12-02T09:16:32.947Z",
-      "types": [
-        "do",
-        "__errors__",
-        "do-return",
-        "__errors__"
-      ],
-      "keywords": [
-        "node-red",
-        "nodes",
-        "flow",
-        "loop",
-        "iterate",
-        "collection",
-        "repeat",
-        "tasks",
-        "task-list",
-        "building-plan",
-        "construct",
-        "no-op",
-        "navigate",
-        "navigation",
-        "replace",
-        "append",
-        "rename"
-      ],
-      "url": "https://flows.nodered.org/node/do-red"
-    },
-    {
       "id": "node-red-contrib-excelsheets",
       "version": "1.1.1",
       "description": "writes multi-sheet excel files",
@@ -30025,19 +30056,6 @@
         "decentralized-execution"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-decentralized-computation"
-    },
-    {
-      "id": "node-contrib-inovelli-status-manager",
-      "version": "0.0.15",
-      "description": "Status manager node for inovelli switch",
-      "updated_at": "2021-06-22T16:59:53.966Z",
-      "types": [
-        "inovelli-status-manager"
-      ],
-      "keywords": [
-        "node-red"
-      ],
-      "url": "https://flows.nodered.org/node/node-contrib-inovelli-status-manager"
     },
     {
       "id": "node-red-contrib-auth-oidc",
