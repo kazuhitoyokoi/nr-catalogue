@@ -1,7 +1,162 @@
 {
   "name": "Catalogue for docker",
-  "updated_at": "2023-04-09T16:17:55.898Z",
+  "updated_at": "2023-04-10T16:27:04.799Z",
   "modules": [
+    {
+      "id": "@gregoriusrippenstein/node-red-contrib-neuralnet-builder",
+      "version": "0.0.4",
+      "description": "Node-RED Nodes for creating Artificial Neural Networks (ANNs) using Node-Red.",
+      "updated_at": "2023-04-10T10:06:36.296Z",
+      "types": [
+        "nnb-backprop",
+        "nnb-trainer"
+      ],
+      "keywords": [
+        "node-red"
+      ],
+      "url": "https://flows.nodered.org/node/@gregoriusrippenstein/node-red-contrib-neuralnet-builder"
+    },
+    {
+      "id": "node-red-contrib-modbus",
+      "version": "5.26.0",
+      "description": "The all in one Modbus TCP and Serial contribution package for Node-RED.",
+      "updated_at": "2023-04-10T06:39:10.891Z",
+      "types": [
+        "modbus-client",
+        "modbus-response",
+        "modbus-read",
+        "modbus-getter",
+        "modbus-flex-getter",
+        "modbus-write",
+        "modbus-flex-write",
+        "modbus-server",
+        "modbus-flex-server",
+        "modbus-queue-info",
+        "modbus-flex-connector",
+        "modbus-io-config",
+        "modbus-response-filter",
+        "modbus-flex-sequencer"
+      ],
+      "keywords": [
+        "node-red",
+        "plusfornodered",
+        "modbus",
+        "automation",
+        "biancoroyal"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-modbus"
+    },
+    {
+      "id": "node-red-contrib-conta-azul-api",
+      "version": "3.0.3",
+      "description": "Conta Azul API wrapper for Node-Red",
+      "updated_at": "2023-04-10T01:18:00.937Z",
+      "types": [
+        "conta-azul"
+      ],
+      "keywords": [
+        "node-red",
+        "conta-azul",
+        "rest-api"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-conta-azul-api"
+    },
+    {
+      "id": "node-red-contrib-environmental-data-simulator",
+      "version": "1.0.2",
+      "description": "The Environmental Data Simulator node in Node-RED simulates data from a variety of environmental sensors commonly used in IoT (Internet of Things) and IIoT (Industrial Internet of Things) applications. The node generates random values within specified ran",
+      "updated_at": "2023-04-09T23:55:51.336Z",
+      "types": [],
+      "keywords": [
+        "node-red",
+        "environmental",
+        "data",
+        "simulator"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-environmental-data-simulator"
+    },
+    {
+      "id": "node-red-contrib-otplc-linux-battery",
+      "version": "0.0.3",
+      "description": "OiyshTerminal plc wrapt linux-battery",
+      "updated_at": "2023-04-09T23:53:12.365Z",
+      "types": [
+        "otplcLinuxBattery"
+      ],
+      "keywords": [
+        "oiyshTerminal",
+        "node-red",
+        "linux",
+        "linux-battery",
+        "otplc",
+        "oit",
+        "plc"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-otplc-linux-battery"
+    },
+    {
+      "id": "node-red-contrib-nibeuplink",
+      "version": "0.3.0",
+      "description": "A Node-Red Node for collecting data from nibe uplink.",
+      "updated_at": "2023-04-09T21:46:36.210Z",
+      "types": [
+        "nibeuplink-config",
+        "nibeuplink"
+      ],
+      "keywords": [
+        "node-red",
+        "nibeuplink",
+        "volund",
+        "vølund"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-nibeuplink"
+    },
+    {
+      "id": "@jambonz/node-red-contrib-jambonz",
+      "version": "2.3.6",
+      "description": "Node-RED nodes for jambonz platform",
+      "updated_at": "2023-04-09T17:03:07.748Z",
+      "types": [
+        "webhook in",
+        "webhook out",
+        "audio in",
+        "jambonz_auth",
+        "aws_auth",
+        "enqueue",
+        "lex",
+        "say",
+        "dtmf",
+        "cfg",
+        "conference",
+        "gather",
+        "listen",
+        "sip:decline",
+        "sip:request",
+        "sip:refer",
+        "hangup",
+        "message",
+        "tag",
+        "pause",
+        "dequeue",
+        "play",
+        "dial",
+        "redirect",
+        "dialogflow",
+        "leave",
+        "rasa",
+        "user auth",
+        "create-call",
+        "create-sms",
+        "lcc",
+        "get_alerts",
+        "get_calls",
+        "get_recent_calls"
+      ],
+      "keywords": [
+        "node-red"
+      ],
+      "url": "https://flows.nodered.org/node/@jambonz/node-red-contrib-jambonz"
+    },
     {
       "id": "@caitken-com/node-red-contrib-daikin-api",
       "version": "1.0.4",
@@ -344,66 +499,6 @@
         "node-red"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-posthog"
-    },
-    {
-      "id": "@gregoriusrippenstein/node-red-contrib-neuralnet-builder",
-      "version": "0.0.2",
-      "description": "Node-RED Nodes for creating Artificial Neural Networks (ANNs) using Node-Red.",
-      "updated_at": "2023-04-06T07:18:46.399Z",
-      "types": [
-        "nnb-backprop",
-        "nnb-trainer"
-      ],
-      "keywords": [
-        "node-red"
-      ],
-      "url": "https://flows.nodered.org/node/@gregoriusrippenstein/node-red-contrib-neuralnet-builder"
-    },
-    {
-      "id": "@jambonz/node-red-contrib-jambonz",
-      "version": "2.3.5",
-      "description": "Node-RED nodes for jambonz platform",
-      "updated_at": "2023-04-05T21:51:52.798Z",
-      "types": [
-        "webhook in",
-        "webhook out",
-        "audio in",
-        "jambonz_auth",
-        "aws_auth",
-        "enqueue",
-        "lex",
-        "say",
-        "dtmf",
-        "cfg",
-        "conference",
-        "gather",
-        "listen",
-        "sip:decline",
-        "sip:request",
-        "sip:refer",
-        "hangup",
-        "message",
-        "tag",
-        "pause",
-        "dequeue",
-        "play",
-        "dial",
-        "redirect",
-        "dialogflow",
-        "leave",
-        "rasa",
-        "user auth",
-        "create-call",
-        "create-sms",
-        "lcc",
-        "get_alerts",
-        "get_calls",
-        "get_recent_calls"
-      ],
-      "keywords": [
-        "node-red"
-      ],
-      "url": "https://flows.nodered.org/node/@jambonz/node-red-contrib-jambonz"
     },
     {
       "id": "node-red-contrib-google-smarthome",
@@ -5354,23 +5449,6 @@
       "url": "https://flows.nodered.org/node/node-red-cipherflow"
     },
     {
-      "id": "node-red-contrib-nibeuplink",
-      "version": "0.2.0",
-      "description": "A Node-Red Node for collecting data from nibe uplink.",
-      "updated_at": "2023-02-05T19:17:12.119Z",
-      "types": [
-        "nibeuplink-config",
-        "nibeuplink"
-      ],
-      "keywords": [
-        "node-red",
-        "nibeuplink",
-        "volund",
-        "vølund"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-nibeuplink"
-    },
-    {
       "id": "@mschaeffler/node-red-logic",
       "version": "0.7.1",
       "description": "nodes for simple operations.",
@@ -8657,36 +8735,6 @@
         "power"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-power-saver"
-    },
-    {
-      "id": "node-red-contrib-modbus",
-      "version": "5.25.0",
-      "description": "The all in one Modbus TCP and Serial contribution package for Node-RED.",
-      "updated_at": "2022-12-09T21:22:59.532Z",
-      "types": [
-        "modbus-client",
-        "modbus-response",
-        "modbus-read",
-        "modbus-getter",
-        "modbus-flex-getter",
-        "modbus-write",
-        "modbus-flex-write",
-        "modbus-server",
-        "modbus-flex-server",
-        "modbus-queue-info",
-        "modbus-flex-connector",
-        "modbus-io-config",
-        "modbus-response-filter",
-        "modbus-flex-sequencer"
-      ],
-      "keywords": [
-        "node-red",
-        "plusfornodered",
-        "modbus",
-        "automation",
-        "biancoroyal"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-modbus"
     },
     {
       "id": "@js-on/node-red-contrib-py3run",
