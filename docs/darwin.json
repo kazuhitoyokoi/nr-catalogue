@@ -1,7 +1,113 @@
 {
   "name": "Catalogue for darwin",
-  "updated_at": "2023-04-10T21:41:06.749Z",
+  "updated_at": "2023-04-11T19:38:40.140Z",
   "modules": [
+    {
+      "id": "@andrei-tatar/node-red-contrib-nibetcp",
+      "version": "1.4.5",
+      "description": "Node-red integration for Nibe S series heatpumps using modbus over TCP",
+      "updated_at": "2023-04-11T15:01:37.975Z",
+      "types": [
+        "nibe-config",
+        "nibe-register"
+      ],
+      "keywords": [
+        "node-red",
+        "modbus",
+        "nibe"
+      ],
+      "url": "https://flows.nodered.org/node/@andrei-tatar/node-red-contrib-nibetcp"
+    },
+    {
+      "id": "node-threshold-control",
+      "version": "0.0.5",
+      "description": "Treshold control",
+      "updated_at": "2023-04-11T14:23:31.346Z",
+      "types": [
+        "threshold-control"
+      ],
+      "keywords": [
+        "node-red",
+        "victron",
+        "threshold control"
+      ],
+      "url": "https://flows.nodered.org/node/node-threshold-control"
+    },
+    {
+      "id": "node-red-contrib-web-worldmap",
+      "version": "2.37.0",
+      "description": "A Node-RED node to provide a web page of a world map for plotting things on.",
+      "updated_at": "2023-04-11T13:56:34.104Z",
+      "types": [
+        "worldmap",
+        "ui_worldmap",
+        "worldmap in",
+        "worldmap-tracks",
+        "worldmap-hull"
+      ],
+      "keywords": [
+        "node-red",
+        "map",
+        "world"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-web-worldmap"
+    },
+    {
+      "id": "node-red-node-stomp",
+      "version": "0.0.14",
+      "description": "A Node-RED node to publish and subscribe to/from a Stomp server",
+      "updated_at": "2023-04-11T13:38:14.588Z",
+      "types": [
+        "stomp in",
+        "stomp out",
+        "stomp-server"
+      ],
+      "keywords": [
+        "node-red",
+        "stomp",
+        "stomp-client"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-node-stomp"
+    },
+    {
+      "id": "node-red-contrib-shelly",
+      "version": "10.13.3",
+      "description": "Shelly nodes.",
+      "updated_at": "2023-04-11T11:58:11.577Z",
+      "types": [
+        "shelly-gen1-server",
+        "shelly-gen1",
+        "shelly-gen2-server",
+        "shelly-gen2",
+        "shelly-cloud-server",
+        "shelly-cloud"
+      ],
+      "keywords": [
+        "node-red",
+        "shelly"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-shelly"
+    },
+    {
+      "id": "@ncd-io/node-red-enterprise-sensors",
+      "version": "0.1.0",
+      "description": "To install navigate inside .node-red directory on a computer with Node-Red already installed. Then run command npm install ncd-red-enerprise-sensors.  To update run command npm update ncd-red-enerprise-sensors.",
+      "updated_at": "2023-04-10T22:26:27.673Z",
+      "types": [
+        "ncd-gateway-node",
+        "ncd-wireless-node",
+        "ncd-gateway-config"
+      ],
+      "keywords": [
+        "Wireless",
+        "NCD",
+        "Sensors",
+        "Digi",
+        "node-red",
+        "enterprise"
+      ],
+      "url": "https://flows.nodered.org/node/@ncd-io/node-red-enterprise-sensors"
+    },
     {
       "id": "node-red-contrib-huemagic-fork",
       "version": "4.2.8",
@@ -69,6 +175,54 @@
         "node-red"
       ],
       "url": "https://flows.nodered.org/node/@gregoriusrippenstein/node-red-contrib-neuralnet-builder"
+    },
+    {
+      "id": "node-red-contrib-myenergi",
+      "version": "1.0.5",
+      "description": "Node-red node to connect to Myenergi products",
+      "updated_at": "2023-04-10T13:23:23.572Z",
+      "types": [
+        "myenergi",
+        "myenergi-api",
+        "getZappiAll",
+        "getZappi",
+        "getEddiAll",
+        "getEddi",
+        "getHarviAll",
+        "getHarvi",
+        "setZappiChargeMode",
+        "setZappiBoostMode",
+        "setZappiGreenLevel"
+      ],
+      "keywords": [
+        "node-red",
+        "myenergi",
+        "zappi",
+        "havi",
+        "eddie",
+        "ev",
+        "charge"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-myenergi"
+    },
+    {
+      "id": "node-red-sensecap-paas",
+      "version": "0.1.3",
+      "description": "SenseCAP PaaS",
+      "updated_at": "2023-04-10T10:04:50.066Z",
+      "types": [
+        "sensecap-config",
+        "OpenStream"
+      ],
+      "keywords": [
+        "node-red",
+        "sensecap",
+        "seeed",
+        "paas",
+        "openstream",
+        "iot"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-sensecap-paas"
     },
     {
       "id": "node-red-contrib-modbus",
@@ -606,25 +760,6 @@
         "ot-sf2n"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-ot-to-status"
-    },
-    {
-      "id": "node-red-contrib-web-worldmap",
-      "version": "2.36.0",
-      "description": "A Node-RED node to provide a web page of a world map for plotting things on.",
-      "updated_at": "2023-04-04T17:59:44.754Z",
-      "types": [
-        "worldmap",
-        "ui_worldmap",
-        "worldmap in",
-        "worldmap-tracks",
-        "worldmap-hull"
-      ],
-      "keywords": [
-        "node-red",
-        "map",
-        "world"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-web-worldmap"
     },
     {
       "id": "eloy-ui-upload",
@@ -1663,25 +1798,6 @@
         "node-red"
       ],
       "url": "https://flows.nodered.org/node/node-red-ubyte-arangodb"
-    },
-    {
-      "id": "node-red-contrib-shelly",
-      "version": "10.13.2",
-      "description": "Shelly nodes.",
-      "updated_at": "2023-03-27T13:26:31.606Z",
-      "types": [
-        "shelly-gen1-server",
-        "shelly-gen1",
-        "shelly-gen2-server",
-        "shelly-gen2",
-        "shelly-cloud-server",
-        "shelly-cloud"
-      ],
-      "keywords": [
-        "node-red",
-        "shelly"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-shelly"
     },
     {
       "id": "@binsoul/node-red-contrib-shelly-pro-3em",
@@ -3369,22 +3485,6 @@
         "timing"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-timed-counter"
-    },
-    {
-      "id": "@andrei-tatar/node-red-contrib-nibetcp",
-      "version": "1.4.1",
-      "description": "Node-red integration for Nibe S series heatpumps using modbus over TCP",
-      "updated_at": "2023-03-03T09:02:02.551Z",
-      "types": [
-        "nibe-config",
-        "nibe-register"
-      ],
-      "keywords": [
-        "node-red",
-        "modbus",
-        "nibe"
-      ],
-      "url": "https://flows.nodered.org/node/@andrei-tatar/node-red-contrib-nibetcp"
     },
     {
       "id": "node-red-contrib-tibber-api",
@@ -12608,32 +12708,6 @@
       "url": "https://flows.nodered.org/node/node-red-contrib-c1-salesforce"
     },
     {
-      "id": "node-red-contrib-myenergi",
-      "version": "1.0.4",
-      "description": "Node-red node to connect to Myenergi products",
-      "updated_at": "2022-09-26T19:22:05.125Z",
-      "types": [
-        "myenergi",
-        "myenergi-api",
-        "getZappiAll",
-        "getZappi",
-        "getEddiAll",
-        "getEddi",
-        "getHarviAll",
-        "getHarvi"
-      ],
-      "keywords": [
-        "node-red",
-        "myenergi",
-        "zappi",
-        "havi",
-        "eddie",
-        "ev",
-        "charge"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-myenergi"
-    },
-    {
       "id": "node-red-contrib-bacnet",
       "version": "0.2.7",
       "description": "The BACnet toolbox package for Node-RED.",
@@ -12950,25 +13024,6 @@
         "node-red"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-ssh-v3"
-    },
-    {
-      "id": "node-red-sensecap-paas",
-      "version": "0.1.2",
-      "description": "SenseCAP PaaS",
-      "updated_at": "2022-09-20T02:53:46.308Z",
-      "types": [
-        "sensecap-config",
-        "OpenStream"
-      ],
-      "keywords": [
-        "node-red",
-        "sensecap",
-        "seeed",
-        "paas",
-        "openstream",
-        "iot"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-sensecap-paas"
     },
     {
       "id": "@yreiser/node-red-contrib-secvest",
@@ -57973,23 +58028,6 @@
         "nodemcu"
       ],
       "url": "https://flows.nodered.org/node/red-contrib-meo-esp-hut"
-    },
-    {
-      "id": "node-red-node-stomp",
-      "version": "0.0.12",
-      "description": "A Node-RED node to publish and subscribe to/from a Stomp server",
-      "updated_at": "2018-11-28T18:43:02.559Z",
-      "types": [
-        "stomp in",
-        "stomp out",
-        "stomp-server"
-      ],
-      "keywords": [
-        "node-red",
-        "stomp",
-        "stomp-client"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-node-stomp"
     },
     {
       "id": "node-red-contrib-viseo-adobe",
