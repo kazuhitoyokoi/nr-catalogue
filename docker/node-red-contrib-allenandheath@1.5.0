@@ -1,0 +1,31 @@
+
+----
+Sending build context to Docker daemon  35.52MB
+Step 1/2 : FROM nodered/node-red
+ ---> a15fc0f4e930
+Step 2/2 : RUN npm install npm install node-red-contrib-allenandheath@1.5.0
+ ---> Running in 760c035db2cd
+
+added 3 packages, and audited 534 packages in 3s
+
+52 packages are looking for funding
+  run `npm fund` for details
+
+9 vulnerabilities (4 low, 1 moderate, 4 high)
+
+To address issues that do not require attention, run:
+  npm audit fix
+
+To address all issues (including breaking changes), run:
+  npm audit fix --force
+
+Run `npm audit` for details.
+[91mnpm[0m[91m [0m[91mnotice[0m[91m 
+[0m[91mnpm[0m[91m notice New major version of npm available! 8.11.0 -> 9.6.4
+[0m[91mnpm[0m[91m [0m[91mnotice Changelog: <https://github.com/npm/cli/releases/tag/v9.6.4>
+npm notice[0m[91m Run `npm install -g npm@9.6.4` to update!
+npm notice[0m[91m 
+[0mRemoving intermediate container 760c035db2cd
+ ---> 9d010851de3c
+Successfully built 9d010851de3c
+Successfully tagged tmp:latest
