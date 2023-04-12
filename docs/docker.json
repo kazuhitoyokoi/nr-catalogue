@@ -1,12 +1,31 @@
 {
   "name": "Catalogue for docker",
-  "updated_at": "2023-04-11T16:15:08.033Z",
+  "updated_at": "2023-04-12T16:14:28.201Z",
   "modules": [
     {
+      "id": "cloud4machine-cloud-nodered",
+      "version": "0.2.45",
+      "description": "A collection of node red nodes to define custom cloud⁴machine flows",
+      "updated_at": "2023-04-12T14:10:38.800Z",
+      "types": [
+        "rule set",
+        "alarm blacklist",
+        "mqtt-cloud-broker",
+        "mqtt cloud in",
+        "mqtt cloud out"
+      ],
+      "keywords": [
+        "node-red",
+        "cloud4machine",
+        "grob-net4industry"
+      ],
+      "url": "https://flows.nodered.org/node/cloud4machine-cloud-nodered"
+    },
+    {
       "id": "node-threshold-control",
-      "version": "0.0.5",
+      "version": "0.0.8",
       "description": "Treshold control",
-      "updated_at": "2023-04-11T14:23:31.346Z",
+      "updated_at": "2023-04-12T11:28:08.170Z",
       "types": [
         "threshold-control"
       ],
@@ -16,6 +35,84 @@
         "threshold control"
       ],
       "url": "https://flows.nodered.org/node/node-threshold-control"
+    },
+    {
+      "id": "node-red-contrib-dashbored",
+      "version": "1.1.3",
+      "description": "A customizable dashboard for NodeRed",
+      "updated_at": "2023-04-12T08:42:31.776Z",
+      "types": [
+        "dashbored-server",
+        "dashbored-widget",
+        "__errors__",
+        "dashbored-dashbored",
+        "dashbored-widget-node",
+        "dashbored-node"
+      ],
+      "keywords": [
+        "node-red",
+        "dashbored",
+        "dashboard",
+        "ui",
+        "website",
+        "web-ui",
+        "control",
+        "touch"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-dashbored"
+    },
+    {
+      "id": "node-red-contrib-allenandheath",
+      "version": "1.5.0",
+      "description": "Allen and Heath Control For Node Red",
+      "updated_at": "2023-04-12T07:20:42.522Z",
+      "types": [
+        "allenandheath-AHNetwork",
+        "allenandheath-MixRack"
+      ],
+      "keywords": [
+        "node-red",
+        "allenandheath",
+        "ilive",
+        "dlive",
+        "allen and heath"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-allenandheath"
+    },
+    {
+      "id": "node-red-contrib-uibuilder",
+      "version": "6.4.0",
+      "description": "Easily create data-driven web UI's for Node-RED using any (or no) front-end library.",
+      "updated_at": "2023-04-11T17:58:41.435Z",
+      "types": [],
+      "keywords": [
+        "node-red",
+        "ui",
+        "gui",
+        "dashboard",
+        "spa",
+        "web",
+        "website",
+        "data-driven",
+        "webpage"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-uibuilder"
+    },
+    {
+      "id": "@andrei-tatar/node-red-contrib-nibetcp",
+      "version": "1.4.5",
+      "description": "Node-red integration for Nibe S series heatpumps using modbus over TCP",
+      "updated_at": "2023-04-11T15:01:37.975Z",
+      "types": [
+        "nibe-config",
+        "nibe-register"
+      ],
+      "keywords": [
+        "node-red",
+        "modbus",
+        "nibe"
+      ],
+      "url": "https://flows.nodered.org/node/@andrei-tatar/node-red-contrib-nibetcp"
     },
     {
       "id": "node-red-contrib-web-worldmap",
@@ -71,6 +168,26 @@
         "shelly"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-shelly"
+    },
+    {
+      "id": "@ncd-io/node-red-enterprise-sensors",
+      "version": "0.1.0",
+      "description": "To install navigate inside .node-red directory on a computer with Node-Red already installed. Then run command npm install ncd-red-enerprise-sensors.  To update run command npm update ncd-red-enerprise-sensors.",
+      "updated_at": "2023-04-10T22:26:27.673Z",
+      "types": [
+        "ncd-gateway-node",
+        "ncd-wireless-node",
+        "ncd-gateway-config"
+      ],
+      "keywords": [
+        "Wireless",
+        "NCD",
+        "Sensors",
+        "Digi",
+        "node-red",
+        "enterprise"
+      ],
+      "url": "https://flows.nodered.org/node/@ncd-io/node-red-enterprise-sensors"
     },
     {
       "id": "node-red-contrib-huemagic-fork",
@@ -641,25 +758,6 @@
       "url": "https://flows.nodered.org/node/node-red-contrib-google-smarthome"
     },
     {
-      "id": "node-red-contrib-uibuilder",
-      "version": "6.3.1",
-      "description": "Easily create data-driven web UI's for Node-RED using any (or no) front-end library.",
-      "updated_at": "2023-04-05T17:32:17.458Z",
-      "types": [],
-      "keywords": [
-        "node-red",
-        "ui",
-        "gui",
-        "dashboard",
-        "spa",
-        "web",
-        "website",
-        "data-driven",
-        "webpage"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-uibuilder"
-    },
-    {
       "id": "node-red-contrib-otplc-battery",
       "version": "0.0.8",
       "description": "To plc battery easy",
@@ -1075,31 +1173,6 @@
         "puppeteer"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-html-to-pdf"
-    },
-    {
-      "id": "node-red-contrib-dashbored",
-      "version": "1.1.0",
-      "description": "A customizable dashboard for NodeRed",
-      "updated_at": "2023-04-02T00:35:46.412Z",
-      "types": [
-        "dashbored-server",
-        "dashbored-widget",
-        "__errors__",
-        "dashbored-dashbored",
-        "dashbored-widget-node",
-        "dashbored-node"
-      ],
-      "keywords": [
-        "node-red",
-        "dashbored",
-        "dashboard",
-        "ui",
-        "website",
-        "web-ui",
-        "control",
-        "touch"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-dashbored"
     },
     {
       "id": "node-red-otplc-linux-sys-class-leds",
@@ -3418,22 +3491,6 @@
       "url": "https://flows.nodered.org/node/node-red-contrib-timed-counter"
     },
     {
-      "id": "@andrei-tatar/node-red-contrib-nibetcp",
-      "version": "1.4.1",
-      "description": "Node-red integration for Nibe S series heatpumps using modbus over TCP",
-      "updated_at": "2023-03-03T09:02:02.551Z",
-      "types": [
-        "nibe-config",
-        "nibe-register"
-      ],
-      "keywords": [
-        "node-red",
-        "modbus",
-        "nibe"
-      ],
-      "url": "https://flows.nodered.org/node/@andrei-tatar/node-red-contrib-nibetcp"
-    },
-    {
       "id": "node-red-contrib-tibber-api",
       "version": "5.2.1",
       "description": "Node Red module for integrating with Tibber api",
@@ -4874,25 +4931,6 @@
         "node-red"
       ],
       "url": "https://flows.nodered.org/node/@chvdapi/node-red-pn6400-di"
-    },
-    {
-      "id": "cloud4machine-cloud-nodered",
-      "version": "0.2.35",
-      "description": "A collection of node red nodes to define custom cloud⁴machine flows",
-      "updated_at": "2023-02-13T12:17:16.525Z",
-      "types": [
-        "rule set",
-        "alarm blacklist",
-        "mqtt-cloud-broker",
-        "mqtt cloud in",
-        "mqtt cloud out"
-      ],
-      "keywords": [
-        "node-red",
-        "cloud4machine",
-        "grob-net4industry"
-      ],
-      "url": "https://flows.nodered.org/node/cloud4machine-cloud-nodered"
     },
     {
       "id": "@jn-se/node-red-contrib-heos",
@@ -25721,24 +25759,6 @@
         "clowire"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-clowire"
-    },
-    {
-      "id": "node-red-contrib-allenandheath",
-      "version": "1.4.2",
-      "description": "Allen and Heath Control For Node Red",
-      "updated_at": "2021-11-04T03:40:34.020Z",
-      "types": [
-        "allenandheath-AHNetwork",
-        "allenandheath-MixRack"
-      ],
-      "keywords": [
-        "node-red",
-        "allenandheath",
-        "ilive",
-        "dlive",
-        "allen and heath"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-allenandheath"
     },
     {
       "id": "node-red-contrib-ring-central",
