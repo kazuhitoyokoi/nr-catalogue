@@ -1,12 +1,291 @@
 {
   "name": "Catalogue for darwin",
-  "updated_at": "2023-04-12T20:04:15.912Z",
+  "updated_at": "2023-04-13T20:39:37.691Z",
   "modules": [
     {
+      "id": "@cameo69/node-red-ratelimit",
+      "version": "0.0.17",
+      "description": "implements rate limit with sliding window",
+      "updated_at": "2023-04-13T17:51:15.112Z",
+      "types": [
+        "rate-limiter"
+      ],
+      "keywords": [
+        "node-red",
+        "ratelimit",
+        "ratelimit",
+        "rate limit",
+        "rate",
+        "delay",
+        "queueing",
+        "burst",
+        "sliding window"
+      ],
+      "url": "https://flows.nodered.org/node/@cameo69/node-red-ratelimit"
+    },
+    {
+      "id": "node-red-contrib-opcua",
+      "version": "0.2.304",
+      "description": "A Node-RED node to communicate via OPC UA based on node-opcua library.",
+      "updated_at": "2023-04-13T16:06:49.211Z",
+      "types": [
+        "OpcUa-Item",
+        "OpcUa-Client",
+        "OpcUa-Browser",
+        "OpcUa-Server",
+        "OpcUa-Endpoint",
+        "OpcUa-Event",
+        "OpcUa-Method",
+        "OpcUa-Rights",
+        "OpcUa-Discovery"
+      ],
+      "keywords": [
+        "node-red",
+        "OPC UA",
+        "opc-ua",
+        "unified automation",
+        "opc foundation",
+        "node-opcua"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-opcua"
+    },
+    {
+      "id": "@ncd-io/node-red-enterprise-sensors",
+      "version": "0.1.1",
+      "description": "You can install this library through the Palette Manager in Node-Red's UI.",
+      "updated_at": "2023-04-13T16:03:32.438Z",
+      "types": [
+        "ncd-gateway-node",
+        "ncd-wireless-node",
+        "ncd-gateway-config"
+      ],
+      "keywords": [
+        "Wireless",
+        "NCD",
+        "Sensors",
+        "Digi",
+        "node-red",
+        "enterprise"
+      ],
+      "url": "https://flows.nodered.org/node/@ncd-io/node-red-enterprise-sensors"
+    },
+    {
+      "id": "nodered-sh1106",
+      "version": "0.1.5",
+      "description": "Node-Red node for controlling OLED SH1106 displays",
+      "updated_at": "2023-04-13T14:29:07.379Z",
+      "types": [
+        "oled-sh1106-config",
+        "StringAtPage"
+      ],
+      "keywords": [
+        "node-red",
+        "sh1106",
+        "oled"
+      ],
+      "url": "https://flows.nodered.org/node/nodered-sh1106"
+    },
+    {
+      "id": "node-red-contrib-snap4city-user",
+      "version": "0.9.44",
+      "description": "Nodes for Snap4city project, targeted to standard user (no developer)",
+      "updated_at": "2023-04-13T14:10:19.530Z",
+      "types": [
+        "service-search-near-marker",
+        "service-search-within-circle",
+        "service-search-within-polygon",
+        "service-search-along-path",
+        "distance-from-coordinates",
+        "point-within-polygon",
+        "routing",
+        "heatmap-picker",
+        "coordinates-to-address",
+        "service-info",
+        "full-text-search-near-marker",
+        "full-text-search-within-circle",
+        "full-text-search-within-polygon",
+        "full-text-search-along-path",
+        "full-text-search-usr",
+        "event-search-near-marker",
+        "event-search-within-circle",
+        "event-search-within-polygon",
+        "event-search-along-path",
+        "event-search-usr",
+        "address-search-near-marker",
+        "geometry-search-near-marker",
+        "address-poi-search-by-text-usr",
+        "address-poi-search-by-text-near-marker",
+        "address-poi-search-by-text-within-circle",
+        "bus-routes-search-near-marker",
+        "bus-routes-search-within-circle",
+        "bus-routes-search-within-polygon",
+        "tpl-agencies",
+        "tpl-lines",
+        "tpl-routes-by-agency",
+        "tpl-routes-by-line",
+        "tpl-stops-by-route",
+        "tpl-stop-timeline",
+        "recommendations-within-circle",
+        "value-type-search-near-marker",
+        "value-type-search-within-circle",
+        "value-type-search-within-polygon",
+        "value-type-search-along-path",
+        "get-access-token",
+        "get-my-data",
+        "get-my-kpidata",
+        "get-delegated-kpidata",
+        "get-public-kpidata",
+        "get-my-kpidata-values",
+        "get-public-kpidata-values",
+        "get-delegated-kpidata-values",
+        "get-my-delegator",
+        "get-my-delegated",
+        "get-my-activity",
+        "delegate-my-kpidata",
+        "get-other-activity-on-my-data",
+        "get-iotapps-using-my-kpidata",
+        "save-my-data",
+        "save-my-kpidata-values",
+        "get-my-annotation",
+        "get-anonymous-data",
+        "get-other-data",
+        "iotdirectory-new-device-from-model",
+        "delegate-my-device",
+        "get-my-devices",
+        "change-visibility-my-device",
+        "change-ownership-my-device",
+        "coordinates-from-map",
+        "impulse-button",
+        "numeric-keyboard",
+        "switch-button",
+        "dimmer",
+        "dashboardEvent",
+        "dashboardDevice",
+        "dashboard-geolocator",
+        "dropdown",
+        "dashboardForm",
+        "gauge-chart",
+        "single-content",
+        "speedometer",
+        "bar-content",
+        "column-content",
+        "web-content",
+        "dashboard-time-trend",
+        "bar-series",
+        "radar-series",
+        "pie-chart",
+        "curved-line-series",
+        "table-content",
+        "speak-synthesis",
+        "selector-to-map",
+        "dashboard-map",
+        "event-driven-my-kpi",
+        "synoptic-read",
+        "synoptic-write",
+        "synoptic-subscribe",
+        "sigfox device filter",
+        "sigfox in",
+        "iotdirectory-get-device",
+        "event-log",
+        "orion-service",
+        "fiware orion in",
+        "fiware orion",
+        "orion-test",
+        "fiware-orion-out",
+        "orion-service-api-v2",
+        "orion-subscribe-api-v2",
+        "orion-query-api-v2",
+        "orion-update-api-v2",
+        "orion-out-api-v2",
+        "orion-service-v22",
+        "fiware-orion-in-v22",
+        "fiware-orion-query-v22",
+        "fiware-orion-out-v22",
+        "orion-service-v2",
+        "fiware-orion-in-v2",
+        "fiware-orion-query-v2",
+        "fiware-orion-out-v2",
+        "show-micro-web-app",
+        "show-general-iframe",
+        "twitter-last-channel",
+        "twitter-last-tweet",
+        "snap4city-authentication",
+        "snap4all-button"
+      ],
+      "keywords": [
+        "node-red",
+        "smartcity",
+        "iot"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-snap4city-user"
+    },
+    {
+      "id": "node-red-contrib-ngsi-ld",
+      "version": "0.1.0",
+      "description": "Node-RED implementation for NGSI-LD",
+      "updated_at": "2023-04-13T13:19:46.763Z",
+      "types": [
+        "NGSI-LD Entity",
+        "NGSI-LD entities",
+        "NGSI-LD entity attributes",
+        "NGSI-LD entity attribute",
+        "NGSI-LD Batch operations",
+        "NGSI-LD broker version"
+      ],
+      "keywords": [
+        "node-red",
+        "contrib",
+        "fiware",
+        "ngsi",
+        "context",
+        "process",
+        "data",
+        "json"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-ngsi-ld"
+    },
+    {
+      "id": "node-red-contrib-ads-application",
+      "version": "0.1.2",
+      "description": "node-red-contrib-ads-client application extention",
+      "updated_at": "2023-04-13T10:07:04.620Z",
+      "types": [
+        "ads-beckhoff-devicemanager",
+        "ads-logger"
+      ],
+      "keywords": [
+        "node-red",
+        "ADS",
+        "Beckhoff",
+        "TwinCat",
+        "plc",
+        "MDP",
+        "IPC"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-ads-application"
+    },
+    {
+      "id": "@gotillit/tillit-node-red",
+      "version": "1.1.10",
+      "description": "A TilliT node for Node-RED",
+      "updated_at": "2023-04-13T10:00:49.669Z",
+      "types": [
+        "tillit-node-connection",
+        "tillit-out",
+        "tillit-in",
+        "tillit-api"
+      ],
+      "keywords": [
+        "node-red",
+        "tillit"
+      ],
+      "url": "https://flows.nodered.org/node/@gotillit/tillit-node-red"
+    },
+    {
       "id": "cloud4machine-cloud-nodered",
-      "version": "0.2.45",
+      "version": "0.2.46",
       "description": "A collection of node red nodes to define custom cloud⁴machine flows",
-      "updated_at": "2023-04-12T14:10:38.800Z",
+      "updated_at": "2023-04-13T08:47:12.135Z",
       "types": [
         "rule set",
         "alarm blacklist",
@@ -20,6 +299,60 @@
         "grob-net4industry"
       ],
       "url": "https://flows.nodered.org/node/cloud4machine-cloud-nodered"
+    },
+    {
+      "id": "node-red-contrib-conta-azul-api",
+      "version": "3.0.6",
+      "description": "Conta Azul API wrapper for Node-Red",
+      "updated_at": "2023-04-13T04:26:18.516Z",
+      "types": [
+        "conta-azul"
+      ],
+      "keywords": [
+        "node-red",
+        "conta-azul",
+        "rest-api"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-conta-azul-api"
+    },
+    {
+      "id": "node-red-contrib-nibeuplink",
+      "version": "0.3.1",
+      "description": "A Node-Red Node for collecting data from nibe uplink.",
+      "updated_at": "2023-04-12T20:21:16.786Z",
+      "types": [
+        "nibeuplink-config",
+        "nibeuplink"
+      ],
+      "keywords": [
+        "node-red",
+        "nibeuplink",
+        "volund",
+        "vølund"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-nibeuplink"
+    },
+    {
+      "id": "@realsixi/node-red-contrib-ring-alarm",
+      "version": "0.0.19",
+      "description": "Unofficial Node-Red nodes to interact with Ring Alarm System and Ring Cameras.",
+      "updated_at": "2023-04-12T20:03:29.196Z",
+      "types": [
+        "Device Listener",
+        "Alarm Mode Listener",
+        "Camera Motion",
+        "Alarm Status",
+        "Alarm Mode",
+        "Camera",
+        "ring-config"
+      ],
+      "keywords": [
+        "node-red",
+        "ring",
+        "ring alarm",
+        "ring camera"
+      ],
+      "url": "https://flows.nodered.org/node/@realsixi/node-red-contrib-ring-alarm"
     },
     {
       "id": "node-threshold-control",
@@ -170,26 +503,6 @@
       "url": "https://flows.nodered.org/node/node-red-contrib-shelly"
     },
     {
-      "id": "@ncd-io/node-red-enterprise-sensors",
-      "version": "0.1.0",
-      "description": "To install navigate inside .node-red directory on a computer with Node-Red already installed. Then run command npm install ncd-red-enerprise-sensors.  To update run command npm update ncd-red-enerprise-sensors.",
-      "updated_at": "2023-04-10T22:26:27.673Z",
-      "types": [
-        "ncd-gateway-node",
-        "ncd-wireless-node",
-        "ncd-gateway-config"
-      ],
-      "keywords": [
-        "Wireless",
-        "NCD",
-        "Sensors",
-        "Digi",
-        "node-red",
-        "enterprise"
-      ],
-      "url": "https://flows.nodered.org/node/@ncd-io/node-red-enterprise-sensors"
-    },
-    {
       "id": "node-red-contrib-huemagic-fork",
       "version": "4.2.8",
       "description": "Philips Hue node to control bridges, lights, groups, scenes, rules, taps, tap dial, switches, buttons, motion sensors, temperature sensors and Lux sensors using Node-RED.",
@@ -256,6 +569,22 @@
         "node-red"
       ],
       "url": "https://flows.nodered.org/node/@gregoriusrippenstein/node-red-contrib-neuralnet-builder"
+    },
+    {
+      "id": "node-red-contrib-mongodb4",
+      "version": "2.0.0",
+      "description": "A MongoDB node for Node-Red without limitations.",
+      "updated_at": "2023-04-10T14:32:17.878Z",
+      "types": [
+        "mongodb4-client",
+        "mongodb4"
+      ],
+      "keywords": [
+        "node-red",
+        "nodes",
+        "mongodb"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-mongodb4"
     },
     {
       "id": "node-red-contrib-myenergi",
@@ -336,21 +665,6 @@
       "url": "https://flows.nodered.org/node/node-red-contrib-modbus"
     },
     {
-      "id": "node-red-contrib-conta-azul-api",
-      "version": "3.0.3",
-      "description": "Conta Azul API wrapper for Node-Red",
-      "updated_at": "2023-04-10T01:18:00.937Z",
-      "types": [
-        "conta-azul"
-      ],
-      "keywords": [
-        "node-red",
-        "conta-azul",
-        "rest-api"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-conta-azul-api"
-    },
-    {
       "id": "node-red-contrib-environmental-data-simulator",
       "version": "1.0.2",
       "description": "The Environmental Data Simulator node in Node-RED simulates data from a variety of environmental sensors commonly used in IoT (Internet of Things) and IIoT (Industrial Internet of Things) applications. The node generates random values within specified ran",
@@ -363,23 +677,6 @@
         "simulator"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-environmental-data-simulator"
-    },
-    {
-      "id": "node-red-contrib-nibeuplink",
-      "version": "0.3.0",
-      "description": "A Node-Red Node for collecting data from nibe uplink.",
-      "updated_at": "2023-04-09T21:46:36.210Z",
-      "types": [
-        "nibeuplink-config",
-        "nibeuplink"
-      ],
-      "keywords": [
-        "node-red",
-        "nibeuplink",
-        "volund",
-        "vølund"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-nibeuplink"
     },
     {
       "id": "@jambonz/node-red-contrib-jambonz",
@@ -792,25 +1089,6 @@
       "url": "https://flows.nodered.org/node/ui-upload-mf"
     },
     {
-      "id": "node-red-contrib-ads-application",
-      "version": "0.1.0",
-      "description": "node-red-contrib-ads-client application extention",
-      "updated_at": "2023-04-05T08:52:18.587Z",
-      "types": [
-        "ads-beckhoff-devicemanager"
-      ],
-      "keywords": [
-        "node-red",
-        "ADS",
-        "Beckhoff",
-        "TwinCat",
-        "plc",
-        "MDP",
-        "IPC"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-ads-application"
-    },
-    {
       "id": "node-red-contrib-ot-to-status",
       "version": "0.0.5",
       "description": "To display set key from msg in status of node",
@@ -1140,23 +1418,6 @@
         "home automation"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-ical-events"
-    },
-    {
-      "id": "@gotillit/tillit-node-red",
-      "version": "1.1.4",
-      "description": "A TilliT node for Node-RED",
-      "updated_at": "2023-04-02T10:38:29.162Z",
-      "types": [
-        "tillit-node-connection",
-        "tillit-out",
-        "tillit-in",
-        "tillit-api"
-      ],
-      "keywords": [
-        "node-red",
-        "tillit"
-      ],
-      "url": "https://flows.nodered.org/node/@gotillit/tillit-node-red"
     },
     {
       "id": "node-red-contrib-html-to-pdf",
@@ -1556,27 +1817,6 @@
       "url": "https://flows.nodered.org/node/node-red-contrib-iiot-ntptime"
     },
     {
-      "id": "@cameo69/node-red-ratelimit",
-      "version": "0.0.13",
-      "description": "implements rate limit with sliding window",
-      "updated_at": "2023-03-29T12:30:50.731Z",
-      "types": [
-        "rate-limiter"
-      ],
-      "keywords": [
-        "node-red",
-        "ratelimit",
-        "ratelimit",
-        "rate limit",
-        "rate",
-        "delay",
-        "queueing",
-        "burst",
-        "sliding window"
-      ],
-      "url": "https://flows.nodered.org/node/@cameo69/node-red-ratelimit"
-    },
-    {
       "id": "@ba47/node-red-preferred-language",
       "version": "0.6.4",
       "description": "Determine preferred language from browser's Accept-Language.",
@@ -1793,32 +2033,6 @@
         "whois-parser"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-whois-parser"
-    },
-    {
-      "id": "node-red-contrib-opcua",
-      "version": "0.2.303",
-      "description": "A Node-RED node to communicate via OPC UA based on node-opcua library.",
-      "updated_at": "2023-03-27T16:36:04.507Z",
-      "types": [
-        "OpcUa-Item",
-        "OpcUa-Client",
-        "OpcUa-Browser",
-        "OpcUa-Server",
-        "OpcUa-Endpoint",
-        "OpcUa-Event",
-        "OpcUa-Method",
-        "OpcUa-Rights",
-        "OpcUa-Discovery"
-      ],
-      "keywords": [
-        "node-red",
-        "OPC UA",
-        "opc-ua",
-        "unified automation",
-        "opc foundation",
-        "node-opcua"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-opcua"
     },
     {
       "id": "node-red-ubyte-arangodb",
@@ -5771,140 +5985,6 @@
       "url": "https://flows.nodered.org/node/node-red-contrib-multipart-stream-decoder"
     },
     {
-      "id": "node-red-contrib-snap4city-user",
-      "version": "0.9.43",
-      "description": "Nodes for Snap4city project, targeted to standard user (no developer)",
-      "updated_at": "2023-02-03T15:10:38.410Z",
-      "types": [
-        "service-search-near-marker",
-        "service-search-within-circle",
-        "service-search-within-polygon",
-        "service-search-along-path",
-        "distance-from-coordinates",
-        "point-within-polygon",
-        "routing",
-        "heatmap-picker",
-        "coordinates-to-address",
-        "service-info",
-        "full-text-search-near-marker",
-        "full-text-search-within-circle",
-        "full-text-search-within-polygon",
-        "full-text-search-along-path",
-        "full-text-search-usr",
-        "event-search-near-marker",
-        "event-search-within-circle",
-        "event-search-within-polygon",
-        "event-search-along-path",
-        "event-search-usr",
-        "address-search-near-marker",
-        "geometry-search-near-marker",
-        "address-poi-search-by-text-usr",
-        "address-poi-search-by-text-near-marker",
-        "address-poi-search-by-text-within-circle",
-        "bus-routes-search-near-marker",
-        "bus-routes-search-within-circle",
-        "bus-routes-search-within-polygon",
-        "tpl-agencies",
-        "tpl-lines",
-        "tpl-routes-by-agency",
-        "tpl-routes-by-line",
-        "tpl-stops-by-route",
-        "tpl-stop-timeline",
-        "recommendations-within-circle",
-        "value-type-search-near-marker",
-        "value-type-search-within-circle",
-        "value-type-search-within-polygon",
-        "value-type-search-along-path",
-        "get-access-token",
-        "get-my-data",
-        "get-my-kpidata",
-        "get-delegated-kpidata",
-        "get-public-kpidata",
-        "get-my-kpidata-values",
-        "get-public-kpidata-values",
-        "get-delegated-kpidata-values",
-        "get-my-delegator",
-        "get-my-delegated",
-        "get-my-activity",
-        "delegate-my-kpidata",
-        "get-other-activity-on-my-data",
-        "get-iotapps-using-my-kpidata",
-        "save-my-data",
-        "save-my-kpidata-values",
-        "get-my-annotation",
-        "get-anonymous-data",
-        "get-other-data",
-        "iotdirectory-new-device-from-model",
-        "delegate-my-device",
-        "get-my-devices",
-        "change-visibility-my-device",
-        "change-ownership-my-device",
-        "coordinates-from-map",
-        "impulse-button",
-        "numeric-keyboard",
-        "switch-button",
-        "dimmer",
-        "dashboardEvent",
-        "dashboardDevice",
-        "dashboard-geolocator",
-        "dropdown",
-        "dashboardForm",
-        "gauge-chart",
-        "single-content",
-        "speedometer",
-        "bar-content",
-        "column-content",
-        "web-content",
-        "dashboard-time-trend",
-        "bar-series",
-        "radar-series",
-        "pie-chart",
-        "curved-line-series",
-        "table-content",
-        "speak-synthesis",
-        "selector-to-map",
-        "dashboard-map",
-        "event-driven-my-kpi",
-        "synoptic-read",
-        "synoptic-write",
-        "synoptic-subscribe",
-        "sigfox device filter",
-        "sigfox in",
-        "iotdirectory-get-device",
-        "event-log",
-        "orion-service",
-        "fiware orion in",
-        "fiware orion",
-        "orion-test",
-        "fiware-orion-out",
-        "orion-service-api-v2",
-        "orion-subscribe-api-v2",
-        "orion-query-api-v2",
-        "orion-update-api-v2",
-        "orion-out-api-v2",
-        "orion-service-v22",
-        "fiware-orion-in-v22",
-        "fiware-orion-query-v22",
-        "fiware-orion-out-v22",
-        "orion-service-v2",
-        "fiware-orion-in-v2",
-        "fiware-orion-query-v2",
-        "fiware-orion-out-v2",
-        "show-micro-web-app",
-        "show-general-iframe",
-        "twitter-last-channel",
-        "twitter-last-tweet",
-        "snap4city-authentication",
-        "snap4all-button"
-      ],
-      "keywords": [
-        "node-red",
-        "smartcity",
-        "iot"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-snap4city-user"
-    },
-    {
       "id": "node-red-contrib-foxtrotnode",
       "version": "1.2.1",
       "description": "A set of nodes to control Tecomat Foxtrot PLC variables",
@@ -5921,22 +6001,6 @@
         "plc"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-foxtrotnode"
-    },
-    {
-      "id": "node-red-contrib-mongodb4",
-      "version": "1.10.0",
-      "description": "A MongoDB node for Node-Red without limitations.",
-      "updated_at": "2023-02-02T21:04:56.711Z",
-      "types": [
-        "mongodb4-client",
-        "mongodb4"
-      ],
-      "keywords": [
-        "node-red",
-        "nodes",
-        "mongodb"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-mongodb4"
     },
     {
       "id": "node-red-contrib-dataprobe-iboot",
@@ -11808,28 +11872,6 @@
         "node-red"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-rollun-query-from-table"
-    },
-    {
-      "id": "@realsixi/node-red-contrib-ring-alarm",
-      "version": "0.0.18",
-      "description": "Unofficial Node-Red nodes to interact with Ring Alarm System and Ring Cameras.",
-      "updated_at": "2022-10-15T09:56:03.496Z",
-      "types": [
-        "Device Listener",
-        "Alarm Mode Listener",
-        "Camera Motion",
-        "Alarm Status",
-        "Alarm Mode",
-        "Camera",
-        "ring-config"
-      ],
-      "keywords": [
-        "node-red",
-        "ring",
-        "ring alarm",
-        "ring camera"
-      ],
-      "url": "https://flows.nodered.org/node/@realsixi/node-red-contrib-ring-alarm"
     },
     {
       "id": "node-red-contrib-c1-salesforce2",
@@ -46162,22 +46204,6 @@
         "emulator"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-amazon-echo-ext"
-    },
-    {
-      "id": "nodered-sh1106",
-      "version": "0.1.2",
-      "description": "Node-Red node for controlling OLED SH1106 displays",
-      "updated_at": "2020-03-03T16:15:52.920Z",
-      "types": [
-        "oled-config",
-        "StringAtPage"
-      ],
-      "keywords": [
-        "node-red",
-        "sh1106",
-        "oled"
-      ],
-      "url": "https://flows.nodered.org/node/nodered-sh1106"
     },
     {
       "id": "node-red-contrib-geofox-api",
