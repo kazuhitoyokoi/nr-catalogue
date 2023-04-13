@@ -1,0 +1,31 @@
+
+----
+Sending build context to Docker daemon  36.38MB
+Step 1/2 : FROM nodered/node-red
+ ---> a15fc0f4e930
+Step 2/2 : RUN npm install npm install @realsixi/node-red-contrib-ring-alarm@0.0.19
+ ---> Running in b17f1679a5ad
+
+added 132 packages, changed 1 package, and audited 663 packages in 18s
+
+61 packages are looking for funding
+  run `npm fund` for details
+
+9 vulnerabilities (4 low, 1 moderate, 4 high)
+
+To address issues that do not require attention, run:
+  npm audit fix
+
+To address all issues (including breaking changes), run:
+  npm audit fix --force
+
+Run `npm audit` for details.
+[91mnpm notice[0m[91m 
+npm notice New major version of npm available! 8.11.0 -> 9.6.4
+npm notice Changelog: <https://github.com/npm/cli/releases/tag/v9.6.4>
+npm notice Run `npm install -g npm@9.6.4` to update!
+npm notice[0m[91m 
+[0mRemoving intermediate container b17f1679a5ad
+ ---> 587b997dd41d
+Successfully built 587b997dd41d
+Successfully tagged tmp:latest
