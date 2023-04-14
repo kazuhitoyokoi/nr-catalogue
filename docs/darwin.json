@@ -1,7 +1,83 @@
 {
   "name": "Catalogue for darwin",
-  "updated_at": "2023-04-13T20:39:37.691Z",
+  "updated_at": "2023-04-14T21:13:43.721Z",
   "modules": [
+    {
+      "id": "node-red-contrib-web-worldmap",
+      "version": "2.37.1",
+      "description": "A Node-RED node to provide a web page of a world map for plotting things on.",
+      "updated_at": "2023-04-14T17:44:39.235Z",
+      "types": [
+        "worldmap",
+        "ui_worldmap",
+        "worldmap in",
+        "worldmap-tracks",
+        "worldmap-hull"
+      ],
+      "keywords": [
+        "node-red",
+        "map",
+        "world"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-web-worldmap"
+    },
+    {
+      "id": "node-red-contrib-ngsi-ld",
+      "version": "0.2.0",
+      "description": "Node-RED implementation for NGSI-LD",
+      "updated_at": "2023-04-14T13:20:48.324Z",
+      "types": [
+        "NGSI-LD Entity",
+        "NGSI-LD entities",
+        "NGSI-LD entity attributes",
+        "NGSI-LD entity attribute",
+        "NGSI-LD Batch operations",
+        "NGSI-LD broker",
+        "NGSI-LD broker version"
+      ],
+      "keywords": [
+        "node-red",
+        "contrib",
+        "fiware",
+        "ngsi",
+        "context",
+        "process",
+        "data",
+        "json"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-ngsi-ld"
+    },
+    {
+      "id": "node-red-contrib-conta-azul-api",
+      "version": "3.0.7",
+      "description": "Conta Azul API wrapper for Node-Red",
+      "updated_at": "2023-04-14T11:15:04.836Z",
+      "types": [
+        "conta-azul"
+      ],
+      "keywords": [
+        "node-red",
+        "conta-azul",
+        "rest-api"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-conta-azul-api"
+    },
+    {
+      "id": "node-red-contrib-posthog",
+      "version": "1.1.0",
+      "description": "Posthog integration for Node-RED",
+      "updated_at": "2023-04-13T20:35:29.653Z",
+      "types": [
+        "posthog-capture",
+        "posthog-project",
+        "posthog-identify",
+        "posthog-group"
+      ],
+      "keywords": [
+        "node-red"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-posthog"
+    },
     {
       "id": "@cameo69/node-red-ratelimit",
       "version": "0.0.17",
@@ -220,31 +296,6 @@
       "url": "https://flows.nodered.org/node/node-red-contrib-snap4city-user"
     },
     {
-      "id": "node-red-contrib-ngsi-ld",
-      "version": "0.1.0",
-      "description": "Node-RED implementation for NGSI-LD",
-      "updated_at": "2023-04-13T13:19:46.763Z",
-      "types": [
-        "NGSI-LD Entity",
-        "NGSI-LD entities",
-        "NGSI-LD entity attributes",
-        "NGSI-LD entity attribute",
-        "NGSI-LD Batch operations",
-        "NGSI-LD broker version"
-      ],
-      "keywords": [
-        "node-red",
-        "contrib",
-        "fiware",
-        "ngsi",
-        "context",
-        "process",
-        "data",
-        "json"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-ngsi-ld"
-    },
-    {
       "id": "node-red-contrib-ads-application",
       "version": "0.1.2",
       "description": "node-red-contrib-ads-client application extention",
@@ -299,21 +350,6 @@
         "grob-net4industry"
       ],
       "url": "https://flows.nodered.org/node/cloud4machine-cloud-nodered"
-    },
-    {
-      "id": "node-red-contrib-conta-azul-api",
-      "version": "3.0.6",
-      "description": "Conta Azul API wrapper for Node-Red",
-      "updated_at": "2023-04-13T04:26:18.516Z",
-      "types": [
-        "conta-azul"
-      ],
-      "keywords": [
-        "node-red",
-        "conta-azul",
-        "rest-api"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-conta-azul-api"
     },
     {
       "id": "node-red-contrib-nibeuplink",
@@ -446,25 +482,6 @@
         "nibe"
       ],
       "url": "https://flows.nodered.org/node/@andrei-tatar/node-red-contrib-nibetcp"
-    },
-    {
-      "id": "node-red-contrib-web-worldmap",
-      "version": "2.37.0",
-      "description": "A Node-RED node to provide a web page of a world map for plotting things on.",
-      "updated_at": "2023-04-11T13:56:34.104Z",
-      "types": [
-        "worldmap",
-        "ui_worldmap",
-        "worldmap in",
-        "worldmap-tracks",
-        "worldmap-hull"
-      ],
-      "keywords": [
-        "node-red",
-        "map",
-        "world"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-web-worldmap"
     },
     {
       "id": "node-red-node-stomp",
@@ -1018,22 +1035,6 @@
         "udp"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-nvl"
-    },
-    {
-      "id": "node-red-contrib-posthog",
-      "version": "1.0.1",
-      "description": "Posthog integration for Node-RED",
-      "updated_at": "2023-04-06T08:17:00.067Z",
-      "types": [
-        "posthog-capture",
-        "posthog-project",
-        "posthog-identify",
-        "posthog-group"
-      ],
-      "keywords": [
-        "node-red"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-posthog"
     },
     {
       "id": "node-red-contrib-google-smarthome",
