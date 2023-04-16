@@ -1,0 +1,34 @@
+
+----
+Sending build context to Docker daemon  35.82MB
+Step 1/2 : FROM nodered/node-red
+ ---> a15fc0f4e930
+Step 2/2 : RUN npm install npm install node-red-contrib-ale-rainbow@1.82.6
+ ---> Running in bc083056bb57
+[91mnpm[0m[91m [0m[91mWARN[0m[91m [0m[91mdeprecated[0m[91m har-validator@5.1.5: this library is no longer supported
+[0m[91mnpm[0m[91m [0m[91mWARN[0m[91m [0m[91mdeprecated uuid@3.4.0: Please upgrade  to version 7 or higher.  Older versions may use Math.random() in certain circumstances, which is known to be problematic.  See https://v8.dev/blog/math-random for details.
+[0m[91mnpm WARN deprecated request@2.88.2: request has been deprecated, see https://github.com/request/request/issues/3142
+[0m
+added 451 packages, changed 3 packages, and audited 982 packages in 27s
+
+117 packages are looking for funding
+  run `npm fund` for details
+
+25 vulnerabilities (4 low, 8 moderate, 13 high)
+
+To address issues that do not require attention, run:
+  npm audit fix
+
+To address all issues (including breaking changes), run:
+  npm audit fix --force
+
+Run `npm audit` for details.
+[91mnpm[0m[91m [0m[91mnotice[0m[91m 
+[0m[91mnpm[0m[91m [0m[91mnotice[0m[91m New major version of npm available! 8.11.0 -> 9.6.4
+[0m[91mnpm[0m[91m [0m[91mnotice[0m[91m Changelog: <https://github.com/npm/cli/releases/tag/v9.6.4>
+[0m[91mnpm[0m[91m [0m[91mnotice[0m[91m Run `npm install -g npm@9.6.4` to update!
+[0m[91mnpm[0m[91m [0m[91mnotice[0m[91m 
+[0mRemoving intermediate container bc083056bb57
+ ---> 3268788de3f5
+Successfully built 3268788de3f5
+Successfully tagged tmp:latest
