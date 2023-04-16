@@ -1,7 +1,101 @@
 {
   "name": "Catalogue for verified nodes",
-  "updated_at": "2023-04-15T20:47:56.320Z",
+  "updated_at": "2023-04-16T19:42:25.770Z",
   "modules": [
+    {
+      "id": "node-red-contrib-uibuilder",
+      "version": "6.4.1",
+      "description": "Easily create data-driven web UI's for Node-RED using any (or no) front-end library.",
+      "updated_at": "2023-04-16T13:25:10.549Z",
+      "types": [],
+      "keywords": [
+        "node-red",
+        "ui",
+        "gui",
+        "dashboard",
+        "spa",
+        "web",
+        "website",
+        "data-driven",
+        "webpage"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-uibuilder"
+    },
+    {
+      "id": "node-red-contrib-vallox",
+      "version": "0.1.6",
+      "description": "Vallox node for serial RS485 protocol.",
+      "updated_at": "2023-04-16T13:18:15.809Z",
+      "types": [
+        "valloxrx",
+        "valloxtx"
+      ],
+      "keywords": [
+        "node-red",
+        "vallox"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-vallox"
+    },
+    {
+      "id": "node-red-contrib-conta-azul-api",
+      "version": "3.0.9",
+      "description": "Conta Azul API wrapper for Node-Red",
+      "updated_at": "2023-04-16T13:15:46.487Z",
+      "types": [
+        "conta-azul"
+      ],
+      "keywords": [
+        "node-red",
+        "conta-azul",
+        "rest-api"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-conta-azul-api"
+    },
+    {
+      "id": "node-red-contrib-tuya-smart-device",
+      "version": "5.1.0",
+      "description": "A node-red module to interact with the tuya smart devices",
+      "updated_at": "2023-04-16T13:06:22.558Z",
+      "types": [
+        "tuya-smart-device",
+        "tuya-smart-device-generic"
+      ],
+      "keywords": [
+        "node-red"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-tuya-smart-device"
+    },
+    {
+      "id": "node-red-contrib-ale-rainbow",
+      "version": "1.82.6",
+      "description": "Alcatel-Lucent Enterprise Rainbow Nodes for Node Red",
+      "updated_at": "2023-04-15T08:28:52.277Z",
+      "types": [
+        "Login",
+        "Send_IM",
+        "Notified_IM",
+        "Notified_Event",
+        "event-select",
+        "Notified_IM_Read",
+        "Ack_IM_Read",
+        "Notified_Presence",
+        "Set_Presence",
+        "CnxState",
+        "Send_Channel",
+        "Notified_Channel",
+        "Rainbow_function"
+      ],
+      "keywords": [
+        "node-red",
+        "rainbow",
+        "cloud",
+        "IoT",
+        "IM",
+        "chat",
+        "presence"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-ale-rainbow"
+    },
     {
       "id": "node-red-contrib-custom-chatgpt",
       "version": "1.2.10",
@@ -77,21 +171,6 @@
         "json"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-ngsi-ld"
-    },
-    {
-      "id": "node-red-contrib-conta-azul-api",
-      "version": "3.0.7",
-      "description": "Conta Azul API wrapper for Node-Red",
-      "updated_at": "2023-04-14T11:15:04.836Z",
-      "types": [
-        "conta-azul"
-      ],
-      "keywords": [
-        "node-red",
-        "conta-azul",
-        "rest-api"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-conta-azul-api"
     },
     {
       "id": "node-red-contrib-posthog",
@@ -478,25 +557,6 @@
         "allen and heath"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-allenandheath"
-    },
-    {
-      "id": "node-red-contrib-uibuilder",
-      "version": "6.4.0",
-      "description": "Easily create data-driven web UI's for Node-RED using any (or no) front-end library.",
-      "updated_at": "2023-04-11T17:58:41.435Z",
-      "types": [],
-      "keywords": [
-        "node-red",
-        "ui",
-        "gui",
-        "dashboard",
-        "spa",
-        "web",
-        "website",
-        "data-driven",
-        "webpage"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-uibuilder"
     },
     {
       "id": "@andrei-tatar/node-red-contrib-nibetcp",
@@ -1584,6 +1644,32 @@
         "mclimate"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-mclimate"
+    },
+    {
+      "id": "shuttle-red",
+      "version": "0.2.1",
+      "description": "Start and control Node-RED instances from Node-RED itself.",
+      "updated_at": "2023-03-31T11:10:53.840Z",
+      "types": [
+        "shuttle-control",
+        "__errors__",
+        "shuttle-runtime",
+        "__errors__",
+        "shuttle-receive",
+        "__errors__",
+        "shuttle-send",
+        "__errors__"
+      ],
+      "keywords": [
+        "node-red",
+        "nodes",
+        "flow",
+        "runtime",
+        "control",
+        "multi-tenant",
+        "multi-tenancy"
+      ],
+      "url": "https://flows.nodered.org/node/shuttle-red"
     },
     {
       "id": "@bitpoolos/edge-bacnet",
@@ -7466,37 +7552,6 @@
       "url": "https://flows.nodered.org/node/@gorootde/node-red-grist"
     },
     {
-      "id": "node-red-contrib-ale-rainbow",
-      "version": "1.82.5",
-      "description": "Alcatel-Lucent Enterprise Rainbow Nodes for Node Red",
-      "updated_at": "2023-01-06T17:33:52.557Z",
-      "types": [
-        "Login",
-        "Send_IM",
-        "Notified_IM",
-        "Notified_Event",
-        "event-select",
-        "Notified_IM_Read",
-        "Ack_IM_Read",
-        "Notified_Presence",
-        "Set_Presence",
-        "CnxState",
-        "Send_Channel",
-        "Notified_Channel",
-        "Rainbow_function"
-      ],
-      "keywords": [
-        "node-red",
-        "rainbow",
-        "cloud",
-        "IoT",
-        "IM",
-        "chat",
-        "presence"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-ale-rainbow"
-    },
-    {
       "id": "node-red-contrib-sonos-events",
       "version": "1.2.1",
       "description": "A single Node-RED node to handle SONOS events in a local network.",
@@ -8397,32 +8452,6 @@
         "fasac"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-fasac"
-    },
-    {
-      "id": "shuttle-red",
-      "version": "0.2.0",
-      "description": "Start and control Node-RED instances from Node-RED itself.",
-      "updated_at": "2022-12-19T15:06:54.875Z",
-      "types": [
-        "shuttle-control",
-        "__errors__",
-        "shuttle-runtime",
-        "__errors__",
-        "shuttle-receive",
-        "__errors__",
-        "shuttle-send",
-        "__errors__"
-      ],
-      "keywords": [
-        "node-red",
-        "nodes",
-        "flow",
-        "runtime",
-        "control",
-        "multi-tenant",
-        "multi-tenancy"
-      ],
-      "url": "https://flows.nodered.org/node/shuttle-red"
     },
     {
       "id": "@yousolution/node-red-contrib-you-sap-service-layer",
@@ -13974,20 +14003,6 @@
         "node-red"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-kusto"
-    },
-    {
-      "id": "node-red-contrib-tuya-smart-device",
-      "version": "5.0.1",
-      "description": "A node-red module to interact with the tuya smart devices",
-      "updated_at": "2022-08-24T16:19:39.527Z",
-      "types": [
-        "tuya-smart-device",
-        "tuya-smart-device-generic"
-      ],
-      "keywords": [
-        "node-red"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-tuya-smart-device"
     },
     {
       "id": "node-red-contrib-advanced-ftp",
