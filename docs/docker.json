@@ -1,7 +1,85 @@
 {
   "name": "Catalogue for docker",
-  "updated_at": "2023-04-16T16:33:56.930Z",
+  "updated_at": "2023-04-17T16:18:59.652Z",
   "modules": [
+    {
+      "id": "@ba47/node-red-domino-proton",
+      "version": "0.4.3",
+      "description": "HCL Domino Proton integration for Node-RED",
+      "updated_at": "2023-04-17T14:04:42.473Z",
+      "types": [
+        "DominoDatabase",
+        "createDocuments",
+        "readDocuments",
+        "updateDocuments",
+        "removeItems",
+        "deleteDocuments",
+        "readAttachments",
+        "writeAttachment",
+        "runAgent",
+        "createLog",
+        "explainQuery"
+      ],
+      "keywords": [
+        "node-red",
+        "domino",
+        "proton",
+        "ba47"
+      ],
+      "url": "https://flows.nodered.org/node/@ba47/node-red-domino-proton"
+    },
+    {
+      "id": "node-red-contrib-getnet-api",
+      "version": "2.0.2",
+      "description": "Getnet API wrapper for Node-Red",
+      "updated_at": "2023-04-17T10:13:50.338Z",
+      "types": [
+        "getnet"
+      ],
+      "keywords": [
+        "node-red",
+        "getnet",
+        "rest-api"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-getnet-api"
+    },
+    {
+      "id": "node-red-contrib-conta-azul-api",
+      "version": "3.1.0",
+      "description": "Conta Azul API wrapper for Node-Red",
+      "updated_at": "2023-04-17T01:30:13.722Z",
+      "types": [
+        "conta-azul"
+      ],
+      "keywords": [
+        "node-red",
+        "conta-azul",
+        "rest-api"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-conta-azul-api"
+    },
+    {
+      "id": "node-red-contrib-musiccast",
+      "version": "4.2.0",
+      "description": "A Node-RED collection for monitoring and controlling all aspects of a Musiccast network.",
+      "updated_at": "2023-04-17T00:46:51.748Z",
+      "types": [
+        "musiccast-config",
+        "musiccast-zone",
+        "musiccast-input",
+        "musiccast-device",
+        "musiccast-list",
+        "musiccast-link"
+      ],
+      "keywords": [
+        "node-red",
+        "yamaha",
+        "musiccast",
+        "yxc",
+        "music"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-musiccast"
+    },
     {
       "id": "node-red-contrib-uibuilder",
       "version": "6.4.1",
@@ -37,21 +115,6 @@
       "url": "https://flows.nodered.org/node/node-red-contrib-vallox"
     },
     {
-      "id": "node-red-contrib-conta-azul-api",
-      "version": "3.0.9",
-      "description": "Conta Azul API wrapper for Node-Red",
-      "updated_at": "2023-04-16T13:15:46.487Z",
-      "types": [
-        "conta-azul"
-      ],
-      "keywords": [
-        "node-red",
-        "conta-azul",
-        "rest-api"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-conta-azul-api"
-    },
-    {
       "id": "node-red-contrib-tuya-smart-device",
       "version": "5.1.0",
       "description": "A node-red module to interact with the tuya smart devices",
@@ -64,6 +127,27 @@
         "node-red"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-tuya-smart-device"
+    },
+    {
+      "id": "node-red-contrib-telegrambot",
+      "version": "15.1.0",
+      "description": "Telegram bot nodes for Node-RED",
+      "updated_at": "2023-04-15T20:38:14.017Z",
+      "types": [
+        "telegram bot",
+        "telegram receiver",
+        "telegram command",
+        "telegram event",
+        "telegram sender",
+        "telegram reply",
+        "telegram control"
+      ],
+      "keywords": [
+        "node-red",
+        "telegram",
+        "bot"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-telegrambot"
     },
     {
       "id": "node-red-contrib-ale-rainbow",
@@ -1692,30 +1776,6 @@
         "BACnet"
       ],
       "url": "https://flows.nodered.org/node/@bitpoolos/edge-bacnet"
-    },
-    {
-      "id": "@ba47/node-red-domino-proton",
-      "version": "0.3.3",
-      "description": "HCL Domino Proton integration for Node-RED",
-      "updated_at": "2023-03-31T05:29:52.004Z",
-      "types": [
-        "DominoDatabase",
-        "createDocuments",
-        "readDocuments",
-        "updateDocuments",
-        "removeItems",
-        "deleteDocuments",
-        "runAgent",
-        "createLog",
-        "explainQuery"
-      ],
-      "keywords": [
-        "node-red",
-        "domino",
-        "proton",
-        "ba47"
-      ],
-      "url": "https://flows.nodered.org/node/@ba47/node-red-domino-proton"
     },
     {
       "id": "@bitpoolos/edge-integriti",
@@ -6262,28 +6322,6 @@
       "url": "https://flows.nodered.org/node/node-red-contrib-ccxt-v2"
     },
     {
-      "id": "node-red-contrib-musiccast",
-      "version": "4.1.0",
-      "description": "A Node-RED collection for monitoring and controlling all aspects of a Musiccast network.",
-      "updated_at": "2023-01-28T02:08:21.167Z",
-      "types": [
-        "musiccast-config",
-        "musiccast-zone",
-        "musiccast-input",
-        "musiccast-device",
-        "musiccast-list",
-        "musiccast-link"
-      ],
-      "keywords": [
-        "node-red",
-        "yamaha",
-        "musiccast",
-        "yxc",
-        "music"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-musiccast"
-    },
-    {
       "id": "node-red-contrib-soundweb",
       "version": "1.0.4",
       "description": "A collection of nodes for controlling BSS soundweb devices.",
@@ -6523,27 +6561,6 @@
         "zont-online"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-zont-online"
-    },
-    {
-      "id": "node-red-contrib-telegrambot",
-      "version": "15.0.1",
-      "description": "Telegram bot nodes for Node-RED",
-      "updated_at": "2023-01-24T22:59:14.653Z",
-      "types": [
-        "telegram bot",
-        "telegram receiver",
-        "telegram command",
-        "telegram event",
-        "telegram sender",
-        "telegram reply",
-        "telegram control"
-      ],
-      "keywords": [
-        "node-red",
-        "telegram",
-        "bot"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-telegrambot"
     },
     {
       "id": "@tulip/node-red-tulip-api",
@@ -16185,6 +16202,23 @@
         "node-red"
       ],
       "url": "https://flows.nodered.org/node/@thred/node-red-thred-schema-validator"
+    },
+    {
+      "id": "node-red-contrib-yr",
+      "version": "0.1.15",
+      "description": "A collection of Node-RED nodes for accessing yr.no weather info and data.",
+      "updated_at": "2022-06-21T20:32:36.824Z",
+      "types": [
+        "yr-config",
+        "weather data",
+        "weather info"
+      ],
+      "keywords": [
+        "node-red",
+        "weather-data",
+        "weather-info"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-yr"
     },
     {
       "id": "node-red-contrib-time-range-switch",
@@ -74121,22 +74155,6 @@
         "search-place"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-geonames"
-    },
-    {
-      "id": "node-red-contrib-yr",
-      "version": "0.1.11",
-      "description": "A collection of Node-RED nodes for accessing yr.no weather info and data.",
-      "updated_at": "2015-10-24T15:27:24.743Z",
-      "types": [
-        "weather info",
-        "weather data"
-      ],
-      "keywords": [
-        "node-red",
-        "weather-info",
-        "weather-data"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-yr"
     },
     {
       "id": "node-red-node-tfl",
