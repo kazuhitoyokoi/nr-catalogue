@@ -1,7 +1,103 @@
 {
   "name": "Catalogue for docker",
-  "updated_at": "2023-04-17T16:18:59.652Z",
+  "updated_at": "2023-04-18T16:16:21.242Z",
   "modules": [
+    {
+      "id": "node-red-contrib-python-function-ps",
+      "version": "0.0.12",
+      "description": "Function Node for execute python in Node-RED",
+      "updated_at": "2023-04-18T14:09:25.031Z",
+      "types": [
+        "python-function-ps"
+      ],
+      "keywords": [
+        "node-red",
+        "function",
+        "python"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-python-function-ps"
+    },
+    {
+      "id": "node-red-contrib-alexa-virtual-smarthome",
+      "version": "0.0.34",
+      "description": "Node Red Alexa Smarthome node",
+      "updated_at": "2023-04-18T13:17:05.030Z",
+      "types": [
+        "alexa-adapter",
+        "alexa-device",
+        "alexa-management"
+      ],
+      "keywords": [
+        "alexa",
+        "smarthome",
+        "assistant",
+        "iot",
+        "node-red"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-alexa-virtual-smarthome"
+    },
+    {
+      "id": "@wiesemann-theis/node-red-contrib-wut",
+      "version": "2.1.8",
+      "description": "Integrate Wiesemann & Theis products - like Com-Servers, Web-IOs or Web-Thermometers - into Node-RED.",
+      "updated_at": "2023-04-18T11:56:04.703Z",
+      "types": [
+        "Web-IO",
+        "Analog IN",
+        "Analog OUT",
+        "Digital IN",
+        "Digital OUT",
+        "Counter",
+        "Com-Server"
+      ],
+      "keywords": [
+        "node-red",
+        "web-io",
+        "com-server",
+        "serial"
+      ],
+      "url": "https://flows.nodered.org/node/@wiesemann-theis/node-red-contrib-wut"
+    },
+    {
+      "id": "@equans/smart-buildings-heating-boost",
+      "version": "1.0.3",
+      "description": "Manual heating override strategy for Smart Buildings",
+      "updated_at": "2023-04-18T11:31:17.190Z",
+      "types": [
+        "Heating Boost"
+      ],
+      "keywords": [
+        "node-red"
+      ],
+      "url": "https://flows.nodered.org/node/@equans/smart-buildings-heating-boost"
+    },
+    {
+      "id": "node-red-contrib-ocpp",
+      "version": "1.3.3",
+      "description": "A set of nodes to communicate via OCPP to a compatible charge box or central system",
+      "updated_at": "2023-04-17T20:49:31.269Z",
+      "types": [
+        "CS request SOAP",
+        "CP Request SOAP",
+        "ocpp-remote-cp",
+        "ocpp-remotej-cp",
+        "ocpp-remote-cs",
+        "CS server",
+        "server response",
+        "CP server SOAP",
+        "CS request JSON",
+        "CP client JSON"
+      ],
+      "keywords": [
+        "node-red",
+        "ocpp",
+        "ocpp SOAP",
+        "ocpp JSON",
+        "ocpp centralsystem",
+        "ocpp chargepoint"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-ocpp"
+    },
     {
       "id": "@ba47/node-red-domino-proton",
       "version": "0.4.3",
@@ -27,21 +123,6 @@
         "ba47"
       ],
       "url": "https://flows.nodered.org/node/@ba47/node-red-domino-proton"
-    },
-    {
-      "id": "node-red-contrib-getnet-api",
-      "version": "2.0.2",
-      "description": "Getnet API wrapper for Node-Red",
-      "updated_at": "2023-04-17T10:13:50.338Z",
-      "types": [
-        "getnet"
-      ],
-      "keywords": [
-        "node-red",
-        "getnet",
-        "rest-api"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-getnet-api"
     },
     {
       "id": "node-red-contrib-conta-azul-api",
@@ -5040,25 +5121,6 @@
       "url": "https://flows.nodered.org/node/nr-discovergy-adapter"
     },
     {
-      "id": "node-red-contrib-alexa-virtual-smarthome",
-      "version": "0.0.33",
-      "description": "Node Red Alexa Smarthome node",
-      "updated_at": "2023-02-17T16:16:11.913Z",
-      "types": [
-        "alexa-adapter",
-        "alexa-device",
-        "alexa-management"
-      ],
-      "keywords": [
-        "alexa",
-        "smarthome",
-        "assistant",
-        "iot",
-        "node-red"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-alexa-virtual-smarthome"
-    },
-    {
       "id": "@smartdcc/dccboxed-nodered-nodes",
       "version": "0.1.9",
       "description": "Collection of nodes for NodeRED to facilitate interfacing with DCC Boxed",
@@ -5810,33 +5872,6 @@
         "node-red"
       ],
       "url": "https://flows.nodered.org/node/@chvdapi/node-red-pn6400-do"
-    },
-    {
-      "id": "node-red-contrib-ocpp",
-      "version": "1.3.2",
-      "description": "A set of nodes to communicate via OCPP to a compatible charge box or central system",
-      "updated_at": "2023-02-06T17:46:23.860Z",
-      "types": [
-        "CS request SOAP",
-        "CP Request SOAP",
-        "ocpp-remote-cp",
-        "ocpp-remotej-cp",
-        "ocpp-remote-cs",
-        "CS server",
-        "server response",
-        "CP server SOAP",
-        "CS request JSON",
-        "CP client JSON"
-      ],
-      "keywords": [
-        "node-red",
-        "ocpp",
-        "ocpp SOAP",
-        "ocpp JSON",
-        "ocpp centralsystem",
-        "ocpp chargepoint"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-ocpp"
     },
     {
       "id": "node-red-contrib-ecoflow",
@@ -8462,21 +8497,6 @@
       "url": "https://flows.nodered.org/node/node-red-contrib-log-elk-chemical-ai"
     },
     {
-      "id": "node-red-contrib-python-function-ps",
-      "version": "0.0.11",
-      "description": "Function Node for execute python in Node-RED",
-      "updated_at": "2022-12-20T09:00:46.103Z",
-      "types": [
-        "python-function-ps"
-      ],
-      "keywords": [
-        "node-red",
-        "function",
-        "python"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-python-function-ps"
-    },
-    {
       "id": "node-red-contrib-redplc-tf-miniplcio",
       "version": "1.0.1",
       "description": "Node-Red node for Mini PLC Driver",
@@ -9734,28 +9754,6 @@
         "home-assistant"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-ha-mqtt"
-    },
-    {
-      "id": "@wiesemann-theis/node-red-contrib-wut",
-      "version": "2.1.7",
-      "description": "Integrate Wiesemann & Theis products - like Com-Servers, Web-IOs or Web-Thermometers - into Node-RED.",
-      "updated_at": "2022-11-25T10:53:47.909Z",
-      "types": [
-        "Web-IO",
-        "Analog IN",
-        "Analog OUT",
-        "Digital IN",
-        "Digital OUT",
-        "Counter",
-        "Com-Server"
-      ],
-      "keywords": [
-        "node-red",
-        "web-io",
-        "com-server",
-        "serial"
-      ],
-      "url": "https://flows.nodered.org/node/@wiesemann-theis/node-red-contrib-wut"
     },
     {
       "id": "node-red-contrib-spruthub",
