@@ -1,7 +1,82 @@
 {
   "name": "Catalogue for docker",
-  "updated_at": "2023-04-18T16:16:21.242Z",
+  "updated_at": "2023-04-19T16:20:32.329Z",
   "modules": [
+    {
+      "id": "node-red-contrib-add",
+      "version": "0.0.1-a",
+      "description": "A Node-RED node to add all incoming numbers and display total as output.",
+      "updated_at": "2023-04-19T11:12:40.497Z",
+      "types": [
+        "add"
+      ],
+      "keywords": [
+        "node-red",
+        "add",
+        "sum",
+        "total"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-add"
+    },
+    {
+      "id": "node-red-contrib-monster",
+      "version": "0.0.31",
+      "description": "A collection of Node-RED nodes for Monster.  Includes nodes for S3 client.",
+      "updated_at": "2023-04-19T10:02:15.186Z",
+      "types": [
+        "Monster S3",
+        "Monster Swift",
+        "swift proxy",
+        "monster upload",
+        "monster config"
+      ],
+      "keywords": [
+        "node-red",
+        "s3"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-monster"
+    },
+    {
+      "id": "node-red-contrib-renault-ze",
+      "version": "1.4.2",
+      "description": "Node Red nodes for Renault ZE services",
+      "updated_at": "2023-04-19T05:25:13.216Z",
+      "types": [
+        "renault-ze"
+      ],
+      "keywords": [
+        "node-red",
+        "renault",
+        "ze"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-renault-ze"
+    },
+    {
+      "id": "@digitalnodecom/node-red-contrib-generic-s3",
+      "version": "1.7.3",
+      "description": "Generic node-red S3 nodes",
+      "updated_at": "2023-04-18T15:52:40.355Z",
+      "types": [
+        "client-s3",
+        "List Buckets",
+        "Create Bucket",
+        "List Objects",
+        "List Objects V2",
+        "List Object Versions",
+        "Get Object",
+        "Head Object",
+        "Put Object",
+        "Put Objects",
+        "Delete Object",
+        "Copy Object"
+      ],
+      "keywords": [
+        "node-red",
+        "s3",
+        "generic"
+      ],
+      "url": "https://flows.nodered.org/node/@digitalnodecom/node-red-contrib-generic-s3"
+    },
     {
       "id": "node-red-contrib-python-function-ps",
       "version": "0.0.12",
@@ -70,6 +145,21 @@
         "node-red"
       ],
       "url": "https://flows.nodered.org/node/@equans/smart-buildings-heating-boost"
+    },
+    {
+      "id": "node-red-contrib-getnet-api",
+      "version": "2.0.3",
+      "description": "Getnet API wrapper for Node-Red",
+      "updated_at": "2023-04-18T01:26:01.076Z",
+      "types": [
+        "getnet"
+      ],
+      "keywords": [
+        "node-red",
+        "getnet",
+        "rest-api"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-getnet-api"
     },
     {
       "id": "node-red-contrib-ocpp",
@@ -2941,6 +3031,20 @@
       "url": "https://flows.nodered.org/node/@autexis/node-red-payload-logger"
     },
     {
+      "id": "node-red-node-suncalc",
+      "version": "1.1.0",
+      "description": "A Node-RED node to provide a signal at sunrise and sunset",
+      "updated_at": "2023-03-21T10:23:25.625Z",
+      "types": [
+        "sunrise"
+      ],
+      "keywords": [
+        "node-red",
+        "suncalc"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-node-suncalc"
+    },
+    {
       "id": "@shikiryu/node-red-contrib-mastodon-bookmark",
       "version": "1.0.0",
       "description": "NodeRED to retrieve Bookmark from Mastodon",
@@ -3276,6 +3380,19 @@
         "rasa action server"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-rasa-actionserver"
+    },
+    {
+      "id": "@equans/smart-buildings-occupancy-timing",
+      "version": "1.1.0",
+      "description": "Node-Red block for Occupancy Timing strategy",
+      "updated_at": "2023-03-17T13:18:31.380Z",
+      "types": [
+        "Occupancy Timing Strategy"
+      ],
+      "keywords": [
+        "node-red"
+      ],
+      "url": "https://flows.nodered.org/node/@equans/smart-buildings-occupancy-timing"
     },
     {
       "id": "@spectraautomation/node-red-urban-io",
@@ -4126,23 +4243,6 @@
       "url": "https://flows.nodered.org/node/@objectif-lune/node-red-contrib-connect"
     },
     {
-      "id": "node-red-contrib-monster",
-      "version": "0.0.26",
-      "description": "A collection of Node-RED nodes for Monster.  Includes nodes for S3 client.",
-      "updated_at": "2023-03-01T14:11:05.997Z",
-      "types": [
-        "Monster S3",
-        "Monster Swift",
-        "monster upload",
-        "monster config"
-      ],
-      "keywords": [
-        "node-red",
-        "s3"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-monster"
-    },
-    {
       "id": "nrc-elasticsearch-nodes",
       "version": "0.3.10",
       "description": "A set of Node-RED contributed (NRC) nodes for Elasticsearch including search, get, exists, create, update, delete, tail.",
@@ -4294,32 +4394,6 @@
         "stock-ticker"
       ],
       "url": "https://flows.nodered.org/node/@leipert/node-red-contrib-stock-ticker"
-    },
-    {
-      "id": "@digitalnodecom/node-red-contrib-generic-s3",
-      "version": "1.7.1",
-      "description": "Generic node-red S3 nodes",
-      "updated_at": "2023-02-27T15:59:20.483Z",
-      "types": [
-        "client-s3",
-        "List Buckets",
-        "Create Bucket",
-        "List Objects",
-        "List Objects V2",
-        "List Object Versions",
-        "Get Object",
-        "Head Object",
-        "Put Object",
-        "Put Objects",
-        "Delete Object",
-        "Copy Object"
-      ],
-      "keywords": [
-        "node-red",
-        "s3",
-        "generic"
-      ],
-      "url": "https://flows.nodered.org/node/@digitalnodecom/node-red-contrib-generic-s3"
     },
     {
       "id": "node-red-contrib-persistent-global-context",
@@ -13889,21 +13963,6 @@
         "legacy"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-pdfjs-mac"
-    },
-    {
-      "id": "node-red-contrib-renault-ze",
-      "version": "1.4.1",
-      "description": "Node Red nodes for Renault ZE services",
-      "updated_at": "2022-08-31T13:56:33.107Z",
-      "types": [
-        "renault-ze"
-      ],
-      "keywords": [
-        "node-red",
-        "renault",
-        "ze"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-renault-ze"
     },
     {
       "id": "@gladder/node-red-kostal-piko-json",
@@ -43599,20 +43658,6 @@
         "text-to-speech"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-play-audio"
-    },
-    {
-      "id": "node-red-node-suncalc",
-      "version": "1.0.1",
-      "description": "A Node-RED node to provide a signal at sunrise and sunset",
-      "updated_at": "2020-04-30T19:27:17.867Z",
-      "types": [
-        "sunrise"
-      ],
-      "keywords": [
-        "node-red",
-        "suncalc"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-node-suncalc"
     },
     {
       "id": "tuya-led-node",
