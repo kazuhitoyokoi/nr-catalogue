@@ -1,7 +1,142 @@
 {
   "name": "Catalogue for darwin",
-  "updated_at": "2023-04-20T19:58:06.816Z",
+  "updated_at": "2023-04-21T21:33:03.976Z",
   "modules": [
+    {
+      "id": "node-red-contrib-chatgpt",
+      "version": "0.0.8",
+      "description": "Node-RED node for chatgpt",
+      "updated_at": "2023-04-21T14:21:56.762Z",
+      "types": [],
+      "keywords": [
+        "node-red-nodegen",
+        "node-red",
+        "chatgpt",
+        "openai"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-chatgpt"
+    },
+    {
+      "id": "node-red-contrib-trexmes-stoppagecatcher",
+      "version": "1.0.5",
+      "description": "TrexMes Stoppage Catcher",
+      "updated_at": "2023-04-21T10:54:43.820Z",
+      "types": [],
+      "keywords": [
+        "node-red",
+        "TrexMes"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-trexmes-stoppagecatcher"
+    },
+    {
+      "id": "node-red-contrib-ui-editor",
+      "version": "0.0.1",
+      "description": "A Node-RED dashboard ui node for block-style editor.",
+      "updated_at": "2023-04-21T09:28:12.004Z",
+      "types": [
+        "ui_editor"
+      ],
+      "keywords": [
+        "node-red",
+        "node-red-dashboard",
+        "dashboard",
+        "editor"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-ui-editor"
+    },
+    {
+      "id": "zyl_node-red-ui-internaltest",
+      "version": "1.0.0",
+      "description": "test",
+      "updated_at": "2023-04-21T09:03:27.173Z",
+      "types": [],
+      "keywords": [
+        "node-red",
+        "zyl"
+      ],
+      "url": "https://flows.nodered.org/node/zyl_node-red-ui-internaltest"
+    },
+    {
+      "id": "node-red-contrib-superpower-test",
+      "version": "0.0.1",
+      "description": "Node-RED integration with eWeLink Cube",
+      "updated_at": "2023-04-21T08:34:56.707Z",
+      "types": [
+        "api-server",
+        "get-devices",
+        "event-state",
+        "event-online",
+        "control-device",
+        "event-add-device",
+        "event-del-device",
+        "event-device-info",
+        "put-device-state",
+        "register-device"
+      ],
+      "keywords": [
+        "node-red",
+        "ewelink",
+        "ewelink-cube"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-superpower-test"
+    },
+    {
+      "id": "@iomtbvk/red-contrib-kafkalis",
+      "version": "1.0.4",
+      "description": "kafka produser and consumer for lis",
+      "updated_at": "2023-04-21T02:57:12.926Z",
+      "types": [
+        "kafka-consumer",
+        "kafka-producer",
+        "kafka-broker"
+      ],
+      "keywords": [
+        "kafkalis",
+        "node",
+        "node-red",
+        "red"
+      ],
+      "url": "https://flows.nodered.org/node/@iomtbvk/red-contrib-kafkalis"
+    },
+    {
+      "id": "@ncd-io/node-red-enterprise-sensors",
+      "version": "0.1.4",
+      "description": "You can install this library through the Palette Manager in Node-Red's UI.",
+      "updated_at": "2023-04-20T21:19:34.960Z",
+      "types": [
+        "ncd-gateway-node",
+        "ncd-wireless-node",
+        "ncd-gateway-config"
+      ],
+      "keywords": [
+        "Wireless",
+        "NCD",
+        "Sensors",
+        "Digi",
+        "node-red",
+        "enterprise"
+      ],
+      "url": "https://flows.nodered.org/node/@ncd-io/node-red-enterprise-sensors"
+    },
+    {
+      "id": "@tbowmo/node-red-small-timer",
+      "version": "0.0.2",
+      "description": "Small timer node for node red with support for sunrise, sunset etc. timers",
+      "updated_at": "2023-04-20T20:06:12.538Z",
+      "types": [
+        "smalltimer",
+        "position"
+      ],
+      "keywords": [
+        "node-red",
+        "timer",
+        "sunset",
+        "sunrise",
+        "dawn",
+        "dusk"
+      ],
+      "url": "https://flows.nodered.org/node/@tbowmo/node-red-small-timer"
+    },
     {
       "id": "node-red-ui-testpack",
       "version": "1.0.0",
@@ -25,26 +160,6 @@
         "zyl"
       ],
       "url": "https://flows.nodered.org/node/zyl_node-red-ui-test4"
-    },
-    {
-      "id": "@ncd-io/node-red-enterprise-sensors",
-      "version": "0.1.3",
-      "description": "You can install this library through the Palette Manager in Node-Red's UI.",
-      "updated_at": "2023-04-19T21:20:23.615Z",
-      "types": [
-        "ncd-gateway-node",
-        "ncd-wireless-node",
-        "ncd-gateway-config"
-      ],
-      "keywords": [
-        "Wireless",
-        "NCD",
-        "Sensors",
-        "Digi",
-        "node-red",
-        "enterprise"
-      ],
-      "url": "https://flows.nodered.org/node/@ncd-io/node-red-enterprise-sensors"
     },
     {
       "id": "@jambonz/node-red-contrib-jambonz",
@@ -3088,6 +3203,26 @@
       "url": "https://flows.nodered.org/node/@autexis/node-red-payload-logger"
     },
     {
+      "id": "node-red-contrib-dynamic-request-validator",
+      "version": "1.1.8",
+      "description": "Create Schemas to validate request method, body and query parameters.\r Schemas are configured in this node Properties.",
+      "updated_at": "2023-03-21T12:52:53.375Z",
+      "types": [
+        "requestValidator"
+      ],
+      "keywords": [
+        "node-red",
+        "request-validate",
+        "json-request-validator",
+        "schema-request-validator",
+        "HTTPrequest-validator",
+        "ethers",
+        "crypto-validation",
+        "address validation"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-dynamic-request-validator"
+    },
+    {
       "id": "node-red-node-suncalc",
       "version": "1.1.0",
       "description": "A Node-RED node to provide a signal at sunrise and sunset",
@@ -4608,26 +4743,6 @@
         "query game server"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-gamedig"
-    },
-    {
-      "id": "node-red-contrib-dynamic-request-validator",
-      "version": "1.1.6",
-      "description": "Create Schemas to validate request method, body and query parameters.\r Schemas are configured in this node Properties.",
-      "updated_at": "2023-02-24T06:02:25.721Z",
-      "types": [
-        "requestValidator"
-      ],
-      "keywords": [
-        "node-red",
-        "request-validate",
-        "json-request-validator",
-        "schema-request-validator",
-        "HTTPrequest-validator",
-        "ethers",
-        "crypto-validation",
-        "address validation"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-dynamic-request-validator"
     },
     {
       "id": "node-red-contrib-xkeys_writedata",
