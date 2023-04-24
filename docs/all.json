@@ -1,12 +1,12 @@
 {
   "name": "Catalogue for verified nodes",
-  "updated_at": "2023-04-23T19:54:09.158Z",
+  "updated_at": "2023-04-24T20:35:54.818Z",
   "modules": [
     {
       "id": "node-red-contrib-python-function-ps",
-      "version": "0.0.13",
+      "version": "0.1.0",
       "description": "Function Node for execute python in Node-RED",
-      "updated_at": "2023-04-23T13:44:46.206Z",
+      "updated_at": "2023-04-24T10:37:24.426Z",
       "types": [
         "python-function-ps"
       ],
@@ -16,6 +16,124 @@
         "python"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-python-function-ps"
+    },
+    {
+      "id": "@ba47/node-red-domino-proton",
+      "version": "0.5.1",
+      "description": "HCL Domino Proton integration for Node-RED",
+      "updated_at": "2023-04-24T10:35:56.876Z",
+      "types": [
+        "DominoDatabase",
+        "createDocuments",
+        "readDocuments",
+        "updateDocuments",
+        "removeItems",
+        "deleteDocuments",
+        "readAttachments",
+        "writeAttachments",
+        "runAgent",
+        "createLog",
+        "explainQuery",
+        "writeAttachment"
+      ],
+      "keywords": [
+        "node-red",
+        "domino",
+        "proton",
+        "ba47"
+      ],
+      "url": "https://flows.nodered.org/node/@ba47/node-red-domino-proton"
+    },
+    {
+      "id": "@cappern/node-red-tls-cert-info",
+      "version": "1.1.2",
+      "description": "A Node-RED node that retrieves SSL/TLS certificate information from a given host and port.",
+      "updated_at": "2023-04-24T09:12:21.345Z",
+      "types": [
+        "tls-cert-info"
+      ],
+      "keywords": [
+        "node-red",
+        "tls",
+        "ssl-cert"
+      ],
+      "url": "https://flows.nodered.org/node/@cappern/node-red-tls-cert-info"
+    },
+    {
+      "id": "node-red-contrib-road-traffic",
+      "version": "0.0.1",
+      "description": "A Node-RED node for estimating road traffic capacity based on road dimensions, traffic composition, and vehicle speeds.",
+      "updated_at": "2023-04-24T08:11:27.737Z",
+      "types": [
+        "road-traffic"
+      ],
+      "keywords": [
+        "node-red",
+        "traffic",
+        "road-traffic",
+        "Pune",
+        "India",
+        "Transport Analysis",
+        "Roadways",
+        "Road Traffic"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-road-traffic"
+    },
+    {
+      "id": "@caitken-com/node-red-contrib-daikin-api",
+      "version": "1.0.5",
+      "description": "Daikin Control API",
+      "updated_at": "2023-04-24T03:11:31.525Z",
+      "types": [
+        "daikin-server",
+        "daikin-api"
+      ],
+      "keywords": [
+        "daikin",
+        "airconditioner",
+        "BRP15B61",
+        "node-red"
+      ],
+      "url": "https://flows.nodered.org/node/@caitken-com/node-red-contrib-daikin-api"
+    },
+    {
+      "id": "node-red-contrib-mqtt-sparkplug-plus",
+      "version": "1.4.1",
+      "description": "MQTT-Sparkplug-Plus is a set of Node-Red nodes, that will enable Node-Red to communicate with a MQTT Server using the sparkplug b protocol.",
+      "updated_at": "2023-04-23T20:54:26.052Z",
+      "types": [
+        "mqtt-sparkplug-broker",
+        "mqtt sparkplug device",
+        "mqtt sparkplug in",
+        "mqtt sparkplug out"
+      ],
+      "keywords": [
+        "MQTT",
+        "Sparkplug",
+        "node-red"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-mqtt-sparkplug-plus"
+    },
+    {
+      "id": "@cameo69/node-red-ratelimit",
+      "version": "0.0.18",
+      "description": "implements rate limit with sliding window",
+      "updated_at": "2023-04-23T17:51:00.208Z",
+      "types": [
+        "rate-limiter"
+      ],
+      "keywords": [
+        "node-red",
+        "ratelimit",
+        "ratelimit",
+        "rate limit",
+        "rate",
+        "delay",
+        "queueing",
+        "burst",
+        "sliding window"
+      ],
+      "url": "https://flows.nodered.org/node/@cameo69/node-red-ratelimit"
     },
     {
       "id": "node-red-contrib-incident-handler",
@@ -71,21 +189,6 @@
         "total"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-add"
-    },
-    {
-      "id": "@cappern/node-red-tls-cert-info",
-      "version": "1.1.1",
-      "description": "A Node-RED node that retrieves SSL/TLS certificate information from a given host and port.",
-      "updated_at": "2023-04-23T08:43:34.814Z",
-      "types": [
-        "tls-cert-info"
-      ],
-      "keywords": [
-        "node-red",
-        "tls",
-        "ssl-cert"
-      ],
-      "url": "https://flows.nodered.org/node/@cappern/node-red-tls-cert-info"
     },
     {
       "id": "zyl_node-red-ui-internaltest",
@@ -469,32 +572,6 @@
       "url": "https://flows.nodered.org/node/node-red-contrib-getnet-api"
     },
     {
-      "id": "@ba47/node-red-domino-proton",
-      "version": "0.4.3",
-      "description": "HCL Domino Proton integration for Node-RED",
-      "updated_at": "2023-04-17T14:04:42.473Z",
-      "types": [
-        "DominoDatabase",
-        "createDocuments",
-        "readDocuments",
-        "updateDocuments",
-        "removeItems",
-        "deleteDocuments",
-        "readAttachments",
-        "writeAttachment",
-        "runAgent",
-        "createLog",
-        "explainQuery"
-      ],
-      "keywords": [
-        "node-red",
-        "domino",
-        "proton",
-        "ba47"
-      ],
-      "url": "https://flows.nodered.org/node/@ba47/node-red-domino-proton"
-    },
-    {
       "id": "node-red-contrib-conta-azul-api",
       "version": "3.1.0",
       "description": "Conta Azul API wrapper for Node-Red",
@@ -722,27 +799,6 @@
         "node-red"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-posthog"
-    },
-    {
-      "id": "@cameo69/node-red-ratelimit",
-      "version": "0.0.17",
-      "description": "implements rate limit with sliding window",
-      "updated_at": "2023-04-13T17:51:15.112Z",
-      "types": [
-        "rate-limiter"
-      ],
-      "keywords": [
-        "node-red",
-        "ratelimit",
-        "ratelimit",
-        "rate limit",
-        "rate",
-        "delay",
-        "queueing",
-        "burst",
-        "sliding window"
-      ],
-      "url": "https://flows.nodered.org/node/@cameo69/node-red-ratelimit"
     },
     {
       "id": "node-red-contrib-opcua",
@@ -1300,23 +1356,6 @@
         "simulator"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-environmental-data-simulator"
-    },
-    {
-      "id": "@caitken-com/node-red-contrib-daikin-api",
-      "version": "1.0.4",
-      "description": "Daikin Control API",
-      "updated_at": "2023-04-09T13:13:34.597Z",
-      "types": [
-        "daikin-server",
-        "daikin-api"
-      ],
-      "keywords": [
-        "daikin",
-        "airconditioner",
-        "BRP15B61",
-        "node-red"
-      ],
-      "url": "https://flows.nodered.org/node/@caitken-com/node-red-contrib-daikin-api"
     },
     {
       "id": "node-red-contrib-smartnora",
@@ -4138,24 +4177,6 @@
         "ewelink-cube"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-tcube"
-    },
-    {
-      "id": "node-red-contrib-mqtt-sparkplug-plus",
-      "version": "1.4.0",
-      "description": "MQTT-Sparkplug-Plus is a set of Node-Red nodes, that will enable Node-Red to communicate with a MQTT Server using the sparkplug b protocol.",
-      "updated_at": "2023-03-06T02:57:45.715Z",
-      "types": [
-        "mqtt-sparkplug-broker",
-        "mqtt sparkplug device",
-        "mqtt sparkplug in",
-        "mqtt sparkplug out"
-      ],
-      "keywords": [
-        "MQTT",
-        "Sparkplug",
-        "node-red"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-mqtt-sparkplug-plus"
     },
     {
       "id": "@lal12/node-red-curve",
