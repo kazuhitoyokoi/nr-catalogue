@@ -1,7 +1,105 @@
 {
   "name": "Catalogue for verified nodes",
-  "updated_at": "2023-04-24T20:35:54.818Z",
+  "updated_at": "2023-04-25T21:51:40.106Z",
   "modules": [
+    {
+      "id": "@tbowmo/node-red-small-timer",
+      "version": "0.1.0",
+      "description": "Small timer node for node red with support for sunrise, sunset etc. timers",
+      "updated_at": "2023-04-25T14:19:37.582Z",
+      "types": [
+        "smalltimer",
+        "position"
+      ],
+      "keywords": [
+        "node-red",
+        "timer",
+        "sunset",
+        "sunrise",
+        "dawn",
+        "dusk"
+      ],
+      "url": "https://flows.nodered.org/node/@tbowmo/node-red-small-timer"
+    },
+    {
+      "id": "node-red-contrib-iiot-rpi-ads1115",
+      "version": "2.0.3",
+      "description": "A Node-Red node for ads1115 analog to digital converter",
+      "updated_at": "2023-04-25T09:25:07.004Z",
+      "types": [
+        "iiot-ads1115",
+        "iiot-ads1115-m"
+      ],
+      "keywords": [
+        "node-red",
+        "raspberry pi",
+        "rpi",
+        "ads1115",
+        "iot",
+        "iiot",
+        "analog",
+        "adc"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-iiot-rpi-ads1115"
+    },
+    {
+      "id": "cloud4machine-cloud-nodered",
+      "version": "0.2.51",
+      "description": "A collection of node red nodes to define custom cloud⁴machine flows",
+      "updated_at": "2023-04-25T08:21:56.807Z",
+      "types": [
+        "rule set",
+        "custom parameter",
+        "alarm blacklist",
+        "mqtt-cloud-broker",
+        "mqtt cloud in",
+        "mqtt cloud out"
+      ],
+      "keywords": [
+        "node-red",
+        "cloud4machine",
+        "grob-net4industry"
+      ],
+      "url": "https://flows.nodered.org/node/cloud4machine-cloud-nodered"
+    },
+    {
+      "id": "node-red-node-email",
+      "version": "2.0.0",
+      "description": "Node-RED nodes to send and receive simple emails.",
+      "updated_at": "2023-04-24T21:18:33.572Z",
+      "types": [
+        "e-mail",
+        "e-mail in",
+        "e-mail mta"
+      ],
+      "keywords": [
+        "node-red",
+        "email",
+        "gmail",
+        "imap",
+        "pop",
+        "smtp",
+        "smtp-server",
+        "mta"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-node-email"
+    },
+    {
+      "id": "node-red-contrib-vallox",
+      "version": "0.1.7",
+      "description": "Vallox node for serial RS485 protocol.",
+      "updated_at": "2023-04-24T19:10:09.082Z",
+      "types": [
+        "valloxrx",
+        "valloxtx",
+        "vallox"
+      ],
+      "keywords": [
+        "node-red",
+        "vallox"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-vallox"
+    },
     {
       "id": "node-red-contrib-python-function-ps",
       "version": "0.1.0",
@@ -191,6 +289,25 @@
       "url": "https://flows.nodered.org/node/node-red-contrib-add"
     },
     {
+      "id": "node-red-contrib-ble-sense",
+      "version": "0.0.13",
+      "description": "Node-RED module for Bluetooth Low Energy (BLE) devices.",
+      "updated_at": "2023-04-23T09:16:21.150Z",
+      "types": [
+        "BLE Scanner",
+        "BLE Connect"
+      ],
+      "keywords": [
+        "Bluetooth Low Energy",
+        "Bluetooth",
+        "Arduino",
+        "Arduino Nano 33 BLE Sense",
+        "noble",
+        "node-red"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-ble-sense"
+    },
+    {
       "id": "zyl_node-red-ui-internaltest",
       "version": "1.0.8",
       "description": "test",
@@ -248,25 +365,6 @@
         "openai"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-chatgpt"
-    },
-    {
-      "id": "@tbowmo/node-red-small-timer",
-      "version": "0.0.4",
-      "description": "Small timer node for node red with support for sunrise, sunset etc. timers",
-      "updated_at": "2023-04-21T21:19:10.111Z",
-      "types": [
-        "smalltimer",
-        "position"
-      ],
-      "keywords": [
-        "node-red",
-        "timer",
-        "sunset",
-        "sunrise",
-        "dawn",
-        "dusk"
-      ],
-      "url": "https://flows.nodered.org/node/@tbowmo/node-red-small-timer"
     },
     {
       "id": "node-red-contrib-ui-editor",
@@ -626,21 +724,6 @@
         "webpage"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-uibuilder"
-    },
-    {
-      "id": "node-red-contrib-vallox",
-      "version": "0.1.6",
-      "description": "Vallox node for serial RS485 protocol.",
-      "updated_at": "2023-04-16T13:18:15.809Z",
-      "types": [
-        "valloxrx",
-        "valloxtx"
-      ],
-      "keywords": [
-        "node-red",
-        "vallox"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-vallox"
     },
     {
       "id": "node-red-contrib-tuya-smart-device",
@@ -1012,25 +1095,6 @@
         "tillit"
       ],
       "url": "https://flows.nodered.org/node/@gotillit/tillit-node-red"
-    },
-    {
-      "id": "cloud4machine-cloud-nodered",
-      "version": "0.2.46",
-      "description": "A collection of node red nodes to define custom cloud⁴machine flows",
-      "updated_at": "2023-04-13T08:47:12.135Z",
-      "types": [
-        "rule set",
-        "alarm blacklist",
-        "mqtt-cloud-broker",
-        "mqtt cloud in",
-        "mqtt cloud out"
-      ],
-      "keywords": [
-        "node-red",
-        "cloud4machine",
-        "grob-net4industry"
-      ],
-      "url": "https://flows.nodered.org/node/cloud4machine-cloud-nodered"
     },
     {
       "id": "node-red-contrib-nibeuplink",
@@ -2529,28 +2593,6 @@
         "node-red"
       ],
       "url": "https://flows.nodered.org/node/@victronenergy/node-red-contrib-victron"
-    },
-    {
-      "id": "node-red-node-email",
-      "version": "1.19.1",
-      "description": "Node-RED nodes to send and receive simple emails.",
-      "updated_at": "2023-03-27T22:18:50.406Z",
-      "types": [
-        "e-mail",
-        "e-mail in",
-        "e-mail mta"
-      ],
-      "keywords": [
-        "node-red",
-        "email",
-        "gmail",
-        "imap",
-        "pop",
-        "smtp",
-        "smtp-server",
-        "mta"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-node-email"
     },
     {
       "id": "node-red-contrib-whois-parser",
@@ -15978,27 +16020,6 @@
         "Z-score"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-prib-functions"
-    },
-    {
-      "id": "node-red-contrib-iiot-rpi-ads1115",
-      "version": "1.0.21",
-      "description": "A Node-Red node for ads1115 analog to digital converter",
-      "updated_at": "2022-07-01T08:36:59.276Z",
-      "types": [
-        "ads1115",
-        "ads1115-m"
-      ],
-      "keywords": [
-        "node-red",
-        "raspberry pi",
-        "rpi",
-        "ads1115",
-        "iot",
-        "iiot",
-        "analog",
-        "adc"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-iiot-rpi-ads1115"
     },
     {
       "id": "node-red-contrib-rcon",
