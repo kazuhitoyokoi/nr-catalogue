@@ -1,0 +1,31 @@
+
+----
+Sending build context to Docker daemon  35.66MB
+Step 1/2 : FROM nodered/node-red
+ ---> a15fc0f4e930
+Step 2/2 : RUN npm install npm install node-red-contrib-iiot-rpi-ads1115@2.0.3
+ ---> Running in 3ea530661f48
+
+added 3 packages, and audited 535 packages in 4s
+
+52 packages are looking for funding
+  run `npm fund` for details
+
+9 vulnerabilities (4 low, 1 moderate, 4 high)
+
+To address issues that do not require attention, run:
+  npm audit fix
+
+To address all issues (including breaking changes), run:
+  npm audit fix --force
+
+Run `npm audit` for details.
+[91mnpm[0m[91m [0m[91mnotice[0m[91m 
+npm notice New major version of npm available! 8.11.0 -> 9.6.5
+npm notice Changelog: <https://github.com/npm/cli/releases/tag/v9.6.5>
+npm notice[0m[91m Run `npm install -g npm@9.6.5` to update!
+npm notice[0m[91m 
+[0mRemoving intermediate container 3ea530661f48
+ ---> e8c377f2a6af
+Successfully built e8c377f2a6af
+Successfully tagged tmp:latest
