@@ -1,0 +1,33 @@
+
+----
+Sending build context to Docker daemon  36.85MB
+Step 1/2 : FROM nodered/node-red
+ ---> a15fc0f4e930
+Step 2/2 : RUN npm install npm install node-red-cosmos-r2@1.0.1
+ ---> Running in 054b2abda7ad
+[91mnpm[0m[91m WARN deprecated multer@1.4.4: Multer 1.x is affected by CVE-2022-24434. This is fixed in v1.4.4-lts.1 which drops support for versions of Node.js before 6. Please upgrade to at least Node.js 6 and version 1.4.4-lts.1 of Multer. If you need support for older versions of Node.js, we are open to accepting patches that would fix the CVE on the main 1.x release line, whilst maintaining compatibility with Node.js 0.10.
+[0m[91mnpm[0m[91m WARN deprecated axios@0.27.0: Formdata complete broken, incorrect build size
+[0m
+added 97 packages, and audited 629 packages in 10s
+
+57 packages are looking for funding
+  run `npm fund` for details
+
+18 vulnerabilities (2 low, 4 moderate, 12 high)
+
+To address issues that do not require attention, run:
+  npm audit fix
+
+Some issues need review, and may require choosing
+a different dependency.
+
+Run `npm audit` for details.
+[91mnpm [0m[91mnotice 
+npm notice New major version of npm available! 8.11.0 -> 9.6.5
+[0m[91mnpm [0m[91mnotice Changelog: <https://github.com/npm/cli/releases/tag/v9.6.5>
+npm notice[0m[91m Run `npm install -g npm@9.6.5` to update!
+[0m[91mnpm notice 
+[0mRemoving intermediate container 054b2abda7ad
+ ---> 72438d704cb9
+Successfully built 72438d704cb9
+Successfully tagged tmp:latest
