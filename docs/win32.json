@@ -1,7 +1,96 @@
 {
   "name": "Catalogue for win32",
-  "updated_at": "2023-04-26T18:29:34.816Z",
+  "updated_at": "2023-04-27T20:14:33.336Z",
   "modules": [
+    {
+      "id": "@chvdapi/node-red-pn4800-do",
+      "version": "0.0.1",
+      "description": "A node by chvda to drive DO on PN4800",
+      "updated_at": "2023-04-27T04:34:46.210Z",
+      "types": [
+        "PN4800_DO",
+        "PN4800_DO_manual",
+        "PN4800_DO_Status"
+      ],
+      "keywords": [
+        "node-red"
+      ],
+      "url": "https://flows.nodered.org/node/@chvdapi/node-red-pn4800-do"
+    },
+    {
+      "id": "@chvdapi/node-red-pn4800-di",
+      "version": "0.0.1",
+      "description": "A node by chvda to drive DI on PN4800",
+      "updated_at": "2023-04-27T04:15:45.928Z",
+      "types": [
+        "PN4800_DI"
+      ],
+      "keywords": [
+        "node-red"
+      ],
+      "url": "https://flows.nodered.org/node/@chvdapi/node-red-pn4800-di"
+    },
+    {
+      "id": "@chvdapi/node-red-pn4800-ao",
+      "version": "0.0.1",
+      "description": "A node by chvda to drive AO on PN4800",
+      "updated_at": "2023-04-27T03:55:35.871Z",
+      "types": [
+        "PN4800_AO",
+        "PN4800_AO_manual",
+        "PN4800_AO_Status"
+      ],
+      "keywords": [
+        "node-red"
+      ],
+      "url": "https://flows.nodered.org/node/@chvdapi/node-red-pn4800-ao"
+    },
+    {
+      "id": "@chvdapi/node-red-pn4800-ai",
+      "version": "0.0.1",
+      "description": "A node by chvda to drive AI on PN4800",
+      "updated_at": "2023-04-27T03:21:13.334Z",
+      "types": [
+        "PN4800_AI"
+      ],
+      "keywords": [
+        "node-red"
+      ],
+      "url": "https://flows.nodered.org/node/@chvdapi/node-red-pn4800-ai"
+    },
+    {
+      "id": "@chvdapi/node-red-pn4800-led",
+      "version": "0.0.1",
+      "description": "A node by chvda to drive LED on PN4800",
+      "updated_at": "2023-04-27T02:41:29.065Z",
+      "types": [
+        "PN4800_LED"
+      ],
+      "keywords": [
+        "node-red"
+      ],
+      "url": "https://flows.nodered.org/node/@chvdapi/node-red-pn4800-led"
+    },
+    {
+      "id": "node-red-contrib-bosch-shc",
+      "version": "0.3.29",
+      "description": "Bosch Smart Home Controller (SHC) nodes for Node-Red",
+      "updated_at": "2023-04-26T19:55:39.153Z",
+      "types": [
+        "shc-config",
+        "shc-device",
+        "shc-scenario",
+        "shc-fault"
+      ],
+      "keywords": [
+        "node-red",
+        "bosch",
+        "smart",
+        "home",
+        "controller"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-bosch-shc"
+    },
     {
       "id": "node-red-contrib-onstar2",
       "version": "2.1.8",
@@ -11031,26 +11120,6 @@
         "Axis"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-axis-acs"
-    },
-    {
-      "id": "node-red-contrib-bosch-shc",
-      "version": "0.3.28",
-      "description": "Bosch Smart Home Controller (SHC) nodes for Node-Red",
-      "updated_at": "2022-11-10T08:39:11.580Z",
-      "types": [
-        "shc-config",
-        "shc-device",
-        "shc-scenario",
-        "shc-fault"
-      ],
-      "keywords": [
-        "node-red",
-        "bosch",
-        "smart",
-        "home",
-        "controller"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-bosch-shc"
     },
     {
       "id": "node-red-contrib-m-bus",
