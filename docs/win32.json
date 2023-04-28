@@ -1,7 +1,130 @@
 {
   "name": "Catalogue for win32",
-  "updated_at": "2023-04-27T20:14:33.336Z",
+  "updated_at": "2023-04-28T18:25:55.586Z",
   "modules": [
+    {
+      "id": "@gemini86/node-red-contrib-alarm-manager",
+      "version": "1.1.1",
+      "description": "Monitors condition and status inputs and aggregates alarms conditions into a single emitter node.",
+      "updated_at": "2023-04-28T15:31:53.539Z",
+      "types": [
+        "alarm-manager",
+        "alarm-emitter",
+        "persistence-hook",
+        "condition-monitor",
+        "status-monitor"
+      ],
+      "keywords": [
+        "node-red",
+        "alarm",
+        "alarm manager",
+        "alarm logger",
+        "scheduler",
+        "timer"
+      ],
+      "url": "https://flows.nodered.org/node/@gemini86/node-red-contrib-alarm-manager"
+    },
+    {
+      "id": "@digitalnodecom/node-red-contrib-generic-s3",
+      "version": "1.8.0",
+      "description": "Generic node-red S3 nodes",
+      "updated_at": "2023-04-28T14:38:27.159Z",
+      "types": [
+        "client-s3",
+        "List Buckets",
+        "Create Bucket",
+        "List Objects",
+        "List Objects V2",
+        "List Object Versions",
+        "Get Object",
+        "Head Object",
+        "Put Object",
+        "Put Objects",
+        "Delete Object",
+        "Copy Object"
+      ],
+      "keywords": [
+        "node-red",
+        "s3",
+        "generic"
+      ],
+      "url": "https://flows.nodered.org/node/@digitalnodecom/node-red-contrib-generic-s3"
+    },
+    {
+      "id": "node-red-contrib-keyvalue-r2",
+      "version": "1.2.2",
+      "description": "Node-RED nodes for reading and writing key-value pairs in a JSON file.",
+      "updated_at": "2023-04-27T22:44:44.304Z",
+      "types": [
+        "keyvalue-read",
+        "keyvalue-write"
+      ],
+      "keywords": [
+        "node-red",
+        "keyvalue",
+        "json",
+        "R2"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-keyvalue-r2"
+    },
+    {
+      "id": "node-red-contrib-sensor-ds18b20-dynamic-sensor-id",
+      "version": "1.0.2",
+      "description": "Node-RED node to get temperature from DS18B20 sensors",
+      "updated_at": "2023-04-27T22:05:12.352Z",
+      "types": [
+        "sensor-ds18b20-dynamic-sensor-id"
+      ],
+      "keywords": [
+        "node-red",
+        "ds18b20"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-sensor-ds18b20-dynamic-sensor-id"
+    },
+    {
+      "id": "@tbowmo/node-red-small-timer",
+      "version": "0.2.1",
+      "description": "Small timer node for node red with support for sunrise, sunset etc. timers",
+      "updated_at": "2023-04-27T20:48:16.344Z",
+      "types": [
+        "smalltimer",
+        "position"
+      ],
+      "keywords": [
+        "node-red",
+        "timer",
+        "sunset",
+        "sunrise",
+        "dawn",
+        "dusk"
+      ],
+      "url": "https://flows.nodered.org/node/@tbowmo/node-red-small-timer"
+    },
+    {
+      "id": "node-red-contrib-oee-fsm",
+      "version": "0.0.1",
+      "description": "A Node-RED node to create a simple finite state machine with states off, on, working, idle, and alarm condition.",
+      "updated_at": "2023-04-27T08:27:12.946Z",
+      "types": [
+        "oee-fsm"
+      ],
+      "keywords": [
+        "node-red",
+        "finite",
+        "state",
+        "machine",
+        "FSM",
+        "Finite State Machine",
+        "Bufferstack.IO",
+        "Digital Twins",
+        "Industry 4.0",
+        "OEE",
+        "Pune",
+        "India",
+        "Harshad Joshi"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-oee-fsm"
+    },
     {
       "id": "@chvdapi/node-red-pn4800-do",
       "version": "0.0.1",
@@ -330,25 +453,6 @@
         "ewelink-cube"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-superpower-test"
-    },
-    {
-      "id": "@tbowmo/node-red-small-timer",
-      "version": "0.2.0",
-      "description": "Small timer node for node red with support for sunrise, sunset etc. timers",
-      "updated_at": "2023-04-25T19:01:18.574Z",
-      "types": [
-        "smalltimer",
-        "position"
-      ],
-      "keywords": [
-        "node-red",
-        "timer",
-        "sunset",
-        "sunrise",
-        "dawn",
-        "dusk"
-      ],
-      "url": "https://flows.nodered.org/node/@tbowmo/node-red-small-timer"
     },
     {
       "id": "@bannsaenger/node-red-contrib-artnet-controller",
@@ -891,32 +995,6 @@
         "ze"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-renault-ze"
-    },
-    {
-      "id": "@digitalnodecom/node-red-contrib-generic-s3",
-      "version": "1.7.3",
-      "description": "Generic node-red S3 nodes",
-      "updated_at": "2023-04-18T15:52:40.355Z",
-      "types": [
-        "client-s3",
-        "List Buckets",
-        "Create Bucket",
-        "List Objects",
-        "List Objects V2",
-        "List Object Versions",
-        "Get Object",
-        "Head Object",
-        "Put Object",
-        "Put Objects",
-        "Delete Object",
-        "Copy Object"
-      ],
-      "keywords": [
-        "node-red",
-        "s3",
-        "generic"
-      ],
-      "url": "https://flows.nodered.org/node/@digitalnodecom/node-red-contrib-generic-s3"
     },
     {
       "id": "node-red-contrib-alexa-virtual-smarthome",
@@ -3690,28 +3768,6 @@
         "logic"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-boolean-logic-ultimate"
-    },
-    {
-      "id": "@gemini86/node-red-contrib-alarm-manager",
-      "version": "1.1.0",
-      "description": "Monitors condition and status inputs and aggregates alarms conditions into a single emitter node.",
-      "updated_at": "2023-03-20T14:32:29.749Z",
-      "types": [
-        "alarm-manager",
-        "alarm-emitter",
-        "persistence-hook",
-        "condition-monitor",
-        "status-monitor"
-      ],
-      "keywords": [
-        "node-red",
-        "alarm",
-        "alarm manager",
-        "alarm logger",
-        "scheduler",
-        "timer"
-      ],
-      "url": "https://flows.nodered.org/node/@gemini86/node-red-contrib-alarm-manager"
     },
     {
       "id": "node-red-contrib-gatewayex",
