@@ -1,7 +1,96 @@
 {
   "name": "Catalogue for docker",
-  "updated_at": "2023-04-28T16:25:50.876Z",
+  "updated_at": "2023-04-29T16:17:06.933Z",
   "modules": [
+    {
+      "id": "node-red-contrib-2fa",
+      "version": "1.2.1",
+      "description": "Two-Factor Authentication (2FA) on NodeRED",
+      "updated_at": "2023-04-29T04:36:27.288Z",
+      "types": [
+        "config-node",
+        "create-node",
+        "delete-node",
+        "verify-node",
+        "generate-node"
+      ],
+      "keywords": [
+        "node-red",
+        "2FA",
+        "two-factor authentication",
+        "two",
+        "factor",
+        "authentication"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-2fa"
+    },
+    {
+      "id": "node-red-contrib-ui-time-scheduler-french",
+      "version": "1.17.8",
+      "description": "A ui time scheduler for the Node-RED Dashboard French UI version",
+      "updated_at": "2023-04-28T19:50:46.492Z",
+      "types": [
+        "ui_time_scheduler_french"
+      ],
+      "keywords": [
+        "node-red",
+        "time-scheduler",
+        "schedules",
+        "timer",
+        "dashboard",
+        "frontend",
+        "iot"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-ui-time-scheduler-french"
+    },
+    {
+      "id": "@gemini86/node-red-contrib-alarm-manager",
+      "version": "1.1.1",
+      "description": "Monitors condition and status inputs and aggregates alarms conditions into a single emitter node.",
+      "updated_at": "2023-04-28T15:31:53.539Z",
+      "types": [
+        "alarm-manager",
+        "alarm-emitter",
+        "persistence-hook",
+        "condition-monitor",
+        "status-monitor"
+      ],
+      "keywords": [
+        "node-red",
+        "alarm",
+        "alarm manager",
+        "alarm logger",
+        "scheduler",
+        "timer"
+      ],
+      "url": "https://flows.nodered.org/node/@gemini86/node-red-contrib-alarm-manager"
+    },
+    {
+      "id": "@digitalnodecom/node-red-contrib-generic-s3",
+      "version": "1.8.0",
+      "description": "Generic node-red S3 nodes",
+      "updated_at": "2023-04-28T14:38:27.159Z",
+      "types": [
+        "client-s3",
+        "List Buckets",
+        "Create Bucket",
+        "List Objects",
+        "List Objects V2",
+        "List Object Versions",
+        "Get Object",
+        "Head Object",
+        "Put Object",
+        "Put Objects",
+        "Delete Object",
+        "Copy Object"
+      ],
+      "keywords": [
+        "node-red",
+        "s3",
+        "generic"
+      ],
+      "url": "https://flows.nodered.org/node/@digitalnodecom/node-red-contrib-generic-s3"
+    },
     {
       "id": "node-red-contrib-keyvalue-r2",
       "version": "1.2.2",
@@ -32,6 +121,25 @@
         "ds18b20"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-sensor-ds18b20-dynamic-sensor-id"
+    },
+    {
+      "id": "@tbowmo/node-red-small-timer",
+      "version": "0.2.1",
+      "description": "Small timer node for node red with support for sunrise, sunset etc. timers",
+      "updated_at": "2023-04-27T20:48:16.344Z",
+      "types": [
+        "smalltimer",
+        "position"
+      ],
+      "keywords": [
+        "node-red",
+        "timer",
+        "sunset",
+        "sunrise",
+        "dawn",
+        "dusk"
+      ],
+      "url": "https://flows.nodered.org/node/@tbowmo/node-red-small-timer"
     },
     {
       "id": "node-red-contrib-oee-fsm",
@@ -386,25 +494,6 @@
         "ewelink-cube"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-superpower-test"
-    },
-    {
-      "id": "@tbowmo/node-red-small-timer",
-      "version": "0.2.0",
-      "description": "Small timer node for node red with support for sunrise, sunset etc. timers",
-      "updated_at": "2023-04-25T19:01:18.574Z",
-      "types": [
-        "smalltimer",
-        "position"
-      ],
-      "keywords": [
-        "node-red",
-        "timer",
-        "sunset",
-        "sunrise",
-        "dawn",
-        "dusk"
-      ],
-      "url": "https://flows.nodered.org/node/@tbowmo/node-red-small-timer"
     },
     {
       "id": "@bannsaenger/node-red-contrib-artnet-controller",
@@ -947,32 +1036,6 @@
         "ze"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-renault-ze"
-    },
-    {
-      "id": "@digitalnodecom/node-red-contrib-generic-s3",
-      "version": "1.7.3",
-      "description": "Generic node-red S3 nodes",
-      "updated_at": "2023-04-18T15:52:40.355Z",
-      "types": [
-        "client-s3",
-        "List Buckets",
-        "Create Bucket",
-        "List Objects",
-        "List Objects V2",
-        "List Object Versions",
-        "Get Object",
-        "Head Object",
-        "Put Object",
-        "Put Objects",
-        "Delete Object",
-        "Copy Object"
-      ],
-      "keywords": [
-        "node-red",
-        "s3",
-        "generic"
-      ],
-      "url": "https://flows.nodered.org/node/@digitalnodecom/node-red-contrib-generic-s3"
     },
     {
       "id": "node-red-contrib-alexa-virtual-smarthome",
@@ -3730,28 +3793,6 @@
         "logic"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-boolean-logic-ultimate"
-    },
-    {
-      "id": "@gemini86/node-red-contrib-alarm-manager",
-      "version": "1.1.0",
-      "description": "Monitors condition and status inputs and aggregates alarms conditions into a single emitter node.",
-      "updated_at": "2023-03-20T14:32:29.749Z",
-      "types": [
-        "alarm-manager",
-        "alarm-emitter",
-        "persistence-hook",
-        "condition-monitor",
-        "status-monitor"
-      ],
-      "keywords": [
-        "node-red",
-        "alarm",
-        "alarm manager",
-        "alarm logger",
-        "scheduler",
-        "timer"
-      ],
-      "url": "https://flows.nodered.org/node/@gemini86/node-red-contrib-alarm-manager"
     },
     {
       "id": "node-red-contrib-gatewayex",
@@ -47197,28 +47238,6 @@
         "SQL"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-query-json-with-sql"
-    },
-    {
-      "id": "node-red-contrib-2fa",
-      "version": "1.2.0",
-      "description": "Two-Factor Authentication (2FA) on NodeRED",
-      "updated_at": "2020-02-09T02:40:22.526Z",
-      "types": [
-        "config-node",
-        "create-node",
-        "delete-node",
-        "verify-node",
-        "generate-node"
-      ],
-      "keywords": [
-        "node-red",
-        "2FA",
-        "two-factor authentication",
-        "two",
-        "factor",
-        "authentication"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-2fa"
     },
     {
       "id": "node-red-contrib-rc522",
