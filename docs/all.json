@@ -1,7 +1,124 @@
 {
   "name": "Catalogue for verified nodes",
-  "updated_at": "2023-04-29T20:59:13.496Z",
+  "updated_at": "2023-04-30T20:33:28.944Z",
   "modules": [
+    {
+      "id": "node-red-contrib-iiot-ds18b20",
+      "version": "2.0.2",
+      "description": "A Node-RED node for multiple ds18b20 digital temperature sensor.",
+      "updated_at": "2023-04-30T14:27:55.031Z",
+      "types": [
+        "iiot-ds18b20-fs"
+      ],
+      "keywords": [
+        "node-red",
+        "raspberry pi",
+        "rpi",
+        "ds18b20",
+        "iot",
+        "iiot",
+        "temperature"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-iiot-ds18b20"
+    },
+    {
+      "id": "node-red-contrib-email",
+      "version": "0.1.1",
+      "description": "SMTP email node for Node-RED",
+      "updated_at": "2023-04-30T08:21:49.908Z",
+      "types": [
+        "email-transport",
+        "email-send"
+      ],
+      "keywords": [
+        "node-red",
+        "node",
+        "SMTP",
+        "email"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-email"
+    },
+    {
+      "id": "node-red-contrib-ngsi-ld",
+      "version": "0.3.0",
+      "description": "Node-RED implementation for NGSI-LD",
+      "updated_at": "2023-04-30T05:11:36.359Z",
+      "types": [
+        "NGSI-LD Entity",
+        "NGSI-LD entities",
+        "NGSI-LD entity attributes",
+        "NGSI-LD entity attribute",
+        "NGSI-LD Batch operations",
+        "NGSI-LD broker",
+        "NGSI-LD broker version"
+      ],
+      "keywords": [
+        "node-red",
+        "contrib",
+        "fiware",
+        "ngsi",
+        "context",
+        "process",
+        "data",
+        "json"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-ngsi-ld"
+    },
+    {
+      "id": "node-red-contrib-onstar2",
+      "version": "2.1.9",
+      "description": "An updated Node-RED Library using OnStarJS, an unofficial client library for the OnStar Vehicle API",
+      "updated_at": "2023-04-30T03:00:08.070Z",
+      "types": [
+        "get-account-vehicles",
+        "get-diagnostics",
+        "lock-myvehicle",
+        "unlock-myvehicle",
+        "start-myvehicle",
+        "cancel-start-myvehicle",
+        "alert-myvehicle",
+        "alert-myvehicle-lights",
+        "alert-myvehicle-horn",
+        "cancel-alert-myvehicle",
+        "locate-vehicle",
+        "mycharge-override",
+        "get-mycharge-profile",
+        "set-mycharge-profile",
+        "onstar2"
+      ],
+      "keywords": [
+        "node-red",
+        "OnStar",
+        "Chevrolet",
+        "Chevy",
+        "GM",
+        "GMC",
+        "Buick",
+        "Cadillac"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-onstar2"
+    },
+    {
+      "id": "node-red-contrib-telegrambot",
+      "version": "15.1.1",
+      "description": "Telegram bot nodes for Node-RED",
+      "updated_at": "2023-04-29T22:13:08.244Z",
+      "types": [
+        "telegram bot",
+        "telegram receiver",
+        "telegram command",
+        "telegram event",
+        "telegram sender",
+        "telegram reply",
+        "telegram control"
+      ],
+      "keywords": [
+        "node-red",
+        "telegram",
+        "bot"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-telegrambot"
+    },
     {
       "id": "node-red-contrib-2fa",
       "version": "1.2.1",
@@ -254,40 +371,6 @@
         "controller"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-bosch-shc"
-    },
-    {
-      "id": "node-red-contrib-onstar2",
-      "version": "2.1.8",
-      "description": "An updated Node-RED Library using OnStarJS, an unofficial client library for the OnStar Vehicle API",
-      "updated_at": "2023-04-26T11:39:26.790Z",
-      "types": [
-        "get-account-vehicles",
-        "get-diagnostics",
-        "lock-myvehicle",
-        "unlock-myvehicle",
-        "start-myvehicle",
-        "cancel-start-myvehicle",
-        "alert-myvehicle",
-        "alert-myvehicle-lights",
-        "alert-myvehicle-horn",
-        "cancel-alert-myvehicle",
-        "locate-vehicle",
-        "mycharge-override",
-        "get-mycharge-profile",
-        "set-mycharge-profile",
-        "onstar2"
-      ],
-      "keywords": [
-        "node-red",
-        "OnStar",
-        "Chevrolet",
-        "Chevy",
-        "GM",
-        "GMC",
-        "Buick",
-        "Cadillac"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-onstar2"
     },
     {
       "id": "node-red-contrib-siemens-sentron",
@@ -1177,27 +1260,6 @@
       "url": "https://flows.nodered.org/node/node-red-contrib-tuya-smart-device"
     },
     {
-      "id": "node-red-contrib-telegrambot",
-      "version": "15.1.0",
-      "description": "Telegram bot nodes for Node-RED",
-      "updated_at": "2023-04-15T20:38:14.017Z",
-      "types": [
-        "telegram bot",
-        "telegram receiver",
-        "telegram command",
-        "telegram event",
-        "telegram sender",
-        "telegram reply",
-        "telegram control"
-      ],
-      "keywords": [
-        "node-red",
-        "telegram",
-        "bot"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-telegrambot"
-    },
-    {
       "id": "node-red-contrib-ale-rainbow",
       "version": "1.82.6",
       "description": "Alcatel-Lucent Enterprise Rainbow Nodes for Node Red",
@@ -1258,32 +1320,6 @@
         "ai"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-custom-chatgpt"
-    },
-    {
-      "id": "node-red-contrib-ngsi-ld",
-      "version": "0.2.0",
-      "description": "Node-RED implementation for NGSI-LD",
-      "updated_at": "2023-04-14T13:20:48.324Z",
-      "types": [
-        "NGSI-LD Entity",
-        "NGSI-LD entities",
-        "NGSI-LD entity attributes",
-        "NGSI-LD entity attribute",
-        "NGSI-LD Batch operations",
-        "NGSI-LD broker",
-        "NGSI-LD broker version"
-      ],
-      "keywords": [
-        "node-red",
-        "contrib",
-        "fiware",
-        "ngsi",
-        "context",
-        "process",
-        "data",
-        "json"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-ngsi-ld"
     },
     {
       "id": "node-red-contrib-opcua",
