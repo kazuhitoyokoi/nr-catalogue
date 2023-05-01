@@ -1,14 +1,97 @@
 {
   "name": "Catalogue for win32",
-  "updated_at": "2023-04-30T19:18:25.206Z",
+  "updated_at": "2023-05-01T18:43:22.020Z",
   "modules": [
     {
-      "id": "@siirimangus/node-red-contrib-context-hook",
-      "version": "1.0.0",
-      "description": "Nodes for managing state in Node-RED platform",
-      "updated_at": "2023-04-30T14:41:29.270Z",
+      "id": "node-red-contrib-iiot-ds18b20",
+      "version": "2.0.4",
+      "description": "A Node-RED node for multiple ds18b20 digital temperature sensors.",
+      "updated_at": "2023-05-01T11:22:36.117Z",
       "types": [
-        "set-state",
+        "iiot-ds18b20-fs"
+      ],
+      "keywords": [
+        "node-red",
+        "raspberry pi",
+        "rpi",
+        "ds18b20",
+        "one wire",
+        "iot",
+        "iiot",
+        "temperature"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-iiot-ds18b20"
+    },
+    {
+      "id": "node-red-contrib-ytdl-ubos",
+      "version": "0.0.1",
+      "description": "Youtube download based on ytdl and ytpl",
+      "updated_at": "2023-05-01T09:15:27.614Z",
+      "types": [
+        "youtube-ytdl"
+      ],
+      "keywords": [
+        "node-red",
+        "youtube",
+        "iot",
+        "contrib",
+        "red"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-ytdl-ubos"
+    },
+    {
+      "id": "@moddable-node-red/mcu",
+      "version": "1.0.3",
+      "description": "A suite of IO nodes for Node-RED MCU Edition",
+      "updated_at": "2023-05-01T04:38:29.876Z",
+      "types": [
+        "mcu_analog",
+        "__errors__",
+        "mcu_clock",
+        "__errors__",
+        "mcu_digital_in",
+        "mcu_digital_out",
+        "__errors__",
+        "mcu_i2c_in",
+        "mcu_i2c_out",
+        "__errors__",
+        "mcu_neopixels",
+        "__errors__",
+        "mcu_pulse_count",
+        "__errors__",
+        "mcu_pulse_width",
+        "__errors__",
+        "mcu_pwm_out",
+        "__errors__",
+        "sensor",
+        "__errors__"
+      ],
+      "keywords": [
+        "mcu",
+        "node-red",
+        "node-red-mcu",
+        "ECMA-419",
+        "IO",
+        "Analog",
+        "Digital",
+        "I2C",
+        "NeoPixels",
+        "PulseCount",
+        "PulseWidth",
+        "PWM",
+        "RTC",
+        "Clock",
+        "Sensor"
+      ],
+      "url": "https://flows.nodered.org/node/@moddable-node-red/mcu"
+    },
+    {
+      "id": "@siirimangus/node-red-contrib-context-hook",
+      "version": "1.0.2",
+      "description": "Nodes for managing state in Node-RED platform",
+      "updated_at": "2023-04-30T20:53:32.100Z",
+      "types": [
+        "set-global-state",
         "subscribe-state",
         "state-hook"
       ],
@@ -20,23 +103,22 @@
       "url": "https://flows.nodered.org/node/@siirimangus/node-red-contrib-context-hook"
     },
     {
-      "id": "node-red-contrib-iiot-ds18b20",
-      "version": "2.0.2",
-      "description": "A Node-RED node for multiple ds18b20 digital temperature sensor.",
-      "updated_at": "2023-04-30T14:27:55.031Z",
+      "id": "@stevokk/node-red-contrib-socketio",
+      "version": "1.1.1",
+      "description": "Implementation for Node-RED of a SocketIO Sever",
+      "updated_at": "2023-04-30T18:11:27.370Z",
       "types": [
-        "iiot-ds18b20-fs"
+        "socketio-config",
+        "socketio-in",
+        "socketio-out",
+        "socketio-join",
+        "socketio-leave",
+        "socketio-rooms"
       ],
       "keywords": [
-        "node-red",
-        "raspberry pi",
-        "rpi",
-        "ds18b20",
-        "iot",
-        "iiot",
-        "temperature"
+        "node-red"
       ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-iiot-ds18b20"
+      "url": "https://flows.nodered.org/node/@stevokk/node-red-contrib-socketio"
     },
     {
       "id": "node-red-contrib-email",
