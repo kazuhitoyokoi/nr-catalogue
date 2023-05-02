@@ -1,12 +1,203 @@
 {
   "name": "Catalogue for win32",
-  "updated_at": "2023-05-01T18:43:22.020Z",
+  "updated_at": "2023-05-02T22:01:25.902Z",
   "modules": [
     {
+      "id": "node-red-contrib-zwave-js",
+      "version": "8.1.0",
+      "description": "The most powerful, high performing and highly polished Z-Wave node for Node-RED based on Z-Wave JS. If you want a fully featured Z-Wave framework in your Node-RED instance, you have found it.",
+      "updated_at": "2023-05-02T16:05:40.309Z",
+      "types": [
+        "zwave-js",
+        "zwave-device",
+        "event-filter",
+        "cmd-factory"
+      ],
+      "keywords": [
+        "node-red",
+        "zwave",
+        "zwave-js",
+        "controller",
+        "smart",
+        "automation",
+        "home-automation",
+        "home"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-zwave-js"
+    },
+    {
+      "id": "node-red-contrib-schneider-powerlogic",
+      "version": "1.0.13",
+      "description": "A Node-RED nodes to read Schneider PowerLogic series over Modbus TCP/IP.",
+      "updated_at": "2023-05-02T16:03:38.003Z",
+      "types": [
+        "pm3000",
+        "pm5000",
+        "iem3000",
+        "powertag",
+        "smartlink",
+        "converter"
+      ],
+      "keywords": [
+        "node-red",
+        "schneider",
+        "pm3000",
+        "pm5000"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-schneider-powerlogic"
+    },
+    {
+      "id": "@gemini86/node-red-contrib-alarm-manager",
+      "version": "1.1.2",
+      "description": "Monitors condition and status inputs and aggregates alarms conditions into a single emitter node.",
+      "updated_at": "2023-05-02T14:17:01.495Z",
+      "types": [
+        "alarm-manager",
+        "alarm-emitter",
+        "persistence-hook",
+        "condition-monitor",
+        "status-monitor"
+      ],
+      "keywords": [
+        "node-red",
+        "alarm",
+        "alarm manager",
+        "alarm logger",
+        "scheduler",
+        "timer"
+      ],
+      "url": "https://flows.nodered.org/node/@gemini86/node-red-contrib-alarm-manager"
+    },
+    {
+      "id": "@yousolution/node-red-contrib-you-ftp-sftp",
+      "version": "1.10.0",
+      "description": "A node-red node that support FTP and SFTP file transfer using $() environment variables to control the ftp connection details",
+      "updated_at": "2023-05-02T12:07:51.486Z",
+      "types": [
+        "ftp",
+        "ftp in",
+        "sftp",
+        "sftp in",
+        "ftps",
+        "ftps in"
+      ],
+      "keywords": [
+        "node-red",
+        "ftp",
+        "sftp",
+        "ftps",
+        "redconnect"
+      ],
+      "url": "https://flows.nodered.org/node/@yousolution/node-red-contrib-you-ftp-sftp"
+    },
+    {
+      "id": "@flowforge/node-red-function-gpt",
+      "version": "0.1.0",
+      "description": "Variation of the standard Node-RED function node that includes an interface to ChatGPT for writing into the function content.",
+      "updated_at": "2023-05-02T11:34:56.633Z",
+      "types": [
+        "function-gpt",
+        "chatgpt-config"
+      ],
+      "keywords": [
+        "node-red"
+      ],
+      "url": "https://flows.nodered.org/node/@flowforge/node-red-function-gpt"
+    },
+    {
+      "id": "@ifp-software/node-red-contrib-oee-ai-connector",
+      "version": "2.4.0",
+      "description": "Easily connect your production machines to oee.ai – The Industry 4.0 solution for OEE optimization.",
+      "updated_at": "2023-05-02T06:39:51.587Z",
+      "types": [],
+      "keywords": [
+        "industrial",
+        "industry 4.0",
+        "iot",
+        "node-red",
+        "oee",
+        "oee.ai",
+        "sick",
+        "smart-factory",
+        "tdc"
+      ],
+      "url": "https://flows.nodered.org/node/@ifp-software/node-red-contrib-oee-ai-connector"
+    },
+    {
+      "id": "node-red-contrib-google-play-scraper",
+      "version": "0.0.6",
+      "description": "Get reviews on Google Play.",
+      "updated_at": "2023-05-02T05:37:32.723Z",
+      "types": [
+        "Google Play Review"
+      ],
+      "keywords": [
+        "node-red",
+        "google play"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-google-play-scraper"
+    },
+    {
+      "id": "node-red-contrib-letsfiware-ngsi",
+      "version": "0.14.0",
+      "description": "Node-RED implementation for FIWARE Open APIs",
+      "updated_at": "2023-05-02T05:10:59.969Z",
+      "types": [
+        "NGSI Entity",
+        "NGSI Attributes",
+        "NGSI Attribute",
+        "NGSI Attribute value",
+        "NGSI source",
+        "NGSI Batch update",
+        "NGSI subscription",
+        "NGSI registration",
+        "NGSI Types",
+        "Service and ServicePath",
+        "GTFS Realtime to NGSI",
+        "NGSI to worldmap",
+        "NGSI to dashboard",
+        "OpenWeatherMap to NGSI",
+        "FIWARE version",
+        "Historical Context",
+        "NGSI timeseries",
+        "Open APIs"
+      ],
+      "keywords": [
+        "node-red",
+        "contrib",
+        "fiware",
+        "ngsi",
+        "context",
+        "process",
+        "data",
+        "json"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-letsfiware-ngsi"
+    },
+    {
+      "id": "@tbowmo/node-red-small-timer",
+      "version": "0.3.0",
+      "description": "Small timer node for node red with support for sunrise, sunset etc. timers",
+      "updated_at": "2023-05-01T20:11:55.493Z",
+      "types": [
+        "smalltimer",
+        "position"
+      ],
+      "keywords": [
+        "node-red",
+        "timer",
+        "sunset",
+        "sunrise",
+        "dawn",
+        "dusk"
+      ],
+      "url": "https://flows.nodered.org/node/@tbowmo/node-red-small-timer"
+    },
+    {
       "id": "node-red-contrib-iiot-ds18b20",
-      "version": "2.0.4",
+      "version": "2.0.5",
       "description": "A Node-RED node for multiple ds18b20 digital temperature sensors.",
-      "updated_at": "2023-05-01T11:22:36.117Z",
+      "updated_at": "2023-05-01T19:05:40.565Z",
       "types": [
         "iiot-ds18b20-fs"
       ],
@@ -219,6 +410,21 @@
       "url": "https://flows.nodered.org/node/node-red-contrib-telegrambot"
     },
     {
+      "id": "node-red-contrib-knapsack",
+      "version": "1.0.0",
+      "description": "A Node-RED node that demonstrates the use of the Knapsack algorithm",
+      "updated_at": "2023-04-29T12:36:17.760Z",
+      "types": [
+        "knapsack"
+      ],
+      "keywords": [
+        "node-red",
+        "knapsack",
+        "algorithm"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-knapsack"
+    },
+    {
       "id": "node-red-contrib-2fa",
       "version": "1.2.1",
       "description": "Two-Factor Authentication (2FA) on NodeRED",
@@ -258,28 +464,6 @@
         "iot"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-ui-time-scheduler-french"
-    },
-    {
-      "id": "@gemini86/node-red-contrib-alarm-manager",
-      "version": "1.1.1",
-      "description": "Monitors condition and status inputs and aggregates alarms conditions into a single emitter node.",
-      "updated_at": "2023-04-28T15:31:53.539Z",
-      "types": [
-        "alarm-manager",
-        "alarm-emitter",
-        "persistence-hook",
-        "condition-monitor",
-        "status-monitor"
-      ],
-      "keywords": [
-        "node-red",
-        "alarm",
-        "alarm manager",
-        "alarm logger",
-        "scheduler",
-        "timer"
-      ],
-      "url": "https://flows.nodered.org/node/@gemini86/node-red-contrib-alarm-manager"
     },
     {
       "id": "@digitalnodecom/node-red-contrib-generic-s3",
@@ -337,25 +521,6 @@
         "ds18b20"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-sensor-ds18b20-dynamic-sensor-id"
-    },
-    {
-      "id": "@tbowmo/node-red-small-timer",
-      "version": "0.2.1",
-      "description": "Small timer node for node red with support for sunrise, sunset etc. timers",
-      "updated_at": "2023-04-27T20:48:16.344Z",
-      "types": [
-        "smalltimer",
-        "position"
-      ],
-      "keywords": [
-        "node-red",
-        "timer",
-        "sunset",
-        "sunrise",
-        "dawn",
-        "dusk"
-      ],
-      "url": "https://flows.nodered.org/node/@tbowmo/node-red-small-timer"
     },
     {
       "id": "node-red-contrib-oee-fsm",
@@ -561,33 +726,6 @@
         "ssl-cert"
       ],
       "url": "https://flows.nodered.org/node/@cappern/node-red-tls-cert-info"
-    },
-    {
-      "id": "node-red-contrib-schneider-powerlogic",
-      "version": "1.0.12",
-      "description": "A Node-RED nodes to read Schneider PowerLogic series over Modbus TCP/IP.",
-      "updated_at": "2023-04-26T07:02:10.652Z",
-      "types": [
-        "pm3000",
-        "pm5000",
-        "iem3000",
-        "powertag",
-        "smartlink",
-        "converter"
-      ],
-      "keywords": [
-        "node-red",
-        "schneider",
-        "pm3000",
-        "pm5000",
-        "iem300",
-        "powertag",
-        "smartlink",
-        "energymeter",
-        "link150",
-        "powerlogic"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-schneider-powerlogic"
     },
     {
       "id": "node-red-contrib-python-function-ps",
@@ -2817,25 +2955,6 @@
       "url": "https://flows.nodered.org/node/@bitpoolos/edge-integriti"
     },
     {
-      "id": "@ifp-software/node-red-contrib-oee-ai-connector",
-      "version": "2.3.0",
-      "description": "Easily connect your production machines to oee.ai – The Industry 4.0 solution for OEE optimization.",
-      "updated_at": "2023-03-30T18:20:22.978Z",
-      "types": [],
-      "keywords": [
-        "industrial",
-        "industry 4.0",
-        "iot",
-        "node-red",
-        "oee",
-        "oee.ai",
-        "sick",
-        "smart-factory",
-        "tdc"
-      ],
-      "url": "https://flows.nodered.org/node/@ifp-software/node-red-contrib-oee-ai-connector"
-    },
-    {
       "id": "node-red-contrib-winccoa",
       "version": "3.2.1",
       "description": "WinCC OA to Node-RED connector",
@@ -4251,28 +4370,6 @@
       "url": "https://flows.nodered.org/node/node-red-contrib-uhppoted"
     },
     {
-      "id": "@yousolution/node-red-contrib-you-ftp-sftp",
-      "version": "1.9.2",
-      "description": "A node-red node that support FTP and SFTP file transfer using $() environment variables to control the ftp connection details",
-      "updated_at": "2023-03-15T16:48:26.974Z",
-      "types": [
-        "ftp",
-        "ftp in",
-        "sftp",
-        "sftp in",
-        "ftps",
-        "ftps in"
-      ],
-      "keywords": [
-        "node-red",
-        "ftp",
-        "sftp",
-        "ftps",
-        "redconnect"
-      ],
-      "url": "https://flows.nodered.org/node/@yousolution/node-red-contrib-you-ftp-sftp"
-    },
-    {
       "id": "node-red-node-snmp",
       "version": "2.0.0",
       "description": "A Node-RED node that gets and sets SNMP oid values. Supports v1, v2c and v3",
@@ -5217,43 +5314,6 @@
         "smb"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-smb2"
-    },
-    {
-      "id": "node-red-contrib-letsfiware-ngsi",
-      "version": "0.13.0",
-      "description": "Node-RED implementation for FIWARE Open APIs",
-      "updated_at": "2023-02-26T00:50:01.160Z",
-      "types": [
-        "NGSI Entity",
-        "NGSI Attributes",
-        "NGSI Attribute",
-        "NGSI Attribute value",
-        "NGSI source",
-        "NGSI Batch update",
-        "NGSI subscription",
-        "NGSI registration",
-        "NGSI Types",
-        "Service and ServicePath",
-        "GTFS Realtime to NGSI",
-        "NGSI to worldmap",
-        "NGSI to dashboard",
-        "OpenWeatherMap to NGSI",
-        "FIWARE version",
-        "Historical Context",
-        "NGSI timeseries",
-        "Open APIs"
-      ],
-      "keywords": [
-        "node-red",
-        "contrib",
-        "fiware",
-        "ngsi",
-        "context",
-        "process",
-        "data",
-        "json"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-letsfiware-ngsi"
     },
     {
       "id": "node-red-contrib-moralis",
@@ -12441,20 +12501,6 @@
       "url": "https://flows.nodered.org/node/node-red-contrib-dynamic-thermostat"
     },
     {
-      "id": "node-red-contrib-google-play-scraper",
-      "version": "0.0.5",
-      "description": "Get reviews on Google Play.",
-      "updated_at": "2022-10-17T07:08:58.804Z",
-      "types": [
-        "Google Play Review"
-      ],
-      "keywords": [
-        "node-red",
-        "google play"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-google-play-scraper"
-    },
-    {
       "id": "node-red-contrib-miio-localdevices",
       "version": "0.5.12",
       "description": "Node for Node-Red to control Mi Devices locally via node-mihome (Humidifiers, Air Purifiers, Heaters, Fans, Vacuums, Lights - list of devices to be enlarged). See latest updates in documentation.",
@@ -13632,29 +13678,6 @@
         "find-me"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-apple-findme-reloaded"
-    },
-    {
-      "id": "node-red-contrib-zwave-js",
-      "version": "8.0.0",
-      "description": "The most powerful, high performing and highly polished Z-Wave node for Node-RED based on Z-Wave JS. If you want a fully featured Z-Wave framework in your Node-RED instance, you have found it.",
-      "updated_at": "2022-09-23T16:53:07.191Z",
-      "types": [
-        "zwave-js",
-        "zwave-device",
-        "event-filter",
-        "cmd-factory"
-      ],
-      "keywords": [
-        "node-red",
-        "zwave",
-        "zwave-js",
-        "controller",
-        "smart",
-        "automation",
-        "home-automation",
-        "home"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-zwave-js"
     },
     {
       "id": "node-red-contrib-rinna",
@@ -18139,6 +18162,25 @@
       "url": "https://flows.nodered.org/node/@pafum/node-red-node-mongodb"
     },
     {
+      "id": "node-red-contrib-bitunloader",
+      "version": "0.4.1",
+      "description": "Unload numbers to a binary string, array of bits, array of bools, object of bits, or object of bools.",
+      "updated_at": "2022-05-17T18:29:35.883Z",
+      "types": [
+        "bitunloader",
+        "bitreloader"
+      ],
+      "keywords": [
+        "node-red",
+        "bit",
+        "binary",
+        "bool",
+        "boolean",
+        "parse"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-bitunloader"
+    },
+    {
       "id": "node-red-contrib-lookin",
       "version": "1.0.2",
       "description": "Для русского языка нажмите [сюда](https://bitbucket.org/look-in/node-red/src/master/README_ru.md).",
@@ -18638,6 +18680,22 @@
         "limit"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-simple-queue"
+    },
+    {
+      "id": "node-red-contrib-public-ip-address",
+      "version": "0.0.3",
+      "description": "Node-RED Node to get the public IP address",
+      "updated_at": "2022-05-11T03:48:50.070Z",
+      "types": [
+        "public-ip-address"
+      ],
+      "keywords": [
+        "node-red",
+        "ip-address",
+        "public-ip-address",
+        "ipify"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-public-ip-address"
     },
     {
       "id": "node-red-contrib-protobuf",
@@ -40571,19 +40629,6 @@
       "url": "https://flows.nodered.org/node/node-red-contrib-duckdns"
     },
     {
-      "id": "node-red-contrib-public-ip-address",
-      "version": "0.0.1",
-      "description": "Get the public IP address",
-      "updated_at": "2020-09-27T08:05:08.419Z",
-      "types": [
-        "public-ip-address"
-      ],
-      "keywords": [
-        "node-red"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-public-ip-address"
-    },
-    {
       "id": "node-red-contrib-password-validator",
       "version": "0.2.17",
       "description": "Provides a node-red node for password validation; checks that a password meets your defined requierments.",
@@ -42756,25 +42801,6 @@
         "notify"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-sonos-notify"
-    },
-    {
-      "id": "node-red-contrib-bitunloader",
-      "version": "0.3.7",
-      "description": "Unload numbers to a binary string, array of bits, array of bools, object of bits, or object of bools.",
-      "updated_at": "2020-07-01T20:57:50.796Z",
-      "types": [
-        "bitunloader",
-        "bitreloader"
-      ],
-      "keywords": [
-        "node-red",
-        "bit",
-        "binary",
-        "bool",
-        "boolean",
-        "parse"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-bitunloader"
     },
     {
       "id": "node-red-contrib-flogger-coco",
