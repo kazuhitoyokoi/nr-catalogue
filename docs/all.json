@@ -1,12 +1,159 @@
 {
   "name": "Catalogue for verified nodes",
-  "updated_at": "2023-04-30T20:33:28.944Z",
+  "updated_at": "2023-05-02T23:37:22.554Z",
   "modules": [
     {
+      "id": "@gemini86/node-red-contrib-alarm-manager",
+      "version": "1.1.2",
+      "description": "Monitors condition and status inputs and aggregates alarms conditions into a single emitter node.",
+      "updated_at": "2023-05-02T14:17:01.495Z",
+      "types": [
+        "alarm-manager",
+        "alarm-emitter",
+        "persistence-hook",
+        "condition-monitor",
+        "status-monitor"
+      ],
+      "keywords": [
+        "node-red",
+        "alarm",
+        "alarm manager",
+        "alarm logger",
+        "scheduler",
+        "timer"
+      ],
+      "url": "https://flows.nodered.org/node/@gemini86/node-red-contrib-alarm-manager"
+    },
+    {
+      "id": "@yousolution/node-red-contrib-you-ftp-sftp",
+      "version": "1.10.0",
+      "description": "A node-red node that support FTP and SFTP file transfer using $() environment variables to control the ftp connection details",
+      "updated_at": "2023-05-02T12:07:51.486Z",
+      "types": [
+        "ftp",
+        "ftp in",
+        "sftp",
+        "sftp in",
+        "ftps",
+        "ftps in"
+      ],
+      "keywords": [
+        "node-red",
+        "ftp",
+        "sftp",
+        "ftps",
+        "redconnect"
+      ],
+      "url": "https://flows.nodered.org/node/@yousolution/node-red-contrib-you-ftp-sftp"
+    },
+    {
+      "id": "@flowforge/node-red-function-gpt",
+      "version": "0.1.0",
+      "description": "Variation of the standard Node-RED function node that includes an interface to ChatGPT for writing into the function content.",
+      "updated_at": "2023-05-02T11:34:56.633Z",
+      "types": [
+        "function-gpt",
+        "chatgpt-config"
+      ],
+      "keywords": [
+        "node-red"
+      ],
+      "url": "https://flows.nodered.org/node/@flowforge/node-red-function-gpt"
+    },
+    {
+      "id": "@ifp-software/node-red-contrib-oee-ai-connector",
+      "version": "2.4.0",
+      "description": "Easily connect your production machines to oee.ai – The Industry 4.0 solution for OEE optimization.",
+      "updated_at": "2023-05-02T06:39:51.587Z",
+      "types": [],
+      "keywords": [
+        "industrial",
+        "industry 4.0",
+        "iot",
+        "node-red",
+        "oee",
+        "oee.ai",
+        "sick",
+        "smart-factory",
+        "tdc"
+      ],
+      "url": "https://flows.nodered.org/node/@ifp-software/node-red-contrib-oee-ai-connector"
+    },
+    {
+      "id": "node-red-contrib-google-play-scraper",
+      "version": "0.0.6",
+      "description": "Get reviews on Google Play.",
+      "updated_at": "2023-05-02T05:37:32.723Z",
+      "types": [
+        "Google Play Review"
+      ],
+      "keywords": [
+        "node-red",
+        "google play"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-google-play-scraper"
+    },
+    {
+      "id": "node-red-contrib-letsfiware-ngsi",
+      "version": "0.14.0",
+      "description": "Node-RED implementation for FIWARE Open APIs",
+      "updated_at": "2023-05-02T05:10:59.969Z",
+      "types": [
+        "NGSI Entity",
+        "NGSI Attributes",
+        "NGSI Attribute",
+        "NGSI Attribute value",
+        "NGSI source",
+        "NGSI Batch update",
+        "NGSI subscription",
+        "NGSI registration",
+        "NGSI Types",
+        "Service and ServicePath",
+        "GTFS Realtime to NGSI",
+        "NGSI to worldmap",
+        "NGSI to dashboard",
+        "OpenWeatherMap to NGSI",
+        "FIWARE version",
+        "Historical Context",
+        "NGSI timeseries",
+        "Open APIs"
+      ],
+      "keywords": [
+        "node-red",
+        "contrib",
+        "fiware",
+        "ngsi",
+        "context",
+        "process",
+        "data",
+        "json"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-letsfiware-ngsi"
+    },
+    {
+      "id": "@tbowmo/node-red-small-timer",
+      "version": "0.3.0",
+      "description": "Small timer node for node red with support for sunrise, sunset etc. timers",
+      "updated_at": "2023-05-01T20:11:55.493Z",
+      "types": [
+        "smalltimer",
+        "position"
+      ],
+      "keywords": [
+        "node-red",
+        "timer",
+        "sunset",
+        "sunrise",
+        "dawn",
+        "dusk"
+      ],
+      "url": "https://flows.nodered.org/node/@tbowmo/node-red-small-timer"
+    },
+    {
       "id": "node-red-contrib-iiot-ds18b20",
-      "version": "2.0.2",
-      "description": "A Node-RED node for multiple ds18b20 digital temperature sensor.",
-      "updated_at": "2023-04-30T14:27:55.031Z",
+      "version": "2.0.5",
+      "description": "A Node-RED node for multiple ds18b20 digital temperature sensors.",
+      "updated_at": "2023-05-01T19:05:40.565Z",
       "types": [
         "iiot-ds18b20-fs"
       ],
@@ -15,11 +162,110 @@
         "raspberry pi",
         "rpi",
         "ds18b20",
+        "one wire",
         "iot",
         "iiot",
         "temperature"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-iiot-ds18b20"
+    },
+    {
+      "id": "node-red-contrib-ytdl-ubos",
+      "version": "0.0.1",
+      "description": "Youtube download based on ytdl and ytpl",
+      "updated_at": "2023-05-01T09:15:27.614Z",
+      "types": [
+        "youtube-ytdl"
+      ],
+      "keywords": [
+        "node-red",
+        "youtube",
+        "iot",
+        "contrib",
+        "red"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-ytdl-ubos"
+    },
+    {
+      "id": "@moddable-node-red/mcu",
+      "version": "1.0.3",
+      "description": "A suite of IO nodes for Node-RED MCU Edition",
+      "updated_at": "2023-05-01T04:38:29.876Z",
+      "types": [
+        "mcu_analog",
+        "__errors__",
+        "mcu_clock",
+        "__errors__",
+        "mcu_digital_in",
+        "mcu_digital_out",
+        "__errors__",
+        "mcu_i2c_in",
+        "mcu_i2c_out",
+        "__errors__",
+        "mcu_neopixels",
+        "__errors__",
+        "mcu_pulse_count",
+        "__errors__",
+        "mcu_pulse_width",
+        "__errors__",
+        "mcu_pwm_out",
+        "__errors__",
+        "sensor",
+        "__errors__"
+      ],
+      "keywords": [
+        "mcu",
+        "node-red",
+        "node-red-mcu",
+        "ECMA-419",
+        "IO",
+        "Analog",
+        "Digital",
+        "I2C",
+        "NeoPixels",
+        "PulseCount",
+        "PulseWidth",
+        "PWM",
+        "RTC",
+        "Clock",
+        "Sensor"
+      ],
+      "url": "https://flows.nodered.org/node/@moddable-node-red/mcu"
+    },
+    {
+      "id": "@siirimangus/node-red-contrib-context-hook",
+      "version": "1.0.2",
+      "description": "Nodes for managing state in Node-RED platform",
+      "updated_at": "2023-04-30T20:53:32.100Z",
+      "types": [
+        "set-global-state",
+        "subscribe-state",
+        "state-hook"
+      ],
+      "keywords": [
+        "node-red",
+        "node-red-contrib",
+        "state"
+      ],
+      "url": "https://flows.nodered.org/node/@siirimangus/node-red-contrib-context-hook"
+    },
+    {
+      "id": "@stevokk/node-red-contrib-socketio",
+      "version": "1.1.1",
+      "description": "Implementation for Node-RED of a SocketIO Sever",
+      "updated_at": "2023-04-30T18:11:27.370Z",
+      "types": [
+        "socketio-config",
+        "socketio-in",
+        "socketio-out",
+        "socketio-join",
+        "socketio-leave",
+        "socketio-rooms"
+      ],
+      "keywords": [
+        "node-red"
+      ],
+      "url": "https://flows.nodered.org/node/@stevokk/node-red-contrib-socketio"
     },
     {
       "id": "node-red-contrib-email",
@@ -161,28 +407,6 @@
       "url": "https://flows.nodered.org/node/node-red-contrib-ui-time-scheduler-french"
     },
     {
-      "id": "@gemini86/node-red-contrib-alarm-manager",
-      "version": "1.1.1",
-      "description": "Monitors condition and status inputs and aggregates alarms conditions into a single emitter node.",
-      "updated_at": "2023-04-28T15:31:53.539Z",
-      "types": [
-        "alarm-manager",
-        "alarm-emitter",
-        "persistence-hook",
-        "condition-monitor",
-        "status-monitor"
-      ],
-      "keywords": [
-        "node-red",
-        "alarm",
-        "alarm manager",
-        "alarm logger",
-        "scheduler",
-        "timer"
-      ],
-      "url": "https://flows.nodered.org/node/@gemini86/node-red-contrib-alarm-manager"
-    },
-    {
       "id": "@digitalnodecom/node-red-contrib-generic-s3",
       "version": "1.8.0",
       "description": "Generic node-red S3 nodes",
@@ -238,25 +462,6 @@
         "ds18b20"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-sensor-ds18b20-dynamic-sensor-id"
-    },
-    {
-      "id": "@tbowmo/node-red-small-timer",
-      "version": "0.2.1",
-      "description": "Small timer node for node red with support for sunrise, sunset etc. timers",
-      "updated_at": "2023-04-27T20:48:16.344Z",
-      "types": [
-        "smalltimer",
-        "position"
-      ],
-      "keywords": [
-        "node-red",
-        "timer",
-        "sunset",
-        "sunrise",
-        "dawn",
-        "dusk"
-      ],
-      "url": "https://flows.nodered.org/node/@tbowmo/node-red-small-timer"
     },
     {
       "id": "node-red-contrib-oee-fsm",
@@ -2702,25 +2907,6 @@
       "url": "https://flows.nodered.org/node/@bitpoolos/edge-integriti"
     },
     {
-      "id": "@ifp-software/node-red-contrib-oee-ai-connector",
-      "version": "2.3.0",
-      "description": "Easily connect your production machines to oee.ai – The Industry 4.0 solution for OEE optimization.",
-      "updated_at": "2023-03-30T18:20:22.978Z",
-      "types": [],
-      "keywords": [
-        "industrial",
-        "industry 4.0",
-        "iot",
-        "node-red",
-        "oee",
-        "oee.ai",
-        "sick",
-        "smart-factory",
-        "tdc"
-      ],
-      "url": "https://flows.nodered.org/node/@ifp-software/node-red-contrib-oee-ai-connector"
-    },
-    {
       "id": "node-red-contrib-winccoa",
       "version": "3.2.1",
       "description": "WinCC OA to Node-RED connector",
@@ -4136,28 +4322,6 @@
       "url": "https://flows.nodered.org/node/node-red-contrib-uhppoted"
     },
     {
-      "id": "@yousolution/node-red-contrib-you-ftp-sftp",
-      "version": "1.9.2",
-      "description": "A node-red node that support FTP and SFTP file transfer using $() environment variables to control the ftp connection details",
-      "updated_at": "2023-03-15T16:48:26.974Z",
-      "types": [
-        "ftp",
-        "ftp in",
-        "sftp",
-        "sftp in",
-        "ftps",
-        "ftps in"
-      ],
-      "keywords": [
-        "node-red",
-        "ftp",
-        "sftp",
-        "ftps",
-        "redconnect"
-      ],
-      "url": "https://flows.nodered.org/node/@yousolution/node-red-contrib-you-ftp-sftp"
-    },
-    {
       "id": "node-red-node-snmp",
       "version": "2.0.0",
       "description": "A Node-RED node that gets and sets SNMP oid values. Supports v1, v2c and v3",
@@ -5102,43 +5266,6 @@
         "smb"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-smb2"
-    },
-    {
-      "id": "node-red-contrib-letsfiware-ngsi",
-      "version": "0.13.0",
-      "description": "Node-RED implementation for FIWARE Open APIs",
-      "updated_at": "2023-02-26T00:50:01.160Z",
-      "types": [
-        "NGSI Entity",
-        "NGSI Attributes",
-        "NGSI Attribute",
-        "NGSI Attribute value",
-        "NGSI source",
-        "NGSI Batch update",
-        "NGSI subscription",
-        "NGSI registration",
-        "NGSI Types",
-        "Service and ServicePath",
-        "GTFS Realtime to NGSI",
-        "NGSI to worldmap",
-        "NGSI to dashboard",
-        "OpenWeatherMap to NGSI",
-        "FIWARE version",
-        "Historical Context",
-        "NGSI timeseries",
-        "Open APIs"
-      ],
-      "keywords": [
-        "node-red",
-        "contrib",
-        "fiware",
-        "ngsi",
-        "context",
-        "process",
-        "data",
-        "json"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-letsfiware-ngsi"
     },
     {
       "id": "node-red-contrib-moralis",
@@ -12256,20 +12383,6 @@
       "url": "https://flows.nodered.org/node/node-red-contrib-dynamic-thermostat"
     },
     {
-      "id": "node-red-contrib-google-play-scraper",
-      "version": "0.0.5",
-      "description": "Get reviews on Google Play.",
-      "updated_at": "2022-10-17T07:08:58.804Z",
-      "types": [
-        "Google Play Review"
-      ],
-      "keywords": [
-        "node-red",
-        "google play"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-google-play-scraper"
-    },
-    {
       "id": "node-red-contrib-miio-localdevices",
       "version": "0.5.12",
       "description": "Node for Node-Red to control Mi Devices locally via node-mihome (Humidifiers, Air Purifiers, Heaters, Fans, Vacuums, Lights - list of devices to be enlarged). See latest updates in documentation.",
@@ -17910,6 +18023,25 @@
       "url": "https://flows.nodered.org/node/@pafum/node-red-node-mongodb"
     },
     {
+      "id": "node-red-contrib-bitunloader",
+      "version": "0.4.1",
+      "description": "Unload numbers to a binary string, array of bits, array of bools, object of bits, or object of bools.",
+      "updated_at": "2022-05-17T18:29:35.883Z",
+      "types": [
+        "bitunloader",
+        "bitreloader"
+      ],
+      "keywords": [
+        "node-red",
+        "bit",
+        "binary",
+        "bool",
+        "boolean",
+        "parse"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-bitunloader"
+    },
+    {
       "id": "node-red-contrib-lookin",
       "version": "1.0.2",
       "description": "Для русского языка нажмите [сюда](https://bitbucket.org/look-in/node-red/src/master/README_ru.md).",
@@ -18394,6 +18526,22 @@
         "limit"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-simple-queue"
+    },
+    {
+      "id": "node-red-contrib-public-ip-address",
+      "version": "0.0.3",
+      "description": "Node-RED Node to get the public IP address",
+      "updated_at": "2022-05-11T03:48:50.070Z",
+      "types": [
+        "public-ip-address"
+      ],
+      "keywords": [
+        "node-red",
+        "ip-address",
+        "public-ip-address",
+        "ipify"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-public-ip-address"
     },
     {
       "id": "node-red-contrib-protobuf",
@@ -39896,19 +40044,6 @@
       "url": "https://flows.nodered.org/node/node-red-contrib-duckdns"
     },
     {
-      "id": "node-red-contrib-public-ip-address",
-      "version": "0.0.1",
-      "description": "Get the public IP address",
-      "updated_at": "2020-09-27T08:05:08.419Z",
-      "types": [
-        "public-ip-address"
-      ],
-      "keywords": [
-        "node-red"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-public-ip-address"
-    },
-    {
       "id": "node-red-contrib-password-validator",
       "version": "0.2.17",
       "description": "Provides a node-red node for password validation; checks that a password meets your defined requierments.",
@@ -42018,25 +42153,6 @@
         "notify"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-sonos-notify"
-    },
-    {
-      "id": "node-red-contrib-bitunloader",
-      "version": "0.3.7",
-      "description": "Unload numbers to a binary string, array of bits, array of bools, object of bits, or object of bools.",
-      "updated_at": "2020-07-01T20:57:50.796Z",
-      "types": [
-        "bitunloader",
-        "bitreloader"
-      ],
-      "keywords": [
-        "node-red",
-        "bit",
-        "binary",
-        "bool",
-        "boolean",
-        "parse"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-bitunloader"
     },
     {
       "id": "node-red-contrib-flogger-coco",
