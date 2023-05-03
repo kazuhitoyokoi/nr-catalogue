@@ -1,0 +1,31 @@
+
+----
+Sending build context to Docker daemon  36.67MB
+Step 1/2 : FROM nodered/node-red
+ ---> a15fc0f4e930
+Step 2/2 : RUN npm install npm install @tbowmo/node-red-small-timer@0.3.1
+ ---> Running in 6dc107589323
+
+added 5 packages, changed 2 packages, and audited 537 packages in 9s
+
+53 packages are looking for funding
+  run `npm fund` for details
+
+9 vulnerabilities (4 low, 4 moderate, 1 high)
+
+To address issues that do not require attention, run:
+  npm audit fix
+
+To address all issues (including breaking changes), run:
+  npm audit fix --force
+
+Run `npm audit` for details.
+[91mnpm notice[0m[91m 
+npm notice New major version of npm available! 8.11.0 -> 9.6.5
+npm notice[0m[91m Changelog: <https://github.com/npm/cli/releases/tag/v9.6.5>
+npm notice Run `npm install -g npm@9.6.5` to update!
+npm notice 
+[0mRemoving intermediate container 6dc107589323
+ ---> cf0504fb43f7
+Successfully built cf0504fb43f7
+Successfully tagged tmp:latest
