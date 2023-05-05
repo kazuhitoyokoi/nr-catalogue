@@ -1,7 +1,173 @@
 {
   "name": "Catalogue for darwin",
-  "updated_at": "2023-05-04T21:31:11.830Z",
+  "updated_at": "2023-05-05T20:00:09.360Z",
   "modules": [
+    {
+      "id": "node-red-contrib-iiot-rpi-mcp342x",
+      "version": "2.0.1",
+      "description": "A Node-Red node for mcp342x analog to digital converter.",
+      "updated_at": "2023-05-05T17:03:14.091Z",
+      "types": [
+        "mcp342x",
+        "mcp342x-m"
+      ],
+      "keywords": [
+        "node-red",
+        "raspberry pi",
+        "rpi",
+        "mcp342x",
+        "mcp3421",
+        "mcp3422",
+        "mcp3423",
+        "mcp3424",
+        "mcp3425",
+        "mcp3426",
+        "mcp3427",
+        "mcp3428",
+        "iot",
+        "iiot",
+        "analog",
+        "adc"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-iiot-rpi-mcp342x"
+    },
+    {
+      "id": "node-red-contrib-trng",
+      "version": "1.0.0",
+      "description": "A Node-RED module for generating random data using a hybrid approach.",
+      "updated_at": "2023-05-05T13:24:13.288Z",
+      "types": [
+        "trng"
+      ],
+      "keywords": [
+        "node-red",
+        "trng",
+        "random",
+        "random number generator",
+        "security",
+        "cryptography",
+        "Truly Random Number Generator"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-trng"
+    },
+    {
+      "id": "node-red-contrib-prediktor-edge-management",
+      "version": "1.15.0",
+      "description": "A collection of nodes to communicate with Prediktor Edge Management",
+      "updated_at": "2023-05-05T12:32:44.521Z",
+      "types": [
+        "ping-em",
+        "restore-namespace",
+        "restore-variable-mappings",
+        "prediktor-edge-management",
+        "upload-hive-config"
+      ],
+      "keywords": [
+        "prediktor",
+        "node-red"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-prediktor-edge-management"
+    },
+    {
+      "id": "node-red-contrib-prediktor-config-repo",
+      "version": "1.18.0",
+      "description": "A collection of nodes to communicate with Prediktor Configuration Repository",
+      "updated_at": "2023-05-05T12:28:06.980Z",
+      "types": [
+        "ping",
+        "get-nodes",
+        "get",
+        "create",
+        "update",
+        "delete",
+        "prediktor-config-repository",
+        "upload-content",
+        "download-content",
+        "compare-namespaces",
+        "unzip-large-folder",
+        "compare-variable-mappings",
+        "compare-hive-config"
+      ],
+      "keywords": [
+        "prediktor",
+        "node-red"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-prediktor-config-repo"
+    },
+    {
+      "id": "@gregoriusrippenstein/node-red-contrib-introspection",
+      "version": "0.1.1",
+      "description": "Node-RED Editor-only nodes for introspecting flows.",
+      "updated_at": "2023-05-05T11:49:01.801Z",
+      "types": [
+        "Seeker",
+        "Sink",
+        "Screenshot",
+        "Orphans",
+        "IsMobile",
+        "Navigator"
+      ],
+      "keywords": [
+        "node-red"
+      ],
+      "url": "https://flows.nodered.org/node/@gregoriusrippenstein/node-red-contrib-introspection"
+    },
+    {
+      "id": "node-red-contrib-growatt",
+      "version": "1.1.0",
+      "description": "Access to the Growatt API. Using the PCLHome/growatt library.",
+      "updated_at": "2023-05-05T06:48:21.689Z",
+      "types": [
+        "growatt",
+        "growatt-config"
+      ],
+      "keywords": [
+        "node-red",
+        "growatt"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-growatt"
+    },
+    {
+      "id": "node-red-contrib-iiot-rpi-ads1115",
+      "version": "2.0.5",
+      "description": "A Node-Red node for ads1115 analog to digital converter",
+      "updated_at": "2023-05-05T05:15:09.839Z",
+      "types": [
+        "iiot-ads1115",
+        "iiot-ads1115-m"
+      ],
+      "keywords": [
+        "node-red",
+        "raspberry pi",
+        "rpi",
+        "ads1115",
+        "iot",
+        "iiot",
+        "analog",
+        "adc"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-iiot-rpi-ads1115"
+    },
+    {
+      "id": "node-red-contrib-esphome",
+      "version": "0.2.1",
+      "description": "Node-RED nodes to ESPhome devices",
+      "updated_at": "2023-05-05T03:52:46.614Z",
+      "types": [
+        "esphome-device",
+        "esphome-in",
+        "esphome-out"
+      ],
+      "keywords": [
+        "node-red",
+        "esphome",
+        "esp",
+        "home",
+        "esp32",
+        "esp8266"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-esphome"
+    },
     {
       "id": "@mcfitz2/node-red-json-stream-array",
       "version": "0.0.2",
@@ -37,45 +203,6 @@
         "redconnect"
       ],
       "url": "https://flows.nodered.org/node/@yousolution/node-red-contrib-you-ftp-sftp"
-    },
-    {
-      "id": "@gregoriusrippenstein/node-red-contrib-introspection",
-      "version": "0.1.0",
-      "description": "Node-RED Editor-only nodes for introspecting flows.",
-      "updated_at": "2023-05-04T15:19:35.322Z",
-      "types": [
-        "Seeker",
-        "Sink",
-        "Screenshot",
-        "Orphans",
-        "IsMobile",
-        "Navigator"
-      ],
-      "keywords": [
-        "node-red"
-      ],
-      "url": "https://flows.nodered.org/node/@gregoriusrippenstein/node-red-contrib-introspection"
-    },
-    {
-      "id": "node-red-contrib-iiot-rpi-ads1115",
-      "version": "2.0.4",
-      "description": "A Node-Red node for ads1115 analog to digital converter",
-      "updated_at": "2023-05-04T12:18:57.800Z",
-      "types": [
-        "iiot-ads1115",
-        "iiot-ads1115-m"
-      ],
-      "keywords": [
-        "node-red",
-        "raspberry pi",
-        "rpi",
-        "ads1115",
-        "iot",
-        "iiot",
-        "analog",
-        "adc"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-iiot-rpi-ads1115"
     },
     {
       "id": "atomic-gravity",
@@ -2508,26 +2635,6 @@
         "rac-wf"
       ],
       "url": "https://flows.nodered.org/node/@programie/node-red-aircon-rac-wf"
-    },
-    {
-      "id": "node-red-contrib-esphome",
-      "version": "0.2.0",
-      "description": "Node-RED nodes to ESPhome devices",
-      "updated_at": "2023-04-07T08:27:14.883Z",
-      "types": [
-        "esphome-device",
-        "esphome-in",
-        "esphome-out"
-      ],
-      "keywords": [
-        "node-red",
-        "esphome",
-        "esp",
-        "home",
-        "esp32",
-        "esp8266"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-esphome"
     },
     {
       "id": "node-red-contrib-home-assistant-websocket",
@@ -9764,24 +9871,6 @@
       "url": "https://flows.nodered.org/node/node-red-contrib-gsi"
     },
     {
-      "id": "node-red-contrib-prediktor-edge-management",
-      "version": "1.14.0",
-      "description": "A collection of nodes to communicate with Prediktor Edge Management",
-      "updated_at": "2022-12-16T12:11:43.262Z",
-      "types": [
-        "ping-em",
-        "restore-namespace",
-        "restore-variable-mappings",
-        "prediktor-edge-management",
-        "upload-hive-config"
-      ],
-      "keywords": [
-        "prediktor",
-        "node-red"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-prediktor-edge-management"
-    },
-    {
       "id": "node-red-contrib-ampio",
       "version": "0.6.3",
       "description": "Ampio node",
@@ -10489,32 +10578,6 @@
         "dashboard"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-ui-statechart"
-    },
-    {
-      "id": "node-red-contrib-prediktor-config-repo",
-      "version": "1.16.0",
-      "description": "A collection of nodes to communicate with Prediktor Configuration Repository",
-      "updated_at": "2022-11-30T09:44:57.859Z",
-      "types": [
-        "ping",
-        "get-nodes",
-        "get",
-        "create",
-        "update",
-        "delete",
-        "prediktor-config-repository",
-        "upload-content",
-        "download-content",
-        "compare-namespaces",
-        "unzip-large-folder",
-        "compare-variable-mappings",
-        "compare-hive-config"
-      ],
-      "keywords": [
-        "prediktor",
-        "node-red"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-prediktor-config-repo"
     },
     {
       "id": "node-red-contrib-fhem",
@@ -16723,35 +16786,6 @@
       "url": "https://flows.nodered.org/node/@0xf42/node-red-contrib-klever"
     },
     {
-      "id": "node-red-contrib-iiot-rpi-mcp342x",
-      "version": "1.0.21",
-      "description": "A Node-Red node for mcp342x analog to digital converter",
-      "updated_at": "2022-06-30T13:22:55.516Z",
-      "types": [
-        "mcp342x",
-        "mcp342x-m"
-      ],
-      "keywords": [
-        "node-red",
-        "raspberry pi",
-        "rpi",
-        "mcp342x",
-        "mcp3421",
-        "mcp3422",
-        "mcp3423",
-        "mcp3424",
-        "mcp3425",
-        "mcp3426",
-        "mcp3427",
-        "mcp3428",
-        "iot",
-        "iiot",
-        "analog",
-        "adc"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-iiot-rpi-mcp342x"
-    },
-    {
       "id": "node-red-contrib-azure-iot-edge-kpm",
       "version": "0.6.1",
       "description": "Module to connect to and interact with Azure IoT Edge using Node-Red",
@@ -19808,21 +19842,6 @@
         "ecvida"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-ecvida"
-    },
-    {
-      "id": "node-red-contrib-growatt",
-      "version": "1.0.0",
-      "description": "Access to the Growatt API. Using the PCLHome/growatt library.",
-      "updated_at": "2022-04-27T20:49:14.768Z",
-      "types": [
-        "growatt",
-        "growatt-config"
-      ],
-      "keywords": [
-        "node-red",
-        "growatt"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-growatt"
     },
     {
       "id": "@reggae_ulli/node-red-contrib-minio-all-fix",
