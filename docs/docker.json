@@ -1,7 +1,127 @@
 {
   "name": "Catalogue for docker",
-  "updated_at": "2023-05-05T16:27:55.028Z",
+  "updated_at": "2023-05-06T16:17:32.287Z",
   "modules": [
+    {
+      "id": "node-red-contrib-ishrae-comfort",
+      "version": "0.0.1",
+      "description": "A Node-RED node for calculating PMV and PPD indices according to the ISHRAE Thermal Comfort Standard",
+      "updated_at": "2023-05-06T13:08:08.971Z",
+      "types": [
+        "ishrae-comfort"
+      ],
+      "keywords": [
+        "node-red",
+        "ishrae",
+        "thermal-comfort",
+        "pmv",
+        "ppd"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-ishrae-comfort"
+    },
+    {
+      "id": "@gregoriusrippenstein/node-red-contrib-introspection",
+      "version": "0.1.3",
+      "description": "Node-RED Editor-only nodes for introspecting flows.",
+      "updated_at": "2023-05-06T08:33:59.915Z",
+      "types": [
+        "Seeker",
+        "Sink",
+        "Screenshot",
+        "Orphans",
+        "IsMobile",
+        "Navigator",
+        "DrawSVG"
+      ],
+      "keywords": [
+        "node-red"
+      ],
+      "url": "https://flows.nodered.org/node/@gregoriusrippenstein/node-red-contrib-introspection"
+    },
+    {
+      "id": "@gogovega/node-red-contrib-firebase-realtime-database",
+      "version": "0.5.1",
+      "description": "Node-RED nodes to communicate with Google Firebase Realtime Databases",
+      "updated_at": "2023-05-05T21:59:40.084Z",
+      "types": [
+        "database-config",
+        "firebase-in",
+        "firebase-get",
+        "firebase-out",
+        "on-disconnect"
+      ],
+      "keywords": [
+        "admin",
+        "database",
+        "firebase",
+        "node-red",
+        "realtime"
+      ],
+      "url": "https://flows.nodered.org/node/@gogovega/node-red-contrib-firebase-realtime-database"
+    },
+    {
+      "id": "@tbowmo/node-red-small-timer",
+      "version": "0.4.0",
+      "description": "Small timer node for node red with support for sunrise, sunset etc. timers",
+      "updated_at": "2023-05-05T21:11:04.682Z",
+      "types": [
+        "smalltimer",
+        "position"
+      ],
+      "keywords": [
+        "node-red",
+        "timer",
+        "sunset",
+        "sunrise",
+        "dawn",
+        "dusk"
+      ],
+      "url": "https://flows.nodered.org/node/@tbowmo/node-red-small-timer"
+    },
+    {
+      "id": "node-red-2stools-packetdecode",
+      "version": "0.9.25",
+      "description": "Decode string data to a respective sensor on IC",
+      "updated_at": "2023-05-05T18:16:14.119Z",
+      "types": [
+        "2stools-packetdecode"
+      ],
+      "keywords": [
+        "node-red",
+        "2solve",
+        "2stools"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-2stools-packetdecode"
+    },
+    {
+      "id": "node-red-contrib-iiot-rpi-mcp342x",
+      "version": "2.0.1",
+      "description": "A Node-Red node for mcp342x analog to digital converter.",
+      "updated_at": "2023-05-05T17:03:14.091Z",
+      "types": [
+        "mcp342x",
+        "mcp342x-m"
+      ],
+      "keywords": [
+        "node-red",
+        "raspberry pi",
+        "rpi",
+        "mcp342x",
+        "mcp3421",
+        "mcp3422",
+        "mcp3423",
+        "mcp3424",
+        "mcp3425",
+        "mcp3426",
+        "mcp3427",
+        "mcp3428",
+        "iot",
+        "iiot",
+        "analog",
+        "adc"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-iiot-rpi-mcp342x"
+    },
     {
       "id": "node-red-contrib-trng",
       "version": "1.0.0",
@@ -64,24 +184,6 @@
         "node-red"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-prediktor-config-repo"
-    },
-    {
-      "id": "@gregoriusrippenstein/node-red-contrib-introspection",
-      "version": "0.1.1",
-      "description": "Node-RED Editor-only nodes for introspecting flows.",
-      "updated_at": "2023-05-05T11:49:01.801Z",
-      "types": [
-        "Seeker",
-        "Sink",
-        "Screenshot",
-        "Orphans",
-        "IsMobile",
-        "Navigator"
-      ],
-      "keywords": [
-        "node-red"
-      ],
-      "url": "https://flows.nodered.org/node/@gregoriusrippenstein/node-red-contrib-introspection"
     },
     {
       "id": "node-red-contrib-growatt",
@@ -583,25 +685,6 @@
         "node-red"
       ],
       "url": "https://flows.nodered.org/node/@gregoriusrippenstein/node-red-contrib-neuralnet-builder"
-    },
-    {
-      "id": "@tbowmo/node-red-small-timer",
-      "version": "0.3.1",
-      "description": "Small timer node for node red with support for sunrise, sunset etc. timers",
-      "updated_at": "2023-05-02T19:58:52.389Z",
-      "types": [
-        "smalltimer",
-        "position"
-      ],
-      "keywords": [
-        "node-red",
-        "timer",
-        "sunset",
-        "sunrise",
-        "dawn",
-        "dusk"
-      ],
-      "url": "https://flows.nodered.org/node/@tbowmo/node-red-small-timer"
     },
     {
       "id": "node-red-contrib-opcua",
@@ -1705,27 +1788,6 @@
         "zyl"
       ],
       "url": "https://flows.nodered.org/node/zyl_node-red-ui-internaltest"
-    },
-    {
-      "id": "@gogovega/node-red-contrib-firebase-realtime-database",
-      "version": "0.5.0",
-      "description": "Node-RED nodes to communicate with Google Firebase Realtime Databases",
-      "updated_at": "2023-04-22T10:40:22.001Z",
-      "types": [
-        "database-config",
-        "firebase-in",
-        "firebase-get",
-        "firebase-out",
-        "on-disconnect"
-      ],
-      "keywords": [
-        "admin",
-        "database",
-        "firebase",
-        "node-red",
-        "realtime"
-      ],
-      "url": "https://flows.nodered.org/node/@gogovega/node-red-contrib-firebase-realtime-database"
     },
     {
       "id": "node-red-contrib-trexmes-stoppagecatcher",
@@ -4777,21 +4839,6 @@
         "mqtt"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-aedes"
-    },
-    {
-      "id": "node-red-2stools-packetdecode",
-      "version": "0.9.24",
-      "description": "Decode string data to a respective sensor on IC",
-      "updated_at": "2023-03-13T16:54:45.014Z",
-      "types": [
-        "2stools-packetdecode"
-      ],
-      "keywords": [
-        "node-red",
-        "2solve",
-        "2stools"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-2stools-packetdecode"
     },
     {
       "id": "nr-strompreis",
@@ -16728,35 +16775,6 @@
         "blockchain"
       ],
       "url": "https://flows.nodered.org/node/@0xf42/node-red-contrib-klever"
-    },
-    {
-      "id": "node-red-contrib-iiot-rpi-mcp342x",
-      "version": "1.0.21",
-      "description": "A Node-Red node for mcp342x analog to digital converter",
-      "updated_at": "2022-06-30T13:22:55.516Z",
-      "types": [
-        "mcp342x",
-        "mcp342x-m"
-      ],
-      "keywords": [
-        "node-red",
-        "raspberry pi",
-        "rpi",
-        "mcp342x",
-        "mcp3421",
-        "mcp3422",
-        "mcp3423",
-        "mcp3424",
-        "mcp3425",
-        "mcp3426",
-        "mcp3427",
-        "mcp3428",
-        "iot",
-        "iiot",
-        "analog",
-        "adc"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-iiot-rpi-mcp342x"
     },
     {
       "id": "node-red-contrib-azure-iot-edge-kpm",
