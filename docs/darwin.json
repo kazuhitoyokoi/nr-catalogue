@@ -1,7 +1,134 @@
 {
   "name": "Catalogue for darwin",
-  "updated_at": "2023-05-05T20:00:09.360Z",
+  "updated_at": "2023-05-06T20:48:37.576Z",
   "modules": [
+    {
+      "id": "node-red-contrib-iiot-ds18b20",
+      "version": "2.0.6",
+      "description": "A Node-RED node for multiple ds18b20 digital temperature sensors.",
+      "updated_at": "2023-05-06T16:47:37.829Z",
+      "types": [
+        "iiot-ds18b20-fs"
+      ],
+      "keywords": [
+        "node-red",
+        "raspberry pi",
+        "rpi",
+        "ds18b20",
+        "one wire",
+        "iot",
+        "iiot",
+        "temperature"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-iiot-ds18b20"
+    },
+    {
+      "id": "node-red-contrib-gaode-smc",
+      "version": "1.0.4",
+      "description": "node red node for gaode",
+      "updated_at": "2023-05-06T15:57:38.280Z",
+      "types": [
+        "gaode",
+        "gaode-direction",
+        "gaode-server"
+      ],
+      "keywords": [
+        "node-red",
+        "gaode"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-gaode-smc"
+    },
+    {
+      "id": "node-red-contrib-ishrae-comfort",
+      "version": "0.0.1",
+      "description": "A Node-RED node for calculating PMV and PPD indices according to the ISHRAE Thermal Comfort Standard",
+      "updated_at": "2023-05-06T13:08:08.971Z",
+      "types": [
+        "ishrae-comfort"
+      ],
+      "keywords": [
+        "node-red",
+        "ishrae",
+        "thermal-comfort",
+        "pmv",
+        "ppd"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-ishrae-comfort"
+    },
+    {
+      "id": "@gregoriusrippenstein/node-red-contrib-introspection",
+      "version": "0.1.3",
+      "description": "Node-RED Editor-only nodes for introspecting flows.",
+      "updated_at": "2023-05-06T08:33:59.915Z",
+      "types": [
+        "Seeker",
+        "Sink",
+        "Screenshot",
+        "Orphans",
+        "IsMobile",
+        "Navigator",
+        "DrawSVG"
+      ],
+      "keywords": [
+        "node-red"
+      ],
+      "url": "https://flows.nodered.org/node/@gregoriusrippenstein/node-red-contrib-introspection"
+    },
+    {
+      "id": "@gogovega/node-red-contrib-firebase-realtime-database",
+      "version": "0.5.1",
+      "description": "Node-RED nodes to communicate with Google Firebase Realtime Databases",
+      "updated_at": "2023-05-05T21:59:40.084Z",
+      "types": [
+        "database-config",
+        "firebase-in",
+        "firebase-get",
+        "firebase-out",
+        "on-disconnect"
+      ],
+      "keywords": [
+        "admin",
+        "database",
+        "firebase",
+        "node-red",
+        "realtime"
+      ],
+      "url": "https://flows.nodered.org/node/@gogovega/node-red-contrib-firebase-realtime-database"
+    },
+    {
+      "id": "@tbowmo/node-red-small-timer",
+      "version": "0.4.0",
+      "description": "Small timer node for node red with support for sunrise, sunset etc. timers",
+      "updated_at": "2023-05-05T21:11:04.682Z",
+      "types": [
+        "smalltimer",
+        "position"
+      ],
+      "keywords": [
+        "node-red",
+        "timer",
+        "sunset",
+        "sunrise",
+        "dawn",
+        "dusk"
+      ],
+      "url": "https://flows.nodered.org/node/@tbowmo/node-red-small-timer"
+    },
+    {
+      "id": "node-red-2stools-packetdecode",
+      "version": "0.9.25",
+      "description": "Decode string data to a respective sensor on IC",
+      "updated_at": "2023-05-05T18:16:14.119Z",
+      "types": [
+        "2stools-packetdecode"
+      ],
+      "keywords": [
+        "node-red",
+        "2solve",
+        "2stools"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-2stools-packetdecode"
+    },
     {
       "id": "node-red-contrib-iiot-rpi-mcp342x",
       "version": "2.0.1",
@@ -93,24 +220,6 @@
         "node-red"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-prediktor-config-repo"
-    },
-    {
-      "id": "@gregoriusrippenstein/node-red-contrib-introspection",
-      "version": "0.1.1",
-      "description": "Node-RED Editor-only nodes for introspecting flows.",
-      "updated_at": "2023-05-05T11:49:01.801Z",
-      "types": [
-        "Seeker",
-        "Sink",
-        "Screenshot",
-        "Orphans",
-        "IsMobile",
-        "Navigator"
-      ],
-      "keywords": [
-        "node-red"
-      ],
-      "url": "https://flows.nodered.org/node/@gregoriusrippenstein/node-red-contrib-introspection"
     },
     {
       "id": "node-red-contrib-growatt",
@@ -614,25 +723,6 @@
       "url": "https://flows.nodered.org/node/@gregoriusrippenstein/node-red-contrib-neuralnet-builder"
     },
     {
-      "id": "@tbowmo/node-red-small-timer",
-      "version": "0.3.1",
-      "description": "Small timer node for node red with support for sunrise, sunset etc. timers",
-      "updated_at": "2023-05-02T19:58:52.389Z",
-      "types": [
-        "smalltimer",
-        "position"
-      ],
-      "keywords": [
-        "node-red",
-        "timer",
-        "sunset",
-        "sunrise",
-        "dawn",
-        "dusk"
-      ],
-      "url": "https://flows.nodered.org/node/@tbowmo/node-red-small-timer"
-    },
-    {
       "id": "node-red-contrib-opcua",
       "version": "0.2.305",
       "description": "A Node-RED node to communicate via OPC UA based on node-opcua library.",
@@ -889,26 +979,6 @@
         "json"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-letsfiware-ngsi"
-    },
-    {
-      "id": "node-red-contrib-iiot-ds18b20",
-      "version": "2.0.5",
-      "description": "A Node-RED node for multiple ds18b20 digital temperature sensors.",
-      "updated_at": "2023-05-01T19:05:40.565Z",
-      "types": [
-        "iiot-ds18b20-fs"
-      ],
-      "keywords": [
-        "node-red",
-        "raspberry pi",
-        "rpi",
-        "ds18b20",
-        "one wire",
-        "iot",
-        "iiot",
-        "temperature"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-iiot-ds18b20"
     },
     {
       "id": "node-red-contrib-ytdl-ubos",
@@ -1734,27 +1804,6 @@
         "zyl"
       ],
       "url": "https://flows.nodered.org/node/zyl_node-red-ui-internaltest"
-    },
-    {
-      "id": "@gogovega/node-red-contrib-firebase-realtime-database",
-      "version": "0.5.0",
-      "description": "Node-RED nodes to communicate with Google Firebase Realtime Databases",
-      "updated_at": "2023-04-22T10:40:22.001Z",
-      "types": [
-        "database-config",
-        "firebase-in",
-        "firebase-get",
-        "firebase-out",
-        "on-disconnect"
-      ],
-      "keywords": [
-        "admin",
-        "database",
-        "firebase",
-        "node-red",
-        "realtime"
-      ],
-      "url": "https://flows.nodered.org/node/@gogovega/node-red-contrib-firebase-realtime-database"
     },
     {
       "id": "node-red-contrib-trexmes-stoppagecatcher",
@@ -4839,21 +4888,6 @@
         "mqtt"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-aedes"
-    },
-    {
-      "id": "node-red-2stools-packetdecode",
-      "version": "0.9.24",
-      "description": "Decode string data to a respective sensor on IC",
-      "updated_at": "2023-03-13T16:54:45.014Z",
-      "types": [
-        "2stools-packetdecode"
-      ],
-      "keywords": [
-        "node-red",
-        "2solve",
-        "2stools"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-2stools-packetdecode"
     },
     {
       "id": "nr-strompreis",
