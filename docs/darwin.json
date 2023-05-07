@@ -1,7 +1,104 @@
 {
   "name": "Catalogue for darwin",
-  "updated_at": "2023-05-06T20:48:37.576Z",
+  "updated_at": "2023-05-07T20:21:39.853Z",
   "modules": [
+    {
+      "id": "xslt3transformer",
+      "version": "1.0.1",
+      "description": "node-red-contrib-xslt3transformer",
+      "updated_at": "2023-05-07T16:12:18.115Z",
+      "types": [
+        "xslt3transformer"
+      ],
+      "keywords": [
+        "node-red",
+        "xslt3transformer",
+        "xml"
+      ],
+      "url": "https://flows.nodered.org/node/xslt3transformer"
+    },
+    {
+      "id": "node-red-contrib-oled-i2c",
+      "version": "1.1.1",
+      "description": "Node-Red node for controlling OLED displays with SSD1306 and SH1106 drivers",
+      "updated_at": "2023-05-07T12:22:38.760Z",
+      "types": [
+        "oled-config",
+        "Battery",
+        "Bluetooth",
+        "Clear",
+        "Dimmed",
+        "FillRectangle",
+        "Invertion",
+        "Image",
+        "Line",
+        "Pixel",
+        "Scroll",
+        "String",
+        "Turn-on",
+        "Turn-off",
+        "Wifi"
+      ],
+      "keywords": [
+        "node-red",
+        "oled",
+        "ADS1x15 "
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-oled-i2c"
+    },
+    {
+      "id": "@tbowmo/node-red-small-timer",
+      "version": "0.5.0",
+      "description": "Small timer node for node red with support for sunrise, sunset etc. timers",
+      "updated_at": "2023-05-07T10:56:23.555Z",
+      "types": [
+        "smalltimer",
+        "position"
+      ],
+      "keywords": [
+        "node-red",
+        "timer",
+        "sunset",
+        "sunrise",
+        "dawn",
+        "dusk"
+      ],
+      "url": "https://flows.nodered.org/node/@tbowmo/node-red-small-timer"
+    },
+    {
+      "id": "@nodecolor/node-red-contrib-azure-iot-hub",
+      "version": "0.5.3",
+      "description": "Connector to azure on Node-Red",
+      "updated_at": "2023-05-07T08:59:34.458Z",
+      "types": [
+        "azureiothub",
+        "azureiothubregistry",
+        "azureiothubreceiver",
+        "azureiothubdevicetwin"
+      ],
+      "keywords": [
+        "node-red",
+        "Azure",
+        "Azure IoT"
+      ],
+      "url": "https://flows.nodered.org/node/@nodecolor/node-red-contrib-azure-iot-hub"
+    },
+    {
+      "id": "node-red-contrib-cistern",
+      "version": "1.0.8",
+      "description": "A collection of node-red nodes for cisterns.",
+      "updated_at": "2023-05-06T19:08:09.182Z",
+      "types": [
+        "outlier",
+        "cistern"
+      ],
+      "keywords": [
+        "node-red",
+        "cistern",
+        "outlier"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-cistern"
+    },
     {
       "id": "node-red-contrib-iiot-ds18b20",
       "version": "2.0.6",
@@ -94,25 +191,6 @@
         "realtime"
       ],
       "url": "https://flows.nodered.org/node/@gogovega/node-red-contrib-firebase-realtime-database"
-    },
-    {
-      "id": "@tbowmo/node-red-small-timer",
-      "version": "0.4.0",
-      "description": "Small timer node for node red with support for sunrise, sunset etc. timers",
-      "updated_at": "2023-05-05T21:11:04.682Z",
-      "types": [
-        "smalltimer",
-        "position"
-      ],
-      "keywords": [
-        "node-red",
-        "timer",
-        "sunset",
-        "sunrise",
-        "dawn",
-        "dusk"
-      ],
-      "url": "https://flows.nodered.org/node/@tbowmo/node-red-small-timer"
     },
     {
       "id": "node-red-2stools-packetdecode",
@@ -10726,24 +10804,6 @@
         "diff"
       ],
       "url": "https://flows.nodered.org/node/@steveorevo/node-red-flow2src"
-    },
-    {
-      "id": "@nodecolor/node-red-contrib-azure-iot-hub",
-      "version": "0.5.2",
-      "description": "Connector to azure on Node-Red",
-      "updated_at": "2022-11-28T20:01:18.273Z",
-      "types": [
-        "azureiothub",
-        "azureiothubregistry",
-        "azureiothubreceiver",
-        "azureiothubdevicetwin"
-      ],
-      "keywords": [
-        "node-red",
-        "Azure",
-        "Azure IoT"
-      ],
-      "url": "https://flows.nodered.org/node/@nodecolor/node-red-contrib-azure-iot-hub"
     },
     {
       "id": "@virtualbat/batteries",
@@ -27168,22 +27228,6 @@
         "node-red"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-personal-wake-word"
-    },
-    {
-      "id": "node-red-contrib-cistern",
-      "version": "1.0.7",
-      "description": "A collection of node-red nodes for cisterns.",
-      "updated_at": "2021-10-20T05:25:36.459Z",
-      "types": [
-        "outlier",
-        "cistern"
-      ],
-      "keywords": [
-        "node-red",
-        "cistern",
-        "outlier"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-cistern"
     },
     {
       "id": "node-red-node-pushover",
