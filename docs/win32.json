@@ -1,12 +1,74 @@
 {
   "name": "Catalogue for win32",
-  "updated_at": "2023-05-07T19:04:16.573Z",
+  "updated_at": "2023-05-08T20:11:27.816Z",
   "modules": [
     {
+      "id": "node-red-contrib-eskomsepush",
+      "version": "0.0.3",
+      "description": "Node-RED interface for the Eskomsepush API",
+      "updated_at": "2023-05-08T14:26:25.936Z",
+      "types": [
+        "eskomsepush"
+      ],
+      "keywords": [
+        "node-red",
+        "eskomsepush",
+        "loadshedding",
+        "south africa",
+        "scheduled charging",
+        "victron",
+        "ess"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-eskomsepush"
+    },
+    {
+      "id": "@smartparks/node-red-contrib-earthranger",
+      "version": "1.4.0",
+      "description": "An adapter for node-red to easily connect to the Earth Ranger API.",
+      "updated_at": "2023-05-08T14:22:26.540Z",
+      "types": [
+        "earthranger-connection",
+        "er-sensor-observation",
+        "er-send-event",
+        "er-send-message"
+      ],
+      "keywords": [
+        "node-red",
+        "earthranger",
+        "Smart Parks"
+      ],
+      "url": "https://flows.nodered.org/node/@smartparks/node-red-contrib-earthranger"
+    },
+    {
+      "id": "topological-nodered-wdio",
+      "version": "0.4.7",
+      "description": "Open source WebdriverIO nodes for Node-RED",
+      "updated_at": "2023-05-08T13:50:54.801Z",
+      "types": [
+        "delete-session",
+        "element-action",
+        "new-session",
+        "browser-action",
+        "element-check",
+        "alert-action",
+        "dropdown-action",
+        "window-action",
+        "frame-action",
+        "execute-script",
+        "explicit-wait",
+        "implicit-wait-config"
+      ],
+      "keywords": [
+        "node-red",
+        "topological"
+      ],
+      "url": "https://flows.nodered.org/node/topological-nodered-wdio"
+    },
+    {
       "id": "node-red-contrib-oled-i2c",
-      "version": "1.1.1",
+      "version": "1.1.3",
       "description": "Node-Red node for controlling OLED displays with SSD1306 and SH1106 drivers",
-      "updated_at": "2023-05-07T12:22:38.760Z",
+      "updated_at": "2023-05-08T12:30:32.740Z",
       "types": [
         "oled-config",
         "Battery",
@@ -30,6 +92,96 @@
         "ADS1x15 "
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-oled-i2c"
+    },
+    {
+      "id": "node-red-contrib-panasonic-comfort-cloud",
+      "version": "1.4.0",
+      "description": "Node-RED implementation of panasonic-comfort-cloud-api",
+      "updated_at": "2023-05-08T04:48:03.073Z",
+      "types": [
+        "pcc-config",
+        "pcc-groups",
+        "pcc-device",
+        "pcc-command"
+      ],
+      "keywords": [
+        "node-red",
+        "panasonic",
+        "comfort-cloud",
+        "heatpump",
+        "heat-pump"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-panasonic-comfort-cloud"
+    },
+    {
+      "id": "node-red-contrib-soundweb",
+      "version": "1.0.5",
+      "description": "A collection of nodes for controlling BSS soundweb devices.",
+      "updated_at": "2023-05-08T00:50:58.160Z",
+      "types": [
+        "soundweb-server",
+        "soundweb-Control",
+        "soundweb-Presets"
+      ],
+      "keywords": [
+        "node-red",
+        "BSS",
+        "BLU",
+        "Soundweb",
+        "Harman",
+        "Audio DSP",
+        "Audio Architect",
+        "London Architect"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-soundweb"
+    },
+    {
+      "id": "atomic-gravity",
+      "version": "2.0.1",
+      "description": "Gravity module for Brobridge Atomic",
+      "updated_at": "2023-05-07T21:51:48.215Z",
+      "types": [
+        "Gravity Subscriber",
+        "Gravity Publish",
+        "Gravity Server",
+        "Gravity Acknowledge"
+      ],
+      "keywords": [
+        "gravity",
+        "node-red",
+        "atomic"
+      ],
+      "url": "https://flows.nodered.org/node/atomic-gravity"
+    },
+    {
+      "id": "@ralphwetzel/node-red-mcu-plugin",
+      "version": "1.3.2",
+      "description": "Plugin to integrate Node-RED MCU Edition into the Node-RED Editor",
+      "updated_at": "2023-05-07T18:47:54.058Z",
+      "types": [],
+      "keywords": [
+        "node-red",
+        "node-red-mcu",
+        "Node-RED",
+        "Node-RED MCU Edition",
+        "node-red-mcu-plugin"
+      ],
+      "url": "https://flows.nodered.org/node/@ralphwetzel/node-red-mcu-plugin"
+    },
+    {
+      "id": "xslt3transformer",
+      "version": "1.0.1",
+      "description": "node-red-contrib-xslt3transformer",
+      "updated_at": "2023-05-07T16:12:18.115Z",
+      "types": [
+        "xslt3transformer"
+      ],
+      "keywords": [
+        "node-red",
+        "xslt3transformer",
+        "xml"
+      ],
+      "url": "https://flows.nodered.org/node/xslt3transformer"
     },
     {
       "id": "@tbowmo/node-red-small-timer",
@@ -375,24 +527,6 @@
         "redconnect"
       ],
       "url": "https://flows.nodered.org/node/@yousolution/node-red-contrib-you-ftp-sftp"
-    },
-    {
-      "id": "atomic-gravity",
-      "version": "2.0.0",
-      "description": "Gravity module for Brobridge Atomic",
-      "updated_at": "2023-05-04T11:03:53.078Z",
-      "types": [
-        "Gravity Subscriber",
-        "Gravity Publish",
-        "Gravity Server",
-        "Gravity Acknowledge"
-      ],
-      "keywords": [
-        "gravity",
-        "node-red",
-        "atomic"
-      ],
-      "url": "https://flows.nodered.org/node/atomic-gravity"
     },
     {
       "id": "@ciro99678_net/node-red-contrib-mssql-rai",
@@ -1284,6 +1418,24 @@
         "generic"
       ],
       "url": "https://flows.nodered.org/node/@digitalnodecom/node-red-contrib-generic-s3"
+    },
+    {
+      "id": "kdbx-red",
+      "version": "1.0.0",
+      "description": "Node-Red nodes to work with keepass files.",
+      "updated_at": "2023-04-28T11:19:57.003Z",
+      "types": [
+        "kdbx",
+        "kdbxFile"
+      ],
+      "keywords": [
+        "node-red",
+        "kdbx",
+        "keepass",
+        "password",
+        "manager"
+      ],
+      "url": "https://flows.nodered.org/node/kdbx-red"
     },
     {
       "id": "node-red-contrib-keyvalue-r2",
@@ -3614,21 +3766,6 @@
       "url": "https://flows.nodered.org/node/node-red-contrib-socketio-client-jwt"
     },
     {
-      "id": "@ralphwetzel/node-red-mcu-plugin",
-      "version": "1.3.1",
-      "description": "Plugin to integrate Node-RED MCU Edition into the Node-RED Editor",
-      "updated_at": "2023-03-28T18:18:35.590Z",
-      "types": [],
-      "keywords": [
-        "node-red",
-        "node-red-mcu",
-        "Node-RED",
-        "Node-RED MCU Edition",
-        "node-red-mcu-plugin"
-      ],
-      "url": "https://flows.nodered.org/node/@ralphwetzel/node-red-mcu-plugin"
-    },
-    {
       "id": "node-red-contrib-eksido-chatgpt",
       "version": "1.0.22",
       "description": "A Node-RED node that integrates with ChatGPT API",
@@ -3642,24 +3779,6 @@
         "openai"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-eksido-chatgpt"
-    },
-    {
-      "id": "@smartparks/node-red-contrib-earthranger",
-      "version": "1.3.3",
-      "description": "An adapter for node-red to easily connect to the Earth Ranger API.",
-      "updated_at": "2023-03-28T15:21:06.487Z",
-      "types": [
-        "earthranger-connection",
-        "er-sensor-observation",
-        "er-send-event",
-        "er-send-message"
-      ],
-      "keywords": [
-        "node-red",
-        "earthranger",
-        "Smart Parks"
-      ],
-      "url": "https://flows.nodered.org/node/@smartparks/node-red-contrib-earthranger"
     },
     {
       "id": "smithtek-node-red-lora",
@@ -5890,26 +6009,6 @@
       "url": "https://flows.nodered.org/node/node-red-contrib-airship-oracle-hotel-data"
     },
     {
-      "id": "node-red-contrib-panasonic-comfort-cloud",
-      "version": "1.3.3",
-      "description": "Node-RED implementation of panasonic-comfort-cloud-api",
-      "updated_at": "2023-02-23T08:18:05.924Z",
-      "types": [
-        "pcc-config",
-        "pcc-groups",
-        "pcc-device",
-        "pcc-command"
-      ],
-      "keywords": [
-        "node-red",
-        "panasonic",
-        "comfort-cloud",
-        "heatpump",
-        "heat-pump"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-panasonic-comfort-cloud"
-    },
-    {
       "id": "node-red-contrib-xkeys_trackball",
       "version": "0.3.1",
       "description": "Xkeys trackball node for Node-RED using DCD Protocol (DCDP)",
@@ -7680,28 +7779,6 @@
         "cryptotrading"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-ccxt-v2"
-    },
-    {
-      "id": "node-red-contrib-soundweb",
-      "version": "1.0.4",
-      "description": "A collection of nodes for controlling BSS soundweb devices.",
-      "updated_at": "2023-01-28T01:42:08.420Z",
-      "types": [
-        "soundweb-server",
-        "soundweb-Control",
-        "soundweb-Presets"
-      ],
-      "keywords": [
-        "node-red",
-        "BSS",
-        "BLU",
-        "Soundweb",
-        "Harman",
-        "Audio DSP",
-        "Audio Architect",
-        "London Architect"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-soundweb"
     },
     {
       "id": "@blockbax/node-red-contrib-blockbax",
@@ -10141,31 +10218,6 @@
         "senec"
       ],
       "url": "https://flows.nodered.org/node/@chriskretschmer/node-red-contrib-senec-cloud"
-    },
-    {
-      "id": "topological-nodered-wdio",
-      "version": "0.4.5",
-      "description": "Open source WebdriverIO nodes for Node-RED",
-      "updated_at": "2022-12-12T04:02:38.904Z",
-      "types": [
-        "delete-session",
-        "element-action",
-        "new-session",
-        "browser-action",
-        "element-check",
-        "alert-action",
-        "dropdown-action",
-        "window-action",
-        "frame-action",
-        "execute-script",
-        "explicit-wait",
-        "implicit-wait-config"
-      ],
-      "keywords": [
-        "node-red",
-        "topological"
-      ],
-      "url": "https://flows.nodered.org/node/topological-nodered-wdio"
     },
     {
       "id": "node-red-contrib-smaregi",
@@ -16615,24 +16667,6 @@
         "loracloud"
       ],
       "url": "https://flows.nodered.org/node/@semtech-wsp-apps/node-red-contrib-loracloud-utils"
-    },
-    {
-      "id": "kdbx-red",
-      "version": "0.2.0",
-      "description": "Node-Red nodes to work with keepass files.",
-      "updated_at": "2022-07-04T08:28:52.785Z",
-      "types": [
-        "kdbx",
-        "kdbxFile"
-      ],
-      "keywords": [
-        "node-red",
-        "kdbx",
-        "keepass",
-        "password",
-        "manager"
-      ],
-      "url": "https://flows.nodered.org/node/kdbx-red"
     },
     {
       "id": "node-red-contrib-prib-functions",
