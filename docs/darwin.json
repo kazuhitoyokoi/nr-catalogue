@@ -1,7 +1,122 @@
 {
   "name": "Catalogue for darwin",
-  "updated_at": "2023-05-09T21:15:42.368Z",
+  "updated_at": "2023-05-10T21:20:43.045Z",
   "modules": [
+    {
+      "id": "node-red-contrib-today-time-range-switch",
+      "version": "1.0.10",
+      "description": "A simple Node-RED node that routes messages depending on the time. If the current time falls within the range specified in the node configuration, the message is routed to output 1. Otherwise the message is routed to output 2.",
+      "updated_at": "2023-05-10T15:15:49.425Z",
+      "types": [
+        "today-time-range-switch"
+      ],
+      "keywords": [
+        "node-red",
+        "router",
+        "switch",
+        "time",
+        "sun events"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-today-time-range-switch"
+    },
+    {
+      "id": "node-red-contrib-palette-event-listener2",
+      "version": "1.1.1",
+      "description": "Node to listen for the pallete events.",
+      "updated_at": "2023-05-10T10:42:04.434Z",
+      "types": [
+        "palette-event-listener"
+      ],
+      "keywords": [
+        "node-red",
+        "palette-event-listener",
+        "event-listener",
+        "node"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-palette-event-listener2"
+    },
+    {
+      "id": "node-red-contrib-dahua-device",
+      "version": "1.0.2",
+      "description": "A Node-RED integration of Dahua network devices (NVR, IP-Cameras)",
+      "updated_at": "2023-05-10T10:27:20.932Z",
+      "types": [
+        "dahua-device",
+        "dahua-device-config",
+        "dahua-device-night",
+        "dahua-device-day"
+      ],
+      "keywords": [
+        "node-red",
+        "dahua"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-dahua-device"
+    },
+    {
+      "id": "node-red-contrib-eskomsepush",
+      "version": "0.0.8",
+      "description": "Node-RED interface for the Eskomsepush API",
+      "updated_at": "2023-05-10T08:53:31.154Z",
+      "types": [
+        "eskomsepush"
+      ],
+      "keywords": [
+        "node-red",
+        "eskomsepush",
+        "loadshedding",
+        "south africa",
+        "scheduled charging",
+        "victron",
+        "ess"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-eskomsepush"
+    },
+    {
+      "id": "node-red-contrib-gps4net",
+      "version": "0.0.2",
+      "description": "GPS4NET Node-RED palette",
+      "updated_at": "2023-05-10T07:28:28.443Z",
+      "types": [
+        "g4n03rht-decode",
+        "g4n03rht-encode",
+        "sensor_dashboard"
+      ],
+      "keywords": [
+        "node-red",
+        "node-red-contrib",
+        "gps4net",
+        "gps4net devices"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-gps4net"
+    },
+    {
+      "id": "node-red-contrib-ngsi-ld",
+      "version": "0.4.0",
+      "description": "Node-RED implementation for NGSI-LD",
+      "updated_at": "2023-05-09T21:14:50.492Z",
+      "types": [
+        "NGSI-LD Entity",
+        "NGSI-LD entities",
+        "NGSI-LD entity attributes",
+        "NGSI-LD entity attribute",
+        "NGSI-LD Batch operations",
+        "NGSI-LD broker",
+        "NGSI-LD broker version",
+        "NGSI-LD Encode",
+        "NGSI-LD Decode"
+      ],
+      "keywords": [
+        "node-red",
+        "contrib",
+        "fiware",
+        "ngsi",
+        "context",
+        "process",
+        "data",
+        "json"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-ngsi-ld"
+    },
     {
       "id": "@jambonz/node-red-contrib-jambonz",
       "version": "2.3.8",
@@ -47,25 +162,6 @@
         "node-red"
       ],
       "url": "https://flows.nodered.org/node/@jambonz/node-red-contrib-jambonz"
-    },
-    {
-      "id": "node-red-contrib-eskomsepush",
-      "version": "0.0.7",
-      "description": "Node-RED interface for the Eskomsepush API",
-      "updated_at": "2023-05-09T14:36:11.909Z",
-      "types": [
-        "eskomsepush"
-      ],
-      "keywords": [
-        "node-red",
-        "eskomsepush",
-        "loadshedding",
-        "south africa",
-        "scheduled charging",
-        "victron",
-        "ess"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-eskomsepush"
     },
     {
       "id": "node-red-contrib-oled-i2c",
@@ -1340,32 +1436,6 @@
         "node-red"
       ],
       "url": "https://flows.nodered.org/node/@stevokk/node-red-contrib-socketio"
-    },
-    {
-      "id": "node-red-contrib-ngsi-ld",
-      "version": "0.3.0",
-      "description": "Node-RED implementation for NGSI-LD",
-      "updated_at": "2023-04-30T05:11:36.359Z",
-      "types": [
-        "NGSI-LD Entity",
-        "NGSI-LD entities",
-        "NGSI-LD entity attributes",
-        "NGSI-LD entity attribute",
-        "NGSI-LD Batch operations",
-        "NGSI-LD broker",
-        "NGSI-LD broker version"
-      ],
-      "keywords": [
-        "node-red",
-        "contrib",
-        "fiware",
-        "ngsi",
-        "context",
-        "process",
-        "data",
-        "json"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-ngsi-ld"
     },
     {
       "id": "node-red-contrib-onstar2",
@@ -55661,21 +55731,6 @@
         "nba"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-nba"
-    },
-    {
-      "id": "node-red-contrib-dahua-device",
-      "version": "0.0.2",
-      "description": "A Node-RED integration of Dahua network devices (NVR, IP-Cameras)",
-      "updated_at": "2019-05-05T06:59:59.995Z",
-      "types": [
-        "dahua-device",
-        "dahua-device-config"
-      ],
-      "keywords": [
-        "node-red",
-        "dahua"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-dahua-device"
     },
     {
       "id": "node-red-contrib-http-request-proxy",
