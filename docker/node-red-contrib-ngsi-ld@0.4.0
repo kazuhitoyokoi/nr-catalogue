@@ -1,0 +1,31 @@
+
+----
+Sending build context to Docker daemon  36.98MB
+Step 1/2 : FROM nodered/node-red
+ ---> a15fc0f4e930
+Step 2/2 : RUN npm install npm install node-red-contrib-ngsi-ld@0.4.0
+ ---> Running in 1cd2af8815fc
+
+added 5 packages, and audited 562 packages in 5s
+
+61 packages are looking for funding
+  run `npm fund` for details
+
+9 vulnerabilities (4 low, 4 moderate, 1 high)
+
+To address issues that do not require attention, run:
+  npm audit fix
+
+To address all issues (including breaking changes), run:
+  npm audit fix --force
+
+Run `npm audit` for details.
+[91mnpm notice 
+npm notice New major version of npm available! 8.11.0 -> 9.6.6
+npm [0m[91mnotice Changelog: <https://github.com/npm/cli/releases/tag/v9.6.6>
+npm [0m[91mnotice Run `npm install -g npm@9.6.6` to update!
+npm notice 
+[0mRemoving intermediate container 1cd2af8815fc
+ ---> 956249d22cce
+Successfully built 956249d22cce
+Successfully tagged tmp:latest
