@@ -1,12 +1,45 @@
 {
   "name": "Catalogue for win32",
-  "updated_at": "2023-05-09T19:48:28.694Z",
+  "updated_at": "2023-05-10T19:50:03.530Z",
   "modules": [
     {
+      "id": "node-red-contrib-today-time-range-switch",
+      "version": "1.0.10",
+      "description": "A simple Node-RED node that routes messages depending on the time. If the current time falls within the range specified in the node configuration, the message is routed to output 1. Otherwise the message is routed to output 2.",
+      "updated_at": "2023-05-10T15:15:49.425Z",
+      "types": [
+        "today-time-range-switch"
+      ],
+      "keywords": [
+        "node-red",
+        "router",
+        "switch",
+        "time",
+        "sun events"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-today-time-range-switch"
+    },
+    {
+      "id": "node-red-contrib-palette-event-listener2",
+      "version": "1.1.1",
+      "description": "Node to listen for the pallete events.",
+      "updated_at": "2023-05-10T10:42:04.434Z",
+      "types": [
+        "palette-event-listener"
+      ],
+      "keywords": [
+        "node-red",
+        "palette-event-listener",
+        "event-listener",
+        "node"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-palette-event-listener2"
+    },
+    {
       "id": "node-red-contrib-eskomsepush",
-      "version": "0.0.7",
+      "version": "0.0.8",
       "description": "Node-RED interface for the Eskomsepush API",
-      "updated_at": "2023-05-09T14:36:11.909Z",
+      "updated_at": "2023-05-10T08:53:31.154Z",
       "types": [
         "eskomsepush"
       ],
@@ -20,6 +53,98 @@
         "ess"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-eskomsepush"
+    },
+    {
+      "id": "node-red-contrib-gps4net",
+      "version": "0.0.2",
+      "description": "GPS4NET Node-RED palette",
+      "updated_at": "2023-05-10T07:28:28.443Z",
+      "types": [
+        "g4n03rht-decode",
+        "g4n03rht-encode",
+        "sensor_dashboard"
+      ],
+      "keywords": [
+        "node-red",
+        "node-red-contrib",
+        "gps4net",
+        "gps4net devices"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-gps4net"
+    },
+    {
+      "id": "node-red-contrib-ngsi-ld",
+      "version": "0.4.0",
+      "description": "Node-RED implementation for NGSI-LD",
+      "updated_at": "2023-05-09T21:14:50.492Z",
+      "types": [
+        "NGSI-LD Entity",
+        "NGSI-LD entities",
+        "NGSI-LD entity attributes",
+        "NGSI-LD entity attribute",
+        "NGSI-LD Batch operations",
+        "NGSI-LD broker",
+        "NGSI-LD broker version",
+        "NGSI-LD Encode",
+        "NGSI-LD Decode"
+      ],
+      "keywords": [
+        "node-red",
+        "contrib",
+        "fiware",
+        "ngsi",
+        "context",
+        "process",
+        "data",
+        "json"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-ngsi-ld"
+    },
+    {
+      "id": "@jambonz/node-red-contrib-jambonz",
+      "version": "2.3.8",
+      "description": "Node-RED nodes for jambonz platform",
+      "updated_at": "2023-05-09T15:57:09.867Z",
+      "types": [
+        "webhook in",
+        "webhook out",
+        "audio in",
+        "jambonz_auth",
+        "aws_auth",
+        "enqueue",
+        "lex",
+        "say",
+        "dtmf",
+        "cfg",
+        "conference",
+        "gather",
+        "listen",
+        "sip:decline",
+        "sip:request",
+        "sip:refer",
+        "hangup",
+        "message",
+        "tag",
+        "pause",
+        "dequeue",
+        "play",
+        "dial",
+        "redirect",
+        "dialogflow",
+        "leave",
+        "rasa",
+        "user auth",
+        "create-call",
+        "create-sms",
+        "lcc",
+        "get_alerts",
+        "get_calls",
+        "get_recent_calls"
+      ],
+      "keywords": [
+        "node-red"
+      ],
+      "url": "https://flows.nodered.org/node/@jambonz/node-red-contrib-jambonz"
     },
     {
       "id": "node-red-contrib-oled-i2c",
@@ -1296,32 +1421,6 @@
       "url": "https://flows.nodered.org/node/@stevokk/node-red-contrib-socketio"
     },
     {
-      "id": "node-red-contrib-ngsi-ld",
-      "version": "0.3.0",
-      "description": "Node-RED implementation for NGSI-LD",
-      "updated_at": "2023-04-30T05:11:36.359Z",
-      "types": [
-        "NGSI-LD Entity",
-        "NGSI-LD entities",
-        "NGSI-LD entity attributes",
-        "NGSI-LD entity attribute",
-        "NGSI-LD Batch operations",
-        "NGSI-LD broker",
-        "NGSI-LD broker version"
-      ],
-      "keywords": [
-        "node-red",
-        "contrib",
-        "fiware",
-        "ngsi",
-        "context",
-        "process",
-        "data",
-        "json"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-ngsi-ld"
-    },
-    {
       "id": "node-red-contrib-onstar2",
       "version": "2.1.9",
       "description": "An updated Node-RED Library using OnStarJS, an unofficial client library for the OnStar Vehicle API",
@@ -2115,52 +2214,6 @@
         "red"
       ],
       "url": "https://flows.nodered.org/node/@iomtbvk/red-contrib-kafkalis"
-    },
-    {
-      "id": "@jambonz/node-red-contrib-jambonz",
-      "version": "2.3.7",
-      "description": "Node-RED nodes for jambonz platform",
-      "updated_at": "2023-04-19T19:14:39.025Z",
-      "types": [
-        "webhook in",
-        "webhook out",
-        "audio in",
-        "jambonz_auth",
-        "aws_auth",
-        "enqueue",
-        "lex",
-        "say",
-        "dtmf",
-        "cfg",
-        "conference",
-        "gather",
-        "listen",
-        "sip:decline",
-        "sip:request",
-        "sip:refer",
-        "hangup",
-        "message",
-        "tag",
-        "pause",
-        "dequeue",
-        "play",
-        "dial",
-        "redirect",
-        "dialogflow",
-        "leave",
-        "rasa",
-        "user auth",
-        "create-call",
-        "create-sms",
-        "lcc",
-        "get_alerts",
-        "get_calls",
-        "get_recent_calls"
-      ],
-      "keywords": [
-        "node-red"
-      ],
-      "url": "https://flows.nodered.org/node/@jambonz/node-red-contrib-jambonz"
     },
     {
       "id": "node-red-contrib-ocpp",
