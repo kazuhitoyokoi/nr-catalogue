@@ -1,12 +1,118 @@
 {
   "name": "Catalogue for verified nodes",
-  "updated_at": "2023-05-10T21:21:41.783Z",
+  "updated_at": "2023-05-11T21:04:28.676Z",
   "modules": [
     {
+      "id": "@arduino/node-red-contrib-arduino-iot-cloud",
+      "version": "1.0.8",
+      "description": "Node-RED nodes to talk to Arduino IoT Cloud",
+      "updated_at": "2023-05-11T14:13:13.491Z",
+      "types": [
+        "arduino-connection",
+        "__errors__"
+      ],
+      "keywords": [
+        "node-red",
+        "Arduino",
+        "IoT",
+        "Cloud"
+      ],
+      "url": "https://flows.nodered.org/node/@arduino/node-red-contrib-arduino-iot-cloud"
+    },
+    {
+      "id": "node-red-contrib-caseta",
+      "version": "2.2.2",
+      "description": "Node-RED nodes to observe and control a Lutron Caseta home network.",
+      "updated_at": "2023-05-11T10:27:50.912Z",
+      "types": [
+        "caseta-bridge",
+        "caseta-react",
+        "caseta-control",
+        "caseta-query"
+      ],
+      "keywords": [
+        "node-red",
+        "lutron",
+        "caseta",
+        "smartbridge",
+        "smart hub"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-caseta"
+    },
+    {
+      "id": "node-red-contrib-palette-event-listener2",
+      "version": "1.3.0",
+      "description": "Node to listen for the pallete events.",
+      "updated_at": "2023-05-11T08:08:31.567Z",
+      "types": [
+        "palette-event-listener"
+      ],
+      "keywords": [
+        "node-red",
+        "palette-event-listener",
+        "event-listener",
+        "node"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-palette-event-listener2"
+    },
+    {
+      "id": "node-red-contrib-bard",
+      "version": "0.0.1",
+      "description": "A Node-RED module for interacting with Bard.",
+      "updated_at": "2023-05-11T04:50:00.951Z",
+      "types": [
+        "bard"
+      ],
+      "keywords": [
+        "node-red",
+        "bard",
+        "messaging",
+        "BARD",
+        "AI",
+        "ChatGPT",
+        "Google"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-bard"
+    },
+    {
+      "id": "node-red-contrib-gamedig",
+      "version": "2.2.0",
+      "description": "Query for the status of any game server using node-red",
+      "updated_at": "2023-05-11T04:41:40.253Z",
+      "types": [
+        "query-game-server"
+      ],
+      "keywords": [
+        "node-red",
+        "gamedig",
+        "query game server"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-gamedig"
+    },
+    {
+      "id": "@runnane/node-red-contrib-easee",
+      "version": "0.3.6",
+      "description": "Module for streaming Easee data. Based on node-red-contrib-signalrcore",
+      "updated_at": "2023-05-10T17:46:02.293Z",
+      "types": [
+        "easee-configuration",
+        "easee-rest-client",
+        "charger-streaming-client"
+      ],
+      "keywords": [
+        "easee",
+        "charger",
+        "ev",
+        "signalr",
+        "node-red"
+      ],
+      "url": "https://flows.nodered.org/node/@runnane/node-red-contrib-easee"
+    },
+    {
       "id": "node-red-contrib-today-time-range-switch",
-      "version": "1.0.9",
+      "version": "1.0.10",
       "description": "A simple Node-RED node that routes messages depending on the time. If the current time falls within the range specified in the node configuration, the message is routed to output 1. Otherwise the message is routed to output 2.",
-      "updated_at": "2023-05-10T13:51:35.776Z",
+      "updated_at": "2023-05-10T15:15:49.425Z",
       "types": [
         "today-time-range-switch"
       ],
@@ -18,22 +124,6 @@
         "sun events"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-today-time-range-switch"
-    },
-    {
-      "id": "node-red-contrib-palette-event-listener2",
-      "version": "1.1.1",
-      "description": "Node to listen for the pallete events.",
-      "updated_at": "2023-05-10T10:42:04.434Z",
-      "types": [
-        "palette-event-listener"
-      ],
-      "keywords": [
-        "node-red",
-        "palette-event-listener",
-        "event-listener",
-        "node"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-palette-event-listener2"
     },
     {
       "id": "node-red-contrib-eskomsepush",
@@ -672,6 +762,23 @@
         "redconnect"
       ],
       "url": "https://flows.nodered.org/node/@yousolution/node-red-contrib-you-ftp-sftp"
+    },
+    {
+      "id": "@smartdcc/dccboxed-nodered-nodes",
+      "version": "0.2.0",
+      "description": "Collection of nodes for NodeRED to facilitate interfacing with DCC Boxed",
+      "updated_at": "2023-05-04T11:32:02.228Z",
+      "types": [],
+      "keywords": [
+        "node-red",
+        "duis",
+        "gbcs",
+        "front-end",
+        "smartdcc",
+        "smartmeter",
+        "smets2"
+      ],
+      "url": "https://flows.nodered.org/node/@smartdcc/dccboxed-nodered-nodes"
     },
     {
       "id": "@ciro99678_net/node-red-contrib-mssql-rai",
@@ -4277,26 +4384,6 @@
       "url": "https://flows.nodered.org/node/@chvdapi/node-red-pn6400-led"
     },
     {
-      "id": "node-red-contrib-caseta",
-      "version": "2.1.1",
-      "description": "Node-RED nodes to observe and control a Lutron Caseta home network.",
-      "updated_at": "2023-03-24T04:55:44.660Z",
-      "types": [
-        "caseta-bridge",
-        "caseta-react",
-        "caseta-control",
-        "caseta-query"
-      ],
-      "keywords": [
-        "node-red",
-        "lutron",
-        "caseta",
-        "smartbridge",
-        "smart hub"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-caseta"
-    },
-    {
       "id": "@ia-cloud/node-red-contrib-ia-cloud-fds",
       "version": "0.1.28",
       "description": "ia-cloud Node-RED nodes",
@@ -5984,21 +6071,6 @@
       "url": "https://flows.nodered.org/node/node-red-contrib-vioneta-agro-websocket-js"
     },
     {
-      "id": "node-red-contrib-gamedig",
-      "version": "2.1.2",
-      "description": "Query for the status of any game server using node-red",
-      "updated_at": "2023-02-24T06:10:53.607Z",
-      "types": [
-        "query-game-server"
-      ],
-      "keywords": [
-        "node-red",
-        "gamedig",
-        "query game server"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-gamedig"
-    },
-    {
       "id": "node-red-contrib-xkeys_writedata",
       "version": "0.3.1",
       "description": "Xkeys Write Data node for Node-RED with Dynamic Control Data Protocol (DCDP)",
@@ -6584,23 +6656,6 @@
         "node-red"
       ],
       "url": "https://flows.nodered.org/node/nr-discovergy-adapter"
-    },
-    {
-      "id": "@smartdcc/dccboxed-nodered-nodes",
-      "version": "0.1.9",
-      "description": "Collection of nodes for NodeRED to facilitate interfacing with DCC Boxed",
-      "updated_at": "2023-02-17T15:50:13.445Z",
-      "types": [],
-      "keywords": [
-        "node-red",
-        "duis",
-        "gbcs",
-        "front-end",
-        "smartdcc",
-        "smartmeter",
-        "smets2"
-      ],
-      "url": "https://flows.nodered.org/node/@smartdcc/dccboxed-nodered-nodes"
     },
     {
       "id": "node-red-contrib-bigtimer",
@@ -13556,25 +13611,6 @@
         "gpio"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-button-events"
-    },
-    {
-      "id": "@runnane/node-red-contrib-easee",
-      "version": "0.3.5",
-      "description": "Module for streaming Easee data. Based on node-red-contrib-signalrcore",
-      "updated_at": "2022-10-02T14:51:12.167Z",
-      "types": [
-        "easee-configuration",
-        "easee-rest-client",
-        "charger-streaming-client"
-      ],
-      "keywords": [
-        "easee",
-        "charger",
-        "ev",
-        "signalr",
-        "node-red"
-      ],
-      "url": "https://flows.nodered.org/node/@runnane/node-red-contrib-easee"
     },
     {
       "id": "node-red-node-ping",
@@ -35254,20 +35290,6 @@
         "node-red"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-hello-world-009"
-    },
-    {
-      "id": "@arduino/node-red-contrib-arduino-iot-cloud",
-      "version": "1.0.7",
-      "description": "Node-RED nodes to talk to Arduino IoT Cloud",
-      "updated_at": "2021-02-22T09:22:51.170Z",
-      "types": [],
-      "keywords": [
-        "node-red",
-        "Arduino",
-        "IoT",
-        "Cloud"
-      ],
-      "url": "https://flows.nodered.org/node/@arduino/node-red-contrib-arduino-iot-cloud"
     },
     {
       "id": "node-red-contrib-signl4",
