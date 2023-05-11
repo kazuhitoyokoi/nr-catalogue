@@ -1,7 +1,165 @@
 {
   "name": "Catalogue for win32",
-  "updated_at": "2023-05-10T19:50:03.530Z",
+  "updated_at": "2023-05-11T19:24:46.055Z",
   "modules": [
+    {
+      "id": "@studiobox/node-red-contrib-ui-widget-thermometer",
+      "version": "0.6.1",
+      "description": "Easy to use Node-RED UI Widget on Node-RED Dashboard for display termperature data",
+      "updated_at": "2023-05-11T15:01:57.093Z",
+      "types": [
+        "ui_widget_thermometer"
+      ],
+      "keywords": [
+        "node-red",
+        "node-red-dashboard",
+        "ui-widget",
+        "dashboard-ui",
+        "widget-thermometer",
+        "ui-widget-thermometer",
+        "thermometer",
+        "widget",
+        "temperature"
+      ],
+      "url": "https://flows.nodered.org/node/@studiobox/node-red-contrib-ui-widget-thermometer"
+    },
+    {
+      "id": "@arduino/node-red-contrib-arduino-iot-cloud",
+      "version": "1.0.8",
+      "description": "Node-RED nodes to talk to Arduino IoT Cloud",
+      "updated_at": "2023-05-11T14:13:13.491Z",
+      "types": [
+        "arduino-connection",
+        "__errors__"
+      ],
+      "keywords": [
+        "node-red",
+        "Arduino",
+        "IoT",
+        "Cloud"
+      ],
+      "url": "https://flows.nodered.org/node/@arduino/node-red-contrib-arduino-iot-cloud"
+    },
+    {
+      "id": "node-red-contrib-caseta",
+      "version": "2.2.2",
+      "description": "Node-RED nodes to observe and control a Lutron Caseta home network.",
+      "updated_at": "2023-05-11T10:27:50.912Z",
+      "types": [
+        "caseta-bridge",
+        "caseta-react",
+        "caseta-control",
+        "caseta-query"
+      ],
+      "keywords": [
+        "node-red",
+        "lutron",
+        "caseta",
+        "smartbridge",
+        "smart hub"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-caseta"
+    },
+    {
+      "id": "node-red-contrib-palette-event-listener2",
+      "version": "1.3.0",
+      "description": "Node to listen for the pallete events.",
+      "updated_at": "2023-05-11T08:08:31.567Z",
+      "types": [
+        "palette-event-listener"
+      ],
+      "keywords": [
+        "node-red",
+        "palette-event-listener",
+        "event-listener",
+        "node"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-palette-event-listener2"
+    },
+    {
+      "id": "node-red-contrib-bard",
+      "version": "0.0.1",
+      "description": "A Node-RED module for interacting with Bard.",
+      "updated_at": "2023-05-11T04:50:00.951Z",
+      "types": [
+        "bard"
+      ],
+      "keywords": [
+        "node-red",
+        "bard",
+        "messaging",
+        "BARD",
+        "AI",
+        "ChatGPT",
+        "Google"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-bard"
+    },
+    {
+      "id": "node-red-contrib-gamedig",
+      "version": "2.2.0",
+      "description": "Query for the status of any game server using node-red",
+      "updated_at": "2023-05-11T04:41:40.253Z",
+      "types": [
+        "query-game-server"
+      ],
+      "keywords": [
+        "node-red",
+        "gamedig",
+        "query game server"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-gamedig"
+    },
+    {
+      "id": "node-red-contrib-custom-chatgpt",
+      "version": "1.2.11",
+      "description": "A Node-RED node that interacts with OpenAI machine learning models to generate text and image outputs like 'ChatGPT' and 'DALL·E 2'.",
+      "updated_at": "2023-05-10T21:30:49.920Z",
+      "types": [
+        "chatgpt"
+      ],
+      "keywords": [
+        "node-red",
+        "chatgpt",
+        "nodejs",
+        "javascript",
+        "api",
+        "flow",
+        "npm",
+        "machine-learning",
+        "node",
+        "example",
+        "text-generation",
+        "openai",
+        "image-generation",
+        "code-generation",
+        "conversational-ai",
+        "gpt-3",
+        "gpt-4",
+        "dall-e",
+        "ai"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-custom-chatgpt"
+    },
+    {
+      "id": "@runnane/node-red-contrib-easee",
+      "version": "0.3.6",
+      "description": "Module for streaming Easee data. Based on node-red-contrib-signalrcore",
+      "updated_at": "2023-05-10T17:46:02.293Z",
+      "types": [
+        "easee-configuration",
+        "easee-rest-client",
+        "charger-streaming-client"
+      ],
+      "keywords": [
+        "easee",
+        "charger",
+        "ev",
+        "signalr",
+        "node-red"
+      ],
+      "url": "https://flows.nodered.org/node/@runnane/node-red-contrib-easee"
+    },
     {
       "id": "node-red-contrib-today-time-range-switch",
       "version": "1.0.10",
@@ -18,22 +176,6 @@
         "sun events"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-today-time-range-switch"
-    },
-    {
-      "id": "node-red-contrib-palette-event-listener2",
-      "version": "1.1.1",
-      "description": "Node to listen for the pallete events.",
-      "updated_at": "2023-05-10T10:42:04.434Z",
-      "types": [
-        "palette-event-listener"
-      ],
-      "keywords": [
-        "node-red",
-        "palette-event-listener",
-        "event-listener",
-        "node"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-palette-event-listener2"
     },
     {
       "id": "node-red-contrib-eskomsepush",
@@ -672,6 +814,23 @@
         "redconnect"
       ],
       "url": "https://flows.nodered.org/node/@yousolution/node-red-contrib-you-ftp-sftp"
+    },
+    {
+      "id": "@smartdcc/dccboxed-nodered-nodes",
+      "version": "0.2.0",
+      "description": "Collection of nodes for NodeRED to facilitate interfacing with DCC Boxed",
+      "updated_at": "2023-05-04T11:32:02.228Z",
+      "types": [],
+      "keywords": [
+        "node-red",
+        "duis",
+        "gbcs",
+        "front-end",
+        "smartdcc",
+        "smartmeter",
+        "smets2"
+      ],
+      "url": "https://flows.nodered.org/node/@smartdcc/dccboxed-nodered-nodes"
     },
     {
       "id": "@ciro99678_net/node-red-contrib-mssql-rai",
@@ -2444,37 +2603,6 @@
         "presence"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-ale-rainbow"
-    },
-    {
-      "id": "node-red-contrib-custom-chatgpt",
-      "version": "1.2.10",
-      "description": "A Node-RED node that interacts with OpenAI machine learning models to generate text and image outputs like 'ChatGPT' and 'DALL·E 2'.",
-      "updated_at": "2023-04-15T01:44:19.308Z",
-      "types": [
-        "chatgpt"
-      ],
-      "keywords": [
-        "node-red",
-        "chatgpt",
-        "nodejs",
-        "javascript",
-        "api",
-        "flow",
-        "npm",
-        "machine-learning",
-        "node",
-        "example",
-        "text-generation",
-        "openai",
-        "image-generation",
-        "code-generation",
-        "conversational-ai",
-        "gpt-3",
-        "gpt-4",
-        "dall-e",
-        "ai"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-custom-chatgpt"
     },
     {
       "id": "nodered-sh1106",
@@ -4293,26 +4421,6 @@
       "url": "https://flows.nodered.org/node/@chvdapi/node-red-pn6400-led"
     },
     {
-      "id": "node-red-contrib-caseta",
-      "version": "2.1.1",
-      "description": "Node-RED nodes to observe and control a Lutron Caseta home network.",
-      "updated_at": "2023-03-24T04:55:44.660Z",
-      "types": [
-        "caseta-bridge",
-        "caseta-react",
-        "caseta-control",
-        "caseta-query"
-      ],
-      "keywords": [
-        "node-red",
-        "lutron",
-        "caseta",
-        "smartbridge",
-        "smart hub"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-caseta"
-    },
-    {
       "id": "@ia-cloud/node-red-contrib-ia-cloud-fds",
       "version": "0.1.28",
       "description": "ia-cloud Node-RED nodes",
@@ -6000,21 +6108,6 @@
       "url": "https://flows.nodered.org/node/node-red-contrib-vioneta-agro-websocket-js"
     },
     {
-      "id": "node-red-contrib-gamedig",
-      "version": "2.1.2",
-      "description": "Query for the status of any game server using node-red",
-      "updated_at": "2023-02-24T06:10:53.607Z",
-      "types": [
-        "query-game-server"
-      ],
-      "keywords": [
-        "node-red",
-        "gamedig",
-        "query game server"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-gamedig"
-    },
-    {
       "id": "node-red-contrib-xkeys_writedata",
       "version": "0.3.1",
       "description": "Xkeys Write Data node for Node-RED with Dynamic Control Data Protocol (DCDP)",
@@ -6600,23 +6693,6 @@
         "node-red"
       ],
       "url": "https://flows.nodered.org/node/nr-discovergy-adapter"
-    },
-    {
-      "id": "@smartdcc/dccboxed-nodered-nodes",
-      "version": "0.1.9",
-      "description": "Collection of nodes for NodeRED to facilitate interfacing with DCC Boxed",
-      "updated_at": "2023-02-17T15:50:13.445Z",
-      "types": [],
-      "keywords": [
-        "node-red",
-        "duis",
-        "gbcs",
-        "front-end",
-        "smartdcc",
-        "smartmeter",
-        "smets2"
-      ],
-      "url": "https://flows.nodered.org/node/@smartdcc/dccboxed-nodered-nodes"
     },
     {
       "id": "node-red-contrib-bigtimer",
@@ -9552,27 +9628,6 @@
         "energy"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-netatmo-energy"
-    },
-    {
-      "id": "@studiobox/node-red-contrib-ui-widget-thermometer",
-      "version": "0.5.4",
-      "description": "Easy to use Node-RED UI Widget on Node-RED Dashboard for display termperature data",
-      "updated_at": "2022-12-29T01:52:53.693Z",
-      "types": [
-        "ui_widget_thermometer"
-      ],
-      "keywords": [
-        "node-red",
-        "node-red-dashboard",
-        "ui-widget",
-        "dashboard-ui",
-        "widget-thermometer",
-        "ui-widget-thermometer",
-        "thermometer",
-        "widget",
-        "temperature"
-      ],
-      "url": "https://flows.nodered.org/node/@studiobox/node-red-contrib-ui-widget-thermometer"
     },
     {
       "id": "node-red-contrib-persistent-fsm",
@@ -13642,25 +13697,6 @@
         "gpio"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-button-events"
-    },
-    {
-      "id": "@runnane/node-red-contrib-easee",
-      "version": "0.3.5",
-      "description": "Module for streaming Easee data. Based on node-red-contrib-signalrcore",
-      "updated_at": "2022-10-02T14:51:12.167Z",
-      "types": [
-        "easee-configuration",
-        "easee-rest-client",
-        "charger-streaming-client"
-      ],
-      "keywords": [
-        "easee",
-        "charger",
-        "ev",
-        "signalr",
-        "node-red"
-      ],
-      "url": "https://flows.nodered.org/node/@runnane/node-red-contrib-easee"
     },
     {
       "id": "node-red-node-ping",
@@ -35755,20 +35791,6 @@
         "node-red"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-hello-world-009"
-    },
-    {
-      "id": "@arduino/node-red-contrib-arduino-iot-cloud",
-      "version": "1.0.7",
-      "description": "Node-RED nodes to talk to Arduino IoT Cloud",
-      "updated_at": "2021-02-22T09:22:51.170Z",
-      "types": [],
-      "keywords": [
-        "node-red",
-        "Arduino",
-        "IoT",
-        "Cloud"
-      ],
-      "url": "https://flows.nodered.org/node/@arduino/node-red-contrib-arduino-iot-cloud"
     },
     {
       "id": "node-red-contrib-signl4",
