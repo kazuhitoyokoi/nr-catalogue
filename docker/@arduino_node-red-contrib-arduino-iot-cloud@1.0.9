@@ -1,0 +1,37 @@
+
+----
+Sending build context to Docker daemon  38.44MB
+Step 1/2 : FROM nodered/node-red
+ ---> a15fc0f4e930
+Step 2/2 : RUN npm install npm install @arduino/node-red-contrib-arduino-iot-cloud@1.0.9
+ ---> Running in 7ef1d183b6bd
+[91mnpm[0m[91m [0m[91mWARN[0m[91m [0m[91mdeprecated[0m[91m formidable@1.2.6: Please upgrade to latest, formidable@v2 or formidable@v3! Check these notes: https://bit.ly/2ZEqIau
+[0m[91mnpm[0m[91m [0m[91mWARN[0m[91m [0m[91mdeprecated[0m[91m superagent@3.7.0: Please upgrade to v7.0.2+ of superagent.  We have fixed numerous issues with streams, form-data, attach(), filesystem errors not bubbling up (ENOENT on attach()), and all tests are now passing.  See the releases tab for more information at <https://github.com/visionmedia/superagent/releases>.
+[0m[91mnpm[0m[91m WARN[0m[91m [0m[91mdeprecated[0m[91m superagent@6.1.0: Please upgrade to v7.0.2+ of superagent.  We have fixed numerous issues with streams, form-data, attach(), filesystem errors not bubbling up (ENOENT on attach()), and all tests are now passing.  See the releases tab for more information at <https://github.com/visionmedia/superagent/releases>.
+[0m
+added 161 packages, and audited 718 packages in 9s
+
+68 packages are looking for funding
+  run `npm fund` for details
+
+14 vulnerabilities (4 low, 4 moderate, 6 high)
+
+To address issues that do not require attention, run:
+  npm audit fix
+
+To address all issues possible (including breaking changes), run:
+  npm audit fix --force
+
+Some issues need review, and may require choosing
+a different dependency.
+
+Run `npm audit` for details.
+[91mnpm notice 
+npm notice New major version of npm available! 8.11.0 -> 9.6.6
+npm notice[0m[91m Changelog: <https://github.com/npm/cli/releases/tag/v9.6.6>
+npm notice Run `npm install -g npm@9.6.6` to update!
+npm notice 
+[0mRemoving intermediate container 7ef1d183b6bd
+ ---> 32412098ce98
+Successfully built 32412098ce98
+Successfully tagged tmp:latest
