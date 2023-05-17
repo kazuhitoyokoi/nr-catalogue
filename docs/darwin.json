@@ -1,7 +1,69 @@
 {
   "name": "Catalogue for darwin",
-  "updated_at": "2023-05-16T21:52:04.198Z",
+  "updated_at": "2023-05-17T21:53:16.973Z",
   "modules": [
+    {
+      "id": "node-red-contrib-woocommerce",
+      "version": "0.3.2",
+      "description": "Communication nodes to an instance of woocommerce",
+      "updated_at": "2023-05-17T11:16:54.865Z",
+      "types": [
+        "woocommerce-config",
+        "woocommerce"
+      ],
+      "keywords": [
+        "node-red",
+        "woocommerce"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-woocommerce"
+    },
+    {
+      "id": "@flowforge/node-red-function-gpt",
+      "version": "0.2.1",
+      "description": "Variation of the standard Node-RED function node that includes an interface to ChatGPT for writing into the function content.",
+      "updated_at": "2023-05-17T10:37:11.883Z",
+      "types": [
+        "function-gpt",
+        "chatgpt-config"
+      ],
+      "keywords": [
+        "node-red"
+      ],
+      "url": "https://flows.nodered.org/node/@flowforge/node-red-function-gpt"
+    },
+    {
+      "id": "node-red-contrib-web-worldmap",
+      "version": "2.37.3",
+      "description": "A Node-RED node to provide a web page of a world map for plotting things on.",
+      "updated_at": "2023-05-17T07:45:39.472Z",
+      "types": [
+        "worldmap",
+        "ui_worldmap",
+        "worldmap in",
+        "worldmap-tracks",
+        "worldmap-hull"
+      ],
+      "keywords": [
+        "node-red",
+        "map",
+        "world"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-web-worldmap"
+    },
+    {
+      "id": "topological-nodered-shared-subflows",
+      "version": "0.1.0",
+      "description": "node-red side tab to share subflow foe teams to collaborate.",
+      "updated_at": "2023-05-16T21:59:42.810Z",
+      "types": [
+        "shared-subflows"
+      ],
+      "keywords": [
+        "node-red",
+        "shared subflows"
+      ],
+      "url": "https://flows.nodered.org/node/topological-nodered-shared-subflows"
+    },
     {
       "id": "@studiobox/node-red-contrib-ui-widget-thermometer",
       "version": "0.7.2",
@@ -160,21 +222,6 @@
         "limit"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-message-rate-topic"
-    },
-    {
-      "id": "node-red-contrib-woocommerce",
-      "version": "0.2.0",
-      "description": "Communication nodes to an instance of woocommerce",
-      "updated_at": "2023-05-15T07:38:46.210Z",
-      "types": [
-        "woocommerce-config",
-        "woocommerce"
-      ],
-      "keywords": [
-        "node-red",
-        "woocommerce"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-woocommerce"
     },
     {
       "id": "node-red-contrib-genetic-algorithm",
@@ -709,6 +756,24 @@
         "outlier"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-cistern"
+    },
+    {
+      "id": "@hermannp/node-red-getproduction-fusionsolar",
+      "version": "2.6.2",
+      "description": "Get Solar electricity production amount of Huawei FusionSolar.",
+      "updated_at": "2023-05-08T17:26:10.347Z",
+      "types": [
+        "getProduction_FusionSolar"
+      ],
+      "keywords": [
+        "node-red",
+        "Huawei",
+        "FusionSolar",
+        "Solar panel",
+        "Production",
+        "Inverter"
+      ],
+      "url": "https://flows.nodered.org/node/@hermannp/node-red-getproduction-fusionsolar"
     },
     {
       "id": "amte-dataports",
@@ -1777,20 +1842,6 @@
       "url": "https://flows.nodered.org/node/@gemini86/node-red-contrib-alarm-manager"
     },
     {
-      "id": "@flowforge/node-red-function-gpt",
-      "version": "0.1.0",
-      "description": "Variation of the standard Node-RED function node that includes an interface to ChatGPT for writing into the function content.",
-      "updated_at": "2023-05-02T11:34:56.633Z",
-      "types": [
-        "function-gpt",
-        "chatgpt-config"
-      ],
-      "keywords": [
-        "node-red"
-      ],
-      "url": "https://flows.nodered.org/node/@flowforge/node-red-function-gpt"
-    },
-    {
       "id": "@ifp-software/node-red-contrib-oee-ai-connector",
       "version": "2.4.0",
       "description": "Easily connect your production machines to oee.ai – The Industry 4.0 solution for OEE optimization.",
@@ -2238,25 +2289,6 @@
         "controller"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-bosch-shc"
-    },
-    {
-      "id": "node-red-contrib-web-worldmap",
-      "version": "2.37.2",
-      "description": "A Node-RED node to provide a web page of a world map for plotting things on.",
-      "updated_at": "2023-04-26T09:53:35.424Z",
-      "types": [
-        "worldmap",
-        "ui_worldmap",
-        "worldmap in",
-        "worldmap-tracks",
-        "worldmap-hull"
-      ],
-      "keywords": [
-        "node-red",
-        "map",
-        "world"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-web-worldmap"
     },
     {
       "id": "@rakwireless/field-tester-server",
