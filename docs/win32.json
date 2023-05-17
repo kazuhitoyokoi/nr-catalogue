@@ -1,7 +1,132 @@
 {
   "name": "Catalogue for win32",
-  "updated_at": "2023-05-16T20:13:54.264Z",
+  "updated_at": "2023-05-17T20:19:54.097Z",
   "modules": [
+    {
+      "id": "node-red-contrib-woocommerce",
+      "version": "0.3.2",
+      "description": "Communication nodes to an instance of woocommerce",
+      "updated_at": "2023-05-17T11:16:54.865Z",
+      "types": [
+        "woocommerce-config",
+        "woocommerce"
+      ],
+      "keywords": [
+        "node-red",
+        "woocommerce"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-woocommerce"
+    },
+    {
+      "id": "@flowforge/node-red-function-gpt",
+      "version": "0.2.1",
+      "description": "Variation of the standard Node-RED function node that includes an interface to ChatGPT for writing into the function content.",
+      "updated_at": "2023-05-17T10:37:11.883Z",
+      "types": [
+        "function-gpt",
+        "chatgpt-config"
+      ],
+      "keywords": [
+        "node-red"
+      ],
+      "url": "https://flows.nodered.org/node/@flowforge/node-red-function-gpt"
+    },
+    {
+      "id": "node-red-contrib-web-worldmap",
+      "version": "2.37.3",
+      "description": "A Node-RED node to provide a web page of a world map for plotting things on.",
+      "updated_at": "2023-05-17T07:45:39.472Z",
+      "types": [
+        "worldmap",
+        "ui_worldmap",
+        "worldmap in",
+        "worldmap-tracks",
+        "worldmap-hull"
+      ],
+      "keywords": [
+        "node-red",
+        "map",
+        "world"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-web-worldmap"
+    },
+    {
+      "id": "topological-nodered-shared-subflows",
+      "version": "0.1.0",
+      "description": "node-red side tab to share subflow foe teams to collaborate.",
+      "updated_at": "2023-05-16T21:59:42.810Z",
+      "types": [
+        "shared-subflows"
+      ],
+      "keywords": [
+        "node-red",
+        "shared subflows"
+      ],
+      "url": "https://flows.nodered.org/node/topological-nodered-shared-subflows"
+    },
+    {
+      "id": "@studiobox/node-red-contrib-ui-widget-thermometer",
+      "version": "0.7.2",
+      "description": "Easy to use Node-RED UI Widget on Node-RED Dashboard for display termperature data",
+      "updated_at": "2023-05-16T19:33:02.520Z",
+      "types": [
+        "ui_widget_thermometer"
+      ],
+      "keywords": [
+        "node-red",
+        "node-red-dashboard",
+        "ui-widget",
+        "dashboard-ui",
+        "widget-thermometer",
+        "ui-widget-thermometer",
+        "thermometer",
+        "widget",
+        "temperature"
+      ],
+      "url": "https://flows.nodered.org/node/@studiobox/node-red-contrib-ui-widget-thermometer"
+    },
+    {
+      "id": "@studiobox/node-red-contrib-ui-widget-bulb-basic",
+      "version": "0.3.0",
+      "description": "Easy to use Node-RED UI Widget on Node-RED Dashboard for easy to display virtual bulb (for turn on/off).",
+      "updated_at": "2023-05-16T18:51:08.509Z",
+      "types": [
+        "ui_widget_bulb_basic"
+      ],
+      "keywords": [
+        "node-red",
+        "node-red-dashboard",
+        "ui-widget",
+        "dashboard-ui",
+        "bulb",
+        "display-bulb",
+        "ui-widget-bulb",
+        "turn-on-off-bulb",
+        "widget"
+      ],
+      "url": "https://flows.nodered.org/node/@studiobox/node-red-contrib-ui-widget-bulb-basic"
+    },
+    {
+      "id": "@studiobox/node-red-contrib-ui-widget-humidity-tree",
+      "version": "0.6.1",
+      "description": "Easy to use Node-RED UI Widget on Node-RED Dashboard for display humidity data in virtual tree. ",
+      "updated_at": "2023-05-16T17:17:18.550Z",
+      "types": [
+        "ui_widget_humidity_tree"
+      ],
+      "keywords": [
+        "node-red",
+        "node-red-dashboard",
+        "ui-widget",
+        "dashboard-ui",
+        "widget-humidity",
+        "humidity",
+        "ui-widget-humidity",
+        "humidity-tree",
+        "widget"
+      ],
+      "url": "https://flows.nodered.org/node/@studiobox/node-red-contrib-ui-widget-humidity-tree"
+    },
     {
       "id": "node-red-contrib-phidget22",
       "version": "2.0.0",
@@ -48,27 +173,6 @@
         "phidgets"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-phidget22"
-    },
-    {
-      "id": "@studiobox/node-red-contrib-ui-widget-thermometer",
-      "version": "0.7.0",
-      "description": "Easy to use Node-RED UI Widget on Node-RED Dashboard for display termperature data",
-      "updated_at": "2023-05-16T14:56:04.618Z",
-      "types": [
-        "ui_widget_thermometer"
-      ],
-      "keywords": [
-        "node-red",
-        "node-red-dashboard",
-        "ui-widget",
-        "dashboard-ui",
-        "widget-thermometer",
-        "ui-widget-thermometer",
-        "thermometer",
-        "widget",
-        "temperature"
-      ],
-      "url": "https://flows.nodered.org/node/@studiobox/node-red-contrib-ui-widget-thermometer"
     },
     {
       "id": "node-red-contrib-eskomsepush",
@@ -118,21 +222,6 @@
         "limit"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-message-rate-topic"
-    },
-    {
-      "id": "node-red-contrib-woocommerce",
-      "version": "0.2.0",
-      "description": "Communication nodes to an instance of woocommerce",
-      "updated_at": "2023-05-15T07:38:46.210Z",
-      "types": [
-        "woocommerce-config",
-        "woocommerce"
-      ],
-      "keywords": [
-        "node-red",
-        "woocommerce"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-woocommerce"
     },
     {
       "id": "node-red-contrib-genetic-algorithm",
@@ -1718,20 +1807,6 @@
       "url": "https://flows.nodered.org/node/@gemini86/node-red-contrib-alarm-manager"
     },
     {
-      "id": "@flowforge/node-red-function-gpt",
-      "version": "0.1.0",
-      "description": "Variation of the standard Node-RED function node that includes an interface to ChatGPT for writing into the function content.",
-      "updated_at": "2023-05-02T11:34:56.633Z",
-      "types": [
-        "function-gpt",
-        "chatgpt-config"
-      ],
-      "keywords": [
-        "node-red"
-      ],
-      "url": "https://flows.nodered.org/node/@flowforge/node-red-function-gpt"
-    },
-    {
       "id": "@ifp-software/node-red-contrib-oee-ai-connector",
       "version": "2.4.0",
       "description": "Easily connect your production machines to oee.ai – The Industry 4.0 solution for OEE optimization.",
@@ -2179,25 +2254,6 @@
         "controller"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-bosch-shc"
-    },
-    {
-      "id": "node-red-contrib-web-worldmap",
-      "version": "2.37.2",
-      "description": "A Node-RED node to provide a web page of a world map for plotting things on.",
-      "updated_at": "2023-04-26T09:53:35.424Z",
-      "types": [
-        "worldmap",
-        "ui_worldmap",
-        "worldmap in",
-        "worldmap-tracks",
-        "worldmap-hull"
-      ],
-      "keywords": [
-        "node-red",
-        "map",
-        "world"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-web-worldmap"
     },
     {
       "id": "@rakwireless/field-tester-server",
@@ -21314,27 +21370,6 @@
       "url": "https://flows.nodered.org/node/node-red-contrib-appstore"
     },
     {
-      "id": "@studiobox/node-red-contrib-ui-widget-bulb-basic",
-      "version": "0.2.0",
-      "description": "Easy to use Node-RED UI Widget on Node-RED Dashboard for easy to display virtual bulb (for turn on/off).",
-      "updated_at": "2022-04-06T20:24:37.244Z",
-      "types": [
-        "ui_widget_bulb_basic"
-      ],
-      "keywords": [
-        "node-red",
-        "node-red-dashboard",
-        "ui-widget",
-        "dashboard-ui",
-        "bulb",
-        "display-bulb",
-        "ui-widget-bulb",
-        "turn-on-off-bulb",
-        "widget"
-      ],
-      "url": "https://flows.nodered.org/node/@studiobox/node-red-contrib-ui-widget-bulb-basic"
-    },
-    {
       "id": "node-red-contrib-andinox1",
       "version": "0.1.0",
       "description": "A Node-RED filter-node that handles messages from the Andino X1 Board.",
@@ -21522,27 +21557,6 @@
         "node-red"
       ],
       "url": "https://flows.nodered.org/node/@hexa-ai/node-red-contrib-hexa-data-connector"
-    },
-    {
-      "id": "@studiobox/node-red-contrib-ui-widget-humidity-tree",
-      "version": "0.5.1",
-      "description": "Easy to use Node-RED UI Widget on Node-RED Dashboard for display humidity data in virtual tree. ",
-      "updated_at": "2022-03-31T18:22:34.513Z",
-      "types": [
-        "ui_widget_humidity_tree"
-      ],
-      "keywords": [
-        "node-red",
-        "node-red-dashboard",
-        "ui-widget",
-        "dashboard-ui",
-        "widget-humidity",
-        "humidity",
-        "ui-widget-humidity",
-        "humidity-tree",
-        "widget"
-      ],
-      "url": "https://flows.nodered.org/node/@studiobox/node-red-contrib-ui-widget-humidity-tree"
     },
     {
       "id": "node-red-google-notify",
