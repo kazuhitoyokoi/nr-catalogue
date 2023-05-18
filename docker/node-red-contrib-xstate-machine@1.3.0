@@ -1,0 +1,33 @@
+
+----
+Sending build context to Docker daemon  36.57MB
+Step 1/2 : FROM nodered/node-red
+ ---> a15fc0f4e930
+Step 2/2 : RUN npm install npm install node-red-contrib-xstate-machine@1.3.0
+ ---> Running in d4d57457527f
+[91mnpm WARN deprecated w3c-hr-time@1.0.2: Use your platform's native performance.now() and performance.timeOrigin.
+[0m[91mnpm[0m[91m WARN deprecated viz.js@1.8.2: no longer supported
+[0m
+added 77 packages, and audited 634 packages in 8s
+
+67 packages are looking for funding
+  run `npm fund` for details
+
+9 vulnerabilities (4 low, 4 moderate, 1 high)
+
+To address issues that do not require attention, run:
+  npm audit fix
+
+To address all issues (including breaking changes), run:
+  npm audit fix --force
+
+Run `npm audit` for details.
+[91mnpm notice[0m[91m 
+npm notice New major version of npm available! 8.11.0 -> 9.6.7
+npm notice Changelog: <https://github.com/npm/cli/releases/tag/v9.6.7>
+npm notice[0m[91m Run `npm install -g npm@9.6.7` to update!
+npm notice 
+[0mRemoving intermediate container d4d57457527f
+ ---> 31ef0452441f
+Successfully built 31ef0452441f
+Successfully tagged tmp:latest
