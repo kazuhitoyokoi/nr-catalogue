@@ -1,7 +1,48 @@
 {
   "name": "Catalogue for verified nodes",
-  "updated_at": "2023-05-17T21:53:33.623Z",
+  "updated_at": "2023-05-18T20:47:22.265Z",
   "modules": [
+    {
+      "id": "node-red-contrib-gps4net",
+      "version": "0.0.6",
+      "description": "GPS4NET Node-RED palette",
+      "updated_at": "2023-05-18T13:53:14.060Z",
+      "types": [
+        "g4nrht-decode",
+        "g4nrht-encode",
+        "g4nrht-dashboard"
+      ],
+      "keywords": [
+        "node-red",
+        "node-red-contrib",
+        "gps4net",
+        "gps4net devices"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-gps4net"
+    },
+    {
+      "id": "node-red-contrib-xstate-machine",
+      "version": "1.3.0",
+      "description": "Xstate-based state machine implementation using state-machine-cat visualization for node red.",
+      "updated_at": "2023-05-17T19:30:19.231Z",
+      "types": [
+        "smxstate"
+      ],
+      "keywords": [
+        "node-red",
+        "xstate",
+        "statecharts",
+        "machine",
+        "statemachine",
+        "state-machine",
+        "state machine",
+        "fsm",
+        "finite-state-machine",
+        "smcat",
+        "state-machine-cat"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-xstate-machine"
+    },
     {
       "id": "node-red-contrib-woocommerce",
       "version": "0.3.2",
@@ -224,6 +265,30 @@
       "url": "https://flows.nodered.org/node/node-red-contrib-message-rate-topic"
     },
     {
+      "id": "node-red-contrib-mysensors",
+      "version": "4.1.0",
+      "description": "Mysensors related nodes, for decoding / encoding mysensors serial protocol and MQTT topic, and wrapping arbitrary messages into mysensors compatible messages",
+      "updated_at": "2023-05-15T19:18:31.416Z",
+      "types": [
+        "mysdecode",
+        "mysencode",
+        "mysencap",
+        "mysdebug",
+        "myscontroller",
+        "mysensorsdb"
+      ],
+      "keywords": [
+        "node-red",
+        "mysensors",
+        "decode",
+        "encode",
+        "wrap",
+        "encapsulate",
+        "debug"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-mysensors"
+    },
+    {
       "id": "node-red-contrib-genetic-algorithm",
       "version": "1.0.0",
       "description": "A Node-RED node to simulate a basic genetic algorithm",
@@ -240,6 +305,25 @@
         "job-scheduling"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-genetic-algorithm"
+    },
+    {
+      "id": "@tbowmo/node-red-small-timer",
+      "version": "0.5.3",
+      "description": "Small timer node for node red with support for sunrise, sunset etc. timers",
+      "updated_at": "2023-05-14T15:05:28.742Z",
+      "types": [
+        "smalltimer",
+        "position"
+      ],
+      "keywords": [
+        "node-red",
+        "timer",
+        "sunset",
+        "sunrise",
+        "dawn",
+        "dusk"
+      ],
+      "url": "https://flows.nodered.org/node/@tbowmo/node-red-small-timer"
     },
     {
       "id": "@parasaurolophus/node-red-eventsource",
@@ -324,25 +408,6 @@
       "url": "https://flows.nodered.org/node/node-red-contrib-warema-webcontrol"
     },
     {
-      "id": "@tbowmo/node-red-small-timer",
-      "version": "0.5.2",
-      "description": "Small timer node for node red with support for sunrise, sunset etc. timers",
-      "updated_at": "2023-05-12T17:09:42.854Z",
-      "types": [
-        "smalltimer",
-        "position"
-      ],
-      "keywords": [
-        "node-red",
-        "timer",
-        "sunset",
-        "sunrise",
-        "dawn",
-        "dusk"
-      ],
-      "url": "https://flows.nodered.org/node/@tbowmo/node-red-small-timer"
-    },
-    {
       "id": "node-red-contrib-msl",
       "version": "1.0.42",
       "description": "A node-red module to simplify the access of msl4 channel data.",
@@ -377,24 +442,6 @@
         "energy-management"
       ],
       "url": "https://flows.nodered.org/node/@fw-systeme/node-red-msl"
-    },
-    {
-      "id": "node-red-contrib-gps4net",
-      "version": "0.0.3",
-      "description": "GPS4NET Node-RED palette",
-      "updated_at": "2023-05-12T11:06:56.850Z",
-      "types": [
-        "g4nrht-decode",
-        "g4nrht-encode",
-        "g4nrht-dashboard"
-      ],
-      "keywords": [
-        "node-red",
-        "node-red-contrib",
-        "gps4net",
-        "gps4net devices"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-gps4net"
     },
     {
       "id": "node-red-contrib-baidutts",
@@ -739,6 +786,24 @@
         "outlier"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-cistern"
+    },
+    {
+      "id": "@hermannp/node-red-getproduction-fusionsolar",
+      "version": "2.6.2",
+      "description": "Get Solar electricity production amount of Huawei FusionSolar.",
+      "updated_at": "2023-05-08T17:26:10.347Z",
+      "types": [
+        "getProduction_FusionSolar"
+      ],
+      "keywords": [
+        "node-red",
+        "Huawei",
+        "FusionSolar",
+        "Solar panel",
+        "Production",
+        "Inverter"
+      ],
+      "url": "https://flows.nodered.org/node/@hermannp/node-red-getproduction-fusionsolar"
     },
     {
       "id": "amte-dataports",
@@ -14982,30 +15047,6 @@
       "url": "https://flows.nodered.org/node/node-red-contrib-snap4city-d3-dashboard-widgets"
     },
     {
-      "id": "node-red-contrib-mysensors",
-      "version": "4.0.3",
-      "description": "Mysensors related nodes, for decoding / encoding mysensors serial protocol and MQTT topic, and wrapping arbitrary messages into mysensors compatible messages",
-      "updated_at": "2022-09-04T16:07:18.143Z",
-      "types": [
-        "mysdecode",
-        "mysencode",
-        "mysencap",
-        "mysdebug",
-        "myscontroller",
-        "mysensorsdb"
-      ],
-      "keywords": [
-        "node-red",
-        "mysensors",
-        "decode",
-        "encode",
-        "wrap",
-        "encapsulate",
-        "debug"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-mysensors"
-    },
-    {
       "id": "node-red-contrib-fritznet",
       "version": "0.2.3",
       "description": "FRITZ!Box network API access",
@@ -18877,21 +18918,6 @@
         "appwrite"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-appwrite"
-    },
-    {
-      "id": "node-red-appwrite",
-      "version": "0.0.9",
-      "description": "A Node-RED node to wrap appwrite sdk operations. Note: this package will be moved to node-red-contrib-appwrite",
-      "updated_at": "2022-05-14T20:28:17.332Z",
-      "types": [
-        "list documents",
-        "appwrite-config"
-      ],
-      "keywords": [
-        "node-red",
-        "appwrite"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-appwrite"
     },
     {
       "id": "@stratonautomation/node-red-contrib-straton",
@@ -22910,29 +22936,6 @@
         "cherry"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-mytimeout"
-    },
-    {
-      "id": "node-red-contrib-xstate-machine",
-      "version": "1.2.4",
-      "description": "Xstate-based state machine implementation using state-machine-cat visualization for node red.",
-      "updated_at": "2022-02-12T22:17:07.147Z",
-      "types": [
-        "smxstate"
-      ],
-      "keywords": [
-        "node-red",
-        "xstate",
-        "statecharts",
-        "machine",
-        "statemachine",
-        "state-machine",
-        "state machine",
-        "fsm",
-        "finite-state-machine",
-        "smcat",
-        "state-machine-cat"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-xstate-machine"
     },
     {
       "id": "node-red-contrib-gps",
