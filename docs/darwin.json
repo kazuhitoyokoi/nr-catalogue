@@ -1,7 +1,48 @@
 {
   "name": "Catalogue for darwin",
-  "updated_at": "2023-05-18T20:47:06.552Z",
+  "updated_at": "2023-05-19T19:17:04.647Z",
   "modules": [
+    {
+      "id": "node-red-contrib-sodick-siot-comm",
+      "version": "1.0.10",
+      "description": "Sodick CIoTComm connection nodes",
+      "updated_at": "2023-05-19T11:28:07.227Z",
+      "types": [
+        "Sodick SIoTComm"
+      ],
+      "keywords": [
+        "node-red",
+        "sodick"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-sodick-siot-comm"
+    },
+    {
+      "id": "@digitalnodecom/node-red-contrib-generic-s3",
+      "version": "1.9.0",
+      "description": "Generic node-red S3 nodes",
+      "updated_at": "2023-05-18T20:08:15.173Z",
+      "types": [
+        "client-s3",
+        "List Buckets",
+        "Create Bucket",
+        "List Objects",
+        "List Objects V2",
+        "List Object Versions",
+        "Get Object",
+        "Head Object",
+        "Put Object",
+        "Put Objects",
+        "Delete Object",
+        "Copy Object",
+        "Move Object"
+      ],
+      "keywords": [
+        "node-red",
+        "s3",
+        "generic"
+      ],
+      "url": "https://flows.nodered.org/node/@digitalnodecom/node-red-contrib-generic-s3"
+    },
     {
       "id": "@apxc/node-red-contrib-apxc-getconnections",
       "version": "0.0.2",
@@ -2195,32 +2236,6 @@
       "url": "https://flows.nodered.org/node/node-red-contrib-2fa"
     },
     {
-      "id": "@digitalnodecom/node-red-contrib-generic-s3",
-      "version": "1.8.0",
-      "description": "Generic node-red S3 nodes",
-      "updated_at": "2023-04-28T14:38:27.159Z",
-      "types": [
-        "client-s3",
-        "List Buckets",
-        "Create Bucket",
-        "List Objects",
-        "List Objects V2",
-        "List Object Versions",
-        "Get Object",
-        "Head Object",
-        "Put Object",
-        "Put Objects",
-        "Delete Object",
-        "Copy Object"
-      ],
-      "keywords": [
-        "node-red",
-        "s3",
-        "generic"
-      ],
-      "url": "https://flows.nodered.org/node/@digitalnodecom/node-red-contrib-generic-s3"
-    },
-    {
       "id": "kdbx-red",
       "version": "1.0.0",
       "description": "Node-Red nodes to work with keepass files.",
@@ -3006,6 +3021,23 @@
         "rest-api"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-getnet-api"
+    },
+    {
+      "id": "node-red-contrib-focas",
+      "version": "1.2.1",
+      "description": "Node-RED Node to communicate with CNCs using Fanuc FOCAS protocol",
+      "updated_at": "2023-04-17T13:13:09.892Z",
+      "types": [
+        "focas config",
+        "focas node"
+      ],
+      "keywords": [
+        "focas",
+        "node-red",
+        "fanuc",
+        "cnc"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-focas"
     },
     {
       "id": "node-red-contrib-conta-azul-api",
@@ -17792,23 +17824,6 @@
         "cnc"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-melsec"
-    },
-    {
-      "id": "node-red-contrib-focas",
-      "version": "1.1.1",
-      "description": "Node-RED Node to communicate with CNCs using Fanuc FOCAS protocol",
-      "updated_at": "2022-06-20T19:09:06.641Z",
-      "types": [
-        "focas config",
-        "focas node"
-      ],
-      "keywords": [
-        "focas",
-        "node-red",
-        "fanuc",
-        "cnc"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-focas"
     },
     {
       "id": "node-red-contrib-df1",
