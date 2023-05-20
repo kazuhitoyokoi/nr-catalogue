@@ -1,7 +1,36 @@
 {
   "name": "Catalogue for docker",
-  "updated_at": "2023-05-19T16:15:57.710Z",
+  "updated_at": "2023-05-20T16:18:38.838Z",
   "modules": [
+    {
+      "id": "node-red-contrib-appwrite",
+      "version": "0.0.11",
+      "description": "Node-RED connector for appwrite",
+      "updated_at": "2023-05-19T21:33:40.287Z",
+      "types": [
+        "com.autana.readTable",
+        "com.autana.insertRow",
+        "com.autana.updateRow",
+        "com.autana.deleteRow",
+        "com.autana.readSchema",
+        "com.autana.listTables",
+        "com.autana.createTable",
+        "com.autana.StringColumn",
+        "com.autana.IntegerColumn",
+        "com.autana.FloatColumn",
+        "com.autana.BooleanColumn",
+        "com.autana.deleteColumn",
+        "com.autana.createIndex",
+        "com.autana.deleteIndex",
+        "appwrite-config"
+      ],
+      "keywords": [
+        "node-red",
+        "appwrite",
+        "autana"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-appwrite"
+    },
     {
       "id": "node-red-contrib-sodick-siot-comm",
       "version": "1.0.10",
@@ -3021,6 +3050,23 @@
         "rest-api"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-getnet-api"
+    },
+    {
+      "id": "node-red-contrib-focas",
+      "version": "1.2.1",
+      "description": "Node-RED Node to communicate with CNCs using Fanuc FOCAS protocol",
+      "updated_at": "2023-04-17T13:13:09.892Z",
+      "types": [
+        "focas config",
+        "focas node"
+      ],
+      "keywords": [
+        "focas",
+        "node-red",
+        "fanuc",
+        "cnc"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-focas"
     },
     {
       "id": "node-red-contrib-conta-azul-api",
@@ -17761,23 +17807,6 @@
       "url": "https://flows.nodered.org/node/node-red-contrib-melsec"
     },
     {
-      "id": "node-red-contrib-focas",
-      "version": "1.1.1",
-      "description": "Node-RED Node to communicate with CNCs using Fanuc FOCAS protocol",
-      "updated_at": "2022-06-20T19:09:06.641Z",
-      "types": [
-        "focas config",
-        "focas node"
-      ],
-      "keywords": [
-        "focas",
-        "node-red",
-        "fanuc",
-        "cnc"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-focas"
-    },
-    {
       "id": "node-red-contrib-df1",
       "version": "1.0.1",
       "description": "Node-RED Node to communicate with Allen Bredley PLCs over Serial Port",
@@ -19102,21 +19131,6 @@
         "weekday"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-weekday-gate"
-    },
-    {
-      "id": "node-red-contrib-appwrite",
-      "version": "0.0.10",
-      "description": "A Node-RED node to wrap appwrite sdk operations.",
-      "updated_at": "2022-05-14T20:45:38.192Z",
-      "types": [
-        "list documents",
-        "appwrite-config"
-      ],
-      "keywords": [
-        "node-red",
-        "appwrite"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-appwrite"
     },
     {
       "id": "@stratonautomation/node-red-contrib-straton",
