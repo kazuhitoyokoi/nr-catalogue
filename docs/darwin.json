@@ -1,7 +1,196 @@
 {
   "name": "Catalogue for darwin",
-  "updated_at": "2023-05-21T20:27:24.438Z",
+  "updated_at": "2023-05-24T19:34:53.752Z",
   "modules": [
+    {
+      "id": "@jmanthey/node-red-light-simulation",
+      "version": "0.0.2",
+      "description": "simulate presence by randomly sending activate/deactivate messages",
+      "updated_at": "2023-05-24T17:07:20.976Z",
+      "types": [
+        "light-simulation"
+      ],
+      "keywords": [
+        "node-red"
+      ],
+      "url": "https://flows.nodered.org/node/@jmanthey/node-red-light-simulation"
+    },
+    {
+      "id": "node-red-contrib-exec-queue",
+      "version": "1.0.28",
+      "description": "A Node-RED alternative exec node that runs template code with a queue.",
+      "updated_at": "2023-05-24T03:03:05.284Z",
+      "types": [
+        "exec queue"
+      ],
+      "keywords": [
+        "node-red"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-exec-queue"
+    },
+    {
+      "id": "cosmos8-clp",
+      "version": "1.1.0",
+      "description": "Memory handling nodes to receive, format and tag data from arrays.",
+      "updated_at": "2023-05-23T19:14:49.218Z",
+      "types": [
+        "merge-key-value-arr",
+        "uint16-to-float32",
+        "float32-to-uint16"
+      ],
+      "keywords": [
+        "node-red",
+        "cosmos8",
+        "automation"
+      ],
+      "url": "https://flows.nodered.org/node/cosmos8-clp"
+    },
+    {
+      "id": "node-red-contrib-light-transition",
+      "version": "1.8.1",
+      "description": "Transitions a light's color & brightness based on defined settings.",
+      "updated_at": "2023-05-23T14:47:29.581Z",
+      "types": [
+        "light-transition"
+      ],
+      "keywords": [
+        "node-red",
+        "light",
+        "transition",
+        "dimmer",
+        "sunrise",
+        "wakeup"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-light-transition"
+    },
+    {
+      "id": "node-red-contrib-google-translate-appflow",
+      "version": "0.1.0",
+      "description": "Node-RED node for Google Translate",
+      "updated_at": "2023-05-23T10:15:54.369Z",
+      "types": [
+        "google-translate"
+      ],
+      "keywords": [
+        "node-red",
+        "google",
+        "translate",
+        "google translate"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-google-translate-appflow"
+    },
+    {
+      "id": "node-red-contrib-energy-meter",
+      "version": "0.0.1",
+      "description": "A Node-RED node to read modbus data from Eastron energy meter and present it into Human readable format",
+      "updated_at": "2023-05-23T05:05:11.180Z",
+      "types": [
+        "energy-meter"
+      ],
+      "keywords": [
+        "node-red",
+        "energy",
+        "meter",
+        "Energy Meter",
+        "Modbus",
+        "Industry",
+        "Smart Factory",
+        "Pune",
+        "India",
+        "Eastron"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-energy-meter"
+    },
+    {
+      "id": "node-red-contrib-ocpp",
+      "version": "1.3.5",
+      "description": "A set of nodes to communicate via OCPP to a compatible charge box or central system",
+      "updated_at": "2023-05-22T19:51:27.284Z",
+      "types": [
+        "CS request SOAP",
+        "CP Request SOAP",
+        "ocpp-remote-cp",
+        "ocpp-remotej-cp",
+        "ocpp-remote-cs",
+        "CS server",
+        "server response",
+        "CP server SOAP",
+        "CS request JSON",
+        "CP client JSON"
+      ],
+      "keywords": [
+        "node-red",
+        "ocpp",
+        "ocpp SOAP",
+        "ocpp JSON",
+        "ocpp centralsystem",
+        "ocpp chargepoint"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-ocpp"
+    },
+    {
+      "id": "@ba47/node-red-queue",
+      "version": "0.5.4",
+      "description": "Message queue with timed or event driven output.",
+      "updated_at": "2023-05-22T07:35:06.466Z",
+      "types": [
+        "queue"
+      ],
+      "keywords": [
+        "node-red",
+        "ba47"
+      ],
+      "url": "https://flows.nodered.org/node/@ba47/node-red-queue"
+    },
+    {
+      "id": "@ba47/node-red-domino-proton",
+      "version": "0.5.5",
+      "description": "HCL Domino Proton integration for Node-RED",
+      "updated_at": "2023-05-22T07:10:41.096Z",
+      "types": [
+        "DominoDatabase",
+        "createDocuments",
+        "readDocuments",
+        "updateDocuments",
+        "removeItems",
+        "deleteDocuments",
+        "readAttachments",
+        "writeAttachments",
+        "runAgent",
+        "createLog",
+        "explainQuery",
+        "writeAttachment"
+      ],
+      "keywords": [
+        "node-red",
+        "domino",
+        "proton",
+        "ba47"
+      ],
+      "url": "https://flows.nodered.org/node/@ba47/node-red-domino-proton"
+    },
+    {
+      "id": "openapi-red",
+      "version": "1.2.2",
+      "description": "OpenAPI (Swagger) client for node-red ",
+      "updated_at": "2023-05-22T06:28:21.050Z",
+      "types": [
+        "openApi-red",
+        "openApi-red-url"
+      ],
+      "keywords": [
+        "node-red",
+        "swagger",
+        "swagger client",
+        "openApi",
+        "openApi client",
+        "open api",
+        "open api client",
+        "open",
+        "api"
+      ],
+      "url": "https://flows.nodered.org/node/openapi-red"
+    },
     {
       "id": "node-red-contrib-opcua",
       "version": "0.2.306",
@@ -2680,33 +2869,6 @@
       "url": "https://flows.nodered.org/node/node-red-contrib-vallox"
     },
     {
-      "id": "@ba47/node-red-domino-proton",
-      "version": "0.5.1",
-      "description": "HCL Domino Proton integration for Node-RED",
-      "updated_at": "2023-04-24T10:35:56.876Z",
-      "types": [
-        "DominoDatabase",
-        "createDocuments",
-        "readDocuments",
-        "updateDocuments",
-        "removeItems",
-        "deleteDocuments",
-        "readAttachments",
-        "writeAttachments",
-        "runAgent",
-        "createLog",
-        "explainQuery",
-        "writeAttachment"
-      ],
-      "keywords": [
-        "node-red",
-        "domino",
-        "proton",
-        "ba47"
-      ],
-      "url": "https://flows.nodered.org/node/@ba47/node-red-domino-proton"
-    },
-    {
       "id": "node-red-contrib-road-traffic",
       "version": "0.0.1",
       "description": "A Node-RED node for estimating road traffic capacity based on road dimensions, traffic composition, and vehicle speeds.",
@@ -2943,33 +3105,6 @@
         "red"
       ],
       "url": "https://flows.nodered.org/node/@iomtbvk/red-contrib-kafkalis"
-    },
-    {
-      "id": "node-red-contrib-ocpp",
-      "version": "1.3.4",
-      "description": "A set of nodes to communicate via OCPP to a compatible charge box or central system",
-      "updated_at": "2023-04-19T18:55:23.667Z",
-      "types": [
-        "CS request SOAP",
-        "CP Request SOAP",
-        "ocpp-remote-cp",
-        "ocpp-remotej-cp",
-        "ocpp-remote-cs",
-        "CS server",
-        "server response",
-        "CP server SOAP",
-        "CS request JSON",
-        "CP client JSON"
-      ],
-      "keywords": [
-        "node-red",
-        "ocpp",
-        "ocpp SOAP",
-        "ocpp JSON",
-        "ocpp centralsystem",
-        "ocpp chargepoint"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-ocpp"
     },
     {
       "id": "node-red-contrib-monster",
@@ -9290,27 +9425,6 @@
       "url": "https://flows.nodered.org/node/node-red-contrib-http-instance-cors"
     },
     {
-      "id": "openapi-red",
-      "version": "1.1.3",
-      "description": "OpenAPI (Swagger) client for node-red ",
-      "updated_at": "2023-01-11T08:52:17.034Z",
-      "types": [
-        "openApi-red"
-      ],
-      "keywords": [
-        "node-red",
-        "swagger",
-        "swagger client",
-        "openApi",
-        "openApi client",
-        "open api",
-        "open api client",
-        "open",
-        "api"
-      ],
-      "url": "https://flows.nodered.org/node/openapi-red"
-    },
-    {
       "id": "node-red-node-dropbox",
       "version": "2.1.1",
       "description": "Node-RED nodes to watch and download files from Dropbox",
@@ -13716,19 +13830,6 @@
         "node-red"
       ],
       "url": "https://flows.nodered.org/node/crypto-wz"
-    },
-    {
-      "id": "node-red-contrib-exec-queue",
-      "version": "1.0.27",
-      "description": "A Node-RED alternative exec node that runs template code with a queue.",
-      "updated_at": "2022-10-13T18:51:03.591Z",
-      "types": [
-        "exec queue"
-      ],
-      "keywords": [
-        "node-red"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-exec-queue"
     },
     {
       "id": "node-red-contrib-second-pulse",
@@ -20619,24 +20720,6 @@
         "mqtt"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-wot-discovery"
-    },
-    {
-      "id": "node-red-contrib-light-transition",
-      "version": "1.7.4",
-      "description": "Transitions a light's color & brightness based on defined settings.",
-      "updated_at": "2022-04-23T06:51:57.115Z",
-      "types": [
-        "light-transition"
-      ],
-      "keywords": [
-        "node-red",
-        "light",
-        "transition",
-        "dimmer",
-        "sunrise",
-        "wakeup"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-light-transition"
     },
     {
       "id": "node-red-contrib-widgetlords",
