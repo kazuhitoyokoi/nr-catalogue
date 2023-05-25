@@ -1,7 +1,90 @@
 {
   "name": "Catalogue for docker",
-  "updated_at": "2023-05-24T16:16:11.330Z",
+  "updated_at": "2023-05-25T16:11:15.489Z",
   "modules": [
+    {
+      "id": "node-red-contrib-freebox",
+      "version": "0.0.17",
+      "description": "Freebox api calls for node-red",
+      "updated_at": "2023-05-25T14:19:13.526Z",
+      "types": [
+        "freebox-server",
+        "connection",
+        "api",
+        "lan-browser",
+        "poll"
+      ],
+      "keywords": [
+        "node-red",
+        "freebox"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-freebox"
+    },
+    {
+      "id": "node-red-node-pi-sense-hat",
+      "version": "0.1.5",
+      "description": "A Node-RED node to interact with a Raspberry Pi Sense HAT",
+      "updated_at": "2023-05-25T13:57:31.864Z",
+      "types": [
+        "rpi-sensehat in",
+        "rpi-sensehat out"
+      ],
+      "keywords": [
+        "node-red",
+        "sensehat",
+        "astropi"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-node-pi-sense-hat"
+    },
+    {
+      "id": "node-red-node-serialport",
+      "version": "1.0.4",
+      "description": "Node-RED nodes to talk to serial ports",
+      "updated_at": "2023-05-25T09:00:42.870Z",
+      "types": [
+        "serial in",
+        "serial out",
+        "serial request",
+        "serial-port"
+      ],
+      "keywords": [
+        "node-red",
+        "serial"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-node-serialport"
+    },
+    {
+      "id": "node-red-data-acquisition",
+      "version": "1.0.2",
+      "description": "rhein_data_acquisition",
+      "updated_at": "2023-05-25T07:00:35.809Z",
+      "types": [
+        "rhein_data_acquisition"
+      ],
+      "keywords": [
+        "rhein",
+        "s7",
+        "OPC UA",
+        "siemens",
+        "plc",
+        "profinet",
+        "node-red"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-data-acquisition"
+    },
+    {
+      "id": "@jmanthey/node-red-light-simulation",
+      "version": "0.0.4",
+      "description": "simulate presence by randomly sending activate/deactivate messages",
+      "updated_at": "2023-05-25T04:56:58.892Z",
+      "types": [
+        "light-simulation"
+      ],
+      "keywords": [
+        "node-red"
+      ],
+      "url": "https://flows.nodered.org/node/@jmanthey/node-red-light-simulation"
+    },
     {
       "id": "node-red-contrib-exec-queue",
       "version": "1.0.28",
@@ -1693,24 +1776,6 @@
         "echo"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-alexa-remote2-applestrudel"
-    },
-    {
-      "id": "node-red-contrib-freebox",
-      "version": "0.0.16",
-      "description": "Freebox api calls for node-red",
-      "updated_at": "2023-05-04T06:24:11.529Z",
-      "types": [
-        "freebox-server",
-        "connection",
-        "api",
-        "lan-browser",
-        "poll"
-      ],
-      "keywords": [
-        "node-red",
-        "freebox"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-freebox"
     },
     {
       "id": "@ncd-io/node-red-enterprise-sensors",
@@ -8332,23 +8397,6 @@
       "url": "https://flows.nodered.org/node/node-red-contrib-zigbee2mqtt"
     },
     {
-      "id": "node-red-node-serialport",
-      "version": "1.0.3",
-      "description": "Node-RED nodes to talk to serial ports",
-      "updated_at": "2023-01-31T12:25:11.247Z",
-      "types": [
-        "serial in",
-        "serial out",
-        "serial request",
-        "serial-port"
-      ],
-      "keywords": [
-        "node-red",
-        "serial"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-node-serialport"
-    },
-    {
       "id": "node-red-contrib-homeconnect",
       "version": "0.6.6",
       "description": "Node-RED-nodes for Home Connect",
@@ -11570,22 +11618,6 @@
         "schedule"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-cb-suncron"
-    },
-    {
-      "id": "node-red-node-pi-sense-hat",
-      "version": "0.1.4",
-      "description": "A Node-RED node to interact with a Raspberry Pi Sense HAT",
-      "updated_at": "2022-11-28T11:50:53.927Z",
-      "types": [
-        "rpi-sensehat in",
-        "rpi-sensehat out"
-      ],
-      "keywords": [
-        "node-red",
-        "sensehat",
-        "astropi"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-node-pi-sense-hat"
     },
     {
       "id": "@marcelodf12/node-red-contrib-wca-integration",
