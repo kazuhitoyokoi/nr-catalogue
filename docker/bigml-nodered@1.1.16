@@ -1,0 +1,38 @@
+
+----
+Sending build context to Docker daemon  37.26MB
+Step 1/2 : FROM nodered/node-red
+ ---> 2ff7766f5b7e
+Step 2/2 : RUN npm install npm install bigml-nodered@1.1.16
+ ---> Running in c854467c5a0b
+[91mnpm WARN deprecated har-validator@5.1.5: this library is no longer supported
+[0m[91mnpm WARN deprecated node-pre-gyp@0.11.0: Please upgrade to @mapbox/node-pre-gyp: the non-scoped node-pre-gyp package is deprecated and only the @mapbox scoped package will recieve updates in the future
+[0m[91mnpm WARN deprecated uuid@3.4.0: Please upgrade  to version 7 or higher.  Older versions may use Math.random() in certain circumstances, which is known to be problematic.  See https://v8.dev/blog/math-random for details.
+[0m[91mnpm WARN deprecated request@2.88.2: request has been deprecated, see https://github.com/request/request/issues/3142
+[0m
+added 214 packages, and audited 770 packages in 2m
+
+84 packages are looking for funding
+  run `npm fund` for details
+
+13 vulnerabilities (4 low, 9 moderate)
+
+To address issues that do not require attention, run:
+  npm audit fix
+
+To address all issues possible (including breaking changes), run:
+  npm audit fix --force
+
+Some issues need review, and may require choosing
+a different dependency.
+
+Run `npm audit` for details.
+[91mnpm notice[0m[91m 
+npm notice New major version of npm available! 8.19.4 -> 9.6.7
+npm notice Changelog: <https://github.com/npm/cli/releases/tag/v9.6.7>
+npm notice[0m[91m Run `npm install -g npm@9.6.7` to update!
+npm notice 
+[0mRemoving intermediate container c854467c5a0b
+ ---> c1b6da407cd4
+Successfully built c1b6da407cd4
+Successfully tagged tmp:latest
