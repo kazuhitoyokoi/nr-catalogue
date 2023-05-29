@@ -1,0 +1,36 @@
+
+----
+Sending build context to Docker daemon  37.31MB
+Step 1/2 : FROM nodered/node-red
+ ---> 2ff7766f5b7e
+Step 2/2 : RUN npm install npm install node-red-contrib-appwrite@0.0.12
+ ---> Running in 56e8f4252352
+[91mnpm[0m[91m [0m[91mWARN EBADENGINE Unsupported engine {
+npm WARN[0m[91m EBADENGINE   package: 'node-red-contrib-appwrite@0.0.12',
+npm WARN[0m[91m EBADENGINE   required: { node: '>=17.0.0' },
+npm WARN EBADENGINE   current: { node: 'v16.20.0', npm: '8.19.4' }
+npm WARN EBADENGINE }
+[0m
+added 7 packages, and audited 563 packages in 4s
+
+64 packages are looking for funding
+  run `npm fund` for details
+
+8 vulnerabilities (4 low, 4 moderate)
+
+To address issues that do not require attention, run:
+  npm audit fix
+
+To address all issues (including breaking changes), run:
+  npm audit fix --force
+
+Run `npm audit` for details.
+[91mnpm[0m[91m [0m[91mnotice[0m[91m 
+[0m[91mnpm[0m[91m [0m[91mnotice[0m[91m New major version of npm available! 8.19.4 -> 9.6.7
+[0m[91mnpm[0m[91m [0m[91mnotice[0m[91m Changelog: <https://github.com/npm/cli/releases/tag/v9.6.7>
+[0m[91mnpm[0m[91m [0m[91mnotice[0m[91m Run `npm install -g npm@9.6.7` to update!
+[0m[91mnpm[0m[91m [0m[91mnotice[0m[91m 
+[0mRemoving intermediate container 56e8f4252352
+ ---> b820f8bbc616
+Successfully built b820f8bbc616
+Successfully tagged tmp:latest
