@@ -1,0 +1,99 @@
+
+----
+Sending build context to Docker daemon  36.62MB
+Step 1/2 : FROM nodered/node-red
+latest: Pulling from nodered/node-red
+f56be85fc22e: Already exists
+4e21e25411da: Already exists
+9890dc0be345: Already exists
+61d1890b04b0: Already exists
+e531d9418c46: Pulling fs layer
+549cd92bd4ca: Pulling fs layer
+760947d89989: Pulling fs layer
+4f4fb700ef54: Pulling fs layer
+bf2e06cd1255: Pulling fs layer
+7356ac8fa551: Pulling fs layer
+80158d1c6b47: Pulling fs layer
+9d98150b6fe8: Pulling fs layer
+6b13bfbbf42b: Pulling fs layer
+0e603228d9aa: Pulling fs layer
+bb5c9af5788c: Pulling fs layer
+8f4f3d6a75f0: Pulling fs layer
+3d0addf4d97a: Pulling fs layer
+4f4fb700ef54: Waiting
+bf2e06cd1255: Waiting
+7356ac8fa551: Waiting
+80158d1c6b47: Waiting
+9d98150b6fe8: Waiting
+6b13bfbbf42b: Waiting
+0e603228d9aa: Waiting
+bb5c9af5788c: Waiting
+8f4f3d6a75f0: Waiting
+3d0addf4d97a: Waiting
+e531d9418c46: Verifying Checksum
+e531d9418c46: Download complete
+549cd92bd4ca: Verifying Checksum
+549cd92bd4ca: Download complete
+760947d89989: Verifying Checksum
+760947d89989: Download complete
+4f4fb700ef54: Verifying Checksum
+4f4fb700ef54: Download complete
+bf2e06cd1255: Verifying Checksum
+bf2e06cd1255: Download complete
+7356ac8fa551: Verifying Checksum
+7356ac8fa551: Download complete
+9d98150b6fe8: Verifying Checksum
+9d98150b6fe8: Download complete
+80158d1c6b47: Download complete
+6b13bfbbf42b: Verifying Checksum
+6b13bfbbf42b: Download complete
+e531d9418c46: Pull complete
+549cd92bd4ca: Pull complete
+0e603228d9aa: Verifying Checksum
+0e603228d9aa: Download complete
+bb5c9af5788c: Verifying Checksum
+bb5c9af5788c: Download complete
+3d0addf4d97a: Verifying Checksum
+3d0addf4d97a: Download complete
+8f4f3d6a75f0: Verifying Checksum
+8f4f3d6a75f0: Download complete
+760947d89989: Pull complete
+4f4fb700ef54: Pull complete
+bf2e06cd1255: Pull complete
+7356ac8fa551: Pull complete
+80158d1c6b47: Pull complete
+9d98150b6fe8: Pull complete
+6b13bfbbf42b: Pull complete
+0e603228d9aa: Pull complete
+bb5c9af5788c: Pull complete
+8f4f3d6a75f0: Pull complete
+3d0addf4d97a: Pull complete
+Digest: sha256:c9ab40bfd7957f17dbd5724e41160068df54530e9d1142d32104d5decb3e4371
+Status: Downloaded newer image for nodered/node-red:latest
+ ---> 2ff7766f5b7e
+Step 2/2 : RUN npm install npm install node-red-contrib-play-soundfile@0.0.7
+ ---> Running in dd4d7c08cd2d
+
+added 5 packages, and audited 561 packages in 5s
+
+64 packages are looking for funding
+  run `npm fund` for details
+
+8 vulnerabilities (4 low, 4 moderate)
+
+To address issues that do not require attention, run:
+  npm audit fix
+
+To address all issues (including breaking changes), run:
+  npm audit fix --force
+
+Run `npm audit` for details.
+[91mnpm[0m[91m notice 
+npm notice[0m[91m New major version of npm available! 8.19.4 -> 9.6.7
+npm notice Changelog: <https://github.com/npm/cli/releases/tag/v9.6.7>
+npm notice Run `npm install -g npm@9.6.7` to update!
+npm [0m[91mnotice 
+[0mRemoving intermediate container dd4d7c08cd2d
+ ---> 6a6e7e9becfa
+Successfully built 6a6e7e9becfa
+Successfully tagged tmp:latest
