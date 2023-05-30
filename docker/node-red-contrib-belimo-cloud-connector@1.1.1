@@ -1,0 +1,39 @@
+
+----
+Sending build context to Docker daemon  36.99MB
+Step 1/2 : FROM nodered/node-red
+ ---> 1af68eb29a99
+Step 2/2 : RUN npm install npm install node-red-contrib-belimo-cloud-connector@1.1.1
+ ---> Running in fe11f3d1ea2b
+[91mnpm[0m[91m [0m[91mWARN[0m[91m [0m[91mdeprecated[0m[91m swagger-methods@2.0.2: This package is no longer being maintained.
+[0m[91mnpm[0m[91m [0m[91mWARN[0m[91m [0m[91mdeprecated[0m[91m har-validator@5.1.5: this library is no longer supported
+[0m[91mnpm[0m[91m [0m[91mWARN[0m[91m [0m[91mdeprecated[0m[91m uuid@3.4.0: Please upgrade  to version 7 or higher.  Older versions may use Math.random() in certain circumstances, which is known to be problematic.  See https://v8.dev/blog/math-random for details.
+[0m[91mnpm[0m[91m [0m[91mWARN[0m[91m [0m[91mdeprecated[0m[91m request@2.88.2: request has been deprecated, see https://github.com/request/request/issues/3142
+[0m[91mnpm[0m[91m [0m[91mWARN[0m[91m [0m[91mdeprecated[0m[91m json-schema-ref-parser@7.1.4: Please switch to @apidevtools/json-schema-ref-parser
+[0m
+added 57 packages, and audited 613 packages in 6s
+
+65 packages are looking for funding
+  run `npm fund` for details
+
+10 vulnerabilities (4 low, 6 moderate)
+
+To address issues that do not require attention, run:
+  npm audit fix
+
+To address all issues possible (including breaking changes), run:
+  npm audit fix --force
+
+Some issues need review, and may require choosing
+a different dependency.
+
+Run `npm audit` for details.
+[91mnpm notice[0m[91m 
+npm notice New major version of npm available! 8.19.4 -> 9.6.7
+npm notice Changelog: <https://github.com/npm/cli/releases/tag/v9.6.7>
+npm notice Run `npm install -g npm@9.6.7` to update!
+[0m[91mnpm notice 
+[0mRemoving intermediate container fe11f3d1ea2b
+ ---> de76192fcc1b
+Successfully built de76192fcc1b
+Successfully tagged tmp:latest
