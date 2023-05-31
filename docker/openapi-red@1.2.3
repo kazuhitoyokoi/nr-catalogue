@@ -1,0 +1,99 @@
+
+----
+Sending build context to Docker daemon  36.67MB
+Step 1/2 : FROM nodered/node-red
+latest: Pulling from nodered/node-red
+f56be85fc22e: Already exists
+4e21e25411da: Already exists
+9890dc0be345: Already exists
+61d1890b04b0: Already exists
+d70578450bb7: Pulling fs layer
+a8a78a3a522d: Pulling fs layer
+39e5079d72de: Pulling fs layer
+4f4fb700ef54: Pulling fs layer
+2d131dcb3987: Pulling fs layer
+1ca3dfe8149b: Pulling fs layer
+e5aaa631bfed: Pulling fs layer
+9e246a4bf10c: Pulling fs layer
+851db8d1796d: Pulling fs layer
+f4c5c909de12: Pulling fs layer
+e0edbc440ebc: Pulling fs layer
+fb75fdab619c: Pulling fs layer
+32fbd9cc73be: Pulling fs layer
+4f4fb700ef54: Waiting
+2d131dcb3987: Waiting
+1ca3dfe8149b: Waiting
+e5aaa631bfed: Waiting
+9e246a4bf10c: Waiting
+851db8d1796d: Waiting
+f4c5c909de12: Waiting
+e0edbc440ebc: Waiting
+fb75fdab619c: Waiting
+32fbd9cc73be: Waiting
+d70578450bb7: Download complete
+a8a78a3a522d: Verifying Checksum
+a8a78a3a522d: Download complete
+39e5079d72de: Verifying Checksum
+39e5079d72de: Download complete
+2d131dcb3987: Verifying Checksum
+2d131dcb3987: Download complete
+4f4fb700ef54: Verifying Checksum
+4f4fb700ef54: Download complete
+1ca3dfe8149b: Verifying Checksum
+1ca3dfe8149b: Download complete
+9e246a4bf10c: Verifying Checksum
+9e246a4bf10c: Download complete
+e5aaa631bfed: Verifying Checksum
+e5aaa631bfed: Download complete
+851db8d1796d: Download complete
+d70578450bb7: Pull complete
+f4c5c909de12: Verifying Checksum
+f4c5c909de12: Download complete
+a8a78a3a522d: Pull complete
+e0edbc440ebc: Verifying Checksum
+e0edbc440ebc: Download complete
+32fbd9cc73be: Verifying Checksum
+32fbd9cc73be: Download complete
+fb75fdab619c: Verifying Checksum
+fb75fdab619c: Download complete
+39e5079d72de: Pull complete
+4f4fb700ef54: Pull complete
+2d131dcb3987: Pull complete
+1ca3dfe8149b: Pull complete
+e5aaa631bfed: Pull complete
+9e246a4bf10c: Pull complete
+851db8d1796d: Pull complete
+f4c5c909de12: Pull complete
+e0edbc440ebc: Pull complete
+fb75fdab619c: Pull complete
+32fbd9cc73be: Pull complete
+Digest: sha256:c2f2c732ab2b6f7237c3c88f941864e847fa64a53cbc6a608d156f306c7ef48b
+Status: Downloaded newer image for nodered/node-red:latest
+ ---> 1af68eb29a99
+Step 2/2 : RUN npm install npm install openapi-red@1.2.3
+ ---> Running in 973bbeef3a9f
+[91mnpm[0m[91m [0m[91mWARN[0m[91m [0m[91mdeprecated[0m[91m querystring@0.2.0: The querystring API is considered Legacy. new code should use the URLSearchParams API instead.
+[0m
+added 92 packages, and audited 648 packages in 44s
+
+72 packages are looking for funding
+  run `npm fund` for details
+
+8 vulnerabilities (4 low, 4 moderate)
+
+To address issues that do not require attention, run:
+  npm audit fix
+
+To address all issues (including breaking changes), run:
+  npm audit fix --force
+
+Run `npm audit` for details.
+[91mnpm notice[0m[91m 
+npm notice New major version of npm available! 8.19.4 -> 9.6.7
+npm notice[0m[91m Changelog: <https://github.com/npm/cli/releases/tag/v9.6.7>
+npm notice Run `npm install -g npm@9.6.7` to update!
+npm notice 
+[0mRemoving intermediate container 973bbeef3a9f
+ ---> efd6272fa2b2
+Successfully built efd6272fa2b2
+Successfully tagged tmp:latest
