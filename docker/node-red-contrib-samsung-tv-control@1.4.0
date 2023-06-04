@@ -1,0 +1,37 @@
+
+----
+Sending build context to Docker daemon  37.46MB
+Step 1/2 : FROM nodered/node-red
+ ---> 1af68eb29a99
+Step 2/2 : RUN npm install npm install node-red-contrib-samsung-tv-control@1.4.0
+ ---> Running in 18938f595a31
+[91mnpm[0m[91m [0m[91mWARN[0m[91m [0m[91mdeprecated[0m[91m har-validator@5.1.5: this library is no longer supported
+[0m[91mnpm WARN deprecated uuid@3.4.0: Please upgrade  to version 7 or higher.  Older versions may use Math.random() in certain circumstances, which is known to be problematic.  See https://v8.dev/blog/math-random for details.
+[0m[91mnpm WARN deprecated request@2.88.2: request has been deprecated, see https://github.com/request/request/issues/3142
+[0m
+added 74 packages, and audited 630 packages in 9s
+
+69 packages are looking for funding
+  run `npm fund` for details
+
+11 vulnerabilities (4 low, 7 moderate)
+
+To address issues that do not require attention, run:
+  npm audit fix
+
+To address all issues possible (including breaking changes), run:
+  npm audit fix --force
+
+Some issues need review, and may require choosing
+a different dependency.
+
+Run `npm audit` for details.
+[91mnpm[0m[91m [0m[91mnotice[0m[91m 
+[0m[91mnpm[0m[91m [0m[91mnotice[0m[91m New major version of npm available! 8.19.4 -> 9.6.7
+[0m[91mnpm[0m[91m [0m[91mnotice[0m[91m Changelog: <https://github.com/npm/cli/releases/tag/v9.6.7>
+[0m[91mnpm[0m[91m [0m[91mnotice[0m[91m Run `npm install -g npm@9.6.7` to update!
+[0m[91mnpm[0m[91m [0m[91mnotice[0m[91m 
+[0mRemoving intermediate container 18938f595a31
+ ---> 291fa892543b
+Successfully built 291fa892543b
+Successfully tagged tmp:latest
