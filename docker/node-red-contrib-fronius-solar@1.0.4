@@ -1,0 +1,32 @@
+
+----
+Sending build context to Docker daemon  38.17MB
+Step 1/2 : FROM nodered/node-red
+ ---> 1af68eb29a99
+Step 2/2 : RUN npm install npm install node-red-contrib-fronius-solar@1.0.4
+ ---> Running in 7eace6e82cf2
+[91mnpm WARN[0m[91m skipping integrity check for git dependency ssh://git@github.com/mwittig/node-http-digest-client.git[0m[91m 
+[0m
+added 70 packages, and audited 626 packages in 6s
+
+80 packages are looking for funding
+  run `npm fund` for details
+
+8 vulnerabilities (4 low, 4 moderate)
+
+To address issues that do not require attention, run:
+  npm audit fix
+
+To address all issues (including breaking changes), run:
+  npm audit fix --force
+
+Run `npm audit` for details.
+[91mnpm notice[0m[91m 
+npm notice New major version of npm available! 8.19.4 -> 9.6.7
+npm notice Changelog: <https://github.com/npm/cli/releases/tag/v9.6.7>
+npm notice[0m[91m Run `npm install -g npm@9.6.7` to update!
+npm notice 
+[0mRemoving intermediate container 7eace6e82cf2
+ ---> 07309d726a0a
+Successfully built 07309d726a0a
+Successfully tagged tmp:latest
