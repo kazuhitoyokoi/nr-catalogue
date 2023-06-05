@@ -1,0 +1,36 @@
+
+----
+Sending build context to Docker daemon  37.65MB
+Step 1/2 : FROM nodered/node-red
+ ---> 1af68eb29a99
+Step 2/2 : RUN npm install npm install @friendsincode/node-red-hap-controller@0.0.8
+ ---> Running in 4650735d7b0c
+[91mnpm [0m[91mWARN EBADENGINE Unsupported engine {
+npm WARN[0m[91m EBADENGINE   package: '@friendsincode/node-red-hap-controller@0.0.8',
+npm[0m[91m WARN EBADENGINE[0m[91m   required: { node: '>=18.0.0' },
+npm WARN EBADENGINE   current: { node: 'v16.20.0', npm: '8.19.4' }
+npm WARN EBADENGINE[0m[91m }
+[0m
+added 32 packages, and audited 588 packages in 10s
+
+64 packages are looking for funding
+  run `npm fund` for details
+
+8 vulnerabilities (4 low, 4 moderate)
+
+To address issues that do not require attention, run:
+  npm audit fix
+
+To address all issues (including breaking changes), run:
+  npm audit fix --force
+
+Run `npm audit` for details.
+[91mnpm notice 
+npm notice[0m[91m New major version of npm available! 8.19.4 -> 9.6.7
+npm notice Changelog: <https://github.com/npm/cli/releases/tag/v9.6.7>
+npm notice Run `npm install -g npm@9.6.7` to update!
+[0m[91mnpm notice[0m[91m 
+[0mRemoving intermediate container 4650735d7b0c
+ ---> b36f51bc733b
+Successfully built b36f51bc733b
+Successfully tagged tmp:latest
