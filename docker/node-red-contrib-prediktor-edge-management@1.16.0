@@ -1,0 +1,31 @@
+
+----
+Sending build context to Docker daemon  37.13MB
+Step 1/2 : FROM nodered/node-red
+ ---> 1af68eb29a99
+Step 2/2 : RUN npm install npm install node-red-contrib-prediktor-edge-management@1.16.0
+ ---> Running in 036a599e770b
+
+added 36 packages, and audited 592 packages in 5s
+
+64 packages are looking for funding
+  run `npm fund` for details
+
+8 vulnerabilities (4 low, 4 moderate)
+
+To address issues that do not require attention, run:
+  npm audit fix
+
+To address all issues (including breaking changes), run:
+  npm audit fix --force
+
+Run `npm audit` for details.
+[91mnpm notice[0m[91m 
+npm [0m[91mnotice[0m[91m New major version of npm available! 8.19.4 -> 9.6.7
+npm[0m[91m notice Changelog: <https://github.com/npm/cli/releases/tag/v9.6.7>
+npm notice Run `npm install -g npm@9.6.7` to update!
+[0m[91mnpm[0m[91m notice 
+[0mRemoving intermediate container 036a599e770b
+ ---> 45d57e6e9cfb
+Successfully built 45d57e6e9cfb
+Successfully tagged tmp:latest
