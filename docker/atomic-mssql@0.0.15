@@ -1,0 +1,33 @@
+
+----
+Sending build context to Docker daemon  37.71MB
+Step 1/2 : FROM nodered/node-red
+ ---> 1af68eb29a99
+Step 2/2 : RUN npm install npm install atomic-mssql@0.0.15
+ ---> Running in dbe51e0ae01f
+[91mnpm WARN [0m[91mdeprecated sprintf@0.1.5: The sprintf package is deprecated in favor of sprintf-js.
+[0m[91mnpm WARN[0m[91m deprecated core-js@2.6.12: core-js@<3.23.3 is no longer maintained and not recommended for usage due to the number of issues. Because of the V8 engine whims, feature detection in old core-js versions could cause a slowdown up to 100x even if nothing is polyfilled. Some versions have web compatibility issues. Please, upgrade your dependencies to the actual version of core-js.
+[0m
+added 111 packages, and audited 667 packages in 7s
+
+103 packages are looking for funding
+  run `npm fund` for details
+
+8 vulnerabilities (4 low, 4 moderate)
+
+To address issues that do not require attention, run:
+  npm audit fix
+
+To address all issues (including breaking changes), run:
+  npm audit fix --force
+
+Run `npm audit` for details.
+[91mnpm notice 
+npm notice[0m[91m New major version of npm available! 8.19.4 -> 9.6.7
+npm notice Changelog: <https://github.com/npm/cli/releases/tag/v9.6.7>
+npm notice Run `npm install -g npm@9.6.7` to update!
+npm notice 
+[0mRemoving intermediate container dbe51e0ae01f
+ ---> 341e70357999
+Successfully built 341e70357999
+Successfully tagged tmp:latest
