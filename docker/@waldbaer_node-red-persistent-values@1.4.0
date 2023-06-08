@@ -1,0 +1,31 @@
+
+----
+Sending build context to Docker daemon  38.44MB
+Step 1/2 : FROM nodered/node-red
+ ---> 1af68eb29a99
+Step 2/2 : RUN npm install npm install @waldbaer/node-red-persistent-values@1.4.0
+ ---> Running in df2f9c9f811a
+
+added 3 packages, and audited 557 packages in 5s
+
+64 packages are looking for funding
+  run `npm fund` for details
+
+8 vulnerabilities (4 low, 4 moderate)
+
+To address issues that do not require attention, run:
+  npm audit fix
+
+To address all issues (including breaking changes), run:
+  npm audit fix --force
+
+Run `npm audit` for details.
+[91mnpm[0m[91m notice 
+npm notice New major version of npm available! 8.19.4 -> 9.7.1
+npm notice[0m[91m Changelog: <https://github.com/npm/cli/releases/tag/v9.7.1>
+npm notice Run `npm install -g npm@9.7.1` to update!
+npm[0m[91m notice 
+[0mRemoving intermediate container df2f9c9f811a
+ ---> 22188bfbf40b
+Successfully built 22188bfbf40b
+Successfully tagged tmp:latest
