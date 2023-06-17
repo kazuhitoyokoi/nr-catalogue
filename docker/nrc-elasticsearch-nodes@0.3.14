@@ -1,0 +1,31 @@
+
+----
+Sending build context to Docker daemon  37.21MB
+Step 1/2 : FROM nodered/node-red
+ ---> 1af68eb29a99
+Step 2/2 : RUN npm install npm install nrc-elasticsearch-nodes@0.3.14
+ ---> Running in 836a1666f507
+
+added 11 packages, and audited 565 packages in 5s
+
+64 packages are looking for funding
+  run `npm fund` for details
+
+8 vulnerabilities (4 low, 4 moderate)
+
+To address issues that do not require attention, run:
+  npm audit fix
+
+To address all issues (including breaking changes), run:
+  npm audit fix --force
+
+Run `npm audit` for details.
+[91mnpm notice[0m[91m 
+[0m[91mnpm notice[0m[91m New major version of npm available! 8.19.4 -> 9.7.1
+npm notice Changelog: <https://github.com/npm/cli/releases/tag/v9.7.1>
+npm notice[0m[91m Run `npm install -g npm@9.7.1` to update!
+npm[0m[91m notice 
+[0mRemoving intermediate container 836a1666f507
+ ---> 53060735a6b5
+Successfully built 53060735a6b5
+Successfully tagged tmp:latest
