@@ -1,0 +1,31 @@
+
+----
+Sending build context to Docker daemon   37.8MB
+Step 1/2 : FROM nodered/node-red
+ ---> 1af68eb29a99
+Step 2/2 : RUN npm install npm install @telnyx/node-red-telnyx@1.2.2
+ ---> Running in 1d7106eb0fa9
+
+added 325 packages, and audited 879 packages in 10s
+
+64 packages are looking for funding
+  run `npm fund` for details
+
+24 vulnerabilities (4 low, 11 moderate, 4 high, 5 critical)
+
+To address issues that do not require attention, run:
+  npm audit fix
+
+To address all issues (including breaking changes), run:
+  npm audit fix --force
+
+Run `npm audit` for details.
+[91mnpm notice[0m[91m 
+npm notice New major version of npm available! 8.19.4 -> 9.7.1
+npm notice Changelog: <https://github.com/npm/cli/releases/tag/v9.7.1>
+npm notice Run `npm install -g npm@9.7.1` to update!
+npm notice 
+[0mRemoving intermediate container 1d7106eb0fa9
+ ---> 02d725cc72b0
+Successfully built 02d725cc72b0
+Successfully tagged tmp:latest
