@@ -1,0 +1,31 @@
+
+----
+Sending build context to Docker daemon  37.69MB
+Step 1/2 : FROM nodered/node-red
+ ---> 1af68eb29a99
+Step 2/2 : RUN npm install npm install @bitpoolos/edge-bacnet@1.2.5
+ ---> Running in bb5adb41866a
+
+added 37 packages, and audited 579 packages in 6s
+
+65 packages are looking for funding
+  run `npm fund` for details
+
+8 vulnerabilities (4 low, 4 moderate)
+
+To address issues that do not require attention, run:
+  npm audit fix
+
+To address all issues (including breaking changes), run:
+  npm audit fix --force
+
+Run `npm audit` for details.
+[91mnpm [0m[91mnotice 
+npm notice[0m[91m New major version of npm available! 8.19.4 -> 9.7.2
+npm notice[0m[91m Changelog: <https://github.com/npm/cli/releases/tag/v9.7.2>
+npm notice[0m[91m Run `npm install -g npm@9.7.2` to update!
+npm notice 
+[0mRemoving intermediate container bb5adb41866a
+ ---> d86710ef8bfa
+Successfully built d86710ef8bfa
+Successfully tagged tmp:latest
