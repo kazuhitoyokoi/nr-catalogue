@@ -1,7 +1,75 @@
 {
   "name": "Catalogue for docker",
-  "updated_at": "2023-06-27T16:34:01.346Z",
+  "updated_at": "2023-06-28T16:13:11.173Z",
   "modules": [
+    {
+      "id": "@vfk_research/node-red-contrib-msb",
+      "version": "1.0.3",
+      "description": "Nodes to connect to the Manufacturing Service Bus (MSB) developed by VFK Research (Fraunhofer IPA)",
+      "updated_at": "2023-06-28T06:08:59.958Z",
+      "types": [
+        "msb-object",
+        "msb-event",
+        "msb-config"
+      ],
+      "keywords": [
+        "node-red",
+        "vfk",
+        "msb",
+        "websocket",
+        "manufacturing service bus",
+        "integration",
+        "cps",
+        "iot",
+        "IPA",
+        "IGCV"
+      ],
+      "url": "https://flows.nodered.org/node/@vfk_research/node-red-contrib-msb"
+    },
+    {
+      "id": "@almostinteractive/node-red-contrib-basic-ical-calendar",
+      "version": "1.0.2",
+      "description": "NodeRed iCal calender trigger and sensor",
+      "updated_at": "2023-06-27T22:37:54.834Z",
+      "types": [
+        "cal-config",
+        "cal-sensor",
+        "__errors__",
+        "cal-trigger",
+        "__errors__"
+      ],
+      "keywords": [
+        "node-red",
+        "ical",
+        "calendar",
+        "events",
+        "google",
+        "outlook",
+        "kalender",
+        "nodered",
+        "ics",
+        "smart home",
+        "home automation"
+      ],
+      "url": "https://flows.nodered.org/node/@almostinteractive/node-red-contrib-basic-ical-calendar"
+    },
+    {
+      "id": "@flecoufle/node-red-linky",
+      "version": "0.1.2",
+      "description": "Retrieve Linky power consumption",
+      "updated_at": "2023-06-27T21:52:11.809Z",
+      "types": [
+        "linky-api"
+      ],
+      "keywords": [
+        "linky",
+        "node-red",
+        "power",
+        "consumption",
+        "production"
+      ],
+      "url": "https://flows.nodered.org/node/@flecoufle/node-red-linky"
+    },
     {
       "id": "node-red-contrib-opcua",
       "version": "0.2.308",
@@ -18347,30 +18415,6 @@
         "node-red"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-google-play-data-importer"
-    },
-    {
-      "id": "@vfk_research/node-red-contrib-msb",
-      "version": "1.0.2",
-      "description": "Nodes to connect to the Manufacturing Service Bus (MSB) developed by VFK Research (Fraunhofer IPA)",
-      "updated_at": "2022-07-19T14:14:49.574Z",
-      "types": [
-        "msb-object",
-        "msb-event",
-        "msb-config"
-      ],
-      "keywords": [
-        "node-red",
-        "vfk",
-        "msb",
-        "websocket",
-        "manufacturing service bus",
-        "integration",
-        "cps",
-        "iot",
-        "IPA",
-        "IGCV"
-      ],
-      "url": "https://flows.nodered.org/node/@vfk_research/node-red-contrib-msb"
     },
     {
       "id": "test-switchbot-devices",
