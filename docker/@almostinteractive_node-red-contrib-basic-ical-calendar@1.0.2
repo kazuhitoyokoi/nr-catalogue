@@ -1,0 +1,40 @@
+
+----
+Sending build context to Docker daemon  37.97MB
+Step 1/2 : FROM nodered/node-red
+ ---> 1af68eb29a99
+Step 2/2 : RUN npm install npm install @almostinteractive/node-red-contrib-basic-ical-calendar@1.0.2
+ ---> Running in 9bd5399fed4a
+[91mnpm WARN deprecated[0m[91m xmldom@0.1.31: Deprecated due to CVE-2021-21366 resolved in 0.5.0
+[0m[91mnpm WARN deprecated har-validator@5.1.5: this library is no longer supported
+[0m[91mnpm WARN deprecated uuid@3.4.0: Please upgrade  to version 7 or higher.  Older versions may use Math.random() in certain circumstances, which is known to be problematic.  See https://v8.dev/blog/math-random for details.
+[0m[91mnpm WARN deprecated request@2.88.2: request has been deprecated, see https://github.com/request/request/issues/3142
+[0m[91mnpm WARN deprecated[0m[91m @babel/polyfill@7.12.1: 🚨 This package has been deprecated in favor of separate inclusion of a polyfill and regenerator-runtime (when needed). See the @babel/polyfill docs (https://babeljs.io/docs/en/babel-polyfill) for more information.
+[0m[91mnpm WARN deprecated core-js@2.6.12: core-js@<3.23.3 is no longer maintained and not recommended for usage due to the number of issues. Because of the V8 engine whims, feature detection in old core-js versions could cause a slowdown up to 100x even if nothing is polyfilled. Some versions have web compatibility issues. Please, upgrade your dependencies to the actual version of core-js.
+[0m
+added 62 packages, and audited 604 packages in 6s
+
+67 packages are looking for funding
+  run `npm fund` for details
+
+18 vulnerabilities (2 low, 13 moderate, 3 critical)
+
+To address issues that do not require attention, run:
+  npm audit fix
+
+To address all issues possible (including breaking changes), run:
+  npm audit fix --force
+
+Some issues need review, and may require choosing
+a different dependency.
+
+Run `npm audit` for details.
+[91mnpm notice[0m[91m 
+npm notice New major version of npm available! 8.19.4 -> 9.7.2
+npm notice Changelog: <https://github.com/npm/cli/releases/tag/v9.7.2>
+[0m[91mnpm[0m[91m notice Run `npm install -g npm@9.7.2` to update!
+npm notice[0m[91m 
+[0mRemoving intermediate container 9bd5399fed4a
+ ---> 2e4444ab48e0
+Successfully built 2e4444ab48e0
+Successfully tagged tmp:latest
