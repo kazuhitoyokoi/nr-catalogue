@@ -1,12 +1,99 @@
 {
   "name": "Catalogue for docker",
-  "updated_at": "2023-06-29T16:15:09.461Z",
+  "updated_at": "2023-06-30T16:16:20.566Z",
   "modules": [
     {
+      "id": "victron-dynamic-ess",
+      "version": "0.0.42",
+      "description": "Fetch the ideal ESS setpoint from VRM",
+      "updated_at": "2023-06-30T14:12:11.438Z",
+      "types": [
+        "victron-dynamic-ess",
+        "victron-idle-battery"
+      ],
+      "keywords": [
+        "node-red",
+        "victron",
+        "dynamic ess",
+        "scheduled charging",
+        "ess"
+      ],
+      "url": "https://flows.nodered.org/node/victron-dynamic-ess"
+    },
+    {
+      "id": "node-red-contrib-smb2",
+      "version": "1.3.0",
+      "description": "Node-RED for the SMB protocol",
+      "updated_at": "2023-06-30T11:13:18.919Z",
+      "types": [
+        "SMB",
+        "smb config"
+      ],
+      "keywords": [
+        "node-red",
+        "smb"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-smb2"
+    },
+    {
+      "id": "node-red-contrib-mcprotocol-ind",
+      "version": "1.0.4",
+      "description": "Mode-red nodes to Read from & Write to MITSUBISHI PLC over Ethernet using MC Protocol",
+      "updated_at": "2023-06-30T09:10:43.717Z",
+      "types": [
+        "Ind MC Read",
+        "Ind MC Write",
+        "Ind MC Protocol Connection"
+      ],
+      "keywords": [
+        "node-red",
+        "MITSUBISHI",
+        "MC PROTOCOL",
+        "MELSEC",
+        "PLC"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-mcprotocol-ind"
+    },
+    {
+      "id": "@technithusiast/node-red-contrib-ai-intent",
+      "version": "1.0.2",
+      "description": "A collection of nodes to elevate a user's automation interactions",
+      "updated_at": "2023-06-29T20:16:08.917Z",
+      "types": [
+        "Context Handler",
+        "Register Intent",
+        "Call Intent",
+        "Gather Context"
+      ],
+      "keywords": [
+        "node-red"
+      ],
+      "url": "https://flows.nodered.org/node/@technithusiast/node-red-contrib-ai-intent"
+    },
+    {
+      "id": "@ifp-software/node-red-contrib-oee-ai-connector",
+      "version": "2.5.0",
+      "description": "Easily connect your production machines to oee.ai – The Industry 4.0 solution for OEE optimization.",
+      "updated_at": "2023-06-29T14:58:21.697Z",
+      "types": [],
+      "keywords": [
+        "industrial",
+        "industry 4.0",
+        "iot",
+        "node-red",
+        "oee",
+        "oee.ai",
+        "sick",
+        "smart-factory",
+        "tdc"
+      ],
+      "url": "https://flows.nodered.org/node/@ifp-software/node-red-contrib-oee-ai-connector"
+    },
+    {
       "id": "smithtek-node-red-eagleio",
-      "version": "2.2.0",
+      "version": "2.5.0",
       "description": "Smithtek Node Red EagleIO",
-      "updated_at": "2023-06-29T14:33:15.105Z",
+      "updated_at": "2023-06-29T14:40:26.871Z",
       "types": [
         "smithtek-eagleio-config",
         "smithtek-eagleio-out",
@@ -180,22 +267,6 @@
         "compare"
       ],
       "url": "https://flows.nodered.org/node/@stefanobertini/node-red-contrib-timegate"
-    },
-    {
-      "id": "@technithusiast/node-red-contrib-ai-intent",
-      "version": "1.0.1",
-      "description": "A collection of nodes to elevate a user's automation interactions",
-      "updated_at": "2023-06-28T14:57:21.529Z",
-      "types": [
-        "Context Handler",
-        "Register Intent",
-        "Call Intent",
-        "Gather Context"
-      ],
-      "keywords": [
-        "node-red"
-      ],
-      "url": "https://flows.nodered.org/node/@technithusiast/node-red-contrib-ai-intent"
     },
     {
       "id": "@vfk_research/node-red-contrib-msb",
@@ -575,24 +646,6 @@
         "temperature"
       ],
       "url": "https://flows.nodered.org/node/@studiobox/node-red-contrib-ui-widget-thermometer"
-    },
-    {
-      "id": "victron-dynamic-ess",
-      "version": "0.0.41",
-      "description": "Fetch the ideal ESS setpoint from VRM",
-      "updated_at": "2023-06-23T13:35:39.178Z",
-      "types": [
-        "victron-dynamic-ess",
-        "victron-idle-battery"
-      ],
-      "keywords": [
-        "node-red",
-        "victron",
-        "dynamic ess",
-        "scheduled charging",
-        "ess"
-      ],
-      "url": "https://flows.nodered.org/node/victron-dynamic-ess"
     },
     {
       "id": "@yousolution/node-red-contrib-you-tunnel-ssh",
@@ -1114,9 +1167,9 @@
     },
     {
       "id": "node-red-contrib-bizwechat-apiproxy",
-      "version": "1.2.0",
+      "version": "1.2.1",
       "description": "企业微信消息接收转发至NodeRed-支持反代企微接口",
-      "updated_at": "2023-06-18T14:44:52.916Z",
+      "updated_at": "2023-06-18T17:57:48.199Z",
       "types": [
         "bizwechat-input",
         "bizwechat-output",
@@ -4845,25 +4898,6 @@
         "timer"
       ],
       "url": "https://flows.nodered.org/node/@gemini86/node-red-contrib-alarm-manager"
-    },
-    {
-      "id": "@ifp-software/node-red-contrib-oee-ai-connector",
-      "version": "2.4.0",
-      "description": "Easily connect your production machines to oee.ai – The Industry 4.0 solution for OEE optimization.",
-      "updated_at": "2023-05-02T06:39:51.587Z",
-      "types": [],
-      "keywords": [
-        "industrial",
-        "industry 4.0",
-        "iot",
-        "node-red",
-        "oee",
-        "oee.ai",
-        "sick",
-        "smart-factory",
-        "tdc"
-      ],
-      "url": "https://flows.nodered.org/node/@ifp-software/node-red-contrib-oee-ai-connector"
     },
     {
       "id": "node-red-contrib-google-play-scraper",
@@ -8626,21 +8660,6 @@
         "client"
       ],
       "url": "https://flows.nodered.org/node/@virtualbat/node-red-contrib-solax-cloud-api-client"
-    },
-    {
-      "id": "node-red-contrib-smb2",
-      "version": "1.2.0",
-      "description": "Node-RED for the SMB protocol",
-      "updated_at": "2023-02-26T12:57:22.920Z",
-      "types": [
-        "SMB",
-        "smb config"
-      ],
-      "keywords": [
-        "node-red",
-        "smb"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-smb2"
     },
     {
       "id": "node-red-contrib-moralis",
