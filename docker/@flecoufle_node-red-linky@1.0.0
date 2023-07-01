@@ -1,0 +1,112 @@
+
+----
+Sending build context to Docker daemon   37.9MB
+Step 1/2 : FROM nodered/node-red
+latest: Pulling from nodered/node-red
+f56be85fc22e: Already exists
+4e21e25411da: Pulling fs layer
+9890dc0be345: Pulling fs layer
+61d1890b04b0: Pulling fs layer
+d70578450bb7: Pulling fs layer
+a8a78a3a522d: Pulling fs layer
+39e5079d72de: Pulling fs layer
+4f4fb700ef54: Pulling fs layer
+2d131dcb3987: Pulling fs layer
+1ca3dfe8149b: Pulling fs layer
+e5aaa631bfed: Pulling fs layer
+9e246a4bf10c: Pulling fs layer
+851db8d1796d: Pulling fs layer
+f4c5c909de12: Pulling fs layer
+e0edbc440ebc: Pulling fs layer
+fb75fdab619c: Pulling fs layer
+32fbd9cc73be: Pulling fs layer
+d70578450bb7: Waiting
+a8a78a3a522d: Waiting
+39e5079d72de: Waiting
+4f4fb700ef54: Waiting
+2d131dcb3987: Waiting
+1ca3dfe8149b: Waiting
+e5aaa631bfed: Waiting
+9e246a4bf10c: Waiting
+851db8d1796d: Waiting
+f4c5c909de12: Waiting
+e0edbc440ebc: Waiting
+fb75fdab619c: Waiting
+32fbd9cc73be: Waiting
+61d1890b04b0: Verifying Checksum
+61d1890b04b0: Download complete
+9890dc0be345: Verifying Checksum
+9890dc0be345: Download complete
+d70578450bb7: Verifying Checksum
+d70578450bb7: Download complete
+a8a78a3a522d: Verifying Checksum
+a8a78a3a522d: Download complete
+4f4fb700ef54: Verifying Checksum
+4f4fb700ef54: Download complete
+39e5079d72de: Verifying Checksum
+39e5079d72de: Download complete
+4e21e25411da: Verifying Checksum
+4e21e25411da: Download complete
+2d131dcb3987: Verifying Checksum
+2d131dcb3987: Download complete
+1ca3dfe8149b: Verifying Checksum
+1ca3dfe8149b: Download complete
+e5aaa631bfed: Verifying Checksum
+e5aaa631bfed: Download complete
+9e246a4bf10c: Verifying Checksum
+9e246a4bf10c: Download complete
+851db8d1796d: Verifying Checksum
+851db8d1796d: Download complete
+f4c5c909de12: Verifying Checksum
+f4c5c909de12: Download complete
+32fbd9cc73be: Verifying Checksum
+32fbd9cc73be: Download complete
+e0edbc440ebc: Verifying Checksum
+e0edbc440ebc: Download complete
+fb75fdab619c: Verifying Checksum
+fb75fdab619c: Download complete
+4e21e25411da: Pull complete
+9890dc0be345: Pull complete
+61d1890b04b0: Pull complete
+d70578450bb7: Pull complete
+a8a78a3a522d: Pull complete
+39e5079d72de: Pull complete
+4f4fb700ef54: Pull complete
+2d131dcb3987: Pull complete
+1ca3dfe8149b: Pull complete
+e5aaa631bfed: Pull complete
+9e246a4bf10c: Pull complete
+851db8d1796d: Pull complete
+f4c5c909de12: Pull complete
+e0edbc440ebc: Pull complete
+fb75fdab619c: Pull complete
+32fbd9cc73be: Pull complete
+Digest: sha256:c2f2c732ab2b6f7237c3c88f941864e847fa64a53cbc6a608d156f306c7ef48b
+Status: Downloaded newer image for nodered/node-red:latest
+ ---> 1af68eb29a99
+Step 2/2 : RUN npm install npm install @flecoufle/node-red-linky@1.0.0
+ ---> Running in f1af97eac814
+
+added 4 packages, and audited 546 packages in 8s
+
+65 packages are looking for funding
+  run `npm fund` for details
+
+11 vulnerabilities (2 low, 9 moderate)
+
+To address issues that do not require attention, run:
+  npm audit fix
+
+To address all issues (including breaking changes), run:
+  npm audit fix --force
+
+Run `npm audit` for details.
+[91mnpm[0m[91m notice 
+npm[0m[91m notice[0m[91m New major version of npm available! 8.19.4 -> 9.7.2
+npm[0m[91m notice Changelog: <https://github.com/npm/cli/releases/tag/v9.7.2>
+npm[0m[91m [0m[91mnotice Run `npm install -g npm@9.7.2` to update!
+npm [0m[91mnotice 
+[0mRemoving intermediate container f1af97eac814
+ ---> 0bafa2216ea4
+Successfully built 0bafa2216ea4
+Successfully tagged tmp:latest
