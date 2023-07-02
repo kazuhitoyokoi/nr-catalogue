@@ -1,7 +1,55 @@
 {
   "name": "Catalogue for docker",
-  "updated_at": "2023-07-01T16:29:54.148Z",
+  "updated_at": "2023-07-02T16:12:58.522Z",
   "modules": [
+    {
+      "id": "@technithusiast/node-red-contrib-ai-intent",
+      "version": "1.0.7",
+      "description": "A collection of nodes to elevate a user's automation interactions",
+      "updated_at": "2023-07-02T05:46:35.676Z",
+      "types": [
+        "Context Handler",
+        "Register Intent",
+        "Call Intent",
+        "Gather Context"
+      ],
+      "keywords": [
+        "node-red"
+      ],
+      "url": "https://flows.nodered.org/node/@technithusiast/node-red-contrib-ai-intent"
+    },
+    {
+      "id": "red-contrib-trexmes-oee-calculator",
+      "version": "1.0.2",
+      "description": "TrexMes OEE Calculator from IoBox Data",
+      "updated_at": "2023-07-01T21:45:05.008Z",
+      "types": [
+        "oee-calculator"
+      ],
+      "keywords": [
+        "node-red",
+        "TrexMes",
+        "oee",
+        "IoBox"
+      ],
+      "url": "https://flows.nodered.org/node/red-contrib-trexmes-oee-calculator"
+    },
+    {
+      "id": "node-red-trexmes-iot-iobox",
+      "version": "1.0.9",
+      "description": "Trex Iot-IoBox serial connector",
+      "updated_at": "2023-07-01T16:18:33.261Z",
+      "types": [
+        "iobox",
+        "iobox-port"
+      ],
+      "keywords": [
+        "node-red",
+        "serialport",
+        "TrexMes"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-trexmes-iot-iobox"
+    },
     {
       "id": "@flecoufle/node-red-linky",
       "version": "1.0.0",
@@ -88,22 +136,6 @@
         "modbus"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-arc-modbus-puls"
-    },
-    {
-      "id": "@technithusiast/node-red-contrib-ai-intent",
-      "version": "1.0.5",
-      "description": "A collection of nodes to elevate a user's automation interactions",
-      "updated_at": "2023-06-30T17:38:22.194Z",
-      "types": [
-        "Context Handler",
-        "Register Intent",
-        "Call Intent",
-        "Gather Context"
-      ],
-      "keywords": [
-        "node-red"
-      ],
-      "url": "https://flows.nodered.org/node/@technithusiast/node-red-contrib-ai-intent"
     },
     {
       "id": "node-red-contrib-snap4city-developer",
@@ -515,22 +547,6 @@
         "node-opcua"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-opcua"
-    },
-    {
-      "id": "node-red-trexmes-iot-iobox",
-      "version": "1.0.8",
-      "description": "Trex Iot-IoBox serial connector",
-      "updated_at": "2023-06-26T08:29:52.096Z",
-      "types": [
-        "iobox",
-        "iobox-port"
-      ],
-      "keywords": [
-        "node-red",
-        "serialport",
-        "TrexMes"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-trexmes-iot-iobox"
     },
     {
       "id": "node-red-contrib-pinecone",
