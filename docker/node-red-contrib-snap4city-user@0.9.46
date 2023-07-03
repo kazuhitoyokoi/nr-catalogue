@@ -1,0 +1,44 @@
+
+----
+Sending build context to Docker daemon   38.5MB
+Step 1/2 : FROM nodered/node-red
+ ---> 1af68eb29a99
+Step 2/2 : RUN npm install npm install node-red-contrib-snap4city-user@0.9.46
+ ---> Running in 9e75b5f70e4c
+[91mnpm [0m[91mWARN deprecated har-validator@5.1.5: this library is no longer supported
+[0m[91mnpm WARN deprecated httpclient@0.1.0: Use standard fetch API instead
+[0m[91mnpm WARN deprecated date-format@3.0.0: 3.x is no longer supported. Please upgrade to 4.x or higher.
+[0m[91mnpm WARN deprecated date-format@2.1.0: 2.x is no longer supported. Please upgrade to 4.x or higher.
+[0m[91mnpm WARN deprecated node-uuid@1.4.8: Use uuid module instead
+[0m[91mnpm WARN deprecated streamroller@2.2.4: 2.x is no longer supported. Please upgrade to 3.x or higher.
+[0m[91mnpm WARN deprecated request@2.88.2: request has been deprecated, see https://github.com/request/request/issues/3142
+[0m[91mnpm WARN deprecated uuid@3.4.0: Please upgrade  to version 7 or higher.  Older versions may use Math.random() in certain circumstances, which is known to be problematic.  See https://v8.dev/blog/math-random for details.
+[0m[91mnpm WARN deprecated google-protobuf@4.0.0-rc.2: 4.0.0 RC releases have been superseded by 3.13.0 release
+[0m[91mnpm WARN deprecated mysqlx@1.1.8: The official MySQL Connector for NodeJS has already been written in TypeScript for a while now, so this wrapper is not required anymore.
+[0m
+added 189 packages, and audited 731 packages in 9s
+
+80 packages are looking for funding
+  run `npm fund` for details
+
+17 vulnerabilities (2 low, 12 moderate, 3 critical)
+
+To address issues that do not require attention, run:
+  npm audit fix
+
+To address all issues possible (including breaking changes), run:
+  npm audit fix --force
+
+Some issues need review, and may require choosing
+a different dependency.
+
+Run `npm audit` for details.
+[91mnpm notice[0m[91m 
+npm notice New major version of npm available! 8.19.4 -> 9.7.2
+npm notice Changelog: <https://github.com/npm/cli/releases/tag/v9.7.2>
+npm notice[0m[91m Run `npm install -g npm@9.7.2` to update!
+npm notice 
+[0mRemoving intermediate container 9e75b5f70e4c
+ ---> c364d9393fef
+Successfully built c364d9393fef
+Successfully tagged tmp:latest
