@@ -1,7 +1,213 @@
 {
   "name": "Catalogue for docker",
-  "updated_at": "2023-07-03T16:13:36.425Z",
+  "updated_at": "2023-07-04T16:12:43.211Z",
   "modules": [
+    {
+      "id": "victron-vrm-api",
+      "version": "0.0.1",
+      "description": "Interface with the Victron Energy VRM API",
+      "updated_at": "2023-07-04T13:56:23.503Z",
+      "types": [
+        "config-vrm-api",
+        "vrm-api"
+      ],
+      "keywords": [
+        "node-red",
+        "victron",
+        "vrm",
+        "api"
+      ],
+      "url": "https://flows.nodered.org/node/victron-vrm-api"
+    },
+    {
+      "id": "node-red-contrib-string-to-hex",
+      "version": "1.0.3",
+      "description": "node-red-contrib-string-to-hex",
+      "updated_at": "2023-07-04T10:30:56.528Z",
+      "types": [
+        "string-to-hex"
+      ],
+      "keywords": [
+        "node-red"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-string-to-hex"
+    },
+    {
+      "id": "@technithusiast/node-red-contrib-ai-intent",
+      "version": "1.0.8",
+      "description": "A collection of nodes to elevate a user's automation interactions",
+      "updated_at": "2023-07-04T07:45:58.209Z",
+      "types": [
+        "Context Handler",
+        "Register Intent",
+        "Call Intent",
+        "Gather Context"
+      ],
+      "keywords": [
+        "node-red"
+      ],
+      "url": "https://flows.nodered.org/node/@technithusiast/node-red-contrib-ai-intent"
+    },
+    {
+      "id": "node-red-contrib-knx-ultimate",
+      "version": "2.1.18",
+      "description": "Control your KNX intallation via Node-Red! Single Node KNX IN/OUT with optional ETS group address importer. Easy to use and highly configurable. With integrated Philips HUE devices handling.",
+      "updated_at": "2023-07-04T05:52:52.583Z",
+      "types": [
+        "knxUltimate",
+        "knxUltimateSceneController",
+        "knxUltimateWatchDog",
+        "knxUltimateLogger",
+        "knxUltimate-config",
+        "knxUltimateGlobalContext",
+        "knxUltimateAlerter",
+        "knxUltimateLoadControl",
+        "knxUltimateViewer",
+        "hue-config",
+        "knxUltimateHueLight",
+        "knxUltimateHueButton",
+        "knxUltimateHueMotion",
+        "knxUltimateHueTapDial",
+        "knxUltimateHueLightSensor",
+        "knxUltimateHueTemperatureSensor",
+        "knxUltimateHueScene"
+      ],
+      "keywords": [
+        "node-red",
+        "KNX",
+        "ETS",
+        "eib",
+        "eibd",
+        "knxd",
+        "konnex",
+        "IOT",
+        "hue"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-knx-ultimate"
+    },
+    {
+      "id": "@gastmanager/node-red-client",
+      "version": "1.0.5",
+      "description": "Connects to the gastmanager cloud and provides nodes to listen and publish events",
+      "updated_at": "2023-07-03T21:05:33.553Z",
+      "types": [
+        "gastmanager-config",
+        "gastmanager-listener",
+        "gastmanager-publisher"
+      ],
+      "keywords": [
+        "node-red"
+      ],
+      "url": "https://flows.nodered.org/node/@gastmanager/node-red-client"
+    },
+    {
+      "id": "node-red-contrib-car-bmw",
+      "version": "0.5.0",
+      "description": "Node-RED nodes to connect to BMW ConnectedDrive and read infos of your car.",
+      "updated_at": "2023-07-03T19:59:38.532Z",
+      "types": [
+        "car-bmw",
+        "car-bmw-list",
+        "car-bmw-get",
+        "car-bmw-action"
+      ],
+      "keywords": [
+        "node-red",
+        "BMW",
+        "ConnectedDrive",
+        "Remote Services",
+        "www.bmw-connecteddrive.de/",
+        "www.bmw-connecteddrive.com/"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-car-bmw"
+    },
+    {
+      "id": "@gregoriusrippenstein/node-red-contrib-introspection",
+      "version": "0.2.6",
+      "description": "Node-RED Editor-only nodes for introspecting flows.",
+      "updated_at": "2023-07-03T18:27:07.333Z",
+      "types": [
+        "Seeker",
+        "Sink",
+        "Screenshot",
+        "Orphans",
+        "IsMobile",
+        "Navigator",
+        "DrawSVG",
+        "GetFlows"
+      ],
+      "keywords": [
+        "node-red"
+      ],
+      "url": "https://flows.nodered.org/node/@gregoriusrippenstein/node-red-contrib-introspection"
+    },
+    {
+      "id": "node-red-contrib-home-assistant-websocket",
+      "version": "0.50.0",
+      "description": "Node-RED integration with Home Assistant through websocket and REST API",
+      "updated_at": "2023-07-03T15:11:42.610Z",
+      "types": [],
+      "keywords": [
+        "node-red",
+        "home-assistant",
+        "home assistant",
+        "home automation",
+        "websocket"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-home-assistant-websocket"
+    },
+    {
+      "id": "@icke1983/node-red-contrib-ui-popup",
+      "version": "0.9.9",
+      "description": "Node-RED UI Pupup collection",
+      "updated_at": "2023-07-03T14:55:49.512Z",
+      "types": [
+        "ui_popup-timepicker",
+        "ui_popup-colorpicker",
+        "ui_popup-colortemp",
+        "ui_popup-simpleslider",
+        "ui_popup-dropdown",
+        "ui_popup-iframe"
+      ],
+      "keywords": [
+        "node",
+        "red",
+        "node-red",
+        "nodered",
+        "ui",
+        "dashboard",
+        "popup",
+        "dialog",
+        "slider",
+        "color",
+        "colorpicker",
+        "time",
+        "timepicker",
+        "colortemp",
+        "colortemperature",
+        "temperature"
+      ],
+      "url": "https://flows.nodered.org/node/@icke1983/node-red-contrib-ui-popup"
+    },
+    {
+      "id": "@spectraautomation/node-red-urbancontroller-dio",
+      "version": "1.0.1",
+      "description": "Node-RED module for controlling the digital input / output port of the Urban Controller by Spectra GmbH & Co. KG",
+      "updated_at": "2023-07-03T14:21:05.853Z",
+      "types": [
+        "uc-dio-in",
+        "uc-dio-out"
+      ],
+      "keywords": [
+        "node-red",
+        "gpio",
+        "urbancontroller",
+        "urban controller",
+        "spectra",
+        "powerbox"
+      ],
+      "url": "https://flows.nodered.org/node/@spectraautomation/node-red-urbancontroller-dio"
+    },
     {
       "id": "node-red-contrib-opcua",
       "version": "0.2.309",
@@ -46,25 +252,6 @@
         "node-red"
       ],
       "url": "https://flows.nodered.org/node/@sinch/node-red-conversation-api"
-    },
-    {
-      "id": "@spectraautomation/node-red-urbancontroller-dio",
-      "version": "1.0.0",
-      "description": "Node-RED module for controlling the digital input / output port of the Urban Controller by Spectra GmbH & Co. KG",
-      "updated_at": "2023-07-03T12:52:54.135Z",
-      "types": [
-        "uc-dio-in",
-        "uc-dio-out"
-      ],
-      "keywords": [
-        "node-red",
-        "gpio",
-        "urbancontroller",
-        "urban controller",
-        "spectra",
-        "powerbox"
-      ],
-      "url": "https://flows.nodered.org/node/@spectraautomation/node-red-urbancontroller-dio"
     },
     {
       "id": "node-red-contrib-snap4city-user",
@@ -238,26 +425,6 @@
       "url": "https://flows.nodered.org/node/node-red-contrib-ha-mqtt"
     },
     {
-      "id": "@gregoriusrippenstein/node-red-contrib-introspection",
-      "version": "0.2.5",
-      "description": "Node-RED Editor-only nodes for introspecting flows.",
-      "updated_at": "2023-07-03T09:07:27.071Z",
-      "types": [
-        "Seeker",
-        "Sink",
-        "Screenshot",
-        "Orphans",
-        "IsMobile",
-        "Navigator",
-        "DrawSVG",
-        "GetFlows"
-      ],
-      "keywords": [
-        "node-red"
-      ],
-      "url": "https://flows.nodered.org/node/@gregoriusrippenstein/node-red-contrib-introspection"
-    },
-    {
       "id": "node-red-contrib-trexmes-oee-calculator",
       "version": "1.1.2",
       "description": "TrexMes OEE Calculator from IoBox Data",
@@ -272,22 +439,6 @@
         "IoBox"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-trexmes-oee-calculator"
-    },
-    {
-      "id": "@technithusiast/node-red-contrib-ai-intent",
-      "version": "1.0.7",
-      "description": "A collection of nodes to elevate a user's automation interactions",
-      "updated_at": "2023-07-02T05:46:35.676Z",
-      "types": [
-        "Context Handler",
-        "Register Intent",
-        "Call Intent",
-        "Gather Context"
-      ],
-      "keywords": [
-        "node-red"
-      ],
-      "url": "https://flows.nodered.org/node/@technithusiast/node-red-contrib-ai-intent"
     },
     {
       "id": "node-red-trexmes-iot-iobox",
@@ -321,43 +472,6 @@
         "production"
       ],
       "url": "https://flows.nodered.org/node/@flecoufle/node-red-linky"
-    },
-    {
-      "id": "node-red-contrib-knx-ultimate",
-      "version": "2.1.17",
-      "description": "Control your KNX intallation via Node-Red! Single Node KNX IN/OUT with optional ETS group address importer. Easy to use and highly configurable. With integrated Philips HUE devices handling.",
-      "updated_at": "2023-07-01T06:49:37.619Z",
-      "types": [
-        "knxUltimate",
-        "knxUltimateSceneController",
-        "knxUltimateWatchDog",
-        "knxUltimateLogger",
-        "knxUltimate-config",
-        "knxUltimateGlobalContext",
-        "knxUltimateAlerter",
-        "knxUltimateLoadControl",
-        "knxUltimateViewer",
-        "hue-config",
-        "knxUltimateHueLight",
-        "knxUltimateHueButton",
-        "knxUltimateHueMotion",
-        "knxUltimateHueTapDial",
-        "knxUltimateHueLightSensor",
-        "knxUltimateHueTemperatureSensor",
-        "knxUltimateHueScene"
-      ],
-      "keywords": [
-        "node-red",
-        "KNX",
-        "ETS",
-        "eib",
-        "eibd",
-        "knxd",
-        "konnex",
-        "IOT",
-        "hue"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-knx-ultimate"
     },
     {
       "id": "node-red-contrib-xiaodu-xiaoai",
@@ -813,38 +927,6 @@
         "rgbw"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-daylight-rgbw"
-    },
-    {
-      "id": "@icke1983/node-red-contrib-ui-popup",
-      "version": "0.9.0",
-      "description": "Node-RED UI Pupup collection",
-      "updated_at": "2023-06-25T13:54:06.173Z",
-      "types": [
-        "ui_popup-timepicker",
-        "ui_popup-colorpicker",
-        "ui_popup-colortemp",
-        "ui_popup-simpleslider",
-        "ui_popup-dropdown"
-      ],
-      "keywords": [
-        "node",
-        "red",
-        "node-red",
-        "nodered",
-        "ui",
-        "dashboard",
-        "popup",
-        "dialog",
-        "slider",
-        "color",
-        "colorpicker",
-        "time",
-        "timepicker",
-        "colortemp",
-        "colortemperature",
-        "temperature"
-      ],
-      "url": "https://flows.nodered.org/node/@icke1983/node-red-contrib-ui-popup"
     },
     {
       "id": "node-red-contrib-onstar2",
@@ -2170,21 +2252,6 @@
         "local context storage"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-persistent-global-context"
-    },
-    {
-      "id": "@gastmanager/node-red-client",
-      "version": "1.0.4",
-      "description": "Connects to the gastmanager cloud and provides nodes to listen and publish events",
-      "updated_at": "2023-06-08T21:06:16.545Z",
-      "types": [
-        "gastmanager-config",
-        "gastmanager-listener",
-        "gastmanager-publisher"
-      ],
-      "keywords": [
-        "node-red"
-      ],
-      "url": "https://flows.nodered.org/node/@gastmanager/node-red-client"
     },
     {
       "id": "@icke1983/node-red-contrib-ui-multistyle-button",
@@ -6369,21 +6436,6 @@
       "url": "https://flows.nodered.org/node/@programie/node-red-aircon-rac-wf"
     },
     {
-      "id": "node-red-contrib-home-assistant-websocket",
-      "version": "0.49.1",
-      "description": "Node-RED integration with Home Assistant through websocket and REST API",
-      "updated_at": "2023-04-07T05:51:34.479Z",
-      "types": [],
-      "keywords": [
-        "node-red",
-        "home-assistant",
-        "home assistant",
-        "home automation",
-        "websocket"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-home-assistant-websocket"
-    },
-    {
       "id": "node-red-contrib-ipfs-client",
       "version": "0.0.1-s",
       "description": "Node-RED node for interacting with the IPFS network.",
@@ -9681,27 +9733,6 @@
         "text"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-huawei-router"
-    },
-    {
-      "id": "node-red-contrib-car-bmw",
-      "version": "0.4.7",
-      "description": "Node-RED nodes to connect to BMW ConnectedDrive and read infos of your car.",
-      "updated_at": "2023-02-12T17:54:55.230Z",
-      "types": [
-        "car-bmw",
-        "car-bmw-list",
-        "car-bmw-get",
-        "car-bmw-action"
-      ],
-      "keywords": [
-        "node-red",
-        "BMW",
-        "ConnectedDrive",
-        "Remote Services",
-        "www.bmw-connecteddrive.de/",
-        "www.bmw-connecteddrive.com/"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-car-bmw"
     },
     {
       "id": "@rockprofile/node-red-contrib-mastodon",
