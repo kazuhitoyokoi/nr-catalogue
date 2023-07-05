@@ -1,29 +1,12 @@
 {
   "name": "Catalogue for win32",
-  "updated_at": "2023-07-04T17:33:31.043Z",
+  "updated_at": "2023-07-05T19:52:51.002Z",
   "modules": [
     {
-      "id": "victron-vrm-api",
-      "version": "0.0.1",
-      "description": "Interface with the Victron Energy VRM API",
-      "updated_at": "2023-07-04T13:56:23.503Z",
-      "types": [
-        "config-vrm-api",
-        "vrm-api"
-      ],
-      "keywords": [
-        "node-red",
-        "victron",
-        "vrm",
-        "api"
-      ],
-      "url": "https://flows.nodered.org/node/victron-vrm-api"
-    },
-    {
       "id": "node-red-contrib-knx-ultimate",
-      "version": "2.1.19",
+      "version": "2.1.22",
       "description": "Control your KNX intallation via Node-Red! Single Node KNX IN/OUT with optional ETS group address importer. Easy to use and highly configurable. With integrated Philips HUE devices handling.",
-      "updated_at": "2023-07-04T13:39:49.901Z",
+      "updated_at": "2023-07-05T15:29:06.314Z",
       "types": [
         "knxUltimate",
         "knxUltimateSceneController",
@@ -57,6 +40,152 @@
       "url": "https://flows.nodered.org/node/node-red-contrib-knx-ultimate"
     },
     {
+      "id": "@envidatec/node-red-contrib-logger",
+      "version": "1.0.2",
+      "description": "Logs Data into SQL-Lite",
+      "updated_at": "2023-07-05T15:18:58.362Z",
+      "types": [
+        "logger",
+        "SQL-DB",
+        "requestData"
+      ],
+      "keywords": [
+        "node-red"
+      ],
+      "url": "https://flows.nodered.org/node/@envidatec/node-red-contrib-logger"
+    },
+    {
+      "id": "node-red-trexmes-iot-iobox",
+      "version": "1.0.12",
+      "description": "Trex Iot-IoBox serial connector",
+      "updated_at": "2023-07-05T14:36:00.096Z",
+      "types": [
+        "iobox",
+        "iobox-port"
+      ],
+      "keywords": [
+        "node-red",
+        "serialport",
+        "TrexMes"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-trexmes-iot-iobox"
+    },
+    {
+      "id": "@spectraautomation/node-red-urbancontroller-dio",
+      "version": "1.0.5",
+      "description": "Node-RED module for controlling the digital input / output port of the Urban Controller by Spectra GmbH & Co. KG",
+      "updated_at": "2023-07-05T13:12:53.390Z",
+      "types": [
+        "uc-dio-in",
+        "uc-dio-out"
+      ],
+      "keywords": [
+        "node-red",
+        "gpio",
+        "urbancontroller",
+        "urban controller",
+        "spectra",
+        "powerbox"
+      ],
+      "url": "https://flows.nodered.org/node/@spectraautomation/node-red-urbancontroller-dio"
+    },
+    {
+      "id": "@spectraautomation/node-red-urbancontroller-watchdog",
+      "version": "1.0.2",
+      "description": "Node-RED module for controlling the hardware watchdog of the Urban Controller by Spectra GmbH & Co. KG",
+      "updated_at": "2023-07-05T11:45:14.595Z",
+      "types": [
+        "uc-watchdog"
+      ],
+      "keywords": [
+        "node-red",
+        "wdt",
+        "watchdog",
+        "urbancontroller",
+        "urban controller",
+        "spectra",
+        "powerbox"
+      ],
+      "url": "https://flows.nodered.org/node/@spectraautomation/node-red-urbancontroller-watchdog"
+    },
+    {
+      "id": "@envidatec/node-red-contrib-jevis",
+      "version": "1.0.3",
+      "description": "Read / Write to JEVis Server",
+      "updated_at": "2023-07-05T11:06:22.968Z",
+      "types": [
+        "JEVis-Read",
+        "JEVis-Write",
+        "JEVis-Server"
+      ],
+      "keywords": [
+        "node-red"
+      ],
+      "url": "https://flows.nodered.org/node/@envidatec/node-red-contrib-jevis"
+    },
+    {
+      "id": "@envidatec/interval",
+      "version": "1.0.0",
+      "description": "executes crontab expression and sent last incoming message",
+      "updated_at": "2023-07-05T10:37:51.694Z",
+      "types": [],
+      "keywords": [
+        "node-red"
+      ],
+      "url": "https://flows.nodered.org/node/@envidatec/interval"
+    },
+    {
+      "id": "node-red-contrib-monster",
+      "version": "1.0.1",
+      "description": "A collection of Node-RED nodes for Monster.  Includes nodes for S3 client.",
+      "updated_at": "2023-07-05T07:51:15.818Z",
+      "types": [
+        "Monster S3",
+        "Monster Swift",
+        "swift proxy",
+        "monster upload",
+        "monster config"
+      ],
+      "keywords": [
+        "node-red",
+        "s3"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-monster"
+    },
+    {
+      "id": "@technithusiast/node-red-contrib-ai-intent",
+      "version": "1.0.9",
+      "description": "A collection of nodes to elevate a user's automation interactions",
+      "updated_at": "2023-07-04T22:52:35.761Z",
+      "types": [
+        "Context Handler",
+        "Register Intent",
+        "Call Intent",
+        "Gather Context"
+      ],
+      "keywords": [
+        "node-red"
+      ],
+      "url": "https://flows.nodered.org/node/@technithusiast/node-red-contrib-ai-intent"
+    },
+    {
+      "id": "victron-vrm-api",
+      "version": "0.0.1",
+      "description": "Interface with the Victron Energy VRM API",
+      "updated_at": "2023-07-04T13:56:23.503Z",
+      "types": [
+        "config-vrm-api",
+        "vrm-api"
+      ],
+      "keywords": [
+        "node-red",
+        "victron",
+        "vrm",
+        "api"
+      ],
+      "url": "https://flows.nodered.org/node/victron-vrm-api"
+    },
+    {
       "id": "node-red-contrib-string-to-hex",
       "version": "1.0.3",
       "description": "node-red-contrib-string-to-hex",
@@ -68,22 +197,6 @@
         "node-red"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-string-to-hex"
-    },
-    {
-      "id": "@technithusiast/node-red-contrib-ai-intent",
-      "version": "1.0.8",
-      "description": "A collection of nodes to elevate a user's automation interactions",
-      "updated_at": "2023-07-04T07:45:58.209Z",
-      "types": [
-        "Context Handler",
-        "Register Intent",
-        "Call Intent",
-        "Gather Context"
-      ],
-      "keywords": [
-        "node-red"
-      ],
-      "url": "https://flows.nodered.org/node/@technithusiast/node-red-contrib-ai-intent"
     },
     {
       "id": "@gastmanager/node-red-client",
@@ -188,25 +301,6 @@
         "temperature"
       ],
       "url": "https://flows.nodered.org/node/@icke1983/node-red-contrib-ui-popup"
-    },
-    {
-      "id": "@spectraautomation/node-red-urbancontroller-dio",
-      "version": "1.0.1",
-      "description": "Node-RED module for controlling the digital input / output port of the Urban Controller by Spectra GmbH & Co. KG",
-      "updated_at": "2023-07-03T14:21:05.853Z",
-      "types": [
-        "uc-dio-in",
-        "uc-dio-out"
-      ],
-      "keywords": [
-        "node-red",
-        "gpio",
-        "urbancontroller",
-        "urban controller",
-        "spectra",
-        "powerbox"
-      ],
-      "url": "https://flows.nodered.org/node/@spectraautomation/node-red-urbancontroller-dio"
     },
     {
       "id": "node-red-contrib-opcua",
@@ -439,22 +533,6 @@
         "IoBox"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-trexmes-oee-calculator"
-    },
-    {
-      "id": "node-red-trexmes-iot-iobox",
-      "version": "1.0.9",
-      "description": "Trex Iot-IoBox serial connector",
-      "updated_at": "2023-07-01T16:18:33.261Z",
-      "types": [
-        "iobox",
-        "iobox-port"
-      ],
-      "keywords": [
-        "node-red",
-        "serialport",
-        "TrexMes"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-trexmes-iot-iobox"
     },
     {
       "id": "@flecoufle/node-red-linky",
@@ -5767,24 +5845,6 @@
       "url": "https://flows.nodered.org/node/@iomtbvk/red-contrib-kafkalis"
     },
     {
-      "id": "node-red-contrib-monster",
-      "version": "0.0.31",
-      "description": "A collection of Node-RED nodes for Monster.  Includes nodes for S3 client.",
-      "updated_at": "2023-04-19T10:02:15.186Z",
-      "types": [
-        "Monster S3",
-        "Monster Swift",
-        "swift proxy",
-        "monster upload",
-        "monster config"
-      ],
-      "keywords": [
-        "node-red",
-        "s3"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-monster"
-    },
-    {
       "id": "node-red-contrib-renault-ze",
       "version": "1.4.2",
       "description": "Node Red nodes for Renault ZE services",
@@ -7706,22 +7766,6 @@
         "weixin"
       ],
       "url": "https://flows.nodered.org/node/@nnc/node-red-contrib-wxwork"
-    },
-    {
-      "id": "node-red-powerbox-dio",
-      "version": "1.0.1",
-      "updated_at": "2023-03-21T14:45:59.519Z",
-      "types": [
-        "pb-dio-in",
-        "pb-dio-out",
-        "watchdog",
-        "watchdog-get"
-      ],
-      "keywords": [
-        "node-red",
-        "gpio"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-powerbox-dio"
     },
     {
       "id": "pekfinger-red",
