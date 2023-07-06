@@ -1,0 +1,33 @@
+
+----
+Sending build context to Docker daemon  40.81MB
+Step 1/2 : FROM nodered/node-red
+ ---> c18405a73444
+Step 2/2 : RUN npm install npm install node-red-contrib-shelly@10.13.5
+ ---> Running in 795026edb2c5
+[91mnpm[0m[91m [0m[91mWARN[0m[91m deprecated[0m[91m string-similarity@4.0.4: Package no longer supported. Contact Support at https://www.npmjs.com/support for more info.
+[0m[91mnpm[0m[91m [0m[91mWARN[0m[91m deprecated[0m[91m crypto@1.0.1: This package is no longer supported. It's now a built-in Node module. If you've depended on crypto, you should switch to the one that's built-in.
+[0m
+added 48 packages, and audited 590 packages in 5s
+
+66 packages are looking for funding
+  run `npm fund` for details
+
+11 vulnerabilities (2 low, 9 moderate)
+
+To address issues that do not require attention, run:
+  npm audit fix
+
+To address all issues (including breaking changes), run:
+  npm audit fix --force
+
+Run `npm audit` for details.
+[91mnpm notice[0m[91m 
+npm notice New major version of npm available! 8.19.4 -> 9.8.0
+npm notice Changelog: <https://github.com/npm/cli/releases/tag/v9.8.0>
+npm [0m[91mnotice Run `npm install -g npm@9.8.0` to update!
+npm notice 
+[0mRemoving intermediate container 795026edb2c5
+ ---> 4e01c665c976
+Successfully built 4e01c665c976
+Successfully tagged tmp:latest
