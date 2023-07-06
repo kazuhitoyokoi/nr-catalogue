@@ -1,92 +1,107 @@
 {
   "name": "Catalogue for verified nodes",
-  "updated_at": "2023-07-05T21:15:10.979Z",
+  "updated_at": "2023-07-06T19:30:39.133Z",
   "modules": [
     {
-      "id": "@spectraautomation/node-red-urbancontroller-dio",
-      "version": "1.0.5",
-      "description": "Node-RED module for controlling the digital input / output port of the Urban Controller by Spectra GmbH & Co. KG",
-      "updated_at": "2023-07-05T13:12:53.390Z",
+      "id": "@studiobox/node-red-contrib-ui-widget-bulb-basic",
+      "version": "0.3.2",
+      "description": "Easy to use Node-RED UI Widget on Node-RED Dashboard for easy to display virtual bulb (for turn on/off).",
+      "updated_at": "2023-07-06T10:05:15.193Z",
       "types": [
-        "uc-dio-in",
-        "uc-dio-out"
+        "ui_widget_bulb_basic"
       ],
       "keywords": [
         "node-red",
-        "gpio",
-        "urbancontroller",
-        "urban controller",
-        "spectra",
-        "powerbox"
+        "node-red-dashboard",
+        "ui-widget",
+        "dashboard-ui",
+        "bulb",
+        "display-bulb",
+        "ui-widget-bulb",
+        "turn-on-off-bulb",
+        "widget"
       ],
-      "url": "https://flows.nodered.org/node/@spectraautomation/node-red-urbancontroller-dio"
+      "url": "https://flows.nodered.org/node/@studiobox/node-red-contrib-ui-widget-bulb-basic"
     },
     {
-      "id": "node-red-trexmes-iot-iobox",
-      "version": "1.0.11",
-      "description": "Trex Iot-IoBox serial connector",
-      "updated_at": "2023-07-05T12:34:06.006Z",
+      "id": "@studiobox/node-red-contrib-ui-widget-humidity-tree",
+      "version": "0.6.3",
+      "description": "Easy to use Node-RED UI Widget on Node-RED Dashboard for display humidity data in virtual tree. ",
+      "updated_at": "2023-07-06T10:01:22.249Z",
       "types": [
-        "iobox",
-        "iobox-port"
+        "ui_widget_humidity_tree"
       ],
       "keywords": [
         "node-red",
-        "serialport",
-        "TrexMes"
+        "node-red-dashboard",
+        "ui-widget",
+        "dashboard-ui",
+        "widget-humidity",
+        "humidity",
+        "ui-widget-humidity",
+        "humidity-tree",
+        "widget"
       ],
-      "url": "https://flows.nodered.org/node/node-red-trexmes-iot-iobox"
+      "url": "https://flows.nodered.org/node/@studiobox/node-red-contrib-ui-widget-humidity-tree"
     },
     {
-      "id": "@spectraautomation/node-red-urbancontroller-watchdog",
-      "version": "1.0.2",
-      "description": "Node-RED module for controlling the hardware watchdog of the Urban Controller by Spectra GmbH & Co. KG",
-      "updated_at": "2023-07-05T11:45:14.595Z",
+      "id": "@studiobox/node-red-contrib-ui-widget-thermometer",
+      "version": "0.7.6",
+      "description": "Easy to use Node-RED UI Widget on Node-RED Dashboard for display termperature data",
+      "updated_at": "2023-07-06T09:53:10.709Z",
       "types": [
-        "uc-watchdog"
+        "ui_widget_thermometer"
       ],
       "keywords": [
         "node-red",
-        "wdt",
-        "watchdog",
-        "urbancontroller",
-        "urban controller",
-        "spectra",
-        "powerbox"
+        "node-red-dashboard",
+        "ui-widget",
+        "dashboard-ui",
+        "widget-thermometer",
+        "ui-widget-thermometer",
+        "thermometer",
+        "widget",
+        "temperature"
       ],
-      "url": "https://flows.nodered.org/node/@spectraautomation/node-red-urbancontroller-watchdog"
+      "url": "https://flows.nodered.org/node/@studiobox/node-red-contrib-ui-widget-thermometer"
     },
     {
-      "id": "@envidatec/node-red-contrib-jevis",
-      "version": "1.0.3",
-      "description": "Read / Write to JEVis Server",
-      "updated_at": "2023-07-05T11:06:22.968Z",
+      "id": "node-red-contrib-node-line-api",
+      "version": "0.8.10",
+      "description": "LINE API nodes for Node-RED, include LINE Notify and LINE Messaging API, for easy to interact with LINE application.",
+      "updated_at": "2023-07-06T09:49:05.301Z",
       "types": [
-        "JEVis-Read",
-        "JEVis-Write",
-        "JEVis-Server"
+        "node-line-notify",
+        "node-line-bot-push-message",
+        "node-line-bot-multicast-message",
+        "node-line-bot-broadcast-message",
+        "node-line-bot-reply-message",
+        "node-line-bot-webhook",
+        "line-messaging-api-config",
+        "node-line-bot-replyToken-provider",
+        "node-line-bot-quick-reply-item",
+        "node-line-bot-quick-reply-collector"
       ],
       "keywords": [
-        "node-red"
+        "node-red",
+        "line",
+        "line-api",
+        "line-notify",
+        "line-messageing-api",
+        "line-push-message",
+        "line-multicast-message",
+        "line-broadcast-message",
+        "line-reply-message",
+        "line-webhook",
+        "line-quick-reply"
       ],
-      "url": "https://flows.nodered.org/node/@envidatec/node-red-contrib-jevis"
-    },
-    {
-      "id": "@envidatec/interval",
-      "version": "1.0.0",
-      "description": "executes crontab expression and sent last incoming message",
-      "updated_at": "2023-07-05T10:37:51.694Z",
-      "types": [],
-      "keywords": [
-        "node-red"
-      ],
-      "url": "https://flows.nodered.org/node/@envidatec/interval"
+      "url": "https://flows.nodered.org/node/node-red-contrib-node-line-api"
     },
     {
       "id": "@envidatec/node-red-contrib-logger",
-      "version": "1.0.1",
+      "version": "1.0.3",
       "description": "Logs Data into SQL-Lite",
-      "updated_at": "2023-07-05T10:19:02.697Z",
+      "updated_at": "2023-07-06T09:45:39.853Z",
       "types": [
         "logger",
         "SQL-DB",
@@ -98,10 +113,25 @@
       "url": "https://flows.nodered.org/node/@envidatec/node-red-contrib-logger"
     },
     {
+      "id": "@envidatec/node-red-contrib-jevis",
+      "version": "1.0.4",
+      "description": "Read / Write to JEVis Server",
+      "updated_at": "2023-07-06T09:40:39.005Z",
+      "types": [
+        "JEVis-Read",
+        "JEVis-Write",
+        "JEVis-Server"
+      ],
+      "keywords": [
+        "node-red"
+      ],
+      "url": "https://flows.nodered.org/node/@envidatec/node-red-contrib-jevis"
+    },
+    {
       "id": "node-red-contrib-knx-ultimate",
-      "version": "2.1.20",
+      "version": "2.1.26",
       "description": "Control your KNX intallation via Node-Red! Single Node KNX IN/OUT with optional ETS group address importer. Easy to use and highly configurable. With integrated Philips HUE devices handling.",
-      "updated_at": "2023-07-05T07:55:01.322Z",
+      "updated_at": "2023-07-06T09:30:21.933Z",
       "types": [
         "knxUltimate",
         "knxUltimateSceneController",
@@ -135,6 +165,171 @@
       "url": "https://flows.nodered.org/node/node-red-contrib-knx-ultimate"
     },
     {
+      "id": "datasourcenode",
+      "version": "1.0.5",
+      "description": "datasourcenode节点描述",
+      "updated_at": "2023-07-06T09:08:13.655Z",
+      "types": [
+        "ds-node"
+      ],
+      "keywords": [
+        "node-red",
+        "IoT"
+      ],
+      "url": "https://flows.nodered.org/node/datasourcenode"
+    },
+    {
+      "id": "@equans/smart-buildings-heating-boost",
+      "version": "2.1.0",
+      "description": "Manual heating override strategy for Smart Buildings",
+      "updated_at": "2023-07-06T08:32:41.538Z",
+      "types": [
+        "Heating Boost"
+      ],
+      "keywords": [
+        "node-red"
+      ],
+      "url": "https://flows.nodered.org/node/@equans/smart-buildings-heating-boost"
+    },
+    {
+      "id": "@technithusiast/node-red-contrib-ai-intent",
+      "version": "1.0.11",
+      "description": "A collection of nodes to elevate a user's automation interactions",
+      "updated_at": "2023-07-06T08:28:43.434Z",
+      "types": [
+        "Context Handler",
+        "Register Intent",
+        "Call Intent",
+        "Gather Context"
+      ],
+      "keywords": [
+        "node-red"
+      ],
+      "url": "https://flows.nodered.org/node/@technithusiast/node-red-contrib-ai-intent"
+    },
+    {
+      "id": "node-red-contrib-json-msg",
+      "version": "1.0.0",
+      "description": "Node-RED node to transform incoming messages into specific JSON format",
+      "updated_at": "2023-07-06T06:31:02.256Z",
+      "types": [
+        "json-msg"
+      ],
+      "keywords": [
+        "node-red",
+        "json"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-json-msg"
+    },
+    {
+      "id": "node-red-contrib-home-assistant-websocket",
+      "version": "0.51.0",
+      "description": "Node-RED integration with Home Assistant through websocket and REST API",
+      "updated_at": "2023-07-05T22:47:03.330Z",
+      "types": [],
+      "keywords": [
+        "node-red",
+        "home-assistant",
+        "home assistant",
+        "home automation",
+        "websocket"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-home-assistant-websocket"
+    },
+    {
+      "id": "node-red-contrib-trexmes-stoppagecatcher",
+      "version": "1.0.7",
+      "description": "TrexMes Stoppage Catcher",
+      "updated_at": "2023-07-05T19:13:06.114Z",
+      "types": [],
+      "keywords": [
+        "node-red",
+        "TrexMes"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-trexmes-stoppagecatcher"
+    },
+    {
+      "id": "node-red-trexmes-iot-iobox",
+      "version": "1.0.13",
+      "description": "Trex Iot-IoBox serial connector",
+      "updated_at": "2023-07-05T19:10:26.487Z",
+      "types": [
+        "iobox",
+        "iobox-port"
+      ],
+      "keywords": [
+        "node-red",
+        "serialport",
+        "TrexMes"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-trexmes-iot-iobox"
+    },
+    {
+      "id": "node-red-contrib-trexmes-oee-calculator",
+      "version": "1.1.3",
+      "description": "TrexMes OEE Calculator from IoBox Data",
+      "updated_at": "2023-07-05T19:07:35.354Z",
+      "types": [
+        "oee-calculator"
+      ],
+      "keywords": [
+        "node-red",
+        "TrexMes",
+        "oee",
+        "IoBox"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-trexmes-oee-calculator"
+    },
+    {
+      "id": "@spectraautomation/node-red-urbancontroller-dio",
+      "version": "1.0.5",
+      "description": "Node-RED module for controlling the digital input / output port of the Urban Controller by Spectra GmbH & Co. KG",
+      "updated_at": "2023-07-05T13:12:53.390Z",
+      "types": [
+        "uc-dio-in",
+        "uc-dio-out"
+      ],
+      "keywords": [
+        "node-red",
+        "gpio",
+        "urbancontroller",
+        "urban controller",
+        "spectra",
+        "powerbox"
+      ],
+      "url": "https://flows.nodered.org/node/@spectraautomation/node-red-urbancontroller-dio"
+    },
+    {
+      "id": "@spectraautomation/node-red-urbancontroller-watchdog",
+      "version": "1.0.2",
+      "description": "Node-RED module for controlling the hardware watchdog of the Urban Controller by Spectra GmbH & Co. KG",
+      "updated_at": "2023-07-05T11:45:14.595Z",
+      "types": [
+        "uc-watchdog"
+      ],
+      "keywords": [
+        "node-red",
+        "wdt",
+        "watchdog",
+        "urbancontroller",
+        "urban controller",
+        "spectra",
+        "powerbox"
+      ],
+      "url": "https://flows.nodered.org/node/@spectraautomation/node-red-urbancontroller-watchdog"
+    },
+    {
+      "id": "@envidatec/interval",
+      "version": "1.0.0",
+      "description": "executes crontab expression and sent last incoming message",
+      "updated_at": "2023-07-05T10:37:51.694Z",
+      "types": [],
+      "keywords": [
+        "node-red"
+      ],
+      "url": "https://flows.nodered.org/node/@envidatec/interval"
+    },
+    {
       "id": "node-red-contrib-monster",
       "version": "1.0.1",
       "description": "A collection of Node-RED nodes for Monster.  Includes nodes for S3 client.",
@@ -151,22 +346,6 @@
         "s3"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-monster"
-    },
-    {
-      "id": "@technithusiast/node-red-contrib-ai-intent",
-      "version": "1.0.9",
-      "description": "A collection of nodes to elevate a user's automation interactions",
-      "updated_at": "2023-07-04T22:52:35.761Z",
-      "types": [
-        "Context Handler",
-        "Register Intent",
-        "Call Intent",
-        "Gather Context"
-      ],
-      "keywords": [
-        "node-red"
-      ],
-      "url": "https://flows.nodered.org/node/@technithusiast/node-red-contrib-ai-intent"
     },
     {
       "id": "victron-vrm-api",
@@ -253,21 +432,6 @@
         "node-red"
       ],
       "url": "https://flows.nodered.org/node/@gregoriusrippenstein/node-red-contrib-introspection"
-    },
-    {
-      "id": "node-red-contrib-home-assistant-websocket",
-      "version": "0.50.0",
-      "description": "Node-RED integration with Home Assistant through websocket and REST API",
-      "updated_at": "2023-07-03T15:11:42.610Z",
-      "types": [],
-      "keywords": [
-        "node-red",
-        "home-assistant",
-        "home assistant",
-        "home automation",
-        "websocket"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-home-assistant-websocket"
     },
     {
       "id": "@icke1983/node-red-contrib-ui-popup",
@@ -517,22 +681,6 @@
         "home-assistant"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-ha-mqtt"
-    },
-    {
-      "id": "node-red-contrib-trexmes-oee-calculator",
-      "version": "1.1.2",
-      "description": "TrexMes OEE Calculator from IoBox Data",
-      "updated_at": "2023-07-03T08:57:48.793Z",
-      "types": [
-        "oee-calculator"
-      ],
-      "keywords": [
-        "node-red",
-        "TrexMes",
-        "oee",
-        "IoBox"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-trexmes-oee-calculator"
     },
     {
       "id": "@flecoufle/node-red-linky",
@@ -1071,101 +1219,6 @@
         "pushover"
       ],
       "url": "https://flows.nodered.org/node/node-red-node-pushover"
-    },
-    {
-      "id": "node-red-contrib-node-line-api",
-      "version": "0.8.9",
-      "description": "LINE API nodes for Node-RED, include LINE Notify and LINE Messaging API, for easy to interact with LINE application.",
-      "updated_at": "2023-06-23T21:07:52.909Z",
-      "types": [
-        "node-line-notify",
-        "node-line-bot-push-message",
-        "node-line-bot-multicast-message",
-        "node-line-bot-broadcast-message",
-        "node-line-bot-reply-message",
-        "node-line-bot-webhook",
-        "line-messaging-api-config",
-        "node-line-bot-replyToken-provider",
-        "node-line-bot-quick-reply-item",
-        "node-line-bot-quick-reply-collector"
-      ],
-      "keywords": [
-        "node-red",
-        "line",
-        "line-api",
-        "line-notify",
-        "line-messageing-api",
-        "line-push-message",
-        "line-multicast-message",
-        "line-broadcast-message",
-        "line-reply-message",
-        "line-webhook",
-        "line-quick-reply"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-node-line-api"
-    },
-    {
-      "id": "@studiobox/node-red-contrib-ui-widget-humidity-tree",
-      "version": "0.6.2",
-      "description": "Easy to use Node-RED UI Widget on Node-RED Dashboard for display humidity data in virtual tree. ",
-      "updated_at": "2023-06-23T20:57:16.588Z",
-      "types": [
-        "ui_widget_humidity_tree"
-      ],
-      "keywords": [
-        "node-red",
-        "node-red-dashboard",
-        "ui-widget",
-        "dashboard-ui",
-        "widget-humidity",
-        "humidity",
-        "ui-widget-humidity",
-        "humidity-tree",
-        "widget"
-      ],
-      "url": "https://flows.nodered.org/node/@studiobox/node-red-contrib-ui-widget-humidity-tree"
-    },
-    {
-      "id": "@studiobox/node-red-contrib-ui-widget-bulb-basic",
-      "version": "0.3.1",
-      "description": "Easy to use Node-RED UI Widget on Node-RED Dashboard for easy to display virtual bulb (for turn on/off).",
-      "updated_at": "2023-06-23T20:51:28.887Z",
-      "types": [
-        "ui_widget_bulb_basic"
-      ],
-      "keywords": [
-        "node-red",
-        "node-red-dashboard",
-        "ui-widget",
-        "dashboard-ui",
-        "bulb",
-        "display-bulb",
-        "ui-widget-bulb",
-        "turn-on-off-bulb",
-        "widget"
-      ],
-      "url": "https://flows.nodered.org/node/@studiobox/node-red-contrib-ui-widget-bulb-basic"
-    },
-    {
-      "id": "@studiobox/node-red-contrib-ui-widget-thermometer",
-      "version": "0.7.5",
-      "description": "Easy to use Node-RED UI Widget on Node-RED Dashboard for display termperature data",
-      "updated_at": "2023-06-23T20:47:50.743Z",
-      "types": [
-        "ui_widget_thermometer"
-      ],
-      "keywords": [
-        "node-red",
-        "node-red-dashboard",
-        "ui-widget",
-        "dashboard-ui",
-        "widget-thermometer",
-        "ui-widget-thermometer",
-        "thermometer",
-        "widget",
-        "temperature"
-      ],
-      "url": "https://flows.nodered.org/node/@studiobox/node-red-contrib-ui-widget-thermometer"
     },
     {
       "id": "@yousolution/node-red-contrib-you-tunnel-ssh",
@@ -2133,6 +2186,25 @@
         "access control"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-uhppoted"
+    },
+    {
+      "id": "node-red-contrib-shelly",
+      "version": "10.13.5",
+      "description": "Shelly nodes.",
+      "updated_at": "2023-06-13T20:06:04.389Z",
+      "types": [
+        "shelly-gen1-server",
+        "shelly-gen1",
+        "shelly-gen2-server",
+        "shelly-gen2",
+        "shelly-cloud-server",
+        "shelly-cloud"
+      ],
+      "keywords": [
+        "node-red",
+        "shelly"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-shelly"
     },
     {
       "id": "node-red-contrib-image-generation-ubos",
@@ -5723,18 +5795,6 @@
       "url": "https://flows.nodered.org/node/zyl_node-red-ui-internaltest"
     },
     {
-      "id": "node-red-contrib-trexmes-stoppagecatcher",
-      "version": "1.0.6",
-      "description": "TrexMes Stoppage Catcher",
-      "updated_at": "2023-04-22T05:36:11.587Z",
-      "types": [],
-      "keywords": [
-        "node-red",
-        "TrexMes"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-trexmes-stoppagecatcher"
-    },
-    {
       "id": "node-red-contrib-chatgpt",
       "version": "0.1.0",
       "description": "Node-RED node for chatgpt",
@@ -5853,19 +5913,6 @@
         "serial"
       ],
       "url": "https://flows.nodered.org/node/@wiesemann-theis/node-red-contrib-wut"
-    },
-    {
-      "id": "@equans/smart-buildings-heating-boost",
-      "version": "1.0.3",
-      "description": "Manual heating override strategy for Smart Buildings",
-      "updated_at": "2023-04-18T11:31:17.190Z",
-      "types": [
-        "Heating Boost"
-      ],
-      "keywords": [
-        "node-red"
-      ],
-      "url": "https://flows.nodered.org/node/@equans/smart-buildings-heating-boost"
     },
     {
       "id": "node-red-contrib-getnet-api",
@@ -6159,25 +6206,6 @@
         "allen and heath"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-allenandheath"
-    },
-    {
-      "id": "node-red-contrib-shelly",
-      "version": "10.13.3",
-      "description": "Shelly nodes.",
-      "updated_at": "2023-04-11T11:58:11.577Z",
-      "types": [
-        "shelly-gen1-server",
-        "shelly-gen1",
-        "shelly-gen2-server",
-        "shelly-gen2",
-        "shelly-cloud-server",
-        "shelly-cloud"
-      ],
-      "keywords": [
-        "node-red",
-        "shelly"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-shelly"
     },
     {
       "id": "node-red-contrib-huemagic-fork",
