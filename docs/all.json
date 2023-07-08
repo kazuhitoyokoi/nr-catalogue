@@ -1,7 +1,255 @@
 {
   "name": "Catalogue for verified nodes",
-  "updated_at": "2023-07-06T19:30:39.133Z",
+  "updated_at": "2023-07-08T19:44:31.848Z",
   "modules": [
+    {
+      "id": "@decthings/node-red",
+      "version": "0.1.0",
+      "description": "Official Node RED support for Decthings",
+      "updated_at": "2023-07-08T13:22:57.798Z",
+      "types": [
+        "decthings-single-input",
+        "decthings-evaluate",
+        "decthings-single-output",
+        "decthings-add-to-dataset"
+      ],
+      "keywords": [
+        "node-red"
+      ],
+      "url": "https://flows.nodered.org/node/@decthings/node-red"
+    },
+    {
+      "id": "smithtek-nodered-lora-aes",
+      "version": "1.5.0",
+      "description": "AES security for the PassPort LoRa Module",
+      "updated_at": "2023-07-08T00:32:47.586Z",
+      "types": [
+        "smithtek-nodered-lora-aes"
+      ],
+      "keywords": [
+        "node-red",
+        "smithtek",
+        "nodered",
+        "lora",
+        "aes"
+      ],
+      "url": "https://flows.nodered.org/node/smithtek-nodered-lora-aes"
+    },
+    {
+      "id": "smithtek-nodered-gps",
+      "version": "2.0.0",
+      "description": "A Node-RED node to parse NMEA sentences from a GPS system",
+      "updated_at": "2023-07-07T23:57:50.276Z",
+      "types": [
+        "smithtek-nodered-gps"
+      ],
+      "keywords": [
+        "node-red",
+        "gps",
+        "nmea"
+      ],
+      "url": "https://flows.nodered.org/node/smithtek-nodered-gps"
+    },
+    {
+      "id": "node-red-contrib-tibber-api",
+      "version": "5.2.2",
+      "description": "Node Red module for integrating with Tibber api",
+      "updated_at": "2023-07-07T20:35:34.023Z",
+      "types": [
+        "tibber-api-endpoint",
+        "tibber-feed",
+        "tibber-query",
+        "tibber-data",
+        "tibber-notify"
+      ],
+      "keywords": [
+        "node-red",
+        "tibber",
+        "iot",
+        "power",
+        "home-automation",
+        "smarthome",
+        "energy"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-tibber-api"
+    },
+    {
+      "id": "node-red-contrib-knx-ultimate",
+      "version": "2.1.29",
+      "description": "Control your KNX intallation via Node-Red! Single Node KNX IN/OUT with optional ETS group address importer. Easy to use and highly configurable. With integrated Philips HUE devices handling.",
+      "updated_at": "2023-07-07T13:15:58.953Z",
+      "types": [
+        "knxUltimate",
+        "knxUltimateSceneController",
+        "knxUltimateWatchDog",
+        "knxUltimateLogger",
+        "knxUltimate-config",
+        "knxUltimateGlobalContext",
+        "knxUltimateAlerter",
+        "knxUltimateLoadControl",
+        "knxUltimateViewer",
+        "hue-config",
+        "knxUltimateHueLight",
+        "knxUltimateHueButton",
+        "knxUltimateHueMotion",
+        "knxUltimateHueTapDial",
+        "knxUltimateHueLightSensor",
+        "knxUltimateHueTemperatureSensor",
+        "knxUltimateHueScene"
+      ],
+      "keywords": [
+        "node-red",
+        "KNX",
+        "ETS",
+        "eib",
+        "eibd",
+        "knxd",
+        "konnex",
+        "IOT",
+        "hue"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-knx-ultimate"
+    },
+    {
+      "id": "@ifp-software/node-red-contrib-oee-ai-connector",
+      "version": "2.6.0",
+      "description": "Easily connect your production machines to oee.ai – The Industry 4.0 solution for OEE optimization.",
+      "updated_at": "2023-07-07T12:31:26.433Z",
+      "types": [],
+      "keywords": [
+        "industrial",
+        "industry 4.0",
+        "iot",
+        "node-red",
+        "oee",
+        "oee.ai",
+        "sick",
+        "smart-factory",
+        "tdc"
+      ],
+      "url": "https://flows.nodered.org/node/@ifp-software/node-red-contrib-oee-ai-connector"
+    },
+    {
+      "id": "node-red-contrib-auroral",
+      "version": "2.1.10",
+      "description": "Nodes for contributing to AURORAL network",
+      "updated_at": "2023-07-07T12:25:52.366Z",
+      "types": [
+        "registrations",
+        "auroralAgent",
+        "auroralResponse",
+        "auroralDevice"
+      ],
+      "keywords": [
+        "node-red",
+        "auroral"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-auroral"
+    },
+    {
+      "id": "node-red-node-tmeter-emulator",
+      "version": "1.1.2",
+      "description": "ung dung tao cong to ao Tien Ho",
+      "updated_at": "2023-07-07T09:47:32.954Z",
+      "types": [],
+      "keywords": [
+        "node-red",
+        "random",
+        "emulator"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-node-tmeter-emulator"
+    },
+    {
+      "id": "@mschaeffler/node-red-logic",
+      "version": "1.0.0",
+      "description": "nodes for simple operations.",
+      "updated_at": "2023-07-07T09:44:32.220Z",
+      "types": [
+        "counter",
+        "tobool",
+        "not",
+        "or",
+        "and",
+        "tonumber",
+        "negate",
+        "reduce",
+        "__errors__",
+        "fallingEdge",
+        "raisingEdge",
+        "hysteresisEdge",
+        "statistics"
+      ],
+      "keywords": [
+        "node-red"
+      ],
+      "url": "https://flows.nodered.org/node/@mschaeffler/node-red-logic"
+    },
+    {
+      "id": "@technithusiast/node-red-contrib-ai-intent",
+      "version": "1.0.12",
+      "description": "A collection of nodes to elevate a user's automation interactions",
+      "updated_at": "2023-07-07T01:29:32.313Z",
+      "types": [
+        "Context Handler",
+        "Register Intent",
+        "Call Intent",
+        "Gather Context"
+      ],
+      "keywords": [
+        "node-red"
+      ],
+      "url": "https://flows.nodered.org/node/@technithusiast/node-red-contrib-ai-intent"
+    },
+    {
+      "id": "node-red-contrib-home-assistant-websocket",
+      "version": "0.51.1",
+      "description": "Node-RED integration with Home Assistant through websocket and REST API",
+      "updated_at": "2023-07-06T23:04:18.672Z",
+      "types": [],
+      "keywords": [
+        "node-red",
+        "home-assistant",
+        "home assistant",
+        "home automation",
+        "websocket"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-home-assistant-websocket"
+    },
+    {
+      "id": "node-red-contrib-castv2",
+      "version": "4.2.4",
+      "description": "A Node-Red node that provides basic Google Cast functionality based on the node-castv2-client package.",
+      "updated_at": "2023-07-06T21:51:40.570Z",
+      "types": [
+        "castv2-connection",
+        "castv2-sender"
+      ],
+      "keywords": [
+        "node-red",
+        "google",
+        "chromecast",
+        "cast",
+        "castv2",
+        "google home",
+        "youtube"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-castv2"
+    },
+    {
+      "id": "node-red-contrib-trexmes-signal-counter",
+      "version": "1.0.2",
+      "description": "A Node-RED node that when message passes from 0 to 1, the counter increments by 1.",
+      "updated_at": "2023-07-06T15:28:00.648Z",
+      "types": [
+        "signal-counter"
+      ],
+      "keywords": [
+        "node-red",
+        "signal-counter",
+        "oee-calculator"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-trexmes-signal-counter"
+    },
     {
       "id": "@studiobox/node-red-contrib-ui-widget-bulb-basic",
       "version": "0.3.2",
@@ -128,43 +376,6 @@
       "url": "https://flows.nodered.org/node/@envidatec/node-red-contrib-jevis"
     },
     {
-      "id": "node-red-contrib-knx-ultimate",
-      "version": "2.1.26",
-      "description": "Control your KNX intallation via Node-Red! Single Node KNX IN/OUT with optional ETS group address importer. Easy to use and highly configurable. With integrated Philips HUE devices handling.",
-      "updated_at": "2023-07-06T09:30:21.933Z",
-      "types": [
-        "knxUltimate",
-        "knxUltimateSceneController",
-        "knxUltimateWatchDog",
-        "knxUltimateLogger",
-        "knxUltimate-config",
-        "knxUltimateGlobalContext",
-        "knxUltimateAlerter",
-        "knxUltimateLoadControl",
-        "knxUltimateViewer",
-        "hue-config",
-        "knxUltimateHueLight",
-        "knxUltimateHueButton",
-        "knxUltimateHueMotion",
-        "knxUltimateHueTapDial",
-        "knxUltimateHueLightSensor",
-        "knxUltimateHueTemperatureSensor",
-        "knxUltimateHueScene"
-      ],
-      "keywords": [
-        "node-red",
-        "KNX",
-        "ETS",
-        "eib",
-        "eibd",
-        "knxd",
-        "konnex",
-        "IOT",
-        "hue"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-knx-ultimate"
-    },
-    {
       "id": "datasourcenode",
       "version": "1.0.5",
       "description": "datasourcenode节点描述",
@@ -192,22 +403,6 @@
       "url": "https://flows.nodered.org/node/@equans/smart-buildings-heating-boost"
     },
     {
-      "id": "@technithusiast/node-red-contrib-ai-intent",
-      "version": "1.0.11",
-      "description": "A collection of nodes to elevate a user's automation interactions",
-      "updated_at": "2023-07-06T08:28:43.434Z",
-      "types": [
-        "Context Handler",
-        "Register Intent",
-        "Call Intent",
-        "Gather Context"
-      ],
-      "keywords": [
-        "node-red"
-      ],
-      "url": "https://flows.nodered.org/node/@technithusiast/node-red-contrib-ai-intent"
-    },
-    {
       "id": "node-red-contrib-json-msg",
       "version": "1.0.0",
       "description": "Node-RED node to transform incoming messages into specific JSON format",
@@ -220,21 +415,6 @@
         "json"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-json-msg"
-    },
-    {
-      "id": "node-red-contrib-home-assistant-websocket",
-      "version": "0.51.0",
-      "description": "Node-RED integration with Home Assistant through websocket and REST API",
-      "updated_at": "2023-07-05T22:47:03.330Z",
-      "types": [],
-      "keywords": [
-        "node-red",
-        "home-assistant",
-        "home assistant",
-        "home automation",
-        "websocket"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-home-assistant-websocket"
     },
     {
       "id": "node-red-contrib-trexmes-stoppagecatcher",
@@ -884,25 +1064,6 @@
         "PLC"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-mcprotocol-ind"
-    },
-    {
-      "id": "@ifp-software/node-red-contrib-oee-ai-connector",
-      "version": "2.5.0",
-      "description": "Easily connect your production machines to oee.ai – The Industry 4.0 solution for OEE optimization.",
-      "updated_at": "2023-06-29T14:58:21.697Z",
-      "types": [],
-      "keywords": [
-        "industrial",
-        "industry 4.0",
-        "iot",
-        "node-red",
-        "oee",
-        "oee.ai",
-        "sick",
-        "smart-factory",
-        "tdc"
-      ],
-      "url": "https://flows.nodered.org/node/@ifp-software/node-red-contrib-oee-ai-connector"
     },
     {
       "id": "smithtek-node-red-eagleio",
@@ -3336,31 +3497,6 @@
         "mp3"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-play-soundfile"
-    },
-    {
-      "id": "@mschaeffler/node-red-logic",
-      "version": "0.9.0",
-      "description": "nodes for simple operations.",
-      "updated_at": "2023-05-29T08:52:50.425Z",
-      "types": [
-        "counter",
-        "tobool",
-        "not",
-        "or",
-        "and",
-        "tonumber",
-        "negate",
-        "reduce",
-        "__errors__",
-        "fallingEdge",
-        "raisingEdge",
-        "hysteresisEdge",
-        "statistics"
-      ],
-      "keywords": [
-        "node-red"
-      ],
-      "url": "https://flows.nodered.org/node/@mschaeffler/node-red-logic"
     },
     {
       "id": "@terranlabs/appflow-ai-socket-channel",
@@ -7969,6 +8105,22 @@
       "url": "https://flows.nodered.org/node/node-red-contrib-homebridge-automation"
     },
     {
+      "id": "@mschaeffler/node-red-dualled",
+      "version": "1.2.0",
+      "description": "control dual (CCT) LEDs.",
+      "updated_at": "2023-03-19T15:02:05.193Z",
+      "types": [
+        "confDualLed",
+        "ctrlDualLed",
+        "feedbackDualLed"
+      ],
+      "keywords": [
+        "node-red",
+        "LED"
+      ],
+      "url": "https://flows.nodered.org/node/@mschaeffler/node-red-dualled"
+    },
+    {
       "id": "node-red-contrib-hal2",
       "version": "1.15.2",
       "description": "A set of nodes to help with basic home automation logic",
@@ -8075,23 +8227,6 @@
         "modbus"
       ],
       "url": "https://flows.nodered.org/node/@spectraautomation/node-red-urban-io"
-    },
-    {
-      "id": "node-red-contrib-auroral",
-      "version": "2.1.7",
-      "description": "Nodes for contributing to AURORAL network",
-      "updated_at": "2023-03-17T09:40:44.818Z",
-      "types": [
-        "registrations",
-        "auroralAgent",
-        "auroralResponse",
-        "auroralDevice"
-      ],
-      "keywords": [
-        "node-red",
-        "auroral"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-auroral"
     },
     {
       "id": "node-red-node-snmp",
@@ -8582,29 +8717,6 @@
         "timing"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-timed-counter"
-    },
-    {
-      "id": "node-red-contrib-tibber-api",
-      "version": "5.2.1",
-      "description": "Node Red module for integrating with Tibber api",
-      "updated_at": "2023-03-03T06:33:59.948Z",
-      "types": [
-        "tibber-api-endpoint",
-        "tibber-feed",
-        "tibber-query",
-        "tibber-data",
-        "tibber-notify"
-      ],
-      "keywords": [
-        "node-red",
-        "tibber",
-        "iot",
-        "power",
-        "home-automation",
-        "smarthome",
-        "energy"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-tibber-api"
     },
     {
       "id": "node-red-contrib-sprinkler",
@@ -11207,22 +11319,6 @@
       "url": "https://flows.nodered.org/node/node-red-contrib-nordpool-api-plus"
     },
     {
-      "id": "@mschaeffler/node-red-dualled",
-      "version": "1.1.2",
-      "description": "control dual (CCT) LEDs.",
-      "updated_at": "2023-01-14T14:06:09.085Z",
-      "types": [
-        "confDualLed",
-        "ctrlDualLed",
-        "feedbackDualLed"
-      ],
-      "keywords": [
-        "node-red",
-        "LED"
-      ],
-      "url": "https://flows.nodered.org/node/@mschaeffler/node-red-dualled"
-    },
-    {
       "id": "node-red-contrib-js-storage",
       "version": "1.0.2",
       "description": "Node-RED storage plugin to store flows as js files for easy readability, code reviews and scans",
@@ -13355,26 +13451,6 @@
         "array"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-array-permutations"
-    },
-    {
-      "id": "node-red-contrib-castv2",
-      "version": "4.2.2",
-      "description": "A Node-Red node that provides basic Google Cast functionality based on the node-castv2-client package.",
-      "updated_at": "2022-11-25T22:37:32.300Z",
-      "types": [
-        "castv2-connection",
-        "castv2-sender"
-      ],
-      "keywords": [
-        "node-red",
-        "google",
-        "chromecast",
-        "cast",
-        "castv2",
-        "google home",
-        "youtube"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-castv2"
     },
     {
       "id": "@korve/node-red-convert-unit",
