@@ -1,7 +1,78 @@
 {
   "name": "Catalogue for win32",
-  "updated_at": "2023-07-07T18:03:40.357Z",
+  "updated_at": "2023-07-08T18:21:37.207Z",
   "modules": [
+    {
+      "id": "@decthings/node-red",
+      "version": "0.1.0",
+      "description": "Official Node RED support for Decthings",
+      "updated_at": "2023-07-08T13:22:57.798Z",
+      "types": [
+        "decthings-single-input",
+        "decthings-evaluate",
+        "decthings-single-output",
+        "decthings-add-to-dataset"
+      ],
+      "keywords": [
+        "node-red"
+      ],
+      "url": "https://flows.nodered.org/node/@decthings/node-red"
+    },
+    {
+      "id": "smithtek-nodered-lora-aes",
+      "version": "1.5.0",
+      "description": "AES security for the PassPort LoRa Module",
+      "updated_at": "2023-07-08T00:32:47.586Z",
+      "types": [
+        "smithtek-nodered-lora-aes"
+      ],
+      "keywords": [
+        "node-red",
+        "smithtek",
+        "nodered",
+        "lora",
+        "aes"
+      ],
+      "url": "https://flows.nodered.org/node/smithtek-nodered-lora-aes"
+    },
+    {
+      "id": "smithtek-nodered-gps",
+      "version": "2.0.0",
+      "description": "A Node-RED node to parse NMEA sentences from a GPS system",
+      "updated_at": "2023-07-07T23:57:50.276Z",
+      "types": [
+        "smithtek-nodered-gps"
+      ],
+      "keywords": [
+        "node-red",
+        "gps",
+        "nmea"
+      ],
+      "url": "https://flows.nodered.org/node/smithtek-nodered-gps"
+    },
+    {
+      "id": "node-red-contrib-tibber-api",
+      "version": "5.2.2",
+      "description": "Node Red module for integrating with Tibber api",
+      "updated_at": "2023-07-07T20:35:34.023Z",
+      "types": [
+        "tibber-api-endpoint",
+        "tibber-feed",
+        "tibber-query",
+        "tibber-data",
+        "tibber-notify"
+      ],
+      "keywords": [
+        "node-red",
+        "tibber",
+        "iot",
+        "power",
+        "home-automation",
+        "smarthome",
+        "energy"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-tibber-api"
+    },
     {
       "id": "node-red-contrib-knx-ultimate",
       "version": "2.1.29",
@@ -76,21 +147,6 @@
       "url": "https://flows.nodered.org/node/node-red-contrib-auroral"
     },
     {
-      "id": "smithtek-nodered-gps",
-      "version": "1.6.0",
-      "description": "A Node-RED node to parse NMEA sentences from a GPS system",
-      "updated_at": "2023-07-07T09:54:15.285Z",
-      "types": [
-        "smithtek-nodered-gps"
-      ],
-      "keywords": [
-        "node-red",
-        "gps",
-        "nmea"
-      ],
-      "url": "https://flows.nodered.org/node/smithtek-nodered-gps"
-    },
-    {
       "id": "node-red-node-tmeter-emulator",
       "version": "1.1.2",
       "description": "ung dung tao cong to ao Tien Ho",
@@ -127,23 +183,6 @@
         "node-red"
       ],
       "url": "https://flows.nodered.org/node/@mschaeffler/node-red-logic"
-    },
-    {
-      "id": "smithtek-nodered-lora-aes",
-      "version": "1.1.0",
-      "description": "Node-RED node for converting input to Hello World",
-      "updated_at": "2023-07-07T08:10:03.431Z",
-      "types": [
-        "smithtek-nodered-lora-aes"
-      ],
-      "keywords": [
-        "node-red",
-        "smithtek",
-        "nodered",
-        "lora",
-        "aes"
-      ],
-      "url": "https://flows.nodered.org/node/smithtek-nodered-lora-aes"
     },
     {
       "id": "@technithusiast/node-red-contrib-ai-intent",
@@ -8740,29 +8779,6 @@
         "timing"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-timed-counter"
-    },
-    {
-      "id": "node-red-contrib-tibber-api",
-      "version": "5.2.1",
-      "description": "Node Red module for integrating with Tibber api",
-      "updated_at": "2023-03-03T06:33:59.948Z",
-      "types": [
-        "tibber-api-endpoint",
-        "tibber-feed",
-        "tibber-query",
-        "tibber-data",
-        "tibber-notify"
-      ],
-      "keywords": [
-        "node-red",
-        "tibber",
-        "iot",
-        "power",
-        "home-automation",
-        "smarthome",
-        "energy"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-tibber-api"
     },
     {
       "id": "node-red-contrib-sprinkler",
