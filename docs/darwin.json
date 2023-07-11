@@ -1,7 +1,240 @@
 {
   "name": "Catalogue for darwin",
-  "updated_at": "2023-07-10T20:21:27.577Z",
+  "updated_at": "2023-07-11T22:18:20.769Z",
   "modules": [
+    {
+      "id": "node-red-node-pushover",
+      "version": "0.2.1",
+      "description": "A Node-RED node to send alerts via Pushover",
+      "updated_at": "2023-07-11T19:27:59.304Z",
+      "types": [
+        "pushover"
+      ],
+      "keywords": [
+        "node-red",
+        "pushover"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-node-pushover"
+    },
+    {
+      "id": "node-red-node-intel-gpio",
+      "version": "0.4.0",
+      "description": "A Node-RED node to talk to an Intel Galileo, Edison or Siemens IOT2050 board using mraa",
+      "updated_at": "2023-07-11T19:18:18.674Z",
+      "types": [
+        "mraa-gpio-ain",
+        "mraa-gpio-din",
+        "mraa-gpio-dout",
+        "mraa-gpio-pwm",
+        "mraa-gpio-led"
+      ],
+      "keywords": [
+        "node-red",
+        "intel",
+        "galileo",
+        "edison",
+        "siemens",
+        "iot2050"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-node-intel-gpio"
+    },
+    {
+      "id": "node-red-node-stomp",
+      "version": "1.0.4",
+      "description": "A Node-RED node to publish and subscribe to/from a Stomp server",
+      "updated_at": "2023-07-11T19:00:41.160Z",
+      "types": [
+        "stomp in",
+        "stomp out",
+        "stomp-server",
+        "stomp ack"
+      ],
+      "keywords": [
+        "node-red",
+        "stomp",
+        "stomp-client"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-node-stomp"
+    },
+    {
+      "id": "victron-dynamic-ess",
+      "version": "0.0.43",
+      "description": "Fetch the ideal ESS setpoint from VRM",
+      "updated_at": "2023-07-11T17:58:09.121Z",
+      "types": [
+        "victron-dynamic-ess",
+        "victron-idle-battery"
+      ],
+      "keywords": [
+        "node-red",
+        "victron",
+        "dynamic ess",
+        "scheduled charging",
+        "ess"
+      ],
+      "url": "https://flows.nodered.org/node/victron-dynamic-ess"
+    },
+    {
+      "id": "@jambonz/node-red-contrib-jambonz",
+      "version": "2.4.1",
+      "description": "Node-RED nodes for jambonz platform",
+      "updated_at": "2023-07-11T15:06:41.175Z",
+      "types": [
+        "webhook in",
+        "webhook out",
+        "audio in",
+        "jambonz_auth",
+        "aws_auth",
+        "enqueue",
+        "lex",
+        "say",
+        "dtmf",
+        "cfg",
+        "conference",
+        "gather",
+        "listen",
+        "sip:decline",
+        "sip:request",
+        "sip:refer",
+        "hangup",
+        "message",
+        "tag",
+        "pause",
+        "dequeue",
+        "play",
+        "dial",
+        "redirect",
+        "dialogflow",
+        "leave",
+        "rasa",
+        "user auth",
+        "create-call",
+        "create-sms",
+        "lcc",
+        "get_alerts",
+        "get_calls",
+        "get_recent_calls"
+      ],
+      "keywords": [
+        "node-red"
+      ],
+      "url": "https://flows.nodered.org/node/@jambonz/node-red-contrib-jambonz"
+    },
+    {
+      "id": "node-red-contrib-ecojoko",
+      "version": "1.0.2",
+      "description": "Node-RED node to interface with Ecojoko",
+      "updated_at": "2023-07-11T12:29:24.060Z",
+      "types": [
+        "ecojoko-credential",
+        "ecojoko-connect"
+      ],
+      "keywords": [
+        "node-red",
+        "ecojoko"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-ecojoko"
+    },
+    {
+      "id": "node-red-contrib-industrial-machine-forecast",
+      "version": "1.0.0",
+      "description": "Node-RED node for time-series forecasting and anomaly detection using Exponential Smoothing",
+      "updated_at": "2023-07-11T08:52:28.652Z",
+      "types": [
+        "forecast"
+      ],
+      "keywords": [
+        "node-red",
+        "forecast",
+        "exponential smoothing",
+        "anomaly detection"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-industrial-machine-forecast"
+    },
+    {
+      "id": "node-red-contrib-knx-ultimate",
+      "version": "2.1.31",
+      "description": "Control your KNX intallation via Node-Red! Single Node KNX IN/OUT with optional ETS group address importer. Easy to use and highly configurable. With integrated Philips HUE devices handling.",
+      "updated_at": "2023-07-11T07:40:20.231Z",
+      "types": [
+        "knxUltimate",
+        "knxUltimateSceneController",
+        "knxUltimateWatchDog",
+        "knxUltimateLogger",
+        "knxUltimate-config",
+        "knxUltimateGlobalContext",
+        "knxUltimateAlerter",
+        "knxUltimateLoadControl",
+        "knxUltimateViewer",
+        "hue-config",
+        "knxUltimateHueLight",
+        "knxUltimateHueButton",
+        "knxUltimateHueMotion",
+        "knxUltimateHueTapDial",
+        "knxUltimateHueLightSensor",
+        "knxUltimateHueTemperatureSensor",
+        "knxUltimateHueScene"
+      ],
+      "keywords": [
+        "node-red",
+        "KNX",
+        "ETS",
+        "eib",
+        "eibd",
+        "knxd",
+        "konnex",
+        "IOT",
+        "hue"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-knx-ultimate"
+    },
+    {
+      "id": "@technithusiast/node-red-contrib-ai-intent",
+      "version": "1.0.15",
+      "description": "A collection of nodes to elevate a user's automation interactions",
+      "updated_at": "2023-07-11T07:27:11.833Z",
+      "types": [
+        "Context Handler",
+        "Register Intent",
+        "Call Intent",
+        "Gather Context"
+      ],
+      "keywords": [
+        "node-red"
+      ],
+      "url": "https://flows.nodered.org/node/@technithusiast/node-red-contrib-ai-intent"
+    },
+    {
+      "id": "edgedatasource",
+      "version": "2.0.2",
+      "description": "edgedatasource节点描述",
+      "updated_at": "2023-07-11T02:41:43.840Z",
+      "types": [
+        "datasource"
+      ],
+      "keywords": [
+        "node-red",
+        "IoT"
+      ],
+      "url": "https://flows.nodered.org/node/edgedatasource"
+    },
+    {
+      "id": "smithtek-nodered-lora-aes",
+      "version": "1.8.0",
+      "description": "AES security for the PassPort LoRa Module",
+      "updated_at": "2023-07-11T02:13:47.304Z",
+      "types": [
+        "smithtek-nodered-lora-aes"
+      ],
+      "keywords": [
+        "node-red",
+        "smithtek",
+        "nodered",
+        "lora",
+        "aes"
+      ],
+      "url": "https://flows.nodered.org/node/smithtek-nodered-lora-aes"
+    },
     {
       "id": "node-red-contrib-trashschedule",
       "version": "1.3.2",
@@ -21,52 +254,6 @@
         "calendar"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-trashschedule"
-    },
-    {
-      "id": "node-red-contrib-ecojoko",
-      "version": "1.0.1",
-      "description": "Node-RED node to interface with Ecojoko",
-      "updated_at": "2023-07-10T15:58:44.330Z",
-      "types": [
-        "ecojoko-credential",
-        "ecojoko-connect"
-      ],
-      "keywords": [
-        "node-red",
-        "ecojoko"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-ecojoko"
-    },
-    {
-      "id": "datasourcenode",
-      "version": "1.0.8",
-      "description": "datasourcenode节点描述",
-      "updated_at": "2023-07-10T15:00:04.440Z",
-      "types": [
-        "datasourcenode"
-      ],
-      "keywords": [
-        "node-red",
-        "IoT"
-      ],
-      "url": "https://flows.nodered.org/node/datasourcenode"
-    },
-    {
-      "id": "smithtek-nodered-lora-aes",
-      "version": "1.7.0",
-      "description": "AES security for the PassPort LoRa Module",
-      "updated_at": "2023-07-10T07:37:30.711Z",
-      "types": [
-        "smithtek-nodered-lora-aes"
-      ],
-      "keywords": [
-        "node-red",
-        "smithtek",
-        "nodered",
-        "lora",
-        "aes"
-      ],
-      "url": "https://flows.nodered.org/node/smithtek-nodered-lora-aes"
     },
     {
       "id": "@almostinteractive/node-red-contrib-basic-ical-calendar",
@@ -219,43 +406,6 @@
       "url": "https://flows.nodered.org/node/node-red-contrib-tibber-api"
     },
     {
-      "id": "node-red-contrib-knx-ultimate",
-      "version": "2.1.29",
-      "description": "Control your KNX intallation via Node-Red! Single Node KNX IN/OUT with optional ETS group address importer. Easy to use and highly configurable. With integrated Philips HUE devices handling.",
-      "updated_at": "2023-07-07T13:15:58.953Z",
-      "types": [
-        "knxUltimate",
-        "knxUltimateSceneController",
-        "knxUltimateWatchDog",
-        "knxUltimateLogger",
-        "knxUltimate-config",
-        "knxUltimateGlobalContext",
-        "knxUltimateAlerter",
-        "knxUltimateLoadControl",
-        "knxUltimateViewer",
-        "hue-config",
-        "knxUltimateHueLight",
-        "knxUltimateHueButton",
-        "knxUltimateHueMotion",
-        "knxUltimateHueTapDial",
-        "knxUltimateHueLightSensor",
-        "knxUltimateHueTemperatureSensor",
-        "knxUltimateHueScene"
-      ],
-      "keywords": [
-        "node-red",
-        "KNX",
-        "ETS",
-        "eib",
-        "eibd",
-        "knxd",
-        "konnex",
-        "IOT",
-        "hue"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-knx-ultimate"
-    },
-    {
       "id": "@ifp-software/node-red-contrib-oee-ai-connector",
       "version": "2.6.0",
       "description": "Easily connect your production machines to oee.ai – The Industry 4.0 solution for OEE optimization.",
@@ -328,22 +478,6 @@
         "node-red"
       ],
       "url": "https://flows.nodered.org/node/@mschaeffler/node-red-logic"
-    },
-    {
-      "id": "@technithusiast/node-red-contrib-ai-intent",
-      "version": "1.0.12",
-      "description": "A collection of nodes to elevate a user's automation interactions",
-      "updated_at": "2023-07-07T01:29:32.313Z",
-      "types": [
-        "Context Handler",
-        "Register Intent",
-        "Call Intent",
-        "Gather Context"
-      ],
-      "keywords": [
-        "node-red"
-      ],
-      "url": "https://flows.nodered.org/node/@technithusiast/node-red-contrib-ai-intent"
     },
     {
       "id": "node-red-contrib-home-assistant-websocket",
@@ -1126,24 +1260,6 @@
       "url": "https://flows.nodered.org/node/node-red-contrib-snap4city-developer"
     },
     {
-      "id": "victron-dynamic-ess",
-      "version": "0.0.42",
-      "description": "Fetch the ideal ESS setpoint from VRM",
-      "updated_at": "2023-06-30T14:12:11.438Z",
-      "types": [
-        "victron-dynamic-ess",
-        "victron-idle-battery"
-      ],
-      "keywords": [
-        "node-red",
-        "victron",
-        "dynamic ess",
-        "scheduled charging",
-        "ess"
-      ],
-      "url": "https://flows.nodered.org/node/victron-dynamic-ess"
-    },
-    {
       "id": "node-red-contrib-smb2",
       "version": "1.3.0",
       "description": "Node-RED for the SMB protocol",
@@ -1453,20 +1569,6 @@
       "url": "https://flows.nodered.org/node/@sunnydsouza/node-red-contrib-openai-gpt"
     },
     {
-      "id": "node-red-node-pushover",
-      "version": "0.2.0",
-      "description": "A Node-RED node to send alerts via Pushover",
-      "updated_at": "2023-06-24T08:57:48.053Z",
-      "types": [
-        "pushover"
-      ],
-      "keywords": [
-        "node-red",
-        "pushover"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-node-pushover"
-    },
-    {
       "id": "@yousolution/node-red-contrib-you-tunnel-ssh",
       "version": "0.0.3",
       "description": "Module to create ssh tunnel for NODE-RED",
@@ -1646,24 +1748,6 @@
         "node-red"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-remote"
-    },
-    {
-      "id": "node-red-node-stomp",
-      "version": "1.0.3",
-      "description": "A Node-RED node to publish and subscribe to/from a Stomp server",
-      "updated_at": "2023-06-21T19:20:44.918Z",
-      "types": [
-        "stomp in",
-        "stomp out",
-        "stomp-server",
-        "stomp ack"
-      ],
-      "keywords": [
-        "node-red",
-        "stomp",
-        "stomp-client"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-node-stomp"
     },
     {
       "id": "node-red-contrib-feiertage-switzerland",
@@ -3063,52 +3147,6 @@
         "elasticsearch"
       ],
       "url": "https://flows.nodered.org/node/nrc-tjtoolkit-nodes"
-    },
-    {
-      "id": "@jambonz/node-red-contrib-jambonz",
-      "version": "2.3.11",
-      "description": "Node-RED nodes for jambonz platform",
-      "updated_at": "2023-06-02T13:04:36.843Z",
-      "types": [
-        "webhook in",
-        "webhook out",
-        "audio in",
-        "jambonz_auth",
-        "aws_auth",
-        "enqueue",
-        "lex",
-        "say",
-        "dtmf",
-        "cfg",
-        "conference",
-        "gather",
-        "listen",
-        "sip:decline",
-        "sip:request",
-        "sip:refer",
-        "hangup",
-        "message",
-        "tag",
-        "pause",
-        "dequeue",
-        "play",
-        "dial",
-        "redirect",
-        "dialogflow",
-        "leave",
-        "rasa",
-        "user auth",
-        "create-call",
-        "create-sms",
-        "lcc",
-        "get_alerts",
-        "get_calls",
-        "get_recent_calls"
-      ],
-      "keywords": [
-        "node-red"
-      ],
-      "url": "https://flows.nodered.org/node/@jambonz/node-red-contrib-jambonz"
     },
     {
       "id": "node-red-contrib-ui-upload",
@@ -15163,28 +15201,6 @@
         "binance"
       ],
       "url": "https://flows.nodered.org/node/kristofae1983node-red-contrib-binance"
-    },
-    {
-      "id": "node-red-node-intel-gpio",
-      "version": "0.3.0",
-      "description": "A Node-RED node to talk to an Intel Galileo, Edison or Siemens IOT2050 board using mraa",
-      "updated_at": "2022-10-26T14:19:05.154Z",
-      "types": [
-        "mraa-gpio-ain",
-        "mraa-gpio-din",
-        "mraa-gpio-dout",
-        "mraa-gpio-pwm",
-        "mraa-gpio-led"
-      ],
-      "keywords": [
-        "node-red",
-        "intel",
-        "galileo",
-        "edison",
-        "siemens",
-        "iot2050"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-node-intel-gpio"
     },
     {
       "id": "node-red-contrib-apma",
