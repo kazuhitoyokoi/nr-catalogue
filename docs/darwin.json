@@ -1,7 +1,142 @@
 {
   "name": "Catalogue for darwin",
-  "updated_at": "2023-07-11T22:18:20.769Z",
+  "updated_at": "2023-07-12T18:58:28.314Z",
   "modules": [
+    {
+      "id": "@softwaredevelopment/node-red-contrib-bodhi-connector",
+      "version": "0.0.8",
+      "description": "Bodhi connector configuration for connecting nodes to bodhi",
+      "updated_at": "2023-07-12T15:55:25.226Z",
+      "types": [
+        "bodhi-connector"
+      ],
+      "keywords": [
+        "node-red",
+        "connector",
+        "bodhi"
+      ],
+      "url": "https://flows.nodered.org/node/@softwaredevelopment/node-red-contrib-bodhi-connector"
+    },
+    {
+      "id": "@ifp-software/node-red-contrib-oee-ai-connector",
+      "version": "2.6.2",
+      "description": "Easily connect your production machines to oee.ai – The Industry 4.0 solution for OEE optimization.",
+      "updated_at": "2023-07-12T14:44:06.580Z",
+      "types": [],
+      "keywords": [
+        "industrial",
+        "industry 4.0",
+        "iot",
+        "node-red",
+        "oee",
+        "oee.ai",
+        "sick",
+        "smart-factory",
+        "tdc"
+      ],
+      "url": "https://flows.nodered.org/node/@ifp-software/node-red-contrib-oee-ai-connector"
+    },
+    {
+      "id": "@softwaredevelopment/node-red-contrib-bodhi-device-dimmer-light",
+      "version": "0.0.2",
+      "description": "Bodhi connector configuration for connecting nodes to bodhi",
+      "updated_at": "2023-07-12T13:15:52.080Z",
+      "types": [
+        "dimmer-light"
+      ],
+      "keywords": [
+        "node-red",
+        "device",
+        "bodhi",
+        "light"
+      ],
+      "url": "https://flows.nodered.org/node/@softwaredevelopment/node-red-contrib-bodhi-device-dimmer-light"
+    },
+    {
+      "id": "node-red-contrib-persistent-global-context",
+      "version": "1.0.5",
+      "description": "Writes all data stored in Global Context to local filesystem to keep program data between Node-Red instance deployments and restarts.",
+      "updated_at": "2023-07-12T10:33:33.588Z",
+      "types": [
+        "persistent-global-context"
+      ],
+      "keywords": [
+        "node-red",
+        "persistent global context",
+        "context",
+        "local context storage"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-persistent-global-context"
+    },
+    {
+      "id": "node-red-contrib-data-logger",
+      "version": "0.1.6",
+      "description": "Logs data stored in JSON object into a CSV file with columns extracted from JSON object.",
+      "updated_at": "2023-07-12T10:27:38.640Z",
+      "types": [
+        "data-logger"
+      ],
+      "keywords": [
+        "node-red",
+        "data logger",
+        "csv logger",
+        "logger"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-data-logger"
+    },
+    {
+      "id": "node-red-contrib-eskomsepush",
+      "version": "0.0.13",
+      "description": "Node-RED interface for the Eskomsepush API",
+      "updated_at": "2023-07-12T07:16:17.545Z",
+      "types": [
+        "eskomsepush"
+      ],
+      "keywords": [
+        "node-red",
+        "eskomsepush",
+        "loadshedding",
+        "south africa",
+        "scheduled charging",
+        "victron",
+        "ess"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-eskomsepush"
+    },
+    {
+      "id": "node-red-contrib-home-assistant-websocket",
+      "version": "0.53.0",
+      "description": "Node-RED integration with Home Assistant through websocket and REST API",
+      "updated_at": "2023-07-12T06:28:11.552Z",
+      "types": [],
+      "keywords": [
+        "node-red",
+        "home-assistant",
+        "home assistant",
+        "home automation",
+        "websocket"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-home-assistant-websocket"
+    },
+    {
+      "id": "node-red-contrib-mcprotocol-ind",
+      "version": "1.7.0",
+      "description": "Mode-red nodes to Read from & Write to MITSUBISHI PLC over Ethernet using MC Protocol",
+      "updated_at": "2023-07-12T02:53:14.756Z",
+      "types": [
+        "Ind MC Read",
+        "Ind MC Write",
+        "Ind MC Protocol Connection"
+      ],
+      "keywords": [
+        "node-red",
+        "MITSUBISHI",
+        "MC PROTOCOL",
+        "MELSEC",
+        "PLC"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-mcprotocol-ind"
+    },
     {
       "id": "node-red-node-pushover",
       "version": "0.2.1",
@@ -406,25 +541,6 @@
       "url": "https://flows.nodered.org/node/node-red-contrib-tibber-api"
     },
     {
-      "id": "@ifp-software/node-red-contrib-oee-ai-connector",
-      "version": "2.6.0",
-      "description": "Easily connect your production machines to oee.ai – The Industry 4.0 solution for OEE optimization.",
-      "updated_at": "2023-07-07T12:31:26.433Z",
-      "types": [],
-      "keywords": [
-        "industrial",
-        "industry 4.0",
-        "iot",
-        "node-red",
-        "oee",
-        "oee.ai",
-        "sick",
-        "smart-factory",
-        "tdc"
-      ],
-      "url": "https://flows.nodered.org/node/@ifp-software/node-red-contrib-oee-ai-connector"
-    },
-    {
       "id": "node-red-contrib-auroral",
       "version": "2.1.10",
       "description": "Nodes for contributing to AURORAL network",
@@ -478,21 +594,6 @@
         "node-red"
       ],
       "url": "https://flows.nodered.org/node/@mschaeffler/node-red-logic"
-    },
-    {
-      "id": "node-red-contrib-home-assistant-websocket",
-      "version": "0.51.1",
-      "description": "Node-RED integration with Home Assistant through websocket and REST API",
-      "updated_at": "2023-07-06T23:04:18.672Z",
-      "types": [],
-      "keywords": [
-        "node-red",
-        "home-assistant",
-        "home assistant",
-        "home automation",
-        "websocket"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-home-assistant-websocket"
     },
     {
       "id": "node-red-contrib-castv2",
@@ -1273,25 +1374,6 @@
         "smb"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-smb2"
-    },
-    {
-      "id": "node-red-contrib-mcprotocol-ind",
-      "version": "1.0.4",
-      "description": "Mode-red nodes to Read from & Write to MITSUBISHI PLC over Ethernet using MC Protocol",
-      "updated_at": "2023-06-30T09:10:43.717Z",
-      "types": [
-        "Ind MC Read",
-        "Ind MC Write",
-        "Ind MC Protocol Connection"
-      ],
-      "keywords": [
-        "node-red",
-        "MITSUBISHI",
-        "MC PROTOCOL",
-        "MELSEC",
-        "PLC"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-mcprotocol-ind"
     },
     {
       "id": "smithtek-node-red-eagleio",
@@ -2219,25 +2301,6 @@
       "url": "https://flows.nodered.org/node/@helix_italia/node-red-helix-odbc"
     },
     {
-      "id": "node-red-contrib-eskomsepush",
-      "version": "0.0.12",
-      "description": "Node-RED interface for the Eskomsepush API",
-      "updated_at": "2023-06-16T09:09:21.434Z",
-      "types": [
-        "eskomsepush"
-      ],
-      "keywords": [
-        "node-red",
-        "eskomsepush",
-        "loadshedding",
-        "south africa",
-        "scheduled charging",
-        "victron",
-        "ess"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-eskomsepush"
-    },
-    {
       "id": "node-red-contrib-simple-spc",
       "version": "2.0.0",
       "description": "A Node-RED node that calculates Statistical Process Control (SPC) parameters for industrial automation",
@@ -2666,20 +2729,6 @@
         "node-red"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-tuya-smart-device"
-    },
-    {
-      "id": "node-red-contrib-persistent-global-context",
-      "version": "1.0.3",
-      "description": "Writes all data stored in Global Context to local filesystem to keep program data between Node-Red instance deployments and restarts.",
-      "updated_at": "2023-06-09T08:42:11.619Z",
-      "types": [],
-      "keywords": [
-        "node-red",
-        "persistent global context",
-        "context",
-        "local context storage"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-persistent-global-context"
     },
     {
       "id": "@icke1983/node-red-contrib-ui-multistyle-button",
@@ -13747,6 +13796,20 @@
       "url": "https://flows.nodered.org/node/node-red-node-aws"
     },
     {
+      "id": "@meshtastic/node-red-contrib-meshtastic",
+      "version": "1.0.2",
+      "description": "Meshtastic protobuf converter for NodeRED",
+      "updated_at": "2022-11-24T09:41:24.658Z",
+      "types": [
+        "decrypt",
+        "decode"
+      ],
+      "keywords": [
+        "node-red"
+      ],
+      "url": "https://flows.nodered.org/node/@meshtastic/node-red-contrib-meshtastic"
+    },
+    {
       "id": "node-red-contrib-jetson-mfrc522",
       "version": "1.0.1",
       "description": "Simple Node-RED node for the Jetson Nano to read NFC tags via a RC522 NFC reader. It can return the UID and optionaly a text from card.",
@@ -13764,17 +13827,6 @@
         "nano"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-jetson-mfrc522"
-    },
-    {
-      "id": "@meshtastic/node-red-contrib-meshtastic",
-      "version": "1.0.0",
-      "description": "Meshtastic protobuf converter for NodeRED",
-      "updated_at": "2022-11-24T08:36:35.824Z",
-      "types": [],
-      "keywords": [
-        "node-red"
-      ],
-      "url": "https://flows.nodered.org/node/@meshtastic/node-red-contrib-meshtastic"
     },
     {
       "id": "node-red-contrib-aws-athena-express",
@@ -19095,20 +19147,6 @@
         "ADS1x15 "
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-oled"
-    },
-    {
-      "id": "node-red-contrib-data-logger",
-      "version": "0.1.5",
-      "description": "Logs data stored in JSON object into a CSV file with columns extracted from JSON object.",
-      "updated_at": "2022-07-05T08:49:58.240Z",
-      "types": [],
-      "keywords": [
-        "node-red",
-        "data logger",
-        "csv logger",
-        "logger"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-data-logger"
     },
     {
       "id": "@semtech-wsp-apps/node-red-contrib-loracloud-utils",
