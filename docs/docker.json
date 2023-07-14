@@ -1,12 +1,75 @@
 {
   "name": "Catalogue for docker",
-  "updated_at": "2023-07-13T16:37:47.507Z",
+  "updated_at": "2023-07-14T16:15:07.084Z",
   "modules": [
     {
+      "id": "@softwaredevelopment/node-red-contrib-bodhi-connector",
+      "version": "0.0.10",
+      "description": "Bodhi connector configuration for connecting nodes to bodhi",
+      "updated_at": "2023-07-14T12:29:37.563Z",
+      "types": [
+        "bodhi-connector"
+      ],
+      "keywords": [
+        "node-red",
+        "connector",
+        "bodhi"
+      ],
+      "url": "https://flows.nodered.org/node/@softwaredevelopment/node-red-contrib-bodhi-connector"
+    },
+    {
+      "id": "@softwaredevelopment/node-red-contrib-bodhi-device-dimmer-light",
+      "version": "0.0.3",
+      "description": "Bodhi connector configuration for connecting nodes to bodhi",
+      "updated_at": "2023-07-14T12:14:06.479Z",
+      "types": [
+        "dimmer-light"
+      ],
+      "keywords": [
+        "node-red",
+        "device",
+        "bodhi",
+        "light"
+      ],
+      "url": "https://flows.nodered.org/node/@softwaredevelopment/node-red-contrib-bodhi-device-dimmer-light"
+    },
+    {
+      "id": "node-red-contrib-observation",
+      "version": "0.0.3",
+      "description": "A Node-RED node that processes data from the node-red-contrib-simple-spc node",
+      "updated_at": "2023-07-14T09:41:31.440Z",
+      "types": [
+        "observation"
+      ],
+      "keywords": [
+        "node-red",
+        "fft",
+        "node-red-contrib-simple-spc",
+        "observation",
+        "out-of-control",
+        "spike detection",
+        "alarm",
+        "ai"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-observation"
+    },
+    {
+      "id": "@stevokk/node-red-contrib-cache",
+      "version": "2.0.8",
+      "description": "Node-RED nodes for memory cache",
+      "updated_at": "2023-07-14T06:31:55.286Z",
+      "types": [],
+      "keywords": [
+        "node-red",
+        "cache"
+      ],
+      "url": "https://flows.nodered.org/node/@stevokk/node-red-contrib-cache"
+    },
+    {
       "id": "node-red-contrib-knx-ultimate",
-      "version": "2.1.32",
+      "version": "2.1.33",
       "description": "Control your KNX intallation via Node-Red! Single Node KNX IN/OUT with optional ETS group address importer. Easy to use and highly configurable. With integrated Philips HUE devices handling.",
-      "updated_at": "2023-07-13T12:34:06.554Z",
+      "updated_at": "2023-07-14T05:44:36.707Z",
       "types": [
         "knxUltimate",
         "knxUltimateSceneController",
@@ -141,21 +204,6 @@
       "url": "https://flows.nodered.org/node/@programie/node-red-aircon-rac-wf"
     },
     {
-      "id": "@softwaredevelopment/node-red-contrib-bodhi-connector",
-      "version": "0.0.8",
-      "description": "Bodhi connector configuration for connecting nodes to bodhi",
-      "updated_at": "2023-07-12T15:55:25.226Z",
-      "types": [
-        "bodhi-connector"
-      ],
-      "keywords": [
-        "node-red",
-        "connector",
-        "bodhi"
-      ],
-      "url": "https://flows.nodered.org/node/@softwaredevelopment/node-red-contrib-bodhi-connector"
-    },
-    {
       "id": "@ifp-software/node-red-contrib-oee-ai-connector",
       "version": "2.6.2",
       "description": "Easily connect your production machines to oee.ai – The Industry 4.0 solution for OEE optimization.",
@@ -173,22 +221,6 @@
         "tdc"
       ],
       "url": "https://flows.nodered.org/node/@ifp-software/node-red-contrib-oee-ai-connector"
-    },
-    {
-      "id": "@softwaredevelopment/node-red-contrib-bodhi-device-dimmer-light",
-      "version": "0.0.2",
-      "description": "Bodhi connector configuration for connecting nodes to bodhi",
-      "updated_at": "2023-07-12T13:15:52.080Z",
-      "types": [
-        "dimmer-light"
-      ],
-      "keywords": [
-        "node-red",
-        "device",
-        "bodhi",
-        "light"
-      ],
-      "url": "https://flows.nodered.org/node/@softwaredevelopment/node-red-contrib-bodhi-device-dimmer-light"
     },
     {
       "id": "node-red-contrib-persistent-global-context",
