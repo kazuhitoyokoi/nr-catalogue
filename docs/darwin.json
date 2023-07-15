@@ -1,7 +1,107 @@
 {
-  "name": "Catalogue for darwin",
-  "updated_at": "2023-07-14T19:14:14.860Z",
+  "name": "Catalogue for macOS",
+  "updated_at": "2023-07-15T08:30:35.987Z",
   "modules": [
+    {
+      "id": "victron-vrm-api",
+      "version": "0.0.2",
+      "description": "Interface with the Victron Energy VRM API",
+      "updated_at": "2023-07-14T21:49:29.338Z",
+      "types": [
+        "config-vrm-api",
+        "vrm-api"
+      ],
+      "keywords": [
+        "node-red",
+        "victron",
+        "vrm",
+        "api"
+      ],
+      "url": "https://flows.nodered.org/node/victron-vrm-api"
+    },
+    {
+      "id": "node-red-contrib-teachable-machine-cloudonly",
+      "version": "1.0.0",
+      "description": "Simplifies integration with Teachable Machine models from Google",
+      "updated_at": "2023-07-14T21:08:43.562Z",
+      "types": [
+        "teachable machine (cloudonly)"
+      ],
+      "keywords": [
+        "node-red",
+        "tensorflow",
+        "tensorflowjs",
+        "classification",
+        "teachable machine",
+        "google"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-teachable-machine-cloudonly"
+    },
+    {
+      "id": "@softwaredevelopment/node-red-contrib-bodhi-device-dimmer-light",
+      "version": "0.0.5",
+      "description": "Bodhi connector configuration for connecting nodes to bodhi",
+      "updated_at": "2023-07-14T19:43:08.914Z",
+      "types": [
+        "dimmer-light"
+      ],
+      "keywords": [
+        "node-red",
+        "device",
+        "bodhi",
+        "light"
+      ],
+      "url": "https://flows.nodered.org/node/@softwaredevelopment/node-red-contrib-bodhi-device-dimmer-light"
+    },
+    {
+      "id": "@softwaredevelopment/node-red-contrib-bodhi-connector",
+      "version": "0.0.12",
+      "description": "Bodhi connector configuration for connecting nodes to bodhi",
+      "updated_at": "2023-07-14T19:42:44.275Z",
+      "types": [
+        "bodhi-connector"
+      ],
+      "keywords": [
+        "node-red",
+        "connector",
+        "bodhi"
+      ],
+      "url": "https://flows.nodered.org/node/@softwaredevelopment/node-red-contrib-bodhi-connector"
+    },
+    {
+      "id": "node-red-contrib-onstar2",
+      "version": "2.1.13",
+      "description": "An updated Node-RED Library using OnStarJS, an unofficial client library for the OnStar Vehicle API",
+      "updated_at": "2023-07-14T17:41:57.791Z",
+      "types": [
+        "get-account-vehicles",
+        "get-diagnostics",
+        "lock-myvehicle",
+        "unlock-myvehicle",
+        "start-myvehicle",
+        "cancel-start-myvehicle",
+        "alert-myvehicle",
+        "alert-myvehicle-lights",
+        "alert-myvehicle-horn",
+        "cancel-alert-myvehicle",
+        "locate-vehicle",
+        "mycharge-override",
+        "get-mycharge-profile",
+        "set-mycharge-profile",
+        "onstar2"
+      ],
+      "keywords": [
+        "node-red",
+        "OnStar",
+        "Chevrolet",
+        "Chevy",
+        "GM",
+        "GMC",
+        "Buick",
+        "Cadillac"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-onstar2"
+    },
     {
       "id": "node-red-contrib-knx-ultimate",
       "version": "2.1.34",
@@ -65,37 +165,6 @@
         "алиса"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-alice"
-    },
-    {
-      "id": "@softwaredevelopment/node-red-contrib-bodhi-connector",
-      "version": "0.0.10",
-      "description": "Bodhi connector configuration for connecting nodes to bodhi",
-      "updated_at": "2023-07-14T12:29:37.563Z",
-      "types": [
-        "bodhi-connector"
-      ],
-      "keywords": [
-        "node-red",
-        "connector",
-        "bodhi"
-      ],
-      "url": "https://flows.nodered.org/node/@softwaredevelopment/node-red-contrib-bodhi-connector"
-    },
-    {
-      "id": "@softwaredevelopment/node-red-contrib-bodhi-device-dimmer-light",
-      "version": "0.0.3",
-      "description": "Bodhi connector configuration for connecting nodes to bodhi",
-      "updated_at": "2023-07-14T12:14:06.479Z",
-      "types": [
-        "dimmer-light"
-      ],
-      "keywords": [
-        "node-red",
-        "device",
-        "bodhi",
-        "light"
-      ],
-      "url": "https://flows.nodered.org/node/@softwaredevelopment/node-red-contrib-bodhi-device-dimmer-light"
     },
     {
       "id": "node-red-contrib-observation",
@@ -1038,23 +1107,6 @@
       "url": "https://flows.nodered.org/node/node-red-contrib-monster"
     },
     {
-      "id": "victron-vrm-api",
-      "version": "0.0.1",
-      "description": "Interface with the Victron Energy VRM API",
-      "updated_at": "2023-07-04T13:56:23.503Z",
-      "types": [
-        "config-vrm-api",
-        "vrm-api"
-      ],
-      "keywords": [
-        "node-red",
-        "victron",
-        "vrm",
-        "api"
-      ],
-      "url": "https://flows.nodered.org/node/victron-vrm-api"
-    },
-    {
       "id": "node-red-contrib-string-to-hex",
       "version": "1.0.3",
       "description": "node-red-contrib-string-to-hex",
@@ -1715,40 +1767,6 @@
         "rgbw"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-daylight-rgbw"
-    },
-    {
-      "id": "node-red-contrib-onstar2",
-      "version": "2.1.12",
-      "description": "An updated Node-RED Library using OnStarJS, an unofficial client library for the OnStar Vehicle API",
-      "updated_at": "2023-06-25T01:37:45.065Z",
-      "types": [
-        "get-account-vehicles",
-        "get-diagnostics",
-        "lock-myvehicle",
-        "unlock-myvehicle",
-        "start-myvehicle",
-        "cancel-start-myvehicle",
-        "alert-myvehicle",
-        "alert-myvehicle-lights",
-        "alert-myvehicle-horn",
-        "cancel-alert-myvehicle",
-        "locate-vehicle",
-        "mycharge-override",
-        "get-mycharge-profile",
-        "set-mycharge-profile",
-        "onstar2"
-      ],
-      "keywords": [
-        "node-red",
-        "OnStar",
-        "Chevrolet",
-        "Chevy",
-        "GM",
-        "GMC",
-        "Buick",
-        "Cadillac"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-onstar2"
     },
     {
       "id": "@sunnydsouza/node-red-contrib-openai-gpt",
