@@ -1,7 +1,89 @@
 {
   "name": "Catalogue for verified nodes",
-  "updated_at": "2023-07-15T08:30:49.996Z",
+  "updated_at": "2023-07-15T19:48:24.109Z",
   "modules": [
+    {
+      "id": "node-red-contrib-web-worldmap",
+      "version": "2.38.0",
+      "description": "A Node-RED node to provide a web page of a world map for plotting things on.",
+      "updated_at": "2023-07-15T12:12:54.202Z",
+      "types": [
+        "worldmap",
+        "ui_worldmap",
+        "worldmap in",
+        "worldmap-tracks",
+        "worldmap-hull"
+      ],
+      "keywords": [
+        "node-red",
+        "map",
+        "world"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-web-worldmap"
+    },
+    {
+      "id": "@jambonz/node-red-contrib-jambonz",
+      "version": "2.4.3",
+      "description": "Node-RED nodes for jambonz platform",
+      "updated_at": "2023-07-15T10:33:15.901Z",
+      "types": [
+        "webhook in",
+        "webhook out",
+        "audio in",
+        "jambonz_auth",
+        "aws_auth",
+        "enqueue",
+        "lex",
+        "say",
+        "dtmf",
+        "cfg",
+        "conference",
+        "gather",
+        "listen",
+        "sip:decline",
+        "sip:request",
+        "sip:refer",
+        "hangup",
+        "message",
+        "tag",
+        "pause",
+        "dequeue",
+        "play",
+        "dial",
+        "redirect",
+        "dialogflow",
+        "leave",
+        "rasa",
+        "user auth",
+        "create-call",
+        "create-sms",
+        "lcc",
+        "get_alerts",
+        "get_calls",
+        "get_recent_calls"
+      ],
+      "keywords": [
+        "node-red"
+      ],
+      "url": "https://flows.nodered.org/node/@jambonz/node-red-contrib-jambonz"
+    },
+    {
+      "id": "@stefa168/node-red-hysteresis",
+      "version": "0.4.0-a",
+      "description": "Adds hysteresis function to node-red",
+      "updated_at": "2023-07-15T09:09:12.218Z",
+      "types": [
+        "hysteresis2"
+      ],
+      "keywords": [
+        "hysteresis",
+        "falling",
+        "rising",
+        "trigger",
+        "node-red"
+      ],
+      "url": "https://flows.nodered.org/node/@stefa168/node-red-hysteresis"
+    },
     {
       "id": "victron-vrm-api",
       "version": "0.0.2",
@@ -458,52 +540,6 @@
         "ess"
       ],
       "url": "https://flows.nodered.org/node/victron-dynamic-ess"
-    },
-    {
-      "id": "@jambonz/node-red-contrib-jambonz",
-      "version": "2.4.1",
-      "description": "Node-RED nodes for jambonz platform",
-      "updated_at": "2023-07-11T15:06:41.175Z",
-      "types": [
-        "webhook in",
-        "webhook out",
-        "audio in",
-        "jambonz_auth",
-        "aws_auth",
-        "enqueue",
-        "lex",
-        "say",
-        "dtmf",
-        "cfg",
-        "conference",
-        "gather",
-        "listen",
-        "sip:decline",
-        "sip:request",
-        "sip:refer",
-        "hangup",
-        "message",
-        "tag",
-        "pause",
-        "dequeue",
-        "play",
-        "dial",
-        "redirect",
-        "dialogflow",
-        "leave",
-        "rasa",
-        "user auth",
-        "create-call",
-        "create-sms",
-        "lcc",
-        "get_alerts",
-        "get_calls",
-        "get_recent_calls"
-      ],
-      "keywords": [
-        "node-red"
-      ],
-      "url": "https://flows.nodered.org/node/@jambonz/node-red-contrib-jambonz"
     },
     {
       "id": "node-red-contrib-ecojoko",
@@ -3914,25 +3950,6 @@
         "interval"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-controltimer"
-    },
-    {
-      "id": "node-red-contrib-web-worldmap",
-      "version": "2.37.4",
-      "description": "A Node-RED node to provide a web page of a world map for plotting things on.",
-      "updated_at": "2023-05-27T10:16:24.198Z",
-      "types": [
-        "worldmap",
-        "ui_worldmap",
-        "worldmap in",
-        "worldmap-tracks",
-        "worldmap-hull"
-      ],
-      "keywords": [
-        "node-red",
-        "map",
-        "world"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-web-worldmap"
     },
     {
       "id": "autana-api-gateway",
