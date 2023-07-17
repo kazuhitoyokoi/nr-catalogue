@@ -1,80 +1,32 @@
 {
   "name": "Catalogue for Windows",
-  "updated_at": "2023-07-16T19:17:38.467Z",
+  "updated_at": "2023-07-17T19:44:23.045Z",
   "modules": [
     {
-      "id": "node-red-contrib-tfjs-coco-ssd",
-      "version": "1.0.6",
-      "description": "A Node-RED node that uses tensorflowjs for object detection.",
-      "updated_at": "2023-07-16T09:10:13.693Z",
+      "id": "cloud4machine-cloud-nodered",
+      "version": "0.2.54",
+      "description": "A collection of node red nodes to define custom cloud⁴machine flows",
+      "updated_at": "2023-07-17T13:10:28.442Z",
       "types": [
-        "tensorflowCoco"
+        "rule set",
+        "custom parameter",
+        "relevant error",
+        "mqtt-cloud-broker",
+        "mqtt cloud in",
+        "mqtt cloud out"
       ],
       "keywords": [
         "node-red",
-        "tensorflow",
-        "tensorflowjs",
-        "tfjs"
+        "cloud4machine",
+        "grob-net4industry"
       ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-tfjs-coco-ssd"
-    },
-    {
-      "id": "node-red-contrib-teachable-machine-cloudonly",
-      "version": "1.0.2",
-      "description": "Simplifies integration with Teachable Machine models from Google",
-      "updated_at": "2023-07-16T02:55:59.521Z",
-      "types": [
-        "teachable machine (cloudonly)"
-      ],
-      "keywords": [
-        "node-red",
-        "tensorflow",
-        "tensorflowjs",
-        "classification",
-        "teachable machine",
-        "google"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-teachable-machine-cloudonly"
-    },
-    {
-      "id": "node-red-contrib-home-assistant-websocket",
-      "version": "0.54.0",
-      "description": "Node-RED integration with Home Assistant through websocket and REST API",
-      "updated_at": "2023-07-16T00:29:13.152Z",
-      "types": [],
-      "keywords": [
-        "node-red",
-        "home-assistant",
-        "home assistant",
-        "home automation",
-        "websocket"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-home-assistant-websocket"
-    },
-    {
-      "id": "node-red-contrib-web-worldmap",
-      "version": "2.38.0",
-      "description": "A Node-RED node to provide a web page of a world map for plotting things on.",
-      "updated_at": "2023-07-15T12:12:54.202Z",
-      "types": [
-        "worldmap",
-        "ui_worldmap",
-        "worldmap in",
-        "worldmap-tracks",
-        "worldmap-hull"
-      ],
-      "keywords": [
-        "node-red",
-        "map",
-        "world"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-web-worldmap"
+      "url": "https://flows.nodered.org/node/cloud4machine-cloud-nodered"
     },
     {
       "id": "@jambonz/node-red-contrib-jambonz",
-      "version": "2.4.4",
+      "version": "2.4.5",
       "description": "Node-RED nodes for jambonz platform",
-      "updated_at": "2023-07-15T10:52:58.808Z",
+      "updated_at": "2023-07-17T11:40:20.283Z",
       "types": [
         "webhook in",
         "webhook out",
@@ -115,6 +67,272 @@
         "node-red"
       ],
       "url": "https://flows.nodered.org/node/@jambonz/node-red-contrib-jambonz"
+    },
+    {
+      "id": "node-red-contrib-spike-counter",
+      "version": "0.0.1",
+      "description": "A Node-RED node that counts spikes or fluctuations occuring in input signals",
+      "updated_at": "2023-07-17T11:10:34.657Z",
+      "types": [
+        "spiker"
+      ],
+      "keywords": [
+        "node-red",
+        "spiker",
+        "anomaly detection"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-spike-counter"
+    },
+    {
+      "id": "@ifp-software/node-red-contrib-oee-ai-connector",
+      "version": "2.6.3",
+      "description": "Easily connect your production machines to oee.ai – The Industry 4.0 solution for OEE optimization.",
+      "updated_at": "2023-07-17T10:51:42.660Z",
+      "types": [],
+      "keywords": [
+        "industrial",
+        "industry 4.0",
+        "iot",
+        "node-red",
+        "oee",
+        "oee.ai",
+        "sick",
+        "smart-factory",
+        "tdc"
+      ],
+      "url": "https://flows.nodered.org/node/@ifp-software/node-red-contrib-oee-ai-connector"
+    },
+    {
+      "id": "@digitalnodecom/node-red-contrib-generic-s3",
+      "version": "1.11.0",
+      "description": "Generic node-red S3 nodes",
+      "updated_at": "2023-07-17T10:45:03.971Z",
+      "types": [
+        "client-s3",
+        "List Buckets",
+        "Create Bucket",
+        "List Objects",
+        "List Objects V2",
+        "List Object Versions",
+        "Get Object",
+        "Head Object",
+        "Put Object",
+        "Put Objects",
+        "Delete Object",
+        "Copy Object",
+        "Move Object"
+      ],
+      "keywords": [
+        "node-red",
+        "s3",
+        "generic"
+      ],
+      "url": "https://flows.nodered.org/node/@digitalnodecom/node-red-contrib-generic-s3"
+    },
+    {
+      "id": "@spectraautomation/node-red-urbancontroller-dio",
+      "version": "1.3.0",
+      "description": "Node-RED module for controlling the digital input / output port of the Urban Controller by Spectra GmbH & Co. KG",
+      "updated_at": "2023-07-17T09:09:58.621Z",
+      "types": [
+        "uc-dio-in",
+        "uc-dio-out",
+        "uc-buzzer"
+      ],
+      "keywords": [
+        "node-red",
+        "gpio",
+        "urbancontroller",
+        "urban controller",
+        "spectra",
+        "powerbox"
+      ],
+      "url": "https://flows.nodered.org/node/@spectraautomation/node-red-urbancontroller-dio"
+    },
+    {
+      "id": "@spectraautomation/node-red-urbancontroller-watchdog",
+      "version": "1.3.0",
+      "description": "Node-RED module for controlling the hardware watchdog of the Urban Controller by Spectra GmbH & Co. KG",
+      "updated_at": "2023-07-17T09:09:55.964Z",
+      "types": [
+        "uc-watchdog"
+      ],
+      "keywords": [
+        "node-red",
+        "wdt",
+        "watchdog",
+        "urbancontroller",
+        "urban controller",
+        "spectra",
+        "powerbox"
+      ],
+      "url": "https://flows.nodered.org/node/@spectraautomation/node-red-urbancontroller-watchdog"
+    },
+    {
+      "id": "@avoit/node-red-contrib-fr24tube",
+      "version": "0.0.7",
+      "description": "Node-RED node to fetch aircraft in a specific tube from Flightradar24 //Based on zuhito fligthradar24 node//",
+      "updated_at": "2023-07-17T08:01:28.459Z",
+      "types": [
+        "fr24tube"
+      ],
+      "keywords": [
+        "node-red",
+        "flightradar24",
+        "plane",
+        "planeovermyhome"
+      ],
+      "url": "https://flows.nodered.org/node/@avoit/node-red-contrib-fr24tube"
+    },
+    {
+      "id": "node-red-temp",
+      "version": "1.0.3",
+      "description": "node-red-temp",
+      "updated_at": "2023-07-17T03:53:56.570Z",
+      "types": [
+        "node-red-temp"
+      ],
+      "keywords": [
+        "node-red"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-temp"
+    },
+    {
+      "id": "node-red-contrib-samsung-automation-studio-nodes",
+      "version": "1.1.16",
+      "description": "Samsung Automation Studio Nodes for Node-RED",
+      "updated_at": "2023-07-17T02:07:12.812Z",
+      "types": [
+        "device-profile",
+        "installed-device",
+        "automation",
+        "event-device",
+        "status-device",
+        "command-device",
+        "bixby in",
+        "bixby out",
+        "basic-auth",
+        "aws-config",
+        "aws-sdk",
+        "db-config",
+        "db-query",
+        "slack-notification"
+      ],
+      "keywords": [
+        "SmartThings",
+        "Bixby",
+        "node-red",
+        "Samsung Automation Studio",
+        "AWS"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-samsung-automation-studio-nodes"
+    },
+    {
+      "id": "node-red-contrib-teachable-machine-cloudonly",
+      "version": "1.0.4",
+      "description": "Simplifies integration with Teachable Machine models from Google",
+      "updated_at": "2023-07-17T01:31:52.537Z",
+      "types": [
+        "teachable machine (cloudonly)"
+      ],
+      "keywords": [
+        "node-red",
+        "tensorflow",
+        "tensorflowjs",
+        "classification",
+        "teachable machine",
+        "google"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-teachable-machine-cloudonly"
+    },
+    {
+      "id": "node-red-contrib-jsonrpc3",
+      "version": "0.0.3",
+      "description": "Node RED wrapper arround a JSON RPC 2.0 implementation.",
+      "updated_at": "2023-07-16T20:56:09.036Z",
+      "types": [
+        "jsonrpc-client",
+        "jsonrpc-call",
+        "jsonrpc listen",
+        "jsonrpc response",
+        "jsonrpc-server"
+      ],
+      "keywords": [
+        "json",
+        "rpc",
+        "node-red"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-jsonrpc3"
+    },
+    {
+      "id": "node-red-contrib-moment",
+      "version": "5.0.0",
+      "description": "Node-Red Node that produces formatted Date/Time output using the Moment.JS library. Timezone, dst and locale aware.",
+      "updated_at": "2023-07-16T17:47:47.903Z",
+      "types": [
+        "humanizer"
+      ],
+      "keywords": [
+        "node-red",
+        "moment",
+        "momentjs",
+        "time",
+        "date",
+        "timezone",
+        "locale",
+        "DST"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-moment"
+    },
+    {
+      "id": "node-red-contrib-tfjs-coco-ssd",
+      "version": "1.0.6",
+      "description": "A Node-RED node that uses tensorflowjs for object detection.",
+      "updated_at": "2023-07-16T09:10:13.693Z",
+      "types": [
+        "tensorflowCoco"
+      ],
+      "keywords": [
+        "node-red",
+        "tensorflow",
+        "tensorflowjs",
+        "tfjs"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-tfjs-coco-ssd"
+    },
+    {
+      "id": "node-red-contrib-home-assistant-websocket",
+      "version": "0.54.0",
+      "description": "Node-RED integration with Home Assistant through websocket and REST API",
+      "updated_at": "2023-07-16T00:29:13.152Z",
+      "types": [],
+      "keywords": [
+        "node-red",
+        "home-assistant",
+        "home assistant",
+        "home automation",
+        "websocket"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-home-assistant-websocket"
+    },
+    {
+      "id": "node-red-contrib-web-worldmap",
+      "version": "2.38.0",
+      "description": "A Node-RED node to provide a web page of a world map for plotting things on.",
+      "updated_at": "2023-07-15T12:12:54.202Z",
+      "types": [
+        "worldmap",
+        "ui_worldmap",
+        "worldmap in",
+        "worldmap-tracks",
+        "worldmap-hull"
+      ],
+      "keywords": [
+        "node-red",
+        "map",
+        "world"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-web-worldmap"
     },
     {
       "id": "@stefa168/node-red-hysteresis",
@@ -395,25 +613,6 @@
         "rac-wf"
       ],
       "url": "https://flows.nodered.org/node/@programie/node-red-aircon-rac-wf"
-    },
-    {
-      "id": "@ifp-software/node-red-contrib-oee-ai-connector",
-      "version": "2.6.2",
-      "description": "Easily connect your production machines to oee.ai – The Industry 4.0 solution for OEE optimization.",
-      "updated_at": "2023-07-12T14:44:06.580Z",
-      "types": [],
-      "keywords": [
-        "industrial",
-        "industry 4.0",
-        "iot",
-        "node-red",
-        "oee",
-        "oee.ai",
-        "sick",
-        "smart-factory",
-        "tdc"
-      ],
-      "url": "https://flows.nodered.org/node/@ifp-software/node-red-contrib-oee-ai-connector"
     },
     {
       "id": "node-red-contrib-persistent-global-context",
@@ -1092,44 +1291,6 @@
       "url": "https://flows.nodered.org/node/node-red-contrib-trexmes-oee-calculator"
     },
     {
-      "id": "@spectraautomation/node-red-urbancontroller-dio",
-      "version": "1.0.5",
-      "description": "Node-RED module for controlling the digital input / output port of the Urban Controller by Spectra GmbH & Co. KG",
-      "updated_at": "2023-07-05T13:12:53.390Z",
-      "types": [
-        "uc-dio-in",
-        "uc-dio-out"
-      ],
-      "keywords": [
-        "node-red",
-        "gpio",
-        "urbancontroller",
-        "urban controller",
-        "spectra",
-        "powerbox"
-      ],
-      "url": "https://flows.nodered.org/node/@spectraautomation/node-red-urbancontroller-dio"
-    },
-    {
-      "id": "@spectraautomation/node-red-urbancontroller-watchdog",
-      "version": "1.0.2",
-      "description": "Node-RED module for controlling the hardware watchdog of the Urban Controller by Spectra GmbH & Co. KG",
-      "updated_at": "2023-07-05T11:45:14.595Z",
-      "types": [
-        "uc-watchdog"
-      ],
-      "keywords": [
-        "node-red",
-        "wdt",
-        "watchdog",
-        "urbancontroller",
-        "urban controller",
-        "spectra",
-        "powerbox"
-      ],
-      "url": "https://flows.nodered.org/node/@spectraautomation/node-red-urbancontroller-watchdog"
-    },
-    {
       "id": "@envidatec/interval",
       "version": "1.0.0",
       "description": "executes crontab expression and sent last incoming message",
@@ -1656,56 +1817,6 @@
         "Process Control"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-analog-alarm-monitor"
-    },
-    {
-      "id": "cloud4machine-cloud-nodered",
-      "version": "0.2.53",
-      "description": "A collection of node red nodes to define custom cloud⁴machine flows",
-      "updated_at": "2023-06-29T08:00:13.232Z",
-      "types": [
-        "rule set",
-        "custom parameter",
-        "relevant error",
-        "mqtt-cloud-broker",
-        "mqtt cloud in",
-        "mqtt cloud out"
-      ],
-      "keywords": [
-        "node-red",
-        "cloud4machine",
-        "grob-net4industry"
-      ],
-      "url": "https://flows.nodered.org/node/cloud4machine-cloud-nodered"
-    },
-    {
-      "id": "node-red-contrib-samsung-automation-studio-nodes",
-      "version": "1.1.15",
-      "description": "Samsung Automation Studio Nodes for Node-RED",
-      "updated_at": "2023-06-29T05:41:26.936Z",
-      "types": [
-        "device-profile",
-        "installed-device",
-        "automation",
-        "event-device",
-        "status-device",
-        "command-device",
-        "bixby in",
-        "bixby out",
-        "basic-auth",
-        "aws-config",
-        "aws-sdk",
-        "db-config",
-        "db-query",
-        "slack-notification"
-      ],
-      "keywords": [
-        "SmartThings",
-        "Bixby",
-        "node-red",
-        "Samsung Automation Studio",
-        "AWS"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-samsung-automation-studio-nodes"
     },
     {
       "id": "smithtek-node-red-lora",
@@ -2561,22 +2672,6 @@
         "firebird"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-node-firebird-role"
-    },
-    {
-      "id": "@avoit/node-red-contrib-fr24tube",
-      "version": "0.0.5",
-      "description": "Node-RED node to fetch aircraft in a specific tube from Flightradar24 //Based on zuhito fligthradar24 node//",
-      "updated_at": "2023-06-15T13:30:03.318Z",
-      "types": [
-        "fr24tube"
-      ],
-      "keywords": [
-        "node-red",
-        "flightradar24",
-        "plane",
-        "planeovermyhome"
-      ],
-      "url": "https://flows.nodered.org/node/@avoit/node-red-contrib-fr24tube"
     },
     {
       "id": "@helix_italia/node-red-helix-adodb",
@@ -4421,33 +4516,6 @@
         "serial"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-bluetooth-serial-api"
-    },
-    {
-      "id": "@digitalnodecom/node-red-contrib-generic-s3",
-      "version": "1.9.0",
-      "description": "Generic node-red S3 nodes",
-      "updated_at": "2023-05-18T20:08:15.173Z",
-      "types": [
-        "client-s3",
-        "List Buckets",
-        "Create Bucket",
-        "List Objects",
-        "List Objects V2",
-        "List Object Versions",
-        "Get Object",
-        "Head Object",
-        "Put Object",
-        "Put Objects",
-        "Delete Object",
-        "Copy Object",
-        "Move Object"
-      ],
-      "keywords": [
-        "node-red",
-        "s3",
-        "generic"
-      ],
-      "url": "https://flows.nodered.org/node/@digitalnodecom/node-red-contrib-generic-s3"
     },
     {
       "id": "@apxc/node-red-contrib-apxc-getconnections",
@@ -42713,26 +42781,6 @@
         "node-red"
       ],
       "url": "https://flows.nodered.org/node/nbr-web-app"
-    },
-    {
-      "id": "node-red-contrib-moment",
-      "version": "4.0.0",
-      "description": "Node-Red Node that produces formatted Date/Time output using the Moment.JS library. Timezone, dst and locale aware.",
-      "updated_at": "2020-10-04T14:34:10.604Z",
-      "types": [
-        "humanizer"
-      ],
-      "keywords": [
-        "node-red",
-        "moment",
-        "momentjs",
-        "time",
-        "date",
-        "timezone",
-        "locale",
-        "DST"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-moment"
     },
     {
       "id": "node-red-contrib-soracom-gps-multiunit",
