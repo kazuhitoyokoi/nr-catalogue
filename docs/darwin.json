@@ -1,7 +1,326 @@
 {
   "name": "Catalogue for macOS",
-  "updated_at": "2023-07-17T21:08:29.758Z",
+  "updated_at": "2023-07-18T21:52:54.263Z",
   "modules": [
+    {
+      "id": "node-red-contrib-home-assistant-websocket",
+      "version": "0.55.1",
+      "description": "Node-RED integration with Home Assistant through websocket and REST API",
+      "updated_at": "2023-07-18T20:05:28.712Z",
+      "types": [],
+      "keywords": [
+        "node-red",
+        "home-assistant",
+        "home assistant",
+        "home automation",
+        "websocket"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-home-assistant-websocket"
+    },
+    {
+      "id": "@softwaredevelopment/node-red-contrib-bodhi-connector",
+      "version": "0.0.13",
+      "description": "Bodhi connector configuration for connecting nodes to bodhi",
+      "updated_at": "2023-07-18T18:23:34.450Z",
+      "types": [
+        "bodhi-connector"
+      ],
+      "keywords": [
+        "node-red",
+        "connector",
+        "bodhi"
+      ],
+      "url": "https://flows.nodered.org/node/@softwaredevelopment/node-red-contrib-bodhi-connector"
+    },
+    {
+      "id": "@softwaredevelopment/node-red-contrib-bodhi-device-dimmer-light",
+      "version": "0.0.6",
+      "description": "Bodhi connector configuration for connecting nodes to bodhi",
+      "updated_at": "2023-07-18T18:21:00.037Z",
+      "types": [
+        "dimmer-light"
+      ],
+      "keywords": [
+        "node-red",
+        "device",
+        "bodhi",
+        "light"
+      ],
+      "url": "https://flows.nodered.org/node/@softwaredevelopment/node-red-contrib-bodhi-device-dimmer-light"
+    },
+    {
+      "id": "node-red-contrib-knx-ultimate",
+      "version": "2.1.35",
+      "description": "Control your KNX intallation via Node-Red! Single Node KNX IN/OUT with optional ETS group address importer. Easy to use and highly configurable. With integrated Philips HUE devices handling.",
+      "updated_at": "2023-07-18T16:11:49.276Z",
+      "types": [
+        "knxUltimate",
+        "knxUltimateSceneController",
+        "knxUltimateWatchDog",
+        "knxUltimateLogger",
+        "knxUltimate-config",
+        "knxUltimateGlobalContext",
+        "knxUltimateAlerter",
+        "knxUltimateLoadControl",
+        "knxUltimateViewer",
+        "hue-config",
+        "knxUltimateHueLight",
+        "knxUltimateHueButton",
+        "knxUltimateHueMotion",
+        "knxUltimateHueTapDial",
+        "knxUltimateHueLightSensor",
+        "knxUltimateHueTemperatureSensor",
+        "knxUltimateHueScene",
+        "knxUltimateHueBattery"
+      ],
+      "keywords": [
+        "node-red",
+        "KNX",
+        "ETS",
+        "eib",
+        "eibd",
+        "knxd",
+        "konnex",
+        "IOT",
+        "hue"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-knx-ultimate"
+    },
+    {
+      "id": "node-red-contrib-boolean-logic-ultimate",
+      "version": "1.0.61",
+      "description": "A set of Node-RED enhanced boolean logic and utility nodes, flow interruption, blinker, invert, filter, toggle etc.., with persistent values after reboot. Compatible also with Homeassistant values.",
+      "updated_at": "2023-07-18T15:57:23.454Z",
+      "types": [
+        "BooleanLogicUltimate",
+        "InvertUltimate",
+        "FilterUltimate",
+        "InterruptFlowUltimate",
+        "BlinkerUltimate",
+        "SimpleOutputUltimate",
+        "InjectUltimate",
+        "StatusUltimate",
+        "ImpulseUltimate",
+        "SumUltimate",
+        "toggleUltimate",
+        "RailwaySwitchUltimate"
+      ],
+      "keywords": [
+        "node-red",
+        "boolean",
+        "gate",
+        "filter",
+        "logic"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-boolean-logic-ultimate"
+    },
+    {
+      "id": "@karthik1984/node-red-contrib-ocpp-client",
+      "version": "1.0.3",
+      "description": "This library provides node red OCPP 1.6 client which can connect to any OCPP 1.6 server and it supports security profile 1. It can be extended to support security profile 2 and 3.",
+      "updated_at": "2023-07-18T15:19:26.916Z",
+      "types": [
+        "ocpp-client"
+      ],
+      "keywords": [
+        "node-red",
+        "ocpp"
+      ],
+      "url": "https://flows.nodered.org/node/@karthik1984/node-red-contrib-ocpp-client"
+    },
+    {
+      "id": "@envidatec/node-red-contrib-logger",
+      "version": "1.0.5",
+      "description": "Logs Data into SQL-Lite",
+      "updated_at": "2023-07-18T15:01:52.677Z",
+      "types": [
+        "logger",
+        "SQL-DB",
+        "requestData"
+      ],
+      "keywords": [
+        "node-red"
+      ],
+      "url": "https://flows.nodered.org/node/@envidatec/node-red-contrib-logger"
+    },
+    {
+      "id": "@envidatec/interval",
+      "version": "1.0.1",
+      "description": "executes crontab expression and sent last incoming message",
+      "updated_at": "2023-07-18T14:58:00.480Z",
+      "types": [],
+      "keywords": [
+        "node-red"
+      ],
+      "url": "https://flows.nodered.org/node/@envidatec/interval"
+    },
+    {
+      "id": "node-red-contrib-proficloud",
+      "version": "1.0.73",
+      "description": "Proficloud - IIoT-Platform of Phoenix Contact",
+      "updated_at": "2023-07-18T13:48:25.311Z",
+      "types": [
+        "ProficloudDevice"
+      ],
+      "keywords": [
+        "node-red",
+        "proficloud",
+        "nodered",
+        "arm32v7",
+        "x86",
+        "IIoT",
+        "IoT",
+        "Cloud",
+        "PhoenixContact"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-proficloud"
+    },
+    {
+      "id": "victron-vrm-api",
+      "version": "0.0.3",
+      "description": "Interface with the Victron Energy VRM API",
+      "updated_at": "2023-07-18T08:47:39.867Z",
+      "types": [
+        "config-vrm-api",
+        "vrm-api"
+      ],
+      "keywords": [
+        "node-red",
+        "victron",
+        "vrm",
+        "api"
+      ],
+      "url": "https://flows.nodered.org/node/victron-vrm-api"
+    },
+    {
+      "id": "nr-meross-cloud",
+      "version": "0.1.1",
+      "description": "Node-RED Node to get Energy Data of Meross SmartPlug (like MSS310)",
+      "updated_at": "2023-07-18T08:35:17.073Z",
+      "types": [
+        "MerossEnergy"
+      ],
+      "keywords": [
+        "node-red",
+        "meross",
+        "cloud",
+        "mqtt",
+        "corrently",
+        "current",
+        "smartplug"
+      ],
+      "url": "https://flows.nodered.org/node/nr-meross-cloud"
+    },
+    {
+      "id": "rootedge-node-red-datasource",
+      "version": "2.0.3",
+      "description": "rootedge-node-red-datasource节点描述",
+      "updated_at": "2023-07-18T07:55:12.150Z",
+      "types": [
+        "datasource"
+      ],
+      "keywords": [
+        "node-red",
+        "IoT"
+      ],
+      "url": "https://flows.nodered.org/node/rootedge-node-red-datasource"
+    },
+    {
+      "id": "@spectraautomation/node-red-urbancontroller-dio",
+      "version": "1.3.1",
+      "description": "Node-RED module for controlling the digital input / output port of the Urban Controller by Spectra GmbH & Co. KG",
+      "updated_at": "2023-07-18T07:04:26.711Z",
+      "types": [
+        "uc-dio-in",
+        "uc-dio-out",
+        "uc-buzzer"
+      ],
+      "keywords": [
+        "node-red",
+        "gpio",
+        "urbancontroller",
+        "urban controller",
+        "spectra",
+        "powerbox"
+      ],
+      "url": "https://flows.nodered.org/node/@spectraautomation/node-red-urbancontroller-dio"
+    },
+    {
+      "id": "@mschaeffler/node-red-logic",
+      "version": "1.0.2",
+      "description": "nodes for simple operations.",
+      "updated_at": "2023-07-18T06:35:42.298Z",
+      "types": [
+        "counter",
+        "tobool",
+        "not",
+        "or",
+        "and",
+        "tonumber",
+        "negate",
+        "reduce",
+        "__errors__",
+        "fallingEdge",
+        "raisingEdge",
+        "hysteresisEdge",
+        "statistics"
+      ],
+      "keywords": [
+        "node-red"
+      ],
+      "url": "https://flows.nodered.org/node/@mschaeffler/node-red-logic"
+    },
+    {
+      "id": "@terranlabs/appflow-langchain",
+      "version": "0.0.1",
+      "description": "Use langchain in appflow",
+      "updated_at": "2023-07-18T03:38:26.977Z",
+      "types": [
+        "find-domain-bod"
+      ],
+      "keywords": [
+        "node-red",
+        "appflow",
+        "langchain",
+        "terranlabs",
+        "terran"
+      ],
+      "url": "https://flows.nodered.org/node/@terranlabs/appflow-langchain"
+    },
+    {
+      "id": "smithtek-nodered-ping",
+      "version": "1.1.0",
+      "description": "A Node-RED node to ping a remote server, for use as a keep-alive check.",
+      "updated_at": "2023-07-18T00:11:02.537Z",
+      "types": [
+        "ping"
+      ],
+      "keywords": [
+        "node-red",
+        "ping",
+        "keepalive"
+      ],
+      "url": "https://flows.nodered.org/node/smithtek-nodered-ping"
+    },
+    {
+      "id": "smithtek-node-red-tools",
+      "version": "1.0.0",
+      "description": "Set of tools for the Mako PLC, or any PLC",
+      "updated_at": "2023-07-17T23:28:13.512Z",
+      "types": [
+        "analog-input",
+        "multi-digital-input",
+        "flipflop",
+        "thermo-couple",
+        "splitter"
+      ],
+      "keywords": [
+        "Smithtek",
+        "node-red",
+        "tools"
+      ],
+      "url": "https://flows.nodered.org/node/smithtek-node-red-tools"
+    },
     {
       "id": "cloud4machine-cloud-nodered",
       "version": "0.2.54",
@@ -128,26 +447,6 @@
         "generic"
       ],
       "url": "https://flows.nodered.org/node/@digitalnodecom/node-red-contrib-generic-s3"
-    },
-    {
-      "id": "@spectraautomation/node-red-urbancontroller-dio",
-      "version": "1.3.0",
-      "description": "Node-RED module for controlling the digital input / output port of the Urban Controller by Spectra GmbH & Co. KG",
-      "updated_at": "2023-07-17T09:09:58.621Z",
-      "types": [
-        "uc-dio-in",
-        "uc-dio-out",
-        "uc-buzzer"
-      ],
-      "keywords": [
-        "node-red",
-        "gpio",
-        "urbancontroller",
-        "urban controller",
-        "spectra",
-        "powerbox"
-      ],
-      "url": "https://flows.nodered.org/node/@spectraautomation/node-red-urbancontroller-dio"
     },
     {
       "id": "@spectraautomation/node-red-urbancontroller-watchdog",
@@ -301,21 +600,6 @@
       "url": "https://flows.nodered.org/node/node-red-contrib-tfjs-coco-ssd"
     },
     {
-      "id": "node-red-contrib-home-assistant-websocket",
-      "version": "0.54.0",
-      "description": "Node-RED integration with Home Assistant through websocket and REST API",
-      "updated_at": "2023-07-16T00:29:13.152Z",
-      "types": [],
-      "keywords": [
-        "node-red",
-        "home-assistant",
-        "home assistant",
-        "home automation",
-        "websocket"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-home-assistant-websocket"
-    },
-    {
       "id": "node-red-contrib-web-worldmap",
       "version": "2.38.0",
       "description": "A Node-RED node to provide a web page of a world map for plotting things on.",
@@ -352,54 +636,6 @@
       "url": "https://flows.nodered.org/node/@stefa168/node-red-hysteresis"
     },
     {
-      "id": "victron-vrm-api",
-      "version": "0.0.2",
-      "description": "Interface with the Victron Energy VRM API",
-      "updated_at": "2023-07-14T21:49:29.338Z",
-      "types": [
-        "config-vrm-api",
-        "vrm-api"
-      ],
-      "keywords": [
-        "node-red",
-        "victron",
-        "vrm",
-        "api"
-      ],
-      "url": "https://flows.nodered.org/node/victron-vrm-api"
-    },
-    {
-      "id": "@softwaredevelopment/node-red-contrib-bodhi-device-dimmer-light",
-      "version": "0.0.5",
-      "description": "Bodhi connector configuration for connecting nodes to bodhi",
-      "updated_at": "2023-07-14T19:43:08.914Z",
-      "types": [
-        "dimmer-light"
-      ],
-      "keywords": [
-        "node-red",
-        "device",
-        "bodhi",
-        "light"
-      ],
-      "url": "https://flows.nodered.org/node/@softwaredevelopment/node-red-contrib-bodhi-device-dimmer-light"
-    },
-    {
-      "id": "@softwaredevelopment/node-red-contrib-bodhi-connector",
-      "version": "0.0.12",
-      "description": "Bodhi connector configuration for connecting nodes to bodhi",
-      "updated_at": "2023-07-14T19:42:44.275Z",
-      "types": [
-        "bodhi-connector"
-      ],
-      "keywords": [
-        "node-red",
-        "connector",
-        "bodhi"
-      ],
-      "url": "https://flows.nodered.org/node/@softwaredevelopment/node-red-contrib-bodhi-connector"
-    },
-    {
       "id": "node-red-contrib-onstar2",
       "version": "2.1.13",
       "description": "An updated Node-RED Library using OnStarJS, an unofficial client library for the OnStar Vehicle API",
@@ -432,44 +668,6 @@
         "Cadillac"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-onstar2"
-    },
-    {
-      "id": "node-red-contrib-knx-ultimate",
-      "version": "2.1.34",
-      "description": "Control your KNX intallation via Node-Red! Single Node KNX IN/OUT with optional ETS group address importer. Easy to use and highly configurable. With integrated Philips HUE devices handling.",
-      "updated_at": "2023-07-14T16:09:54.542Z",
-      "types": [
-        "knxUltimate",
-        "knxUltimateSceneController",
-        "knxUltimateWatchDog",
-        "knxUltimateLogger",
-        "knxUltimate-config",
-        "knxUltimateGlobalContext",
-        "knxUltimateAlerter",
-        "knxUltimateLoadControl",
-        "knxUltimateViewer",
-        "hue-config",
-        "knxUltimateHueLight",
-        "knxUltimateHueButton",
-        "knxUltimateHueMotion",
-        "knxUltimateHueTapDial",
-        "knxUltimateHueLightSensor",
-        "knxUltimateHueTemperatureSensor",
-        "knxUltimateHueScene",
-        "knxUltimateHueBattery"
-      ],
-      "keywords": [
-        "node-red",
-        "KNX",
-        "ETS",
-        "eib",
-        "eibd",
-        "knxd",
-        "konnex",
-        "IOT",
-        "hue"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-knx-ultimate"
     },
     {
       "id": "node-red-contrib-alice",
@@ -1035,31 +1233,6 @@
       "url": "https://flows.nodered.org/node/node-red-node-tmeter-emulator"
     },
     {
-      "id": "@mschaeffler/node-red-logic",
-      "version": "1.0.0",
-      "description": "nodes for simple operations.",
-      "updated_at": "2023-07-07T09:44:32.220Z",
-      "types": [
-        "counter",
-        "tobool",
-        "not",
-        "or",
-        "and",
-        "tonumber",
-        "negate",
-        "reduce",
-        "__errors__",
-        "fallingEdge",
-        "raisingEdge",
-        "hysteresisEdge",
-        "statistics"
-      ],
-      "keywords": [
-        "node-red"
-      ],
-      "url": "https://flows.nodered.org/node/@mschaeffler/node-red-logic"
-    },
-    {
       "id": "node-red-contrib-castv2",
       "version": "4.2.4",
       "description": "A Node-Red node that provides basic Google Cast functionality based on the node-castv2-client package.",
@@ -1190,21 +1363,6 @@
       "url": "https://flows.nodered.org/node/node-red-contrib-node-line-api"
     },
     {
-      "id": "@envidatec/node-red-contrib-logger",
-      "version": "1.0.3",
-      "description": "Logs Data into SQL-Lite",
-      "updated_at": "2023-07-06T09:45:39.853Z",
-      "types": [
-        "logger",
-        "SQL-DB",
-        "requestData"
-      ],
-      "keywords": [
-        "node-red"
-      ],
-      "url": "https://flows.nodered.org/node/@envidatec/node-red-contrib-logger"
-    },
-    {
       "id": "@envidatec/node-red-contrib-jevis",
       "version": "1.0.4",
       "description": "Read / Write to JEVis Server",
@@ -1289,17 +1447,6 @@
         "IoBox"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-trexmes-oee-calculator"
-    },
-    {
-      "id": "@envidatec/interval",
-      "version": "1.0.0",
-      "description": "executes crontab expression and sent last incoming message",
-      "updated_at": "2023-07-05T10:37:51.694Z",
-      "types": [],
-      "keywords": [
-        "node-red"
-      ],
-      "url": "https://flows.nodered.org/node/@envidatec/interval"
     },
     {
       "id": "node-red-contrib-monster",
@@ -8424,34 +8571,6 @@
       "url": "https://flows.nodered.org/node/node-red-contrib-tts-ultimate"
     },
     {
-      "id": "node-red-contrib-boolean-logic-ultimate",
-      "version": "1.0.60",
-      "description": "A set of Node-RED enhanced boolean logic and utility nodes, flow interruption, blinker, invert, filter, toggle etc.., with persistent values after reboot. Compatible also with Homeassistant values.",
-      "updated_at": "2023-03-20T16:14:31.763Z",
-      "types": [
-        "BooleanLogicUltimate",
-        "InvertUltimate",
-        "FilterUltimate",
-        "InterruptFlowUltimate",
-        "BlinkerUltimate",
-        "SimpleOutputUltimate",
-        "InjectUltimate",
-        "StatusUltimate",
-        "ImpulseUltimate",
-        "SumUltimate",
-        "toggleUltimate",
-        "RailwaySwitchUltimate"
-      ],
-      "keywords": [
-        "node-red",
-        "boolean",
-        "gate",
-        "filter",
-        "logic"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-boolean-logic-ultimate"
-    },
-    {
       "id": "node-red-contrib-gatewayex",
       "version": "0.0.4",
       "description": "SharpSCADA GatewayEx",
@@ -11193,27 +11312,6 @@
         "node-red"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-proxmox-backup-server"
-    },
-    {
-      "id": "node-red-contrib-proficloud",
-      "version": "1.0.67",
-      "description": "Proficloud - IIoT-Platform of Phoenix Contact",
-      "updated_at": "2023-01-26T15:16:33.670Z",
-      "types": [
-        "ProficloudDevice"
-      ],
-      "keywords": [
-        "node-red",
-        "proficloud",
-        "nodered",
-        "arm32v7",
-        "x86",
-        "IIoT",
-        "IoT",
-        "Cloud",
-        "PhoenixContact"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-proficloud"
     },
     {
       "id": "node-red-contrib-norelite",
@@ -43719,25 +43817,6 @@
         "markdown-it"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-static-markdown"
-    },
-    {
-      "id": "smithtek-node-red-tools",
-      "version": "0.3.0",
-      "description": "Set of tools for the Mako PLC, or any PLC",
-      "updated_at": "2020-09-03T03:33:59.077Z",
-      "types": [
-        "analog-input",
-        "multi-digital-input",
-        "flipflop",
-        "thermo-couple",
-        "splitter"
-      ],
-      "keywords": [
-        "Smithtek",
-        "node-red",
-        "tools"
-      ],
-      "url": "https://flows.nodered.org/node/smithtek-node-red-tools"
     },
     {
       "id": "node-red-contrib-scp",
