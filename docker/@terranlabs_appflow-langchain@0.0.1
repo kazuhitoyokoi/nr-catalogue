@@ -1,0 +1,36 @@
+
+----
+Sending build context to Docker daemon  40.09MB
+Step 1/2 : FROM nodered/node-red
+ ---> c18405a73444
+Step 2/2 : RUN npm install npm install @terranlabs/appflow-langchain@0.0.1
+ ---> Running in 14865b792e59
+[91mnpm WARN EBADENGINE Unsupported engine {
+npm WARN[0m[91m EBADENGINE   package: 'langchain@0.0.104',
+npm WARN EBADENGINE   required: { node: '>=18' },
+npm WARN EBADENGINE   current: { node: 'v16.20.1', npm: '8.19.4' }
+npm WARN EBADENGINE }
+[0m
+added 57 packages, and audited 599 packages in 20s
+
+80 packages are looking for funding
+  run `npm fund` for details
+
+10 vulnerabilities (2 low, 8 moderate)
+
+To address issues that do not require attention, run:
+  npm audit fix
+
+To address all issues (including breaking changes), run:
+  npm audit fix --force
+
+Run `npm audit` for details.
+[91mnpm notice 
+npm notice New major version of npm available! 8.19.4 -> 9.8.0
+npm [0m[91mnotice Changelog: <https://github.com/npm/cli/releases/tag/v9.8.0>
+npm notice Run `npm install -g npm@9.8.0` to update!
+npm notice 
+[0mRemoving intermediate container 14865b792e59
+ ---> c58e8e198efc
+Successfully built c58e8e198efc
+Successfully tagged tmp:latest
