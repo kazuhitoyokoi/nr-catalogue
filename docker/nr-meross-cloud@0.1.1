@@ -1,0 +1,37 @@
+
+----
+Sending build context to Docker daemon  39.17MB
+Step 1/2 : FROM nodered/node-red
+ ---> c18405a73444
+Step 2/2 : RUN npm install npm install nr-meross-cloud@0.1.1
+ ---> Running in 730cd68ba336
+[91mnpm[0m[91m WARN[0m[91m [0m[91mdeprecated[0m[91m har-validator@5.1.5: this library is no longer supported
+[0m[91mnpm[0m[91m WARN[0m[91m [0m[91mdeprecated[0m[91m uuid@3.4.0: Please upgrade  to version 7 or higher.  Older versions may use Math.random() in certain circumstances, which is known to be problematic.  See https://v8.dev/blog/math-random for details.
+[0m[91mnpm WARN[0m[91m [0m[91mdeprecated[0m[91m request@2.88.2: request has been deprecated, see https://github.com/request/request/issues/3142
+[0m
+added 40 packages, and audited 582 packages in 6s
+
+65 packages are looking for funding
+  run `npm fund` for details
+
+13 vulnerabilities (2 low, 11 moderate)
+
+To address issues that do not require attention, run:
+  npm audit fix
+
+To address all issues possible (including breaking changes), run:
+  npm audit fix --force
+
+Some issues need review, and may require choosing
+a different dependency.
+
+Run `npm audit` for details.
+[91mnpm[0m[91m notice 
+npm notice New major version of npm available! 8.19.4 -> 9.8.0
+npm notice Changelog: <https://github.com/npm/cli/releases/tag/v9.8.0>
+npm notice Run `npm install -g npm@9.8.0` to update!
+npm notice[0m[91m 
+[0mRemoving intermediate container 730cd68ba336
+ ---> 310f9bade05d
+Successfully built 310f9bade05d
+Successfully tagged tmp:latest
