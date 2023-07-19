@@ -1,0 +1,36 @@
+
+----
+Sending build context to Docker daemon  39.98MB
+Step 1/2 : FROM nodered/node-red
+ ---> c18405a73444
+Step 2/2 : RUN npm install npm install @karthik1984/node-red-contrib-ocpp-client@1.0.3
+ ---> Running in 66a71fc2e939
+[91mnpm WARN [0m[91mEBADENGINE[0m[91m Unsupported engine {
+npm WARN EBADENGINE[0m[91m   package: 'ocpp-rpc@2.0.1',
+npm[0m[91m WARN EBADENGINE   required: { node: '>=17.3.0' },
+npm WARN EBADENGINE   current: { node: 'v16.20.1', npm: '8.19.4' }
+npm WARN EBADENGINE[0m[91m }
+[0m
+added 8 packages, and audited 550 packages in 6s
+
+64 packages are looking for funding
+  run `npm fund` for details
+
+10 vulnerabilities (2 low, 8 moderate)
+
+To address issues that do not require attention, run:
+  npm audit fix
+
+To address all issues (including breaking changes), run:
+  npm audit fix --force
+
+Run `npm audit` for details.
+[91mnpm[0m[91m [0m[91mnotice[0m[91m 
+[0m[91mnpm[0m[91m [0m[91mnotice[0m[91m New major version of npm available! 8.19.4 -> 9.8.0
+[0m[91mnpm[0m[91m [0m[91mnotice[0m[91m Changelog: <https://github.com/npm/cli/releases/tag/v9.8.0>
+[0m[91mnpm[0m[91m [0m[91mnotice[0m[91m Run `npm install -g npm@9.8.0` to update!
+[0m[91mnpm[0m[91m [0m[91mnotice[0m[91m 
+[0mRemoving intermediate container 66a71fc2e939
+ ---> 59eb36597037
+Successfully built 59eb36597037
+Successfully tagged tmp:latest
