@@ -1,0 +1,36 @@
+
+----
+Sending build context to Docker daemon   39.1MB
+Step 1/2 : FROM nodered/node-red
+ ---> c18405a73444
+Step 2/2 : RUN npm install npm install node-red-contrib-dotnsf-watsonxai@0.1.1
+ ---> Running in a72b44c0053c
+[91mnpm[0m[91m [0m[91mWARN EBADENGINE[0m[91m Unsupported engine {
+npm[0m[91m WARN EBADENGINE[0m[91m   package: 'node-red-contrib-dotnsf-watsonxai@0.1.1',
+npm WARN EBADENGINE[0m[91m   required: { node: '18.x' },
+npm WARN EBADENGINE[0m[91m   current: { node: 'v16.20.1', npm: '8.19.4' }
+npm WARN EBADENGINE }
+[0m
+added 5 packages, and audited 547 packages in 4s
+
+64 packages are looking for funding
+  run `npm fund` for details
+
+10 vulnerabilities (2 low, 8 moderate)
+
+To address issues that do not require attention, run:
+  npm audit fix
+
+To address all issues (including breaking changes), run:
+  npm audit fix --force
+
+Run `npm audit` for details.
+[91mnpm notice[0m[91m 
+npm notice New major version of npm available! 8.19.4 -> 9.8.1
+npm notice Changelog: <https://github.com/npm/cli/releases/tag/v9.8.1>
+npm notice Run `npm install -g npm@9.8.1` to update!
+npm [0m[91mnotice 
+[0mRemoving intermediate container a72b44c0053c
+ ---> 470958cc1006
+Successfully built 470958cc1006
+Successfully tagged tmp:latest
