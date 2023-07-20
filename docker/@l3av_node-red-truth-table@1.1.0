@@ -1,0 +1,31 @@
+
+----
+Sending build context to Docker daemon  40.39MB
+Step 1/2 : FROM nodered/node-red
+ ---> c18405a73444
+Step 2/2 : RUN npm install npm install @l3av/node-red-truth-table@1.1.0
+ ---> Running in 223204ac11fb
+
+added 4 packages, and audited 546 packages in 4s
+
+64 packages are looking for funding
+  run `npm fund` for details
+
+10 vulnerabilities (2 low, 8 moderate)
+
+To address issues that do not require attention, run:
+  npm audit fix
+
+To address all issues (including breaking changes), run:
+  npm audit fix --force
+
+Run `npm audit` for details.
+[91mnpm[0m[91m notice 
+[0m[91mnpm notice[0m[91m New major version of npm available! 8.19.4 -> 9.8.1
+npm notice Changelog: <https://github.com/npm/cli/releases/tag/v9.8.1>
+npm[0m[91m notice Run `npm install -g npm@9.8.1` to update!
+npm[0m[91m notice 
+[0mRemoving intermediate container 223204ac11fb
+ ---> c62d81b21624
+Successfully built c62d81b21624
+Successfully tagged tmp:latest
