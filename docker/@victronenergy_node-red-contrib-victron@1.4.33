@@ -1,0 +1,34 @@
+
+----
+Sending build context to Docker daemon  40.07MB
+Step 1/2 : FROM nodered/node-red
+ ---> c18405a73444
+Step 2/2 : RUN npm install npm install @victronenergy/node-red-contrib-victron@1.4.33
+ ---> Running in 47d1e366b09f
+
+added 28 packages, and audited 570 packages in 8s
+
+64 packages are looking for funding
+  run `npm fund` for details
+
+15 vulnerabilities (3 low, 9 moderate, 3 critical)
+
+To address issues that do not require attention, run:
+  npm audit fix
+
+To address all issues possible (including breaking changes), run:
+  npm audit fix --force
+
+Some issues need review, and may require choosing
+a different dependency.
+
+Run `npm audit` for details.
+[91mnpm[0m[91m [0m[91mnotice[0m[91m 
+[0m[91mnpm[0m[91m [0m[91mnotice[0m[91m New major version of npm available! 8.19.4 -> 9.8.1
+[0m[91mnpm[0m[91m [0m[91mnotice[0m[91m Changelog: <https://github.com/npm/cli/releases/tag/v9.8.1>
+[0m[91mnpm[0m[91m [0m[91mnotice[0m[91m Run `npm install -g npm@9.8.1` to update!
+[0m[91mnpm[0m[91m [0m[91mnotice[0m[91m 
+[0mRemoving intermediate container 47d1e366b09f
+ ---> 81d3fb585154
+Successfully built 81d3fb585154
+Successfully tagged tmp:latest
