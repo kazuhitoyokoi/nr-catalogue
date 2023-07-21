@@ -1,0 +1,35 @@
+
+----
+Sending build context to Docker daemon  38.97MB
+Step 1/2 : FROM nodered/node-red
+ ---> c18405a73444
+Step 2/2 : RUN npm install npm install @brainboxes/node-red-contrib-brainboxes@2.0.2
+ ---> Running in 6001b8bc5198
+[91mnpm[0m[91m [0m[91mWARN deprecated vm2@3.9.19: The library contains critical security issues and should not be used for production! The maintenance of the project has been discontinued. Consider migrating your code to isolated-vm.
+[0m
+added 103 packages, and audited 686 packages in 10s
+
+101 packages are looking for funding
+  run `npm fund` for details
+
+16 vulnerabilities (2 low, 11 moderate, 3 critical)
+
+To address issues that do not require attention, run:
+  npm audit fix
+
+To address all issues possible (including breaking changes), run:
+  npm audit fix --force
+
+Some issues need review, and may require choosing
+a different dependency.
+
+Run `npm audit` for details.
+[91mnpm[0m[91m [0m[91mnotice[0m[91m 
+[0m[91mnpm[0m[91m [0m[91mnotice[0m[91m New major version of npm available! 8.19.4 -> 9.8.1
+[0m[91mnpm[0m[91m [0m[91mnotice[0m[91m Changelog: <https://github.com/npm/cli/releases/tag/v9.8.1>
+[0m[91mnpm[0m[91m [0m[91mnotice[0m[91m Run `npm install -g npm@9.8.1` to update!
+[0m[91mnpm[0m[91m [0m[91mnotice[0m[91m 
+[0mRemoving intermediate container 6001b8bc5198
+ ---> ff4331b7418f
+Successfully built ff4331b7418f
+Successfully tagged tmp:latest
