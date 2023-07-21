@@ -1,7 +1,129 @@
 {
   "name": "Catalogue for Docker",
-  "updated_at": "2023-07-20T16:19:45.326Z",
+  "updated_at": "2023-07-21T16:27:32.618Z",
   "modules": [
+    {
+      "id": "@softwaredevelopment/node-red-contrib-bodhi-device-water-sensor",
+      "version": "0.0.1",
+      "description": "water sensor node for bodhi",
+      "updated_at": "2023-07-21T12:39:43.808Z",
+      "types": [
+        "Water Sensor"
+      ],
+      "keywords": [
+        "node-red",
+        "device",
+        "bodhi",
+        "water",
+        "sensor"
+      ],
+      "url": "https://flows.nodered.org/node/@softwaredevelopment/node-red-contrib-bodhi-device-water-sensor"
+    },
+    {
+      "id": "@brainboxes/node-red-contrib-brainboxes",
+      "version": "2.0.2",
+      "description": "Provides flow examples on how to use different communication protocols with a Brainboxes BB-400.",
+      "updated_at": "2023-07-21T12:25:08.546Z",
+      "types": [],
+      "keywords": [
+        "node-red",
+        "brainboxes",
+        "BB-400"
+      ],
+      "url": "https://flows.nodered.org/node/@brainboxes/node-red-contrib-brainboxes"
+    },
+    {
+      "id": "@softwaredevelopment/node-red-contrib-bodhi-device-switch-light",
+      "version": "0.0.3",
+      "description": "Bodhi switch light device for red node",
+      "updated_at": "2023-07-21T10:50:26.824Z",
+      "types": [
+        "Switch Light"
+      ],
+      "keywords": [
+        "node-red",
+        "device",
+        "bodhi",
+        "light",
+        "switch"
+      ],
+      "url": "https://flows.nodered.org/node/@softwaredevelopment/node-red-contrib-bodhi-device-switch-light"
+    },
+    {
+      "id": "@softwaredevelopment/node-red-contrib-bodhi-connector",
+      "version": "0.0.1",
+      "description": "Bodhi connector configuration for connecting nodes to bodhi through bodhi bridge",
+      "updated_at": "2023-07-21T10:48:47.212Z",
+      "types": [
+        "Bodhi Connector"
+      ],
+      "keywords": [
+        "node-red",
+        "connector",
+        "bodhi"
+      ],
+      "url": "https://flows.nodered.org/node/@softwaredevelopment/node-red-contrib-bodhi-connector"
+    },
+    {
+      "id": "@softwaredevelopment/node-red-contrib-bodhi-device-dimmer-light",
+      "version": "0.0.9",
+      "description": "Bodhi connector configuration for connecting nodes to bodhi",
+      "updated_at": "2023-07-21T10:48:12.169Z",
+      "types": [
+        "Dimmer Light"
+      ],
+      "keywords": [
+        "node-red",
+        "device",
+        "bodhi",
+        "light"
+      ],
+      "url": "https://flows.nodered.org/node/@softwaredevelopment/node-red-contrib-bodhi-device-dimmer-light"
+    },
+    {
+      "id": "node-red-contrib-device-monitor",
+      "version": "0.0.2",
+      "description": "Device monitor that pings and checks arp to determine whether device is connected to local network",
+      "updated_at": "2023-07-20T19:28:18.783Z",
+      "types": [],
+      "keywords": [
+        "node-red",
+        "monitor",
+        "device",
+        "ping",
+        "arp",
+        "home",
+        "network"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-device-monitor"
+    },
+    {
+      "id": "@digitalnodecom/node-red-contrib-generic-s3",
+      "version": "1.11.1",
+      "description": "Generic node-red S3 nodes",
+      "updated_at": "2023-07-20T15:04:45.101Z",
+      "types": [
+        "client-s3",
+        "List Buckets",
+        "Create Bucket",
+        "List Objects",
+        "List Objects V2",
+        "List Object Versions",
+        "Get Object",
+        "Head Object",
+        "Put Object",
+        "Put Objects",
+        "Delete Object",
+        "Copy Object",
+        "Move Object"
+      ],
+      "keywords": [
+        "node-red",
+        "s3",
+        "generic"
+      ],
+      "url": "https://flows.nodered.org/node/@digitalnodecom/node-red-contrib-generic-s3"
+    },
     {
       "id": "@kurago-dev/node-red-contrib-azure",
       "version": "1.0.6",
@@ -179,37 +301,6 @@
         "websocket"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-home-assistant-websocket"
-    },
-    {
-      "id": "@softwaredevelopment/node-red-contrib-bodhi-connector",
-      "version": "0.0.13",
-      "description": "Bodhi connector configuration for connecting nodes to bodhi",
-      "updated_at": "2023-07-18T18:23:34.450Z",
-      "types": [
-        "bodhi-connector"
-      ],
-      "keywords": [
-        "node-red",
-        "connector",
-        "bodhi"
-      ],
-      "url": "https://flows.nodered.org/node/@softwaredevelopment/node-red-contrib-bodhi-connector"
-    },
-    {
-      "id": "@softwaredevelopment/node-red-contrib-bodhi-device-dimmer-light",
-      "version": "0.0.6",
-      "description": "Bodhi connector configuration for connecting nodes to bodhi",
-      "updated_at": "2023-07-18T18:21:00.037Z",
-      "types": [
-        "dimmer-light"
-      ],
-      "keywords": [
-        "node-red",
-        "device",
-        "bodhi",
-        "light"
-      ],
-      "url": "https://flows.nodered.org/node/@softwaredevelopment/node-red-contrib-bodhi-device-dimmer-light"
     },
     {
       "id": "node-red-contrib-knx-ultimate",
@@ -556,33 +647,6 @@
       "url": "https://flows.nodered.org/node/@ifp-software/node-red-contrib-oee-ai-connector"
     },
     {
-      "id": "@digitalnodecom/node-red-contrib-generic-s3",
-      "version": "1.11.0",
-      "description": "Generic node-red S3 nodes",
-      "updated_at": "2023-07-17T10:45:03.971Z",
-      "types": [
-        "client-s3",
-        "List Buckets",
-        "Create Bucket",
-        "List Objects",
-        "List Objects V2",
-        "List Object Versions",
-        "Get Object",
-        "Head Object",
-        "Put Object",
-        "Put Objects",
-        "Delete Object",
-        "Copy Object",
-        "Move Object"
-      ],
-      "keywords": [
-        "node-red",
-        "s3",
-        "generic"
-      ],
-      "url": "https://flows.nodered.org/node/@digitalnodecom/node-red-contrib-generic-s3"
-    },
-    {
       "id": "@avoit/node-red-contrib-fr24tube",
       "version": "0.0.7",
       "description": "Node-RED node to fetch aircraft in a specific tube from Flightradar24 //Based on zuhito fligthradar24 node//",
@@ -926,6 +990,19 @@
         "rac-wf"
       ],
       "url": "https://flows.nodered.org/node/@programie/node-red-aircon-rac-wf"
+    },
+    {
+      "id": "@victronenergy/node-red-contrib-victron",
+      "version": "1.4.33",
+      "description": "Custom Node-RED Nodes for Victron Energy",
+      "updated_at": "2023-07-12T11:44:26.579Z",
+      "types": [
+        "victron-client"
+      ],
+      "keywords": [
+        "node-red"
+      ],
+      "url": "https://flows.nodered.org/node/@victronenergy/node-red-contrib-victron"
     },
     {
       "id": "node-red-contrib-persistent-global-context",
@@ -7882,19 +7959,6 @@
         "client"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-kubernetes-client-ubos"
-    },
-    {
-      "id": "@victronenergy/node-red-contrib-victron",
-      "version": "1.4.32",
-      "description": "Custom Node-RED Nodes for Victron Energy",
-      "updated_at": "2023-03-28T06:37:06.478Z",
-      "types": [
-        "victron-client"
-      ],
-      "keywords": [
-        "node-red"
-      ],
-      "url": "https://flows.nodered.org/node/@victronenergy/node-red-contrib-victron"
     },
     {
       "id": "node-red-contrib-whois-parser",
@@ -50119,19 +50183,6 @@
         "lighting control"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-mobius-flow-lighting"
-    },
-    {
-      "id": "@brainboxes/node-red-contrib-brainboxes",
-      "version": "1.1.0",
-      "description": "Provides flow examples on how to use different communication protocols with a Brainboxes BB-400.",
-      "updated_at": "2020-01-31T14:21:43.351Z",
-      "types": [],
-      "keywords": [
-        "node-red",
-        "brainboxes",
-        "BB-400"
-      ],
-      "url": "https://flows.nodered.org/node/@brainboxes/node-red-contrib-brainboxes"
     },
     {
       "id": "node-red-contrib-canopen-mcan",
