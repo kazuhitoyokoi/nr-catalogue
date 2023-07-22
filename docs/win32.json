@@ -1,7 +1,85 @@
 {
   "name": "Catalogue for Windows",
-  "updated_at": "2023-07-21T19:40:32.314Z",
+  "updated_at": "2023-07-22T17:59:56.521Z",
   "modules": [
+    {
+      "id": "@buglss/node-red-crontinject",
+      "version": "2.2.5",
+      "description": "It is an extended clone of core inject node with cronti package.",
+      "updated_at": "2023-07-22T08:39:22.416Z",
+      "types": [
+        "crontinject"
+      ],
+      "keywords": [
+        "inject",
+        "cronti",
+        "node-red",
+        "cronjo",
+        "crontab",
+        "crontime",
+        "repeater",
+        "schedule"
+      ],
+      "url": "https://flows.nodered.org/node/@buglss/node-red-crontinject"
+    },
+    {
+      "id": "node-red-contrib-obs-ws",
+      "version": "0.2.10",
+      "description": "Connect to OBS Studio and control it/receive events. Node-Red bindings for obs-websocket-js.",
+      "updated_at": "2023-07-22T08:32:53.517Z",
+      "types": [
+        "obs-instance",
+        "obs connection status",
+        "obs event",
+        "obs request",
+        "SetCurrentProgramScene",
+        "TriggerStudioModeTransition"
+      ],
+      "keywords": [
+        "node-red",
+        "obs-websocket",
+        "obs-websocket-js"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-obs-ws"
+    },
+    {
+      "id": "node-red-contrib-soundweb",
+      "version": "1.0.6",
+      "description": "A collection of nodes for controlling BSS soundweb devices.",
+      "updated_at": "2023-07-21T21:16:49.261Z",
+      "types": [
+        "soundweb-server",
+        "soundweb-Control",
+        "soundweb-Presets"
+      ],
+      "keywords": [
+        "node-red",
+        "BSS",
+        "BLU",
+        "Soundweb",
+        "Harman",
+        "Audio DSP",
+        "Audio Architect",
+        "London Architect"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-soundweb"
+    },
+    {
+      "id": "@softwaredevelopment/node-red-contrib-bodhi-device-thermostat",
+      "version": "0.0.1",
+      "description": "Thermostat device for bodhi node red",
+      "updated_at": "2023-07-21T21:16:33.539Z",
+      "types": [
+        "Thermostat"
+      ],
+      "keywords": [
+        "node-red",
+        "device",
+        "bodhi",
+        "thermostat"
+      ],
+      "url": "https://flows.nodered.org/node/@softwaredevelopment/node-red-contrib-bodhi-device-thermostat"
+    },
     {
       "id": "@softwaredevelopment/node-red-contrib-bodhi-device-water-sensor",
       "version": "0.0.1",
@@ -512,26 +590,6 @@
         "tools"
       ],
       "url": "https://flows.nodered.org/node/smithtek-node-red-tools"
-    },
-    {
-      "id": "node-red-contrib-obs-ws",
-      "version": "0.2.9",
-      "description": "Connect to OBS Studio and control it/receive events. Node-Red bindings for obs-websocket-js.",
-      "updated_at": "2023-07-17T19:55:36.451Z",
-      "types": [
-        "obs-instance",
-        "obs connection status",
-        "obs event",
-        "obs request",
-        "SetCurrentProgramScene",
-        "TriggerStudioModeTransition"
-      ],
-      "keywords": [
-        "node-red",
-        "obs-websocket",
-        "obs-websocket-js"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-obs-ws"
     },
     {
       "id": "cloud4machine-cloud-nodered",
@@ -3463,26 +3521,6 @@
       "url": "https://flows.nodered.org/node/node-red-contrib-kepware-iotgateway"
     },
     {
-      "id": "@buglss/node-red-crontinject",
-      "version": "2.2.3",
-      "description": "It is an extended clone of core inject node with cronti package.",
-      "updated_at": "2023-06-06T20:08:48.872Z",
-      "types": [
-        "crontinject"
-      ],
-      "keywords": [
-        "inject",
-        "cronti",
-        "node-red",
-        "cronjo",
-        "crontab",
-        "crontime",
-        "repeater",
-        "schedule"
-      ],
-      "url": "https://flows.nodered.org/node/@buglss/node-red-crontinject"
-    },
-    {
       "id": "node-red-contrib-simon-lola",
       "version": "0.0.2",
       "description": "lola node test",
@@ -5418,28 +5456,6 @@
         "heat-pump"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-panasonic-comfort-cloud"
-    },
-    {
-      "id": "node-red-contrib-soundweb",
-      "version": "1.0.5",
-      "description": "A collection of nodes for controlling BSS soundweb devices.",
-      "updated_at": "2023-05-08T00:50:58.160Z",
-      "types": [
-        "soundweb-server",
-        "soundweb-Control",
-        "soundweb-Presets"
-      ],
-      "keywords": [
-        "node-red",
-        "BSS",
-        "BLU",
-        "Soundweb",
-        "Harman",
-        "Audio DSP",
-        "Audio Architect",
-        "London Architect"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-soundweb"
     },
     {
       "id": "@ralphwetzel/node-red-mcu-plugin",
