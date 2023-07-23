@@ -1,7 +1,104 @@
 {
   "name": "Catalogue for Docker",
-  "updated_at": "2023-07-22T16:11:21.533Z",
+  "updated_at": "2023-07-23T16:11:05.202Z",
   "modules": [
+    {
+      "id": "node-red-contrib-spruthub",
+      "version": "3.0.1",
+      "description": "Sprut.hub connectivity nodes for node-red",
+      "updated_at": "2023-07-23T13:04:35.595Z",
+      "types": [
+        "spruthub-in",
+        "spruthub-get",
+        "spruthub-out",
+        "spruthub-server"
+      ],
+      "keywords": [
+        "spruthub",
+        "sprut",
+        "mqtt",
+        "wirenboard",
+        "node-red"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-spruthub"
+    },
+    {
+      "id": "node-red-contrib-letsfiware-ngsi",
+      "version": "0.16.0",
+      "description": "Node-RED implementation for FIWARE Open APIs",
+      "updated_at": "2023-07-23T10:56:18.606Z",
+      "types": [
+        "NGSI Entity",
+        "NGSI Attributes",
+        "NGSI Attribute",
+        "NGSI Attribute value",
+        "NGSI source",
+        "NGSI Batch update",
+        "NGSI subscription",
+        "NGSI registration",
+        "NGSI Types",
+        "NGSI Encode",
+        "NGSI Decode",
+        "Service and ServicePath",
+        "GTFS Realtime to NGSI",
+        "NGSI to worldmap",
+        "NGSI to dashboard",
+        "OpenWeatherMap to NGSI",
+        "FIWARE version",
+        "Historical Context",
+        "NGSI timeseries",
+        "Open APIs"
+      ],
+      "keywords": [
+        "node-red",
+        "contrib",
+        "fiware",
+        "ngsi",
+        "context",
+        "process",
+        "data",
+        "json"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-letsfiware-ngsi"
+    },
+    {
+      "id": "node-red-contrib-knx-ultimate",
+      "version": "2.1.36",
+      "description": "Control your KNX intallation via Node-Red! Single Node KNX IN/OUT with optional ETS group address importer. Easy to use and highly configurable. With integrated Philips HUE devices handling.",
+      "updated_at": "2023-07-22T19:40:17.120Z",
+      "types": [
+        "knxUltimate",
+        "knxUltimateSceneController",
+        "knxUltimateWatchDog",
+        "knxUltimateLogger",
+        "knxUltimate-config",
+        "knxUltimateGlobalContext",
+        "knxUltimateAlerter",
+        "knxUltimateLoadControl",
+        "knxUltimateViewer",
+        "hue-config",
+        "knxUltimateHueLight",
+        "knxUltimateHueButton",
+        "knxUltimateHueMotion",
+        "knxUltimateHueTapDial",
+        "knxUltimateHueLightSensor",
+        "knxUltimateHueTemperatureSensor",
+        "knxUltimateHueScene",
+        "knxUltimateHueBattery"
+      ],
+      "keywords": [
+        "node-red",
+        "KNX",
+        "ETS",
+        "eib",
+        "eibd",
+        "knxd",
+        "konnex",
+        "IOT",
+        "hue"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-knx-ultimate"
+    },
     {
       "id": "@buglss/node-red-crontinject",
       "version": "2.2.5",
@@ -41,6 +138,23 @@
         "obs-websocket-js"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-obs-ws"
+    },
+    {
+      "id": "node-red-contrib-midea-hvac",
+      "version": "1.2.5",
+      "description": "Nodes for controlling Midea HVAC in Node-RED",
+      "updated_at": "2023-07-22T05:14:48.026Z",
+      "types": [
+        "midea-hvac-config",
+        "midea-hvac"
+      ],
+      "keywords": [
+        "node-red",
+        "midea",
+        "ac",
+        "hvac"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-midea-hvac"
     },
     {
       "id": "node-red-contrib-soundweb",
@@ -379,44 +493,6 @@
         "websocket"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-home-assistant-websocket"
-    },
-    {
-      "id": "node-red-contrib-knx-ultimate",
-      "version": "2.1.35",
-      "description": "Control your KNX intallation via Node-Red! Single Node KNX IN/OUT with optional ETS group address importer. Easy to use and highly configurable. With integrated Philips HUE devices handling.",
-      "updated_at": "2023-07-18T16:11:49.276Z",
-      "types": [
-        "knxUltimate",
-        "knxUltimateSceneController",
-        "knxUltimateWatchDog",
-        "knxUltimateLogger",
-        "knxUltimate-config",
-        "knxUltimateGlobalContext",
-        "knxUltimateAlerter",
-        "knxUltimateLoadControl",
-        "knxUltimateViewer",
-        "hue-config",
-        "knxUltimateHueLight",
-        "knxUltimateHueButton",
-        "knxUltimateHueMotion",
-        "knxUltimateHueTapDial",
-        "knxUltimateHueLightSensor",
-        "knxUltimateHueTemperatureSensor",
-        "knxUltimateHueScene",
-        "knxUltimateHueBattery"
-      ],
-      "keywords": [
-        "node-red",
-        "KNX",
-        "ETS",
-        "eib",
-        "eibd",
-        "knxd",
-        "konnex",
-        "IOT",
-        "hue"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-knx-ultimate"
     },
     {
       "id": "node-red-contrib-boolean-logic-ultimate",
@@ -4014,45 +4090,6 @@
         "nodered"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-json-multi-schema"
-    },
-    {
-      "id": "node-red-contrib-letsfiware-ngsi",
-      "version": "0.15.0",
-      "description": "Node-RED implementation for FIWARE Open APIs",
-      "updated_at": "2023-05-31T10:51:07.741Z",
-      "types": [
-        "NGSI Entity",
-        "NGSI Attributes",
-        "NGSI Attribute",
-        "NGSI Attribute value",
-        "NGSI source",
-        "NGSI Batch update",
-        "NGSI subscription",
-        "NGSI registration",
-        "NGSI Types",
-        "NGSI Encode",
-        "NGSI Decode",
-        "Service and ServicePath",
-        "GTFS Realtime to NGSI",
-        "NGSI to worldmap",
-        "NGSI to dashboard",
-        "OpenWeatherMap to NGSI",
-        "FIWARE version",
-        "Historical Context",
-        "NGSI timeseries",
-        "Open APIs"
-      ],
-      "keywords": [
-        "node-red",
-        "contrib",
-        "fiware",
-        "ngsi",
-        "context",
-        "process",
-        "data",
-        "json"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-letsfiware-ngsi"
     },
     {
       "id": "node-red-contrib-postgresql",
@@ -14133,26 +14170,6 @@
       "url": "https://flows.nodered.org/node/@korve/node-red-convert-unit"
     },
     {
-      "id": "node-red-contrib-spruthub",
-      "version": "2.2.2",
-      "description": "Sprut.hub connectivity nodes for node-red",
-      "updated_at": "2022-11-25T05:01:46.254Z",
-      "types": [
-        "spruthub-in",
-        "spruthub-get",
-        "spruthub-out",
-        "spruthub-server"
-      ],
-      "keywords": [
-        "spruthub",
-        "sprut",
-        "mqtt",
-        "wirenboard",
-        "node-red"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-spruthub"
-    },
-    {
       "id": "node-red-node-aws",
       "version": "0.2.3",
       "description": "A Node-RED node to watch, save and retreive files from an Amazon S3 bucket",
@@ -15488,23 +15505,6 @@
         "intents"
       ],
       "url": "https://flows.nodered.org/node/node-red-boxip"
-    },
-    {
-      "id": "node-red-contrib-midea-hvac",
-      "version": "1.2.4",
-      "description": "Nodes for controlling Midea HVAC in Node-RED",
-      "updated_at": "2022-10-28T08:31:10.483Z",
-      "types": [
-        "midea-hvac-config",
-        "midea-hvac"
-      ],
-      "keywords": [
-        "node-red",
-        "midea",
-        "ac",
-        "hvac"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-midea-hvac"
     },
     {
       "id": "ducoboxhttp",
