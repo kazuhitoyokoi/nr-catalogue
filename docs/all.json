@@ -1,7 +1,123 @@
 {
   "name": "Catalogue for verified nodes",
-  "updated_at": "2023-07-23T19:25:00.292Z",
+  "updated_at": "2023-07-24T19:55:59.285Z",
   "modules": [
+    {
+      "id": "@jambonz/node-red-contrib-jambonz",
+      "version": "2.4.7",
+      "description": "Node-RED nodes for jambonz platform",
+      "updated_at": "2023-07-24T12:46:40.135Z",
+      "types": [
+        "webhook in",
+        "webhook out",
+        "audio in",
+        "jambonz_auth",
+        "aws_auth",
+        "enqueue",
+        "lex",
+        "say",
+        "dtmf",
+        "cfg",
+        "conference",
+        "gather",
+        "listen",
+        "sip:decline",
+        "sip:request",
+        "sip:refer",
+        "hangup",
+        "message",
+        "tag",
+        "pause",
+        "dequeue",
+        "play",
+        "dial",
+        "redirect",
+        "dialogflow",
+        "leave",
+        "rasa",
+        "user auth",
+        "create-call",
+        "create-sms",
+        "lcc",
+        "get_alerts",
+        "get_calls",
+        "get_recent_calls"
+      ],
+      "keywords": [
+        "node-red"
+      ],
+      "url": "https://flows.nodered.org/node/@jambonz/node-red-contrib-jambonz"
+    },
+    {
+      "id": "@ifp-software/node-red-contrib-oee-ai-connector",
+      "version": "2.6.4",
+      "description": "Easily connect your production machines to oee.ai – The Industry 4.0 solution for OEE optimization.",
+      "updated_at": "2023-07-24T12:39:03.759Z",
+      "types": [],
+      "keywords": [
+        "industrial",
+        "industry 4.0",
+        "iot",
+        "node-red",
+        "oee",
+        "oee.ai",
+        "sick",
+        "smart-factory",
+        "tdc"
+      ],
+      "url": "https://flows.nodered.org/node/@ifp-software/node-red-contrib-oee-ai-connector"
+    },
+    {
+      "id": "@digitalnodecom/node-red-contrib-generic-s3",
+      "version": "1.11.2",
+      "description": "Generic node-red S3 nodes",
+      "updated_at": "2023-07-24T11:22:58.161Z",
+      "types": [
+        "client-s3",
+        "List Buckets",
+        "Create Bucket",
+        "List Objects",
+        "List Objects V2",
+        "List Object Versions",
+        "Get Object",
+        "Head Object",
+        "Put Object",
+        "Put Objects",
+        "Delete Object",
+        "Copy Object",
+        "Move Object"
+      ],
+      "keywords": [
+        "node-red",
+        "s3",
+        "generic"
+      ],
+      "url": "https://flows.nodered.org/node/@digitalnodecom/node-red-contrib-generic-s3"
+    },
+    {
+      "id": "node-red-contrib-cron-plus",
+      "version": "2.0.1",
+      "description": "A flexible scheduler (cron, solar events, fixed dates) node for Node-RED with full dynamic control and time zone support",
+      "updated_at": "2023-07-24T07:58:12.987Z",
+      "types": [
+        "cronplus"
+      ],
+      "keywords": [
+        "node-red",
+        "scheduler",
+        "timer",
+        "cron",
+        "cronplus",
+        "cron plus",
+        "cron-plus",
+        "crontab",
+        "timer",
+        "suntime",
+        "sunrise",
+        "sunset"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-cron-plus"
+    },
     {
       "id": "node-red-contrib-spruthub",
       "version": "3.0.1",
@@ -275,33 +391,6 @@
         "network"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-device-monitor"
-    },
-    {
-      "id": "@digitalnodecom/node-red-contrib-generic-s3",
-      "version": "1.11.1",
-      "description": "Generic node-red S3 nodes",
-      "updated_at": "2023-07-20T15:04:45.101Z",
-      "types": [
-        "client-s3",
-        "List Buckets",
-        "Create Bucket",
-        "List Objects",
-        "List Objects V2",
-        "List Object Versions",
-        "Get Object",
-        "Head Object",
-        "Put Object",
-        "Put Objects",
-        "Delete Object",
-        "Copy Object",
-        "Move Object"
-      ],
-      "keywords": [
-        "node-red",
-        "s3",
-        "generic"
-      ],
-      "url": "https://flows.nodered.org/node/@digitalnodecom/node-red-contrib-generic-s3"
     },
     {
       "id": "@kurago-dev/node-red-contrib-azure",
@@ -688,52 +777,6 @@
       "url": "https://flows.nodered.org/node/cloud4machine-cloud-nodered"
     },
     {
-      "id": "@jambonz/node-red-contrib-jambonz",
-      "version": "2.4.5",
-      "description": "Node-RED nodes for jambonz platform",
-      "updated_at": "2023-07-17T11:40:20.283Z",
-      "types": [
-        "webhook in",
-        "webhook out",
-        "audio in",
-        "jambonz_auth",
-        "aws_auth",
-        "enqueue",
-        "lex",
-        "say",
-        "dtmf",
-        "cfg",
-        "conference",
-        "gather",
-        "listen",
-        "sip:decline",
-        "sip:request",
-        "sip:refer",
-        "hangup",
-        "message",
-        "tag",
-        "pause",
-        "dequeue",
-        "play",
-        "dial",
-        "redirect",
-        "dialogflow",
-        "leave",
-        "rasa",
-        "user auth",
-        "create-call",
-        "create-sms",
-        "lcc",
-        "get_alerts",
-        "get_calls",
-        "get_recent_calls"
-      ],
-      "keywords": [
-        "node-red"
-      ],
-      "url": "https://flows.nodered.org/node/@jambonz/node-red-contrib-jambonz"
-    },
-    {
       "id": "node-red-contrib-spike-counter",
       "version": "0.0.1",
       "description": "A Node-RED node that counts spikes or fluctuations occuring in input signals",
@@ -747,25 +790,6 @@
         "anomaly detection"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-spike-counter"
-    },
-    {
-      "id": "@ifp-software/node-red-contrib-oee-ai-connector",
-      "version": "2.6.3",
-      "description": "Easily connect your production machines to oee.ai – The Industry 4.0 solution for OEE optimization.",
-      "updated_at": "2023-07-17T10:51:42.660Z",
-      "types": [],
-      "keywords": [
-        "industrial",
-        "industry 4.0",
-        "iot",
-        "node-red",
-        "oee",
-        "oee.ai",
-        "sick",
-        "smart-factory",
-        "tdc"
-      ],
-      "url": "https://flows.nodered.org/node/@ifp-software/node-red-contrib-oee-ai-connector"
     },
     {
       "id": "@avoit/node-red-contrib-fr24tube",
@@ -20624,28 +20648,6 @@
         "yolov5"
       ],
       "url": "https://flows.nodered.org/node/@ubraine/node-red-ubos-detection-service"
-    },
-    {
-      "id": "node-red-contrib-cron-plus",
-      "version": "1.5.7",
-      "description": "A flexible scheduler (cron, solar events, simple dates) node for Node-RED with full dynamic control and Timezone support",
-      "updated_at": "2022-06-08T06:56:33.790Z",
-      "types": [
-        "cronplus"
-      ],
-      "keywords": [
-        "node-red",
-        "scheduler",
-        "cron",
-        "cronplus",
-        "cron plus",
-        "cron-plus",
-        "crontab",
-        "timer",
-        "sunrise",
-        "sunset"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-cron-plus"
     },
     {
       "id": "node-red-contrib-web-page-screenshot",
