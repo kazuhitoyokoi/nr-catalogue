@@ -1,12 +1,189 @@
 {
   "name": "Catalogue for Docker",
-  "updated_at": "2023-07-24T16:34:49.352Z",
+  "updated_at": "2023-07-25T16:29:15.763Z",
   "modules": [
     {
+      "id": "node-red-contrib-knx-ultimate",
+      "version": "2.1.37",
+      "description": "Control your KNX intallation via Node-Red! Single Node KNX IN/OUT with optional ETS group address importer. Easy to use and highly configurable. With integrated Philips HUE devices handling.",
+      "updated_at": "2023-07-25T13:34:32.253Z",
+      "types": [
+        "knxUltimate",
+        "knxUltimateSceneController",
+        "knxUltimateWatchDog",
+        "knxUltimateLogger",
+        "knxUltimate-config",
+        "knxUltimateGlobalContext",
+        "knxUltimateAlerter",
+        "knxUltimateLoadControl",
+        "knxUltimateViewer",
+        "hue-config",
+        "knxUltimateHueLight",
+        "knxUltimateHueButton",
+        "knxUltimateHueMotion",
+        "knxUltimateHueTapDial",
+        "knxUltimateHueLightSensor",
+        "knxUltimateHueTemperatureSensor",
+        "knxUltimateHueScene",
+        "knxUltimateHueBattery"
+      ],
+      "keywords": [
+        "node-red",
+        "KNX",
+        "ETS",
+        "eib",
+        "eibd",
+        "knxd",
+        "konnex",
+        "IOT",
+        "hue"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-knx-ultimate"
+    },
+    {
+      "id": "node-red-contrib-spike-reporter",
+      "version": "1.0.0",
+      "description": "Node-RED node for monitoring system's state and reporting alarms based on consecutive out-of-control status indications obtained from node-red-contrib-simple-spc node.",
+      "updated_at": "2023-07-25T10:46:42.846Z",
+      "types": [
+        "alarm"
+      ],
+      "keywords": [
+        "node-red",
+        "spike",
+        "reporter",
+        "out-of-control",
+        "monitoring"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-spike-reporter"
+    },
+    {
+      "id": "rootedge-node-red-datasource",
+      "version": "2.0.8",
+      "description": "rootedge-node-red-datasource节点描述",
+      "updated_at": "2023-07-25T10:41:39.961Z",
+      "types": [
+        "datasource out",
+        "datasource in"
+      ],
+      "keywords": [
+        "node-red",
+        "IoT"
+      ],
+      "url": "https://flows.nodered.org/node/rootedge-node-red-datasource"
+    },
+    {
+      "id": "@coremarine/nr-sbf-parser",
+      "version": "1.0.2",
+      "description": "A group of Node-Red components to work with Septentrio SBF protocol",
+      "updated_at": "2023-07-25T10:25:27.484Z",
+      "types": [
+        "septentrio-parser"
+      ],
+      "keywords": [
+        "node-red",
+        "sbf",
+        "septentrio",
+        "gnss",
+        "parser",
+        "binary",
+        "protocol"
+      ],
+      "url": "https://flows.nodered.org/node/@coremarine/nr-sbf-parser"
+    },
+    {
+      "id": "@digitalnodecom/node-red-contrib-puppeteer",
+      "version": "1.0.0",
+      "description": "NodeRED nodes to control a headless chrome with puppeteer",
+      "updated_at": "2023-07-25T09:45:08.768Z",
+      "types": [
+        "puppeteer-browser-launch",
+        "puppeteer-browser-close",
+        "puppeteer-browser-newPage",
+        "puppeteer-page-goto",
+        "puppeteer-page-screenshot",
+        "puppeteer-page-content",
+        "puppeteer-page-click",
+        "puppeteer-page-download",
+        "puppeteer-page-focus",
+        "puppeteer-page-waitFor",
+        "puppeteer-page-getCookies",
+        "puppeteer-page-setCookies",
+        "puppeteer-page-deleteCookies",
+        "puppeteer-page-close",
+        "puppeteer-page-keyboard-type",
+        "puppeteer-page-keyboard-press",
+        "puppeteer-page-get-value",
+        "puppeteer-page-set-value",
+        "puppeteer-page-upload",
+        "puppeteer-rename"
+      ],
+      "keywords": [
+        "chrome",
+        "browser automation",
+        "puppeteer",
+        "node-red"
+      ],
+      "url": "https://flows.nodered.org/node/@digitalnodecom/node-red-contrib-puppeteer"
+    },
+    {
+      "id": "@softwaredevelopment/node-red-contrib-bodhi-device-humidity-sensor",
+      "version": "0.0.1",
+      "description": "Humidity Sensor node for bodhi node red",
+      "updated_at": "2023-07-24T20:30:12.055Z",
+      "types": [
+        "Humidity Sensor"
+      ],
+      "keywords": [
+        "node-red",
+        "device",
+        "bodhi",
+        "humidity",
+        "sensor"
+      ],
+      "url": "https://flows.nodered.org/node/@softwaredevelopment/node-red-contrib-bodhi-device-humidity-sensor"
+    },
+    {
+      "id": "node-red-contrib-unifi",
+      "version": "0.2.15",
+      "description": "Node for Node-RED to connect to a UniFi Controller ",
+      "updated_at": "2023-07-24T20:15:01.485Z",
+      "types": [
+        "unificonfig",
+        "Unifi"
+      ],
+      "keywords": [
+        "node-red",
+        "unifi",
+        "ubnt",
+        "Ubiquiti Networks"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-unifi"
+    },
+    {
+      "id": "node-red-contrib-solaredge-power",
+      "version": "0.3.4",
+      "description": "Node-RED node to interface with SolarEdge solar photovoltaic inverters API",
+      "updated_at": "2023-07-24T19:51:13.833Z",
+      "types": [
+        "solaredge-power-site",
+        "solaredge-power"
+      ],
+      "keywords": [
+        "node-red",
+        "solaredge",
+        "solar",
+        "photovoltaic",
+        "inverter",
+        "power"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-solaredge-power"
+    },
+    {
       "id": "@jambonz/node-red-contrib-jambonz",
-      "version": "2.4.7",
+      "version": "2.4.8",
       "description": "Node-RED nodes for jambonz platform",
-      "updated_at": "2023-07-24T12:46:40.135Z",
+      "updated_at": "2023-07-24T19:39:37.933Z",
       "types": [
         "webhook in",
         "webhook out",
@@ -47,6 +224,43 @@
         "node-red"
       ],
       "url": "https://flows.nodered.org/node/@jambonz/node-red-contrib-jambonz"
+    },
+    {
+      "id": "node-red-contrib-spruthub",
+      "version": "3.0.2",
+      "description": "Sprut.hub connectivity nodes for node-red",
+      "updated_at": "2023-07-24T18:12:44.416Z",
+      "types": [
+        "spruthub-in",
+        "spruthub-get",
+        "spruthub-out",
+        "spruthub-server"
+      ],
+      "keywords": [
+        "spruthub",
+        "sprut",
+        "mqtt",
+        "wirenboard",
+        "node-red"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-spruthub"
+    },
+    {
+      "id": "@softwaredevelopment/node-red-contrib-bodhi-device-rgb-light",
+      "version": "0.0.1",
+      "description": "RGB light device for bodhi node red",
+      "updated_at": "2023-07-24T17:08:14.943Z",
+      "types": [
+        "RGB Light"
+      ],
+      "keywords": [
+        "node-red",
+        "device",
+        "bodhi",
+        "rgb",
+        "light"
+      ],
+      "url": "https://flows.nodered.org/node/@softwaredevelopment/node-red-contrib-bodhi-device-rgb-light"
     },
     {
       "id": "@ifp-software/node-red-contrib-oee-ai-connector",
@@ -119,26 +333,6 @@
       "url": "https://flows.nodered.org/node/node-red-contrib-cron-plus"
     },
     {
-      "id": "node-red-contrib-spruthub",
-      "version": "3.0.1",
-      "description": "Sprut.hub connectivity nodes for node-red",
-      "updated_at": "2023-07-23T13:04:35.595Z",
-      "types": [
-        "spruthub-in",
-        "spruthub-get",
-        "spruthub-out",
-        "spruthub-server"
-      ],
-      "keywords": [
-        "spruthub",
-        "sprut",
-        "mqtt",
-        "wirenboard",
-        "node-red"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-spruthub"
-    },
-    {
       "id": "node-red-contrib-letsfiware-ngsi",
       "version": "0.16.0",
       "description": "Node-RED implementation for FIWARE Open APIs",
@@ -176,44 +370,6 @@
         "json"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-letsfiware-ngsi"
-    },
-    {
-      "id": "node-red-contrib-knx-ultimate",
-      "version": "2.1.36",
-      "description": "Control your KNX intallation via Node-Red! Single Node KNX IN/OUT with optional ETS group address importer. Easy to use and highly configurable. With integrated Philips HUE devices handling.",
-      "updated_at": "2023-07-22T19:40:17.120Z",
-      "types": [
-        "knxUltimate",
-        "knxUltimateSceneController",
-        "knxUltimateWatchDog",
-        "knxUltimateLogger",
-        "knxUltimate-config",
-        "knxUltimateGlobalContext",
-        "knxUltimateAlerter",
-        "knxUltimateLoadControl",
-        "knxUltimateViewer",
-        "hue-config",
-        "knxUltimateHueLight",
-        "knxUltimateHueButton",
-        "knxUltimateHueMotion",
-        "knxUltimateHueTapDial",
-        "knxUltimateHueLightSensor",
-        "knxUltimateHueTemperatureSensor",
-        "knxUltimateHueScene",
-        "knxUltimateHueBattery"
-      ],
-      "keywords": [
-        "node-red",
-        "KNX",
-        "ETS",
-        "eib",
-        "eibd",
-        "knxd",
-        "konnex",
-        "IOT",
-        "hue"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-knx-ultimate"
     },
     {
       "id": "@buglss/node-red-crontinject",
@@ -475,20 +631,6 @@
         "PhoenixContact"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-proficloud"
-    },
-    {
-      "id": "rootedge-node-red-datasource",
-      "version": "2.0.6",
-      "description": "rootedge-node-red-datasource节点描述",
-      "updated_at": "2023-07-20T02:57:45.475Z",
-      "types": [
-        "datasource"
-      ],
-      "keywords": [
-        "node-red",
-        "IoT"
-      ],
-      "url": "https://flows.nodered.org/node/rootedge-node-red-datasource"
     },
     {
       "id": "blackmagic-atem-nodered",
@@ -8501,23 +8643,6 @@
         "node-red"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-docxtemplater"
-    },
-    {
-      "id": "node-red-contrib-unifi",
-      "version": "0.2.14",
-      "description": "Node for Node-RED to connect to a UniFi Controller ",
-      "updated_at": "2023-03-23T19:31:34.435Z",
-      "types": [
-        "unificonfig",
-        "Unifi"
-      ],
-      "keywords": [
-        "node-red",
-        "unifi",
-        "ubnt",
-        "Ubiquiti Networks"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-unifi"
     },
     {
       "id": "node-red-contrib-web3-blue",
@@ -29764,25 +29889,6 @@
         "binary"
       ],
       "url": "https://flows.nodered.org/node/red-contrib-string-binary-parser"
-    },
-    {
-      "id": "node-red-contrib-solaredge-power",
-      "version": "0.2.1",
-      "description": "Node-RED node to interface with SolarEdge solar photovoltaic inverters API",
-      "updated_at": "2021-10-16T21:22:24.229Z",
-      "types": [
-        "solaredge-power-site",
-        "solaredge-power"
-      ],
-      "keywords": [
-        "node-red",
-        "solaredge",
-        "solar",
-        "photovoltaic",
-        "inverter",
-        "power"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-solaredge-power"
     },
     {
       "id": "node-red-contrib-name2ipv4",
