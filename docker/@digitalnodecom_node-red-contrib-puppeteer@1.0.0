@@ -1,0 +1,32 @@
+
+----
+Sending build context to Docker daemon  39.63MB
+Step 1/2 : FROM nodered/node-red
+ ---> c18405a73444
+Step 2/2 : RUN npm install npm install @digitalnodecom/node-red-contrib-puppeteer@1.0.0
+ ---> Running in 619e9655d823
+[91mnpm WARN deprecated puppeteer@13.7.0: < 19.4.0 is no longer supported
+[0m
+added 34 packages, and audited 576 packages in 14s
+
+65 packages are looking for funding
+  run `npm fund` for details
+
+10 vulnerabilities (2 low, 8 moderate)
+
+To address issues that do not require attention, run:
+  npm audit fix
+
+To address all issues (including breaking changes), run:
+  npm audit fix --force
+
+Run `npm audit` for details.
+[91mnpm[0m[91m [0m[91mnotice[0m[91m 
+[0m[91mnpm[0m[91m [0m[91mnotice[0m[91m New major version of npm available! 8.19.4 -> 9.8.1
+[0m[91mnpm[0m[91m [0m[91mnotice Changelog: <https://github.com/npm/cli/releases/tag/v9.8.1>
+npm notice[0m[91m Run `npm install -g npm@9.8.1` to update!
+[0m[91mnpm[0m[91m [0m[91mnotice[0m[91m 
+[0mRemoving intermediate container 619e9655d823
+ ---> efb92dac8984
+Successfully built efb92dac8984
+Successfully tagged tmp:latest
