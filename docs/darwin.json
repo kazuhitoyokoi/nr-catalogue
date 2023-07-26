@@ -1,7 +1,235 @@
 {
   "name": "Catalogue for macOS",
-  "updated_at": "2023-07-25T22:25:42.534Z",
+  "updated_at": "2023-07-26T21:02:45.694Z",
   "modules": [
+    {
+      "id": "node-red-contrib-cron-plus",
+      "version": "2.1.0",
+      "description": "A flexible scheduler (cron, solar events, fixed dates) node for Node-RED with full dynamic control and time zone support",
+      "updated_at": "2023-07-26T18:52:42.384Z",
+      "types": [
+        "cronplus"
+      ],
+      "keywords": [
+        "node-red",
+        "scheduler",
+        "timer",
+        "cron",
+        "cronplus",
+        "cron plus",
+        "cron-plus",
+        "crontab",
+        "timer",
+        "suntime",
+        "sunrise",
+        "sunset"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-cron-plus"
+    },
+    {
+      "id": "node-red-contrib-sitx",
+      "version": "1.0.2",
+      "description": "Node-RED Nodes for sending & receiving Cursor on Target TAK Data with PAR Sit(x).",
+      "updated_at": "2023-07-26T18:13:10.962Z",
+      "types": [
+        "sitx_config",
+        "Sit(x) Node",
+        "__errors__"
+      ],
+      "keywords": [
+        "node-red",
+        "cursor-on-target",
+        "cot",
+        "tak",
+        "atak"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-sitx"
+    },
+    {
+      "id": "@tonymacdonald/node-red-msg-encapsulation",
+      "version": "0.0.4",
+      "description": "Wrap existing message as a property in a new message or extract a previously wrapped message",
+      "updated_at": "2023-07-26T15:18:55.959Z",
+      "types": [
+        "wrap-msg",
+        "unwrap-msg"
+      ],
+      "keywords": [
+        "node-red"
+      ],
+      "url": "https://flows.nodered.org/node/@tonymacdonald/node-red-msg-encapsulation"
+    },
+    {
+      "id": "@flowforge/node-red-dashboard",
+      "version": "0.0.3",
+      "description": "A collection of Node-RED nodes that provide functionality to build your own UI applications (inc. forms, buttons, charts) within Node-RED.",
+      "updated_at": "2023-07-26T13:19:16.111Z",
+      "types": [
+        "ui-base",
+        "ui-page",
+        "ui-group",
+        "ui-theme",
+        "ui-text-input",
+        "ui-button",
+        "ui-dropdown",
+        "ui-slider",
+        "ui-text",
+        "ui-chart",
+        "ui-markdown"
+      ],
+      "keywords": [
+        "node-red"
+      ],
+      "url": "https://flows.nodered.org/node/@flowforge/node-red-dashboard"
+    },
+    {
+      "id": "@tbowmo/node-red-small-timer",
+      "version": "0.7.1",
+      "description": "Small timer node for node red with support for sunrise, sunset etc. timers",
+      "updated_at": "2023-07-26T09:34:36.700Z",
+      "types": [
+        "smalltimer",
+        "position"
+      ],
+      "keywords": [
+        "node-red",
+        "timer",
+        "sunset",
+        "sunrise",
+        "dawn",
+        "dusk"
+      ],
+      "url": "https://flows.nodered.org/node/@tbowmo/node-red-small-timer"
+    },
+    {
+      "id": "@digitalnodecom/node-red-contrib-puppeteer",
+      "version": "1.0.1",
+      "description": "NodeRED nodes to control a headless chrome with puppeteer",
+      "updated_at": "2023-07-26T08:56:05.094Z",
+      "types": [
+        "puppeteer-browser-launch",
+        "puppeteer-browser-close",
+        "puppeteer-browser-newPage",
+        "puppeteer-page-goto",
+        "puppeteer-page-screenshot",
+        "puppeteer-page-content",
+        "puppeteer-page-click",
+        "puppeteer-page-download",
+        "puppeteer-page-focus",
+        "puppeteer-page-waitFor",
+        "puppeteer-page-getCookies",
+        "puppeteer-page-setCookies",
+        "puppeteer-page-deleteCookies",
+        "puppeteer-page-close",
+        "puppeteer-page-keyboard-type",
+        "puppeteer-page-keyboard-press",
+        "puppeteer-page-get-value",
+        "puppeteer-page-set-value",
+        "puppeteer-page-upload",
+        "puppeteer-rename"
+      ],
+      "keywords": [
+        "chrome",
+        "browser automation",
+        "puppeteer",
+        "node-red"
+      ],
+      "url": "https://flows.nodered.org/node/@digitalnodecom/node-red-contrib-puppeteer"
+    },
+    {
+      "id": "rootedge-node-red-datasource",
+      "version": "2.0.10",
+      "description": "rootedge-node-red-datasource节点描述",
+      "updated_at": "2023-07-26T08:20:59.709Z",
+      "types": [
+        "datasource out",
+        "datasource in"
+      ],
+      "keywords": [
+        "node-red",
+        "IoT"
+      ],
+      "url": "https://flows.nodered.org/node/rootedge-node-red-datasource"
+    },
+    {
+      "id": "node-red-contrib-spruthub",
+      "version": "3.0.3",
+      "description": "Sprut.hub connectivity nodes for node-red",
+      "updated_at": "2023-07-26T07:12:58.555Z",
+      "types": [
+        "spruthub-in",
+        "spruthub-get",
+        "spruthub-out",
+        "spruthub-server"
+      ],
+      "keywords": [
+        "spruthub",
+        "sprut",
+        "mqtt",
+        "wirenboard",
+        "node-red"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-spruthub"
+    },
+    {
+      "id": "nr-meross-cloud",
+      "version": "0.1.2",
+      "description": "Node-RED Node to get Energy Data of Meross SmartPlug (like MSS310)",
+      "updated_at": "2023-07-26T01:46:03.607Z",
+      "types": [
+        "MerossEnergy"
+      ],
+      "keywords": [
+        "node-red",
+        "meross",
+        "cloud",
+        "mqtt",
+        "corrently",
+        "current",
+        "smartplug"
+      ],
+      "url": "https://flows.nodered.org/node/nr-meross-cloud"
+    },
+    {
+      "id": "node-red-contrib-qsys",
+      "version": "1.0.1",
+      "description": "A collection of nodes for third party control of Q-Sys systems",
+      "updated_at": "2023-07-25T23:49:59.003Z",
+      "types": [
+        "qsys-core",
+        "qsys-ControlSet",
+        "qsys-Presets"
+      ],
+      "keywords": [
+        "node-red",
+        "q-sys",
+        "QSC",
+        "audio",
+        "audio DSP"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-qsys"
+    },
+    {
+      "id": "@studiobox/node-red-contrib-ui-widget-bulb-basic",
+      "version": "0.4.0",
+      "description": "Easy to use Node-RED UI Widget on Node-RED Dashboard for easy to display virtual bulb (for turn on/off).",
+      "updated_at": "2023-07-25T22:16:35.852Z",
+      "types": [
+        "ui_widget_bulb_basic"
+      ],
+      "keywords": [
+        "node-red",
+        "node-red-dashboard",
+        "ui-widget",
+        "dashboard-ui",
+        "bulb",
+        "display-bulb",
+        "ui-widget-bulb",
+        "turn-on-off-bulb",
+        "widget"
+      ],
+      "url": "https://flows.nodered.org/node/@studiobox/node-red-contrib-ui-widget-bulb-basic"
+    },
     {
       "id": "node-red-contrib-zwave-js",
       "version": "8.2.0",
@@ -97,21 +325,6 @@
       "url": "https://flows.nodered.org/node/node-red-contrib-spike-reporter"
     },
     {
-      "id": "rootedge-node-red-datasource",
-      "version": "2.0.8",
-      "description": "rootedge-node-red-datasource节点描述",
-      "updated_at": "2023-07-25T10:41:39.961Z",
-      "types": [
-        "datasource out",
-        "datasource in"
-      ],
-      "keywords": [
-        "node-red",
-        "IoT"
-      ],
-      "url": "https://flows.nodered.org/node/rootedge-node-red-datasource"
-    },
-    {
       "id": "@coremarine/nr-sbf-parser",
       "version": "1.0.2",
       "description": "A group of Node-Red components to work with Septentrio SBF protocol",
@@ -129,41 +342,6 @@
         "protocol"
       ],
       "url": "https://flows.nodered.org/node/@coremarine/nr-sbf-parser"
-    },
-    {
-      "id": "@digitalnodecom/node-red-contrib-puppeteer",
-      "version": "1.0.0",
-      "description": "NodeRED nodes to control a headless chrome with puppeteer",
-      "updated_at": "2023-07-25T09:45:08.768Z",
-      "types": [
-        "puppeteer-browser-launch",
-        "puppeteer-browser-close",
-        "puppeteer-browser-newPage",
-        "puppeteer-page-goto",
-        "puppeteer-page-screenshot",
-        "puppeteer-page-content",
-        "puppeteer-page-click",
-        "puppeteer-page-download",
-        "puppeteer-page-focus",
-        "puppeteer-page-waitFor",
-        "puppeteer-page-getCookies",
-        "puppeteer-page-setCookies",
-        "puppeteer-page-deleteCookies",
-        "puppeteer-page-close",
-        "puppeteer-page-keyboard-type",
-        "puppeteer-page-keyboard-press",
-        "puppeteer-page-get-value",
-        "puppeteer-page-set-value",
-        "puppeteer-page-upload",
-        "puppeteer-rename"
-      ],
-      "keywords": [
-        "chrome",
-        "browser automation",
-        "puppeteer",
-        "node-red"
-      ],
-      "url": "https://flows.nodered.org/node/@digitalnodecom/node-red-contrib-puppeteer"
     },
     {
       "id": "@softwaredevelopment/node-red-contrib-bodhi-device-humidity-sensor",
@@ -265,26 +443,6 @@
       "url": "https://flows.nodered.org/node/@jambonz/node-red-contrib-jambonz"
     },
     {
-      "id": "node-red-contrib-spruthub",
-      "version": "3.0.2",
-      "description": "Sprut.hub connectivity nodes for node-red",
-      "updated_at": "2023-07-24T18:12:44.416Z",
-      "types": [
-        "spruthub-in",
-        "spruthub-get",
-        "spruthub-out",
-        "spruthub-server"
-      ],
-      "keywords": [
-        "spruthub",
-        "sprut",
-        "mqtt",
-        "wirenboard",
-        "node-red"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-spruthub"
-    },
-    {
       "id": "@softwaredevelopment/node-red-contrib-bodhi-device-rgb-light",
       "version": "0.0.1",
       "description": "RGB light device for bodhi node red",
@@ -346,30 +504,6 @@
         "generic"
       ],
       "url": "https://flows.nodered.org/node/@digitalnodecom/node-red-contrib-generic-s3"
-    },
-    {
-      "id": "node-red-contrib-cron-plus",
-      "version": "2.0.1",
-      "description": "A flexible scheduler (cron, solar events, fixed dates) node for Node-RED with full dynamic control and time zone support",
-      "updated_at": "2023-07-24T07:58:12.987Z",
-      "types": [
-        "cronplus"
-      ],
-      "keywords": [
-        "node-red",
-        "scheduler",
-        "timer",
-        "cron",
-        "cronplus",
-        "cron plus",
-        "cron-plus",
-        "crontab",
-        "timer",
-        "suntime",
-        "sunrise",
-        "sunset"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-cron-plus"
     },
     {
       "id": "node-red-contrib-letsfiware-ngsi",
@@ -834,25 +968,6 @@
         "api"
       ],
       "url": "https://flows.nodered.org/node/victron-vrm-api"
-    },
-    {
-      "id": "nr-meross-cloud",
-      "version": "0.1.1",
-      "description": "Node-RED Node to get Energy Data of Meross SmartPlug (like MSS310)",
-      "updated_at": "2023-07-18T08:35:17.073Z",
-      "types": [
-        "MerossEnergy"
-      ],
-      "keywords": [
-        "node-red",
-        "meross",
-        "cloud",
-        "mqtt",
-        "corrently",
-        "current",
-        "smartplug"
-      ],
-      "url": "https://flows.nodered.org/node/nr-meross-cloud"
     },
     {
       "id": "@spectraautomation/node-red-urbancontroller-dio",
@@ -1797,27 +1912,6 @@
         "oee-calculator"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-trexmes-signal-counter"
-    },
-    {
-      "id": "@studiobox/node-red-contrib-ui-widget-bulb-basic",
-      "version": "0.3.2",
-      "description": "Easy to use Node-RED UI Widget on Node-RED Dashboard for easy to display virtual bulb (for turn on/off).",
-      "updated_at": "2023-07-06T10:05:15.193Z",
-      "types": [
-        "ui_widget_bulb_basic"
-      ],
-      "keywords": [
-        "node-red",
-        "node-red-dashboard",
-        "ui-widget",
-        "dashboard-ui",
-        "bulb",
-        "display-bulb",
-        "ui-widget-bulb",
-        "turn-on-off-bulb",
-        "widget"
-      ],
-      "url": "https://flows.nodered.org/node/@studiobox/node-red-contrib-ui-widget-bulb-basic"
     },
     {
       "id": "@studiobox/node-red-contrib-ui-widget-humidity-tree",
@@ -3573,25 +3667,6 @@
         "sodick"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-sodick-siot-comm"
-    },
-    {
-      "id": "@tbowmo/node-red-small-timer",
-      "version": "0.6.0",
-      "description": "Small timer node for node red with support for sunrise, sunset etc. timers",
-      "updated_at": "2023-06-12T20:15:56.808Z",
-      "types": [
-        "smalltimer",
-        "position"
-      ],
-      "keywords": [
-        "node-red",
-        "timer",
-        "sunset",
-        "sunrise",
-        "dawn",
-        "dusk"
-      ],
-      "url": "https://flows.nodered.org/node/@tbowmo/node-red-small-timer"
     },
     {
       "id": "node-red-contrib-openai-ubos",
@@ -11598,25 +11673,6 @@
         "smart-contract"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-near-protocol"
-    },
-    {
-      "id": "node-red-contrib-qsys",
-      "version": "1.0.0",
-      "description": "A collection of nodes for third party control of Q-Sys systems",
-      "updated_at": "2023-01-26T23:08:58.524Z",
-      "types": [
-        "qsys-core",
-        "qsys-ControlSet",
-        "qsys-Presets"
-      ],
-      "keywords": [
-        "node-red",
-        "q-sys",
-        "QSC",
-        "audio",
-        "audio DSP"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-qsys"
     },
     {
       "id": "node-red-contrib-proxmox-backup-server",
