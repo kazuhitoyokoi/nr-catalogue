@@ -1,0 +1,31 @@
+
+----
+Sending build context to Docker daemon  40.82MB
+Step 1/2 : FROM nodered/node-red
+ ---> c18405a73444
+Step 2/2 : RUN npm install npm install node-red-ubyte-arangodb@1.3.0
+ ---> Running in 43420a3f1206
+
+added 22 packages, and audited 564 packages in 5s
+
+69 packages are looking for funding
+  run `npm fund` for details
+
+10 vulnerabilities (2 low, 8 moderate)
+
+To address issues that do not require attention, run:
+  npm audit fix
+
+To address all issues (including breaking changes), run:
+  npm audit fix --force
+
+Run `npm audit` for details.
+[91mnpm notice[0m[91m 
+npm notice New major version of npm available! 8.19.4 -> 9.8.1
+npm notice Changelog: <https://github.com/npm/cli/releases/tag/v9.8.1>
+npm notice Run `npm install -g npm@9.8.1` to update!
+npm notice 
+[0mRemoving intermediate container 43420a3f1206
+ ---> c658eda0017d
+Successfully built c658eda0017d
+Successfully tagged tmp:latest
