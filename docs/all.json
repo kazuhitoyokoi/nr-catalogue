@@ -1,12 +1,127 @@
 {
   "name": "Catalogue for verified nodes",
-  "updated_at": "2023-07-26T21:03:04.697Z",
+  "updated_at": "2023-07-27T19:27:47.373Z",
   "modules": [
     {
+      "id": "@mkc-gmbh/node-red-mqtt-homie",
+      "version": "1.0.1",
+      "description": "MKC MQTT HOMIE protocol helper for Node-Red.",
+      "updated_at": "2023-07-27T14:15:13.781Z",
+      "types": [
+        "mkc-mqtt-config",
+        "mkc-mqtt-device",
+        "mkc-mqtt-in",
+        "mkc-mqtt-out"
+      ],
+      "keywords": [
+        "node-red",
+        "mkc",
+        "eNetIO",
+        "eNetCube",
+        "eNetVario",
+        "eNetMaxi",
+        "eNetMini",
+        "homie",
+        "mqtt"
+      ],
+      "url": "https://flows.nodered.org/node/@mkc-gmbh/node-red-mqtt-homie"
+    },
+    {
+      "id": "@jambonz/node-red-contrib-jambonz",
+      "version": "2.4.9",
+      "description": "Node-RED nodes for jambonz platform",
+      "updated_at": "2023-07-27T11:12:14.810Z",
+      "types": [
+        "webhook in",
+        "webhook out",
+        "audio in",
+        "jambonz_auth",
+        "aws_auth",
+        "enqueue",
+        "lex",
+        "say",
+        "dtmf",
+        "cfg",
+        "conference",
+        "gather",
+        "listen",
+        "sip:decline",
+        "sip:request",
+        "sip:refer",
+        "hangup",
+        "message",
+        "tag",
+        "pause",
+        "dequeue",
+        "play",
+        "dial",
+        "redirect",
+        "dialogflow",
+        "leave",
+        "rasa",
+        "user auth",
+        "create-call",
+        "create-sms",
+        "lcc",
+        "get_alerts",
+        "get_calls",
+        "get_recent_calls"
+      ],
+      "keywords": [
+        "node-red"
+      ],
+      "url": "https://flows.nodered.org/node/@jambonz/node-red-contrib-jambonz"
+    },
+    {
+      "id": "node-red-contrib-snap4city-milestone",
+      "version": "0.0.4",
+      "description": "Node-Red integration to communicate with Milestone XProtect VMS",
+      "updated_at": "2023-07-27T09:22:12.915Z",
+      "types": [
+        "x-login",
+        "x-send-event",
+        "x-alarm-list"
+      ],
+      "keywords": [
+        "node-red",
+        "smartcity",
+        "iot",
+        "VMS",
+        "Milestone",
+        "XProtect",
+        "Protocol Integration"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-snap4city-milestone"
+    },
+    {
+      "id": "@steedos/node-red-contrib-steedos",
+      "version": "2.4.3",
+      "description": "Steedos and Node-RED integration",
+      "updated_at": "2023-07-27T07:16:03.876Z",
+      "types": [
+        "steedos-config",
+        "steedos-service-config",
+        "steedos-event",
+        "steedos-emit",
+        "steedos-call",
+        "steedos-request-action",
+        "steedos-response-action",
+        "steedos-apigw",
+        "steedos-instance"
+      ],
+      "keywords": [
+        "nodered",
+        "steedos",
+        "node-red",
+        "microservices"
+      ],
+      "url": "https://flows.nodered.org/node/@steedos/node-red-contrib-steedos"
+    },
+    {
       "id": "@flowforge/node-red-dashboard",
-      "version": "0.0.3",
+      "version": "0.0.4",
       "description": "A collection of Node-RED nodes that provide functionality to build your own UI applications (inc. forms, buttons, charts) within Node-RED.",
-      "updated_at": "2023-07-26T13:19:16.111Z",
+      "updated_at": "2023-07-27T06:54:55.982Z",
       "types": [
         "ui-base",
         "ui-page",
@@ -24,6 +139,63 @@
         "node-red"
       ],
       "url": "https://flows.nodered.org/node/@flowforge/node-red-dashboard"
+    },
+    {
+      "id": "node-red-contrib-cron-plus",
+      "version": "2.1.0",
+      "description": "A flexible scheduler (cron, solar events, fixed dates) node for Node-RED with full dynamic control and time zone support",
+      "updated_at": "2023-07-26T18:52:42.384Z",
+      "types": [
+        "cronplus"
+      ],
+      "keywords": [
+        "node-red",
+        "scheduler",
+        "timer",
+        "cron",
+        "cronplus",
+        "cron plus",
+        "cron-plus",
+        "crontab",
+        "timer",
+        "suntime",
+        "sunrise",
+        "sunset"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-cron-plus"
+    },
+    {
+      "id": "node-red-contrib-sitx",
+      "version": "1.0.2",
+      "description": "Node-RED Nodes for sending & receiving Cursor on Target TAK Data with PAR Sit(x).",
+      "updated_at": "2023-07-26T18:13:10.962Z",
+      "types": [
+        "sitx_config",
+        "Sit(x) Node",
+        "__errors__"
+      ],
+      "keywords": [
+        "node-red",
+        "cursor-on-target",
+        "cot",
+        "tak",
+        "atak"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-sitx"
+    },
+    {
+      "id": "@tonymacdonald/node-red-msg-encapsulation",
+      "version": "0.0.4",
+      "description": "Wrap existing message as a property in a new message or extract a previously wrapped message",
+      "updated_at": "2023-07-26T15:18:55.959Z",
+      "types": [
+        "wrap-msg",
+        "unwrap-msg"
+      ],
+      "keywords": [
+        "node-red"
+      ],
+      "url": "https://flows.nodered.org/node/@tonymacdonald/node-red-msg-encapsulation"
     },
     {
       "id": "@tbowmo/node-red-small-timer",
@@ -172,20 +344,6 @@
         "widget"
       ],
       "url": "https://flows.nodered.org/node/@studiobox/node-red-contrib-ui-widget-bulb-basic"
-    },
-    {
-      "id": "@tonymacdonald/node-red-msg-encapsulation",
-      "version": "0.0.2",
-      "description": "Wrap existing message as a property in a new message or extract a previously wrapped message",
-      "updated_at": "2023-07-25T21:44:37.869Z",
-      "types": [
-        "wrap-msg",
-        "unwrap-msg"
-      ],
-      "keywords": [
-        "node-red"
-      ],
-      "url": "https://flows.nodered.org/node/@tonymacdonald/node-red-msg-encapsulation"
     },
     {
       "id": "node-red-contrib-zwave-js",
@@ -354,52 +512,6 @@
       "url": "https://flows.nodered.org/node/node-red-contrib-solaredge-power"
     },
     {
-      "id": "@jambonz/node-red-contrib-jambonz",
-      "version": "2.4.8",
-      "description": "Node-RED nodes for jambonz platform",
-      "updated_at": "2023-07-24T19:39:37.933Z",
-      "types": [
-        "webhook in",
-        "webhook out",
-        "audio in",
-        "jambonz_auth",
-        "aws_auth",
-        "enqueue",
-        "lex",
-        "say",
-        "dtmf",
-        "cfg",
-        "conference",
-        "gather",
-        "listen",
-        "sip:decline",
-        "sip:request",
-        "sip:refer",
-        "hangup",
-        "message",
-        "tag",
-        "pause",
-        "dequeue",
-        "play",
-        "dial",
-        "redirect",
-        "dialogflow",
-        "leave",
-        "rasa",
-        "user auth",
-        "create-call",
-        "create-sms",
-        "lcc",
-        "get_alerts",
-        "get_calls",
-        "get_recent_calls"
-      ],
-      "keywords": [
-        "node-red"
-      ],
-      "url": "https://flows.nodered.org/node/@jambonz/node-red-contrib-jambonz"
-    },
-    {
       "id": "@softwaredevelopment/node-red-contrib-bodhi-device-rgb-light",
       "version": "0.0.1",
       "description": "RGB light device for bodhi node red",
@@ -461,30 +573,6 @@
         "generic"
       ],
       "url": "https://flows.nodered.org/node/@digitalnodecom/node-red-contrib-generic-s3"
-    },
-    {
-      "id": "node-red-contrib-cron-plus",
-      "version": "2.0.1",
-      "description": "A flexible scheduler (cron, solar events, fixed dates) node for Node-RED with full dynamic control and time zone support",
-      "updated_at": "2023-07-24T07:58:12.987Z",
-      "types": [
-        "cronplus"
-      ],
-      "keywords": [
-        "node-red",
-        "scheduler",
-        "timer",
-        "cron",
-        "cronplus",
-        "cron plus",
-        "cron-plus",
-        "crontab",
-        "timer",
-        "suntime",
-        "sunrise",
-        "sunset"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-cron-plus"
     },
     {
       "id": "node-red-contrib-letsfiware-ngsi",
@@ -3649,27 +3737,6 @@
         "ai"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-openai-ubos"
-    },
-    {
-      "id": "node-red-contrib-snap4city-milestone",
-      "version": "0.0.3",
-      "description": "Node-Red integration to communicate with Milestone XProtect VMS",
-      "updated_at": "2023-06-12T10:16:05.085Z",
-      "types": [
-        "x-login",
-        "x-send-event",
-        "x-alarm-list"
-      ],
-      "keywords": [
-        "node-red",
-        "smartcity",
-        "iot",
-        "VMS",
-        "Milestone",
-        "XProtect",
-        "Protocol Integration"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-snap4city-milestone"
     },
     {
       "id": "node-red-contrib-tuya-smart-device",
@@ -7094,30 +7161,6 @@
         "presence"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-ale-rainbow"
-    },
-    {
-      "id": "@steedos/node-red-contrib-steedos",
-      "version": "2.4.1",
-      "description": "Steedos and Node-RED integration",
-      "updated_at": "2023-04-14T04:00:29.381Z",
-      "types": [
-        "steedos-config",
-        "steedos-service-config",
-        "steedos-event",
-        "steedos-emit",
-        "steedos-call",
-        "steedos-request-action",
-        "steedos-response-action",
-        "steedos-apigw",
-        "steedos-instance"
-      ],
-      "keywords": [
-        "nodered",
-        "steedos",
-        "node-red",
-        "microservices"
-      ],
-      "url": "https://flows.nodered.org/node/@steedos/node-red-contrib-steedos"
     },
     {
       "id": "nodered-sh1106",
