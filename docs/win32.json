@@ -1,7 +1,242 @@
 {
   "name": "Catalogue for Windows",
-  "updated_at": "2023-07-28T21:04:58.485Z",
+  "updated_at": "2023-07-29T19:31:10.652Z",
   "modules": [
+    {
+      "id": "node-red-contrib-web-worldmap",
+      "version": "2.38.3",
+      "description": "A Node-RED node to provide a web page of a world map for plotting things on.",
+      "updated_at": "2023-07-29T15:28:41.484Z",
+      "types": [
+        "worldmap",
+        "ui_worldmap",
+        "worldmap in",
+        "worldmap-tracks",
+        "worldmap-hull"
+      ],
+      "keywords": [
+        "node-red",
+        "map",
+        "world"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-web-worldmap"
+    },
+    {
+      "id": "@jambonz/node-red-contrib-jambonz",
+      "version": "2.4.10",
+      "description": "Node-RED nodes for jambonz platform",
+      "updated_at": "2023-07-29T11:37:40.786Z",
+      "types": [
+        "webhook in",
+        "webhook out",
+        "audio in",
+        "jambonz_auth",
+        "aws_auth",
+        "enqueue",
+        "lex",
+        "say",
+        "dtmf",
+        "cfg",
+        "conference",
+        "gather",
+        "listen",
+        "sip:decline",
+        "sip:request",
+        "sip:refer",
+        "hangup",
+        "message",
+        "tag",
+        "pause",
+        "dequeue",
+        "play",
+        "dial",
+        "redirect",
+        "dialogflow",
+        "leave",
+        "rasa",
+        "user auth",
+        "create-call",
+        "create-sms",
+        "lcc",
+        "get_alerts",
+        "get_calls",
+        "get_recent_calls"
+      ],
+      "keywords": [
+        "node-red"
+      ],
+      "url": "https://flows.nodered.org/node/@jambonz/node-red-contrib-jambonz"
+    },
+    {
+      "id": "node-red-contrib-tinyfarmer",
+      "version": "1.0.2",
+      "description": "A tinyfarmer nodes for node-red",
+      "updated_at": "2023-07-29T11:25:43.486Z",
+      "types": [
+        "Relay",
+        "GoogleSheet",
+        "ParamPlus",
+        "CO2",
+        "CustomSensor",
+        "Humidity",
+        "Illumination",
+        "BitMoss",
+        "Temperature"
+      ],
+      "keywords": [
+        "node-red",
+        "tinyfarmer",
+        "makezone",
+        "IOT"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-tinyfarmer"
+    },
+    {
+      "id": "node-red-contrib-dotnsf-watsonxai",
+      "version": "0.1.5",
+      "updated_at": "2023-07-29T03:00:34.523Z",
+      "types": [
+        "watsonx.ai"
+      ],
+      "keywords": [
+        "node-red",
+        "dotnsf",
+        "watsonx",
+        "watsonx.ai"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-dotnsf-watsonxai"
+    },
+    {
+      "id": "node-red-contrib-musiccast",
+      "version": "4.2.3",
+      "description": "A Node-RED collection for monitoring and controlling a Musiccast network.",
+      "updated_at": "2023-07-29T00:28:44.705Z",
+      "types": [
+        "musiccast-config",
+        "musiccast-zone",
+        "musiccast-input",
+        "musiccast-device",
+        "musiccast-list",
+        "musiccast-link"
+      ],
+      "keywords": [
+        "node-red",
+        "yamaha",
+        "musiccast",
+        "yxc",
+        "music"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-musiccast"
+    },
+    {
+      "id": "node-red-contrib-bosch-shc",
+      "version": "0.3.30",
+      "description": "Bosch Smart Home Controller (SHC) nodes for Node-Red",
+      "updated_at": "2023-07-28T20:40:54.698Z",
+      "types": [
+        "shc-config",
+        "shc-device",
+        "shc-scenario",
+        "shc-fault"
+      ],
+      "keywords": [
+        "node-red",
+        "bosch",
+        "smart",
+        "home",
+        "controller"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-bosch-shc"
+    },
+    {
+      "id": "@softwaredevelopment/node-red-contrib-bodhi-device-meter",
+      "version": "0.0.1",
+      "description": "Meter device for bodhi node red",
+      "updated_at": "2023-07-28T20:27:08.901Z",
+      "types": [
+        "Meter"
+      ],
+      "keywords": [
+        "node-red",
+        "device",
+        "bodhi",
+        "meter"
+      ],
+      "url": "https://flows.nodered.org/node/@softwaredevelopment/node-red-contrib-bodhi-device-meter"
+    },
+    {
+      "id": "@softwaredevelopment/node-red-contrib-bodhi-device-digital-io",
+      "version": "0.0.1",
+      "description": "Digital IO device for bodhi node red",
+      "updated_at": "2023-07-28T19:37:18.167Z",
+      "types": [
+        "Digital IO"
+      ],
+      "keywords": [
+        "node-red",
+        "device",
+        "bodhi",
+        "digital",
+        "input",
+        "output"
+      ],
+      "url": "https://flows.nodered.org/node/@softwaredevelopment/node-red-contrib-bodhi-device-digital-io"
+    },
+    {
+      "id": "@softwaredevelopment/node-red-contrib-bodhi-device-analog-io",
+      "version": "0.0.1",
+      "description": "Analog IO device for bodhi node red",
+      "updated_at": "2023-07-28T19:09:39.950Z",
+      "types": [
+        "Analog IO"
+      ],
+      "keywords": [
+        "node-red",
+        "device",
+        "bodhi",
+        "analog",
+        "input",
+        "output"
+      ],
+      "url": "https://flows.nodered.org/node/@softwaredevelopment/node-red-contrib-bodhi-device-analog-io"
+    },
+    {
+      "id": "@softwaredevelopment/node-red-contrib-bodhi-device-audio-zone",
+      "version": "0.0.1",
+      "description": "Audio Zone device for bodhi node red",
+      "updated_at": "2023-07-28T18:39:27.667Z",
+      "types": [
+        "Audio Zone"
+      ],
+      "keywords": [
+        "node-red",
+        "device",
+        "bodhi",
+        "audio",
+        "zone",
+        "control"
+      ],
+      "url": "https://flows.nodered.org/node/@softwaredevelopment/node-red-contrib-bodhi-device-audio-zone"
+    },
+    {
+      "id": "node-red-topo-pli-to-cot",
+      "version": "1.0.1",
+      "description": "This node parses 'live tracks' in network kmls from services such as CalTopo / SARTopo and converts the last coordinate in the live tracking folder to a position location information (pli) cursor-on-target (CoT) message to send to a Team Awareness Kit (TA",
+      "updated_at": "2023-07-28T17:20:48.020Z",
+      "types": [],
+      "keywords": [
+        "nodered",
+        "node-red",
+        "atak",
+        "itak",
+        "tak",
+        "caltopo",
+        "sartopo",
+        "tak",
+        "server"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-topo-pli-to-cot"
+    },
     {
       "id": "@softwaredevelopment/node-red-contrib-bodhi-device-generator-power-sensor",
       "version": "0.0.1",
@@ -72,40 +307,6 @@
         "api"
       ],
       "url": "https://flows.nodered.org/node/victron-vrm-api"
-    },
-    {
-      "id": "node-red-contrib-web-worldmap",
-      "version": "2.38.1",
-      "description": "A Node-RED node to provide a web page of a world map for plotting things on.",
-      "updated_at": "2023-07-28T08:18:02.243Z",
-      "types": [
-        "worldmap",
-        "ui_worldmap",
-        "worldmap in",
-        "worldmap-tracks",
-        "worldmap-hull"
-      ],
-      "keywords": [
-        "node-red",
-        "map",
-        "world"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-web-worldmap"
-    },
-    {
-      "id": "node-red-contrib-dotnsf-watsonxai",
-      "version": "0.1.4",
-      "updated_at": "2023-07-28T07:39:15.096Z",
-      "types": [
-        "watsonx.ai"
-      ],
-      "keywords": [
-        "node-red",
-        "dotnsf",
-        "watsonx",
-        "watsonx.ai"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-dotnsf-watsonxai"
     },
     {
       "id": "node-red-contrib-tak",
@@ -243,6 +444,23 @@
       "url": "https://flows.nodered.org/node/@softwaredevelopment/node-red-contrib-bodhi-device-shade"
     },
     {
+      "id": "@softwaredevelopment/node-red-contrib-bodhi-device-window-sensor",
+      "version": "0.0.3",
+      "description": "Window Sensor device for bodhi node red",
+      "updated_at": "2023-07-27T16:35:43.945Z",
+      "types": [
+        "Window Sensor"
+      ],
+      "keywords": [
+        "node-red",
+        "device",
+        "bodhi",
+        "window",
+        "sensor"
+      ],
+      "url": "https://flows.nodered.org/node/@softwaredevelopment/node-red-contrib-bodhi-device-window-sensor"
+    },
+    {
       "id": "node-red-contrib-airship-fourth",
       "version": "1.0.0",
       "description": "Fourth to Airship integration for node-red",
@@ -278,52 +496,6 @@
         "mqtt"
       ],
       "url": "https://flows.nodered.org/node/@mkc-gmbh/node-red-mqtt-homie"
-    },
-    {
-      "id": "@jambonz/node-red-contrib-jambonz",
-      "version": "2.4.9",
-      "description": "Node-RED nodes for jambonz platform",
-      "updated_at": "2023-07-27T11:12:14.810Z",
-      "types": [
-        "webhook in",
-        "webhook out",
-        "audio in",
-        "jambonz_auth",
-        "aws_auth",
-        "enqueue",
-        "lex",
-        "say",
-        "dtmf",
-        "cfg",
-        "conference",
-        "gather",
-        "listen",
-        "sip:decline",
-        "sip:request",
-        "sip:refer",
-        "hangup",
-        "message",
-        "tag",
-        "pause",
-        "dequeue",
-        "play",
-        "dial",
-        "redirect",
-        "dialogflow",
-        "leave",
-        "rasa",
-        "user auth",
-        "create-call",
-        "create-sms",
-        "lcc",
-        "get_alerts",
-        "get_calls",
-        "get_recent_calls"
-      ],
-      "keywords": [
-        "node-red"
-      ],
-      "url": "https://flows.nodered.org/node/@jambonz/node-red-contrib-jambonz"
     },
     {
       "id": "node-red-contrib-snap4city-milestone",
@@ -6813,26 +6985,6 @@
       "url": "https://flows.nodered.org/node/@chvdapi/node-red-pn4800-led"
     },
     {
-      "id": "node-red-contrib-bosch-shc",
-      "version": "0.3.29",
-      "description": "Bosch Smart Home Controller (SHC) nodes for Node-Red",
-      "updated_at": "2023-04-26T19:55:39.153Z",
-      "types": [
-        "shc-config",
-        "shc-device",
-        "shc-scenario",
-        "shc-fault"
-      ],
-      "keywords": [
-        "node-red",
-        "bosch",
-        "smart",
-        "home",
-        "controller"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-bosch-shc"
-    },
-    {
       "id": "@rakwireless/field-tester-server",
       "version": "0.1.0",
       "description": "Field tester server node compatible with disk91 implementation",
@@ -7318,28 +7470,6 @@
         "rest-api"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-conta-azul-api"
-    },
-    {
-      "id": "node-red-contrib-musiccast",
-      "version": "4.2.0",
-      "description": "A Node-RED collection for monitoring and controlling all aspects of a Musiccast network.",
-      "updated_at": "2023-04-17T00:46:51.748Z",
-      "types": [
-        "musiccast-config",
-        "musiccast-zone",
-        "musiccast-input",
-        "musiccast-device",
-        "musiccast-list",
-        "musiccast-link"
-      ],
-      "keywords": [
-        "node-red",
-        "yamaha",
-        "musiccast",
-        "yxc",
-        "music"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-musiccast"
     },
     {
       "id": "node-red-contrib-uibuilder",
