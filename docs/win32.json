@@ -1,31 +1,32 @@
 {
   "name": "Catalogue for Windows",
-  "updated_at": "2023-07-29T19:31:10.652Z",
+  "updated_at": "2023-07-30T18:29:32.768Z",
   "modules": [
     {
-      "id": "node-red-contrib-web-worldmap",
-      "version": "2.38.3",
-      "description": "A Node-RED node to provide a web page of a world map for plotting things on.",
-      "updated_at": "2023-07-29T15:28:41.484Z",
+      "id": "node-red-contrib-spruthub",
+      "version": "3.1.1",
+      "description": "Sprut.hub connectivity nodes for node-red",
+      "updated_at": "2023-07-30T11:08:39.182Z",
       "types": [
-        "worldmap",
-        "ui_worldmap",
-        "worldmap in",
-        "worldmap-tracks",
-        "worldmap-hull"
+        "spruthub-in",
+        "spruthub-get",
+        "spruthub-out",
+        "spruthub-server"
       ],
       "keywords": [
-        "node-red",
-        "map",
-        "world"
+        "spruthub",
+        "sprut",
+        "mqtt",
+        "wirenboard",
+        "node-red"
       ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-web-worldmap"
+      "url": "https://flows.nodered.org/node/node-red-contrib-spruthub"
     },
     {
       "id": "@jambonz/node-red-contrib-jambonz",
-      "version": "2.4.10",
+      "version": "2.4.11",
       "description": "Node-RED nodes for jambonz platform",
-      "updated_at": "2023-07-29T11:37:40.786Z",
+      "updated_at": "2023-07-29T21:20:15.365Z",
       "types": [
         "webhook in",
         "webhook out",
@@ -68,10 +69,29 @@
       "url": "https://flows.nodered.org/node/@jambonz/node-red-contrib-jambonz"
     },
     {
+      "id": "node-red-contrib-web-worldmap",
+      "version": "2.38.3",
+      "description": "A Node-RED node to provide a web page of a world map for plotting things on.",
+      "updated_at": "2023-07-29T15:28:41.484Z",
+      "types": [
+        "worldmap",
+        "ui_worldmap",
+        "worldmap in",
+        "worldmap-tracks",
+        "worldmap-hull"
+      ],
+      "keywords": [
+        "node-red",
+        "map",
+        "world"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-web-worldmap"
+    },
+    {
       "id": "node-red-contrib-tinyfarmer",
-      "version": "1.0.2",
+      "version": "1.0.6",
       "description": "A tinyfarmer nodes for node-red",
-      "updated_at": "2023-07-29T11:25:43.486Z",
+      "updated_at": "2023-07-29T12:02:58.644Z",
       "types": [
         "Relay",
         "GoogleSheet",
@@ -671,26 +691,6 @@
         "IoT"
       ],
       "url": "https://flows.nodered.org/node/rootedge-node-red-datasource"
-    },
-    {
-      "id": "node-red-contrib-spruthub",
-      "version": "3.0.3",
-      "description": "Sprut.hub connectivity nodes for node-red",
-      "updated_at": "2023-07-26T07:12:58.555Z",
-      "types": [
-        "spruthub-in",
-        "spruthub-get",
-        "spruthub-out",
-        "spruthub-server"
-      ],
-      "keywords": [
-        "spruthub",
-        "sprut",
-        "mqtt",
-        "wirenboard",
-        "node-red"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-spruthub"
     },
     {
       "id": "nr-meross-cloud",
