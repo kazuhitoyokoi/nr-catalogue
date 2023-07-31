@@ -1,7 +1,177 @@
 {
   "name": "Catalogue for Docker",
-  "updated_at": "2023-07-30T16:36:59.480Z",
+  "updated_at": "2023-07-31T16:16:39.386Z",
   "modules": [
+    {
+      "id": "@envidatec/node-red-contrib-logger",
+      "version": "1.0.6",
+      "description": "Logs Data into SQL-Lite",
+      "updated_at": "2023-07-31T12:50:17.889Z",
+      "types": [
+        "logger",
+        "SQL-DB",
+        "requestData",
+        "Rest-Server"
+      ],
+      "keywords": [
+        "node-red"
+      ],
+      "url": "https://flows.nodered.org/node/@envidatec/node-red-contrib-logger"
+    },
+    {
+      "id": "@gregoriusrippenstein/node-red-contrib-flowhub",
+      "version": "0.0.2",
+      "description": "Flow interaction nodes.",
+      "updated_at": "2023-07-31T10:44:48.677Z",
+      "types": [
+        "FlowHubPull",
+        "FlowHubPush"
+      ],
+      "keywords": [
+        "node-red",
+        "flowhub"
+      ],
+      "url": "https://flows.nodered.org/node/@gregoriusrippenstein/node-red-contrib-flowhub"
+    },
+    {
+      "id": "node-red-contrib-knx-ultimate",
+      "version": "2.1.38",
+      "description": "Control your KNX intallation via Node-Red! Single Node KNX IN/OUT with optional ETS group address importer. Easy to use and highly configurable. With integrated Philips HUE devices handling.",
+      "updated_at": "2023-07-31T09:08:16.594Z",
+      "types": [
+        "knxUltimate",
+        "knxUltimateSceneController",
+        "knxUltimateWatchDog",
+        "knxUltimateLogger",
+        "knxUltimate-config",
+        "knxUltimateGlobalContext",
+        "knxUltimateAlerter",
+        "knxUltimateLoadControl",
+        "knxUltimateViewer",
+        "hue-config",
+        "knxUltimateHueLight",
+        "knxUltimateHueButton",
+        "knxUltimateHueMotion",
+        "knxUltimateHueTapDial",
+        "knxUltimateHueLightSensor",
+        "knxUltimateHueTemperatureSensor",
+        "knxUltimateHueScene",
+        "knxUltimateHueBattery"
+      ],
+      "keywords": [
+        "node-red",
+        "KNX",
+        "ETS",
+        "eib",
+        "eibd",
+        "knxd",
+        "konnex",
+        "IOT",
+        "hue"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-knx-ultimate"
+    },
+    {
+      "id": "node-red-contrib-openai-ubos",
+      "version": "1.0.2",
+      "description": "A Node-RED node that interacts with OpenAI machine learning models to generate text like ChatGPT.",
+      "updated_at": "2023-07-31T08:58:18.187Z",
+      "types": [],
+      "keywords": [
+        "node-red",
+        "chatgpt",
+        "nodejs",
+        "javascript",
+        "api",
+        "flow",
+        "npm",
+        "machine-learning",
+        "node",
+        "example",
+        "text-generation",
+        "openai",
+        "code-generation",
+        "conversational-ai",
+        "gpt-3",
+        "gpt-4",
+        "dall-e",
+        "ai"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-openai-ubos"
+    },
+    {
+      "id": "node-red-contrib-web-worldmap",
+      "version": "2.39.0",
+      "description": "A Node-RED node to provide a web page of a world map for plotting things on.",
+      "updated_at": "2023-07-31T08:37:45.950Z",
+      "types": [
+        "worldmap",
+        "ui_worldmap",
+        "worldmap in",
+        "worldmap-tracks",
+        "worldmap-hull"
+      ],
+      "keywords": [
+        "node-red",
+        "map",
+        "world"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-web-worldmap"
+    },
+    {
+      "id": "node-red-contrib-tak",
+      "version": "4.1.1",
+      "description": "Node-RED Nodes for encoding & decoding TAK Protocol and Cursor on Target messages from TAK Products.",
+      "updated_at": "2023-07-31T08:17:47.320Z",
+      "types": [
+        "tak",
+        "tak2wm"
+      ],
+      "keywords": [
+        "node-red",
+        "cursor-on-target",
+        "cot",
+        "tak",
+        "atak"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-tak"
+    },
+    {
+      "id": "node-red-contrib-growatt",
+      "version": "1.1.1",
+      "description": "Access to the Growatt API. Using the PCLHome/growatt library.",
+      "updated_at": "2023-07-31T07:45:03.948Z",
+      "types": [
+        "growatt",
+        "growatt-config"
+      ],
+      "keywords": [
+        "node-red",
+        "growatt"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-growatt"
+    },
+    {
+      "id": "node-red-contrib-car-bmw",
+      "version": "0.5.1",
+      "description": "Node-RED nodes to connect to BMW ConnectedDrive and read infos of your car.",
+      "updated_at": "2023-07-30T20:45:59.530Z",
+      "types": [
+        "car-bmw",
+        "car-bmw-list",
+        "car-bmw-get",
+        "car-bmw-action"
+      ],
+      "keywords": [
+        "node-red",
+        "BMW",
+        "ConnectedDrive",
+        "Remote Services",
+        "www.bmw-connecteddrive.de/",
+        "www.bmw-connecteddrive.com/"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-car-bmw"
+    },
     {
       "id": "node-red-contrib-spruthub",
       "version": "3.1.1",
@@ -67,25 +237,6 @@
         "node-red"
       ],
       "url": "https://flows.nodered.org/node/@jambonz/node-red-contrib-jambonz"
-    },
-    {
-      "id": "node-red-contrib-web-worldmap",
-      "version": "2.38.3",
-      "description": "A Node-RED node to provide a web page of a world map for plotting things on.",
-      "updated_at": "2023-07-29T15:28:41.484Z",
-      "types": [
-        "worldmap",
-        "ui_worldmap",
-        "worldmap in",
-        "worldmap-tracks",
-        "worldmap-hull"
-      ],
-      "keywords": [
-        "node-red",
-        "map",
-        "world"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-web-worldmap"
     },
     {
       "id": "node-red-contrib-tinyfarmer",
@@ -329,24 +480,6 @@
       "url": "https://flows.nodered.org/node/victron-vrm-api"
     },
     {
-      "id": "node-red-contrib-tak",
-      "version": "4.1.0",
-      "description": "Node-RED Nodes for encoding & decoding TAK Protocol and Cursor on Target messages from TAK Products.",
-      "updated_at": "2023-07-28T07:10:02.841Z",
-      "types": [
-        "tak",
-        "tak2wm"
-      ],
-      "keywords": [
-        "node-red",
-        "cursor-on-target",
-        "cot",
-        "tak",
-        "atak"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-tak"
-    },
-    {
       "id": "@softwaredevelopment/node-red-contrib-bodhi-device-fan",
       "version": "0.0.1",
       "description": "Fan device for bodhi node red",
@@ -586,6 +719,29 @@
       "url": "https://flows.nodered.org/node/@flowforge/node-red-dashboard"
     },
     {
+      "id": "@bitpoolos/edge-uploader",
+      "version": "1.0.14",
+      "description": "A Node-RED module to push data to Bitpool.",
+      "updated_at": "2023-07-27T06:50:48.652Z",
+      "types": [
+        "uploader",
+        "Bitpool-Pool-Settings",
+        "Bitpool-Api-Key",
+        "metatag",
+        "Bitpool-Cloud-Settings",
+        "Bitpool-Tag-Library"
+      ],
+      "keywords": [
+        "node-red",
+        "bitpool",
+        "bitpoolos",
+        "edge",
+        "big data",
+        "iot"
+      ],
+      "url": "https://flows.nodered.org/node/@bitpoolos/edge-uploader"
+    },
+    {
       "id": "node-red-contrib-cron-plus",
       "version": "2.1.0",
       "description": "A flexible scheduler (cron, solar events, fixed dates) node for Node-RED with full dynamic control and time zone support",
@@ -789,44 +945,6 @@
         "node-red"
       ],
       "url": "https://flows.nodered.org/node/node-red-ubyte-arangodb"
-    },
-    {
-      "id": "node-red-contrib-knx-ultimate",
-      "version": "2.1.37",
-      "description": "Control your KNX intallation via Node-Red! Single Node KNX IN/OUT with optional ETS group address importer. Easy to use and highly configurable. With integrated Philips HUE devices handling.",
-      "updated_at": "2023-07-25T13:34:32.253Z",
-      "types": [
-        "knxUltimate",
-        "knxUltimateSceneController",
-        "knxUltimateWatchDog",
-        "knxUltimateLogger",
-        "knxUltimate-config",
-        "knxUltimateGlobalContext",
-        "knxUltimateAlerter",
-        "knxUltimateLoadControl",
-        "knxUltimateViewer",
-        "hue-config",
-        "knxUltimateHueLight",
-        "knxUltimateHueButton",
-        "knxUltimateHueMotion",
-        "knxUltimateHueTapDial",
-        "knxUltimateHueLightSensor",
-        "knxUltimateHueTemperatureSensor",
-        "knxUltimateHueScene",
-        "knxUltimateHueBattery"
-      ],
-      "keywords": [
-        "node-red",
-        "KNX",
-        "ETS",
-        "eib",
-        "eibd",
-        "knxd",
-        "konnex",
-        "IOT",
-        "hue"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-knx-ultimate"
     },
     {
       "id": "node-red-contrib-spike-reporter",
@@ -1385,21 +1503,6 @@
         "logic"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-boolean-logic-ultimate"
-    },
-    {
-      "id": "@envidatec/node-red-contrib-logger",
-      "version": "1.0.5",
-      "description": "Logs Data into SQL-Lite",
-      "updated_at": "2023-07-18T15:01:52.677Z",
-      "types": [
-        "logger",
-        "SQL-DB",
-        "requestData"
-      ],
-      "keywords": [
-        "node-red"
-      ],
-      "url": "https://flows.nodered.org/node/@envidatec/node-red-contrib-logger"
     },
     {
       "id": "@envidatec/interval",
@@ -2542,27 +2645,6 @@
         "node-red"
       ],
       "url": "https://flows.nodered.org/node/@gastmanager/node-red-client"
-    },
-    {
-      "id": "node-red-contrib-car-bmw",
-      "version": "0.5.0",
-      "description": "Node-RED nodes to connect to BMW ConnectedDrive and read infos of your car.",
-      "updated_at": "2023-07-03T19:59:38.532Z",
-      "types": [
-        "car-bmw",
-        "car-bmw-list",
-        "car-bmw-get",
-        "car-bmw-action"
-      ],
-      "keywords": [
-        "node-red",
-        "BMW",
-        "ConnectedDrive",
-        "Remote Services",
-        "www.bmw-connecteddrive.de/",
-        "www.bmw-connecteddrive.com/"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-car-bmw"
     },
     {
       "id": "@gregoriusrippenstein/node-red-contrib-introspection",
@@ -4101,34 +4183,6 @@
         "sodick"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-sodick-siot-comm"
-    },
-    {
-      "id": "node-red-contrib-openai-ubos",
-      "version": "1.0.1",
-      "description": "A Node-RED node that interacts with OpenAI machine learning models to generate text like ChatGPT.",
-      "updated_at": "2023-06-12T15:40:18.504Z",
-      "types": [],
-      "keywords": [
-        "node-red",
-        "chatgpt",
-        "nodejs",
-        "javascript",
-        "api",
-        "flow",
-        "npm",
-        "machine-learning",
-        "node",
-        "example",
-        "text-generation",
-        "openai",
-        "code-generation",
-        "conversational-ai",
-        "gpt-3",
-        "gpt-4",
-        "dall-e",
-        "ai"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-openai-ubos"
     },
     {
       "id": "node-red-contrib-tuya-smart-device",
@@ -6378,21 +6432,6 @@
         "Truly Random Number Generator"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-trng"
-    },
-    {
-      "id": "node-red-contrib-growatt",
-      "version": "1.1.0",
-      "description": "Access to the Growatt API. Using the PCLHome/growatt library.",
-      "updated_at": "2023-05-05T06:48:21.689Z",
-      "types": [
-        "growatt",
-        "growatt-config"
-      ],
-      "keywords": [
-        "node-red",
-        "growatt"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-growatt"
     },
     {
       "id": "node-red-contrib-iiot-rpi-ads1115",
@@ -10122,29 +10161,6 @@
         "cipherflow"
       ],
       "url": "https://flows.nodered.org/node/node-red-cyblion-edge"
-    },
-    {
-      "id": "@bitpoolos/edge-uploader",
-      "version": "1.0.13",
-      "description": "A Node-RED module to push data to Bitpool.",
-      "updated_at": "2023-02-28T06:16:48.773Z",
-      "types": [
-        "uploader",
-        "Bitpool-Pool-Settings",
-        "Bitpool-Api-Key",
-        "metatag",
-        "Bitpool-Cloud-Settings",
-        "Bitpool-Tag-Library"
-      ],
-      "keywords": [
-        "node-red",
-        "bitpool",
-        "bitpoolos",
-        "edge",
-        "big data",
-        "iot"
-      ],
-      "url": "https://flows.nodered.org/node/@bitpoolos/edge-uploader"
     },
     {
       "id": "@leipert/node-red-contrib-stock-ticker",
