@@ -1,12 +1,31 @@
 {
   "name": "Catalogue for verified nodes",
-  "updated_at": "2023-08-01T20:14:52.398Z",
+  "updated_at": "2023-08-02T21:33:40.616Z",
   "modules": [
     {
+      "id": "@ifp-software/node-red-contrib-oee-ai-connector",
+      "version": "2.6.6",
+      "description": "Easily connect your production machines to oee.ai – The Industry 4.0 solution for OEE optimization.",
+      "updated_at": "2023-08-02T13:00:00.252Z",
+      "types": [],
+      "keywords": [
+        "industrial",
+        "industry 4.0",
+        "iot",
+        "node-red",
+        "oee",
+        "oee.ai",
+        "sick",
+        "smart-factory",
+        "tdc"
+      ],
+      "url": "https://flows.nodered.org/node/@ifp-software/node-red-contrib-oee-ai-connector"
+    },
+    {
       "id": "@digitalnodecom/node-red-contrib-generic-s3",
-      "version": "1.11.3",
+      "version": "1.11.6",
       "description": "Generic node-red S3 nodes",
-      "updated_at": "2023-08-01T13:27:40.824Z",
+      "updated_at": "2023-08-02T09:42:32.905Z",
       "types": [
         "client-s3",
         "List Buckets",
@@ -30,13 +49,45 @@
       "url": "https://flows.nodered.org/node/@digitalnodecom/node-red-contrib-generic-s3"
     },
     {
+      "id": "@hexelink/node-red-aries-hw-io",
+      "version": "0.9.2",
+      "description": "EdgeGateway Aries Hardware IO Nodes",
+      "updated_at": "2023-08-02T03:57:30.410Z",
+      "types": [
+        "hw-io-din",
+        "hw-io-dout",
+        "hw-io-ain"
+      ],
+      "keywords": [
+        "node-red"
+      ],
+      "url": "https://flows.nodered.org/node/@hexelink/node-red-aries-hw-io"
+    },
+    {
+      "id": "node-red-contrib-google-translate-appflow",
+      "version": "0.1.2",
+      "description": "Node-RED node for Google Translate",
+      "updated_at": "2023-08-02T01:59:13.849Z",
+      "types": [
+        "google-translate"
+      ],
+      "keywords": [
+        "node-red",
+        "google",
+        "translate",
+        "google translate"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-google-translate-appflow"
+    },
+    {
       "id": "node-red-contrib-unifi",
-      "version": "0.2.16",
+      "version": "0.3.2",
       "description": "Node for Node-RED to connect to a UniFi Controller ",
-      "updated_at": "2023-08-01T10:48:10.180Z",
+      "updated_at": "2023-08-01T21:08:45.572Z",
       "types": [
         "unificonfig",
-        "Unifi"
+        "Unifi",
+        "UnifiWS"
       ],
       "keywords": [
         "node-red",
@@ -47,23 +98,175 @@
       "url": "https://flows.nodered.org/node/node-red-contrib-unifi"
     },
     {
-      "id": "@ifp-software/node-red-contrib-oee-ai-connector",
-      "version": "2.6.5",
-      "description": "Easily connect your production machines to oee.ai – The Industry 4.0 solution for OEE optimization.",
-      "updated_at": "2023-08-01T09:56:49.106Z",
-      "types": [],
-      "keywords": [
-        "industrial",
-        "industry 4.0",
-        "iot",
-        "node-red",
-        "oee",
-        "oee.ai",
-        "sick",
-        "smart-factory",
-        "tdc"
+      "id": "@leipert/node-red-contrib-stock-ticker",
+      "version": "2.0.1",
+      "description": "node-red node(s) to get realtime stock information",
+      "updated_at": "2023-08-01T18:59:30.156Z",
+      "types": [
+        "stock-request",
+        "stock-ticker"
       ],
-      "url": "https://flows.nodered.org/node/@ifp-software/node-red-contrib-oee-ai-connector"
+      "keywords": [
+        "node-red",
+        "finance",
+        "stocks",
+        "stock-ticker"
+      ],
+      "url": "https://flows.nodered.org/node/@leipert/node-red-contrib-stock-ticker"
+    },
+    {
+      "id": "@softwaredevelopment/node-red-contrib-bodhi-device-ozone",
+      "version": "0.0.4",
+      "description": "Ozone Sensor Device device for bodhi node red",
+      "updated_at": "2023-08-01T18:59:07.476Z",
+      "types": [
+        "Ozone Sensor"
+      ],
+      "keywords": [
+        "node-red",
+        "device",
+        "bodhi",
+        "ozone",
+        "sensor"
+      ],
+      "url": "https://flows.nodered.org/node/@softwaredevelopment/node-red-contrib-bodhi-device-ozone"
+    },
+    {
+      "id": "node-red-contrib-opcua",
+      "version": "0.2.310",
+      "description": "A Node-RED node to communicate via OPC UA based on node-opcua library.",
+      "updated_at": "2023-08-01T18:39:58.742Z",
+      "types": [
+        "OpcUa-Item",
+        "OpcUa-Client",
+        "OpcUa-Browser",
+        "OpcUa-Server",
+        "OpcUa-Endpoint",
+        "OpcUa-Event",
+        "OpcUa-Method",
+        "OpcUa-Rights",
+        "OpcUa-Discovery"
+      ],
+      "keywords": [
+        "node-red",
+        "OPC UA",
+        "opc-ua",
+        "unified automation",
+        "opc foundation",
+        "node-opcua"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-opcua"
+    },
+    {
+      "id": "@softwaredevelopment/node-red-contrib-bodhi-device-co2-sensor",
+      "version": "0.0.1",
+      "description": "Carbondioxide Sensor Device device for bodhi node red",
+      "updated_at": "2023-08-01T18:29:35.801Z",
+      "types": [
+        "Co2 Sensor"
+      ],
+      "keywords": [
+        "node-red",
+        "device",
+        "bodhi",
+        "co2",
+        "carbondioxide",
+        "sensor"
+      ],
+      "url": "https://flows.nodered.org/node/@softwaredevelopment/node-red-contrib-bodhi-device-co2-sensor"
+    },
+    {
+      "id": "@softwaredevelopment/node-red-contrib-bodhi-device-formal-dehyde-sensor",
+      "version": "0.0.1",
+      "description": "Formal Dehyde Sensor Device device for bodhi node red",
+      "updated_at": "2023-08-01T18:18:15.575Z",
+      "types": [
+        "Formal Dehyde Sensor"
+      ],
+      "keywords": [
+        "node-red",
+        "device",
+        "bodhi",
+        "formal",
+        "dehyde",
+        "sensor"
+      ],
+      "url": "https://flows.nodered.org/node/@softwaredevelopment/node-red-contrib-bodhi-device-formal-dehyde-sensor"
+    },
+    {
+      "id": "@softwaredevelopment/node-red-contrib-bodhi-device-general",
+      "version": "0.0.1",
+      "description": "General Device device for bodhi node red",
+      "updated_at": "2023-08-01T17:08:28.819Z",
+      "types": [
+        "General Device"
+      ],
+      "keywords": [
+        "node-red",
+        "device",
+        "bodhi",
+        "general",
+        "universal"
+      ],
+      "url": "https://flows.nodered.org/node/@softwaredevelopment/node-red-contrib-bodhi-device-general"
+    },
+    {
+      "id": "@softwaredevelopment/node-red-contrib-bodhi-device-energy-monitor-sensor",
+      "version": "0.0.1",
+      "description": "Energy Monitor Sensor device for bodhi node red",
+      "updated_at": "2023-08-01T16:50:57.295Z",
+      "types": [
+        "Energy Monitor Sensor"
+      ],
+      "keywords": [
+        "node-red",
+        "device",
+        "bodhi",
+        "energy",
+        "monitor",
+        "sensor"
+      ],
+      "url": "https://flows.nodered.org/node/@softwaredevelopment/node-red-contrib-bodhi-device-energy-monitor-sensor"
+    },
+    {
+      "id": "@flowforge/node-red-dashboard",
+      "version": "0.0.6",
+      "description": "A collection of Node-RED nodes that provide functionality to build your own UI applications (inc. forms, buttons, charts) within Node-RED.",
+      "updated_at": "2023-08-01T16:23:50.467Z",
+      "types": [
+        "ui-base",
+        "ui-page",
+        "ui-group",
+        "ui-theme",
+        "ui-text-input",
+        "ui-button",
+        "ui-dropdown",
+        "ui-slider",
+        "ui-switch",
+        "ui-text",
+        "ui-chart",
+        "ui-markdown"
+      ],
+      "keywords": [
+        "node-red"
+      ],
+      "url": "https://flows.nodered.org/node/@flowforge/node-red-dashboard"
+    },
+    {
+      "id": "@softwaredevelopment/node-red-contrib-bodhi-device-pool",
+      "version": "0.0.1",
+      "description": "Pool device for bodhi node red",
+      "updated_at": "2023-08-01T13:56:55.965Z",
+      "types": [
+        "Pool"
+      ],
+      "keywords": [
+        "node-red",
+        "device",
+        "bodhi",
+        "pool"
+      ],
+      "url": "https://flows.nodered.org/node/@softwaredevelopment/node-red-contrib-bodhi-device-pool"
     },
     {
       "id": "node-red-contrib-snap4city-milestone",
@@ -858,29 +1061,6 @@
         "microservices"
       ],
       "url": "https://flows.nodered.org/node/@steedos/node-red-contrib-steedos"
-    },
-    {
-      "id": "@flowforge/node-red-dashboard",
-      "version": "0.0.4",
-      "description": "A collection of Node-RED nodes that provide functionality to build your own UI applications (inc. forms, buttons, charts) within Node-RED.",
-      "updated_at": "2023-07-27T06:54:55.982Z",
-      "types": [
-        "ui-base",
-        "ui-page",
-        "ui-group",
-        "ui-theme",
-        "ui-text-input",
-        "ui-button",
-        "ui-dropdown",
-        "ui-slider",
-        "ui-text",
-        "ui-chart",
-        "ui-markdown"
-      ],
-      "keywords": [
-        "node-red"
-      ],
-      "url": "https://flows.nodered.org/node/@flowforge/node-red-dashboard"
     },
     {
       "id": "@bitpoolos/edge-uploader",
@@ -2786,32 +2966,6 @@
         "temperature"
       ],
       "url": "https://flows.nodered.org/node/@icke1983/node-red-contrib-ui-popup"
-    },
-    {
-      "id": "node-red-contrib-opcua",
-      "version": "0.2.309",
-      "description": "A Node-RED node to communicate via OPC UA based on node-opcua library.",
-      "updated_at": "2023-07-03T13:48:48.524Z",
-      "types": [
-        "OpcUa-Item",
-        "OpcUa-Client",
-        "OpcUa-Browser",
-        "OpcUa-Server",
-        "OpcUa-Endpoint",
-        "OpcUa-Event",
-        "OpcUa-Method",
-        "OpcUa-Rights",
-        "OpcUa-Discovery"
-      ],
-      "keywords": [
-        "node-red",
-        "OPC UA",
-        "opc-ua",
-        "unified automation",
-        "opc foundation",
-        "node-opcua"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-opcua"
     },
     {
       "id": "@sinch/node-red-conversation-api",
@@ -4924,22 +5078,6 @@
         "node-red"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-mock-cli"
-    },
-    {
-      "id": "node-red-contrib-google-translate-appflow",
-      "version": "0.1.1",
-      "description": "Node-RED node for Google Translate",
-      "updated_at": "2023-05-31T08:13:23.166Z",
-      "types": [
-        "google-translate"
-      ],
-      "keywords": [
-        "node-red",
-        "google",
-        "translate",
-        "google translate"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-google-translate-appflow"
     },
     {
       "id": "node-red-contrib-latch",
@@ -10169,23 +10307,6 @@
         "cipherflow"
       ],
       "url": "https://flows.nodered.org/node/node-red-cyblion-edge"
-    },
-    {
-      "id": "@leipert/node-red-contrib-stock-ticker",
-      "version": "2.0.0",
-      "description": "node-red node(s) to get realtime stock information",
-      "updated_at": "2023-02-27T17:06:47.084Z",
-      "types": [
-        "stock-request",
-        "stock-ticker"
-      ],
-      "keywords": [
-        "node-red",
-        "finance",
-        "stocks",
-        "stock-ticker"
-      ],
-      "url": "https://flows.nodered.org/node/@leipert/node-red-contrib-stock-ticker"
     },
     {
       "id": "@virtualbat/solax-battery-slotter",
@@ -21364,6 +21485,27 @@
         "wmbus"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-wmbus-client"
+    },
+    {
+      "id": "node-red-contrib-tahoma",
+      "version": "2.0.3",
+      "description": "Control a Somfy Tahoma box from Node RED",
+      "updated_at": "2022-06-04T13:23:06.743Z",
+      "types": [
+        "tahoma",
+        "tahoma-config",
+        "tahoma-read"
+      ],
+      "keywords": [
+        "node",
+        "red",
+        "node-red",
+        "tahoma",
+        "somfy",
+        "home",
+        "automation"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-tahoma"
     },
     {
       "id": "node-red-contrib-smarthome-monitor",
@@ -49078,27 +49220,6 @@
         "node-red"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-insteon"
-    },
-    {
-      "id": "node-red-contrib-tahoma",
-      "version": "2.0.1",
-      "description": "Control a Somfy Tahoma box from Node RED",
-      "updated_at": "2020-03-01T18:18:25.224Z",
-      "types": [
-        "tahoma",
-        "tahoma-config",
-        "tahoma-read"
-      ],
-      "keywords": [
-        "node",
-        "red",
-        "node-red",
-        "tahoma",
-        "somfy",
-        "home",
-        "automation"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-tahoma"
     },
     {
       "id": "node-red-contrib-neato-botvac",
