@@ -1,7 +1,202 @@
 {
   "name": "Catalogue for macOS",
-  "updated_at": "2023-08-02T21:33:22.582Z",
+  "updated_at": "2023-08-03T20:15:57.320Z",
   "modules": [
+    {
+      "id": "node-red-contrib-tak-registration",
+      "version": "0.6.0",
+      "description": "A Node-RED node to register to TAK and to help wrap files as datapackages to send to TAK",
+      "updated_at": "2023-08-03T17:03:07.365Z",
+      "types": [
+        "tak registration",
+        "tak ingest"
+      ],
+      "keywords": [
+        "TAK",
+        "COT",
+        "node-red"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-tak-registration"
+    },
+    {
+      "id": "@softwaredevelopment/node-red-contrib-bodhi-device-drape",
+      "version": "0.0.1",
+      "description": "Drape Device device for bodhi node red",
+      "updated_at": "2023-08-03T16:24:22.842Z",
+      "types": [
+        "Drape"
+      ],
+      "keywords": [
+        "node-red",
+        "device",
+        "bodhi",
+        "drape"
+      ],
+      "url": "https://flows.nodered.org/node/@softwaredevelopment/node-red-contrib-bodhi-device-drape"
+    },
+    {
+      "id": "@digitalnodecom/node-red-contrib-generic-s3",
+      "version": "1.12.0",
+      "description": "Generic node-red S3 nodes",
+      "updated_at": "2023-08-03T14:55:29.855Z",
+      "types": [
+        "client-s3",
+        "List Buckets",
+        "Create Bucket",
+        "List Objects",
+        "List Objects V2",
+        "List Object Versions",
+        "Get Object",
+        "Head Object",
+        "Put Object",
+        "Put Objects",
+        "Delete Object",
+        "Copy Object",
+        "Move Object"
+      ],
+      "keywords": [
+        "node-red",
+        "s3",
+        "generic"
+      ],
+      "url": "https://flows.nodered.org/node/@digitalnodecom/node-red-contrib-generic-s3"
+    },
+    {
+      "id": "node-red-contrib-tts-ultimate",
+      "version": "2.0.1",
+      "description": "Transforms the text in speech and hear it using Sonos player or generate an audio file to be used with third parties nodes. Works with voices from Amazon, Google (without credentials as well), Microsoft TTS Azure, ElevenLabs.io TTS or your own voice. You ",
+      "updated_at": "2023-08-03T14:53:16.619Z",
+      "types": [
+        "ttsultimate",
+        "ttsultimate-config",
+        "ownfileultimate"
+      ],
+      "keywords": [
+        "node-red",
+        "polly",
+        "google",
+        "voice",
+        "amazon",
+        "azure",
+        "tts",
+        "sonos",
+        "IOT",
+        "speech",
+        "ttsultimate",
+        "sonospollytts",
+        "neural",
+        "elevenlabs"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-tts-ultimate"
+    },
+    {
+      "id": "@softwaredevelopment/node-red-contrib-bodhi-device-basic-shade",
+      "version": "0.0.1",
+      "description": "Basic Shade Device device for bodhi node red",
+      "updated_at": "2023-08-03T13:59:35.797Z",
+      "types": [
+        "Basic Shade"
+      ],
+      "keywords": [
+        "node-red",
+        "device",
+        "bodhi",
+        "Basic",
+        "Shade"
+      ],
+      "url": "https://flows.nodered.org/node/@softwaredevelopment/node-red-contrib-bodhi-device-basic-shade"
+    },
+    {
+      "id": "node-red-contrib-knx-ultimate",
+      "version": "2.1.39",
+      "description": "Control your KNX intallation via Node-Red! Single Node KNX IN/OUT with optional ETS group address importer. Easy to use and highly configurable. With integrated Philips HUE devices handling.",
+      "updated_at": "2023-08-03T10:10:01.805Z",
+      "types": [
+        "knxUltimate",
+        "knxUltimateSceneController",
+        "knxUltimateWatchDog",
+        "knxUltimateLogger",
+        "knxUltimate-config",
+        "knxUltimateGlobalContext",
+        "knxUltimateAlerter",
+        "knxUltimateLoadControl",
+        "knxUltimateViewer",
+        "hue-config",
+        "knxUltimateHueLight",
+        "knxUltimateHueButton",
+        "knxUltimateHueMotion",
+        "knxUltimateHueTapDial",
+        "knxUltimateHueLightSensor",
+        "knxUltimateHueTemperatureSensor",
+        "knxUltimateHueScene",
+        "knxUltimateHueBattery"
+      ],
+      "keywords": [
+        "node-red",
+        "KNX",
+        "ETS",
+        "eib",
+        "eibd",
+        "knxd",
+        "konnex",
+        "IOT",
+        "hue"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-knx-ultimate"
+    },
+    {
+      "id": "node-red-contrib-rcm-connector",
+      "version": "1.0.4",
+      "description": "MMG2 Connector for Node-RED",
+      "updated_at": "2023-08-02T20:49:54.386Z",
+      "types": [
+        "mmg2-connector",
+        "mmg2-maintained-list",
+        "mmg2-reading",
+        "mmg2-reading-history",
+        "mmg2-relay",
+        "mmg2-isolate"
+      ],
+      "keywords": [
+        "node-red"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-rcm-connector"
+    },
+    {
+      "id": "@softwaredevelopment/node-red-contrib-bodhi-device-indoor-air-sensor",
+      "version": "0.0.3",
+      "description": "Indooe air quality Sensor Device device for bodhi node red",
+      "updated_at": "2023-08-02T20:12:01.483Z",
+      "types": [
+        "Indoor Air Quality Sensor"
+      ],
+      "keywords": [
+        "node-red",
+        "device",
+        "bodhi",
+        "indoor",
+        "air",
+        "quality",
+        "sensor"
+      ],
+      "url": "https://flows.nodered.org/node/@softwaredevelopment/node-red-contrib-bodhi-device-indoor-air-sensor"
+    },
+    {
+      "id": "@softwaredevelopment/node-red-contrib-bodhi-device-valve",
+      "version": "0.0.1",
+      "description": "Valve Device device for bodhi node red",
+      "updated_at": "2023-08-02T20:05:53.334Z",
+      "types": [
+        "Valve"
+      ],
+      "keywords": [
+        "node-red",
+        "device",
+        "bodhi",
+        "valve"
+      ],
+      "url": "https://flows.nodered.org/node/@softwaredevelopment/node-red-contrib-bodhi-device-valve"
+    },
     {
       "id": "@softwaredevelopment/node-red-contrib-bodhi-device-tvoc-sensor",
       "version": "0.0.1",
@@ -40,25 +235,6 @@
       "url": "https://flows.nodered.org/node/@softwaredevelopment/node-red-contrib-bodhi-device-matter-2-sensor"
     },
     {
-      "id": "@softwaredevelopment/node-red-contrib-bodhi-device-indoor-air-sensor",
-      "version": "0.0.2",
-      "description": "Indooe air quality Sensor Device device for bodhi node red",
-      "updated_at": "2023-08-02T19:00:38.051Z",
-      "types": [
-        "Indoor Air Quality Sensor"
-      ],
-      "keywords": [
-        "node-red",
-        "device",
-        "bodhi",
-        "indoor",
-        "air",
-        "quality",
-        "sensor"
-      ],
-      "url": "https://flows.nodered.org/node/@softwaredevelopment/node-red-contrib-bodhi-device-indoor-air-sensor"
-    },
-    {
       "id": "@softwaredevelopment/node-red-contrib-bodhi-device-matter-10-sensor",
       "version": "0.0.1",
       "description": "Particulate Matter 10 Sensor Device device for bodhi node red",
@@ -77,24 +253,6 @@
         "sensor"
       ],
       "url": "https://flows.nodered.org/node/@softwaredevelopment/node-red-contrib-bodhi-device-matter-10-sensor"
-    },
-    {
-      "id": "node-red-contrib-rcm-connector",
-      "version": "1.0.2",
-      "description": "MMG2 Connector for Node-RED",
-      "updated_at": "2023-08-02T18:25:59.541Z",
-      "types": [
-        "mmg2-connector",
-        "mmg2-maintained-list",
-        "mmg2-reading",
-        "mmg2-reading-history",
-        "mmg2-relay",
-        "mmg2-isolate"
-      ],
-      "keywords": [
-        "node-red"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-rcm-connector"
     },
     {
       "id": "@softwaredevelopment/node-red-contrib-bodhi-device-barometric-sensor",
@@ -173,33 +331,6 @@
         "tdc"
       ],
       "url": "https://flows.nodered.org/node/@ifp-software/node-red-contrib-oee-ai-connector"
-    },
-    {
-      "id": "@digitalnodecom/node-red-contrib-generic-s3",
-      "version": "1.11.6",
-      "description": "Generic node-red S3 nodes",
-      "updated_at": "2023-08-02T09:42:32.905Z",
-      "types": [
-        "client-s3",
-        "List Buckets",
-        "Create Bucket",
-        "List Objects",
-        "List Objects V2",
-        "List Object Versions",
-        "Get Object",
-        "Head Object",
-        "Put Object",
-        "Put Objects",
-        "Delete Object",
-        "Copy Object",
-        "Move Object"
-      ],
-      "keywords": [
-        "node-red",
-        "s3",
-        "generic"
-      ],
-      "url": "https://flows.nodered.org/node/@digitalnodecom/node-red-contrib-generic-s3"
     },
     {
       "id": "@hexelink/node-red-aries-hw-io",
@@ -574,44 +705,6 @@
         "flowhub"
       ],
       "url": "https://flows.nodered.org/node/@gregoriusrippenstein/node-red-contrib-flowhub"
-    },
-    {
-      "id": "node-red-contrib-knx-ultimate",
-      "version": "2.1.38",
-      "description": "Control your KNX intallation via Node-Red! Single Node KNX IN/OUT with optional ETS group address importer. Easy to use and highly configurable. With integrated Philips HUE devices handling.",
-      "updated_at": "2023-07-31T09:08:16.594Z",
-      "types": [
-        "knxUltimate",
-        "knxUltimateSceneController",
-        "knxUltimateWatchDog",
-        "knxUltimateLogger",
-        "knxUltimate-config",
-        "knxUltimateGlobalContext",
-        "knxUltimateAlerter",
-        "knxUltimateLoadControl",
-        "knxUltimateViewer",
-        "hue-config",
-        "knxUltimateHueLight",
-        "knxUltimateHueButton",
-        "knxUltimateHueMotion",
-        "knxUltimateHueTapDial",
-        "knxUltimateHueLightSensor",
-        "knxUltimateHueTemperatureSensor",
-        "knxUltimateHueScene",
-        "knxUltimateHueBattery"
-      ],
-      "keywords": [
-        "node-red",
-        "KNX",
-        "ETS",
-        "eib",
-        "eibd",
-        "knxd",
-        "konnex",
-        "IOT",
-        "hue"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-knx-ultimate"
     },
     {
       "id": "node-red-contrib-openai-ubos",
@@ -9665,33 +9758,6 @@
         "stoptimer"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-stoptimer-varidelay"
-    },
-    {
-      "id": "node-red-contrib-tts-ultimate",
-      "version": "1.0.56",
-      "description": "Transforms the text in speech and hear it using Sonos player or generate an audio file to be used with third parties nodes. Works with voices from Amazon, Google (without credentials as well), Microsoft TTS Azure, or your own voice. You can also only crea",
-      "updated_at": "2023-03-20T16:21:04.186Z",
-      "types": [
-        "ttsultimate",
-        "ttsultimate-config",
-        "ownfileultimate"
-      ],
-      "keywords": [
-        "node-red",
-        "polly",
-        "google",
-        "voice",
-        "amazon",
-        "azure",
-        "tts",
-        "sonos",
-        "IOT",
-        "speech",
-        "ttsultimate",
-        "sonospollytts",
-        "neural"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-tts-ultimate"
     },
     {
       "id": "node-red-contrib-gatewayex",
@@ -24205,20 +24271,6 @@
         "iot"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-baidu-iot-device"
-    },
-    {
-      "id": "node-red-contrib-tak-registration",
-      "version": "0.3.1",
-      "description": "A Node-RED node to register to TAK and to help wrap files as datapackages to send to TAK",
-      "updated_at": "2022-04-15T15:10:24.384Z",
-      "types": [
-        "tak registration"
-      ],
-      "keywords": [
-        "TAK",
-        "node-red"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-tak-registration"
     },
     {
       "id": "node-red-contrib-enocean-esp2",
