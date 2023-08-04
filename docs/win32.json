@@ -1,7 +1,120 @@
 {
   "name": "Catalogue for Windows",
-  "updated_at": "2023-08-03T18:52:04.649Z",
+  "updated_at": "2023-08-04T19:23:39.992Z",
   "modules": [
+    {
+      "id": "node-red-contrib-onstar2",
+      "version": "2.1.14",
+      "description": "An updated Node-RED Library using OnStarJS, an unofficial client library for the OnStar Vehicle API",
+      "updated_at": "2023-08-04T14:52:58.740Z",
+      "types": [
+        "get-account-vehicles",
+        "get-diagnostics",
+        "lock-myvehicle",
+        "unlock-myvehicle",
+        "start-myvehicle",
+        "cancel-start-myvehicle",
+        "alert-myvehicle",
+        "alert-myvehicle-lights",
+        "alert-myvehicle-horn",
+        "cancel-alert-myvehicle",
+        "locate-vehicle",
+        "mycharge-override",
+        "get-mycharge-profile",
+        "set-mycharge-profile",
+        "onstar2"
+      ],
+      "keywords": [
+        "node-red",
+        "OnStar",
+        "Chevrolet",
+        "Chevy",
+        "GM",
+        "GMC",
+        "Buick",
+        "Cadillac"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-onstar2"
+    },
+    {
+      "id": "@gregoriusrippenstein/node-red-contrib-flowhub",
+      "version": "0.0.5",
+      "description": "Flow interaction nodes.",
+      "updated_at": "2023-08-04T12:32:04.958Z",
+      "types": [
+        "FlowHubPull",
+        "FlowHubPush"
+      ],
+      "keywords": [
+        "node-red",
+        "flowhub"
+      ],
+      "url": "https://flows.nodered.org/node/@gregoriusrippenstein/node-red-contrib-flowhub"
+    },
+    {
+      "id": "@kurago-dev/node-red-contrib-azure",
+      "version": "1.0.7",
+      "description": "Node RED nodes for Azure",
+      "updated_at": "2023-08-04T06:41:54.571Z",
+      "types": [
+        "Azure IotHub device",
+        "Azure Blob storage"
+      ],
+      "keywords": [
+        "node-red",
+        "azure",
+        "iothub",
+        "blob-storage"
+      ],
+      "url": "https://flows.nodered.org/node/@kurago-dev/node-red-contrib-azure"
+    },
+    {
+      "id": "node-red-contrib-life360",
+      "version": "1.1.1",
+      "description": "Life360 nodes for node-red",
+      "updated_at": "2023-08-04T02:02:33.356Z",
+      "types": [
+        "Life360",
+        "Life360-Server"
+      ],
+      "keywords": [
+        "life360",
+        "node-red"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-life360"
+    },
+    {
+      "id": "node-red-contrib-tak-registration",
+      "version": "0.6.0",
+      "description": "A Node-RED node to register to TAK and to help wrap files as datapackages to send to TAK",
+      "updated_at": "2023-08-03T17:03:07.365Z",
+      "types": [
+        "tak registration",
+        "tak ingest"
+      ],
+      "keywords": [
+        "TAK",
+        "COT",
+        "node-red"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-tak-registration"
+    },
+    {
+      "id": "@softwaredevelopment/node-red-contrib-bodhi-device-drape",
+      "version": "0.0.1",
+      "description": "Drape Device device for bodhi node red",
+      "updated_at": "2023-08-03T16:24:22.842Z",
+      "types": [
+        "Drape"
+      ],
+      "keywords": [
+        "node-red",
+        "device",
+        "bodhi",
+        "drape"
+      ],
+      "url": "https://flows.nodered.org/node/@softwaredevelopment/node-red-contrib-bodhi-device-drape"
+    },
     {
       "id": "@digitalnodecom/node-red-contrib-generic-s3",
       "version": "1.12.0",
@@ -658,21 +771,6 @@
         "node-red"
       ],
       "url": "https://flows.nodered.org/node/@envidatec/node-red-contrib-logger"
-    },
-    {
-      "id": "@gregoriusrippenstein/node-red-contrib-flowhub",
-      "version": "0.0.2",
-      "description": "Flow interaction nodes.",
-      "updated_at": "2023-07-31T10:44:48.677Z",
-      "types": [
-        "FlowHubPull",
-        "FlowHubPush"
-      ],
-      "keywords": [
-        "node-red",
-        "flowhub"
-      ],
-      "url": "https://flows.nodered.org/node/@gregoriusrippenstein/node-red-contrib-flowhub"
     },
     {
       "id": "node-red-contrib-openai-ubos",
@@ -1789,23 +1887,6 @@
       "url": "https://flows.nodered.org/node/node-red-contrib-device-monitor"
     },
     {
-      "id": "@kurago-dev/node-red-contrib-azure",
-      "version": "1.0.6",
-      "description": "Node RED nodes for Azure",
-      "updated_at": "2023-07-20T13:18:11.586Z",
-      "types": [
-        "Azure IotHub device",
-        "Azure Blob storage"
-      ],
-      "keywords": [
-        "node-red",
-        "azure",
-        "iothub",
-        "blob-storage"
-      ],
-      "url": "https://flows.nodered.org/node/@kurago-dev/node-red-contrib-azure"
-    },
-    {
       "id": "atomic-gravity",
       "version": "2.0.9",
       "description": "Gravity module for Brobridge Atomic",
@@ -2255,40 +2336,6 @@
         "node-red"
       ],
       "url": "https://flows.nodered.org/node/@stefa168/node-red-hysteresis"
-    },
-    {
-      "id": "node-red-contrib-onstar2",
-      "version": "2.1.13",
-      "description": "An updated Node-RED Library using OnStarJS, an unofficial client library for the OnStar Vehicle API",
-      "updated_at": "2023-07-14T17:41:57.791Z",
-      "types": [
-        "get-account-vehicles",
-        "get-diagnostics",
-        "lock-myvehicle",
-        "unlock-myvehicle",
-        "start-myvehicle",
-        "cancel-start-myvehicle",
-        "alert-myvehicle",
-        "alert-myvehicle-lights",
-        "alert-myvehicle-horn",
-        "cancel-alert-myvehicle",
-        "locate-vehicle",
-        "mycharge-override",
-        "get-mycharge-profile",
-        "set-mycharge-profile",
-        "onstar2"
-      ],
-      "keywords": [
-        "node-red",
-        "OnStar",
-        "Chevrolet",
-        "Chevy",
-        "GM",
-        "GMC",
-        "Buick",
-        "Cadillac"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-onstar2"
     },
     {
       "id": "node-red-contrib-alice",
@@ -24133,20 +24180,6 @@
       "url": "https://flows.nodered.org/node/node-red-contrib-baidu-iot-device"
     },
     {
-      "id": "node-red-contrib-tak-registration",
-      "version": "0.3.1",
-      "description": "A Node-RED node to register to TAK and to help wrap files as datapackages to send to TAK",
-      "updated_at": "2022-04-15T15:10:24.384Z",
-      "types": [
-        "tak registration"
-      ],
-      "keywords": [
-        "TAK",
-        "node-red"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-tak-registration"
-    },
-    {
       "id": "node-red-contrib-enocean-esp2",
       "version": "0.0.6",
       "description": "Node, that reads data from enocean serial bus 2 (f.e. eltako) and parses values",
@@ -42208,21 +42241,6 @@
         "node-red"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-google-cloud-gcs-delete"
-    },
-    {
-      "id": "node-red-contrib-life360",
-      "version": "1.0.0",
-      "description": "Life360 nodes for node-red",
-      "updated_at": "2020-11-14T20:39:01.731Z",
-      "types": [
-        "Life360",
-        "Life360-Server"
-      ],
-      "keywords": [
-        "life360",
-        "node-red"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-life360"
     },
     {
       "id": "node-red-contrib-yubaba",
