@@ -1,0 +1,47 @@
+#0 building with "default" instance using docker driver
+
+#1 [internal] load .dockerignore
+#1 transferring context: 2B done
+#1 DONE 0.0s
+
+#2 [internal] load build definition from Dockerfile
+#2 transferring dockerfile: 137B done
+#2 DONE 0.0s
+
+#3 [internal] load metadata for docker.io/nodered/node-red:latest
+#3 DONE 0.3s
+
+#4 [1/2] FROM docker.io/nodered/node-red@sha256:5fd729fce9b787903e2b443a2fc052c6253b737ca38e65df7b843cd4170bdb5c
+#4 CACHED
+
+#5 [2/2] RUN npm install npm install @digitalnodecom/node-red-contrib-generic-s3@1.12.0
+#5 8.244 
+#5 8.244 added 102 packages, and audited 644 packages in 8s
+#5 8.245 
+#5 8.245 65 packages are looking for funding
+#5 8.245   run `npm fund` for details
+#5 8.256 
+#5 8.256 10 vulnerabilities (2 low, 8 moderate)
+#5 8.256 
+#5 8.256 To address issues that do not require attention, run:
+#5 8.256   npm audit fix
+#5 8.256 
+#5 8.256 To address all issues (including breaking changes), run:
+#5 8.256   npm audit fix --force
+#5 8.256 
+#5 8.256 Run `npm audit` for details.
+#5 8.257 npm notice 
+#5 8.257 npm notice New major version of npm available! 8.19.4 -> 9.8.1
+#5 8.257 npm notice Changelog: <https://github.com/npm/cli/releases/tag/v9.8.1>
+#5 8.257 npm notice Run `npm install -g npm@9.8.1` to update!
+#5 8.257 npm notice 
+#5 DONE 8.5s
+
+#6 exporting to image
+#6 exporting layers
+#6 exporting layers 1.4s done
+#6 writing image sha256:5815336a3ec3f5063b1855dbff046c4e0b690584df1377f11d31ed6903080527 done
+#6 naming to docker.io/library/tmp done
+#6 DONE 1.4s
+
+----
