@@ -1,7 +1,190 @@
 {
   "name": "Catalogue for Docker",
-  "updated_at": "2023-08-04T16:02:42.349Z",
+  "updated_at": "2023-08-05T16:01:58.557Z",
   "modules": [
+    {
+      "id": "@digitalnodecom/node-red-contrib-generic-s3",
+      "version": "1.12.1",
+      "description": "Generic node-red S3 nodes",
+      "updated_at": "2023-08-05T13:53:35.908Z",
+      "types": [
+        "client-s3",
+        "List Buckets",
+        "Create Bucket",
+        "List Objects",
+        "List Objects V2",
+        "List Object Versions",
+        "Get Object",
+        "Head Object",
+        "Put Object",
+        "Put Objects",
+        "Delete Object",
+        "Copy Object",
+        "Move Object"
+      ],
+      "keywords": [
+        "node-red",
+        "s3",
+        "generic"
+      ],
+      "url": "https://flows.nodered.org/node/@digitalnodecom/node-red-contrib-generic-s3"
+    },
+    {
+      "id": "@gregoriusrippenstein/node-red-contrib-introspection",
+      "version": "0.3.0",
+      "description": "Node-RED Editor-only nodes for introspecting flows.",
+      "updated_at": "2023-08-05T13:36:42.234Z",
+      "types": [
+        "Seeker",
+        "Sink",
+        "Screenshot",
+        "Orphans",
+        "IsMobile",
+        "Navigator",
+        "DrawSVG",
+        "GetFlows"
+      ],
+      "keywords": [
+        "node-red"
+      ],
+      "url": "https://flows.nodered.org/node/@gregoriusrippenstein/node-red-contrib-introspection"
+    },
+    {
+      "id": "node-red-contrib-nibeuplink",
+      "version": "1.0.1",
+      "description": "A Node-Red Node for collecting data from nibe uplink.",
+      "updated_at": "2023-08-05T11:58:28.693Z",
+      "types": [
+        "nibeuplink-config",
+        "nibeuplink"
+      ],
+      "keywords": [
+        "node-red",
+        "nibeuplink",
+        "volund",
+        "vølund"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-nibeuplink"
+    },
+    {
+      "id": "node-red-contrib-easy-pid-controller",
+      "version": "1.0.0",
+      "description": "A Node-RED node for implementing an easy PID controller",
+      "updated_at": "2023-08-05T11:52:26.314Z",
+      "types": [
+        "easy-pid-controller"
+      ],
+      "keywords": [
+        "node-red",
+        "PID",
+        "controller"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-easy-pid-controller"
+    },
+    {
+      "id": "@flowforge/node-red-dashboard",
+      "version": "0.0.7",
+      "description": "A collection of Node-RED nodes that provide functionality to build your own UI applications (inc. forms, buttons, charts) within Node-RED.",
+      "updated_at": "2023-08-05T09:38:22.152Z",
+      "types": [
+        "ui-base",
+        "ui-page",
+        "ui-group",
+        "ui-theme",
+        "ui-text-input",
+        "ui-button",
+        "ui-dropdown",
+        "ui-slider",
+        "ui-switch",
+        "ui-text",
+        "ui-chart",
+        "ui-markdown",
+        "ui-template"
+      ],
+      "keywords": [
+        "node-red"
+      ],
+      "url": "https://flows.nodered.org/node/@flowforge/node-red-dashboard"
+    },
+    {
+      "id": "node-red-contrib-dashbored",
+      "version": "1.1.4",
+      "description": "A customizable dashboard for NodeRed",
+      "updated_at": "2023-08-05T04:01:15.599Z",
+      "types": [
+        "dashbored-server",
+        "dashbored-widget",
+        "__errors__",
+        "dashbored-dashbored",
+        "dashbored-widget-node",
+        "dashbored-node"
+      ],
+      "keywords": [
+        "node-red",
+        "dashbored",
+        "dashboard",
+        "ui",
+        "website",
+        "web-ui",
+        "control",
+        "touch"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-dashbored"
+    },
+    {
+      "id": "node-red-contrib-trashschedule",
+      "version": "1.3.3",
+      "description": "NodeRED Node to manage trash schedule events",
+      "updated_at": "2023-08-04T16:44:44.695Z",
+      "types": [
+        "trashschedule"
+      ],
+      "keywords": [
+        "node-red",
+        "trash",
+        "muell",
+        "smart home",
+        "schedule",
+        "trashschedule",
+        "muellabfuhr",
+        "calendar"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-trashschedule"
+    },
+    {
+      "id": "node-red-contrib-onstar2",
+      "version": "2.1.14",
+      "description": "An updated Node-RED Library using OnStarJS, an unofficial client library for the OnStar Vehicle API",
+      "updated_at": "2023-08-04T14:52:58.740Z",
+      "types": [
+        "get-account-vehicles",
+        "get-diagnostics",
+        "lock-myvehicle",
+        "unlock-myvehicle",
+        "start-myvehicle",
+        "cancel-start-myvehicle",
+        "alert-myvehicle",
+        "alert-myvehicle-lights",
+        "alert-myvehicle-horn",
+        "cancel-alert-myvehicle",
+        "locate-vehicle",
+        "mycharge-override",
+        "get-mycharge-profile",
+        "set-mycharge-profile",
+        "onstar2"
+      ],
+      "keywords": [
+        "node-red",
+        "OnStar",
+        "Chevrolet",
+        "Chevy",
+        "GM",
+        "GMC",
+        "Buick",
+        "Cadillac"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-onstar2"
+    },
     {
       "id": "@gregoriusrippenstein/node-red-contrib-flowhub",
       "version": "0.0.5",
@@ -50,6 +233,21 @@
       "url": "https://flows.nodered.org/node/node-red-contrib-life360"
     },
     {
+      "id": "@edgepi-cloud/node-red-edgepi-digital-out",
+      "version": "1.0.0",
+      "description": "node-red node for edgepi digital output module utilizing remote procedure calls",
+      "updated_at": "2023-08-03T18:29:13.559Z",
+      "types": [
+        "edgepi-digital-out-node"
+      ],
+      "keywords": [
+        "node-red",
+        "edgepi",
+        "rpc"
+      ],
+      "url": "https://flows.nodered.org/node/@edgepi-cloud/node-red-edgepi-digital-out"
+    },
+    {
       "id": "node-red-contrib-tak-registration",
       "version": "0.6.0",
       "description": "A Node-RED node to register to TAK and to help wrap files as datapackages to send to TAK",
@@ -80,33 +278,6 @@
         "drape"
       ],
       "url": "https://flows.nodered.org/node/@softwaredevelopment/node-red-contrib-bodhi-device-drape"
-    },
-    {
-      "id": "@digitalnodecom/node-red-contrib-generic-s3",
-      "version": "1.12.0",
-      "description": "Generic node-red S3 nodes",
-      "updated_at": "2023-08-03T14:55:29.855Z",
-      "types": [
-        "client-s3",
-        "List Buckets",
-        "Create Bucket",
-        "List Objects",
-        "List Objects V2",
-        "List Object Versions",
-        "Get Object",
-        "Head Object",
-        "Put Object",
-        "Put Objects",
-        "Delete Object",
-        "Copy Object",
-        "Move Object"
-      ],
-      "keywords": [
-        "node-red",
-        "s3",
-        "generic"
-      ],
-      "url": "https://flows.nodered.org/node/@digitalnodecom/node-red-contrib-generic-s3"
     },
     {
       "id": "node-red-contrib-tts-ultimate",
@@ -558,30 +729,6 @@
         "sensor"
       ],
       "url": "https://flows.nodered.org/node/@softwaredevelopment/node-red-contrib-bodhi-device-energy-monitor-sensor"
-    },
-    {
-      "id": "@flowforge/node-red-dashboard",
-      "version": "0.0.6",
-      "description": "A collection of Node-RED nodes that provide functionality to build your own UI applications (inc. forms, buttons, charts) within Node-RED.",
-      "updated_at": "2023-08-01T16:23:50.467Z",
-      "types": [
-        "ui-base",
-        "ui-page",
-        "ui-group",
-        "ui-theme",
-        "ui-text-input",
-        "ui-button",
-        "ui-dropdown",
-        "ui-slider",
-        "ui-switch",
-        "ui-text",
-        "ui-chart",
-        "ui-markdown"
-      ],
-      "keywords": [
-        "node-red"
-      ],
-      "url": "https://flows.nodered.org/node/@flowforge/node-red-dashboard"
     },
     {
       "id": "@softwaredevelopment/node-red-contrib-bodhi-device-pool",
@@ -2317,40 +2464,6 @@
       "url": "https://flows.nodered.org/node/@stefa168/node-red-hysteresis"
     },
     {
-      "id": "node-red-contrib-onstar2",
-      "version": "2.1.13",
-      "description": "An updated Node-RED Library using OnStarJS, an unofficial client library for the OnStar Vehicle API",
-      "updated_at": "2023-07-14T17:41:57.791Z",
-      "types": [
-        "get-account-vehicles",
-        "get-diagnostics",
-        "lock-myvehicle",
-        "unlock-myvehicle",
-        "start-myvehicle",
-        "cancel-start-myvehicle",
-        "alert-myvehicle",
-        "alert-myvehicle-lights",
-        "alert-myvehicle-horn",
-        "cancel-alert-myvehicle",
-        "locate-vehicle",
-        "mycharge-override",
-        "get-mycharge-profile",
-        "set-mycharge-profile",
-        "onstar2"
-      ],
-      "keywords": [
-        "node-red",
-        "OnStar",
-        "Chevrolet",
-        "Chevy",
-        "GM",
-        "GMC",
-        "Buick",
-        "Cadillac"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-onstar2"
-    },
-    {
       "id": "node-red-contrib-alice",
       "version": "2.0.2",
       "description": "**NodeRed Home** (node-red-contrib-alice) - это сервис позволит, в несколько простых шагов, подключить любые ваши устройства заведенные в Node-RED к умному дому от Яндекса и управлять ими с помощью голосового помощника Алиса.",
@@ -2725,26 +2838,6 @@
         "aes"
       ],
       "url": "https://flows.nodered.org/node/smithtek-nodered-lora-aes"
-    },
-    {
-      "id": "node-red-contrib-trashschedule",
-      "version": "1.3.2",
-      "description": "NodeRED Node to manage trash schedule events",
-      "updated_at": "2023-07-10T16:12:41.332Z",
-      "types": [
-        "trashschedule"
-      ],
-      "keywords": [
-        "node-red",
-        "trash",
-        "muell",
-        "smart home",
-        "schedule",
-        "trashschedule",
-        "muellabfuhr",
-        "calendar"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-trashschedule"
     },
     {
       "id": "@almostinteractive/node-red-contrib-basic-ical-calendar",
@@ -3166,26 +3259,6 @@
         "node-red"
       ],
       "url": "https://flows.nodered.org/node/@gastmanager/node-red-client"
-    },
-    {
-      "id": "@gregoriusrippenstein/node-red-contrib-introspection",
-      "version": "0.2.6",
-      "description": "Node-RED Editor-only nodes for introspecting flows.",
-      "updated_at": "2023-07-03T18:27:07.333Z",
-      "types": [
-        "Seeker",
-        "Sink",
-        "Screenshot",
-        "Orphans",
-        "IsMobile",
-        "Navigator",
-        "DrawSVG",
-        "GetFlows"
-      ],
-      "keywords": [
-        "node-red"
-      ],
-      "url": "https://flows.nodered.org/node/@gregoriusrippenstein/node-red-contrib-introspection"
     },
     {
       "id": "@icke1983/node-red-contrib-ui-popup",
@@ -8140,23 +8213,6 @@
       "url": "https://flows.nodered.org/node/@gotillit/tillit-node-red"
     },
     {
-      "id": "node-red-contrib-nibeuplink",
-      "version": "0.3.1",
-      "description": "A Node-Red Node for collecting data from nibe uplink.",
-      "updated_at": "2023-04-12T20:21:16.786Z",
-      "types": [
-        "nibeuplink-config",
-        "nibeuplink"
-      ],
-      "keywords": [
-        "node-red",
-        "nibeuplink",
-        "volund",
-        "vølund"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-nibeuplink"
-    },
-    {
       "id": "@realsixi/node-red-contrib-ring-alarm",
       "version": "0.0.19",
       "description": "Unofficial Node-Red nodes to interact with Ring Alarm System and Ring Cameras.",
@@ -8192,31 +8248,6 @@
         "threshold control"
       ],
       "url": "https://flows.nodered.org/node/node-threshold-control"
-    },
-    {
-      "id": "node-red-contrib-dashbored",
-      "version": "1.1.3",
-      "description": "A customizable dashboard for NodeRed",
-      "updated_at": "2023-04-12T08:42:31.776Z",
-      "types": [
-        "dashbored-server",
-        "dashbored-widget",
-        "__errors__",
-        "dashbored-dashbored",
-        "dashbored-widget-node",
-        "dashbored-node"
-      ],
-      "keywords": [
-        "node-red",
-        "dashbored",
-        "dashboard",
-        "ui",
-        "website",
-        "web-ui",
-        "control",
-        "touch"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-dashbored"
     },
     {
       "id": "node-red-contrib-allenandheath",
