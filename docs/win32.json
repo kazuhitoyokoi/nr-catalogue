@@ -1,7 +1,104 @@
 {
   "name": "Catalogue for Windows",
-  "updated_at": "2023-08-07T20:29:58.587Z",
+  "updated_at": "2023-08-08T20:02:24.896Z",
   "modules": [
+    {
+      "id": "@factoryframeworks/forge",
+      "version": "1.0.2",
+      "description": "This Node-RED node package provides custom nodes for writing data to Forge Tags as well as subscribing to Forge Events.",
+      "updated_at": "2023-08-08T15:10:52.409Z",
+      "types": [
+        "tag-write",
+        "tag-change",
+        "forge-server"
+      ],
+      "keywords": [
+        "node-red",
+        "factory-frameworks",
+        "forge"
+      ],
+      "url": "https://flows.nodered.org/node/@factoryframeworks/forge"
+    },
+    {
+      "id": "integrator-package-test",
+      "version": "1.0.4",
+      "description": "## Suma de valores",
+      "updated_at": "2023-08-08T15:03:17.907Z",
+      "types": [],
+      "keywords": [
+        "node-red"
+      ],
+      "url": "https://flows.nodered.org/node/integrator-package-test"
+    },
+    {
+      "id": "node-red-contrib-easy-pid-controller",
+      "version": "1.2.0",
+      "description": "A Node-RED node for implementing an easy PID controller",
+      "updated_at": "2023-08-08T10:32:02.934Z",
+      "types": [
+        "easy-pid-controller"
+      ],
+      "keywords": [
+        "node-red",
+        "PID",
+        "controller"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-easy-pid-controller"
+    },
+    {
+      "id": "node-red-contrib-musiccast",
+      "version": "4.3.1",
+      "description": "A Node-RED collection for monitoring and controlling a Yamaha Musiccast network.",
+      "updated_at": "2023-08-08T05:45:29.157Z",
+      "types": [
+        "musiccast-config",
+        "musiccast-zone",
+        "musiccast-input",
+        "musiccast-device",
+        "musiccast-list",
+        "musiccast-link"
+      ],
+      "keywords": [
+        "node-red",
+        "yamaha",
+        "musiccast",
+        "yxc",
+        "music"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-musiccast"
+    },
+    {
+      "id": "node-red-contrib-eufy-security",
+      "version": "0.1.1",
+      "description": "Eufy security node for Node RED",
+      "updated_at": "2023-08-08T00:40:32.568Z",
+      "types": [
+        "eufy-config",
+        "eufy-security"
+      ],
+      "keywords": [
+        "node-red",
+        "eufy",
+        "security"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-eufy-security"
+    },
+    {
+      "id": "@blokcert/node-red-azure-storage",
+      "version": "1.0.11",
+      "description": "Node-red node for Azure Storage",
+      "updated_at": "2023-08-07T16:19:56.089Z",
+      "types": [
+        "Upload",
+        "Download"
+      ],
+      "keywords": [
+        "Javascript",
+        "node-red",
+        "Azure Blob Storage"
+      ],
+      "url": "https://flows.nodered.org/node/@blokcert/node-red-azure-storage"
+    },
     {
       "id": "node-red-contrib-ssl-parser",
       "version": "1.0.3",
@@ -143,6 +240,28 @@
       "url": "https://flows.nodered.org/node/node-red-contrib-discord-advanced"
     },
     {
+      "id": "node-red-contrib-cot2xtopo",
+      "version": "1.1.0",
+      "description": "This module parses 'live tracks' in network kmls from services such as CalTopo / SARTopo and converts the last coordinate in the live tracking folder to a position location information (pli) cursor-on-target (CoT) message to send to a Team Awareness Kit (",
+      "updated_at": "2023-08-05T21:00:54.516Z",
+      "types": [
+        "cot2xtopo",
+        "xtopo2cot"
+      ],
+      "keywords": [
+        "nodered",
+        "node-red",
+        "atak",
+        "itak",
+        "tak",
+        "caltopo",
+        "sartopo",
+        "tak",
+        "server"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-cot2xtopo"
+    },
+    {
       "id": "node-red-contrib-car-bmw",
       "version": "0.5.3",
       "description": "Node-RED nodes to connect to BMW ConnectedDrive and read infos of your car.",
@@ -257,21 +376,6 @@
         "vølund"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-nibeuplink"
-    },
-    {
-      "id": "node-red-contrib-easy-pid-controller",
-      "version": "1.0.0",
-      "description": "A Node-RED node for implementing an easy PID controller",
-      "updated_at": "2023-08-05T11:52:26.314Z",
-      "types": [
-        "easy-pid-controller"
-      ],
-      "keywords": [
-        "node-red",
-        "PID",
-        "controller"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-easy-pid-controller"
     },
     {
       "id": "node-red-contrib-dashbored",
@@ -659,25 +763,6 @@
       "url": "https://flows.nodered.org/node/@softwaredevelopment/node-red-contrib-bodhi-device-barometric-sensor"
     },
     {
-      "id": "node-red-contrib-cot2xtopo",
-      "version": "1.0.9",
-      "description": "This node parses 'live tracks' in network kmls from services such as CalTopo / SARTopo and converts the last coordinate in the live tracking folder to a position location information (pli) cursor-on-target (CoT) message to send to a Team Awareness Kit (TA",
-      "updated_at": "2023-08-02T16:27:47.064Z",
-      "types": [],
-      "keywords": [
-        "nodered",
-        "node-red",
-        "atak",
-        "itak",
-        "tak",
-        "caltopo",
-        "sartopo",
-        "tak",
-        "server"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-cot2xtopo"
-    },
-    {
       "id": "@ifp-software/node-red-contrib-oee-ai-connector",
       "version": "2.6.6",
       "description": "Easily connect your production machines to oee.ai – The Industry 4.0 solution for OEE optimization.",
@@ -891,28 +976,6 @@
         "pool"
       ],
       "url": "https://flows.nodered.org/node/@softwaredevelopment/node-red-contrib-bodhi-device-pool"
-    },
-    {
-      "id": "node-red-contrib-musiccast",
-      "version": "4.2.4",
-      "description": "A Node-RED collection for monitoring and controlling a Yamaha Musiccast network.",
-      "updated_at": "2023-08-01T02:40:47.336Z",
-      "types": [
-        "musiccast-config",
-        "musiccast-zone",
-        "musiccast-input",
-        "musiccast-device",
-        "musiccast-list",
-        "musiccast-link"
-      ],
-      "keywords": [
-        "node-red",
-        "yamaha",
-        "musiccast",
-        "yxc",
-        "music"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-musiccast"
     },
     {
       "id": "@softwaredevelopment/node-red-contrib-bodhi-device-television",
@@ -1305,25 +1368,6 @@
         "control"
       ],
       "url": "https://flows.nodered.org/node/@softwaredevelopment/node-red-contrib-bodhi-device-audio-zone"
-    },
-    {
-      "id": "node-red-topo-pli-to-cot",
-      "version": "1.0.1",
-      "description": "This node parses 'live tracks' in network kmls from services such as CalTopo / SARTopo and converts the last coordinate in the live tracking folder to a position location information (pli) cursor-on-target (CoT) message to send to a Team Awareness Kit (TA",
-      "updated_at": "2023-07-28T17:20:48.020Z",
-      "types": [],
-      "keywords": [
-        "nodered",
-        "node-red",
-        "atak",
-        "itak",
-        "tak",
-        "caltopo",
-        "sartopo",
-        "tak",
-        "server"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-topo-pli-to-cot"
     },
     {
       "id": "@softwaredevelopment/node-red-contrib-bodhi-device-generator-power-sensor",
@@ -32570,22 +32614,6 @@
       "url": "https://flows.nodered.org/node/node-red-contrib-sm-8inputs"
     },
     {
-      "id": "node-red-contrib-eufy-security",
-      "version": "0.0.2",
-      "description": "Eufy security node for Node RED",
-      "updated_at": "2021-08-16T15:54:43.036Z",
-      "types": [
-        "eufy-config",
-        "eufy-security"
-      ],
-      "keywords": [
-        "node-red",
-        "eufy",
-        "security"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-eufy-security"
-    },
-    {
       "id": "node-red-contrib-sm-8relind",
       "version": "1.0.3",
       "description": "A Node-RED node to control Sequent Microsystems 8Relay board",
@@ -45837,23 +45865,6 @@
       "url": "https://flows.nodered.org/node/node-red-contrib-alexa-remote2"
     },
     {
-      "id": "node-red-contrib-post-object-detection",
-      "version": "0.1.6",
-      "description": "A Node-RED custom node that processes the Object Detection results",
-      "updated_at": "2020-07-24T21:22:32.792Z",
-      "types": [
-        "post-object-detection",
-        "bbox-image"
-      ],
-      "keywords": [
-        "Object-Detection",
-        "Bounding-Box",
-        "Node-RED",
-        "node-red"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-post-object-detection"
-    },
-    {
       "id": "node-red-contrib-throttle",
       "version": "0.1.7",
       "description": "A Node-RED node to throttle down passed through message amount.",
@@ -46026,21 +46037,6 @@
         "hvac"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-gree-hvac"
-    },
-    {
-      "id": "node-red-contrib-tf-model",
-      "version": "0.1.10",
-      "description": "a custom Node-RED node to retrieve/execute a Tensorflow model",
-      "updated_at": "2020-07-10T17:51:54.675Z",
-      "types": [
-        "tf-model"
-      ],
-      "keywords": [
-        "tensorflow.js",
-        "model",
-        "node-red"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-tf-model"
     },
     {
       "id": "node-red-contrib-eksido-monoloop",
@@ -50627,22 +50623,6 @@
         "sensor"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-cf-fiware"
-    },
-    {
-      "id": "node-red-contrib-tf-function",
-      "version": "0.1.0",
-      "description": "A Node-RED custom node which mimic the original function node but provide tf in the global context",
-      "updated_at": "2020-02-19T01:01:38.820Z",
-      "types": [
-        "tf-function"
-      ],
-      "keywords": [
-        "node-red",
-        "tfjs",
-        "tf",
-        "function"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-tf-function"
     },
     {
       "id": "node-red-contrib-ramp-thermostat",
