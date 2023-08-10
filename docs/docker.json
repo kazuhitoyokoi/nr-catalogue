@@ -1,7 +1,127 @@
 {
   "name": "Catalogue for Docker",
-  "updated_at": "2023-08-09T16:05:27.205Z",
+  "updated_at": "2023-08-10T16:01:23.285Z",
   "modules": [
+    {
+      "id": "node-red-contrib-tak-registration",
+      "version": "0.7.2",
+      "description": "A Node-RED node to register to TAK and to help wrap files as datapackages to send to TAK",
+      "updated_at": "2023-08-10T10:29:33.644Z",
+      "types": [
+        "tak registration",
+        "tak ingest"
+      ],
+      "keywords": [
+        "TAK",
+        "COT",
+        "node-red"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-tak-registration"
+    },
+    {
+      "id": "node-red-contrib-knx-ultimate",
+      "version": "2.1.40",
+      "description": "Control your KNX intallation via Node-Red! Single Node KNX IN/OUT with optional ETS group address importer. Easy to use and highly configurable. With integrated Philips HUE devices handling.",
+      "updated_at": "2023-08-10T08:45:49.787Z",
+      "types": [
+        "knxUltimate",
+        "knxUltimateSceneController",
+        "knxUltimateWatchDog",
+        "knxUltimateLogger",
+        "knxUltimate-config",
+        "knxUltimateGlobalContext",
+        "knxUltimateAlerter",
+        "knxUltimateLoadControl",
+        "knxUltimateViewer",
+        "hue-config",
+        "knxUltimateHueLight",
+        "knxUltimateHueButton",
+        "knxUltimateHueMotion",
+        "knxUltimateHueTapDial",
+        "knxUltimateHueLightSensor",
+        "knxUltimateHueTemperatureSensor",
+        "knxUltimateHueScene",
+        "knxUltimateHueBattery"
+      ],
+      "keywords": [
+        "node-red",
+        "KNX",
+        "ETS",
+        "eib",
+        "eibd",
+        "knxd",
+        "konnex",
+        "IOT",
+        "hue"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-knx-ultimate"
+    },
+    {
+      "id": "@sugarlata/node-red-contrib-bible-gateway",
+      "version": "2.0.3",
+      "description": "A Node-RED custom node to download scripture from bible gateway.",
+      "updated_at": "2023-08-10T04:50:44.941Z",
+      "types": [
+        "get bg link",
+        "get bg scripture"
+      ],
+      "keywords": [
+        "node-red"
+      ],
+      "url": "https://flows.nodered.org/node/@sugarlata/node-red-contrib-bible-gateway"
+    },
+    {
+      "id": "node-red-contrib-pi-plates",
+      "version": "0.2.5",
+      "description": "control Pi-Plates boards from Node-RED",
+      "updated_at": "2023-08-09T18:15:31.545Z",
+      "types": [
+        "pi_plate",
+        "ppRelay",
+        "ppADC",
+        "ppAllADC",
+        "ppCURRENT",
+        "ppDAC",
+        "ppDIN",
+        "ppDOUT",
+        "ppFREQ",
+        "ppLED",
+        "ppTEMP",
+        "ppTHERMO",
+        "ppPWM",
+        "ppMotor",
+        "ppUPS"
+      ],
+      "keywords": [
+        "node-red",
+        "pi-plates",
+        "Pi",
+        "Plates",
+        "relay",
+        "automation",
+        "adc",
+        "dac",
+        "ds18b20",
+        "thermocouple",
+        "iot"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-pi-plates"
+    },
+    {
+      "id": "@gregoriusrippenstein/node-red-contrib-flowhub",
+      "version": "0.0.6",
+      "description": "Flow interaction nodes.",
+      "updated_at": "2023-08-09T16:13:38.499Z",
+      "types": [
+        "FlowHubPull",
+        "FlowHubPush"
+      ],
+      "keywords": [
+        "node-red",
+        "flowhub"
+      ],
+      "url": "https://flows.nodered.org/node/@gregoriusrippenstein/node-red-contrib-flowhub"
+    },
     {
       "id": "node-red-ubyte-arangodb",
       "version": "2.0.1",
@@ -78,6 +198,21 @@
       "url": "https://flows.nodered.org/node/node-red-contrib-alice"
     },
     {
+      "id": "node-red-contrib-home-assistant-websocket",
+      "version": "0.56.0",
+      "description": "Node-RED integration with Home Assistant through websocket and REST API",
+      "updated_at": "2023-08-09T06:20:51.076Z",
+      "types": [],
+      "keywords": [
+        "node-red",
+        "home-assistant",
+        "home assistant",
+        "home automation",
+        "websocket"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-home-assistant-websocket"
+    },
+    {
       "id": "@blokcert/node-red-azure-storage",
       "version": "1.1.1",
       "description": "Node-red node for Azure Storage",
@@ -152,6 +287,26 @@
         "echo"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-alexa-remote2-mattl0"
+    },
+    {
+      "id": "@ncd-io/node-red-enterprise-sensors",
+      "version": "0.1.8",
+      "description": "You can install this library through the Palette Manager in Node-Red's UI.",
+      "updated_at": "2023-08-08T15:52:00.551Z",
+      "types": [
+        "ncd-gateway-node",
+        "ncd-wireless-node",
+        "ncd-gateway-config"
+      ],
+      "keywords": [
+        "Wireless",
+        "NCD",
+        "Sensors",
+        "Digi",
+        "node-red",
+        "enterprise"
+      ],
+      "url": "https://flows.nodered.org/node/@ncd-io/node-red-enterprise-sensors"
     },
     {
       "id": "@factoryframeworks/forge",
@@ -579,21 +734,6 @@
       "url": "https://flows.nodered.org/node/node-red-contrib-onstar2"
     },
     {
-      "id": "@gregoriusrippenstein/node-red-contrib-flowhub",
-      "version": "0.0.5",
-      "description": "Flow interaction nodes.",
-      "updated_at": "2023-08-04T12:32:04.958Z",
-      "types": [
-        "FlowHubPull",
-        "FlowHubPush"
-      ],
-      "keywords": [
-        "node-red",
-        "flowhub"
-      ],
-      "url": "https://flows.nodered.org/node/@gregoriusrippenstein/node-red-contrib-flowhub"
-    },
-    {
       "id": "@kurago-dev/node-red-contrib-azure",
       "version": "1.0.7",
       "description": "Node RED nodes for Azure",
@@ -639,22 +779,6 @@
         "rpc"
       ],
       "url": "https://flows.nodered.org/node/@edgepi-cloud/node-red-edgepi-digital-out"
-    },
-    {
-      "id": "node-red-contrib-tak-registration",
-      "version": "0.6.0",
-      "description": "A Node-RED node to register to TAK and to help wrap files as datapackages to send to TAK",
-      "updated_at": "2023-08-03T17:03:07.365Z",
-      "types": [
-        "tak registration",
-        "tak ingest"
-      ],
-      "keywords": [
-        "TAK",
-        "COT",
-        "node-red"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-tak-registration"
     },
     {
       "id": "@softwaredevelopment/node-red-contrib-bodhi-device-drape",
@@ -716,44 +840,6 @@
         "Shade"
       ],
       "url": "https://flows.nodered.org/node/@softwaredevelopment/node-red-contrib-bodhi-device-basic-shade"
-    },
-    {
-      "id": "node-red-contrib-knx-ultimate",
-      "version": "2.1.39",
-      "description": "Control your KNX intallation via Node-Red! Single Node KNX IN/OUT with optional ETS group address importer. Easy to use and highly configurable. With integrated Philips HUE devices handling.",
-      "updated_at": "2023-08-03T10:10:01.805Z",
-      "types": [
-        "knxUltimate",
-        "knxUltimateSceneController",
-        "knxUltimateWatchDog",
-        "knxUltimateLogger",
-        "knxUltimate-config",
-        "knxUltimateGlobalContext",
-        "knxUltimateAlerter",
-        "knxUltimateLoadControl",
-        "knxUltimateViewer",
-        "hue-config",
-        "knxUltimateHueLight",
-        "knxUltimateHueButton",
-        "knxUltimateHueMotion",
-        "knxUltimateHueTapDial",
-        "knxUltimateHueLightSensor",
-        "knxUltimateHueTemperatureSensor",
-        "knxUltimateHueScene",
-        "knxUltimateHueBattery"
-      ],
-      "keywords": [
-        "node-red",
-        "KNX",
-        "ETS",
-        "eib",
-        "eibd",
-        "knxd",
-        "konnex",
-        "IOT",
-        "hue"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-knx-ultimate"
     },
     {
       "id": "node-red-contrib-rcm-connector",
@@ -2385,21 +2471,6 @@
         "powerbox"
       ],
       "url": "https://flows.nodered.org/node/@spectraautomation/node-red-urbancontroller-watchdog"
-    },
-    {
-      "id": "node-red-contrib-home-assistant-websocket",
-      "version": "0.55.1",
-      "description": "Node-RED integration with Home Assistant through websocket and REST API",
-      "updated_at": "2023-07-18T20:05:28.712Z",
-      "types": [],
-      "keywords": [
-        "node-red",
-        "home-assistant",
-        "home assistant",
-        "home automation",
-        "websocket"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-home-assistant-websocket"
     },
     {
       "id": "node-red-contrib-boolean-logic-ultimate",
@@ -4145,26 +4216,6 @@
         "node-red"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-simple-chatgpt"
-    },
-    {
-      "id": "@ncd-io/node-red-enterprise-sensors",
-      "version": "0.1.7",
-      "description": "You can install this library through the Palette Manager in Node-Red's UI.",
-      "updated_at": "2023-06-22T20:55:28.473Z",
-      "types": [
-        "ncd-gateway-node",
-        "ncd-wireless-node",
-        "ncd-gateway-config"
-      ],
-      "keywords": [
-        "Wireless",
-        "NCD",
-        "Sensors",
-        "Digi",
-        "node-red",
-        "enterprise"
-      ],
-      "url": "https://flows.nodered.org/node/@ncd-io/node-red-enterprise-sensors"
     },
     {
       "id": "@equans/smart-buildings-occupancy-timing",
@@ -12849,42 +12900,6 @@
         "rf433"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-energenie-ener314rt"
-    },
-    {
-      "id": "node-red-contrib-pi-plates",
-      "version": "0.2.3",
-      "description": "control Pi-Plates boards from Node-RED",
-      "updated_at": "2023-01-22T20:24:45.545Z",
-      "types": [
-        "pi_plate",
-        "ppRelay",
-        "ppADC",
-        "ppAllADC",
-        "ppCURRENT",
-        "ppDAC",
-        "ppDIN",
-        "ppDOUT",
-        "ppFREQ",
-        "ppLED",
-        "ppTEMP",
-        "ppTHERMO",
-        "ppPWM",
-        "ppMotor"
-      ],
-      "keywords": [
-        "node-red",
-        "pi-plates",
-        "Pi",
-        "Plates",
-        "relay",
-        "automation",
-        "adc",
-        "dac",
-        "ds18b20",
-        "thermocouple",
-        "iot"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-pi-plates"
     },
     {
       "id": "node-red-contrib-axios",
