@@ -1,7 +1,177 @@
 {
   "name": "Catalogue for Windows",
-  "updated_at": "2023-08-09T19:11:20.500Z",
+  "updated_at": "2023-08-10T18:47:49.680Z",
   "modules": [
+    {
+      "id": "@gregoriusrippenstein/node-red-contrib-flowhub",
+      "version": "0.0.8",
+      "description": "Flow interaction nodes.",
+      "updated_at": "2023-08-10T15:30:42.150Z",
+      "types": [
+        "FlowHubPull",
+        "FlowHubPush"
+      ],
+      "keywords": [
+        "node-red",
+        "flowhub"
+      ],
+      "url": "https://flows.nodered.org/node/@gregoriusrippenstein/node-red-contrib-flowhub"
+    },
+    {
+      "id": "node-red-contrib-nupmes",
+      "version": "3.0.4",
+      "description": "The all-in-one package for controlling and monitoring machines via the N+P MES.",
+      "updated_at": "2023-08-10T15:02:19.890Z",
+      "types": [
+        "nupmes-authentication",
+        "nupmes-request",
+        "nupmes-hub",
+        "nupmes-counter",
+        "nupmes-get-io",
+        "nupmes-server",
+        "nupmes-set-io",
+        "nupmes-opcua-signal",
+        "nupmes-opcua-server",
+        "nupmes-set-parameter-message",
+        "nupmes-pareto",
+        "nupmes-oee",
+        "nupmes-winauth-request"
+      ],
+      "keywords": [
+        "node-red"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-nupmes"
+    },
+    {
+      "id": "@flowforge/node-red-dashboard",
+      "version": "0.1.0",
+      "description": "A collection of Node-RED nodes that provide functionality to build your own UI applications (inc. forms, buttons, charts) within Node-RED.",
+      "updated_at": "2023-08-10T14:58:46.867Z",
+      "types": [
+        "ui-base",
+        "ui-page",
+        "ui-group",
+        "ui-theme",
+        "ui-text-input",
+        "ui-button",
+        "ui-dropdown",
+        "ui-slider",
+        "ui-switch",
+        "ui-text",
+        "ui-chart",
+        "ui-markdown",
+        "ui-template"
+      ],
+      "keywords": [
+        "node-red"
+      ],
+      "url": "https://flows.nodered.org/node/@flowforge/node-red-dashboard"
+    },
+    {
+      "id": "node-red-contrib-tak-registration",
+      "version": "0.7.2",
+      "description": "A Node-RED node to register to TAK and to help wrap files as datapackages to send to TAK",
+      "updated_at": "2023-08-10T10:29:33.644Z",
+      "types": [
+        "tak registration",
+        "tak ingest"
+      ],
+      "keywords": [
+        "TAK",
+        "COT",
+        "node-red"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-tak-registration"
+    },
+    {
+      "id": "node-red-contrib-knx-ultimate",
+      "version": "2.1.40",
+      "description": "Control your KNX intallation via Node-Red! Single Node KNX IN/OUT with optional ETS group address importer. Easy to use and highly configurable. With integrated Philips HUE devices handling.",
+      "updated_at": "2023-08-10T08:45:49.787Z",
+      "types": [
+        "knxUltimate",
+        "knxUltimateSceneController",
+        "knxUltimateWatchDog",
+        "knxUltimateLogger",
+        "knxUltimate-config",
+        "knxUltimateGlobalContext",
+        "knxUltimateAlerter",
+        "knxUltimateLoadControl",
+        "knxUltimateViewer",
+        "hue-config",
+        "knxUltimateHueLight",
+        "knxUltimateHueButton",
+        "knxUltimateHueMotion",
+        "knxUltimateHueTapDial",
+        "knxUltimateHueLightSensor",
+        "knxUltimateHueTemperatureSensor",
+        "knxUltimateHueScene",
+        "knxUltimateHueBattery"
+      ],
+      "keywords": [
+        "node-red",
+        "KNX",
+        "ETS",
+        "eib",
+        "eibd",
+        "knxd",
+        "konnex",
+        "IOT",
+        "hue"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-knx-ultimate"
+    },
+    {
+      "id": "@sugarlata/node-red-contrib-bible-gateway",
+      "version": "2.0.3",
+      "description": "A Node-RED custom node to download scripture from bible gateway.",
+      "updated_at": "2023-08-10T04:50:44.941Z",
+      "types": [
+        "get bg link",
+        "get bg scripture"
+      ],
+      "keywords": [
+        "node-red"
+      ],
+      "url": "https://flows.nodered.org/node/@sugarlata/node-red-contrib-bible-gateway"
+    },
+    {
+      "id": "node-red-contrib-pi-plates",
+      "version": "0.2.5",
+      "description": "control Pi-Plates boards from Node-RED",
+      "updated_at": "2023-08-09T18:15:31.545Z",
+      "types": [
+        "pi_plate",
+        "ppRelay",
+        "ppADC",
+        "ppAllADC",
+        "ppCURRENT",
+        "ppDAC",
+        "ppDIN",
+        "ppDOUT",
+        "ppFREQ",
+        "ppLED",
+        "ppTEMP",
+        "ppTHERMO",
+        "ppPWM",
+        "ppMotor",
+        "ppUPS"
+      ],
+      "keywords": [
+        "node-red",
+        "pi-plates",
+        "Pi",
+        "Plates",
+        "relay",
+        "automation",
+        "adc",
+        "dac",
+        "ds18b20",
+        "thermocouple",
+        "iot"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-pi-plates"
+    },
     {
       "id": "node-red-ubyte-arangodb",
       "version": "2.0.1",
@@ -316,31 +486,6 @@
       "url": "https://flows.nodered.org/node/@tolgaulas/node-red-contrib-beanstalkd"
     },
     {
-      "id": "@flowforge/node-red-dashboard",
-      "version": "0.0.9",
-      "description": "A collection of Node-RED nodes that provide functionality to build your own UI applications (inc. forms, buttons, charts) within Node-RED.",
-      "updated_at": "2023-08-06T16:02:56.409Z",
-      "types": [
-        "ui-base",
-        "ui-page",
-        "ui-group",
-        "ui-theme",
-        "ui-text-input",
-        "ui-button",
-        "ui-dropdown",
-        "ui-slider",
-        "ui-switch",
-        "ui-text",
-        "ui-chart",
-        "ui-markdown",
-        "ui-template"
-      ],
-      "keywords": [
-        "node-red"
-      ],
-      "url": "https://flows.nodered.org/node/@flowforge/node-red-dashboard"
-    },
-    {
       "id": "node-red-contrib-discord-advanced",
       "version": "3.5.0",
       "description": "Recieve, send, edit, reply, react to and delete Discord messages, handle interactions and much more in Node-RED.",
@@ -581,21 +726,6 @@
       "url": "https://flows.nodered.org/node/node-red-contrib-onstar2"
     },
     {
-      "id": "@gregoriusrippenstein/node-red-contrib-flowhub",
-      "version": "0.0.5",
-      "description": "Flow interaction nodes.",
-      "updated_at": "2023-08-04T12:32:04.958Z",
-      "types": [
-        "FlowHubPull",
-        "FlowHubPush"
-      ],
-      "keywords": [
-        "node-red",
-        "flowhub"
-      ],
-      "url": "https://flows.nodered.org/node/@gregoriusrippenstein/node-red-contrib-flowhub"
-    },
-    {
       "id": "@kurago-dev/node-red-contrib-azure",
       "version": "1.0.7",
       "description": "Node RED nodes for Azure",
@@ -641,22 +771,6 @@
         "rpc"
       ],
       "url": "https://flows.nodered.org/node/@edgepi-cloud/node-red-edgepi-digital-out"
-    },
-    {
-      "id": "node-red-contrib-tak-registration",
-      "version": "0.6.0",
-      "description": "A Node-RED node to register to TAK and to help wrap files as datapackages to send to TAK",
-      "updated_at": "2023-08-03T17:03:07.365Z",
-      "types": [
-        "tak registration",
-        "tak ingest"
-      ],
-      "keywords": [
-        "TAK",
-        "COT",
-        "node-red"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-tak-registration"
     },
     {
       "id": "@softwaredevelopment/node-red-contrib-bodhi-device-drape",
@@ -718,44 +832,6 @@
         "Shade"
       ],
       "url": "https://flows.nodered.org/node/@softwaredevelopment/node-red-contrib-bodhi-device-basic-shade"
-    },
-    {
-      "id": "node-red-contrib-knx-ultimate",
-      "version": "2.1.39",
-      "description": "Control your KNX intallation via Node-Red! Single Node KNX IN/OUT with optional ETS group address importer. Easy to use and highly configurable. With integrated Philips HUE devices handling.",
-      "updated_at": "2023-08-03T10:10:01.805Z",
-      "types": [
-        "knxUltimate",
-        "knxUltimateSceneController",
-        "knxUltimateWatchDog",
-        "knxUltimateLogger",
-        "knxUltimate-config",
-        "knxUltimateGlobalContext",
-        "knxUltimateAlerter",
-        "knxUltimateLoadControl",
-        "knxUltimateViewer",
-        "hue-config",
-        "knxUltimateHueLight",
-        "knxUltimateHueButton",
-        "knxUltimateHueMotion",
-        "knxUltimateHueTapDial",
-        "knxUltimateHueLightSensor",
-        "knxUltimateHueTemperatureSensor",
-        "knxUltimateHueScene",
-        "knxUltimateHueBattery"
-      ],
-      "keywords": [
-        "node-red",
-        "KNX",
-        "ETS",
-        "eib",
-        "eibd",
-        "knxd",
-        "konnex",
-        "IOT",
-        "hue"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-knx-ultimate"
     },
     {
       "id": "node-red-contrib-rcm-connector",
@@ -4088,26 +4164,6 @@
         "node-red"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-simple-chatgpt"
-    },
-    {
-      "id": "@ncd-io/node-red-enterprise-sensors",
-      "version": "0.1.7",
-      "description": "You can install this library through the Palette Manager in Node-Red's UI.",
-      "updated_at": "2023-06-22T20:55:28.473Z",
-      "types": [
-        "ncd-gateway-node",
-        "ncd-wireless-node",
-        "ncd-gateway-config"
-      ],
-      "keywords": [
-        "Wireless",
-        "NCD",
-        "Sensors",
-        "Digi",
-        "node-red",
-        "enterprise"
-      ],
-      "url": "https://flows.nodered.org/node/@ncd-io/node-red-enterprise-sensors"
     },
     {
       "id": "@equans/smart-buildings-occupancy-timing",
@@ -12793,42 +12849,6 @@
         "arp"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-cb-arp"
-    },
-    {
-      "id": "node-red-contrib-pi-plates",
-      "version": "0.2.3",
-      "description": "control Pi-Plates boards from Node-RED",
-      "updated_at": "2023-01-22T20:24:45.545Z",
-      "types": [
-        "pi_plate",
-        "ppRelay",
-        "ppADC",
-        "ppAllADC",
-        "ppCURRENT",
-        "ppDAC",
-        "ppDIN",
-        "ppDOUT",
-        "ppFREQ",
-        "ppLED",
-        "ppTEMP",
-        "ppTHERMO",
-        "ppPWM",
-        "ppMotor"
-      ],
-      "keywords": [
-        "node-red",
-        "pi-plates",
-        "Pi",
-        "Plates",
-        "relay",
-        "automation",
-        "adc",
-        "dac",
-        "ds18b20",
-        "thermocouple",
-        "iot"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-pi-plates"
     },
     {
       "id": "node-red-contrib-axios",
@@ -31159,30 +31179,6 @@
         "Bluetooth"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-meraki-dashboard-api-v1"
-    },
-    {
-      "id": "node-red-contrib-nupmes",
-      "version": "3.0.3",
-      "description": "The all-in-one package for controlling and monitoring machines via the N+P MES.",
-      "updated_at": "2021-10-07T10:56:06.845Z",
-      "types": [
-        "nupmes-authentication",
-        "nupmes-request",
-        "nupmes-hub",
-        "nupmes-counter",
-        "nupmes-get-io",
-        "nupmes-server",
-        "nupmes-set-io",
-        "nupmes-opcua-signal",
-        "nupmes-opcua-server",
-        "nupmes-set-parameter-message",
-        "nupmes-pareto",
-        "nupmes-oee"
-      ],
-      "keywords": [
-        "node-red"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-nupmes"
     },
     {
       "id": "node-red-contrib-bitrix24",
