@@ -1,12 +1,87 @@
 {
   "name": "Catalogue for Docker",
-  "updated_at": "2023-08-10T16:01:23.285Z",
+  "updated_at": "2023-08-11T16:05:40.970Z",
   "modules": [
     {
+      "id": "node-red-node-stomp",
+      "version": "1.0.5",
+      "description": "A Node-RED node to publish and subscribe to/from a Stomp server",
+      "updated_at": "2023-08-11T14:33:10.042Z",
+      "types": [
+        "stomp in",
+        "stomp out",
+        "stomp-server",
+        "stomp ack"
+      ],
+      "keywords": [
+        "node-red",
+        "stomp",
+        "stomp-client"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-node-stomp"
+    },
+    {
+      "id": "node-red-contrib-web-worldmap",
+      "version": "2.40.0",
+      "description": "A Node-RED node to provide a web page of a world map for plotting things on.",
+      "updated_at": "2023-08-11T14:22:03.513Z",
+      "types": [
+        "worldmap",
+        "ui_worldmap",
+        "worldmap in",
+        "worldmap-tracks",
+        "worldmap-hull"
+      ],
+      "keywords": [
+        "node-red",
+        "map",
+        "world",
+        "tak"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-web-worldmap"
+    },
+    {
+      "id": "node-red-contrib-hikvision-ultimate",
+      "version": "1.1.11",
+      "description": "A native set of nodes for Hikvision (and compatible) Cameras, Alarms, Radars, NVR, Doorbells, etc.",
+      "updated_at": "2023-08-11T14:14:33.789Z",
+      "types": [
+        "Hikvision-config",
+        "AXPro-config",
+        "Doorbell-config",
+        "ANPR-config",
+        "AccessControl-config",
+        "hikvisionUltimateText",
+        "hikvisionUltimateAlarm",
+        "hikvisionUltimateAlarmRaw",
+        "hikvisionUltimateANPR",
+        "hikvisionUltimatePTZ",
+        "hikvisionUltimatePicture",
+        "hikvisionUltimateXML",
+        "hikvisionUltimateDoorbell",
+        "hikvisionUltimateAxPro",
+        "hikvisionUltimateAccessControlTerminal"
+      ],
+      "keywords": [
+        "node-red",
+        "hikvision",
+        "alarm",
+        "camera",
+        "radar",
+        "ANPR",
+        "license plate",
+        "doorbell",
+        "door intercom",
+        "access control terminal",
+        "Ax Pro"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-hikvision-ultimate"
+    },
+    {
       "id": "node-red-contrib-tak-registration",
-      "version": "0.7.2",
+      "version": "0.8.0",
       "description": "A Node-RED node to register to TAK and to help wrap files as datapackages to send to TAK",
-      "updated_at": "2023-08-10T10:29:33.644Z",
+      "updated_at": "2023-08-11T14:12:22.024Z",
       "types": [
         "tak registration",
         "tak ingest"
@@ -17,6 +92,150 @@
         "node-red"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-tak-registration"
+    },
+    {
+      "id": "node-red-contrib-fastxml",
+      "version": "1.0.0",
+      "description": "A Node-RED node to parse xml strings to json and vice-versa",
+      "updated_at": "2023-08-11T07:14:33.703Z",
+      "types": [
+        "fastxml"
+      ],
+      "keywords": [
+        "node-red",
+        "xml",
+        "fastxml"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-fastxml"
+    },
+    {
+      "id": "node-red-contrib-alexa-remote2-mattl0",
+      "version": "5.10.4",
+      "description": "node-red nodes for interacting with alexa",
+      "updated_at": "2023-08-10T20:13:06.451Z",
+      "types": [
+        "alexa-remote-account",
+        "alexa-remote-init",
+        "alexa-remote-event",
+        "alexa-remote-smarthome",
+        "alexa-remote-routine",
+        "alexa-remote-echo",
+        "alexa-remote-other",
+        "alexa-remote-list"
+      ],
+      "keywords": [
+        "node-red",
+        "alexa remote",
+        "alexa",
+        "echo"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-alexa-remote2-mattl0"
+    },
+    {
+      "id": "node-red-contrib-alexa-remote2-applestrudel",
+      "version": "5.0.34",
+      "description": "node-red nodes for interacting with alexa",
+      "updated_at": "2023-08-10T16:09:13.275Z",
+      "types": [
+        "alexa-remote-account",
+        "alexa-remote-init",
+        "alexa-remote-event",
+        "alexa-remote-smarthome",
+        "alexa-remote-routine",
+        "alexa-remote-echo",
+        "alexa-remote-other",
+        "alexa-remote-list"
+      ],
+      "keywords": [
+        "node-red",
+        "alexa remote",
+        "alexa",
+        "echo"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-alexa-remote2-applestrudel"
+    },
+    {
+      "id": "@gregoriusrippenstein/node-red-contrib-flowhub",
+      "version": "0.0.8",
+      "description": "Flow interaction nodes.",
+      "updated_at": "2023-08-10T15:30:42.150Z",
+      "types": [
+        "FlowHubPull",
+        "FlowHubPush"
+      ],
+      "keywords": [
+        "node-red",
+        "flowhub"
+      ],
+      "url": "https://flows.nodered.org/node/@gregoriusrippenstein/node-red-contrib-flowhub"
+    },
+    {
+      "id": "node-red-contrib-nupmes",
+      "version": "3.0.4",
+      "description": "The all-in-one package for controlling and monitoring machines via the N+P MES.",
+      "updated_at": "2023-08-10T15:02:19.890Z",
+      "types": [
+        "nupmes-authentication",
+        "nupmes-request",
+        "nupmes-hub",
+        "nupmes-counter",
+        "nupmes-get-io",
+        "nupmes-server",
+        "nupmes-set-io",
+        "nupmes-opcua-signal",
+        "nupmes-opcua-server",
+        "nupmes-set-parameter-message",
+        "nupmes-pareto",
+        "nupmes-oee",
+        "nupmes-winauth-request"
+      ],
+      "keywords": [
+        "node-red"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-nupmes"
+    },
+    {
+      "id": "@flowforge/node-red-dashboard",
+      "version": "0.1.0",
+      "description": "A collection of Node-RED nodes that provide functionality to build your own UI applications (inc. forms, buttons, charts) within Node-RED.",
+      "updated_at": "2023-08-10T14:58:46.867Z",
+      "types": [
+        "ui-base",
+        "ui-page",
+        "ui-group",
+        "ui-theme",
+        "ui-text-input",
+        "ui-button",
+        "ui-dropdown",
+        "ui-slider",
+        "ui-switch",
+        "ui-text",
+        "ui-chart",
+        "ui-markdown",
+        "ui-template"
+      ],
+      "keywords": [
+        "node-red"
+      ],
+      "url": "https://flows.nodered.org/node/@flowforge/node-red-dashboard"
+    },
+    {
+      "id": "node-red-contrib-unifi",
+      "version": "0.3.4",
+      "description": "Node for Node-RED to connect to a UniFi Controller ",
+      "updated_at": "2023-08-10T13:57:17.970Z",
+      "types": [
+        "unificonfig",
+        "Unifi",
+        "UnifiWS"
+      ],
+      "keywords": [
+        "node-red",
+        "unifi",
+        "ubnt",
+        "Ubiquiti Networks"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-unifi"
     },
     {
       "id": "node-red-contrib-knx-ultimate",
@@ -108,21 +327,6 @@
       "url": "https://flows.nodered.org/node/node-red-contrib-pi-plates"
     },
     {
-      "id": "@gregoriusrippenstein/node-red-contrib-flowhub",
-      "version": "0.0.6",
-      "description": "Flow interaction nodes.",
-      "updated_at": "2023-08-09T16:13:38.499Z",
-      "types": [
-        "FlowHubPull",
-        "FlowHubPush"
-      ],
-      "keywords": [
-        "node-red",
-        "flowhub"
-      ],
-      "url": "https://flows.nodered.org/node/@gregoriusrippenstein/node-red-contrib-flowhub"
-    },
-    {
       "id": "node-red-ubyte-arangodb",
       "version": "2.0.1",
       "description": "Node for connecting to arangodb",
@@ -137,24 +341,6 @@
         "node-red"
       ],
       "url": "https://flows.nodered.org/node/node-red-ubyte-arangodb"
-    },
-    {
-      "id": "node-red-contrib-unifi",
-      "version": "0.3.3",
-      "description": "Node for Node-RED to connect to a UniFi Controller ",
-      "updated_at": "2023-08-09T12:33:32.470Z",
-      "types": [
-        "unificonfig",
-        "Unifi",
-        "UnifiWS"
-      ],
-      "keywords": [
-        "node-red",
-        "unifi",
-        "ubnt",
-        "Ubiquiti Networks"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-unifi"
     },
     {
       "id": "node-red-contrib-easy-pid-controller",
@@ -266,29 +452,6 @@
       "url": "https://flows.nodered.org/node/node-red-contrib-hubitat"
     },
     {
-      "id": "node-red-contrib-alexa-remote2-mattl0",
-      "version": "5.10.3",
-      "description": "node-red nodes for interacting with alexa",
-      "updated_at": "2023-08-08T21:42:18.573Z",
-      "types": [
-        "alexa-remote-account",
-        "alexa-remote-init",
-        "alexa-remote-event",
-        "alexa-remote-smarthome",
-        "alexa-remote-routine",
-        "alexa-remote-echo",
-        "alexa-remote-other",
-        "alexa-remote-list"
-      ],
-      "keywords": [
-        "node-red",
-        "alexa remote",
-        "alexa",
-        "echo"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-alexa-remote2-mattl0"
-    },
-    {
       "id": "@ncd-io/node-red-enterprise-sensors",
       "version": "0.1.8",
       "description": "You can install this library through the Palette Manager in Node-Red's UI.",
@@ -362,6 +525,24 @@
         "security"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-eufy-security"
+    },
+    {
+      "id": "node-red-contrib-countdown-3000",
+      "version": "1.5.1-L",
+      "description": "A countdown that supports dynamic setting of (future) run time and stopping with or without payload output",
+      "updated_at": "2023-08-07T21:28:07.471Z",
+      "types": [
+        "countdown"
+      ],
+      "keywords": [
+        "node-red",
+        "count down timer",
+        "countdown",
+        "timer",
+        "timeout",
+        "stop timmer"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-countdown-3000"
     },
     {
       "id": "node-red-contrib-kopal-lower-case",
@@ -467,31 +648,6 @@
         "node"
       ],
       "url": "https://flows.nodered.org/node/@tolgaulas/node-red-contrib-beanstalkd"
-    },
-    {
-      "id": "@flowforge/node-red-dashboard",
-      "version": "0.0.9",
-      "description": "A collection of Node-RED nodes that provide functionality to build your own UI applications (inc. forms, buttons, charts) within Node-RED.",
-      "updated_at": "2023-08-06T16:02:56.409Z",
-      "types": [
-        "ui-base",
-        "ui-page",
-        "ui-group",
-        "ui-theme",
-        "ui-text-input",
-        "ui-button",
-        "ui-dropdown",
-        "ui-slider",
-        "ui-switch",
-        "ui-text",
-        "ui-chart",
-        "ui-markdown",
-        "ui-template"
-      ],
-      "keywords": [
-        "node-red"
-      ],
-      "url": "https://flows.nodered.org/node/@flowforge/node-red-dashboard"
     },
     {
       "id": "node-red-contrib-discord-advanced",
@@ -1313,25 +1469,6 @@
       "url": "https://flows.nodered.org/node/node-red-contrib-openai-ubos"
     },
     {
-      "id": "node-red-contrib-web-worldmap",
-      "version": "2.39.0",
-      "description": "A Node-RED node to provide a web page of a world map for plotting things on.",
-      "updated_at": "2023-07-31T08:37:45.950Z",
-      "types": [
-        "worldmap",
-        "ui_worldmap",
-        "worldmap in",
-        "worldmap-tracks",
-        "worldmap-hull"
-      ],
-      "keywords": [
-        "node-red",
-        "map",
-        "world"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-web-worldmap"
-    },
-    {
       "id": "node-red-contrib-tak",
       "version": "4.1.1",
       "description": "Node-RED Nodes for encoding & decoding TAK Protocol and Cursor on Target messages from TAK Products.",
@@ -2125,6 +2262,50 @@
         "light"
       ],
       "url": "https://flows.nodered.org/node/@softwaredevelopment/node-red-contrib-bodhi-device-rgb-light"
+    },
+    {
+      "id": "node-red-contrib-smartnora",
+      "version": "1.19.4",
+      "description": "Google Smart Home integration via Smart Nora https://smart-nora.eu/",
+      "updated_at": "2023-07-24T10:41:54.787Z",
+      "types": [
+        "noraf-ac",
+        "noraf-airpurifier",
+        "noraf-blinds",
+        "noraf-camera",
+        "noraf-charger",
+        "noraf-config",
+        "noraf-doorbell",
+        "noraf-fan",
+        "noraf-garage",
+        "noraf-light",
+        "noraf-lock",
+        "noraf-media",
+        "noraf-notify",
+        "noraf-openclose",
+        "noraf-outlet",
+        "noraf-scene",
+        "noraf-security",
+        "noraf-sensor",
+        "noraf-sousvide",
+        "noraf-speaker",
+        "noraf-sprinkler",
+        "noraf-switch",
+        "noraf-thermostat",
+        "noraf-vacuum",
+        "noraf-async"
+      ],
+      "keywords": [
+        "node-red",
+        "google",
+        "google home",
+        "assistant",
+        "smarthome",
+        "smart",
+        "home",
+        "iot"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-smartnora"
     },
     {
       "id": "node-red-contrib-letsfiware-ngsi",
@@ -3057,24 +3238,6 @@
         "iot2050"
       ],
       "url": "https://flows.nodered.org/node/node-red-node-intel-gpio"
-    },
-    {
-      "id": "node-red-node-stomp",
-      "version": "1.0.4",
-      "description": "A Node-RED node to publish and subscribe to/from a Stomp server",
-      "updated_at": "2023-07-11T19:00:41.160Z",
-      "types": [
-        "stomp in",
-        "stomp out",
-        "stomp-server",
-        "stomp ack"
-      ],
-      "keywords": [
-        "node-red",
-        "stomp",
-        "stomp-client"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-node-stomp"
     },
     {
       "id": "victron-dynamic-ess",
@@ -4145,50 +4308,6 @@
         "youSolution.Cloud"
       ],
       "url": "https://flows.nodered.org/node/@yousolution/node-red-contrib-you-tunnel-ssh"
-    },
-    {
-      "id": "node-red-contrib-smartnora",
-      "version": "1.19.3",
-      "description": "Google Smart Home integration via Smart Nora https://smart-nora.eu/",
-      "updated_at": "2023-06-23T10:52:15.684Z",
-      "types": [
-        "noraf-ac",
-        "noraf-airpurifier",
-        "noraf-blinds",
-        "noraf-camera",
-        "noraf-charger",
-        "noraf-config",
-        "noraf-doorbell",
-        "noraf-fan",
-        "noraf-garage",
-        "noraf-light",
-        "noraf-lock",
-        "noraf-media",
-        "noraf-notify",
-        "noraf-openclose",
-        "noraf-outlet",
-        "noraf-scene",
-        "noraf-security",
-        "noraf-sensor",
-        "noraf-sousvide",
-        "noraf-speaker",
-        "noraf-sprinkler",
-        "noraf-switch",
-        "noraf-thermostat",
-        "noraf-vacuum",
-        "noraf-async"
-      ],
-      "keywords": [
-        "node-red",
-        "google",
-        "google home",
-        "assistant",
-        "smarthome",
-        "smart",
-        "home",
-        "iot"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-smartnora"
     },
     {
       "id": "node-red-tpro-random-data",
@@ -6123,43 +6242,6 @@
       "url": "https://flows.nodered.org/node/node-red-contrib-ui-state-trail"
     },
     {
-      "id": "node-red-contrib-hikvision-ultimate",
-      "version": "1.1.10",
-      "description": "A native set of nodes for Hikvision (and compatible) Cameras, Alarms, Radars, NVR, Doorbells, etc.",
-      "updated_at": "2023-05-26T05:21:29.474Z",
-      "types": [
-        "Hikvision-config",
-        "AXPro-config",
-        "Doorbell-config",
-        "ANPR-config",
-        "AccessControl-config",
-        "hikvisionUltimateText",
-        "hikvisionUltimateAlarm",
-        "hikvisionUltimateAlarmRaw",
-        "hikvisionUltimateANPR",
-        "hikvisionUltimatePTZ",
-        "hikvisionUltimatePicture",
-        "hikvisionUltimateXML",
-        "hikvisionUltimateDoorbell",
-        "hikvisionUltimateAxPro",
-        "hikvisionUltimateAccessControlTerminal"
-      ],
-      "keywords": [
-        "node-red",
-        "hikvision",
-        "alarm",
-        "camera",
-        "radar",
-        "ANPR",
-        "license plate",
-        "doorbell",
-        "door intercom",
-        "access control terminal",
-        "Ax Pro"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-hikvision-ultimate"
-    },
-    {
       "id": "node-red-contrib-semilimes",
       "version": "1.0.43",
       "description": "Node-RED semilimes",
@@ -7385,29 +7467,6 @@
         "home automation"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-wled-notification"
-    },
-    {
-      "id": "node-red-contrib-alexa-remote2-applestrudel",
-      "version": "5.0.27",
-      "description": "node-red nodes for interacting with alexa",
-      "updated_at": "2023-05-04T07:02:11.866Z",
-      "types": [
-        "alexa-remote-account",
-        "alexa-remote-init",
-        "alexa-remote-event",
-        "alexa-remote-smarthome",
-        "alexa-remote-routine",
-        "alexa-remote-echo",
-        "alexa-remote-other",
-        "alexa-remote-list"
-      ],
-      "keywords": [
-        "node-red",
-        "alexa remote",
-        "alexa",
-        "echo"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-alexa-remote2-applestrudel"
     },
     {
       "id": "node-red-contrib-ui-time-scheduler-french",
@@ -31223,30 +31282,6 @@
         "Bluetooth"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-meraki-dashboard-api-v1"
-    },
-    {
-      "id": "node-red-contrib-nupmes",
-      "version": "3.0.3",
-      "description": "The all-in-one package for controlling and monitoring machines via the N+P MES.",
-      "updated_at": "2021-10-07T10:56:06.845Z",
-      "types": [
-        "nupmes-authentication",
-        "nupmes-request",
-        "nupmes-hub",
-        "nupmes-counter",
-        "nupmes-get-io",
-        "nupmes-server",
-        "nupmes-set-io",
-        "nupmes-opcua-signal",
-        "nupmes-opcua-server",
-        "nupmes-set-parameter-message",
-        "nupmes-pareto",
-        "nupmes-oee"
-      ],
-      "keywords": [
-        "node-red"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-nupmes"
     },
     {
       "id": "node-red-contrib-bitrix24",
