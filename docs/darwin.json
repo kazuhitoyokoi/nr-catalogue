@@ -1,7 +1,104 @@
 {
   "name": "Catalogue for macOS",
-  "updated_at": "2023-08-12T21:46:05.258Z",
+  "updated_at": "2023-08-13T21:06:32.864Z",
   "modules": [
+    {
+      "id": "node-red-contrib-opcua",
+      "version": "0.2.311",
+      "description": "A Node-RED node to communicate via OPC UA based on node-opcua library.",
+      "updated_at": "2023-08-13T17:58:39.242Z",
+      "types": [
+        "OpcUa-Item",
+        "OpcUa-Client",
+        "OpcUa-Browser",
+        "OpcUa-Server",
+        "OpcUa-Endpoint",
+        "OpcUa-Event",
+        "OpcUa-Method",
+        "OpcUa-Rights",
+        "OpcUa-Discovery"
+      ],
+      "keywords": [
+        "node-red",
+        "OPC UA",
+        "opc-ua",
+        "unified automation",
+        "opc foundation",
+        "node-opcua"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-opcua"
+    },
+    {
+      "id": "node-red-contrib-alice-nodrm",
+      "version": "2.0.7",
+      "description": "NO DRM clone from https://github.com/efa2000/node-red-contrib-alice",
+      "updated_at": "2023-08-13T17:55:41.243Z",
+      "types": [
+        "alice-service",
+        "alice-device",
+        "On_Off",
+        "Toggle",
+        "Range",
+        "Color",
+        "Mode",
+        "Sensor",
+        "Event",
+        "Video"
+      ],
+      "keywords": [
+        "node-red",
+        "yandex",
+        "alice",
+        "яндекс",
+        "алиса"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-alice-nodrm"
+    },
+    {
+      "id": "node-red-contrib-domain-wildcard-parking",
+      "version": "1.0.2",
+      "description": "adds Node to call Wildcard parking API, you can modify DNS for you parked domain and edit email forwarding rules",
+      "updated_at": "2023-08-13T16:56:43.860Z",
+      "types": [
+        "wcp-api",
+        "wcp-api-config"
+      ],
+      "keywords": [
+        "node-red",
+        "wildcardparking",
+        "domain parking",
+        "email forwarding",
+        "e-commerce template",
+        "AI generated page",
+        "DNS"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-domain-wildcard-parking"
+    },
+    {
+      "id": "thingzi-logic-climate",
+      "version": "0.6.4",
+      "description": "Climate control via node red",
+      "updated_at": "2023-08-12T22:06:52.452Z",
+      "types": [
+        "thingzi-climate"
+      ],
+      "keywords": [
+        "node-red",
+        "climate",
+        "smart home",
+        "temperature",
+        "thermostat",
+        "zone",
+        "hot water",
+        "heat",
+        "cool",
+        "hvac",
+        "mqtt",
+        "homeassistant",
+        "hass"
+      ],
+      "url": "https://flows.nodered.org/node/thingzi-logic-climate"
+    },
     {
       "id": "node-red-contrib-web-worldmap",
       "version": "2.40.1",
@@ -179,6 +276,32 @@
         "echo"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-alexa-remote2-mattl0"
+    },
+    {
+      "id": "node-red-contrib-alice",
+      "version": "2.0.4",
+      "description": "**NodeRed Home** (node-red-contrib-alice) - это сервис позволит, в несколько простых шагов, подключить любые ваши устройства заведенные в Node-RED к умному дому от Яндекса и управлять ими с помощью голосового помощника Алиса.",
+      "updated_at": "2023-08-10T18:24:44.757Z",
+      "types": [
+        "alice-service",
+        "alice-device",
+        "On_Off",
+        "Toggle",
+        "Range",
+        "Color",
+        "Mode",
+        "Sensor",
+        "Event",
+        "Video"
+      ],
+      "keywords": [
+        "node-red",
+        "yandex",
+        "alice",
+        "яндекс",
+        "алиса"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-alice"
     },
     {
       "id": "node-red-contrib-alexa-remote2-applestrudel",
@@ -405,32 +528,6 @@
         "controller"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-easy-pid-controller"
-    },
-    {
-      "id": "node-red-contrib-alice",
-      "version": "2.0.3",
-      "description": "**NodeRed Home** (node-red-contrib-alice) - это сервис позволит, в несколько простых шагов, подключить любые ваши устройства заведенные в Node-RED к умному дому от Яндекса и управлять ими с помощью голосового помощника Алиса.",
-      "updated_at": "2023-08-09T08:58:53.422Z",
-      "types": [
-        "alice-service",
-        "alice-device",
-        "On_Off",
-        "Toggle",
-        "Range",
-        "Color",
-        "Mode",
-        "Sensor",
-        "Event",
-        "Video"
-      ],
-      "keywords": [
-        "node-red",
-        "yandex",
-        "alice",
-        "яндекс",
-        "алиса"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-alice"
     },
     {
       "id": "node-red-contrib-home-assistant-websocket",
@@ -1245,32 +1342,6 @@
         "sensor"
       ],
       "url": "https://flows.nodered.org/node/@softwaredevelopment/node-red-contrib-bodhi-device-ozone"
-    },
-    {
-      "id": "node-red-contrib-opcua",
-      "version": "0.2.310",
-      "description": "A Node-RED node to communicate via OPC UA based on node-opcua library.",
-      "updated_at": "2023-08-01T18:39:58.742Z",
-      "types": [
-        "OpcUa-Item",
-        "OpcUa-Client",
-        "OpcUa-Browser",
-        "OpcUa-Server",
-        "OpcUa-Endpoint",
-        "OpcUa-Event",
-        "OpcUa-Method",
-        "OpcUa-Rights",
-        "OpcUa-Discovery"
-      ],
-      "keywords": [
-        "node-red",
-        "OPC UA",
-        "opc-ua",
-        "unified automation",
-        "opc foundation",
-        "node-opcua"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-opcua"
     },
     {
       "id": "@softwaredevelopment/node-red-contrib-bodhi-device-co2-sensor",
@@ -16389,31 +16460,6 @@
         "gruenstrombonus"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-corrently"
-    },
-    {
-      "id": "thingzi-logic-climate",
-      "version": "0.6.3",
-      "description": "Climate control via node red",
-      "updated_at": "2022-11-06T19:45:08.925Z",
-      "types": [
-        "thingzi-climate"
-      ],
-      "keywords": [
-        "node-red",
-        "climate",
-        "smart home",
-        "temperature",
-        "thermostat",
-        "zone",
-        "hot water",
-        "heat",
-        "cool",
-        "hvac",
-        "mqtt",
-        "homeassistant",
-        "hass"
-      ],
-      "url": "https://flows.nodered.org/node/thingzi-logic-climate"
     },
     {
       "id": "node-red-contrib-chart-image",
