@@ -1,7 +1,146 @@
 {
   "name": "Catalogue for macOS",
-  "updated_at": "2023-08-14T21:46:58.112Z",
+  "updated_at": "2023-08-15T21:14:45.779Z",
   "modules": [
+    {
+      "id": "@edgepi-cloud/node-red-edgepi-thermocouple",
+      "version": "1.0.2",
+      "description": "A node-red node for EdgePi thermocouple module",
+      "updated_at": "2023-08-15T18:40:33.163Z",
+      "types": [
+        "edgepi-thermocouple-node"
+      ],
+      "keywords": [
+        "edgepi",
+        "thermocouple",
+        "node-red"
+      ],
+      "url": "https://flows.nodered.org/node/@edgepi-cloud/node-red-edgepi-thermocouple"
+    },
+    {
+      "id": "@racksync/node-red-contrib-low-pass-filter",
+      "version": "0.0.2",
+      "description": "Manipulate data from noise and handle payload as stable as you can with low pass filter.",
+      "updated_at": "2023-08-15T18:34:20.115Z",
+      "types": [],
+      "keywords": [
+        "node-red",
+        "Home Assistant",
+        "HASS",
+        "RACKSYNC",
+        "Noise",
+        "Low Pass",
+        "Filter"
+      ],
+      "url": "https://flows.nodered.org/node/@racksync/node-red-contrib-low-pass-filter"
+    },
+    {
+      "id": "@edgepi-cloud/node-red-edgepi-digital-out",
+      "version": "1.0.1",
+      "description": "node-red node for edgepi digital output module utilizing remote procedure calls",
+      "updated_at": "2023-08-15T18:28:32.020Z",
+      "types": [
+        "edgepi-digital-out-node"
+      ],
+      "keywords": [
+        "node-red",
+        "edgepi",
+        "rpc"
+      ],
+      "url": "https://flows.nodered.org/node/@edgepi-cloud/node-red-edgepi-digital-out"
+    },
+    {
+      "id": "@edgepi-cloud/node-red-edgepi-led",
+      "version": "1.0.2",
+      "description": "Node for EdgePi Led Array",
+      "updated_at": "2023-08-15T18:09:12.532Z",
+      "types": [
+        "edgepi-led-node"
+      ],
+      "keywords": [
+        "node-red",
+        "edgepi",
+        "led",
+        "edgepi-led"
+      ],
+      "url": "https://flows.nodered.org/node/@edgepi-cloud/node-red-edgepi-led"
+    },
+    {
+      "id": "node-red-contrib-meross-cloud",
+      "version": "1.0.4",
+      "description": "A module to connect with Meross Cloud Services",
+      "updated_at": "2023-08-15T15:43:30.448Z",
+      "types": [
+        "merosslib-config",
+        "meross-smartplug"
+      ],
+      "keywords": [
+        "node-red",
+        "meross"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-meross-cloud"
+    },
+    {
+      "id": "node-red-contrib-tfr2cot",
+      "version": "1.0.0",
+      "description": "If msg.payload or env.state is a 2 letter U.S. abbreviation for a state, this node returns a msg.payload as JSON cursor-on-target (CoT) message for use with node-red-contrib-tak node and tcp out node.",
+      "updated_at": "2023-08-15T12:43:49.198Z",
+      "types": [
+        "tfr2cot"
+      ],
+      "keywords": [
+        "nodered",
+        "node-red",
+        "atak",
+        "itak",
+        "tak",
+        "cot",
+        "tak",
+        "server",
+        "tak-server",
+        "tfr",
+        "faa"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-tfr2cot"
+    },
+    {
+      "id": "node-red-contrib-simplepush",
+      "version": "1.4.0",
+      "description": "Simplepush wrapper for Node-RED",
+      "updated_at": "2023-08-15T10:09:42.303Z",
+      "types": [
+        "simplepush"
+      ],
+      "keywords": [
+        "node-red",
+        "simplepush",
+        "push notification",
+        "actionable notification",
+        "notification actions",
+        "encrypted"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-simplepush"
+    },
+    {
+      "id": "node-red-contrib-boolean-parser",
+      "version": "1.4.6",
+      "description": "A Node-RED node to parse and convert several types of on/off, start/stop, true/false values.",
+      "updated_at": "2023-08-14T21:58:18.820Z",
+      "types": [
+        "bool"
+      ],
+      "keywords": [
+        "node-red",
+        "parser",
+        "boolean",
+        "bool",
+        "translator",
+        "converter",
+        "cast",
+        "on-off"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-boolean-parser"
+    },
     {
       "id": "node-red-contrib-alice-nodrm",
       "version": "2.0.9",
@@ -1067,21 +1206,6 @@
         "node-red"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-life360"
-    },
-    {
-      "id": "@edgepi-cloud/node-red-edgepi-digital-out",
-      "version": "1.0.0",
-      "description": "node-red node for edgepi digital output module utilizing remote procedure calls",
-      "updated_at": "2023-08-03T18:29:13.559Z",
-      "types": [
-        "edgepi-digital-out-node"
-      ],
-      "keywords": [
-        "node-red",
-        "edgepi",
-        "rpc"
-      ],
-      "url": "https://flows.nodered.org/node/@edgepi-cloud/node-red-edgepi-digital-out"
     },
     {
       "id": "@softwaredevelopment/node-red-contrib-bodhi-device-drape",
@@ -9732,26 +9856,6 @@
         "node-red"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-xkeys_tbar"
-    },
-    {
-      "id": "node-red-contrib-boolean-parser",
-      "version": "1.4.5",
-      "description": "A Node-RED node to parse and convert several types of on/off, start/stop, true/false values.",
-      "updated_at": "2023-03-26T21:20:51.813Z",
-      "types": [
-        "bool"
-      ],
-      "keywords": [
-        "node-red",
-        "parser",
-        "boolean",
-        "bool",
-        "translator",
-        "converter",
-        "cast",
-        "on-off"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-boolean-parser"
     },
     {
       "id": "@chvdapi/node-red-dlt645",
@@ -20255,6 +20359,21 @@
       "url": "https://flows.nodered.org/node/nr-janitza-meter"
     },
     {
+      "id": "node-red-contrib-elastic",
+      "version": "2.2.0",
+      "description": "NodeRED node for ElasticSearch operations",
+      "updated_at": "2022-07-28T09:41:28.854Z",
+      "types": [
+        "elasticsearch-client",
+        "elasticsearch-write"
+      ],
+      "keywords": [
+        "node-red",
+        "elasticsearch"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-elastic"
+    },
+    {
       "id": "node-red-contrib-fuzzy",
       "version": "1.0.1",
       "description": "Event-driven Takagi-Sugeno Fuzzy Inference System implementation for Node-RED",
@@ -25719,24 +25838,6 @@
         "node-red"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-obfuscator"
-    },
-    {
-      "id": "node-red-contrib-simplepush",
-      "version": "1.2.2",
-      "description": "Simplepush wrapper for Node-RED",
-      "updated_at": "2022-03-19T17:21:40.868Z",
-      "types": [
-        "simplepush"
-      ],
-      "keywords": [
-        "node-red",
-        "simplepush",
-        "push notification",
-        "actionable notification",
-        "notification actions",
-        "encrypted"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-simplepush"
     },
     {
       "id": "red-contrib-ags_authrest",
@@ -47842,21 +47943,6 @@
         "node-red"
       ],
       "url": "https://flows.nodered.org/node/@autocodingsystems/node-red-contrib-integration"
-    },
-    {
-      "id": "node-red-contrib-elastic",
-      "version": "1.2.0",
-      "description": "NodeRED node for ElasticSearch operations",
-      "updated_at": "2020-05-19T19:00:23.651Z",
-      "types": [
-        "elasticsearch-client",
-        "elasticsearch-write"
-      ],
-      "keywords": [
-        "node-red",
-        "elasticsearch"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-elastic"
     },
     {
       "id": "node-red-contrib-hcl-rtist-nodes",
