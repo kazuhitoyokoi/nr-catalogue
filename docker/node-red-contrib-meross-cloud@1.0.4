@@ -1,0 +1,53 @@
+#0 building with "default" instance using docker driver
+
+#1 [internal] load build definition from Dockerfile
+#1 transferring dockerfile: 122B done
+#1 DONE 0.0s
+
+#2 [internal] load .dockerignore
+#2 transferring context: 2B done
+#2 DONE 0.0s
+
+#3 [internal] load metadata for docker.io/nodered/node-red:latest
+#3 DONE 0.2s
+
+#4 [1/2] FROM docker.io/nodered/node-red@sha256:5fd729fce9b787903e2b443a2fc052c6253b737ca38e65df7b843cd4170bdb5c
+#4 CACHED
+
+#5 [2/2] RUN npm install npm install node-red-contrib-meross-cloud@1.0.4
+#5 4.274 npm WARN deprecated har-validator@5.1.5: this library is no longer supported
+#5 4.307 npm WARN deprecated uuid@3.4.0: Please upgrade  to version 7 or higher.  Older versions may use Math.random() in certain circumstances, which is known to be problematic.  See https://v8.dev/blog/math-random for details.
+#5 4.323 npm WARN deprecated request@2.88.2: request has been deprecated, see https://github.com/request/request/issues/3142
+#5 5.042 
+#5 5.042 added 41 packages, and audited 583 packages in 5s
+#5 5.042 
+#5 5.042 65 packages are looking for funding
+#5 5.042   run `npm fund` for details
+#5 5.057 
+#5 5.057 13 vulnerabilities (2 low, 11 moderate)
+#5 5.057 
+#5 5.057 To address issues that do not require attention, run:
+#5 5.057   npm audit fix
+#5 5.057 
+#5 5.057 To address all issues possible (including breaking changes), run:
+#5 5.057   npm audit fix --force
+#5 5.057 
+#5 5.057 Some issues need review, and may require choosing
+#5 5.057 a different dependency.
+#5 5.057 
+#5 5.057 Run `npm audit` for details.
+#5 5.057 npm notice 
+#5 5.057 npm notice New major version of npm available! 8.19.4 -> 9.8.1
+#5 5.057 npm notice Changelog: <https://github.com/npm/cli/releases/tag/v9.8.1>
+#5 5.057 npm notice Run `npm install -g npm@9.8.1` to update!
+#5 5.058 npm notice 
+#5 DONE 5.2s
+
+#6 exporting to image
+#6 exporting layers
+#6 exporting layers 1.0s done
+#6 writing image sha256:6d9a3a26c63356a45802c09e973b96d01c19fd02006a5db7a2fe2f562139b1bd done
+#6 naming to docker.io/library/tmp done
+#6 DONE 1.0s
+
+----
