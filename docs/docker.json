@@ -1,7 +1,146 @@
 {
   "name": "Catalogue for Docker",
-  "updated_at": "2023-08-15T16:13:46.109Z",
+  "updated_at": "2023-08-16T16:02:14.411Z",
   "modules": [
+    {
+      "id": "node-red-contrib-tts-ultimate",
+      "version": "2.0.2",
+      "description": "Transforms the text in speech and hear it using Sonos player or generate an audio file to be used with third parties nodes. Works with voices from Amazon, Google (without credentials as well), Microsoft TTS Azure, ElevenLabs.io TTS or your own voice. You ",
+      "updated_at": "2023-08-16T13:01:28.069Z",
+      "types": [
+        "ttsultimate",
+        "ttsultimate-config",
+        "ownfileultimate"
+      ],
+      "keywords": [
+        "node-red",
+        "polly",
+        "google",
+        "voice",
+        "amazon",
+        "azure",
+        "tts",
+        "sonos",
+        "IOT",
+        "speech",
+        "ttsultimate",
+        "sonospollytts",
+        "neural",
+        "elevenlabs"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-tts-ultimate"
+    },
+    {
+      "id": "@ifp-software/node-red-contrib-oee-ai-connector",
+      "version": "2.6.7",
+      "description": "Easily connect your production machines to oee.ai – The Industry 4.0 solution for OEE optimization.",
+      "updated_at": "2023-08-16T09:57:04.823Z",
+      "types": [],
+      "keywords": [
+        "industrial",
+        "industry 4.0",
+        "iot",
+        "node-red",
+        "oee",
+        "oee.ai",
+        "sick",
+        "smart-factory",
+        "tdc"
+      ],
+      "url": "https://flows.nodered.org/node/@ifp-software/node-red-contrib-oee-ai-connector"
+    },
+    {
+      "id": "six_hash",
+      "version": "1.1.1",
+      "description": "Generates hash of lenght 6.",
+      "updated_at": "2023-08-16T06:48:57.035Z",
+      "types": [
+        "short-hash"
+      ],
+      "keywords": [
+        "hash",
+        "node-red"
+      ],
+      "url": "https://flows.nodered.org/node/six_hash"
+    },
+    {
+      "id": "@edgepi-cloud/node-red-edgepi-thermocouple",
+      "version": "1.0.2",
+      "description": "A node-red node for EdgePi thermocouple module",
+      "updated_at": "2023-08-15T18:40:33.163Z",
+      "types": [
+        "edgepi-thermocouple-node"
+      ],
+      "keywords": [
+        "edgepi",
+        "thermocouple",
+        "node-red"
+      ],
+      "url": "https://flows.nodered.org/node/@edgepi-cloud/node-red-edgepi-thermocouple"
+    },
+    {
+      "id": "@racksync/node-red-contrib-low-pass-filter",
+      "version": "0.0.2",
+      "description": "Manipulate data from noise and handle payload as stable as you can with low pass filter.",
+      "updated_at": "2023-08-15T18:34:20.115Z",
+      "types": [],
+      "keywords": [
+        "node-red",
+        "Home Assistant",
+        "HASS",
+        "RACKSYNC",
+        "Noise",
+        "Low Pass",
+        "Filter"
+      ],
+      "url": "https://flows.nodered.org/node/@racksync/node-red-contrib-low-pass-filter"
+    },
+    {
+      "id": "@edgepi-cloud/node-red-edgepi-digital-out",
+      "version": "1.0.1",
+      "description": "node-red node for edgepi digital output module utilizing remote procedure calls",
+      "updated_at": "2023-08-15T18:28:32.020Z",
+      "types": [
+        "edgepi-digital-out-node"
+      ],
+      "keywords": [
+        "node-red",
+        "edgepi",
+        "rpc"
+      ],
+      "url": "https://flows.nodered.org/node/@edgepi-cloud/node-red-edgepi-digital-out"
+    },
+    {
+      "id": "@edgepi-cloud/node-red-edgepi-led",
+      "version": "1.0.2",
+      "description": "Node for EdgePi Led Array",
+      "updated_at": "2023-08-15T18:09:12.532Z",
+      "types": [
+        "edgepi-led-node"
+      ],
+      "keywords": [
+        "node-red",
+        "edgepi",
+        "led",
+        "edgepi-led"
+      ],
+      "url": "https://flows.nodered.org/node/@edgepi-cloud/node-red-edgepi-led"
+    },
+    {
+      "id": "node-red-contrib-meross-cloud",
+      "version": "1.0.4",
+      "description": "A module to connect with Meross Cloud Services",
+      "updated_at": "2023-08-15T15:43:30.448Z",
+      "types": [
+        "merosslib-config",
+        "meross-smartplug"
+      ],
+      "keywords": [
+        "node-red",
+        "meross"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-meross-cloud"
+    },
     {
       "id": "node-red-contrib-tfr2cot",
       "version": "1.0.0",
@@ -1122,21 +1261,6 @@
       "url": "https://flows.nodered.org/node/node-red-contrib-life360"
     },
     {
-      "id": "@edgepi-cloud/node-red-edgepi-digital-out",
-      "version": "1.0.0",
-      "description": "node-red node for edgepi digital output module utilizing remote procedure calls",
-      "updated_at": "2023-08-03T18:29:13.559Z",
-      "types": [
-        "edgepi-digital-out-node"
-      ],
-      "keywords": [
-        "node-red",
-        "edgepi",
-        "rpc"
-      ],
-      "url": "https://flows.nodered.org/node/@edgepi-cloud/node-red-edgepi-digital-out"
-    },
-    {
       "id": "@softwaredevelopment/node-red-contrib-bodhi-device-drape",
       "version": "0.0.1",
       "description": "Drape Device device for bodhi node red",
@@ -1151,34 +1275,6 @@
         "drape"
       ],
       "url": "https://flows.nodered.org/node/@softwaredevelopment/node-red-contrib-bodhi-device-drape"
-    },
-    {
-      "id": "node-red-contrib-tts-ultimate",
-      "version": "2.0.1",
-      "description": "Transforms the text in speech and hear it using Sonos player or generate an audio file to be used with third parties nodes. Works with voices from Amazon, Google (without credentials as well), Microsoft TTS Azure, ElevenLabs.io TTS or your own voice. You ",
-      "updated_at": "2023-08-03T14:53:16.619Z",
-      "types": [
-        "ttsultimate",
-        "ttsultimate-config",
-        "ownfileultimate"
-      ],
-      "keywords": [
-        "node-red",
-        "polly",
-        "google",
-        "voice",
-        "amazon",
-        "azure",
-        "tts",
-        "sonos",
-        "IOT",
-        "speech",
-        "ttsultimate",
-        "sonospollytts",
-        "neural",
-        "elevenlabs"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-tts-ultimate"
     },
     {
       "id": "@softwaredevelopment/node-red-contrib-bodhi-device-basic-shade",
@@ -1325,25 +1421,6 @@
         "sensor"
       ],
       "url": "https://flows.nodered.org/node/@softwaredevelopment/node-red-contrib-bodhi-device-barometric-sensor"
-    },
-    {
-      "id": "@ifp-software/node-red-contrib-oee-ai-connector",
-      "version": "2.6.6",
-      "description": "Easily connect your production machines to oee.ai – The Industry 4.0 solution for OEE optimization.",
-      "updated_at": "2023-08-02T13:00:00.252Z",
-      "types": [],
-      "keywords": [
-        "industrial",
-        "industry 4.0",
-        "iot",
-        "node-red",
-        "oee",
-        "oee.ai",
-        "sick",
-        "smart-factory",
-        "tdc"
-      ],
-      "url": "https://flows.nodered.org/node/@ifp-software/node-red-contrib-oee-ai-connector"
     },
     {
       "id": "@hexelink/node-red-aries-hw-io",
@@ -20261,6 +20338,21 @@
         "corrently"
       ],
       "url": "https://flows.nodered.org/node/nr-janitza-meter"
+    },
+    {
+      "id": "node-red-contrib-elastic",
+      "version": "2.2.0",
+      "description": "NodeRED node for ElasticSearch operations",
+      "updated_at": "2022-07-28T09:41:28.854Z",
+      "types": [
+        "elasticsearch-client",
+        "elasticsearch-write"
+      ],
+      "keywords": [
+        "node-red",
+        "elasticsearch"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-elastic"
     },
     {
       "id": "node-red-contrib-fuzzy",
@@ -47526,21 +47618,6 @@
         "node-red"
       ],
       "url": "https://flows.nodered.org/node/@autocodingsystems/node-red-contrib-integration"
-    },
-    {
-      "id": "node-red-contrib-elastic",
-      "version": "1.2.0",
-      "description": "NodeRED node for ElasticSearch operations",
-      "updated_at": "2020-05-19T19:00:23.651Z",
-      "types": [
-        "elasticsearch-client",
-        "elasticsearch-write"
-      ],
-      "keywords": [
-        "node-red",
-        "elasticsearch"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-elastic"
     },
     {
       "id": "node-red-contrib-hcl-rtist-nodes",
