@@ -1,12 +1,85 @@
 {
   "name": "Catalogue for Windows",
-  "updated_at": "2023-08-16T20:06:44.628Z",
+  "updated_at": "2023-08-17T19:22:46.120Z",
   "modules": [
     {
+      "id": "node-red-contrib-knx-ultimate",
+      "version": "2.1.42",
+      "description": "Control your KNX intallation via Node-Red! Single Node KNX IN/OUT with optional ETS group address importer. Easy to use and highly configurable. With integrated Philips HUE devices handling.",
+      "updated_at": "2023-08-17T14:24:13.177Z",
+      "types": [
+        "knxUltimate",
+        "knxUltimateSceneController",
+        "knxUltimateWatchDog",
+        "knxUltimateLogger",
+        "knxUltimate-config",
+        "knxUltimateGlobalContext",
+        "knxUltimateAlerter",
+        "knxUltimateLoadControl",
+        "knxUltimateViewer",
+        "hue-config",
+        "knxUltimateHueLight",
+        "knxUltimateHueButton",
+        "knxUltimateHueMotion",
+        "knxUltimateHueTapDial",
+        "knxUltimateHueLightSensor",
+        "knxUltimateHueTemperatureSensor",
+        "knxUltimateHueScene",
+        "knxUltimateHueBattery"
+      ],
+      "keywords": [
+        "node-red",
+        "KNX",
+        "ETS",
+        "eib",
+        "eibd",
+        "knxd",
+        "konnex",
+        "IOT",
+        "hue"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-knx-ultimate"
+    },
+    {
+      "id": "@racksync/node-red-contrib-moving-average",
+      "version": "0.0.1",
+      "description": "Computes the moving average of incoming message payloads using a window size defined.",
+      "updated_at": "2023-08-17T14:16:03.693Z",
+      "types": [],
+      "keywords": [
+        "node-red",
+        "Home Assistant",
+        "HASS",
+        "RACKSYNC",
+        "Noise",
+        "Moving Average",
+        "Filter"
+      ],
+      "url": "https://flows.nodered.org/node/@racksync/node-red-contrib-moving-average"
+    },
+    {
+      "id": "@martijndierckx/node-red-contrib-gardena-smart-mower",
+      "version": "0.0.1",
+      "description": "Nodes for controlling/monitoring Gardena smart system mowers",
+      "updated_at": "2023-08-17T10:39:41.371Z",
+      "types": [
+        "gardena-mower-config",
+        "gardena-mower"
+      ],
+      "keywords": [
+        "node-red",
+        "gardena",
+        "sileno",
+        "mower",
+        "lawn mower"
+      ],
+      "url": "https://flows.nodered.org/node/@martijndierckx/node-red-contrib-gardena-smart-mower"
+    },
+    {
       "id": "@flowforge/node-red-dashboard",
-      "version": "0.2.1",
+      "version": "0.2.2",
       "description": "A collection of Node-RED nodes that provide functionality to build your own UI applications (inc. forms, buttons, charts) within Node-RED.",
-      "updated_at": "2023-08-16T15:16:17.475Z",
+      "updated_at": "2023-08-16T15:43:29.318Z",
       "types": [
         "ui-base",
         "ui-page",
@@ -268,44 +341,6 @@
         "node-red"
       ],
       "url": "https://flows.nodered.org/node/@okonek83/node-red-ecur-connection"
-    },
-    {
-      "id": "node-red-contrib-knx-ultimate",
-      "version": "2.1.41",
-      "description": "Control your KNX intallation via Node-Red! Single Node KNX IN/OUT with optional ETS group address importer. Easy to use and highly configurable. With integrated Philips HUE devices handling.",
-      "updated_at": "2023-08-14T13:30:55.975Z",
-      "types": [
-        "knxUltimate",
-        "knxUltimateSceneController",
-        "knxUltimateWatchDog",
-        "knxUltimateLogger",
-        "knxUltimate-config",
-        "knxUltimateGlobalContext",
-        "knxUltimateAlerter",
-        "knxUltimateLoadControl",
-        "knxUltimateViewer",
-        "hue-config",
-        "knxUltimateHueLight",
-        "knxUltimateHueButton",
-        "knxUltimateHueMotion",
-        "knxUltimateHueTapDial",
-        "knxUltimateHueLightSensor",
-        "knxUltimateHueTemperatureSensor",
-        "knxUltimateHueScene",
-        "knxUltimateHueBattery"
-      ],
-      "keywords": [
-        "node-red",
-        "KNX",
-        "ETS",
-        "eib",
-        "eibd",
-        "knxd",
-        "konnex",
-        "IOT",
-        "hue"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-knx-ultimate"
     },
     {
       "id": "node-red-contrib-web-worldmap",
