@@ -1,7 +1,133 @@
 {
   "name": "Catalogue for verified nodes",
-  "updated_at": "2023-08-16T22:01:00.504Z",
+  "updated_at": "2023-08-17T21:22:48.764Z",
   "modules": [
+    {
+      "id": "node-red-contrib-knx-ultimate",
+      "version": "2.1.42",
+      "description": "Control your KNX intallation via Node-Red! Single Node KNX IN/OUT with optional ETS group address importer. Easy to use and highly configurable. With integrated Philips HUE devices handling.",
+      "updated_at": "2023-08-17T14:24:13.177Z",
+      "types": [
+        "knxUltimate",
+        "knxUltimateSceneController",
+        "knxUltimateWatchDog",
+        "knxUltimateLogger",
+        "knxUltimate-config",
+        "knxUltimateGlobalContext",
+        "knxUltimateAlerter",
+        "knxUltimateLoadControl",
+        "knxUltimateViewer",
+        "hue-config",
+        "knxUltimateHueLight",
+        "knxUltimateHueButton",
+        "knxUltimateHueMotion",
+        "knxUltimateHueTapDial",
+        "knxUltimateHueLightSensor",
+        "knxUltimateHueTemperatureSensor",
+        "knxUltimateHueScene",
+        "knxUltimateHueBattery"
+      ],
+      "keywords": [
+        "node-red",
+        "KNX",
+        "ETS",
+        "eib",
+        "eibd",
+        "knxd",
+        "konnex",
+        "IOT",
+        "hue"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-knx-ultimate"
+    },
+    {
+      "id": "@racksync/node-red-contrib-moving-average",
+      "version": "0.0.1",
+      "description": "Computes the moving average of incoming message payloads using a window size defined.",
+      "updated_at": "2023-08-17T14:16:03.693Z",
+      "types": [],
+      "keywords": [
+        "node-red",
+        "Home Assistant",
+        "HASS",
+        "RACKSYNC",
+        "Noise",
+        "Moving Average",
+        "Filter"
+      ],
+      "url": "https://flows.nodered.org/node/@racksync/node-red-contrib-moving-average"
+    },
+    {
+      "id": "@martijndierckx/node-red-contrib-gardena-smart-mower",
+      "version": "0.0.1",
+      "description": "Nodes for controlling/monitoring Gardena smart system mowers",
+      "updated_at": "2023-08-17T10:39:41.371Z",
+      "types": [
+        "gardena-mower-config",
+        "gardena-mower"
+      ],
+      "keywords": [
+        "node-red",
+        "gardena",
+        "sileno",
+        "mower",
+        "lawn mower"
+      ],
+      "url": "https://flows.nodered.org/node/@martijndierckx/node-red-contrib-gardena-smart-mower"
+    },
+    {
+      "id": "@flowforge/node-red-dashboard",
+      "version": "0.2.2",
+      "description": "A collection of Node-RED nodes that provide functionality to build your own UI applications (inc. forms, buttons, charts) within Node-RED.",
+      "updated_at": "2023-08-16T15:43:29.318Z",
+      "types": [
+        "ui-base",
+        "ui-page",
+        "ui-group",
+        "ui-theme",
+        "ui-form",
+        "ui-text-input",
+        "ui-button",
+        "ui-dropdown",
+        "ui-radio-group",
+        "ui-slider",
+        "ui-switch",
+        "ui-text",
+        "ui-chart",
+        "ui-markdown",
+        "ui-template"
+      ],
+      "keywords": [
+        "node-red"
+      ],
+      "url": "https://flows.nodered.org/node/@flowforge/node-red-dashboard"
+    },
+    {
+      "id": "node-red-contrib-alice-nodrm",
+      "version": "2.0.10",
+      "description": "NO DRM clone from https://github.com/efa2000/node-red-contrib-alice",
+      "updated_at": "2023-08-16T15:14:33.222Z",
+      "types": [
+        "alice-service",
+        "alice-device",
+        "On_Off",
+        "Toggle",
+        "Range",
+        "Color",
+        "Mode",
+        "Sensor",
+        "Event",
+        "Video"
+      ],
+      "keywords": [
+        "node-red",
+        "yandex",
+        "alice",
+        "яндекс",
+        "алиса"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-alice-nodrm"
+    },
     {
       "id": "node-red-contrib-tts-ultimate",
       "version": "2.0.2",
@@ -203,32 +329,6 @@
       "url": "https://flows.nodered.org/node/node-red-contrib-boolean-parser"
     },
     {
-      "id": "node-red-contrib-alice-nodrm",
-      "version": "2.0.9",
-      "description": "NO DRM clone from https://github.com/efa2000/node-red-contrib-alice",
-      "updated_at": "2023-08-14T19:30:11.120Z",
-      "types": [
-        "alice-service",
-        "alice-device",
-        "On_Off",
-        "Toggle",
-        "Range",
-        "Color",
-        "Mode",
-        "Sensor",
-        "Event",
-        "Video"
-      ],
-      "keywords": [
-        "node-red",
-        "yandex",
-        "alice",
-        "яндекс",
-        "алиса"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-alice-nodrm"
-    },
-    {
       "id": "@okonek83/node-red-ecur-connection",
       "version": "0.1.0",
       "description": "Nodde-RED module for reading data from APsystems devices",
@@ -241,44 +341,6 @@
         "node-red"
       ],
       "url": "https://flows.nodered.org/node/@okonek83/node-red-ecur-connection"
-    },
-    {
-      "id": "node-red-contrib-knx-ultimate",
-      "version": "2.1.41",
-      "description": "Control your KNX intallation via Node-Red! Single Node KNX IN/OUT with optional ETS group address importer. Easy to use and highly configurable. With integrated Philips HUE devices handling.",
-      "updated_at": "2023-08-14T13:30:55.975Z",
-      "types": [
-        "knxUltimate",
-        "knxUltimateSceneController",
-        "knxUltimateWatchDog",
-        "knxUltimateLogger",
-        "knxUltimate-config",
-        "knxUltimateGlobalContext",
-        "knxUltimateAlerter",
-        "knxUltimateLoadControl",
-        "knxUltimateViewer",
-        "hue-config",
-        "knxUltimateHueLight",
-        "knxUltimateHueButton",
-        "knxUltimateHueMotion",
-        "knxUltimateHueTapDial",
-        "knxUltimateHueLightSensor",
-        "knxUltimateHueTemperatureSensor",
-        "knxUltimateHueScene",
-        "knxUltimateHueBattery"
-      ],
-      "keywords": [
-        "node-red",
-        "KNX",
-        "ETS",
-        "eib",
-        "eibd",
-        "knxd",
-        "konnex",
-        "IOT",
-        "hue"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-knx-ultimate"
     },
     {
       "id": "node-red-contrib-web-worldmap",
@@ -613,31 +675,6 @@
         "node-red"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-nupmes"
-    },
-    {
-      "id": "@flowforge/node-red-dashboard",
-      "version": "0.1.0",
-      "description": "A collection of Node-RED nodes that provide functionality to build your own UI applications (inc. forms, buttons, charts) within Node-RED.",
-      "updated_at": "2023-08-10T14:58:46.867Z",
-      "types": [
-        "ui-base",
-        "ui-page",
-        "ui-group",
-        "ui-theme",
-        "ui-text-input",
-        "ui-button",
-        "ui-dropdown",
-        "ui-slider",
-        "ui-switch",
-        "ui-text",
-        "ui-chart",
-        "ui-markdown",
-        "ui-template"
-      ],
-      "keywords": [
-        "node-red"
-      ],
-      "url": "https://flows.nodered.org/node/@flowforge/node-red-dashboard"
     },
     {
       "id": "node-red-contrib-unifi",
