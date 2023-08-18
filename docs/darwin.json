@@ -1,7 +1,168 @@
 {
   "name": "Catalogue for macOS",
-  "updated_at": "2023-08-17T21:22:32.297Z",
+  "updated_at": "2023-08-18T21:12:18.427Z",
   "modules": [
+    {
+      "id": "node-red-contrib-aprs",
+      "version": "3.0.0",
+      "description": "Node-RED Nodes for connecting to APRS-IS and sending & receiving APRS and CWOP Frames.",
+      "updated_at": "2023-08-18T18:24:26.219Z",
+      "types": [
+        "aprs config",
+        "aprs rx",
+        "aprs tx"
+      ],
+      "keywords": [
+        "node-red",
+        "aprs",
+        "hamradio",
+        "amateurradio"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-aprs"
+    },
+    {
+      "id": "@gregoriusrippenstein/node-red-contrib-flowhub",
+      "version": "0.1.0",
+      "description": "Flow interaction nodes.",
+      "updated_at": "2023-08-18T16:19:29.218Z",
+      "types": [
+        "FlowHubPull",
+        "FlowHubPush"
+      ],
+      "keywords": [
+        "node-red",
+        "flowhub"
+      ],
+      "url": "https://flows.nodered.org/node/@gregoriusrippenstein/node-red-contrib-flowhub"
+    },
+    {
+      "id": "node-red-contrib-knx-ultimate",
+      "version": "2.1.43",
+      "description": "Control your KNX intallation via Node-Red! Single Node KNX IN/OUT with optional ETS group address importer. Easy to use and highly configurable. With integrated Philips HUE devices handling.",
+      "updated_at": "2023-08-18T15:19:44.518Z",
+      "types": [
+        "knxUltimate",
+        "knxUltimateSceneController",
+        "knxUltimateWatchDog",
+        "knxUltimateLogger",
+        "knxUltimate-config",
+        "knxUltimateGlobalContext",
+        "knxUltimateAlerter",
+        "knxUltimateLoadControl",
+        "knxUltimateViewer",
+        "hue-config",
+        "knxUltimateHueLight",
+        "knxUltimateHueButton",
+        "knxUltimateHueMotion",
+        "knxUltimateHueTapDial",
+        "knxUltimateHueLightSensor",
+        "knxUltimateHueTemperatureSensor",
+        "knxUltimateHueScene",
+        "knxUltimateHueBattery"
+      ],
+      "keywords": [
+        "node-red",
+        "KNX",
+        "ETS",
+        "eib",
+        "eibd",
+        "knxd",
+        "konnex",
+        "IOT",
+        "hue"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-knx-ultimate"
+    },
+    {
+      "id": "@jambonz/node-red-contrib-jambonz",
+      "version": "2.4.12",
+      "description": "Node-RED nodes for jambonz platform",
+      "updated_at": "2023-08-18T12:05:59.108Z",
+      "types": [
+        "webhook in",
+        "webhook out",
+        "audio in",
+        "jambonz_auth",
+        "aws_auth",
+        "enqueue",
+        "lex",
+        "say",
+        "dtmf",
+        "cfg",
+        "conference",
+        "gather",
+        "listen",
+        "sip:decline",
+        "sip:request",
+        "sip:refer",
+        "hangup",
+        "message",
+        "tag",
+        "pause",
+        "dequeue",
+        "play",
+        "dial",
+        "redirect",
+        "dialogflow",
+        "leave",
+        "rasa",
+        "user auth",
+        "create-call",
+        "create-sms",
+        "lcc",
+        "get_alerts",
+        "get_calls",
+        "get_recent_calls"
+      ],
+      "keywords": [
+        "node-red"
+      ],
+      "url": "https://flows.nodered.org/node/@jambonz/node-red-contrib-jambonz"
+    },
+    {
+      "id": "node-red-contrib-opcua",
+      "version": "0.2.312",
+      "description": "A Node-RED node to communicate via OPC UA based on node-opcua library.",
+      "updated_at": "2023-08-18T10:47:03.773Z",
+      "types": [
+        "OpcUa-Item",
+        "OpcUa-Client",
+        "OpcUa-Browser",
+        "OpcUa-Server",
+        "OpcUa-Endpoint",
+        "OpcUa-Event",
+        "OpcUa-Method",
+        "OpcUa-Rights",
+        "OpcUa-Discovery"
+      ],
+      "keywords": [
+        "node-red",
+        "OPC UA",
+        "opc-ua",
+        "unified automation",
+        "opc foundation",
+        "node-opcua"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-opcua"
+    },
+    {
+      "id": "node-red-contrib-unifi",
+      "version": "0.3.5",
+      "description": "Node for Node-RED to connect to a UniFi Controller ",
+      "updated_at": "2023-08-17T20:09:01.138Z",
+      "types": [
+        "unificonfig",
+        "Unifi",
+        "UnifiWS"
+      ],
+      "keywords": [
+        "node-red",
+        "unifi",
+        "ubnt",
+        "Ubiquiti Networks"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-unifi"
+    },
     {
       "id": "@racksync/node-red-contrib-moving-average",
       "version": "0.0.3",
@@ -46,42 +207,21 @@
       "url": "https://flows.nodered.org/node/node-red-contrib-alice-nodrm"
     },
     {
-      "id": "node-red-contrib-knx-ultimate",
-      "version": "2.1.42",
-      "description": "Control your KNX intallation via Node-Red! Single Node KNX IN/OUT with optional ETS group address importer. Easy to use and highly configurable. With integrated Philips HUE devices handling.",
-      "updated_at": "2023-08-17T14:24:13.177Z",
-      "types": [
-        "knxUltimate",
-        "knxUltimateSceneController",
-        "knxUltimateWatchDog",
-        "knxUltimateLogger",
-        "knxUltimate-config",
-        "knxUltimateGlobalContext",
-        "knxUltimateAlerter",
-        "knxUltimateLoadControl",
-        "knxUltimateViewer",
-        "hue-config",
-        "knxUltimateHueLight",
-        "knxUltimateHueButton",
-        "knxUltimateHueMotion",
-        "knxUltimateHueTapDial",
-        "knxUltimateHueLightSensor",
-        "knxUltimateHueTemperatureSensor",
-        "knxUltimateHueScene",
-        "knxUltimateHueBattery"
-      ],
+      "id": "@racksync/node-red-contrib-low-pass-filter",
+      "version": "0.0.3",
+      "description": "Manipulate data from noise and handle payload as stable as you can with low pass filter.",
+      "updated_at": "2023-08-17T12:32:05.541Z",
+      "types": [],
       "keywords": [
         "node-red",
-        "KNX",
-        "ETS",
-        "eib",
-        "eibd",
-        "knxd",
-        "konnex",
-        "IOT",
-        "hue"
+        "Home Assistant",
+        "HASS",
+        "RACKSYNC",
+        "Noise",
+        "Low Pass",
+        "Filter"
       ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-knx-ultimate"
+      "url": "https://flows.nodered.org/node/@racksync/node-red-contrib-low-pass-filter"
     },
     {
       "id": "@martijndierckx/node-red-contrib-gardena-smart-mower",
@@ -203,23 +343,6 @@
         "node-red"
       ],
       "url": "https://flows.nodered.org/node/@edgepi-cloud/node-red-edgepi-thermocouple"
-    },
-    {
-      "id": "@racksync/node-red-contrib-low-pass-filter",
-      "version": "0.0.2",
-      "description": "Manipulate data from noise and handle payload as stable as you can with low pass filter.",
-      "updated_at": "2023-08-15T18:34:20.115Z",
-      "types": [],
-      "keywords": [
-        "node-red",
-        "Home Assistant",
-        "HASS",
-        "RACKSYNC",
-        "Noise",
-        "Low Pass",
-        "Filter"
-      ],
-      "url": "https://flows.nodered.org/node/@racksync/node-red-contrib-low-pass-filter"
     },
     {
       "id": "@edgepi-cloud/node-red-edgepi-digital-out",
@@ -378,32 +501,6 @@
         "Azure Blob Storage"
       ],
       "url": "https://flows.nodered.org/node/@blokcert/node-red-azure-storage"
-    },
-    {
-      "id": "node-red-contrib-opcua",
-      "version": "0.2.311",
-      "description": "A Node-RED node to communicate via OPC UA based on node-opcua library.",
-      "updated_at": "2023-08-13T17:58:39.242Z",
-      "types": [
-        "OpcUa-Item",
-        "OpcUa-Client",
-        "OpcUa-Browser",
-        "OpcUa-Server",
-        "OpcUa-Endpoint",
-        "OpcUa-Event",
-        "OpcUa-Method",
-        "OpcUa-Rights",
-        "OpcUa-Discovery"
-      ],
-      "keywords": [
-        "node-red",
-        "OPC UA",
-        "opc-ua",
-        "unified automation",
-        "opc foundation",
-        "node-opcua"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-opcua"
     },
     {
       "id": "node-red-contrib-domain-wildcard-parking",
@@ -658,21 +755,6 @@
       "url": "https://flows.nodered.org/node/node-red-contrib-alexa-remote2-applestrudel"
     },
     {
-      "id": "@gregoriusrippenstein/node-red-contrib-flowhub",
-      "version": "0.0.8",
-      "description": "Flow interaction nodes.",
-      "updated_at": "2023-08-10T15:30:42.150Z",
-      "types": [
-        "FlowHubPull",
-        "FlowHubPush"
-      ],
-      "keywords": [
-        "node-red",
-        "flowhub"
-      ],
-      "url": "https://flows.nodered.org/node/@gregoriusrippenstein/node-red-contrib-flowhub"
-    },
-    {
       "id": "node-red-contrib-nupmes",
       "version": "3.0.4",
       "description": "The all-in-one package for controlling and monitoring machines via the N+P MES.",
@@ -696,24 +778,6 @@
         "node-red"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-nupmes"
-    },
-    {
-      "id": "node-red-contrib-unifi",
-      "version": "0.3.4",
-      "description": "Node for Node-RED to connect to a UniFi Controller ",
-      "updated_at": "2023-08-10T13:57:17.970Z",
-      "types": [
-        "unificonfig",
-        "Unifi",
-        "UnifiWS"
-      ],
-      "keywords": [
-        "node-red",
-        "unifi",
-        "ubnt",
-        "Ubiquiti Networks"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-unifi"
     },
     {
       "id": "@sugarlata/node-red-contrib-bible-gateway",
@@ -1816,52 +1880,6 @@
         "node-red"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-spruthub"
-    },
-    {
-      "id": "@jambonz/node-red-contrib-jambonz",
-      "version": "2.4.11",
-      "description": "Node-RED nodes for jambonz platform",
-      "updated_at": "2023-07-29T21:20:15.365Z",
-      "types": [
-        "webhook in",
-        "webhook out",
-        "audio in",
-        "jambonz_auth",
-        "aws_auth",
-        "enqueue",
-        "lex",
-        "say",
-        "dtmf",
-        "cfg",
-        "conference",
-        "gather",
-        "listen",
-        "sip:decline",
-        "sip:request",
-        "sip:refer",
-        "hangup",
-        "message",
-        "tag",
-        "pause",
-        "dequeue",
-        "play",
-        "dial",
-        "redirect",
-        "dialogflow",
-        "leave",
-        "rasa",
-        "user auth",
-        "create-call",
-        "create-sms",
-        "lcc",
-        "get_alerts",
-        "get_calls",
-        "get_recent_calls"
-      ],
-      "keywords": [
-        "node-red"
-      ],
-      "url": "https://flows.nodered.org/node/@jambonz/node-red-contrib-jambonz"
     },
     {
       "id": "node-red-contrib-tinyfarmer",
@@ -11336,24 +11354,6 @@
         "node-red"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-xkeys_writedata"
-    },
-    {
-      "id": "node-red-contrib-aprs",
-      "version": "2.2.0",
-      "description": "Node-RED Nodes for connecting to APRS-IS and sending & receiving APRS and CWOP Frames.",
-      "updated_at": "2023-02-23T20:21:21.590Z",
-      "types": [
-        "aprs config",
-        "aprs rx",
-        "aprs tx"
-      ],
-      "keywords": [
-        "node-red",
-        "aprs",
-        "hamradio",
-        "amateurradio"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-aprs"
     },
     {
       "id": "node-red-contrib-obix-niagara-connector",
