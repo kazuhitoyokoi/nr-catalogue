@@ -1,7 +1,140 @@
 {
   "name": "Catalogue for verified nodes",
-  "updated_at": "2023-08-17T21:22:48.764Z",
+  "updated_at": "2023-08-18T21:12:37.387Z",
   "modules": [
+    {
+      "id": "@jambonz/node-red-contrib-jambonz",
+      "version": "2.4.12",
+      "description": "Node-RED nodes for jambonz platform",
+      "updated_at": "2023-08-18T12:05:59.108Z",
+      "types": [
+        "webhook in",
+        "webhook out",
+        "audio in",
+        "jambonz_auth",
+        "aws_auth",
+        "enqueue",
+        "lex",
+        "say",
+        "dtmf",
+        "cfg",
+        "conference",
+        "gather",
+        "listen",
+        "sip:decline",
+        "sip:request",
+        "sip:refer",
+        "hangup",
+        "message",
+        "tag",
+        "pause",
+        "dequeue",
+        "play",
+        "dial",
+        "redirect",
+        "dialogflow",
+        "leave",
+        "rasa",
+        "user auth",
+        "create-call",
+        "create-sms",
+        "lcc",
+        "get_alerts",
+        "get_calls",
+        "get_recent_calls"
+      ],
+      "keywords": [
+        "node-red"
+      ],
+      "url": "https://flows.nodered.org/node/@jambonz/node-red-contrib-jambonz"
+    },
+    {
+      "id": "node-red-contrib-opcua",
+      "version": "0.2.312",
+      "description": "A Node-RED node to communicate via OPC UA based on node-opcua library.",
+      "updated_at": "2023-08-18T10:47:03.773Z",
+      "types": [
+        "OpcUa-Item",
+        "OpcUa-Client",
+        "OpcUa-Browser",
+        "OpcUa-Server",
+        "OpcUa-Endpoint",
+        "OpcUa-Event",
+        "OpcUa-Method",
+        "OpcUa-Rights",
+        "OpcUa-Discovery"
+      ],
+      "keywords": [
+        "node-red",
+        "OPC UA",
+        "opc-ua",
+        "unified automation",
+        "opc foundation",
+        "node-opcua"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-opcua"
+    },
+    {
+      "id": "node-red-contrib-unifi",
+      "version": "0.3.5",
+      "description": "Node for Node-RED to connect to a UniFi Controller ",
+      "updated_at": "2023-08-17T20:09:01.138Z",
+      "types": [
+        "unificonfig",
+        "Unifi",
+        "UnifiWS"
+      ],
+      "keywords": [
+        "node-red",
+        "unifi",
+        "ubnt",
+        "Ubiquiti Networks"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-unifi"
+    },
+    {
+      "id": "@racksync/node-red-contrib-moving-average",
+      "version": "0.0.3",
+      "description": "Computes the moving average of incoming message payloads using a window size defined.",
+      "updated_at": "2023-08-17T18:13:28.205Z",
+      "types": [],
+      "keywords": [
+        "node-red",
+        "Home Assistant",
+        "HASS",
+        "RACKSYNC",
+        "Noise",
+        "Moving Average",
+        "Filter"
+      ],
+      "url": "https://flows.nodered.org/node/@racksync/node-red-contrib-moving-average"
+    },
+    {
+      "id": "node-red-contrib-alice-nodrm",
+      "version": "2.0.11",
+      "description": "NO DRM clone from https://github.com/efa2000/node-red-contrib-alice",
+      "updated_at": "2023-08-17T15:45:55.462Z",
+      "types": [
+        "alice-service",
+        "alice-device",
+        "On_Off",
+        "Toggle",
+        "Range",
+        "Color",
+        "Mode",
+        "Sensor",
+        "Event",
+        "Video"
+      ],
+      "keywords": [
+        "node-red",
+        "yandex",
+        "alice",
+        "яндекс",
+        "алиса"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-alice-nodrm"
+    },
     {
       "id": "node-red-contrib-knx-ultimate",
       "version": "2.1.42",
@@ -39,23 +172,6 @@
         "hue"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-knx-ultimate"
-    },
-    {
-      "id": "@racksync/node-red-contrib-moving-average",
-      "version": "0.0.1",
-      "description": "Computes the moving average of incoming message payloads using a window size defined.",
-      "updated_at": "2023-08-17T14:16:03.693Z",
-      "types": [],
-      "keywords": [
-        "node-red",
-        "Home Assistant",
-        "HASS",
-        "RACKSYNC",
-        "Noise",
-        "Moving Average",
-        "Filter"
-      ],
-      "url": "https://flows.nodered.org/node/@racksync/node-red-contrib-moving-average"
     },
     {
       "id": "@martijndierckx/node-red-contrib-gardena-smart-mower",
@@ -101,32 +217,6 @@
         "node-red"
       ],
       "url": "https://flows.nodered.org/node/@flowforge/node-red-dashboard"
-    },
-    {
-      "id": "node-red-contrib-alice-nodrm",
-      "version": "2.0.10",
-      "description": "NO DRM clone from https://github.com/efa2000/node-red-contrib-alice",
-      "updated_at": "2023-08-16T15:14:33.222Z",
-      "types": [
-        "alice-service",
-        "alice-device",
-        "On_Off",
-        "Toggle",
-        "Range",
-        "Color",
-        "Mode",
-        "Sensor",
-        "Event",
-        "Video"
-      ],
-      "keywords": [
-        "node-red",
-        "yandex",
-        "alice",
-        "яндекс",
-        "алиса"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-alice-nodrm"
     },
     {
       "id": "node-red-contrib-tts-ultimate",
@@ -378,32 +468,6 @@
         "Azure Blob Storage"
       ],
       "url": "https://flows.nodered.org/node/@blokcert/node-red-azure-storage"
-    },
-    {
-      "id": "node-red-contrib-opcua",
-      "version": "0.2.311",
-      "description": "A Node-RED node to communicate via OPC UA based on node-opcua library.",
-      "updated_at": "2023-08-13T17:58:39.242Z",
-      "types": [
-        "OpcUa-Item",
-        "OpcUa-Client",
-        "OpcUa-Browser",
-        "OpcUa-Server",
-        "OpcUa-Endpoint",
-        "OpcUa-Event",
-        "OpcUa-Method",
-        "OpcUa-Rights",
-        "OpcUa-Discovery"
-      ],
-      "keywords": [
-        "node-red",
-        "OPC UA",
-        "opc-ua",
-        "unified automation",
-        "opc foundation",
-        "node-opcua"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-opcua"
     },
     {
       "id": "node-red-contrib-domain-wildcard-parking",
@@ -675,24 +739,6 @@
         "node-red"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-nupmes"
-    },
-    {
-      "id": "node-red-contrib-unifi",
-      "version": "0.3.4",
-      "description": "Node for Node-RED to connect to a UniFi Controller ",
-      "updated_at": "2023-08-10T13:57:17.970Z",
-      "types": [
-        "unificonfig",
-        "Unifi",
-        "UnifiWS"
-      ],
-      "keywords": [
-        "node-red",
-        "unifi",
-        "ubnt",
-        "Ubiquiti Networks"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-unifi"
     },
     {
       "id": "@sugarlata/node-red-contrib-bible-gateway",
@@ -1795,52 +1841,6 @@
         "node-red"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-spruthub"
-    },
-    {
-      "id": "@jambonz/node-red-contrib-jambonz",
-      "version": "2.4.11",
-      "description": "Node-RED nodes for jambonz platform",
-      "updated_at": "2023-07-29T21:20:15.365Z",
-      "types": [
-        "webhook in",
-        "webhook out",
-        "audio in",
-        "jambonz_auth",
-        "aws_auth",
-        "enqueue",
-        "lex",
-        "say",
-        "dtmf",
-        "cfg",
-        "conference",
-        "gather",
-        "listen",
-        "sip:decline",
-        "sip:request",
-        "sip:refer",
-        "hangup",
-        "message",
-        "tag",
-        "pause",
-        "dequeue",
-        "play",
-        "dial",
-        "redirect",
-        "dialogflow",
-        "leave",
-        "rasa",
-        "user auth",
-        "create-call",
-        "create-sms",
-        "lcc",
-        "get_alerts",
-        "get_calls",
-        "get_recent_calls"
-      ],
-      "keywords": [
-        "node-red"
-      ],
-      "url": "https://flows.nodered.org/node/@jambonz/node-red-contrib-jambonz"
     },
     {
       "id": "node-red-contrib-tinyfarmer",
