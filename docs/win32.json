@@ -1,7 +1,160 @@
 {
   "name": "Catalogue for Windows",
-  "updated_at": "2023-08-18T19:19:52.511Z",
+  "updated_at": "2023-08-19T19:43:28.410Z",
   "modules": [
+    {
+      "id": "node-red-node-pibrella",
+      "version": "0.1.0",
+      "description": "A Node-RED node to read from and write to a Pibrella Raspberry Pi add-on board",
+      "updated_at": "2023-08-19T13:38:49.306Z",
+      "types": [
+        "rpi-pibrella in",
+        "rpi-pibrella out"
+      ],
+      "keywords": [
+        "node-red",
+        "pibrella"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-node-pibrella"
+    },
+    {
+      "id": "@racksync/node-red-contrib-moving-average",
+      "version": "0.0.4",
+      "description": "Computes the moving average of incoming message payloads using a window size defined.",
+      "updated_at": "2023-08-19T11:25:04.155Z",
+      "types": [],
+      "keywords": [
+        "node-red",
+        "Home Assistant",
+        "HASS",
+        "RACKSYNC",
+        "Noise",
+        "Moving Average",
+        "Filter"
+      ],
+      "url": "https://flows.nodered.org/node/@racksync/node-red-contrib-moving-average"
+    },
+    {
+      "id": "node-red-contrib-ui-svg",
+      "version": "2.3.2",
+      "description": "A Node-RED widget node to show interactive SVG (vector graphics) in the dashboard",
+      "updated_at": "2023-08-19T07:33:12.856Z",
+      "types": [
+        "ui_svg_graphics"
+      ],
+      "keywords": [
+        "node-red",
+        "svg",
+        "graphics",
+        "interactive",
+        "drawing",
+        "floorplan",
+        "floor plan",
+        "hmi"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-ui-svg"
+    },
+    {
+      "id": "node-red-contrib-zeebe-2",
+      "version": "0.8.2",
+      "description": "Zeebe nodes for Node-RED ",
+      "updated_at": "2023-08-18T23:57:24.084Z",
+      "types": [
+        "zeebe",
+        "process-instance",
+        "task-worker",
+        "complete-task",
+        "message",
+        "start-message",
+        "deploy"
+      ],
+      "keywords": [
+        "node-red",
+        "zeebe",
+        "camunda",
+        "bpmn",
+        "workflow",
+        "microservice"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-zeebe-2"
+    },
+    {
+      "id": "@waldbaer/node-red-persistent-values",
+      "version": "1.5.0",
+      "description": "A user-friendly abstraction of the Node-RED context stores.",
+      "updated_at": "2023-08-18T21:57:50.508Z",
+      "types": [
+        "persistent values config",
+        "persistent value"
+      ],
+      "keywords": [
+        "node-red",
+        "context",
+        "persistence",
+        "persistency",
+        "state",
+        "config",
+        "storage"
+      ],
+      "url": "https://flows.nodered.org/node/@waldbaer/node-red-persistent-values"
+    },
+    {
+      "id": "node-red-contrib-tfr2cot",
+      "version": "1.1.0",
+      "description": "If msg.payload or env.state is a 2 letter U.S. abbreviation for a state, this node returns a msg.payload as JSON cursor-on-target (CoT) message for use with node-red-contrib-tak node and tcp out node.",
+      "updated_at": "2023-08-18T19:24:51.730Z",
+      "types": [
+        "tfr2cot",
+        "dataSyncSubscription"
+      ],
+      "keywords": [
+        "nodered",
+        "node-red",
+        "atak",
+        "itak",
+        "tak",
+        "cot",
+        "tak",
+        "server",
+        "tak-server",
+        "tfr",
+        "faa"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-tfr2cot"
+    },
+    {
+      "id": "node-red-contrib-aprs",
+      "version": "3.0.0",
+      "description": "Node-RED Nodes for connecting to APRS-IS and sending & receiving APRS and CWOP Frames.",
+      "updated_at": "2023-08-18T18:24:26.219Z",
+      "types": [
+        "aprs config",
+        "aprs rx",
+        "aprs tx"
+      ],
+      "keywords": [
+        "node-red",
+        "aprs",
+        "hamradio",
+        "amateurradio"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-aprs"
+    },
+    {
+      "id": "@gregoriusrippenstein/node-red-contrib-flowhub",
+      "version": "0.1.0",
+      "description": "Flow interaction nodes.",
+      "updated_at": "2023-08-18T16:19:29.218Z",
+      "types": [
+        "FlowHubPull",
+        "FlowHubPush"
+      ],
+      "keywords": [
+        "node-red",
+        "flowhub"
+      ],
+      "url": "https://flows.nodered.org/node/@gregoriusrippenstein/node-red-contrib-flowhub"
+    },
     {
       "id": "node-red-contrib-knx-ultimate",
       "version": "2.1.43",
@@ -131,23 +284,6 @@
       "url": "https://flows.nodered.org/node/node-red-contrib-unifi"
     },
     {
-      "id": "@racksync/node-red-contrib-moving-average",
-      "version": "0.0.3",
-      "description": "Computes the moving average of incoming message payloads using a window size defined.",
-      "updated_at": "2023-08-17T18:13:28.205Z",
-      "types": [],
-      "keywords": [
-        "node-red",
-        "Home Assistant",
-        "HASS",
-        "RACKSYNC",
-        "Noise",
-        "Moving Average",
-        "Filter"
-      ],
-      "url": "https://flows.nodered.org/node/@racksync/node-red-contrib-moving-average"
-    },
-    {
       "id": "node-red-contrib-alice-nodrm",
       "version": "2.0.11",
       "description": "NO DRM clone from https://github.com/efa2000/node-red-contrib-alice",
@@ -172,6 +308,23 @@
         "алиса"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-alice-nodrm"
+    },
+    {
+      "id": "@racksync/node-red-contrib-low-pass-filter",
+      "version": "0.0.3",
+      "description": "Manipulate data from noise and handle payload as stable as you can with low pass filter.",
+      "updated_at": "2023-08-17T12:32:05.541Z",
+      "types": [],
+      "keywords": [
+        "node-red",
+        "Home Assistant",
+        "HASS",
+        "RACKSYNC",
+        "Noise",
+        "Low Pass",
+        "Filter"
+      ],
+      "url": "https://flows.nodered.org/node/@racksync/node-red-contrib-low-pass-filter"
     },
     {
       "id": "@martijndierckx/node-red-contrib-gardena-smart-mower",
@@ -295,23 +448,6 @@
       "url": "https://flows.nodered.org/node/@edgepi-cloud/node-red-edgepi-thermocouple"
     },
     {
-      "id": "@racksync/node-red-contrib-low-pass-filter",
-      "version": "0.0.2",
-      "description": "Manipulate data from noise and handle payload as stable as you can with low pass filter.",
-      "updated_at": "2023-08-15T18:34:20.115Z",
-      "types": [],
-      "keywords": [
-        "node-red",
-        "Home Assistant",
-        "HASS",
-        "RACKSYNC",
-        "Noise",
-        "Low Pass",
-        "Filter"
-      ],
-      "url": "https://flows.nodered.org/node/@racksync/node-red-contrib-low-pass-filter"
-    },
-    {
       "id": "@edgepi-cloud/node-red-edgepi-digital-out",
       "version": "1.0.1",
       "description": "node-red node for edgepi digital output module utilizing remote procedure calls",
@@ -356,29 +492,6 @@
         "meross"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-meross-cloud"
-    },
-    {
-      "id": "node-red-contrib-tfr2cot",
-      "version": "1.0.0",
-      "description": "If msg.payload or env.state is a 2 letter U.S. abbreviation for a state, this node returns a msg.payload as JSON cursor-on-target (CoT) message for use with node-red-contrib-tak node and tcp out node.",
-      "updated_at": "2023-08-15T12:43:49.198Z",
-      "types": [
-        "tfr2cot"
-      ],
-      "keywords": [
-        "nodered",
-        "node-red",
-        "atak",
-        "itak",
-        "tak",
-        "cot",
-        "tak",
-        "server",
-        "tak-server",
-        "tfr",
-        "faa"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-tfr2cot"
     },
     {
       "id": "node-red-contrib-simplepush",
@@ -720,21 +833,6 @@
         "echo"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-alexa-remote2-applestrudel"
-    },
-    {
-      "id": "@gregoriusrippenstein/node-red-contrib-flowhub",
-      "version": "0.0.8",
-      "description": "Flow interaction nodes.",
-      "updated_at": "2023-08-10T15:30:42.150Z",
-      "types": [
-        "FlowHubPull",
-        "FlowHubPush"
-      ],
-      "keywords": [
-        "node-red",
-        "flowhub"
-      ],
-      "url": "https://flows.nodered.org/node/@gregoriusrippenstein/node-red-contrib-flowhub"
     },
     {
       "id": "node-red-contrib-nupmes",
@@ -5477,26 +5575,6 @@
         "puppeteer"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-html-to-pdf"
-    },
-    {
-      "id": "@waldbaer/node-red-persistent-values",
-      "version": "1.4.0",
-      "description": "A user-friendly abstraction of the Node-RED context stores.",
-      "updated_at": "2023-06-07T15:30:17.094Z",
-      "types": [
-        "persistent values config",
-        "persistent value"
-      ],
-      "keywords": [
-        "node-red",
-        "context",
-        "persistence",
-        "persistency",
-        "state",
-        "config",
-        "storage"
-      ],
-      "url": "https://flows.nodered.org/node/@waldbaer/node-red-persistent-values"
     },
     {
       "id": "node-red-contrib-gpio-2",
@@ -11257,24 +11335,6 @@
         "node-red"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-xkeys_writedata"
-    },
-    {
-      "id": "node-red-contrib-aprs",
-      "version": "2.2.0",
-      "description": "Node-RED Nodes for connecting to APRS-IS and sending & receiving APRS and CWOP Frames.",
-      "updated_at": "2023-02-23T20:21:21.590Z",
-      "types": [
-        "aprs config",
-        "aprs rx",
-        "aprs tx"
-      ],
-      "keywords": [
-        "node-red",
-        "aprs",
-        "hamradio",
-        "amateurradio"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-aprs"
     },
     {
       "id": "node-red-contrib-obix-niagara-connector",
@@ -29434,26 +29494,6 @@
       "url": "https://flows.nodered.org/node/node-red-contrib-robotjs"
     },
     {
-      "id": "node-red-contrib-ui-svg",
-      "version": "2.3.1",
-      "description": "A Node-RED widget node to show interactive SVG (vector graphics) in the dashboard",
-      "updated_at": "2021-12-08T21:09:35.356Z",
-      "types": [
-        "ui_svg_graphics"
-      ],
-      "keywords": [
-        "node-red",
-        "svg",
-        "graphics",
-        "interactive",
-        "drawing",
-        "floorplan",
-        "floor plan",
-        "hmi"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-ui-svg"
-    },
-    {
       "id": "node-red-node-pisrf",
       "version": "0.2.0",
       "description": "A Node-RED node for a Raspberry Pi to use a SRF04 or SRF05 range finder",
@@ -35992,21 +36032,6 @@
         "ledborg"
       ],
       "url": "https://flows.nodered.org/node/node-red-node-ledborg"
-    },
-    {
-      "id": "node-red-node-pibrella",
-      "version": "0.0.16",
-      "description": "A Node-RED node to read from and write to a Pibrella Raspberry Pi add-on board",
-      "updated_at": "2021-05-09T16:40:44.577Z",
-      "types": [
-        "rpi-pibrella in",
-        "rpi-pibrella out"
-      ],
-      "keywords": [
-        "node-red",
-        "pibrella"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-node-pibrella"
     },
     {
       "id": "@eneserk/red-contrib-efquery-utilities",
