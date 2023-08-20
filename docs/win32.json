@@ -1,7 +1,54 @@
 {
   "name": "Catalogue for Windows",
-  "updated_at": "2023-08-19T19:43:28.410Z",
+  "updated_at": "2023-08-20T19:09:01.354Z",
   "modules": [
+    {
+      "id": "node-red-contrib-spruthub",
+      "version": "3.2.0",
+      "description": "Sprut.hub connectivity nodes for node-red",
+      "updated_at": "2023-08-19T21:11:14.243Z",
+      "types": [
+        "spruthub-in",
+        "spruthub-get",
+        "spruthub-out",
+        "spruthub-server"
+      ],
+      "keywords": [
+        "spruthub",
+        "sprut",
+        "mqtt",
+        "wirenboard",
+        "node-red"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-spruthub"
+    },
+    {
+      "id": "@digitalnodecom/node-red-contrib-generic-s3",
+      "version": "1.12.2",
+      "description": "Generic node-red S3 nodes",
+      "updated_at": "2023-08-19T17:44:21.985Z",
+      "types": [
+        "client-s3",
+        "List Buckets",
+        "Create Bucket",
+        "List Objects",
+        "List Objects V2",
+        "List Object Versions",
+        "Get Object",
+        "Head Object",
+        "Put Object",
+        "Put Objects",
+        "Delete Object",
+        "Copy Object",
+        "Move Object"
+      ],
+      "keywords": [
+        "node-red",
+        "s3",
+        "generic"
+      ],
+      "url": "https://flows.nodered.org/node/@digitalnodecom/node-red-contrib-generic-s3"
+    },
     {
       "id": "node-red-node-pibrella",
       "version": "0.1.0",
@@ -1275,33 +1322,6 @@
       "url": "https://flows.nodered.org/node/node-red-node-daemon"
     },
     {
-      "id": "@digitalnodecom/node-red-contrib-generic-s3",
-      "version": "1.12.1",
-      "description": "Generic node-red S3 nodes",
-      "updated_at": "2023-08-05T13:53:35.908Z",
-      "types": [
-        "client-s3",
-        "List Buckets",
-        "Create Bucket",
-        "List Objects",
-        "List Objects V2",
-        "List Object Versions",
-        "Get Object",
-        "Head Object",
-        "Put Object",
-        "Put Objects",
-        "Delete Object",
-        "Copy Object",
-        "Move Object"
-      ],
-      "keywords": [
-        "node-red",
-        "s3",
-        "generic"
-      ],
-      "url": "https://flows.nodered.org/node/@digitalnodecom/node-red-contrib-generic-s3"
-    },
-    {
       "id": "@gregoriusrippenstein/node-red-contrib-introspection",
       "version": "0.3.0",
       "description": "Node-RED Editor-only nodes for introspecting flows.",
@@ -1940,26 +1960,6 @@
         "growatt"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-growatt"
-    },
-    {
-      "id": "node-red-contrib-spruthub",
-      "version": "3.1.1",
-      "description": "Sprut.hub connectivity nodes for node-red",
-      "updated_at": "2023-07-30T11:08:39.182Z",
-      "types": [
-        "spruthub-in",
-        "spruthub-get",
-        "spruthub-out",
-        "spruthub-server"
-      ],
-      "keywords": [
-        "spruthub",
-        "sprut",
-        "mqtt",
-        "wirenboard",
-        "node-red"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-spruthub"
     },
     {
       "id": "node-red-contrib-tinyfarmer",
