@@ -1,7 +1,80 @@
 {
   "name": "Catalogue for verified nodes",
-  "updated_at": "2023-08-20T20:46:50.171Z",
+  "updated_at": "2023-08-21T20:40:40.342Z",
   "modules": [
+    {
+      "id": "node-red-contrib-tts-ultimate",
+      "version": "2.0.3",
+      "description": "Transforms the text in speech and hear it using Sonos player or generate an audio file to be used with third parties nodes. Works with voices from Amazon, Google (without credentials as well), Microsoft TTS Azure, ElevenLabs.io TTS or your own voice. You ",
+      "updated_at": "2023-08-21T10:19:36.907Z",
+      "types": [
+        "ttsultimate",
+        "ttsultimate-config",
+        "ownfileultimate"
+      ],
+      "keywords": [
+        "node-red",
+        "polly",
+        "google",
+        "voice",
+        "amazon",
+        "azure",
+        "tts",
+        "sonos",
+        "IOT",
+        "speech",
+        "ttsultimate",
+        "sonospollytts",
+        "neural",
+        "elevenlabs"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-tts-ultimate"
+    },
+    {
+      "id": "@lunatone/node-red-dali",
+      "version": "0.3.6",
+      "description": "A set of Lunatone DALI device nodes for Node-RED.",
+      "updated_at": "2023-08-21T07:21:12.849Z",
+      "types": [
+        "dali-iot-in",
+        "dali-iot-out",
+        "dali-iot-websocket-listener",
+        "dali-iot-websocket-client",
+        "dali-4net-write",
+        "create-dali-frame",
+        "manipulate-dali-frame"
+      ],
+      "keywords": [
+        "node-red",
+        "dali",
+        "lunatone"
+      ],
+      "url": "https://flows.nodered.org/node/@lunatone/node-red-dali"
+    },
+    {
+      "id": "node-red-contrib-tfr2cot",
+      "version": "1.1.2",
+      "description": "If msg.payload or env.state is a 2 letter U.S. abbreviation for a state, this node returns a msg.payload as JSON cursor-on-target (CoT) message for use with node-red-contrib-tak node and tcp out node.",
+      "updated_at": "2023-08-20T20:23:48.681Z",
+      "types": [
+        "tfr2cot",
+        "dataSyncSubscription"
+      ],
+      "keywords": [
+        "nodered",
+        "node-red",
+        "atak",
+        "itak",
+        "tak",
+        "cot",
+        "tak",
+        "server",
+        "tak-server",
+        "tfr",
+        "faa"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-tfr2cot"
+    },
     {
       "id": "node-red-contrib-spruthub",
       "version": "3.2.0",
@@ -144,30 +217,6 @@
         "storage"
       ],
       "url": "https://flows.nodered.org/node/@waldbaer/node-red-persistent-values"
-    },
-    {
-      "id": "node-red-contrib-tfr2cot",
-      "version": "1.1.0",
-      "description": "If msg.payload or env.state is a 2 letter U.S. abbreviation for a state, this node returns a msg.payload as JSON cursor-on-target (CoT) message for use with node-red-contrib-tak node and tcp out node.",
-      "updated_at": "2023-08-18T19:24:51.730Z",
-      "types": [
-        "tfr2cot",
-        "dataSyncSubscription"
-      ],
-      "keywords": [
-        "nodered",
-        "node-red",
-        "atak",
-        "itak",
-        "tak",
-        "cot",
-        "tak",
-        "server",
-        "tak-server",
-        "tfr",
-        "faa"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-tfr2cot"
     },
     {
       "id": "node-red-contrib-aprs",
@@ -417,34 +466,6 @@
         "node-red"
       ],
       "url": "https://flows.nodered.org/node/@flowforge/node-red-dashboard"
-    },
-    {
-      "id": "node-red-contrib-tts-ultimate",
-      "version": "2.0.2",
-      "description": "Transforms the text in speech and hear it using Sonos player or generate an audio file to be used with third parties nodes. Works with voices from Amazon, Google (without credentials as well), Microsoft TTS Azure, ElevenLabs.io TTS or your own voice. You ",
-      "updated_at": "2023-08-16T13:01:28.069Z",
-      "types": [
-        "ttsultimate",
-        "ttsultimate-config",
-        "ownfileultimate"
-      ],
-      "keywords": [
-        "node-red",
-        "polly",
-        "google",
-        "voice",
-        "amazon",
-        "azure",
-        "tts",
-        "sonos",
-        "IOT",
-        "speech",
-        "ttsultimate",
-        "sonospollytts",
-        "neural",
-        "elevenlabs"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-tts-ultimate"
     },
     {
       "id": "@ifp-software/node-red-contrib-oee-ai-connector",
@@ -7734,27 +7755,6 @@
         "node-red"
       ],
       "url": "https://flows.nodered.org/node/@gregoriusrippenstein/node-red-contrib-neuralnet-builder"
-    },
-    {
-      "id": "@lunatone/node-red-dali",
-      "version": "0.3.5",
-      "description": "A set of Lunatone DALI device nodes for Node-RED.",
-      "updated_at": "2023-05-03T09:23:06.826Z",
-      "types": [
-        "dali-iot-in",
-        "dali-iot-out",
-        "dali-iot-websocket-listener",
-        "dali-iot-websocket-client",
-        "dali-4net-write",
-        "create-dali-frame",
-        "manipulate-dali-frame"
-      ],
-      "keywords": [
-        "node-red",
-        "dali",
-        "lunatone"
-      ],
-      "url": "https://flows.nodered.org/node/@lunatone/node-red-dali"
     },
     {
       "id": "node-red-contrib-siemens-sentron",
@@ -69743,21 +69743,6 @@
         "murano"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-exosite"
-    },
-    {
-      "id": "node-red-contrib-cheerio",
-      "version": "1.1.0",
-      "description": "Node Red node to parse xml/html and map to javascript object.",
-      "updated_at": "2017-09-07T13:39:21.520Z",
-      "types": [
-        "cheerio"
-      ],
-      "keywords": [
-        "xml",
-        "html",
-        "node-red"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-cheerio"
     },
     {
       "id": "node-red-contrib-pegjs",
