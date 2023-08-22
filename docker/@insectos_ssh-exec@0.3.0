@@ -1,0 +1,53 @@
+#0 building with "default" instance using docker driver
+
+#1 [internal] load .dockerignore
+#1 transferring context: 2B done
+#1 DONE 0.0s
+
+#2 [internal] load build definition from Dockerfile
+#2 transferring dockerfile: 111B done
+#2 DONE 0.0s
+
+#3 [internal] load metadata for docker.io/nodered/node-red:latest
+#3 DONE 0.3s
+
+#4 [1/2] FROM docker.io/nodered/node-red@sha256:5fd729fce9b787903e2b443a2fc052c6253b737ca38e65df7b843cd4170bdb5c
+#4 CACHED
+
+#5 [2/2] RUN npm install npm install @insectos/ssh-exec@0.3.0
+#5 2.643 npm WARN EBADENGINE Unsupported engine {
+#5 2.643 npm WARN EBADENGINE   package: '@insectos/ssh-exec@0.3.0',
+#5 2.644 npm WARN EBADENGINE   required: { node: '>18.0.0' },
+#5 2.644 npm WARN EBADENGINE   current: { node: 'v16.20.1', npm: '8.19.4' }
+#5 2.644 npm WARN EBADENGINE }
+#5 10.26 
+#5 10.26 added 11 packages, and audited 553 packages in 10s
+#5 10.27 
+#5 10.27 64 packages are looking for funding
+#5 10.27   run `npm fund` for details
+#5 10.28 
+#5 10.28 10 vulnerabilities (2 low, 8 moderate)
+#5 10.28 
+#5 10.28 To address issues that do not require attention, run:
+#5 10.28   npm audit fix
+#5 10.28 
+#5 10.28 To address all issues (including breaking changes), run:
+#5 10.28   npm audit fix --force
+#5 10.28 
+#5 10.28 Run `npm audit` for details.
+#5 10.28 npm notice 
+#5 10.28 npm notice New major version of npm available! 8.19.4 -> 9.8.1
+#5 10.28 npm notice Changelog: <https://github.com/npm/cli/releases/tag/v9.8.1>
+#5 10.28 npm notice Run `npm install -g npm@9.8.1` to update!
+#5 10.28 npm notice 
+#5 DONE 10.5s
+
+#6 exporting to image
+#6 exporting layers
+#6 exporting layers 1.4s done
+#6 writing image sha256:7168bb9350e9a08bded37ae831027b8dd093a2141b08aded27b959bf0306c558 done
+#6 naming to docker.io/library/tmp
+#6 naming to docker.io/library/tmp done
+#6 DONE 1.4s
+
+----
