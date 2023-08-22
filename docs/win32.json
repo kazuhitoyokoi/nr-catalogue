@@ -1,12 +1,43 @@
 {
   "name": "Catalogue for Windows",
-  "updated_at": "2023-08-21T18:51:32.266Z",
+  "updated_at": "2023-08-22T20:02:44.566Z",
   "modules": [
     {
+      "id": "@envidatec/node-red-contrib-jevis",
+      "version": "1.0.5",
+      "description": "Read / Write to JEVis Server",
+      "updated_at": "2023-08-22T12:22:30.767Z",
+      "types": [
+        "JEVis-Read",
+        "JEVis-Write",
+        "JEVis-Server"
+      ],
+      "keywords": [
+        "node-red"
+      ],
+      "url": "https://flows.nodered.org/node/@envidatec/node-red-contrib-jevis"
+    },
+    {
+      "id": "@envidatec/node-red-contrib-logger",
+      "version": "1.0.7",
+      "description": "Logs Data into SQL-Lite",
+      "updated_at": "2023-08-22T12:19:26.300Z",
+      "types": [
+        "logger",
+        "SQL-DB",
+        "Rest-Server",
+        "SQL-Lite"
+      ],
+      "keywords": [
+        "node-red"
+      ],
+      "url": "https://flows.nodered.org/node/@envidatec/node-red-contrib-logger"
+    },
+    {
       "id": "@insectos/ssh-exec",
-      "version": "0.2.0",
+      "version": "0.3.0",
       "description": "A flexible SSH client for Node-RED",
-      "updated_at": "2023-08-21T15:01:44.212Z",
+      "updated_at": "2023-08-22T03:47:54.047Z",
       "types": [
         "ssh-exec"
       ],
@@ -16,6 +47,87 @@
         "interactive"
       ],
       "url": "https://flows.nodered.org/node/@insectos/ssh-exec"
+    },
+    {
+      "id": "node-red-contrib-zeebe-2",
+      "version": "0.8.5",
+      "description": "Zeebe nodes for Node-RED ",
+      "updated_at": "2023-08-21T21:44:11.059Z",
+      "types": [
+        "zeebe",
+        "process-instance",
+        "task-worker",
+        "complete-task",
+        "message",
+        "start-message",
+        "deploy"
+      ],
+      "keywords": [
+        "node-red",
+        "zeebe",
+        "camunda",
+        "bpmn",
+        "workflow",
+        "microservice"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-zeebe-2"
+    },
+    {
+      "id": "node-red-contrib-uibuilder",
+      "version": "6.5.0",
+      "description": "Easily create data-driven web UI's for Node-RED using any (or no) front-end library.",
+      "updated_at": "2023-08-21T21:00:10.200Z",
+      "types": [],
+      "keywords": [
+        "node-red",
+        "ui",
+        "gui",
+        "dashboard",
+        "spa",
+        "web",
+        "website",
+        "data-driven",
+        "webpage"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-uibuilder"
+    },
+    {
+      "id": "@gregoriusrippenstein/node-red-contrib-flowhub",
+      "version": "0.1.2",
+      "description": "Flow interaction nodes.",
+      "updated_at": "2023-08-21T16:20:04.678Z",
+      "types": [
+        "FlowHubPull",
+        "FlowHubPush"
+      ],
+      "keywords": [
+        "node-red",
+        "flowhub"
+      ],
+      "url": "https://flows.nodered.org/node/@gregoriusrippenstein/node-red-contrib-flowhub"
+    },
+    {
+      "id": "@sip-irrigation/node-red-sip-irrigation-nodes",
+      "version": "1.0.0",
+      "description": "A collection of nodes that work with SIP irrigation control software",
+      "updated_at": "2023-08-21T15:18:34.621Z",
+      "types": [
+        "sip-prog-cntl",
+        "sip-rain-delay",
+        "sip-run-now",
+        "sip-run-once",
+        "sip-station-cntl",
+        "sip-stop-all",
+        "sip-water-level"
+      ],
+      "keywords": [
+        "node-red",
+        "sip irrigation",
+        "sprinkler control",
+        "irrigation",
+        "sprinkler"
+      ],
+      "url": "https://flows.nodered.org/node/@sip-irrigation/node-red-sip-irrigation-nodes"
     },
     {
       "id": "node-red-contrib-tts-ultimate",
@@ -190,30 +302,6 @@
       "url": "https://flows.nodered.org/node/node-red-contrib-ui-svg"
     },
     {
-      "id": "node-red-contrib-zeebe-2",
-      "version": "0.8.2",
-      "description": "Zeebe nodes for Node-RED ",
-      "updated_at": "2023-08-18T23:57:24.084Z",
-      "types": [
-        "zeebe",
-        "process-instance",
-        "task-worker",
-        "complete-task",
-        "message",
-        "start-message",
-        "deploy"
-      ],
-      "keywords": [
-        "node-red",
-        "zeebe",
-        "camunda",
-        "bpmn",
-        "workflow",
-        "microservice"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-zeebe-2"
-    },
-    {
       "id": "@waldbaer/node-red-persistent-values",
       "version": "1.5.0",
       "description": "A user-friendly abstraction of the Node-RED context stores.",
@@ -250,21 +338,6 @@
         "amateurradio"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-aprs"
-    },
-    {
-      "id": "@gregoriusrippenstein/node-red-contrib-flowhub",
-      "version": "0.1.0",
-      "description": "Flow interaction nodes.",
-      "updated_at": "2023-08-18T16:19:29.218Z",
-      "types": [
-        "FlowHubPull",
-        "FlowHubPush"
-      ],
-      "keywords": [
-        "node-red",
-        "flowhub"
-      ],
-      "url": "https://flows.nodered.org/node/@gregoriusrippenstein/node-red-contrib-flowhub"
     },
     {
       "id": "node-red-contrib-knx-ultimate",
@@ -1919,22 +1992,6 @@
         "mode"
       ],
       "url": "https://flows.nodered.org/node/@softwaredevelopment/node-red-contrib-bodhi-device-privacy"
-    },
-    {
-      "id": "@envidatec/node-red-contrib-logger",
-      "version": "1.0.6",
-      "description": "Logs Data into SQL-Lite",
-      "updated_at": "2023-07-31T12:50:17.889Z",
-      "types": [
-        "logger",
-        "SQL-DB",
-        "requestData",
-        "Rest-Server"
-      ],
-      "keywords": [
-        "node-red"
-      ],
-      "url": "https://flows.nodered.org/node/@envidatec/node-red-contrib-logger"
     },
     {
       "id": "node-red-contrib-openai-ubos",
@@ -3981,21 +4038,6 @@
         "line-quick-reply"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-node-line-api"
-    },
-    {
-      "id": "@envidatec/node-red-contrib-jevis",
-      "version": "1.0.4",
-      "description": "Read / Write to JEVis Server",
-      "updated_at": "2023-07-06T09:40:39.005Z",
-      "types": [
-        "JEVis-Read",
-        "JEVis-Write",
-        "JEVis-Server"
-      ],
-      "keywords": [
-        "node-red"
-      ],
-      "url": "https://flows.nodered.org/node/@envidatec/node-red-contrib-jevis"
     },
     {
       "id": "@equans/smart-buildings-heating-boost",
@@ -8741,25 +8783,6 @@
         "rest-api"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-conta-azul-api"
-    },
-    {
-      "id": "node-red-contrib-uibuilder",
-      "version": "6.4.1",
-      "description": "Easily create data-driven web UI's for Node-RED using any (or no) front-end library.",
-      "updated_at": "2023-04-16T13:25:10.549Z",
-      "types": [],
-      "keywords": [
-        "node-red",
-        "ui",
-        "gui",
-        "dashboard",
-        "spa",
-        "web",
-        "website",
-        "data-driven",
-        "webpage"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-uibuilder"
     },
     {
       "id": "node-red-contrib-ale-rainbow",
