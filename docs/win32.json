@@ -1,7 +1,200 @@
 {
   "name": "Catalogue for Windows",
-  "updated_at": "2023-08-22T20:02:44.566Z",
+  "updated_at": "2023-08-23T20:35:59.060Z",
   "modules": [
+    {
+      "id": "node-red-contrib-life360",
+      "version": "1.1.2",
+      "description": "Life360 nodes for node-red",
+      "updated_at": "2023-08-23T15:14:05.088Z",
+      "types": [
+        "Life360",
+        "Life360-Server"
+      ],
+      "keywords": [
+        "life360",
+        "node-red"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-life360"
+    },
+    {
+      "id": "@jambonz/node-red-contrib-jambonz",
+      "version": "2.4.13",
+      "description": "Node-RED nodes for jambonz platform",
+      "updated_at": "2023-08-23T14:53:42.415Z",
+      "types": [
+        "webhook in",
+        "webhook out",
+        "audio in",
+        "jambonz_auth",
+        "aws_auth",
+        "enqueue",
+        "lex",
+        "say",
+        "dtmf",
+        "cfg",
+        "conference",
+        "gather",
+        "listen",
+        "sip:decline",
+        "sip:request",
+        "sip:refer",
+        "hangup",
+        "message",
+        "tag",
+        "pause",
+        "dequeue",
+        "play",
+        "dial",
+        "redirect",
+        "dialogflow",
+        "leave",
+        "rasa",
+        "user auth",
+        "create-call",
+        "create-sms",
+        "lcc",
+        "get_alerts",
+        "get_call",
+        "get_calls",
+        "get_recent_calls"
+      ],
+      "keywords": [
+        "node-red"
+      ],
+      "url": "https://flows.nodered.org/node/@jambonz/node-red-contrib-jambonz"
+    },
+    {
+      "id": "@logiccloud/node-red-runtime-configuration",
+      "version": "1.2.7",
+      "description": "Configuration node for runtime connection.",
+      "updated_at": "2023-08-23T13:40:14.727Z",
+      "types": [
+        "runtime-configuration"
+      ],
+      "keywords": [
+        "node-red",
+        "lc",
+        "LC",
+        "runtime",
+        "Runtime",
+        "iec61131-3",
+        "iec61131-10",
+        "IEC 61131-3",
+        "IEC 61131-10",
+        "iec61131",
+        "IEC 61131"
+      ],
+      "url": "https://flows.nodered.org/node/@logiccloud/node-red-runtime-configuration"
+    },
+    {
+      "id": "@logiccloud/node-red-runtime-variable-reader",
+      "version": "1.2.7",
+      "description": "A simple node that is reading variable from a logiccloud runtime.",
+      "updated_at": "2023-08-23T13:40:01.005Z",
+      "types": [
+        "runtime-variable-reader"
+      ],
+      "keywords": [
+        "node-red",
+        "lc",
+        "LC",
+        "runtime",
+        "Runtime",
+        "iec61131-3",
+        "iec61131-10",
+        "IEC 61131-3",
+        "IEC 61131-10",
+        "iec61131",
+        "IEC 61131"
+      ],
+      "url": "https://flows.nodered.org/node/@logiccloud/node-red-runtime-variable-reader"
+    },
+    {
+      "id": "@logiccloud/node-red-runtime-variable-writer",
+      "version": "1.2.7",
+      "description": "A simple node that is writing a variable to a logiccloud runtime.",
+      "updated_at": "2023-08-23T13:39:48.415Z",
+      "types": [
+        "runtime-variable-writer"
+      ],
+      "keywords": [
+        "node-red",
+        "lc",
+        "LC",
+        "runtime",
+        "Runtime",
+        "iec61131-3",
+        "iec61131-10",
+        "IEC 61131-3",
+        "IEC 61131-10",
+        "iec61131",
+        "IEC 61131"
+      ],
+      "url": "https://flows.nodered.org/node/@logiccloud/node-red-runtime-variable-writer"
+    },
+    {
+      "id": "node-red-contrib-iris",
+      "version": "1.0.9",
+      "description": "Access to Intersystems IRIS Data Platform",
+      "updated_at": "2023-08-23T12:56:20.240Z",
+      "types": [],
+      "keywords": [
+        "node-red",
+        "nodered",
+        "Intersystems",
+        "IRIS",
+        "Database"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-iris"
+    },
+    {
+      "id": "@platmac/node-red-novaposhta-track",
+      "version": "1.0.2",
+      "description": "Node for retrieving tracking information from Nova Poshta.",
+      "updated_at": "2023-08-23T11:32:39.714Z",
+      "types": [
+        "novaposhta-track"
+      ],
+      "keywords": [
+        "node-red",
+        "novaposhta"
+      ],
+      "url": "https://flows.nodered.org/node/@platmac/node-red-novaposhta-track"
+    },
+    {
+      "id": "node-red-contrib-aula-education",
+      "version": "0.1.1",
+      "description": "A Node-Red Node for collecting data from aula the danish educational platform.",
+      "updated_at": "2023-08-22T20:32:11.069Z",
+      "types": [
+        "aulaNode"
+      ],
+      "keywords": [
+        "node-red",
+        "aula",
+        "education"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-aula-education"
+    },
+    {
+      "id": "node-red-contrib-openai-wrapper",
+      "version": "1.0.2",
+      "description": "adds Node to call openai api via openai npm package",
+      "updated_at": "2023-08-22T17:22:42.991Z",
+      "types": [
+        "openai-api",
+        "openai-api-config"
+      ],
+      "keywords": [
+        "node-red",
+        "openai",
+        "chatgpt",
+        "openai api",
+        "openai node"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-openai-wrapper"
+    },
     {
       "id": "@envidatec/node-red-contrib-jevis",
       "version": "1.0.5",
@@ -376,52 +569,6 @@
         "hue"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-knx-ultimate"
-    },
-    {
-      "id": "@jambonz/node-red-contrib-jambonz",
-      "version": "2.4.12",
-      "description": "Node-RED nodes for jambonz platform",
-      "updated_at": "2023-08-18T12:05:59.108Z",
-      "types": [
-        "webhook in",
-        "webhook out",
-        "audio in",
-        "jambonz_auth",
-        "aws_auth",
-        "enqueue",
-        "lex",
-        "say",
-        "dtmf",
-        "cfg",
-        "conference",
-        "gather",
-        "listen",
-        "sip:decline",
-        "sip:request",
-        "sip:refer",
-        "hangup",
-        "message",
-        "tag",
-        "pause",
-        "dequeue",
-        "play",
-        "dial",
-        "redirect",
-        "dialogflow",
-        "leave",
-        "rasa",
-        "user auth",
-        "create-call",
-        "create-sms",
-        "lcc",
-        "get_alerts",
-        "get_calls",
-        "get_recent_calls"
-      ],
-      "keywords": [
-        "node-red"
-      ],
-      "url": "https://flows.nodered.org/node/@jambonz/node-red-contrib-jambonz"
     },
     {
       "id": "node-red-contrib-opcua",
@@ -1149,26 +1296,6 @@
       "url": "https://flows.nodered.org/node/node-red-contrib-hubitat"
     },
     {
-      "id": "@ncd-io/node-red-enterprise-sensors",
-      "version": "0.1.8",
-      "description": "You can install this library through the Palette Manager in Node-Red's UI.",
-      "updated_at": "2023-08-08T15:52:00.551Z",
-      "types": [
-        "ncd-gateway-node",
-        "ncd-wireless-node",
-        "ncd-gateway-config"
-      ],
-      "keywords": [
-        "Wireless",
-        "NCD",
-        "Sensors",
-        "Digi",
-        "node-red",
-        "enterprise"
-      ],
-      "url": "https://flows.nodered.org/node/@ncd-io/node-red-enterprise-sensors"
-    },
-    {
       "id": "@factoryframeworks/forge",
       "version": "1.0.2",
       "description": "This Node-RED node package provides custom nodes for writing data to Forge Tags as well as subscribing to Forge Events.",
@@ -1562,21 +1689,6 @@
         "blob-storage"
       ],
       "url": "https://flows.nodered.org/node/@kurago-dev/node-red-contrib-azure"
-    },
-    {
-      "id": "node-red-contrib-life360",
-      "version": "1.1.1",
-      "description": "Life360 nodes for node-red",
-      "updated_at": "2023-08-04T02:02:33.356Z",
-      "types": [
-        "Life360",
-        "Life360-Server"
-      ],
-      "keywords": [
-        "life360",
-        "node-red"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-life360"
     },
     {
       "id": "@softwaredevelopment/node-red-contrib-bodhi-device-drape",
@@ -17399,21 +17511,6 @@
         "tesseract"
       ],
       "url": "https://flows.nodered.org/node/@martip/node-red-ocr"
-    },
-    {
-      "id": "node-red-contrib-iris",
-      "version": "1.0.8",
-      "description": "Access to Intersystems IRIS Data Platform",
-      "updated_at": "2022-10-20T13:58:56.451Z",
-      "types": [],
-      "keywords": [
-        "node-red",
-        "nodered",
-        "Intersystems",
-        "IRIS",
-        "Database"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-iris"
     },
     {
       "id": "@clarify/node-red-contrib-clarify",
