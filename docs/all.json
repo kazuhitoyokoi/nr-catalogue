@@ -1,12 +1,141 @@
 {
   "name": "Catalogue for verified nodes",
-  "updated_at": "2023-08-24T21:22:40.257Z",
+  "updated_at": "2023-08-25T21:47:06.004Z",
   "modules": [
     {
+      "id": "@tq-bit/node-red-contrib-trace-messages",
+      "version": "1.2.1",
+      "description": "Node to track and aggregate messages over your flows",
+      "updated_at": "2023-08-25T14:27:44.903Z",
+      "types": [
+        "trace"
+      ],
+      "keywords": [
+        "node-red",
+        "trace",
+        "debug",
+        "messages",
+        "compare"
+      ],
+      "url": "https://flows.nodered.org/node/@tq-bit/node-red-contrib-trace-messages"
+    },
+    {
+      "id": "node-red-contrib-web-worldmap",
+      "version": "2.42.1",
+      "description": "A Node-RED node to provide a web page of a world map for plotting things on.",
+      "updated_at": "2023-08-25T13:35:01.390Z",
+      "types": [
+        "worldmap",
+        "ui_worldmap",
+        "worldmap in",
+        "worldmap-tracks",
+        "worldmap-hull"
+      ],
+      "keywords": [
+        "node-red",
+        "map",
+        "world",
+        "tak"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-web-worldmap"
+    },
+    {
+      "id": "node-red-contrib-tts-ultimate",
+      "version": "2.0.4",
+      "description": "Transforms the text in speech and hear it using Sonos player or generate an audio file to be used with third parties nodes. Works with voices from Amazon, Google (without credentials as well), Microsoft TTS Azure, ElevenLabs.io TTS or your own voice. You ",
+      "updated_at": "2023-08-25T11:55:00.478Z",
+      "types": [
+        "ttsultimate",
+        "ttsultimate-config",
+        "ownfileultimate"
+      ],
+      "keywords": [
+        "node-red",
+        "polly",
+        "google",
+        "voice",
+        "amazon",
+        "azure",
+        "tts",
+        "sonos",
+        "IOT",
+        "speech",
+        "ttsultimate",
+        "sonospollytts",
+        "neural",
+        "elevenlabs"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-tts-ultimate"
+    },
+    {
+      "id": "victron-vrm-api",
+      "version": "0.0.5",
+      "description": "Interface with the Victron Energy VRM API",
+      "updated_at": "2023-08-25T09:49:10.604Z",
+      "types": [
+        "config-vrm-api",
+        "vrm-api"
+      ],
+      "keywords": [
+        "node-red",
+        "victron",
+        "vrm",
+        "api"
+      ],
+      "url": "https://flows.nodered.org/node/victron-vrm-api"
+    },
+    {
+      "id": "@helix_italia/node-red-helix-odbc",
+      "version": "0.0.6",
+      "description": "NodeRed ODBC",
+      "updated_at": "2023-08-25T09:39:47.230Z",
+      "types": [
+        "hx-odbc-connect"
+      ],
+      "keywords": [
+        "node-red",
+        "ODBC",
+        "helix",
+        "database"
+      ],
+      "url": "https://flows.nodered.org/node/@helix_italia/node-red-helix-odbc"
+    },
+    {
+      "id": "node-red-contrib-myhome-bticino-v2",
+      "version": "2.3.1",
+      "description": "Control Bticino / Legrand MyHome components from Node-RED",
+      "updated_at": "2023-08-25T07:35:23.390Z",
+      "types": [
+        "myhome-gateway",
+        "myhome-eventsession",
+        "myhome-commandsession",
+        "myhome-energy",
+        "myhome-light",
+        "__errors__",
+        "myhome-shutter",
+        "__errors__",
+        "myhome-scenario",
+        "myhome-thermo-central",
+        "myhome-thermo-zone"
+      ],
+      "keywords": [
+        "node-red",
+        "BTicino",
+        "Legrand",
+        "MyHome",
+        "OpenWebNet",
+        "OWN",
+        "CEN",
+        "CEN+",
+        "SCS"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-myhome-bticino-v2"
+    },
+    {
       "id": "node-red-contrib-alice",
-      "version": "2.0.5",
+      "version": "2.0.6",
       "description": "**NodeRed Home** (node-red-contrib-alice) - это сервис позволит, в несколько простых шагов, подключить любые ваши устройства заведенные в Node-RED к умному дому от Яндекса и управлять ими с помощью голосового помощника Алиса.",
-      "updated_at": "2023-08-24T09:54:50.888Z",
+      "updated_at": "2023-08-25T05:23:58.712Z",
       "types": [
         "alice-service",
         "alice-device",
@@ -29,6 +158,58 @@
       "url": "https://flows.nodered.org/node/node-red-contrib-alice"
     },
     {
+      "id": "node-red-contrib-aula-education",
+      "version": "0.3.1",
+      "description": "A Node-Red Node for collecting data from aula the danish educational platform.",
+      "updated_at": "2023-08-24T20:58:06.851Z",
+      "types": [
+        "aulaNode-config",
+        "aulaNode"
+      ],
+      "keywords": [
+        "node-red",
+        "aula",
+        "education"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-aula-education"
+    },
+    {
+      "id": "@gregoriusrippenstein/node-red-contrib-flowhub",
+      "version": "0.1.3",
+      "description": "Flow interaction nodes.",
+      "updated_at": "2023-08-24T18:58:24.773Z",
+      "types": [
+        "FlowHubPull",
+        "FlowHubPush"
+      ],
+      "keywords": [
+        "node-red",
+        "flowhub"
+      ],
+      "url": "https://flows.nodered.org/node/@gregoriusrippenstein/node-red-contrib-flowhub"
+    },
+    {
+      "id": "@gregoriusrippenstein/node-red-contrib-introspection",
+      "version": "0.3.1",
+      "description": "Node-RED Editor-only nodes for introspecting flows.",
+      "updated_at": "2023-08-24T18:53:50.952Z",
+      "types": [
+        "Seeker",
+        "Sink",
+        "Screenshot",
+        "Orphans",
+        "IsMobile",
+        "Navigator",
+        "DrawSVG",
+        "GetFlows",
+        "SendFlow"
+      ],
+      "keywords": [
+        "node-red"
+      ],
+      "url": "https://flows.nodered.org/node/@gregoriusrippenstein/node-red-contrib-introspection"
+    },
+    {
       "id": "node-red-contrib-nibeuplink",
       "version": "1.0.2",
       "description": "A Node-Red Node for collecting data from nibe uplink.",
@@ -44,22 +225,6 @@
         "vølund"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-nibeuplink"
-    },
-    {
-      "id": "node-red-contrib-aula-education",
-      "version": "0.2.0",
-      "description": "A Node-Red Node for collecting data from aula the danish educational platform.",
-      "updated_at": "2023-08-23T20:55:21.740Z",
-      "types": [
-        "aulaNode-config",
-        "aulaNode"
-      ],
-      "keywords": [
-        "node-red",
-        "aula",
-        "education"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-aula-education"
     },
     {
       "id": "node-red-contrib-life360",
@@ -271,6 +436,23 @@
       "url": "https://flows.nodered.org/node/@envidatec/node-red-contrib-logger"
     },
     {
+      "id": "@sinch/node-red-voice-api",
+      "version": "1.0.2",
+      "description": "Package of Sinch Voice API nodes for Node-RED",
+      "updated_at": "2023-08-22T08:19:36.856Z",
+      "types": [
+        "sinch-voice-answered-call-event",
+        "sinch-voice-call",
+        "sinch-voice-dtmf",
+        "sinch-voice-incoming-call",
+        "sinch-application"
+      ],
+      "keywords": [
+        "node-red"
+      ],
+      "url": "https://flows.nodered.org/node/@sinch/node-red-voice-api"
+    },
+    {
       "id": "@insectos/ssh-exec",
       "version": "0.3.0",
       "description": "A flexible SSH client for Node-RED",
@@ -329,21 +511,6 @@
       "url": "https://flows.nodered.org/node/node-red-contrib-uibuilder"
     },
     {
-      "id": "@gregoriusrippenstein/node-red-contrib-flowhub",
-      "version": "0.1.2",
-      "description": "Flow interaction nodes.",
-      "updated_at": "2023-08-21T16:20:04.678Z",
-      "types": [
-        "FlowHubPull",
-        "FlowHubPush"
-      ],
-      "keywords": [
-        "node-red",
-        "flowhub"
-      ],
-      "url": "https://flows.nodered.org/node/@gregoriusrippenstein/node-red-contrib-flowhub"
-    },
-    {
       "id": "@sip-irrigation/node-red-sip-irrigation-nodes",
       "version": "1.0.0",
       "description": "A collection of nodes that work with SIP irrigation control software",
@@ -365,34 +532,6 @@
         "sprinkler"
       ],
       "url": "https://flows.nodered.org/node/@sip-irrigation/node-red-sip-irrigation-nodes"
-    },
-    {
-      "id": "node-red-contrib-tts-ultimate",
-      "version": "2.0.3",
-      "description": "Transforms the text in speech and hear it using Sonos player or generate an audio file to be used with third parties nodes. Works with voices from Amazon, Google (without credentials as well), Microsoft TTS Azure, ElevenLabs.io TTS or your own voice. You ",
-      "updated_at": "2023-08-21T10:19:36.907Z",
-      "types": [
-        "ttsultimate",
-        "ttsultimate-config",
-        "ownfileultimate"
-      ],
-      "keywords": [
-        "node-red",
-        "polly",
-        "google",
-        "voice",
-        "amazon",
-        "azure",
-        "tts",
-        "sonos",
-        "IOT",
-        "speech",
-        "ttsultimate",
-        "sonospollytts",
-        "neural",
-        "elevenlabs"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-tts-ultimate"
     },
     {
       "id": "@lunatone/node-red-dali",
@@ -659,32 +798,6 @@
       "url": "https://flows.nodered.org/node/node-red-contrib-unifi"
     },
     {
-      "id": "node-red-contrib-alice-nodrm",
-      "version": "2.0.11",
-      "description": "NO DRM clone from https://github.com/efa2000/node-red-contrib-alice",
-      "updated_at": "2023-08-17T15:45:55.462Z",
-      "types": [
-        "alice-service",
-        "alice-device",
-        "On_Off",
-        "Toggle",
-        "Range",
-        "Color",
-        "Mode",
-        "Sensor",
-        "Event",
-        "Video"
-      ],
-      "keywords": [
-        "node-red",
-        "yandex",
-        "alice",
-        "яндекс",
-        "алиса"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-alice-nodrm"
-    },
-    {
       "id": "@racksync/node-red-contrib-low-pass-filter",
       "version": "0.0.3",
       "description": "Manipulate data from noise and handle payload as stable as you can with low pass filter.",
@@ -891,26 +1004,6 @@
         "node-red"
       ],
       "url": "https://flows.nodered.org/node/@okonek83/node-red-ecur-connection"
-    },
-    {
-      "id": "node-red-contrib-web-worldmap",
-      "version": "2.41.0",
-      "description": "A Node-RED node to provide a web page of a world map for plotting things on.",
-      "updated_at": "2023-08-14T08:25:46.415Z",
-      "types": [
-        "worldmap",
-        "ui_worldmap",
-        "worldmap in",
-        "worldmap-tracks",
-        "worldmap-hull"
-      ],
-      "keywords": [
-        "node-red",
-        "map",
-        "world",
-        "tak"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-web-worldmap"
     },
     {
       "id": "@blokcert/node-red-azure-storage",
@@ -1553,26 +1646,6 @@
         "exec"
       ],
       "url": "https://flows.nodered.org/node/node-red-node-daemon"
-    },
-    {
-      "id": "@gregoriusrippenstein/node-red-contrib-introspection",
-      "version": "0.3.0",
-      "description": "Node-RED Editor-only nodes for introspecting flows.",
-      "updated_at": "2023-08-05T13:36:42.234Z",
-      "types": [
-        "Seeker",
-        "Sink",
-        "Screenshot",
-        "Orphans",
-        "IsMobile",
-        "Navigator",
-        "DrawSVG",
-        "GetFlows"
-      ],
-      "keywords": [
-        "node-red"
-      ],
-      "url": "https://flows.nodered.org/node/@gregoriusrippenstein/node-red-contrib-introspection"
     },
     {
       "id": "node-red-contrib-dashbored",
@@ -2328,23 +2401,6 @@
         "dusk"
       ],
       "url": "https://flows.nodered.org/node/@tbowmo/node-red-small-timer"
-    },
-    {
-      "id": "victron-vrm-api",
-      "version": "0.0.4",
-      "description": "Interface with the Victron Energy VRM API",
-      "updated_at": "2023-07-28T08:58:09.850Z",
-      "types": [
-        "config-vrm-api",
-        "vrm-api"
-      ],
-      "keywords": [
-        "node-red",
-        "victron",
-        "vrm",
-        "api"
-      ],
-      "url": "https://flows.nodered.org/node/victron-vrm-api"
     },
     {
       "id": "@softwaredevelopment/node-red-contrib-bodhi-device-fan",
@@ -5298,22 +5354,6 @@
         "capture"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-uiohook-napi"
-    },
-    {
-      "id": "@helix_italia/node-red-helix-odbc",
-      "version": "0.0.4",
-      "description": "NodeRed ODBC",
-      "updated_at": "2023-06-16T09:20:17.970Z",
-      "types": [
-        "hx-odbc-connect"
-      ],
-      "keywords": [
-        "node-red",
-        "ODBC",
-        "helix",
-        "database"
-      ],
-      "url": "https://flows.nodered.org/node/@helix_italia/node-red-helix-odbc"
     },
     {
       "id": "node-red-contrib-simple-spc",
@@ -14490,37 +14530,6 @@
         "node-red"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-1wire"
-    },
-    {
-      "id": "node-red-contrib-myhome-bticino-v2",
-      "version": "2.3.0",
-      "description": "Control Bticino / Legrand MyHome components from Node-RED",
-      "updated_at": "2022-12-24T09:13:34.481Z",
-      "types": [
-        "myhome-gateway",
-        "myhome-eventsession",
-        "myhome-commandsession",
-        "myhome-energy",
-        "myhome-light",
-        "__errors__",
-        "myhome-shutter",
-        "__errors__",
-        "myhome-scenario",
-        "myhome-thermo-central",
-        "myhome-thermo-zone"
-      ],
-      "keywords": [
-        "node-red",
-        "BTicino",
-        "Legrand",
-        "MyHome",
-        "OpenWebNet",
-        "OWN",
-        "CEN",
-        "CEN+",
-        "SCS"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-myhome-bticino-v2"
     },
     {
       "id": "hdl-automation-nodered",
