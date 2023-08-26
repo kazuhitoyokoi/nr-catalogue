@@ -1,7 +1,79 @@
 {
   "name": "Catalogue for macOS",
-  "updated_at": "2023-08-25T21:46:50.010Z",
+  "updated_at": "2023-08-26T19:14:00.328Z",
   "modules": [
+    {
+      "id": "node-red-contrib-web-worldmap",
+      "version": "2.42.2",
+      "description": "A Node-RED node to provide a web page of a world map for plotting things on.",
+      "updated_at": "2023-08-26T17:01:40.334Z",
+      "types": [
+        "worldmap",
+        "ui_worldmap",
+        "worldmap in",
+        "worldmap-tracks",
+        "worldmap-hull"
+      ],
+      "keywords": [
+        "node-red",
+        "map",
+        "world",
+        "tak"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-web-worldmap"
+    },
+    {
+      "id": "@mschaeffler/node-red-lora",
+      "version": "3.1.0",
+      "description": "Five nodes to send and receive LoRaWan messages via a gateway via the Semtech UDP protocol.",
+      "updated_at": "2023-08-26T13:57:22.593Z",
+      "types": [
+        "lorawan-server",
+        "lorawan-keys",
+        "lorawan-packet-decoder",
+        "lorawan-packet-encoder",
+        "lorawan-packet-checkFC",
+        "lorawan-queue-message"
+      ],
+      "keywords": [
+        "node-red",
+        "lora",
+        "LoRaWan"
+      ],
+      "url": "https://flows.nodered.org/node/@mschaeffler/node-red-lora"
+    },
+    {
+      "id": "@programie/node-red-aircon-rac-wf",
+      "version": "1.1.0",
+      "description": "Node-RED nodes for interacting with Mitsubishi Aircon RAC-WF WiFi modules",
+      "updated_at": "2023-08-25T21:43:55.654Z",
+      "types": [
+        "mitsubishi-aircon-getstat",
+        "mitsubishi-aircon-setstat"
+      ],
+      "keywords": [
+        "node-red",
+        "mitsubishi aircon",
+        "rac-wf"
+      ],
+      "url": "https://flows.nodered.org/node/@programie/node-red-aircon-rac-wf"
+    },
+    {
+      "id": "node-red-contrib-aula-education",
+      "version": "0.4.0",
+      "description": "A Node-Red Node for collecting data from aula the danish educational platform.",
+      "updated_at": "2023-08-25T19:45:49.816Z",
+      "types": [
+        "aulaNode-config",
+        "aulaNode"
+      ],
+      "keywords": [
+        "node-red",
+        "aula",
+        "education"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-aula-education"
+    },
     {
       "id": "@tq-bit/node-red-contrib-trace-messages",
       "version": "1.2.1",
@@ -18,26 +90,6 @@
         "compare"
       ],
       "url": "https://flows.nodered.org/node/@tq-bit/node-red-contrib-trace-messages"
-    },
-    {
-      "id": "node-red-contrib-web-worldmap",
-      "version": "2.42.1",
-      "description": "A Node-RED node to provide a web page of a world map for plotting things on.",
-      "updated_at": "2023-08-25T13:35:01.390Z",
-      "types": [
-        "worldmap",
-        "ui_worldmap",
-        "worldmap in",
-        "worldmap-tracks",
-        "worldmap-hull"
-      ],
-      "keywords": [
-        "node-red",
-        "map",
-        "world",
-        "tak"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-web-worldmap"
     },
     {
       "id": "node-red-contrib-tts-ultimate",
@@ -132,6 +184,23 @@
       "url": "https://flows.nodered.org/node/node-red-contrib-myhome-bticino-v2"
     },
     {
+      "id": "@racksync/node-red-contrib-low-pass-filter",
+      "version": "0.0.4",
+      "description": "Manipulate data from noise and handle payload as stable as you can with low pass filter.",
+      "updated_at": "2023-08-25T06:54:55.946Z",
+      "types": [],
+      "keywords": [
+        "node-red",
+        "Home Assistant",
+        "HASS",
+        "RACKSYNC",
+        "Noise",
+        "Low Pass",
+        "Filter"
+      ],
+      "url": "https://flows.nodered.org/node/@racksync/node-red-contrib-low-pass-filter"
+    },
+    {
       "id": "node-red-contrib-alice",
       "version": "2.0.6",
       "description": "**NodeRed Home** (node-red-contrib-alice) - это сервис позволит, в несколько простых шагов, подключить любые ваши устройства заведенные в Node-RED к умному дому от Яндекса и управлять ими с помощью голосового помощника Алиса.",
@@ -156,22 +225,6 @@
         "алиса"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-alice"
-    },
-    {
-      "id": "node-red-contrib-aula-education",
-      "version": "0.3.1",
-      "description": "A Node-Red Node for collecting data from aula the danish educational platform.",
-      "updated_at": "2023-08-24T20:58:06.851Z",
-      "types": [
-        "aulaNode-config",
-        "aulaNode"
-      ],
-      "keywords": [
-        "node-red",
-        "aula",
-        "education"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-aula-education"
     },
     {
       "id": "@gregoriusrippenstein/node-red-contrib-flowhub",
@@ -816,23 +869,6 @@
         "Ubiquiti Networks"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-unifi"
-    },
-    {
-      "id": "@racksync/node-red-contrib-low-pass-filter",
-      "version": "0.0.3",
-      "description": "Manipulate data from noise and handle payload as stable as you can with low pass filter.",
-      "updated_at": "2023-08-17T12:32:05.541Z",
-      "types": [],
-      "keywords": [
-        "node-red",
-        "Home Assistant",
-        "HASS",
-        "RACKSYNC",
-        "Noise",
-        "Low Pass",
-        "Filter"
-      ],
-      "url": "https://flows.nodered.org/node/@racksync/node-red-contrib-low-pass-filter"
     },
     {
       "id": "@martijndierckx/node-red-contrib-gardena-smart-mower",
@@ -3768,22 +3804,6 @@
         "mongodb"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-mongodb4"
-    },
-    {
-      "id": "@programie/node-red-aircon-rac-wf",
-      "version": "1.0.3",
-      "description": "Node-RED nodes for interacting with Mitsubishi Aircon RAC-WF WiFi modules",
-      "updated_at": "2023-07-12T18:58:37.128Z",
-      "types": [
-        "mitsubishi-aircon-getstat",
-        "mitsubishi-aircon-setstat"
-      ],
-      "keywords": [
-        "node-red",
-        "mitsubishi aircon",
-        "rac-wf"
-      ],
-      "url": "https://flows.nodered.org/node/@programie/node-red-aircon-rac-wf"
     },
     {
       "id": "@victronenergy/node-red-contrib-victron",
@@ -12494,26 +12514,6 @@
         "random user"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-createrandom"
-    },
-    {
-      "id": "@mschaeffler/node-red-lora",
-      "version": "3.0.1",
-      "description": "Five nodes to send and receive LoRaWan messages via a gateway via the Semtech UDP protocol.",
-      "updated_at": "2023-02-11T16:01:01.026Z",
-      "types": [
-        "lorawan-server",
-        "lorawan-keys",
-        "lorawan-packet-decoder",
-        "lorawan-packet-encoder",
-        "lorawan-packet-checkFC",
-        "lorawan-queue-message"
-      ],
-      "keywords": [
-        "node-red",
-        "lora",
-        "LoRaWan"
-      ],
-      "url": "https://flows.nodered.org/node/@mschaeffler/node-red-lora"
     },
     {
       "id": "node-red-contrib-tado-client",
