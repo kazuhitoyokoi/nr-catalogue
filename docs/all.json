@@ -1,7 +1,79 @@
 {
   "name": "Catalogue for verified nodes",
-  "updated_at": "2023-08-26T19:14:23.170Z",
+  "updated_at": "2023-08-27T20:04:20.736Z",
   "modules": [
+    {
+      "id": "@node-red-matter/node-red-matter",
+      "version": "0.1.1",
+      "description": "The Node-RED Matter plugin is an open-source project that enables the generation of Matter devices within Node-RED. Matter devices created using this plugin can be seamlessly integrated into popular smart home controllers such as Apple Home, Google Home, ",
+      "updated_at": "2023-08-27T14:24:49.860Z",
+      "types": [],
+      "keywords": [
+        "node-red",
+        "matter"
+      ],
+      "url": "https://flows.nodered.org/node/@node-red-matter/node-red-matter"
+    },
+    {
+      "id": "node-red-contrib-ais-decoder",
+      "version": "1.2.3",
+      "description": "Decodes AIS messages from an AIS receiver such as rtl-ais.",
+      "updated_at": "2023-08-27T14:14:15.015Z",
+      "types": [
+        "ais-decoder"
+      ],
+      "keywords": [
+        "AIS",
+        "node-red"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-ais-decoder"
+    },
+    {
+      "id": "node-red-contrib-opcua",
+      "version": "0.2.313",
+      "description": "A Node-RED node to communicate via OPC UA based on node-opcua library.",
+      "updated_at": "2023-08-27T08:22:55.428Z",
+      "types": [
+        "OpcUa-Item",
+        "OpcUa-Client",
+        "OpcUa-Browser",
+        "OpcUa-Server",
+        "OpcUa-Endpoint",
+        "OpcUa-Event",
+        "OpcUa-Method",
+        "OpcUa-Rights",
+        "OpcUa-Discovery"
+      ],
+      "keywords": [
+        "node-red",
+        "OPC UA",
+        "opc-ua",
+        "unified automation",
+        "opc foundation",
+        "node-opcua"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-opcua"
+    },
+    {
+      "id": "node-red-contrib-web-worldmap",
+      "version": "2.42.2",
+      "description": "A Node-RED node to provide a web page of a world map for plotting things on.",
+      "updated_at": "2023-08-26T17:01:40.334Z",
+      "types": [
+        "worldmap",
+        "ui_worldmap",
+        "worldmap in",
+        "worldmap-tracks",
+        "worldmap-hull"
+      ],
+      "keywords": [
+        "node-red",
+        "map",
+        "world",
+        "tak"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-web-worldmap"
+    },
     {
       "id": "@mschaeffler/node-red-lora",
       "version": "3.1.0",
@@ -70,26 +142,6 @@
         "compare"
       ],
       "url": "https://flows.nodered.org/node/@tq-bit/node-red-contrib-trace-messages"
-    },
-    {
-      "id": "node-red-contrib-web-worldmap",
-      "version": "2.42.1",
-      "description": "A Node-RED node to provide a web page of a world map for plotting things on.",
-      "updated_at": "2023-08-25T13:35:01.390Z",
-      "types": [
-        "worldmap",
-        "ui_worldmap",
-        "worldmap in",
-        "worldmap-tracks",
-        "worldmap-hull"
-      ],
-      "keywords": [
-        "node-red",
-        "map",
-        "world",
-        "tak"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-web-worldmap"
     },
     {
       "id": "node-red-contrib-tts-ultimate",
@@ -182,6 +234,23 @@
         "SCS"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-myhome-bticino-v2"
+    },
+    {
+      "id": "@racksync/node-red-contrib-low-pass-filter",
+      "version": "0.0.4",
+      "description": "Manipulate data from noise and handle payload as stable as you can with low pass filter.",
+      "updated_at": "2023-08-25T06:54:55.946Z",
+      "types": [],
+      "keywords": [
+        "node-red",
+        "Home Assistant",
+        "HASS",
+        "RACKSYNC",
+        "Noise",
+        "Low Pass",
+        "Filter"
+      ],
+      "url": "https://flows.nodered.org/node/@racksync/node-red-contrib-low-pass-filter"
     },
     {
       "id": "node-red-contrib-alice",
@@ -790,32 +859,6 @@
       "url": "https://flows.nodered.org/node/node-red-contrib-knx-ultimate"
     },
     {
-      "id": "node-red-contrib-opcua",
-      "version": "0.2.312",
-      "description": "A Node-RED node to communicate via OPC UA based on node-opcua library.",
-      "updated_at": "2023-08-18T10:47:03.773Z",
-      "types": [
-        "OpcUa-Item",
-        "OpcUa-Client",
-        "OpcUa-Browser",
-        "OpcUa-Server",
-        "OpcUa-Endpoint",
-        "OpcUa-Event",
-        "OpcUa-Method",
-        "OpcUa-Rights",
-        "OpcUa-Discovery"
-      ],
-      "keywords": [
-        "node-red",
-        "OPC UA",
-        "opc-ua",
-        "unified automation",
-        "opc foundation",
-        "node-opcua"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-opcua"
-    },
-    {
       "id": "node-red-contrib-unifi",
       "version": "0.3.5",
       "description": "Node for Node-RED to connect to a UniFi Controller ",
@@ -832,23 +875,6 @@
         "Ubiquiti Networks"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-unifi"
-    },
-    {
-      "id": "@racksync/node-red-contrib-low-pass-filter",
-      "version": "0.0.3",
-      "description": "Manipulate data from noise and handle payload as stable as you can with low pass filter.",
-      "updated_at": "2023-08-17T12:32:05.541Z",
-      "types": [],
-      "keywords": [
-        "node-red",
-        "Home Assistant",
-        "HASS",
-        "RACKSYNC",
-        "Noise",
-        "Low Pass",
-        "Filter"
-      ],
-      "url": "https://flows.nodered.org/node/@racksync/node-red-contrib-low-pass-filter"
     },
     {
       "id": "@martijndierckx/node-red-contrib-gardena-smart-mower",
@@ -32905,20 +32931,6 @@
         "no-code"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-xrpl"
-    },
-    {
-      "id": "node-red-contrib-ais-decoder",
-      "version": "1.2.1",
-      "description": "Decodes AIS messages from an AIS receiver such as rtl-ais.",
-      "updated_at": "2021-08-11T16:11:55.260Z",
-      "types": [
-        "ais-decoder"
-      ],
-      "keywords": [
-        "AIS",
-        "node-red"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-ais-decoder"
     },
     {
       "id": "node-red-contrib-ha-auto",
