@@ -1,18 +1,181 @@
 {
   "name": "Catalogue for macOS",
-  "updated_at": "2023-08-27T20:04:02.834Z",
+  "updated_at": "2023-08-28T20:29:59.295Z",
   "modules": [
     {
+      "id": "@edgepi-cloud/node-red-edgepi-relay",
+      "version": "1.0.0",
+      "description": "node-red node for edgepi relay module utilizing remote procedure calls",
+      "updated_at": "2023-08-28T16:25:56.030Z",
+      "types": [
+        "edgepi-relay-node"
+      ],
+      "keywords": [
+        "node-red",
+        "edgepi",
+        "rpc"
+      ],
+      "url": "https://flows.nodered.org/node/@edgepi-cloud/node-red-edgepi-relay"
+    },
+    {
+      "id": "@jambonz/node-red-contrib-jambonz",
+      "version": "2.4.14",
+      "description": "Node-RED nodes for jambonz platform",
+      "updated_at": "2023-08-28T13:54:40.007Z",
+      "types": [
+        "webhook in",
+        "webhook out",
+        "audio in",
+        "jambonz_auth",
+        "aws_auth",
+        "enqueue",
+        "lex",
+        "say",
+        "dtmf",
+        "cfg",
+        "conference",
+        "gather",
+        "listen",
+        "sip:decline",
+        "sip:request",
+        "sip:refer",
+        "hangup",
+        "message",
+        "tag",
+        "pause",
+        "dequeue",
+        "play",
+        "dial",
+        "redirect",
+        "dialogflow",
+        "leave",
+        "rasa",
+        "user auth",
+        "create-call",
+        "create-sms",
+        "lcc",
+        "get_alerts",
+        "get_call",
+        "get_calls",
+        "get_recent_calls"
+      ],
+      "keywords": [
+        "node-red"
+      ],
+      "url": "https://flows.nodered.org/node/@jambonz/node-red-contrib-jambonz"
+    },
+    {
       "id": "@node-red-matter/node-red-matter",
-      "version": "0.1.1",
+      "version": "0.1.7",
       "description": "The Node-RED Matter plugin is an open-source project that enables the generation of Matter devices within Node-RED. Matter devices created using this plugin can be seamlessly integrated into popular smart home controllers such as Apple Home, Google Home, ",
-      "updated_at": "2023-08-27T14:24:49.860Z",
+      "updated_at": "2023-08-28T13:54:00.727Z",
       "types": [],
       "keywords": [
         "node-red",
         "matter"
       ],
       "url": "https://flows.nodered.org/node/@node-red-matter/node-red-matter"
+    },
+    {
+      "id": "@ifp-software/node-red-contrib-oee-ai-connector",
+      "version": "2.7.0",
+      "description": "Easily connect your production machines to oee.ai – The Industry 4.0 solution for OEE optimization.",
+      "updated_at": "2023-08-28T08:11:23.494Z",
+      "types": [],
+      "keywords": [
+        "industrial",
+        "industry 4.0",
+        "iot",
+        "node-red",
+        "oee",
+        "oee.ai",
+        "sick",
+        "smart-factory",
+        "tdc"
+      ],
+      "url": "https://flows.nodered.org/node/@ifp-software/node-red-contrib-oee-ai-connector"
+    },
+    {
+      "id": "@victronenergy/node-red-contrib-victron",
+      "version": "1.5.0",
+      "description": "Custom Node-RED Nodes for Victron Energy",
+      "updated_at": "2023-08-28T07:34:41.290Z",
+      "types": [
+        "victron-client"
+      ],
+      "keywords": [
+        "node-red"
+      ],
+      "url": "https://flows.nodered.org/node/@victronenergy/node-red-contrib-victron"
+    },
+    {
+      "id": "node-red-contrib-knx-ultimate",
+      "version": "2.1.44",
+      "description": "Control your KNX intallation via Node-Red! Single Node KNX IN/OUT with optional ETS group address importer. Easy to use and highly configurable. With integrated Philips HUE devices handling.",
+      "updated_at": "2023-08-28T07:13:39.624Z",
+      "types": [
+        "knxUltimate",
+        "knxUltimateSceneController",
+        "knxUltimateWatchDog",
+        "knxUltimateLogger",
+        "knxUltimate-config",
+        "knxUltimateGlobalContext",
+        "knxUltimateAlerter",
+        "knxUltimateLoadControl",
+        "knxUltimateViewer",
+        "hue-config",
+        "knxUltimateHueLight",
+        "knxUltimateHueButton",
+        "knxUltimateHueMotion",
+        "knxUltimateHueTapDial",
+        "knxUltimateHueLightSensor",
+        "knxUltimateHueTemperatureSensor",
+        "knxUltimateHueScene",
+        "knxUltimateHueBattery"
+      ],
+      "keywords": [
+        "node-red",
+        "KNX",
+        "ETS",
+        "eib",
+        "eibd",
+        "knxd",
+        "konnex",
+        "IOT",
+        "hue"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-knx-ultimate"
+    },
+    {
+      "id": "node-red-contrib-random-generator",
+      "version": "0.0.2",
+      "description": "A Node-RED Project",
+      "updated_at": "2023-08-27T20:57:19.594Z",
+      "types": [
+        "Random"
+      ],
+      "keywords": [
+        "node-red",
+        "Random",
+        "generator"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-random-generator"
+    },
+    {
+      "id": "node-red-contrib-custom-mdash-ws",
+      "version": "0.8.1",
+      "description": "Custom Websocket for mDash",
+      "updated_at": "2023-08-27T20:11:46.912Z",
+      "types": [
+        "custom-websocket-acknowledge",
+        "custom-websocket-subscriber"
+      ],
+      "keywords": [
+        "node-red",
+        "websocket",
+        "mdash"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-custom-mdash-ws"
     },
     {
       "id": "node-red-contrib-ais-decoder",
@@ -365,53 +528,6 @@
         "enterprise"
       ],
       "url": "https://flows.nodered.org/node/@ncd-io/node-red-enterprise-sensors"
-    },
-    {
-      "id": "@jambonz/node-red-contrib-jambonz",
-      "version": "2.4.13",
-      "description": "Node-RED nodes for jambonz platform",
-      "updated_at": "2023-08-23T14:53:42.415Z",
-      "types": [
-        "webhook in",
-        "webhook out",
-        "audio in",
-        "jambonz_auth",
-        "aws_auth",
-        "enqueue",
-        "lex",
-        "say",
-        "dtmf",
-        "cfg",
-        "conference",
-        "gather",
-        "listen",
-        "sip:decline",
-        "sip:request",
-        "sip:refer",
-        "hangup",
-        "message",
-        "tag",
-        "pause",
-        "dequeue",
-        "play",
-        "dial",
-        "redirect",
-        "dialogflow",
-        "leave",
-        "rasa",
-        "user auth",
-        "create-call",
-        "create-sms",
-        "lcc",
-        "get_alerts",
-        "get_call",
-        "get_calls",
-        "get_recent_calls"
-      ],
-      "keywords": [
-        "node-red"
-      ],
-      "url": "https://flows.nodered.org/node/@jambonz/node-red-contrib-jambonz"
     },
     {
       "id": "@logiccloud/node-red-runtime-configuration",
@@ -841,44 +957,6 @@
       "url": "https://flows.nodered.org/node/node-red-contrib-aprs"
     },
     {
-      "id": "node-red-contrib-knx-ultimate",
-      "version": "2.1.43",
-      "description": "Control your KNX intallation via Node-Red! Single Node KNX IN/OUT with optional ETS group address importer. Easy to use and highly configurable. With integrated Philips HUE devices handling.",
-      "updated_at": "2023-08-18T15:19:44.518Z",
-      "types": [
-        "knxUltimate",
-        "knxUltimateSceneController",
-        "knxUltimateWatchDog",
-        "knxUltimateLogger",
-        "knxUltimate-config",
-        "knxUltimateGlobalContext",
-        "knxUltimateAlerter",
-        "knxUltimateLoadControl",
-        "knxUltimateViewer",
-        "hue-config",
-        "knxUltimateHueLight",
-        "knxUltimateHueButton",
-        "knxUltimateHueMotion",
-        "knxUltimateHueTapDial",
-        "knxUltimateHueLightSensor",
-        "knxUltimateHueTemperatureSensor",
-        "knxUltimateHueScene",
-        "knxUltimateHueBattery"
-      ],
-      "keywords": [
-        "node-red",
-        "KNX",
-        "ETS",
-        "eib",
-        "eibd",
-        "knxd",
-        "konnex",
-        "IOT",
-        "hue"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-knx-ultimate"
-    },
-    {
       "id": "node-red-contrib-unifi",
       "version": "0.3.5",
       "description": "Node for Node-RED to connect to a UniFi Controller ",
@@ -940,25 +1018,6 @@
         "node-red"
       ],
       "url": "https://flows.nodered.org/node/@flowforge/node-red-dashboard"
-    },
-    {
-      "id": "@ifp-software/node-red-contrib-oee-ai-connector",
-      "version": "2.6.7",
-      "description": "Easily connect your production machines to oee.ai – The Industry 4.0 solution for OEE optimization.",
-      "updated_at": "2023-08-16T09:57:04.823Z",
-      "types": [],
-      "keywords": [
-        "industrial",
-        "industry 4.0",
-        "iot",
-        "node-red",
-        "oee",
-        "oee.ai",
-        "sick",
-        "smart-factory",
-        "tdc"
-      ],
-      "url": "https://flows.nodered.org/node/@ifp-software/node-red-contrib-oee-ai-connector"
     },
     {
       "id": "six_hash",
@@ -3830,19 +3889,6 @@
         "mongodb"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-mongodb4"
-    },
-    {
-      "id": "@victronenergy/node-red-contrib-victron",
-      "version": "1.4.33",
-      "description": "Custom Node-RED Nodes for Victron Energy",
-      "updated_at": "2023-07-12T11:44:26.579Z",
-      "types": [
-        "victron-client"
-      ],
-      "keywords": [
-        "node-red"
-      ],
-      "url": "https://flows.nodered.org/node/@victronenergy/node-red-contrib-victron"
     },
     {
       "id": "node-red-contrib-persistent-global-context",
