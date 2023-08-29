@@ -1,7 +1,247 @@
 {
   "name": "Catalogue for Windows",
-  "updated_at": "2023-08-28T18:34:56.163Z",
+  "updated_at": "2023-08-29T19:16:11.866Z",
   "modules": [
+    {
+      "id": "node-red-contrib-slack-ubos",
+      "version": "0.0.1",
+      "description": "A node-red module to interact with the Slack API",
+      "updated_at": "2023-08-29T14:22:13.717Z",
+      "types": [
+        "slack-config",
+        "slack-state",
+        "slack-rtm-in",
+        "slack-rtm-out",
+        "slack-web-out"
+      ],
+      "keywords": [
+        "node-red",
+        "slack",
+        "post",
+        "api",
+        "rtm"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-slack-ubos"
+    },
+    {
+      "id": "@node-red-matter/node-red-matter",
+      "version": "0.2.1",
+      "description": "The Node-RED Matter plugin is an open-source project that enables the generation of Matter devices within Node-RED. Matter devices created using this plugin can be seamlessly integrated into popular smart home controllers such as Apple Home, Google Home, ",
+      "updated_at": "2023-08-29T12:23:58.688Z",
+      "types": [],
+      "keywords": [
+        "node-red",
+        "matter"
+      ],
+      "url": "https://flows.nodered.org/node/@node-red-matter/node-red-matter"
+    },
+    {
+      "id": "node-red-contrib-ais-decoder",
+      "version": "1.2.4",
+      "description": "Decodes AIS messages from an AIS receiver such as rtl-ais.",
+      "updated_at": "2023-08-29T11:06:51.126Z",
+      "types": [
+        "ais-decoder"
+      ],
+      "keywords": [
+        "AIS",
+        "node-red"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-ais-decoder"
+    },
+    {
+      "id": "node-red-contrib-debounce-advanced",
+      "version": "0.0.6",
+      "description": "A debounce node for node-red, with support for leading/trailing, and with support of time units.",
+      "updated_at": "2023-08-29T10:33:23.171Z",
+      "types": [
+        "debounce-advanced"
+      ],
+      "keywords": [
+        "node-red",
+        "debounce",
+        "leading",
+        "trailing"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-debounce-advanced"
+    },
+    {
+      "id": "node-red-contrib-knx-ultimate",
+      "version": "2.1.45",
+      "description": "Control your KNX intallation via Node-Red! Single Node KNX IN/OUT with optional ETS group address importer. Easy to use and highly configurable. With integrated Philips HUE devices handling.",
+      "updated_at": "2023-08-29T09:46:37.168Z",
+      "types": [
+        "knxUltimate",
+        "knxUltimateSceneController",
+        "knxUltimateWatchDog",
+        "knxUltimateLogger",
+        "knxUltimate-config",
+        "knxUltimateGlobalContext",
+        "knxUltimateAlerter",
+        "knxUltimateLoadControl",
+        "knxUltimateViewer",
+        "hue-config",
+        "knxUltimateHueLight",
+        "knxUltimateHueButton",
+        "knxUltimateHueMotion",
+        "knxUltimateHueTapDial",
+        "knxUltimateHueLightSensor",
+        "knxUltimateHueTemperatureSensor",
+        "knxUltimateHueScene",
+        "knxUltimateHueBattery"
+      ],
+      "keywords": [
+        "node-red",
+        "KNX",
+        "ETS",
+        "eib",
+        "eibd",
+        "knxd",
+        "konnex",
+        "IOT",
+        "hue"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-knx-ultimate"
+    },
+    {
+      "id": "node-red-contrib-samsung-automation-studio-nodes",
+      "version": "1.1.17",
+      "description": "Samsung Automation Studio Nodes for Node-RED",
+      "updated_at": "2023-08-29T07:35:19.058Z",
+      "types": [
+        "device-profile",
+        "installed-device",
+        "automation",
+        "event-device",
+        "status-device",
+        "command-device",
+        "bixby in",
+        "bixby out",
+        "basic-auth",
+        "aws-config",
+        "aws-sdk",
+        "db-config",
+        "db-query",
+        "slack-notification",
+        "data-extractor",
+        "data-filter"
+      ],
+      "keywords": [
+        "SmartThings",
+        "Bixby",
+        "node-red",
+        "Samsung Automation Studio",
+        "AWS"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-samsung-automation-studio-nodes"
+    },
+    {
+      "id": "@crusaider/node-red-contrib-vattenfall-tariff",
+      "version": "1.0.0",
+      "description": "Node-RED node to apply the current electricity tariff from Vattenfall",
+      "updated_at": "2023-08-28T23:40:53.315Z",
+      "types": [
+        "vattenfall-tariff"
+      ],
+      "keywords": [
+        "node-red",
+        "vattenfall",
+        "tariff",
+        "power saver"
+      ],
+      "url": "https://flows.nodered.org/node/@crusaider/node-red-contrib-vattenfall-tariff"
+    },
+    {
+      "id": "@edgepi-cloud/node-red-edgepi-thermocouple",
+      "version": "1.0.3",
+      "description": "A node-red node for EdgePi thermocouple module",
+      "updated_at": "2023-08-28T22:43:32.447Z",
+      "types": [
+        "edgepi-thermocouple-node"
+      ],
+      "keywords": [
+        "edgepi",
+        "thermocouple",
+        "node-red"
+      ],
+      "url": "https://flows.nodered.org/node/@edgepi-cloud/node-red-edgepi-thermocouple"
+    },
+    {
+      "id": "@edgepi-cloud/node-red-edgepi-digital-input",
+      "version": "1.0.0",
+      "description": "node-red node for edgepi digital-input module utilizing remote procedure calls",
+      "updated_at": "2023-08-28T20:16:10.601Z",
+      "types": [
+        "edgepi-digital-input-node"
+      ],
+      "keywords": [
+        "node-red",
+        "edgepi",
+        "rpc"
+      ],
+      "url": "https://flows.nodered.org/node/@edgepi-cloud/node-red-edgepi-digital-input"
+    },
+    {
+      "id": "@siglesiasg/node-red-hyperledger-fabric-gateway",
+      "version": "1.0.1",
+      "description": "Hyperledger Fabric 2.x nodes for node-red with latest fabric-gateway library",
+      "updated_at": "2023-08-28T19:52:42.717Z",
+      "types": [
+        "fabric-channel",
+        "fabric-contract",
+        "fabric-mspid",
+        "fabric-identity",
+        "fabric-gateway",
+        "fabric-peer",
+        "fabric-block-listener",
+        "fabric-block-listener-commit",
+        "fabric-cc-generic",
+        "fabric-cc-evaluate",
+        "fabric-cc-submit",
+        "fabric-block-info",
+        "fabric-channel-info"
+      ],
+      "keywords": [
+        "node-red",
+        "fabric",
+        "blockchain",
+        "hyperledger",
+        "gateway",
+        "fabric-gateway"
+      ],
+      "url": "https://flows.nodered.org/node/@siglesiasg/node-red-hyperledger-fabric-gateway"
+    },
+    {
+      "id": "node-red-contrib-aula-education",
+      "version": "0.4.1",
+      "description": "A Node-Red Node for collecting data from aula the danish educational platform.",
+      "updated_at": "2023-08-28T18:13:45.562Z",
+      "types": [
+        "aulaNode-config",
+        "aulaNode"
+      ],
+      "keywords": [
+        "node-red",
+        "aula",
+        "education"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-aula-education"
+    },
+    {
+      "id": "@edgepi-cloud/node-red-edgepi-relay",
+      "version": "1.0.0",
+      "description": "node-red node for edgepi relay module utilizing remote procedure calls",
+      "updated_at": "2023-08-28T16:25:56.030Z",
+      "types": [
+        "edgepi-relay-node"
+      ],
+      "keywords": [
+        "node-red",
+        "edgepi",
+        "rpc"
+      ],
+      "url": "https://flows.nodered.org/node/@edgepi-cloud/node-red-edgepi-relay"
+    },
     {
       "id": "@jambonz/node-red-contrib-jambonz",
       "version": "2.4.14",
@@ -50,18 +290,6 @@
       "url": "https://flows.nodered.org/node/@jambonz/node-red-contrib-jambonz"
     },
     {
-      "id": "@node-red-matter/node-red-matter",
-      "version": "0.1.5",
-      "description": "The Node-RED Matter plugin is an open-source project that enables the generation of Matter devices within Node-RED. Matter devices created using this plugin can be seamlessly integrated into popular smart home controllers such as Apple Home, Google Home, ",
-      "updated_at": "2023-08-28T12:31:06.901Z",
-      "types": [],
-      "keywords": [
-        "node-red",
-        "matter"
-      ],
-      "url": "https://flows.nodered.org/node/@node-red-matter/node-red-matter"
-    },
-    {
       "id": "@ifp-software/node-red-contrib-oee-ai-connector",
       "version": "2.7.0",
       "description": "Easily connect your production machines to oee.ai – The Industry 4.0 solution for OEE optimization.",
@@ -92,44 +320,6 @@
         "node-red"
       ],
       "url": "https://flows.nodered.org/node/@victronenergy/node-red-contrib-victron"
-    },
-    {
-      "id": "node-red-contrib-knx-ultimate",
-      "version": "2.1.44",
-      "description": "Control your KNX intallation via Node-Red! Single Node KNX IN/OUT with optional ETS group address importer. Easy to use and highly configurable. With integrated Philips HUE devices handling.",
-      "updated_at": "2023-08-28T07:13:39.624Z",
-      "types": [
-        "knxUltimate",
-        "knxUltimateSceneController",
-        "knxUltimateWatchDog",
-        "knxUltimateLogger",
-        "knxUltimate-config",
-        "knxUltimateGlobalContext",
-        "knxUltimateAlerter",
-        "knxUltimateLoadControl",
-        "knxUltimateViewer",
-        "hue-config",
-        "knxUltimateHueLight",
-        "knxUltimateHueButton",
-        "knxUltimateHueMotion",
-        "knxUltimateHueTapDial",
-        "knxUltimateHueLightSensor",
-        "knxUltimateHueTemperatureSensor",
-        "knxUltimateHueScene",
-        "knxUltimateHueBattery"
-      ],
-      "keywords": [
-        "node-red",
-        "KNX",
-        "ETS",
-        "eib",
-        "eibd",
-        "knxd",
-        "konnex",
-        "IOT",
-        "hue"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-knx-ultimate"
     },
     {
       "id": "node-red-contrib-random-generator",
@@ -163,18 +353,20 @@
       "url": "https://flows.nodered.org/node/node-red-contrib-custom-mdash-ws"
     },
     {
-      "id": "node-red-contrib-ais-decoder",
-      "version": "1.2.3",
-      "description": "Decodes AIS messages from an AIS receiver such as rtl-ais.",
-      "updated_at": "2023-08-27T14:14:15.015Z",
+      "id": "node-red-contrib-mongodb4",
+      "version": "2.3.0",
+      "description": "A MongoDB node for Node-Red without limitations.",
+      "updated_at": "2023-08-27T12:09:16.841Z",
       "types": [
-        "ais-decoder"
+        "mongodb4-client",
+        "mongodb4"
       ],
       "keywords": [
-        "AIS",
-        "node-red"
+        "node-red",
+        "nodes",
+        "mongodb"
       ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-ais-decoder"
+      "url": "https://flows.nodered.org/node/node-red-contrib-mongodb4"
     },
     {
       "id": "node-red-contrib-opcua",
@@ -257,22 +449,6 @@
         "rac-wf"
       ],
       "url": "https://flows.nodered.org/node/@programie/node-red-aircon-rac-wf"
-    },
-    {
-      "id": "node-red-contrib-aula-education",
-      "version": "0.4.0",
-      "description": "A Node-Red Node for collecting data from aula the danish educational platform.",
-      "updated_at": "2023-08-25T19:45:49.816Z",
-      "types": [
-        "aulaNode-config",
-        "aulaNode"
-      ],
-      "keywords": [
-        "node-red",
-        "aula",
-        "education"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-aula-education"
     },
     {
       "id": "@tq-bit/node-red-contrib-trace-messages",
@@ -495,6 +671,26 @@
       "url": "https://flows.nodered.org/node/node-red-contrib-life360"
     },
     {
+      "id": "@ncd-io/node-red-enterprise-sensors",
+      "version": "0.1.9",
+      "description": "You can install this library through the Palette Manager in Node-Red's UI.",
+      "updated_at": "2023-08-23T14:59:35.764Z",
+      "types": [
+        "ncd-gateway-node",
+        "ncd-wireless-node",
+        "ncd-gateway-config"
+      ],
+      "keywords": [
+        "Wireless",
+        "NCD",
+        "Sensors",
+        "Digi",
+        "node-red",
+        "enterprise"
+      ],
+      "url": "https://flows.nodered.org/node/@ncd-io/node-red-enterprise-sensors"
+    },
+    {
       "id": "@logiccloud/node-red-runtime-configuration",
       "version": "1.2.7",
       "description": "Configuration node for runtime connection.",
@@ -640,6 +836,20 @@
         "node-red"
       ],
       "url": "https://flows.nodered.org/node/@envidatec/node-red-contrib-logger"
+    },
+    {
+      "id": "@sinch/node-red-mailgun",
+      "version": "1.0.1",
+      "description": "Package of Mailgun nodes for Node-RED",
+      "updated_at": "2023-08-22T08:22:06.338Z",
+      "types": [
+        "sinch-send-email",
+        "sinch-received-email"
+      ],
+      "keywords": [
+        "node-red"
+      ],
+      "url": "https://flows.nodered.org/node/@sinch/node-red-mailgun"
     },
     {
       "id": "@sinch/node-red-voice-api",
@@ -997,21 +1207,6 @@
         "node-red"
       ],
       "url": "https://flows.nodered.org/node/six_hash"
-    },
-    {
-      "id": "@edgepi-cloud/node-red-edgepi-thermocouple",
-      "version": "1.0.2",
-      "description": "A node-red node for EdgePi thermocouple module",
-      "updated_at": "2023-08-15T18:40:33.163Z",
-      "types": [
-        "edgepi-thermocouple-node"
-      ],
-      "keywords": [
-        "edgepi",
-        "thermocouple",
-        "node-red"
-      ],
-      "url": "https://flows.nodered.org/node/@edgepi-cloud/node-red-edgepi-thermocouple"
     },
     {
       "id": "@edgepi-cloud/node-red-edgepi-digital-out",
@@ -3414,6 +3609,28 @@
       "url": "https://flows.nodered.org/node/@envidatec/interval"
     },
     {
+      "id": "node-red-contrib-mobius-flow-thingsboard",
+      "version": "2.3.0",
+      "description": "Node-RED nodes to work with MOBiUSFlow and ThingsBoard.io",
+      "updated_at": "2023-07-18T10:21:06.276Z",
+      "types": [
+        "mobius thingsboard connection",
+        "mobius thingsboard manager",
+        "mobius thingsboard device publish",
+        "mobius thingsboard attribute subscribe",
+        "mobius thingsboard connection v2",
+        "mobius thingsboard provision",
+        "mobius thingsboard publish",
+        "mobius thingsboard subscribe"
+      ],
+      "keywords": [
+        "mobiusflow",
+        "node-red",
+        "thingsboard"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-mobius-flow-thingsboard"
+    },
+    {
       "id": "@spectraautomation/node-red-urbancontroller-dio",
       "version": "1.3.1",
       "description": "Node-RED module for controlling the digital input / output port of the Urban Controller by Spectra GmbH & Co. KG",
@@ -3572,36 +3789,6 @@
         "node-red"
       ],
       "url": "https://flows.nodered.org/node/node-red-temp"
-    },
-    {
-      "id": "node-red-contrib-samsung-automation-studio-nodes",
-      "version": "1.1.16",
-      "description": "Samsung Automation Studio Nodes for Node-RED",
-      "updated_at": "2023-07-17T02:07:12.812Z",
-      "types": [
-        "device-profile",
-        "installed-device",
-        "automation",
-        "event-device",
-        "status-device",
-        "command-device",
-        "bixby in",
-        "bixby out",
-        "basic-auth",
-        "aws-config",
-        "aws-sdk",
-        "db-config",
-        "db-query",
-        "slack-notification"
-      ],
-      "keywords": [
-        "SmartThings",
-        "Bixby",
-        "node-red",
-        "Samsung Automation Studio",
-        "AWS"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-samsung-automation-studio-nodes"
     },
     {
       "id": "node-red-contrib-teachable-machine-cloudonly",
@@ -3777,22 +3964,6 @@
         "Camera"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-axis-com"
-    },
-    {
-      "id": "node-red-contrib-mongodb4",
-      "version": "2.2.2",
-      "description": "A MongoDB node for Node-Red without limitations.",
-      "updated_at": "2023-07-12T20:56:21.818Z",
-      "types": [
-        "mongodb4-client",
-        "mongodb4"
-      ],
-      "keywords": [
-        "node-red",
-        "nodes",
-        "mongodb"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-mongodb4"
     },
     {
       "id": "node-red-contrib-persistent-global-context",
@@ -17274,28 +17445,6 @@
         "Heroku"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-c1-salesforce3"
-    },
-    {
-      "id": "node-red-contrib-mobius-flow-thingsboard",
-      "version": "2.1.5",
-      "description": "Node-RED nodes to work with MOBiUSFlow and ThingsBoard.io",
-      "updated_at": "2022-10-27T17:55:27.104Z",
-      "types": [
-        "mobius thingsboard connection",
-        "mobius thingsboard manager",
-        "mobius thingsboard device publish",
-        "mobius thingsboard attribute subscribe",
-        "mobius thingsboard connection v2",
-        "mobius thingsboard provision",
-        "mobius thingsboard publish",
-        "mobius thingsboard subscribe"
-      ],
-      "keywords": [
-        "mobiusflow",
-        "node-red",
-        "thingsboard"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-mobius-flow-thingsboard"
     },
     {
       "id": "node-red-contrib-evohome",
