@@ -1,7 +1,149 @@
 {
   "name": "Catalogue for Docker",
-  "updated_at": "2023-08-29T16:04:50.464Z",
+  "updated_at": "2023-08-30T16:21:23.143Z",
   "modules": [
+    {
+      "id": "node-red-contrib-teachable-machine",
+      "version": "1.4.1",
+      "description": "Simplifies integration with Teachable Machine models from Google",
+      "updated_at": "2023-08-30T14:06:01.968Z",
+      "types": [
+        "teachable machine"
+      ],
+      "keywords": [
+        "node-red",
+        "tensorflow",
+        "tensorflowjs",
+        "classification",
+        "teachable machine",
+        "google"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-teachable-machine"
+    },
+    {
+      "id": "@ifp-software/node-red-contrib-oee-ai-connector",
+      "version": "2.7.1",
+      "description": "Easily connect your production machines to oee.ai – The Industry 4.0 solution for OEE optimization.",
+      "updated_at": "2023-08-30T13:47:36.380Z",
+      "types": [],
+      "keywords": [
+        "industrial",
+        "industry 4.0",
+        "iot",
+        "node-red",
+        "oee",
+        "oee.ai",
+        "sick",
+        "smart-factory",
+        "tdc"
+      ],
+      "url": "https://flows.nodered.org/node/@ifp-software/node-red-contrib-oee-ai-connector"
+    },
+    {
+      "id": "@node-red-matter/node-red-matter",
+      "version": "0.2.5",
+      "description": "The Node-RED Matter plugin is an open-source project that enables the generation of Matter devices within Node-RED. Matter devices created using this plugin can be seamlessly integrated into popular smart home controllers such as Apple Home, Google Home, ",
+      "updated_at": "2023-08-30T11:32:33.287Z",
+      "types": [],
+      "keywords": [
+        "node-red",
+        "matter"
+      ],
+      "url": "https://flows.nodered.org/node/@node-red-matter/node-red-matter"
+    },
+    {
+      "id": "node-red-contrib-aula-education",
+      "version": "0.4.2",
+      "description": "A Node-Red Node for collecting data from aula the danish educational platform.",
+      "updated_at": "2023-08-30T06:01:09.797Z",
+      "types": [
+        "aulaNode-config",
+        "aulaNode"
+      ],
+      "keywords": [
+        "node-red",
+        "aula",
+        "education"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-aula-education"
+    },
+    {
+      "id": "node-red-contrib-telegrambot",
+      "version": "15.1.6",
+      "description": "Telegram bot nodes for Node-RED",
+      "updated_at": "2023-08-29T19:39:18.960Z",
+      "types": [
+        "telegram bot",
+        "telegram receiver",
+        "telegram command",
+        "telegram event",
+        "telegram sender",
+        "telegram reply",
+        "telegram control"
+      ],
+      "keywords": [
+        "node-red",
+        "telegram",
+        "bot"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-telegrambot"
+    },
+    {
+      "id": "node-red-contrib-shelly",
+      "version": "10.13.6",
+      "description": "Shelly nodes.",
+      "updated_at": "2023-08-29T18:32:52.471Z",
+      "types": [
+        "shelly-gen1-server",
+        "shelly-gen1",
+        "shelly-gen2-server",
+        "shelly-gen2",
+        "shelly-cloud-server",
+        "shelly-cloud"
+      ],
+      "keywords": [
+        "node-red",
+        "shelly"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-shelly"
+    },
+    {
+      "id": "@sammachin/node-red-matter-bridge",
+      "version": "0.0.1",
+      "description": "Node red package for implementing a matter bridge",
+      "updated_at": "2023-08-29T15:57:53.951Z",
+      "types": [
+        "matterbridge",
+        "matteronofflight",
+        "matteronoffsocket"
+      ],
+      "keywords": [
+        "node-red"
+      ],
+      "url": "https://flows.nodered.org/node/@sammachin/node-red-matter-bridge"
+    },
+    {
+      "id": "@gregoriusrippenstein/node-red-contrib-introspection",
+      "version": "0.3.2",
+      "description": "Node-RED Editor-only nodes for introspecting flows.",
+      "updated_at": "2023-08-29T15:43:18.043Z",
+      "types": [
+        "Seeker",
+        "Sink",
+        "Screenshot",
+        "Orphans",
+        "IsMobile",
+        "Navigator",
+        "DrawSVG",
+        "GetFlows",
+        "SendFlow",
+        "TriggerImport"
+      ],
+      "keywords": [
+        "node-red"
+      ],
+      "url": "https://flows.nodered.org/node/@gregoriusrippenstein/node-red-contrib-introspection"
+    },
     {
       "id": "node-red-contrib-slack-ubos",
       "version": "0.0.1",
@@ -22,18 +164,6 @@
         "rtm"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-slack-ubos"
-    },
-    {
-      "id": "@node-red-matter/node-red-matter",
-      "version": "0.2.1",
-      "description": "The Node-RED Matter plugin is an open-source project that enables the generation of Matter devices within Node-RED. Matter devices created using this plugin can be seamlessly integrated into popular smart home controllers such as Apple Home, Google Home, ",
-      "updated_at": "2023-08-29T12:23:58.688Z",
-      "types": [],
-      "keywords": [
-        "node-red",
-        "matter"
-      ],
-      "url": "https://flows.nodered.org/node/@node-red-matter/node-red-matter"
     },
     {
       "id": "node-red-contrib-ais-decoder",
@@ -212,22 +342,6 @@
       "url": "https://flows.nodered.org/node/@siglesiasg/node-red-hyperledger-fabric-gateway"
     },
     {
-      "id": "node-red-contrib-aula-education",
-      "version": "0.4.1",
-      "description": "A Node-Red Node for collecting data from aula the danish educational platform.",
-      "updated_at": "2023-08-28T18:13:45.562Z",
-      "types": [
-        "aulaNode-config",
-        "aulaNode"
-      ],
-      "keywords": [
-        "node-red",
-        "aula",
-        "education"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-aula-education"
-    },
-    {
       "id": "@edgepi-cloud/node-red-edgepi-relay",
       "version": "1.0.0",
       "description": "node-red node for edgepi relay module utilizing remote procedure calls",
@@ -288,25 +402,6 @@
         "node-red"
       ],
       "url": "https://flows.nodered.org/node/@jambonz/node-red-contrib-jambonz"
-    },
-    {
-      "id": "@ifp-software/node-red-contrib-oee-ai-connector",
-      "version": "2.7.0",
-      "description": "Easily connect your production machines to oee.ai – The Industry 4.0 solution for OEE optimization.",
-      "updated_at": "2023-08-28T08:11:23.494Z",
-      "types": [],
-      "keywords": [
-        "industrial",
-        "industry 4.0",
-        "iot",
-        "node-red",
-        "oee",
-        "oee.ai",
-        "sick",
-        "smart-factory",
-        "tdc"
-      ],
-      "url": "https://flows.nodered.org/node/@ifp-software/node-red-contrib-oee-ai-connector"
     },
     {
       "id": "@victronenergy/node-red-contrib-victron",
@@ -616,27 +711,6 @@
         "flowhub"
       ],
       "url": "https://flows.nodered.org/node/@gregoriusrippenstein/node-red-contrib-flowhub"
-    },
-    {
-      "id": "@gregoriusrippenstein/node-red-contrib-introspection",
-      "version": "0.3.1",
-      "description": "Node-RED Editor-only nodes for introspecting flows.",
-      "updated_at": "2023-08-24T18:53:50.952Z",
-      "types": [
-        "Seeker",
-        "Sink",
-        "Screenshot",
-        "Orphans",
-        "IsMobile",
-        "Navigator",
-        "DrawSVG",
-        "GetFlows",
-        "SendFlow"
-      ],
-      "keywords": [
-        "node-red"
-      ],
-      "url": "https://flows.nodered.org/node/@gregoriusrippenstein/node-red-contrib-introspection"
     },
     {
       "id": "node-red-contrib-nibeuplink",
@@ -5394,27 +5468,6 @@
       "url": "https://flows.nodered.org/node/nrc-elasticsearch-nodes"
     },
     {
-      "id": "node-red-contrib-telegrambot",
-      "version": "15.1.4",
-      "description": "Telegram bot nodes for Node-RED",
-      "updated_at": "2023-06-20T19:35:25.037Z",
-      "types": [
-        "telegram bot",
-        "telegram receiver",
-        "telegram command",
-        "telegram event",
-        "telegram sender",
-        "telegram reply",
-        "telegram control"
-      ],
-      "keywords": [
-        "node-red",
-        "telegram",
-        "bot"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-telegrambot"
-    },
-    {
       "id": "@telnyx/node-red-telnyx",
       "version": "1.2.2",
       "description": "A Node-RED node interacting with Telnyx",
@@ -5925,25 +5978,6 @@
         "access control"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-uhppoted"
-    },
-    {
-      "id": "node-red-contrib-shelly",
-      "version": "10.13.5",
-      "description": "Shelly nodes.",
-      "updated_at": "2023-06-13T20:06:04.389Z",
-      "types": [
-        "shelly-gen1-server",
-        "shelly-gen1",
-        "shelly-gen2-server",
-        "shelly-gen2",
-        "shelly-cloud-server",
-        "shelly-cloud"
-      ],
-      "keywords": [
-        "node-red",
-        "shelly"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-shelly"
     },
     {
       "id": "node-red-contrib-image-generation-ubos",
@@ -15944,24 +15978,6 @@
         "fhem"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-fhem"
-    },
-    {
-      "id": "node-red-contrib-teachable-machine",
-      "version": "1.4.0",
-      "description": "Simplifies integration with Teachable Machine models from Google",
-      "updated_at": "2022-11-30T09:10:43.607Z",
-      "types": [
-        "teachable machine"
-      ],
-      "keywords": [
-        "node-red",
-        "tensorflow",
-        "tensorflowjs",
-        "classification",
-        "teachable machine",
-        "google"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-teachable-machine"
     },
     {
       "id": "node-red-contrib-media-id3",
