@@ -1,7 +1,127 @@
 {
   "name": "Catalogue for macOS",
-  "updated_at": "2023-08-30T22:35:35.818Z",
+  "updated_at": "2023-08-31T22:09:59.862Z",
   "modules": [
+    {
+      "id": "node-red-contrib-geyserwala-connect",
+      "version": "0.0.2",
+      "description": "Node-RED nodes for the Geyserwala Connect",
+      "updated_at": "2023-08-31T19:55:50.907Z",
+      "types": [
+        "geyserwala-connect-api",
+        "__errors__"
+      ],
+      "keywords": [
+        "node-red",
+        "geyserwise",
+        "geyserwala",
+        "thingwala"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-geyserwala-connect"
+    },
+    {
+      "id": "node-red-contrib-aula-education",
+      "version": "0.4.3",
+      "description": "A Node-Red Node for collecting data from aula the danish educational platform.",
+      "updated_at": "2023-08-31T17:35:48.126Z",
+      "types": [
+        "aulaNode-config",
+        "aulaNode"
+      ],
+      "keywords": [
+        "node-red",
+        "aula",
+        "education"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-aula-education"
+    },
+    {
+      "id": "@gregoriusrippenstein/node-red-contrib-introspection",
+      "version": "0.3.4",
+      "description": "Node-RED Editor-only nodes for introspecting flows.",
+      "updated_at": "2023-08-31T17:22:57.605Z",
+      "types": [
+        "Seeker",
+        "Sink",
+        "Screenshot",
+        "Orphans",
+        "IsMobile",
+        "Navigator",
+        "DrawSVG",
+        "GetFlows",
+        "SendFlow",
+        "TriggerImport"
+      ],
+      "keywords": [
+        "node-red"
+      ],
+      "url": "https://flows.nodered.org/node/@gregoriusrippenstein/node-red-contrib-introspection"
+    },
+    {
+      "id": "@edgepi-cloud/node-red-edgepi-dac",
+      "version": "1.0.0",
+      "description": "node-red node for edgepi dac module utilizing remote procedure calls",
+      "updated_at": "2023-08-31T16:16:46.936Z",
+      "types": [
+        "edgepi-dac-node"
+      ],
+      "keywords": [
+        "node-red",
+        "edgepi",
+        "rpc"
+      ],
+      "url": "https://flows.nodered.org/node/@edgepi-cloud/node-red-edgepi-dac"
+    },
+    {
+      "id": "@jackcarey/node-red-wasmer",
+      "version": "0.0.5",
+      "description": "Execute WebAssembly code within NodeRED.",
+      "updated_at": "2023-08-31T14:56:36.297Z",
+      "types": [
+        "urlAllowlist",
+        "wasmer"
+      ],
+      "keywords": [
+        "NodeRED",
+        "node-red",
+        "JavaScript",
+        "WebAssembly",
+        "wasmer",
+        "low-code",
+        "cross-platform"
+      ],
+      "url": "https://flows.nodered.org/node/@jackcarey/node-red-wasmer"
+    },
+    {
+      "id": "@insectos/ssh-exec",
+      "version": "0.3.1",
+      "description": "A flexible SSH client for Node-RED",
+      "updated_at": "2023-08-31T14:18:14.238Z",
+      "types": [
+        "ssh-exec"
+      ],
+      "keywords": [
+        "node-red",
+        "ssh",
+        "interactive"
+      ],
+      "url": "https://flows.nodered.org/node/@insectos/ssh-exec"
+    },
+    {
+      "id": "node-red-contrib-oauth2",
+      "version": "5.0.5",
+      "description": "The node-red-contrib-oauth2 is a Node-RED node that provides an OAuth2 authentication flow. This node uses the OAuth2 protocol to obtain an access token, which can be used to make authenticated API requests.",
+      "updated_at": "2023-08-31T10:42:58.209Z",
+      "types": [
+        "oauth2"
+      ],
+      "keywords": [
+        "node-red",
+        "oauth2",
+        "security"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-oauth2"
+    },
     {
       "id": "node-red-contrib-unifi",
       "version": "0.3.6",
@@ -147,22 +267,6 @@
       "url": "https://flows.nodered.org/node/@node-red-matter/node-red-matter"
     },
     {
-      "id": "node-red-contrib-aula-education",
-      "version": "0.4.2",
-      "description": "A Node-Red Node for collecting data from aula the danish educational platform.",
-      "updated_at": "2023-08-30T06:01:09.797Z",
-      "types": [
-        "aulaNode-config",
-        "aulaNode"
-      ],
-      "keywords": [
-        "node-red",
-        "aula",
-        "education"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-aula-education"
-    },
-    {
       "id": "node-red-contrib-telegrambot",
       "version": "15.1.6",
       "description": "Telegram bot nodes for Node-RED",
@@ -197,28 +301,6 @@
         "node-red"
       ],
       "url": "https://flows.nodered.org/node/@sammachin/node-red-matter-bridge"
-    },
-    {
-      "id": "@gregoriusrippenstein/node-red-contrib-introspection",
-      "version": "0.3.2",
-      "description": "Node-RED Editor-only nodes for introspecting flows.",
-      "updated_at": "2023-08-29T15:43:18.043Z",
-      "types": [
-        "Seeker",
-        "Sink",
-        "Screenshot",
-        "Orphans",
-        "IsMobile",
-        "Navigator",
-        "DrawSVG",
-        "GetFlows",
-        "SendFlow",
-        "TriggerImport"
-      ],
-      "keywords": [
-        "node-red"
-      ],
-      "url": "https://flows.nodered.org/node/@gregoriusrippenstein/node-red-contrib-introspection"
     },
     {
       "id": "node-red-contrib-slack-ubos",
@@ -1017,21 +1099,6 @@
         "node-red"
       ],
       "url": "https://flows.nodered.org/node/@sinch/node-red-voice-api"
-    },
-    {
-      "id": "@insectos/ssh-exec",
-      "version": "0.3.0",
-      "description": "A flexible SSH client for Node-RED",
-      "updated_at": "2023-08-22T03:47:54.047Z",
-      "types": [
-        "ssh-exec"
-      ],
-      "keywords": [
-        "node-red",
-        "ssh",
-        "interactive"
-      ],
-      "url": "https://flows.nodered.org/node/@insectos/ssh-exec"
     },
     {
       "id": "node-red-contrib-zeebe-2",
@@ -6918,21 +6985,6 @@
         "chatops kanban hook"
       ],
       "url": "https://flows.nodered.org/node/@terranlabs/appflow-chatops-hook"
-    },
-    {
-      "id": "node-red-contrib-oauth2",
-      "version": "5.0.4",
-      "description": "The node-red-contrib-oauth2 is a Node-RED node that provides an OAuth2 authentication flow. This node uses the OAuth2 protocol to obtain an access token, which can be used to make authenticated API requests.",
-      "updated_at": "2023-05-29T03:03:18.533Z",
-      "types": [
-        "oauth2"
-      ],
-      "keywords": [
-        "node-red",
-        "oauth2",
-        "security"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-oauth2"
     },
     {
       "id": "node-red-contrib-appwrite",
