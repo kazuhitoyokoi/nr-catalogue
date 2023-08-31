@@ -1,7 +1,163 @@
 {
   "name": "Catalogue for Windows",
-  "updated_at": "2023-08-30T20:34:54.217Z",
+  "updated_at": "2023-08-31T20:17:21.437Z",
   "modules": [
+    {
+      "id": "@jackcarey/node-red-wasmer",
+      "version": "0.0.5",
+      "description": "Execute WebAssembly code within NodeRED.",
+      "updated_at": "2023-08-31T14:56:36.297Z",
+      "types": [
+        "urlAllowlist",
+        "wasmer"
+      ],
+      "keywords": [
+        "NodeRED",
+        "node-red",
+        "JavaScript",
+        "WebAssembly",
+        "wasmer",
+        "low-code",
+        "cross-platform"
+      ],
+      "url": "https://flows.nodered.org/node/@jackcarey/node-red-wasmer"
+    },
+    {
+      "id": "@insectos/ssh-exec",
+      "version": "0.3.1",
+      "description": "A flexible SSH client for Node-RED",
+      "updated_at": "2023-08-31T14:18:14.238Z",
+      "types": [
+        "ssh-exec"
+      ],
+      "keywords": [
+        "node-red",
+        "ssh",
+        "interactive"
+      ],
+      "url": "https://flows.nodered.org/node/@insectos/ssh-exec"
+    },
+    {
+      "id": "node-red-contrib-oauth2",
+      "version": "5.0.5",
+      "description": "The node-red-contrib-oauth2 is a Node-RED node that provides an OAuth2 authentication flow. This node uses the OAuth2 protocol to obtain an access token, which can be used to make authenticated API requests.",
+      "updated_at": "2023-08-31T10:42:58.209Z",
+      "types": [
+        "oauth2"
+      ],
+      "keywords": [
+        "node-red",
+        "oauth2",
+        "security"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-oauth2"
+    },
+    {
+      "id": "node-red-contrib-geyserwala-connect",
+      "version": "0.0.1",
+      "description": "Node-RED nodes for the Geyserwala Connect",
+      "updated_at": "2023-08-31T09:06:05.934Z",
+      "types": [
+        "geyserwala-connector",
+        "tank temp",
+        "element demand",
+        "external setpoint",
+        "external demand",
+        "lowpower enable",
+        "mode",
+        "setpoint",
+        "boost demand",
+        "collector temp",
+        "pump status"
+      ],
+      "keywords": [
+        "node-red",
+        "geyserwise",
+        "geyserwala",
+        "thingwala"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-geyserwala-connect"
+    },
+    {
+      "id": "node-red-contrib-unifi",
+      "version": "0.3.6",
+      "description": "Node for Node-RED to connect to a UniFi Controller ",
+      "updated_at": "2023-08-30T19:07:44.013Z",
+      "types": [
+        "unificonfig",
+        "Unifi",
+        "UnifiWS"
+      ],
+      "keywords": [
+        "node-red",
+        "unifi",
+        "ubnt",
+        "Ubiquiti Networks"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-unifi"
+    },
+    {
+      "id": "node-red-contrib-shelly",
+      "version": "10.13.7",
+      "description": "Shelly nodes.",
+      "updated_at": "2023-08-30T19:06:55.516Z",
+      "types": [
+        "shelly-gen1-server",
+        "shelly-gen1",
+        "shelly-gen2-server",
+        "shelly-gen2",
+        "shelly-cloud-server",
+        "shelly-cloud"
+      ],
+      "keywords": [
+        "node-red",
+        "shelly"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-shelly"
+    },
+    {
+      "id": "@edgepi-cloud/node-red-edgepi-led",
+      "version": "1.0.3",
+      "description": "Node for EdgePi Led Array",
+      "updated_at": "2023-08-30T17:52:19.259Z",
+      "types": [
+        "edgepi-led-node"
+      ],
+      "keywords": [
+        "node-red",
+        "edgepi",
+        "led",
+        "edgepi-led"
+      ],
+      "url": "https://flows.nodered.org/node/@edgepi-cloud/node-red-edgepi-led"
+    },
+    {
+      "id": "@flowforge/node-red-dashboard",
+      "version": "0.3.0",
+      "description": "A collection of Node-RED nodes that provide functionality to build your own UI applications (inc. forms, buttons, charts) within Node-RED.",
+      "updated_at": "2023-08-30T16:32:49.154Z",
+      "types": [
+        "ui-base",
+        "ui-page",
+        "ui-group",
+        "ui-theme",
+        "ui-form",
+        "ui-text-input",
+        "ui-button",
+        "ui-dropdown",
+        "ui-radio-group",
+        "ui-slider",
+        "ui-switch",
+        "ui-text",
+        "ui-chart",
+        "ui-markdown",
+        "ui-template"
+      ],
+      "keywords": [
+        "node-red"
+      ],
+      "url": "https://flows.nodered.org/node/@flowforge/node-red-dashboard"
+    },
     {
       "id": "@edgepi-cloud/node-red-edgepi-digital-out",
       "version": "1.0.2",
@@ -84,25 +240,6 @@
         "bot"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-telegrambot"
-    },
-    {
-      "id": "node-red-contrib-shelly",
-      "version": "10.13.6",
-      "description": "Shelly nodes.",
-      "updated_at": "2023-08-29T18:32:52.471Z",
-      "types": [
-        "shelly-gen1-server",
-        "shelly-gen1",
-        "shelly-gen2-server",
-        "shelly-gen2",
-        "shelly-cloud-server",
-        "shelly-cloud"
-      ],
-      "keywords": [
-        "node-red",
-        "shelly"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-shelly"
     },
     {
       "id": "@sammachin/node-red-matter-bridge",
@@ -940,21 +1077,6 @@
       "url": "https://flows.nodered.org/node/@sinch/node-red-voice-api"
     },
     {
-      "id": "@insectos/ssh-exec",
-      "version": "0.3.0",
-      "description": "A flexible SSH client for Node-RED",
-      "updated_at": "2023-08-22T03:47:54.047Z",
-      "types": [
-        "ssh-exec"
-      ],
-      "keywords": [
-        "node-red",
-        "ssh",
-        "interactive"
-      ],
-      "url": "https://flows.nodered.org/node/@insectos/ssh-exec"
-    },
-    {
       "id": "node-red-contrib-zeebe-2",
       "version": "0.8.5",
       "description": "Zeebe nodes for Node-RED ",
@@ -1203,24 +1325,6 @@
       "url": "https://flows.nodered.org/node/node-red-contrib-aprs"
     },
     {
-      "id": "node-red-contrib-unifi",
-      "version": "0.3.5",
-      "description": "Node for Node-RED to connect to a UniFi Controller ",
-      "updated_at": "2023-08-17T20:09:01.138Z",
-      "types": [
-        "unificonfig",
-        "Unifi",
-        "UnifiWS"
-      ],
-      "keywords": [
-        "node-red",
-        "unifi",
-        "ubnt",
-        "Ubiquiti Networks"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-unifi"
-    },
-    {
       "id": "@martijndierckx/node-red-contrib-gardena-smart-mower",
       "version": "0.0.1",
       "description": "Nodes for controlling/monitoring Gardena smart system mowers",
@@ -1239,33 +1343,6 @@
       "url": "https://flows.nodered.org/node/@martijndierckx/node-red-contrib-gardena-smart-mower"
     },
     {
-      "id": "@flowforge/node-red-dashboard",
-      "version": "0.2.2",
-      "description": "A collection of Node-RED nodes that provide functionality to build your own UI applications (inc. forms, buttons, charts) within Node-RED.",
-      "updated_at": "2023-08-16T15:43:29.318Z",
-      "types": [
-        "ui-base",
-        "ui-page",
-        "ui-group",
-        "ui-theme",
-        "ui-form",
-        "ui-text-input",
-        "ui-button",
-        "ui-dropdown",
-        "ui-radio-group",
-        "ui-slider",
-        "ui-switch",
-        "ui-text",
-        "ui-chart",
-        "ui-markdown",
-        "ui-template"
-      ],
-      "keywords": [
-        "node-red"
-      ],
-      "url": "https://flows.nodered.org/node/@flowforge/node-red-dashboard"
-    },
-    {
       "id": "six_hash",
       "version": "1.1.1",
       "description": "Generates hash of lenght 6.",
@@ -1278,22 +1355,6 @@
         "node-red"
       ],
       "url": "https://flows.nodered.org/node/six_hash"
-    },
-    {
-      "id": "@edgepi-cloud/node-red-edgepi-led",
-      "version": "1.0.2",
-      "description": "Node for EdgePi Led Array",
-      "updated_at": "2023-08-15T18:09:12.532Z",
-      "types": [
-        "edgepi-led-node"
-      ],
-      "keywords": [
-        "node-red",
-        "edgepi",
-        "led",
-        "edgepi-led"
-      ],
-      "url": "https://flows.nodered.org/node/@edgepi-cloud/node-red-edgepi-led"
     },
     {
       "id": "node-red-contrib-meross-cloud",
@@ -6856,21 +6917,6 @@
         "chatops kanban hook"
       ],
       "url": "https://flows.nodered.org/node/@terranlabs/appflow-chatops-hook"
-    },
-    {
-      "id": "node-red-contrib-oauth2",
-      "version": "5.0.4",
-      "description": "The node-red-contrib-oauth2 is a Node-RED node that provides an OAuth2 authentication flow. This node uses the OAuth2 protocol to obtain an access token, which can be used to make authenticated API requests.",
-      "updated_at": "2023-05-29T03:03:18.533Z",
-      "types": [
-        "oauth2"
-      ],
-      "keywords": [
-        "node-red",
-        "oauth2",
-        "security"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-oauth2"
     },
     {
       "id": "node-red-contrib-appwrite",
