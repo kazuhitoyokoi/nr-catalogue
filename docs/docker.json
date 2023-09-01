@@ -1,7 +1,332 @@
 {
   "name": "Catalogue for Docker",
-  "updated_at": "2023-08-31T16:22:32.725Z",
+  "updated_at": "2023-09-01T16:12:26.099Z",
   "modules": [
+    {
+      "id": "node-red-contrib-topsail",
+      "version": "3.0.0",
+      "description": "Interface with Topsail",
+      "updated_at": "2023-09-01T13:48:31.871Z",
+      "types": [
+        "email-send",
+        "ping"
+      ],
+      "keywords": [
+        "node-red",
+        "topsail"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-topsail"
+    },
+    {
+      "id": "node-red-contrib-web-worldmap",
+      "version": "2.42.3",
+      "description": "A Node-RED node to provide a web page of a world map for plotting things on.",
+      "updated_at": "2023-09-01T12:29:03.831Z",
+      "types": [
+        "worldmap",
+        "ui_worldmap",
+        "worldmap in",
+        "worldmap-tracks",
+        "worldmap-hull"
+      ],
+      "keywords": [
+        "node-red",
+        "map",
+        "world",
+        "tak"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-web-worldmap"
+    },
+    {
+      "id": "node-red-contrib-tak-registration",
+      "version": "0.8.3",
+      "description": "A Node-RED node to register to TAK and to help wrap files as datapackages to send to TAK",
+      "updated_at": "2023-09-01T12:24:15.549Z",
+      "types": [
+        "tak registration",
+        "tak ingest"
+      ],
+      "keywords": [
+        "TAK",
+        "COT",
+        "node-red"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-tak-registration"
+    },
+    {
+      "id": "node-red-contrib-bsb-lan",
+      "version": "1.2.1",
+      "description": "A node-red node that makes the communication with BSB-Lan very easy",
+      "updated_at": "2023-09-01T12:03:52.221Z",
+      "types": [
+        "bsb-lan",
+        "bsb-lan-device"
+      ],
+      "keywords": [
+        "node-red",
+        "bsb-lan"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-bsb-lan"
+    },
+    {
+      "id": "@thingwala/node-red-contrib-geyserwala-connect",
+      "version": "0.0.3",
+      "description": "Node-RED nodes for the Geyserwala Connect",
+      "updated_at": "2023-09-01T11:32:10.615Z",
+      "types": [
+        "geyserwala-connect-api"
+      ],
+      "keywords": [
+        "node-red",
+        "thingwala",
+        "geyserwala"
+      ],
+      "url": "https://flows.nodered.org/node/@thingwala/node-red-contrib-geyserwala-connect"
+    },
+    {
+      "id": "node-red-contrib-myq",
+      "version": "0.0.7",
+      "description": "Node-Red node to control MyQ (Chamberlain) devices",
+      "updated_at": "2023-09-01T11:23:48.194Z",
+      "types": [
+        "myq-device-node",
+        "myq-credentials"
+      ],
+      "keywords": [
+        "node-red",
+        "myq",
+        "chamberlain",
+        "liftmaster"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-myq"
+    },
+    {
+      "id": "@gregoriusrippenstein/node-red-contrib-introspection",
+      "version": "0.3.5",
+      "description": "Node-RED Editor-only nodes for introspecting flows.",
+      "updated_at": "2023-09-01T11:13:21.498Z",
+      "types": [
+        "Seeker",
+        "Sink",
+        "Screenshot",
+        "Orphans",
+        "IsMobile",
+        "Navigator",
+        "DrawSVG",
+        "GetFlows",
+        "SendFlow",
+        "TriggerImport"
+      ],
+      "keywords": [
+        "node-red"
+      ],
+      "url": "https://flows.nodered.org/node/@gregoriusrippenstein/node-red-contrib-introspection"
+    },
+    {
+      "id": "node-red-contrib-cx-tag-emitter",
+      "version": "2.4.11",
+      "description": "Emits tag values on change",
+      "updated_at": "2023-09-01T09:24:02.778Z",
+      "types": [
+        "tag-storage",
+        "tags_in",
+        "value_emitter"
+      ],
+      "keywords": [
+        "node-red",
+        "tag",
+        "emitter",
+        "cx_tag_emitter",
+        "cx",
+        "controlx",
+        "controlx.io"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-cx-tag-emitter"
+    },
+    {
+      "id": "@node-red-matter/node-red-matter",
+      "version": "0.2.10",
+      "description": "The Node-RED Matter plugin is an open-source project that enables the generation of Matter devices within Node-RED. Matter devices created using this plugin can be seamlessly integrated into popular smart home controllers such as Apple Home, Google Home, ",
+      "updated_at": "2023-09-01T09:14:41.092Z",
+      "types": [],
+      "keywords": [
+        "node-red",
+        "matter"
+      ],
+      "url": "https://flows.nodered.org/node/@node-red-matter/node-red-matter"
+    },
+    {
+      "id": "node-red-contrib-ssh-v3",
+      "version": "2.0.3",
+      "description": "ssh connection",
+      "updated_at": "2023-09-01T08:24:34.007Z",
+      "types": [
+        "ssh-conf",
+        "ssh-v3"
+      ],
+      "keywords": [
+        "ssh",
+        "remote",
+        "host",
+        "node-red"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-ssh-v3"
+    },
+    {
+      "id": "@spectraautomation/node-red-urbancontroller-dio",
+      "version": "1.3.2",
+      "description": "Node-RED module for controlling the digital input / output port of the Urban Controller by Spectra GmbH & Co. KG",
+      "updated_at": "2023-09-01T07:22:19.697Z",
+      "types": [
+        "uc-dio-in",
+        "uc-dio-out",
+        "uc-buzzer"
+      ],
+      "keywords": [
+        "node-red",
+        "gpio",
+        "urbancontroller",
+        "urban controller",
+        "spectra",
+        "powerbox"
+      ],
+      "url": "https://flows.nodered.org/node/@spectraautomation/node-red-urbancontroller-dio"
+    },
+    {
+      "id": "@spectraautomation/node-red-urbancontroller-watchdog",
+      "version": "1.3.2",
+      "description": "Node-RED module for controlling the hardware watchdog of the Urban Controller by Spectra GmbH & Co. KG",
+      "updated_at": "2023-09-01T07:22:04.737Z",
+      "types": [
+        "uc-watchdog"
+      ],
+      "keywords": [
+        "node-red",
+        "wdt",
+        "watchdog",
+        "urbancontroller",
+        "urban controller",
+        "spectra",
+        "powerbox"
+      ],
+      "url": "https://flows.nodered.org/node/@spectraautomation/node-red-urbancontroller-watchdog"
+    },
+    {
+      "id": "@sensemore/senseway-node",
+      "version": "1.0.3",
+      "description": "\"Sensemore's Senseway node-red component.\"",
+      "updated_at": "2023-09-01T07:00:45.182Z",
+      "types": [
+        "senseway"
+      ],
+      "keywords": [
+        "node-red",
+        "sensemore",
+        "senseway"
+      ],
+      "url": "https://flows.nodered.org/node/@sensemore/senseway-node"
+    },
+    {
+      "id": "node-red-node-multilang-sentiment",
+      "version": "0.2.0",
+      "description": "A Node-RED node that uses the AFINN-165 wordlists for sentiment analysis of words translated into multiple languages including emoji.",
+      "updated_at": "2023-08-31T20:30:08.759Z",
+      "types": [
+        "mlsentiment"
+      ],
+      "keywords": [
+        "node-red",
+        "sentiment",
+        "anaylsis",
+        "AFINN",
+        "emoji"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-node-multilang-sentiment"
+    },
+    {
+      "id": "node-red-dashboard",
+      "version": "3.6.0",
+      "description": "A set of dashboard nodes for Node-RED",
+      "updated_at": "2023-08-31T20:20:32.669Z",
+      "types": [
+        "ui_base",
+        "ui_button",
+        "ui_dropdown",
+        "ui_switch",
+        "ui_slider",
+        "ui_numeric",
+        "ui_text_input",
+        "ui_date_picker",
+        "ui_colour_picker",
+        "ui_form",
+        "ui_text",
+        "ui_gauge",
+        "ui_chart",
+        "ui_audio",
+        "ui_toast",
+        "ui_ui_control",
+        "ui_template",
+        "ui_link",
+        "ui_tab",
+        "ui_group",
+        "ui_spacer"
+      ],
+      "keywords": [
+        "node-red"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-dashboard"
+    },
+    {
+      "id": "node-red-contrib-aula-education",
+      "version": "0.4.3",
+      "description": "A Node-Red Node for collecting data from aula the danish educational platform.",
+      "updated_at": "2023-08-31T17:35:48.126Z",
+      "types": [
+        "aulaNode-config",
+        "aulaNode"
+      ],
+      "keywords": [
+        "node-red",
+        "aula",
+        "education"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-aula-education"
+    },
+    {
+      "id": "@edgepi-cloud/node-red-edgepi-dac",
+      "version": "1.0.0",
+      "description": "node-red node for edgepi dac module utilizing remote procedure calls",
+      "updated_at": "2023-08-31T16:16:46.936Z",
+      "types": [
+        "edgepi-dac-node"
+      ],
+      "keywords": [
+        "node-red",
+        "edgepi",
+        "rpc"
+      ],
+      "url": "https://flows.nodered.org/node/@edgepi-cloud/node-red-edgepi-dac"
+    },
+    {
+      "id": "@jackcarey/node-red-wasmer",
+      "version": "0.0.5",
+      "description": "Execute WebAssembly code within NodeRED.",
+      "updated_at": "2023-08-31T14:56:36.297Z",
+      "types": [
+        "urlAllowlist",
+        "wasmer"
+      ],
+      "keywords": [
+        "NodeRED",
+        "node-red",
+        "JavaScript",
+        "WebAssembly",
+        "wasmer",
+        "low-code",
+        "cross-platform"
+      ],
+      "url": "https://flows.nodered.org/node/@jackcarey/node-red-wasmer"
+    },
     {
       "id": "@insectos/ssh-exec",
       "version": "0.3.1",
@@ -31,32 +356,6 @@
         "security"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-oauth2"
-    },
-    {
-      "id": "node-red-contrib-geyserwala-connect",
-      "version": "0.0.1",
-      "description": "Node-RED nodes for the Geyserwala Connect",
-      "updated_at": "2023-08-31T09:06:05.934Z",
-      "types": [
-        "geyserwala-connector",
-        "tank temp",
-        "element demand",
-        "external setpoint",
-        "external demand",
-        "lowpower enable",
-        "mode",
-        "setpoint",
-        "boost demand",
-        "collector temp",
-        "pump status"
-      ],
-      "keywords": [
-        "node-red",
-        "geyserwise",
-        "geyserwala",
-        "thingwala"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-geyserwala-connect"
     },
     {
       "id": "node-red-contrib-unifi",
@@ -191,34 +490,6 @@
       "url": "https://flows.nodered.org/node/@ifp-software/node-red-contrib-oee-ai-connector"
     },
     {
-      "id": "@node-red-matter/node-red-matter",
-      "version": "0.2.5",
-      "description": "The Node-RED Matter plugin is an open-source project that enables the generation of Matter devices within Node-RED. Matter devices created using this plugin can be seamlessly integrated into popular smart home controllers such as Apple Home, Google Home, ",
-      "updated_at": "2023-08-30T11:32:33.287Z",
-      "types": [],
-      "keywords": [
-        "node-red",
-        "matter"
-      ],
-      "url": "https://flows.nodered.org/node/@node-red-matter/node-red-matter"
-    },
-    {
-      "id": "node-red-contrib-aula-education",
-      "version": "0.4.2",
-      "description": "A Node-Red Node for collecting data from aula the danish educational platform.",
-      "updated_at": "2023-08-30T06:01:09.797Z",
-      "types": [
-        "aulaNode-config",
-        "aulaNode"
-      ],
-      "keywords": [
-        "node-red",
-        "aula",
-        "education"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-aula-education"
-    },
-    {
       "id": "node-red-contrib-telegrambot",
       "version": "15.1.6",
       "description": "Telegram bot nodes for Node-RED",
@@ -253,28 +524,6 @@
         "node-red"
       ],
       "url": "https://flows.nodered.org/node/@sammachin/node-red-matter-bridge"
-    },
-    {
-      "id": "@gregoriusrippenstein/node-red-contrib-introspection",
-      "version": "0.3.2",
-      "description": "Node-RED Editor-only nodes for introspecting flows.",
-      "updated_at": "2023-08-29T15:43:18.043Z",
-      "types": [
-        "Seeker",
-        "Sink",
-        "Screenshot",
-        "Orphans",
-        "IsMobile",
-        "Navigator",
-        "DrawSVG",
-        "GetFlows",
-        "SendFlow",
-        "TriggerImport"
-      ],
-      "keywords": [
-        "node-red"
-      ],
-      "url": "https://flows.nodered.org/node/@gregoriusrippenstein/node-red-contrib-introspection"
     },
     {
       "id": "node-red-contrib-slack-ubos",
@@ -620,26 +869,6 @@
         "node-opcua"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-opcua"
-    },
-    {
-      "id": "node-red-contrib-web-worldmap",
-      "version": "2.42.2",
-      "description": "A Node-RED node to provide a web page of a world map for plotting things on.",
-      "updated_at": "2023-08-26T17:01:40.334Z",
-      "types": [
-        "worldmap",
-        "ui_worldmap",
-        "worldmap in",
-        "worldmap-tracks",
-        "worldmap-hull"
-      ],
-      "keywords": [
-        "node-red",
-        "map",
-        "world",
-        "tak"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-web-worldmap"
     },
     {
       "id": "@mschaeffler/node-red-lora",
@@ -1578,22 +1807,6 @@
         "Ax Pro"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-hikvision-ultimate"
-    },
-    {
-      "id": "node-red-contrib-tak-registration",
-      "version": "0.8.0",
-      "description": "A Node-RED node to register to TAK and to help wrap files as datapackages to send to TAK",
-      "updated_at": "2023-08-11T14:12:22.024Z",
-      "types": [
-        "tak registration",
-        "tak ingest"
-      ],
-      "keywords": [
-        "TAK",
-        "COT",
-        "node-red"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-tak-registration"
     },
     {
       "id": "node-red-contrib-fastxml",
@@ -3712,25 +3925,6 @@
       "url": "https://flows.nodered.org/node/@karthik1984/node-red-contrib-ocpp-client"
     },
     {
-      "id": "@spectraautomation/node-red-urbancontroller-watchdog",
-      "version": "1.3.1",
-      "description": "Node-RED module for controlling the hardware watchdog of the Urban Controller by Spectra GmbH & Co. KG",
-      "updated_at": "2023-07-19T08:38:51.076Z",
-      "types": [
-        "uc-watchdog"
-      ],
-      "keywords": [
-        "node-red",
-        "wdt",
-        "watchdog",
-        "urbancontroller",
-        "urban controller",
-        "spectra",
-        "powerbox"
-      ],
-      "url": "https://flows.nodered.org/node/@spectraautomation/node-red-urbancontroller-watchdog"
-    },
-    {
       "id": "@envidatec/interval",
       "version": "1.0.1",
       "description": "executes crontab expression and sent last incoming message",
@@ -3762,26 +3956,6 @@
         "thingsboard"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-mobius-flow-thingsboard"
-    },
-    {
-      "id": "@spectraautomation/node-red-urbancontroller-dio",
-      "version": "1.3.1",
-      "description": "Node-RED module for controlling the digital input / output port of the Urban Controller by Spectra GmbH & Co. KG",
-      "updated_at": "2023-07-18T07:04:26.711Z",
-      "types": [
-        "uc-dio-in",
-        "uc-dio-out",
-        "uc-buzzer"
-      ],
-      "keywords": [
-        "node-red",
-        "gpio",
-        "urbancontroller",
-        "urban controller",
-        "spectra",
-        "powerbox"
-      ],
-      "url": "https://flows.nodered.org/node/@spectraautomation/node-red-urbancontroller-dio"
     },
     {
       "id": "@mschaeffler/node-red-logic",
@@ -7081,39 +7255,6 @@
         "jsonata"
       ],
       "url": "https://flows.nodered.org/node/autana-api-gateway"
-    },
-    {
-      "id": "node-red-dashboard",
-      "version": "3.5.0",
-      "description": "A set of dashboard nodes for Node-RED",
-      "updated_at": "2023-05-26T14:35:52.578Z",
-      "types": [
-        "ui_base",
-        "ui_button",
-        "ui_dropdown",
-        "ui_switch",
-        "ui_slider",
-        "ui_numeric",
-        "ui_text_input",
-        "ui_date_picker",
-        "ui_colour_picker",
-        "ui_form",
-        "ui_text",
-        "ui_gauge",
-        "ui_chart",
-        "ui_audio",
-        "ui_toast",
-        "ui_ui_control",
-        "ui_template",
-        "ui_link",
-        "ui_tab",
-        "ui_group",
-        "ui_spacer"
-      ],
-      "keywords": [
-        "node-red"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-dashboard"
     },
     {
       "id": "node-red-contrib-ui-state-trail",
@@ -16629,27 +16770,6 @@
       "url": "https://flows.nodered.org/node/node-red-contrib-aliyun-oss"
     },
     {
-      "id": "node-red-contrib-cx-tag-emitter",
-      "version": "2.4.10",
-      "description": "Emits tag values on change",
-      "updated_at": "2022-11-16T03:15:02.677Z",
-      "types": [
-        "tag-storage",
-        "tags_in",
-        "value_emitter"
-      ],
-      "keywords": [
-        "node-red",
-        "tag",
-        "emitter",
-        "cx_tag_emitter",
-        "cx",
-        "controlx",
-        "controlx.io"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-cx-tag-emitter"
-    },
-    {
       "id": "node-red-contrib-ffpass",
       "version": "0.2.1",
       "description": "Use Node-Red to start/stop the engine and lock/unlock the doors on your Ford vehicle. Based on the ffpass npm module.",
@@ -18174,21 +18294,6 @@
       "url": "https://flows.nodered.org/node/govee-lan-control"
     },
     {
-      "id": "node-red-contrib-bsb-lan",
-      "version": "1.2.0",
-      "description": "A node-red node that makes the communication with BSB-Lan very easy",
-      "updated_at": "2022-10-09T07:17:21.771Z",
-      "types": [
-        "bsb-lan",
-        "bsb-lan-device"
-      ],
-      "keywords": [
-        "node-red",
-        "bsb-lan"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-bsb-lan"
-    },
-    {
       "id": "node-red-contrib-pushstaq",
       "version": "0.0.7",
       "description": "The most simple way to trigger real time push notifications from Node-Red to your mobile and desktop devices. Official PushStaq node for Node-Red.",
@@ -19028,23 +19133,6 @@
         "node-red"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-klower-case"
-    },
-    {
-      "id": "node-red-contrib-ssh-v3",
-      "version": "2.0.2",
-      "description": "ssh connection",
-      "updated_at": "2022-09-20T15:44:13.931Z",
-      "types": [
-        "ssh-conf",
-        "ssh-v3"
-      ],
-      "keywords": [
-        "ssh",
-        "remote",
-        "host",
-        "node-red"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-ssh-v3"
     },
     {
       "id": "@yreiser/node-red-contrib-secvest",
@@ -29402,23 +29490,6 @@
         "Relay"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-keyestudio-relay-shield-ks0212"
-    },
-    {
-      "id": "node-red-contrib-myq",
-      "version": "0.0.6",
-      "description": "Node-Red node to control MyQ (Chamberlain) devices",
-      "updated_at": "2021-12-21T19:37:55.136Z",
-      "types": [
-        "myq-device-node",
-        "myq-credentials"
-      ],
-      "keywords": [
-        "node-red",
-        "myq",
-        "chamberlain",
-        "liftmaster"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-myq"
     },
     {
       "id": "node-red-contrib-airship-mapping",
@@ -60151,22 +60222,6 @@
         "keyframes"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-extract-keyframes"
-    },
-    {
-      "id": "node-red-node-multilang-sentiment",
-      "version": "0.1.0",
-      "description": "A Node-RED node that uses the AFINN-165 wordlists for sentiment analysis of words translated into multiple languages including emojis.",
-      "updated_at": "2019-03-15T10:04:06.545Z",
-      "types": [
-        "mlsentiment"
-      ],
-      "keywords": [
-        "node-red",
-        "sentiment",
-        "anaylsis",
-        "AFINN"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-node-multilang-sentiment"
     },
     {
       "id": "node-red-node-badwords",
