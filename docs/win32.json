@@ -1,7 +1,146 @@
 {
   "name": "Catalogue for Windows",
-  "updated_at": "2023-09-01T20:03:27.824Z",
+  "updated_at": "2023-09-02T19:33:30.471Z",
   "modules": [
+    {
+      "id": "node-red-contrib-unifi",
+      "version": "0.3.7",
+      "description": "Node for Node-RED to connect to a UniFi Controller ",
+      "updated_at": "2023-09-02T14:28:39.327Z",
+      "types": [
+        "unificonfig",
+        "Unifi",
+        "UnifiWS"
+      ],
+      "keywords": [
+        "node-red",
+        "unifi",
+        "ubnt",
+        "Ubiquiti Networks"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-unifi"
+    },
+    {
+      "id": "node-red-contrib-amap",
+      "version": "1.0.0",
+      "description": "node red node for amap",
+      "updated_at": "2023-09-02T13:13:37.243Z",
+      "types": [
+        "amap-distance",
+        "amap-key",
+        "amap-location",
+        "amap-convert"
+      ],
+      "keywords": [
+        "node-red",
+        "gaode",
+        "amap"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-amap"
+    },
+    {
+      "id": "node-red-contrib-knx-ultimate",
+      "version": "2.1.46",
+      "description": "Control your KNX intallation via Node-Red! Single Node KNX IN/OUT with optional ETS group address importer. Easy to use and highly configurable. With integrated Philips HUE devices handling.",
+      "updated_at": "2023-09-02T09:31:19.322Z",
+      "types": [
+        "knxUltimate",
+        "knxUltimateSceneController",
+        "knxUltimateWatchDog",
+        "knxUltimateLogger",
+        "knxUltimate-config",
+        "knxUltimateGlobalContext",
+        "knxUltimateAlerter",
+        "knxUltimateLoadControl",
+        "knxUltimateViewer",
+        "hue-config",
+        "knxUltimateHueLight",
+        "knxUltimateHueButton",
+        "knxUltimateHueMotion",
+        "knxUltimateHueTapDial",
+        "knxUltimateHueLightSensor",
+        "knxUltimateHueTemperatureSensor",
+        "knxUltimateHueScene",
+        "knxUltimateHueBattery"
+      ],
+      "keywords": [
+        "node-red",
+        "KNX",
+        "ETS",
+        "eib",
+        "eibd",
+        "knxd",
+        "konnex",
+        "IOT",
+        "hue"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-knx-ultimate"
+    },
+    {
+      "id": "node-red-contrib-home-assistant-websocket",
+      "version": "0.56.1",
+      "description": "Node-RED integration with Home Assistant through websocket and REST API",
+      "updated_at": "2023-09-02T03:59:05.097Z",
+      "types": [],
+      "keywords": [
+        "node-red",
+        "home-assistant",
+        "home assistant",
+        "home automation",
+        "websocket"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-home-assistant-websocket"
+    },
+    {
+      "id": "node-red-contrib-ui-svg",
+      "version": "2.3.3",
+      "description": "A Node-RED widget node to show interactive SVG (vector graphics) in the dashboard",
+      "updated_at": "2023-09-01T21:26:15.949Z",
+      "types": [
+        "ui_svg_graphics"
+      ],
+      "keywords": [
+        "node-red",
+        "svg",
+        "graphics",
+        "interactive",
+        "drawing",
+        "floorplan",
+        "floor plan",
+        "hmi"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-ui-svg"
+    },
+    {
+      "id": "@edgepi-cloud/node-red-edgepi-digital-out",
+      "version": "1.0.3",
+      "description": "node-red node for edgepi digital output module utilizing remote procedure calls",
+      "updated_at": "2023-09-01T21:22:25.480Z",
+      "types": [
+        "edgepi-digital-out-node"
+      ],
+      "keywords": [
+        "node-red",
+        "edgepi",
+        "rpc"
+      ],
+      "url": "https://flows.nodered.org/node/@edgepi-cloud/node-red-edgepi-digital-out"
+    },
+    {
+      "id": "@edgepi-cloud/node-red-edgepi-adc",
+      "version": "1.0.0",
+      "description": "node-red node for edgepi adc module utilizing remote procedure calls",
+      "updated_at": "2023-09-01T20:40:03.039Z",
+      "types": [
+        "edgepi-adc-node"
+      ],
+      "keywords": [
+        "node-red",
+        "edgepi",
+        "rpc"
+      ],
+      "url": "https://flows.nodered.org/node/@edgepi-cloud/node-red-edgepi-adc"
+    },
     {
       "id": "node-red-contrib-topsail",
       "version": "3.0.0",
@@ -227,6 +366,21 @@
       "url": "https://flows.nodered.org/node/@sensemore/senseway-node"
     },
     {
+      "id": "@edgepi-cloud/node-red-edgepi-dac",
+      "version": "1.0.2",
+      "description": "node-red node for edgepi dac module utilizing remote procedure calls",
+      "updated_at": "2023-08-31T23:56:46.610Z",
+      "types": [
+        "edgepi-dac-node"
+      ],
+      "keywords": [
+        "node-red",
+        "edgepi",
+        "rpc"
+      ],
+      "url": "https://flows.nodered.org/node/@edgepi-cloud/node-red-edgepi-dac"
+    },
+    {
       "id": "node-red-node-multilang-sentiment",
       "version": "0.2.0",
       "description": "A Node-RED node that uses the AFINN-165 wordlists for sentiment analysis of words translated into multiple languages including emoji.",
@@ -293,21 +447,6 @@
       "url": "https://flows.nodered.org/node/node-red-contrib-aula-education"
     },
     {
-      "id": "@edgepi-cloud/node-red-edgepi-dac",
-      "version": "1.0.0",
-      "description": "node-red node for edgepi dac module utilizing remote procedure calls",
-      "updated_at": "2023-08-31T16:16:46.936Z",
-      "types": [
-        "edgepi-dac-node"
-      ],
-      "keywords": [
-        "node-red",
-        "edgepi",
-        "rpc"
-      ],
-      "url": "https://flows.nodered.org/node/@edgepi-cloud/node-red-edgepi-dac"
-    },
-    {
       "id": "@jackcarey/node-red-wasmer",
       "version": "0.0.5",
       "description": "Execute WebAssembly code within NodeRED.",
@@ -356,24 +495,6 @@
         "security"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-oauth2"
-    },
-    {
-      "id": "node-red-contrib-unifi",
-      "version": "0.3.6",
-      "description": "Node for Node-RED to connect to a UniFi Controller ",
-      "updated_at": "2023-08-30T19:07:44.013Z",
-      "types": [
-        "unificonfig",
-        "Unifi",
-        "UnifiWS"
-      ],
-      "keywords": [
-        "node-red",
-        "unifi",
-        "ubnt",
-        "Ubiquiti Networks"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-unifi"
     },
     {
       "id": "node-red-contrib-shelly",
@@ -438,19 +559,51 @@
       "url": "https://flows.nodered.org/node/@flowforge/node-red-dashboard"
     },
     {
-      "id": "@edgepi-cloud/node-red-edgepi-digital-out",
-      "version": "1.0.2",
-      "description": "node-red node for edgepi digital output module utilizing remote procedure calls",
-      "updated_at": "2023-08-30T15:47:43.280Z",
+      "id": "node-red-contrib-uhppoted",
+      "version": "1.1.5",
+      "description": "A set of nodes for the UHPPOTE Wiegand Access Controller",
+      "updated_at": "2023-08-30T16:29:55.145Z",
       "types": [
-        "edgepi-digital-out-node"
+        "uhppoted-config",
+        "uhppoted-get-devices",
+        "uhppoted-get-device",
+        "uhppoted-set-ip",
+        "uhppoted-get-time",
+        "uhppoted-set-time",
+        "uhppoted-get-door-control",
+        "uhppoted-set-door-control",
+        "uhppoted-get-listener",
+        "uhppoted-set-listener",
+        "uhppoted-record-special-events",
+        "uhppoted-get-status",
+        "uhppoted-get-cards",
+        "uhppoted-get-card",
+        "uhppoted-get-card-by-index",
+        "uhppoted-put-card",
+        "uhppoted-delete-card",
+        "uhppoted-delete-all-cards",
+        "uhppoted-get-time-profile",
+        "uhppoted-set-time-profile",
+        "uhppoted-clear-time-profiles",
+        "uhppoted-add-task",
+        "uhppoted-clear-task-list",
+        "uhppoted-refresh-task-list",
+        "uhppoted-get-event-index",
+        "uhppoted-set-event-index",
+        "uhppoted-get-event",
+        "uhppoted-open-door",
+        "uhppoted-set-pc-control",
+        "uhppoted-set-interlock",
+        "uhppoted-activate-keypads",
+        "uhppoted-listen"
       ],
       "keywords": [
         "node-red",
-        "edgepi",
-        "rpc"
+        "uhppote",
+        "Wiegand",
+        "access control"
       ],
-      "url": "https://flows.nodered.org/node/@edgepi-cloud/node-red-edgepi-digital-out"
+      "url": "https://flows.nodered.org/node/node-red-contrib-uhppoted"
     },
     {
       "id": "@ifp-software/node-red-contrib-oee-ai-connector",
@@ -557,44 +710,6 @@
         "trailing"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-debounce-advanced"
-    },
-    {
-      "id": "node-red-contrib-knx-ultimate",
-      "version": "2.1.45",
-      "description": "Control your KNX intallation via Node-Red! Single Node KNX IN/OUT with optional ETS group address importer. Easy to use and highly configurable. With integrated Philips HUE devices handling.",
-      "updated_at": "2023-08-29T09:46:37.168Z",
-      "types": [
-        "knxUltimate",
-        "knxUltimateSceneController",
-        "knxUltimateWatchDog",
-        "knxUltimateLogger",
-        "knxUltimate-config",
-        "knxUltimateGlobalContext",
-        "knxUltimateAlerter",
-        "knxUltimateLoadControl",
-        "knxUltimateViewer",
-        "hue-config",
-        "knxUltimateHueLight",
-        "knxUltimateHueButton",
-        "knxUltimateHueMotion",
-        "knxUltimateHueTapDial",
-        "knxUltimateHueLightSensor",
-        "knxUltimateHueTemperatureSensor",
-        "knxUltimateHueScene",
-        "knxUltimateHueBattery"
-      ],
-      "keywords": [
-        "node-red",
-        "KNX",
-        "ETS",
-        "eib",
-        "eibd",
-        "knxd",
-        "konnex",
-        "IOT",
-        "hue"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-knx-ultimate"
     },
     {
       "id": "node-red-contrib-samsung-automation-studio-nodes",
@@ -1476,26 +1591,6 @@
       "url": "https://flows.nodered.org/node/@racksync/node-red-contrib-moving-average"
     },
     {
-      "id": "node-red-contrib-ui-svg",
-      "version": "2.3.2",
-      "description": "A Node-RED widget node to show interactive SVG (vector graphics) in the dashboard",
-      "updated_at": "2023-08-19T07:33:12.856Z",
-      "types": [
-        "ui_svg_graphics"
-      ],
-      "keywords": [
-        "node-red",
-        "svg",
-        "graphics",
-        "interactive",
-        "drawing",
-        "floorplan",
-        "floor plan",
-        "hmi"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-ui-svg"
-    },
-    {
       "id": "@waldbaer/node-red-persistent-values",
       "version": "1.5.0",
       "description": "A user-friendly abstraction of the Node-RED context stores.",
@@ -1965,21 +2060,6 @@
         "controller"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-easy-pid-controller"
-    },
-    {
-      "id": "node-red-contrib-home-assistant-websocket",
-      "version": "0.56.0",
-      "description": "Node-RED integration with Home Assistant through websocket and REST API",
-      "updated_at": "2023-08-09T06:20:51.076Z",
-      "types": [],
-      "keywords": [
-        "node-red",
-        "home-assistant",
-        "home assistant",
-        "home automation",
-        "websocket"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-home-assistant-websocket"
     },
     {
       "id": "custom-nodes-integrator",
@@ -6100,52 +6180,6 @@
         "atomic"
       ],
       "url": "https://flows.nodered.org/node/atomic-mssql"
-    },
-    {
-      "id": "node-red-contrib-uhppoted",
-      "version": "1.1.4",
-      "description": "A set of nodes for the UHPPOTE Wiegand Access Controller",
-      "updated_at": "2023-06-13T21:37:33.313Z",
-      "types": [
-        "uhppoted-config",
-        "uhppoted-get-devices",
-        "uhppoted-get-device",
-        "uhppoted-set-ip",
-        "uhppoted-get-time",
-        "uhppoted-set-time",
-        "uhppoted-get-door-control",
-        "uhppoted-set-door-control",
-        "uhppoted-get-listener",
-        "uhppoted-set-listener",
-        "uhppoted-record-special-events",
-        "uhppoted-get-status",
-        "uhppoted-get-cards",
-        "uhppoted-get-card",
-        "uhppoted-get-card-by-index",
-        "uhppoted-put-card",
-        "uhppoted-delete-card",
-        "uhppoted-delete-all-cards",
-        "uhppoted-get-time-profile",
-        "uhppoted-set-time-profile",
-        "uhppoted-clear-time-profiles",
-        "uhppoted-add-task",
-        "uhppoted-clear-task-list",
-        "uhppoted-refresh-task-list",
-        "uhppoted-get-event-index",
-        "uhppoted-set-event-index",
-        "uhppoted-get-event",
-        "uhppoted-open-door",
-        "uhppoted-set-pc-control",
-        "uhppoted-set-interlock",
-        "uhppoted-listen"
-      ],
-      "keywords": [
-        "node-red",
-        "uhppote",
-        "Wiegand",
-        "access control"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-uhppoted"
     },
     {
       "id": "node-red-contrib-image-generation-ubos",
