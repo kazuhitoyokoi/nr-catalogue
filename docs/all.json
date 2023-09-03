@@ -1,7 +1,165 @@
 {
   "name": "Catalogue for verified nodes",
-  "updated_at": "2023-09-02T21:16:22.772Z",
+  "updated_at": "2023-09-03T21:34:25.427Z",
   "modules": [
+    {
+      "id": "node-red-contrib-grove-base-hat-bash",
+      "version": "1.0.0",
+      "description": "Nodes for Grove Base HAT for Raspberry Pi using bash scripts and other tools",
+      "updated_at": "2023-09-03T13:12:25.023Z",
+      "types": [
+        "grove-led",
+        "grove-button",
+        "grove-ultrasonic-ranger",
+        "grove-light-sensor-v1_2",
+        "grove-temperature-sensor",
+        "grove-3-axis-digital-accelerometer",
+        "grove-4-digit-display",
+        "grove-relay",
+        "grove-gesture-sensor",
+        "grove-oled-display-128x64",
+        "grove-i2c-color-sensor-v2",
+        "grove-temperature-humidity-sensor-sht3x",
+        "grove-magnetic-switch",
+        "grove-servo",
+        "grove-time-of-flight-distance"
+      ],
+      "keywords": [
+        "node-red",
+        "Grove",
+        "Grove Base HAT",
+        "Seeed",
+        "bash"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-grove-base-hat-bash"
+    },
+    {
+      "id": "apconic-string-parser",
+      "version": "1.0.2",
+      "description": "- Basic String15 parser for controllers, returns weight.",
+      "updated_at": "2023-09-03T08:43:17.389Z",
+      "types": [
+        "apconic-string-parser"
+      ],
+      "keywords": [
+        "node-red"
+      ],
+      "url": "https://flows.nodered.org/node/apconic-string-parser"
+    },
+    {
+      "id": "apconic-tcp-connection",
+      "version": "1.0.2",
+      "description": "- Takes IP, Port, and Interval",
+      "updated_at": "2023-09-03T08:38:06.486Z",
+      "types": [
+        "apconic-tcp-connection"
+      ],
+      "keywords": [
+        "node-red"
+      ],
+      "url": "https://flows.nodered.org/node/apconic-tcp-connection"
+    },
+    {
+      "id": "@gregoriusrippenstein/node-red-contrib-introspection",
+      "version": "0.4.0",
+      "description": "Node-RED Editor-only nodes for introspecting flows.",
+      "updated_at": "2023-09-03T08:15:46.385Z",
+      "types": [
+        "Seeker",
+        "Sink",
+        "Screenshot",
+        "Orphans",
+        "IsMobile",
+        "Navigator",
+        "DrawSVG",
+        "GetFlows",
+        "SendFlow",
+        "ClientCode"
+      ],
+      "keywords": [
+        "node-red"
+      ],
+      "url": "https://flows.nodered.org/node/@gregoriusrippenstein/node-red-contrib-introspection"
+    },
+    {
+      "id": "node-red-contrib-axis-host",
+      "version": "1.0.0",
+      "description": "Access resources in Axis devices when Node-RED is running on the Axis device",
+      "updated_at": "2023-09-03T08:12:48.120Z",
+      "types": [
+        "Device Events",
+        "Camera JPEG"
+      ],
+      "keywords": [
+        "node-red",
+        "Axis"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-axis-host"
+    },
+    {
+      "id": "@ptarmiganlabs/ctrl-q-nr",
+      "version": "0.0.4",
+      "description": "Node-RED components for cloud and client-managed Qlik Sense",
+      "updated_at": "2023-09-03T06:52:15.090Z",
+      "types": [
+        "qseow-sense-server",
+        "qscloud-tenant",
+        "qseow-app",
+        "qseow-task",
+        "qseow-service-status",
+        "qseow-tag",
+        "qscloud-app",
+        "qscloud-license",
+        "qscloud-reload",
+        "qscloud-reload-status"
+      ],
+      "keywords": [
+        "ctrl-q",
+        "butler",
+        "qlik",
+        "qliksense",
+        "qlikcloud",
+        "senseops",
+        "node-red",
+        "low-code"
+      ],
+      "url": "https://flows.nodered.org/node/@ptarmiganlabs/ctrl-q-nr"
+    },
+    {
+      "id": "node-red-contrib-openai-wrapper",
+      "version": "1.1.2",
+      "description": "adds Node to call openai api via openai npm package",
+      "updated_at": "2023-09-02T19:43:42.684Z",
+      "types": [
+        "openai-api",
+        "openai-api-config"
+      ],
+      "keywords": [
+        "node-red",
+        "openai",
+        "chatgpt",
+        "openai api",
+        "openai node"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-openai-wrapper"
+    },
+    {
+      "id": "@racksync/node-red-contrib-low-pass-filter",
+      "version": "0.0.5",
+      "description": "Manipulate data from noise and handle payload as stable as you can with low pass filter.",
+      "updated_at": "2023-09-02T19:00:45.719Z",
+      "types": [],
+      "keywords": [
+        "node-red",
+        "Home Assistant",
+        "HASS",
+        "RACKSYNC",
+        "Noise",
+        "Low Pass",
+        "Filter"
+      ],
+      "url": "https://flows.nodered.org/node/@racksync/node-red-contrib-low-pass-filter"
+    },
     {
       "id": "node-red-contrib-unifi",
       "version": "0.3.7",
@@ -240,26 +398,16 @@
       "url": "https://flows.nodered.org/node/node-red-contrib-myq"
     },
     {
-      "id": "@gregoriusrippenstein/node-red-contrib-introspection",
-      "version": "0.3.5",
-      "description": "Node-RED Editor-only nodes for introspecting flows.",
-      "updated_at": "2023-09-01T11:13:21.498Z",
-      "types": [
-        "Seeker",
-        "Sink",
-        "Screenshot",
-        "Orphans",
-        "IsMobile",
-        "Navigator",
-        "DrawSVG",
-        "GetFlows",
-        "SendFlow",
-        "TriggerImport"
-      ],
+      "id": "@node-red-matter/node-red-matter",
+      "version": "0.2.11",
+      "description": "The Node-RED Matter plugin is an open-source project that enables the generation of Matter devices within Node-RED. Matter devices created using this plugin can be seamlessly integrated into popular smart home controllers such as Apple Home, Google Home, ",
+      "updated_at": "2023-09-01T10:27:44.026Z",
+      "types": [],
       "keywords": [
-        "node-red"
+        "node-red",
+        "matter"
       ],
-      "url": "https://flows.nodered.org/node/@gregoriusrippenstein/node-red-contrib-introspection"
+      "url": "https://flows.nodered.org/node/@node-red-matter/node-red-matter"
     },
     {
       "id": "node-red-contrib-cx-tag-emitter",
@@ -281,18 +429,6 @@
         "controlx.io"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-cx-tag-emitter"
-    },
-    {
-      "id": "@node-red-matter/node-red-matter",
-      "version": "0.2.10",
-      "description": "The Node-RED Matter plugin is an open-source project that enables the generation of Matter devices within Node-RED. Matter devices created using this plugin can be seamlessly integrated into popular smart home controllers such as Apple Home, Google Home, ",
-      "updated_at": "2023-09-01T09:14:41.092Z",
-      "types": [],
-      "keywords": [
-        "node-red",
-        "matter"
-      ],
-      "url": "https://flows.nodered.org/node/@node-red-matter/node-red-matter"
     },
     {
       "id": "node-red-contrib-ssh-v3",
@@ -1113,23 +1249,6 @@
       "url": "https://flows.nodered.org/node/node-red-contrib-myhome-bticino-v2"
     },
     {
-      "id": "@racksync/node-red-contrib-low-pass-filter",
-      "version": "0.0.4",
-      "description": "Manipulate data from noise and handle payload as stable as you can with low pass filter.",
-      "updated_at": "2023-08-25T06:54:55.946Z",
-      "types": [],
-      "keywords": [
-        "node-red",
-        "Home Assistant",
-        "HASS",
-        "RACKSYNC",
-        "Noise",
-        "Low Pass",
-        "Filter"
-      ],
-      "url": "https://flows.nodered.org/node/@racksync/node-red-contrib-low-pass-filter"
-    },
-    {
       "id": "node-red-contrib-alice",
       "version": "2.0.6",
       "description": "**NodeRed Home** (node-red-contrib-alice) - это сервис позволит, в несколько простых шагов, подключить любые ваши устройства заведенные в Node-RED к умному дому от Яндекса и управлять ими с помощью голосового помощника Алиса.",
@@ -1319,24 +1438,6 @@
         "novaposhta"
       ],
       "url": "https://flows.nodered.org/node/@platmac/node-red-novaposhta-track"
-    },
-    {
-      "id": "node-red-contrib-openai-wrapper",
-      "version": "1.0.2",
-      "description": "adds Node to call openai api via openai npm package",
-      "updated_at": "2023-08-22T17:22:42.991Z",
-      "types": [
-        "openai-api",
-        "openai-api-config"
-      ],
-      "keywords": [
-        "node-red",
-        "openai",
-        "chatgpt",
-        "openai api",
-        "openai node"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-openai-wrapper"
     },
     {
       "id": "@envidatec/node-red-contrib-jevis",
