@@ -1,7 +1,257 @@
 {
   "name": "Catalogue for Windows",
-  "updated_at": "2023-09-03T19:50:43.379Z",
+  "updated_at": "2023-09-04T20:39:25.763Z",
   "modules": [
+    {
+      "id": "@node-red-matter/node-red-matter",
+      "version": "0.3.0",
+      "description": "The Node-RED Matter plugin is an open-source project that enables the generation of Matter devices within Node-RED. Matter devices created using this plugin can be seamlessly integrated into popular smart home controllers such as Apple Home, Google Home, ",
+      "updated_at": "2023-09-04T12:26:30.742Z",
+      "types": [],
+      "keywords": [
+        "node-red",
+        "matter"
+      ],
+      "url": "https://flows.nodered.org/node/@node-red-matter/node-red-matter"
+    },
+    {
+      "id": "@gregoriusrippenstein/node-red-contrib-introspection",
+      "version": "0.4.1",
+      "description": "Node-RED Editor-only nodes for introspecting flows.",
+      "updated_at": "2023-09-04T12:24:07.874Z",
+      "types": [
+        "Seeker",
+        "Sink",
+        "Screenshot",
+        "Orphans",
+        "IsMobile",
+        "Navigator",
+        "DrawSVG",
+        "GetFlows",
+        "SendFlow",
+        "ClientCode"
+      ],
+      "keywords": [
+        "node-red"
+      ],
+      "url": "https://flows.nodered.org/node/@gregoriusrippenstein/node-red-contrib-introspection"
+    },
+    {
+      "id": "@betaathe/node-red-contrib-http-ntlm-req",
+      "version": "0.1.10",
+      "description": "HTTP request with NTLM",
+      "updated_at": "2023-09-04T08:45:43.064Z",
+      "types": [
+        "http-ntlm-req",
+        "http-ntlm-req-config"
+      ],
+      "keywords": [
+        "node-red",
+        "http",
+        "ntlm"
+      ],
+      "url": "https://flows.nodered.org/node/@betaathe/node-red-contrib-http-ntlm-req"
+    },
+    {
+      "id": "node-red-contrib-grove-base-hat-bash",
+      "version": "1.0.4",
+      "description": "Nodes for Grove Base HAT on Raspberry Pi using bash scripts and other tools",
+      "updated_at": "2023-09-04T08:05:57.584Z",
+      "types": [
+        "grove-led",
+        "grove-button",
+        "grove-light-sensor-v1_2",
+        "grove-rotary-angle-sensor"
+      ],
+      "keywords": [
+        "node-red",
+        "Grove",
+        "Grove Base HAT",
+        "Seeed",
+        "bash"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-grove-base-hat-bash"
+    },
+    {
+      "id": "@digitalnodecom/node-red-contrib-generic-s3",
+      "version": "1.13.0",
+      "description": "Generic node-red S3 nodes",
+      "updated_at": "2023-09-03T20:46:41.208Z",
+      "types": [
+        "client-s3",
+        "List Buckets",
+        "Create Bucket",
+        "List Objects",
+        "List Objects V2",
+        "List Object Versions",
+        "Get Object",
+        "Head Object",
+        "Put Object",
+        "Put Objects",
+        "Delete Object",
+        "Copy Object",
+        "Move Object",
+        "Object Exists"
+      ],
+      "keywords": [
+        "node-red",
+        "s3",
+        "generic"
+      ],
+      "url": "https://flows.nodered.org/node/@digitalnodecom/node-red-contrib-generic-s3"
+    },
+    {
+      "id": "@edgepi-cloud/node-red-edgepi-thermocouple",
+      "version": "1.0.4",
+      "description": "A node-red node for EdgePi thermocouple module",
+      "updated_at": "2023-09-03T19:11:21.729Z",
+      "types": [
+        "edgepi-thermocouple-node"
+      ],
+      "keywords": [
+        "edgepi",
+        "thermocouple",
+        "node-red"
+      ],
+      "url": "https://flows.nodered.org/node/@edgepi-cloud/node-red-edgepi-thermocouple"
+    },
+    {
+      "id": "@edgepi-cloud/node-red-edgepi-relay",
+      "version": "1.0.1",
+      "description": "node-red node for edgepi relay module utilizing remote procedure calls",
+      "updated_at": "2023-09-03T19:04:55.887Z",
+      "types": [
+        "edgepi-relay-node"
+      ],
+      "keywords": [
+        "node-red",
+        "edgepi",
+        "rpc"
+      ],
+      "url": "https://flows.nodered.org/node/@edgepi-cloud/node-red-edgepi-relay"
+    },
+    {
+      "id": "@edgepi-cloud/node-red-edgepi-led",
+      "version": "1.0.4",
+      "description": "Node for EdgePi Led Array",
+      "updated_at": "2023-09-03T19:01:23.885Z",
+      "types": [
+        "edgepi-led-node"
+      ],
+      "keywords": [
+        "node-red",
+        "edgepi",
+        "led",
+        "edgepi-led"
+      ],
+      "url": "https://flows.nodered.org/node/@edgepi-cloud/node-red-edgepi-led"
+    },
+    {
+      "id": "@edgepi-cloud/node-red-edgepi-digital-out",
+      "version": "1.0.4",
+      "description": "node-red node for edgepi digital output module utilizing remote procedure calls",
+      "updated_at": "2023-09-03T19:00:05.710Z",
+      "types": [
+        "edgepi-digital-out-node"
+      ],
+      "keywords": [
+        "node-red",
+        "edgepi",
+        "rpc"
+      ],
+      "url": "https://flows.nodered.org/node/@edgepi-cloud/node-red-edgepi-digital-out"
+    },
+    {
+      "id": "@edgepi-cloud/node-red-edgepi-digital-input",
+      "version": "1.0.1",
+      "description": "node-red node for edgepi digital-input module utilizing remote procedure calls",
+      "updated_at": "2023-09-03T18:58:37.985Z",
+      "types": [
+        "edgepi-digital-input-node"
+      ],
+      "keywords": [
+        "node-red",
+        "edgepi",
+        "rpc"
+      ],
+      "url": "https://flows.nodered.org/node/@edgepi-cloud/node-red-edgepi-digital-input"
+    },
+    {
+      "id": "@edgepi-cloud/node-red-edgepi-dac",
+      "version": "1.0.3",
+      "description": "node-red node for edgepi dac module utilizing remote procedure calls",
+      "updated_at": "2023-09-03T18:56:47.077Z",
+      "types": [
+        "edgepi-dac-node"
+      ],
+      "keywords": [
+        "node-red",
+        "edgepi",
+        "rpc"
+      ],
+      "url": "https://flows.nodered.org/node/@edgepi-cloud/node-red-edgepi-dac"
+    },
+    {
+      "id": "@edgepi-cloud/node-red-edgepi-adc",
+      "version": "1.0.1",
+      "description": "node-red node for edgepi adc module utilizing remote procedure calls",
+      "updated_at": "2023-09-03T18:55:59.925Z",
+      "types": [
+        "edgepi-adc-node"
+      ],
+      "keywords": [
+        "node-red",
+        "edgepi",
+        "rpc"
+      ],
+      "url": "https://flows.nodered.org/node/@edgepi-cloud/node-red-edgepi-adc"
+    },
+    {
+      "id": "@racksync/node-red-contrib-moving-average",
+      "version": "0.0.5",
+      "description": "Computes the moving average of incoming message payloads using a window size defined.",
+      "updated_at": "2023-09-03T18:43:06.426Z",
+      "types": [],
+      "keywords": [
+        "node-red",
+        "Home Assistant",
+        "HASS",
+        "RACKSYNC",
+        "Noise",
+        "Moving Average",
+        "Filter"
+      ],
+      "url": "https://flows.nodered.org/node/@racksync/node-red-contrib-moving-average"
+    },
+    {
+      "id": "@ptarmiganlabs/ctrl-q-nr",
+      "version": "0.0.5",
+      "description": "Node-RED components for cloud and client-managed Qlik Sense",
+      "updated_at": "2023-09-03T18:39:50.792Z",
+      "types": [
+        "qseow-sense-server",
+        "qscloud-tenant",
+        "qseow-app",
+        "qseow-task",
+        "qseow-service-status",
+        "qseow-tag",
+        "qscloud-app",
+        "qscloud-license",
+        "qscloud-reload",
+        "qscloud-reload-status"
+      ],
+      "keywords": [
+        "ctrl-q",
+        "butler",
+        "qlik",
+        "qliksense",
+        "qlikcloud",
+        "senseops",
+        "node-red",
+        "low-code"
+      ],
+      "url": "https://flows.nodered.org/node/@ptarmiganlabs/ctrl-q-nr"
+    },
     {
       "id": "node-red-contrib-onstar2",
       "version": "2.1.15",
@@ -37,41 +287,6 @@
       "url": "https://flows.nodered.org/node/node-red-contrib-onstar2"
     },
     {
-      "id": "@betaathe/node-red-contrib-http-ntlm-req",
-      "version": "0.1.6",
-      "description": "HTTP request with NTLM",
-      "updated_at": "2023-09-03T15:34:50.551Z",
-      "types": [
-        "http-ntlm-req",
-        "http-ntlm-req-config"
-      ],
-      "keywords": [
-        "node-red",
-        "http",
-        "ntlm"
-      ],
-      "url": "https://flows.nodered.org/node/@betaathe/node-red-contrib-http-ntlm-req"
-    },
-    {
-      "id": "node-red-contrib-grove-base-hat-bash",
-      "version": "1.0.3",
-      "description": "Nodes for Grove Base HAT on Raspberry Pi using bash scripts and other tools",
-      "updated_at": "2023-09-03T15:33:35.887Z",
-      "types": [
-        "grove-led",
-        "grove-button",
-        "grove-light-sensor-v1_2"
-      ],
-      "keywords": [
-        "node-red",
-        "Grove",
-        "Grove Base HAT",
-        "Seeed",
-        "bash"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-grove-base-hat-bash"
-    },
-    {
       "id": "apconic-string-parser",
       "version": "1.0.2",
       "description": "- Basic String15 parser for controllers, returns weight.",
@@ -98,28 +313,6 @@
       "url": "https://flows.nodered.org/node/apconic-tcp-connection"
     },
     {
-      "id": "@gregoriusrippenstein/node-red-contrib-introspection",
-      "version": "0.4.0",
-      "description": "Node-RED Editor-only nodes for introspecting flows.",
-      "updated_at": "2023-09-03T08:15:46.385Z",
-      "types": [
-        "Seeker",
-        "Sink",
-        "Screenshot",
-        "Orphans",
-        "IsMobile",
-        "Navigator",
-        "DrawSVG",
-        "GetFlows",
-        "SendFlow",
-        "ClientCode"
-      ],
-      "keywords": [
-        "node-red"
-      ],
-      "url": "https://flows.nodered.org/node/@gregoriusrippenstein/node-red-contrib-introspection"
-    },
-    {
       "id": "node-red-contrib-axis-host",
       "version": "1.0.0",
       "description": "Access resources in Axis devices when Node-RED is running on the Axis device",
@@ -133,35 +326,6 @@
         "Axis"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-axis-host"
-    },
-    {
-      "id": "@ptarmiganlabs/ctrl-q-nr",
-      "version": "0.0.4",
-      "description": "Node-RED components for cloud and client-managed Qlik Sense",
-      "updated_at": "2023-09-03T06:52:15.090Z",
-      "types": [
-        "qseow-sense-server",
-        "qscloud-tenant",
-        "qseow-app",
-        "qseow-task",
-        "qseow-service-status",
-        "qseow-tag",
-        "qscloud-app",
-        "qscloud-license",
-        "qscloud-reload",
-        "qscloud-reload-status"
-      ],
-      "keywords": [
-        "ctrl-q",
-        "butler",
-        "qlik",
-        "qliksense",
-        "qlikcloud",
-        "senseops",
-        "node-red",
-        "low-code"
-      ],
-      "url": "https://flows.nodered.org/node/@ptarmiganlabs/ctrl-q-nr"
     },
     {
       "id": "node-red-contrib-openai-wrapper",
@@ -308,36 +472,6 @@
       "url": "https://flows.nodered.org/node/node-red-contrib-ui-svg"
     },
     {
-      "id": "@edgepi-cloud/node-red-edgepi-digital-out",
-      "version": "1.0.3",
-      "description": "node-red node for edgepi digital output module utilizing remote procedure calls",
-      "updated_at": "2023-09-01T21:22:25.480Z",
-      "types": [
-        "edgepi-digital-out-node"
-      ],
-      "keywords": [
-        "node-red",
-        "edgepi",
-        "rpc"
-      ],
-      "url": "https://flows.nodered.org/node/@edgepi-cloud/node-red-edgepi-digital-out"
-    },
-    {
-      "id": "@edgepi-cloud/node-red-edgepi-adc",
-      "version": "1.0.0",
-      "description": "node-red node for edgepi adc module utilizing remote procedure calls",
-      "updated_at": "2023-09-01T20:40:03.039Z",
-      "types": [
-        "edgepi-adc-node"
-      ],
-      "keywords": [
-        "node-red",
-        "edgepi",
-        "rpc"
-      ],
-      "url": "https://flows.nodered.org/node/@edgepi-cloud/node-red-edgepi-adc"
-    },
-    {
       "id": "node-red-contrib-topsail",
       "version": "3.0.0",
       "description": "Interface with Topsail",
@@ -436,18 +570,6 @@
       "url": "https://flows.nodered.org/node/node-red-contrib-myq"
     },
     {
-      "id": "@node-red-matter/node-red-matter",
-      "version": "0.2.11",
-      "description": "The Node-RED Matter plugin is an open-source project that enables the generation of Matter devices within Node-RED. Matter devices created using this plugin can be seamlessly integrated into popular smart home controllers such as Apple Home, Google Home, ",
-      "updated_at": "2023-09-01T10:27:44.026Z",
-      "types": [],
-      "keywords": [
-        "node-red",
-        "matter"
-      ],
-      "url": "https://flows.nodered.org/node/@node-red-matter/node-red-matter"
-    },
-    {
       "id": "node-red-contrib-cx-tag-emitter",
       "version": "2.4.11",
       "description": "Emits tag values on change",
@@ -538,21 +660,6 @@
         "senseway"
       ],
       "url": "https://flows.nodered.org/node/@sensemore/senseway-node"
-    },
-    {
-      "id": "@edgepi-cloud/node-red-edgepi-dac",
-      "version": "1.0.2",
-      "description": "node-red node for edgepi dac module utilizing remote procedure calls",
-      "updated_at": "2023-08-31T23:56:46.610Z",
-      "types": [
-        "edgepi-dac-node"
-      ],
-      "keywords": [
-        "node-red",
-        "edgepi",
-        "rpc"
-      ],
-      "url": "https://flows.nodered.org/node/@edgepi-cloud/node-red-edgepi-dac"
     },
     {
       "id": "node-red-node-multilang-sentiment",
@@ -688,22 +795,6 @@
         "shelly"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-shelly"
-    },
-    {
-      "id": "@edgepi-cloud/node-red-edgepi-led",
-      "version": "1.0.3",
-      "description": "Node for EdgePi Led Array",
-      "updated_at": "2023-08-30T17:52:19.259Z",
-      "types": [
-        "edgepi-led-node"
-      ],
-      "keywords": [
-        "node-red",
-        "edgepi",
-        "led",
-        "edgepi-led"
-      ],
-      "url": "https://flows.nodered.org/node/@edgepi-cloud/node-red-edgepi-led"
     },
     {
       "id": "@flowforge/node-red-dashboard",
@@ -934,36 +1025,6 @@
       "url": "https://flows.nodered.org/node/@crusaider/node-red-contrib-vattenfall-tariff"
     },
     {
-      "id": "@edgepi-cloud/node-red-edgepi-thermocouple",
-      "version": "1.0.3",
-      "description": "A node-red node for EdgePi thermocouple module",
-      "updated_at": "2023-08-28T22:43:32.447Z",
-      "types": [
-        "edgepi-thermocouple-node"
-      ],
-      "keywords": [
-        "edgepi",
-        "thermocouple",
-        "node-red"
-      ],
-      "url": "https://flows.nodered.org/node/@edgepi-cloud/node-red-edgepi-thermocouple"
-    },
-    {
-      "id": "@edgepi-cloud/node-red-edgepi-digital-input",
-      "version": "1.0.0",
-      "description": "node-red node for edgepi digital-input module utilizing remote procedure calls",
-      "updated_at": "2023-08-28T20:16:10.601Z",
-      "types": [
-        "edgepi-digital-input-node"
-      ],
-      "keywords": [
-        "node-red",
-        "edgepi",
-        "rpc"
-      ],
-      "url": "https://flows.nodered.org/node/@edgepi-cloud/node-red-edgepi-digital-input"
-    },
-    {
       "id": "@siglesiasg/node-red-hyperledger-fabric-gateway",
       "version": "1.0.1",
       "description": "Hyperledger Fabric 2.x nodes for node-red with latest fabric-gateway library",
@@ -992,21 +1053,6 @@
         "fabric-gateway"
       ],
       "url": "https://flows.nodered.org/node/@siglesiasg/node-red-hyperledger-fabric-gateway"
-    },
-    {
-      "id": "@edgepi-cloud/node-red-edgepi-relay",
-      "version": "1.0.0",
-      "description": "node-red node for edgepi relay module utilizing remote procedure calls",
-      "updated_at": "2023-08-28T16:25:56.030Z",
-      "types": [
-        "edgepi-relay-node"
-      ],
-      "keywords": [
-        "node-red",
-        "edgepi",
-        "rpc"
-      ],
-      "url": "https://flows.nodered.org/node/@edgepi-cloud/node-red-edgepi-relay"
     },
     {
       "id": "@jambonz/node-red-contrib-jambonz",
@@ -1671,33 +1717,6 @@
       "url": "https://flows.nodered.org/node/node-red-contrib-spruthub"
     },
     {
-      "id": "@digitalnodecom/node-red-contrib-generic-s3",
-      "version": "1.12.2",
-      "description": "Generic node-red S3 nodes",
-      "updated_at": "2023-08-19T17:44:21.985Z",
-      "types": [
-        "client-s3",
-        "List Buckets",
-        "Create Bucket",
-        "List Objects",
-        "List Objects V2",
-        "List Object Versions",
-        "Get Object",
-        "Head Object",
-        "Put Object",
-        "Put Objects",
-        "Delete Object",
-        "Copy Object",
-        "Move Object"
-      ],
-      "keywords": [
-        "node-red",
-        "s3",
-        "generic"
-      ],
-      "url": "https://flows.nodered.org/node/@digitalnodecom/node-red-contrib-generic-s3"
-    },
-    {
       "id": "node-red-node-pibrella",
       "version": "0.1.0",
       "description": "A Node-RED node to read from and write to a Pibrella Raspberry Pi add-on board",
@@ -1711,23 +1730,6 @@
         "pibrella"
       ],
       "url": "https://flows.nodered.org/node/node-red-node-pibrella"
-    },
-    {
-      "id": "@racksync/node-red-contrib-moving-average",
-      "version": "0.0.4",
-      "description": "Computes the moving average of incoming message payloads using a window size defined.",
-      "updated_at": "2023-08-19T11:25:04.155Z",
-      "types": [],
-      "keywords": [
-        "node-red",
-        "Home Assistant",
-        "HASS",
-        "RACKSYNC",
-        "Noise",
-        "Moving Average",
-        "Filter"
-      ],
-      "url": "https://flows.nodered.org/node/@racksync/node-red-contrib-moving-average"
     },
     {
       "id": "@waldbaer/node-red-persistent-values",
