@@ -1,0 +1,52 @@
+#0 building with "default" instance using docker driver
+
+#1 [internal] load build definition from Dockerfile
+#1 transferring dockerfile: 128B done
+#1 DONE 0.0s
+
+#2 [internal] load .dockerignore
+#2 transferring context: 2B done
+#2 DONE 0.0s
+
+#3 [internal] load metadata for docker.io/nodered/node-red:latest
+#3 DONE 0.3s
+
+#4 [1/2] FROM docker.io/nodered/node-red@sha256:5fd729fce9b787903e2b443a2fc052c6253b737ca38e65df7b843cd4170bdb5c
+#4 CACHED
+
+#5 [2/2] RUN npm install npm install @edgepi-cloud/node-red-edgepi-relay@1.0.1
+#5 3.292 npm WARN EBADENGINE Unsupported engine {
+#5 3.292 npm WARN EBADENGINE   package: 'npm@10.0.0',
+#5 3.293 npm WARN EBADENGINE   required: { node: '^18.17.0 || >=20.5.0' },
+#5 3.293 npm WARN EBADENGINE   current: { node: 'v16.20.1', npm: '8.19.4' }
+#5 3.293 npm WARN EBADENGINE }
+#5 7.417 
+#5 7.417 added 87 packages, changed 1 package, and audited 644 packages in 7s
+#5 7.418 
+#5 7.418 73 packages are looking for funding
+#5 7.418   run `npm fund` for details
+#5 7.432 
+#5 7.432 10 vulnerabilities (2 low, 8 moderate)
+#5 7.432 
+#5 7.432 To address issues that do not require attention, run:
+#5 7.432   npm audit fix
+#5 7.432 
+#5 7.432 To address all issues (including breaking changes), run:
+#5 7.432   npm audit fix --force
+#5 7.432 
+#5 7.432 Run `npm audit` for details.
+#5 7.433 npm notice 
+#5 7.433 npm notice New major version of npm available! 8.19.4 -> 10.0.0
+#5 7.433 npm notice Changelog: <https://github.com/npm/cli/releases/tag/v10.0.0>
+#5 7.433 npm notice Run `npm install -g npm@10.0.0` to update!
+#5 7.433 npm notice 
+#5 DONE 7.6s
+
+#6 exporting to image
+#6 exporting layers
+#6 exporting layers 1.6s done
+#6 writing image sha256:4257e1f169abbd3c2ac69f4529b38bfed7b5ccd93c992593e377794b839e7894 done
+#6 naming to docker.io/library/tmp done
+#6 DONE 1.6s
+
+----
