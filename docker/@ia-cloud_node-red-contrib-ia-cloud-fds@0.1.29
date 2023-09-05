@@ -1,0 +1,58 @@
+#0 building with "default" instance using docker driver
+
+#1 [internal] load .dockerignore
+#1 transferring context: 2B done
+#1 DONE 0.0s
+
+#2 [internal] load build definition from Dockerfile
+#2 transferring dockerfile: 133B done
+#2 DONE 0.0s
+
+#3 [internal] load metadata for docker.io/nodered/node-red:latest
+#3 DONE 0.1s
+
+#4 [1/2] FROM docker.io/nodered/node-red@sha256:5fd729fce9b787903e2b443a2fc052c6253b737ca38e65df7b843cd4170bdb5c
+#4 CACHED
+
+#5 [2/2] RUN npm install npm install @ia-cloud/node-red-contrib-ia-cloud-fds@0.1.29
+#5 5.645 npm WARN EBADENGINE Unsupported engine {
+#5 5.646 npm WARN EBADENGINE   package: 'npm@10.0.0',
+#5 5.646 npm WARN EBADENGINE   required: { node: '^18.17.0 || >=20.5.0' },
+#5 5.646 npm WARN EBADENGINE   current: { node: 'v16.20.1', npm: '8.19.4' }
+#5 5.647 npm WARN EBADENGINE }
+#5 8.044 npm WARN deprecated har-validator@5.1.5: this library is no longer supported
+#5 8.160 npm WARN deprecated uuid@3.4.0: Please upgrade  to version 7 or higher.  Older versions may use Math.random() in certain circumstances, which is known to be problematic.  See https://v8.dev/blog/math-random for details.
+#5 8.171 npm WARN deprecated request@2.88.2: request has been deprecated, see https://github.com/request/request/issues/3142
+#5 13.69 
+#5 13.69 added 113 packages, and audited 670 packages in 13s
+#5 13.69 
+#5 13.69 93 packages are looking for funding
+#5 13.69   run `npm fund` for details
+#5 13.70 
+#5 13.70 12 vulnerabilities (2 low, 10 moderate)
+#5 13.70 
+#5 13.70 To address issues that do not require attention, run:
+#5 13.70   npm audit fix
+#5 13.70 
+#5 13.70 To address all issues possible (including breaking changes), run:
+#5 13.70   npm audit fix --force
+#5 13.70 
+#5 13.70 Some issues need review, and may require choosing
+#5 13.70 a different dependency.
+#5 13.70 
+#5 13.70 Run `npm audit` for details.
+#5 13.70 npm notice 
+#5 13.70 npm notice New major version of npm available! 8.19.4 -> 10.0.0
+#5 13.70 npm notice Changelog: <https://github.com/npm/cli/releases/tag/v10.0.0>
+#5 13.70 npm notice Run `npm install -g npm@10.0.0` to update!
+#5 13.70 npm notice 
+#5 DONE 13.9s
+
+#6 exporting to image
+#6 exporting layers
+#6 exporting layers 1.4s done
+#6 writing image sha256:e9e7971a4b3c145f826fe1522470e902aaf9c39c7da5d243d8936156be8b5b9d done
+#6 naming to docker.io/library/tmp done
+#6 DONE 1.4s
+
+----
