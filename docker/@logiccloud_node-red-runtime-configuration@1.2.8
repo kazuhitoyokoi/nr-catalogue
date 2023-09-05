@@ -1,0 +1,52 @@
+#0 building with "default" instance using docker driver
+
+#1 [internal] load build definition from Dockerfile
+#1 transferring dockerfile: 135B done
+#1 DONE 0.0s
+
+#2 [internal] load .dockerignore
+#2 transferring context: 2B done
+#2 DONE 0.0s
+
+#3 [internal] load metadata for docker.io/nodered/node-red:latest
+#3 DONE 0.1s
+
+#4 [1/2] FROM docker.io/nodered/node-red@sha256:5fd729fce9b787903e2b443a2fc052c6253b737ca38e65df7b843cd4170bdb5c
+#4 CACHED
+
+#5 [2/2] RUN npm install npm install @logiccloud/node-red-runtime-configuration@1.2.8
+#5 2.009 npm WARN EBADENGINE Unsupported engine {
+#5 2.010 npm WARN EBADENGINE   package: 'npm@10.0.0',
+#5 2.010 npm WARN EBADENGINE   required: { node: '^18.17.0 || >=20.5.0' },
+#5 2.010 npm WARN EBADENGINE   current: { node: 'v16.20.1', npm: '8.19.4' }
+#5 2.010 npm WARN EBADENGINE }
+#5 5.286 
+#5 5.286 added 3 packages, and audited 560 packages in 5s
+#5 5.287 
+#5 5.287 64 packages are looking for funding
+#5 5.287   run `npm fund` for details
+#5 5.298 
+#5 5.298 10 vulnerabilities (2 low, 8 moderate)
+#5 5.298 
+#5 5.298 To address issues that do not require attention, run:
+#5 5.298   npm audit fix
+#5 5.298 
+#5 5.298 To address all issues (including breaking changes), run:
+#5 5.298   npm audit fix --force
+#5 5.298 
+#5 5.298 Run `npm audit` for details.
+#5 5.299 npm notice 
+#5 5.299 npm notice New major version of npm available! 8.19.4 -> 10.0.0
+#5 5.299 npm notice Changelog: <https://github.com/npm/cli/releases/tag/v10.0.0>
+#5 5.299 npm notice Run `npm install -g npm@10.0.0` to update!
+#5 5.299 npm notice 
+#5 DONE 5.3s
+
+#6 exporting to image
+#6 exporting layers
+#6 exporting layers 0.9s done
+#6 writing image sha256:5173fa3d28b6ab500ce69006c7f4472d96fdae30398c3d49deed54c121031bbb done
+#6 naming to docker.io/library/tmp done
+#6 DONE 0.9s
+
+----
