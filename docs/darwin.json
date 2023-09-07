@@ -1,7 +1,173 @@
 {
   "name": "Catalogue for macOS",
-  "updated_at": "2023-09-06T20:51:54.055Z",
+  "updated_at": "2023-09-07T21:29:42.533Z",
   "modules": [
+    {
+      "id": "node-red-contrib-grove-base-hat-bash",
+      "version": "1.0.8",
+      "description": "Nodes for Grove Base HAT on Raspberry Pi using bash scripts and other tools",
+      "updated_at": "2023-09-07T17:52:39.052Z",
+      "types": [
+        "grove-led",
+        "grove-relay",
+        "grove-buzzer",
+        "grove-button",
+        "grove-light-sensor-v1_2",
+        "grove-rotary-angle-sensor"
+      ],
+      "keywords": [
+        "node-red",
+        "Grove",
+        "Grove Base HAT",
+        "Seeed",
+        "bash"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-grove-base-hat-bash"
+    },
+    {
+      "id": "@ptarmiganlabs/ctrl-q-nr",
+      "version": "0.1.0",
+      "description": "Node-RED components for cloud and client-managed Qlik Sense",
+      "updated_at": "2023-09-07T17:50:27.669Z",
+      "types": [
+        "qseow-sense-server",
+        "qscloud-tenant",
+        "qseow-app",
+        "qseow-task",
+        "qseow-service-status",
+        "qseow-tag",
+        "qscloud-app",
+        "qscloud-license",
+        "qscloud-reload",
+        "qscloud-reload-status"
+      ],
+      "keywords": [
+        "ctrl-q",
+        "butler",
+        "qlik",
+        "qliksense",
+        "qlikcloud",
+        "senseops",
+        "node-red",
+        "low-code"
+      ],
+      "url": "https://flows.nodered.org/node/@ptarmiganlabs/ctrl-q-nr"
+    },
+    {
+      "id": "node-red-contrib-mf-mavlink",
+      "version": "2.0.6",
+      "description": "A MAVLink converter for Node-RED",
+      "updated_at": "2023-09-07T17:11:34.938Z",
+      "types": [
+        "MAVlink"
+      ],
+      "keywords": [
+        "node-red"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-mf-mavlink"
+    },
+    {
+      "id": "node-red-contrib-opcua",
+      "version": "0.2.314",
+      "description": "A Node-RED node to communicate via OPC UA based on node-opcua library.",
+      "updated_at": "2023-09-07T13:39:10.114Z",
+      "types": [
+        "OpcUa-Item",
+        "OpcUa-Client",
+        "OpcUa-Browser",
+        "OpcUa-Server",
+        "OpcUa-Endpoint",
+        "OpcUa-Event",
+        "OpcUa-Method",
+        "OpcUa-Rights",
+        "OpcUa-Discovery"
+      ],
+      "keywords": [
+        "node-red",
+        "OPC UA",
+        "opc-ua",
+        "unified automation",
+        "opc foundation",
+        "node-opcua"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-opcua"
+    },
+    {
+      "id": "@spectraautomation/node-red-urban-io",
+      "version": "1.1.1",
+      "updated_at": "2023-09-07T10:23:24.102Z",
+      "types": [
+        "urban-io-config",
+        "urban-input",
+        "urban-output"
+      ],
+      "keywords": [
+        "node-red",
+        "urbancontroller",
+        "urban controller",
+        "spectra",
+        "modbus",
+        "icpdas"
+      ],
+      "url": "https://flows.nodered.org/node/@spectraautomation/node-red-urban-io"
+    },
+    {
+      "id": "node-red-syh",
+      "version": "1.0.3",
+      "description": "自定义节点",
+      "updated_at": "2023-09-07T08:57:55.082Z",
+      "types": [
+        "lower-case"
+      ],
+      "keywords": [
+        "node-red"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-syh"
+    },
+    {
+      "id": "node-red-contrib-alice",
+      "version": "2.1.2",
+      "description": "**NodeRed Home** (node-red-contrib-alice) - это сервис позволит, в несколько простых шагов, подключить любые ваши устройства заведенные в Node-RED к умному дому от Яндекса и управлять ими с помощью голосового помощника Алиса.",
+      "updated_at": "2023-09-07T08:12:05.713Z",
+      "types": [
+        "alice-service",
+        "alice-device",
+        "On_Off",
+        "Toggle",
+        "Range",
+        "Color",
+        "Mode",
+        "Sensor",
+        "Event",
+        "Video"
+      ],
+      "keywords": [
+        "node-red",
+        "yandex",
+        "alice",
+        "яндекс",
+        "алиса"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-alice"
+    },
+    {
+      "id": "node-red-contrib-unifi",
+      "version": "0.3.8",
+      "description": "Node for Node-RED to connect to a UniFi Controller ",
+      "updated_at": "2023-09-06T18:57:10.123Z",
+      "types": [
+        "unificonfig",
+        "Unifi",
+        "UnifiWS"
+      ],
+      "keywords": [
+        "node-red",
+        "unifi",
+        "ubnt",
+        "Ubiquiti Networks"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-unifi"
+    },
     {
       "id": "@node-red-contrib-themes/theme-collection",
       "version": "3.1.1",
@@ -260,32 +426,6 @@
       "url": "https://flows.nodered.org/node/node-red-contrib-matrix-chat"
     },
     {
-      "id": "node-red-contrib-alice",
-      "version": "2.1.1",
-      "description": "**NodeRed Home** (node-red-contrib-alice) - это сервис позволит, в несколько простых шагов, подключить любые ваши устройства заведенные в Node-RED к умному дому от Яндекса и управлять ими с помощью голосового помощника Алиса.",
-      "updated_at": "2023-09-05T17:18:59.118Z",
-      "types": [
-        "alice-service",
-        "alice-device",
-        "On_Off",
-        "Toggle",
-        "Range",
-        "Color",
-        "Mode",
-        "Sensor",
-        "Event",
-        "Video"
-      ],
-      "keywords": [
-        "node-red",
-        "yandex",
-        "alice",
-        "яндекс",
-        "алиса"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-alice"
-    },
-    {
       "id": "@smartdcc/dccboxed-nodered-nodes",
       "version": "0.4.0",
       "description": "Collection of nodes for NodeRED to facilitate interfacing with DCC Boxed",
@@ -301,19 +441,6 @@
         "smets2"
       ],
       "url": "https://flows.nodered.org/node/@smartdcc/dccboxed-nodered-nodes"
-    },
-    {
-      "id": "node-red-contrib-mf-mavlink",
-      "version": "2.0.1",
-      "description": "A MAVLink converter for Node-RED",
-      "updated_at": "2023-09-05T13:31:07.755Z",
-      "types": [
-        "MAVlink"
-      ],
-      "keywords": [
-        "node-red"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-mf-mavlink"
     },
     {
       "id": "@sckl/node-red-contrib-oparl",
@@ -587,26 +714,6 @@
       "url": "https://flows.nodered.org/node/mpowr-it-node-red-sentry-node"
     },
     {
-      "id": "node-red-contrib-grove-base-hat-bash",
-      "version": "1.0.4",
-      "description": "Nodes for Grove Base HAT on Raspberry Pi using bash scripts and other tools",
-      "updated_at": "2023-09-04T08:05:57.584Z",
-      "types": [
-        "grove-led",
-        "grove-button",
-        "grove-light-sensor-v1_2",
-        "grove-rotary-angle-sensor"
-      ],
-      "keywords": [
-        "node-red",
-        "Grove",
-        "Grove Base HAT",
-        "Seeed",
-        "bash"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-grove-base-hat-bash"
-    },
-    {
       "id": "@digitalnodecom/node-red-contrib-generic-s3",
       "version": "1.13.0",
       "description": "Generic node-red S3 nodes",
@@ -758,35 +865,6 @@
       "url": "https://flows.nodered.org/node/@racksync/node-red-contrib-moving-average"
     },
     {
-      "id": "@ptarmiganlabs/ctrl-q-nr",
-      "version": "0.0.5",
-      "description": "Node-RED components for cloud and client-managed Qlik Sense",
-      "updated_at": "2023-09-03T18:39:50.792Z",
-      "types": [
-        "qseow-sense-server",
-        "qscloud-tenant",
-        "qseow-app",
-        "qseow-task",
-        "qseow-service-status",
-        "qseow-tag",
-        "qscloud-app",
-        "qscloud-license",
-        "qscloud-reload",
-        "qscloud-reload-status"
-      ],
-      "keywords": [
-        "ctrl-q",
-        "butler",
-        "qlik",
-        "qliksense",
-        "qlikcloud",
-        "senseops",
-        "node-red",
-        "low-code"
-      ],
-      "url": "https://flows.nodered.org/node/@ptarmiganlabs/ctrl-q-nr"
-    },
-    {
       "id": "node-red-contrib-onstar2",
       "version": "2.1.15",
       "description": "An updated Node-RED Library using OnStarJS, an unofficial client library for the OnStar Vehicle API",
@@ -895,24 +973,6 @@
         "Filter"
       ],
       "url": "https://flows.nodered.org/node/@racksync/node-red-contrib-low-pass-filter"
-    },
-    {
-      "id": "node-red-contrib-unifi",
-      "version": "0.3.7",
-      "description": "Node for Node-RED to connect to a UniFi Controller ",
-      "updated_at": "2023-09-02T14:28:39.327Z",
-      "types": [
-        "unificonfig",
-        "Unifi",
-        "UnifiWS"
-      ],
-      "keywords": [
-        "node-red",
-        "unifi",
-        "ubnt",
-        "Ubiquiti Networks"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-unifi"
     },
     {
       "id": "node-red-contrib-amap",
@@ -1649,32 +1709,6 @@
         "mongodb"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-mongodb4"
-    },
-    {
-      "id": "node-red-contrib-opcua",
-      "version": "0.2.313",
-      "description": "A Node-RED node to communicate via OPC UA based on node-opcua library.",
-      "updated_at": "2023-08-27T08:22:55.428Z",
-      "types": [
-        "OpcUa-Item",
-        "OpcUa-Client",
-        "OpcUa-Browser",
-        "OpcUa-Server",
-        "OpcUa-Endpoint",
-        "OpcUa-Event",
-        "OpcUa-Method",
-        "OpcUa-Rights",
-        "OpcUa-Discovery"
-      ],
-      "keywords": [
-        "node-red",
-        "OPC UA",
-        "opc-ua",
-        "unified automation",
-        "opc foundation",
-        "node-opcua"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-opcua"
     },
     {
       "id": "@mschaeffler/node-red-lora",
@@ -11592,21 +11626,6 @@
         "rasa action server"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-rasa-actionserver"
-    },
-    {
-      "id": "@spectraautomation/node-red-urban-io",
-      "version": "1.0.2",
-      "updated_at": "2023-03-17T10:48:35.729Z",
-      "types": [
-        "urban-io-config",
-        "urban-input",
-        "urban-output"
-      ],
-      "keywords": [
-        "node-red",
-        "modbus"
-      ],
-      "url": "https://flows.nodered.org/node/@spectraautomation/node-red-urban-io"
     },
     {
       "id": "node-red-node-snmp",
