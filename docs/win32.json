@@ -1,12 +1,128 @@
 {
   "name": "Catalogue for Windows",
-  "updated_at": "2023-09-07T19:39:12.806Z",
+  "updated_at": "2023-09-08T20:52:38.613Z",
   "modules": [
     {
+      "id": "node-red-wechat-syh",
+      "version": "0.0.2",
+      "description": "node-red-wechat-syh节点",
+      "updated_at": "2023-09-08T13:29:44.918Z",
+      "types": [
+        "wechat-syh-get",
+        "wechat-syh-post",
+        "wechat-syh-out",
+        "wechat-syh-config"
+      ],
+      "keywords": [
+        "node-red",
+        "wechat"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-wechat-syh"
+    },
+    {
+      "id": "node-red-contrib-tak-registration",
+      "version": "0.9.0",
+      "description": "A Node-RED node to register to TAK and to help wrap files as datapackages to send to TAK",
+      "updated_at": "2023-09-08T13:00:24.063Z",
+      "types": [
+        "tak registration",
+        "tak ingest"
+      ],
+      "keywords": [
+        "TAK",
+        "COT",
+        "node-red"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-tak-registration"
+    },
+    {
+      "id": "node-red-contrib-simple-whisper",
+      "version": "1.0.1",
+      "description": "Node-REDでWhisperを使って文字起こしができます。",
+      "updated_at": "2023-09-08T08:33:39.716Z",
+      "types": [
+        "simple-whisper"
+      ],
+      "keywords": [
+        "whisper",
+        "node-red"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-simple-whisper"
+    },
+    {
+      "id": "node-red-contrib-grove-base-hat-bash",
+      "version": "1.0.13",
+      "description": "Nodes for Grove Base HAT on Raspberry Pi using bash scripts and other tools",
+      "updated_at": "2023-09-08T05:17:21.720Z",
+      "types": [
+        "grove-led",
+        "grove-relay",
+        "grove-buzzer",
+        "grove-button",
+        "grove-light-sensor-v1_2",
+        "grove-rotary-angle-sensor"
+      ],
+      "keywords": [
+        "node-red",
+        "Grove",
+        "Grove Base HAT",
+        "Seeed",
+        "bash"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-grove-base-hat-bash"
+    },
+    {
+      "id": "node-red-contrib-amap",
+      "version": "1.1.0",
+      "description": "node red node for amap",
+      "updated_at": "2023-09-08T04:27:49.339Z",
+      "types": [
+        "amap-distance",
+        "amap-key",
+        "amap-location",
+        "amap-convert"
+      ],
+      "keywords": [
+        "node-red",
+        "gaode",
+        "amap"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-amap"
+    },
+    {
+      "id": "@ptarmiganlabs/ctrl-q-nr",
+      "version": "0.1.0",
+      "description": "Node-RED components for cloud and client-managed Qlik Sense",
+      "updated_at": "2023-09-07T17:50:27.669Z",
+      "types": [
+        "qseow-sense-server",
+        "qscloud-tenant",
+        "qseow-app",
+        "qseow-task",
+        "qseow-service-status",
+        "qseow-tag",
+        "qscloud-app",
+        "qscloud-license",
+        "qscloud-reload",
+        "qscloud-reload-status"
+      ],
+      "keywords": [
+        "ctrl-q",
+        "butler",
+        "qlik",
+        "qliksense",
+        "qlikcloud",
+        "senseops",
+        "node-red",
+        "low-code"
+      ],
+      "url": "https://flows.nodered.org/node/@ptarmiganlabs/ctrl-q-nr"
+    },
+    {
       "id": "node-red-contrib-mf-mavlink",
-      "version": "2.0.5",
+      "version": "2.0.6",
       "description": "A MAVLink converter for Node-RED",
-      "updated_at": "2023-09-07T14:12:37.842Z",
+      "updated_at": "2023-09-07T17:11:34.938Z",
       "types": [
         "MAVlink"
       ],
@@ -61,19 +177,6 @@
       "url": "https://flows.nodered.org/node/@spectraautomation/node-red-urban-io"
     },
     {
-      "id": "node-red-syh",
-      "version": "1.0.3",
-      "description": "自定义节点",
-      "updated_at": "2023-09-07T08:57:55.082Z",
-      "types": [
-        "lower-case"
-      ],
-      "keywords": [
-        "node-red"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-syh"
-    },
-    {
       "id": "node-red-contrib-alice",
       "version": "2.1.2",
       "description": "**NodeRed Home** (node-red-contrib-alice) - это сервис позволит, в несколько простых шагов, подключить любые ваши устройства заведенные в Node-RED к умному дому от Яндекса и управлять ими с помощью голосового помощника Алиса.",
@@ -98,35 +201,6 @@
         "алиса"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-alice"
-    },
-    {
-      "id": "@ptarmiganlabs/ctrl-q-nr",
-      "version": "0.0.6",
-      "description": "Node-RED components for cloud and client-managed Qlik Sense",
-      "updated_at": "2023-09-06T20:42:42.665Z",
-      "types": [
-        "qseow-sense-server",
-        "qscloud-tenant",
-        "qseow-app",
-        "qseow-task",
-        "qseow-service-status",
-        "qseow-tag",
-        "qscloud-app",
-        "qscloud-license",
-        "qscloud-reload",
-        "qscloud-reload-status"
-      ],
-      "keywords": [
-        "ctrl-q",
-        "butler",
-        "qlik",
-        "qliksense",
-        "qlikcloud",
-        "senseops",
-        "node-red",
-        "low-code"
-      ],
-      "url": "https://flows.nodered.org/node/@ptarmiganlabs/ctrl-q-nr"
     },
     {
       "id": "node-red-contrib-unifi",
@@ -692,26 +766,6 @@
       "url": "https://flows.nodered.org/node/mpowr-it-node-red-sentry-node"
     },
     {
-      "id": "node-red-contrib-grove-base-hat-bash",
-      "version": "1.0.4",
-      "description": "Nodes for Grove Base HAT on Raspberry Pi using bash scripts and other tools",
-      "updated_at": "2023-09-04T08:05:57.584Z",
-      "types": [
-        "grove-led",
-        "grove-button",
-        "grove-light-sensor-v1_2",
-        "grove-rotary-angle-sensor"
-      ],
-      "keywords": [
-        "node-red",
-        "Grove",
-        "Grove Base HAT",
-        "Seeed",
-        "bash"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-grove-base-hat-bash"
-    },
-    {
       "id": "@digitalnodecom/node-red-contrib-generic-s3",
       "version": "1.13.0",
       "description": "Generic node-red S3 nodes",
@@ -973,24 +1027,6 @@
       "url": "https://flows.nodered.org/node/@racksync/node-red-contrib-low-pass-filter"
     },
     {
-      "id": "node-red-contrib-amap",
-      "version": "1.0.0",
-      "description": "node red node for amap",
-      "updated_at": "2023-09-02T13:13:37.243Z",
-      "types": [
-        "amap-distance",
-        "amap-key",
-        "amap-location",
-        "amap-convert"
-      ],
-      "keywords": [
-        "node-red",
-        "gaode",
-        "amap"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-amap"
-    },
-    {
       "id": "node-red-contrib-knx-ultimate",
       "version": "2.1.46",
       "description": "Control your KNX intallation via Node-Red! Single Node KNX IN/OUT with optional ETS group address importer. Easy to use and highly configurable. With integrated Philips HUE devices handling.",
@@ -1097,22 +1133,6 @@
         "tak"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-web-worldmap"
-    },
-    {
-      "id": "node-red-contrib-tak-registration",
-      "version": "0.8.3",
-      "description": "A Node-RED node to register to TAK and to help wrap files as datapackages to send to TAK",
-      "updated_at": "2023-09-01T12:24:15.549Z",
-      "types": [
-        "tak registration",
-        "tak ingest"
-      ],
-      "keywords": [
-        "TAK",
-        "COT",
-        "node-red"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-tak-registration"
     },
     {
       "id": "node-red-contrib-bsb-lan",
