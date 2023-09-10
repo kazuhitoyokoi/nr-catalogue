@@ -1,12 +1,178 @@
 {
   "name": "Catalogue for macOS",
-  "updated_at": "2023-09-08T22:41:45.794Z",
+  "updated_at": "2023-09-10T21:01:51.578Z",
   "modules": [
     {
+      "id": "node-red-contrib-aula-education",
+      "version": "0.5.0",
+      "description": "A Node-Red Node for collecting data from aula the danish educational platform.",
+      "updated_at": "2023-09-10T18:51:51.674Z",
+      "types": [
+        "aulaNode-config",
+        "aulaNode"
+      ],
+      "keywords": [
+        "node-red",
+        "aula",
+        "education"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-aula-education"
+    },
+    {
+      "id": "node-red-contrib-zwave-js",
+      "version": "8.2.1",
+      "description": "The most powerful, high performing and highly polished Z-Wave node for Node-RED based on Z-Wave JS. If you want a fully featured Z-Wave framework in your Node-RED instance, you have found it.",
+      "updated_at": "2023-09-10T15:29:42.763Z",
+      "types": [
+        "zwave-js",
+        "zwave-device",
+        "event-filter",
+        "cmd-factory"
+      ],
+      "keywords": [
+        "node-red",
+        "zwave",
+        "zwave-js",
+        "controller",
+        "smart",
+        "automation",
+        "home-automation",
+        "home"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-zwave-js"
+    },
+    {
+      "id": "node-red-contrib-grove-base-hat-bash",
+      "version": "1.0.17",
+      "description": "Nodes for Grove Base HAT on Raspberry Pi using bash scripts and other tools",
+      "updated_at": "2023-09-10T14:16:03.271Z",
+      "types": [
+        "grove-led",
+        "grove-relay",
+        "grove-buzzer",
+        "grove-led-dimmable",
+        "grove-button",
+        "grove-light-sensor-v1_2",
+        "grove-rotary-angle-sensor",
+        "grove-temperature-humidity-sensor",
+        "grove-temperature-humidity-sensor-pro"
+      ],
+      "keywords": [
+        "node-red",
+        "Grove",
+        "Grove Base HAT",
+        "Seeed",
+        "bash"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-grove-base-hat-bash"
+    },
+    {
+      "id": "node-red-aligeni-syh",
+      "version": "0.0.3",
+      "description": "node-red-aligeni-syh节点",
+      "updated_at": "2023-09-10T08:10:14.413Z",
+      "types": [
+        "aligeni-syh"
+      ],
+      "keywords": [
+        "node-red",
+        "aligenie"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-aligeni-syh"
+    },
+    {
+      "id": "@ptarmiganlabs/ctrl-q-nr",
+      "version": "0.1.3",
+      "description": "Node-RED components for cloud and client-managed Qlik Sense",
+      "updated_at": "2023-09-10T05:13:14.154Z",
+      "types": [
+        "qseow-sense-server",
+        "qscloud-tenant",
+        "qseow-app",
+        "qseow-task",
+        "qseow-service-status",
+        "qseow-tag",
+        "qscloud-app",
+        "qscloud-license",
+        "qscloud-reload",
+        "qscloud-reload-status"
+      ],
+      "keywords": [
+        "ctrl-q",
+        "butler",
+        "qlik",
+        "qliksense",
+        "qlikcloud",
+        "senseops",
+        "node-red",
+        "low-code"
+      ],
+      "url": "https://flows.nodered.org/node/@ptarmiganlabs/ctrl-q-nr"
+    },
+    {
+      "id": "node-red-contrib-alexa-remote2-applestrudel",
+      "version": "5.0.41",
+      "description": "node-red nodes for interacting with alexa",
+      "updated_at": "2023-09-09T19:33:51.099Z",
+      "types": [
+        "alexa-remote-account",
+        "alexa-remote-init",
+        "alexa-remote-event",
+        "alexa-remote-smarthome",
+        "alexa-remote-routine",
+        "alexa-remote-echo",
+        "alexa-remote-other",
+        "alexa-remote-list"
+      ],
+      "keywords": [
+        "node-red",
+        "alexa remote",
+        "alexa",
+        "echo"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-alexa-remote2-applestrudel"
+    },
+    {
+      "id": "@gogovega/node-red-contrib-firebase-realtime-database",
+      "version": "0.5.2",
+      "description": "Node-RED nodes to communicate with Google Firebase Realtime Databases",
+      "updated_at": "2023-09-09T12:57:53.538Z",
+      "types": [
+        "database-config",
+        "firebase-in",
+        "firebase-get",
+        "firebase-out",
+        "on-disconnect"
+      ],
+      "keywords": [
+        "admin",
+        "database",
+        "firebase",
+        "node-red",
+        "realtime"
+      ],
+      "url": "https://flows.nodered.org/node/@gogovega/node-red-contrib-firebase-realtime-database"
+    },
+    {
+      "id": "@parasaurolophus/node-red-eventsource",
+      "version": "1.5.1",
+      "description": "Wrap eventsource package as a node",
+      "updated_at": "2023-09-09T12:39:58.186Z",
+      "types": [
+        "EventSource"
+      ],
+      "keywords": [
+        "eventsource",
+        "sse",
+        "node-red"
+      ],
+      "url": "https://flows.nodered.org/node/@parasaurolophus/node-red-eventsource"
+    },
+    {
       "id": "@parasaurolophus/node-red-dnssd",
-      "version": "2.1.2",
+      "version": "2.1.3",
       "description": "Wrap dnssd package for Node-RED",
-      "updated_at": "2023-09-08T18:53:44.639Z",
+      "updated_at": "2023-09-09T12:39:39.992Z",
       "types": [
         "dnssd-browser",
         "dnssd-advertisement"
@@ -23,27 +189,40 @@
       "url": "https://flows.nodered.org/node/@parasaurolophus/node-red-dnssd"
     },
     {
-      "id": "node-red-contrib-grove-base-hat-bash",
-      "version": "1.0.14",
-      "description": "Nodes for Grove Base HAT on Raspberry Pi using bash scripts and other tools",
-      "updated_at": "2023-09-08T18:18:25.178Z",
+      "id": "node-red-contrib-unifi",
+      "version": "0.3.9",
+      "description": "Node for Node-RED to connect to a UniFi Controller ",
+      "updated_at": "2023-09-09T08:29:54.462Z",
       "types": [
-        "grove-led",
-        "grove-relay",
-        "grove-buzzer",
-        "grove-led-dimmable",
-        "grove-button",
-        "grove-light-sensor-v1_2",
-        "grove-rotary-angle-sensor"
+        "unificonfig",
+        "Unifi",
+        "UnifiWS"
       ],
       "keywords": [
         "node-red",
-        "Grove",
-        "Grove Base HAT",
-        "Seeed",
-        "bash"
+        "unifi",
+        "ubnt",
+        "Ubiquiti Networks"
       ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-grove-base-hat-bash"
+      "url": "https://flows.nodered.org/node/node-red-contrib-unifi"
+    },
+    {
+      "id": "node-red-contrib-amap",
+      "version": "1.1.1",
+      "description": "node red node for amap",
+      "updated_at": "2023-09-09T02:11:48.839Z",
+      "types": [
+        "amap-distance",
+        "amap-key",
+        "amap-location",
+        "amap-convert"
+      ],
+      "keywords": [
+        "node-red",
+        "gaode",
+        "amap"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-amap"
     },
     {
       "id": "node-red-wechat-syh",
@@ -91,53 +270,6 @@
         "node-red"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-simple-whisper"
-    },
-    {
-      "id": "node-red-contrib-amap",
-      "version": "1.1.0",
-      "description": "node red node for amap",
-      "updated_at": "2023-09-08T04:27:49.339Z",
-      "types": [
-        "amap-distance",
-        "amap-key",
-        "amap-location",
-        "amap-convert"
-      ],
-      "keywords": [
-        "node-red",
-        "gaode",
-        "amap"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-amap"
-    },
-    {
-      "id": "@ptarmiganlabs/ctrl-q-nr",
-      "version": "0.1.0",
-      "description": "Node-RED components for cloud and client-managed Qlik Sense",
-      "updated_at": "2023-09-07T17:50:27.669Z",
-      "types": [
-        "qseow-sense-server",
-        "qscloud-tenant",
-        "qseow-app",
-        "qseow-task",
-        "qseow-service-status",
-        "qseow-tag",
-        "qscloud-app",
-        "qscloud-license",
-        "qscloud-reload",
-        "qscloud-reload-status"
-      ],
-      "keywords": [
-        "ctrl-q",
-        "butler",
-        "qlik",
-        "qliksense",
-        "qlikcloud",
-        "senseops",
-        "node-red",
-        "low-code"
-      ],
-      "url": "https://flows.nodered.org/node/@ptarmiganlabs/ctrl-q-nr"
     },
     {
       "id": "node-red-contrib-mf-mavlink",
@@ -224,22 +356,36 @@
       "url": "https://flows.nodered.org/node/node-red-contrib-alice"
     },
     {
-      "id": "node-red-contrib-unifi",
-      "version": "0.3.8",
-      "description": "Node for Node-RED to connect to a UniFi Controller ",
-      "updated_at": "2023-09-06T18:57:10.123Z",
+      "id": "node-red-contrib-ical-events",
+      "version": "2.2.5",
+      "description": "NodeRed calender event adapter",
+      "updated_at": "2023-09-07T06:00:31.263Z",
       "types": [
-        "unificonfig",
-        "Unifi",
-        "UnifiWS"
+        "ical-config",
+        "ical-events",
+        "__errors__",
+        "ical-sensor",
+        "__errors__",
+        "ical-upcoming",
+        "__errors__"
       ],
       "keywords": [
         "node-red",
-        "unifi",
-        "ubnt",
-        "Ubiquiti Networks"
+        "ical",
+        "calendar",
+        "caldav",
+        "icloud",
+        "events",
+        "google",
+        "outlook",
+        "apple",
+        "kalender",
+        "nodered",
+        "ics",
+        "Smart Home",
+        "home automation"
       ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-unifi"
+      "url": "https://flows.nodered.org/node/node-red-contrib-ical-events"
     },
     {
       "id": "@joe-ab1do/mcp-pcf-aio",
@@ -278,22 +424,6 @@
         "light"
       ],
       "url": "https://flows.nodered.org/node/@node-red-contrib-themes/theme-collection"
-    },
-    {
-      "id": "node-red-contrib-aula-education",
-      "version": "0.4.6",
-      "description": "A Node-Red Node for collecting data from aula the danish educational platform.",
-      "updated_at": "2023-09-06T14:36:44.901Z",
-      "types": [
-        "aulaNode-config",
-        "aulaNode"
-      ],
-      "keywords": [
-        "node-red",
-        "aula",
-        "education"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-aula-education"
     },
     {
       "id": "@objectif-lune/node-red-contrib-sendgrid",
@@ -2514,29 +2644,6 @@
       "url": "https://flows.nodered.org/node/node-red-contrib-alexa-remote2-mattl0"
     },
     {
-      "id": "node-red-contrib-alexa-remote2-applestrudel",
-      "version": "5.0.34",
-      "description": "node-red nodes for interacting with alexa",
-      "updated_at": "2023-08-10T16:09:13.275Z",
-      "types": [
-        "alexa-remote-account",
-        "alexa-remote-init",
-        "alexa-remote-event",
-        "alexa-remote-smarthome",
-        "alexa-remote-routine",
-        "alexa-remote-echo",
-        "alexa-remote-other",
-        "alexa-remote-list"
-      ],
-      "keywords": [
-        "node-red",
-        "alexa remote",
-        "alexa",
-        "echo"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-alexa-remote2-applestrudel"
-    },
-    {
       "id": "node-red-contrib-nupmes",
       "version": "3.0.4",
       "description": "The all-in-one package for controlling and monitoring machines via the N+P MES.",
@@ -4045,29 +4152,6 @@
         "widget"
       ],
       "url": "https://flows.nodered.org/node/@studiobox/node-red-contrib-ui-widget-bulb-basic"
-    },
-    {
-      "id": "node-red-contrib-zwave-js",
-      "version": "8.2.0",
-      "description": "The most powerful, high performing and highly polished Z-Wave node for Node-RED based on Z-Wave JS. If you want a fully featured Z-Wave framework in your Node-RED instance, you have found it.",
-      "updated_at": "2023-07-25T17:28:04.354Z",
-      "types": [
-        "zwave-js",
-        "zwave-device",
-        "event-filter",
-        "cmd-factory"
-      ],
-      "keywords": [
-        "node-red",
-        "zwave",
-        "zwave-js",
-        "controller",
-        "smart",
-        "automation",
-        "home-automation",
-        "home"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-zwave-js"
     },
     {
       "id": "node-red-contrib-spike-reporter",
@@ -8232,21 +8316,6 @@
       "url": "https://flows.nodered.org/node/node-red-contrib-genetic-algorithm"
     },
     {
-      "id": "@parasaurolophus/node-red-eventsource",
-      "version": "1.5.0",
-      "description": "Wrap eventsource package as a node",
-      "updated_at": "2023-05-13T13:17:29.297Z",
-      "types": [
-        "EventSource"
-      ],
-      "keywords": [
-        "eventsource",
-        "sse",
-        "node-red"
-      ],
-      "url": "https://flows.nodered.org/node/@parasaurolophus/node-red-eventsource"
-    },
-    {
       "id": "node-red-contrib-msl",
       "version": "1.0.42",
       "description": "A node-red module to simplify the access of msl4 channel data.",
@@ -8750,27 +8819,6 @@
         "ppd"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-ishrae-comfort"
-    },
-    {
-      "id": "@gogovega/node-red-contrib-firebase-realtime-database",
-      "version": "0.5.1",
-      "description": "Node-RED nodes to communicate with Google Firebase Realtime Databases",
-      "updated_at": "2023-05-05T21:59:40.084Z",
-      "types": [
-        "database-config",
-        "firebase-in",
-        "firebase-get",
-        "firebase-out",
-        "on-disconnect"
-      ],
-      "keywords": [
-        "admin",
-        "database",
-        "firebase",
-        "node-red",
-        "realtime"
-      ],
-      "url": "https://flows.nodered.org/node/@gogovega/node-red-contrib-firebase-realtime-database"
     },
     {
       "id": "node-red-contrib-iiot-rpi-mcp342x",
@@ -10558,38 +10606,6 @@
         "node-red"
       ],
       "url": "https://flows.nodered.org/node/@chvdapi/node-red-pn6400-accelerate"
-    },
-    {
-      "id": "node-red-contrib-ical-events",
-      "version": "2.2.2",
-      "description": "NodeRed calender event adapter",
-      "updated_at": "2023-04-02T13:14:11.591Z",
-      "types": [
-        "ical-config",
-        "ical-events",
-        "__errors__",
-        "ical-sensor",
-        "__errors__",
-        "ical-upcoming",
-        "__errors__"
-      ],
-      "keywords": [
-        "node-red",
-        "ical",
-        "calendar",
-        "caldav",
-        "icloud",
-        "events",
-        "google",
-        "outlook",
-        "apple",
-        "kalender",
-        "nodered",
-        "ics",
-        "Smart Home",
-        "home automation"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-ical-events"
     },
     {
       "id": "node-red-otplc-linux-sys-class-leds",
