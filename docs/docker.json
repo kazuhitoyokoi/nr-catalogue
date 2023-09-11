@@ -1,7 +1,207 @@
 {
   "name": "Catalogue for Docker",
-  "updated_at": "2023-09-10T16:04:23.946Z",
+  "updated_at": "2023-09-11T16:05:04.760Z",
   "modules": [
+    {
+      "id": "node-red-contrib-eskomsepush",
+      "version": "0.0.14",
+      "description": "Node-RED interface for the Eskomsepush API",
+      "updated_at": "2023-09-11T14:16:56.396Z",
+      "types": [
+        "eskomsepush"
+      ],
+      "keywords": [
+        "node-red",
+        "eskomsepush",
+        "loadshedding",
+        "south africa",
+        "scheduled charging",
+        "victron",
+        "ess"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-eskomsepush"
+    },
+    {
+      "id": "node-red-contrib-ha-mqtt",
+      "version": "1.2.11",
+      "description": "Generate MQTT entities in HomeAssistant",
+      "updated_at": "2023-09-11T13:22:18.935Z",
+      "types": [
+        "ha-mqtt-device",
+        "ha-mqtt-discovery",
+        "ha-mqtt-alarm_control_panel",
+        "ha-mqtt-binary_sensor",
+        "ha-mqtt-button",
+        "ha-mqtt-camera",
+        "ha-mqtt-climate",
+        "ha-mqtt-cover",
+        "ha-mqtt-device_automation",
+        "ha-mqtt-device_tracker",
+        "ha-mqtt-event",
+        "ha-mqtt-fan",
+        "ha-mqtt-humidifier",
+        "ha-mqtt-image",
+        "ha-mqtt-lawn_mower",
+        "ha-mqtt-light",
+        "ha-mqtt-lock",
+        "ha-mqtt-number",
+        "ha-mqtt-scene",
+        "ha-mqtt-select",
+        "ha-mqtt-sensor",
+        "ha-mqtt-siren",
+        "ha-mqtt-switch",
+        "ha-mqtt-tag",
+        "ha-mqtt-text",
+        "ha-mqtt-update",
+        "ha-mqtt-vacuum"
+      ],
+      "keywords": [
+        "node-red",
+        "ha-mqtt",
+        "homeassistant",
+        "home-assistant"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-ha-mqtt"
+    },
+    {
+      "id": "@oqdo/node-red-oqdobos",
+      "version": "1.1.0",
+      "description": "oqdo.bos Virtual BACnet for node red",
+      "updated_at": "2023-09-11T11:08:56.323Z",
+      "types": [
+        "bacnet-ai",
+        "bacnet-bi",
+        "bacnet-pulse-converter",
+        "bacnet-device",
+        "edge-device"
+      ],
+      "keywords": [
+        "node-red",
+        "oqdo"
+      ],
+      "url": "https://flows.nodered.org/node/@oqdo/node-red-oqdobos"
+    },
+    {
+      "id": "node-red-contrib-schedule-generator",
+      "version": "1.0.3",
+      "description": "Generate timeline from schedule",
+      "updated_at": "2023-09-11T10:22:10.104Z",
+      "types": [
+        "gen-timeline"
+      ],
+      "keywords": [
+        "node-red",
+        "Schedule",
+        "Timeline",
+        "Playlist"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-schedule-generator"
+    },
+    {
+      "id": "node-red-contrib-myq",
+      "version": "0.0.11",
+      "description": "Node-Red node to control MyQ (Chamberlain) devices",
+      "updated_at": "2023-09-11T08:40:47.318Z",
+      "types": [
+        "myq-device-node",
+        "myq-credentials"
+      ],
+      "keywords": [
+        "node-red",
+        "myq",
+        "chamberlain",
+        "liftmaster"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-myq"
+    },
+    {
+      "id": "node-red-contrib-line-content-api",
+      "version": "1.0.0",
+      "description": "LINEに投稿されたコンテンツを取得できます。",
+      "updated_at": "2023-09-11T06:18:22.877Z",
+      "types": [
+        "line-content"
+      ],
+      "keywords": [
+        "line",
+        "node-red"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-line-content-api"
+    },
+    {
+      "id": "@parasaurolophus/node-red-eventsource",
+      "version": "1.5.2",
+      "description": "Wrap eventsource package as a node",
+      "updated_at": "2023-09-10T22:06:56.889Z",
+      "types": [
+        "EventSource"
+      ],
+      "keywords": [
+        "eventsource",
+        "sse",
+        "node-red"
+      ],
+      "url": "https://flows.nodered.org/node/@parasaurolophus/node-red-eventsource"
+    },
+    {
+      "id": "@parasaurolophus/node-red-dnssd",
+      "version": "2.1.5",
+      "description": "Wrap dnssd package for Node-RED",
+      "updated_at": "2023-09-10T21:09:37.012Z",
+      "types": [
+        "dnssd-browser",
+        "dnssd-advertisement"
+      ],
+      "keywords": [
+        "node-red",
+        "dnssd",
+        "dns-sd",
+        "bonjour",
+        "avahi",
+        "mdns",
+        "zeroconf"
+      ],
+      "url": "https://flows.nodered.org/node/@parasaurolophus/node-red-dnssd"
+    },
+    {
+      "id": "node-red-contrib-aula-education",
+      "version": "0.5.1",
+      "description": "A Node-Red Node for collecting data from aula the danish educational platform.",
+      "updated_at": "2023-09-10T20:12:55.154Z",
+      "types": [
+        "aulaNode-config",
+        "aulaNode"
+      ],
+      "keywords": [
+        "node-red",
+        "aula",
+        "education"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-aula-education"
+    },
+    {
+      "id": "node-red-contrib-zwave-js",
+      "version": "8.2.1",
+      "description": "The most powerful, high performing and highly polished Z-Wave node for Node-RED based on Z-Wave JS. If you want a fully featured Z-Wave framework in your Node-RED instance, you have found it.",
+      "updated_at": "2023-09-10T15:29:42.763Z",
+      "types": [
+        "zwave-js",
+        "zwave-device",
+        "event-filter",
+        "cmd-factory"
+      ],
+      "keywords": [
+        "node-red",
+        "zwave",
+        "zwave-js",
+        "controller",
+        "smart",
+        "automation",
+        "home-automation",
+        "home"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-zwave-js"
+    },
     {
       "id": "node-red-contrib-grove-base-hat-bash",
       "version": "1.0.17",
@@ -113,58 +313,6 @@
         "realtime"
       ],
       "url": "https://flows.nodered.org/node/@gogovega/node-red-contrib-firebase-realtime-database"
-    },
-    {
-      "id": "@parasaurolophus/node-red-eventsource",
-      "version": "1.5.1",
-      "description": "Wrap eventsource package as a node",
-      "updated_at": "2023-09-09T12:39:58.186Z",
-      "types": [
-        "EventSource"
-      ],
-      "keywords": [
-        "eventsource",
-        "sse",
-        "node-red"
-      ],
-      "url": "https://flows.nodered.org/node/@parasaurolophus/node-red-eventsource"
-    },
-    {
-      "id": "@parasaurolophus/node-red-dnssd",
-      "version": "2.1.3",
-      "description": "Wrap dnssd package for Node-RED",
-      "updated_at": "2023-09-09T12:39:39.992Z",
-      "types": [
-        "dnssd-browser",
-        "dnssd-advertisement"
-      ],
-      "keywords": [
-        "node-red",
-        "dnssd",
-        "dns-sd",
-        "bonjour",
-        "avahi",
-        "mdns",
-        "zeroconf"
-      ],
-      "url": "https://flows.nodered.org/node/@parasaurolophus/node-red-dnssd"
-    },
-    {
-      "id": "node-red-contrib-myq",
-      "version": "0.0.10",
-      "description": "Node-Red node to control MyQ (Chamberlain) devices",
-      "updated_at": "2023-09-09T11:17:50.343Z",
-      "types": [
-        "myq-device-node",
-        "myq-credentials"
-      ],
-      "keywords": [
-        "node-red",
-        "myq",
-        "chamberlain",
-        "liftmaster"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-myq"
     },
     {
       "id": "node-red-contrib-unifi",
@@ -402,22 +550,6 @@
         "light"
       ],
       "url": "https://flows.nodered.org/node/@node-red-contrib-themes/theme-collection"
-    },
-    {
-      "id": "node-red-contrib-aula-education",
-      "version": "0.4.6",
-      "description": "A Node-Red Node for collecting data from aula the danish educational platform.",
-      "updated_at": "2023-09-06T14:36:44.901Z",
-      "types": [
-        "aulaNode-config",
-        "aulaNode"
-      ],
-      "keywords": [
-        "node-red",
-        "aula",
-        "education"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-aula-education"
     },
     {
       "id": "@objectif-lune/node-red-contrib-sendgrid",
@@ -4153,29 +4285,6 @@
       "url": "https://flows.nodered.org/node/@studiobox/node-red-contrib-ui-widget-bulb-basic"
     },
     {
-      "id": "node-red-contrib-zwave-js",
-      "version": "8.2.0",
-      "description": "The most powerful, high performing and highly polished Z-Wave node for Node-RED based on Z-Wave JS. If you want a fully featured Z-Wave framework in your Node-RED instance, you have found it.",
-      "updated_at": "2023-07-25T17:28:04.354Z",
-      "types": [
-        "zwave-js",
-        "zwave-device",
-        "event-filter",
-        "cmd-factory"
-      ],
-      "keywords": [
-        "node-red",
-        "zwave",
-        "zwave-js",
-        "controller",
-        "smart",
-        "automation",
-        "home-automation",
-        "home"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-zwave-js"
-    },
-    {
       "id": "node-red-contrib-spike-reporter",
       "version": "1.0.0",
       "description": "Node-RED node for monitoring system's state and reporting alarms based on consecutive out-of-control status indications obtained from node-red-contrib-simple-spc node.",
@@ -5047,25 +5156,6 @@
       "url": "https://flows.nodered.org/node/node-red-contrib-data-logger"
     },
     {
-      "id": "node-red-contrib-eskomsepush",
-      "version": "0.0.13",
-      "description": "Node-RED interface for the Eskomsepush API",
-      "updated_at": "2023-07-12T07:16:17.545Z",
-      "types": [
-        "eskomsepush"
-      ],
-      "keywords": [
-        "node-red",
-        "eskomsepush",
-        "loadshedding",
-        "south africa",
-        "scheduled charging",
-        "victron",
-        "ess"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-eskomsepush"
-    },
-    {
       "id": "node-red-contrib-mcprotocol-ind",
       "version": "1.7.0",
       "description": "Mode-red nodes to Read from & Write to MITSUBISHI PLC over Ethernet using MC Protocol",
@@ -5787,43 +5877,6 @@
         "iot"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-snap4city-user"
-    },
-    {
-      "id": "node-red-contrib-ha-mqtt",
-      "version": "1.2.10",
-      "description": "Generate MQTT entities in HomeAssistant",
-      "updated_at": "2023-07-03T09:56:42.844Z",
-      "types": [
-        "ha-mqtt-device",
-        "ha-mqtt-discovery",
-        "ha-mqtt-alarm_control_panel",
-        "ha-mqtt-binary_sensor",
-        "ha-mqtt-button",
-        "ha-mqtt-camera",
-        "ha-mqtt-climate",
-        "ha-mqtt-cover",
-        "ha-mqtt-device_automation",
-        "ha-mqtt-device_tracker",
-        "ha-mqtt-fan",
-        "ha-mqtt-humidifier",
-        "ha-mqtt-light",
-        "ha-mqtt-lock",
-        "ha-mqtt-number",
-        "ha-mqtt-scene",
-        "ha-mqtt-select",
-        "ha-mqtt-sensor",
-        "ha-mqtt-siren",
-        "ha-mqtt-switch",
-        "ha-mqtt-tag",
-        "ha-mqtt-vacuum"
-      ],
-      "keywords": [
-        "node-red",
-        "ha-mqtt",
-        "homeassistant",
-        "home-assistant"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-ha-mqtt"
     },
     {
       "id": "@flecoufle/node-red-linky",
