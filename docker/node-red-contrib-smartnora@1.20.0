@@ -1,0 +1,44 @@
+#0 building with "default" instance using docker driver
+
+#1 [internal] load .dockerignore
+#1 transferring context: 2B done
+#1 DONE 0.0s
+
+#2 [internal] load build definition from Dockerfile
+#2 transferring dockerfile: 120B done
+#2 DONE 0.0s
+
+#3 [internal] load metadata for docker.io/nodered/node-red:latest
+#3 DONE 0.2s
+
+#4 [1/2] FROM docker.io/nodered/node-red@sha256:5e99ed734f7d2f9bfcb1e20dfbf4c5b9aa60f35a9df6e257e817130f0f9be9dc
+#4 CACHED
+
+#5 [2/2] RUN npm install npm install node-red-contrib-smartnora@1.20.0
+#5 6.889 npm WARN EBADENGINE Unsupported engine {
+#5 6.889 npm WARN EBADENGINE   package: 'npm@10.1.0',
+#5 6.890 npm WARN EBADENGINE   required: { node: '^18.17.0 || >=20.5.0' },
+#5 6.890 npm WARN EBADENGINE   current: { node: 'v16.20.2', npm: '8.19.4' }
+#5 6.890 npm WARN EBADENGINE }
+#5 12.37 
+#5 12.37 added 89 packages, and audited 651 packages in 12s
+#5 12.37 
+#5 12.37 65 packages are looking for funding
+#5 12.37   run `npm fund` for details
+#5 12.37 
+#5 12.37 found 0 vulnerabilities
+#5 12.37 npm notice 
+#5 12.37 npm notice New major version of npm available! 8.19.4 -> 10.1.0
+#5 12.37 npm notice Changelog: <https://github.com/npm/cli/releases/tag/v10.1.0>
+#5 12.37 npm notice Run `npm install -g npm@10.1.0` to update!
+#5 12.37 npm notice 
+#5 DONE 13.3s
+
+#6 exporting to image
+#6 exporting layers
+#6 exporting layers 3.6s done
+#6 writing image sha256:9b59ab9e9b5f2fdd3f65336db5873935631d546e9f9f8127dfe4bf424f48d0f3 done
+#6 naming to docker.io/library/tmp done
+#6 DONE 3.6s
+
+----
