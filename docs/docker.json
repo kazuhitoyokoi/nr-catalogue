@@ -1,31 +1,92 @@
 {
   "name": "Catalogue for Docker",
-  "updated_at": "2023-09-11T16:05:04.760Z",
+  "updated_at": "2023-09-12T16:04:58.910Z",
   "modules": [
     {
-      "id": "node-red-contrib-eskomsepush",
-      "version": "0.0.14",
-      "description": "Node-RED interface for the Eskomsepush API",
-      "updated_at": "2023-09-11T14:16:56.396Z",
+      "id": "node-red-contrib-pinecone",
+      "version": "1.0.4",
+      "description": "Pinecone makes it easy to provide long-term memory for high-performance AI applications",
+      "updated_at": "2023-09-12T14:02:45.403Z",
+      "types": [],
+      "keywords": [
+        "node-red",
+        "pinecone",
+        "nodejs",
+        "javascript",
+        "api",
+        "flow",
+        "npm",
+        "machine-learning",
+        "node",
+        "example",
+        "ai"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-pinecone"
+    },
+    {
+      "id": "node-red-contrib-ui-state-trail",
+      "version": "1.0.2",
+      "description": "A Node-RED dashboard ui node. Trail of state changes over time",
+      "updated_at": "2023-09-12T10:46:57.316Z",
       "types": [
-        "eskomsepush"
+        "ui_statetrail"
       ],
       "keywords": [
         "node-red",
-        "eskomsepush",
-        "loadshedding",
-        "south africa",
-        "scheduled charging",
-        "victron",
-        "ess"
+        "state-trail",
+        "state chart",
+        "dashboard"
       ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-eskomsepush"
+      "url": "https://flows.nodered.org/node/node-red-contrib-ui-state-trail"
+    },
+    {
+      "id": "node-red-contrib-edgesignal-connector",
+      "version": "1.0.2",
+      "description": "edgesignal connector",
+      "updated_at": "2023-09-12T09:37:30.243Z",
+      "types": [
+        "edgesignal-connector"
+      ],
+      "keywords": [
+        "edgesignal",
+        "iot",
+        "node-red"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-edgesignal-connector"
+    },
+    {
+      "id": "node-red-contrib-openai-ubos",
+      "version": "1.0.3",
+      "description": "A Node-RED node that interacts with OpenAI machine learning models to generate text like ChatGPT.",
+      "updated_at": "2023-09-12T09:35:24.334Z",
+      "types": [],
+      "keywords": [
+        "node-red",
+        "chatgpt",
+        "nodejs",
+        "javascript",
+        "api",
+        "flow",
+        "npm",
+        "machine-learning",
+        "node",
+        "example",
+        "text-generation",
+        "openai",
+        "code-generation",
+        "conversational-ai",
+        "gpt-3",
+        "gpt-4",
+        "dall-e",
+        "ai"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-openai-ubos"
     },
     {
       "id": "node-red-contrib-ha-mqtt",
-      "version": "1.2.11",
+      "version": "1.2.12",
       "description": "Generate MQTT entities in HomeAssistant",
-      "updated_at": "2023-09-11T13:22:18.935Z",
+      "updated_at": "2023-09-12T09:28:35.916Z",
       "types": [
         "ha-mqtt-device",
         "ha-mqtt-discovery",
@@ -53,7 +114,8 @@
         "ha-mqtt-tag",
         "ha-mqtt-text",
         "ha-mqtt-update",
-        "ha-mqtt-vacuum"
+        "ha-mqtt-vacuum",
+        "ha-mqtt-water_heater"
       ],
       "keywords": [
         "node-red",
@@ -62,6 +124,219 @@
         "home-assistant"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-ha-mqtt"
+    },
+    {
+      "id": "node-red-contrib-mf-mavlink",
+      "version": "2.0.8",
+      "description": "A MAVLink converter for Node-RED",
+      "updated_at": "2023-09-12T08:40:56.172Z",
+      "types": [
+        "MAVlink"
+      ],
+      "keywords": [
+        "node-red"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-mf-mavlink"
+    },
+    {
+      "id": "node-red-contrib-ui-time-scheduler-spanish",
+      "version": "1.17.6",
+      "description": "A ui time scheduler for the Node-RED Dashboard, in spanish version",
+      "updated_at": "2023-09-12T07:15:04.337Z",
+      "types": [
+        "ui_time_scheduler_spanish"
+      ],
+      "keywords": [
+        "node-red",
+        "time-scheduler",
+        "schedules",
+        "timer",
+        "dashboard",
+        "frontend",
+        "iot"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-ui-time-scheduler-spanish"
+    },
+    {
+      "id": "@insectos/ssh-exec",
+      "version": "0.3.2",
+      "description": "A flexible SSH client for Node-RED",
+      "updated_at": "2023-09-12T06:45:48.724Z",
+      "types": [
+        "ssh-exec"
+      ],
+      "keywords": [
+        "node-red",
+        "ssh",
+        "interactive"
+      ],
+      "url": "https://flows.nodered.org/node/@insectos/ssh-exec"
+    },
+    {
+      "id": "node-red-contrib-portscan",
+      "version": "1.0.1",
+      "description": "Provides port scanning capability for local network analysis.  Powered by evilscan.",
+      "updated_at": "2023-09-12T04:04:54.171Z",
+      "types": [
+        "portscan",
+        "portscan-config"
+      ],
+      "keywords": [
+        "node-red",
+        "network",
+        "port scan"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-portscan"
+    },
+    {
+      "id": "node-red-contrib-grove-base-hat-bash",
+      "version": "1.0.18",
+      "description": "Nodes for Grove Base HAT on Raspberry Pi using bash scripts and other tools",
+      "updated_at": "2023-09-11T19:54:25.911Z",
+      "types": [
+        "grove-led",
+        "grove-relay",
+        "grove-buzzer",
+        "grove-led-dimmable",
+        "grove-button",
+        "grove-light-sensor-v1_2",
+        "grove-rotary-angle-sensor",
+        "grove-temperature-humidity-sensor",
+        "grove-temperature-humidity-sensor-pro"
+      ],
+      "keywords": [
+        "node-red",
+        "Grove",
+        "Grove Base HAT",
+        "Seeed",
+        "bash"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-grove-base-hat-bash"
+    },
+    {
+      "id": "@ptarmiganlabs/ctrl-q-nr",
+      "version": "0.2.0",
+      "description": "Node-RED components for cloud and client-managed Qlik Sense",
+      "updated_at": "2023-09-11T16:55:42.490Z",
+      "types": [
+        "qscloud-tenant",
+        "qseow-sense-server",
+        "qseow-app",
+        "qseow-license",
+        "qseow-service-status",
+        "qseow-tag",
+        "qseow-task",
+        "qscloud-app",
+        "qscloud-license",
+        "qscloud-reload",
+        "qscloud-reload-status"
+      ],
+      "keywords": [
+        "ctrl-q",
+        "butler",
+        "qlik",
+        "qliksense",
+        "qlikcloud",
+        "senseops",
+        "node-red",
+        "low-code"
+      ],
+      "url": "https://flows.nodered.org/node/@ptarmiganlabs/ctrl-q-nr"
+    },
+    {
+      "id": "node-red-contrib-myq",
+      "version": "0.0.12",
+      "description": "Node-Red node to control MyQ (Chamberlain) devices",
+      "updated_at": "2023-09-11T16:27:13.278Z",
+      "types": [
+        "myq-device-node",
+        "myq-credentials"
+      ],
+      "keywords": [
+        "node-red",
+        "myq",
+        "chamberlain",
+        "liftmaster"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-myq"
+    },
+    {
+      "id": "node-red-contrib-smartnora",
+      "version": "1.20.0",
+      "description": "Google Smart Home integration via Smart Nora https://smart-nora.eu/",
+      "updated_at": "2023-09-11T15:22:22.415Z",
+      "types": [
+        "noraf-ac",
+        "noraf-airpurifier",
+        "noraf-blinds",
+        "noraf-camera",
+        "noraf-charger",
+        "noraf-config",
+        "noraf-doorbell",
+        "noraf-fan",
+        "noraf-garage",
+        "noraf-light",
+        "noraf-lock",
+        "noraf-media",
+        "noraf-notify",
+        "noraf-openclose",
+        "noraf-outlet",
+        "noraf-scene",
+        "noraf-security",
+        "noraf-sensor",
+        "noraf-sousvide",
+        "noraf-speaker",
+        "noraf-sprinkler",
+        "noraf-switch",
+        "noraf-thermostat",
+        "noraf-vacuum",
+        "noraf-async"
+      ],
+      "keywords": [
+        "node-red",
+        "google",
+        "google home",
+        "assistant",
+        "smarthome",
+        "smart",
+        "home",
+        "iot"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-smartnora"
+    },
+    {
+      "id": "node-red-contrib-oauth2",
+      "version": "5.0.6",
+      "description": "The node-red-contrib-oauth2 is a Node-RED node that provides an OAuth2 authentication flow. This node uses the OAuth2 protocol to obtain an access token, which can be used to make authenticated API requests.",
+      "updated_at": "2023-09-11T15:22:05.652Z",
+      "types": [
+        "oauth2"
+      ],
+      "keywords": [
+        "node-red",
+        "oauth2",
+        "security"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-oauth2"
+    },
+    {
+      "id": "node-red-contrib-eskomsepush",
+      "version": "0.0.14",
+      "description": "Node-RED interface for the Eskomsepush API",
+      "updated_at": "2023-09-11T14:16:56.396Z",
+      "types": [
+        "eskomsepush"
+      ],
+      "keywords": [
+        "node-red",
+        "eskomsepush",
+        "loadshedding",
+        "south africa",
+        "scheduled charging",
+        "victron",
+        "ess"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-eskomsepush"
     },
     {
       "id": "@oqdo/node-red-oqdobos",
@@ -96,23 +371,6 @@
         "Playlist"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-schedule-generator"
-    },
-    {
-      "id": "node-red-contrib-myq",
-      "version": "0.0.11",
-      "description": "Node-Red node to control MyQ (Chamberlain) devices",
-      "updated_at": "2023-09-11T08:40:47.318Z",
-      "types": [
-        "myq-device-node",
-        "myq-credentials"
-      ],
-      "keywords": [
-        "node-red",
-        "myq",
-        "chamberlain",
-        "liftmaster"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-myq"
     },
     {
       "id": "node-red-contrib-line-content-api",
@@ -203,31 +461,6 @@
       "url": "https://flows.nodered.org/node/node-red-contrib-zwave-js"
     },
     {
-      "id": "node-red-contrib-grove-base-hat-bash",
-      "version": "1.0.17",
-      "description": "Nodes for Grove Base HAT on Raspberry Pi using bash scripts and other tools",
-      "updated_at": "2023-09-10T14:16:03.271Z",
-      "types": [
-        "grove-led",
-        "grove-relay",
-        "grove-buzzer",
-        "grove-led-dimmable",
-        "grove-button",
-        "grove-light-sensor-v1_2",
-        "grove-rotary-angle-sensor",
-        "grove-temperature-humidity-sensor",
-        "grove-temperature-humidity-sensor-pro"
-      ],
-      "keywords": [
-        "node-red",
-        "Grove",
-        "Grove Base HAT",
-        "Seeed",
-        "bash"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-grove-base-hat-bash"
-    },
-    {
       "id": "node-red-aligeni-syh",
       "version": "0.0.3",
       "description": "node-red-aligeni-syh节点",
@@ -240,35 +473,6 @@
         "aligenie"
       ],
       "url": "https://flows.nodered.org/node/node-red-aligeni-syh"
-    },
-    {
-      "id": "@ptarmiganlabs/ctrl-q-nr",
-      "version": "0.1.3",
-      "description": "Node-RED components for cloud and client-managed Qlik Sense",
-      "updated_at": "2023-09-10T05:13:14.154Z",
-      "types": [
-        "qseow-sense-server",
-        "qscloud-tenant",
-        "qseow-app",
-        "qseow-task",
-        "qseow-service-status",
-        "qseow-tag",
-        "qscloud-app",
-        "qscloud-license",
-        "qscloud-reload",
-        "qscloud-reload-status"
-      ],
-      "keywords": [
-        "ctrl-q",
-        "butler",
-        "qlik",
-        "qliksense",
-        "qlikcloud",
-        "senseops",
-        "node-red",
-        "low-code"
-      ],
-      "url": "https://flows.nodered.org/node/@ptarmiganlabs/ctrl-q-nr"
     },
     {
       "id": "node-red-contrib-alexa-remote2-applestrudel",
@@ -396,19 +600,6 @@
         "node-red"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-simple-whisper"
-    },
-    {
-      "id": "node-red-contrib-mf-mavlink",
-      "version": "2.0.6",
-      "description": "A MAVLink converter for Node-RED",
-      "updated_at": "2023-09-07T17:11:34.938Z",
-      "types": [
-        "MAVlink"
-      ],
-      "keywords": [
-        "node-red"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-mf-mavlink"
     },
     {
       "id": "node-red-contrib-opcua",
@@ -1602,36 +1793,6 @@
         "node-red"
       ],
       "url": "https://flows.nodered.org/node/node-red-dashboard"
-    },
-    {
-      "id": "@insectos/ssh-exec",
-      "version": "0.3.1",
-      "description": "A flexible SSH client for Node-RED",
-      "updated_at": "2023-08-31T14:18:14.238Z",
-      "types": [
-        "ssh-exec"
-      ],
-      "keywords": [
-        "node-red",
-        "ssh",
-        "interactive"
-      ],
-      "url": "https://flows.nodered.org/node/@insectos/ssh-exec"
-    },
-    {
-      "id": "node-red-contrib-oauth2",
-      "version": "5.0.5",
-      "description": "The node-red-contrib-oauth2 is a Node-RED node that provides an OAuth2 authentication flow. This node uses the OAuth2 protocol to obtain an access token, which can be used to make authenticated API requests.",
-      "updated_at": "2023-08-31T10:42:58.209Z",
-      "types": [
-        "oauth2"
-      ],
-      "keywords": [
-        "node-red",
-        "oauth2",
-        "security"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-oauth2"
     },
     {
       "id": "node-red-contrib-shelly",
@@ -3657,34 +3818,6 @@
       "url": "https://flows.nodered.org/node/@softwaredevelopment/node-red-contrib-bodhi-device-privacy"
     },
     {
-      "id": "node-red-contrib-openai-ubos",
-      "version": "1.0.2",
-      "description": "A Node-RED node that interacts with OpenAI machine learning models to generate text like ChatGPT.",
-      "updated_at": "2023-07-31T08:58:18.187Z",
-      "types": [],
-      "keywords": [
-        "node-red",
-        "chatgpt",
-        "nodejs",
-        "javascript",
-        "api",
-        "flow",
-        "npm",
-        "machine-learning",
-        "node",
-        "example",
-        "text-generation",
-        "openai",
-        "code-generation",
-        "conversational-ai",
-        "gpt-3",
-        "gpt-4",
-        "dall-e",
-        "ai"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-openai-ubos"
-    },
-    {
       "id": "node-red-contrib-tak",
       "version": "4.1.1",
       "description": "Node-RED Nodes for encoding & decoding TAK Protocol and Cursor on Target messages from TAK Products.",
@@ -4372,50 +4505,6 @@
         "light"
       ],
       "url": "https://flows.nodered.org/node/@softwaredevelopment/node-red-contrib-bodhi-device-rgb-light"
-    },
-    {
-      "id": "node-red-contrib-smartnora",
-      "version": "1.19.4",
-      "description": "Google Smart Home integration via Smart Nora https://smart-nora.eu/",
-      "updated_at": "2023-07-24T10:41:54.787Z",
-      "types": [
-        "noraf-ac",
-        "noraf-airpurifier",
-        "noraf-blinds",
-        "noraf-camera",
-        "noraf-charger",
-        "noraf-config",
-        "noraf-doorbell",
-        "noraf-fan",
-        "noraf-garage",
-        "noraf-light",
-        "noraf-lock",
-        "noraf-media",
-        "noraf-notify",
-        "noraf-openclose",
-        "noraf-outlet",
-        "noraf-scene",
-        "noraf-security",
-        "noraf-sensor",
-        "noraf-sousvide",
-        "noraf-speaker",
-        "noraf-sprinkler",
-        "noraf-switch",
-        "noraf-thermostat",
-        "noraf-vacuum",
-        "noraf-async"
-      ],
-      "keywords": [
-        "node-red",
-        "google",
-        "google home",
-        "assistant",
-        "smarthome",
-        "smart",
-        "home",
-        "iot"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-smartnora"
     },
     {
       "id": "node-red-contrib-letsfiware-ngsi",
@@ -6134,27 +6223,6 @@
         "IGCV"
       ],
       "url": "https://flows.nodered.org/node/@vfk_research/node-red-contrib-msb"
-    },
-    {
-      "id": "node-red-contrib-pinecone",
-      "version": "1.0.1",
-      "description": "Pinecone makes it easy to provide long-term memory for high-performance AI applications",
-      "updated_at": "2023-06-26T05:07:32.575Z",
-      "types": [],
-      "keywords": [
-        "node-red",
-        "pinecone",
-        "nodejs",
-        "javascript",
-        "api",
-        "flow",
-        "npm",
-        "machine-learning",
-        "node",
-        "example",
-        "ai"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-pinecone"
     },
     {
       "id": "node-red-contrib-daylight-rgbw",
@@ -7876,22 +7944,6 @@
         "jsonata"
       ],
       "url": "https://flows.nodered.org/node/autana-api-gateway"
-    },
-    {
-      "id": "node-red-contrib-ui-state-trail",
-      "version": "1.0.1",
-      "description": "A Node-RED dashboard ui node. Trail of state changes over time",
-      "updated_at": "2023-05-26T07:56:18.310Z",
-      "types": [
-        "ui_statetrail"
-      ],
-      "keywords": [
-        "node-red",
-        "state-trail",
-        "state chart",
-        "dashboard"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-ui-state-trail"
     },
     {
       "id": "node-red-contrib-semilimes",
