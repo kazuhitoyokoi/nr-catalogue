@@ -1,12 +1,275 @@
 {
   "name": "Catalogue for verified nodes",
-  "updated_at": "2023-09-12T21:49:36.977Z",
+  "updated_at": "2023-09-13T21:39:15.571Z",
   "modules": [
     {
-      "id": "node-red-contrib-pinecone",
+      "id": "apconic-node-red-weight-parser",
       "version": "1.0.4",
+      "description": "Node for weight parser",
+      "updated_at": "2023-09-13T13:48:44.894Z",
+      "types": [
+        "apconic-weight-parser"
+      ],
+      "keywords": [
+        "node-red"
+      ],
+      "url": "https://flows.nodered.org/node/apconic-node-red-weight-parser"
+    },
+    {
+      "id": "openapi-red",
+      "version": "1.2.4",
+      "description": "OpenAPI (Swagger) client for node-red ",
+      "updated_at": "2023-09-13T12:26:09.553Z",
+      "types": [
+        "openApi-red",
+        "openApi-red-url"
+      ],
+      "keywords": [
+        "node-red",
+        "swagger",
+        "swagger client",
+        "openApi",
+        "openApi client",
+        "open api",
+        "open api client",
+        "open",
+        "api"
+      ],
+      "url": "https://flows.nodered.org/node/openapi-red"
+    },
+    {
+      "id": "node-red-contrib-alexa-remote2-applestrudel",
+      "version": "5.0.42",
+      "description": "node-red nodes for interacting with alexa",
+      "updated_at": "2023-09-13T10:20:44.080Z",
+      "types": [
+        "alexa-remote-account",
+        "alexa-remote-init",
+        "alexa-remote-event",
+        "alexa-remote-smarthome",
+        "alexa-remote-routine",
+        "alexa-remote-echo",
+        "alexa-remote-other",
+        "alexa-remote-list"
+      ],
+      "keywords": [
+        "node-red",
+        "alexa remote",
+        "alexa",
+        "echo"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-alexa-remote2-applestrudel"
+    },
+    {
+      "id": "node-red-contrib-azure-openai",
+      "version": "1.0.0",
+      "description": "utilize Azure OpenAI ",
+      "updated_at": "2023-09-13T09:17:57.432Z",
+      "types": [
+        "AOAI-config",
+        "AOAI-request"
+      ],
+      "keywords": [
+        "Azure",
+        "Open-AI",
+        "Azure Open-AI",
+        "Node Red",
+        "node-red"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-azure-openai"
+    },
+    {
+      "id": "apconic-node-red-string-parser",
+      "version": "1.0.5",
+      "description": "- Basic String15 parser for controllers, returns weight.",
+      "updated_at": "2023-09-13T09:17:42.257Z",
+      "types": [
+        "apconic-string-parser"
+      ],
+      "keywords": [
+        "node-red"
+      ],
+      "url": "https://flows.nodered.org/node/apconic-node-red-string-parser"
+    },
+    {
+      "id": "@marcus-j-davies/node-red-semaphore-plus",
+      "version": "2.0.0",
+      "description": "An advanced set of semaphore Nodes for Node RED, with a dynamic fail-safe",
+      "updated_at": "2023-09-13T07:59:45.034Z",
+      "types": [
+        "semaphore-plus-take",
+        "semaphore-plus-release",
+        "semaphore-plus-fs-reset",
+        "semaphore-plus-config"
+      ],
+      "keywords": [
+        "node-red",
+        "semaphore",
+        "control",
+        "single",
+        "lock",
+        "release",
+        "take",
+        "reset",
+        "plus",
+        "advanced",
+        "queue"
+      ],
+      "url": "https://flows.nodered.org/node/@marcus-j-davies/node-red-semaphore-plus"
+    },
+    {
+      "id": "victron-dynamic-ess",
+      "version": "0.1.2",
+      "description": "Fetch the ideal ESS setpoint from VRM",
+      "updated_at": "2023-09-13T07:37:09.181Z",
+      "types": [
+        "victron-dynamic-ess"
+      ],
+      "keywords": [
+        "node-red",
+        "victron",
+        "dynamic ess",
+        "scheduled charging",
+        "ess"
+      ],
+      "url": "https://flows.nodered.org/node/victron-dynamic-ess"
+    },
+    {
+      "id": "@demirdeniz/node-red-contrib-dahua-camera",
+      "version": "0.0.7",
+      "description": "node-red nodes to connect to dahua cameras and intercom VTO. main purpose is to receive notificaitons of door bell and to be able unlock door remotely.",
+      "updated_at": "2023-09-13T05:36:10.584Z",
+      "types": [
+        "Dahua Config"
+      ],
+      "keywords": [
+        "node-red",
+        "dahua",
+        "doorbell",
+        "door",
+        "bell",
+        "unlock",
+        "VTO",
+        "PTZ",
+        "IPC",
+        "Security Camera",
+        "Home Automation",
+        "kepler-elec",
+        "LOYTEC"
+      ],
+      "url": "https://flows.nodered.org/node/@demirdeniz/node-red-contrib-dahua-camera"
+    },
+    {
+      "id": "node-red-contrib-automl",
+      "version": "0.0.3",
+      "description": "LightAutoML by SberAILab Machine learning package for node-red.",
+      "updated_at": "2023-09-12T21:45:54.757Z",
+      "types": [
+        "automl-predictor",
+        "automl-trainer"
+      ],
+      "keywords": [
+        "node-red",
+        "machine learning",
+        "ml",
+        "automl",
+        "lama",
+        "scikit learn",
+        "scikit",
+        "sklearn",
+        "regression"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-automl"
+    },
+    {
+      "id": "@jambonz/node-red-contrib-jambonz",
+      "version": "2.4.15",
+      "description": "Node-RED nodes for jambonz platform",
+      "updated_at": "2023-09-12T21:36:39.683Z",
+      "types": [
+        "webhook in",
+        "webhook out",
+        "audio in",
+        "jambonz_auth",
+        "aws_auth",
+        "enqueue",
+        "lex",
+        "say",
+        "dtmf",
+        "cfg",
+        "conference",
+        "gather",
+        "listen",
+        "sip:decline",
+        "sip:request",
+        "sip:refer",
+        "hangup",
+        "message",
+        "tag",
+        "pause",
+        "dequeue",
+        "play",
+        "dial",
+        "redirect",
+        "dialogflow",
+        "leave",
+        "rasa",
+        "user auth",
+        "create-call",
+        "create-sms",
+        "lcc",
+        "get_alerts",
+        "get_call",
+        "get_calls",
+        "get_recent_calls"
+      ],
+      "keywords": [
+        "node-red"
+      ],
+      "url": "https://flows.nodered.org/node/@jambonz/node-red-contrib-jambonz"
+    },
+    {
+      "id": "node-red-contrib-unifi-os",
+      "version": "0.9.1",
+      "description": "Nodes to access UniFi data using endpoints and websockets",
+      "updated_at": "2023-09-12T20:57:51.638Z",
+      "types": [
+        "unifi-access-controller",
+        "unifi-request",
+        "unifi-web-socket",
+        "unifi-protect"
+      ],
+      "keywords": [
+        "node-red",
+        "iot",
+        "unifi"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-unifi-os"
+    },
+    {
+      "id": "node-red-contrib-ui-time-scheduler-spanish",
+      "version": "1.17.8",
+      "description": "A ui time scheduler for the Node-RED Dashboard, in spanish version",
+      "updated_at": "2023-09-12T17:23:22.831Z",
+      "types": [
+        "ui_time_scheduler_spanish"
+      ],
+      "keywords": [
+        "node-red",
+        "time-scheduler",
+        "schedules",
+        "timer",
+        "dashboard",
+        "frontend",
+        "iot"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-ui-time-scheduler-spanish"
+    },
+    {
+      "id": "node-red-contrib-pinecone",
+      "version": "1.0.5",
       "description": "Pinecone makes it easy to provide long-term memory for high-performance AI applications",
-      "updated_at": "2023-09-12T14:02:45.403Z",
+      "updated_at": "2023-09-12T14:41:14.941Z",
       "types": [],
       "keywords": [
         "node-red",
@@ -137,25 +400,6 @@
         "node-red"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-mf-mavlink"
-    },
-    {
-      "id": "node-red-contrib-ui-time-scheduler-spanish",
-      "version": "1.17.6",
-      "description": "A ui time scheduler for the Node-RED Dashboard, in spanish version",
-      "updated_at": "2023-09-12T07:15:04.337Z",
-      "types": [
-        "ui_time_scheduler_spanish"
-      ],
-      "keywords": [
-        "node-red",
-        "time-scheduler",
-        "schedules",
-        "timer",
-        "dashboard",
-        "frontend",
-        "iot"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-ui-time-scheduler-spanish"
     },
     {
       "id": "@insectos/ssh-exec",
@@ -473,29 +717,6 @@
         "aligenie"
       ],
       "url": "https://flows.nodered.org/node/node-red-aligeni-syh"
-    },
-    {
-      "id": "node-red-contrib-alexa-remote2-applestrudel",
-      "version": "5.0.41",
-      "description": "node-red nodes for interacting with alexa",
-      "updated_at": "2023-09-09T19:33:51.099Z",
-      "types": [
-        "alexa-remote-account",
-        "alexa-remote-init",
-        "alexa-remote-event",
-        "alexa-remote-smarthome",
-        "alexa-remote-routine",
-        "alexa-remote-echo",
-        "alexa-remote-other",
-        "alexa-remote-list"
-      ],
-      "keywords": [
-        "node-red",
-        "alexa remote",
-        "alexa",
-        "echo"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-alexa-remote2-applestrudel"
     },
     {
       "id": "@gogovega/node-red-contrib-firebase-realtime-database",
@@ -2043,53 +2264,6 @@
         "fabric-gateway"
       ],
       "url": "https://flows.nodered.org/node/@siglesiasg/node-red-hyperledger-fabric-gateway"
-    },
-    {
-      "id": "@jambonz/node-red-contrib-jambonz",
-      "version": "2.4.14",
-      "description": "Node-RED nodes for jambonz platform",
-      "updated_at": "2023-08-28T13:54:40.007Z",
-      "types": [
-        "webhook in",
-        "webhook out",
-        "audio in",
-        "jambonz_auth",
-        "aws_auth",
-        "enqueue",
-        "lex",
-        "say",
-        "dtmf",
-        "cfg",
-        "conference",
-        "gather",
-        "listen",
-        "sip:decline",
-        "sip:request",
-        "sip:refer",
-        "hangup",
-        "message",
-        "tag",
-        "pause",
-        "dequeue",
-        "play",
-        "dial",
-        "redirect",
-        "dialogflow",
-        "leave",
-        "rasa",
-        "user auth",
-        "create-call",
-        "create-sms",
-        "lcc",
-        "get_alerts",
-        "get_call",
-        "get_calls",
-        "get_recent_calls"
-      ],
-      "keywords": [
-        "node-red"
-      ],
-      "url": "https://flows.nodered.org/node/@jambonz/node-red-contrib-jambonz"
     },
     {
       "id": "@victronenergy/node-red-contrib-victron",
@@ -5212,24 +5386,6 @@
       "url": "https://flows.nodered.org/node/node-red-node-intel-gpio"
     },
     {
-      "id": "victron-dynamic-ess",
-      "version": "0.0.43",
-      "description": "Fetch the ideal ESS setpoint from VRM",
-      "updated_at": "2023-07-11T17:58:09.121Z",
-      "types": [
-        "victron-dynamic-ess",
-        "victron-idle-battery"
-      ],
-      "keywords": [
-        "node-red",
-        "victron",
-        "dynamic ess",
-        "scheduled charging",
-        "ess"
-      ],
-      "url": "https://flows.nodered.org/node/victron-dynamic-ess"
-    },
-    {
       "id": "node-red-contrib-ecojoko",
       "version": "1.0.2",
       "description": "Node-RED node to interface with Ecojoko",
@@ -7393,28 +7549,6 @@
       "url": "https://flows.nodered.org/node/node-red-contrib-warema-webcontrol"
     },
     {
-      "id": "openapi-red",
-      "version": "1.2.3",
-      "description": "OpenAPI (Swagger) client for node-red ",
-      "updated_at": "2023-05-31T14:17:29.857Z",
-      "types": [
-        "openApi-red",
-        "openApi-red-url"
-      ],
-      "keywords": [
-        "node-red",
-        "swagger",
-        "swagger client",
-        "openApi",
-        "openApi client",
-        "open api",
-        "open api client",
-        "open",
-        "api"
-      ],
-      "url": "https://flows.nodered.org/node/openapi-red"
-    },
-    {
       "id": "node-red-contrib-json-multi-schema",
       "version": "1.6.0",
       "description": "Generic JSON data pipeline tools, with dynamic transformation (using JSONata rules), resolving JSON Schema (using JSONata rules), and then validation (using JSON Schema). For Node-RED and for command-line.",
@@ -7582,24 +7716,6 @@
         "scada"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-belimo-cloud-connector"
-    },
-    {
-      "id": "node-red-contrib-unifi-os",
-      "version": "0.9.0",
-      "description": "Nodes to access UniFi data using endpoints and websockets",
-      "updated_at": "2023-05-30T00:33:30.640Z",
-      "types": [
-        "unifi-access-controller",
-        "unifi-request",
-        "unifi-web-socket",
-        "unifi-protect"
-      ],
-      "keywords": [
-        "node-red",
-        "iot",
-        "unifi"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-unifi-os"
     },
     {
       "id": "xslt3transformer",
