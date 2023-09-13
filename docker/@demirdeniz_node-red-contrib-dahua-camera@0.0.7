@@ -1,0 +1,55 @@
+#0 building with "default" instance using docker driver
+
+#1 [internal] load build definition from Dockerfile
+#1 transferring dockerfile: 134B done
+#1 DONE 0.0s
+
+#2 [internal] load .dockerignore
+#2 transferring context: 2B done
+#2 DONE 0.0s
+
+#3 [internal] load metadata for docker.io/nodered/node-red:latest
+#3 DONE 0.3s
+
+#4 [1/2] FROM docker.io/nodered/node-red@sha256:5e99ed734f7d2f9bfcb1e20dfbf4c5b9aa60f35a9df6e257e817130f0f9be9dc
+#4 CACHED
+
+#5 [2/2] RUN npm install npm install @demirdeniz/node-red-contrib-dahua-camera@0.0.7
+#5 3.530 npm WARN EBADENGINE Unsupported engine {
+#5 3.531 npm WARN EBADENGINE   package: 'npm@10.1.0',
+#5 3.532 npm WARN EBADENGINE   required: { node: '^18.17.0 || >=20.5.0' },
+#5 3.532 npm WARN EBADENGINE   current: { node: 'v16.20.2', npm: '8.19.4' }
+#5 3.533 npm WARN EBADENGINE }
+#5 5.557 npm WARN deprecated har-validator@5.1.5: this library is no longer supported
+#5 5.607 npm WARN deprecated uuid@3.4.0: Please upgrade  to version 7 or higher.  Older versions may use Math.random() in certain circumstances, which is known to be problematic.  See https://v8.dev/blog/math-random for details.
+#5 5.641 npm WARN deprecated request@2.88.2: request has been deprecated, see https://github.com/request/request/issues/3142
+#5 12.35 
+#5 12.35 added 73 packages, and audited 635 packages in 12s
+#5 12.35 
+#5 12.35 66 packages are looking for funding
+#5 12.35   run `npm fund` for details
+#5 12.36 
+#5 12.36 5 vulnerabilities (2 moderate, 3 critical)
+#5 12.36 
+#5 12.36 To address issues that do not require attention, run:
+#5 12.36   npm audit fix
+#5 12.36 
+#5 12.36 Some issues need review, and may require choosing
+#5 12.36 a different dependency.
+#5 12.36 
+#5 12.36 Run `npm audit` for details.
+#5 12.36 npm notice 
+#5 12.36 npm notice New major version of npm available! 8.19.4 -> 10.1.0
+#5 12.36 npm notice Changelog: <https://github.com/npm/cli/releases/tag/v10.1.0>
+#5 12.36 npm notice Run `npm install -g npm@10.1.0` to update!
+#5 12.36 npm notice 
+#5 DONE 12.5s
+
+#6 exporting to image
+#6 exporting layers
+#6 exporting layers 1.3s done
+#6 writing image sha256:6cff9865256d38e9c226ba396b1d736a782bb2f32eb7c1dd0dff73b58b460399 done
+#6 naming to docker.io/library/tmp done
+#6 DONE 1.3s
+
+----
