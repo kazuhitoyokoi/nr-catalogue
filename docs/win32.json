@@ -1,7 +1,123 @@
 {
   "name": "Catalogue for Windows",
-  "updated_at": "2023-09-14T20:41:25.133Z",
+  "updated_at": "2023-09-15T19:16:52.120Z",
   "modules": [
+    {
+      "id": "@parasaurolophus/node-red-dnssd",
+      "version": "3.1.1",
+      "description": "Wrap dnssd package for Node-RED",
+      "updated_at": "2023-09-15T14:34:20.194Z",
+      "types": [
+        "dnssd-advertisement",
+        "dnssd-browser"
+      ],
+      "keywords": [
+        "node-red",
+        "dnssd",
+        "dns-sd",
+        "bonjour",
+        "avahi",
+        "mdns",
+        "zeroconf"
+      ],
+      "url": "https://flows.nodered.org/node/@parasaurolophus/node-red-dnssd"
+    },
+    {
+      "id": "@appmodule/node-red-contrib-siot",
+      "version": "3.0.0-rc3",
+      "description": "Node-RED interactions with SIOT",
+      "updated_at": "2023-09-15T14:28:03.937Z",
+      "types": [
+        "de-commands",
+        "cmd-ack",
+        "de-subscriber",
+        "de-publisher",
+        "siot-config",
+        "class-config"
+      ],
+      "keywords": [
+        "node-red"
+      ],
+      "url": "https://flows.nodered.org/node/@appmodule/node-red-contrib-siot"
+    },
+    {
+      "id": "node-red-contrib-grohe-sense",
+      "version": "0.16.0",
+      "description": "Grohe sense nodes via ondus API.",
+      "updated_at": "2023-09-15T14:09:50.732Z",
+      "types": [
+        "grohe location",
+        "grohe sense"
+      ],
+      "keywords": [
+        "node-red",
+        "grohe",
+        "ondus",
+        "sense"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-grohe-sense"
+    },
+    {
+      "id": "node-red-contrib-tak-registration",
+      "version": "0.11.0",
+      "description": "A Node-RED node to register to TAK and to help wrap files as datapackages to send to TAK",
+      "updated_at": "2023-09-15T10:55:59.705Z",
+      "types": [
+        "tak registration",
+        "tak ingest"
+      ],
+      "keywords": [
+        "TAK",
+        "COT",
+        "node-red"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-tak-registration"
+    },
+    {
+      "id": "@flowforge/node-red-dashboard",
+      "version": "0.5.0",
+      "description": "A collection of Node-RED nodes that provide functionality to build your own UI applications (inc. forms, buttons, charts) within Node-RED.",
+      "updated_at": "2023-09-15T07:54:39.004Z",
+      "types": [
+        "ui-base",
+        "ui-page",
+        "ui-group",
+        "ui-theme",
+        "ui-form",
+        "ui-text-input",
+        "ui-button",
+        "ui-dropdown",
+        "ui-radio-group",
+        "ui-slider",
+        "ui-switch",
+        "ui-text",
+        "ui-table",
+        "ui-chart",
+        "ui-notification",
+        "ui-markdown",
+        "ui-template"
+      ],
+      "keywords": [
+        "node-red"
+      ],
+      "url": "https://flows.nodered.org/node/@flowforge/node-red-dashboard"
+    },
+    {
+      "id": "smithtek-node-red-lora",
+      "version": "1.7.0",
+      "description": "NodeRED nodes.",
+      "updated_at": "2023-09-15T05:16:59.526Z",
+      "types": [
+        "loraconfig"
+      ],
+      "keywords": [
+        "node-red",
+        "loraconfig",
+        "iot",
+        "smithtek"
+      ],
+      "url": "https://flows.nodered.org/node/smithtek-node-red-lora"
+    },
     {
       "id": "@jambonz/node-red-contrib-jambonz",
       "version": "2.4.16",
@@ -100,44 +216,10 @@
       "url": "https://flows.nodered.org/node/victron-dynamic-ess"
     },
     {
-      "id": "@appmodule/node-red-contrib-siot",
-      "version": "3.0.0-rc1",
-      "description": "Node-RED interactions with SIOT",
-      "updated_at": "2023-09-14T09:44:35.021Z",
-      "types": [
-        "de-commands",
-        "cmd-ack",
-        "de-subscriber",
-        "de-publisher",
-        "siot-config",
-        "class-config"
-      ],
-      "keywords": [
-        "node-red"
-      ],
-      "url": "https://flows.nodered.org/node/@appmodule/node-red-contrib-siot"
-    },
-    {
-      "id": "atomic-informix",
-      "version": "0.0.1",
-      "description": "Informix database module for Brobridge Atomic",
-      "updated_at": "2023-09-14T09:21:10.035Z",
-      "types": [
-        "Informix Connection",
-        "Informix Execute"
-      ],
-      "keywords": [
-        "informix",
-        "node-red",
-        "atomic"
-      ],
-      "url": "https://flows.nodered.org/node/atomic-informix"
-    },
-    {
       "id": "@hexa-ai/node-red-contrib-hexa-ai",
-      "version": "0.1.0",
+      "version": "1.0.0",
       "description": "A set of nodes for working with variables (reading, writing, history, alarm).",
-      "updated_at": "2023-09-14T09:00:35.693Z",
+      "updated_at": "2023-09-14T09:52:28.607Z",
       "types": [
         "warp10",
         "read-variable",
@@ -154,6 +236,22 @@
         "alarm"
       ],
       "url": "https://flows.nodered.org/node/@hexa-ai/node-red-contrib-hexa-ai"
+    },
+    {
+      "id": "atomic-informix",
+      "version": "0.0.1",
+      "description": "Informix database module for Brobridge Atomic",
+      "updated_at": "2023-09-14T09:21:10.035Z",
+      "types": [
+        "Informix Connection",
+        "Informix Execute"
+      ],
+      "keywords": [
+        "informix",
+        "node-red",
+        "atomic"
+      ],
+      "url": "https://flows.nodered.org/node/atomic-informix"
     },
     {
       "id": "node-red-contrib-simple-bu",
@@ -232,26 +330,6 @@
         "oznlogger"
       ],
       "url": "https://flows.nodered.org/node/@ozmap/node-red-contrib-msg-ozlogger"
-    },
-    {
-      "id": "@parasaurolophus/node-red-dnssd",
-      "version": "3.0.0",
-      "description": "Wrap dnssd package for Node-RED",
-      "updated_at": "2023-09-14T01:55:03.569Z",
-      "types": [
-        "dnssd-advertisement",
-        "dnssd-browser"
-      ],
-      "keywords": [
-        "node-red",
-        "dnssd",
-        "dns-sd",
-        "bonjour",
-        "avahi",
-        "mdns",
-        "zeroconf"
-      ],
-      "url": "https://flows.nodered.org/node/@parasaurolophus/node-red-dnssd"
     },
     {
       "id": "@crusaider/node-red-contrib-vattenfall-tariff",
@@ -526,21 +604,6 @@
         "dashboard"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-ui-state-trail"
-    },
-    {
-      "id": "node-red-contrib-edgesignal-connector",
-      "version": "1.0.2",
-      "description": "edgesignal connector",
-      "updated_at": "2023-09-12T09:37:30.243Z",
-      "types": [
-        "edgesignal-connector"
-      ],
-      "keywords": [
-        "edgesignal",
-        "iot",
-        "node-red"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-edgesignal-connector"
     },
     {
       "id": "node-red-contrib-openai-ubos",
@@ -975,22 +1038,6 @@
       "url": "https://flows.nodered.org/node/node-red-wechat-syh"
     },
     {
-      "id": "node-red-contrib-tak-registration",
-      "version": "0.9.0",
-      "description": "A Node-RED node to register to TAK and to help wrap files as datapackages to send to TAK",
-      "updated_at": "2023-09-08T13:00:24.063Z",
-      "types": [
-        "tak registration",
-        "tak ingest"
-      ],
-      "keywords": [
-        "TAK",
-        "COT",
-        "node-red"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-tak-registration"
-    },
-    {
       "id": "node-red-contrib-simple-whisper",
       "version": "1.0.1",
       "description": "Node-REDでWhisperを使って文字起こしができます。",
@@ -1221,34 +1268,6 @@
         "node-red"
       ],
       "url": "https://flows.nodered.org/node/@objectif-lune/node-red-contrib-connect"
-    },
-    {
-      "id": "@flowforge/node-red-dashboard",
-      "version": "0.4.0",
-      "description": "A collection of Node-RED nodes that provide functionality to build your own UI applications (inc. forms, buttons, charts) within Node-RED.",
-      "updated_at": "2023-09-06T10:09:51.028Z",
-      "types": [
-        "ui-base",
-        "ui-page",
-        "ui-group",
-        "ui-theme",
-        "ui-form",
-        "ui-text-input",
-        "ui-button",
-        "ui-dropdown",
-        "ui-radio-group",
-        "ui-slider",
-        "ui-switch",
-        "ui-text",
-        "ui-table",
-        "ui-chart",
-        "ui-markdown",
-        "ui-template"
-      ],
-      "keywords": [
-        "node-red"
-      ],
-      "url": "https://flows.nodered.org/node/@flowforge/node-red-dashboard"
     },
     {
       "id": "node-red-contrib-boolean-logic-ultimate",
@@ -6370,22 +6389,6 @@
         "Process Control"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-analog-alarm-monitor"
-    },
-    {
-      "id": "smithtek-node-red-lora",
-      "version": "1.6.0",
-      "description": "NodeRED nodes.",
-      "updated_at": "2023-06-29T02:05:49.163Z",
-      "types": [
-        "loraconfig"
-      ],
-      "keywords": [
-        "node-red",
-        "loraconfig",
-        "iot",
-        "smithtek"
-      ],
-      "url": "https://flows.nodered.org/node/smithtek-node-red-lora"
     },
     {
       "id": "node-red-contrib-grovepi-nodes",
@@ -11842,23 +11845,6 @@
         "api"
       ],
       "url": "https://flows.nodered.org/node/@martip/node-red-google-apis"
-    },
-    {
-      "id": "node-red-contrib-grohe-sense",
-      "version": "0.15.1",
-      "description": "Grohe sense nodes via ondus API.",
-      "updated_at": "2023-03-17T20:38:28.698Z",
-      "types": [
-        "grohe location",
-        "grohe sense"
-      ],
-      "keywords": [
-        "node-red",
-        "grohe",
-        "ondus",
-        "sense"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-grohe-sense"
     },
     {
       "id": "node-red-contrib-playwright",
