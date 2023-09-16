@@ -1,12 +1,12 @@
 {
   "name": "Catalogue for Docker",
-  "updated_at": "2023-09-15T16:15:40.389Z",
+  "updated_at": "2023-09-16T16:08:58.507Z",
   "modules": [
     {
       "id": "@parasaurolophus/node-red-dnssd",
-      "version": "3.1.1",
+      "version": "3.1.2",
       "description": "Wrap dnssd package for Node-RED",
-      "updated_at": "2023-09-15T14:34:20.194Z",
+      "updated_at": "2023-09-16T08:39:20.699Z",
       "types": [
         "dnssd-advertisement",
         "dnssd-browser"
@@ -21,6 +21,74 @@
         "zeroconf"
       ],
       "url": "https://flows.nodered.org/node/@parasaurolophus/node-red-dnssd"
+    },
+    {
+      "id": "node-red-contrib-spreadsheet-in",
+      "version": "0.7.1",
+      "description": "This package provides Node-RED nodes to read data from spreadsheet (Excel, ODS, etc.) file.",
+      "updated_at": "2023-09-15T21:39:26.543Z",
+      "types": [
+        "book",
+        "sheet",
+        "cell",
+        "sheet-to-json"
+      ],
+      "keywords": [
+        "node-red",
+        "spreadsheet",
+        "excel"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-spreadsheet-in"
+    },
+    {
+      "id": "node-red-contrib-rollun-aws-sp-api",
+      "version": "1.0.0",
+      "description": "Node-RED nodes to access AWS Selling Partner API",
+      "updated_at": "2023-09-15T20:21:12.551Z",
+      "types": [
+        "rollun-aws-sp-api-credentials",
+        "rollun-aws-sp-api"
+      ],
+      "keywords": [
+        "node-red",
+        "aws",
+        "sp",
+        "selling",
+        "partner"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-rollun-aws-sp-api"
+    },
+    {
+      "id": "@tq-bit/node-red-contrib-server-sent-events",
+      "version": "1.1.0",
+      "description": "Nodes to create - or subscribe to - server-sent events",
+      "updated_at": "2023-09-15T17:42:06.534Z",
+      "types": [
+        "sse-server",
+        "sse-client"
+      ],
+      "keywords": [
+        "node-red",
+        "nodes",
+        "server-sent-events",
+        "sse"
+      ],
+      "url": "https://flows.nodered.org/node/@tq-bit/node-red-contrib-server-sent-events"
+    },
+    {
+      "id": "node-red-contrib-oauth2",
+      "version": "5.1.6",
+      "description": "The node-red-contrib-oauth2 is a Node-RED node that provides an OAuth2 authentication flow. This node uses the OAuth2 protocol to obtain an access token, which can be used to make authenticated API requests.",
+      "updated_at": "2023-09-15T16:30:54.544Z",
+      "types": [
+        "oauth2"
+      ],
+      "keywords": [
+        "node-red",
+        "oauth2",
+        "security"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-oauth2"
     },
     {
       "id": "@appmodule/node-red-contrib-siot",
@@ -773,21 +841,6 @@
         "iot"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-smartnora"
-    },
-    {
-      "id": "node-red-contrib-oauth2",
-      "version": "5.0.6",
-      "description": "The node-red-contrib-oauth2 is a Node-RED node that provides an OAuth2 authentication flow. This node uses the OAuth2 protocol to obtain an access token, which can be used to make authenticated API requests.",
-      "updated_at": "2023-09-11T15:22:05.652Z",
-      "types": [
-        "oauth2"
-      ],
-      "keywords": [
-        "node-red",
-        "oauth2",
-        "security"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-oauth2"
     },
     {
       "id": "node-red-contrib-eskomsepush",
@@ -7493,23 +7546,6 @@
         "node-red"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-prediktor-config-repo"
-    },
-    {
-      "id": "@tq-bit/node-red-contrib-server-sent-events",
-      "version": "1.0.6",
-      "description": "Nodes to create - or subscribe to - server-sent events",
-      "updated_at": "2023-06-05T06:20:19.358Z",
-      "types": [
-        "sse-server",
-        "sse-client"
-      ],
-      "keywords": [
-        "node-red",
-        "nodes",
-        "server-sent-events",
-        "sse"
-      ],
-      "url": "https://flows.nodered.org/node/@tq-bit/node-red-contrib-server-sent-events"
     },
     {
       "id": "@friendsincode/node-red-hap-controller",
@@ -45894,24 +45930,6 @@
         "tactile"
       ],
       "url": "https://flows.nodered.org/node/@makeproaudio/node-red-contrib-makehaus"
-    },
-    {
-      "id": "node-red-contrib-spreadsheet-in",
-      "version": "0.6.0",
-      "description": "This package provides Node-RED nodes to read data from spreadsheet (Excel, ODS, etc.) file.",
-      "updated_at": "2020-08-30T13:01:38.400Z",
-      "types": [
-        "book",
-        "sheet",
-        "cell",
-        "sheet-to-json"
-      ],
-      "keywords": [
-        "node-red",
-        "spreadsheet",
-        "excel"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-spreadsheet-in"
     },
     {
       "id": "node-red-contrib-redash",
