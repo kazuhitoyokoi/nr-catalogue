@@ -1,0 +1,44 @@
+#0 building with "default" instance using docker driver
+
+#1 [internal] load .dockerignore
+#1 transferring context: 2B done
+#1 DONE 0.0s
+
+#2 [internal] load build definition from Dockerfile
+#2 transferring dockerfile: 124B done
+#2 DONE 0.0s
+
+#3 [internal] load metadata for docker.io/nodered/node-red:latest
+#3 DONE 0.1s
+
+#4 [1/2] FROM docker.io/nodered/node-red@sha256:5e99ed734f7d2f9bfcb1e20dfbf4c5b9aa60f35a9df6e257e817130f0f9be9dc
+#4 CACHED
+
+#5 [2/2] RUN npm install npm install node-red-contrib-spreadsheet-in@0.7.1
+#5 2.392 npm WARN EBADENGINE Unsupported engine {
+#5 2.393 npm WARN EBADENGINE   package: 'npm@10.1.0',
+#5 2.393 npm WARN EBADENGINE   required: { node: '^18.17.0 || >=20.5.0' },
+#5 2.393 npm WARN EBADENGINE   current: { node: 'v16.20.2', npm: '8.19.4' }
+#5 2.394 npm WARN EBADENGINE }
+#5 4.283 
+#5 4.283 added 4 packages, and audited 566 packages in 4s
+#5 4.283 
+#5 4.283 65 packages are looking for funding
+#5 4.283   run `npm fund` for details
+#5 4.284 
+#5 4.284 found 0 vulnerabilities
+#5 4.285 npm notice 
+#5 4.285 npm notice New major version of npm available! 8.19.4 -> 10.1.0
+#5 4.285 npm notice Changelog: <https://github.com/npm/cli/releases/tag/v10.1.0>
+#5 4.285 npm notice Run `npm install -g npm@10.1.0` to update!
+#5 4.285 npm notice 
+#5 DONE 4.4s
+
+#6 exporting to image
+#6 exporting layers
+#6 exporting layers 1.0s done
+#6 writing image sha256:bb1a1a092565bed4d4d89bae8917e83553756dc124b0bbf9d3db6700b45c72f8 done
+#6 naming to docker.io/library/tmp done
+#6 DONE 1.0s
+
+----
