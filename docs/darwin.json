@@ -1,7 +1,78 @@
 {
   "name": "Catalogue for macOS",
-  "updated_at": "2023-09-15T21:10:00.389Z",
+  "updated_at": "2023-09-16T21:41:09.448Z",
   "modules": [
+    {
+      "id": "node-red-node-sqlite",
+      "version": "1.1.0",
+      "description": "A sqlite node for Node-RED",
+      "updated_at": "2023-09-16T18:17:02.683Z",
+      "types": [
+        "sqlitedb",
+        "sqlite"
+      ],
+      "keywords": [
+        "node-red",
+        "sqlite"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-node-sqlite"
+    },
+    {
+      "id": "@parasaurolophus/node-red-dnssd",
+      "version": "3.1.2",
+      "description": "Wrap dnssd package for Node-RED",
+      "updated_at": "2023-09-16T08:39:20.699Z",
+      "types": [
+        "dnssd-advertisement",
+        "dnssd-browser"
+      ],
+      "keywords": [
+        "node-red",
+        "dnssd",
+        "dns-sd",
+        "bonjour",
+        "avahi",
+        "mdns",
+        "zeroconf"
+      ],
+      "url": "https://flows.nodered.org/node/@parasaurolophus/node-red-dnssd"
+    },
+    {
+      "id": "node-red-contrib-spreadsheet-in",
+      "version": "0.7.1",
+      "description": "This package provides Node-RED nodes to read data from spreadsheet (Excel, ODS, etc.) file.",
+      "updated_at": "2023-09-15T21:39:26.543Z",
+      "types": [
+        "book",
+        "sheet",
+        "cell",
+        "sheet-to-json"
+      ],
+      "keywords": [
+        "node-red",
+        "spreadsheet",
+        "excel"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-spreadsheet-in"
+    },
+    {
+      "id": "node-red-contrib-rollun-aws-sp-api",
+      "version": "1.0.0",
+      "description": "Node-RED nodes to access AWS Selling Partner API",
+      "updated_at": "2023-09-15T20:21:12.551Z",
+      "types": [
+        "rollun-aws-sp-api-credentials",
+        "rollun-aws-sp-api"
+      ],
+      "keywords": [
+        "node-red",
+        "aws",
+        "sp",
+        "selling",
+        "partner"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-rollun-aws-sp-api"
+    },
     {
       "id": "@tq-bit/node-red-contrib-server-sent-events",
       "version": "1.1.0",
@@ -33,26 +104,6 @@
         "security"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-oauth2"
-    },
-    {
-      "id": "@parasaurolophus/node-red-dnssd",
-      "version": "3.1.1",
-      "description": "Wrap dnssd package for Node-RED",
-      "updated_at": "2023-09-15T14:34:20.194Z",
-      "types": [
-        "dnssd-advertisement",
-        "dnssd-browser"
-      ],
-      "keywords": [
-        "node-red",
-        "dnssd",
-        "dns-sd",
-        "bonjour",
-        "avahi",
-        "mdns",
-        "zeroconf"
-      ],
-      "url": "https://flows.nodered.org/node/@parasaurolophus/node-red-dnssd"
     },
     {
       "id": "@appmodule/node-red-contrib-siot",
@@ -29673,21 +29724,6 @@
       "url": "https://flows.nodered.org/node/node-red-contrib-loadbalance"
     },
     {
-      "id": "node-red-node-sqlite",
-      "version": "1.0.3",
-      "description": "A sqlite node for Node-RED",
-      "updated_at": "2022-01-05T16:23:12.073Z",
-      "types": [
-        "sqlitedb",
-        "sqlite"
-      ],
-      "keywords": [
-        "node-red",
-        "sqlite"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-node-sqlite"
-    },
-    {
       "id": "node-red-node-ui-webcam",
       "version": "0.4.0",
       "description": "A Node-RED ui node to capture images from a webcam.",
@@ -46194,24 +46230,6 @@
         "tactile"
       ],
       "url": "https://flows.nodered.org/node/@makeproaudio/node-red-contrib-makehaus"
-    },
-    {
-      "id": "node-red-contrib-spreadsheet-in",
-      "version": "0.6.0",
-      "description": "This package provides Node-RED nodes to read data from spreadsheet (Excel, ODS, etc.) file.",
-      "updated_at": "2020-08-30T13:01:38.400Z",
-      "types": [
-        "book",
-        "sheet",
-        "cell",
-        "sheet-to-json"
-      ],
-      "keywords": [
-        "node-red",
-        "spreadsheet",
-        "excel"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-spreadsheet-in"
     },
     {
       "id": "node-red-contrib-redash",
