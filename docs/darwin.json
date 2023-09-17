@@ -1,27 +1,53 @@
 {
   "name": "Catalogue for macOS",
-  "updated_at": "2023-09-16T21:41:09.448Z",
+  "updated_at": "2023-09-17T21:22:09.884Z",
   "modules": [
     {
-      "id": "node-red-node-sqlite",
-      "version": "1.1.0",
-      "description": "A sqlite node for Node-RED",
-      "updated_at": "2023-09-16T18:17:02.683Z",
+      "id": "node-red-contrib-grove-base-hat-bash",
+      "version": "1.0.19",
+      "description": "Nodes for Grove Base HAT on Raspberry Pi using bash scripts and other tools",
+      "updated_at": "2023-09-17T18:06:17.000Z",
       "types": [
-        "sqlitedb",
-        "sqlite"
+        "grove-led",
+        "grove-relay",
+        "grove-buzzer",
+        "grove-led-dimmable",
+        "grove-button",
+        "grove-light-sensor-v1_2",
+        "grove-rotary-angle-sensor",
+        "grove-temperature-humidity-sensor",
+        "grove-temperature-humidity-sensor-pro",
+        "grove-ultrasonic-ranger"
       ],
       "keywords": [
         "node-red",
-        "sqlite"
+        "Grove",
+        "Grove Base HAT",
+        "Seeed",
+        "bash"
       ],
-      "url": "https://flows.nodered.org/node/node-red-node-sqlite"
+      "url": "https://flows.nodered.org/node/node-red-contrib-grove-base-hat-bash"
+    },
+    {
+      "id": "@parasaurolophus/node-red-eventsource",
+      "version": "2.0.2",
+      "description": "Wrap eventsource package as a node",
+      "updated_at": "2023-09-17T17:35:29.342Z",
+      "types": [
+        "EventSource"
+      ],
+      "keywords": [
+        "eventsource",
+        "sse",
+        "node-red"
+      ],
+      "url": "https://flows.nodered.org/node/@parasaurolophus/node-red-eventsource"
     },
     {
       "id": "@parasaurolophus/node-red-dnssd",
-      "version": "3.1.2",
+      "version": "3.1.3",
       "description": "Wrap dnssd package for Node-RED",
-      "updated_at": "2023-09-16T08:39:20.699Z",
+      "updated_at": "2023-09-17T16:56:54.702Z",
       "types": [
         "dnssd-advertisement",
         "dnssd-browser"
@@ -36,6 +62,53 @@
         "zeroconf"
       ],
       "url": "https://flows.nodered.org/node/@parasaurolophus/node-red-dnssd"
+    },
+    {
+      "id": "@mike.gofton/dsp-w215",
+      "version": "1.0.1",
+      "description": "NODE-RED node to control a DLink DSP-W215 home smart plug",
+      "updated_at": "2023-09-17T14:43:19.019Z",
+      "types": [
+        "DSP-W215"
+      ],
+      "keywords": [
+        "node-red",
+        "dsp-w215"
+      ],
+      "url": "https://flows.nodered.org/node/@mike.gofton/dsp-w215"
+    },
+    {
+      "id": "@node-red-contrib-themes/theme-collection",
+      "version": "3.1.2",
+      "description": "A collection of themes for Node-RED",
+      "updated_at": "2023-09-16T19:51:58.475Z",
+      "types": [],
+      "keywords": [
+        "node-red",
+        "nodered",
+        "theme",
+        "themes",
+        "plugin",
+        "plugins",
+        "dark",
+        "light"
+      ],
+      "url": "https://flows.nodered.org/node/@node-red-contrib-themes/theme-collection"
+    },
+    {
+      "id": "node-red-node-sqlite",
+      "version": "1.1.0",
+      "description": "A sqlite node for Node-RED",
+      "updated_at": "2023-09-16T18:17:02.683Z",
+      "types": [
+        "sqlitedb",
+        "sqlite"
+      ],
+      "keywords": [
+        "node-red",
+        "sqlite"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-node-sqlite"
     },
     {
       "id": "node-red-contrib-spreadsheet-in",
@@ -788,31 +861,6 @@
       "url": "https://flows.nodered.org/node/@insectos/ssh-exec"
     },
     {
-      "id": "node-red-contrib-grove-base-hat-bash",
-      "version": "1.0.18",
-      "description": "Nodes for Grove Base HAT on Raspberry Pi using bash scripts and other tools",
-      "updated_at": "2023-09-11T19:54:25.911Z",
-      "types": [
-        "grove-led",
-        "grove-relay",
-        "grove-buzzer",
-        "grove-led-dimmable",
-        "grove-button",
-        "grove-light-sensor-v1_2",
-        "grove-rotary-angle-sensor",
-        "grove-temperature-humidity-sensor",
-        "grove-temperature-humidity-sensor-pro"
-      ],
-      "keywords": [
-        "node-red",
-        "Grove",
-        "Grove Base HAT",
-        "Seeed",
-        "bash"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-grove-base-hat-bash"
-    },
-    {
       "id": "node-red-contrib-myq",
       "version": "0.0.12",
       "description": "Node-Red node to control MyQ (Chamberlain) devices",
@@ -939,21 +987,6 @@
         "node-red"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-line-content-api"
-    },
-    {
-      "id": "@parasaurolophus/node-red-eventsource",
-      "version": "1.5.2",
-      "description": "Wrap eventsource package as a node",
-      "updated_at": "2023-09-10T22:06:56.889Z",
-      "types": [
-        "EventSource"
-      ],
-      "keywords": [
-        "eventsource",
-        "sse",
-        "node-red"
-      ],
-      "url": "https://flows.nodered.org/node/@parasaurolophus/node-red-eventsource"
     },
     {
       "id": "node-red-contrib-aula-education",
@@ -1241,24 +1274,6 @@
         "pcf8575"
       ],
       "url": "https://flows.nodered.org/node/@joe-ab1do/mcp-pcf-aio"
-    },
-    {
-      "id": "@node-red-contrib-themes/theme-collection",
-      "version": "3.1.1",
-      "description": "A collection of themes for Node-RED",
-      "updated_at": "2023-09-06T16:07:37.639Z",
-      "types": [],
-      "keywords": [
-        "node-red",
-        "nodered",
-        "theme",
-        "themes",
-        "plugin",
-        "plugins",
-        "dark",
-        "light"
-      ],
-      "url": "https://flows.nodered.org/node/@node-red-contrib-themes/theme-collection"
     },
     {
       "id": "@objectif-lune/node-red-contrib-sendgrid",
