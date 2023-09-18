@@ -1,12 +1,49 @@
 {
   "name": "Catalogue for macOS",
-  "updated_at": "2023-09-17T21:22:09.884Z",
+  "updated_at": "2023-09-18T21:36:09.420Z",
   "modules": [
     {
+      "id": "node-red-node-data-generator",
+      "version": "1.0.2",
+      "description": "A Node-RED node to create a string of dummy data values from a template. Useful for test-cases.",
+      "updated_at": "2023-09-18T17:44:41.295Z",
+      "types": [
+        "data-generator"
+      ],
+      "keywords": [
+        "node-red",
+        "data-generator",
+        "dummy-json"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-node-data-generator"
+    },
+    {
+      "id": "node-red-contrib-mssql-plus",
+      "version": "0.11.0",
+      "description": "A node-red node to execute queries, stored procedures and bulk inserts in Microsoft SQL Server and Azure Databases SQL2000 ~ SQL2022",
+      "updated_at": "2023-09-18T15:46:27.862Z",
+      "types": [
+        "MSSQL-CN",
+        "MSSQL"
+      ],
+      "keywords": [
+        "node-red",
+        "odbc",
+        "unixodbc",
+        "mssql",
+        "sql",
+        "Microsoft",
+        "database",
+        "sql-server",
+        "azure"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-mssql-plus"
+    },
+    {
       "id": "node-red-contrib-grove-base-hat-bash",
-      "version": "1.0.19",
+      "version": "1.0.20",
       "description": "Nodes for Grove Base HAT on Raspberry Pi using bash scripts and other tools",
-      "updated_at": "2023-09-17T18:06:17.000Z",
+      "updated_at": "2023-09-18T15:39:39.077Z",
       "types": [
         "grove-led",
         "grove-relay",
@@ -17,7 +54,8 @@
         "grove-rotary-angle-sensor",
         "grove-temperature-humidity-sensor",
         "grove-temperature-humidity-sensor-pro",
-        "grove-ultrasonic-ranger"
+        "grove-ultrasonic-ranger",
+        "grove-sound-sensor"
       ],
       "keywords": [
         "node-red",
@@ -27,6 +65,238 @@
         "bash"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-grove-base-hat-bash"
+    },
+    {
+      "id": "@ptarmiganlabs/ctrl-q-nr",
+      "version": "0.2.6",
+      "description": "Node-RED components for cloud and client-managed Qlik Sense",
+      "updated_at": "2023-09-18T15:35:36.309Z",
+      "types": [
+        "qscloud-tenant",
+        "qseow-sense-server",
+        "qseow-app",
+        "qseow-license",
+        "qseow-service-status",
+        "qseow-tag",
+        "qseow-task",
+        "qscloud-app",
+        "qscloud-license",
+        "qscloud-reload",
+        "qscloud-reload-status",
+        "qscloud-user"
+      ],
+      "keywords": [
+        "ctrl-q",
+        "butler",
+        "qlik",
+        "qliksense",
+        "qlikcloud",
+        "senseops",
+        "node-red",
+        "low-code"
+      ],
+      "url": "https://flows.nodered.org/node/@ptarmiganlabs/ctrl-q-nr"
+    },
+    {
+      "id": "node-red-contrib-eskomsepush",
+      "version": "0.0.15",
+      "description": "Node-RED interface for the Eskomsepush API",
+      "updated_at": "2023-09-18T15:01:51.767Z",
+      "types": [
+        "eskomsepush"
+      ],
+      "keywords": [
+        "node-red",
+        "eskomsepush",
+        "loadshedding",
+        "south africa",
+        "scheduled charging",
+        "victron",
+        "ess"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-eskomsepush"
+    },
+    {
+      "id": "node-red-contrib-letsfiware-ngsi",
+      "version": "0.17.0",
+      "description": "Node-RED implementation for FIWARE Open APIs",
+      "updated_at": "2023-09-18T12:32:33.455Z",
+      "types": [
+        "NGSI Entity",
+        "NGSI Attributes",
+        "NGSI Attribute",
+        "NGSI Attribute value",
+        "NGSI source",
+        "NGSI Batch update",
+        "NGSI subscription",
+        "NGSI registration",
+        "NGSI Types",
+        "NGSI Encode",
+        "NGSI Decode",
+        "Service and ServicePath",
+        "GTFS Realtime to NGSI",
+        "NGSI to worldmap",
+        "NGSI to dashboard",
+        "OpenWeatherMap to NGSI",
+        "FIWARE version",
+        "Historical Context",
+        "NGSI timeseries",
+        "Open APIs"
+      ],
+      "keywords": [
+        "node-red",
+        "contrib",
+        "fiware",
+        "ngsi",
+        "context",
+        "process",
+        "data",
+        "json"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-letsfiware-ngsi"
+    },
+    {
+      "id": "node-red-contrib-azure-openai",
+      "version": "1.0.1",
+      "description": "utilize Azure OpenAI ",
+      "updated_at": "2023-09-18T11:58:25.355Z",
+      "types": [
+        "AOAI-config",
+        "AOAI-request"
+      ],
+      "keywords": [
+        "Azure",
+        "Open-AI",
+        "Azure Open-AI",
+        "Node Red",
+        "node-red"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-azure-openai"
+    },
+    {
+      "id": "atomic-gravity",
+      "version": "2.0.10",
+      "description": "Gravity module for Brobridge Atomic",
+      "updated_at": "2023-09-18T10:08:25.569Z",
+      "types": [
+        "Gravity Subscriber",
+        "Gravity Publish",
+        "Gravity Server",
+        "Gravity Acknowledge"
+      ],
+      "keywords": [
+        "gravity",
+        "node-red",
+        "atomic"
+      ],
+      "url": "https://flows.nodered.org/node/atomic-gravity"
+    },
+    {
+      "id": "node-red-contrib-revpi-nodes",
+      "version": "1.1.0",
+      "description": "KUNBUS RevPi Nodes",
+      "updated_at": "2023-09-18T09:02:50.425Z",
+      "types": [
+        "revpi-server",
+        "revpi-single-input",
+        "revpi-multiple-input",
+        "revpi-getpin",
+        "revpi-output"
+      ],
+      "keywords": [
+        "node-red",
+        "revpi",
+        "kunbus",
+        "revolution pi",
+        "AIO",
+        "DIO"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-revpi-nodes"
+    },
+    {
+      "id": "node-red-contrib-alice",
+      "version": "2.1.3",
+      "description": "**NodeRed Home** (node-red-contrib-alice) - это сервис позволит, в несколько простых шагов, подключить любые ваши устройства заведенные в Node-RED к умному дому от Яндекса и управлять ими с помощью голосового помощника Алиса.",
+      "updated_at": "2023-09-18T08:54:58.600Z",
+      "types": [
+        "alice-service",
+        "alice-device",
+        "On_Off",
+        "Toggle",
+        "Range",
+        "Color",
+        "Mode",
+        "Sensor",
+        "Event",
+        "Video"
+      ],
+      "keywords": [
+        "node-red",
+        "yandex",
+        "alice",
+        "яндекс",
+        "алиса"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-alice"
+    },
+    {
+      "id": "@mike.gofton/dsp-w215",
+      "version": "1.0.2",
+      "description": "NODE-RED node to control a DLink DSP-W215 home smart plug",
+      "updated_at": "2023-09-18T07:56:12.021Z",
+      "types": [
+        "DSP-W215"
+      ],
+      "keywords": [
+        "node-red",
+        "dsp-w215"
+      ],
+      "url": "https://flows.nodered.org/node/@mike.gofton/dsp-w215"
+    },
+    {
+      "id": "node-red-contrib-agur-connector",
+      "version": "0.6.3",
+      "description": "Node-RED oracle database nodes",
+      "updated_at": "2023-09-18T07:08:19.080Z",
+      "types": [
+        "oracle-server",
+        "oracledb"
+      ],
+      "keywords": [
+        "node-red",
+        "oracle",
+        "sql",
+        "oracledb"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-agur-connector"
+    },
+    {
+      "id": "apconic-node-red-weight-parser",
+      "version": "1.2.0",
+      "description": "Node for weight parser",
+      "updated_at": "2023-09-18T05:33:05.014Z",
+      "types": [
+        "apconic-weight-parser"
+      ],
+      "keywords": [
+        "node-red"
+      ],
+      "url": "https://flows.nodered.org/node/apconic-node-red-weight-parser"
+    },
+    {
+      "id": "node-red-contrib-oauth2",
+      "version": "5.2.6",
+      "description": "The node-red-contrib-oauth2 is a Node-RED node that provides an OAuth2 authentication flow. This node uses the OAuth2 protocol to obtain an access token, which can be used to make authenticated API requests.",
+      "updated_at": "2023-09-17T20:23:43.192Z",
+      "types": [
+        "oauth2"
+      ],
+      "keywords": [
+        "node-red",
+        "oauth2",
+        "security"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-oauth2"
     },
     {
       "id": "@parasaurolophus/node-red-eventsource",
@@ -62,20 +332,6 @@
         "zeroconf"
       ],
       "url": "https://flows.nodered.org/node/@parasaurolophus/node-red-dnssd"
-    },
-    {
-      "id": "@mike.gofton/dsp-w215",
-      "version": "1.0.1",
-      "description": "NODE-RED node to control a DLink DSP-W215 home smart plug",
-      "updated_at": "2023-09-17T14:43:19.019Z",
-      "types": [
-        "DSP-W215"
-      ],
-      "keywords": [
-        "node-red",
-        "dsp-w215"
-      ],
-      "url": "https://flows.nodered.org/node/@mike.gofton/dsp-w215"
     },
     {
       "id": "@node-red-contrib-themes/theme-collection",
@@ -162,21 +418,6 @@
         "sse"
       ],
       "url": "https://flows.nodered.org/node/@tq-bit/node-red-contrib-server-sent-events"
-    },
-    {
-      "id": "node-red-contrib-oauth2",
-      "version": "5.1.6",
-      "description": "The node-red-contrib-oauth2 is a Node-RED node that provides an OAuth2 authentication flow. This node uses the OAuth2 protocol to obtain an access token, which can be used to make authenticated API requests.",
-      "updated_at": "2023-09-15T16:30:54.544Z",
-      "types": [
-        "oauth2"
-      ],
-      "keywords": [
-        "node-red",
-        "oauth2",
-        "security"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-oauth2"
     },
     {
       "id": "@appmodule/node-red-contrib-siot",
@@ -322,19 +563,6 @@
       "url": "https://flows.nodered.org/node/@jambonz/node-red-contrib-jambonz"
     },
     {
-      "id": "apconic-node-red-weight-parser",
-      "version": "1.1.0",
-      "description": "Node for weight parser",
-      "updated_at": "2023-09-14T10:52:00.774Z",
-      "types": [
-        "apconic-weight-parser"
-      ],
-      "keywords": [
-        "node-red"
-      ],
-      "url": "https://flows.nodered.org/node/apconic-node-red-weight-parser"
-    },
-    {
       "id": "node-red-contrib-postgresql",
       "version": "0.14.0",
       "description": "Node-RED node for PostgreSQL, supporting parameters, split, back-pressure",
@@ -422,37 +650,6 @@
         "simple-bu"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-simple-bu"
-    },
-    {
-      "id": "@ptarmiganlabs/ctrl-q-nr",
-      "version": "0.2.3",
-      "description": "Node-RED components for cloud and client-managed Qlik Sense",
-      "updated_at": "2023-09-14T05:22:06.918Z",
-      "types": [
-        "qscloud-tenant",
-        "qseow-sense-server",
-        "qseow-app",
-        "qseow-license",
-        "qseow-service-status",
-        "qseow-tag",
-        "qseow-task",
-        "qscloud-app",
-        "qscloud-license",
-        "qscloud-reload",
-        "qscloud-reload-status",
-        "qscloud-user"
-      ],
-      "keywords": [
-        "ctrl-q",
-        "butler",
-        "qlik",
-        "qliksense",
-        "qlikcloud",
-        "senseops",
-        "node-red",
-        "low-code"
-      ],
-      "url": "https://flows.nodered.org/node/@ptarmiganlabs/ctrl-q-nr"
     },
     {
       "id": "node-red-contrib-portscan",
@@ -603,24 +800,6 @@
       "url": "https://flows.nodered.org/node/node-red-contrib-alexa-remote2-applestrudel"
     },
     {
-      "id": "node-red-contrib-azure-openai",
-      "version": "1.0.0",
-      "description": "utilize Azure OpenAI ",
-      "updated_at": "2023-09-13T09:17:57.432Z",
-      "types": [
-        "AOAI-config",
-        "AOAI-request"
-      ],
-      "keywords": [
-        "Azure",
-        "Open-AI",
-        "Azure Open-AI",
-        "Node Red",
-        "node-red"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-azure-openai"
-    },
-    {
       "id": "apconic-node-red-string-parser",
       "version": "1.0.5",
       "description": "- Basic String15 parser for controllers, returns weight.",
@@ -723,6 +902,22 @@
         "unifi"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-unifi-os"
+    },
+    {
+      "id": "node-red-contrib-daikin-cloud",
+      "version": "0.3.3",
+      "description": "Node-red Daikin Cloud Controller (experimental)",
+      "updated_at": "2023-09-12T19:15:49.457Z",
+      "types": [
+        "Daikin-Cloud-Controller"
+      ],
+      "keywords": [
+        "node-red",
+        "daikin",
+        "BRP069C4",
+        "cloud"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-daikin-cloud"
     },
     {
       "id": "node-red-contrib-pinecone",
@@ -920,25 +1115,6 @@
         "iot"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-smartnora"
-    },
-    {
-      "id": "node-red-contrib-eskomsepush",
-      "version": "0.0.14",
-      "description": "Node-RED interface for the Eskomsepush API",
-      "updated_at": "2023-09-11T14:16:56.396Z",
-      "types": [
-        "eskomsepush"
-      ],
-      "keywords": [
-        "node-red",
-        "eskomsepush",
-        "loadshedding",
-        "south africa",
-        "scheduled charging",
-        "victron",
-        "ess"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-eskomsepush"
     },
     {
       "id": "@oqdo/node-red-oqdobos",
@@ -1196,32 +1372,6 @@
         "icpdas"
       ],
       "url": "https://flows.nodered.org/node/@spectraautomation/node-red-urban-io"
-    },
-    {
-      "id": "node-red-contrib-alice",
-      "version": "2.1.2",
-      "description": "**NodeRed Home** (node-red-contrib-alice) - это сервис позволит, в несколько простых шагов, подключить любые ваши устройства заведенные в Node-RED к умному дому от Яндекса и управлять ими с помощью голосового помощника Алиса.",
-      "updated_at": "2023-09-07T08:12:05.713Z",
-      "types": [
-        "alice-service",
-        "alice-device",
-        "On_Off",
-        "Toggle",
-        "Range",
-        "Color",
-        "Mode",
-        "Sensor",
-        "Event",
-        "Video"
-      ],
-      "keywords": [
-        "node-red",
-        "yandex",
-        "alice",
-        "яндекс",
-        "алиса"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-alice"
     },
     {
       "id": "node-red-contrib-ical-events",
@@ -4912,45 +5062,6 @@
       "url": "https://flows.nodered.org/node/@softwaredevelopment/node-red-contrib-bodhi-device-rgb-light"
     },
     {
-      "id": "node-red-contrib-letsfiware-ngsi",
-      "version": "0.16.0",
-      "description": "Node-RED implementation for FIWARE Open APIs",
-      "updated_at": "2023-07-23T10:56:18.606Z",
-      "types": [
-        "NGSI Entity",
-        "NGSI Attributes",
-        "NGSI Attribute",
-        "NGSI Attribute value",
-        "NGSI source",
-        "NGSI Batch update",
-        "NGSI subscription",
-        "NGSI registration",
-        "NGSI Types",
-        "NGSI Encode",
-        "NGSI Decode",
-        "Service and ServicePath",
-        "GTFS Realtime to NGSI",
-        "NGSI to worldmap",
-        "NGSI to dashboard",
-        "OpenWeatherMap to NGSI",
-        "FIWARE version",
-        "Historical Context",
-        "NGSI timeseries",
-        "Open APIs"
-      ],
-      "keywords": [
-        "node-red",
-        "contrib",
-        "fiware",
-        "ngsi",
-        "context",
-        "process",
-        "data",
-        "json"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-letsfiware-ngsi"
-    },
-    {
       "id": "@buglss/node-red-crontinject",
       "version": "2.2.5",
       "description": "It is an extended clone of core inject node with cronti package.",
@@ -5139,24 +5250,6 @@
         "network"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-device-monitor"
-    },
-    {
-      "id": "atomic-gravity",
-      "version": "2.0.9",
-      "description": "Gravity module for Brobridge Atomic",
-      "updated_at": "2023-07-20T08:33:58.793Z",
-      "types": [
-        "Gravity Subscriber",
-        "Gravity Publish",
-        "Gravity Server",
-        "Gravity Acknowledge"
-      ],
-      "keywords": [
-        "gravity",
-        "node-red",
-        "atomic"
-      ],
-      "url": "https://flows.nodered.org/node/atomic-gravity"
     },
     {
       "id": "node-red-contrib-proficloud",
@@ -13665,28 +13758,6 @@
         "node-red"
       ],
       "url": "https://flows.nodered.org/node/red-endpoint-cmtk"
-    },
-    {
-      "id": "node-red-contrib-mssql-plus",
-      "version": "0.10.2",
-      "description": "A node-red node to execute queries, stored procedures and bulk inserts in Microsoft SQL Server and Azure Databases SQL2000 ~ SQL2019",
-      "updated_at": "2023-02-10T08:59:38.678Z",
-      "types": [
-        "MSSQL-CN",
-        "MSSQL"
-      ],
-      "keywords": [
-        "node-red",
-        "odbc",
-        "unixodbc",
-        "mssql",
-        "sql",
-        "Microsoft",
-        "database",
-        "sql-server",
-        "azure"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-mssql-plus"
     },
     {
       "id": "node-red-contrib-thinger",
@@ -24854,22 +24925,6 @@
       "url": "https://flows.nodered.org/node/node-red-contrib-decentralized-identity"
     },
     {
-      "id": "node-red-contrib-daikin-cloud",
-      "version": "0.2.1",
-      "description": "Node-red Daikin Cloud Controller (experimental)",
-      "updated_at": "2022-05-11T03:04:54.205Z",
-      "types": [
-        "Daikin-Cloud-Controller"
-      ],
-      "keywords": [
-        "node-red",
-        "daikin",
-        "BRP069C4",
-        "cloud"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-daikin-cloud"
-    },
-    {
       "id": "node-red-contrib-crestron",
       "version": "1.1.2",
       "description": "Node-RED nodes for communicating with a Crestron TCP Server.",
@@ -26163,21 +26218,6 @@
       "url": "https://flows.nodered.org/node/node-red-contrib-autodist-api-v062"
     },
     {
-      "id": "node-red-node-data-generator",
-      "version": "1.0.1",
-      "description": "A Node-RED node to create a string of dummy data values from a template. Useful for test-cases.",
-      "updated_at": "2022-04-08T11:11:23.229Z",
-      "types": [
-        "data-generator"
-      ],
-      "keywords": [
-        "node-red",
-        "data-generator",
-        "dummy-json"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-node-data-generator"
-    },
-    {
       "id": "node-red-contrib-intexspa",
       "version": "2.0.0",
       "description": "Intex SPA nodes for Node-RED.",
@@ -26650,28 +26690,6 @@
         "lorawan"
       ],
       "url": "https://flows.nodered.org/node/@lora-contrib/node-red-contrib-payload-parser"
-    },
-    {
-      "id": "node-red-contrib-revpi-nodes",
-      "version": "1.0.9",
-      "description": "KUNBUS RevPi Nodes",
-      "updated_at": "2022-04-01T07:53:16.169Z",
-      "types": [
-        "revpi-server",
-        "revpi-single-input",
-        "revpi-multiple-input",
-        "revpi-getpin",
-        "revpi-output"
-      ],
-      "keywords": [
-        "node-red",
-        "revpi",
-        "kunbus",
-        "revolution pi",
-        "AIO",
-        "DIO"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-revpi-nodes"
     },
     {
       "id": "@hexa-ai/node-red-contrib-hexa-data-connector",
