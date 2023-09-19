@@ -1,0 +1,49 @@
+#0 building with "default" instance using docker driver
+
+#1 [internal] load .dockerignore
+#1 transferring context: 2B done
+#1 DONE 0.0s
+
+#2 [internal] load build definition from Dockerfile
+#2 transferring dockerfile: 122B done
+#2 DONE 0.0s
+
+#3 [internal] load metadata for docker.io/nodered/node-red:latest
+#3 DONE 0.2s
+
+#4 [1/2] FROM docker.io/nodered/node-red@sha256:5e99ed734f7d2f9bfcb1e20dfbf4c5b9aa60f35a9df6e257e817130f0f9be9dc
+#4 CACHED
+
+#5 [2/2] RUN npm install npm install node-red-contrib-daikin-cloud@0.3.3
+#5 3.958 npm WARN EBADENGINE Unsupported engine {
+#5 3.958 npm WARN EBADENGINE   package: 'npm@10.1.0',
+#5 3.958 npm WARN EBADENGINE   required: { node: '^18.17.0 || >=20.5.0' },
+#5 3.958 npm WARN EBADENGINE   current: { node: 'v16.20.2', npm: '8.19.4' }
+#5 3.958 npm WARN EBADENGINE }
+#5 6.419 
+#5 6.419 added 41 packages, and audited 603 packages in 6s
+#5 6.419 
+#5 6.419 78 packages are looking for funding
+#5 6.419   run `npm fund` for details
+#5 6.424 
+#5 6.424 4 vulnerabilities (3 low, 1 high)
+#5 6.424 
+#5 6.424 Some issues need review, and may require choosing
+#5 6.424 a different dependency.
+#5 6.424 
+#5 6.424 Run `npm audit` for details.
+#5 6.424 npm notice 
+#5 6.424 npm notice New major version of npm available! 8.19.4 -> 10.1.0
+#5 6.424 npm notice Changelog: <https://github.com/npm/cli/releases/tag/v10.1.0>
+#5 6.424 npm notice Run `npm install -g npm@10.1.0` to update!
+#5 6.424 npm notice 
+#5 DONE 6.5s
+
+#6 exporting to image
+#6 exporting layers
+#6 exporting layers 1.1s done
+#6 writing image sha256:707ba321d325b7e78553665a6a596a8f7455e04faccdff27fc91b94a12e9aec3 done
+#6 naming to docker.io/library/tmp done
+#6 DONE 1.1s
+
+----
