@@ -1,7 +1,252 @@
 {
   "name": "Catalogue for macOS",
-  "updated_at": "2023-09-18T21:36:09.420Z",
+  "updated_at": "2023-09-19T21:15:32.400Z",
   "modules": [
+    {
+      "id": "node-red-contrib-aula-education",
+      "version": "0.5.3",
+      "description": "A Node-Red Node for collecting data from aula the danish educational platform.",
+      "updated_at": "2023-09-19T19:04:38.883Z",
+      "types": [
+        "aulaNode-config",
+        "aulaNode"
+      ],
+      "keywords": [
+        "node-red",
+        "aula",
+        "education"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-aula-education"
+    },
+    {
+      "id": "node-red-contrib-boolean-logic-ultimate",
+      "version": "1.1.0",
+      "description": "A set of Node-RED enhanced boolean logic and utility nodes, flow interruption, blinker, invert, filter, toggle etc.., with persistent values after reboot. Compatible also with Homeassistant values.",
+      "updated_at": "2023-09-19T18:36:55.429Z",
+      "types": [
+        "BooleanLogicUltimate",
+        "InvertUltimate",
+        "FilterUltimate",
+        "InterruptFlowUltimate",
+        "BlinkerUltimate",
+        "SimpleOutputUltimate",
+        "InjectUltimate",
+        "StatusUltimate",
+        "ImpulseUltimate",
+        "SumUltimate",
+        "toggleUltimate",
+        "RailwaySwitchUltimate",
+        "Comparator",
+        "translator-config"
+      ],
+      "keywords": [
+        "node-red",
+        "boolean",
+        "gate",
+        "filter",
+        "logic"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-boolean-logic-ultimate"
+    },
+    {
+      "id": "@ncd-io/node-red-enterprise-sensors",
+      "version": "0.1.11",
+      "description": "You can install this library through the Palette Manager in Node-Red's UI.",
+      "updated_at": "2023-09-19T17:58:06.494Z",
+      "types": [
+        "ncd-gateway-node",
+        "ncd-wireless-node",
+        "ncd-gateway-config"
+      ],
+      "keywords": [
+        "Wireless",
+        "NCD",
+        "Sensors",
+        "Digi",
+        "node-red",
+        "enterprise"
+      ],
+      "url": "https://flows.nodered.org/node/@ncd-io/node-red-enterprise-sensors"
+    },
+    {
+      "id": "@appmodule/node-red-contrib-siot",
+      "version": "3.0.0-rc5",
+      "description": "Node-RED interactions with SIOT",
+      "updated_at": "2023-09-19T17:09:31.927Z",
+      "types": [
+        "de-commands",
+        "cmd-ack",
+        "de-subscriber",
+        "de-publisher",
+        "siot-config",
+        "class-config"
+      ],
+      "keywords": [
+        "node-red"
+      ],
+      "url": "https://flows.nodered.org/node/@appmodule/node-red-contrib-siot"
+    },
+    {
+      "id": "node-red-contrib-millheat",
+      "version": "0.0.3",
+      "description": "A Node-Red node to interact with the Mill Open API",
+      "updated_at": "2023-09-19T14:11:20.052Z",
+      "types": [
+        "millheat",
+        "millheat-api"
+      ],
+      "keywords": [
+        "Mill",
+        "Millheat",
+        "iiot",
+        "node-red"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-millheat"
+    },
+    {
+      "id": "@gregoriusrippenstein/node-red-contrib-introspection",
+      "version": "0.4.3",
+      "description": "Node-RED Editor-only nodes for introspecting flows.",
+      "updated_at": "2023-09-19T13:14:18.788Z",
+      "types": [
+        "Seeker",
+        "Sink",
+        "Screenshot",
+        "Orphans",
+        "IsMobile",
+        "Navigator",
+        "DrawSVG",
+        "GetFlows",
+        "SendFlow",
+        "ClientCode"
+      ],
+      "keywords": [
+        "node-red"
+      ],
+      "url": "https://flows.nodered.org/node/@gregoriusrippenstein/node-red-contrib-introspection"
+    },
+    {
+      "id": "@jambonz/node-red-contrib-jambonz",
+      "version": "2.4.17",
+      "description": "Node-RED nodes for jambonz platform",
+      "updated_at": "2023-09-19T12:49:07.427Z",
+      "types": [
+        "webhook in",
+        "webhook out",
+        "audio in",
+        "jambonz_auth",
+        "aws_auth",
+        "enqueue",
+        "lex",
+        "say",
+        "dtmf",
+        "cfg",
+        "conference",
+        "gather",
+        "listen",
+        "sip:decline",
+        "sip:request",
+        "sip:refer",
+        "hangup",
+        "message",
+        "tag",
+        "pause",
+        "dequeue",
+        "play",
+        "dial",
+        "redirect",
+        "dialogflow",
+        "leave",
+        "rasa",
+        "user auth",
+        "create-call",
+        "create-sms",
+        "lcc",
+        "get_alerts",
+        "get_call",
+        "get_calls",
+        "get_recent_calls"
+      ],
+      "keywords": [
+        "node-red"
+      ],
+      "url": "https://flows.nodered.org/node/@jambonz/node-red-contrib-jambonz"
+    },
+    {
+      "id": "node-red-contrib-eskomsepush",
+      "version": "0.0.17",
+      "description": "Node-RED interface for the Eskomsepush API",
+      "updated_at": "2023-09-19T09:23:52.883Z",
+      "types": [
+        "eskomsepush"
+      ],
+      "keywords": [
+        "node-red",
+        "eskomsepush",
+        "loadshedding",
+        "south africa",
+        "scheduled charging",
+        "victron",
+        "ess"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-eskomsepush"
+    },
+    {
+      "id": "node-red-pyz-ble",
+      "version": "1.0.5",
+      "description": "一款低功耗蓝牙驱动读取小米温度传感器的插件",
+      "updated_at": "2023-09-19T04:58:25.696Z",
+      "types": [
+        "bleread"
+      ],
+      "keywords": [
+        "node-red"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-pyz-ble"
+    },
+    {
+      "id": "node-red-contrib-superpower-test",
+      "version": "0.0.3",
+      "description": "Node-RED integration with eWeLink Cube",
+      "updated_at": "2023-09-19T02:26:05.227Z",
+      "types": [
+        "api-server",
+        "get-devices",
+        "event-state",
+        "event-online",
+        "control-device",
+        "event-add-device",
+        "event-del-device",
+        "event-device-info",
+        "put-device-state",
+        "register-device"
+      ],
+      "keywords": [
+        "node-red",
+        "ewelink",
+        "ewelink-cube"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-superpower-test"
+    },
+    {
+      "id": "node-red-contrib-resend-last-msg",
+      "version": "1.0.5",
+      "description": "Resend last message received",
+      "updated_at": "2023-09-18T19:42:04.903Z",
+      "types": [
+        "resend last"
+      ],
+      "keywords": [
+        "node-red",
+        "resend",
+        "last",
+        "reinject",
+        "repeat",
+        "counter",
+        "count"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-resend-last-msg"
+    },
     {
       "id": "node-red-node-data-generator",
       "version": "1.0.2",
@@ -96,25 +341,6 @@
         "low-code"
       ],
       "url": "https://flows.nodered.org/node/@ptarmiganlabs/ctrl-q-nr"
-    },
-    {
-      "id": "node-red-contrib-eskomsepush",
-      "version": "0.0.15",
-      "description": "Node-RED interface for the Eskomsepush API",
-      "updated_at": "2023-09-18T15:01:51.767Z",
-      "types": [
-        "eskomsepush"
-      ],
-      "keywords": [
-        "node-red",
-        "eskomsepush",
-        "loadshedding",
-        "south africa",
-        "scheduled charging",
-        "victron",
-        "ess"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-eskomsepush"
     },
     {
       "id": "node-red-contrib-letsfiware-ngsi",
@@ -420,24 +646,6 @@
       "url": "https://flows.nodered.org/node/@tq-bit/node-red-contrib-server-sent-events"
     },
     {
-      "id": "@appmodule/node-red-contrib-siot",
-      "version": "3.0.0-rc3",
-      "description": "Node-RED interactions with SIOT",
-      "updated_at": "2023-09-15T14:28:03.937Z",
-      "types": [
-        "de-commands",
-        "cmd-ack",
-        "de-subscriber",
-        "de-publisher",
-        "siot-config",
-        "class-config"
-      ],
-      "keywords": [
-        "node-red"
-      ],
-      "url": "https://flows.nodered.org/node/@appmodule/node-red-contrib-siot"
-    },
-    {
       "id": "node-red-contrib-grohe-sense",
       "version": "0.16.0",
       "description": "Grohe sense nodes via ondus API.",
@@ -514,53 +722,6 @@
         "smithtek"
       ],
       "url": "https://flows.nodered.org/node/smithtek-node-red-lora"
-    },
-    {
-      "id": "@jambonz/node-red-contrib-jambonz",
-      "version": "2.4.16",
-      "description": "Node-RED nodes for jambonz platform",
-      "updated_at": "2023-09-14T11:54:35.645Z",
-      "types": [
-        "webhook in",
-        "webhook out",
-        "audio in",
-        "jambonz_auth",
-        "aws_auth",
-        "enqueue",
-        "lex",
-        "say",
-        "dtmf",
-        "cfg",
-        "conference",
-        "gather",
-        "listen",
-        "sip:decline",
-        "sip:request",
-        "sip:refer",
-        "hangup",
-        "message",
-        "tag",
-        "pause",
-        "dequeue",
-        "play",
-        "dial",
-        "redirect",
-        "dialogflow",
-        "leave",
-        "rasa",
-        "user auth",
-        "create-call",
-        "create-sms",
-        "lcc",
-        "get_alerts",
-        "get_call",
-        "get_calls",
-        "get_recent_calls"
-      ],
-      "keywords": [
-        "node-red"
-      ],
-      "url": "https://flows.nodered.org/node/@jambonz/node-red-contrib-jambonz"
     },
     {
       "id": "node-red-contrib-postgresql",
@@ -1165,22 +1326,6 @@
       "url": "https://flows.nodered.org/node/node-red-contrib-line-content-api"
     },
     {
-      "id": "node-red-contrib-aula-education",
-      "version": "0.5.1",
-      "description": "A Node-Red Node for collecting data from aula the danish educational platform.",
-      "updated_at": "2023-09-10T20:12:55.154Z",
-      "types": [
-        "aulaNode-config",
-        "aulaNode"
-      ],
-      "keywords": [
-        "node-red",
-        "aula",
-        "education"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-aula-education"
-    },
-    {
       "id": "node-red-contrib-xstate-machine",
       "version": "1.3.2",
       "description": "Xstate-based state machine implementation using state-machine-cat visualization for node red.",
@@ -1503,35 +1648,6 @@
       "url": "https://flows.nodered.org/node/@objectif-lune/node-red-contrib-connect"
     },
     {
-      "id": "node-red-contrib-boolean-logic-ultimate",
-      "version": "1.0.63",
-      "description": "A set of Node-RED enhanced boolean logic and utility nodes, flow interruption, blinker, invert, filter, toggle etc.., with persistent values after reboot. Compatible also with Homeassistant values.",
-      "updated_at": "2023-09-06T06:52:10.503Z",
-      "types": [
-        "BooleanLogicUltimate",
-        "InvertUltimate",
-        "FilterUltimate",
-        "InterruptFlowUltimate",
-        "BlinkerUltimate",
-        "SimpleOutputUltimate",
-        "InjectUltimate",
-        "StatusUltimate",
-        "ImpulseUltimate",
-        "SumUltimate",
-        "toggleUltimate",
-        "RailwaySwitchUltimate",
-        "Comparator"
-      ],
-      "keywords": [
-        "node-red",
-        "boolean",
-        "gate",
-        "filter",
-        "logic"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-boolean-logic-ultimate"
-    },
-    {
       "id": "@waldbaer/node-red-persistent-values",
       "version": "1.6.0",
       "description": "A user-friendly abstraction of the Node-RED context stores.",
@@ -1695,28 +1811,6 @@
         "matter"
       ],
       "url": "https://flows.nodered.org/node/@node-red-matter/node-red-matter"
-    },
-    {
-      "id": "@gregoriusrippenstein/node-red-contrib-introspection",
-      "version": "0.4.2",
-      "description": "Node-RED Editor-only nodes for introspecting flows.",
-      "updated_at": "2023-09-05T08:10:52.625Z",
-      "types": [
-        "Seeker",
-        "Sink",
-        "Screenshot",
-        "Orphans",
-        "IsMobile",
-        "Navigator",
-        "DrawSVG",
-        "GetFlows",
-        "SendFlow",
-        "ClientCode"
-      ],
-      "keywords": [
-        "node-red"
-      ],
-      "url": "https://flows.nodered.org/node/@gregoriusrippenstein/node-red-contrib-introspection"
     },
     {
       "id": "@ia-cloud/node-red-contrib-ia-cloud-fds",
@@ -2939,26 +3033,6 @@
         "node-red"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-life360"
-    },
-    {
-      "id": "@ncd-io/node-red-enterprise-sensors",
-      "version": "0.1.9",
-      "description": "You can install this library through the Palette Manager in Node-Red's UI.",
-      "updated_at": "2023-08-23T14:59:35.764Z",
-      "types": [
-        "ncd-gateway-node",
-        "ncd-wireless-node",
-        "ncd-gateway-config"
-      ],
-      "keywords": [
-        "Wireless",
-        "NCD",
-        "Sensors",
-        "Digi",
-        "node-red",
-        "enterprise"
-      ],
-      "url": "https://flows.nodered.org/node/@ncd-io/node-red-enterprise-sensors"
     },
     {
       "id": "node-red-contrib-iris",
@@ -7071,25 +7145,6 @@
       "url": "https://flows.nodered.org/node/node-red-contrib-nvl"
     },
     {
-      "id": "node-red-contrib-resend-last-msg",
-      "version": "1.0.4",
-      "description": "Resend last message received",
-      "updated_at": "2023-06-18T19:13:12.010Z",
-      "types": [
-        "resend last"
-      ],
-      "keywords": [
-        "node-red",
-        "resend",
-        "last",
-        "reinject",
-        "repeat",
-        "counter",
-        "count"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-resend-last-msg"
-    },
-    {
       "id": "node-red-contrib-bizwechat-apiproxy",
       "version": "1.2.1",
       "description": "企业微信消息接收转发至NodeRed-支持反代企微接口",
@@ -10031,30 +10086,6 @@
         "call"
       ],
       "url": "https://flows.nodered.org/node/autana-testing-call-or-mock"
-    },
-    {
-      "id": "node-red-contrib-superpower-test",
-      "version": "0.0.2",
-      "description": "Node-RED integration with eWeLink Cube",
-      "updated_at": "2023-04-26T01:45:13.696Z",
-      "types": [
-        "api-server",
-        "get-devices",
-        "event-state",
-        "event-online",
-        "control-device",
-        "event-add-device",
-        "event-del-device",
-        "event-device-info",
-        "put-device-state",
-        "register-device"
-      ],
-      "keywords": [
-        "node-red",
-        "ewelink",
-        "ewelink-cube"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-superpower-test"
     },
     {
       "id": "@bannsaenger/node-red-contrib-artnet-controller",
