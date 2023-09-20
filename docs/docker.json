@@ -1,51 +1,153 @@
 {
   "name": "Catalogue for Docker",
-  "updated_at": "2023-09-19T16:06:27.116Z",
+  "updated_at": "2023-09-20T16:15:54.688Z",
   "modules": [
     {
-      "id": "node-red-contrib-millheat",
-      "version": "0.0.3",
-      "description": "A Node-Red node to interact with the Mill Open API",
-      "updated_at": "2023-09-19T14:11:20.052Z",
+      "id": "@appmodule/node-red-contrib-siot",
+      "version": "3.0.0-rc6",
+      "description": "Node-RED interactions with SIOT",
+      "updated_at": "2023-09-20T12:17:25.482Z",
       "types": [
-        "millheat",
-        "millheat-api"
+        "de-commands",
+        "cmd-ack",
+        "de-subscriber",
+        "de-publisher",
+        "siot-config",
+        "class-config"
       ],
       "keywords": [
-        "Mill",
-        "Millheat",
-        "iiot",
         "node-red"
       ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-millheat"
+      "url": "https://flows.nodered.org/node/@appmodule/node-red-contrib-siot"
     },
     {
-      "id": "@gregoriusrippenstein/node-red-contrib-introspection",
-      "version": "0.4.3",
-      "description": "Node-RED Editor-only nodes for introspecting flows.",
-      "updated_at": "2023-09-19T13:14:18.788Z",
+      "id": "@mike.gofton/dsp-w215",
+      "version": "1.0.4",
+      "description": "Node-RED node to control a DLink DSP-W215 home smart plug",
+      "updated_at": "2023-09-20T11:01:06.202Z",
       "types": [
-        "Seeker",
-        "Sink",
-        "Screenshot",
-        "Orphans",
-        "IsMobile",
-        "Navigator",
-        "DrawSVG",
-        "GetFlows",
-        "SendFlow",
-        "ClientCode"
+        "DSP-W215"
+      ],
+      "keywords": [
+        "node-red",
+        "dsp-w215"
+      ],
+      "url": "https://flows.nodered.org/node/@mike.gofton/dsp-w215"
+    },
+    {
+      "id": "node-red-contrib-agur-connector",
+      "version": "1.1.0",
+      "description": "Easy to use Node-RED oracle database nodes",
+      "updated_at": "2023-09-20T09:56:37.868Z",
+      "types": [
+        "easy-oracle-config",
+        "easy-oracle"
       ],
       "keywords": [
         "node-red"
       ],
-      "url": "https://flows.nodered.org/node/@gregoriusrippenstein/node-red-contrib-introspection"
+      "url": "https://flows.nodered.org/node/node-red-contrib-agur-connector"
+    },
+    {
+      "id": "@sammachin/node-red-matter-bridge",
+      "version": "0.0.5",
+      "description": "Node red package for implementing a matter bridge",
+      "updated_at": "2023-09-20T09:11:55.935Z",
+      "types": [
+        "matterbridge",
+        "matteronofflight",
+        "matteronoffsocket",
+        "matterdimmablelight"
+      ],
+      "keywords": [
+        "node-red"
+      ],
+      "url": "https://flows.nodered.org/node/@sammachin/node-red-matter-bridge"
+    },
+    {
+      "id": "victron-dynamic-ess",
+      "version": "0.1.5",
+      "description": "Fetch the ideal ESS setpoint from VRM",
+      "updated_at": "2023-09-20T06:30:18.234Z",
+      "types": [
+        "victron-dynamic-ess"
+      ],
+      "keywords": [
+        "node-red",
+        "victron",
+        "dynamic ess",
+        "scheduled charging",
+        "ess"
+      ],
+      "url": "https://flows.nodered.org/node/victron-dynamic-ess"
+    },
+    {
+      "id": "node-red-contrib-simple-chatgpt-instruct",
+      "version": "1.0.0",
+      "description": "Node-REDでChatGPTを使うためのノードです。チャットのやり取りは出来ない一発回答のみです。",
+      "updated_at": "2023-09-20T05:11:12.481Z",
+      "types": [
+        "simple-gpt-instruct"
+      ],
+      "keywords": [
+        "chatgpt",
+        "openai",
+        "instruct",
+        "node-red"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-simple-chatgpt-instruct"
+    },
+    {
+      "id": "node-red-contrib-grove-base-hat-bash",
+      "version": "1.0.21",
+      "description": "Nodes for Grove Base HAT on Raspberry Pi using bash scripts and other tools",
+      "updated_at": "2023-09-20T04:19:28.433Z",
+      "types": [
+        "grove-led",
+        "grove-relay",
+        "grove-buzzer",
+        "grove-led-dimmable",
+        "grove-lcd-rgb-backlight",
+        "grove-button",
+        "grove-light-sensor-v1_2",
+        "grove-rotary-angle-sensor",
+        "grove-temperature-humidity-sensor",
+        "grove-temperature-humidity-sensor-pro",
+        "grove-ultrasonic-ranger",
+        "grove-sound-sensor"
+      ],
+      "keywords": [
+        "node-red",
+        "Grove",
+        "Grove Base HAT",
+        "Seeed",
+        "bash"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-grove-base-hat-bash"
+    },
+    {
+      "id": "cosmos8-clp",
+      "version": "1.4.0",
+      "description": "Memory handling nodes to receive, format and tag data from arrays.",
+      "updated_at": "2023-09-19T22:02:16.707Z",
+      "types": [
+        "merge-key-value-arr",
+        "uint16-to-float32",
+        "float32-to-uint16",
+        "sub-array"
+      ],
+      "keywords": [
+        "node-red",
+        "cosmos8",
+        "automation"
+      ],
+      "url": "https://flows.nodered.org/node/cosmos8-clp"
     },
     {
       "id": "@jambonz/node-red-contrib-jambonz",
-      "version": "2.4.17",
+      "version": "2.4.18",
       "description": "Node-RED nodes for jambonz platform",
-      "updated_at": "2023-09-19T12:49:07.427Z",
+      "updated_at": "2023-09-19T20:17:20.540Z",
       "types": [
         "webhook in",
         "webhook out",
@@ -87,6 +189,111 @@
         "node-red"
       ],
       "url": "https://flows.nodered.org/node/@jambonz/node-red-contrib-jambonz"
+    },
+    {
+      "id": "node-red-contrib-aula-education",
+      "version": "0.5.3",
+      "description": "A Node-Red Node for collecting data from aula the danish educational platform.",
+      "updated_at": "2023-09-19T19:04:38.883Z",
+      "types": [
+        "aulaNode-config",
+        "aulaNode"
+      ],
+      "keywords": [
+        "node-red",
+        "aula",
+        "education"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-aula-education"
+    },
+    {
+      "id": "node-red-contrib-boolean-logic-ultimate",
+      "version": "1.1.0",
+      "description": "A set of Node-RED enhanced boolean logic and utility nodes, flow interruption, blinker, invert, filter, toggle etc.., with persistent values after reboot. Compatible also with Homeassistant values.",
+      "updated_at": "2023-09-19T18:36:55.429Z",
+      "types": [
+        "BooleanLogicUltimate",
+        "InvertUltimate",
+        "FilterUltimate",
+        "InterruptFlowUltimate",
+        "BlinkerUltimate",
+        "SimpleOutputUltimate",
+        "InjectUltimate",
+        "StatusUltimate",
+        "ImpulseUltimate",
+        "SumUltimate",
+        "toggleUltimate",
+        "RailwaySwitchUltimate",
+        "Comparator",
+        "translator-config"
+      ],
+      "keywords": [
+        "node-red",
+        "boolean",
+        "gate",
+        "filter",
+        "logic"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-boolean-logic-ultimate"
+    },
+    {
+      "id": "@ncd-io/node-red-enterprise-sensors",
+      "version": "0.1.11",
+      "description": "You can install this library through the Palette Manager in Node-Red's UI.",
+      "updated_at": "2023-09-19T17:58:06.494Z",
+      "types": [
+        "ncd-gateway-node",
+        "ncd-wireless-node",
+        "ncd-gateway-config"
+      ],
+      "keywords": [
+        "Wireless",
+        "NCD",
+        "Sensors",
+        "Digi",
+        "node-red",
+        "enterprise"
+      ],
+      "url": "https://flows.nodered.org/node/@ncd-io/node-red-enterprise-sensors"
+    },
+    {
+      "id": "node-red-contrib-millheat",
+      "version": "0.0.3",
+      "description": "A Node-Red node to interact with the Mill Open API",
+      "updated_at": "2023-09-19T14:11:20.052Z",
+      "types": [
+        "millheat",
+        "millheat-api"
+      ],
+      "keywords": [
+        "Mill",
+        "Millheat",
+        "iiot",
+        "node-red"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-millheat"
+    },
+    {
+      "id": "@gregoriusrippenstein/node-red-contrib-introspection",
+      "version": "0.4.3",
+      "description": "Node-RED Editor-only nodes for introspecting flows.",
+      "updated_at": "2023-09-19T13:14:18.788Z",
+      "types": [
+        "Seeker",
+        "Sink",
+        "Screenshot",
+        "Orphans",
+        "IsMobile",
+        "Navigator",
+        "DrawSVG",
+        "GetFlows",
+        "SendFlow",
+        "ClientCode"
+      ],
+      "keywords": [
+        "node-red"
+      ],
+      "url": "https://flows.nodered.org/node/@gregoriusrippenstein/node-red-contrib-introspection"
     },
     {
       "id": "node-red-contrib-eskomsepush",
@@ -164,22 +371,6 @@
       "url": "https://flows.nodered.org/node/node-red-contrib-resend-last-msg"
     },
     {
-      "id": "node-red-contrib-aula-education",
-      "version": "0.5.2",
-      "description": "A Node-Red Node for collecting data from aula the danish educational platform.",
-      "updated_at": "2023-09-18T19:20:17.267Z",
-      "types": [
-        "aulaNode-config",
-        "aulaNode"
-      ],
-      "keywords": [
-        "node-red",
-        "aula",
-        "education"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-aula-education"
-    },
-    {
       "id": "node-red-node-data-generator",
       "version": "1.0.2",
       "description": "A Node-RED node to create a string of dummy data values from a template. Useful for test-cases.",
@@ -215,33 +406,6 @@
         "azure"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-mssql-plus"
-    },
-    {
-      "id": "node-red-contrib-grove-base-hat-bash",
-      "version": "1.0.20",
-      "description": "Nodes for Grove Base HAT on Raspberry Pi using bash scripts and other tools",
-      "updated_at": "2023-09-18T15:39:39.077Z",
-      "types": [
-        "grove-led",
-        "grove-relay",
-        "grove-buzzer",
-        "grove-led-dimmable",
-        "grove-button",
-        "grove-light-sensor-v1_2",
-        "grove-rotary-angle-sensor",
-        "grove-temperature-humidity-sensor",
-        "grove-temperature-humidity-sensor-pro",
-        "grove-ultrasonic-ranger",
-        "grove-sound-sensor"
-      ],
-      "keywords": [
-        "node-red",
-        "Grove",
-        "Grove Base HAT",
-        "Seeed",
-        "bash"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-grove-base-hat-bash"
     },
     {
       "id": "@ptarmiganlabs/ctrl-q-nr",
@@ -398,37 +562,6 @@
       "url": "https://flows.nodered.org/node/node-red-contrib-alice"
     },
     {
-      "id": "@mike.gofton/dsp-w215",
-      "version": "1.0.2",
-      "description": "NODE-RED node to control a DLink DSP-W215 home smart plug",
-      "updated_at": "2023-09-18T07:56:12.021Z",
-      "types": [
-        "DSP-W215"
-      ],
-      "keywords": [
-        "node-red",
-        "dsp-w215"
-      ],
-      "url": "https://flows.nodered.org/node/@mike.gofton/dsp-w215"
-    },
-    {
-      "id": "node-red-contrib-agur-connector",
-      "version": "0.6.3",
-      "description": "Node-RED oracle database nodes",
-      "updated_at": "2023-09-18T07:08:19.080Z",
-      "types": [
-        "oracle-server",
-        "oracledb"
-      ],
-      "keywords": [
-        "node-red",
-        "oracle",
-        "sql",
-        "oracledb"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-agur-connector"
-    },
-    {
       "id": "apconic-node-red-weight-parser",
       "version": "1.2.0",
       "description": "Node for weight parser",
@@ -578,24 +711,6 @@
       "url": "https://flows.nodered.org/node/@tq-bit/node-red-contrib-server-sent-events"
     },
     {
-      "id": "@appmodule/node-red-contrib-siot",
-      "version": "3.0.0-rc3",
-      "description": "Node-RED interactions with SIOT",
-      "updated_at": "2023-09-15T14:28:03.937Z",
-      "types": [
-        "de-commands",
-        "cmd-ack",
-        "de-subscriber",
-        "de-publisher",
-        "siot-config",
-        "class-config"
-      ],
-      "keywords": [
-        "node-red"
-      ],
-      "url": "https://flows.nodered.org/node/@appmodule/node-red-contrib-siot"
-    },
-    {
       "id": "node-red-contrib-grohe-sense",
       "version": "0.16.0",
       "description": "Grohe sense nodes via ondus API.",
@@ -692,23 +807,6 @@
         "timescale"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-postgresql"
-    },
-    {
-      "id": "victron-dynamic-ess",
-      "version": "0.1.3",
-      "description": "Fetch the ideal ESS setpoint from VRM",
-      "updated_at": "2023-09-14T09:59:59.686Z",
-      "types": [
-        "victron-dynamic-ess"
-      ],
-      "keywords": [
-        "node-red",
-        "victron",
-        "dynamic ess",
-        "scheduled charging",
-        "ess"
-      ],
-      "url": "https://flows.nodered.org/node/victron-dynamic-ess"
     },
     {
       "id": "@hexa-ai/node-red-contrib-hexa-ai",
@@ -1580,35 +1678,6 @@
         "node-red"
       ],
       "url": "https://flows.nodered.org/node/@objectif-lune/node-red-contrib-connect"
-    },
-    {
-      "id": "node-red-contrib-boolean-logic-ultimate",
-      "version": "1.0.63",
-      "description": "A set of Node-RED enhanced boolean logic and utility nodes, flow interruption, blinker, invert, filter, toggle etc.., with persistent values after reboot. Compatible also with Homeassistant values.",
-      "updated_at": "2023-09-06T06:52:10.503Z",
-      "types": [
-        "BooleanLogicUltimate",
-        "InvertUltimate",
-        "FilterUltimate",
-        "InterruptFlowUltimate",
-        "BlinkerUltimate",
-        "SimpleOutputUltimate",
-        "InjectUltimate",
-        "StatusUltimate",
-        "ImpulseUltimate",
-        "SumUltimate",
-        "toggleUltimate",
-        "RailwaySwitchUltimate",
-        "Comparator"
-      ],
-      "keywords": [
-        "node-red",
-        "boolean",
-        "gate",
-        "filter",
-        "logic"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-boolean-logic-ultimate"
     },
     {
       "id": "@waldbaer/node-red-persistent-values",
@@ -2616,21 +2685,6 @@
       "url": "https://flows.nodered.org/node/node-red-contrib-telegrambot"
     },
     {
-      "id": "@sammachin/node-red-matter-bridge",
-      "version": "0.0.1",
-      "description": "Node red package for implementing a matter bridge",
-      "updated_at": "2023-08-29T15:57:53.951Z",
-      "types": [
-        "matterbridge",
-        "matteronofflight",
-        "matteronoffsocket"
-      ],
-      "keywords": [
-        "node-red"
-      ],
-      "url": "https://flows.nodered.org/node/@sammachin/node-red-matter-bridge"
-    },
-    {
       "id": "node-red-contrib-slack-ubos",
       "version": "0.0.1",
       "description": "A node-red module to interact with the Slack API",
@@ -2996,26 +3050,6 @@
         "node-red"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-life360"
-    },
-    {
-      "id": "@ncd-io/node-red-enterprise-sensors",
-      "version": "0.1.9",
-      "description": "You can install this library through the Palette Manager in Node-Red's UI.",
-      "updated_at": "2023-08-23T14:59:35.764Z",
-      "types": [
-        "ncd-gateway-node",
-        "ncd-wireless-node",
-        "ncd-gateway-config"
-      ],
-      "keywords": [
-        "Wireless",
-        "NCD",
-        "Sensors",
-        "Digi",
-        "node-red",
-        "enterprise"
-      ],
-      "url": "https://flows.nodered.org/node/@ncd-io/node-red-enterprise-sensors"
     },
     {
       "id": "node-red-contrib-iris",
@@ -7617,24 +7651,6 @@
         "lola"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-simon-lola"
-    },
-    {
-      "id": "cosmos8-clp",
-      "version": "1.3.0",
-      "description": "Memory handling nodes to receive, format and tag data from arrays.",
-      "updated_at": "2023-06-05T21:28:02.999Z",
-      "types": [
-        "merge-key-value-arr",
-        "uint16-to-float32",
-        "float32-to-uint16",
-        "sub-array"
-      ],
-      "keywords": [
-        "node-red",
-        "cosmos8",
-        "automation"
-      ],
-      "url": "https://flows.nodered.org/node/cosmos8-clp"
     },
     {
       "id": "node-red-contrib-mcu-node",
