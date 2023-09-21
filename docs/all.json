@@ -1,7 +1,355 @@
 {
   "name": "Catalogue for verified nodes",
-  "updated_at": "2023-09-20T21:53:21.400Z",
+  "updated_at": "2023-09-21T21:20:25.039Z",
   "modules": [
+    {
+      "id": "node-red-contrib-nupmes",
+      "version": "3.0.5",
+      "description": "The all-in-one package for controlling and monitoring machines via the N+P MES.",
+      "updated_at": "2023-09-21T13:17:44.858Z",
+      "types": [
+        "nupmes-authentication",
+        "nupmes-request",
+        "nupmes-hub",
+        "nupmes-counter",
+        "nupmes-get-io",
+        "nupmes-server",
+        "nupmes-set-io",
+        "nupmes-opcua-signal",
+        "nupmes-opcua-server",
+        "nupmes-set-parameter-message",
+        "nupmes-pareto",
+        "nupmes-oee",
+        "nupmes-winauth-request"
+      ],
+      "keywords": [
+        "node-red"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-nupmes"
+    },
+    {
+      "id": "node-red-contrib-web3-blue",
+      "version": "0.0.3",
+      "description": "Node-RED node for web3 smart contracts",
+      "updated_at": "2023-09-21T12:07:49.472Z",
+      "types": [
+        "rpc",
+        "accounts",
+        "contracts"
+      ],
+      "keywords": [
+        "node-red",
+        "node-inq",
+        "web3-blue",
+        "blue-sec",
+        "physics"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-web3-blue"
+    },
+    {
+      "id": "node-red-notion",
+      "version": "1.0.0",
+      "description": "Node-RED Notion nodes",
+      "updated_at": "2023-09-21T11:10:42.223Z",
+      "types": [
+        "notion integration",
+        "append block children",
+        "get block children",
+        "delete block",
+        "get page",
+        "update page",
+        "create page",
+        "get page property",
+        "create database",
+        "get database",
+        "query database"
+      ],
+      "keywords": [
+        "node-red",
+        "notion"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-notion"
+    },
+    {
+      "id": "node-red-contrib-crypto-blue",
+      "version": "0.0.4",
+      "description": "Node-RED nodes for cryptographic utilities",
+      "updated_at": "2023-09-21T08:45:04.915Z",
+      "types": [
+        "cipher",
+        "pkdf",
+        "pki",
+        "hasher"
+      ],
+      "keywords": [
+        "node-red",
+        "node-inq",
+        "crypto-blue",
+        "physics"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-crypto-blue"
+    },
+    {
+      "id": "node-red-contrib-mtconnect-mqtt-data-logger",
+      "version": "0.0.1",
+      "description": "A Node-RED node designed for taking data from MTConnect MQTT Agents and creating payload that is given as input to INfluxDB node",
+      "updated_at": "2023-09-21T08:35:44.992Z",
+      "types": [
+        "MTConnectMQTTAgent_DataLogger"
+      ],
+      "keywords": [
+        "node-red",
+        "MTConnect",
+        "MQTT",
+        "Agent",
+        "Data",
+        "Logger",
+        "CNC",
+        "Industrial Machine"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-mtconnect-mqtt-data-logger"
+    },
+    {
+      "id": "victron-dynamic-ess",
+      "version": "0.1.6",
+      "description": "Fetch the ideal ESS setpoint from VRM",
+      "updated_at": "2023-09-21T07:08:49.487Z",
+      "types": [
+        "victron-dynamic-ess"
+      ],
+      "keywords": [
+        "node-red",
+        "victron",
+        "dynamic ess",
+        "scheduled charging",
+        "ess"
+      ],
+      "url": "https://flows.nodered.org/node/victron-dynamic-ess"
+    },
+    {
+      "id": "node-red-contrib-grove-base-hat-bash",
+      "version": "1.0.23",
+      "description": "Nodes for Grove Base HAT on Raspberry Pi using bash scripts and other tools",
+      "updated_at": "2023-09-21T04:17:03.496Z",
+      "types": [
+        "grove-led",
+        "grove-relay",
+        "grove-buzzer",
+        "grove-led-dimmable",
+        "grove-lcd-rgb-backlight",
+        "grove-button",
+        "grove-light-sensor-v1_2",
+        "grove-rotary-angle-sensor",
+        "grove-temperature-humidity-sensor",
+        "grove-temperature-humidity-sensor-pro",
+        "grove-ultrasonic-ranger",
+        "grove-sound-sensor"
+      ],
+      "keywords": [
+        "node-red",
+        "Grove",
+        "Grove Base HAT",
+        "Seeed",
+        "bash"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-grove-base-hat-bash"
+    },
+    {
+      "id": "node-red-pyz-ble",
+      "version": "1.0.6",
+      "description": "一款低功耗蓝牙驱动读取小米温度传感器的插件",
+      "updated_at": "2023-09-21T03:44:55.973Z",
+      "types": [
+        "bleread"
+      ],
+      "keywords": [
+        "node-red"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-pyz-ble"
+    },
+    {
+      "id": "@softwaredevelopment/node-red-contrib-bodhi-connector",
+      "version": "0.1.1",
+      "description": "Bodhi connector configuration for connecting nodes to bodhi through bodhi bridge",
+      "updated_at": "2023-09-20T19:42:03.190Z",
+      "types": [
+        "Bodhi Connector"
+      ],
+      "keywords": [
+        "node-red",
+        "connector",
+        "bodhi"
+      ],
+      "url": "https://flows.nodered.org/node/@softwaredevelopment/node-red-contrib-bodhi-connector"
+    },
+    {
+      "id": "@softwaredevelopment/node-red-contrib-bodhi-device-basic-shade",
+      "version": "0.0.2",
+      "description": "Basic Shade Device device for bodhi node red",
+      "updated_at": "2023-09-20T19:11:16.328Z",
+      "types": [
+        "Basic Shade",
+        "Remote Basic Shade"
+      ],
+      "keywords": [
+        "node-red",
+        "device",
+        "bodhi",
+        "Basic",
+        "Shade"
+      ],
+      "url": "https://flows.nodered.org/node/@softwaredevelopment/node-red-contrib-bodhi-device-basic-shade"
+    },
+    {
+      "id": "@programie/node-red-aircon-rac-wf",
+      "version": "1.1.1",
+      "description": "Node-RED nodes for interacting with Mitsubishi Aircon RAC-WF WiFi modules",
+      "updated_at": "2023-09-20T16:00:29.420Z",
+      "types": [
+        "mitsubishi-aircon-getstat",
+        "mitsubishi-aircon-setstat"
+      ],
+      "keywords": [
+        "node-red",
+        "mitsubishi aircon",
+        "rac-wf"
+      ],
+      "url": "https://flows.nodered.org/node/@programie/node-red-aircon-rac-wf"
+    },
+    {
+      "id": "node-red-contrib-snap4city-user",
+      "version": "0.9.47",
+      "description": "Nodes for Snap4city project, targeted to standard user (no developer)",
+      "updated_at": "2023-09-20T14:03:29.281Z",
+      "types": [
+        "service-search-near-marker",
+        "service-search-within-circle",
+        "service-search-within-polygon",
+        "service-search-along-path",
+        "distance-from-coordinates",
+        "point-within-polygon",
+        "routing",
+        "heatmap-picker",
+        "coordinates-to-address",
+        "service-info",
+        "full-text-search-near-marker",
+        "full-text-search-within-circle",
+        "full-text-search-within-polygon",
+        "full-text-search-along-path",
+        "full-text-search-usr",
+        "event-search-near-marker",
+        "event-search-within-circle",
+        "event-search-within-polygon",
+        "event-search-along-path",
+        "event-search-usr",
+        "address-search-near-marker",
+        "geometry-search-near-marker",
+        "address-poi-search-by-text-usr",
+        "address-poi-search-by-text-near-marker",
+        "address-poi-search-by-text-within-circle",
+        "bus-routes-search-near-marker",
+        "bus-routes-search-within-circle",
+        "bus-routes-search-within-polygon",
+        "tpl-agencies",
+        "tpl-lines",
+        "tpl-routes-by-agency",
+        "tpl-routes-by-line",
+        "tpl-stops-by-route",
+        "tpl-stop-timeline",
+        "recommendations-within-circle",
+        "value-type-search-near-marker",
+        "value-type-search-within-circle",
+        "value-type-search-within-polygon",
+        "value-type-search-along-path",
+        "get-access-token",
+        "get-my-data",
+        "get-my-kpidata",
+        "get-delegated-kpidata",
+        "get-public-kpidata",
+        "get-my-kpidata-values",
+        "get-public-kpidata-values",
+        "get-delegated-kpidata-values",
+        "get-my-delegator",
+        "get-my-delegated",
+        "get-my-activity",
+        "delegate-my-kpidata",
+        "get-other-activity-on-my-data",
+        "get-iotapps-using-my-kpidata",
+        "save-my-data",
+        "save-my-kpidata-values",
+        "get-my-annotation",
+        "get-anonymous-data",
+        "get-other-data",
+        "iotdirectory-new-device-from-model",
+        "delegate-my-device",
+        "get-my-devices",
+        "change-visibility-my-device",
+        "change-ownership-my-device",
+        "coordinates-from-map",
+        "impulse-button",
+        "numeric-keyboard",
+        "switch-button",
+        "dimmer",
+        "dashboardEvent",
+        "dashboardDevice",
+        "dashboard-geolocator",
+        "dropdown",
+        "dashboardForm",
+        "gauge-chart",
+        "single-content",
+        "speedometer",
+        "bar-content",
+        "column-content",
+        "web-content",
+        "dashboard-time-trend",
+        "bar-series",
+        "radar-series",
+        "pie-chart",
+        "curved-line-series",
+        "table-content",
+        "speak-synthesis",
+        "selector-to-map",
+        "dashboard-map",
+        "event-driven-my-kpi",
+        "synoptic-read",
+        "synoptic-write",
+        "synoptic-subscribe",
+        "sigfox device filter",
+        "sigfox in",
+        "iotdirectory-get-device",
+        "event-log",
+        "orion-service",
+        "fiware orion in",
+        "fiware orion",
+        "orion-test",
+        "fiware-orion-out",
+        "orion-service-api-v2",
+        "orion-subscribe-api-v2",
+        "orion-query-api-v2",
+        "orion-update-api-v2",
+        "orion-out-api-v2",
+        "orion-service-v22",
+        "fiware-orion-in-v22",
+        "fiware-orion-query-v22",
+        "fiware-orion-out-v22",
+        "orion-service-v2",
+        "fiware-orion-in-v2",
+        "fiware-orion-query-v2",
+        "fiware-orion-out-v2",
+        "show-micro-web-app",
+        "show-general-iframe",
+        "twitter-last-channel",
+        "twitter-last-tweet",
+        "snap4city-authentication",
+        "snap4all-button"
+      ],
+      "keywords": [
+        "node-red",
+        "smartcity",
+        "iot"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-snap4city-user"
+    },
     {
       "id": "@appmodule/node-red-contrib-siot",
       "version": "3.0.0-rc6",
@@ -65,23 +413,6 @@
       "url": "https://flows.nodered.org/node/@sammachin/node-red-matter-bridge"
     },
     {
-      "id": "victron-dynamic-ess",
-      "version": "0.1.5",
-      "description": "Fetch the ideal ESS setpoint from VRM",
-      "updated_at": "2023-09-20T06:30:18.234Z",
-      "types": [
-        "victron-dynamic-ess"
-      ],
-      "keywords": [
-        "node-red",
-        "victron",
-        "dynamic ess",
-        "scheduled charging",
-        "ess"
-      ],
-      "url": "https://flows.nodered.org/node/victron-dynamic-ess"
-    },
-    {
       "id": "node-red-contrib-simple-chatgpt-instruct",
       "version": "1.0.0",
       "description": "Node-REDでChatGPTを使うためのノードです。チャットのやり取りは出来ない一発回答のみです。",
@@ -96,34 +427,6 @@
         "node-red"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-simple-chatgpt-instruct"
-    },
-    {
-      "id": "node-red-contrib-grove-base-hat-bash",
-      "version": "1.0.21",
-      "description": "Nodes for Grove Base HAT on Raspberry Pi using bash scripts and other tools",
-      "updated_at": "2023-09-20T04:19:28.433Z",
-      "types": [
-        "grove-led",
-        "grove-relay",
-        "grove-buzzer",
-        "grove-led-dimmable",
-        "grove-lcd-rgb-backlight",
-        "grove-button",
-        "grove-light-sensor-v1_2",
-        "grove-rotary-angle-sensor",
-        "grove-temperature-humidity-sensor",
-        "grove-temperature-humidity-sensor-pro",
-        "grove-ultrasonic-ranger",
-        "grove-sound-sensor"
-      ],
-      "keywords": [
-        "node-red",
-        "Grove",
-        "Grove Base HAT",
-        "Seeed",
-        "bash"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-grove-base-hat-bash"
     },
     {
       "id": "cosmos8-clp",
@@ -313,19 +616,6 @@
         "ess"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-eskomsepush"
-    },
-    {
-      "id": "node-red-pyz-ble",
-      "version": "1.0.5",
-      "description": "一款低功耗蓝牙驱动读取小米温度传感器的插件",
-      "updated_at": "2023-09-19T04:58:25.696Z",
-      "types": [
-        "bleread"
-      ],
-      "keywords": [
-        "node-red"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-pyz-ble"
     },
     {
       "id": "node-red-contrib-superpower-test",
@@ -2860,22 +3150,6 @@
       "url": "https://flows.nodered.org/node/@mschaeffler/node-red-lora"
     },
     {
-      "id": "@programie/node-red-aircon-rac-wf",
-      "version": "1.1.0",
-      "description": "Node-RED nodes for interacting with Mitsubishi Aircon RAC-WF WiFi modules",
-      "updated_at": "2023-08-25T21:43:55.654Z",
-      "types": [
-        "mitsubishi-aircon-getstat",
-        "mitsubishi-aircon-setstat"
-      ],
-      "keywords": [
-        "node-red",
-        "mitsubishi aircon",
-        "rac-wf"
-      ],
-      "url": "https://flows.nodered.org/node/@programie/node-red-aircon-rac-wf"
-    },
-    {
       "id": "@tq-bit/node-red-contrib-trace-messages",
       "version": "1.2.1",
       "description": "Node to track and aggregate messages over your flows",
@@ -3543,31 +3817,6 @@
       "url": "https://flows.nodered.org/node/node-red-contrib-alexa-remote2-mattl0"
     },
     {
-      "id": "node-red-contrib-nupmes",
-      "version": "3.0.4",
-      "description": "The all-in-one package for controlling and monitoring machines via the N+P MES.",
-      "updated_at": "2023-08-10T15:02:19.890Z",
-      "types": [
-        "nupmes-authentication",
-        "nupmes-request",
-        "nupmes-hub",
-        "nupmes-counter",
-        "nupmes-get-io",
-        "nupmes-server",
-        "nupmes-set-io",
-        "nupmes-opcua-signal",
-        "nupmes-opcua-server",
-        "nupmes-set-parameter-message",
-        "nupmes-pareto",
-        "nupmes-oee",
-        "nupmes-winauth-request"
-      ],
-      "keywords": [
-        "node-red"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-nupmes"
-    },
-    {
       "id": "@sugarlata/node-red-contrib-bible-gateway",
       "version": "2.0.3",
       "description": "A Node-RED custom node to download scripture from bible gateway.",
@@ -4024,23 +4273,6 @@
         "drape"
       ],
       "url": "https://flows.nodered.org/node/@softwaredevelopment/node-red-contrib-bodhi-device-drape"
-    },
-    {
-      "id": "@softwaredevelopment/node-red-contrib-bodhi-device-basic-shade",
-      "version": "0.0.1",
-      "description": "Basic Shade Device device for bodhi node red",
-      "updated_at": "2023-08-03T13:59:35.797Z",
-      "types": [
-        "Basic Shade"
-      ],
-      "keywords": [
-        "node-red",
-        "device",
-        "bodhi",
-        "Basic",
-        "Shade"
-      ],
-      "url": "https://flows.nodered.org/node/@softwaredevelopment/node-red-contrib-bodhi-device-basic-shade"
     },
     {
       "id": "node-red-contrib-rcm-connector",
@@ -5243,21 +5475,6 @@
       "url": "https://flows.nodered.org/node/@softwaredevelopment/node-red-contrib-bodhi-device-switch-light"
     },
     {
-      "id": "@softwaredevelopment/node-red-contrib-bodhi-connector",
-      "version": "0.0.1",
-      "description": "Bodhi connector configuration for connecting nodes to bodhi through bodhi bridge",
-      "updated_at": "2023-07-21T10:48:47.212Z",
-      "types": [
-        "Bodhi Connector"
-      ],
-      "keywords": [
-        "node-red",
-        "connector",
-        "bodhi"
-      ],
-      "url": "https://flows.nodered.org/node/@softwaredevelopment/node-red-contrib-bodhi-connector"
-    },
-    {
       "id": "@softwaredevelopment/node-red-contrib-bodhi-device-dimmer-light",
       "version": "0.0.9",
       "description": "Bodhi connector configuration for connecting nodes to bodhi",
@@ -6320,140 +6537,6 @@
         "node-red"
       ],
       "url": "https://flows.nodered.org/node/@sinch/node-red-conversation-api"
-    },
-    {
-      "id": "node-red-contrib-snap4city-user",
-      "version": "0.9.46",
-      "description": "Nodes for Snap4city project, targeted to standard user (no developer)",
-      "updated_at": "2023-07-03T12:15:21.786Z",
-      "types": [
-        "service-search-near-marker",
-        "service-search-within-circle",
-        "service-search-within-polygon",
-        "service-search-along-path",
-        "distance-from-coordinates",
-        "point-within-polygon",
-        "routing",
-        "heatmap-picker",
-        "coordinates-to-address",
-        "service-info",
-        "full-text-search-near-marker",
-        "full-text-search-within-circle",
-        "full-text-search-within-polygon",
-        "full-text-search-along-path",
-        "full-text-search-usr",
-        "event-search-near-marker",
-        "event-search-within-circle",
-        "event-search-within-polygon",
-        "event-search-along-path",
-        "event-search-usr",
-        "address-search-near-marker",
-        "geometry-search-near-marker",
-        "address-poi-search-by-text-usr",
-        "address-poi-search-by-text-near-marker",
-        "address-poi-search-by-text-within-circle",
-        "bus-routes-search-near-marker",
-        "bus-routes-search-within-circle",
-        "bus-routes-search-within-polygon",
-        "tpl-agencies",
-        "tpl-lines",
-        "tpl-routes-by-agency",
-        "tpl-routes-by-line",
-        "tpl-stops-by-route",
-        "tpl-stop-timeline",
-        "recommendations-within-circle",
-        "value-type-search-near-marker",
-        "value-type-search-within-circle",
-        "value-type-search-within-polygon",
-        "value-type-search-along-path",
-        "get-access-token",
-        "get-my-data",
-        "get-my-kpidata",
-        "get-delegated-kpidata",
-        "get-public-kpidata",
-        "get-my-kpidata-values",
-        "get-public-kpidata-values",
-        "get-delegated-kpidata-values",
-        "get-my-delegator",
-        "get-my-delegated",
-        "get-my-activity",
-        "delegate-my-kpidata",
-        "get-other-activity-on-my-data",
-        "get-iotapps-using-my-kpidata",
-        "save-my-data",
-        "save-my-kpidata-values",
-        "get-my-annotation",
-        "get-anonymous-data",
-        "get-other-data",
-        "iotdirectory-new-device-from-model",
-        "delegate-my-device",
-        "get-my-devices",
-        "change-visibility-my-device",
-        "change-ownership-my-device",
-        "coordinates-from-map",
-        "impulse-button",
-        "numeric-keyboard",
-        "switch-button",
-        "dimmer",
-        "dashboardEvent",
-        "dashboardDevice",
-        "dashboard-geolocator",
-        "dropdown",
-        "dashboardForm",
-        "gauge-chart",
-        "single-content",
-        "speedometer",
-        "bar-content",
-        "column-content",
-        "web-content",
-        "dashboard-time-trend",
-        "bar-series",
-        "radar-series",
-        "pie-chart",
-        "curved-line-series",
-        "table-content",
-        "speak-synthesis",
-        "selector-to-map",
-        "dashboard-map",
-        "event-driven-my-kpi",
-        "synoptic-read",
-        "synoptic-write",
-        "synoptic-subscribe",
-        "sigfox device filter",
-        "sigfox in",
-        "iotdirectory-get-device",
-        "event-log",
-        "orion-service",
-        "fiware orion in",
-        "fiware orion",
-        "orion-test",
-        "fiware-orion-out",
-        "orion-service-api-v2",
-        "orion-subscribe-api-v2",
-        "orion-query-api-v2",
-        "orion-update-api-v2",
-        "orion-out-api-v2",
-        "orion-service-v22",
-        "fiware-orion-in-v22",
-        "fiware-orion-query-v22",
-        "fiware-orion-out-v22",
-        "orion-service-v2",
-        "fiware-orion-in-v2",
-        "fiware-orion-query-v2",
-        "fiware-orion-out-v2",
-        "show-micro-web-app",
-        "show-general-iframe",
-        "twitter-last-channel",
-        "twitter-last-tweet",
-        "snap4city-authentication",
-        "snap4all-button"
-      ],
-      "keywords": [
-        "node-red",
-        "smartcity",
-        "iot"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-snap4city-user"
     },
     {
       "id": "@flecoufle/node-red-linky",
@@ -11608,25 +11691,6 @@
       "url": "https://flows.nodered.org/node/node-red-contrib-docxtemplater"
     },
     {
-      "id": "node-red-contrib-web3-blue",
-      "version": "0.0.1",
-      "description": "Node-RED node for web3 smart contracts",
-      "updated_at": "2023-03-23T19:00:55.231Z",
-      "types": [
-        "rpc",
-        "accounts",
-        "contracts"
-      ],
-      "keywords": [
-        "node-red",
-        "node-inq",
-        "web3-blue",
-        "blue-sec",
-        "physics"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-web3-blue"
-    },
-    {
       "id": "@s1seven/node-red-s1seven-api",
       "version": "1.3.0",
       "description": "Nodes that interact with S1Seven's API",
@@ -12397,26 +12461,6 @@
         "fit"
       ],
       "url": "https://flows.nodered.org/node/@lal12/node-red-curve"
-    },
-    {
-      "id": "node-red-contrib-crypto-blue",
-      "version": "0.0.2-e",
-      "description": "Node-RED nodes for cryptographic utilities",
-      "updated_at": "2023-03-05T23:51:11.402Z",
-      "types": [
-        "cipher",
-        "pkdf",
-        "pki",
-        "hasher"
-      ],
-      "keywords": [
-        "node-red",
-        "node-inq",
-        "crypto-blue",
-        "blue-sec",
-        "physics"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-crypto-blue"
     },
     {
       "id": "node-red-contrib-custom-tumblr",
