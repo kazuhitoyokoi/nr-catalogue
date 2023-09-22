@@ -1,0 +1,54 @@
+#0 building with "default" instance using docker driver
+
+#1 [internal] load .dockerignore
+#1 transferring context: 2B done
+#1 DONE 0.0s
+
+#2 [internal] load build definition from Dockerfile
+#2 transferring dockerfile: 149B done
+#2 DONE 0.0s
+
+#3 [internal] load metadata for docker.io/nodered/node-red:latest
+#3 DONE 0.5s
+
+#4 [1/2] FROM docker.io/nodered/node-red@sha256:5e99ed734f7d2f9bfcb1e20dfbf4c5b9aa60f35a9df6e257e817130f0f9be9dc
+#4 CACHED
+
+#5 [2/2] RUN npm install npm install @softwaredevelopment/node-red-contrib-bodhi-device-drape@0.0.7
+#5 4.127 npm WARN EBADENGINE Unsupported engine {
+#5 4.127 npm WARN EBADENGINE   package: 'npm@10.1.0',
+#5 4.127 npm WARN EBADENGINE   required: { node: '^18.17.0 || >=20.5.0' },
+#5 4.127 npm WARN EBADENGINE   current: { node: 'v16.20.2', npm: '8.19.4' }
+#5 4.127 npm WARN EBADENGINE }
+#5 7.492 npm WARN deprecated multer@1.4.4: Multer 1.x is affected by CVE-2022-24434. This is fixed in v1.4.4-lts.1 which drops support for versions of Node.js before 6. Please upgrade to at least Node.js 6 and version 1.4.4-lts.1 of Multer. If you need support for older versions of Node.js, we are open to accepting patches that would fix the CVE on the main 1.x release line, whilst maintaining compatibility with Node.js 0.10.
+#5 7.798 npm WARN deprecated axios@0.27.0: Formdata complete broken, incorrect build size
+#5 9.264 
+#5 9.264 added 153 packages, and audited 716 packages in 9s
+#5 9.264 
+#5 9.264 76 packages are looking for funding
+#5 9.264   run `npm fund` for details
+#5 9.289 
+#5 9.289 19 vulnerabilities (1 low, 8 moderate, 10 high)
+#5 9.289 
+#5 9.289 To address issues that do not require attention, run:
+#5 9.289   npm audit fix
+#5 9.289 
+#5 9.289 To address all issues (including breaking changes), run:
+#5 9.289   npm audit fix --force
+#5 9.289 
+#5 9.289 Run `npm audit` for details.
+#5 9.289 npm notice 
+#5 9.289 npm notice New major version of npm available! 8.19.4 -> 10.1.0
+#5 9.289 npm notice Changelog: <https://github.com/npm/cli/releases/tag/v10.1.0>
+#5 9.290 npm notice Run `npm install -g npm@10.1.0` to update!
+#5 9.290 npm notice 
+#5 DONE 9.6s
+
+#6 exporting to image
+#6 exporting layers
+#6 exporting layers 2.0s done
+#6 writing image sha256:f92fe274d64d0bde6d81d44d1c7b2327d213067886decdd076f392cf14051a16 done
+#6 naming to docker.io/library/tmp done
+#6 DONE 2.0s
+
+----
