@@ -1,7 +1,231 @@
 {
   "name": "Catalogue for verified nodes",
-  "updated_at": "2023-09-22T22:32:27.790Z",
+  "updated_at": "2023-09-23T21:27:35.290Z",
   "modules": [
+    {
+      "id": "@marcus-j-davies/node-red-semaphore-plus",
+      "version": "3.0.2",
+      "description": "An advanced set of semaphore Nodes for Node RED, with a dynamic fail-safe",
+      "updated_at": "2023-09-23T10:52:34.723Z",
+      "types": [
+        "semaphore-plus-take",
+        "semaphore-plus-release",
+        "semaphore-plus-fs-reset",
+        "semaphore-plus-config"
+      ],
+      "keywords": [
+        "node-red",
+        "semaphore",
+        "control",
+        "single",
+        "lock",
+        "release",
+        "take",
+        "reset",
+        "plus",
+        "advanced",
+        "queue"
+      ],
+      "url": "https://flows.nodered.org/node/@marcus-j-davies/node-red-semaphore-plus"
+    },
+    {
+      "id": "node-red-contrib-moonnode",
+      "version": "0.1.7",
+      "description": "Nodes for working with Moonraker API & Klipper",
+      "updated_at": "2023-09-23T10:41:00.397Z",
+      "types": [
+        "moonNode-connector",
+        "moonNode-monitor",
+        "moonNode-command",
+        "moonNode-event"
+      ],
+      "keywords": [
+        "node-red",
+        "3D Printer",
+        "Moonraker",
+        "Klipper",
+        "G Code",
+        "3D Printing",
+        "CNC"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-moonnode"
+    },
+    {
+      "id": "node-red-contrib-grove-base-hat-bash",
+      "version": "1.1.4",
+      "description": "Nodes for Grove Base HAT on Raspberry Pi using bash scripts and other tools",
+      "updated_at": "2023-09-23T05:28:47.855Z",
+      "types": [
+        "grove-led",
+        "grove-relay",
+        "grove-buzzer",
+        "grove-led-dimmable",
+        "grove-lcd-rgb-backlight",
+        "grove-button",
+        "grove-light-sensor-v1_2",
+        "grove-rotary-angle-sensor",
+        "grove-temperature-humidity-sensor",
+        "grove-ultrasonic-ranger",
+        "grove-sound-sensor",
+        "grove-temperature-humidity-sensor-pro"
+      ],
+      "keywords": [
+        "node-red",
+        "Grove",
+        "Grove Base HAT",
+        "Seeed",
+        "bash"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-grove-base-hat-bash"
+    },
+    {
+      "id": "@softwaredevelopment/node-red-contrib-bodhi-device-flow-sensor",
+      "version": "0.0.2",
+      "description": "Water flow Sensor Device device for bodhi node red",
+      "updated_at": "2023-09-22T19:41:42.586Z",
+      "types": [
+        "Flow Sensor",
+        "Remote Flow Sensor"
+      ],
+      "keywords": [
+        "node-red",
+        "device",
+        "bodhi",
+        "flow",
+        "sensor"
+      ],
+      "url": "https://flows.nodered.org/node/@softwaredevelopment/node-red-contrib-bodhi-device-flow-sensor"
+    },
+    {
+      "id": "@softwaredevelopment/node-red-contrib-bodhi-device-fire-alarm",
+      "version": "0.0.2",
+      "description": "Fire Alarm device for bodhi node red",
+      "updated_at": "2023-09-22T19:00:21.457Z",
+      "types": [
+        "Fire Alarm",
+        "Remote Fire Alarm"
+      ],
+      "keywords": [
+        "node-red",
+        "device",
+        "bodhi",
+        "fire",
+        "sensor",
+        "alarm"
+      ],
+      "url": "https://flows.nodered.org/node/@softwaredevelopment/node-red-contrib-bodhi-device-fire-alarm"
+    },
+    {
+      "id": "@softwaredevelopment/node-red-contrib-bodhi-device-energy-monitor-sensor",
+      "version": "0.0.5",
+      "description": "Energy Monitor Sensor device for bodhi node red",
+      "updated_at": "2023-09-22T18:43:08.289Z",
+      "types": [
+        "Energy Monitor Sensor",
+        "Remote Energy Monitor Sensor"
+      ],
+      "keywords": [
+        "node-red",
+        "device",
+        "bodhi",
+        "energy",
+        "monitor",
+        "sensor"
+      ],
+      "url": "https://flows.nodered.org/node/@softwaredevelopment/node-red-contrib-bodhi-device-energy-monitor-sensor"
+    },
+    {
+      "id": "@softwaredevelopment/node-red-contrib-bodhi-device-door-sensor",
+      "version": "0.0.2",
+      "description": "Door sesnor Device device for bodhi node red",
+      "updated_at": "2023-09-22T18:15:01.174Z",
+      "types": [
+        "Door Sensor",
+        "Remote Door Sensor"
+      ],
+      "keywords": [
+        "node-red",
+        "device",
+        "bodhi",
+        "door",
+        "sensor",
+        "door sensor"
+      ],
+      "url": "https://flows.nodered.org/node/@softwaredevelopment/node-red-contrib-bodhi-device-door-sensor"
+    },
+    {
+      "id": "@softwaredevelopment/node-red-contrib-bodhi-device-door-bell",
+      "version": "0.0.3",
+      "description": "Door bell Device device for bodhi node red",
+      "updated_at": "2023-09-22T17:18:32.835Z",
+      "types": [
+        "Door Bell",
+        "Remote Door Bell"
+      ],
+      "keywords": [
+        "node-red",
+        "device",
+        "bodhi",
+        "door",
+        "bell",
+        "door bell"
+      ],
+      "url": "https://flows.nodered.org/node/@softwaredevelopment/node-red-contrib-bodhi-device-door-bell"
+    },
+    {
+      "id": "@softwaredevelopment/node-red-contrib-bodhi-device-door-lock",
+      "version": "0.0.2",
+      "description": "Door lock Device device for bodhi node red",
+      "updated_at": "2023-09-22T16:57:20.052Z",
+      "types": [
+        "Door Lock",
+        "Remote Door Lock"
+      ],
+      "keywords": [
+        "node-red",
+        "device",
+        "bodhi",
+        "door",
+        "lock",
+        "door lock"
+      ],
+      "url": "https://flows.nodered.org/node/@softwaredevelopment/node-red-contrib-bodhi-device-door-lock"
+    },
+    {
+      "id": "@softwaredevelopment/node-red-contrib-bodhi-device-fan",
+      "version": "0.0.2",
+      "description": "Fan Device device for bodhi node red",
+      "updated_at": "2023-09-22T16:20:22.455Z",
+      "types": [
+        "Fan",
+        "Remote Fan"
+      ],
+      "keywords": [
+        "node-red",
+        "device",
+        "bodhi",
+        "fan"
+      ],
+      "url": "https://flows.nodered.org/node/@softwaredevelopment/node-red-contrib-bodhi-device-fan"
+    },
+    {
+      "id": "@softwaredevelopment/node-red-contrib-bodhi-device-dimmer-light",
+      "version": "0.0.12",
+      "description": "Dimmer light Device device for bodhi node red",
+      "updated_at": "2023-09-22T14:47:55.311Z",
+      "types": [
+        "Dimmer Light",
+        "Remote Dimmer Light"
+      ],
+      "keywords": [
+        "node-red",
+        "device",
+        "bodhi",
+        "dimmer",
+        "light"
+      ],
+      "url": "https://flows.nodered.org/node/@softwaredevelopment/node-red-contrib-bodhi-device-dimmer-light"
+    },
     {
       "id": "@softwaredevelopment/node-red-contrib-bodhi-device-digital-io",
       "version": "0.0.2",
@@ -363,34 +587,6 @@
         "ess"
       ],
       "url": "https://flows.nodered.org/node/victron-dynamic-ess"
-    },
-    {
-      "id": "node-red-contrib-grove-base-hat-bash",
-      "version": "1.0.23",
-      "description": "Nodes for Grove Base HAT on Raspberry Pi using bash scripts and other tools",
-      "updated_at": "2023-09-21T04:17:03.496Z",
-      "types": [
-        "grove-led",
-        "grove-relay",
-        "grove-buzzer",
-        "grove-led-dimmable",
-        "grove-lcd-rgb-backlight",
-        "grove-button",
-        "grove-light-sensor-v1_2",
-        "grove-rotary-angle-sensor",
-        "grove-temperature-humidity-sensor",
-        "grove-temperature-humidity-sensor-pro",
-        "grove-ultrasonic-ranger",
-        "grove-sound-sensor"
-      ],
-      "keywords": [
-        "node-red",
-        "Grove",
-        "Grove Base HAT",
-        "Seeed",
-        "bash"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-grove-base-hat-bash"
     },
     {
       "id": "node-red-pyz-ble",
@@ -1496,32 +1692,6 @@
         "node-red"
       ],
       "url": "https://flows.nodered.org/node/apconic-node-red-string-parser"
-    },
-    {
-      "id": "@marcus-j-davies/node-red-semaphore-plus",
-      "version": "2.0.0",
-      "description": "An advanced set of semaphore Nodes for Node RED, with a dynamic fail-safe",
-      "updated_at": "2023-09-13T07:59:45.034Z",
-      "types": [
-        "semaphore-plus-take",
-        "semaphore-plus-release",
-        "semaphore-plus-fs-reset",
-        "semaphore-plus-config"
-      ],
-      "keywords": [
-        "node-red",
-        "semaphore",
-        "control",
-        "single",
-        "lock",
-        "release",
-        "take",
-        "reset",
-        "plus",
-        "advanced",
-        "queue"
-      ],
-      "url": "https://flows.nodered.org/node/@marcus-j-davies/node-red-semaphore-plus"
     },
     {
       "id": "@demirdeniz/node-red-contrib-dahua-camera",
@@ -4654,24 +4824,6 @@
       "url": "https://flows.nodered.org/node/@softwaredevelopment/node-red-contrib-bodhi-device-formal-dehyde-sensor"
     },
     {
-      "id": "@softwaredevelopment/node-red-contrib-bodhi-device-energy-monitor-sensor",
-      "version": "0.0.1",
-      "description": "Energy Monitor Sensor device for bodhi node red",
-      "updated_at": "2023-08-01T16:50:57.295Z",
-      "types": [
-        "Energy Monitor Sensor"
-      ],
-      "keywords": [
-        "node-red",
-        "device",
-        "bodhi",
-        "energy",
-        "monitor",
-        "sensor"
-      ],
-      "url": "https://flows.nodered.org/node/@softwaredevelopment/node-red-contrib-bodhi-device-energy-monitor-sensor"
-    },
-    {
       "id": "@softwaredevelopment/node-red-contrib-bodhi-device-pool",
       "version": "0.0.1",
       "description": "Pool device for bodhi node red",
@@ -4915,23 +5067,6 @@
       "url": "https://flows.nodered.org/node/@softwaredevelopment/node-red-contrib-bodhi-device-generator-power-sensor"
     },
     {
-      "id": "@softwaredevelopment/node-red-contrib-bodhi-device-flow-sensor",
-      "version": "0.0.1",
-      "description": "Water Flow Sensor device for bodhi node red",
-      "updated_at": "2023-07-28T14:42:48.637Z",
-      "types": [
-        "Flow Sensor"
-      ],
-      "keywords": [
-        "node-red",
-        "device",
-        "bodhi",
-        "flow",
-        "sensor"
-      ],
-      "url": "https://flows.nodered.org/node/@softwaredevelopment/node-red-contrib-bodhi-device-flow-sensor"
-    },
-    {
       "id": "@tbowmo/node-red-small-timer",
       "version": "0.8.0",
       "description": "Small timer node for node red with support for sunrise, sunset etc. timers",
@@ -4951,73 +5086,6 @@
       "url": "https://flows.nodered.org/node/@tbowmo/node-red-small-timer"
     },
     {
-      "id": "@softwaredevelopment/node-red-contrib-bodhi-device-fan",
-      "version": "0.0.1",
-      "description": "Fan device for bodhi node red",
-      "updated_at": "2023-07-27T22:04:01.332Z",
-      "types": [
-        "Fan"
-      ],
-      "keywords": [
-        "node-red",
-        "device",
-        "bodhi",
-        "fan"
-      ],
-      "url": "https://flows.nodered.org/node/@softwaredevelopment/node-red-contrib-bodhi-device-fan"
-    },
-    {
-      "id": "@softwaredevelopment/node-red-contrib-bodhi-device-door-sensor",
-      "version": "0.0.1",
-      "description": "Door sensor device for bodhi node red",
-      "updated_at": "2023-07-27T20:59:57.434Z",
-      "types": [
-        "Door Sensor"
-      ],
-      "keywords": [
-        "node-red",
-        "device",
-        "bodhi",
-        "door",
-        "sensor"
-      ],
-      "url": "https://flows.nodered.org/node/@softwaredevelopment/node-red-contrib-bodhi-device-door-sensor"
-    },
-    {
-      "id": "@softwaredevelopment/node-red-contrib-bodhi-device-door-lock",
-      "version": "0.0.1",
-      "description": "Door lock device for bodhi node red",
-      "updated_at": "2023-07-27T20:39:23.398Z",
-      "types": [
-        "Door Lock"
-      ],
-      "keywords": [
-        "node-red",
-        "device",
-        "bodhi",
-        "door",
-        "lock"
-      ],
-      "url": "https://flows.nodered.org/node/@softwaredevelopment/node-red-contrib-bodhi-device-door-lock"
-    },
-    {
-      "id": "@softwaredevelopment/node-red-contrib-bodhi-device-door-bell",
-      "version": "0.0.1",
-      "description": "Door Bell device for bodhi node red",
-      "updated_at": "2023-07-27T20:09:43.854Z",
-      "types": [
-        "Door Bell"
-      ],
-      "keywords": [
-        "node-red",
-        "device",
-        "bodhi",
-        "door",
-        "bell"
-      ],
-      "url": "https://flows.nodered.org/node/@softwaredevelopment/node-red-contrib-bodhi-device-door-bell"
-    },
-    {
       "id": "@softwaredevelopment/node-red-contrib-bodhi-device-smoke-detector",
       "version": "0.0.3",
       "description": "Smoke Detector device for bodhi node red",
@@ -5033,23 +5101,6 @@
         "detector"
       ],
       "url": "https://flows.nodered.org/node/@softwaredevelopment/node-red-contrib-bodhi-device-smoke-detector"
-    },
-    {
-      "id": "@softwaredevelopment/node-red-contrib-bodhi-device-fire-alarm",
-      "version": "0.0.1",
-      "description": "Fire Alarm device for bodhi node red",
-      "updated_at": "2023-07-27T17:50:49.374Z",
-      "types": [
-        "Fire Alarm"
-      ],
-      "keywords": [
-        "node-red",
-        "device",
-        "bodhi",
-        "fire",
-        "alarm"
-      ],
-      "url": "https://flows.nodered.org/node/@softwaredevelopment/node-red-contrib-bodhi-device-fire-alarm"
     },
     {
       "id": "@softwaredevelopment/node-red-contrib-bodhi-device-window-sensor",
@@ -5535,22 +5586,6 @@
         "switch"
       ],
       "url": "https://flows.nodered.org/node/@softwaredevelopment/node-red-contrib-bodhi-device-switch-light"
-    },
-    {
-      "id": "@softwaredevelopment/node-red-contrib-bodhi-device-dimmer-light",
-      "version": "0.0.9",
-      "description": "Bodhi connector configuration for connecting nodes to bodhi",
-      "updated_at": "2023-07-21T10:48:12.169Z",
-      "types": [
-        "Dimmer Light"
-      ],
-      "keywords": [
-        "node-red",
-        "device",
-        "bodhi",
-        "light"
-      ],
-      "url": "https://flows.nodered.org/node/@softwaredevelopment/node-red-contrib-bodhi-device-dimmer-light"
     },
     {
       "id": "node-red-contrib-device-monitor",
@@ -7611,9 +7646,9 @@
     },
     {
       "id": "node-red-contrib-gpio-2",
-      "version": "0.52.0",
+      "version": "0.53.0",
       "description": "Fork of node-red-contrib-gpio with updated deps for newer node versions",
-      "updated_at": "2023-06-07T11:43:20.602Z",
+      "updated_at": "2023-06-07T12:23:10.713Z",
       "types": [
         "gpio in",
         "gpio out",
@@ -12338,28 +12373,6 @@
         "range"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-visualmapper"
-    },
-    {
-      "id": "node-red-contrib-moonnode",
-      "version": "0.1.5",
-      "description": "Nodes for working with Moonraker API & Klipper",
-      "updated_at": "2023-03-08T16:30:10.426Z",
-      "types": [
-        "moonNode-connector",
-        "moonNode-monitor",
-        "moonNode-command",
-        "moonNode-event"
-      ],
-      "keywords": [
-        "node-red",
-        "3D Printer",
-        "Moonraker",
-        "Klipper",
-        "G Code",
-        "3D Printing",
-        "CNC"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-moonnode"
     },
     {
       "id": "@nd-enerserve/node-red-smartpi",
