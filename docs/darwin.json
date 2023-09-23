@@ -1,30 +1,75 @@
 {
   "name": "Catalogue for macOS",
-  "updated_at": "2023-09-22T22:32:10.006Z",
+  "updated_at": "2023-09-23T21:27:12.844Z",
   "modules": [
     {
-      "id": "@softwaredevelopment/node-red-contrib-bodhi-device-flow-sensor",
-      "version": "0.0.2",
-      "description": "Water flow Sensor Device device for bodhi node red",
-      "updated_at": "2023-09-22T19:41:42.586Z",
+      "id": "node-red-contrib-fastxml",
+      "version": "1.1.1",
+      "description": "A Node-RED node to parse xml strings to json and vice-versa",
+      "updated_at": "2023-09-23T15:28:52.827Z",
       "types": [
-        "Flow Sensor",
-        "Remote Flow Sensor"
+        "fastxml"
       ],
       "keywords": [
         "node-red",
-        "device",
-        "bodhi",
-        "flow",
-        "sensor"
+        "xml",
+        "fastxml"
       ],
-      "url": "https://flows.nodered.org/node/@softwaredevelopment/node-red-contrib-bodhi-device-flow-sensor"
+      "url": "https://flows.nodered.org/node/node-red-contrib-fastxml"
+    },
+    {
+      "id": "@marcus-j-davies/node-red-semaphore-plus",
+      "version": "3.0.3",
+      "description": "An advanced set of semaphore Nodes for Node RED, with a dynamic fail-safe",
+      "updated_at": "2023-09-23T15:03:26.348Z",
+      "types": [
+        "semaphore-plus-take",
+        "semaphore-plus-release",
+        "semaphore-plus-fs-reset",
+        "semaphore-plus-config"
+      ],
+      "keywords": [
+        "node-red",
+        "semaphore",
+        "control",
+        "single",
+        "lock",
+        "release",
+        "take",
+        "reset",
+        "plus",
+        "advanced",
+        "queue"
+      ],
+      "url": "https://flows.nodered.org/node/@marcus-j-davies/node-red-semaphore-plus"
+    },
+    {
+      "id": "node-red-contrib-moonnode",
+      "version": "0.1.7",
+      "description": "Nodes for working with Moonraker API & Klipper",
+      "updated_at": "2023-09-23T10:41:00.397Z",
+      "types": [
+        "moonNode-connector",
+        "moonNode-monitor",
+        "moonNode-command",
+        "moonNode-event"
+      ],
+      "keywords": [
+        "node-red",
+        "3D Printer",
+        "Moonraker",
+        "Klipper",
+        "G Code",
+        "3D Printing",
+        "CNC"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-moonnode"
     },
     {
       "id": "node-red-contrib-grove-base-hat-bash",
-      "version": "1.1.2",
+      "version": "1.1.4",
       "description": "Nodes for Grove Base HAT on Raspberry Pi using bash scripts and other tools",
-      "updated_at": "2023-09-22T19:00:37.684Z",
+      "updated_at": "2023-09-23T05:28:47.855Z",
       "types": [
         "grove-led",
         "grove-relay",
@@ -47,6 +92,24 @@
         "bash"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-grove-base-hat-bash"
+    },
+    {
+      "id": "@softwaredevelopment/node-red-contrib-bodhi-device-flow-sensor",
+      "version": "0.0.2",
+      "description": "Water flow Sensor Device device for bodhi node red",
+      "updated_at": "2023-09-22T19:41:42.586Z",
+      "types": [
+        "Flow Sensor",
+        "Remote Flow Sensor"
+      ],
+      "keywords": [
+        "node-red",
+        "device",
+        "bodhi",
+        "flow",
+        "sensor"
+      ],
+      "url": "https://flows.nodered.org/node/@softwaredevelopment/node-red-contrib-bodhi-device-flow-sensor"
     },
     {
       "id": "@softwaredevelopment/node-red-contrib-bodhi-device-fire-alarm",
@@ -1660,32 +1723,6 @@
         "node-red"
       ],
       "url": "https://flows.nodered.org/node/apconic-node-red-string-parser"
-    },
-    {
-      "id": "@marcus-j-davies/node-red-semaphore-plus",
-      "version": "2.0.0",
-      "description": "An advanced set of semaphore Nodes for Node RED, with a dynamic fail-safe",
-      "updated_at": "2023-09-13T07:59:45.034Z",
-      "types": [
-        "semaphore-plus-take",
-        "semaphore-plus-release",
-        "semaphore-plus-fs-reset",
-        "semaphore-plus-config"
-      ],
-      "keywords": [
-        "node-red",
-        "semaphore",
-        "control",
-        "single",
-        "lock",
-        "release",
-        "take",
-        "reset",
-        "plus",
-        "advanced",
-        "queue"
-      ],
-      "url": "https://flows.nodered.org/node/@marcus-j-davies/node-red-semaphore-plus"
     },
     {
       "id": "@demirdeniz/node-red-contrib-dahua-camera",
@@ -4182,21 +4219,6 @@
         "Ax Pro"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-hikvision-ultimate"
-    },
-    {
-      "id": "node-red-contrib-fastxml",
-      "version": "1.0.0",
-      "description": "A Node-RED node to parse xml strings to json and vice-versa",
-      "updated_at": "2023-08-11T07:14:33.703Z",
-      "types": [
-        "fastxml"
-      ],
-      "keywords": [
-        "node-red",
-        "xml",
-        "fastxml"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-fastxml"
     },
     {
       "id": "node-red-contrib-alexa-remote2-mattl0",
@@ -12547,28 +12569,6 @@
         "range"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-visualmapper"
-    },
-    {
-      "id": "node-red-contrib-moonnode",
-      "version": "0.1.5",
-      "description": "Nodes for working with Moonraker API & Klipper",
-      "updated_at": "2023-03-08T16:30:10.426Z",
-      "types": [
-        "moonNode-connector",
-        "moonNode-monitor",
-        "moonNode-command",
-        "moonNode-event"
-      ],
-      "keywords": [
-        "node-red",
-        "3D Printer",
-        "Moonraker",
-        "Klipper",
-        "G Code",
-        "3D Printing",
-        "CNC"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-moonnode"
     },
     {
       "id": "@nd-enerserve/node-red-smartpi",
