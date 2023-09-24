@@ -1,7 +1,78 @@
 {
   "name": "Catalogue for macOS",
-  "updated_at": "2023-09-23T21:27:12.844Z",
+  "updated_at": "2023-09-24T21:01:13.956Z",
   "modules": [
+    {
+      "id": "node-red-contrib-yandex-station-management",
+      "version": "0.3.10",
+      "description": "Local management of YandexStation using API on websockets",
+      "updated_at": "2023-09-24T17:28:04.463Z",
+      "types": [
+        "alice-local-in",
+        "alice-local-get",
+        "alice-local-out",
+        "yandex-login",
+        "alice-local-station"
+      ],
+      "keywords": [
+        "node-red"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-yandex-station-management"
+    },
+    {
+      "id": "node-red-contrib-grohe-sense",
+      "version": "0.17.0",
+      "description": "Grohe sense nodes via ondus API.",
+      "updated_at": "2023-09-24T17:02:41.332Z",
+      "types": [
+        "grohe location",
+        "grohe sense"
+      ],
+      "keywords": [
+        "node-red",
+        "grohe",
+        "ondus",
+        "sense"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-grohe-sense"
+    },
+    {
+      "id": "node-red-contrib-superpower-test",
+      "version": "0.0.4",
+      "description": "Node-RED integration with eWeLink Cube",
+      "updated_at": "2023-09-24T07:19:43.451Z",
+      "types": [
+        "api-server",
+        "get-devices",
+        "event-state",
+        "event-online",
+        "control-device",
+        "event-add-device",
+        "event-del-device",
+        "event-device-info",
+        "put-device-state",
+        "register-device"
+      ],
+      "keywords": [
+        "node-red",
+        "ewelink",
+        "ewelink-cube"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-superpower-test"
+    },
+    {
+      "id": "node-red-contrib-logger",
+      "version": "0.0.8",
+      "description": "Node-RED implements logger and debug/logging for control for any insert.",
+      "updated_at": "2023-09-24T04:37:28.156Z",
+      "types": [],
+      "keywords": [
+        "node-red",
+        "debug",
+        "logging"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-logger"
+    },
     {
       "id": "node-red-contrib-fastxml",
       "version": "1.1.1",
@@ -1049,30 +1120,6 @@
       "url": "https://flows.nodered.org/node/node-red-contrib-eskomsepush"
     },
     {
-      "id": "node-red-contrib-superpower-test",
-      "version": "0.0.3",
-      "description": "Node-RED integration with eWeLink Cube",
-      "updated_at": "2023-09-19T02:26:05.227Z",
-      "types": [
-        "api-server",
-        "get-devices",
-        "event-state",
-        "event-online",
-        "control-device",
-        "event-add-device",
-        "event-del-device",
-        "event-device-info",
-        "put-device-state",
-        "register-device"
-      ],
-      "keywords": [
-        "node-red",
-        "ewelink",
-        "ewelink-cube"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-superpower-test"
-    },
-    {
       "id": "node-red-contrib-resend-last-msg",
       "version": "1.0.5",
       "description": "Resend last message received",
@@ -1412,23 +1459,6 @@
         "sse"
       ],
       "url": "https://flows.nodered.org/node/@tq-bit/node-red-contrib-server-sent-events"
-    },
-    {
-      "id": "node-red-contrib-grohe-sense",
-      "version": "0.16.0",
-      "description": "Grohe sense nodes via ondus API.",
-      "updated_at": "2023-09-15T14:09:50.732Z",
-      "types": [
-        "grohe location",
-        "grohe sense"
-      ],
-      "keywords": [
-        "node-red",
-        "grohe",
-        "ondus",
-        "sense"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-grohe-sense"
     },
     {
       "id": "node-red-contrib-tak-registration",
@@ -11293,6 +11323,33 @@
       "url": "https://flows.nodered.org/node/node-red-contrib-ecovacs-deebot"
     },
     {
+      "id": "node-red-contrib-dockerode",
+      "version": "0.14.0",
+      "description": "node-red nodes to communicate with docker",
+      "updated_at": "2023-04-02T18:02:02.475Z",
+      "types": [
+        "docker-configuration",
+        "docker-events",
+        "docker-swarm-actions",
+        "docker-engine-actions",
+        "docker-config-actions",
+        "docker-image-actions",
+        "docker-container-actions",
+        "docker-service-actions",
+        "docker-task-actions",
+        "docker-node-actions",
+        "docker-secret-actions",
+        "docker-network-actions",
+        "docker-volume-actions",
+        "docker-plugin-actions"
+      ],
+      "keywords": [
+        "node-red",
+        "docker"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-dockerode"
+    },
+    {
       "id": "node-red-contrib-socketio-server-jwt",
       "version": "1.1.5",
       "description": "Implementation for Node-RED of a SocketIO Sever",
@@ -12617,23 +12674,6 @@
         "node-red"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-puppeteer-new"
-    },
-    {
-      "id": "node-red-contrib-yandex-station-management",
-      "version": "0.3.9",
-      "description": "Local management of YandexStation using API on websockets",
-      "updated_at": "2023-03-07T18:49:29.416Z",
-      "types": [
-        "alice-local-in",
-        "alice-local-get",
-        "alice-local-out",
-        "yandex-login",
-        "alice-local-station"
-      ],
-      "keywords": [
-        "node-red"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-yandex-station-management"
     },
     {
       "id": "node-red-l3logger-subflow",
@@ -15416,33 +15456,6 @@
         "mod-n counter"
       ],
       "url": "https://flows.nodered.org/node/@eswarpr/node-red-modn-counter"
-    },
-    {
-      "id": "node-red-contrib-dockerode",
-      "version": "0.13.1",
-      "description": "node-red nodes to communicate with docker",
-      "updated_at": "2023-01-08T19:26:00.954Z",
-      "types": [
-        "docker-configuration",
-        "docker-events",
-        "docker-swarm-actions",
-        "docker-engine-actions",
-        "docker-config-actions",
-        "docker-image-actions",
-        "docker-container-actions",
-        "docker-service-actions",
-        "docker-task-actions",
-        "docker-node-actions",
-        "docker-secret-actions",
-        "docker-network-actions",
-        "docker-volume-actions",
-        "docker-plugin-actions"
-      ],
-      "keywords": [
-        "node-red",
-        "docker"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-dockerode"
     },
     {
       "id": "node-red-near-protocol",
@@ -39617,19 +39630,6 @@
         "sun events"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-time-switch"
-    },
-    {
-      "id": "node-red-contrib-logger",
-      "version": "0.0.6",
-      "description": "Node-RED implements logger and debug/logging for control for any insert.",
-      "updated_at": "2021-03-19T06:14:21.516Z",
-      "types": [],
-      "keywords": [
-        "node-red",
-        "debug",
-        "logging"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-logger"
     },
     {
       "id": "node-red-contrib-sonoff-lan-mode",
