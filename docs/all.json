@@ -1,12 +1,64 @@
 {
   "name": "Catalogue for verified nodes",
-  "updated_at": "2023-09-23T21:27:35.290Z",
+  "updated_at": "2023-09-24T21:01:31.248Z",
   "modules": [
     {
+      "id": "node-red-contrib-superpower-test",
+      "version": "0.0.4",
+      "description": "Node-RED integration with eWeLink Cube",
+      "updated_at": "2023-09-24T07:19:43.451Z",
+      "types": [
+        "api-server",
+        "get-devices",
+        "event-state",
+        "event-online",
+        "control-device",
+        "event-add-device",
+        "event-del-device",
+        "event-device-info",
+        "put-device-state",
+        "register-device"
+      ],
+      "keywords": [
+        "node-red",
+        "ewelink",
+        "ewelink-cube"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-superpower-test"
+    },
+    {
+      "id": "node-red-contrib-logger",
+      "version": "0.0.8",
+      "description": "Node-RED implements logger and debug/logging for control for any insert.",
+      "updated_at": "2023-09-24T04:37:28.156Z",
+      "types": [],
+      "keywords": [
+        "node-red",
+        "debug",
+        "logging"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-logger"
+    },
+    {
+      "id": "node-red-contrib-fastxml",
+      "version": "1.1.1",
+      "description": "A Node-RED node to parse xml strings to json and vice-versa",
+      "updated_at": "2023-09-23T15:28:52.827Z",
+      "types": [
+        "fastxml"
+      ],
+      "keywords": [
+        "node-red",
+        "xml",
+        "fastxml"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-fastxml"
+    },
+    {
       "id": "@marcus-j-davies/node-red-semaphore-plus",
-      "version": "3.0.2",
+      "version": "3.0.3",
       "description": "An advanced set of semaphore Nodes for Node RED, with a dynamic fail-safe",
-      "updated_at": "2023-09-23T10:52:34.723Z",
+      "updated_at": "2023-09-23T15:03:26.348Z",
       "types": [
         "semaphore-plus-take",
         "semaphore-plus-release",
@@ -1032,30 +1084,6 @@
         "ess"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-eskomsepush"
-    },
-    {
-      "id": "node-red-contrib-superpower-test",
-      "version": "0.0.3",
-      "description": "Node-RED integration with eWeLink Cube",
-      "updated_at": "2023-09-19T02:26:05.227Z",
-      "types": [
-        "api-server",
-        "get-devices",
-        "event-state",
-        "event-online",
-        "control-device",
-        "event-add-device",
-        "event-del-device",
-        "event-device-info",
-        "put-device-state",
-        "register-device"
-      ],
-      "keywords": [
-        "node-red",
-        "ewelink",
-        "ewelink-cube"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-superpower-test"
     },
     {
       "id": "node-red-contrib-resend-last-msg",
@@ -4149,21 +4177,6 @@
         "Ax Pro"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-hikvision-ultimate"
-    },
-    {
-      "id": "node-red-contrib-fastxml",
-      "version": "1.0.0",
-      "description": "A Node-RED node to parse xml strings to json and vice-versa",
-      "updated_at": "2023-08-11T07:14:33.703Z",
-      "types": [
-        "fastxml"
-      ],
-      "keywords": [
-        "node-red",
-        "xml",
-        "fastxml"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-fastxml"
     },
     {
       "id": "node-red-contrib-alexa-remote2-mattl0",
@@ -38966,19 +38979,6 @@
         "sun events"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-time-switch"
-    },
-    {
-      "id": "node-red-contrib-logger",
-      "version": "0.0.6",
-      "description": "Node-RED implements logger and debug/logging for control for any insert.",
-      "updated_at": "2021-03-19T06:14:21.516Z",
-      "types": [],
-      "keywords": [
-        "node-red",
-        "debug",
-        "logging"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-logger"
     },
     {
       "id": "node-red-contrib-sonoff-lan-mode",
