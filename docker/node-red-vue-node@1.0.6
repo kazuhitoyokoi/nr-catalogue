@@ -1,0 +1,45 @@
+#0 building with "default" instance using docker driver
+
+#1 [internal] load .dockerignore
+#1 transferring context: 2B done
+#1 DONE 0.0s
+
+#2 [internal] load build definition from Dockerfile
+#2 transferring dockerfile: 110B done
+#2 DONE 0.0s
+
+#3 [internal] load metadata for docker.io/nodered/node-red:latest
+#3 DONE 0.3s
+
+#4 [1/2] FROM docker.io/nodered/node-red@sha256:5e99ed734f7d2f9bfcb1e20dfbf4c5b9aa60f35a9df6e257e817130f0f9be9dc
+#4 CACHED
+
+#5 [2/2] RUN npm install npm install node-red-vue-node@1.0.6
+#5 1.901 npm WARN EBADENGINE Unsupported engine {
+#5 1.902 npm WARN EBADENGINE   package: 'npm@10.1.0',
+#5 1.902 npm WARN EBADENGINE   required: { node: '^18.17.0 || >=20.5.0' },
+#5 1.902 npm WARN EBADENGINE   current: { node: 'v16.20.2', npm: '8.19.4' }
+#5 1.903 npm WARN EBADENGINE }
+#5 4.548 
+#5 4.548 added 3 packages, and audited 565 packages in 4s
+#5 4.548 
+#5 4.548 65 packages are looking for funding
+#5 4.548   run `npm fund` for details
+#5 4.550 
+#5 4.550 found 0 vulnerabilities
+#5 4.551 npm notice 
+#5 4.551 npm notice New major version of npm available! 8.19.4 -> 10.1.0
+#5 4.551 npm notice Changelog: <https://github.com/npm/cli/releases/tag/v10.1.0>
+#5 4.551 npm notice Run `npm install -g npm@10.1.0` to update!
+#5 4.551 npm notice 
+#5 DONE 4.7s
+
+#6 exporting to image
+#6 exporting layers
+#6 exporting layers 1.3s done
+#6 writing image sha256:d2c75f677b52fa0a1a08fcb5db5e36cb0c85aebf67c39e2dd4d6effca0c93a59 done
+#6 naming to docker.io/library/tmp
+#6 naming to docker.io/library/tmp done
+#6 DONE 1.3s
+
+----
