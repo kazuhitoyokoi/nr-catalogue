@@ -1,29 +1,12 @@
 {
   "name": "Catalogue for macOS",
-  "updated_at": "2023-09-24T21:01:13.956Z",
+  "updated_at": "2023-09-25T22:06:08.052Z",
   "modules": [
     {
-      "id": "node-red-contrib-yandex-station-management",
-      "version": "0.3.10",
-      "description": "Local management of YandexStation using API on websockets",
-      "updated_at": "2023-09-24T17:28:04.463Z",
-      "types": [
-        "alice-local-in",
-        "alice-local-get",
-        "alice-local-out",
-        "yandex-login",
-        "alice-local-station"
-      ],
-      "keywords": [
-        "node-red"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-yandex-station-management"
-    },
-    {
       "id": "node-red-contrib-grohe-sense",
-      "version": "0.17.0",
+      "version": "0.18.0",
       "description": "Grohe sense nodes via ondus API.",
-      "updated_at": "2023-09-24T17:02:41.332Z",
+      "updated_at": "2023-09-25T19:19:19.303Z",
       "types": [
         "grohe location",
         "grohe sense"
@@ -37,10 +20,170 @@
       "url": "https://flows.nodered.org/node/node-red-contrib-grohe-sense"
     },
     {
-      "id": "node-red-contrib-superpower-test",
+      "id": "@softwaredevelopment/node-red-contrib-bodhi-device-pool",
+      "version": "0.0.2",
+      "description": "Pool device for bodhi node red",
+      "updated_at": "2023-09-25T18:29:28.860Z",
+      "types": [
+        "Pool",
+        "Remote Pool"
+      ],
+      "keywords": [
+        "node-red",
+        "device",
+        "bodhi",
+        "pool"
+      ],
+      "url": "https://flows.nodered.org/node/@softwaredevelopment/node-red-contrib-bodhi-device-pool"
+    },
+    {
+      "id": "@softwaredevelopment/node-red-contrib-bodhi-device-thermostat",
+      "version": "0.0.3",
+      "description": "Thermostat device for bodhi node red",
+      "updated_at": "2023-09-25T17:56:17.797Z",
+      "types": [
+        "Thermostat",
+        "Remote Thermostat"
+      ],
+      "keywords": [
+        "node-red",
+        "device",
+        "bodhi",
+        "thermostat"
+      ],
+      "url": "https://flows.nodered.org/node/@softwaredevelopment/node-red-contrib-bodhi-device-thermostat"
+    },
+    {
+      "id": "@softwaredevelopment/node-red-contrib-bodhi-device-video-control",
       "version": "0.0.4",
+      "description": "Vide Cotroller device for bodhi node red",
+      "updated_at": "2023-09-25T17:04:01.346Z",
+      "types": [
+        "Video Control",
+        "Remote Video Control"
+      ],
+      "keywords": [
+        "node-red",
+        "device",
+        "bodhi",
+        "video",
+        "control"
+      ],
+      "url": "https://flows.nodered.org/node/@softwaredevelopment/node-red-contrib-bodhi-device-video-control"
+    },
+    {
+      "id": "@tataille/node-red-french-holidays",
+      "version": "1.1.6",
+      "description": "A simple node-red component for working whith French holidays.",
+      "updated_at": "2023-09-25T16:07:57.845Z",
+      "types": [
+        "french-holidays"
+      ],
+      "keywords": [
+        "node-red",
+        "french-holidays",
+        "holidays",
+        "france",
+        "specialdays",
+        "weekdays"
+      ],
+      "url": "https://flows.nodered.org/node/@tataille/node-red-french-holidays"
+    },
+    {
+      "id": "node-red-contrib-tak-registration",
+      "version": "0.11.1",
+      "description": "A Node-RED node to register to TAK and to help wrap files as datapackages to send to TAK",
+      "updated_at": "2023-09-25T15:13:04.152Z",
+      "types": [
+        "tak registration",
+        "tak ingest"
+      ],
+      "keywords": [
+        "TAK",
+        "COT",
+        "node-red"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-tak-registration"
+    },
+    {
+      "id": "@softwaredevelopment/node-red-contrib-bodhi-device-valve",
+      "version": "0.0.2",
+      "description": "Valve Device device for bodhi node red",
+      "updated_at": "2023-09-25T13:29:28.240Z",
+      "types": [
+        "Valve",
+        "Remote Valve"
+      ],
+      "keywords": [
+        "node-red",
+        "device",
+        "bodhi",
+        "valve"
+      ],
+      "url": "https://flows.nodered.org/node/@softwaredevelopment/node-red-contrib-bodhi-device-valve"
+    },
+    {
+      "id": "@softwaredevelopment/node-red-contrib-bodhi-device-window-sensor",
+      "version": "0.0.4",
+      "description": "Window Sensor device for bodhi node red",
+      "updated_at": "2023-09-25T13:14:55.311Z",
+      "types": [
+        "Window Sensor",
+        "Remote Window Sensor"
+      ],
+      "keywords": [
+        "node-red",
+        "device",
+        "bodhi",
+        "window",
+        "sensor"
+      ],
+      "url": "https://flows.nodered.org/node/@softwaredevelopment/node-red-contrib-bodhi-device-window-sensor"
+    },
+    {
+      "id": "node-red-contrib-snap4city-milestone",
+      "version": "0.0.8",
+      "description": "Node-Red integration to communicate with Milestone XProtect VMS",
+      "updated_at": "2023-09-25T13:01:03.794Z",
+      "types": [
+        "x-login",
+        "x-send-event",
+        "x-alarm-list"
+      ],
+      "keywords": [
+        "node-red",
+        "smartcity",
+        "iot",
+        "VMS",
+        "Milestone",
+        "XProtect",
+        "Protocol Integration"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-snap4city-milestone"
+    },
+    {
+      "id": "@softwaredevelopment/node-red-contrib-bodhi-device-smoke-detector",
+      "version": "0.0.4",
+      "description": "Smoke Detector device for bodhi node red",
+      "updated_at": "2023-09-25T12:59:20.375Z",
+      "types": [
+        "Smoke Detector",
+        "Remote Smoke Detector"
+      ],
+      "keywords": [
+        "node-red",
+        "device",
+        "bodhi",
+        "smoke",
+        "detector"
+      ],
+      "url": "https://flows.nodered.org/node/@softwaredevelopment/node-red-contrib-bodhi-device-smoke-detector"
+    },
+    {
+      "id": "node-red-contrib-superpower-test",
+      "version": "0.1.1",
       "description": "Node-RED integration with eWeLink Cube",
-      "updated_at": "2023-09-24T07:19:43.451Z",
+      "updated_at": "2023-09-25T12:59:00.857Z",
       "types": [
         "api-server",
         "get-devices",
@@ -59,6 +202,336 @@
         "ewelink-cube"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-superpower-test"
+    },
+    {
+      "id": "@softwaredevelopment/node-red-contrib-bodhi-device-rgb-light",
+      "version": "0.0.3",
+      "description": "RGB light device for bodhi node red",
+      "updated_at": "2023-09-25T12:26:11.469Z",
+      "types": [
+        "RGB Light",
+        "Remote RGB Light"
+      ],
+      "keywords": [
+        "node-red",
+        "device",
+        "bodhi",
+        "rgb",
+        "light"
+      ],
+      "url": "https://flows.nodered.org/node/@softwaredevelopment/node-red-contrib-bodhi-device-rgb-light"
+    },
+    {
+      "id": "@softwaredevelopment/node-red-contrib-bodhi-device-property-management",
+      "version": "0.0.2",
+      "description": "Property Management device for bodhi node red",
+      "updated_at": "2023-09-25T12:01:40.949Z",
+      "types": [
+        "Property Management",
+        "Remote Property Management"
+      ],
+      "keywords": [
+        "node-red",
+        "device",
+        "bodhi",
+        "property",
+        "management"
+      ],
+      "url": "https://flows.nodered.org/node/@softwaredevelopment/node-red-contrib-bodhi-device-property-management"
+    },
+    {
+      "id": "@softwaredevelopment/node-red-contrib-bodhi-device-privacy",
+      "version": "0.0.2",
+      "description": "privacy device for bodhi node red",
+      "updated_at": "2023-09-25T11:45:37.460Z",
+      "types": [
+        "Privacy Mode",
+        "Remote Privacy Mode"
+      ],
+      "keywords": [
+        "node-red",
+        "device",
+        "bodhi",
+        "privacy",
+        "mode"
+      ],
+      "url": "https://flows.nodered.org/node/@softwaredevelopment/node-red-contrib-bodhi-device-privacy"
+    },
+    {
+      "id": "@softwaredevelopment/node-red-contrib-bodhi-device-tvoc-sensor",
+      "version": "0.0.2",
+      "description": "Tvoc Sensor Device device for bodhi node red",
+      "updated_at": "2023-09-25T11:31:51.444Z",
+      "types": [
+        "Tvoc Sensor",
+        "Remote Tvoc Sensor"
+      ],
+      "keywords": [
+        "node-red",
+        "device",
+        "bodhi",
+        "tvoc",
+        "sensor"
+      ],
+      "url": "https://flows.nodered.org/node/@softwaredevelopment/node-red-contrib-bodhi-device-tvoc-sensor"
+    },
+    {
+      "id": "@softwaredevelopment/node-red-contrib-bodhi-device-matter-2-sensor",
+      "version": "0.0.3",
+      "description": "Particulate Matter 2 Sensor Device device for bodhi node red",
+      "updated_at": "2023-09-25T11:21:31.354Z",
+      "types": [
+        "Matter 2 Sensor",
+        "Remote Matter 2 Sensor"
+      ],
+      "keywords": [
+        "node-red",
+        "device",
+        "bodhi",
+        "indoor",
+        "particulate",
+        "matter",
+        "2",
+        "sensor"
+      ],
+      "url": "https://flows.nodered.org/node/@softwaredevelopment/node-red-contrib-bodhi-device-matter-2-sensor"
+    },
+    {
+      "id": "@softwaredevelopment/node-red-contrib-bodhi-device-matter-10-sensor",
+      "version": "0.0.2",
+      "description": "Particulate Matter 10 Sensor Device device for bodhi node red",
+      "updated_at": "2023-09-25T11:18:27.869Z",
+      "types": [
+        "Matter 10 Sensor",
+        "Remote Matter 10 Sensor"
+      ],
+      "keywords": [
+        "node-red",
+        "device",
+        "bodhi",
+        "indoor",
+        "particulate",
+        "matter",
+        "10",
+        "sensor"
+      ],
+      "url": "https://flows.nodered.org/node/@softwaredevelopment/node-red-contrib-bodhi-device-matter-10-sensor"
+    },
+    {
+      "id": "@softwaredevelopment/node-red-contrib-bodhi-device-package-delivery",
+      "version": "0.0.1",
+      "description": "Package Delivery device for bodhi node red",
+      "updated_at": "2023-09-25T10:50:05.022Z",
+      "types": [
+        "Package Delivery",
+        "Remote Package Delivery"
+      ],
+      "keywords": [
+        "node-red",
+        "device",
+        "bodhi",
+        "package",
+        "delivery"
+      ],
+      "url": "https://flows.nodered.org/node/@softwaredevelopment/node-red-contrib-bodhi-device-package-delivery"
+    },
+    {
+      "id": "@softwaredevelopment/node-red-contrib-bodhi-device-ozone",
+      "version": "0.0.5",
+      "description": "Ozone Sensor Device device for bodhi node red",
+      "updated_at": "2023-09-25T10:16:16.422Z",
+      "types": [
+        "Ozone Sensor",
+        "Remote Ozone Sensor"
+      ],
+      "keywords": [
+        "node-red",
+        "device",
+        "bodhi",
+        "ozone",
+        "sensor"
+      ],
+      "url": "https://flows.nodered.org/node/@softwaredevelopment/node-red-contrib-bodhi-device-ozone"
+    },
+    {
+      "id": "@softwaredevelopment/node-red-contrib-bodhi-device-outlet",
+      "version": "0.0.3",
+      "description": "outlet device for bodhi node red",
+      "updated_at": "2023-09-25T10:06:25.466Z",
+      "types": [
+        "Outlet",
+        "Remote Outlet"
+      ],
+      "keywords": [
+        "node-red",
+        "device",
+        "bodhi",
+        "outlet",
+        "sensor"
+      ],
+      "url": "https://flows.nodered.org/node/@softwaredevelopment/node-red-contrib-bodhi-device-outlet"
+    },
+    {
+      "id": "node-red-vue-node",
+      "version": "1.0.6",
+      "description": "vue node",
+      "updated_at": "2023-09-25T08:36:07.794Z",
+      "types": [
+        "vue-node"
+      ],
+      "keywords": [
+        "node-red",
+        "vue"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-vue-node"
+    },
+    {
+      "id": "@softwaredevelopment/node-red-contrib-bodhi-device-occupancy-sensor",
+      "version": "0.0.2",
+      "description": "Occupancy Sensor device for bodhi node red",
+      "updated_at": "2023-09-25T08:28:17.554Z",
+      "types": [
+        "Occupancy Sensor",
+        "Remote Occupancy Sensor"
+      ],
+      "keywords": [
+        "node-red",
+        "device",
+        "bodhi",
+        "occupancy",
+        "sensor"
+      ],
+      "url": "https://flows.nodered.org/node/@softwaredevelopment/node-red-contrib-bodhi-device-occupancy-sensor"
+    },
+    {
+      "id": "@softwaredevelopment/node-red-contrib-bodhi-device-meter",
+      "version": "0.0.2",
+      "description": "Meter device for bodhi node red",
+      "updated_at": "2023-09-25T08:16:39.301Z",
+      "types": [
+        "Meter",
+        "Remote Meter"
+      ],
+      "keywords": [
+        "node-red",
+        "device",
+        "bodhi",
+        "meter"
+      ],
+      "url": "https://flows.nodered.org/node/@softwaredevelopment/node-red-contrib-bodhi-device-meter"
+    },
+    {
+      "id": "@softwaredevelopment/node-red-contrib-bodhi-device-switch-light",
+      "version": "0.0.5",
+      "description": "Bodhi switch light device for node red bodhi",
+      "updated_at": "2023-09-25T08:06:17.541Z",
+      "types": [
+        "Switch Light",
+        "Remote Switch Light"
+      ],
+      "keywords": [
+        "node-red",
+        "device",
+        "bodhi",
+        "light",
+        "switch"
+      ],
+      "url": "https://flows.nodered.org/node/@softwaredevelopment/node-red-contrib-bodhi-device-switch-light"
+    },
+    {
+      "id": "@softwaredevelopment/node-red-contrib-bodhi-device-indoor-air-sensor",
+      "version": "0.0.4",
+      "description": "Indooe air quality Sensor Device device for bodhi node red",
+      "updated_at": "2023-09-25T07:41:44.894Z",
+      "types": [
+        "Indoor Air Quality Sensor",
+        "Remote Indoor Air Quality Sensor"
+      ],
+      "keywords": [
+        "node-red",
+        "device",
+        "bodhi",
+        "indoor",
+        "sensor",
+        "air",
+        "quality"
+      ],
+      "url": "https://flows.nodered.org/node/@softwaredevelopment/node-red-contrib-bodhi-device-indoor-air-sensor"
+    },
+    {
+      "id": "@softwaredevelopment/node-red-contrib-bodhi-device-humidity-sensor",
+      "version": "0.0.3",
+      "description": "Humidity Sensor node for bodhi node red",
+      "updated_at": "2023-09-25T06:50:47.423Z",
+      "types": [
+        "Humidity Sensor",
+        "Remote Humidity Sensor"
+      ],
+      "keywords": [
+        "node-red",
+        "device",
+        "bodhi",
+        "humidity",
+        "sensor"
+      ],
+      "url": "https://flows.nodered.org/node/@softwaredevelopment/node-red-contrib-bodhi-device-humidity-sensor"
+    },
+    {
+      "id": "@softwaredevelopment/node-red-contrib-bodhi-device-generator-power-sensor",
+      "version": "0.0.2",
+      "description": "Generator power Sensor Device for bodhi node red",
+      "updated_at": "2023-09-25T06:38:32.961Z",
+      "types": [
+        "Generator Power Sensor",
+        "Remote Generator Power Sensor"
+      ],
+      "keywords": [
+        "node-red",
+        "device",
+        "bodhi",
+        "generator",
+        "sensor",
+        "power",
+        "generator power sensor"
+      ],
+      "url": "https://flows.nodered.org/node/@softwaredevelopment/node-red-contrib-bodhi-device-generator-power-sensor"
+    },
+    {
+      "id": "@softwaredevelopment/node-red-contrib-bodhi-device-formal-dehyde-sensor",
+      "version": "0.0.2",
+      "description": "Formal Dehyde Sensor Device for bodhi node red",
+      "updated_at": "2023-09-25T06:18:20.333Z",
+      "types": [
+        "Formal Dehyde Sensor",
+        "Remote Formal Dehyde Sensor"
+      ],
+      "keywords": [
+        "node-red",
+        "device",
+        "bodhi",
+        "formal",
+        "sensor",
+        "dehyde",
+        "formal dehyde sensor"
+      ],
+      "url": "https://flows.nodered.org/node/@softwaredevelopment/node-red-contrib-bodhi-device-formal-dehyde-sensor"
+    },
+    {
+      "id": "node-red-contrib-yandex-station-management",
+      "version": "0.3.10",
+      "description": "Local management of YandexStation using API on websockets",
+      "updated_at": "2023-09-24T17:28:04.463Z",
+      "types": [
+        "alice-local-in",
+        "alice-local-get",
+        "alice-local-out",
+        "yandex-login",
+        "alice-local-station"
+      ],
+      "keywords": [
+        "node-red"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-yandex-station-management"
     },
     {
       "id": "node-red-contrib-logger",
@@ -1459,22 +1932,6 @@
         "sse"
       ],
       "url": "https://flows.nodered.org/node/@tq-bit/node-red-contrib-server-sent-events"
-    },
-    {
-      "id": "node-red-contrib-tak-registration",
-      "version": "0.11.0",
-      "description": "A Node-RED node to register to TAK and to help wrap files as datapackages to send to TAK",
-      "updated_at": "2023-09-15T10:55:59.705Z",
-      "types": [
-        "tak registration",
-        "tak ingest"
-      ],
-      "keywords": [
-        "TAK",
-        "COT",
-        "node-red"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-tak-registration"
     },
     {
       "id": "@flowforge/node-red-dashboard",
@@ -4494,27 +4951,6 @@
       "url": "https://flows.nodered.org/node/node-red-contrib-nanapo"
     },
     {
-      "id": "node-red-contrib-snap4city-milestone",
-      "version": "0.0.7",
-      "description": "Node-Red integration to communicate with Milestone XProtect VMS",
-      "updated_at": "2023-08-07T08:02:03.890Z",
-      "types": [
-        "x-login",
-        "x-send-event",
-        "x-alarm-list"
-      ],
-      "keywords": [
-        "node-red",
-        "smartcity",
-        "iot",
-        "VMS",
-        "Milestone",
-        "XProtect",
-        "Protocol Integration"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-snap4city-milestone"
-    },
-    {
       "id": "node-red-contrib-wirenboard",
       "version": "3.8.5",
       "description": "Wirenboard connectivity nodes for node-red",
@@ -4734,98 +5170,6 @@
       "url": "https://flows.nodered.org/node/node-red-contrib-rcm-connector"
     },
     {
-      "id": "@softwaredevelopment/node-red-contrib-bodhi-device-indoor-air-sensor",
-      "version": "0.0.3",
-      "description": "Indooe air quality Sensor Device device for bodhi node red",
-      "updated_at": "2023-08-02T20:12:01.483Z",
-      "types": [
-        "Indoor Air Quality Sensor"
-      ],
-      "keywords": [
-        "node-red",
-        "device",
-        "bodhi",
-        "indoor",
-        "air",
-        "quality",
-        "sensor"
-      ],
-      "url": "https://flows.nodered.org/node/@softwaredevelopment/node-red-contrib-bodhi-device-indoor-air-sensor"
-    },
-    {
-      "id": "@softwaredevelopment/node-red-contrib-bodhi-device-valve",
-      "version": "0.0.1",
-      "description": "Valve Device device for bodhi node red",
-      "updated_at": "2023-08-02T20:05:53.334Z",
-      "types": [
-        "Valve"
-      ],
-      "keywords": [
-        "node-red",
-        "device",
-        "bodhi",
-        "valve"
-      ],
-      "url": "https://flows.nodered.org/node/@softwaredevelopment/node-red-contrib-bodhi-device-valve"
-    },
-    {
-      "id": "@softwaredevelopment/node-red-contrib-bodhi-device-tvoc-sensor",
-      "version": "0.0.1",
-      "description": "Tvoc Sensor Device device for bodhi node red",
-      "updated_at": "2023-08-02T19:25:41.549Z",
-      "types": [
-        "Tvoc Sensor"
-      ],
-      "keywords": [
-        "node-red",
-        "device",
-        "bodhi",
-        "tvoc",
-        "sensor"
-      ],
-      "url": "https://flows.nodered.org/node/@softwaredevelopment/node-red-contrib-bodhi-device-tvoc-sensor"
-    },
-    {
-      "id": "@softwaredevelopment/node-red-contrib-bodhi-device-matter-2-sensor",
-      "version": "0.0.1",
-      "description": "Particulate Matter 2 Sensor Device device for bodhi node red",
-      "updated_at": "2023-08-02T19:04:27.653Z",
-      "types": [
-        "Matter 2 Sensor"
-      ],
-      "keywords": [
-        "node-red",
-        "device",
-        "bodhi",
-        "indoor",
-        "particulate",
-        "matter",
-        "2",
-        "sensor"
-      ],
-      "url": "https://flows.nodered.org/node/@softwaredevelopment/node-red-contrib-bodhi-device-matter-2-sensor"
-    },
-    {
-      "id": "@softwaredevelopment/node-red-contrib-bodhi-device-matter-10-sensor",
-      "version": "0.0.1",
-      "description": "Particulate Matter 10 Sensor Device device for bodhi node red",
-      "updated_at": "2023-08-02T18:59:40.466Z",
-      "types": [
-        "Matter 10 Sensor"
-      ],
-      "keywords": [
-        "node-red",
-        "device",
-        "bodhi",
-        "indoor",
-        "particulate",
-        "matter",
-        "10",
-        "sensor"
-      ],
-      "url": "https://flows.nodered.org/node/@softwaredevelopment/node-red-contrib-bodhi-device-matter-10-sensor"
-    },
-    {
       "id": "@hexelink/node-red-aries-hw-io",
       "version": "0.9.2",
       "description": "EdgeGateway Aries Hardware IO Nodes",
@@ -4874,57 +5218,6 @@
       "url": "https://flows.nodered.org/node/@leipert/node-red-contrib-stock-ticker"
     },
     {
-      "id": "@softwaredevelopment/node-red-contrib-bodhi-device-ozone",
-      "version": "0.0.4",
-      "description": "Ozone Sensor Device device for bodhi node red",
-      "updated_at": "2023-08-01T18:59:07.476Z",
-      "types": [
-        "Ozone Sensor"
-      ],
-      "keywords": [
-        "node-red",
-        "device",
-        "bodhi",
-        "ozone",
-        "sensor"
-      ],
-      "url": "https://flows.nodered.org/node/@softwaredevelopment/node-red-contrib-bodhi-device-ozone"
-    },
-    {
-      "id": "@softwaredevelopment/node-red-contrib-bodhi-device-formal-dehyde-sensor",
-      "version": "0.0.1",
-      "description": "Formal Dehyde Sensor Device device for bodhi node red",
-      "updated_at": "2023-08-01T18:18:15.575Z",
-      "types": [
-        "Formal Dehyde Sensor"
-      ],
-      "keywords": [
-        "node-red",
-        "device",
-        "bodhi",
-        "formal",
-        "dehyde",
-        "sensor"
-      ],
-      "url": "https://flows.nodered.org/node/@softwaredevelopment/node-red-contrib-bodhi-device-formal-dehyde-sensor"
-    },
-    {
-      "id": "@softwaredevelopment/node-red-contrib-bodhi-device-pool",
-      "version": "0.0.1",
-      "description": "Pool device for bodhi node red",
-      "updated_at": "2023-08-01T13:56:55.965Z",
-      "types": [
-        "Pool"
-      ],
-      "keywords": [
-        "node-red",
-        "device",
-        "bodhi",
-        "pool"
-      ],
-      "url": "https://flows.nodered.org/node/@softwaredevelopment/node-red-contrib-bodhi-device-pool"
-    },
-    {
       "id": "@softwaredevelopment/node-red-contrib-bodhi-device-television",
       "version": "0.0.1",
       "description": "Television device for bodhi node red",
@@ -4939,91 +5232,6 @@
         "television"
       ],
       "url": "https://flows.nodered.org/node/@softwaredevelopment/node-red-contrib-bodhi-device-television"
-    },
-    {
-      "id": "@softwaredevelopment/node-red-contrib-bodhi-device-video-control",
-      "version": "0.0.3",
-      "description": "Vide Cotroller device for bodhi node red",
-      "updated_at": "2023-07-31T19:05:59.497Z",
-      "types": [
-        "Video Control"
-      ],
-      "keywords": [
-        "node-red",
-        "device",
-        "bodhi",
-        "video",
-        "control"
-      ],
-      "url": "https://flows.nodered.org/node/@softwaredevelopment/node-red-contrib-bodhi-device-video-control"
-    },
-    {
-      "id": "@softwaredevelopment/node-red-contrib-bodhi-device-property-management",
-      "version": "0.0.1",
-      "description": "Property Management device for bodhi node red",
-      "updated_at": "2023-07-31T16:24:51.325Z",
-      "types": [
-        "Property Management"
-      ],
-      "keywords": [
-        "node-red",
-        "device",
-        "bodhi",
-        "property",
-        "management"
-      ],
-      "url": "https://flows.nodered.org/node/@softwaredevelopment/node-red-contrib-bodhi-device-property-management"
-    },
-    {
-      "id": "@softwaredevelopment/node-red-contrib-bodhi-device-outlet",
-      "version": "0.0.1",
-      "description": "outlet device for bodhi node red",
-      "updated_at": "2023-07-31T15:25:35.053Z",
-      "types": [
-        "Outlet"
-      ],
-      "keywords": [
-        "node-red",
-        "device",
-        "bodhi",
-        "outlet",
-        "sensor"
-      ],
-      "url": "https://flows.nodered.org/node/@softwaredevelopment/node-red-contrib-bodhi-device-outlet"
-    },
-    {
-      "id": "@softwaredevelopment/node-red-contrib-bodhi-device-occupancy-sensor",
-      "version": "0.0.1",
-      "description": "Occupancy Sensor device for bodhi node red",
-      "updated_at": "2023-07-31T15:23:06.873Z",
-      "types": [
-        "Occupancy Sensor"
-      ],
-      "keywords": [
-        "node-red",
-        "device",
-        "bodhi",
-        "occupancy",
-        "sensor"
-      ],
-      "url": "https://flows.nodered.org/node/@softwaredevelopment/node-red-contrib-bodhi-device-occupancy-sensor"
-    },
-    {
-      "id": "@softwaredevelopment/node-red-contrib-bodhi-device-privacy",
-      "version": "0.0.1",
-      "description": "privacy device for bodhi node red",
-      "updated_at": "2023-07-31T15:19:59.376Z",
-      "types": [
-        "Privacy Mode"
-      ],
-      "keywords": [
-        "node-red",
-        "device",
-        "bodhi",
-        "privacy",
-        "mode"
-      ],
-      "url": "https://flows.nodered.org/node/@softwaredevelopment/node-red-contrib-bodhi-device-privacy"
     },
     {
       "id": "node-red-contrib-tak",
@@ -5118,40 +5326,6 @@
       "url": "https://flows.nodered.org/node/node-red-contrib-bosch-shc"
     },
     {
-      "id": "@softwaredevelopment/node-red-contrib-bodhi-device-meter",
-      "version": "0.0.1",
-      "description": "Meter device for bodhi node red",
-      "updated_at": "2023-07-28T20:27:08.901Z",
-      "types": [
-        "Meter"
-      ],
-      "keywords": [
-        "node-red",
-        "device",
-        "bodhi",
-        "meter"
-      ],
-      "url": "https://flows.nodered.org/node/@softwaredevelopment/node-red-contrib-bodhi-device-meter"
-    },
-    {
-      "id": "@softwaredevelopment/node-red-contrib-bodhi-device-generator-power-sensor",
-      "version": "0.0.1",
-      "description": "Generator Power Sensor device for bodhi node red",
-      "updated_at": "2023-07-28T15:23:14.133Z",
-      "types": [
-        "Generator Power Sensor"
-      ],
-      "keywords": [
-        "node-red",
-        "device",
-        "bodhi",
-        "generator",
-        "power",
-        "sensor"
-      ],
-      "url": "https://flows.nodered.org/node/@softwaredevelopment/node-red-contrib-bodhi-device-generator-power-sensor"
-    },
-    {
       "id": "@tbowmo/node-red-small-timer",
       "version": "0.8.0",
       "description": "Small timer node for node red with support for sunrise, sunset etc. timers",
@@ -5169,40 +5343,6 @@
         "dusk"
       ],
       "url": "https://flows.nodered.org/node/@tbowmo/node-red-small-timer"
-    },
-    {
-      "id": "@softwaredevelopment/node-red-contrib-bodhi-device-smoke-detector",
-      "version": "0.0.3",
-      "description": "Smoke Detector device for bodhi node red",
-      "updated_at": "2023-07-27T18:52:48.087Z",
-      "types": [
-        "Smoke Detector"
-      ],
-      "keywords": [
-        "node-red",
-        "device",
-        "bodhi",
-        "smoke",
-        "detector"
-      ],
-      "url": "https://flows.nodered.org/node/@softwaredevelopment/node-red-contrib-bodhi-device-smoke-detector"
-    },
-    {
-      "id": "@softwaredevelopment/node-red-contrib-bodhi-device-window-sensor",
-      "version": "0.0.3",
-      "description": "Window Sensor device for bodhi node red",
-      "updated_at": "2023-07-27T16:35:43.945Z",
-      "types": [
-        "Window Sensor"
-      ],
-      "keywords": [
-        "node-red",
-        "device",
-        "bodhi",
-        "window",
-        "sensor"
-      ],
-      "url": "https://flows.nodered.org/node/@softwaredevelopment/node-red-contrib-bodhi-device-window-sensor"
     },
     {
       "id": "node-red-contrib-airship-fourth",
@@ -5491,23 +5631,6 @@
       "url": "https://flows.nodered.org/node/@coremarine/nr-sbf-parser"
     },
     {
-      "id": "@softwaredevelopment/node-red-contrib-bodhi-device-humidity-sensor",
-      "version": "0.0.1",
-      "description": "Humidity Sensor node for bodhi node red",
-      "updated_at": "2023-07-24T20:30:12.055Z",
-      "types": [
-        "Humidity Sensor"
-      ],
-      "keywords": [
-        "node-red",
-        "device",
-        "bodhi",
-        "humidity",
-        "sensor"
-      ],
-      "url": "https://flows.nodered.org/node/@softwaredevelopment/node-red-contrib-bodhi-device-humidity-sensor"
-    },
-    {
       "id": "node-red-contrib-solaredge-power",
       "version": "0.3.4",
       "description": "Node-RED node to interface with SolarEdge solar photovoltaic inverters API",
@@ -5525,23 +5648,6 @@
         "power"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-solaredge-power"
-    },
-    {
-      "id": "@softwaredevelopment/node-red-contrib-bodhi-device-rgb-light",
-      "version": "0.0.1",
-      "description": "RGB light device for bodhi node red",
-      "updated_at": "2023-07-24T17:08:14.943Z",
-      "types": [
-        "RGB Light"
-      ],
-      "keywords": [
-        "node-red",
-        "device",
-        "bodhi",
-        "rgb",
-        "light"
-      ],
-      "url": "https://flows.nodered.org/node/@softwaredevelopment/node-red-contrib-bodhi-device-rgb-light"
     },
     {
       "id": "@buglss/node-red-crontinject",
@@ -5623,26 +5729,10 @@
       "url": "https://flows.nodered.org/node/node-red-contrib-soundweb"
     },
     {
-      "id": "@softwaredevelopment/node-red-contrib-bodhi-device-thermostat",
-      "version": "0.0.1",
-      "description": "Thermostat device for bodhi node red",
-      "updated_at": "2023-07-21T21:16:33.539Z",
-      "types": [
-        "Thermostat"
-      ],
-      "keywords": [
-        "node-red",
-        "device",
-        "bodhi",
-        "thermostat"
-      ],
-      "url": "https://flows.nodered.org/node/@softwaredevelopment/node-red-contrib-bodhi-device-thermostat"
-    },
-    {
       "id": "@softwaredevelopment/node-red-contrib-bodhi-device-water-sensor",
-      "version": "0.0.1",
+      "version": "0.0.3",
       "description": "water sensor node for bodhi",
-      "updated_at": "2023-07-21T12:39:43.808Z",
+      "updated_at": "2023-07-21T15:17:18.918Z",
       "types": [
         "Water Sensor"
       ],
@@ -5667,23 +5757,6 @@
         "BB-400"
       ],
       "url": "https://flows.nodered.org/node/@brainboxes/node-red-contrib-brainboxes"
-    },
-    {
-      "id": "@softwaredevelopment/node-red-contrib-bodhi-device-switch-light",
-      "version": "0.0.3",
-      "description": "Bodhi switch light device for red node",
-      "updated_at": "2023-07-21T10:50:26.824Z",
-      "types": [
-        "Switch Light"
-      ],
-      "keywords": [
-        "node-red",
-        "device",
-        "bodhi",
-        "light",
-        "switch"
-      ],
-      "url": "https://flows.nodered.org/node/@softwaredevelopment/node-red-contrib-bodhi-device-switch-light"
     },
     {
       "id": "node-red-contrib-device-monitor",
@@ -12457,24 +12530,6 @@
         "datacake"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-datacake"
-    },
-    {
-      "id": "@tataille/node-red-french-holidays",
-      "version": "1.1.5",
-      "description": "A simple node-red component for working whith French holidays.",
-      "updated_at": "2023-03-13T22:24:11.961Z",
-      "types": [
-        "french-holidays"
-      ],
-      "keywords": [
-        "node-red",
-        "french-holidays",
-        "holidays",
-        "france",
-        "specialdays",
-        "weekdays"
-      ],
-      "url": "https://flows.nodered.org/node/@tataille/node-red-french-holidays"
     },
     {
       "id": "node-red-contrib-aedes",
