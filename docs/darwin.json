@@ -1,7 +1,250 @@
 {
   "name": "Catalogue for macOS",
-  "updated_at": "2023-09-25T22:06:08.052Z",
+  "updated_at": "2023-09-26T22:46:24.688Z",
   "modules": [
+    {
+      "id": "@gregoriusrippenstein/node-red-contrib-neuralnet-builder",
+      "version": "0.0.7",
+      "description": "Node-RED Nodes for creating Artificial Neural Networks (ANNs) using Node-Red.",
+      "updated_at": "2023-09-26T20:31:10.244Z",
+      "types": [
+        "nnb-input-node",
+        "nnb-layer-node",
+        "nnb-output-node",
+        "nnb-backprop",
+        "nnb-trainer"
+      ],
+      "keywords": [
+        "node-red",
+        "artificial neural networks",
+        "ANN"
+      ],
+      "url": "https://flows.nodered.org/node/@gregoriusrippenstein/node-red-contrib-neuralnet-builder"
+    },
+    {
+      "id": "@gregoriusrippenstein/node-red-contrib-nodedev",
+      "version": "0.0.7",
+      "description": "Support the development of Node-RED nodes within Node-RED.",
+      "updated_at": "2023-09-26T20:17:51.352Z",
+      "types": [
+        "NodeFactory",
+        "PkgFile",
+        "NpmTarBall",
+        "NodeRedInstall",
+        "NpmPublish"
+      ],
+      "keywords": [
+        "node-red",
+        "node development",
+        "introspection",
+        "bootstrapping",
+        "recursion"
+      ],
+      "url": "https://flows.nodered.org/node/@gregoriusrippenstein/node-red-contrib-nodedev"
+    },
+    {
+      "id": "@gregoriusrippenstein/node-red-contrib-flowhub",
+      "version": "0.1.4",
+      "description": "FlowHub interaction nodes.",
+      "updated_at": "2023-09-26T19:30:24.806Z",
+      "types": [
+        "FlowHubPull",
+        "FlowHubPush"
+      ],
+      "keywords": [
+        "node-red",
+        "flowhub"
+      ],
+      "url": "https://flows.nodered.org/node/@gregoriusrippenstein/node-red-contrib-flowhub"
+    },
+    {
+      "id": "node-red-contrib-opcua",
+      "version": "0.2.315",
+      "description": "A Node-RED node to communicate via OPC UA based on node-opcua library.",
+      "updated_at": "2023-09-26T18:31:03.965Z",
+      "types": [
+        "OpcUa-Item",
+        "OpcUa-Client",
+        "OpcUa-Browser",
+        "OpcUa-Server",
+        "OpcUa-Endpoint",
+        "OpcUa-Event",
+        "OpcUa-Method",
+        "OpcUa-Rights",
+        "OpcUa-Discovery"
+      ],
+      "keywords": [
+        "node-red",
+        "OPC UA",
+        "opc-ua",
+        "unified automation",
+        "opc foundation",
+        "node-opcua"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-opcua"
+    },
+    {
+      "id": "ilvo-parse-config-nodered",
+      "version": "0.0.1",
+      "description": "Framework config parse module",
+      "updated_at": "2023-09-26T16:20:18.332Z",
+      "types": [
+        "ilvo-parse-config"
+      ],
+      "keywords": [
+        "redis",
+        "node-red",
+        "node",
+        "ILVO"
+      ],
+      "url": "https://flows.nodered.org/node/ilvo-parse-config-nodered"
+    },
+    {
+      "id": "ilvo-redis-get-nodered",
+      "version": "0.0.1",
+      "description": "Interacts with redis server of ILVO robotics framework",
+      "updated_at": "2023-09-26T16:20:12.097Z",
+      "types": [
+        "ilvo-redis-get"
+      ],
+      "keywords": [
+        "redis",
+        "node-red",
+        "node",
+        "ILVO"
+      ],
+      "url": "https://flows.nodered.org/node/ilvo-redis-get-nodered"
+    },
+    {
+      "id": "node-red-contrib-resend-last-msg",
+      "version": "1.0.6",
+      "description": "Resend last message received",
+      "updated_at": "2023-09-26T12:34:22.665Z",
+      "types": [
+        "resend last"
+      ],
+      "keywords": [
+        "node-red",
+        "resend",
+        "last",
+        "reinject",
+        "repeat",
+        "counter",
+        "count"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-resend-last-msg"
+    },
+    {
+      "id": "node-red-contrib-remote",
+      "version": "1.5.1",
+      "description": "Remote-RED is an ecosystem to bring remote access, push notification and geofencing to Node-RED. There are also additional functions like directly answer on a notification and homescreen widgets.",
+      "updated_at": "2023-09-26T12:09:39.589Z",
+      "types": [
+        "remote-config",
+        "remote-access",
+        "remote-notification",
+        "remote-question"
+      ],
+      "keywords": [
+        "node-red"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-remote"
+    },
+    {
+      "id": "node-red-contrib-superpower-test",
+      "version": "0.1.6",
+      "description": "Node-RED integration with eWeLink Cube",
+      "updated_at": "2023-09-26T11:42:57.386Z",
+      "types": [
+        "api-server",
+        "get-devices",
+        "event-state",
+        "event-online",
+        "control-device",
+        "event-add-device",
+        "event-del-device",
+        "event-device-info",
+        "put-device-state",
+        "register-device"
+      ],
+      "keywords": [
+        "node-red",
+        "ewelink",
+        "ewelink-cube"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-superpower-test"
+    },
+    {
+      "id": "@hexelink/node-red-aries-hw-io",
+      "version": "0.9.5",
+      "description": "EdgeGateway Aries Hardware IO Nodes",
+      "updated_at": "2023-09-26T09:02:31.818Z",
+      "types": [
+        "hw-io-din",
+        "hw-io-dout",
+        "hw-io-ain"
+      ],
+      "keywords": [
+        "node-red"
+      ],
+      "url": "https://flows.nodered.org/node/@hexelink/node-red-aries-hw-io"
+    },
+    {
+      "id": "@ralphwetzel/node-red-mcu-plugin",
+      "version": "1.4.0",
+      "description": "Plugin to integrate Node-RED MCU Edition into the Node-RED Editor",
+      "updated_at": "2023-09-26T08:47:19.531Z",
+      "types": [],
+      "keywords": [
+        "node-red",
+        "node-red-mcu",
+        "Node-RED",
+        "Node-RED MCU Edition",
+        "node-red-mcu-plugin"
+      ],
+      "url": "https://flows.nodered.org/node/@ralphwetzel/node-red-mcu-plugin"
+    },
+    {
+      "id": "node-red-contrib-superpower-test-lyp",
+      "version": "0.1.5",
+      "description": "Node-RED integration with eWeLink Cube",
+      "updated_at": "2023-09-26T07:43:02.619Z",
+      "types": [
+        "api-server",
+        "get-devices",
+        "event-state",
+        "event-online",
+        "control-device",
+        "event-add-device",
+        "event-del-device",
+        "event-device-info",
+        "put-device-state",
+        "register-device"
+      ],
+      "keywords": [
+        "node-red",
+        "ewelink",
+        "ewelink-cube"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-superpower-test-lyp"
+    },
+    {
+      "id": "@softwaredevelopment/node-red-contrib-bodhi-device-television",
+      "version": "0.0.3",
+      "description": "Television device for bodhi node red",
+      "updated_at": "2023-09-25T20:27:57.961Z",
+      "types": [
+        "Television",
+        "Remote Television"
+      ],
+      "keywords": [
+        "node-red",
+        "device",
+        "bodhi",
+        "television"
+      ],
+      "url": "https://flows.nodered.org/node/@softwaredevelopment/node-red-contrib-bodhi-device-television"
+    },
     {
       "id": "node-red-contrib-grohe-sense",
       "version": "0.18.0",
@@ -178,30 +421,6 @@
         "detector"
       ],
       "url": "https://flows.nodered.org/node/@softwaredevelopment/node-red-contrib-bodhi-device-smoke-detector"
-    },
-    {
-      "id": "node-red-contrib-superpower-test",
-      "version": "0.1.1",
-      "description": "Node-RED integration with eWeLink Cube",
-      "updated_at": "2023-09-25T12:59:00.857Z",
-      "types": [
-        "api-server",
-        "get-devices",
-        "event-state",
-        "event-online",
-        "control-device",
-        "event-add-device",
-        "event-del-device",
-        "event-device-info",
-        "put-device-state",
-        "register-device"
-      ],
-      "keywords": [
-        "node-red",
-        "ewelink",
-        "ewelink-cube"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-superpower-test"
     },
     {
       "id": "@softwaredevelopment/node-red-contrib-bodhi-device-rgb-light",
@@ -545,6 +764,23 @@
         "logging"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-logger"
+    },
+    {
+      "id": "node-red-contrib-yr",
+      "version": "0.1.16",
+      "description": "A collection of Node-RED nodes for accessing yr.no weather info and data.",
+      "updated_at": "2023-09-23T16:28:02.358Z",
+      "types": [
+        "yr-config",
+        "weather data",
+        "weather info"
+      ],
+      "keywords": [
+        "node-red",
+        "weather-data",
+        "weather-info"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-yr"
     },
     {
       "id": "node-red-contrib-fastxml",
@@ -1591,25 +1827,6 @@
         "ess"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-eskomsepush"
-    },
-    {
-      "id": "node-red-contrib-resend-last-msg",
-      "version": "1.0.5",
-      "description": "Resend last message received",
-      "updated_at": "2023-09-18T19:42:04.903Z",
-      "types": [
-        "resend last"
-      ],
-      "keywords": [
-        "node-red",
-        "resend",
-        "last",
-        "reinject",
-        "repeat",
-        "counter",
-        "count"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-resend-last-msg"
     },
     {
       "id": "node-red-node-data-generator",
@@ -2684,32 +2901,6 @@
         "node-red"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-simple-whisper"
-    },
-    {
-      "id": "node-red-contrib-opcua",
-      "version": "0.2.314",
-      "description": "A Node-RED node to communicate via OPC UA based on node-opcua library.",
-      "updated_at": "2023-09-07T13:39:10.114Z",
-      "types": [
-        "OpcUa-Item",
-        "OpcUa-Client",
-        "OpcUa-Browser",
-        "OpcUa-Server",
-        "OpcUa-Endpoint",
-        "OpcUa-Event",
-        "OpcUa-Method",
-        "OpcUa-Rights",
-        "OpcUa-Discovery"
-      ],
-      "keywords": [
-        "node-red",
-        "OPC UA",
-        "opc-ua",
-        "unified automation",
-        "opc foundation",
-        "node-opcua"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-opcua"
     },
     {
       "id": "@spectraautomation/node-red-urban-io",
@@ -4167,21 +4358,6 @@
       "url": "https://flows.nodered.org/node/node-red-contrib-myhome-bticino-v2"
     },
     {
-      "id": "@gregoriusrippenstein/node-red-contrib-flowhub",
-      "version": "0.1.3",
-      "description": "Flow interaction nodes.",
-      "updated_at": "2023-08-24T18:58:24.773Z",
-      "types": [
-        "FlowHubPull",
-        "FlowHubPush"
-      ],
-      "keywords": [
-        "node-red",
-        "flowhub"
-      ],
-      "url": "https://flows.nodered.org/node/@gregoriusrippenstein/node-red-contrib-flowhub"
-    },
-    {
       "id": "node-red-contrib-homekit-rgb",
       "version": "2.0.0",
       "description": "Node-RED node to convert HomeKit light Accessory's HSB values to RGB",
@@ -5170,21 +5346,6 @@
       "url": "https://flows.nodered.org/node/node-red-contrib-rcm-connector"
     },
     {
-      "id": "@hexelink/node-red-aries-hw-io",
-      "version": "0.9.2",
-      "description": "EdgeGateway Aries Hardware IO Nodes",
-      "updated_at": "2023-08-02T03:57:30.410Z",
-      "types": [
-        "hw-io-din",
-        "hw-io-dout",
-        "hw-io-ain"
-      ],
-      "keywords": [
-        "node-red"
-      ],
-      "url": "https://flows.nodered.org/node/@hexelink/node-red-aries-hw-io"
-    },
-    {
       "id": "node-red-contrib-google-translate-appflow",
       "version": "0.1.2",
       "description": "Node-RED node for Google Translate",
@@ -5216,22 +5377,6 @@
         "stock-ticker"
       ],
       "url": "https://flows.nodered.org/node/@leipert/node-red-contrib-stock-ticker"
-    },
-    {
-      "id": "@softwaredevelopment/node-red-contrib-bodhi-device-television",
-      "version": "0.0.1",
-      "description": "Television device for bodhi node red",
-      "updated_at": "2023-07-31T21:01:42.622Z",
-      "types": [
-        "Television"
-      ],
-      "keywords": [
-        "node-red",
-        "device",
-        "bodhi",
-        "television"
-      ],
-      "url": "https://flows.nodered.org/node/@softwaredevelopment/node-red-contrib-bodhi-device-television"
     },
     {
       "id": "node-red-contrib-tak",
@@ -7229,22 +7374,6 @@
         "BACnet"
       ],
       "url": "https://flows.nodered.org/node/@bitpoolos/edge-bacnet"
-    },
-    {
-      "id": "node-red-contrib-remote",
-      "version": "1.5.0",
-      "description": "Remote-RED is an ecosystem to bring remote access, push notification and geofencing to Node-RED. There are also additional functions like directly answer on a notification and homescreen widgets.",
-      "updated_at": "2023-06-22T06:22:47.985Z",
-      "types": [
-        "remote-config",
-        "remote-access",
-        "remote-notification",
-        "remote-question"
-      ],
-      "keywords": [
-        "node-red"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-remote"
     },
     {
       "id": "node-red-contrib-feiertage-switzerland",
@@ -9579,21 +9708,6 @@
       "url": "https://flows.nodered.org/node/node-red-contrib-panasonic-comfort-cloud"
     },
     {
-      "id": "@ralphwetzel/node-red-mcu-plugin",
-      "version": "1.3.2",
-      "description": "Plugin to integrate Node-RED MCU Edition into the Node-RED Editor",
-      "updated_at": "2023-05-07T18:47:54.058Z",
-      "types": [],
-      "keywords": [
-        "node-red",
-        "node-red-mcu",
-        "Node-RED",
-        "Node-RED MCU Edition",
-        "node-red-mcu-plugin"
-      ],
-      "url": "https://flows.nodered.org/node/@ralphwetzel/node-red-mcu-plugin"
-    },
-    {
       "id": "@nodecolor/node-red-contrib-azure-iot-hub",
       "version": "0.5.3",
       "description": "Connector to azure on Node-Red",
@@ -9853,23 +9967,6 @@
         "email"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-email"
-    },
-    {
-      "id": "@gregoriusrippenstein/node-red-contrib-neuralnet-builder",
-      "version": "0.0.6",
-      "description": "Node-RED Nodes for creating Artificial Neural Networks (ANNs) using Node-Red.",
-      "updated_at": "2023-05-03T10:15:00.040Z",
-      "types": [
-        "nnb-input-node",
-        "nnb-layer-node",
-        "nnb-output-node",
-        "nnb-backprop",
-        "nnb-trainer"
-      ],
-      "keywords": [
-        "node-red"
-      ],
-      "url": "https://flows.nodered.org/node/@gregoriusrippenstein/node-red-contrib-neuralnet-builder"
     },
     {
       "id": "node-red-contrib-siemens-sentron",
@@ -22983,23 +23080,6 @@
         "node-red"
       ],
       "url": "https://flows.nodered.org/node/@thred/node-red-thred-schema-validator"
-    },
-    {
-      "id": "node-red-contrib-yr",
-      "version": "0.1.15",
-      "description": "A collection of Node-RED nodes for accessing yr.no weather info and data.",
-      "updated_at": "2022-06-21T20:32:36.824Z",
-      "types": [
-        "yr-config",
-        "weather data",
-        "weather info"
-      ],
-      "keywords": [
-        "node-red",
-        "weather-data",
-        "weather-info"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-yr"
     },
     {
       "id": "node-red-contrib-wemo-emulator",
