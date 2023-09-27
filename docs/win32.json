@@ -1,12 +1,307 @@
 {
   "name": "Catalogue for Windows",
-  "updated_at": "2023-09-26T20:51:03.147Z",
+  "updated_at": "2023-09-27T19:57:59.516Z",
   "modules": [
     {
+      "id": "node-red-contrib-snap4city-user",
+      "version": "0.9.49",
+      "description": "Nodes for Snap4city project, targeted to standard user (no developer)",
+      "updated_at": "2023-09-27T16:04:48.323Z",
+      "types": [
+        "service-search-near-marker",
+        "service-search-within-circle",
+        "service-search-within-polygon",
+        "service-search-along-path",
+        "distance-from-coordinates",
+        "point-within-polygon",
+        "routing",
+        "heatmap-picker",
+        "coordinates-to-address",
+        "service-info",
+        "full-text-search-near-marker",
+        "full-text-search-within-circle",
+        "full-text-search-within-polygon",
+        "full-text-search-along-path",
+        "full-text-search-usr",
+        "event-search-near-marker",
+        "event-search-within-circle",
+        "event-search-within-polygon",
+        "event-search-along-path",
+        "event-search-usr",
+        "address-search-near-marker",
+        "geometry-search-near-marker",
+        "address-poi-search-by-text-usr",
+        "address-poi-search-by-text-near-marker",
+        "address-poi-search-by-text-within-circle",
+        "bus-routes-search-near-marker",
+        "bus-routes-search-within-circle",
+        "bus-routes-search-within-polygon",
+        "tpl-agencies",
+        "tpl-lines",
+        "tpl-routes-by-agency",
+        "tpl-routes-by-line",
+        "tpl-stops-by-route",
+        "tpl-stop-timeline",
+        "recommendations-within-circle",
+        "value-type-search-near-marker",
+        "value-type-search-within-circle",
+        "value-type-search-within-polygon",
+        "value-type-search-along-path",
+        "get-access-token",
+        "get-my-data",
+        "get-my-kpidata",
+        "get-delegated-kpidata",
+        "get-public-kpidata",
+        "get-my-kpidata-values",
+        "get-public-kpidata-values",
+        "get-delegated-kpidata-values",
+        "get-my-delegator",
+        "get-my-delegated",
+        "get-my-activity",
+        "delegate-my-kpidata",
+        "get-other-activity-on-my-data",
+        "get-iotapps-using-my-kpidata",
+        "save-my-data",
+        "save-my-kpidata-values",
+        "get-my-annotation",
+        "get-anonymous-data",
+        "get-other-data",
+        "iotdirectory-new-device-from-model",
+        "delegate-my-device",
+        "get-my-devices",
+        "remove-delegation-my-device",
+        "change-visibility-my-device",
+        "get-delegation-my-device",
+        "change-ownership-my-device",
+        "coordinates-from-map",
+        "impulse-button",
+        "numeric-keyboard",
+        "switch-button",
+        "dimmer",
+        "dashboardEvent",
+        "dashboardDevice",
+        "dashboard-geolocator",
+        "dropdown",
+        "dashboardForm",
+        "gauge-chart",
+        "single-content",
+        "speedometer",
+        "bar-content",
+        "column-content",
+        "web-content",
+        "dashboard-time-trend",
+        "bar-series",
+        "radar-series",
+        "pie-chart",
+        "curved-line-series",
+        "table-content",
+        "speak-synthesis",
+        "selector-to-map",
+        "dashboard-map",
+        "event-driven-my-kpi",
+        "synoptic-read",
+        "synoptic-write",
+        "synoptic-subscribe",
+        "sigfox device filter",
+        "sigfox in",
+        "iotdirectory-get-device",
+        "event-log",
+        "orion-service",
+        "fiware orion in",
+        "fiware orion",
+        "orion-test",
+        "fiware-orion-out",
+        "orion-service-api-v2",
+        "orion-subscribe-api-v2",
+        "orion-query-api-v2",
+        "orion-update-api-v2",
+        "orion-out-api-v2",
+        "orion-service-v22",
+        "fiware-orion-in-v22",
+        "fiware-orion-query-v22",
+        "fiware-orion-out-v22",
+        "orion-service-v2",
+        "fiware-orion-in-v2",
+        "fiware-orion-query-v2",
+        "fiware-orion-out-v2",
+        "show-micro-web-app",
+        "show-general-iframe",
+        "twitter-last-channel",
+        "twitter-last-tweet",
+        "snap4city-authentication",
+        "snap4all-button"
+      ],
+      "keywords": [
+        "node-red",
+        "smartcity",
+        "iot"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-snap4city-user"
+    },
+    {
+      "id": "node-red-contrib-knx-ultimate",
+      "version": "2.1.47",
+      "description": "Control your KNX intallation via Node-Red! Single Node KNX IN/OUT with optional ETS group address importer. Easy to use and highly configurable. With integrated Philips HUE devices handling.",
+      "updated_at": "2023-09-27T16:04:33.575Z",
+      "types": [
+        "knxUltimate",
+        "knxUltimateSceneController",
+        "knxUltimateWatchDog",
+        "knxUltimateLogger",
+        "knxUltimate-config",
+        "knxUltimateGlobalContext",
+        "knxUltimateAlerter",
+        "knxUltimateLoadControl",
+        "knxUltimateViewer",
+        "hue-config",
+        "knxUltimateHueLight",
+        "knxUltimateHueButton",
+        "knxUltimateHueMotion",
+        "knxUltimateHueTapDial",
+        "knxUltimateHueLightSensor",
+        "knxUltimateHueTemperatureSensor",
+        "knxUltimateHueScene",
+        "knxUltimateHueBattery"
+      ],
+      "keywords": [
+        "node-red",
+        "KNX",
+        "ETS",
+        "eib",
+        "eibd",
+        "knxd",
+        "konnex",
+        "IOT",
+        "hue"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-knx-ultimate"
+    },
+    {
+      "id": "node-red-contrib-ewelink-cube-lyp",
+      "version": "1.0.2",
+      "description": "Node-RED integration with eWeLink Cube",
+      "updated_at": "2023-09-27T13:49:43.423Z",
+      "types": [
+        "api-server",
+        "get-devices",
+        "event-state",
+        "event-online",
+        "control-device",
+        "event-add-device",
+        "event-del-device",
+        "event-device-info",
+        "put-device-state",
+        "register-device"
+      ],
+      "keywords": [
+        "node-red",
+        "ewelink",
+        "ewelink-cube"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-ewelink-cube-lyp"
+    },
+    {
+      "id": "node-red-contrib-superpower-test",
+      "version": "0.2.1",
+      "description": "Node-RED integration with eWeLink Cube",
+      "updated_at": "2023-09-27T09:33:59.755Z",
+      "types": [
+        "api-server",
+        "get-devices",
+        "event-state",
+        "event-online",
+        "control-device",
+        "event-add-device",
+        "event-del-device",
+        "event-device-info",
+        "put-device-state",
+        "register-device"
+      ],
+      "keywords": [
+        "node-red",
+        "ewelink",
+        "ewelink-cube"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-superpower-test"
+    },
+    {
+      "id": "node-red-vue-node",
+      "version": "1.0.7",
+      "description": "vue node",
+      "updated_at": "2023-09-27T08:49:42.815Z",
+      "types": [
+        "vue-node"
+      ],
+      "keywords": [
+        "node-red",
+        "vue"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-vue-node"
+    },
+    {
+      "id": "@gregoriusrippenstein/node-red-contrib-flowhub",
+      "version": "0.1.6",
+      "description": "FlowHub interaction nodes.",
+      "updated_at": "2023-09-27T08:12:39.277Z",
+      "types": [
+        "FlowHubPull",
+        "FlowHubPush"
+      ],
+      "keywords": [
+        "node-red",
+        "flowhub"
+      ],
+      "url": "https://flows.nodered.org/node/@gregoriusrippenstein/node-red-contrib-flowhub"
+    },
+    {
+      "id": "node-red-contrib-topsail",
+      "version": "3.0.1",
+      "description": "Interface with Topsail",
+      "updated_at": "2023-09-27T00:24:24.102Z",
+      "types": [
+        "email",
+        "ping",
+        "cbw",
+        "sms",
+        "influx-insert",
+        "influx-query",
+        "camera-capture-image",
+        "camera-capture-video",
+        "bosch-vca",
+        "sftp",
+        "dms-activate",
+        "dms-status"
+      ],
+      "keywords": [
+        "node-red",
+        "topsail"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-topsail"
+    },
+    {
+      "id": "@gregoriusrippenstein/node-red-contrib-neuralnet-builder",
+      "version": "0.0.7",
+      "description": "Node-RED Nodes for creating Artificial Neural Networks (ANNs) using Node-Red.",
+      "updated_at": "2023-09-26T20:31:10.244Z",
+      "types": [
+        "nnb-input-node",
+        "nnb-layer-node",
+        "nnb-output-node",
+        "nnb-backprop",
+        "nnb-trainer"
+      ],
+      "keywords": [
+        "node-red",
+        "artificial neural networks",
+        "ANN"
+      ],
+      "url": "https://flows.nodered.org/node/@gregoriusrippenstein/node-red-contrib-neuralnet-builder"
+    },
+    {
       "id": "@gregoriusrippenstein/node-red-contrib-nodedev",
-      "version": "0.0.6",
+      "version": "0.0.7",
       "description": "Support the development of Node-RED nodes within Node-RED.",
-      "updated_at": "2023-09-26T15:31:39.467Z",
+      "updated_at": "2023-09-26T20:17:51.352Z",
       "types": [
         "NodeFactory",
         "PkgFile",
@@ -22,6 +317,64 @@
         "recursion"
       ],
       "url": "https://flows.nodered.org/node/@gregoriusrippenstein/node-red-contrib-nodedev"
+    },
+    {
+      "id": "node-red-contrib-opcua",
+      "version": "0.2.315",
+      "description": "A Node-RED node to communicate via OPC UA based on node-opcua library.",
+      "updated_at": "2023-09-26T18:31:03.965Z",
+      "types": [
+        "OpcUa-Item",
+        "OpcUa-Client",
+        "OpcUa-Browser",
+        "OpcUa-Server",
+        "OpcUa-Endpoint",
+        "OpcUa-Event",
+        "OpcUa-Method",
+        "OpcUa-Rights",
+        "OpcUa-Discovery"
+      ],
+      "keywords": [
+        "node-red",
+        "OPC UA",
+        "opc-ua",
+        "unified automation",
+        "opc foundation",
+        "node-opcua"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-opcua"
+    },
+    {
+      "id": "ilvo-parse-config-nodered",
+      "version": "0.0.1",
+      "description": "Framework config parse module",
+      "updated_at": "2023-09-26T16:20:18.332Z",
+      "types": [
+        "ilvo-parse-config"
+      ],
+      "keywords": [
+        "redis",
+        "node-red",
+        "node",
+        "ILVO"
+      ],
+      "url": "https://flows.nodered.org/node/ilvo-parse-config-nodered"
+    },
+    {
+      "id": "ilvo-redis-get-nodered",
+      "version": "0.0.1",
+      "description": "Interacts with redis server of ILVO robotics framework",
+      "updated_at": "2023-09-26T16:20:12.097Z",
+      "types": [
+        "ilvo-redis-get"
+      ],
+      "keywords": [
+        "redis",
+        "node-red",
+        "node",
+        "ILVO"
+      ],
+      "url": "https://flows.nodered.org/node/ilvo-redis-get-nodered"
     },
     {
       "id": "node-red-contrib-resend-last-msg",
@@ -57,30 +410,6 @@
         "node-red"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-remote"
-    },
-    {
-      "id": "node-red-contrib-superpower-test",
-      "version": "0.1.6",
-      "description": "Node-RED integration with eWeLink Cube",
-      "updated_at": "2023-09-26T11:42:57.386Z",
-      "types": [
-        "api-server",
-        "get-devices",
-        "event-state",
-        "event-online",
-        "control-device",
-        "event-add-device",
-        "event-del-device",
-        "event-device-info",
-        "put-device-state",
-        "register-device"
-      ],
-      "keywords": [
-        "node-red",
-        "ewelink",
-        "ewelink-cube"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-superpower-test"
     },
     {
       "id": "@hexelink/node-red-aries-hw-io",
@@ -497,20 +826,6 @@
         "sensor"
       ],
       "url": "https://flows.nodered.org/node/@softwaredevelopment/node-red-contrib-bodhi-device-outlet"
-    },
-    {
-      "id": "node-red-vue-node",
-      "version": "1.0.6",
-      "description": "vue node",
-      "updated_at": "2023-09-25T08:36:07.794Z",
-      "types": [
-        "vue-node"
-      ],
-      "keywords": [
-        "node-red",
-        "vue"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-vue-node"
     },
     {
       "id": "@softwaredevelopment/node-red-contrib-bodhi-device-occupancy-sensor",
@@ -1152,6 +1467,28 @@
       "url": "https://flows.nodered.org/node/node-red-notion"
     },
     {
+      "id": "@hexa-ai/node-red-contrib-hexa-ai",
+      "version": "1.1.0",
+      "description": "A set of nodes for working with variables (reading, writing, history, alarm).",
+      "updated_at": "2023-09-22T08:06:20.016Z",
+      "types": [
+        "warp10",
+        "read-variable",
+        "on-alarm",
+        "write-variable",
+        "history-warp10"
+      ],
+      "keywords": [
+        "node-red",
+        "warp10",
+        "hexa-ai",
+        "variables",
+        "history",
+        "alarm"
+      ],
+      "url": "https://flows.nodered.org/node/@hexa-ai/node-red-contrib-hexa-ai"
+    },
+    {
       "id": "node-red-contrib-rollun-aws-sp-api",
       "version": "1.0.1",
       "description": "Node-RED nodes to access AWS Selling Partner API",
@@ -1334,140 +1671,6 @@
         "rac-wf"
       ],
       "url": "https://flows.nodered.org/node/@programie/node-red-aircon-rac-wf"
-    },
-    {
-      "id": "node-red-contrib-snap4city-user",
-      "version": "0.9.47",
-      "description": "Nodes for Snap4city project, targeted to standard user (no developer)",
-      "updated_at": "2023-09-20T14:03:29.281Z",
-      "types": [
-        "service-search-near-marker",
-        "service-search-within-circle",
-        "service-search-within-polygon",
-        "service-search-along-path",
-        "distance-from-coordinates",
-        "point-within-polygon",
-        "routing",
-        "heatmap-picker",
-        "coordinates-to-address",
-        "service-info",
-        "full-text-search-near-marker",
-        "full-text-search-within-circle",
-        "full-text-search-within-polygon",
-        "full-text-search-along-path",
-        "full-text-search-usr",
-        "event-search-near-marker",
-        "event-search-within-circle",
-        "event-search-within-polygon",
-        "event-search-along-path",
-        "event-search-usr",
-        "address-search-near-marker",
-        "geometry-search-near-marker",
-        "address-poi-search-by-text-usr",
-        "address-poi-search-by-text-near-marker",
-        "address-poi-search-by-text-within-circle",
-        "bus-routes-search-near-marker",
-        "bus-routes-search-within-circle",
-        "bus-routes-search-within-polygon",
-        "tpl-agencies",
-        "tpl-lines",
-        "tpl-routes-by-agency",
-        "tpl-routes-by-line",
-        "tpl-stops-by-route",
-        "tpl-stop-timeline",
-        "recommendations-within-circle",
-        "value-type-search-near-marker",
-        "value-type-search-within-circle",
-        "value-type-search-within-polygon",
-        "value-type-search-along-path",
-        "get-access-token",
-        "get-my-data",
-        "get-my-kpidata",
-        "get-delegated-kpidata",
-        "get-public-kpidata",
-        "get-my-kpidata-values",
-        "get-public-kpidata-values",
-        "get-delegated-kpidata-values",
-        "get-my-delegator",
-        "get-my-delegated",
-        "get-my-activity",
-        "delegate-my-kpidata",
-        "get-other-activity-on-my-data",
-        "get-iotapps-using-my-kpidata",
-        "save-my-data",
-        "save-my-kpidata-values",
-        "get-my-annotation",
-        "get-anonymous-data",
-        "get-other-data",
-        "iotdirectory-new-device-from-model",
-        "delegate-my-device",
-        "get-my-devices",
-        "change-visibility-my-device",
-        "change-ownership-my-device",
-        "coordinates-from-map",
-        "impulse-button",
-        "numeric-keyboard",
-        "switch-button",
-        "dimmer",
-        "dashboardEvent",
-        "dashboardDevice",
-        "dashboard-geolocator",
-        "dropdown",
-        "dashboardForm",
-        "gauge-chart",
-        "single-content",
-        "speedometer",
-        "bar-content",
-        "column-content",
-        "web-content",
-        "dashboard-time-trend",
-        "bar-series",
-        "radar-series",
-        "pie-chart",
-        "curved-line-series",
-        "table-content",
-        "speak-synthesis",
-        "selector-to-map",
-        "dashboard-map",
-        "event-driven-my-kpi",
-        "synoptic-read",
-        "synoptic-write",
-        "synoptic-subscribe",
-        "sigfox device filter",
-        "sigfox in",
-        "iotdirectory-get-device",
-        "event-log",
-        "orion-service",
-        "fiware orion in",
-        "fiware orion",
-        "orion-test",
-        "fiware-orion-out",
-        "orion-service-api-v2",
-        "orion-subscribe-api-v2",
-        "orion-query-api-v2",
-        "orion-update-api-v2",
-        "orion-out-api-v2",
-        "orion-service-v22",
-        "fiware-orion-in-v22",
-        "fiware-orion-query-v22",
-        "fiware-orion-out-v22",
-        "orion-service-v2",
-        "fiware-orion-in-v2",
-        "fiware-orion-query-v2",
-        "fiware-orion-out-v2",
-        "show-micro-web-app",
-        "show-general-iframe",
-        "twitter-last-channel",
-        "twitter-last-tweet",
-        "snap4city-authentication",
-        "snap4all-button"
-      ],
-      "keywords": [
-        "node-red",
-        "smartcity",
-        "iot"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-snap4city-user"
     },
     {
       "id": "@appmodule/node-red-contrib-siot",
@@ -2138,28 +2341,6 @@
       "url": "https://flows.nodered.org/node/node-red-contrib-postgresql"
     },
     {
-      "id": "@hexa-ai/node-red-contrib-hexa-ai",
-      "version": "1.0.0",
-      "description": "A set of nodes for working with variables (reading, writing, history, alarm).",
-      "updated_at": "2023-09-14T09:52:28.607Z",
-      "types": [
-        "warp10",
-        "read-variable",
-        "on-alarm",
-        "write-variable",
-        "history-warp10"
-      ],
-      "keywords": [
-        "node-red",
-        "warp10",
-        "hexa-ai",
-        "variables",
-        "history",
-        "alarm"
-      ],
-      "url": "https://flows.nodered.org/node/@hexa-ai/node-red-contrib-hexa-ai"
-    },
-    {
       "id": "atomic-informix",
       "version": "0.0.1",
       "description": "Informix database module for Brobridge Atomic",
@@ -2809,32 +2990,6 @@
         "node-red"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-simple-whisper"
-    },
-    {
-      "id": "node-red-contrib-opcua",
-      "version": "0.2.314",
-      "description": "A Node-RED node to communicate via OPC UA based on node-opcua library.",
-      "updated_at": "2023-09-07T13:39:10.114Z",
-      "types": [
-        "OpcUa-Item",
-        "OpcUa-Client",
-        "OpcUa-Browser",
-        "OpcUa-Server",
-        "OpcUa-Endpoint",
-        "OpcUa-Event",
-        "OpcUa-Method",
-        "OpcUa-Rights",
-        "OpcUa-Discovery"
-      ],
-      "keywords": [
-        "node-red",
-        "OPC UA",
-        "opc-ua",
-        "unified automation",
-        "opc foundation",
-        "node-opcua"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-opcua"
     },
     {
       "id": "@spectraautomation/node-red-urban-io",
@@ -3586,44 +3741,6 @@
       "url": "https://flows.nodered.org/node/@racksync/node-red-contrib-low-pass-filter"
     },
     {
-      "id": "node-red-contrib-knx-ultimate",
-      "version": "2.1.46",
-      "description": "Control your KNX intallation via Node-Red! Single Node KNX IN/OUT with optional ETS group address importer. Easy to use and highly configurable. With integrated Philips HUE devices handling.",
-      "updated_at": "2023-09-02T09:31:19.322Z",
-      "types": [
-        "knxUltimate",
-        "knxUltimateSceneController",
-        "knxUltimateWatchDog",
-        "knxUltimateLogger",
-        "knxUltimate-config",
-        "knxUltimateGlobalContext",
-        "knxUltimateAlerter",
-        "knxUltimateLoadControl",
-        "knxUltimateViewer",
-        "hue-config",
-        "knxUltimateHueLight",
-        "knxUltimateHueButton",
-        "knxUltimateHueMotion",
-        "knxUltimateHueTapDial",
-        "knxUltimateHueLightSensor",
-        "knxUltimateHueTemperatureSensor",
-        "knxUltimateHueScene",
-        "knxUltimateHueBattery"
-      ],
-      "keywords": [
-        "node-red",
-        "KNX",
-        "ETS",
-        "eib",
-        "eibd",
-        "knxd",
-        "konnex",
-        "IOT",
-        "hue"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-knx-ultimate"
-    },
-    {
       "id": "node-red-contrib-home-assistant-websocket",
       "version": "0.56.1",
       "description": "Node-RED integration with Home Assistant through websocket and REST API",
@@ -3657,21 +3774,6 @@
         "hmi"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-ui-svg"
-    },
-    {
-      "id": "node-red-contrib-topsail",
-      "version": "3.0.0",
-      "description": "Interface with Topsail",
-      "updated_at": "2023-09-01T13:48:31.871Z",
-      "types": [
-        "email-send",
-        "ping"
-      ],
-      "keywords": [
-        "node-red",
-        "topsail"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-topsail"
     },
     {
       "id": "node-red-contrib-web-worldmap",
@@ -4272,21 +4374,6 @@
         "SCS"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-myhome-bticino-v2"
-    },
-    {
-      "id": "@gregoriusrippenstein/node-red-contrib-flowhub",
-      "version": "0.1.3",
-      "description": "Flow interaction nodes.",
-      "updated_at": "2023-08-24T18:58:24.773Z",
-      "types": [
-        "FlowHubPull",
-        "FlowHubPush"
-      ],
-      "keywords": [
-        "node-red",
-        "flowhub"
-      ],
-      "url": "https://flows.nodered.org/node/@gregoriusrippenstein/node-red-contrib-flowhub"
     },
     {
       "id": "node-red-contrib-homekit-rgb",
@@ -9836,23 +9923,6 @@
         "email"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-email"
-    },
-    {
-      "id": "@gregoriusrippenstein/node-red-contrib-neuralnet-builder",
-      "version": "0.0.6",
-      "description": "Node-RED Nodes for creating Artificial Neural Networks (ANNs) using Node-Red.",
-      "updated_at": "2023-05-03T10:15:00.040Z",
-      "types": [
-        "nnb-input-node",
-        "nnb-layer-node",
-        "nnb-output-node",
-        "nnb-backprop",
-        "nnb-trainer"
-      ],
-      "keywords": [
-        "node-red"
-      ],
-      "url": "https://flows.nodered.org/node/@gregoriusrippenstein/node-red-contrib-neuralnet-builder"
     },
     {
       "id": "node-red-contrib-siemens-sentron",
