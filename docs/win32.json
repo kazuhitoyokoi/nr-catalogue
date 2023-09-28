@@ -1,7 +1,198 @@
 {
   "name": "Catalogue for Windows",
-  "updated_at": "2023-09-27T19:57:59.516Z",
+  "updated_at": "2023-09-28T20:37:29.502Z",
   "modules": [
+    {
+      "id": "@gregoriusrippenstein/node-red-contrib-nodedev",
+      "version": "0.0.8",
+      "description": "Support the development of Node-RED nodes within Node-RED.",
+      "updated_at": "2023-09-28T10:08:10.669Z",
+      "types": [
+        "NodeFactory",
+        "PkgFile",
+        "NpmTarBall",
+        "NodeRedInstall",
+        "NpmPublish"
+      ],
+      "keywords": [
+        "node-red",
+        "node development",
+        "introspection",
+        "bootstrapping",
+        "recursion"
+      ],
+      "url": "https://flows.nodered.org/node/@gregoriusrippenstein/node-red-contrib-nodedev"
+    },
+    {
+      "id": "node-red-vue-node",
+      "version": "1.0.8",
+      "description": "vue node",
+      "updated_at": "2023-09-28T10:04:27.361Z",
+      "types": [
+        "vue-node"
+      ],
+      "keywords": [
+        "node-red",
+        "vue"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-vue-node"
+    },
+    {
+      "id": "@gregoriusrippenstein/node-red-contrib-flowhub",
+      "version": "0.1.8",
+      "description": "FlowHub interaction nodes.",
+      "updated_at": "2023-09-28T08:47:41.922Z",
+      "types": [
+        "FlowHubPull",
+        "FlowHubPush"
+      ],
+      "keywords": [
+        "node-red",
+        "flowhub"
+      ],
+      "url": "https://flows.nodered.org/node/@gregoriusrippenstein/node-red-contrib-flowhub"
+    },
+    {
+      "id": "node-red-contrib-ewelink-cube",
+      "version": "1.1.0",
+      "description": "Node-RED integration with eWeLink Cube",
+      "updated_at": "2023-09-28T08:36:26.046Z",
+      "types": [
+        "api-server",
+        "get-devices",
+        "event-state",
+        "event-online",
+        "control-device",
+        "event-add-device",
+        "event-del-device",
+        "event-device-info",
+        "put-device-state",
+        "register-device"
+      ],
+      "keywords": [
+        "node-red",
+        "ewelink",
+        "ewelink-cube"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-ewelink-cube"
+    },
+    {
+      "id": "atomic-jetstream",
+      "version": "0.0.16",
+      "description": "NATS JetStream module for Brobridge Atomic",
+      "updated_at": "2023-09-28T08:19:18.237Z",
+      "types": [
+        "NATS JetStream Consumer",
+        "NATS JetStream Publish",
+        "NATS JetStream Server",
+        "NATS JetStream Acknowledge",
+        "NATS JetStream Stream"
+      ],
+      "keywords": [
+        "jetstream",
+        "node-red",
+        "atomic"
+      ],
+      "url": "https://flows.nodered.org/node/atomic-jetstream"
+    },
+    {
+      "id": "@good-i-deer/node-red-contrib-vision-ai",
+      "version": "1.0.3",
+      "description": "Facial Recognize Nodes With AI for Node-RED",
+      "updated_at": "2023-09-28T05:02:55.781Z",
+      "types": [
+        "good-object-detection",
+        "good-face-detection",
+        "webcam-object-detection",
+        "chroma-db",
+        "face-vectorization",
+        "calculate-cosine"
+      ],
+      "keywords": [
+        "node-red",
+        "FaceNet",
+        "face detection",
+        "yolo",
+        "onnx",
+        "object detection",
+        "webcam",
+        "vector",
+        "database",
+        "chromadb",
+        "embedding",
+        "cosine",
+        "similarity",
+        "distance"
+      ],
+      "url": "https://flows.nodered.org/node/@good-i-deer/node-red-contrib-vision-ai"
+    },
+    {
+      "id": "@gbl-sasm-alert/node-red-contrib-moduleflows",
+      "version": "1.0.1",
+      "description": "Flow Modularization Nodes for Node-RED",
+      "updated_at": "2023-09-28T03:03:13.430Z",
+      "types": [
+        "moduleflows",
+        "moduleflows_in",
+        "moduleflows_out",
+        "__errors__",
+        "submoduleflows",
+        "__errors__"
+      ],
+      "keywords": [
+        "node-red",
+        "modularization",
+        "submodule",
+        "module",
+        "customization",
+        "module manage",
+        "configurable"
+      ],
+      "url": "https://flows.nodered.org/node/@gbl-sasm-alert/node-red-contrib-moduleflows"
+    },
+    {
+      "id": "node-red-node-telegrambot",
+      "version": "0.0.2",
+      "description": "Telegram userbot nodes for Node-RED",
+      "updated_at": "2023-09-27T20:03:18.394Z",
+      "types": [
+        "telegram userbot config",
+        "telegram userbot receiver"
+      ],
+      "keywords": [
+        "node-red",
+        "telegram",
+        "bot",
+        "userbot",
+        "selfbot"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-node-telegrambot"
+    },
+    {
+      "id": "node-red-contrib-topsail",
+      "version": "3.0.2",
+      "description": "Interface with Topsail",
+      "updated_at": "2023-09-27T20:00:37.536Z",
+      "types": [
+        "email",
+        "ping",
+        "cbw",
+        "sms",
+        "influx-insert",
+        "influx-query",
+        "camera-capture-image",
+        "camera-capture-video",
+        "bosch-vca",
+        "sftp",
+        "dms-activate",
+        "dms-status"
+      ],
+      "keywords": [
+        "node-red",
+        "topsail"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-topsail"
+    },
     {
       "id": "node-red-contrib-snap4city-user",
       "version": "0.9.49",
@@ -177,30 +368,6 @@
       "url": "https://flows.nodered.org/node/node-red-contrib-knx-ultimate"
     },
     {
-      "id": "node-red-contrib-ewelink-cube-lyp",
-      "version": "1.0.2",
-      "description": "Node-RED integration with eWeLink Cube",
-      "updated_at": "2023-09-27T13:49:43.423Z",
-      "types": [
-        "api-server",
-        "get-devices",
-        "event-state",
-        "event-online",
-        "control-device",
-        "event-add-device",
-        "event-del-device",
-        "event-device-info",
-        "put-device-state",
-        "register-device"
-      ],
-      "keywords": [
-        "node-red",
-        "ewelink",
-        "ewelink-cube"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-ewelink-cube-lyp"
-    },
-    {
       "id": "node-red-contrib-superpower-test",
       "version": "0.2.1",
       "description": "Node-RED integration with eWeLink Cube",
@@ -225,58 +392,21 @@
       "url": "https://flows.nodered.org/node/node-red-contrib-superpower-test"
     },
     {
-      "id": "node-red-vue-node",
-      "version": "1.0.7",
-      "description": "vue node",
-      "updated_at": "2023-09-27T08:49:42.815Z",
+      "id": "@chvdapi/node-red-pn4800-1602lcd",
+      "version": "0.0.1",
+      "description": "drive PCF8574 1602 LCD on PN4800",
+      "updated_at": "2023-09-27T08:40:49.877Z",
       "types": [
-        "vue-node"
+        "PN4800_1602LCD"
       ],
       "keywords": [
         "node-red",
-        "vue"
+        "PN4800",
+        "PCF8574",
+        "LCD",
+        "I2C"
       ],
-      "url": "https://flows.nodered.org/node/node-red-vue-node"
-    },
-    {
-      "id": "@gregoriusrippenstein/node-red-contrib-flowhub",
-      "version": "0.1.6",
-      "description": "FlowHub interaction nodes.",
-      "updated_at": "2023-09-27T08:12:39.277Z",
-      "types": [
-        "FlowHubPull",
-        "FlowHubPush"
-      ],
-      "keywords": [
-        "node-red",
-        "flowhub"
-      ],
-      "url": "https://flows.nodered.org/node/@gregoriusrippenstein/node-red-contrib-flowhub"
-    },
-    {
-      "id": "node-red-contrib-topsail",
-      "version": "3.0.1",
-      "description": "Interface with Topsail",
-      "updated_at": "2023-09-27T00:24:24.102Z",
-      "types": [
-        "email",
-        "ping",
-        "cbw",
-        "sms",
-        "influx-insert",
-        "influx-query",
-        "camera-capture-image",
-        "camera-capture-video",
-        "bosch-vca",
-        "sftp",
-        "dms-activate",
-        "dms-status"
-      ],
-      "keywords": [
-        "node-red",
-        "topsail"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-topsail"
+      "url": "https://flows.nodered.org/node/@chvdapi/node-red-pn4800-1602lcd"
     },
     {
       "id": "@gregoriusrippenstein/node-red-contrib-neuralnet-builder",
@@ -296,27 +426,6 @@
         "ANN"
       ],
       "url": "https://flows.nodered.org/node/@gregoriusrippenstein/node-red-contrib-neuralnet-builder"
-    },
-    {
-      "id": "@gregoriusrippenstein/node-red-contrib-nodedev",
-      "version": "0.0.7",
-      "description": "Support the development of Node-RED nodes within Node-RED.",
-      "updated_at": "2023-09-26T20:17:51.352Z",
-      "types": [
-        "NodeFactory",
-        "PkgFile",
-        "NpmTarBall",
-        "NodeRedInstall",
-        "NpmPublish"
-      ],
-      "keywords": [
-        "node-red",
-        "node development",
-        "introspection",
-        "bootstrapping",
-        "recursion"
-      ],
-      "url": "https://flows.nodered.org/node/@gregoriusrippenstein/node-red-contrib-nodedev"
     },
     {
       "id": "node-red-contrib-opcua",
@@ -12792,30 +12901,6 @@
       "url": "https://flows.nodered.org/node/@equans/smart-buildings-manual-heating-override"
     },
     {
-      "id": "node-red-contrib-ewelink-cube",
-      "version": "1.0.0",
-      "description": "Node-RED integration with eWeLink Cube",
-      "updated_at": "2023-03-07T10:41:54.453Z",
-      "types": [
-        "api-server",
-        "get-devices",
-        "event-state",
-        "event-online",
-        "control-device",
-        "event-add-device",
-        "event-del-device",
-        "event-device-info",
-        "put-device-state",
-        "register-device"
-      ],
-      "keywords": [
-        "node-red",
-        "ewelink",
-        "ewelink-cube"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-ewelink-cube"
-    },
-    {
       "id": "node-red-contrib-tcube",
       "version": "0.0.12",
       "description": "Node-RED integration with eWeLink Cube",
@@ -18879,25 +18964,6 @@
         "intents"
       ],
       "url": "https://flows.nodered.org/node/ttb-node-intents"
-    },
-    {
-      "id": "atomic-jetstream",
-      "version": "0.0.15",
-      "description": "NATS JetStream module for Brobridge Atomic",
-      "updated_at": "2022-10-22T14:23:56.083Z",
-      "types": [
-        "NATS JetStream Consumer",
-        "NATS JetStream Publish",
-        "NATS JetStream Server",
-        "NATS JetStream Acknowledge",
-        "NATS JetStream Stream"
-      ],
-      "keywords": [
-        "jetstream",
-        "node-red",
-        "atomic"
-      ],
-      "url": "https://flows.nodered.org/node/atomic-jetstream"
     },
     {
       "id": "@arcsoft/node-red-sshtools",
