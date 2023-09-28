@@ -1,0 +1,59 @@
+#0 building with "default" instance using docker driver
+
+#1 [internal] load .dockerignore
+#1 transferring context: 2B done
+#1 DONE 0.0s
+
+#2 [internal] load build definition from Dockerfile
+#2 transferring dockerfile: 125B done
+#2 DONE 0.0s
+
+#3 [internal] load metadata for docker.io/nodered/node-red:latest
+#3 DONE 0.1s
+
+#4 [1/2] FROM docker.io/nodered/node-red@sha256:5e99ed734f7d2f9bfcb1e20dfbf4c5b9aa60f35a9df6e257e817130f0f9be9dc
+#4 CACHED
+
+#5 [2/2] RUN npm install npm install node-red-contrib-snap4city-user@0.9.49
+#5 4.505 npm WARN EBADENGINE Unsupported engine {
+#5 4.506 npm WARN EBADENGINE   package: 'npm@10.1.0',
+#5 4.506 npm WARN EBADENGINE   required: { node: '^18.17.0 || >=20.5.0' },
+#5 4.506 npm WARN EBADENGINE   current: { node: 'v16.20.2', npm: '8.19.4' }
+#5 4.506 npm WARN EBADENGINE }
+#5 7.460 npm WARN deprecated har-validator@5.1.5: this library is no longer supported
+#5 7.632 npm WARN deprecated date-format@3.0.0: 3.x is no longer supported. Please upgrade to 4.x or higher.
+#5 7.638 npm WARN deprecated httpclient@0.1.0: Use standard fetch API instead
+#5 7.702 npm WARN deprecated date-format@2.1.0: 2.x is no longer supported. Please upgrade to 4.x or higher.
+#5 7.737 npm WARN deprecated node-uuid@1.4.8: Use uuid module instead
+#5 7.755 npm WARN deprecated streamroller@2.2.4: 2.x is no longer supported. Please upgrade to 3.x or higher.
+#5 7.762 npm WARN deprecated uuid@3.4.0: Please upgrade  to version 7 or higher.  Older versions may use Math.random() in certain circumstances, which is known to be problematic.  See https://v8.dev/blog/math-random for details.
+#5 7.770 npm WARN deprecated request@2.88.2: request has been deprecated, see https://github.com/request/request/issues/3142
+#5 7.899 npm WARN deprecated google-protobuf@4.0.0-rc.2: 4.0.0 RC releases have been superseded by 3.13.0 release
+#5 8.080 npm WARN deprecated mysqlx@1.1.8: The official MySQL Connector for NodeJS has already been written in TypeScript for a while now, so this wrapper is not required anymore.
+#5 9.163 
+#5 9.163 added 192 packages, and audited 754 packages in 9s
+#5 9.163 
+#5 9.164 81 packages are looking for funding
+#5 9.164   run `npm fund` for details
+#5 9.170 
+#5 9.170 7 vulnerabilities (4 moderate, 3 critical)
+#5 9.170 
+#5 9.170 Some issues need review, and may require choosing
+#5 9.170 a different dependency.
+#5 9.170 
+#5 9.170 Run `npm audit` for details.
+#5 9.171 npm notice 
+#5 9.171 npm notice New major version of npm available! 8.19.4 -> 10.1.0
+#5 9.171 npm notice Changelog: <https://github.com/npm/cli/releases/tag/v10.1.0>
+#5 9.171 npm notice Run `npm install -g npm@10.1.0` to update!
+#5 9.171 npm notice 
+#5 DONE 9.7s
+
+#6 exporting to image
+#6 exporting layers
+#6 exporting layers 2.0s done
+#6 writing image sha256:67d67bab1e18139289025898f83b91b2197da9b28a996c08554d2df109681836 done
+#6 naming to docker.io/library/tmp done
+#6 DONE 2.0s
+
+----
