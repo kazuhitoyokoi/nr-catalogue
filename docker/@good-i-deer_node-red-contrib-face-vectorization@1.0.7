@@ -1,0 +1,44 @@
+#0 building with "default" instance using docker driver
+
+#1 [internal] load .dockerignore
+#1 transferring context: 2B done
+#1 DONE 0.0s
+
+#2 [internal] load build definition from Dockerfile
+#2 transferring dockerfile: 141B done
+#2 DONE 0.0s
+
+#3 [internal] load metadata for docker.io/nodered/node-red:latest
+#3 DONE 0.2s
+
+#4 [1/2] FROM docker.io/nodered/node-red@sha256:5e99ed734f7d2f9bfcb1e20dfbf4c5b9aa60f35a9df6e257e817130f0f9be9dc
+#4 CACHED
+
+#5 [2/2] RUN npm install npm install @good-i-deer/node-red-contrib-face-vectorization@1.0.7
+#5 3.391 npm WARN EBADENGINE Unsupported engine {
+#5 3.392 npm WARN EBADENGINE   package: 'npm@10.1.0',
+#5 3.392 npm WARN EBADENGINE   required: { node: '^18.17.0 || >=20.5.0' },
+#5 3.392 npm WARN EBADENGINE   current: { node: 'v16.20.2', npm: '8.19.4' }
+#5 3.392 npm WARN EBADENGINE }
+#5 11.59 
+#5 11.59 added 42 packages, and audited 604 packages in 11s
+#5 11.59 
+#5 11.59 68 packages are looking for funding
+#5 11.59   run `npm fund` for details
+#5 11.59 
+#5 11.59 found 0 vulnerabilities
+#5 11.59 npm notice 
+#5 11.59 npm notice New major version of npm available! 8.19.4 -> 10.1.0
+#5 11.59 npm notice Changelog: <https://github.com/npm/cli/releases/tag/v10.1.0>
+#5 11.59 npm notice Run `npm install -g npm@10.1.0` to update!
+#5 11.59 npm notice 
+#5 DONE 12.7s
+
+#6 exporting to image
+#6 exporting layers
+#6 exporting layers 2.6s done
+#6 writing image sha256:a7cfe45cb7fa17ea550f2bc780f7f3acce8e086fe02a408758486f15ff20c7be done
+#6 naming to docker.io/library/tmp done
+#6 DONE 2.6s
+
+----
