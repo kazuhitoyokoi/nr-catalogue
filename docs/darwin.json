@@ -1,7 +1,225 @@
 {
   "name": "Catalogue for macOS",
-  "updated_at": "2023-09-28T22:23:05.428Z",
+  "updated_at": "2023-09-29T22:30:58.105Z",
   "modules": [
+    {
+      "id": "freshdesk-node-red-contrib",
+      "version": "0.5.0",
+      "description": "node-red nodes to call the Freshdesk API",
+      "updated_at": "2023-09-29T13:43:44.278Z",
+      "types": [
+        "freshdeskCredentials",
+        "freshdesk-get-contact-by-id",
+        "freshdesk-create-contact",
+        "freshdesk-update-contact-by-id",
+        "freshdesk-delete-contact-by-id",
+        "freshdesk-company-by-id",
+        "freshdesk-create-company",
+        "freshdesk-update-company-by-id",
+        "freshdesk-delete-company-by-id"
+      ],
+      "keywords": [
+        "node-red"
+      ],
+      "url": "https://flows.nodered.org/node/freshdesk-node-red-contrib"
+    },
+    {
+      "id": "@good-i-deer/node-red-contrib-chromadb",
+      "version": "1.0.1",
+      "description": "ChromaDB Node for Node-RED",
+      "updated_at": "2023-09-29T12:42:06.886Z",
+      "types": [
+        "chroma-db"
+      ],
+      "keywords": [
+        "node-red",
+        "vector",
+        "database",
+        "chromadb",
+        "embedding"
+      ],
+      "url": "https://flows.nodered.org/node/@good-i-deer/node-red-contrib-chromadb"
+    },
+    {
+      "id": "@good-i-deer/node-red-contrib-vision-ai",
+      "version": "1.0.5",
+      "description": "Facial Recognize Nodes With AI for Node-RED",
+      "updated_at": "2023-09-29T12:25:03.203Z",
+      "types": [
+        "good-object-detection",
+        "good-face-detection",
+        "webcam-object-detection",
+        "chroma-db",
+        "face-vectorization",
+        "calculate-cosine"
+      ],
+      "keywords": [
+        "node-red",
+        "FaceNet",
+        "face detection",
+        "yolo",
+        "onnx",
+        "object detection",
+        "webcam",
+        "vector",
+        "database",
+        "chromadb",
+        "embedding",
+        "cosine",
+        "similarity",
+        "distance"
+      ],
+      "url": "https://flows.nodered.org/node/@good-i-deer/node-red-contrib-vision-ai"
+    },
+    {
+      "id": "@good-i-deer/node-red-contrib-face-vectorization",
+      "version": "1.0.7",
+      "description": "Face Image Vectorization Node for Node-RED",
+      "updated_at": "2023-09-29T12:16:00.613Z",
+      "types": [
+        "face-vectorization"
+      ],
+      "keywords": [
+        "node-red",
+        "Face",
+        "Vectorization",
+        "Vector",
+        "FaceNet"
+      ],
+      "url": "https://flows.nodered.org/node/@good-i-deer/node-red-contrib-face-vectorization"
+    },
+    {
+      "id": "node-red-contrib-polywall-api",
+      "version": "0.0.5",
+      "description": "Polywall API commands to control videowall",
+      "updated_at": "2023-09-29T11:53:15.851Z",
+      "types": [
+        "active-visualizers",
+        "list-scenarios",
+        "play-scene",
+        "scenario-on",
+        "scenario-stop",
+        "list-scenes",
+        "status-sources",
+        "mute-source",
+        "powerpoint-next",
+        "powerpoint-previous",
+        "remove-source",
+        "add-source",
+        "repository-files",
+        "room-files",
+        "shared-server"
+      ],
+      "keywords": [
+        "polywall",
+        "videowall",
+        "api",
+        "node-red"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-polywall-api"
+    },
+    {
+      "id": "@gregoriusrippenstein/node-red-contrib-validation-and-documentation",
+      "version": "0.0.4",
+      "description": "JSON Schema validator for Node Red",
+      "updated_at": "2023-09-29T11:13:10.235Z",
+      "types": [
+        "JsonSchemaValidatorWithDocu"
+      ],
+      "keywords": [
+        "json",
+        "node",
+        "node-red",
+        "schema"
+      ],
+      "url": "https://flows.nodered.org/node/@gregoriusrippenstein/node-red-contrib-validation-and-documentation"
+    },
+    {
+      "id": "node-red-contrib-shelly",
+      "version": "10.13.8",
+      "description": "Shelly nodes.",
+      "updated_at": "2023-09-29T10:23:20.659Z",
+      "types": [
+        "shelly-gen1-server",
+        "shelly-gen1",
+        "shelly-gen2-server",
+        "shelly-gen2",
+        "shelly-cloud-server",
+        "shelly-cloud"
+      ],
+      "keywords": [
+        "node-red",
+        "shelly"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-shelly"
+    },
+    {
+      "id": "node-red-contrib-amcrest-ad110",
+      "version": "1.1.10",
+      "description": "Amcrest AD110 Video Doorbell Tools",
+      "updated_at": "2023-09-29T03:37:18.136Z",
+      "types": [
+        "node-amcrest-ad110-config",
+        "node-amcrest-ad110-monitor",
+        "node-amcrest-ad110-snapshot"
+      ],
+      "keywords": [
+        "node-red",
+        "amcrest",
+        "ad110",
+        "doorbell",
+        "snapshot",
+        "monitor"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-amcrest-ad110"
+    },
+    {
+      "id": "smithtek-node-red-lora",
+      "version": "1.8.0",
+      "description": "NodeRED nodes.",
+      "updated_at": "2023-09-29T03:31:54.605Z",
+      "types": [
+        "loraconfig"
+      ],
+      "keywords": [
+        "node-red",
+        "loraconfig",
+        "iot",
+        "smithtek"
+      ],
+      "url": "https://flows.nodered.org/node/smithtek-node-red-lora"
+    },
+    {
+      "id": "@ptarmiganlabs/ctrl-q-nr",
+      "version": "0.2.7",
+      "description": "Node-RED components for cloud and client-managed Qlik Sense",
+      "updated_at": "2023-09-28T22:29:48.089Z",
+      "types": [
+        "qscloud-tenant",
+        "qseow-sense-server",
+        "qseow-app",
+        "qseow-license",
+        "qseow-service-status",
+        "qseow-tag",
+        "qseow-task",
+        "qscloud-app",
+        "qscloud-license",
+        "qscloud-reload",
+        "qscloud-reload-status",
+        "qscloud-user"
+      ],
+      "keywords": [
+        "ctrl-q",
+        "butler",
+        "qlik",
+        "qliksense",
+        "qlikcloud",
+        "senseops",
+        "node-red",
+        "low-code"
+      ],
+      "url": "https://flows.nodered.org/node/@ptarmiganlabs/ctrl-q-nr"
+    },
     {
       "id": "@gregoriusrippenstein/node-red-contrib-flowhub",
       "version": "0.1.9",
@@ -35,22 +253,6 @@
         "dusk"
       ],
       "url": "https://flows.nodered.org/node/@tbowmo/node-red-small-timer"
-    },
-    {
-      "id": "@gregoriusrippenstein/node-red-contrib-validation-and-documentation",
-      "version": "0.0.3",
-      "description": "JSON Schema validator for Node Red",
-      "updated_at": "2023-09-28T18:27:09.563Z",
-      "types": [
-        "JsonSchemaValidatorWithDocu"
-      ],
-      "keywords": [
-        "json",
-        "node",
-        "node-red",
-        "schema"
-      ],
-      "url": "https://flows.nodered.org/node/@gregoriusrippenstein/node-red-contrib-validation-and-documentation"
     },
     {
       "id": "@gregoriusrippenstein/node-red-contrib-nodedev",
@@ -131,37 +333,6 @@
       "url": "https://flows.nodered.org/node/atomic-jetstream"
     },
     {
-      "id": "@good-i-deer/node-red-contrib-vision-ai",
-      "version": "1.0.3",
-      "description": "Facial Recognize Nodes With AI for Node-RED",
-      "updated_at": "2023-09-28T05:02:55.781Z",
-      "types": [
-        "good-object-detection",
-        "good-face-detection",
-        "webcam-object-detection",
-        "chroma-db",
-        "face-vectorization",
-        "calculate-cosine"
-      ],
-      "keywords": [
-        "node-red",
-        "FaceNet",
-        "face detection",
-        "yolo",
-        "onnx",
-        "object detection",
-        "webcam",
-        "vector",
-        "database",
-        "chromadb",
-        "embedding",
-        "cosine",
-        "similarity",
-        "distance"
-      ],
-      "url": "https://flows.nodered.org/node/@good-i-deer/node-red-contrib-vision-ai"
-    },
-    {
       "id": "@gbl-sasm-alert/node-red-contrib-moduleflows",
       "version": "1.0.1",
       "description": "Flow Modularization Nodes for Node-RED",
@@ -227,6 +398,41 @@
         "topsail"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-topsail"
+    },
+    {
+      "id": "@good-i-deer/node-red-contrib-face-detection",
+      "version": "1.0.1",
+      "description": "Face Detection Node for Node-RED",
+      "updated_at": "2023-09-27T17:29:37.414Z",
+      "types": [
+        "good-face-detection"
+      ],
+      "keywords": [
+        "node-red",
+        "face-detection",
+        "yolo",
+        "onnx"
+      ],
+      "url": "https://flows.nodered.org/node/@good-i-deer/node-red-contrib-face-detection"
+    },
+    {
+      "id": "@good-i-deer/node-red-contrib-object-detection",
+      "version": "1.0.1",
+      "description": "Object Detection Nodes for Node-RED",
+      "updated_at": "2023-09-27T17:16:30.395Z",
+      "types": [
+        "good-object-detection",
+        "webcam-object-detection"
+      ],
+      "keywords": [
+        "node-red",
+        "detection",
+        "yolo",
+        "object-detection",
+        "onnx",
+        "webcam"
+      ],
+      "url": "https://flows.nodered.org/node/@good-i-deer/node-red-contrib-object-detection"
     },
     {
       "id": "node-red-contrib-snap4city-user",
@@ -401,6 +607,49 @@
         "hue"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-knx-ultimate"
+    },
+    {
+      "id": "@good-i-deer/node-red-contrib-cosine-similarity",
+      "version": "1.0.0",
+      "description": "Calculates cosine similarity of two vector values in Node-RED",
+      "updated_at": "2023-09-27T15:07:33.051Z",
+      "types": [
+        "calculate-cosine"
+      ],
+      "keywords": [
+        "node-red",
+        "vector",
+        "cosine",
+        "similarity",
+        "distance"
+      ],
+      "url": "https://flows.nodered.org/node/@good-i-deer/node-red-contrib-cosine-similarity"
+    },
+    {
+      "id": "node-red-contrib-alice",
+      "version": "2.1.4",
+      "description": "**NodeRed Home** (node-red-contrib-alice) - это сервис позволит, в несколько простых шагов, подключить любые ваши устройства заведенные в Node-RED к умному дому от Яндекса и управлять ими с помощью голосового помощника Алиса.",
+      "updated_at": "2023-09-27T11:17:25.765Z",
+      "types": [
+        "alice-service",
+        "alice-device",
+        "On_Off",
+        "Toggle",
+        "Range",
+        "Color",
+        "Mode",
+        "Sensor",
+        "Event",
+        "Video"
+      ],
+      "keywords": [
+        "node-red",
+        "yandex",
+        "alice",
+        "яндекс",
+        "алиса"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-alice"
     },
     {
       "id": "node-red-contrib-superpower-test",
@@ -2121,37 +2370,6 @@
       "url": "https://flows.nodered.org/node/node-red-contrib-mssql-plus"
     },
     {
-      "id": "@ptarmiganlabs/ctrl-q-nr",
-      "version": "0.2.6",
-      "description": "Node-RED components for cloud and client-managed Qlik Sense",
-      "updated_at": "2023-09-18T15:35:36.309Z",
-      "types": [
-        "qscloud-tenant",
-        "qseow-sense-server",
-        "qseow-app",
-        "qseow-license",
-        "qseow-service-status",
-        "qseow-tag",
-        "qseow-task",
-        "qscloud-app",
-        "qscloud-license",
-        "qscloud-reload",
-        "qscloud-reload-status",
-        "qscloud-user"
-      ],
-      "keywords": [
-        "ctrl-q",
-        "butler",
-        "qlik",
-        "qliksense",
-        "qlikcloud",
-        "senseops",
-        "node-red",
-        "low-code"
-      ],
-      "url": "https://flows.nodered.org/node/@ptarmiganlabs/ctrl-q-nr"
-    },
-    {
       "id": "node-red-contrib-letsfiware-ngsi",
       "version": "0.17.0",
       "description": "Node-RED implementation for FIWARE Open APIs",
@@ -2247,32 +2465,6 @@
         "DIO"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-revpi-nodes"
-    },
-    {
-      "id": "node-red-contrib-alice",
-      "version": "2.1.3",
-      "description": "**NodeRed Home** (node-red-contrib-alice) - это сервис позволит, в несколько простых шагов, подключить любые ваши устройства заведенные в Node-RED к умному дому от Яндекса и управлять ими с помощью голосового помощника Алиса.",
-      "updated_at": "2023-09-18T08:54:58.600Z",
-      "types": [
-        "alice-service",
-        "alice-device",
-        "On_Off",
-        "Toggle",
-        "Range",
-        "Color",
-        "Mode",
-        "Sensor",
-        "Event",
-        "Video"
-      ],
-      "keywords": [
-        "node-red",
-        "yandex",
-        "alice",
-        "яндекс",
-        "алиса"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-alice"
     },
     {
       "id": "apconic-node-red-weight-parser",
@@ -2433,22 +2625,6 @@
         "node-red"
       ],
       "url": "https://flows.nodered.org/node/@flowforge/node-red-dashboard"
-    },
-    {
-      "id": "smithtek-node-red-lora",
-      "version": "1.7.0",
-      "description": "NodeRED nodes.",
-      "updated_at": "2023-09-15T05:16:59.526Z",
-      "types": [
-        "loraconfig"
-      ],
-      "keywords": [
-        "node-red",
-        "loraconfig",
-        "iot",
-        "smithtek"
-      ],
-      "url": "https://flows.nodered.org/node/smithtek-node-red-lora"
     },
     {
       "id": "node-red-contrib-simple-bu",
@@ -4110,25 +4286,6 @@
         "node-red"
       ],
       "url": "https://flows.nodered.org/node/node-red-dashboard"
-    },
-    {
-      "id": "node-red-contrib-shelly",
-      "version": "10.13.7",
-      "description": "Shelly nodes.",
-      "updated_at": "2023-08-30T19:06:55.516Z",
-      "types": [
-        "shelly-gen1-server",
-        "shelly-gen1",
-        "shelly-gen2-server",
-        "shelly-gen2",
-        "shelly-cloud-server",
-        "shelly-cloud"
-      ],
-      "keywords": [
-        "node-red",
-        "shelly"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-shelly"
     },
     {
       "id": "node-red-contrib-uhppoted",
@@ -34572,26 +34729,6 @@
         "node-red"
       ],
       "url": "https://flows.nodered.org/node/@veritone/node-red-contrib-aiware"
-    },
-    {
-      "id": "node-red-contrib-amcrest-ad110",
-      "version": "1.1.9",
-      "description": "Amcrest AD110 Video Doorbell Tools",
-      "updated_at": "2021-08-18T03:36:54.478Z",
-      "types": [
-        "node-amcrest-ad110-config",
-        "node-amcrest-ad110-monitor",
-        "node-amcrest-ad110-snapshot"
-      ],
-      "keywords": [
-        "node-red",
-        "amcrest",
-        "ad110",
-        "doorbell",
-        "snapshot",
-        "monitor"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-amcrest-ad110"
     },
     {
       "id": "node-red-contrib-countdown-2",
