@@ -1,35 +1,28 @@
 {
   "name": "Catalogue for macOS",
-  "updated_at": "2023-09-29T22:30:58.105Z",
+  "updated_at": "2023-09-30T21:41:48.546Z",
   "modules": [
     {
-      "id": "freshdesk-node-red-contrib",
-      "version": "0.5.0",
-      "description": "node-red nodes to call the Freshdesk API",
-      "updated_at": "2023-09-29T13:43:44.278Z",
+      "id": "node-red-node-exif",
+      "version": "0.4.0",
+      "description": "A Node-RED node that extracts Exif information from JPEG image buffers.",
+      "updated_at": "2023-09-30T14:42:22.305Z",
       "types": [
-        "freshdeskCredentials",
-        "freshdesk-get-contact-by-id",
-        "freshdesk-create-contact",
-        "freshdesk-update-contact-by-id",
-        "freshdesk-delete-contact-by-id",
-        "freshdesk-company-by-id",
-        "freshdesk-create-company",
-        "freshdesk-update-company-by-id",
-        "freshdesk-delete-company-by-id"
+        "exif"
       ],
       "keywords": [
-        "node-red"
+        "node-red",
+        "exif"
       ],
-      "url": "https://flows.nodered.org/node/freshdesk-node-red-contrib"
+      "url": "https://flows.nodered.org/node/node-red-node-exif"
     },
     {
       "id": "@good-i-deer/node-red-contrib-chromadb",
-      "version": "1.0.1",
+      "version": "1.0.5",
       "description": "ChromaDB Node for Node-RED",
-      "updated_at": "2023-09-29T12:42:06.886Z",
+      "updated_at": "2023-09-30T14:40:47.219Z",
       "types": [
-        "chroma-db"
+        "good-chroma-db"
       ],
       "keywords": [
         "node-red",
@@ -42,16 +35,16 @@
     },
     {
       "id": "@good-i-deer/node-red-contrib-vision-ai",
-      "version": "1.0.5",
+      "version": "1.0.6",
       "description": "Facial Recognize Nodes With AI for Node-RED",
-      "updated_at": "2023-09-29T12:25:03.203Z",
+      "updated_at": "2023-09-30T14:40:24.425Z",
       "types": [
         "good-object-detection",
         "good-face-detection",
-        "webcam-object-detection",
-        "chroma-db",
-        "face-vectorization",
-        "calculate-cosine"
+        "good-webcam-object-detection",
+        "good-chroma-db",
+        "good-face-vectorization",
+        "good-calculate-cosine"
       ],
       "keywords": [
         "node-red",
@@ -72,12 +65,34 @@
       "url": "https://flows.nodered.org/node/@good-i-deer/node-red-contrib-vision-ai"
     },
     {
-      "id": "@good-i-deer/node-red-contrib-face-vectorization",
-      "version": "1.0.7",
-      "description": "Face Image Vectorization Node for Node-RED",
-      "updated_at": "2023-09-29T12:16:00.613Z",
+      "id": "node-red-contrib-whatsapp-link",
+      "version": "0.1.39-A",
+      "description": "Node to send and receive whatsapp messages in groups and chats. | No third party APIs",
+      "updated_at": "2023-09-30T13:47:09.278Z",
       "types": [
-        "face-vectorization"
+        "admin",
+        "chats-in",
+        "chats-out",
+        "group-out",
+        "reply",
+        "whatsappLink"
+      ],
+      "keywords": [
+        "node-red",
+        "whatsapp",
+        "message",
+        "whatsapp Group",
+        "whatsapp Chat"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-whatsapp-link"
+    },
+    {
+      "id": "@good-i-deer/node-red-contrib-face-vectorization",
+      "version": "1.0.11",
+      "description": "Face Image Vectorization Node for Node-RED",
+      "updated_at": "2023-09-30T13:19:56.086Z",
+      "types": [
+        "good-face-vectorization"
       ],
       "keywords": [
         "node-red",
@@ -87,6 +102,111 @@
         "FaceNet"
       ],
       "url": "https://flows.nodered.org/node/@good-i-deer/node-red-contrib-face-vectorization"
+    },
+    {
+      "id": "@gregoriusrippenstein/node-red-contrib-nodedev",
+      "version": "0.0.9",
+      "description": "Support the development of Node-RED nodes within Node-RED.",
+      "updated_at": "2023-09-30T11:05:45.562Z",
+      "types": [
+        "NodeFactory",
+        "PkgFile",
+        "NpmTarBall",
+        "NodeRedInstall",
+        "NpmPublish"
+      ],
+      "keywords": [
+        "node-red",
+        "node development",
+        "introspection",
+        "bootstrapping",
+        "recursion"
+      ],
+      "url": "https://flows.nodered.org/node/@gregoriusrippenstein/node-red-contrib-nodedev"
+    },
+    {
+      "id": "@gregoriusrippenstein/node-red-contrib-flow2uml",
+      "version": "0.0.3",
+      "description": "Convert current flow tab to Mermaid flow diagram.",
+      "updated_at": "2023-09-30T10:33:48.974Z",
+      "types": [
+        "Flow2UML"
+      ],
+      "keywords": [
+        "node-red",
+        "uml",
+        "mermaid"
+      ],
+      "url": "https://flows.nodered.org/node/@gregoriusrippenstein/node-red-contrib-flow2uml"
+    },
+    {
+      "id": "@gregoriusrippenstein/node-red-contrib-validation-and-documentation",
+      "version": "0.0.5",
+      "description": "JSON Schema validator for Node Red",
+      "updated_at": "2023-09-30T08:05:00.276Z",
+      "types": [
+        "JsonSchemaValidatorWithDocu"
+      ],
+      "keywords": [
+        "json",
+        "node",
+        "node-red",
+        "schema"
+      ],
+      "url": "https://flows.nodered.org/node/@gregoriusrippenstein/node-red-contrib-validation-and-documentation"
+    },
+    {
+      "id": "node-red-contrib-docxtemplater",
+      "version": "1.0.6",
+      "description": "Generate docx, pptx, and xlsx from templates (Word, Powerpoint and Excel documents), from Node-Red",
+      "updated_at": "2023-09-29T18:49:35.104Z",
+      "types": [
+        "docxtemplater"
+      ],
+      "keywords": [
+        "docx",
+        "pptx",
+        "templates",
+        "template",
+        "templater",
+        "templating",
+        "report",
+        "xlsx",
+        "generation",
+        "generate",
+        "generator",
+        "microsoft office",
+        "microsoft word",
+        "microsoft powerpoint",
+        "microsoft excel",
+        "create",
+        "make",
+        "Office Open XML",
+        "creator",
+        "node-red"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-docxtemplater"
+    },
+    {
+      "id": "freshdesk-node-red-contrib",
+      "version": "0.5.0",
+      "description": "node-red nodes to call the Freshdesk API",
+      "updated_at": "2023-09-29T13:43:44.278Z",
+      "types": [
+        "freshdeskCredentials",
+        "freshdesk-get-contact-by-id",
+        "freshdesk-create-contact",
+        "freshdesk-update-contact-by-id",
+        "freshdesk-delete-contact-by-id",
+        "freshdesk-company-by-id",
+        "freshdesk-create-company",
+        "freshdesk-update-company-by-id",
+        "freshdesk-delete-company-by-id"
+      ],
+      "keywords": [
+        "node-red"
+      ],
+      "url": "https://flows.nodered.org/node/freshdesk-node-red-contrib"
     },
     {
       "id": "node-red-contrib-polywall-api",
@@ -117,22 +237,6 @@
         "node-red"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-polywall-api"
-    },
-    {
-      "id": "@gregoriusrippenstein/node-red-contrib-validation-and-documentation",
-      "version": "0.0.4",
-      "description": "JSON Schema validator for Node Red",
-      "updated_at": "2023-09-29T11:13:10.235Z",
-      "types": [
-        "JsonSchemaValidatorWithDocu"
-      ],
-      "keywords": [
-        "json",
-        "node",
-        "node-red",
-        "schema"
-      ],
-      "url": "https://flows.nodered.org/node/@gregoriusrippenstein/node-red-contrib-validation-and-documentation"
     },
     {
       "id": "node-red-contrib-shelly",
@@ -253,27 +357,6 @@
         "dusk"
       ],
       "url": "https://flows.nodered.org/node/@tbowmo/node-red-small-timer"
-    },
-    {
-      "id": "@gregoriusrippenstein/node-red-contrib-nodedev",
-      "version": "0.0.8",
-      "description": "Support the development of Node-RED nodes within Node-RED.",
-      "updated_at": "2023-09-28T10:08:10.669Z",
-      "types": [
-        "NodeFactory",
-        "PkgFile",
-        "NpmTarBall",
-        "NodeRedInstall",
-        "NpmPublish"
-      ],
-      "keywords": [
-        "node-red",
-        "node development",
-        "introspection",
-        "bootstrapping",
-        "recursion"
-      ],
-      "url": "https://flows.nodered.org/node/@gregoriusrippenstein/node-red-contrib-nodedev"
     },
     {
       "id": "node-red-vue-node",
@@ -2919,6 +3002,26 @@
       "url": "https://flows.nodered.org/node/node-red-contrib-daikin-cloud"
     },
     {
+      "id": "node-red-contrib-tuya-devices",
+      "version": "1.0.4",
+      "description": "Use Tuya devices local in NodeRed",
+      "updated_at": "2023-09-12T16:58:14.322Z",
+      "types": [
+        "tuya-cloud",
+        "tuya-project",
+        "tuya-manager",
+        "tuya-local-device",
+        "tuya-device"
+      ],
+      "keywords": [
+        "node-red",
+        "tuya",
+        "smart home",
+        "home automation"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-tuya-devices"
+    },
+    {
       "id": "node-red-contrib-pinecone",
       "version": "1.0.5",
       "description": "Pinecone makes it easy to provide long-term memory for high-performance AI applications",
@@ -4517,6 +4620,37 @@
         "node-red"
       ],
       "url": "https://flows.nodered.org/node/@victronenergy/node-red-contrib-victron"
+    },
+    {
+      "id": "node-red-contrib-tasmotas",
+      "version": "2.0.3",
+      "description": "Use and control Tasmota devices in NodeRed",
+      "updated_at": "2023-08-28T06:03:05.329Z",
+      "types": [
+        "tasmota-mqtt-broker",
+        "tasmota-device",
+        "tasmota-manager",
+        "tasmota-rf-manager",
+        "tasmota-switch",
+        "tasmota-pulsetime",
+        "tasmota-shutter",
+        "tasmota-sensor",
+        "tasmota-light",
+        "tasmota-button",
+        "tasmota-generic",
+        "tasmota-rf-device",
+        "tasmota-rf-bridge",
+        "tasmota-config"
+      ],
+      "keywords": [
+        "node-red",
+        "tasmota",
+        "shelly",
+        "sonoff",
+        "smart home",
+        "home automation"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-tasmotas"
     },
     {
       "id": "node-red-contrib-random-generator",
@@ -12354,28 +12488,6 @@
       "url": "https://flows.nodered.org/node/node-red-contrib-pdf-merger"
     },
     {
-      "id": "node-red-contrib-whatsapp-link",
-      "version": "0.1.37",
-      "description": "Node to send and receive whatsapp messages in groups and chats. | No third party APIs",
-      "updated_at": "2023-03-25T20:34:09.151Z",
-      "types": [
-        "admin",
-        "chats-in",
-        "chats-out",
-        "group-out",
-        "reply",
-        "whatsappLink"
-      ],
-      "keywords": [
-        "node-red",
-        "whatsapp",
-        "message",
-        "whatsapp Group",
-        "whatsapp Chat"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-whatsapp-link"
-    },
-    {
       "id": "node-red-contrib-bluelinky",
       "version": "0.0.30",
       "description": "A Node Red Library for BlueLinky, a Hyundai and Kia 3rd-party wrapper",
@@ -12495,38 +12607,6 @@
         "node-red"
       ],
       "url": "https://flows.nodered.org/node/@chvdapi/node-red-pn6400-led"
-    },
-    {
-      "id": "node-red-contrib-docxtemplater",
-      "version": "1.0.5",
-      "description": "Generate docx, pptx, and xlsx from templates (Word, Powerpoint and Excel documents), from Node-Red",
-      "updated_at": "2023-03-23T21:54:24.431Z",
-      "types": [
-        "docxtemplater"
-      ],
-      "keywords": [
-        "docx",
-        "pptx",
-        "templates",
-        "template",
-        "templater",
-        "templating",
-        "report",
-        "xlsx",
-        "generation",
-        "generate",
-        "generator",
-        "microsoft office",
-        "microsoft word",
-        "microsoft powerpoint",
-        "microsoft excel",
-        "create",
-        "make",
-        "Office Open XML",
-        "creator",
-        "node-red"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-docxtemplater"
     },
     {
       "id": "@s1seven/node-red-s1seven-api",
@@ -32904,20 +32984,6 @@
         "special date"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-special-date"
-    },
-    {
-      "id": "node-red-node-exif",
-      "version": "0.3.1",
-      "description": "A Node-RED node that extracts Exif information from JPEG image buffers.",
-      "updated_at": "2021-10-24T17:01:44.018Z",
-      "types": [
-        "exif"
-      ],
-      "keywords": [
-        "node-red",
-        "exif"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-node-exif"
     },
     {
       "id": "node-red-contrib-redplc-tf-csaiodriver",
