@@ -1,7 +1,115 @@
 {
   "name": "Catalogue for Docker",
-  "updated_at": "2023-09-29T16:20:51.493Z",
+  "updated_at": "2023-09-30T16:12:48.575Z",
   "modules": [
+    {
+      "id": "@good-i-deer/node-red-contrib-chromadb",
+      "version": "1.0.4",
+      "description": "ChromaDB Node for Node-RED",
+      "updated_at": "2023-09-30T14:26:36.810Z",
+      "types": [
+        "good-chroma-db"
+      ],
+      "keywords": [
+        "node-red",
+        "vector",
+        "database",
+        "chromadb",
+        "embedding"
+      ],
+      "url": "https://flows.nodered.org/node/@good-i-deer/node-red-contrib-chromadb"
+    },
+    {
+      "id": "node-red-contrib-whatsapp-link",
+      "version": "0.1.39-A",
+      "description": "Node to send and receive whatsapp messages in groups and chats. | No third party APIs",
+      "updated_at": "2023-09-30T13:47:09.278Z",
+      "types": [
+        "admin",
+        "chats-in",
+        "chats-out",
+        "group-out",
+        "reply",
+        "whatsappLink"
+      ],
+      "keywords": [
+        "node-red",
+        "whatsapp",
+        "message",
+        "whatsapp Group",
+        "whatsapp Chat"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-whatsapp-link"
+    },
+    {
+      "id": "@good-i-deer/node-red-contrib-face-vectorization",
+      "version": "1.0.11",
+      "description": "Face Image Vectorization Node for Node-RED",
+      "updated_at": "2023-09-30T13:19:56.086Z",
+      "types": [
+        "good-face-vectorization"
+      ],
+      "keywords": [
+        "node-red",
+        "Face",
+        "Vectorization",
+        "Vector",
+        "FaceNet"
+      ],
+      "url": "https://flows.nodered.org/node/@good-i-deer/node-red-contrib-face-vectorization"
+    },
+    {
+      "id": "@gregoriusrippenstein/node-red-contrib-nodedev",
+      "version": "0.0.9",
+      "description": "Support the development of Node-RED nodes within Node-RED.",
+      "updated_at": "2023-09-30T11:05:45.562Z",
+      "types": [
+        "NodeFactory",
+        "PkgFile",
+        "NpmTarBall",
+        "NodeRedInstall",
+        "NpmPublish"
+      ],
+      "keywords": [
+        "node-red",
+        "node development",
+        "introspection",
+        "bootstrapping",
+        "recursion"
+      ],
+      "url": "https://flows.nodered.org/node/@gregoriusrippenstein/node-red-contrib-nodedev"
+    },
+    {
+      "id": "@gregoriusrippenstein/node-red-contrib-flow2uml",
+      "version": "0.0.3",
+      "description": "Convert current flow tab to Mermaid flow diagram.",
+      "updated_at": "2023-09-30T10:33:48.974Z",
+      "types": [
+        "Flow2UML"
+      ],
+      "keywords": [
+        "node-red",
+        "uml",
+        "mermaid"
+      ],
+      "url": "https://flows.nodered.org/node/@gregoriusrippenstein/node-red-contrib-flow2uml"
+    },
+    {
+      "id": "@gregoriusrippenstein/node-red-contrib-validation-and-documentation",
+      "version": "0.0.5",
+      "description": "JSON Schema validator for Node Red",
+      "updated_at": "2023-09-30T08:05:00.276Z",
+      "types": [
+        "JsonSchemaValidatorWithDocu"
+      ],
+      "keywords": [
+        "json",
+        "node",
+        "node-red",
+        "schema"
+      ],
+      "url": "https://flows.nodered.org/node/@gregoriusrippenstein/node-red-contrib-validation-and-documentation"
+    },
     {
       "id": "freshdesk-node-red-contrib",
       "version": "0.5.0",
@@ -22,23 +130,6 @@
         "node-red"
       ],
       "url": "https://flows.nodered.org/node/freshdesk-node-red-contrib"
-    },
-    {
-      "id": "@good-i-deer/node-red-contrib-chromadb",
-      "version": "1.0.1",
-      "description": "ChromaDB Node for Node-RED",
-      "updated_at": "2023-09-29T12:42:06.886Z",
-      "types": [
-        "chroma-db"
-      ],
-      "keywords": [
-        "node-red",
-        "vector",
-        "database",
-        "chromadb",
-        "embedding"
-      ],
-      "url": "https://flows.nodered.org/node/@good-i-deer/node-red-contrib-chromadb"
     },
     {
       "id": "@good-i-deer/node-red-contrib-vision-ai",
@@ -72,23 +163,6 @@
       "url": "https://flows.nodered.org/node/@good-i-deer/node-red-contrib-vision-ai"
     },
     {
-      "id": "@good-i-deer/node-red-contrib-face-vectorization",
-      "version": "1.0.7",
-      "description": "Face Image Vectorization Node for Node-RED",
-      "updated_at": "2023-09-29T12:16:00.613Z",
-      "types": [
-        "face-vectorization"
-      ],
-      "keywords": [
-        "node-red",
-        "Face",
-        "Vectorization",
-        "Vector",
-        "FaceNet"
-      ],
-      "url": "https://flows.nodered.org/node/@good-i-deer/node-red-contrib-face-vectorization"
-    },
-    {
       "id": "node-red-contrib-polywall-api",
       "version": "0.0.5",
       "description": "Polywall API commands to control videowall",
@@ -117,22 +191,6 @@
         "node-red"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-polywall-api"
-    },
-    {
-      "id": "@gregoriusrippenstein/node-red-contrib-validation-and-documentation",
-      "version": "0.0.4",
-      "description": "JSON Schema validator for Node Red",
-      "updated_at": "2023-09-29T11:13:10.235Z",
-      "types": [
-        "JsonSchemaValidatorWithDocu"
-      ],
-      "keywords": [
-        "json",
-        "node",
-        "node-red",
-        "schema"
-      ],
-      "url": "https://flows.nodered.org/node/@gregoriusrippenstein/node-red-contrib-validation-and-documentation"
     },
     {
       "id": "node-red-contrib-shelly",
@@ -274,27 +332,6 @@
         "dusk"
       ],
       "url": "https://flows.nodered.org/node/@tbowmo/node-red-small-timer"
-    },
-    {
-      "id": "@gregoriusrippenstein/node-red-contrib-nodedev",
-      "version": "0.0.8",
-      "description": "Support the development of Node-RED nodes within Node-RED.",
-      "updated_at": "2023-09-28T10:08:10.669Z",
-      "types": [
-        "NodeFactory",
-        "PkgFile",
-        "NpmTarBall",
-        "NodeRedInstall",
-        "NpmPublish"
-      ],
-      "keywords": [
-        "node-red",
-        "node development",
-        "introspection",
-        "bootstrapping",
-        "recursion"
-      ],
-      "url": "https://flows.nodered.org/node/@gregoriusrippenstein/node-red-contrib-nodedev"
     },
     {
       "id": "node-red-vue-node",
@@ -2924,6 +2961,26 @@
       "url": "https://flows.nodered.org/node/node-red-contrib-daikin-cloud"
     },
     {
+      "id": "node-red-contrib-tuya-devices",
+      "version": "1.0.4",
+      "description": "Use Tuya devices local in NodeRed",
+      "updated_at": "2023-09-12T16:58:14.322Z",
+      "types": [
+        "tuya-cloud",
+        "tuya-project",
+        "tuya-manager",
+        "tuya-local-device",
+        "tuya-device"
+      ],
+      "keywords": [
+        "node-red",
+        "tuya",
+        "smart home",
+        "home automation"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-tuya-devices"
+    },
+    {
       "id": "node-red-contrib-pinecone",
       "version": "1.0.5",
       "description": "Pinecone makes it easy to provide long-term memory for high-performance AI applications",
@@ -4522,6 +4579,37 @@
         "node-red"
       ],
       "url": "https://flows.nodered.org/node/@victronenergy/node-red-contrib-victron"
+    },
+    {
+      "id": "node-red-contrib-tasmotas",
+      "version": "2.0.3",
+      "description": "Use and control Tasmota devices in NodeRed",
+      "updated_at": "2023-08-28T06:03:05.329Z",
+      "types": [
+        "tasmota-mqtt-broker",
+        "tasmota-device",
+        "tasmota-manager",
+        "tasmota-rf-manager",
+        "tasmota-switch",
+        "tasmota-pulsetime",
+        "tasmota-shutter",
+        "tasmota-sensor",
+        "tasmota-light",
+        "tasmota-button",
+        "tasmota-generic",
+        "tasmota-rf-device",
+        "tasmota-rf-bridge",
+        "tasmota-config"
+      ],
+      "keywords": [
+        "node-red",
+        "tasmota",
+        "shelly",
+        "sonoff",
+        "smart home",
+        "home automation"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-tasmotas"
     },
     {
       "id": "node-red-contrib-random-generator",
@@ -12332,28 +12420,6 @@
         "node-red"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-pdf-merger"
-    },
-    {
-      "id": "node-red-contrib-whatsapp-link",
-      "version": "0.1.37",
-      "description": "Node to send and receive whatsapp messages in groups and chats. | No third party APIs",
-      "updated_at": "2023-03-25T20:34:09.151Z",
-      "types": [
-        "admin",
-        "chats-in",
-        "chats-out",
-        "group-out",
-        "reply",
-        "whatsappLink"
-      ],
-      "keywords": [
-        "node-red",
-        "whatsapp",
-        "message",
-        "whatsapp Group",
-        "whatsapp Chat"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-whatsapp-link"
     },
     {
       "id": "node-red-contrib-bluelinky",
