@@ -1,29 +1,155 @@
 {
   "name": "Catalogue for verified nodes",
-  "updated_at": "2023-09-30T21:42:06.961Z",
+  "updated_at": "2023-10-01T20:58:14.274Z",
   "modules": [
     {
-      "id": "@good-i-deer/node-red-contrib-chromadb",
-      "version": "1.0.4",
-      "description": "ChromaDB Node for Node-RED",
-      "updated_at": "2023-09-30T14:26:36.810Z",
+      "id": "node-red-contrib-sia-cert",
+      "version": "0.0.7",
+      "description": "ARC Broker for SIA certified alarm systems",
+      "updated_at": "2023-10-01T14:34:35.402Z",
       "types": [
-        "good-chroma-db"
+        "siaendpoint-config-certs",
+        "SIAUltimate-certs"
       ],
       "keywords": [
         "node-red",
-        "vector",
-        "database",
-        "chromadb",
-        "embedding"
+        "sia",
+        "alarm",
+        "dcs",
+        "dc09",
+        "ajax",
+        "burglar"
       ],
-      "url": "https://flows.nodered.org/node/@good-i-deer/node-red-contrib-chromadb"
+      "url": "https://flows.nodered.org/node/node-red-contrib-sia-cert"
+    },
+    {
+      "id": "node-red-contrib-alexa-remote2-applestrudel",
+      "version": "5.0.43",
+      "description": "node-red nodes for interacting with alexa",
+      "updated_at": "2023-10-01T14:14:05.201Z",
+      "types": [
+        "alexa-remote-account",
+        "alexa-remote-init",
+        "alexa-remote-event",
+        "alexa-remote-smarthome",
+        "alexa-remote-routine",
+        "alexa-remote-echo",
+        "alexa-remote-other",
+        "alexa-remote-list"
+      ],
+      "keywords": [
+        "node-red",
+        "alexa remote",
+        "alexa",
+        "echo"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-alexa-remote2-applestrudel"
+    },
+    {
+      "id": "node-red-sia-cert",
+      "version": "0.0.3",
+      "description": "ARC Broker for SIA certified alarm systems",
+      "updated_at": "2023-10-01T14:09:51.415Z",
+      "types": [
+        "siaendpoint-config-cert",
+        "SIAUltimate-cert"
+      ],
+      "keywords": [
+        "node-red",
+        "sia",
+        "alarm",
+        "dcs",
+        "dc09",
+        "ajax",
+        "burglar"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-sia-cert"
+    },
+    {
+      "id": "@gregoriusrippenstein/node-red-contrib-auto-alignment",
+      "version": "0.0.3",
+      "description": "Auto-layout/alignment of a Node-RED flow.",
+      "updated_at": "2023-10-01T10:24:00.260Z",
+      "types": [
+        "AutoAlign"
+      ],
+      "keywords": [
+        "node-red",
+        "auto-alignment",
+        "alignment",
+        "auto-layout",
+        "layout"
+      ],
+      "url": "https://flows.nodered.org/node/@gregoriusrippenstein/node-red-contrib-auto-alignment"
+    },
+    {
+      "id": "node-red-contrib-soma-smartblinds2",
+      "version": "0.3.2",
+      "description": "NodeRed node for Soma smart blinds 2.",
+      "updated_at": "2023-10-01T08:32:42.505Z",
+      "types": [
+        "soma-smartblinds2"
+      ],
+      "keywords": [
+        "node-red",
+        "soma",
+        "smart blinds"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-soma-smartblinds2"
+    },
+    {
+      "id": "node-red-contrib-mssql-plus",
+      "version": "0.12.0",
+      "description": "A node-red node to execute queries, stored procedures and bulk inserts in Microsoft SQL Server and Azure Databases SQL2000 ~ SQL2022",
+      "updated_at": "2023-10-01T03:06:03.627Z",
+      "types": [
+        "MSSQL-CN",
+        "MSSQL"
+      ],
+      "keywords": [
+        "node-red",
+        "odbc",
+        "unixodbc",
+        "mssql",
+        "sql",
+        "Microsoft",
+        "database",
+        "sql-server",
+        "azure"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-mssql-plus"
+    },
+    {
+      "id": "@almostinteractive/node-red-contrib-basic-ical-calendar",
+      "version": "2.1.0",
+      "description": "NodeRed iCal calender trigger and sensor",
+      "updated_at": "2023-10-01T02:45:26.482Z",
+      "types": [
+        "cal-config",
+        "cal-sensor",
+        "__errors__",
+        "cal-trigger",
+        "__errors__"
+      ],
+      "keywords": [
+        "node-red",
+        "ical",
+        "calendar",
+        "events",
+        "google",
+        "outlook",
+        "nodered",
+        "ics",
+        "smart home",
+        "home automation"
+      ],
+      "url": "https://flows.nodered.org/node/@almostinteractive/node-red-contrib-basic-ical-calendar"
     },
     {
       "id": "node-red-contrib-whatsapp-link",
-      "version": "0.1.39-A",
+      "version": "0.1.39-B",
       "description": "Node to send and receive whatsapp messages in groups and chats. | No third party APIs",
-      "updated_at": "2023-09-30T13:47:09.278Z",
+      "updated_at": "2023-09-30T21:26:03.984Z",
       "types": [
         "admin",
         "chats-in",
@@ -40,6 +166,91 @@
         "whatsapp Chat"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-whatsapp-link"
+    },
+    {
+      "id": "node-red-contrib-calc",
+      "version": "1.0.6",
+      "description": "A Node-Red node to perform basic mathematical calculations",
+      "updated_at": "2023-09-30T20:26:57.378Z",
+      "types": [
+        "calculator"
+      ],
+      "keywords": [
+        "node-red",
+        "math",
+        "mathematics",
+        "calculate",
+        "min",
+        "max",
+        "round",
+        "trunc",
+        "min",
+        "max",
+        "average"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-calc"
+    },
+    {
+      "id": "node-red-node-exif",
+      "version": "0.4.0",
+      "description": "A Node-RED node that extracts Exif information from JPEG image buffers.",
+      "updated_at": "2023-09-30T14:42:22.305Z",
+      "types": [
+        "exif"
+      ],
+      "keywords": [
+        "node-red",
+        "exif"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-node-exif"
+    },
+    {
+      "id": "@good-i-deer/node-red-contrib-chromadb",
+      "version": "1.0.5",
+      "description": "ChromaDB Node for Node-RED",
+      "updated_at": "2023-09-30T14:40:47.219Z",
+      "types": [
+        "good-chroma-db"
+      ],
+      "keywords": [
+        "node-red",
+        "vector",
+        "database",
+        "chromadb",
+        "embedding"
+      ],
+      "url": "https://flows.nodered.org/node/@good-i-deer/node-red-contrib-chromadb"
+    },
+    {
+      "id": "@good-i-deer/node-red-contrib-vision-ai",
+      "version": "1.0.6",
+      "description": "Facial Recognize Nodes With AI for Node-RED",
+      "updated_at": "2023-09-30T14:40:24.425Z",
+      "types": [
+        "good-object-detection",
+        "good-face-detection",
+        "good-webcam-object-detection",
+        "good-chroma-db",
+        "good-face-vectorization",
+        "good-calculate-cosine"
+      ],
+      "keywords": [
+        "node-red",
+        "FaceNet",
+        "face detection",
+        "yolo",
+        "onnx",
+        "object detection",
+        "webcam",
+        "vector",
+        "database",
+        "chromadb",
+        "embedding",
+        "cosine",
+        "similarity",
+        "distance"
+      ],
+      "url": "https://flows.nodered.org/node/@good-i-deer/node-red-contrib-vision-ai"
     },
     {
       "id": "@good-i-deer/node-red-contrib-face-vectorization",
@@ -111,6 +322,38 @@
       "url": "https://flows.nodered.org/node/@gregoriusrippenstein/node-red-contrib-validation-and-documentation"
     },
     {
+      "id": "node-red-contrib-docxtemplater",
+      "version": "1.0.6",
+      "description": "Generate docx, pptx, and xlsx from templates (Word, Powerpoint and Excel documents), from Node-Red",
+      "updated_at": "2023-09-29T18:49:35.104Z",
+      "types": [
+        "docxtemplater"
+      ],
+      "keywords": [
+        "docx",
+        "pptx",
+        "templates",
+        "template",
+        "templater",
+        "templating",
+        "report",
+        "xlsx",
+        "generation",
+        "generate",
+        "generator",
+        "microsoft office",
+        "microsoft word",
+        "microsoft powerpoint",
+        "microsoft excel",
+        "create",
+        "make",
+        "Office Open XML",
+        "creator",
+        "node-red"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-docxtemplater"
+    },
+    {
       "id": "freshdesk-node-red-contrib",
       "version": "0.5.0",
       "description": "node-red nodes to call the Freshdesk API",
@@ -130,37 +373,6 @@
         "node-red"
       ],
       "url": "https://flows.nodered.org/node/freshdesk-node-red-contrib"
-    },
-    {
-      "id": "@good-i-deer/node-red-contrib-vision-ai",
-      "version": "1.0.5",
-      "description": "Facial Recognize Nodes With AI for Node-RED",
-      "updated_at": "2023-09-29T12:25:03.203Z",
-      "types": [
-        "good-object-detection",
-        "good-face-detection",
-        "webcam-object-detection",
-        "chroma-db",
-        "face-vectorization",
-        "calculate-cosine"
-      ],
-      "keywords": [
-        "node-red",
-        "FaceNet",
-        "face detection",
-        "yolo",
-        "onnx",
-        "object detection",
-        "webcam",
-        "vector",
-        "database",
-        "chromadb",
-        "embedding",
-        "cosine",
-        "similarity",
-        "distance"
-      ],
-      "url": "https://flows.nodered.org/node/@good-i-deer/node-red-contrib-vision-ai"
     },
     {
       "id": "node-red-contrib-polywall-api",
@@ -2385,28 +2597,6 @@
       "url": "https://flows.nodered.org/node/node-red-node-data-generator"
     },
     {
-      "id": "node-red-contrib-mssql-plus",
-      "version": "0.11.0",
-      "description": "A node-red node to execute queries, stored procedures and bulk inserts in Microsoft SQL Server and Azure Databases SQL2000 ~ SQL2022",
-      "updated_at": "2023-09-18T15:46:27.862Z",
-      "types": [
-        "MSSQL-CN",
-        "MSSQL"
-      ],
-      "keywords": [
-        "node-red",
-        "odbc",
-        "unixodbc",
-        "mssql",
-        "sql",
-        "Microsoft",
-        "database",
-        "sql-server",
-        "azure"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-mssql-plus"
-    },
-    {
       "id": "node-red-contrib-letsfiware-ngsi",
       "version": "0.17.0",
       "description": "Node-RED implementation for FIWARE Open APIs",
@@ -2821,29 +3011,6 @@
         "api"
       ],
       "url": "https://flows.nodered.org/node/openapi-red"
-    },
-    {
-      "id": "node-red-contrib-alexa-remote2-applestrudel",
-      "version": "5.0.42",
-      "description": "node-red nodes for interacting with alexa",
-      "updated_at": "2023-09-13T10:20:44.080Z",
-      "types": [
-        "alexa-remote-account",
-        "alexa-remote-init",
-        "alexa-remote-event",
-        "alexa-remote-smarthome",
-        "alexa-remote-routine",
-        "alexa-remote-echo",
-        "alexa-remote-other",
-        "alexa-remote-list"
-      ],
-      "keywords": [
-        "node-red",
-        "alexa remote",
-        "alexa",
-        "echo"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-alexa-remote2-applestrudel"
     },
     {
       "id": "apconic-node-red-string-parser",
@@ -6850,32 +7017,6 @@
         "aes"
       ],
       "url": "https://flows.nodered.org/node/smithtek-nodered-lora-aes"
-    },
-    {
-      "id": "@almostinteractive/node-red-contrib-basic-ical-calendar",
-      "version": "2.0.1",
-      "description": "NodeRed iCal calender trigger and sensor",
-      "updated_at": "2023-07-09T20:43:10.118Z",
-      "types": [
-        "cal-config",
-        "cal-sensor",
-        "__errors__",
-        "cal-trigger",
-        "__errors__"
-      ],
-      "keywords": [
-        "node-red",
-        "ical",
-        "calendar",
-        "events",
-        "google",
-        "outlook",
-        "nodered",
-        "ics",
-        "smart home",
-        "home automation"
-      ],
-      "url": "https://flows.nodered.org/node/@almostinteractive/node-red-contrib-basic-ical-calendar"
     },
     {
       "id": "node-red-contrib-xiaodu-xiaoai",
@@ -12365,38 +12506,6 @@
         "node-red"
       ],
       "url": "https://flows.nodered.org/node/@chvdapi/node-red-pn6400-led"
-    },
-    {
-      "id": "node-red-contrib-docxtemplater",
-      "version": "1.0.5",
-      "description": "Generate docx, pptx, and xlsx from templates (Word, Powerpoint and Excel documents), from Node-Red",
-      "updated_at": "2023-03-23T21:54:24.431Z",
-      "types": [
-        "docxtemplater"
-      ],
-      "keywords": [
-        "docx",
-        "pptx",
-        "templates",
-        "template",
-        "templater",
-        "templating",
-        "report",
-        "xlsx",
-        "generation",
-        "generate",
-        "generator",
-        "microsoft office",
-        "microsoft word",
-        "microsoft powerpoint",
-        "microsoft excel",
-        "create",
-        "make",
-        "Office Open XML",
-        "creator",
-        "node-red"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-docxtemplater"
     },
     {
       "id": "@s1seven/node-red-s1seven-api",
@@ -21849,21 +21958,6 @@
         "call"
       ],
       "url": "https://flows.nodered.org/node/@notify.events/node-red"
-    },
-    {
-      "id": "node-red-contrib-soma-smartblinds2",
-      "version": "0.2.1",
-      "description": "NodeRed node for Soma smart blinds 2.",
-      "updated_at": "2022-08-07T08:18:25.058Z",
-      "types": [
-        "soma-smartblinds2"
-      ],
-      "keywords": [
-        "node-red",
-        "soma",
-        "smart blinds"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-soma-smartblinds2"
     },
     {
       "id": "node-red-contrib-azure-iot-device",
@@ -32524,20 +32618,6 @@
         "special date"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-special-date"
-    },
-    {
-      "id": "node-red-node-exif",
-      "version": "0.3.1",
-      "description": "A Node-RED node that extracts Exif information from JPEG image buffers.",
-      "updated_at": "2021-10-24T17:01:44.018Z",
-      "types": [
-        "exif"
-      ],
-      "keywords": [
-        "node-red",
-        "exif"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-node-exif"
     },
     {
       "id": "node-red-contrib-redplc-tf-csaiodriver",
@@ -46217,29 +46297,6 @@
         "degree"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-compass"
-    },
-    {
-      "id": "node-red-contrib-calc",
-      "version": "1.0.5",
-      "description": "A Node-Red node to perform basic mathematical calculations",
-      "updated_at": "2020-08-25T18:17:47.227Z",
-      "types": [
-        "calculator"
-      ],
-      "keywords": [
-        "node-red",
-        "math",
-        "mathematics",
-        "calculate",
-        "min",
-        "max",
-        "round",
-        "trunc",
-        "min",
-        "max",
-        "average"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-calc"
     },
     {
       "id": "smithtek-node-red-meter",
