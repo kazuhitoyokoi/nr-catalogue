@@ -1,7 +1,172 @@
 {
   "name": "Catalogue for macOS",
-  "updated_at": "2023-10-01T20:57:57.995Z",
+  "updated_at": "2023-10-02T20:53:04.493Z",
   "modules": [
+    {
+      "id": "node-red-contrib-victron-vedirect-usb",
+      "version": "0.1.4",
+      "description": "Access the Victron equipment with a USB VE.Direct cable",
+      "updated_at": "2023-10-02T11:28:48.397Z",
+      "types": [
+        "victron-vedirect-usb"
+      ],
+      "keywords": [
+        "node-red",
+        "victron",
+        "vedirect"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-victron-vedirect-usb"
+    },
+    {
+      "id": "@appmodule/node-red-contrib-siot",
+      "version": "3.0.0-rc7",
+      "description": "Node-RED interactions with SIOT",
+      "updated_at": "2023-10-02T10:41:31.000Z",
+      "types": [
+        "de-commands",
+        "cmd-ack",
+        "de-subscriber",
+        "de-publisher",
+        "siot-config",
+        "class-config"
+      ],
+      "keywords": [
+        "node-red"
+      ],
+      "url": "https://flows.nodered.org/node/@appmodule/node-red-contrib-siot"
+    },
+    {
+      "id": "@gregoriusrippenstein/node-red-contrib-auto-alignment",
+      "version": "0.0.4",
+      "description": "Auto-layout/alignment of a Node-RED flow.",
+      "updated_at": "2023-10-02T09:38:12.337Z",
+      "types": [
+        "AutoAlign"
+      ],
+      "keywords": [
+        "node-red",
+        "auto-alignment",
+        "alignment",
+        "auto-layout",
+        "layout"
+      ],
+      "url": "https://flows.nodered.org/node/@gregoriusrippenstein/node-red-contrib-auto-alignment"
+    },
+    {
+      "id": "node-red-contrib-tts-ultimate",
+      "version": "2.0.5",
+      "description": "Transforms the text in speech and hear it using Sonos player or generate an audio file to be used with third parties nodes. Works with voices from Amazon, Google (without credentials as well), Microsoft TTS Azure, ElevenLabs.io TTS or your own voice. You ",
+      "updated_at": "2023-10-02T05:50:13.734Z",
+      "types": [
+        "ttsultimate",
+        "ttsultimate-config",
+        "ownfileultimate"
+      ],
+      "keywords": [
+        "node-red",
+        "polly",
+        "google",
+        "voice",
+        "amazon",
+        "azure",
+        "tts",
+        "sonos",
+        "IOT",
+        "speech",
+        "ttsultimate",
+        "sonospollytts",
+        "neural",
+        "elevenlabs"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-tts-ultimate"
+    },
+    {
+      "id": "thingzi-logic-timers",
+      "version": "1.4.3",
+      "description": "Easy to use time based nodes with clean design",
+      "updated_at": "2023-10-01T23:36:53.202Z",
+      "types": [
+        "thingzi-timer",
+        "thingzi-time-check",
+        "thingzi-schedule",
+        "thingzi-activity"
+      ],
+      "keywords": [
+        "node-red",
+        "timer",
+        "schedule",
+        "time",
+        "calendar",
+        "trigger",
+        "motion",
+        "chrono"
+      ],
+      "url": "https://flows.nodered.org/node/thingzi-logic-timers"
+    },
+    {
+      "id": "node-red-node-telegrambot",
+      "version": "0.0.3",
+      "description": "Telegram userbot nodes for Node-RED",
+      "updated_at": "2023-10-01T21:13:33.999Z",
+      "types": [
+        "telegram client config",
+        "telegram client receiver",
+        "telegram client sender"
+      ],
+      "keywords": [
+        "node-red",
+        "telegram",
+        "bot",
+        "userbot",
+        "selfbot"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-node-telegrambot"
+    },
+    {
+      "id": "@sip-irrigation/node-red-sip-irrigation-nodes",
+      "version": "1.0.2",
+      "description": "A collection of nodes that work with SIP irrigation control software",
+      "updated_at": "2023-10-01T20:15:26.563Z",
+      "types": [
+        "sip-prog-cntl",
+        "sip-rain-delay",
+        "sip-run-now",
+        "sip-run-once",
+        "sip-station-cntl",
+        "sip-stop-all",
+        "sip-water-level"
+      ],
+      "keywords": [
+        "node-red",
+        "sip irrigation",
+        "sprinkler control",
+        "irrigation",
+        "sprinklers",
+        "hydroponics",
+        "Raspberry Pi"
+      ],
+      "url": "https://flows.nodered.org/node/@sip-irrigation/node-red-sip-irrigation-nodes"
+    },
+    {
+      "id": "node-red-contrib-panasonic-comfort-cloud",
+      "version": "1.4.1",
+      "description": "Node-RED implementation of panasonic-comfort-cloud-api",
+      "updated_at": "2023-10-01T19:17:24.129Z",
+      "types": [
+        "pcc-config",
+        "pcc-groups",
+        "pcc-device",
+        "pcc-command"
+      ],
+      "keywords": [
+        "node-red",
+        "panasonic",
+        "comfort-cloud",
+        "heatpump",
+        "heat-pump"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-panasonic-comfort-cloud"
+    },
     {
       "id": "node-red-contrib-topsail",
       "version": "3.0.3",
@@ -90,23 +255,6 @@
         "burglar"
       ],
       "url": "https://flows.nodered.org/node/node-red-sia-cert"
-    },
-    {
-      "id": "@gregoriusrippenstein/node-red-contrib-auto-alignment",
-      "version": "0.0.3",
-      "description": "Auto-layout/alignment of a Node-RED flow.",
-      "updated_at": "2023-10-01T10:24:00.260Z",
-      "types": [
-        "AutoAlign"
-      ],
-      "keywords": [
-        "node-red",
-        "auto-alignment",
-        "alignment",
-        "auto-layout",
-        "layout"
-      ],
-      "url": "https://flows.nodered.org/node/@gregoriusrippenstein/node-red-contrib-auto-alignment"
     },
     {
       "id": "node-red-contrib-soma-smartblinds2",
@@ -630,24 +778,6 @@
         "configurable"
       ],
       "url": "https://flows.nodered.org/node/@gbl-sasm-alert/node-red-contrib-moduleflows"
-    },
-    {
-      "id": "node-red-node-telegrambot",
-      "version": "0.0.2",
-      "description": "Telegram userbot nodes for Node-RED",
-      "updated_at": "2023-09-27T20:03:18.394Z",
-      "types": [
-        "telegram userbot config",
-        "telegram userbot receiver"
-      ],
-      "keywords": [
-        "node-red",
-        "telegram",
-        "bot",
-        "userbot",
-        "selfbot"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-node-telegrambot"
     },
     {
       "id": "@good-i-deer/node-red-contrib-face-detection",
@@ -2314,24 +2444,6 @@
         "rac-wf"
       ],
       "url": "https://flows.nodered.org/node/@programie/node-red-aircon-rac-wf"
-    },
-    {
-      "id": "@appmodule/node-red-contrib-siot",
-      "version": "3.0.0-rc6",
-      "description": "Node-RED interactions with SIOT",
-      "updated_at": "2023-09-20T12:17:25.482Z",
-      "types": [
-        "de-commands",
-        "cmd-ack",
-        "de-subscriber",
-        "de-publisher",
-        "siot-config",
-        "class-config"
-      ],
-      "keywords": [
-        "node-red"
-      ],
-      "url": "https://flows.nodered.org/node/@appmodule/node-red-contrib-siot"
     },
     {
       "id": "@mike.gofton/dsp-w215",
@@ -4859,34 +4971,6 @@
       "url": "https://flows.nodered.org/node/@tq-bit/node-red-contrib-trace-messages"
     },
     {
-      "id": "node-red-contrib-tts-ultimate",
-      "version": "2.0.4",
-      "description": "Transforms the text in speech and hear it using Sonos player or generate an audio file to be used with third parties nodes. Works with voices from Amazon, Google (without credentials as well), Microsoft TTS Azure, ElevenLabs.io TTS or your own voice. You ",
-      "updated_at": "2023-08-25T11:55:00.478Z",
-      "types": [
-        "ttsultimate",
-        "ttsultimate-config",
-        "ownfileultimate"
-      ],
-      "keywords": [
-        "node-red",
-        "polly",
-        "google",
-        "voice",
-        "amazon",
-        "azure",
-        "tts",
-        "sonos",
-        "IOT",
-        "speech",
-        "ttsultimate",
-        "sonospollytts",
-        "neural",
-        "elevenlabs"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-tts-ultimate"
-    },
-    {
       "id": "victron-vrm-api",
       "version": "0.0.5",
       "description": "Interface with the Victron Energy VRM API",
@@ -5117,29 +5201,6 @@
         "webpage"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-uibuilder"
-    },
-    {
-      "id": "@sip-irrigation/node-red-sip-irrigation-nodes",
-      "version": "1.0.0",
-      "description": "A collection of nodes that work with SIP irrigation control software",
-      "updated_at": "2023-08-21T15:18:34.621Z",
-      "types": [
-        "sip-prog-cntl",
-        "sip-rain-delay",
-        "sip-run-now",
-        "sip-run-once",
-        "sip-station-cntl",
-        "sip-stop-all",
-        "sip-water-level"
-      ],
-      "keywords": [
-        "node-red",
-        "sip irrigation",
-        "sprinkler control",
-        "irrigation",
-        "sprinkler"
-      ],
-      "url": "https://flows.nodered.org/node/@sip-irrigation/node-red-sip-irrigation-nodes"
     },
     {
       "id": "@lunatone/node-red-dali",
@@ -10236,26 +10297,6 @@
       "url": "https://flows.nodered.org/node/topological-nodered-wdio"
     },
     {
-      "id": "node-red-contrib-panasonic-comfort-cloud",
-      "version": "1.4.0",
-      "description": "Node-RED implementation of panasonic-comfort-cloud-api",
-      "updated_at": "2023-05-08T04:48:03.073Z",
-      "types": [
-        "pcc-config",
-        "pcc-groups",
-        "pcc-device",
-        "pcc-command"
-      ],
-      "keywords": [
-        "node-red",
-        "panasonic",
-        "comfort-cloud",
-        "heatpump",
-        "heat-pump"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-panasonic-comfort-cloud"
-    },
-    {
       "id": "@nodecolor/node-red-contrib-azure-iot-hub",
       "version": "0.5.3",
       "description": "Connector to azure on Node-Red",
@@ -12921,21 +12962,6 @@
         "sharpscada"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-gatewayex"
-    },
-    {
-      "id": "node-red-contrib-victron-vedirect-usb",
-      "version": "0.1.2",
-      "description": "Access the Victron equipment with a USB VE.Direct cable",
-      "updated_at": "2023-03-20T10:34:10.091Z",
-      "types": [
-        "victron-vedirect-usb"
-      ],
-      "keywords": [
-        "node-red",
-        "victron",
-        "vedirect"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-victron-vedirect-usb"
     },
     {
       "id": "node-red-contrib-discrete-fsm",
@@ -20304,26 +20330,6 @@
         "iot"
       ],
       "url": "https://flows.nodered.org/node/@epson-robots/node-red-contrib-epson-robot"
-    },
-    {
-      "id": "thingzi-logic-timers",
-      "version": "1.2.5",
-      "description": "Easy to use time based nodes with clean design",
-      "updated_at": "2022-09-27T19:28:32.638Z",
-      "types": [
-        "thingzi-timer",
-        "thingzi-time-check",
-        "thingzi-schedule"
-      ],
-      "keywords": [
-        "node-red",
-        "timer",
-        "schedule",
-        "time",
-        "calendar",
-        "trigger"
-      ],
-      "url": "https://flows.nodered.org/node/thingzi-logic-timers"
     },
     {
       "id": "@yousolution/node-red-contrib-you-marketing-mailchimp",
