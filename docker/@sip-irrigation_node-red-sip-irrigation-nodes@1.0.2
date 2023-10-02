@@ -1,0 +1,44 @@
+#0 building with "default" instance using docker driver
+
+#1 [internal] load .dockerignore
+#1 transferring context: 2B done
+#1 DONE 0.0s
+
+#2 [internal] load build definition from Dockerfile
+#2 transferring dockerfile: 138B done
+#2 DONE 0.0s
+
+#3 [internal] load metadata for docker.io/nodered/node-red:latest
+#3 DONE 0.1s
+
+#4 [1/2] FROM docker.io/nodered/node-red@sha256:5e99ed734f7d2f9bfcb1e20dfbf4c5b9aa60f35a9df6e257e817130f0f9be9dc
+#4 CACHED
+
+#5 [2/2] RUN npm install npm install @sip-irrigation/node-red-sip-irrigation-nodes@1.0.2
+#5 2.035 npm WARN EBADENGINE Unsupported engine {
+#5 2.035 npm WARN EBADENGINE   package: 'npm@10.1.0',
+#5 2.035 npm WARN EBADENGINE   required: { node: '^18.17.0 || >=20.5.0' },
+#5 2.035 npm WARN EBADENGINE   current: { node: 'v16.20.2', npm: '8.19.4' }
+#5 2.035 npm WARN EBADENGINE }
+#5 4.453 
+#5 4.453 added 3 packages, and audited 565 packages in 4s
+#5 4.453 
+#5 4.453 65 packages are looking for funding
+#5 4.453   run `npm fund` for details
+#5 4.455 
+#5 4.455 found 0 vulnerabilities
+#5 4.455 npm notice 
+#5 4.455 npm notice New major version of npm available! 8.19.4 -> 10.1.0
+#5 4.455 npm notice Changelog: <https://github.com/npm/cli/releases/tag/v10.1.0>
+#5 4.456 npm notice Run `npm install -g npm@10.1.0` to update!
+#5 4.456 npm notice 
+#5 DONE 4.5s
+
+#6 exporting to image
+#6 exporting layers
+#6 exporting layers 0.9s done
+#6 writing image sha256:89462dfc417436e384a0a98e529e11f8d84976c151f50a56e01510e9bbee3a20 done
+#6 naming to docker.io/library/tmp done
+#6 DONE 0.9s
+
+----
