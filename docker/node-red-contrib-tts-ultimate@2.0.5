@@ -1,0 +1,51 @@
+#0 building with "default" instance using docker driver
+
+#1 [internal] load .dockerignore
+#1 transferring context: 2B done
+#1 DONE 0.0s
+
+#2 [internal] load build definition from Dockerfile
+#2 transferring dockerfile: 122B done
+#2 DONE 0.0s
+
+#3 [internal] load metadata for docker.io/nodered/node-red:latest
+#3 DONE 0.1s
+
+#4 [1/2] FROM docker.io/nodered/node-red@sha256:5e99ed734f7d2f9bfcb1e20dfbf4c5b9aa60f35a9df6e257e817130f0f9be9dc
+#4 CACHED
+
+#5 [2/2] RUN npm install npm install node-red-contrib-tts-ultimate@2.0.5
+#5 5.140 npm WARN EBADENGINE Unsupported engine {
+#5 5.140 npm WARN EBADENGINE   package: 'npm@10.1.0',
+#5 5.140 npm WARN EBADENGINE   required: { node: '^18.17.0 || >=20.5.0' },
+#5 5.140 npm WARN EBADENGINE   current: { node: 'v16.20.2', npm: '8.19.4' }
+#5 5.140 npm WARN EBADENGINE }
+#5 8.068 npm WARN deprecated querystring@0.2.0: The querystring API is considered Legacy. new code should use the URLSearchParams API instead.
+#5 8.106 npm WARN deprecated formidable@1.2.2: Please upgrade to latest, formidable@v2 or formidable@v3! Check these notes: https://bit.ly/2ZEqIau
+#5 10.23 
+#5 10.23 added 156 packages, and audited 718 packages in 10s
+#5 10.23 
+#5 10.23 81 packages are looking for funding
+#5 10.23   run `npm fund` for details
+#5 10.24 
+#5 10.24 3 moderate severity vulnerabilities
+#5 10.24 
+#5 10.24 Some issues need review, and may require choosing
+#5 10.24 a different dependency.
+#5 10.24 
+#5 10.24 Run `npm audit` for details.
+#5 10.24 npm notice 
+#5 10.24 npm notice New major version of npm available! 8.19.4 -> 10.1.0
+#5 10.24 npm notice Changelog: <https://github.com/npm/cli/releases/tag/v10.1.0>
+#5 10.24 npm notice Run `npm install -g npm@10.1.0` to update!
+#5 10.24 npm notice 
+#5 DONE 11.1s
+
+#6 exporting to image
+#6 exporting layers
+#6 exporting layers 2.5s done
+#6 writing image sha256:cf036fe525dc553c722f66039311a776d41adda44a527c1d326ebb754ec5a2be done
+#6 naming to docker.io/library/tmp done
+#6 DONE 2.5s
+
+----
