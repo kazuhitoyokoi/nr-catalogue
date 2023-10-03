@@ -1,7 +1,175 @@
 {
   "name": "Catalogue for Docker",
-  "updated_at": "2023-10-02T16:06:26.122Z",
+  "updated_at": "2023-10-03T16:15:22.246Z",
   "modules": [
+    {
+      "id": "node-red-contrib-agur-connector",
+      "version": "1.2.1",
+      "description": "Easy to use Node-RED oracle database nodes",
+      "updated_at": "2023-10-03T14:15:22.790Z",
+      "types": [
+        "easy-oracle-config",
+        "easy-oracle"
+      ],
+      "keywords": [
+        "node-red"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-agur-connector"
+    },
+    {
+      "id": "node-red-contrib-virtual-smart-home",
+      "version": "3.0.10",
+      "description": "A Node-RED node that represents a 'virtual device' which can be controlled via Alexa. Requires the virtual smart home skill to be enabled for your Amazon account.",
+      "updated_at": "2023-10-03T13:06:40.224Z",
+      "types": [
+        "vsh-connection",
+        "vsh-virtual-device"
+      ],
+      "keywords": [
+        "Alexa",
+        "Echo",
+        "smart-home",
+        "node-red",
+        "virtual smart home",
+        "virtual device",
+        "vsh"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-virtual-smart-home"
+    },
+    {
+      "id": "node-red-contrib-web-worldmap",
+      "version": "3.0.0",
+      "description": "A Node-RED node to provide a web page of a world map for plotting things on.",
+      "updated_at": "2023-10-03T12:34:53.307Z",
+      "types": [
+        "worldmap",
+        "ui_worldmap",
+        "worldmap in",
+        "worldmap-tracks",
+        "worldmap-hull"
+      ],
+      "keywords": [
+        "node-red",
+        "map",
+        "world",
+        "tak"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-web-worldmap"
+    },
+    {
+      "id": "node-red-contrib-knx-ultimate",
+      "version": "2.1.50",
+      "description": "Control your KNX intallation via Node-Red! Single Node KNX IN/OUT with optional ETS group address importer. Easy to use and highly configurable. With integrated Philips HUE devices handling.",
+      "updated_at": "2023-10-03T11:42:55.762Z",
+      "types": [
+        "knxUltimate",
+        "knxUltimateSceneController",
+        "knxUltimateWatchDog",
+        "knxUltimateLogger",
+        "knxUltimate-config",
+        "knxUltimateGlobalContext",
+        "knxUltimateAlerter",
+        "knxUltimateLoadControl",
+        "knxUltimateViewer",
+        "hue-config",
+        "knxUltimateHueLight",
+        "knxUltimateHueButton",
+        "knxUltimateHueMotion",
+        "knxUltimateHueTapDial",
+        "knxUltimateHueLightSensor",
+        "knxUltimateHueTemperatureSensor",
+        "knxUltimateHueScene",
+        "knxUltimateHueBattery"
+      ],
+      "keywords": [
+        "node-red",
+        "KNX",
+        "ETS",
+        "eib",
+        "eibd",
+        "knxd",
+        "konnex",
+        "IOT",
+        "hue"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-knx-ultimate"
+    },
+    {
+      "id": "@bitpoolos/edge-bacnet",
+      "version": "1.2.6",
+      "description": "A bacnet gateway for node-red",
+      "updated_at": "2023-10-03T06:02:14.777Z",
+      "types": [
+        "Bacnet-Gateway",
+        "Bacnet-Discovery",
+        "Bacnet-Write",
+        "Bitpool-Inject"
+      ],
+      "keywords": [
+        "node-red",
+        "bitpool",
+        "bitpoolos",
+        "edge",
+        "big data",
+        "iot",
+        "BACnet"
+      ],
+      "url": "https://flows.nodered.org/node/@bitpoolos/edge-bacnet"
+    },
+    {
+      "id": "@allanoricil/node-red-timsort",
+      "version": "0.1.1",
+      "description": "Faster sorting algorithm than Array.prototype.sort",
+      "updated_at": "2023-10-03T03:14:34.634Z",
+      "types": [
+        "timsort"
+      ],
+      "keywords": [
+        "node-red"
+      ],
+      "url": "https://flows.nodered.org/node/@allanoricil/node-red-timsort"
+    },
+    {
+      "id": "node-red-contrib-home-assistant-websocket",
+      "version": "0.57.0",
+      "description": "Node-RED integration with Home Assistant through websocket and REST API",
+      "updated_at": "2023-10-02T21:45:24.442Z",
+      "types": [],
+      "keywords": [
+        "node-red",
+        "home-assistant",
+        "home assistant",
+        "home automation",
+        "websocket"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-home-assistant-websocket"
+    },
+    {
+      "id": "@almostinteractive/node-red-contrib-basic-ical-calendar",
+      "version": "2.2.0",
+      "description": "NodeRed iCal calender trigger and sensor",
+      "updated_at": "2023-10-02T20:24:44.946Z",
+      "types": [
+        "cal-config",
+        "cal-sensor",
+        "__errors__",
+        "cal-trigger",
+        "__errors__"
+      ],
+      "keywords": [
+        "node-red",
+        "ical",
+        "calendar",
+        "events",
+        "google",
+        "outlook",
+        "nodered",
+        "ics",
+        "smart home",
+        "home automation"
+      ],
+      "url": "https://flows.nodered.org/node/@almostinteractive/node-red-contrib-basic-ical-calendar"
+    },
     {
       "id": "node-red-contrib-victron-vedirect-usb",
       "version": "0.1.4",
@@ -292,32 +460,6 @@
         "azure"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-mssql-plus"
-    },
-    {
-      "id": "@almostinteractive/node-red-contrib-basic-ical-calendar",
-      "version": "2.1.0",
-      "description": "NodeRed iCal calender trigger and sensor",
-      "updated_at": "2023-10-01T02:45:26.482Z",
-      "types": [
-        "cal-config",
-        "cal-sensor",
-        "__errors__",
-        "cal-trigger",
-        "__errors__"
-      ],
-      "keywords": [
-        "node-red",
-        "ical",
-        "calendar",
-        "events",
-        "google",
-        "outlook",
-        "nodered",
-        "ics",
-        "smart home",
-        "home automation"
-      ],
-      "url": "https://flows.nodered.org/node/@almostinteractive/node-red-contrib-basic-ical-calendar"
     },
     {
       "id": "node-red-contrib-whatsapp-link",
@@ -970,44 +1112,6 @@
         "iot"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-snap4city-user"
-    },
-    {
-      "id": "node-red-contrib-knx-ultimate",
-      "version": "2.1.47",
-      "description": "Control your KNX intallation via Node-Red! Single Node KNX IN/OUT with optional ETS group address importer. Easy to use and highly configurable. With integrated Philips HUE devices handling.",
-      "updated_at": "2023-09-27T16:04:33.575Z",
-      "types": [
-        "knxUltimate",
-        "knxUltimateSceneController",
-        "knxUltimateWatchDog",
-        "knxUltimateLogger",
-        "knxUltimate-config",
-        "knxUltimateGlobalContext",
-        "knxUltimateAlerter",
-        "knxUltimateLoadControl",
-        "knxUltimateViewer",
-        "hue-config",
-        "knxUltimateHueLight",
-        "knxUltimateHueButton",
-        "knxUltimateHueMotion",
-        "knxUltimateHueTapDial",
-        "knxUltimateHueLightSensor",
-        "knxUltimateHueTemperatureSensor",
-        "knxUltimateHueScene",
-        "knxUltimateHueBattery"
-      ],
-      "keywords": [
-        "node-red",
-        "KNX",
-        "ETS",
-        "eib",
-        "eibd",
-        "knxd",
-        "konnex",
-        "IOT",
-        "hue"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-knx-ultimate"
     },
     {
       "id": "@good-i-deer/node-red-contrib-cosine-similarity",
@@ -2479,20 +2583,6 @@
         "dsp-w215"
       ],
       "url": "https://flows.nodered.org/node/@mike.gofton/dsp-w215"
-    },
-    {
-      "id": "node-red-contrib-agur-connector",
-      "version": "1.1.0",
-      "description": "Easy to use Node-RED oracle database nodes",
-      "updated_at": "2023-09-20T09:56:37.868Z",
-      "types": [
-        "easy-oracle-config",
-        "easy-oracle"
-      ],
-      "keywords": [
-        "node-red"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-agur-connector"
     },
     {
       "id": "@sammachin/node-red-matter-bridge",
@@ -4403,21 +4493,6 @@
       "url": "https://flows.nodered.org/node/@racksync/node-red-contrib-low-pass-filter"
     },
     {
-      "id": "node-red-contrib-home-assistant-websocket",
-      "version": "0.56.1",
-      "description": "Node-RED integration with Home Assistant through websocket and REST API",
-      "updated_at": "2023-09-02T03:59:05.097Z",
-      "types": [],
-      "keywords": [
-        "node-red",
-        "home-assistant",
-        "home assistant",
-        "home automation",
-        "websocket"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-home-assistant-websocket"
-    },
-    {
       "id": "node-red-contrib-ui-svg",
       "version": "2.3.3",
       "description": "A Node-RED widget node to show interactive SVG (vector graphics) in the dashboard",
@@ -4436,26 +4511,6 @@
         "hmi"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-ui-svg"
-    },
-    {
-      "id": "node-red-contrib-web-worldmap",
-      "version": "2.42.3",
-      "description": "A Node-RED node to provide a web page of a world map for plotting things on.",
-      "updated_at": "2023-09-01T12:29:03.831Z",
-      "types": [
-        "worldmap",
-        "ui_worldmap",
-        "worldmap in",
-        "worldmap-tracks",
-        "worldmap-hull"
-      ],
-      "keywords": [
-        "node-red",
-        "map",
-        "world",
-        "tak"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-web-worldmap"
     },
     {
       "id": "node-red-contrib-bsb-lan",
@@ -7954,28 +8009,6 @@
         "client"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-polkadot"
-    },
-    {
-      "id": "@bitpoolos/edge-bacnet",
-      "version": "1.2.5",
-      "description": "A bacnet gateway for node-red",
-      "updated_at": "2023-06-22T07:20:46.324Z",
-      "types": [
-        "Bacnet-Gateway",
-        "Bacnet-Discovery",
-        "Bacnet-Write",
-        "Bitpool-Inject"
-      ],
-      "keywords": [
-        "node-red",
-        "bitpool",
-        "bitpoolos",
-        "edge",
-        "big data",
-        "iot",
-        "BACnet"
-      ],
-      "url": "https://flows.nodered.org/node/@bitpoolos/edge-bacnet"
     },
     {
       "id": "node-red-hello-world-minimal",
@@ -14066,26 +14099,6 @@
         "windows"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-wmi"
-    },
-    {
-      "id": "node-red-contrib-virtual-smart-home",
-      "version": "3.0.9",
-      "description": "A Node-RED node that represents a 'virtual device' which can be controlled via Alexa. Requires the virtual smart home skill to be enabled for your Amazon account.",
-      "updated_at": "2023-02-18T21:52:10.361Z",
-      "types": [
-        "vsh-connection",
-        "vsh-virtual-device"
-      ],
-      "keywords": [
-        "Alexa",
-        "Echo",
-        "smart-home",
-        "node-red",
-        "virtual smart home",
-        "virtual device",
-        "vsh"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-virtual-smart-home"
     },
     {
       "id": "node-red-contrib-chatbot",
