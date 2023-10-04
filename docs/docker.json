@@ -1,26 +1,144 @@
 {
   "name": "Catalogue for Docker",
-  "updated_at": "2023-10-03T16:15:22.246Z",
+  "updated_at": "2023-10-04T16:07:05.606Z",
   "modules": [
     {
-      "id": "node-red-contrib-agur-connector",
-      "version": "1.2.1",
-      "description": "Easy to use Node-RED oracle database nodes",
-      "updated_at": "2023-10-03T14:15:22.790Z",
+      "id": "node-red-contrib-edgesignal-connector",
+      "version": "1.3.0",
+      "description": "edgesignal connector",
+      "updated_at": "2023-10-04T13:35:22.423Z",
       "types": [
-        "easy-oracle-config",
-        "easy-oracle"
+        "app-out",
+        "app-in",
+        "app-connector"
       ],
       "keywords": [
+        "edgesignal",
+        "iot",
         "node-red"
       ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-agur-connector"
+      "url": "https://flows.nodered.org/node/node-red-contrib-edgesignal-connector"
+    },
+    {
+      "id": "node-red-contrib-home-assistant-websocket",
+      "version": "0.57.1",
+      "description": "Node-RED integration with Home Assistant through websocket and REST API",
+      "updated_at": "2023-10-03T21:03:53.337Z",
+      "types": [],
+      "keywords": [
+        "node-red",
+        "home-assistant",
+        "home assistant",
+        "home automation",
+        "websocket"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-home-assistant-websocket"
+    },
+    {
+      "id": "node-red-contrib-axis-host",
+      "version": "1.1.1",
+      "description": "Axis Devices resource binding nodes.  Node-RED must be running on an Axis Device.  Provides access to events, image capture and analytics data",
+      "updated_at": "2023-10-03T20:05:10.225Z",
+      "types": [
+        "Events",
+        "Camera",
+        "Trigger",
+        "Objects"
+      ],
+      "keywords": [
+        "node-red",
+        "Axis"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-axis-host"
+    },
+    {
+      "id": "node-red-contrib-panasonic-comfort-cloud",
+      "version": "1.5.0",
+      "description": "Node-RED implementation of panasonic-comfort-cloud-api",
+      "updated_at": "2023-10-03T19:37:43.153Z",
+      "types": [
+        "pcc-config",
+        "pcc-groups",
+        "pcc-device",
+        "pcc-command"
+      ],
+      "keywords": [
+        "node-red",
+        "panasonic",
+        "comfort-cloud",
+        "heatpump",
+        "heat-pump"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-panasonic-comfort-cloud"
+    },
+    {
+      "id": "@gregoriusrippenstein/node-red-contrib-flowhub",
+      "version": "0.2.2",
+      "description": "FlowHub interaction nodes.",
+      "updated_at": "2023-10-03T17:22:15.455Z",
+      "types": [
+        "FlowHubPull",
+        "FlowHubPush",
+        "FlowHubDiff"
+      ],
+      "keywords": [
+        "node-red",
+        "flowhub",
+        "flowsharing"
+      ],
+      "url": "https://flows.nodered.org/node/@gregoriusrippenstein/node-red-contrib-flowhub"
+    },
+    {
+      "id": "@joe-ab1do/mcp-pcf-aio",
+      "version": "3.1.2",
+      "description": "Node-Red nodes for i2c port expanders MCP23008, MCP23017, PCF8574(A) & PCF8575",
+      "updated_at": "2023-10-03T16:06:26.490Z",
+      "types": [
+        "mcp pcf chip",
+        "mcp pcf in",
+        "mcp pcf out"
+      ],
+      "keywords": [
+        "node-red",
+        "mcp23008",
+        "mcp23017",
+        "pcf8574",
+        "pcf8574A",
+        "pcf8575"
+      ],
+      "url": "https://flows.nodered.org/node/@joe-ab1do/mcp-pcf-aio"
+    },
+    {
+      "id": "node-red-contrib-topsail",
+      "version": "3.0.4",
+      "description": "Interface with Topsail",
+      "updated_at": "2023-10-03T16:02:02.607Z",
+      "types": [
+        "email",
+        "ping",
+        "cbw",
+        "sms",
+        "influx-insert",
+        "influx-query",
+        "camera-capture-image",
+        "camera-capture-video",
+        "bosch-vca",
+        "sftp",
+        "dms-activate",
+        "dms-status",
+        "heartbeat"
+      ],
+      "keywords": [
+        "node-red",
+        "topsail"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-topsail"
     },
     {
       "id": "node-red-contrib-virtual-smart-home",
-      "version": "3.0.10",
+      "version": "3.0.12",
       "description": "A Node-RED node that represents a 'virtual device' which can be controlled via Alexa. Requires the virtual smart home skill to be enabled for your Amazon account.",
-      "updated_at": "2023-10-03T13:06:40.224Z",
+      "updated_at": "2023-10-03T15:15:22.707Z",
       "types": [
         "vsh-connection",
         "vsh-virtual-device"
@@ -35,6 +153,37 @@
         "vsh"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-virtual-smart-home"
+    },
+    {
+      "id": "red-contrib-dx-viewer-2",
+      "version": "1.0.1",
+      "description": "A table viewer node which can preview the data in a tabular fasion.",
+      "updated_at": "2023-10-03T14:42:24.556Z",
+      "types": [
+        "dx-viewer"
+      ],
+      "keywords": [
+        "node-red",
+        "node-red-contrib",
+        "devextreme datagrid",
+        "table viewer",
+        "flow editor"
+      ],
+      "url": "https://flows.nodered.org/node/red-contrib-dx-viewer-2"
+    },
+    {
+      "id": "node-red-contrib-agur-connector",
+      "version": "1.2.3",
+      "description": "Easy to use Node-RED oracle database nodes",
+      "updated_at": "2023-10-03T14:42:08.858Z",
+      "types": [
+        "easy-oracle-config",
+        "easy-oracle"
+      ],
+      "keywords": [
+        "node-red"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-agur-connector"
     },
     {
       "id": "node-red-contrib-web-worldmap",
@@ -128,21 +277,6 @@
         "node-red"
       ],
       "url": "https://flows.nodered.org/node/@allanoricil/node-red-timsort"
-    },
-    {
-      "id": "node-red-contrib-home-assistant-websocket",
-      "version": "0.57.0",
-      "description": "Node-RED integration with Home Assistant through websocket and REST API",
-      "updated_at": "2023-10-02T21:45:24.442Z",
-      "types": [],
-      "keywords": [
-        "node-red",
-        "home-assistant",
-        "home assistant",
-        "home automation",
-        "websocket"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-home-assistant-websocket"
     },
     {
       "id": "@almostinteractive/node-red-contrib-basic-ical-calendar",
@@ -316,52 +450,6 @@
       "url": "https://flows.nodered.org/node/@sip-irrigation/node-red-sip-irrigation-nodes"
     },
     {
-      "id": "node-red-contrib-panasonic-comfort-cloud",
-      "version": "1.4.1",
-      "description": "Node-RED implementation of panasonic-comfort-cloud-api",
-      "updated_at": "2023-10-01T19:17:24.129Z",
-      "types": [
-        "pcc-config",
-        "pcc-groups",
-        "pcc-device",
-        "pcc-command"
-      ],
-      "keywords": [
-        "node-red",
-        "panasonic",
-        "comfort-cloud",
-        "heatpump",
-        "heat-pump"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-panasonic-comfort-cloud"
-    },
-    {
-      "id": "node-red-contrib-topsail",
-      "version": "3.0.3",
-      "description": "Interface with Topsail",
-      "updated_at": "2023-10-01T16:46:42.720Z",
-      "types": [
-        "email",
-        "ping",
-        "cbw",
-        "sms",
-        "influx-insert",
-        "influx-query",
-        "camera-capture-image",
-        "camera-capture-video",
-        "bosch-vca",
-        "sftp",
-        "dms-activate",
-        "dms-status",
-        "heartbeat"
-      ],
-      "keywords": [
-        "node-red",
-        "topsail"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-topsail"
-    },
-    {
       "id": "node-red-contrib-sia-cert",
       "version": "0.0.10",
       "description": "ARC Broker for SIA certified alarm systems",
@@ -507,6 +595,25 @@
       "url": "https://flows.nodered.org/node/node-red-contrib-calc"
     },
     {
+      "id": "@good-i-deer/node-red-contrib-object-detection",
+      "version": "1.0.3",
+      "description": "Object Detection Nodes for Node-RED",
+      "updated_at": "2023-09-30T15:43:25.658Z",
+      "types": [
+        "good-object-detection",
+        "good-webcam-object-detection"
+      ],
+      "keywords": [
+        "node-red",
+        "detection",
+        "yolo",
+        "object-detection",
+        "onnx",
+        "webcam"
+      ],
+      "url": "https://flows.nodered.org/node/@good-i-deer/node-red-contrib-object-detection"
+    },
+    {
       "id": "node-red-node-exif",
       "version": "0.4.0",
       "description": "A Node-RED node that extracts Exif information from JPEG image buffers.",
@@ -567,6 +674,23 @@
         "distance"
       ],
       "url": "https://flows.nodered.org/node/@good-i-deer/node-red-contrib-vision-ai"
+    },
+    {
+      "id": "@good-i-deer/node-red-contrib-cosine-similarity",
+      "version": "1.0.1",
+      "description": "Calculates cosine similarity of two vector values in Node-RED",
+      "updated_at": "2023-09-30T14:15:46.628Z",
+      "types": [
+        "good-calculate-cosine"
+      ],
+      "keywords": [
+        "node-red",
+        "vector",
+        "cosine",
+        "similarity",
+        "distance"
+      ],
+      "url": "https://flows.nodered.org/node/@good-i-deer/node-red-contrib-cosine-similarity"
     },
     {
       "id": "@good-i-deer/node-red-contrib-face-vectorization",
@@ -828,21 +952,6 @@
       "url": "https://flows.nodered.org/node/@ptarmiganlabs/ctrl-q-nr"
     },
     {
-      "id": "@gregoriusrippenstein/node-red-contrib-flowhub",
-      "version": "0.1.9",
-      "description": "FlowHub interaction nodes.",
-      "updated_at": "2023-09-28T18:58:23.928Z",
-      "types": [
-        "FlowHubPull",
-        "FlowHubPush"
-      ],
-      "keywords": [
-        "node-red",
-        "flowhub"
-      ],
-      "url": "https://flows.nodered.org/node/@gregoriusrippenstein/node-red-contrib-flowhub"
-    },
-    {
       "id": "@tbowmo/node-red-small-timer",
       "version": "0.9.1",
       "description": "Small timer node for node red with support for sunrise, sunset etc. timers",
@@ -957,25 +1066,6 @@
         "onnx"
       ],
       "url": "https://flows.nodered.org/node/@good-i-deer/node-red-contrib-face-detection"
-    },
-    {
-      "id": "@good-i-deer/node-red-contrib-object-detection",
-      "version": "1.0.1",
-      "description": "Object Detection Nodes for Node-RED",
-      "updated_at": "2023-09-27T17:16:30.395Z",
-      "types": [
-        "good-object-detection",
-        "webcam-object-detection"
-      ],
-      "keywords": [
-        "node-red",
-        "detection",
-        "yolo",
-        "object-detection",
-        "onnx",
-        "webcam"
-      ],
-      "url": "https://flows.nodered.org/node/@good-i-deer/node-red-contrib-object-detection"
     },
     {
       "id": "node-red-contrib-snap4city-user",
@@ -1112,23 +1202,6 @@
         "iot"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-snap4city-user"
-    },
-    {
-      "id": "@good-i-deer/node-red-contrib-cosine-similarity",
-      "version": "1.0.0",
-      "description": "Calculates cosine similarity of two vector values in Node-RED",
-      "updated_at": "2023-09-27T15:07:33.051Z",
-      "types": [
-        "calculate-cosine"
-      ],
-      "keywords": [
-        "node-red",
-        "vector",
-        "cosine",
-        "similarity",
-        "distance"
-      ],
-      "url": "https://flows.nodered.org/node/@good-i-deer/node-red-contrib-cosine-similarity"
     },
     {
       "id": "node-red-contrib-alice",
@@ -3161,23 +3234,6 @@
       "url": "https://flows.nodered.org/node/@crusaider/node-red-contrib-vattenfall-tariff"
     },
     {
-      "id": "node-red-contrib-axis-host",
-      "version": "1.0.1",
-      "description": "Axis Devices resource binding nodes.  Node-RED must be running on an Axis Device.  Provides access to events, image capture and analytics data",
-      "updated_at": "2023-09-13T20:07:00.068Z",
-      "types": [
-        "Events",
-        "Camera",
-        "Trigger",
-        "Objects"
-      ],
-      "keywords": [
-        "node-red",
-        "Axis"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-axis-host"
-    },
-    {
       "id": "node-red-contrib-ui-time-scheduler-spanish",
       "version": "1.17.12",
       "description": "A ui time scheduler for the Node-RED Dashboard, in spanish version",
@@ -3793,26 +3849,6 @@
         "home automation"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-ical-events"
-    },
-    {
-      "id": "@joe-ab1do/mcp-pcf-aio",
-      "version": "3.0.0",
-      "description": "Node-Red nodes for i2c port expanders MCP23008, MCP23017, PCF8574(A) & PCF8575",
-      "updated_at": "2023-09-06T16:15:25.644Z",
-      "types": [
-        "mcp pcf chip",
-        "mcp pcf in",
-        "mcp pcf out"
-      ],
-      "keywords": [
-        "node-red",
-        "mcp23008",
-        "mcp23017",
-        "pcf8574",
-        "pcf8574A",
-        "pcf8575"
-      ],
-      "url": "https://flows.nodered.org/node/@joe-ab1do/mcp-pcf-aio"
     },
     {
       "id": "@objectif-lune/node-red-contrib-sendgrid",
