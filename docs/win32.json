@@ -1,12 +1,12 @@
 {
   "name": "Catalogue for Windows",
-  "updated_at": "2023-10-04T19:43:08.822Z",
+  "updated_at": "2023-10-05T20:02:03.377Z",
   "modules": [
     {
       "id": "node-red-contrib-edgesignal-connector",
-      "version": "1.3.0",
+      "version": "1.3.4",
       "description": "edgesignal connector",
-      "updated_at": "2023-10-04T13:35:22.423Z",
+      "updated_at": "2023-10-05T16:00:39.238Z",
       "types": [
         "app-out",
         "app-in",
@@ -18,6 +18,184 @@
         "node-red"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-edgesignal-connector"
+    },
+    {
+      "id": "@flowforge/node-red-dashboard",
+      "version": "0.6.0",
+      "description": "A collection of Node-RED nodes that provide functionality to build your own UI applications (inc. forms, buttons, charts) within Node-RED.",
+      "updated_at": "2023-10-05T15:38:49.021Z",
+      "types": [
+        "ui-base",
+        "ui-page",
+        "ui-group",
+        "ui-theme",
+        "ui-form",
+        "__errors__",
+        "ui-text-input",
+        "__errors__",
+        "ui-button",
+        "__errors__",
+        "ui-dropdown",
+        "__errors__",
+        "ui-radio-group",
+        "__errors__",
+        "ui-slider",
+        "__errors__",
+        "ui-switch",
+        "__errors__",
+        "ui-text",
+        "__errors__",
+        "ui-table",
+        "__errors__",
+        "ui-chart",
+        "__errors__",
+        "ui-notification",
+        "__errors__",
+        "ui-markdown",
+        "__errors__",
+        "ui-template",
+        "__errors__"
+      ],
+      "keywords": [
+        "node-red"
+      ],
+      "url": "https://flows.nodered.org/node/@flowforge/node-red-dashboard"
+    },
+    {
+      "id": "node-red-contrib-alice",
+      "version": "2.1.5",
+      "description": "**NodeRed Home** (node-red-contrib-alice) - это сервис позволит, в несколько простых шагов, подключить любые ваши устройства заведенные в Node-RED к умному дому от Яндекса и управлять ими с помощью голосового помощника Алиса.",
+      "updated_at": "2023-10-05T14:42:38.661Z",
+      "types": [
+        "alice-service",
+        "alice-device",
+        "On_Off",
+        "Toggle",
+        "Range",
+        "Color",
+        "Mode",
+        "Sensor",
+        "Event",
+        "Video"
+      ],
+      "keywords": [
+        "node-red",
+        "yandex",
+        "alice",
+        "яндекс",
+        "алиса"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-alice"
+    },
+    {
+      "id": "node-red-contrib-web-worldmap",
+      "version": "3.1.0",
+      "description": "A Node-RED node to provide a web page of a world map for plotting things on.",
+      "updated_at": "2023-10-05T14:02:13.120Z",
+      "types": [
+        "worldmap",
+        "ui_worldmap",
+        "worldmap in",
+        "worldmap-tracks",
+        "worldmap-hull"
+      ],
+      "keywords": [
+        "node-red",
+        "map",
+        "world",
+        "tak"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-web-worldmap"
+    },
+    {
+      "id": "@gregoriusrippenstein/node-red-contrib-flowhub",
+      "version": "0.2.4",
+      "description": "FlowHub interaction nodes.",
+      "updated_at": "2023-10-05T13:39:27.353Z",
+      "types": [
+        "FlowHubPull",
+        "FlowHubPush",
+        "FlowHubDiff"
+      ],
+      "keywords": [
+        "node-red",
+        "flowhub",
+        "flowsharing"
+      ],
+      "url": "https://flows.nodered.org/node/@gregoriusrippenstein/node-red-contrib-flowhub"
+    },
+    {
+      "id": "node-red-contrib-ftp-client",
+      "version": "0.1.11",
+      "description": "FTP client node for Node-RED.",
+      "updated_at": "2023-10-05T04:37:22.558Z",
+      "types": [
+        "ftp"
+      ],
+      "keywords": [
+        "node-red",
+        "ftp",
+        "ftp client"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-ftp-client"
+    },
+    {
+      "id": "@ozmap/node-red-contrib-msg-ozlogger",
+      "version": "1.0.0",
+      "description": "Basic implementations for a log helper on node-red",
+      "updated_at": "2023-10-04T20:39:00.313Z",
+      "types": [],
+      "keywords": [
+        "node-red",
+        "node",
+        "red",
+        "msg",
+        "logger",
+        "ozmap",
+        "oznlogger"
+      ],
+      "url": "https://flows.nodered.org/node/@ozmap/node-red-contrib-msg-ozlogger"
+    },
+    {
+      "id": "node-red-contrib-whatsapp-link",
+      "version": "0.1.39-C",
+      "description": "Node to send and receive whatsapp messages in groups and chats. | No third party APIs",
+      "updated_at": "2023-10-04T20:33:47.238Z",
+      "types": [
+        "admin",
+        "chats-in",
+        "chats-out",
+        "group-out",
+        "reply",
+        "whatsappLink"
+      ],
+      "keywords": [
+        "node-red",
+        "whatsapp",
+        "message",
+        "whatsapp Group",
+        "whatsapp Chat"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-whatsapp-link"
+    },
+    {
+      "id": "node-red-contrib-shelly",
+      "version": "10.14.0",
+      "description": "Shelly nodes.",
+      "updated_at": "2023-10-04T19:52:58.227Z",
+      "types": [
+        "shelly-gen1-server",
+        "shelly-gen1",
+        "shelly-gen2-server",
+        "shelly-gen2",
+        "shelly-cloud-server",
+        "shelly-cloud"
+      ],
+      "keywords": [
+        "node-red",
+        "shelly"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-shelly"
     },
     {
       "id": "node-red-contrib-home-assistant-websocket",
@@ -70,23 +248,6 @@
         "heat-pump"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-panasonic-comfort-cloud"
-    },
-    {
-      "id": "@gregoriusrippenstein/node-red-contrib-flowhub",
-      "version": "0.2.2",
-      "description": "FlowHub interaction nodes.",
-      "updated_at": "2023-10-03T17:22:15.455Z",
-      "types": [
-        "FlowHubPull",
-        "FlowHubPush",
-        "FlowHubDiff"
-      ],
-      "keywords": [
-        "node-red",
-        "flowhub",
-        "flowsharing"
-      ],
-      "url": "https://flows.nodered.org/node/@gregoriusrippenstein/node-red-contrib-flowhub"
     },
     {
       "id": "@joe-ab1do/mcp-pcf-aio",
@@ -184,26 +345,6 @@
         "node-red"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-agur-connector"
-    },
-    {
-      "id": "node-red-contrib-web-worldmap",
-      "version": "3.0.0",
-      "description": "A Node-RED node to provide a web page of a world map for plotting things on.",
-      "updated_at": "2023-10-03T12:34:53.307Z",
-      "types": [
-        "worldmap",
-        "ui_worldmap",
-        "worldmap in",
-        "worldmap-tracks",
-        "worldmap-hull"
-      ],
-      "keywords": [
-        "node-red",
-        "map",
-        "world",
-        "tak"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-web-worldmap"
     },
     {
       "id": "node-red-contrib-knx-ultimate",
@@ -550,28 +691,6 @@
       "url": "https://flows.nodered.org/node/node-red-contrib-mssql-plus"
     },
     {
-      "id": "node-red-contrib-whatsapp-link",
-      "version": "0.1.39-B",
-      "description": "Node to send and receive whatsapp messages in groups and chats. | No third party APIs",
-      "updated_at": "2023-09-30T21:26:03.984Z",
-      "types": [
-        "admin",
-        "chats-in",
-        "chats-out",
-        "group-out",
-        "reply",
-        "whatsappLink"
-      ],
-      "keywords": [
-        "node-red",
-        "whatsapp",
-        "message",
-        "whatsapp Group",
-        "whatsapp Chat"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-whatsapp-link"
-    },
-    {
       "id": "node-red-contrib-calc",
       "version": "1.0.6",
       "description": "A Node-Red node to perform basic mathematical calculations",
@@ -843,25 +962,6 @@
         "node-red"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-polywall-api"
-    },
-    {
-      "id": "node-red-contrib-shelly",
-      "version": "10.13.8",
-      "description": "Shelly nodes.",
-      "updated_at": "2023-09-29T10:23:20.659Z",
-      "types": [
-        "shelly-gen1-server",
-        "shelly-gen1",
-        "shelly-gen2-server",
-        "shelly-gen2",
-        "shelly-cloud-server",
-        "shelly-cloud"
-      ],
-      "keywords": [
-        "node-red",
-        "shelly"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-shelly"
     },
     {
       "id": "node-red-contrib-amcrest-ad110",
@@ -1181,32 +1281,6 @@
         "iot"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-snap4city-user"
-    },
-    {
-      "id": "node-red-contrib-alice",
-      "version": "2.1.4",
-      "description": "**NodeRed Home** (node-red-contrib-alice) - это сервис позволит, в несколько простых шагов, подключить любые ваши устройства заведенные в Node-RED к умному дому от Яндекса и управлять ими с помощью голосового помощника Алиса.",
-      "updated_at": "2023-09-27T11:17:25.765Z",
-      "types": [
-        "alice-service",
-        "alice-device",
-        "On_Off",
-        "Toggle",
-        "Range",
-        "Color",
-        "Mode",
-        "Sensor",
-        "Event",
-        "Video"
-      ],
-      "keywords": [
-        "node-red",
-        "yandex",
-        "alice",
-        "яндекс",
-        "алиса"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-alice"
     },
     {
       "id": "node-red-contrib-superpower-test",
@@ -3101,35 +3175,6 @@
       "url": "https://flows.nodered.org/node/@tq-bit/node-red-contrib-server-sent-events"
     },
     {
-      "id": "@flowforge/node-red-dashboard",
-      "version": "0.5.0",
-      "description": "A collection of Node-RED nodes that provide functionality to build your own UI applications (inc. forms, buttons, charts) within Node-RED.",
-      "updated_at": "2023-09-15T07:54:39.004Z",
-      "types": [
-        "ui-base",
-        "ui-page",
-        "ui-group",
-        "ui-theme",
-        "ui-form",
-        "ui-text-input",
-        "ui-button",
-        "ui-dropdown",
-        "ui-radio-group",
-        "ui-slider",
-        "ui-switch",
-        "ui-text",
-        "ui-table",
-        "ui-chart",
-        "ui-notification",
-        "ui-markdown",
-        "ui-template"
-      ],
-      "keywords": [
-        "node-red"
-      ],
-      "url": "https://flows.nodered.org/node/@flowforge/node-red-dashboard"
-    },
-    {
       "id": "node-red-contrib-simple-bu",
       "version": "1.2.5",
       "description": "A Node-RED node that simplifies the data process.",
@@ -3194,23 +3239,6 @@
         "port scan"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-portscan"
-    },
-    {
-      "id": "@ozmap/node-red-contrib-msg-ozlogger",
-      "version": "0.0.1",
-      "description": "Basic implementations for a log helper on node-red",
-      "updated_at": "2023-09-14T04:44:08.495Z",
-      "types": [],
-      "keywords": [
-        "node-red",
-        "node",
-        "red",
-        "msg",
-        "logger",
-        "ozmap",
-        "oznlogger"
-      ],
-      "url": "https://flows.nodered.org/node/@ozmap/node-red-contrib-msg-ozlogger"
     },
     {
       "id": "@crusaider/node-red-contrib-vattenfall-tariff",
