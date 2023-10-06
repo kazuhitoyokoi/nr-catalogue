@@ -1,0 +1,209 @@
+#0 building with "default" instance using docker driver
+
+#1 [internal] load .dockerignore
+#1 transferring context: 2B done
+#1 DONE 0.0s
+
+#2 [internal] load build definition from Dockerfile
+#2 transferring dockerfile: 104B done
+#2 DONE 0.0s
+
+#3 [internal] load metadata for docker.io/nodered/node-red:latest
+#3 DONE 0.2s
+
+#4 [1/2] FROM docker.io/nodered/node-red@sha256:5e99ed734f7d2f9bfcb1e20dfbf4c5b9aa60f35a9df6e257e817130f0f9be9dc
+#4 CACHED
+
+#5 [2/2] RUN npm install npm install unified-red@2.4.0
+#5 5.828 npm WARN ERESOLVE overriding peer dependency
+#5 5.828 npm WARN While resolving: @angular/material-moment-adapter@10.2.7
+#5 5.828 npm WARN Found: @angular/core@9.1.13
+#5 5.828 npm WARN node_modules/unified-red/node_modules/@angular/core
+#5 5.829 npm WARN   @angular/core@"^9.1.0" from unified-red@2.4.0
+#5 5.829 npm WARN   node_modules/unified-red
+#5 5.829 npm WARN     unified-red@"2.4.0" from the root project
+#5 5.829 npm WARN   13 more (@angular/animations, @angular/cdk, @angular/common, ...)
+#5 5.829 npm WARN 
+#5 5.829 npm WARN Could not resolve dependency:
+#5 5.829 npm WARN peer @angular/core@"^10.0.0 || ^11.0.0-0" from @angular/material-moment-adapter@10.2.7
+#5 5.829 npm WARN node_modules/unified-red/node_modules/@angular/material-moment-adapter
+#5 5.829 npm WARN   @angular/material-moment-adapter@"^10.1.2" from unified-red@2.4.0
+#5 5.829 npm WARN   node_modules/unified-red
+#5 5.829 npm WARN 
+#5 5.829 npm WARN Conflicting peer dependency: @angular/core@11.2.14
+#5 5.829 npm WARN node_modules/@angular/core
+#5 5.829 npm WARN   peer @angular/core@"^10.0.0 || ^11.0.0-0" from @angular/material-moment-adapter@10.2.7
+#5 5.829 npm WARN   node_modules/unified-red/node_modules/@angular/material-moment-adapter
+#5 5.829 npm WARN     @angular/material-moment-adapter@"^10.1.2" from unified-red@2.4.0
+#5 5.829 npm WARN     node_modules/unified-red
+#5 5.831 npm WARN ERESOLVE overriding peer dependency
+#5 5.831 npm WARN While resolving: @angular/material-moment-adapter@10.2.7
+#5 5.831 npm WARN Found: @angular/material@9.2.4
+#5 5.831 npm WARN node_modules/unified-red/node_modules/@angular/material
+#5 5.831 npm WARN   @angular/material@"^9.2.0" from unified-red@2.4.0
+#5 5.831 npm WARN   node_modules/unified-red
+#5 5.831 npm WARN     unified-red@"2.4.0" from the root project
+#5 5.831 npm WARN   1 more (mat-table-exporter)
+#5 5.832 npm WARN 
+#5 5.832 npm WARN Could not resolve dependency:
+#5 5.832 npm WARN peer @angular/material@"10.2.7" from @angular/material-moment-adapter@10.2.7
+#5 5.832 npm WARN node_modules/unified-red/node_modules/@angular/material-moment-adapter
+#5 5.832 npm WARN   @angular/material-moment-adapter@"^10.1.2" from unified-red@2.4.0
+#5 5.832 npm WARN   node_modules/unified-red
+#5 5.832 npm WARN 
+#5 5.832 npm WARN Conflicting peer dependency: @angular/material@10.2.7
+#5 5.832 npm WARN node_modules/@angular/material
+#5 5.832 npm WARN   peer @angular/material@"10.2.7" from @angular/material-moment-adapter@10.2.7
+#5 5.832 npm WARN   node_modules/unified-red/node_modules/@angular/material-moment-adapter
+#5 5.832 npm WARN     @angular/material-moment-adapter@"^10.1.2" from unified-red@2.4.0
+#5 5.832 npm WARN     node_modules/unified-red
+#5 5.903 npm WARN ERESOLVE overriding peer dependency
+#5 5.903 npm WARN While resolving: @ng-idle/core@8.0.0-beta.4
+#5 5.904 npm WARN Found: @angular/common@9.1.13
+#5 5.904 npm WARN node_modules/unified-red/node_modules/@angular/common
+#5 5.904 npm WARN   @angular/common@"^9.1.0" from unified-red@2.4.0
+#5 5.904 npm WARN   node_modules/unified-red
+#5 5.904 npm WARN     unified-red@"2.4.0" from the root project
+#5 5.904 npm WARN   11 more (@angular/cdk, @angular/forms, ...)
+#5 5.904 npm WARN 
+#5 5.904 npm WARN Could not resolve dependency:
+#5 5.904 npm WARN peer @angular/common@"^8.0.0" from @ng-idle/core@8.0.0-beta.4
+#5 5.904 npm WARN node_modules/unified-red/node_modules/@ng-idle/core
+#5 5.904 npm WARN   @ng-idle/core@"^8.0.0-beta.4" from unified-red@2.4.0
+#5 5.904 npm WARN   node_modules/unified-red
+#5 5.904 npm WARN 
+#5 5.904 npm WARN Conflicting peer dependency: @angular/common@8.2.14
+#5 5.904 npm WARN node_modules/@angular/common
+#5 5.904 npm WARN   peer @angular/common@"^8.0.0" from @ng-idle/core@8.0.0-beta.4
+#5 5.904 npm WARN   node_modules/unified-red/node_modules/@ng-idle/core
+#5 5.904 npm WARN     @ng-idle/core@"^8.0.0-beta.4" from unified-red@2.4.0
+#5 5.904 npm WARN     node_modules/unified-red
+#5 5.906 npm WARN ERESOLVE overriding peer dependency
+#5 5.906 npm WARN While resolving: @ng-idle/core@8.0.0-beta.4
+#5 5.906 npm WARN Found: @angular/core@9.1.13
+#5 5.906 npm WARN node_modules/unified-red/node_modules/@angular/core
+#5 5.906 npm WARN   @angular/core@"^9.1.0" from unified-red@2.4.0
+#5 5.906 npm WARN   node_modules/unified-red
+#5 5.906 npm WARN     unified-red@"2.4.0" from the root project
+#5 5.906 npm WARN   13 more (@angular/animations, @angular/cdk, @angular/common, ...)
+#5 5.906 npm WARN 
+#5 5.906 npm WARN Could not resolve dependency:
+#5 5.907 npm WARN peer @angular/core@"^8.0.0" from @ng-idle/core@8.0.0-beta.4
+#5 5.907 npm WARN node_modules/unified-red/node_modules/@ng-idle/core
+#5 5.907 npm WARN   @ng-idle/core@"^8.0.0-beta.4" from unified-red@2.4.0
+#5 5.907 npm WARN   node_modules/unified-red
+#5 5.907 npm WARN 
+#5 5.907 npm WARN Conflicting peer dependency: @angular/core@8.2.14
+#5 5.907 npm WARN node_modules/@angular/core
+#5 5.907 npm WARN   peer @angular/core@"^8.0.0" from @ng-idle/core@8.0.0-beta.4
+#5 5.907 npm WARN   node_modules/unified-red/node_modules/@ng-idle/core
+#5 5.907 npm WARN     @ng-idle/core@"^8.0.0-beta.4" from unified-red@2.4.0
+#5 5.907 npm WARN     node_modules/unified-red
+#5 6.451 npm WARN ERESOLVE overriding peer dependency
+#5 6.451 npm WARN While resolving: ngx-mask@8.2.0
+#5 6.451 npm WARN Found: @angular/common@9.1.13
+#5 6.451 npm WARN node_modules/unified-red/node_modules/@angular/common
+#5 6.451 npm WARN   @angular/common@"^9.1.0" from unified-red@2.4.0
+#5 6.451 npm WARN   node_modules/unified-red
+#5 6.451 npm WARN     unified-red@"2.4.0" from the root project
+#5 6.451 npm WARN   11 more (@angular/cdk, @angular/forms, ...)
+#5 6.451 npm WARN 
+#5 6.451 npm WARN Could not resolve dependency:
+#5 6.451 npm WARN peer @angular/common@"^6.0.0 || ^7.0.0 || ^8.0.0" from ngx-mask@8.2.0
+#5 6.451 npm WARN node_modules/unified-red/node_modules/ngx-mask
+#5 6.451 npm WARN   ngx-mask@"^8.1.7" from unified-red@2.4.0
+#5 6.451 npm WARN   node_modules/unified-red
+#5 6.451 npm WARN 
+#5 6.451 npm WARN Conflicting peer dependency: @angular/common@8.2.14
+#5 6.451 npm WARN node_modules/@angular/common
+#5 6.451 npm WARN   peer @angular/common@"^6.0.0 || ^7.0.0 || ^8.0.0" from ngx-mask@8.2.0
+#5 6.451 npm WARN   node_modules/unified-red/node_modules/ngx-mask
+#5 6.451 npm WARN     ngx-mask@"^8.1.7" from unified-red@2.4.0
+#5 6.451 npm WARN     node_modules/unified-red
+#5 6.453 npm WARN ERESOLVE overriding peer dependency
+#5 6.453 npm WARN While resolving: ngx-mask@8.2.0
+#5 6.453 npm WARN Found: @angular/core@9.1.13
+#5 6.453 npm WARN node_modules/unified-red/node_modules/@angular/core
+#5 6.453 npm WARN   @angular/core@"^9.1.0" from unified-red@2.4.0
+#5 6.453 npm WARN   node_modules/unified-red
+#5 6.453 npm WARN     unified-red@"2.4.0" from the root project
+#5 6.453 npm WARN   13 more (@angular/animations, @angular/cdk, @angular/common, ...)
+#5 6.453 npm WARN 
+#5 6.453 npm WARN Could not resolve dependency:
+#5 6.453 npm WARN peer @angular/core@"^6.0.0 || ^7.0.0 || ^8.0.0" from ngx-mask@8.2.0
+#5 6.453 npm WARN node_modules/unified-red/node_modules/ngx-mask
+#5 6.453 npm WARN   ngx-mask@"^8.1.7" from unified-red@2.4.0
+#5 6.453 npm WARN   node_modules/unified-red
+#5 6.453 npm WARN 
+#5 6.453 npm WARN Conflicting peer dependency: @angular/core@8.2.14
+#5 6.453 npm WARN node_modules/@angular/core
+#5 6.453 npm WARN   peer @angular/core@"^6.0.0 || ^7.0.0 || ^8.0.0" from ngx-mask@8.2.0
+#5 6.453 npm WARN   node_modules/unified-red/node_modules/ngx-mask
+#5 6.453 npm WARN     ngx-mask@"^8.1.7" from unified-red@2.4.0
+#5 6.453 npm WARN     node_modules/unified-red
+#5 6.455 npm WARN ERESOLVE overriding peer dependency
+#5 6.455 npm WARN While resolving: ngx-mask@8.2.0
+#5 6.455 npm WARN Found: @angular/forms@9.1.13
+#5 6.455 npm WARN node_modules/unified-red/node_modules/@angular/forms
+#5 6.455 npm WARN   @angular/forms@"^9.1.0" from unified-red@2.4.0
+#5 6.456 npm WARN   node_modules/unified-red
+#5 6.456 npm WARN     unified-red@"2.4.0" from the root project
+#5 6.456 npm WARN   3 more (@angular/material, @ng-bootstrap/ng-bootstrap, @swimlane/ngx-charts)
+#5 6.456 npm WARN 
+#5 6.456 npm WARN Could not resolve dependency:
+#5 6.456 npm WARN peer @angular/forms@"^6.0.0 || ^7.0.0 || ^8.0.0" from ngx-mask@8.2.0
+#5 6.456 npm WARN node_modules/unified-red/node_modules/ngx-mask
+#5 6.456 npm WARN   ngx-mask@"^8.1.7" from unified-red@2.4.0
+#5 6.456 npm WARN   node_modules/unified-red
+#5 6.456 npm WARN 
+#5 6.456 npm WARN Conflicting peer dependency: @angular/forms@8.2.14
+#5 6.456 npm WARN node_modules/@angular/forms
+#5 6.456 npm WARN   peer @angular/forms@"^6.0.0 || ^7.0.0 || ^8.0.0" from ngx-mask@8.2.0
+#5 6.456 npm WARN   node_modules/unified-red/node_modules/ngx-mask
+#5 6.456 npm WARN     ngx-mask@"^8.1.7" from unified-red@2.4.0
+#5 6.456 npm WARN     node_modules/unified-red
+#5 6.494 npm WARN EBADENGINE Unsupported engine {
+#5 6.494 npm WARN EBADENGINE   package: 'npm@10.2.0',
+#5 6.494 npm WARN EBADENGINE   required: { node: '^18.17.0 || >=20.5.0' },
+#5 6.494 npm WARN EBADENGINE   current: { node: 'v16.20.2', npm: '8.19.4' }
+#5 6.494 npm WARN EBADENGINE }
+#5 10.18 npm WARN deprecated @npmcli/move-file@1.1.2: This functionality has been moved to @npmcli/fs
+#5 10.62 npm WARN deprecated har-validator@5.1.5: this library is no longer supported
+#5 12.80 npm WARN deprecated debug@4.1.1: Debug versions >=3.2.0 <3.2.7 || >=4 <4.3.1 have a low-severity ReDos regression when used in a Node.js environment. It is recommended you upgrade to 3.2.7 or 4.3.1. (https://github.com/visionmedia/debug/issues/797)
+#5 12.80 npm WARN deprecated debug@4.1.1: Debug versions >=3.2.0 <3.2.7 || >=4 <4.3.1 have a low-severity ReDos regression when used in a Node.js environment. It is recommended you upgrade to 3.2.7 or 4.3.1. (https://github.com/visionmedia/debug/issues/797)
+#5 12.81 npm WARN deprecated debug@4.1.1: Debug versions >=3.2.0 <3.2.7 || >=4 <4.3.1 have a low-severity ReDos regression when used in a Node.js environment. It is recommended you upgrade to 3.2.7 or 4.3.1. (https://github.com/visionmedia/debug/issues/797)
+#5 12.87 npm WARN deprecated multer@1.4.4: Multer 1.x is affected by CVE-2022-24434. This is fixed in v1.4.4-lts.1 which drops support for versions of Node.js before 6. Please upgrade to at least Node.js 6 and version 1.4.4-lts.1 of Multer. If you need support for older versions of Node.js, we are open to accepting patches that would fix the CVE on the main 1.x release line, whilst maintaining compatibility with Node.js 0.10.
+#5 12.88 npm WARN deprecated request@2.88.2: request has been deprecated, see https://github.com/request/request/issues/3142
+#5 12.90 npm WARN deprecated uuid@3.4.0: Please upgrade  to version 7 or higher.  Older versions may use Math.random() in certain circumstances, which is known to be problematic.  See https://v8.dev/blog/math-random for details.
+#5 13.46 npm WARN deprecated ngx-perfect-scrollbar@9.0.0: Package no longer supported. Contact Support at https://www.npmjs.com/support for more info.
+#5 15.53 npm WARN deprecated popper.js@1.16.1: You can find the new Popper v2 at @popperjs/core, this package is dedicated to the legacy v1
+#5 21.43 
+#5 21.43 added 361 packages, and audited 923 packages in 21s
+#5 21.43 
+#5 21.43 76 packages are looking for funding
+#5 21.43   run `npm fund` for details
+#5 21.54 
+#5 21.54 34 vulnerabilities (20 moderate, 14 high)
+#5 21.54 
+#5 21.54 To address issues that do not require attention, run:
+#5 21.54   npm audit fix
+#5 21.54 
+#5 21.54 Some issues need review, and may require choosing
+#5 21.54 a different dependency.
+#5 21.54 
+#5 21.54 Run `npm audit` for details.
+#5 21.55 npm notice 
+#5 21.55 npm notice New major version of npm available! 8.19.4 -> 10.2.0
+#5 21.55 npm notice Changelog: <https://github.com/npm/cli/releases/tag/v10.2.0>
+#5 21.55 npm notice Run `npm install -g npm@10.2.0` to update!
+#5 21.55 npm notice 
+#5 DONE 23.2s
+
+#6 exporting to image
+#6 exporting layers
+#6 exporting layers 4.6s done
+#6 writing image sha256:ccc333b878bf0aa1f55dbb3c1683d5e20e6eb5803c30a4581f9098568c9158b4 done
+#6 naming to docker.io/library/tmp done
+#6 DONE 4.6s
+
+----
