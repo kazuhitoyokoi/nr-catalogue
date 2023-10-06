@@ -1,7 +1,535 @@
 {
   "name": "Catalogue for Docker",
-  "updated_at": "2023-10-05T16:32:15.653Z",
+  "updated_at": "2023-10-06T16:09:46.333Z",
   "modules": [
+    {
+      "id": "node-red-contrib-victron-modbus",
+      "version": "0.1.3",
+      "description": "Access the Victron equipment via the modbus",
+      "updated_at": "2023-10-06T12:52:37.958Z",
+      "types": [
+        "victron-modbus"
+      ],
+      "keywords": [
+        "node-red",
+        "victron",
+        "modbus"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-victron-modbus"
+    },
+    {
+      "id": "node-red-contrib-sftp-ssh2",
+      "version": "0.1.3",
+      "description": "An SFTP client for node-red, a wrapper for ssh2-sftp-client with support for privatekey",
+      "updated_at": "2023-10-06T11:58:01.811Z",
+      "types": [
+        "SSH-SFTP-credentials",
+        "SSH-SFTP-main"
+      ],
+      "keywords": [
+        "node-red",
+        "sftp",
+        "ssh"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-sftp-ssh2"
+    },
+    {
+      "id": "@gregoriusrippenstein/node-red-contrib-nodedev",
+      "version": "0.0.10",
+      "description": "Support the development of Node-RED nodes within Node-RED.",
+      "updated_at": "2023-10-06T11:22:42.522Z",
+      "types": [
+        "NodeFactory",
+        "PkgFile",
+        "NpmTarBall",
+        "NodeRedInstall",
+        "NpmPublish"
+      ],
+      "keywords": [
+        "node-red",
+        "node development",
+        "introspection",
+        "bootstrapping",
+        "recursion"
+      ],
+      "url": "https://flows.nodered.org/node/@gregoriusrippenstein/node-red-contrib-nodedev"
+    },
+    {
+      "id": "node-red-contrib-dsfnode",
+      "version": "1.1.11",
+      "description": "Nodes for working with the Duet Software Framework & Duet Control Boards",
+      "updated_at": "2023-10-06T11:05:45.486Z",
+      "types": [
+        "dsf-connector",
+        "dsf-intercept",
+        "dsf-monitor",
+        "dsf-command",
+        "dsf-event"
+      ],
+      "keywords": [
+        "node-red",
+        "3D Printer",
+        "Duet",
+        "DSF",
+        "RepRap",
+        "G Code",
+        "3D Printing",
+        "CNC"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-dsfnode"
+    },
+    {
+      "id": "@gregoriusrippenstein/node-red-contrib-flowhub",
+      "version": "0.2.5",
+      "description": "FlowHub interaction nodes.",
+      "updated_at": "2023-10-06T10:44:45.928Z",
+      "types": [
+        "FlowHubPull",
+        "FlowHubPush",
+        "FlowHubDiff"
+      ],
+      "keywords": [
+        "node-red",
+        "flowhub",
+        "flowsharing"
+      ],
+      "url": "https://flows.nodered.org/node/@gregoriusrippenstein/node-red-contrib-flowhub"
+    },
+    {
+      "id": "node-red-contrib-snap4city-developer",
+      "version": "0.5.15",
+      "description": "A description of the available nodes can be found [here](https://www.km4city.org/iot-micro-doc/developer.html).",
+      "updated_at": "2023-10-06T10:31:47.395Z",
+      "types": [
+        "service-search",
+        "service-search-near-gps-position",
+        "service-search-near-service",
+        "service-search-within-gps-area",
+        "service-search-within-wkt-area",
+        "service-search-within-stored-wkt-area",
+        "service-search-by-municipality",
+        "service-search-by-queryid",
+        "service-info-dev",
+        "service-info-mapped",
+        "full-text-search-dev",
+        "full-text-search-within-wkt-area",
+        "full-text-search-within-gps-area",
+        "full-text-search-near-gps-position",
+        "full-text-search-exp",
+        "event-search-dev",
+        "event-search-exp",
+        "event-search-within-wkt-area",
+        "event-search-within-gps-area",
+        "event-search-near-gps-position",
+        "address-geometry-search-near-gps-position",
+        "address-search-near-gps-position",
+        "geometry-search-near-gps-position",
+        "address-poi-search-by-text",
+        "address-poi-search-by-text-exp",
+        "address-poi-search-by-text-near-gps-position",
+        "bus-routes-search",
+        "bus-routes-search-near-gps-position",
+        "bus-routes-search-within-gps-area",
+        "bus-routes-search-within-wkt-area",
+        "bus-routes-search-within-stored-wkt-area",
+        "tpl-routes",
+        "tpl-stops",
+        "check-exist-job",
+        "check-exist-trigger",
+        "is-in-standby-mode",
+        "is-shutdown",
+        "is-started",
+        "get-currently-executing-jobs",
+        "get-job-detail",
+        "get-triggers-of-job",
+        "get-job-group-names",
+        "get-trigger-group-names",
+        "get-paused-trigger-groups",
+        "get-job-fire-times",
+        "get-system-status",
+        "trigger-job",
+        "pause-all",
+        "pause-job",
+        "pause-jobs",
+        "pause-trigger",
+        "pause-triggers",
+        "resume-all",
+        "resume-job",
+        "resume-jobs",
+        "resume-trigger",
+        "resume-triggers",
+        "notificator-history-events",
+        "datagate insert",
+        "datagate search",
+        "__errors__",
+        "datagate create",
+        "__errors__",
+        "datagate-credentials",
+        "mapping",
+        "set-mapping",
+        "plumber-data-analytic",
+        "python-data-analytic",
+        "snap4city-authentication-dev",
+        "portia-crawler",
+        "iotapp-restart",
+        "iotapp-upgrade",
+        "delete-device",
+        "ownership",
+        "om-get-processes",
+        "om-get-teams",
+        "om-get-components",
+        "om-get-plants",
+        "om-get-status",
+        "om-create-new-process",
+        "om-advance-process",
+        "om-details-process",
+        "om-delete-process",
+        "save-typical-time-trends",
+        "get-typical-time-trends",
+        "get-my-scenarios",
+        "save-a-scenario"
+      ],
+      "keywords": [
+        "node-red",
+        "smartcity",
+        "iot"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-snap4city-developer"
+    },
+    {
+      "id": "node-red-contrib-msl",
+      "version": "1.0.43",
+      "description": "A node-red module to simplify the access of msl4 channel data.",
+      "updated_at": "2023-10-06T09:51:24.922Z",
+      "types": [
+        "msl-device-config",
+        "msl-channel-config",
+        "msl4-in",
+        "msl4-out"
+      ],
+      "keywords": [
+        "node-red",
+        "msl4",
+        "energy-management"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-msl"
+    },
+    {
+      "id": "@gregoriusrippenstein/node-red-contrib-validation-and-documentation",
+      "version": "0.0.7",
+      "description": "JSON Schema validator for Node Red",
+      "updated_at": "2023-10-06T09:38:57.864Z",
+      "types": [
+        "JsonSchemaValidatorWithDocu"
+      ],
+      "keywords": [
+        "json",
+        "node",
+        "node-red",
+        "schema"
+      ],
+      "url": "https://flows.nodered.org/node/@gregoriusrippenstein/node-red-contrib-validation-and-documentation"
+    },
+    {
+      "id": "@fw-systeme/node-red-msl",
+      "version": "1.0.43",
+      "description": "A node-red module to simplify the access of msl4 channel data.",
+      "updated_at": "2023-10-06T09:12:48.321Z",
+      "types": [
+        "msl-device-config",
+        "msl-channel-config",
+        "msl4-in",
+        "msl4-out"
+      ],
+      "keywords": [
+        "node-red",
+        "msl4",
+        "energy-management"
+      ],
+      "url": "https://flows.nodered.org/node/@fw-systeme/node-red-msl"
+    },
+    {
+      "id": "node-red-contrib-vib-smart-valve",
+      "version": "0.0.41",
+      "description": "Smart Valve Managemeent",
+      "updated_at": "2023-10-06T07:52:22.241Z",
+      "types": [
+        "smart-valve"
+      ],
+      "keywords": [
+        "node-red"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-vib-smart-valve"
+    },
+    {
+      "id": "@flowforge/node-red-dashboard",
+      "version": "0.6.1",
+      "description": "A collection of Node-RED nodes that provide functionality to build your own UI applications (inc. forms, buttons, charts) within Node-RED.",
+      "updated_at": "2023-10-06T07:34:09.714Z",
+      "types": [
+        "ui-base",
+        "ui-page",
+        "ui-group",
+        "ui-theme",
+        "ui-form",
+        "__errors__",
+        "ui-text-input",
+        "__errors__",
+        "ui-button",
+        "__errors__",
+        "ui-dropdown",
+        "__errors__",
+        "ui-radio-group",
+        "__errors__",
+        "ui-slider",
+        "__errors__",
+        "ui-switch",
+        "__errors__",
+        "ui-text",
+        "__errors__",
+        "ui-table",
+        "__errors__",
+        "ui-chart",
+        "__errors__",
+        "ui-notification",
+        "__errors__",
+        "ui-markdown",
+        "__errors__",
+        "ui-template",
+        "__errors__"
+      ],
+      "keywords": [
+        "node-red"
+      ],
+      "url": "https://flows.nodered.org/node/@flowforge/node-red-dashboard"
+    },
+    {
+      "id": "node-red-contrib-home-assistant-websocket",
+      "version": "0.57.2",
+      "description": "Node-RED integration with Home Assistant through websocket and REST API",
+      "updated_at": "2023-10-06T03:38:07.956Z",
+      "types": [],
+      "keywords": [
+        "node-red",
+        "home-assistant",
+        "home assistant",
+        "home automation",
+        "websocket"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-home-assistant-websocket"
+    },
+    {
+      "id": "@ia-cloud/node-red-contrib-ia-cloud-fds",
+      "version": "0.1.30",
+      "description": "ia-cloud Node-RED nodes",
+      "updated_at": "2023-10-06T01:50:32.896Z",
+      "types": [
+        "ia-cloud-cnct",
+        "ia-cloud-cnct2",
+        "ia-cloud-V2-cnct",
+        "object-array",
+        "iBRESS Connect",
+        "ibress-cnct",
+        "PLC MC",
+        "PLC MC config",
+        "Modbus-com",
+        "Mitsubishi-com",
+        "RFID",
+        "EnOcean-com",
+        "EnOcean-obj",
+        "signal-watcher",
+        "signal-watcher-AE",
+        "Core_Staff_Sensor",
+        "Itec_CT_Sensor",
+        "Optex_Occupancy_Sensor",
+        "Optex_Rocker_SW",
+        "Watty_HYHQ_Sensor",
+        "Watty_HYHQ_FF_Sensor",
+        "Watty_HYHU3_Sensor",
+        "Watty_HYCO_Sensor",
+        "Watty_HYPM_Sensor",
+        "Watty_Temp_Sensor",
+        "HMI-Schneider",
+        "HMI-Schneider-AE",
+        "HMI-Schneider-com",
+        "ia-cloud-change",
+        "tmp-ctrl-omron",
+        "tmp-ctrl-omron-AE",
+        "ia-cloud-serialport",
+        "URD Current Sensor",
+        "URD AC 1ch sensor",
+        "URD AC 3ch sensor",
+        "unpack",
+        "evaluation",
+        "evaluationAE",
+        "data-range",
+        "smoothing",
+        "de-noise",
+        "de-noise2",
+        "change-detect",
+        "rename-object",
+        "rename-data",
+        "PLC-sim",
+        "aggregation",
+        "choco-watcher",
+        "ia-cloud-simulator",
+        "eq-event",
+        "eq-status",
+        "BLE-sensor"
+      ],
+      "keywords": [
+        "node-red"
+      ],
+      "url": "https://flows.nodered.org/node/@ia-cloud/node-red-contrib-ia-cloud-fds"
+    },
+    {
+      "id": "node-red-contrib-mssql-plus",
+      "version": "0.12.1",
+      "description": "A node-red node to execute queries, stored procedures and bulk inserts in Microsoft SQL Server and Azure Databases SQL2000 ~ SQL2022",
+      "updated_at": "2023-10-06T01:16:02.312Z",
+      "types": [
+        "MSSQL-CN",
+        "MSSQL"
+      ],
+      "keywords": [
+        "node-red",
+        "odbc",
+        "unixodbc",
+        "mssql",
+        "sql",
+        "Microsoft",
+        "database",
+        "sql-server",
+        "azure"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-mssql-plus"
+    },
+    {
+      "id": "node-red-contrib-json-logic",
+      "version": "0.0.10",
+      "description": "Node-RED node for configuring json-logic.",
+      "updated_at": "2023-10-05T21:19:19.974Z",
+      "types": [
+        "jsonlogic"
+      ],
+      "keywords": [
+        "node-red",
+        "node-inq",
+        "jsonlogic",
+        "rules",
+        "json"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-json-logic"
+    },
+    {
+      "id": "node-red-contrib-whatsapp-cmb",
+      "version": "1.0.3",
+      "description": "Node-RED node to send WhatsApp Messages with WhatsApp CallmeBot",
+      "updated_at": "2023-10-05T19:15:13.409Z",
+      "types": [
+        "node-red-contrib-whatsapp-cmb-account",
+        "node-red-contrib-whatsapp-cmb-send-message"
+      ],
+      "keywords": [
+        "whatsapp",
+        "node-red",
+        "node",
+        "messages"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-whatsapp-cmb"
+    },
+    {
+      "id": "node-red-contrib-vib-smart-scheduler",
+      "version": "0.0.41",
+      "description": "lower-case-node",
+      "updated_at": "2023-10-05T18:31:29.716Z",
+      "types": [
+        "smart-scheduler",
+        "smart-scheduler-settings"
+      ],
+      "keywords": [
+        "node-red"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-vib-smart-scheduler"
+    },
+    {
+      "id": "unified-red",
+      "version": "2.4.0",
+      "description": "A set of nodes in Node-RED to create a customizable building automation user interface or HMI",
+      "updated_at": "2023-10-05T18:29:47.740Z",
+      "types": [
+        "ur_base",
+        "ur_button",
+        "ur_compare",
+        "ur_chart",
+        "ur_datalog",
+        "ur_gauge",
+        "ur_folder",
+        "ur_page",
+        "ur_group",
+        "ur_form",
+        "ur_tab",
+        "ur_text",
+        "ur_text_input",
+        "ur_template",
+        "ur_alarm",
+        "ur_alarm_console",
+        "ur_animation",
+        "ur_table",
+        "ur_pagerduty_config",
+        "ur_pagerduty",
+        "ur_schedule",
+        "ur_schedule_holidays_config",
+        "ur_link"
+      ],
+      "keywords": [
+        "node-red"
+      ],
+      "url": "https://flows.nodered.org/node/unified-red"
+    },
+    {
+      "id": "node-red-contrib-edgesignal-connector",
+      "version": "1.3.4",
+      "description": "edgesignal connector",
+      "updated_at": "2023-10-05T16:00:39.238Z",
+      "types": [
+        "app-out",
+        "app-in",
+        "app-connector"
+      ],
+      "keywords": [
+        "edgesignal",
+        "iot",
+        "node-red"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-edgesignal-connector"
+    },
+    {
+      "id": "node-red-contrib-alice",
+      "version": "2.1.5",
+      "description": "**NodeRed Home** (node-red-contrib-alice) - это сервис позволит, в несколько простых шагов, подключить любые ваши устройства заведенные в Node-RED к умному дому от Яндекса и управлять ими с помощью голосового помощника Алиса.",
+      "updated_at": "2023-10-05T14:42:38.661Z",
+      "types": [
+        "alice-service",
+        "alice-device",
+        "On_Off",
+        "Toggle",
+        "Range",
+        "Color",
+        "Mode",
+        "Sensor",
+        "Event",
+        "Video"
+      ],
+      "keywords": [
+        "node-red",
+        "yandex",
+        "alice",
+        "яндекс",
+        "алиса"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-alice"
+    },
     {
       "id": "node-red-contrib-web-worldmap",
       "version": "3.1.0",
@@ -21,23 +549,6 @@
         "tak"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-web-worldmap"
-    },
-    {
-      "id": "@gregoriusrippenstein/node-red-contrib-flowhub",
-      "version": "0.2.4",
-      "description": "FlowHub interaction nodes.",
-      "updated_at": "2023-10-05T13:39:27.353Z",
-      "types": [
-        "FlowHubPull",
-        "FlowHubPush",
-        "FlowHubDiff"
-      ],
-      "keywords": [
-        "node-red",
-        "flowhub",
-        "flowsharing"
-      ],
-      "url": "https://flows.nodered.org/node/@gregoriusrippenstein/node-red-contrib-flowhub"
     },
     {
       "id": "node-red-contrib-ftp-client",
@@ -113,36 +624,34 @@
       "url": "https://flows.nodered.org/node/node-red-contrib-shelly"
     },
     {
-      "id": "node-red-contrib-edgesignal-connector",
-      "version": "1.3.0",
-      "description": "edgesignal connector",
-      "updated_at": "2023-10-04T13:35:22.423Z",
+      "id": "node-red-contrib-polywall-api",
+      "version": "0.0.8",
+      "description": "Polywall API commands to control videowall",
+      "updated_at": "2023-10-04T13:03:07.315Z",
       "types": [
-        "app-out",
-        "app-in",
-        "app-connector"
+        "active-visualizers",
+        "list-scenarios",
+        "play-scene",
+        "scenario-on",
+        "scenario-stop",
+        "list-scenes",
+        "status-sources",
+        "mute-source",
+        "powerpoint-next",
+        "powerpoint-previous",
+        "remove-source",
+        "add-source",
+        "repository-files",
+        "room-files",
+        "shared-server"
       ],
       "keywords": [
-        "edgesignal",
-        "iot",
+        "polywall",
+        "videowall",
+        "api",
         "node-red"
       ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-edgesignal-connector"
-    },
-    {
-      "id": "node-red-contrib-home-assistant-websocket",
-      "version": "0.57.1",
-      "description": "Node-RED integration with Home Assistant through websocket and REST API",
-      "updated_at": "2023-10-03T21:03:53.337Z",
-      "types": [],
-      "keywords": [
-        "node-red",
-        "home-assistant",
-        "home assistant",
-        "home automation",
-        "websocket"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-home-assistant-websocket"
+      "url": "https://flows.nodered.org/node/node-red-contrib-polywall-api"
     },
     {
       "id": "node-red-contrib-axis-host",
@@ -601,28 +1110,6 @@
       "url": "https://flows.nodered.org/node/node-red-contrib-soma-smartblinds2"
     },
     {
-      "id": "node-red-contrib-mssql-plus",
-      "version": "0.12.0",
-      "description": "A node-red node to execute queries, stored procedures and bulk inserts in Microsoft SQL Server and Azure Databases SQL2000 ~ SQL2022",
-      "updated_at": "2023-10-01T03:06:03.627Z",
-      "types": [
-        "MSSQL-CN",
-        "MSSQL"
-      ],
-      "keywords": [
-        "node-red",
-        "odbc",
-        "unixodbc",
-        "mssql",
-        "sql",
-        "Microsoft",
-        "database",
-        "sql-server",
-        "azure"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-mssql-plus"
-    },
-    {
       "id": "node-red-contrib-calc",
       "version": "1.0.6",
       "description": "A Node-Red node to perform basic mathematical calculations",
@@ -761,27 +1248,6 @@
       "url": "https://flows.nodered.org/node/@good-i-deer/node-red-contrib-face-vectorization"
     },
     {
-      "id": "@gregoriusrippenstein/node-red-contrib-nodedev",
-      "version": "0.0.9",
-      "description": "Support the development of Node-RED nodes within Node-RED.",
-      "updated_at": "2023-09-30T11:05:45.562Z",
-      "types": [
-        "NodeFactory",
-        "PkgFile",
-        "NpmTarBall",
-        "NodeRedInstall",
-        "NpmPublish"
-      ],
-      "keywords": [
-        "node-red",
-        "node development",
-        "introspection",
-        "bootstrapping",
-        "recursion"
-      ],
-      "url": "https://flows.nodered.org/node/@gregoriusrippenstein/node-red-contrib-nodedev"
-    },
-    {
       "id": "@gregoriusrippenstein/node-red-contrib-flow2uml",
       "version": "0.0.3",
       "description": "Convert current flow tab to Mermaid flow diagram.",
@@ -795,22 +1261,6 @@
         "mermaid"
       ],
       "url": "https://flows.nodered.org/node/@gregoriusrippenstein/node-red-contrib-flow2uml"
-    },
-    {
-      "id": "@gregoriusrippenstein/node-red-contrib-validation-and-documentation",
-      "version": "0.0.5",
-      "description": "JSON Schema validator for Node Red",
-      "updated_at": "2023-09-30T08:05:00.276Z",
-      "types": [
-        "JsonSchemaValidatorWithDocu"
-      ],
-      "keywords": [
-        "json",
-        "node",
-        "node-red",
-        "schema"
-      ],
-      "url": "https://flows.nodered.org/node/@gregoriusrippenstein/node-red-contrib-validation-and-documentation"
     },
     {
       "id": "node-red-contrib-docxtemplater",
@@ -864,36 +1314,6 @@
         "node-red"
       ],
       "url": "https://flows.nodered.org/node/freshdesk-node-red-contrib"
-    },
-    {
-      "id": "node-red-contrib-polywall-api",
-      "version": "0.0.5",
-      "description": "Polywall API commands to control videowall",
-      "updated_at": "2023-09-29T11:53:15.851Z",
-      "types": [
-        "active-visualizers",
-        "list-scenarios",
-        "play-scene",
-        "scenario-on",
-        "scenario-stop",
-        "list-scenes",
-        "status-sources",
-        "mute-source",
-        "powerpoint-next",
-        "powerpoint-previous",
-        "remove-source",
-        "add-source",
-        "repository-files",
-        "room-files",
-        "shared-server"
-      ],
-      "keywords": [
-        "polywall",
-        "videowall",
-        "api",
-        "node-red"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-polywall-api"
     },
     {
       "id": "@wago-gmbh/cc100-canbus",
@@ -1234,32 +1654,6 @@
         "iot"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-snap4city-user"
-    },
-    {
-      "id": "node-red-contrib-alice",
-      "version": "2.1.4",
-      "description": "**NodeRed Home** (node-red-contrib-alice) - это сервис позволит, в несколько простых шагов, подключить любые ваши устройства заведенные в Node-RED к умному дому от Яндекса и управлять ими с помощью голосового помощника Алиса.",
-      "updated_at": "2023-09-27T11:17:25.765Z",
-      "types": [
-        "alice-service",
-        "alice-device",
-        "On_Off",
-        "Toggle",
-        "Range",
-        "Color",
-        "Mode",
-        "Sensor",
-        "Event",
-        "Video"
-      ],
-      "keywords": [
-        "node-red",
-        "yandex",
-        "alice",
-        "яндекс",
-        "алиса"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-alice"
     },
     {
       "id": "node-red-contrib-superpower-test",
@@ -3154,35 +3548,6 @@
       "url": "https://flows.nodered.org/node/@tq-bit/node-red-contrib-server-sent-events"
     },
     {
-      "id": "@flowforge/node-red-dashboard",
-      "version": "0.5.0",
-      "description": "A collection of Node-RED nodes that provide functionality to build your own UI applications (inc. forms, buttons, charts) within Node-RED.",
-      "updated_at": "2023-09-15T07:54:39.004Z",
-      "types": [
-        "ui-base",
-        "ui-page",
-        "ui-group",
-        "ui-theme",
-        "ui-form",
-        "ui-text-input",
-        "ui-button",
-        "ui-dropdown",
-        "ui-radio-group",
-        "ui-slider",
-        "ui-switch",
-        "ui-text",
-        "ui-table",
-        "ui-chart",
-        "ui-notification",
-        "ui-markdown",
-        "ui-template"
-      ],
-      "keywords": [
-        "node-red"
-      ],
-      "url": "https://flows.nodered.org/node/@flowforge/node-red-dashboard"
-    },
-    {
       "id": "node-red-contrib-simple-bu",
       "version": "1.2.5",
       "description": "A Node-RED node that simplifies the data process.",
@@ -4106,69 +4471,6 @@
         "matter"
       ],
       "url": "https://flows.nodered.org/node/@node-red-matter/node-red-matter"
-    },
-    {
-      "id": "@ia-cloud/node-red-contrib-ia-cloud-fds",
-      "version": "0.1.29",
-      "description": "ia-cloud Node-RED nodes",
-      "updated_at": "2023-09-05T06:26:57.114Z",
-      "types": [
-        "ia-cloud-cnct",
-        "ia-cloud-cnct2",
-        "object-array",
-        "iBRESS Connect",
-        "ibress-cnct",
-        "PLC MC",
-        "PLC MC config",
-        "Modbus-com",
-        "Mitsubishi-com",
-        "RFID",
-        "EnOcean-com",
-        "EnOcean-obj",
-        "signal-watcher",
-        "signal-watcher-AE",
-        "Core_Staff_Sensor",
-        "Itec_CT_Sensor",
-        "Optex_Occupancy_Sensor",
-        "Optex_Rocker_SW",
-        "Watty_HYHQ_Sensor",
-        "Watty_HYHQ_FF_Sensor",
-        "Watty_HYHU3_Sensor",
-        "Watty_HYCO_Sensor",
-        "Watty_HYPM_Sensor",
-        "Watty_Temp_Sensor",
-        "HMI-Schneider",
-        "HMI-Schneider-AE",
-        "HMI-Schneider-com",
-        "ia-cloud-change",
-        "tmp-ctrl-omron",
-        "tmp-ctrl-omron-AE",
-        "ia-cloud-serialport",
-        "URD Current Sensor",
-        "URD AC 1ch sensor",
-        "URD AC 3ch sensor",
-        "unpack",
-        "evaluation",
-        "evaluationAE",
-        "data-range",
-        "smoothing",
-        "de-noise",
-        "de-noise2",
-        "change-detect",
-        "rename-object",
-        "rename-data",
-        "PLC-sim",
-        "aggregation",
-        "choco-watcher",
-        "ia-cloud-simulator",
-        "eq-event",
-        "eq-status",
-        "BLE-sensor"
-      ],
-      "keywords": [
-        "node-red"
-      ],
-      "url": "https://flows.nodered.org/node/@ia-cloud/node-red-contrib-ia-cloud-fds"
     },
     {
       "id": "@logiccloud/node-red-runtime-variable-writer",
@@ -7739,107 +8041,6 @@
       "url": "https://flows.nodered.org/node/node-red-contrib-arc-modbus-puls"
     },
     {
-      "id": "node-red-contrib-snap4city-developer",
-      "version": "0.5.14",
-      "description": "A description of the available nodes can be found [here](https://www.km4city.org/iot-micro-doc/developer.html).",
-      "updated_at": "2023-06-30T14:56:14.917Z",
-      "types": [
-        "service-search",
-        "service-search-near-gps-position",
-        "service-search-near-service",
-        "service-search-within-gps-area",
-        "service-search-within-wkt-area",
-        "service-search-within-stored-wkt-area",
-        "service-search-by-municipality",
-        "service-search-by-queryid",
-        "service-info-dev",
-        "service-info-mapped",
-        "full-text-search-dev",
-        "full-text-search-within-wkt-area",
-        "full-text-search-within-gps-area",
-        "full-text-search-near-gps-position",
-        "full-text-search-exp",
-        "event-search-dev",
-        "event-search-exp",
-        "event-search-within-wkt-area",
-        "event-search-within-gps-area",
-        "event-search-near-gps-position",
-        "address-geometry-search-near-gps-position",
-        "address-search-near-gps-position",
-        "geometry-search-near-gps-position",
-        "address-poi-search-by-text",
-        "address-poi-search-by-text-exp",
-        "address-poi-search-by-text-near-gps-position",
-        "bus-routes-search",
-        "bus-routes-search-near-gps-position",
-        "bus-routes-search-within-gps-area",
-        "bus-routes-search-within-wkt-area",
-        "bus-routes-search-within-stored-wkt-area",
-        "tpl-routes",
-        "tpl-stops",
-        "check-exist-job",
-        "check-exist-trigger",
-        "is-in-standby-mode",
-        "is-shutdown",
-        "is-started",
-        "get-currently-executing-jobs",
-        "get-job-detail",
-        "get-triggers-of-job",
-        "get-job-group-names",
-        "get-trigger-group-names",
-        "get-paused-trigger-groups",
-        "get-job-fire-times",
-        "get-system-status",
-        "trigger-job",
-        "pause-all",
-        "pause-job",
-        "pause-jobs",
-        "pause-trigger",
-        "pause-triggers",
-        "resume-all",
-        "resume-job",
-        "resume-jobs",
-        "resume-trigger",
-        "resume-triggers",
-        "notificator-history-events",
-        "datagate insert",
-        "datagate search",
-        "__errors__",
-        "datagate create",
-        "__errors__",
-        "datagate-credentials",
-        "mapping",
-        "set-mapping",
-        "plumber-data-analytic",
-        "python-data-analytic",
-        "snap4city-authentication-dev",
-        "portia-crawler",
-        "iotapp-restart",
-        "iotapp-upgrade",
-        "delete-device",
-        "ownership",
-        "om-get-processes",
-        "om-get-teams",
-        "om-get-components",
-        "om-get-plants",
-        "om-get-status",
-        "om-create-new-process",
-        "om-advance-process",
-        "om-details-process",
-        "om-delete-process",
-        "save-typical-time-trends",
-        "get-typical-time-trends",
-        "get-my-scenarios",
-        "save-a-scenario"
-      ],
-      "keywords": [
-        "node-red",
-        "smartcity",
-        "iot"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-snap4city-developer"
-    },
-    {
       "id": "node-red-contrib-smb2",
       "version": "1.3.0",
       "description": "Node-RED for the SMB protocol",
@@ -9433,23 +9634,6 @@
       "url": "https://flows.nodered.org/node/node-red-contrib-appwrite"
     },
     {
-      "id": "node-red-contrib-json-logic",
-      "version": "0.0.8",
-      "description": "Node-RED node for configuring json-logic.",
-      "updated_at": "2023-05-28T19:40:18.422Z",
-      "types": [
-        "jsonlogic"
-      ],
-      "keywords": [
-        "node-red",
-        "node-inq",
-        "jsonlogic",
-        "rules",
-        "json"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-json-logic"
-    },
-    {
       "id": "node-red-node-timeswitch",
       "version": "1.1.1",
       "description": "A Node-RED node to provide a simple timeswitch to schedule daily on/off events.",
@@ -9993,42 +10177,6 @@
         "job-scheduling"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-genetic-algorithm"
-    },
-    {
-      "id": "node-red-contrib-msl",
-      "version": "1.0.42",
-      "description": "A node-red module to simplify the access of msl4 channel data.",
-      "updated_at": "2023-05-12T16:43:29.214Z",
-      "types": [
-        "msl-device-config",
-        "msl-channel-config",
-        "msl4-in",
-        "msl4-out"
-      ],
-      "keywords": [
-        "node-red",
-        "msl4",
-        "energy-management"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-msl"
-    },
-    {
-      "id": "@fw-systeme/node-red-msl",
-      "version": "1.0.41",
-      "description": "A node-red module to simplify the access of msl4 channel data.",
-      "updated_at": "2023-05-12T11:31:57.789Z",
-      "types": [
-        "msl-device-config",
-        "msl-channel-config",
-        "msl4-in",
-        "msl4-out"
-      ],
-      "keywords": [
-        "node-red",
-        "msl4",
-        "energy-management"
-      ],
-      "url": "https://flows.nodered.org/node/@fw-systeme/node-red-msl"
     },
     {
       "id": "node-red-contrib-baidutts",
@@ -12426,21 +12574,6 @@
         "salesforce"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-eksido-salesforcemarketingcloud"
-    },
-    {
-      "id": "node-red-contrib-victron-modbus",
-      "version": "0.1.2",
-      "description": "Access the Victron equipment via the modbus",
-      "updated_at": "2023-03-29T10:11:16.257Z",
-      "types": [
-        "victron-modbus"
-      ],
-      "keywords": [
-        "node-red",
-        "victron",
-        "modbus"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-victron-modbus"
     },
     {
       "id": "node-red-contrib-socketio-client-jwt",
@@ -15470,30 +15603,6 @@
       "url": "https://flows.nodered.org/node/node-red-contrib-norelite"
     },
     {
-      "id": "node-red-contrib-dsfnode",
-      "version": "1.1.10",
-      "description": "Nodes for working with the Duet Software Framework & Duet Control Boards",
-      "updated_at": "2023-01-26T10:38:32.949Z",
-      "types": [
-        "dsf-connector",
-        "dsf-intercept",
-        "dsf-monitor",
-        "dsf-command",
-        "dsf-event"
-      ],
-      "keywords": [
-        "node-red",
-        "3D Printer",
-        "Duet",
-        "DSF",
-        "RepRap",
-        "G Code",
-        "3D Printing",
-        "CNC"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-dsfnode"
-    },
-    {
       "id": "node-red-contrib-things",
       "version": "3.2.6",
       "description": "A set of Node-RED nodes that uses an agnostic state management system to keep IOT device states and provide a uniform control system.",
@@ -17738,22 +17847,6 @@
       "url": "https://flows.nodered.org/node/@kurago-dev/node-red-contrib-nats"
     },
     {
-      "id": "node-red-contrib-sftp-ssh2",
-      "version": "0.1.2",
-      "description": "An SFTP client for node-red, a wrapper for ssh2-sftp-client with privatekey support",
-      "updated_at": "2022-11-30T14:07:51.523Z",
-      "types": [
-        "SSH-SFTP-credentials",
-        "SSH-SFTP-main"
-      ],
-      "keywords": [
-        "node-red",
-        "sftp",
-        "ssh"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-sftp-ssh2"
-    },
-    {
       "id": "node-red-contrib-ui-statechart",
       "version": "0.2.0",
       "description": "A Node-RED dashboard ui node.",
@@ -19951,41 +20044,6 @@
         "node-red"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-crp"
-    },
-    {
-      "id": "unified-red",
-      "version": "2.3.0",
-      "description": "A set of nodes in Node-RED to create a customizable building automation user interface or HMI",
-      "updated_at": "2022-10-08T02:02:54.124Z",
-      "types": [
-        "ur_base",
-        "ur_button",
-        "ur_compare",
-        "ur_chart",
-        "ur_datalog",
-        "ur_gauge",
-        "ur_folder",
-        "ur_page",
-        "ur_group",
-        "ur_form",
-        "ur_tab",
-        "ur_text",
-        "ur_text_input",
-        "ur_template",
-        "ur_alarm",
-        "ur_alarm_console",
-        "ur_animation",
-        "ur_table",
-        "ur_pagerduty_config",
-        "ur_pagerduty",
-        "ur_schedule",
-        "ur_schedule_holidays_config",
-        "ur_link"
-      ],
-      "keywords": [
-        "node-red"
-      ],
-      "url": "https://flows.nodered.org/node/unified-red"
     },
     {
       "id": "@dczysz/node-red-bit-encode",
@@ -40123,23 +40181,6 @@
         "node-red"
       ],
       "url": "https://flows.nodered.org/node/enact-actuation-conflict-manager-node"
-    },
-    {
-      "id": "node-red-contrib-whatsapp-cmb",
-      "version": "1.0.2",
-      "description": "Node-RED node to send WhatsApp Messages with WhatsApp CallmeBot",
-      "updated_at": "2021-03-17T11:51:13.048Z",
-      "types": [
-        "node-red-contrib-whatsapp-cmb-account",
-        "node-red-contrib-whatsapp-cmb-send-message"
-      ],
-      "keywords": [
-        "whatsapp",
-        "node-red",
-        "node",
-        "messages"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-whatsapp-cmb"
     },
     {
       "id": "@seveno/node-red-contrib-seveno",
