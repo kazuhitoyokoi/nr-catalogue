@@ -1,7 +1,86 @@
 {
   "name": "Catalogue for Windows",
-  "updated_at": "2023-10-06T19:46:35.876Z",
+  "updated_at": "2023-10-07T19:26:52.548Z",
   "modules": [
+    {
+      "id": "@gregoriusrippenstein/node-red-contrib-validation-and-documentation",
+      "version": "0.0.8",
+      "description": "JSON Schema validator for Node Red",
+      "updated_at": "2023-10-07T10:25:54.378Z",
+      "types": [
+        "JsonSchemaValidatorWithDocu"
+      ],
+      "keywords": [
+        "json",
+        "node",
+        "node-red",
+        "schema"
+      ],
+      "url": "https://flows.nodered.org/node/@gregoriusrippenstein/node-red-contrib-validation-and-documentation"
+    },
+    {
+      "id": "node-red-contrib-panasonic-comfort-cloud",
+      "version": "1.5.1",
+      "description": "Node-RED implementation of panasonic-comfort-cloud-api",
+      "updated_at": "2023-10-07T05:19:42.572Z",
+      "types": [
+        "pcc-config",
+        "pcc-groups",
+        "pcc-device",
+        "pcc-command"
+      ],
+      "keywords": [
+        "node-red",
+        "panasonic",
+        "comfort-cloud",
+        "heatpump",
+        "heat-pump"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-panasonic-comfort-cloud"
+    },
+    {
+      "id": "node-red-contrib-topsail",
+      "version": "3.0.5",
+      "description": "Interface with Topsail",
+      "updated_at": "2023-10-06T22:49:13.068Z",
+      "types": [
+        "email",
+        "ping",
+        "cbw",
+        "sms",
+        "influx-insert",
+        "influx-query",
+        "camera-capture-image",
+        "camera-capture-video",
+        "bosch-vca",
+        "sftp",
+        "dms-activate",
+        "dms-status",
+        "heartbeat"
+      ],
+      "keywords": [
+        "node-red",
+        "topsail"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-topsail"
+    },
+    {
+      "id": "@flecoufle/node-red-linky",
+      "version": "1.1.0",
+      "description": "Retrieve Linky power consumption",
+      "updated_at": "2023-10-06T16:25:26.784Z",
+      "types": [
+        "linky-api"
+      ],
+      "keywords": [
+        "linky",
+        "node-red",
+        "power",
+        "consumption",
+        "production"
+      ],
+      "url": "https://flows.nodered.org/node/@flecoufle/node-red-linky"
+    },
     {
       "id": "node-red-contrib-knx-ultimate",
       "version": "2.1.51",
@@ -251,22 +330,6 @@
         "energy-management"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-msl"
-    },
-    {
-      "id": "@gregoriusrippenstein/node-red-contrib-validation-and-documentation",
-      "version": "0.0.7",
-      "description": "JSON Schema validator for Node Red",
-      "updated_at": "2023-10-06T09:38:57.864Z",
-      "types": [
-        "JsonSchemaValidatorWithDocu"
-      ],
-      "keywords": [
-        "json",
-        "node",
-        "node-red",
-        "schema"
-      ],
-      "url": "https://flows.nodered.org/node/@gregoriusrippenstein/node-red-contrib-validation-and-documentation"
     },
     {
       "id": "@fw-systeme/node-red-msl",
@@ -682,26 +745,6 @@
       "url": "https://flows.nodered.org/node/node-red-contrib-axis-host"
     },
     {
-      "id": "node-red-contrib-panasonic-comfort-cloud",
-      "version": "1.5.0",
-      "description": "Node-RED implementation of panasonic-comfort-cloud-api",
-      "updated_at": "2023-10-03T19:37:43.153Z",
-      "types": [
-        "pcc-config",
-        "pcc-groups",
-        "pcc-device",
-        "pcc-command"
-      ],
-      "keywords": [
-        "node-red",
-        "panasonic",
-        "comfort-cloud",
-        "heatpump",
-        "heat-pump"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-panasonic-comfort-cloud"
-    },
-    {
       "id": "@joe-ab1do/mcp-pcf-aio",
       "version": "3.1.2",
       "description": "Node-Red nodes for i2c port expanders MCP23008, MCP23017, PCF8574(A) & PCF8575",
@@ -720,32 +763,6 @@
         "pcf8575"
       ],
       "url": "https://flows.nodered.org/node/@joe-ab1do/mcp-pcf-aio"
-    },
-    {
-      "id": "node-red-contrib-topsail",
-      "version": "3.0.4",
-      "description": "Interface with Topsail",
-      "updated_at": "2023-10-03T16:02:02.607Z",
-      "types": [
-        "email",
-        "ping",
-        "cbw",
-        "sms",
-        "influx-insert",
-        "influx-query",
-        "camera-capture-image",
-        "camera-capture-video",
-        "bosch-vca",
-        "sftp",
-        "dms-activate",
-        "dms-status",
-        "heartbeat"
-      ],
-      "keywords": [
-        "node-red",
-        "topsail"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-topsail"
     },
     {
       "id": "node-red-contrib-virtual-smart-home",
@@ -1373,20 +1390,6 @@
         "dusk"
       ],
       "url": "https://flows.nodered.org/node/@tbowmo/node-red-small-timer"
-    },
-    {
-      "id": "node-red-vue-node",
-      "version": "1.0.8",
-      "description": "vue node",
-      "updated_at": "2023-09-28T10:04:27.361Z",
-      "types": [
-        "vue-node"
-      ],
-      "keywords": [
-        "node-red",
-        "vue"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-vue-node"
     },
     {
       "id": "node-red-contrib-ewelink-cube",
@@ -7909,23 +7912,6 @@
         "node-red"
       ],
       "url": "https://flows.nodered.org/node/@sinch/node-red-conversation-api"
-    },
-    {
-      "id": "@flecoufle/node-red-linky",
-      "version": "1.0.0",
-      "description": "Retrieve Linky power consumption",
-      "updated_at": "2023-07-01T09:14:10.584Z",
-      "types": [
-        "linky-api"
-      ],
-      "keywords": [
-        "linky",
-        "node-red",
-        "power",
-        "consumption",
-        "production"
-      ],
-      "url": "https://flows.nodered.org/node/@flecoufle/node-red-linky"
     },
     {
       "id": "node-red-contrib-arc-modbus-puls",
