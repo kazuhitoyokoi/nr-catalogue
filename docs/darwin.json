@@ -1,7 +1,131 @@
 {
   "name": "Catalogue for macOS",
-  "updated_at": "2023-10-06T21:35:25.417Z",
+  "updated_at": "2023-10-07T21:24:01.088Z",
   "modules": [
+    {
+      "id": "@gregoriusrippenstein/node-red-contrib-introspection",
+      "version": "0.4.4",
+      "description": "Node-RED Editor-only nodes for introspecting flows.",
+      "updated_at": "2023-10-07T19:02:43.163Z",
+      "types": [
+        "Seeker",
+        "Sink",
+        "Screenshot",
+        "Orphans",
+        "IsMobile",
+        "Navigator",
+        "DrawSVG",
+        "GetFlows",
+        "SendFlow",
+        "ClientCode"
+      ],
+      "keywords": [
+        "node-red",
+        "introspection",
+        "selfreflection"
+      ],
+      "url": "https://flows.nodered.org/node/@gregoriusrippenstein/node-red-contrib-introspection"
+    },
+    {
+      "id": "node-red-contrib-dirigera",
+      "version": "0.2.0",
+      "description": "A Node-Red Node for controlling Ikea Dirigera hub.",
+      "updated_at": "2023-10-07T18:49:37.604Z",
+      "types": [
+        "dirigera-config",
+        "dirigera"
+      ],
+      "keywords": [
+        "node-red",
+        "dirigera",
+        "ikea"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-dirigera"
+    },
+    {
+      "id": "@gregoriusrippenstein/node-red-contrib-nodedev",
+      "version": "0.1.1",
+      "description": "Support the development of Node-RED nodes within Node-RED.",
+      "updated_at": "2023-10-07T18:46:13.791Z",
+      "types": [
+        "NodeDevOps",
+        "NodeFactory",
+        "PkgFile",
+        "NpmTarBall",
+        "NodeRedInstall",
+        "NpmPublish"
+      ],
+      "keywords": [
+        "node-red",
+        "node development",
+        "introspection",
+        "bootstrapping",
+        "recursion"
+      ],
+      "url": "https://flows.nodered.org/node/@gregoriusrippenstein/node-red-contrib-nodedev"
+    },
+    {
+      "id": "@gregoriusrippenstein/node-red-contrib-validation-and-documentation",
+      "version": "0.0.8",
+      "description": "JSON Schema validator for Node Red",
+      "updated_at": "2023-10-07T10:25:54.378Z",
+      "types": [
+        "JsonSchemaValidatorWithDocu"
+      ],
+      "keywords": [
+        "json",
+        "node",
+        "node-red",
+        "schema"
+      ],
+      "url": "https://flows.nodered.org/node/@gregoriusrippenstein/node-red-contrib-validation-and-documentation"
+    },
+    {
+      "id": "node-red-contrib-panasonic-comfort-cloud",
+      "version": "1.5.1",
+      "description": "Node-RED implementation of panasonic-comfort-cloud-api",
+      "updated_at": "2023-10-07T05:19:42.572Z",
+      "types": [
+        "pcc-config",
+        "pcc-groups",
+        "pcc-device",
+        "pcc-command"
+      ],
+      "keywords": [
+        "node-red",
+        "panasonic",
+        "comfort-cloud",
+        "heatpump",
+        "heat-pump"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-panasonic-comfort-cloud"
+    },
+    {
+      "id": "node-red-contrib-topsail",
+      "version": "3.0.5",
+      "description": "Interface with Topsail",
+      "updated_at": "2023-10-06T22:49:13.068Z",
+      "types": [
+        "email",
+        "ping",
+        "cbw",
+        "sms",
+        "influx-insert",
+        "influx-query",
+        "camera-capture-image",
+        "camera-capture-video",
+        "bosch-vca",
+        "sftp",
+        "dms-activate",
+        "dms-status",
+        "heartbeat"
+      ],
+      "keywords": [
+        "node-red",
+        "topsail"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-topsail"
+    },
     {
       "id": "@flecoufle/node-red-linky",
       "version": "1.1.0",
@@ -87,27 +211,6 @@
         "ssh"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-sftp-ssh2"
-    },
-    {
-      "id": "@gregoriusrippenstein/node-red-contrib-nodedev",
-      "version": "0.0.10",
-      "description": "Support the development of Node-RED nodes within Node-RED.",
-      "updated_at": "2023-10-06T11:22:42.522Z",
-      "types": [
-        "NodeFactory",
-        "PkgFile",
-        "NpmTarBall",
-        "NodeRedInstall",
-        "NpmPublish"
-      ],
-      "keywords": [
-        "node-red",
-        "node development",
-        "introspection",
-        "bootstrapping",
-        "recursion"
-      ],
-      "url": "https://flows.nodered.org/node/@gregoriusrippenstein/node-red-contrib-nodedev"
     },
     {
       "id": "node-red-contrib-dsfnode",
@@ -268,22 +371,6 @@
         "energy-management"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-msl"
-    },
-    {
-      "id": "@gregoriusrippenstein/node-red-contrib-validation-and-documentation",
-      "version": "0.0.7",
-      "description": "JSON Schema validator for Node Red",
-      "updated_at": "2023-10-06T09:38:57.864Z",
-      "types": [
-        "JsonSchemaValidatorWithDocu"
-      ],
-      "keywords": [
-        "json",
-        "node",
-        "node-red",
-        "schema"
-      ],
-      "url": "https://flows.nodered.org/node/@gregoriusrippenstein/node-red-contrib-validation-and-documentation"
     },
     {
       "id": "@fw-systeme/node-red-msl",
@@ -726,26 +813,6 @@
       "url": "https://flows.nodered.org/node/node-red-contrib-axis-host"
     },
     {
-      "id": "node-red-contrib-panasonic-comfort-cloud",
-      "version": "1.5.0",
-      "description": "Node-RED implementation of panasonic-comfort-cloud-api",
-      "updated_at": "2023-10-03T19:37:43.153Z",
-      "types": [
-        "pcc-config",
-        "pcc-groups",
-        "pcc-device",
-        "pcc-command"
-      ],
-      "keywords": [
-        "node-red",
-        "panasonic",
-        "comfort-cloud",
-        "heatpump",
-        "heat-pump"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-panasonic-comfort-cloud"
-    },
-    {
       "id": "@joe-ab1do/mcp-pcf-aio",
       "version": "3.1.2",
       "description": "Node-Red nodes for i2c port expanders MCP23008, MCP23017, PCF8574(A) & PCF8575",
@@ -764,32 +831,6 @@
         "pcf8575"
       ],
       "url": "https://flows.nodered.org/node/@joe-ab1do/mcp-pcf-aio"
-    },
-    {
-      "id": "node-red-contrib-topsail",
-      "version": "3.0.4",
-      "description": "Interface with Topsail",
-      "updated_at": "2023-10-03T16:02:02.607Z",
-      "types": [
-        "email",
-        "ping",
-        "cbw",
-        "sms",
-        "influx-insert",
-        "influx-query",
-        "camera-capture-image",
-        "camera-capture-video",
-        "bosch-vca",
-        "sftp",
-        "dms-activate",
-        "dms-status",
-        "heartbeat"
-      ],
-      "keywords": [
-        "node-red",
-        "topsail"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-topsail"
     },
     {
       "id": "node-red-contrib-virtual-smart-home",
@@ -1417,20 +1458,6 @@
         "dusk"
       ],
       "url": "https://flows.nodered.org/node/@tbowmo/node-red-small-timer"
-    },
-    {
-      "id": "node-red-vue-node",
-      "version": "1.0.8",
-      "description": "vue node",
-      "updated_at": "2023-09-28T10:04:27.361Z",
-      "types": [
-        "vue-node"
-      ],
-      "keywords": [
-        "node-red",
-        "vue"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-vue-node"
     },
     {
       "id": "node-red-contrib-ewelink-cube",
@@ -3258,28 +3285,6 @@
         "node-red"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-millheat"
-    },
-    {
-      "id": "@gregoriusrippenstein/node-red-contrib-introspection",
-      "version": "0.4.3",
-      "description": "Node-RED Editor-only nodes for introspecting flows.",
-      "updated_at": "2023-09-19T13:14:18.788Z",
-      "types": [
-        "Seeker",
-        "Sink",
-        "Screenshot",
-        "Orphans",
-        "IsMobile",
-        "Navigator",
-        "DrawSVG",
-        "GetFlows",
-        "SendFlow",
-        "ClientCode"
-      ],
-      "keywords": [
-        "node-red"
-      ],
-      "url": "https://flows.nodered.org/node/@gregoriusrippenstein/node-red-contrib-introspection"
     },
     {
       "id": "node-red-contrib-eskomsepush",
