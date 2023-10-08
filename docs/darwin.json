@@ -1,7 +1,190 @@
 {
   "name": "Catalogue for macOS",
-  "updated_at": "2023-10-07T21:24:01.088Z",
+  "updated_at": "2023-10-08T23:33:35.679Z",
   "modules": [
+    {
+      "id": "@digitalnodecom/node-red-contrib-generic-s3",
+      "version": "1.14.0",
+      "description": "Generic node-red S3 nodes",
+      "updated_at": "2023-10-08T18:48:20.055Z",
+      "types": [
+        "client-s3",
+        "List Buckets",
+        "Create Bucket",
+        "List Objects",
+        "List Objects V2",
+        "List Object Versions",
+        "Get Object",
+        "Get Objects",
+        "Head Object",
+        "Put Object",
+        "Put Objects",
+        "Delete Object",
+        "Copy Object",
+        "Move Object",
+        "Object Exists"
+      ],
+      "keywords": [
+        "node-red",
+        "s3",
+        "generic"
+      ],
+      "url": "https://flows.nodered.org/node/@digitalnodecom/node-red-contrib-generic-s3"
+    },
+    {
+      "id": "node-red-contrib-dirigera",
+      "version": "0.3.3",
+      "description": "A Node-Red Node for controlling Ikea Dirigera hub.",
+      "updated_at": "2023-10-08T18:43:47.517Z",
+      "types": [
+        "dirigera-config",
+        "dirigera"
+      ],
+      "keywords": [
+        "node-red",
+        "dirigera",
+        "ikea"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-dirigera"
+    },
+    {
+      "id": "node-red-contrib-simple-webdriver",
+      "version": "0.3.1",
+      "description": "SimpleWebdriver nodes for Node-RED initially based on node-red-contrib-selenium-wd2",
+      "updated_at": "2023-10-08T17:23:44.175Z",
+      "types": [
+        "click on",
+        "close browser",
+        "find element",
+        "get attribute",
+        "get cookie",
+        "get text",
+        "get title",
+        "get value",
+        "navigate",
+        "open browser",
+        "run script",
+        "screenshot",
+        "send keys",
+        "set attribute",
+        "set cookie",
+        "set value",
+        "switch frame",
+        "__errors__"
+      ],
+      "keywords": [
+        "node-red",
+        "selenium",
+        "simple-webdriver",
+        "webdriver",
+        "RPA",
+        "chromedriver",
+        "geckodriver"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-simple-webdriver"
+    },
+    {
+      "id": "node-red-node-telegrambot",
+      "version": "0.1.1",
+      "description": "Telegram userbot nodes for Node-RED",
+      "updated_at": "2023-10-08T11:54:57.817Z",
+      "types": [
+        "telegram client config",
+        "telegram client receiver",
+        "telegram client sender"
+      ],
+      "keywords": [
+        "node-red",
+        "telegram",
+        "bot",
+        "userbot",
+        "selfbot"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-node-telegrambot"
+    },
+    {
+      "id": "node-red-contrib-unifi",
+      "version": "0.3.10",
+      "description": "Node for Node-RED to connect to a UniFi Controller ",
+      "updated_at": "2023-10-08T10:20:46.972Z",
+      "types": [
+        "unificonfig",
+        "Unifi",
+        "UnifiWS"
+      ],
+      "keywords": [
+        "node-red",
+        "unifi",
+        "ubnt",
+        "Ubiquiti Networks"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-unifi"
+    },
+    {
+      "id": "@gregoriusrippenstein/node-red-contrib-flow2uml",
+      "version": "0.0.6",
+      "description": "Convert current flow tab to Mermaid flow diagram.",
+      "updated_at": "2023-10-08T10:13:14.230Z",
+      "types": [
+        "Flow2UML"
+      ],
+      "keywords": [
+        "node-red",
+        "uml",
+        "mermaid"
+      ],
+      "url": "https://flows.nodered.org/node/@gregoriusrippenstein/node-red-contrib-flow2uml"
+    },
+    {
+      "id": "@caitken-com/node-red-contrib-json2mysql",
+      "version": "1.1.0",
+      "description": "JSON to MYSQL",
+      "updated_at": "2023-10-08T08:32:06.202Z",
+      "types": [
+        "json2mysql-server",
+        "json2mysql"
+      ],
+      "keywords": [
+        "mysql",
+        "json",
+        "node-red"
+      ],
+      "url": "https://flows.nodered.org/node/@caitken-com/node-red-contrib-json2mysql"
+    },
+    {
+      "id": "@gregoriusrippenstein/node-red-contrib-flowhub",
+      "version": "0.2.6",
+      "description": "FlowHub interaction nodes.",
+      "updated_at": "2023-10-07T22:27:52.521Z",
+      "types": [
+        "FlowHubPull",
+        "FlowHubPush",
+        "FlowHubDiff"
+      ],
+      "keywords": [
+        "node-red",
+        "flowhub",
+        "flowsharing"
+      ],
+      "url": "https://flows.nodered.org/node/@gregoriusrippenstein/node-red-contrib-flowhub"
+    },
+    {
+      "id": "@gregoriusrippenstein/node-red-contrib-auto-alignment",
+      "version": "0.0.5",
+      "description": "Auto-layout/alignment of a Node-RED flow.",
+      "updated_at": "2023-10-07T19:35:09.935Z",
+      "types": [
+        "AutoAlign"
+      ],
+      "keywords": [
+        "node-red",
+        "auto-alignment",
+        "alignment",
+        "auto-layout",
+        "layout"
+      ],
+      "url": "https://flows.nodered.org/node/@gregoriusrippenstein/node-red-contrib-auto-alignment"
+    },
     {
       "id": "@gregoriusrippenstein/node-red-contrib-introspection",
       "version": "0.4.4",
@@ -25,22 +208,6 @@
         "selfreflection"
       ],
       "url": "https://flows.nodered.org/node/@gregoriusrippenstein/node-red-contrib-introspection"
-    },
-    {
-      "id": "node-red-contrib-dirigera",
-      "version": "0.2.0",
-      "description": "A Node-Red Node for controlling Ikea Dirigera hub.",
-      "updated_at": "2023-10-07T18:49:37.604Z",
-      "types": [
-        "dirigera-config",
-        "dirigera"
-      ],
-      "keywords": [
-        "node-red",
-        "dirigera",
-        "ikea"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-dirigera"
     },
     {
       "id": "@gregoriusrippenstein/node-red-contrib-nodedev",
@@ -235,23 +402,6 @@
         "CNC"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-dsfnode"
-    },
-    {
-      "id": "@gregoriusrippenstein/node-red-contrib-flowhub",
-      "version": "0.2.5",
-      "description": "FlowHub interaction nodes.",
-      "updated_at": "2023-10-06T10:44:45.928Z",
-      "types": [
-        "FlowHubPull",
-        "FlowHubPush",
-        "FlowHubDiff"
-      ],
-      "keywords": [
-        "node-red",
-        "flowhub",
-        "flowsharing"
-      ],
-      "url": "https://flows.nodered.org/node/@gregoriusrippenstein/node-red-contrib-flowhub"
     },
     {
       "id": "node-red-contrib-snap4city-developer",
@@ -978,23 +1128,6 @@
       "url": "https://flows.nodered.org/node/@appmodule/node-red-contrib-siot"
     },
     {
-      "id": "@gregoriusrippenstein/node-red-contrib-auto-alignment",
-      "version": "0.0.4",
-      "description": "Auto-layout/alignment of a Node-RED flow.",
-      "updated_at": "2023-10-02T09:38:12.337Z",
-      "types": [
-        "AutoAlign"
-      ],
-      "keywords": [
-        "node-red",
-        "auto-alignment",
-        "alignment",
-        "auto-layout",
-        "layout"
-      ],
-      "url": "https://flows.nodered.org/node/@gregoriusrippenstein/node-red-contrib-auto-alignment"
-    },
-    {
       "id": "node-red-contrib-tts-ultimate",
       "version": "2.0.5",
       "description": "Transforms the text in speech and hear it using Sonos player or generate an audio file to be used with third parties nodes. Works with voices from Amazon, Google (without credentials as well), Microsoft TTS Azure, ElevenLabs.io TTS or your own voice. You ",
@@ -1044,25 +1177,6 @@
         "chrono"
       ],
       "url": "https://flows.nodered.org/node/thingzi-logic-timers"
-    },
-    {
-      "id": "node-red-node-telegrambot",
-      "version": "0.0.3",
-      "description": "Telegram userbot nodes for Node-RED",
-      "updated_at": "2023-10-01T21:13:33.999Z",
-      "types": [
-        "telegram client config",
-        "telegram client receiver",
-        "telegram client sender"
-      ],
-      "keywords": [
-        "node-red",
-        "telegram",
-        "bot",
-        "userbot",
-        "selfbot"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-node-telegrambot"
     },
     {
       "id": "@sip-irrigation/node-red-sip-irrigation-nodes",
@@ -1304,21 +1418,6 @@
         "FaceNet"
       ],
       "url": "https://flows.nodered.org/node/@good-i-deer/node-red-contrib-face-vectorization"
-    },
-    {
-      "id": "@gregoriusrippenstein/node-red-contrib-flow2uml",
-      "version": "0.0.3",
-      "description": "Convert current flow tab to Mermaid flow diagram.",
-      "updated_at": "2023-09-30T10:33:48.974Z",
-      "types": [
-        "Flow2UML"
-      ],
-      "keywords": [
-        "node-red",
-        "uml",
-        "mermaid"
-      ],
-      "url": "https://flows.nodered.org/node/@gregoriusrippenstein/node-red-contrib-flow2uml"
     },
     {
       "id": "node-red-contrib-docxtemplater",
@@ -4130,24 +4229,6 @@
       "url": "https://flows.nodered.org/node/@gogovega/node-red-contrib-firebase-realtime-database"
     },
     {
-      "id": "node-red-contrib-unifi",
-      "version": "0.3.9",
-      "description": "Node for Node-RED to connect to a UniFi Controller ",
-      "updated_at": "2023-09-09T08:29:54.462Z",
-      "types": [
-        "unificonfig",
-        "Unifi",
-        "UnifiWS"
-      ],
-      "keywords": [
-        "node-red",
-        "unifi",
-        "ubnt",
-        "Ubiquiti Networks"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-unifi"
-    },
-    {
       "id": "node-red-contrib-amap",
       "version": "1.1.1",
       "description": "node red node for amap",
@@ -4615,34 +4696,6 @@
         "sentry"
       ],
       "url": "https://flows.nodered.org/node/mpowr-it-node-red-sentry-node"
-    },
-    {
-      "id": "@digitalnodecom/node-red-contrib-generic-s3",
-      "version": "1.13.0",
-      "description": "Generic node-red S3 nodes",
-      "updated_at": "2023-09-03T20:46:41.208Z",
-      "types": [
-        "client-s3",
-        "List Buckets",
-        "Create Bucket",
-        "List Objects",
-        "List Objects V2",
-        "List Object Versions",
-        "Get Object",
-        "Head Object",
-        "Put Object",
-        "Put Objects",
-        "Delete Object",
-        "Copy Object",
-        "Move Object",
-        "Object Exists"
-      ],
-      "keywords": [
-        "node-red",
-        "s3",
-        "generic"
-      ],
-      "url": "https://flows.nodered.org/node/@digitalnodecom/node-red-contrib-generic-s3"
     },
     {
       "id": "@edgepi-cloud/node-red-edgepi-thermocouple",
@@ -11957,22 +12010,6 @@
       "url": "https://flows.nodered.org/node/node-red-contrib-environmental-data-simulator"
     },
     {
-      "id": "@caitken-com/node-red-contrib-json2mysql",
-      "version": "1.0.5",
-      "description": "JSON to MYSQL",
-      "updated_at": "2023-04-09T06:20:16.293Z",
-      "types": [
-        "json2mysql-server",
-        "json2mysql"
-      ],
-      "keywords": [
-        "mysql",
-        "json",
-        "node-red"
-      ],
-      "url": "https://flows.nodered.org/node/@caitken-com/node-red-contrib-json2mysql"
-    },
-    {
       "id": "node-contrib-inovelli-status-manager",
       "version": "0.1.0",
       "description": "Status manager node for inovelli switch",
@@ -15842,42 +15879,6 @@
         "whatsapp"
       ],
       "url": "https://flows.nodered.org/node/@inutil-labs/node-red-whin-whatsapp"
-    },
-    {
-      "id": "node-red-contrib-simple-webdriver",
-      "version": "0.3.0",
-      "description": "SimpleWebdriver nodes for Node-RED initially based on node-red-contrib-selenium-wd2",
-      "updated_at": "2023-01-19T20:36:26.822Z",
-      "types": [
-        "click on",
-        "close browser",
-        "find element",
-        "get attribute",
-        "get cookie",
-        "get text",
-        "get title",
-        "get value",
-        "navigate",
-        "open browser",
-        "run script",
-        "screenshot",
-        "send keys",
-        "set attribute",
-        "set cookie",
-        "set value",
-        "switch frame",
-        "__errors__"
-      ],
-      "keywords": [
-        "node-red",
-        "selenium",
-        "simple-webdriver",
-        "webdriver",
-        "RPA",
-        "chromedriver",
-        "geckodriver"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-simple-webdriver"
     },
     {
       "id": "node-red-contrib-iiot-rpi-max7219",
