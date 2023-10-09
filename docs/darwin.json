@@ -1,7 +1,107 @@
 {
   "name": "Catalogue for macOS",
-  "updated_at": "2023-10-08T23:33:35.679Z",
+  "updated_at": "2023-10-09T21:24:51.793Z",
   "modules": [
+    {
+      "id": "node-red-contrib-dirigera",
+      "version": "0.3.7",
+      "description": "A Node-Red Node for controlling Ikea Dirigera hub.",
+      "updated_at": "2023-10-09T18:47:04.395Z",
+      "types": [
+        "dirigera-config",
+        "dirigera"
+      ],
+      "keywords": [
+        "node-red",
+        "dirigera",
+        "ikea"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-dirigera"
+    },
+    {
+      "id": "topological-nodered-wdio",
+      "version": "0.5.1",
+      "description": "Open source WebdriverIO nodes for Node-RED",
+      "updated_at": "2023-10-09T15:40:37.419Z",
+      "types": [
+        "delete-session",
+        "element-action",
+        "new-session",
+        "browser-action",
+        "element-check",
+        "alert-action",
+        "dropdown-action",
+        "window-action",
+        "frame-action",
+        "execute-script",
+        "explicit-wait",
+        "implicit-wait-config"
+      ],
+      "keywords": [
+        "node-red",
+        "topological"
+      ],
+      "url": "https://flows.nodered.org/node/topological-nodered-wdio"
+    },
+    {
+      "id": "@sammachin/node-red-matter-bridge",
+      "version": "0.0.8",
+      "description": "Node red package for implementing a matter bridge",
+      "updated_at": "2023-10-09T12:05:55.978Z",
+      "types": [
+        "matterbridge",
+        "matteronofflight",
+        "matteronoffsocket",
+        "matterdimmablelight"
+      ],
+      "keywords": [
+        "node-red"
+      ],
+      "url": "https://flows.nodered.org/node/@sammachin/node-red-matter-bridge"
+    },
+    {
+      "id": "node-red-contrib-ha-mqtt",
+      "version": "1.2.13",
+      "description": "Generate MQTT entities in HomeAssistant",
+      "updated_at": "2023-10-09T08:48:14.396Z",
+      "types": [
+        "ha-mqtt-device",
+        "ha-mqtt-discovery",
+        "ha-mqtt-alarm_control_panel",
+        "ha-mqtt-binary_sensor",
+        "ha-mqtt-button",
+        "ha-mqtt-camera",
+        "ha-mqtt-climate",
+        "ha-mqtt-cover",
+        "ha-mqtt-device_automation",
+        "ha-mqtt-device_tracker",
+        "ha-mqtt-event",
+        "ha-mqtt-fan",
+        "ha-mqtt-humidifier",
+        "ha-mqtt-image",
+        "ha-mqtt-lawn_mower",
+        "ha-mqtt-light",
+        "ha-mqtt-lock",
+        "ha-mqtt-number",
+        "ha-mqtt-scene",
+        "ha-mqtt-select",
+        "ha-mqtt-sensor",
+        "ha-mqtt-siren",
+        "ha-mqtt-switch",
+        "ha-mqtt-tag",
+        "ha-mqtt-text",
+        "ha-mqtt-update",
+        "ha-mqtt-vacuum",
+        "ha-mqtt-water_heater"
+      ],
+      "keywords": [
+        "node-red",
+        "ha-mqtt",
+        "homeassistant",
+        "home-assistant"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-ha-mqtt"
+    },
     {
       "id": "@digitalnodecom/node-red-contrib-generic-s3",
       "version": "1.14.0",
@@ -32,20 +132,23 @@
       "url": "https://flows.nodered.org/node/@digitalnodecom/node-red-contrib-generic-s3"
     },
     {
-      "id": "node-red-contrib-dirigera",
-      "version": "0.3.3",
-      "description": "A Node-Red Node for controlling Ikea Dirigera hub.",
-      "updated_at": "2023-10-08T18:43:47.517Z",
+      "id": "node-red-contrib-mcdm",
+      "version": "0.0.2",
+      "description": "Node-RED Multi Criterion Decision Making Nodes",
+      "updated_at": "2023-10-08T17:43:03.483Z",
       "types": [
-        "dirigera-config",
-        "dirigera"
+        "ahp",
+        "saw",
+        "topsis",
+        "moora",
+        "vikor",
+        "promethee"
       ],
       "keywords": [
         "node-red",
-        "dirigera",
-        "ikea"
+        "node-inq"
       ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-dirigera"
+      "url": "https://flows.nodered.org/node/node-red-contrib-mcdm"
     },
     {
       "id": "node-red-contrib-simple-webdriver",
@@ -1032,6 +1135,23 @@
         "node-red"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-agur-connector"
+    },
+    {
+      "id": "@terranlabs/appflow-langchain",
+      "version": "0.0.12",
+      "description": "Use langchain in appflow",
+      "updated_at": "2023-10-03T10:41:23.443Z",
+      "types": [
+        "find-domain-bod"
+      ],
+      "keywords": [
+        "node-red",
+        "appflow",
+        "langchain",
+        "terranlabs",
+        "terran"
+      ],
+      "url": "https://flows.nodered.org/node/@terranlabs/appflow-langchain"
     },
     {
       "id": "@bitpoolos/edge-bacnet",
@@ -3206,22 +3326,6 @@
       "url": "https://flows.nodered.org/node/@mike.gofton/dsp-w215"
     },
     {
-      "id": "@sammachin/node-red-matter-bridge",
-      "version": "0.0.5",
-      "description": "Node red package for implementing a matter bridge",
-      "updated_at": "2023-09-20T09:11:55.935Z",
-      "types": [
-        "matterbridge",
-        "matteronofflight",
-        "matteronoffsocket",
-        "matterdimmablelight"
-      ],
-      "keywords": [
-        "node-red"
-      ],
-      "url": "https://flows.nodered.org/node/@sammachin/node-red-matter-bridge"
-    },
-    {
       "id": "node-red-contrib-simple-chatgpt-instruct",
       "version": "1.0.0",
       "description": "Node-REDでChatGPTを使うためのノードです。チャットのやり取りは出来ない一発回答のみです。",
@@ -3966,49 +4070,6 @@
         "ai"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-openai-ubos"
-    },
-    {
-      "id": "node-red-contrib-ha-mqtt",
-      "version": "1.2.12",
-      "description": "Generate MQTT entities in HomeAssistant",
-      "updated_at": "2023-09-12T09:28:35.916Z",
-      "types": [
-        "ha-mqtt-device",
-        "ha-mqtt-discovery",
-        "ha-mqtt-alarm_control_panel",
-        "ha-mqtt-binary_sensor",
-        "ha-mqtt-button",
-        "ha-mqtt-camera",
-        "ha-mqtt-climate",
-        "ha-mqtt-cover",
-        "ha-mqtt-device_automation",
-        "ha-mqtt-device_tracker",
-        "ha-mqtt-event",
-        "ha-mqtt-fan",
-        "ha-mqtt-humidifier",
-        "ha-mqtt-image",
-        "ha-mqtt-lawn_mower",
-        "ha-mqtt-light",
-        "ha-mqtt-lock",
-        "ha-mqtt-number",
-        "ha-mqtt-scene",
-        "ha-mqtt-select",
-        "ha-mqtt-sensor",
-        "ha-mqtt-siren",
-        "ha-mqtt-switch",
-        "ha-mqtt-tag",
-        "ha-mqtt-text",
-        "ha-mqtt-update",
-        "ha-mqtt-vacuum",
-        "ha-mqtt-water_heater"
-      ],
-      "keywords": [
-        "node-red",
-        "ha-mqtt",
-        "homeassistant",
-        "home-assistant"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-ha-mqtt"
     },
     {
       "id": "node-red-contrib-mf-mavlink",
@@ -7207,23 +7268,6 @@
         "node-red"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-tf-model"
-    },
-    {
-      "id": "@terranlabs/appflow-langchain",
-      "version": "0.0.1",
-      "description": "Use langchain in appflow",
-      "updated_at": "2023-07-18T03:38:26.977Z",
-      "types": [
-        "find-domain-bod"
-      ],
-      "keywords": [
-        "node-red",
-        "appflow",
-        "langchain",
-        "terranlabs",
-        "terran"
-      ],
-      "url": "https://flows.nodered.org/node/@terranlabs/appflow-langchain"
     },
     {
       "id": "node-red-contrib-tf-function",
@@ -10560,31 +10604,6 @@
         "Smart Parks"
       ],
       "url": "https://flows.nodered.org/node/@smartparks/node-red-contrib-earthranger"
-    },
-    {
-      "id": "topological-nodered-wdio",
-      "version": "0.4.7",
-      "description": "Open source WebdriverIO nodes for Node-RED",
-      "updated_at": "2023-05-08T13:50:54.801Z",
-      "types": [
-        "delete-session",
-        "element-action",
-        "new-session",
-        "browser-action",
-        "element-check",
-        "alert-action",
-        "dropdown-action",
-        "window-action",
-        "frame-action",
-        "execute-script",
-        "explicit-wait",
-        "implicit-wait-config"
-      ],
-      "keywords": [
-        "node-red",
-        "topological"
-      ],
-      "url": "https://flows.nodered.org/node/topological-nodered-wdio"
     },
     {
       "id": "@nodecolor/node-red-contrib-azure-iot-hub",
