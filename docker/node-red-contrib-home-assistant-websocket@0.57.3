@@ -1,0 +1,49 @@
+#0 building with "default" instance using docker driver
+
+#1 [internal] load .dockerignore
+#1 transferring context: 2B done
+#1 DONE 0.0s
+
+#2 [internal] load build definition from Dockerfile
+#2 transferring dockerfile: 135B done
+#2 DONE 0.0s
+
+#3 [internal] load metadata for docker.io/nodered/node-red:latest
+#3 DONE 0.1s
+
+#4 [1/2] FROM docker.io/nodered/node-red@sha256:5e99ed734f7d2f9bfcb1e20dfbf4c5b9aa60f35a9df6e257e817130f0f9be9dc
+#4 CACHED
+
+#5 [2/2] RUN npm install npm install node-red-contrib-home-assistant-websocket@0.57.3
+#5 4.108 npm WARN EBADENGINE Unsupported engine {
+#5 4.109 npm WARN EBADENGINE   package: 'npm@10.2.0',
+#5 4.109 npm WARN EBADENGINE   required: { node: '^18.17.0 || >=20.5.0' },
+#5 4.109 npm WARN EBADENGINE   current: { node: 'v16.20.2', npm: '8.19.4' }
+#5 4.109 npm WARN EBADENGINE }
+#5 7.867 
+#5 7.867 added 186 packages, and audited 748 packages in 7s
+#5 7.867 
+#5 7.867 81 packages are looking for funding
+#5 7.867   run `npm fund` for details
+#5 7.877 
+#5 7.877 3 high severity vulnerabilities
+#5 7.877 
+#5 7.877 To address all issues (including breaking changes), run:
+#5 7.877   npm audit fix --force
+#5 7.877 
+#5 7.877 Run `npm audit` for details.
+#5 7.878 npm notice 
+#5 7.878 npm notice New major version of npm available! 8.19.4 -> 10.2.0
+#5 7.878 npm notice Changelog: <https://github.com/npm/cli/releases/tag/v10.2.0>
+#5 7.878 npm notice Run `npm install -g npm@10.2.0` to update!
+#5 7.878 npm notice 
+#5 DONE 8.1s
+
+#6 exporting to image
+#6 exporting layers
+#6 exporting layers 1.7s done
+#6 writing image sha256:63ef6787e1c676c1c20163fbcb9f1ae6e3cf3a53de580dd24baeadddcdbe12d9 done
+#6 naming to docker.io/library/tmp done
+#6 DONE 1.7s
+
+----
