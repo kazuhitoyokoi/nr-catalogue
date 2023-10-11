@@ -1,7 +1,314 @@
 {
   "name": "Catalogue for Docker",
-  "updated_at": "2023-10-10T16:04:27.196Z",
+  "updated_at": "2023-10-11T16:24:28.588Z",
   "modules": [
+    {
+      "id": "@appmodule/node-red-contrib-siot",
+      "version": "3.0.0-rc9",
+      "description": "Node-RED interactions with SIOT",
+      "updated_at": "2023-10-11T14:17:56.929Z",
+      "types": [
+        "de-commands",
+        "cmd-ack",
+        "de-subscriber",
+        "de-publisher",
+        "siot-config",
+        "class-config"
+      ],
+      "keywords": [
+        "node-red"
+      ],
+      "url": "https://flows.nodered.org/node/@appmodule/node-red-contrib-siot"
+    },
+    {
+      "id": "@starke-dms/node-red",
+      "version": "0.0.5",
+      "description": "node-red for starke-dms rest-api",
+      "updated_at": "2023-10-11T13:02:11.820Z",
+      "types": [
+        "starke-dms-login",
+        "starke-dms-logout",
+        "starke-dms-write-log",
+        "starke-dms-get-metadata",
+        "starke-dms-set-metadata",
+        "starke-dms-search",
+        "starke-dms-download-document",
+        "starke-dms-archive-document",
+        "starke-dms-generic"
+      ],
+      "keywords": [
+        "starke-dms",
+        "node-red"
+      ],
+      "url": "https://flows.nodered.org/node/@starke-dms/node-red"
+    },
+    {
+      "id": "node-red-contrib-ui-upload",
+      "version": "0.8.1",
+      "description": "Node-RED Dashboard UI widget node for uploading a file content by Socket.io streaming",
+      "updated_at": "2023-10-11T10:22:28.149Z",
+      "types": [],
+      "keywords": [
+        "upload",
+        "backpressure",
+        "websocket",
+        "ui",
+        "dashboard",
+        "node-red",
+        "node-red-contrib",
+        "node-red-ui",
+        "nodered"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-ui-upload"
+    },
+    {
+      "id": "node-red-contrib-parser-ini",
+      "version": "0.5.1",
+      "description": "Node-RED node to parse/serialize INI configuration files",
+      "updated_at": "2023-10-11T10:11:40.228Z",
+      "types": [
+        "parser-ini"
+      ],
+      "keywords": [
+        "ini",
+        "configuration",
+        "parser",
+        "serializer",
+        "reader",
+        "writer",
+        "node-red",
+        "nodered"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-parser-ini"
+    },
+    {
+      "id": "node-red-contrib-chunks-to-lines",
+      "version": "0.8.1",
+      "description": "Node-RED node to read line by line from chunks of text",
+      "updated_at": "2023-10-11T09:51:16.047Z",
+      "types": [
+        "chunks-to-lines"
+      ],
+      "keywords": [
+        "chunks",
+        "backpressure",
+        "text",
+        "reader",
+        "lines",
+        "CSV",
+        "Unicode",
+        "node-red",
+        "node-red-contrib",
+        "nodered"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-chunks-to-lines"
+    },
+    {
+      "id": "node-red-contrib-json-multi-schema",
+      "version": "1.6.1",
+      "description": "Generic JSON data pipeline tools, with dynamic transformation (using JSONata rules), resolving JSON Schema (using JSONata rules), and then validation (using JSON Schema). For Node-RED and for command-line.",
+      "updated_at": "2023-10-11T09:32:44.981Z",
+      "types": [
+        "json-multi-schema-resolver",
+        "json-multi-schema-transformer",
+        "json-multi-schema-validator"
+      ],
+      "keywords": [
+        "FIWARE",
+        "AtomicService",
+        "schema",
+        "validate",
+        "validator",
+        "transform",
+        "JSON",
+        "JSONata",
+        "IoT",
+        "node-red",
+        "nodered"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-json-multi-schema"
+    },
+    {
+      "id": "node-red-contrib-mock-cli",
+      "version": "1.2.4",
+      "description": "Allows running Node-RED modules from command-line.",
+      "updated_at": "2023-10-11T09:16:13.638Z",
+      "types": [
+        "test-node"
+      ],
+      "keywords": [
+        "CLI",
+        "command-line",
+        "nodered",
+        "node-red"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-mock-cli"
+    },
+    {
+      "id": "@alexandrainst/node-red-http-basic-auth",
+      "version": "2.2.2",
+      "description": "Node-RED node for HTTP Basic Authorization",
+      "updated_at": "2023-10-11T08:17:32.339Z",
+      "types": [
+        "http-basic-auth",
+        "http-basic-auth-cred",
+        "http-basic-auth-file"
+      ],
+      "keywords": [
+        "node-red",
+        "node-red-contrib",
+        "http",
+        "basic",
+        "auth",
+        "authorization",
+        "rfc2617",
+        "rfc7617"
+      ],
+      "url": "https://flows.nodered.org/node/@alexandrainst/node-red-http-basic-auth"
+    },
+    {
+      "id": "node-red-contrib-wazo-platform",
+      "version": "1.0.33",
+      "description": "Node Red module for the Wazo Platform API",
+      "updated_at": "2023-10-10T22:14:14.711Z",
+      "types": [
+        "wazo answer",
+        "wazo bridge_call",
+        "wazo call user",
+        "wazo create user",
+        "wazo chat",
+        "wazo config",
+        "wazo dtmf",
+        "wazo fetch voicemail",
+        "wazo hangup",
+        "wazo hangup call",
+        "wazo hold",
+        "wazo unhold",
+        "wazo mute",
+        "wazo unmute",
+        "wazo moh",
+        "wazo stop_moh",
+        "wazo new_call",
+        "wazo make call",
+        "wazo remove_call",
+        "wazo create_node",
+        "wazo delete_node",
+        "wazo list_calls_node",
+        "wazo create_snoop",
+        "wazo list_snoop",
+        "wazo view_snoop",
+        "wazo update_snoop",
+        "wazo delete_snoop",
+        "wazo add_to_node",
+        "wazo new_call_node",
+        "wazo playback",
+        "wazo stop_playback",
+        "wazo presence",
+        "wazo progress",
+        "wazo push",
+        "wazo stop_progress",
+        "wazo request",
+        "wazo trunk",
+        "wazo voicemail",
+        "wazo event",
+        "wazo send_fax",
+        "wazo websocket"
+      ],
+      "keywords": [
+        "node-red",
+        "wazo",
+        "call",
+        "chat",
+        "voice",
+        "api"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-wazo-platform"
+    },
+    {
+      "id": "node-red-contrib-vib-smart-boiler",
+      "version": "0.0.41",
+      "description": "Smart boiler node to control multiple thermostat",
+      "updated_at": "2023-10-10T19:58:34.023Z",
+      "types": [
+        "smart-boiler",
+        "smart-boiler-settings"
+      ],
+      "keywords": [
+        "node-red"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-vib-smart-boiler"
+    },
+    {
+      "id": "@dennip/node-red-google-apis",
+      "version": "0.3.3",
+      "description": "Node-RED node for Google APIs call using OAuth2.",
+      "updated_at": "2023-10-10T19:34:15.120Z",
+      "types": [
+        "google",
+        "google-credentials"
+      ],
+      "keywords": [
+        "node-red",
+        "google",
+        "googleapis",
+        "oauth2"
+      ],
+      "url": "https://flows.nodered.org/node/@dennip/node-red-google-apis"
+    },
+    {
+      "id": "node-red-contrib-onstar2",
+      "version": "2.1.16",
+      "description": "An updated Node-RED Library using OnStarJS, an unofficial client library for the OnStar Vehicle API",
+      "updated_at": "2023-10-10T19:31:26.663Z",
+      "types": [
+        "get-account-vehicles",
+        "get-diagnostics",
+        "lock-myvehicle",
+        "unlock-myvehicle",
+        "start-myvehicle",
+        "cancel-start-myvehicle",
+        "alert-myvehicle",
+        "alert-myvehicle-lights",
+        "alert-myvehicle-horn",
+        "cancel-alert-myvehicle",
+        "locate-vehicle",
+        "mycharge-override",
+        "get-mycharge-profile",
+        "set-mycharge-profile",
+        "onstar2"
+      ],
+      "keywords": [
+        "node-red",
+        "OnStar",
+        "Chevrolet",
+        "Chevy",
+        "GM",
+        "GMC",
+        "Buick",
+        "Cadillac"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-onstar2"
+    },
+    {
+      "id": "node-red-contrib-socketio-client-fortes",
+      "version": "0.4.9",
+      "description": "Node Red client to work with socket.io server with QUERY option",
+      "updated_at": "2023-10-10T19:04:35.413Z",
+      "types": [
+        "socketio-client-config",
+        "socketio-connector",
+        "socketio-listener",
+        "socketio-listener-in",
+        "socketio-listener-out",
+        "socketio-emitter",
+        "socketio-callback-emitter"
+      ],
+      "keywords": [
+        "node-red",
+        "socket.io"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-socketio-client-fortes"
+    },
     {
       "id": "@gregoriusrippenstein/node-red-contrib-flowcompare",
       "version": "0.0.2",
@@ -1313,24 +1620,6 @@
         "vedirect"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-victron-vedirect-usb"
-    },
-    {
-      "id": "@appmodule/node-red-contrib-siot",
-      "version": "3.0.0-rc7",
-      "description": "Node-RED interactions with SIOT",
-      "updated_at": "2023-10-02T10:41:31.000Z",
-      "types": [
-        "de-commands",
-        "cmd-ack",
-        "de-subscriber",
-        "de-publisher",
-        "siot-config",
-        "class-config"
-      ],
-      "keywords": [
-        "node-red"
-      ],
-      "url": "https://flows.nodered.org/node/@appmodule/node-red-contrib-siot"
     },
     {
       "id": "node-red-contrib-tts-ultimate",
@@ -4937,40 +5226,6 @@
         "Filter"
       ],
       "url": "https://flows.nodered.org/node/@racksync/node-red-contrib-moving-average"
-    },
-    {
-      "id": "node-red-contrib-onstar2",
-      "version": "2.1.15",
-      "description": "An updated Node-RED Library using OnStarJS, an unofficial client library for the OnStar Vehicle API",
-      "updated_at": "2023-09-03T16:02:32.250Z",
-      "types": [
-        "get-account-vehicles",
-        "get-diagnostics",
-        "lock-myvehicle",
-        "unlock-myvehicle",
-        "start-myvehicle",
-        "cancel-start-myvehicle",
-        "alert-myvehicle",
-        "alert-myvehicle-lights",
-        "alert-myvehicle-horn",
-        "cancel-alert-myvehicle",
-        "locate-vehicle",
-        "mycharge-override",
-        "get-mycharge-profile",
-        "set-mycharge-profile",
-        "onstar2"
-      ],
-      "keywords": [
-        "node-red",
-        "OnStar",
-        "Chevrolet",
-        "Chevy",
-        "GM",
-        "GMC",
-        "Buick",
-        "Cadillac"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-onstar2"
     },
     {
       "id": "apconic-string-parser",
@@ -9333,25 +9588,6 @@
       "url": "https://flows.nodered.org/node/nrc-tjtoolkit-nodes"
     },
     {
-      "id": "node-red-contrib-ui-upload",
-      "version": "0.8.0",
-      "description": "Node-RED Dashboard UI widget node for uploading a file content by Socket.io streaming",
-      "updated_at": "2023-06-02T11:45:43.725Z",
-      "types": [],
-      "keywords": [
-        "upload",
-        "backpressure",
-        "websocket",
-        "ui",
-        "dashboard",
-        "node-red",
-        "node-red-contrib",
-        "node-red-ui",
-        "nodered"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-ui-upload"
-    },
-    {
       "id": "@gladder/node-red-kostal-piko-json",
       "version": "0.1.8",
       "description": "A simple node to query kostal piko inverter data using DxS (new generation only).",
@@ -9366,28 +9602,6 @@
         "piko"
       ],
       "url": "https://flows.nodered.org/node/@gladder/node-red-kostal-piko-json"
-    },
-    {
-      "id": "node-red-contrib-chunks-to-lines",
-      "version": "0.8.0",
-      "description": "Node-RED node to read line by line from chunks of text",
-      "updated_at": "2023-06-01T15:26:14.826Z",
-      "types": [
-        "chunks-to-lines"
-      ],
-      "keywords": [
-        "chunks",
-        "backpressure",
-        "text",
-        "reader",
-        "lines",
-        "CSV",
-        "Unicode",
-        "node-red",
-        "node-red-contrib",
-        "nodered"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-chunks-to-lines"
     },
     {
       "id": "node-red-contrib-comfoair",
@@ -9463,67 +9677,6 @@
         "smart-home"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-warema-webcontrol"
-    },
-    {
-      "id": "node-red-contrib-json-multi-schema",
-      "version": "1.6.0",
-      "description": "Generic JSON data pipeline tools, with dynamic transformation (using JSONata rules), resolving JSON Schema (using JSONata rules), and then validation (using JSON Schema). For Node-RED and for command-line.",
-      "updated_at": "2023-05-31T13:28:26.414Z",
-      "types": [
-        "json-multi-schema-resolver",
-        "json-multi-schema-transformer",
-        "json-multi-schema-validator"
-      ],
-      "keywords": [
-        "FIWARE",
-        "AtomicService",
-        "schema",
-        "validate",
-        "validator",
-        "transform",
-        "JSON",
-        "JSONata",
-        "IoT",
-        "node-red",
-        "nodered"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-json-multi-schema"
-    },
-    {
-      "id": "node-red-contrib-parser-ini",
-      "version": "0.5.0",
-      "description": "Node-RED node to parse/serialize INI configuration files",
-      "updated_at": "2023-05-31T10:11:27.650Z",
-      "types": [
-        "parser-ini"
-      ],
-      "keywords": [
-        "ini",
-        "configuration",
-        "parser",
-        "serializer",
-        "reader",
-        "writer",
-        "node-red",
-        "nodered"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-parser-ini"
-    },
-    {
-      "id": "node-red-contrib-mock-cli",
-      "version": "1.2.3",
-      "description": "Allows running Node-RED modules from command-line.",
-      "updated_at": "2023-05-31T10:02:09.064Z",
-      "types": [
-        "test-node"
-      ],
-      "keywords": [
-        "CLI",
-        "command-line",
-        "nodered",
-        "node-red"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-mock-cli"
     },
     {
       "id": "node-red-contrib-latch",
@@ -17552,63 +17705,6 @@
         "clip"
       ],
       "url": "https://flows.nodered.org/node/@hurenkam/node-red-hue-services"
-    },
-    {
-      "id": "node-red-contrib-wazo-platform",
-      "version": "1.0.31",
-      "description": "Node Red module for the Wazo Platform API",
-      "updated_at": "2022-12-08T16:49:17.626Z",
-      "types": [
-        "wazo answer",
-        "wazo bridge_call",
-        "wazo call user",
-        "wazo create user",
-        "wazo chat",
-        "wazo config",
-        "wazo dtmf",
-        "wazo fetch voicemail",
-        "wazo hangup",
-        "wazo hangup call",
-        "wazo hold",
-        "wazo unhold",
-        "wazo mute",
-        "wazo unmute",
-        "wazo moh",
-        "wazo stop_moh",
-        "wazo new_call",
-        "wazo make call",
-        "wazo remove_call",
-        "wazo create_node",
-        "wazo delete_node",
-        "wazo list_calls_node",
-        "wazo create_snoop",
-        "wazo list_snoop",
-        "wazo view_snoop",
-        "wazo update_snoop",
-        "wazo delete_snoop",
-        "wazo add_to_node",
-        "wazo new_call_node",
-        "wazo playback",
-        "wazo stop_playback",
-        "wazo presence",
-        "wazo progress",
-        "wazo stop_progress",
-        "wazo request",
-        "wazo trunk",
-        "wazo voicemail",
-        "wazo event",
-        "wazo send_fax",
-        "wazo websocket"
-      ],
-      "keywords": [
-        "node-red",
-        "wazo",
-        "call",
-        "chat",
-        "voice",
-        "api"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-wazo-platform"
     },
     {
       "id": "@plus4nodered/node-red-contrib-wago-cc100",
