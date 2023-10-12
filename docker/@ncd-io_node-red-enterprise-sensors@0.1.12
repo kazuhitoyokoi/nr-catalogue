@@ -1,0 +1,44 @@
+#0 building with "default" instance using docker driver
+
+#1 [internal] load .dockerignore
+#1 transferring context: 2B done
+#1 DONE 0.0s
+
+#2 [internal] load build definition from Dockerfile
+#2 transferring dockerfile: 129B done
+#2 DONE 0.0s
+
+#3 [internal] load metadata for docker.io/nodered/node-red:latest
+#3 DONE 0.2s
+
+#4 [1/2] FROM docker.io/nodered/node-red@sha256:5e99ed734f7d2f9bfcb1e20dfbf4c5b9aa60f35a9df6e257e817130f0f9be9dc
+#4 CACHED
+
+#5 [2/2] RUN npm install npm install @ncd-io/node-red-enterprise-sensors@0.1.12
+#5 4.321 npm WARN EBADENGINE Unsupported engine {
+#5 4.322 npm WARN EBADENGINE   package: 'npm@10.2.0',
+#5 4.323 npm WARN EBADENGINE   required: { node: '^18.17.0 || >=20.5.0' },
+#5 4.323 npm WARN EBADENGINE   current: { node: 'v16.20.2', npm: '8.19.4' }
+#5 4.323 npm WARN EBADENGINE }
+#5 15.48 
+#5 15.48 added 49 packages, and audited 611 packages in 15s
+#5 15.48 
+#5 15.48 80 packages are looking for funding
+#5 15.48   run `npm fund` for details
+#5 15.48 
+#5 15.48 found 0 vulnerabilities
+#5 15.48 npm notice 
+#5 15.48 npm notice New major version of npm available! 8.19.4 -> 10.2.0
+#5 15.48 npm notice Changelog: <https://github.com/npm/cli/releases/tag/v10.2.0>
+#5 15.48 npm notice Run `npm install -g npm@10.2.0` to update!
+#5 15.48 npm notice 
+#5 DONE 15.6s
+
+#6 exporting to image
+#6 exporting layers
+#6 exporting layers 1.6s done
+#6 writing image sha256:958510df509079935c26110564c259d48c0a8afb5d0b3aa71bb3cee5a2f5a8f9 done
+#6 naming to docker.io/library/tmp done
+#6 DONE 1.6s
+
+----
