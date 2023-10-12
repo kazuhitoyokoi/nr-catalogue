@@ -1,7 +1,354 @@
 {
   "name": "Catalogue for Docker",
-  "updated_at": "2023-10-11T16:24:28.588Z",
+  "updated_at": "2023-10-12T16:27:23.212Z",
   "modules": [
+    {
+      "id": "node-red-contrib-knx-ultimate",
+      "version": "2.1.55",
+      "description": "Control your KNX intallation via Node-Red! Single Node KNX IN/OUT with optional ETS group address importer. Easy to use and highly configurable. With integrated Philips HUE devices handling.",
+      "updated_at": "2023-10-12T12:19:23.416Z",
+      "types": [
+        "knxUltimate",
+        "knxUltimateSceneController",
+        "knxUltimateWatchDog",
+        "knxUltimateLogger",
+        "knxUltimate-config",
+        "knxUltimateGlobalContext",
+        "knxUltimateAlerter",
+        "knxUltimateLoadControl",
+        "knxUltimateViewer",
+        "hue-config",
+        "knxUltimateHueLight",
+        "knxUltimateHueButton",
+        "knxUltimateHueMotion",
+        "knxUltimateHueTapDial",
+        "knxUltimateHueLightSensor",
+        "knxUltimateHueTemperatureSensor",
+        "knxUltimateHueScene",
+        "knxUltimateHueBattery"
+      ],
+      "keywords": [
+        "node-red",
+        "KNX",
+        "ETS",
+        "eib",
+        "eibd",
+        "knxd",
+        "konnex",
+        "IOT",
+        "hue"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-knx-ultimate"
+    },
+    {
+      "id": "openapi-red",
+      "version": "1.2.5",
+      "description": "OpenAPI (Swagger) client for node-red ",
+      "updated_at": "2023-10-12T11:36:03.136Z",
+      "types": [
+        "openApi-red",
+        "openApi-red-url"
+      ],
+      "keywords": [
+        "node-red",
+        "swagger",
+        "swagger client",
+        "openApi",
+        "openApi client",
+        "open api",
+        "open api client",
+        "open",
+        "api"
+      ],
+      "url": "https://flows.nodered.org/node/openapi-red"
+    },
+    {
+      "id": "node-red-contrib-edgesignal-connector",
+      "version": "1.3.6",
+      "description": "edgesignal connector",
+      "updated_at": "2023-10-12T08:22:04.447Z",
+      "types": [
+        "app-out",
+        "app-in",
+        "app-connector"
+      ],
+      "keywords": [
+        "edgesignal",
+        "iot",
+        "node-red"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-edgesignal-connector"
+    },
+    {
+      "id": "@caitken-com/node-red-contrib-json2mysql",
+      "version": "1.2.0",
+      "description": "JSON to MYSQL",
+      "updated_at": "2023-10-12T07:38:53.324Z",
+      "types": [
+        "json2mysql-server",
+        "json2mysql"
+      ],
+      "keywords": [
+        "mysql",
+        "json",
+        "node-red"
+      ],
+      "url": "https://flows.nodered.org/node/@caitken-com/node-red-contrib-json2mysql"
+    },
+    {
+      "id": "@prescient-devices/node-red-contrib-downloadfile",
+      "version": "1.1.0",
+      "description": "Opens web browser file save dialog and saves the payload received to a file in the local filesystem",
+      "updated_at": "2023-10-12T01:35:59.597Z",
+      "types": [
+        "downloadfile"
+      ],
+      "keywords": [
+        "node-red",
+        "download"
+      ],
+      "url": "https://flows.nodered.org/node/@prescient-devices/node-red-contrib-downloadfile"
+    },
+    {
+      "id": "@node-red-contrib-themes/theme-collection",
+      "version": "3.1.4",
+      "description": "A collection of themes for Node-RED",
+      "updated_at": "2023-10-11T20:48:29.222Z",
+      "types": [],
+      "keywords": [
+        "node-red",
+        "nodered",
+        "theme",
+        "themes",
+        "plugin",
+        "plugins",
+        "dark",
+        "light"
+      ],
+      "url": "https://flows.nodered.org/node/@node-red-contrib-themes/theme-collection"
+    },
+    {
+      "id": "@tbowmo/node-red-small-timer",
+      "version": "0.10.0",
+      "description": "Small timer node for node red with support for sunrise, sunset etc. timers",
+      "updated_at": "2023-10-11T20:20:12.970Z",
+      "types": [
+        "smalltimer",
+        "position"
+      ],
+      "keywords": [
+        "node-red",
+        "timer",
+        "sunset",
+        "sunrise",
+        "dawn",
+        "dusk"
+      ],
+      "url": "https://flows.nodered.org/node/@tbowmo/node-red-small-timer"
+    },
+    {
+      "id": "node-red-contrib-home-assistant-websocket",
+      "version": "0.57.4",
+      "description": "Node-RED integration with Home Assistant through websocket and REST API",
+      "updated_at": "2023-10-11T20:07:12.162Z",
+      "types": [],
+      "keywords": [
+        "node-red",
+        "home-assistant",
+        "home assistant",
+        "home automation",
+        "websocket"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-home-assistant-websocket"
+    },
+    {
+      "id": "@ncd-io/node-red-enterprise-sensors",
+      "version": "0.1.12",
+      "description": "You can install this library through the Palette Manager in Node-Red's UI.",
+      "updated_at": "2023-10-11T19:29:25.086Z",
+      "types": [
+        "ncd-gateway-node",
+        "ncd-wireless-node",
+        "ncd-gateway-config"
+      ],
+      "keywords": [
+        "Wireless",
+        "NCD",
+        "Sensors",
+        "Digi",
+        "node-red",
+        "enterprise"
+      ],
+      "url": "https://flows.nodered.org/node/@ncd-io/node-red-enterprise-sensors"
+    },
+    {
+      "id": "@gregoriusrippenstein/node-red-contrib-flowhub",
+      "version": "0.2.7",
+      "description": "FlowHub interaction nodes.",
+      "updated_at": "2023-10-11T19:18:15.618Z",
+      "types": [
+        "FlowHubPull",
+        "FlowHubPush",
+        "FlowHubDiff"
+      ],
+      "keywords": [
+        "node-red",
+        "flowhub",
+        "flowsharing"
+      ],
+      "url": "https://flows.nodered.org/node/@gregoriusrippenstein/node-red-contrib-flowhub"
+    },
+    {
+      "id": "victron-dynamic-ess",
+      "version": "0.1.7",
+      "description": "Fetch the ideal ESS setpoint from VRM",
+      "updated_at": "2023-10-11T17:39:18.445Z",
+      "types": [
+        "victron-dynamic-ess"
+      ],
+      "keywords": [
+        "node-red",
+        "victron",
+        "dynamic ess",
+        "scheduled charging",
+        "ess"
+      ],
+      "url": "https://flows.nodered.org/node/victron-dynamic-ess"
+    },
+    {
+      "id": "node-red-contrib-scd4x",
+      "version": "1.0.3",
+      "description": "Node-RED node for reading measurements from Sensirion SCD40 and SCD41, the CO2, temperature, and humidity sensors.",
+      "updated_at": "2023-10-11T17:27:26.356Z",
+      "types": [
+        "scd4x"
+      ],
+      "keywords": [
+        "node-red",
+        "sensirion",
+        "scd4x",
+        "scd40",
+        "scd41",
+        "co2",
+        "temperature",
+        "humidity",
+        "sensor"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-scd4x"
+    },
+    {
+      "id": "node-red-contrib-wazo-platform",
+      "version": "1.0.34",
+      "description": "Node Red module for the Wazo Platform API",
+      "updated_at": "2023-10-11T16:38:40.411Z",
+      "types": [
+        "wazo answer",
+        "wazo bridge_call",
+        "wazo call user",
+        "wazo create user",
+        "wazo chat",
+        "wazo config",
+        "wazo dtmf",
+        "wazo fetch voicemail",
+        "wazo hangup",
+        "wazo hangup call",
+        "wazo hold",
+        "wazo unhold",
+        "wazo mute",
+        "wazo unmute",
+        "wazo moh",
+        "wazo stop_moh",
+        "wazo new_call",
+        "wazo make call",
+        "wazo remove_call",
+        "wazo create_node",
+        "wazo delete_node",
+        "wazo list_calls_node",
+        "wazo create_snoop",
+        "wazo list_snoop",
+        "wazo view_snoop",
+        "wazo update_snoop",
+        "wazo delete_snoop",
+        "wazo add_to_node",
+        "wazo new_call_node",
+        "wazo playback",
+        "wazo stop_playback",
+        "wazo presence",
+        "wazo progress",
+        "wazo push",
+        "wazo stop_progress",
+        "wazo request",
+        "wazo trunk",
+        "wazo voicemail",
+        "wazo event",
+        "wazo send_fax",
+        "wazo websocket"
+      ],
+      "keywords": [
+        "node-red",
+        "wazo",
+        "call",
+        "chat",
+        "voice",
+        "api"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-wazo-platform"
+    },
+    {
+      "id": "@alexandrainst/node-red-http-basic-auth",
+      "version": "2.3.0",
+      "description": "Node-RED node for HTTP Basic Authorization",
+      "updated_at": "2023-10-11T15:10:52.386Z",
+      "types": [
+        "http-basic-auth",
+        "http-basic-auth-cred",
+        "http-basic-auth-file"
+      ],
+      "keywords": [
+        "node-red",
+        "node-red-contrib",
+        "http",
+        "basic",
+        "auth",
+        "authorization",
+        "rfc2617",
+        "rfc7617"
+      ],
+      "url": "https://flows.nodered.org/node/@alexandrainst/node-red-http-basic-auth"
+    },
+    {
+      "id": "node-red-contrib-mock-cli",
+      "version": "1.3.1",
+      "description": "Allows running Node-RED modules from command-line.",
+      "updated_at": "2023-10-11T15:05:00.981Z",
+      "types": [
+        "test-node"
+      ],
+      "keywords": [
+        "CLI",
+        "command-line",
+        "nodered",
+        "node-red"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-mock-cli"
+    },
+    {
+      "id": "victron-vrm-api",
+      "version": "0.0.6",
+      "description": "Interface with the Victron Energy VRM API",
+      "updated_at": "2023-10-11T14:38:18.696Z",
+      "types": [
+        "config-vrm-api",
+        "vrm-api"
+      ],
+      "keywords": [
+        "node-red",
+        "victron",
+        "vrm",
+        "api"
+      ],
+      "url": "https://flows.nodered.org/node/victron-vrm-api"
+    },
     {
       "id": "@appmodule/node-red-contrib-siot",
       "version": "3.0.0-rc9",
@@ -129,102 +476,6 @@
       "url": "https://flows.nodered.org/node/node-red-contrib-json-multi-schema"
     },
     {
-      "id": "node-red-contrib-mock-cli",
-      "version": "1.2.4",
-      "description": "Allows running Node-RED modules from command-line.",
-      "updated_at": "2023-10-11T09:16:13.638Z",
-      "types": [
-        "test-node"
-      ],
-      "keywords": [
-        "CLI",
-        "command-line",
-        "nodered",
-        "node-red"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-mock-cli"
-    },
-    {
-      "id": "@alexandrainst/node-red-http-basic-auth",
-      "version": "2.2.2",
-      "description": "Node-RED node for HTTP Basic Authorization",
-      "updated_at": "2023-10-11T08:17:32.339Z",
-      "types": [
-        "http-basic-auth",
-        "http-basic-auth-cred",
-        "http-basic-auth-file"
-      ],
-      "keywords": [
-        "node-red",
-        "node-red-contrib",
-        "http",
-        "basic",
-        "auth",
-        "authorization",
-        "rfc2617",
-        "rfc7617"
-      ],
-      "url": "https://flows.nodered.org/node/@alexandrainst/node-red-http-basic-auth"
-    },
-    {
-      "id": "node-red-contrib-wazo-platform",
-      "version": "1.0.33",
-      "description": "Node Red module for the Wazo Platform API",
-      "updated_at": "2023-10-10T22:14:14.711Z",
-      "types": [
-        "wazo answer",
-        "wazo bridge_call",
-        "wazo call user",
-        "wazo create user",
-        "wazo chat",
-        "wazo config",
-        "wazo dtmf",
-        "wazo fetch voicemail",
-        "wazo hangup",
-        "wazo hangup call",
-        "wazo hold",
-        "wazo unhold",
-        "wazo mute",
-        "wazo unmute",
-        "wazo moh",
-        "wazo stop_moh",
-        "wazo new_call",
-        "wazo make call",
-        "wazo remove_call",
-        "wazo create_node",
-        "wazo delete_node",
-        "wazo list_calls_node",
-        "wazo create_snoop",
-        "wazo list_snoop",
-        "wazo view_snoop",
-        "wazo update_snoop",
-        "wazo delete_snoop",
-        "wazo add_to_node",
-        "wazo new_call_node",
-        "wazo playback",
-        "wazo stop_playback",
-        "wazo presence",
-        "wazo progress",
-        "wazo push",
-        "wazo stop_progress",
-        "wazo request",
-        "wazo trunk",
-        "wazo voicemail",
-        "wazo event",
-        "wazo send_fax",
-        "wazo websocket"
-      ],
-      "keywords": [
-        "node-red",
-        "wazo",
-        "call",
-        "chat",
-        "voice",
-        "api"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-wazo-platform"
-    },
-    {
       "id": "node-red-contrib-vib-smart-boiler",
       "version": "0.0.41",
       "description": "Smart boiler node to control multiple thermostat",
@@ -340,24 +591,6 @@
       "url": "https://flows.nodered.org/node/node-red-contrib-fastxml"
     },
     {
-      "id": "@node-red-contrib-themes/theme-collection",
-      "version": "3.1.3",
-      "description": "A collection of themes for Node-RED",
-      "updated_at": "2023-10-10T11:44:26.336Z",
-      "types": [],
-      "keywords": [
-        "node-red",
-        "nodered",
-        "theme",
-        "themes",
-        "plugin",
-        "plugins",
-        "dark",
-        "light"
-      ],
-      "url": "https://flows.nodered.org/node/@node-red-contrib-themes/theme-collection"
-    },
-    {
       "id": "node-red-contrib-hikvision-ultimate",
       "version": "1.1.12",
       "description": "A native set of nodes for Hikvision (and compatible) Cameras, Alarms, Radars, NVR, Doorbells, etc.",
@@ -393,76 +626,6 @@
         "Ax Pro"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-hikvision-ultimate"
-    },
-    {
-      "id": "node-red-contrib-knx-ultimate",
-      "version": "2.1.52",
-      "description": "Control your KNX intallation via Node-Red! Single Node KNX IN/OUT with optional ETS group address importer. Easy to use and highly configurable. With integrated Philips HUE devices handling.",
-      "updated_at": "2023-10-10T10:03:03.454Z",
-      "types": [
-        "knxUltimate",
-        "knxUltimateSceneController",
-        "knxUltimateWatchDog",
-        "knxUltimateLogger",
-        "knxUltimate-config",
-        "knxUltimateGlobalContext",
-        "knxUltimateAlerter",
-        "knxUltimateLoadControl",
-        "knxUltimateViewer",
-        "hue-config",
-        "knxUltimateHueLight",
-        "knxUltimateHueButton",
-        "knxUltimateHueMotion",
-        "knxUltimateHueTapDial",
-        "knxUltimateHueLightSensor",
-        "knxUltimateHueTemperatureSensor",
-        "knxUltimateHueScene",
-        "knxUltimateHueBattery"
-      ],
-      "keywords": [
-        "node-red",
-        "KNX",
-        "ETS",
-        "eib",
-        "eibd",
-        "knxd",
-        "konnex",
-        "IOT",
-        "hue"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-knx-ultimate"
-    },
-    {
-      "id": "node-red-contrib-edgesignal-connector",
-      "version": "1.3.5",
-      "description": "edgesignal connector",
-      "updated_at": "2023-10-10T08:54:31.471Z",
-      "types": [
-        "app-out",
-        "app-in",
-        "app-connector"
-      ],
-      "keywords": [
-        "edgesignal",
-        "iot",
-        "node-red"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-edgesignal-connector"
-    },
-    {
-      "id": "node-red-contrib-home-assistant-websocket",
-      "version": "0.57.3",
-      "description": "Node-RED integration with Home Assistant through websocket and REST API",
-      "updated_at": "2023-10-09T23:57:25.821Z",
-      "types": [],
-      "keywords": [
-        "node-red",
-        "home-assistant",
-        "home assistant",
-        "home automation",
-        "websocket"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-home-assistant-websocket"
     },
     {
       "id": "node-red-contrib-topsail",
@@ -725,39 +888,6 @@
         "mermaid"
       ],
       "url": "https://flows.nodered.org/node/@gregoriusrippenstein/node-red-contrib-flow2uml"
-    },
-    {
-      "id": "@caitken-com/node-red-contrib-json2mysql",
-      "version": "1.1.0",
-      "description": "JSON to MYSQL",
-      "updated_at": "2023-10-08T08:32:06.202Z",
-      "types": [
-        "json2mysql-server",
-        "json2mysql"
-      ],
-      "keywords": [
-        "mysql",
-        "json",
-        "node-red"
-      ],
-      "url": "https://flows.nodered.org/node/@caitken-com/node-red-contrib-json2mysql"
-    },
-    {
-      "id": "@gregoriusrippenstein/node-red-contrib-flowhub",
-      "version": "0.2.6",
-      "description": "FlowHub interaction nodes.",
-      "updated_at": "2023-10-07T22:27:52.521Z",
-      "types": [
-        "FlowHubPull",
-        "FlowHubPush",
-        "FlowHubDiff"
-      ],
-      "keywords": [
-        "node-red",
-        "flowhub",
-        "flowsharing"
-      ],
-      "url": "https://flows.nodered.org/node/@gregoriusrippenstein/node-red-contrib-flowhub"
     },
     {
       "id": "@gregoriusrippenstein/node-red-contrib-auto-alignment",
@@ -2053,25 +2183,6 @@
         "low-code"
       ],
       "url": "https://flows.nodered.org/node/@ptarmiganlabs/ctrl-q-nr"
-    },
-    {
-      "id": "@tbowmo/node-red-small-timer",
-      "version": "0.9.1",
-      "description": "Small timer node for node red with support for sunrise, sunset etc. timers",
-      "updated_at": "2023-09-28T18:51:00.669Z",
-      "types": [
-        "smalltimer",
-        "position"
-      ],
-      "keywords": [
-        "node-red",
-        "timer",
-        "sunset",
-        "sunrise",
-        "dawn",
-        "dusk"
-      ],
-      "url": "https://flows.nodered.org/node/@tbowmo/node-red-small-timer"
     },
     {
       "id": "node-red-contrib-ewelink-cube",
@@ -3631,23 +3742,6 @@
       "url": "https://flows.nodered.org/node/node-red-contrib-mtconnect-mqtt-data-logger"
     },
     {
-      "id": "victron-dynamic-ess",
-      "version": "0.1.6",
-      "description": "Fetch the ideal ESS setpoint from VRM",
-      "updated_at": "2023-09-21T07:08:49.487Z",
-      "types": [
-        "victron-dynamic-ess"
-      ],
-      "keywords": [
-        "node-red",
-        "victron",
-        "dynamic ess",
-        "scheduled charging",
-        "ess"
-      ],
-      "url": "https://flows.nodered.org/node/victron-dynamic-ess"
-    },
-    {
       "id": "node-red-pyz-ble",
       "version": "1.0.6",
       "description": "一款低功耗蓝牙驱动读取小米温度传感器的插件",
@@ -3831,26 +3925,6 @@
         "logic"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-boolean-logic-ultimate"
-    },
-    {
-      "id": "@ncd-io/node-red-enterprise-sensors",
-      "version": "0.1.11",
-      "description": "You can install this library through the Palette Manager in Node-Red's UI.",
-      "updated_at": "2023-09-19T17:58:06.494Z",
-      "types": [
-        "ncd-gateway-node",
-        "ncd-wireless-node",
-        "ncd-gateway-config"
-      ],
-      "keywords": [
-        "Wireless",
-        "NCD",
-        "Sensors",
-        "Digi",
-        "node-red",
-        "enterprise"
-      ],
-      "url": "https://flows.nodered.org/node/@ncd-io/node-red-enterprise-sensors"
     },
     {
       "id": "node-red-contrib-millheat",
@@ -4215,28 +4289,6 @@
         "vølund"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-nibeuplink"
-    },
-    {
-      "id": "openapi-red",
-      "version": "1.2.4",
-      "description": "OpenAPI (Swagger) client for node-red ",
-      "updated_at": "2023-09-13T12:26:09.553Z",
-      "types": [
-        "openApi-red",
-        "openApi-red-url"
-      ],
-      "keywords": [
-        "node-red",
-        "swagger",
-        "swagger client",
-        "openApi",
-        "openApi client",
-        "open api",
-        "open api client",
-        "open",
-        "api"
-      ],
-      "url": "https://flows.nodered.org/node/openapi-red"
     },
     {
       "id": "apconic-node-red-string-parser",
@@ -5825,23 +5877,6 @@
         "compare"
       ],
       "url": "https://flows.nodered.org/node/@tq-bit/node-red-contrib-trace-messages"
-    },
-    {
-      "id": "victron-vrm-api",
-      "version": "0.0.5",
-      "description": "Interface with the Victron Energy VRM API",
-      "updated_at": "2023-08-25T09:49:10.604Z",
-      "types": [
-        "config-vrm-api",
-        "vrm-api"
-      ],
-      "keywords": [
-        "node-red",
-        "victron",
-        "vrm",
-        "api"
-      ],
-      "url": "https://flows.nodered.org/node/victron-vrm-api"
     },
     {
       "id": "@helix_italia/node-red-helix-odbc",
@@ -18432,20 +18467,6 @@
         "node-red"
       ],
       "url": "https://flows.nodered.org/node/@prescient-devices/node-red-node-mqtt-in-json"
-    },
-    {
-      "id": "@prescient-devices/node-red-contrib-downloadfile",
-      "version": "1.0.8",
-      "description": "Opens web browser file save dialog and saves the payload received to a file in the local filesystem",
-      "updated_at": "2022-11-20T01:00:14.418Z",
-      "types": [
-        "downloadfile"
-      ],
-      "keywords": [
-        "node-red",
-        "download"
-      ],
-      "url": "https://flows.nodered.org/node/@prescient-devices/node-red-contrib-downloadfile"
     },
     {
       "id": "@prescient-devices/node-red-contrib-fileinput",
