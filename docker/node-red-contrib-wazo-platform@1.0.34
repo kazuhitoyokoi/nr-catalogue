@@ -1,0 +1,52 @@
+#0 building with "default" instance using docker driver
+
+#1 [internal] load .dockerignore
+#1 transferring context: 2B done
+#1 DONE 0.0s
+
+#2 [internal] load build definition from Dockerfile
+#2 transferring dockerfile: 124B done
+#2 DONE 0.0s
+
+#3 [internal] load metadata for docker.io/nodered/node-red:latest
+#3 DONE 0.2s
+
+#4 [1/2] FROM docker.io/nodered/node-red@sha256:5e99ed734f7d2f9bfcb1e20dfbf4c5b9aa60f35a9df6e257e817130f0f9be9dc
+#4 CACHED
+
+#5 [2/2] RUN npm install npm install node-red-contrib-wazo-platform@1.0.34
+#5 5.826 npm WARN EBADENGINE Unsupported engine {
+#5 5.826 npm WARN EBADENGINE   package: 'npm@10.2.0',
+#5 5.826 npm WARN EBADENGINE   required: { node: '^18.17.0 || >=20.5.0' },
+#5 5.827 npm WARN EBADENGINE   current: { node: 'v16.20.2', npm: '8.19.4' }
+#5 5.827 npm WARN EBADENGINE }
+#5 9.144 npm WARN deprecated har-validator@5.1.5: this library is no longer supported
+#5 9.228 npm WARN deprecated uuid@3.4.0: Please upgrade  to version 7 or higher.  Older versions may use Math.random() in certain circumstances, which is known to be problematic.  See https://v8.dev/blog/math-random for details.
+#5 9.274 npm WARN deprecated request@2.88.2: request has been deprecated, see https://github.com/request/request/issues/3142
+#5 10.33 
+#5 10.33 added 79 packages, and audited 641 packages in 10s
+#5 10.33 
+#5 10.33 73 packages are looking for funding
+#5 10.33   run `npm fund` for details
+#5 10.33 
+#5 10.33 3 moderate severity vulnerabilities
+#5 10.33 
+#5 10.33 To address all issues (including breaking changes), run:
+#5 10.33   npm audit fix --force
+#5 10.33 
+#5 10.33 Run `npm audit` for details.
+#5 10.33 npm notice 
+#5 10.33 npm notice New major version of npm available! 8.19.4 -> 10.2.0
+#5 10.33 npm notice Changelog: <https://github.com/npm/cli/releases/tag/v10.2.0>
+#5 10.33 npm notice Run `npm install -g npm@10.2.0` to update!
+#5 10.33 npm notice 
+#5 DONE 10.6s
+
+#6 exporting to image
+#6 exporting layers
+#6 exporting layers 2.0s done
+#6 writing image sha256:5a237a964a2f3e0220529bb3220e4e6f913c3489c32769b31e6739ed050b9bb1 done
+#6 naming to docker.io/library/tmp done
+#6 DONE 2.0s
+
+----
