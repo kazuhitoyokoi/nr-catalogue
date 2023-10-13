@@ -1,0 +1,44 @@
+#0 building with "default" instance using docker driver
+
+#1 [internal] load .dockerignore
+#1 transferring context: 2B done
+#1 DONE 0.0s
+
+#2 [internal] load build definition from Dockerfile
+#2 transferring dockerfile: 132B done
+#2 DONE 0.0s
+
+#3 [internal] load metadata for docker.io/nodered/node-red:latest
+#3 DONE 0.1s
+
+#4 [1/2] FROM docker.io/nodered/node-red@sha256:5e99ed734f7d2f9bfcb1e20dfbf4c5b9aa60f35a9df6e257e817130f0f9be9dc
+#4 CACHED
+
+#5 [2/2] RUN npm install npm install @alexandrainst/node-red-http-basic-auth@3.0.0
+#5 2.032 npm WARN EBADENGINE Unsupported engine {
+#5 2.033 npm WARN EBADENGINE   package: 'npm@10.2.0',
+#5 2.033 npm WARN EBADENGINE   required: { node: '^18.17.0 || >=20.5.0' },
+#5 2.033 npm WARN EBADENGINE   current: { node: 'v16.20.2', npm: '8.19.4' }
+#5 2.034 npm WARN EBADENGINE }
+#5 5.212 
+#5 5.212 added 4 packages, and audited 566 packages in 5s
+#5 5.212 
+#5 5.212 66 packages are looking for funding
+#5 5.212   run `npm fund` for details
+#5 5.212 
+#5 5.212 found 0 vulnerabilities
+#5 5.212 npm notice 
+#5 5.213 npm notice New major version of npm available! 8.19.4 -> 10.2.0
+#5 5.213 npm notice Changelog: <https://github.com/npm/cli/releases/tag/v10.2.0>
+#5 5.213 npm notice Run `npm install -g npm@10.2.0` to update!
+#5 5.213 npm notice 
+#5 DONE 5.2s
+
+#6 exporting to image
+#6 exporting layers
+#6 exporting layers 1.0s done
+#6 writing image sha256:41d924899a7a3e073252054c0e01415ea2ea251bb12488459c9ea770da1d1764 done
+#6 naming to docker.io/library/tmp done
+#6 DONE 1.0s
+
+----
