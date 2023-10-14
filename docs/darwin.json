@@ -1,7 +1,129 @@
 {
   "name": "Catalogue for macOS",
-  "updated_at": "2023-10-13T21:23:13.581Z",
+  "updated_at": "2023-10-14T21:19:35.278Z",
   "modules": [
+    {
+      "id": "node-red-contrib-simple-webdriver",
+      "version": "0.4.1",
+      "description": "SimpleWebdriver nodes for Node-RED initially based on node-red-contrib-selenium-wd2",
+      "updated_at": "2023-10-14T18:54:37.948Z",
+      "types": [
+        "click on",
+        "close browser",
+        "find element",
+        "get attribute",
+        "get cookie",
+        "get text",
+        "get title",
+        "get value",
+        "navigate",
+        "open browser",
+        "run script",
+        "screenshot",
+        "send keys",
+        "set attribute",
+        "set cookie",
+        "set value",
+        "switch frame",
+        "__errors__"
+      ],
+      "keywords": [
+        "node-red",
+        "selenium",
+        "simple-webdriver",
+        "webdriver",
+        "RPA",
+        "chromedriver",
+        "geckodriver"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-simple-webdriver"
+    },
+    {
+      "id": "node-red-contrib-payload-cron",
+      "version": "1.1.0",
+      "description": "Cron scheduler node for node-red which takes the input of msg.payload as the cron expression and outputs the epoch unix timestamp at the time the cron job is triggered.",
+      "updated_at": "2023-10-14T13:29:26.069Z",
+      "types": [
+        "payload-cron"
+      ],
+      "keywords": [
+        "node-red"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-payload-cron"
+    },
+    {
+      "id": "@gregoriusrippenstein/node-red-contrib-flowhub",
+      "version": "0.2.8",
+      "description": "FlowHub interaction nodes.",
+      "updated_at": "2023-10-14T10:13:10.220Z",
+      "types": [
+        "FlowHubPull",
+        "FlowHubPush",
+        "FlowHubDiff"
+      ],
+      "keywords": [
+        "node-red",
+        "flowhub",
+        "flowsharing"
+      ],
+      "url": "https://flows.nodered.org/node/@gregoriusrippenstein/node-red-contrib-flowhub"
+    },
+    {
+      "id": "node-red-contrib-vib-smart-boiler",
+      "version": "0.0.66",
+      "description": "Smart boiler node to control multiple thermostat",
+      "updated_at": "2023-10-14T09:52:34.981Z",
+      "types": [
+        "smart-boiler",
+        "smart-boiler-settings"
+      ],
+      "keywords": [
+        "node-red"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-vib-smart-boiler"
+    },
+    {
+      "id": "node-red-contrib-vib-smart-valve",
+      "version": "0.0.66",
+      "description": "Smart Valve Managemeent",
+      "updated_at": "2023-10-14T09:52:25.699Z",
+      "types": [
+        "smart-valve"
+      ],
+      "keywords": [
+        "node-red"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-vib-smart-valve"
+    },
+    {
+      "id": "node-red-contrib-vib-smart-scheduler",
+      "version": "0.0.66",
+      "description": "Node Red Smart Scheduler MQTT Home Assistant ",
+      "updated_at": "2023-10-14T09:52:14.670Z",
+      "types": [
+        "smart-scheduler",
+        "smart-scheduler-settings"
+      ],
+      "keywords": [
+        "node-red"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-vib-smart-scheduler"
+    },
+    {
+      "id": "@gregoriusrippenstein/node-red-contrib-uglifyjs",
+      "version": "0.0.4",
+      "description": "Node-RED wrapper node around the uglify-js package.",
+      "updated_at": "2023-10-14T09:32:26.742Z",
+      "types": [
+        "UglifyJS"
+      ],
+      "keywords": [
+        "node-red",
+        "uglifyjs",
+        "uglify-js"
+      ],
+      "url": "https://flows.nodered.org/node/@gregoriusrippenstein/node-red-contrib-uglifyjs"
+    },
     {
       "id": "node-red-contrib-dirigera",
       "version": "0.4.2",
@@ -17,62 +139,6 @@
         "ikea"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-dirigera"
-    },
-    {
-      "id": "node-red-contrib-vib-smart-scheduler",
-      "version": "0.0.62",
-      "description": "Node Red Smart Scheduler MQTT Home Assistant ",
-      "updated_at": "2023-10-13T16:36:19.635Z",
-      "types": [
-        "smart-scheduler",
-        "smart-scheduler-settings"
-      ],
-      "keywords": [
-        "node-red"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-vib-smart-scheduler"
-    },
-    {
-      "id": "node-red-contrib-vib-smart-valve",
-      "version": "0.0.61",
-      "description": "Smart Valve Managemeent",
-      "updated_at": "2023-10-13T16:23:09.500Z",
-      "types": [
-        "smart-valve"
-      ],
-      "keywords": [
-        "node-red"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-vib-smart-valve"
-    },
-    {
-      "id": "node-red-contrib-vib-smart-boiler",
-      "version": "0.0.61",
-      "description": "Smart boiler node to control multiple thermostat",
-      "updated_at": "2023-10-13T16:22:46.884Z",
-      "types": [
-        "smart-boiler",
-        "smart-boiler-settings"
-      ],
-      "keywords": [
-        "node-red"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-vib-smart-boiler"
-    },
-    {
-      "id": "@gregoriusrippenstein/node-red-contrib-uglifyjs",
-      "version": "0.0.3",
-      "description": "Node-RED wrapper node around the uglify-js package.",
-      "updated_at": "2023-10-13T13:40:11.510Z",
-      "types": [
-        "UglifyJS"
-      ],
-      "keywords": [
-        "node-red",
-        "uglifyjs",
-        "uglify-js"
-      ],
-      "url": "https://flows.nodered.org/node/@gregoriusrippenstein/node-red-contrib-uglifyjs"
     },
     {
       "id": "@alexandrainst/node-red-http-basic-auth",
@@ -627,23 +693,6 @@
       "url": "https://flows.nodered.org/node/@ncd-io/node-red-enterprise-sensors"
     },
     {
-      "id": "@gregoriusrippenstein/node-red-contrib-flowhub",
-      "version": "0.2.7",
-      "description": "FlowHub interaction nodes.",
-      "updated_at": "2023-10-11T19:18:15.618Z",
-      "types": [
-        "FlowHubPull",
-        "FlowHubPush",
-        "FlowHubDiff"
-      ],
-      "keywords": [
-        "node-red",
-        "flowhub",
-        "flowsharing"
-      ],
-      "url": "https://flows.nodered.org/node/@gregoriusrippenstein/node-red-contrib-flowhub"
-    },
-    {
       "id": "victron-dynamic-ess",
       "version": "0.1.7",
       "description": "Fetch the ideal ESS setpoint from VRM",
@@ -1177,42 +1226,6 @@
         "node-inq"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-mcdm"
-    },
-    {
-      "id": "node-red-contrib-simple-webdriver",
-      "version": "0.3.1",
-      "description": "SimpleWebdriver nodes for Node-RED initially based on node-red-contrib-selenium-wd2",
-      "updated_at": "2023-10-08T17:23:44.175Z",
-      "types": [
-        "click on",
-        "close browser",
-        "find element",
-        "get attribute",
-        "get cookie",
-        "get text",
-        "get title",
-        "get value",
-        "navigate",
-        "open browser",
-        "run script",
-        "screenshot",
-        "send keys",
-        "set attribute",
-        "set cookie",
-        "set value",
-        "switch frame",
-        "__errors__"
-      ],
-      "keywords": [
-        "node-red",
-        "selenium",
-        "simple-webdriver",
-        "webdriver",
-        "RPA",
-        "chromedriver",
-        "geckodriver"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-simple-webdriver"
     },
     {
       "id": "node-red-contrib-unifi",
