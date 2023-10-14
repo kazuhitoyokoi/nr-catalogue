@@ -1,12 +1,42 @@
 {
   "name": "Catalogue for Windows",
-  "updated_at": "2023-10-13T19:42:29.775Z",
+  "updated_at": "2023-10-14T20:03:37.475Z",
   "modules": [
     {
+      "id": "node-red-contrib-payload-cron",
+      "version": "1.1.0",
+      "description": "Cron scheduler node for node-red which takes the input of msg.payload as the cron expression and outputs the epoch unix timestamp at the time the cron job is triggered.",
+      "updated_at": "2023-10-14T13:29:26.069Z",
+      "types": [
+        "payload-cron"
+      ],
+      "keywords": [
+        "node-red"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-payload-cron"
+    },
+    {
+      "id": "@gregoriusrippenstein/node-red-contrib-flowhub",
+      "version": "0.2.8",
+      "description": "FlowHub interaction nodes.",
+      "updated_at": "2023-10-14T10:13:10.220Z",
+      "types": [
+        "FlowHubPull",
+        "FlowHubPush",
+        "FlowHubDiff"
+      ],
+      "keywords": [
+        "node-red",
+        "flowhub",
+        "flowsharing"
+      ],
+      "url": "https://flows.nodered.org/node/@gregoriusrippenstein/node-red-contrib-flowhub"
+    },
+    {
       "id": "@gregoriusrippenstein/node-red-contrib-uglifyjs",
-      "version": "0.0.3",
+      "version": "0.0.4",
       "description": "Node-RED wrapper node around the uglify-js package.",
-      "updated_at": "2023-10-13T13:40:11.510Z",
+      "updated_at": "2023-10-14T09:32:26.742Z",
       "types": [
         "UglifyJS"
       ],
@@ -16,6 +46,22 @@
         "uglify-js"
       ],
       "url": "https://flows.nodered.org/node/@gregoriusrippenstein/node-red-contrib-uglifyjs"
+    },
+    {
+      "id": "node-red-contrib-dirigera",
+      "version": "0.4.2",
+      "description": "A Node-Red Node for controlling Ikea Dirigera hub.",
+      "updated_at": "2023-10-13T18:38:03.552Z",
+      "types": [
+        "dirigera-config",
+        "dirigera"
+      ],
+      "keywords": [
+        "node-red",
+        "dirigera",
+        "ikea"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-dirigera"
     },
     {
       "id": "@alexandrainst/node-red-http-basic-auth",
@@ -570,23 +616,6 @@
       "url": "https://flows.nodered.org/node/@ncd-io/node-red-enterprise-sensors"
     },
     {
-      "id": "@gregoriusrippenstein/node-red-contrib-flowhub",
-      "version": "0.2.7",
-      "description": "FlowHub interaction nodes.",
-      "updated_at": "2023-10-11T19:18:15.618Z",
-      "types": [
-        "FlowHubPull",
-        "FlowHubPush",
-        "FlowHubDiff"
-      ],
-      "keywords": [
-        "node-red",
-        "flowhub",
-        "flowsharing"
-      ],
-      "url": "https://flows.nodered.org/node/@gregoriusrippenstein/node-red-contrib-flowhub"
-    },
-    {
       "id": "victron-dynamic-ess",
       "version": "0.1.7",
       "description": "Fetch the ideal ESS setpoint from VRM",
@@ -988,22 +1017,6 @@
         "topsail"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-topsail"
-    },
-    {
-      "id": "node-red-contrib-dirigera",
-      "version": "0.4.0",
-      "description": "A Node-Red Node for controlling Ikea Dirigera hub.",
-      "updated_at": "2023-10-09T20:02:42.086Z",
-      "types": [
-        "dirigera-config",
-        "dirigera"
-      ],
-      "keywords": [
-        "node-red",
-        "dirigera",
-        "ikea"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-dirigera"
     },
     {
       "id": "topological-nodered-wdio",
