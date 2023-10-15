@@ -1,0 +1,44 @@
+#0 building with "default" instance using docker driver
+
+#1 [internal] load .dockerignore
+#1 transferring context: 2B done
+#1 DONE 0.0s
+
+#2 [internal] load build definition from Dockerfile
+#2 transferring dockerfile: 119B done
+#2 DONE 0.0s
+
+#3 [internal] load metadata for docker.io/nodered/node-red:latest
+#3 DONE 0.1s
+
+#4 [1/2] FROM docker.io/nodered/node-red@sha256:5e99ed734f7d2f9bfcb1e20dfbf4c5b9aa60f35a9df6e257e817130f0f9be9dc
+#4 CACHED
+
+#5 [2/2] RUN npm install npm install node-red-contrib-axis-host@1.1.3
+#5 1.560 npm WARN EBADENGINE Unsupported engine {
+#5 1.561 npm WARN EBADENGINE   package: 'npm@10.2.0',
+#5 1.561 npm WARN EBADENGINE   required: { node: '^18.17.0 || >=20.5.0' },
+#5 1.561 npm WARN EBADENGINE   current: { node: 'v16.20.2', npm: '8.19.4' }
+#5 1.561 npm WARN EBADENGINE }
+#5 3.455 
+#5 3.455 added 3 packages, and audited 565 packages in 3s
+#5 3.455 
+#5 3.455 66 packages are looking for funding
+#5 3.455   run `npm fund` for details
+#5 3.457 
+#5 3.457 found 0 vulnerabilities
+#5 3.457 npm notice 
+#5 3.457 npm notice New major version of npm available! 8.19.4 -> 10.2.0
+#5 3.457 npm notice Changelog: <https://github.com/npm/cli/releases/tag/v10.2.0>
+#5 3.457 npm notice Run `npm install -g npm@10.2.0` to update!
+#5 3.457 npm notice 
+#5 DONE 3.6s
+
+#6 exporting to image
+#6 exporting layers
+#6 exporting layers 0.9s done
+#6 writing image sha256:d3262b63273ff811061b1e2d6e9fb5ee0e072b4e432523f2527ac5eacab63de1 done
+#6 naming to docker.io/library/tmp done
+#6 DONE 1.0s
+
+----
