@@ -1,7 +1,238 @@
 {
   "name": "Catalogue for Windows",
-  "updated_at": "2023-10-15T19:30:31.965Z",
+  "updated_at": "2023-10-16T20:11:16.618Z",
   "modules": [
+    {
+      "id": "@gregoriusrippenstein/node-red-contrib-flow2uml",
+      "version": "0.0.7",
+      "description": "Convert Node-RED to Mermaid UML flowchart diagram.",
+      "updated_at": "2023-10-16T15:25:46.891Z",
+      "types": [
+        "Flow2MermaidCfg"
+      ],
+      "keywords": [
+        "node-red",
+        "uml",
+        "mermaid"
+      ],
+      "url": "https://flows.nodered.org/node/@gregoriusrippenstein/node-red-contrib-flow2uml"
+    },
+    {
+      "id": "node-red-contrib-snap4city-milestone",
+      "version": "0.0.10",
+      "description": "Node-Red integration to communicate with Milestone XProtect VMS",
+      "updated_at": "2023-10-16T12:38:24.093Z",
+      "types": [
+        "x-login",
+        "x-send-event",
+        "x-alarm-list"
+      ],
+      "keywords": [
+        "node-red",
+        "smartcity",
+        "iot",
+        "VMS",
+        "Milestone",
+        "XProtect",
+        "Protocol Integration"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-snap4city-milestone"
+    },
+    {
+      "id": "smithtek-nodered",
+      "version": "2.3.0",
+      "description": "NodeRED node to post data on SmithTek using MQTT.",
+      "updated_at": "2023-10-16T12:35:45.688Z",
+      "types": [
+        "smithtek_in",
+        "smithtek_out",
+        "smithtek_sequencer"
+      ],
+      "keywords": [
+        "node-red",
+        "smithtek",
+        "iot",
+        "mqtt"
+      ],
+      "url": "https://flows.nodered.org/node/smithtek-nodered"
+    },
+    {
+      "id": "node-red-contrib-simple-webdriver",
+      "version": "0.4.2",
+      "description": "SimpleWebdriver nodes for Node-RED initially based on node-red-contrib-selenium-wd2",
+      "updated_at": "2023-10-16T12:03:46.699Z",
+      "types": [
+        "click on",
+        "close browser",
+        "find element",
+        "get attribute",
+        "get cookie",
+        "get text",
+        "get title",
+        "get value",
+        "navigate",
+        "open browser",
+        "run script",
+        "screenshot",
+        "send keys",
+        "set attribute",
+        "set cookie",
+        "set value",
+        "switch frame",
+        "__errors__"
+      ],
+      "keywords": [
+        "node-red",
+        "selenium",
+        "simple-webdriver",
+        "webdriver",
+        "RPA",
+        "chromedriver",
+        "geckodriver"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-simple-webdriver"
+    },
+    {
+      "id": "@gregoriusrippenstein/node-red-contrib-nodedev",
+      "version": "0.1.3",
+      "description": "Support the development of Node-RED nodes within Node-RED.",
+      "updated_at": "2023-10-16T12:02:42.395Z",
+      "types": [
+        "NodeDevOps",
+        "NodeFactory",
+        "PkgFile",
+        "NpmTarBall",
+        "NodeRedInstall",
+        "NpmPublish"
+      ],
+      "keywords": [
+        "node-red",
+        "node development",
+        "introspection",
+        "bootstrapping",
+        "recursion"
+      ],
+      "url": "https://flows.nodered.org/node/@gregoriusrippenstein/node-red-contrib-nodedev"
+    },
+    {
+      "id": "@starke-dms/node-red",
+      "version": "0.0.6",
+      "description": "node-red for starke-dms rest-api",
+      "updated_at": "2023-10-16T08:58:06.136Z",
+      "types": [
+        "starke-dms-login",
+        "starke-dms-logout",
+        "starke-dms-write-log",
+        "starke-dms-get-metadata",
+        "starke-dms-set-metadata",
+        "starke-dms-search",
+        "starke-dms-download-document",
+        "starke-dms-archive-document",
+        "starke-dms-generic"
+      ],
+      "keywords": [
+        "starke-dms",
+        "node-red"
+      ],
+      "url": "https://flows.nodered.org/node/@starke-dms/node-red"
+    },
+    {
+      "id": "node-red-contrib-myq",
+      "version": "0.0.15",
+      "description": "Node-Red node to control MyQ (Chamberlain) devices",
+      "updated_at": "2023-10-16T08:21:47.626Z",
+      "types": [
+        "myq-device-node",
+        "myq-credentials"
+      ],
+      "keywords": [
+        "node-red",
+        "myq",
+        "chamberlain",
+        "liftmaster"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-myq"
+    },
+    {
+      "id": "node-red-contrib-hue-tunable-white",
+      "version": "1.2.3",
+      "description": "Node-RED node automatic change white color temperature of lights as the day progress.",
+      "updated_at": "2023-10-15T20:17:03.225Z",
+      "types": [
+        "tunable-white"
+      ],
+      "keywords": [
+        "node-red",
+        "tunable white",
+        "daylight",
+        "philips hue",
+        "dynamic white",
+        "daylight",
+        "daylight simulator"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-hue-tunable-white"
+    },
+    {
+      "id": "node-red-contrib-knx-ultimate",
+      "version": "2.1.56",
+      "description": "Control your KNX intallation via Node-Red! Single Node KNX IN/OUT with optional ETS group address importer. Easy to use and highly configurable. With integrated Philips HUE devices handling.",
+      "updated_at": "2023-10-15T18:07:13.898Z",
+      "types": [
+        "knxUltimate",
+        "knxUltimateSceneController",
+        "knxUltimateWatchDog",
+        "knxUltimateLogger",
+        "knxUltimate-config",
+        "knxUltimateGlobalContext",
+        "knxUltimateAlerter",
+        "knxUltimateLoadControl",
+        "knxUltimateViewer",
+        "hue-config",
+        "knxUltimateHueLight",
+        "knxUltimateHueButton",
+        "knxUltimateHueMotion",
+        "knxUltimateHueTapDial",
+        "knxUltimateHueLightSensor",
+        "knxUltimateHueTemperatureSensor",
+        "knxUltimateHueScene",
+        "knxUltimateHueBattery"
+      ],
+      "keywords": [
+        "node-red",
+        "KNX",
+        "ETS",
+        "eib",
+        "eibd",
+        "knxd",
+        "konnex",
+        "IOT",
+        "hue"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-knx-ultimate"
+    },
+    {
+      "id": "node-red-contrib-zwave-js",
+      "version": "9.0.1",
+      "description": "The most powerful, high performing and highly polished Z-Wave node for Node-RED based on Z-Wave JS. If you want a fully featured Z-Wave framework in your Node-RED instance, you have found it.",
+      "updated_at": "2023-10-15T18:05:20.318Z",
+      "types": [
+        "zwave-js",
+        "zwave-device",
+        "event-filter",
+        "cmd-factory"
+      ],
+      "keywords": [
+        "node-red",
+        "zwave",
+        "zwave-js",
+        "controller",
+        "smart",
+        "automation",
+        "home-automation",
+        "home"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-zwave-js"
+    },
     {
       "id": "node-red-contrib-web-worldmap",
       "version": "4.0.0",
@@ -76,29 +307,6 @@
       "url": "https://flows.nodered.org/node/@gregoriusrippenstein/node-red-contrib-flowhub"
     },
     {
-      "id": "node-red-contrib-zwave-js",
-      "version": "9.0.0",
-      "description": "The most powerful, high performing and highly polished Z-Wave node for Node-RED based on Z-Wave JS. If you want a fully featured Z-Wave framework in your Node-RED instance, you have found it.",
-      "updated_at": "2023-10-15T07:45:57.910Z",
-      "types": [
-        "zwave-js",
-        "zwave-device",
-        "event-filter",
-        "cmd-factory"
-      ],
-      "keywords": [
-        "node-red",
-        "zwave",
-        "zwave-js",
-        "controller",
-        "smart",
-        "automation",
-        "home-automation",
-        "home"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-zwave-js"
-    },
-    {
       "id": "node-red-contrib-remap",
       "version": "0.1.0",
       "description": "A Node-RED node to filter and remap object properties",
@@ -128,42 +336,6 @@
         "Axis"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-axis-host"
-    },
-    {
-      "id": "node-red-contrib-simple-webdriver",
-      "version": "0.4.1",
-      "description": "SimpleWebdriver nodes for Node-RED initially based on node-red-contrib-selenium-wd2",
-      "updated_at": "2023-10-14T18:54:37.948Z",
-      "types": [
-        "click on",
-        "close browser",
-        "find element",
-        "get attribute",
-        "get cookie",
-        "get text",
-        "get title",
-        "get value",
-        "navigate",
-        "open browser",
-        "run script",
-        "screenshot",
-        "send keys",
-        "set attribute",
-        "set cookie",
-        "set value",
-        "switch frame",
-        "__errors__"
-      ],
-      "keywords": [
-        "node-red",
-        "selenium",
-        "simple-webdriver",
-        "webdriver",
-        "RPA",
-        "chromedriver",
-        "geckodriver"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-simple-webdriver"
     },
     {
       "id": "node-red-contrib-payload-cron",
@@ -246,28 +418,6 @@
         "node-red"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-mock-cli"
-    },
-    {
-      "id": "@gregoriusrippenstein/node-red-contrib-nodedev",
-      "version": "0.1.2",
-      "description": "Support the development of Node-RED nodes within Node-RED.",
-      "updated_at": "2023-10-13T11:45:49.519Z",
-      "types": [
-        "NodeDevOps",
-        "NodeFactory",
-        "PkgFile",
-        "NpmTarBall",
-        "NodeRedInstall",
-        "NpmPublish"
-      ],
-      "keywords": [
-        "node-red",
-        "node development",
-        "introspection",
-        "bootstrapping",
-        "recursion"
-      ],
-      "url": "https://flows.nodered.org/node/@gregoriusrippenstein/node-red-contrib-nodedev"
     },
     {
       "id": "node-red-contrib-snap4city-developer",
@@ -583,44 +733,6 @@
       "url": "https://flows.nodered.org/node/@oqdo/node-red-oqdobos"
     },
     {
-      "id": "node-red-contrib-knx-ultimate",
-      "version": "2.1.55",
-      "description": "Control your KNX intallation via Node-Red! Single Node KNX IN/OUT with optional ETS group address importer. Easy to use and highly configurable. With integrated Philips HUE devices handling.",
-      "updated_at": "2023-10-12T12:19:23.416Z",
-      "types": [
-        "knxUltimate",
-        "knxUltimateSceneController",
-        "knxUltimateWatchDog",
-        "knxUltimateLogger",
-        "knxUltimate-config",
-        "knxUltimateGlobalContext",
-        "knxUltimateAlerter",
-        "knxUltimateLoadControl",
-        "knxUltimateViewer",
-        "hue-config",
-        "knxUltimateHueLight",
-        "knxUltimateHueButton",
-        "knxUltimateHueMotion",
-        "knxUltimateHueTapDial",
-        "knxUltimateHueLightSensor",
-        "knxUltimateHueTemperatureSensor",
-        "knxUltimateHueScene",
-        "knxUltimateHueBattery"
-      ],
-      "keywords": [
-        "node-red",
-        "KNX",
-        "ETS",
-        "eib",
-        "eibd",
-        "knxd",
-        "konnex",
-        "IOT",
-        "hue"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-knx-ultimate"
-    },
-    {
       "id": "openapi-red",
       "version": "1.2.5",
       "description": "OpenAPI (Swagger) client for node-red ",
@@ -891,28 +1003,6 @@
         "node-red"
       ],
       "url": "https://flows.nodered.org/node/@appmodule/node-red-contrib-siot"
-    },
-    {
-      "id": "@starke-dms/node-red",
-      "version": "0.0.5",
-      "description": "node-red for starke-dms rest-api",
-      "updated_at": "2023-10-11T13:02:11.820Z",
-      "types": [
-        "starke-dms-login",
-        "starke-dms-logout",
-        "starke-dms-write-log",
-        "starke-dms-get-metadata",
-        "starke-dms-set-metadata",
-        "starke-dms-search",
-        "starke-dms-download-document",
-        "starke-dms-archive-document",
-        "starke-dms-generic"
-      ],
-      "keywords": [
-        "starke-dms",
-        "node-red"
-      ],
-      "url": "https://flows.nodered.org/node/@starke-dms/node-red"
     },
     {
       "id": "node-red-contrib-ui-upload",
@@ -1313,21 +1403,6 @@
         "Ubiquiti Networks"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-unifi"
-    },
-    {
-      "id": "@gregoriusrippenstein/node-red-contrib-flow2uml",
-      "version": "0.0.6",
-      "description": "Convert current flow tab to Mermaid flow diagram.",
-      "updated_at": "2023-10-08T10:13:14.230Z",
-      "types": [
-        "Flow2UML"
-      ],
-      "keywords": [
-        "node-red",
-        "uml",
-        "mermaid"
-      ],
-      "url": "https://flows.nodered.org/node/@gregoriusrippenstein/node-red-contrib-flow2uml"
     },
     {
       "id": "@gregoriusrippenstein/node-red-contrib-auto-alignment",
@@ -2834,27 +2909,6 @@
         "sensor"
       ],
       "url": "https://flows.nodered.org/node/@softwaredevelopment/node-red-contrib-bodhi-device-window-sensor"
-    },
-    {
-      "id": "node-red-contrib-snap4city-milestone",
-      "version": "0.0.8",
-      "description": "Node-Red integration to communicate with Milestone XProtect VMS",
-      "updated_at": "2023-09-25T13:01:03.794Z",
-      "types": [
-        "x-login",
-        "x-send-event",
-        "x-alarm-list"
-      ],
-      "keywords": [
-        "node-red",
-        "smartcity",
-        "iot",
-        "VMS",
-        "Milestone",
-        "XProtect",
-        "Protocol Integration"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-snap4city-milestone"
     },
     {
       "id": "@softwaredevelopment/node-red-contrib-bodhi-device-smoke-detector",
@@ -4582,23 +4636,6 @@
         "interactive"
       ],
       "url": "https://flows.nodered.org/node/@insectos/ssh-exec"
-    },
-    {
-      "id": "node-red-contrib-myq",
-      "version": "0.0.12",
-      "description": "Node-Red node to control MyQ (Chamberlain) devices",
-      "updated_at": "2023-09-11T16:27:13.278Z",
-      "types": [
-        "myq-device-node",
-        "myq-credentials"
-      ],
-      "keywords": [
-        "node-red",
-        "myq",
-        "chamberlain",
-        "liftmaster"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-myq"
     },
     {
       "id": "node-red-contrib-smartnora",
@@ -13656,25 +13693,6 @@
         "jwt-token"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-aw365-jwt-token"
-    },
-    {
-      "id": "node-red-contrib-hue-tunable-white",
-      "version": "1.2.1",
-      "description": "Node-RED node automatic change white color temperature of lights as the day progress.",
-      "updated_at": "2023-03-09T13:25:00.806Z",
-      "types": [
-        "tunable-white"
-      ],
-      "keywords": [
-        "node-red",
-        "tunable white",
-        "daylight",
-        "philips hue",
-        "dynamic white",
-        "daylight",
-        "daylight simulator"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-hue-tunable-white"
     },
     {
       "id": "node-red-contrib-memory-queue",
@@ -46420,24 +46438,6 @@
         "roller"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-blindcontroller-v2"
-    },
-    {
-      "id": "smithtek-nodered",
-      "version": "2.0.1",
-      "description": "NodeRED node to post data on SmithTek using MQTT.",
-      "updated_at": "2020-09-16T22:16:58.965Z",
-      "types": [
-        "smithtek_in",
-        "smithtek_out",
-        "smithtek_sequencer"
-      ],
-      "keywords": [
-        "node-red",
-        "smithtek",
-        "iot",
-        "mqtt"
-      ],
-      "url": "https://flows.nodered.org/node/smithtek-nodered"
     },
     {
       "id": "node-red-contrib-force",
