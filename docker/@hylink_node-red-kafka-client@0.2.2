@@ -1,0 +1,45 @@
+#0 building with "default" instance using docker driver
+
+#1 [internal] load .dockerignore
+#1 transferring context: 2B done
+#1 DONE 0.0s
+
+#2 [internal] load build definition from Dockerfile
+#2 transferring dockerfile: 122B done
+#2 DONE 0.0s
+
+#3 [internal] load metadata for docker.io/nodered/node-red:latest
+#3 DONE 0.1s
+
+#4 [1/2] FROM docker.io/nodered/node-red@sha256:5e99ed734f7d2f9bfcb1e20dfbf4c5b9aa60f35a9df6e257e817130f0f9be9dc
+#4 CACHED
+
+#5 [2/2] RUN npm install npm install @hylink/node-red-kafka-client@0.2.2
+#5 3.197 npm WARN EBADENGINE Unsupported engine {
+#5 3.198 npm WARN EBADENGINE   package: 'npm@10.2.0',
+#5 3.198 npm WARN EBADENGINE   required: { node: '^18.17.0 || >=20.5.0' },
+#5 3.199 npm WARN EBADENGINE   current: { node: 'v16.20.2', npm: '8.19.4' }
+#5 3.199 npm WARN EBADENGINE }
+#5 5.703 npm WARN deprecated uuid@3.4.0: Please upgrade  to version 7 or higher.  Older versions may use Math.random() in certain circumstances, which is known to be problematic.  See https://v8.dev/blog/math-random for details.
+#5 10.68 
+#5 10.68 added 69 packages, and audited 631 packages in 10s
+#5 10.68 
+#5 10.68 67 packages are looking for funding
+#5 10.68   run `npm fund` for details
+#5 10.69 
+#5 10.69 found 0 vulnerabilities
+#5 10.69 npm notice 
+#5 10.69 npm notice New major version of npm available! 8.19.4 -> 10.2.0
+#5 10.69 npm notice Changelog: <https://github.com/npm/cli/releases/tag/v10.2.0>
+#5 10.69 npm notice Run `npm install -g npm@10.2.0` to update!
+#5 10.69 npm notice 
+#5 DONE 10.8s
+
+#6 exporting to image
+#6 exporting layers
+#6 exporting layers 1.3s done
+#6 writing image sha256:b7171154b70194038597e433b18e6970b17e77ec875b25fba848ab5d47381772 done
+#6 naming to docker.io/library/tmp done
+#6 DONE 1.3s
+
+----
