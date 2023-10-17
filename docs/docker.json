@@ -1,7 +1,281 @@
 {
   "name": "Catalogue for Docker",
-  "updated_at": "2023-10-16T16:20:57.880Z",
+  "updated_at": "2023-10-17T16:06:50.970Z",
   "modules": [
+    {
+      "id": "node-red-contrib-remap",
+      "version": "0.2.1",
+      "description": "A Node-RED node to filter and remap object properties",
+      "updated_at": "2023-10-17T14:35:34.666Z",
+      "types": [
+        "remap"
+      ],
+      "keywords": [
+        "node-red",
+        "remap",
+        "properties"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-remap"
+    },
+    {
+      "id": "@alexandrainst/node-red-http-basic-auth",
+      "version": "3.1.0",
+      "description": "Node-RED node for HTTP Basic Authorization",
+      "updated_at": "2023-10-17T10:31:34.653Z",
+      "types": [
+        "http-basic-auth",
+        "http-basic-auth-file",
+        "http-basic-auth-multiple"
+      ],
+      "keywords": [
+        "node-red",
+        "node-red-contrib",
+        "http",
+        "basic",
+        "auth",
+        "authorization",
+        "access",
+        "htpasswd",
+        "password",
+        "rfc2617",
+        "rfc7617"
+      ],
+      "url": "https://flows.nodered.org/node/@alexandrainst/node-red-http-basic-auth"
+    },
+    {
+      "id": "@hylink/node-red-kafka-client",
+      "version": "0.2.2",
+      "description": "Node-RED Kafka Consumer and Producer",
+      "updated_at": "2023-10-17T09:42:33.253Z",
+      "types": [
+        "kafka-consumer",
+        "kafka-producer",
+        "kafka-broker"
+      ],
+      "keywords": [
+        "kafka-producer",
+        "kafka-consumer",
+        "node-red",
+        "kafka-broker",
+        "kafka-node",
+        "big-data",
+        "data"
+      ],
+      "url": "https://flows.nodered.org/node/@hylink/node-red-kafka-client"
+    },
+    {
+      "id": "@gregoriusrippenstein/node-red-contrib-flowcompare",
+      "version": "0.0.3",
+      "description": "Compare editor flow with the flow deployed to the server.",
+      "updated_at": "2023-10-17T08:19:32.821Z",
+      "types": [
+        "FlowCompareCfg"
+      ],
+      "keywords": [
+        "node-red",
+        "comparison",
+        "flow-comparison"
+      ],
+      "url": "https://flows.nodered.org/node/@gregoriusrippenstein/node-red-contrib-flowcompare"
+    },
+    {
+      "id": "@starke-dms/node-red",
+      "version": "0.0.7",
+      "description": "node-red for starke-dms rest-api",
+      "updated_at": "2023-10-17T08:15:54.280Z",
+      "types": [
+        "starke-dms-login",
+        "starke-dms-logout",
+        "starke-dms-write-log",
+        "starke-dms-get-metadata",
+        "starke-dms-set-metadata",
+        "starke-dms-search",
+        "starke-dms-download-document",
+        "starke-dms-archive-document",
+        "starke-dms-generic"
+      ],
+      "keywords": [
+        "starke-dms",
+        "node-red"
+      ],
+      "url": "https://flows.nodered.org/node/@starke-dms/node-red"
+    },
+    {
+      "id": "node-red-contrib-alexa-master-function",
+      "version": "2.0.3",
+      "description": "Add extra functions to your Alexa",
+      "updated_at": "2023-10-17T02:06:15.396Z",
+      "types": [
+        "alexa-master-function"
+      ],
+      "keywords": [
+        "node-red"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-alexa-master-function"
+    },
+    {
+      "id": "@hsync/node-red-hsync",
+      "version": "0.3.0",
+      "description": "put node-red online securely with a hsync server",
+      "updated_at": "2023-10-16T22:20:19.802Z",
+      "types": [
+        "hsync-connection",
+        "hsync-in",
+        "hsync-out"
+      ],
+      "keywords": [
+        "node-red",
+        "hsync",
+        "ngrok",
+        "iot",
+        "mqtt",
+        "messaging",
+        "reverse-proxy",
+        "rtc",
+        "p2p",
+        "vpn"
+      ],
+      "url": "https://flows.nodered.org/node/@hsync/node-red-hsync"
+    },
+    {
+      "id": "node-red-contrib-cot2xtopo",
+      "version": "1.1.5",
+      "description": "This module parses 'live tracks' in network kmls from services such as CalTopo / SARTopo and converts the last coordinate in the live tracking folder to a position location information (pli) cursor-on-target (CoT) message to send to a Team Awareness Kit (",
+      "updated_at": "2023-10-16T22:09:11.024Z",
+      "types": [
+        "cot2xtopo"
+      ],
+      "keywords": [
+        "nodered",
+        "node-red",
+        "atak",
+        "itak",
+        "tak",
+        "caltopo",
+        "sartopo",
+        "tak",
+        "server"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-cot2xtopo"
+    },
+    {
+      "id": "@ncd-io/node-red-enterprise-sensors",
+      "version": "0.1.13",
+      "description": "You can install this library through the Palette Manager in Node-Red's UI.",
+      "updated_at": "2023-10-16T20:28:09.233Z",
+      "types": [
+        "ncd-gateway-node",
+        "ncd-wireless-node",
+        "ncd-gateway-config"
+      ],
+      "keywords": [
+        "Wireless",
+        "NCD",
+        "Sensors",
+        "Digi",
+        "node-red",
+        "enterprise"
+      ],
+      "url": "https://flows.nodered.org/node/@ncd-io/node-red-enterprise-sensors"
+    },
+    {
+      "id": "@gregoriusrippenstein/node-red-contrib-nodedev",
+      "version": "0.1.4",
+      "description": "Support the development of Node-RED nodes within Node-RED.",
+      "updated_at": "2023-10-16T20:21:19.974Z",
+      "types": [
+        "NodeDevOps",
+        "NodeFactory",
+        "PkgFile",
+        "NpmTarBall",
+        "NodeRedInstall",
+        "NpmPublish"
+      ],
+      "keywords": [
+        "node-red",
+        "node development",
+        "introspection",
+        "bootstrapping",
+        "recursion"
+      ],
+      "url": "https://flows.nodered.org/node/@gregoriusrippenstein/node-red-contrib-nodedev"
+    },
+    {
+      "id": "node-red-contrib-dirigera",
+      "version": "0.5.0",
+      "description": "A Node-Red Node for controlling Ikea Dirigera hub.",
+      "updated_at": "2023-10-16T20:02:41.444Z",
+      "types": [
+        "dirigera-config",
+        "dirigera"
+      ],
+      "keywords": [
+        "node-red",
+        "dirigera",
+        "ikea"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-dirigera"
+    },
+    {
+      "id": "node-red-contrib-tfr2cot",
+      "version": "1.1.4",
+      "description": "If msg.payload or env.state is a 2 letter U.S. abbreviation for a state, this node returns a msg.payload as JSON cursor-on-target (CoT) message for use with node-red-contrib-tak node and tcp out node.",
+      "updated_at": "2023-10-16T19:08:51.470Z",
+      "types": [
+        "tfr2cot",
+        "dataSyncSubscription"
+      ],
+      "keywords": [
+        "nodered",
+        "node-red",
+        "atak",
+        "itak",
+        "tak",
+        "cot",
+        "tak",
+        "server",
+        "tak-server",
+        "tfr",
+        "faa"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-tfr2cot"
+    },
+    {
+      "id": "node-red-contrib-melsoft",
+      "version": "1.0.2",
+      "description": "A Node-RED Node to communicate with Mitsubishi PLCs over TCP",
+      "updated_at": "2023-10-16T16:55:08.483Z",
+      "types": [
+        "melsoft endpoint",
+        "melsoft in",
+        "melsoft control"
+      ],
+      "keywords": [
+        "plc",
+        "mitsubishi",
+        "melsoft",
+        "hardware",
+        "protocol",
+        "node-red",
+        "tcp"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-melsoft"
+    },
+    {
+      "id": "@gregoriusrippenstein/node-red-contrib-flow2uml",
+      "version": "0.0.7",
+      "description": "Convert Node-RED to Mermaid UML flowchart diagram.",
+      "updated_at": "2023-10-16T15:25:46.891Z",
+      "types": [
+        "Flow2MermaidCfg"
+      ],
+      "keywords": [
+        "node-red",
+        "uml",
+        "mermaid"
+      ],
+      "url": "https://flows.nodered.org/node/@gregoriusrippenstein/node-red-contrib-flow2uml"
+    },
     {
       "id": "node-red-contrib-snap4city-milestone",
       "version": "0.0.10",
@@ -76,50 +350,6 @@
         "geckodriver"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-simple-webdriver"
-    },
-    {
-      "id": "@gregoriusrippenstein/node-red-contrib-nodedev",
-      "version": "0.1.3",
-      "description": "Support the development of Node-RED nodes within Node-RED.",
-      "updated_at": "2023-10-16T12:02:42.395Z",
-      "types": [
-        "NodeDevOps",
-        "NodeFactory",
-        "PkgFile",
-        "NpmTarBall",
-        "NodeRedInstall",
-        "NpmPublish"
-      ],
-      "keywords": [
-        "node-red",
-        "node development",
-        "introspection",
-        "bootstrapping",
-        "recursion"
-      ],
-      "url": "https://flows.nodered.org/node/@gregoriusrippenstein/node-red-contrib-nodedev"
-    },
-    {
-      "id": "@starke-dms/node-red",
-      "version": "0.0.6",
-      "description": "node-red for starke-dms rest-api",
-      "updated_at": "2023-10-16T08:58:06.136Z",
-      "types": [
-        "starke-dms-login",
-        "starke-dms-logout",
-        "starke-dms-write-log",
-        "starke-dms-get-metadata",
-        "starke-dms-set-metadata",
-        "starke-dms-search",
-        "starke-dms-download-document",
-        "starke-dms-archive-document",
-        "starke-dms-generic"
-      ],
-      "keywords": [
-        "starke-dms",
-        "node-red"
-      ],
-      "url": "https://flows.nodered.org/node/@starke-dms/node-red"
     },
     {
       "id": "node-red-contrib-myq",
@@ -327,20 +557,6 @@
       "url": "https://flows.nodered.org/node/node-red-contrib-vib-smart-valve"
     },
     {
-      "id": "node-red-contrib-remap",
-      "version": "0.1.0",
-      "description": "A Node-RED node to filter and remap object properties",
-      "updated_at": "2023-10-14T21:26:33.785Z",
-      "types": [
-        "remap"
-      ],
-      "keywords": [
-        "node-red",
-        "remap"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-remap"
-    },
-    {
       "id": "node-red-contrib-axis-host",
       "version": "1.1.3",
       "description": "Axis Devices resource binding nodes.  Node-RED must be running on an Axis Device.  Provides access to events, image capture and analytics data",
@@ -398,44 +614,6 @@
         "uglify-js"
       ],
       "url": "https://flows.nodered.org/node/@gregoriusrippenstein/node-red-contrib-uglifyjs"
-    },
-    {
-      "id": "node-red-contrib-dirigera",
-      "version": "0.4.2",
-      "description": "A Node-Red Node for controlling Ikea Dirigera hub.",
-      "updated_at": "2023-10-13T18:38:03.552Z",
-      "types": [
-        "dirigera-config",
-        "dirigera"
-      ],
-      "keywords": [
-        "node-red",
-        "dirigera",
-        "ikea"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-dirigera"
-    },
-    {
-      "id": "@alexandrainst/node-red-http-basic-auth",
-      "version": "3.0.0",
-      "description": "Node-RED node for HTTP Basic Authorization",
-      "updated_at": "2023-10-13T13:31:21.683Z",
-      "types": [
-        "http-basic-auth",
-        "http-basic-auth-file",
-        "http-basic-auth-multiple"
-      ],
-      "keywords": [
-        "node-red",
-        "node-red-contrib",
-        "http",
-        "basic",
-        "auth",
-        "authorization",
-        "rfc2617",
-        "rfc7617"
-      ],
-      "url": "https://flows.nodered.org/node/@alexandrainst/node-red-http-basic-auth"
     },
     {
       "id": "node-red-contrib-mock-cli",
@@ -888,26 +1066,6 @@
       "url": "https://flows.nodered.org/node/node-red-contrib-home-assistant-websocket"
     },
     {
-      "id": "@ncd-io/node-red-enterprise-sensors",
-      "version": "0.1.12",
-      "description": "You can install this library through the Palette Manager in Node-Red's UI.",
-      "updated_at": "2023-10-11T19:29:25.086Z",
-      "types": [
-        "ncd-gateway-node",
-        "ncd-wireless-node",
-        "ncd-gateway-config"
-      ],
-      "keywords": [
-        "Wireless",
-        "NCD",
-        "Sensors",
-        "Digi",
-        "node-red",
-        "enterprise"
-      ],
-      "url": "https://flows.nodered.org/node/@ncd-io/node-red-enterprise-sensors"
-    },
-    {
       "id": "victron-dynamic-ess",
       "version": "0.1.7",
       "description": "Fetch the ideal ESS setpoint from VRM",
@@ -1196,21 +1354,6 @@
       "url": "https://flows.nodered.org/node/node-red-contrib-socketio-client-fortes"
     },
     {
-      "id": "@gregoriusrippenstein/node-red-contrib-flowcompare",
-      "version": "0.0.2",
-      "description": "Compare editor flow with the flow deployed to the server.",
-      "updated_at": "2023-10-10T14:36:13.715Z",
-      "types": [
-        "FlowCompare"
-      ],
-      "keywords": [
-        "node-red",
-        "comparison",
-        "flow-comparison"
-      ],
-      "url": "https://flows.nodered.org/node/@gregoriusrippenstein/node-red-contrib-flowcompare"
-    },
-    {
       "id": "node-red-contrib-fastxml",
       "version": "1.1.2",
       "description": "A Node-RED node to parse xml strings to json and vice-versa",
@@ -1437,21 +1580,6 @@
         "Ubiquiti Networks"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-unifi"
-    },
-    {
-      "id": "@gregoriusrippenstein/node-red-contrib-flow2uml",
-      "version": "0.0.6",
-      "description": "Convert current flow tab to Mermaid flow diagram.",
-      "updated_at": "2023-10-08T10:13:14.230Z",
-      "types": [
-        "Flow2UML"
-      ],
-      "keywords": [
-        "node-red",
-        "uml",
-        "mermaid"
-      ],
-      "url": "https://flows.nodered.org/node/@gregoriusrippenstein/node-red-contrib-flow2uml"
     },
     {
       "id": "@gregoriusrippenstein/node-red-contrib-auto-alignment",
@@ -4365,6 +4493,19 @@
       "url": "https://flows.nodered.org/node/node-red-contrib-spreadsheet-in"
     },
     {
+      "id": "@victronenergy/node-red-contrib-victron",
+      "version": "1.5.2",
+      "description": "Custom Node-RED Nodes for Victron Energy",
+      "updated_at": "2023-09-15T21:28:22.191Z",
+      "types": [
+        "victron-client"
+      ],
+      "keywords": [
+        "node-red"
+      ],
+      "url": "https://flows.nodered.org/node/@victronenergy/node-red-contrib-victron"
+    },
+    {
       "id": "@tq-bit/node-red-contrib-server-sent-events",
       "version": "1.1.0",
       "description": "Nodes to create - or subscribe to - server-sent events",
@@ -5866,19 +6007,6 @@
       "url": "https://flows.nodered.org/node/@siglesiasg/node-red-hyperledger-fabric-gateway"
     },
     {
-      "id": "@victronenergy/node-red-contrib-victron",
-      "version": "1.5.0",
-      "description": "Custom Node-RED Nodes for Victron Energy",
-      "updated_at": "2023-08-28T07:34:41.290Z",
-      "types": [
-        "victron-client"
-      ],
-      "keywords": [
-        "node-red"
-      ],
-      "url": "https://flows.nodered.org/node/@victronenergy/node-red-contrib-victron"
-    },
-    {
       "id": "node-red-contrib-tasmotas",
       "version": "2.0.3",
       "description": "Use and control Tasmota devices in NodeRed",
@@ -6241,30 +6369,6 @@
         "lunatone"
       ],
       "url": "https://flows.nodered.org/node/@lunatone/node-red-dali"
-    },
-    {
-      "id": "node-red-contrib-tfr2cot",
-      "version": "1.1.2",
-      "description": "If msg.payload or env.state is a 2 letter U.S. abbreviation for a state, this node returns a msg.payload as JSON cursor-on-target (CoT) message for use with node-red-contrib-tak node and tcp out node.",
-      "updated_at": "2023-08-20T20:23:48.681Z",
-      "types": [
-        "tfr2cot",
-        "dataSyncSubscription"
-      ],
-      "keywords": [
-        "nodered",
-        "node-red",
-        "atak",
-        "itak",
-        "tak",
-        "cot",
-        "tak",
-        "server",
-        "tak-server",
-        "tfr",
-        "faa"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-tfr2cot"
     },
     {
       "id": "node-red-contrib-spruthub",
@@ -6818,28 +6922,6 @@
         "node-red"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-discord-advanced"
-    },
-    {
-      "id": "node-red-contrib-cot2xtopo",
-      "version": "1.1.0",
-      "description": "This module parses 'live tracks' in network kmls from services such as CalTopo / SARTopo and converts the last coordinate in the live tracking folder to a position location information (pli) cursor-on-target (CoT) message to send to a Team Awareness Kit (",
-      "updated_at": "2023-08-05T21:00:54.516Z",
-      "types": [
-        "cot2xtopo",
-        "xtopo2cot"
-      ],
-      "keywords": [
-        "nodered",
-        "node-red",
-        "atak",
-        "itak",
-        "tak",
-        "caltopo",
-        "sartopo",
-        "tak",
-        "server"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-cot2xtopo"
     },
     {
       "id": "node-red-contrib-car-bmw",
