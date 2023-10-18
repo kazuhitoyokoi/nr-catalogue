@@ -1,7 +1,192 @@
 {
   "name": "Catalogue for macOS",
-  "updated_at": "2023-10-17T22:11:46.408Z",
+  "updated_at": "2023-10-18T21:59:37.727Z",
   "modules": [
+    {
+      "id": "node-red-contrib-blockly",
+      "version": "2.2.0",
+      "description": "A Node Red node for visual programming a function using Blockly",
+      "updated_at": "2023-10-18T20:09:23.195Z",
+      "types": [
+        "Blockly",
+        "blockly-config"
+      ],
+      "keywords": [
+        "node-red",
+        "blockly",
+        "function",
+        "visual",
+        "programming",
+        "javascript",
+        "generate"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-blockly"
+    },
+    {
+      "id": "node-red-contrib-dirigera",
+      "version": "1.0.0",
+      "description": "A Node-Red Node for controlling Ikea Dirigera hub.",
+      "updated_at": "2023-10-18T19:23:35.008Z",
+      "types": [
+        "dirigera-config",
+        "dirigera",
+        "__errors__"
+      ],
+      "keywords": [
+        "node-red",
+        "dirigera",
+        "ikea"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-dirigera"
+    },
+    {
+      "id": "node-red-contrib-gpt-engineer-api",
+      "version": "1.0.1",
+      "description": "adds Node to call  gpt-engineer through ssh connection and cli commands",
+      "updated_at": "2023-10-18T18:27:25.702Z",
+      "types": [
+        "gpt-engineer",
+        "gpt-engineer-config"
+      ],
+      "keywords": [
+        "node-red",
+        "openai",
+        "chatgpt",
+        "gpt-engineer",
+        "cli"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-gpt-engineer-api"
+    },
+    {
+      "id": "node-red-contrib-alexa-master-function",
+      "version": "18.10.1233",
+      "description": "A Node-RED node that allows you to execute MySQL queries against a specified database table.",
+      "updated_at": "2023-10-18T15:33:58.575Z",
+      "types": [
+        "alexa-master-function"
+      ],
+      "keywords": [
+        "node-red",
+        "mysql",
+        "database",
+        "r2"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-alexa-master-function"
+    },
+    {
+      "id": "node-red-contrib-vib-smart-boiler",
+      "version": "0.0.71",
+      "description": "Smart boiler node to control multiple thermostat",
+      "updated_at": "2023-10-18T14:10:43.549Z",
+      "types": [
+        "smart-boiler",
+        "smart-boiler-settings"
+      ],
+      "keywords": [
+        "node-red",
+        "Heating",
+        "valve",
+        "trv",
+        "climate"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-vib-smart-boiler"
+    },
+    {
+      "id": "node-red-contrib-vib-smart-scheduler",
+      "version": "0.0.71",
+      "description": "Node Red Smart Scheduler MQTT Home Assistant ",
+      "updated_at": "2023-10-18T14:10:25.856Z",
+      "types": [
+        "smart-scheduler",
+        "smart-scheduler-settings"
+      ],
+      "keywords": [
+        "node-red",
+        "Heating",
+        "valve",
+        "trv",
+        "climate",
+        "schedule",
+        "home assistant"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-vib-smart-scheduler"
+    },
+    {
+      "id": "node-red-contrib-vib-smart-valve",
+      "version": "0.0.71",
+      "description": "Smart Valve Managemeent",
+      "updated_at": "2023-10-18T14:09:52.254Z",
+      "types": [
+        "smart-valve"
+      ],
+      "keywords": [
+        "node-red",
+        "Heating",
+        "valve",
+        "trv",
+        "climate"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-vib-smart-valve"
+    },
+    {
+      "id": "@gregoriusrippenstein/node-red-contrib-flowcompare",
+      "version": "0.0.4",
+      "description": "Compare editor flow with the flow deployed to the server.",
+      "updated_at": "2023-10-18T08:17:57.009Z",
+      "types": [
+        "FlowCompareCfg"
+      ],
+      "keywords": [
+        "node-red",
+        "comparison",
+        "flow-comparison"
+      ],
+      "url": "https://flows.nodered.org/node/@gregoriusrippenstein/node-red-contrib-flowcompare"
+    },
+    {
+      "id": "@gregoriusrippenstein/node-red-contrib-uglifyjs",
+      "version": "0.0.5",
+      "description": "Node-RED wrapper node around the uglify-js package.",
+      "updated_at": "2023-10-18T07:59:49.166Z",
+      "types": [
+        "UglifyJS"
+      ],
+      "keywords": [
+        "node-red",
+        "uglifyjs",
+        "uglify-js"
+      ],
+      "url": "https://flows.nodered.org/node/@gregoriusrippenstein/node-red-contrib-uglifyjs"
+    },
+    {
+      "id": "smithtek-node-red-format",
+      "version": "1.0.1",
+      "description": "A custom node for Node-RED to format messages with timestamps.",
+      "updated_at": "2023-10-18T04:33:51.042Z",
+      "types": [
+        "smithtek-node-red-format"
+      ],
+      "keywords": [
+        "node-red"
+      ],
+      "url": "https://flows.nodered.org/node/smithtek-node-red-format"
+    },
+    {
+      "id": "@vrilcode/node-red-wnsm-b2b",
+      "version": "1.0.3",
+      "description": "Wiener Netze Smart Meter B2B API node for Node-RED",
+      "updated_at": "2023-10-18T03:56:34.452Z",
+      "types": [
+        "wnsm-b2b-credentials",
+        "wnsm-b2b"
+      ],
+      "keywords": [
+        "node-red",
+        "smart-meter",
+        "wiener-netze"
+      ],
+      "url": "https://flows.nodered.org/node/@vrilcode/node-red-wnsm-b2b"
+    },
     {
       "id": "node-red-contrib-google-smarthome",
       "version": "0.4.5",
@@ -20,26 +205,6 @@
         "node-red"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-google-smarthome"
-    },
-    {
-      "id": "node-red-contrib-blockly",
-      "version": "2.1.0",
-      "description": "A Node Red node for visual programming a function using Blockly",
-      "updated_at": "2023-10-17T18:12:25.390Z",
-      "types": [
-        "Blockly",
-        "blockly-config"
-      ],
-      "keywords": [
-        "node-red",
-        "blockly",
-        "function",
-        "visual",
-        "programming",
-        "javascript",
-        "generate"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-blockly"
     },
     {
       "id": "node-red-contrib-zwave-js",
@@ -126,21 +291,6 @@
       "url": "https://flows.nodered.org/node/@hylink/node-red-kafka-client"
     },
     {
-      "id": "@gregoriusrippenstein/node-red-contrib-flowcompare",
-      "version": "0.0.3",
-      "description": "Compare editor flow with the flow deployed to the server.",
-      "updated_at": "2023-10-17T08:19:32.821Z",
-      "types": [
-        "FlowCompareCfg"
-      ],
-      "keywords": [
-        "node-red",
-        "comparison",
-        "flow-comparison"
-      ],
-      "url": "https://flows.nodered.org/node/@gregoriusrippenstein/node-red-contrib-flowcompare"
-    },
-    {
       "id": "@starke-dms/node-red",
       "version": "0.0.7",
       "description": "node-red for starke-dms rest-api",
@@ -161,19 +311,6 @@
         "node-red"
       ],
       "url": "https://flows.nodered.org/node/@starke-dms/node-red"
-    },
-    {
-      "id": "node-red-contrib-alexa-master-function",
-      "version": "2.0.3",
-      "description": "Add extra functions to your Alexa",
-      "updated_at": "2023-10-17T02:06:15.396Z",
-      "types": [
-        "alexa-master-function"
-      ],
-      "keywords": [
-        "node-red"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-alexa-master-function"
     },
     {
       "id": "@hsync/node-red-hsync",
@@ -261,22 +398,6 @@
         "recursion"
       ],
       "url": "https://flows.nodered.org/node/@gregoriusrippenstein/node-red-contrib-nodedev"
-    },
-    {
-      "id": "node-red-contrib-dirigera",
-      "version": "0.5.0",
-      "description": "A Node-Red Node for controlling Ikea Dirigera hub.",
-      "updated_at": "2023-10-16T20:02:41.444Z",
-      "types": [
-        "dirigera-config",
-        "dirigera"
-      ],
-      "keywords": [
-        "node-red",
-        "dirigera",
-        "ikea"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-dirigera"
     },
     {
       "id": "node-red-contrib-tfr2cot",
@@ -561,41 +682,6 @@
       "url": "https://flows.nodered.org/node/@gregoriusrippenstein/node-red-contrib-flowhub"
     },
     {
-      "id": "node-red-contrib-vib-smart-scheduler",
-      "version": "0.0.68",
-      "description": "Node Red Smart Scheduler MQTT Home Assistant ",
-      "updated_at": "2023-10-15T10:01:48.065Z",
-      "types": [
-        "smart-scheduler",
-        "smart-scheduler-settings"
-      ],
-      "keywords": [
-        "node-red",
-        "Heating",
-        "valve",
-        "trv",
-        "climate"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-vib-smart-scheduler"
-    },
-    {
-      "id": "node-red-contrib-vib-smart-valve",
-      "version": "0.0.68",
-      "description": "Smart Valve Managemeent",
-      "updated_at": "2023-10-15T07:10:47.942Z",
-      "types": [
-        "smart-valve"
-      ],
-      "keywords": [
-        "node-red",
-        "Heating",
-        "valve",
-        "trv",
-        "climate"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-vib-smart-valve"
-    },
-    {
       "id": "node-red-contrib-axis-host",
       "version": "1.1.3",
       "description": "Axis Devices resource binding nodes.  Node-RED must be running on an Axis Device.  Provides access to events, image capture and analytics data",
@@ -626,33 +712,17 @@
       "url": "https://flows.nodered.org/node/node-red-contrib-payload-cron"
     },
     {
-      "id": "node-red-contrib-vib-smart-boiler",
-      "version": "0.0.66",
-      "description": "Smart boiler node to control multiple thermostat",
-      "updated_at": "2023-10-14T09:52:34.981Z",
-      "types": [
-        "smart-boiler",
-        "smart-boiler-settings"
-      ],
-      "keywords": [
-        "node-red"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-vib-smart-boiler"
-    },
-    {
-      "id": "@gregoriusrippenstein/node-red-contrib-uglifyjs",
-      "version": "0.0.4",
-      "description": "Node-RED wrapper node around the uglify-js package.",
-      "updated_at": "2023-10-14T09:32:26.742Z",
-      "types": [
-        "UglifyJS"
-      ],
+      "id": "node-red-contrib-nspanel-lui",
+      "version": "0.0.1-alpha.27",
+      "description": "node-red-contrib-nspanel-lui",
+      "updated_at": "2023-10-14T11:55:16.314Z",
+      "types": [],
       "keywords": [
         "node-red",
-        "uglifyjs",
-        "uglify-js"
+        "lovelace ui",
+        "nspanel"
       ],
-      "url": "https://flows.nodered.org/node/@gregoriusrippenstein/node-red-contrib-uglifyjs"
+      "url": "https://flows.nodered.org/node/node-red-contrib-nspanel-lui"
     },
     {
       "id": "node-red-contrib-mock-cli",
@@ -951,19 +1021,6 @@
         "selfbot"
       ],
       "url": "https://flows.nodered.org/node/node-red-node-telegrambot"
-    },
-    {
-      "id": "node-red-contrib-nspanel-lui",
-      "version": "0.0.1-alpha.26",
-      "description": "node-red-contrib-nspanel-lui",
-      "updated_at": "2023-10-12T17:56:28.810Z",
-      "types": [],
-      "keywords": [
-        "node-red",
-        "lovelace ui",
-        "nspanel"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-nspanel-lui"
     },
     {
       "id": "@oqdo/node-red-oqdobos",
@@ -12186,6 +12243,21 @@
       "url": "https://flows.nodered.org/node/node-red-contrib-conta-azul-api"
     },
     {
+      "id": "@yadomi/node-red-contrib-philipshue-events",
+      "version": "1.6.0",
+      "description": "This package implements the Philips Hue API V2 EventSource as a node-red node.",
+      "updated_at": "2023-04-16T19:40:16.957Z",
+      "types": [
+        "philipshue-events-config",
+        "philipshue-events"
+      ],
+      "keywords": [
+        "philipe-hue",
+        "node-red"
+      ],
+      "url": "https://flows.nodered.org/node/@yadomi/node-red-contrib-philipshue-events"
+    },
+    {
       "id": "node-red-contrib-ale-rainbow",
       "version": "1.82.6",
       "description": "Alcatel-Lucent Enterprise Rainbow Nodes for Node Red",
@@ -20029,21 +20101,6 @@
         "node-red"
       ],
       "url": "https://flows.nodered.org/node/@clarify/node-red-contrib-clarify"
-    },
-    {
-      "id": "@yadomi/node-red-contrib-philipshue-events",
-      "version": "1.5.2",
-      "description": "This package implements the Philips Hue API V2 EventSource as a node-red node.",
-      "updated_at": "2022-10-18T21:31:14.826Z",
-      "types": [
-        "philipshue-events-config",
-        "philipshue-events"
-      ],
-      "keywords": [
-        "philipe-hue",
-        "node-red"
-      ],
-      "url": "https://flows.nodered.org/node/@yadomi/node-red-contrib-philipshue-events"
     },
     {
       "id": "node-red-contrib-dynamic-thermostat",
