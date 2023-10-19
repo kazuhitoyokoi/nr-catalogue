@@ -1,12 +1,148 @@
 {
   "name": "Catalogue for Windows",
-  "updated_at": "2023-10-18T20:30:18.586Z",
+  "updated_at": "2023-10-19T20:14:21.084Z",
   "modules": [
     {
+      "id": "node-red-contrib-alexa-master-function",
+      "version": "19.10.1237",
+      "description": "A node to boost your skill with alexa",
+      "updated_at": "2023-10-19T15:37:58.163Z",
+      "types": [
+        "alexa-master-function"
+      ],
+      "keywords": [
+        "node-red",
+        "mysql",
+        "database",
+        "r2"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-alexa-master-function"
+    },
+    {
+      "id": "cloud4machine-cloud-nodered",
+      "version": "0.2.55",
+      "description": "A collection of node red nodes to define custom cloud⁴machine flows",
+      "updated_at": "2023-10-19T13:05:40.571Z",
+      "types": [
+        "rule set",
+        "custom parameter",
+        "relevant error",
+        "mqtt-cloud-broker",
+        "mqtt cloud in",
+        "mqtt cloud out"
+      ],
+      "keywords": [
+        "node-red",
+        "cloud4machine",
+        "grob-net4industry"
+      ],
+      "url": "https://flows.nodered.org/node/cloud4machine-cloud-nodered"
+    },
+    {
+      "id": "@yousolution/node-red-contrib-you-injector-workdays",
+      "version": "0.0.2",
+      "description": "> node for schedulate a send message on only WorkDays, based on the standard injector of NodeRed",
+      "updated_at": "2023-10-19T12:24:18.704Z",
+      "types": [
+        "WorkDaysInjector"
+      ],
+      "keywords": [
+        "node-red",
+        "workdays",
+        "schedulate",
+        "inject",
+        "youSolution.Cloud"
+      ],
+      "url": "https://flows.nodered.org/node/@yousolution/node-red-contrib-you-injector-workdays"
+    },
+    {
+      "id": "@gregoriusrippenstein/node-red-contrib-flow2uml",
+      "version": "0.0.8",
+      "description": "Convert Node-RED to Mermaid UML flowchart diagram.",
+      "updated_at": "2023-10-19T10:49:48.823Z",
+      "types": [
+        "Flow2MermaidCfg"
+      ],
+      "keywords": [
+        "node-red",
+        "uml",
+        "mermaid"
+      ],
+      "url": "https://flows.nodered.org/node/@gregoriusrippenstein/node-red-contrib-flow2uml"
+    },
+    {
+      "id": "node-red-dashboard",
+      "version": "3.6.1",
+      "description": "A set of dashboard nodes for Node-RED",
+      "updated_at": "2023-10-19T10:18:46.468Z",
+      "types": [
+        "ui_base",
+        "ui_button",
+        "ui_dropdown",
+        "ui_switch",
+        "ui_slider",
+        "ui_numeric",
+        "ui_text_input",
+        "ui_date_picker",
+        "ui_colour_picker",
+        "ui_form",
+        "ui_text",
+        "ui_gauge",
+        "ui_chart",
+        "ui_audio",
+        "ui_toast",
+        "ui_ui_control",
+        "ui_template",
+        "ui_link",
+        "ui_tab",
+        "ui_group",
+        "ui_spacer"
+      ],
+      "keywords": [
+        "node-red"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-dashboard"
+    },
+    {
+      "id": "@gregoriusrippenstein/node-red-contrib-flowcompare",
+      "version": "0.0.5",
+      "description": "Compare editor flow with the flow deployed to the server.",
+      "updated_at": "2023-10-19T07:44:22.149Z",
+      "types": [
+        "FlowCompareCfg"
+      ],
+      "keywords": [
+        "node-red",
+        "comparison",
+        "flow-comparison"
+      ],
+      "url": "https://flows.nodered.org/node/@gregoriusrippenstein/node-red-contrib-flowcompare"
+    },
+    {
+      "id": "node-red-contrib-blockly",
+      "version": "2.2.0",
+      "description": "A Node Red node for visual programming a function using Blockly",
+      "updated_at": "2023-10-18T20:09:23.195Z",
+      "types": [
+        "Blockly",
+        "blockly-config"
+      ],
+      "keywords": [
+        "node-red",
+        "blockly",
+        "function",
+        "visual",
+        "programming",
+        "javascript",
+        "generate"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-blockly"
+    },
+    {
       "id": "node-red-contrib-dirigera",
-      "version": "0.6.0",
+      "version": "1.0.0",
       "description": "A Node-Red Node for controlling Ikea Dirigera hub.",
-      "updated_at": "2023-10-18T12:50:57.804Z",
+      "updated_at": "2023-10-18T19:23:35.008Z",
       "types": [
         "dirigera-config",
         "dirigera",
@@ -20,55 +156,35 @@
       "url": "https://flows.nodered.org/node/node-red-contrib-dirigera"
     },
     {
-      "id": "node-red-contrib-alexa-master-function",
-      "version": "18.10.945",
-      "description": "A Node-RED node that allows you to execute MySQL queries against a specified database table.",
-      "updated_at": "2023-10-18T12:46:05.736Z",
-      "types": [
-        "alexa-master-function"
-      ],
-      "keywords": [
-        "node-red",
-        "mysql",
-        "database",
-        "r2"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-alexa-master-function"
-    },
-    {
-      "id": "node-red-dictionary-node",
+      "id": "node-red-contrib-gpt-engineer-api",
       "version": "1.0.1",
-      "description": "node for node red with dictionary ui",
-      "updated_at": "2023-10-18T12:04:44.471Z",
+      "description": "adds Node to call  gpt-engineer through ssh connection and cli commands",
+      "updated_at": "2023-10-18T18:27:25.702Z",
       "types": [
-        "dictionary"
+        "gpt-engineer",
+        "gpt-engineer-config"
       ],
       "keywords": [
         "node-red",
-        "node-red-node",
-        "node-red-node-ui",
-        "node-red-node-ui-dictionary",
-        "dictionary",
-        "ui",
-        "list",
-        "dropdown"
+        "openai",
+        "chatgpt",
+        "gpt-engineer",
+        "cli"
       ],
-      "url": "https://flows.nodered.org/node/node-red-dictionary-node"
+      "url": "https://flows.nodered.org/node/node-red-contrib-gpt-engineer-api"
     },
     {
-      "id": "@gregoriusrippenstein/node-red-contrib-flowcompare",
-      "version": "0.0.4",
-      "description": "Compare editor flow with the flow deployed to the server.",
-      "updated_at": "2023-10-18T08:17:57.009Z",
+      "id": "smithtek-node-red-format",
+      "version": "1.0.2",
+      "description": "A custom node for Node-RED to format messages with timestamps.",
+      "updated_at": "2023-10-18T13:18:08.693Z",
       "types": [
-        "FlowCompareCfg"
+        "smithtek format"
       ],
       "keywords": [
-        "node-red",
-        "comparison",
-        "flow-comparison"
+        "node-red"
       ],
-      "url": "https://flows.nodered.org/node/@gregoriusrippenstein/node-red-contrib-flowcompare"
+      "url": "https://flows.nodered.org/node/smithtek-node-red-format"
     },
     {
       "id": "@gregoriusrippenstein/node-red-contrib-uglifyjs",
@@ -84,19 +200,6 @@
         "uglify-js"
       ],
       "url": "https://flows.nodered.org/node/@gregoriusrippenstein/node-red-contrib-uglifyjs"
-    },
-    {
-      "id": "smithtek-node-red-format",
-      "version": "1.0.1",
-      "description": "A custom node for Node-RED to format messages with timestamps.",
-      "updated_at": "2023-10-18T04:33:51.042Z",
-      "types": [
-        "smithtek-node-red-format"
-      ],
-      "keywords": [
-        "node-red"
-      ],
-      "url": "https://flows.nodered.org/node/smithtek-node-red-format"
     },
     {
       "id": "@vrilcode/node-red-wnsm-b2b",
@@ -132,26 +235,6 @@
         "node-red"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-google-smarthome"
-    },
-    {
-      "id": "node-red-contrib-blockly",
-      "version": "2.1.0",
-      "description": "A Node Red node for visual programming a function using Blockly",
-      "updated_at": "2023-10-17T18:12:25.390Z",
-      "types": [
-        "Blockly",
-        "blockly-config"
-      ],
-      "keywords": [
-        "node-red",
-        "blockly",
-        "function",
-        "visual",
-        "programming",
-        "javascript",
-        "generate"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-blockly"
     },
     {
       "id": "node-red-contrib-zwave-js",
@@ -390,21 +473,6 @@
         "tcp"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-melsoft"
-    },
-    {
-      "id": "@gregoriusrippenstein/node-red-contrib-flow2uml",
-      "version": "0.0.7",
-      "description": "Convert Node-RED to Mermaid UML flowchart diagram.",
-      "updated_at": "2023-10-16T15:25:46.891Z",
-      "types": [
-        "Flow2MermaidCfg"
-      ],
-      "keywords": [
-        "node-red",
-        "uml",
-        "mermaid"
-      ],
-      "url": "https://flows.nodered.org/node/@gregoriusrippenstein/node-red-contrib-flow2uml"
     },
     {
       "id": "node-red-contrib-snap4city-milestone",
@@ -5794,39 +5862,6 @@
       "url": "https://flows.nodered.org/node/node-red-node-multilang-sentiment"
     },
     {
-      "id": "node-red-dashboard",
-      "version": "3.6.0",
-      "description": "A set of dashboard nodes for Node-RED",
-      "updated_at": "2023-08-31T20:20:32.669Z",
-      "types": [
-        "ui_base",
-        "ui_button",
-        "ui_dropdown",
-        "ui_switch",
-        "ui_slider",
-        "ui_numeric",
-        "ui_text_input",
-        "ui_date_picker",
-        "ui_colour_picker",
-        "ui_form",
-        "ui_text",
-        "ui_gauge",
-        "ui_chart",
-        "ui_audio",
-        "ui_toast",
-        "ui_ui_control",
-        "ui_template",
-        "ui_link",
-        "ui_tab",
-        "ui_group",
-        "ui_spacer"
-      ],
-      "keywords": [
-        "node-red"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-dashboard"
-    },
-    {
       "id": "node-red-contrib-uhppoted",
       "version": "1.1.5",
       "description": "A set of nodes for the UHPPOTE Wiegand Access Controller",
@@ -7784,26 +7819,6 @@
         "tools"
       ],
       "url": "https://flows.nodered.org/node/smithtek-node-red-tools"
-    },
-    {
-      "id": "cloud4machine-cloud-nodered",
-      "version": "0.2.54",
-      "description": "A collection of node red nodes to define custom cloud⁴machine flows",
-      "updated_at": "2023-07-17T13:10:28.442Z",
-      "types": [
-        "rule set",
-        "custom parameter",
-        "relevant error",
-        "mqtt-cloud-broker",
-        "mqtt cloud in",
-        "mqtt cloud out"
-      ],
-      "keywords": [
-        "node-red",
-        "cloud4machine",
-        "grob-net4industry"
-      ],
-      "url": "https://flows.nodered.org/node/cloud4machine-cloud-nodered"
     },
     {
       "id": "node-red-contrib-spike-counter",
