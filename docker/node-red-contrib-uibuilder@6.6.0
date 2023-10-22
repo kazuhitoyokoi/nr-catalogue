@@ -1,0 +1,44 @@
+#0 building with "default" instance using docker driver
+
+#1 [internal] load .dockerignore
+#1 transferring context: 2B done
+#1 DONE 0.0s
+
+#2 [internal] load build definition from Dockerfile
+#2 transferring dockerfile: 119B done
+#2 DONE 0.0s
+
+#3 [internal] load metadata for docker.io/nodered/node-red:latest
+#3 DONE 0.2s
+
+#4 [1/2] FROM docker.io/nodered/node-red@sha256:5e99ed734f7d2f9bfcb1e20dfbf4c5b9aa60f35a9df6e257e817130f0f9be9dc
+#4 CACHED
+
+#5 [2/2] RUN npm install npm install node-red-contrib-uibuilder@6.6.0
+#5 4.702 npm WARN EBADENGINE Unsupported engine {
+#5 4.702 npm WARN EBADENGINE   package: 'npm@10.2.1',
+#5 4.702 npm WARN EBADENGINE   required: { node: '^18.17.0 || >=20.5.0' },
+#5 4.703 npm WARN EBADENGINE   current: { node: 'v16.20.2', npm: '8.19.4' }
+#5 4.703 npm WARN EBADENGINE }
+#5 7.887 
+#5 7.887 added 117 packages, and audited 679 packages in 7s
+#5 7.887 
+#5 7.887 76 packages are looking for funding
+#5 7.887   run `npm fund` for details
+#5 7.888 
+#5 7.888 found 0 vulnerabilities
+#5 7.889 npm notice 
+#5 7.889 npm notice New major version of npm available! 8.19.4 -> 10.2.1
+#5 7.889 npm notice Changelog: <https://github.com/npm/cli/releases/tag/v10.2.1>
+#5 7.889 npm notice Run `npm install -g npm@10.2.1` to update!
+#5 7.889 npm notice 
+#5 DONE 8.1s
+
+#6 exporting to image
+#6 exporting layers
+#6 exporting layers 1.4s done
+#6 writing image sha256:440909ec858bee01a347f1375e9b15a580372a42b5c3eea251d1cd27fdb45d63 done
+#6 naming to docker.io/library/tmp done
+#6 DONE 1.4s
+
+----
