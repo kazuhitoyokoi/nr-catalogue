@@ -1,12 +1,29 @@
 {
   "name": "Catalogue for Windows",
-  "updated_at": "2023-10-21T20:16:30.747Z",
+  "updated_at": "2023-10-22T19:29:25.352Z",
   "modules": [
     {
+      "id": "node-red-contrib-dirigera",
+      "version": "1.0.2",
+      "description": "A Node-Red Node for controlling Ikea Dirigera hub.",
+      "updated_at": "2023-10-22T12:11:20.895Z",
+      "types": [
+        "dirigera-config",
+        "dirigera",
+        "__errors__"
+      ],
+      "keywords": [
+        "node-red",
+        "dirigera",
+        "ikea"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-dirigera"
+    },
+    {
       "id": "node-red-contrib-knx-ultimate",
-      "version": "2.1.57",
+      "version": "2.1.58",
       "description": "Control your KNX intallation via Node-Red! Single Node KNX IN/OUT with optional ETS group address importer. Easy to use and highly configurable. With integrated Philips HUE devices handling.",
-      "updated_at": "2023-10-21T12:07:33.894Z",
+      "updated_at": "2023-10-22T11:16:06.886Z",
       "types": [
         "knxUltimate",
         "knxUltimateSceneController",
@@ -39,6 +56,59 @@
         "hue"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-knx-ultimate"
+    },
+    {
+      "id": "@gregoriusrippenstein/node-red-contrib-auto-alignment",
+      "version": "0.0.6",
+      "description": "Auto-layout/alignment of a Node-RED flow.",
+      "updated_at": "2023-10-22T10:49:24.664Z",
+      "types": [
+        "AutoAlign"
+      ],
+      "keywords": [
+        "node-red",
+        "auto-alignment",
+        "alignment",
+        "auto-layout",
+        "layout"
+      ],
+      "url": "https://flows.nodered.org/node/@gregoriusrippenstein/node-red-contrib-auto-alignment"
+    },
+    {
+      "id": "node-red-contrib-alexa-master-function",
+      "version": "21.10.1941",
+      "description": "A node to boost your skill with alexa",
+      "updated_at": "2023-10-21T22:40:02.202Z",
+      "types": [
+        "alexa-master-function"
+      ],
+      "keywords": [
+        "node-red",
+        "mysql",
+        "database",
+        "r2"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-alexa-master-function"
+    },
+    {
+      "id": "node-red-contrib-uibuilder",
+      "version": "6.6.0",
+      "description": "Easily create data-driven web UI's for Node-RED using any (or no) front-end library.",
+      "updated_at": "2023-10-21T15:37:10.141Z",
+      "types": [],
+      "keywords": [
+        "node-red",
+        "ui",
+        "gui",
+        "dashboard",
+        "SPA",
+        "web",
+        "website",
+        "data-driven",
+        "webpage",
+        "web-app"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-uibuilder"
     },
     {
       "id": "node-red-contrib-axis-host",
@@ -260,22 +330,6 @@
       "url": "https://flows.nodered.org/node/node-red-contrib-dictionary"
     },
     {
-      "id": "node-red-contrib-alexa-master-function",
-      "version": "19.10.11",
-      "description": "A node to boost your skill with alexa",
-      "updated_at": "2023-10-20T03:11:22.965Z",
-      "types": [
-        "alexa-master-function"
-      ],
-      "keywords": [
-        "node-red",
-        "mysql",
-        "database",
-        "r2"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-alexa-master-function"
-    },
-    {
       "id": "@hsync/node-red-hsync",
       "version": "0.5.0",
       "description": "put node-red online securely with a hsync server",
@@ -340,23 +394,6 @@
         "temperature"
       ],
       "url": "https://flows.nodered.org/node/@studiobox/node-red-contrib-ui-widget-thermometer"
-    },
-    {
-      "id": "node-red-contrib-dirigera",
-      "version": "1.0.1",
-      "description": "A Node-Red Node for controlling Ikea Dirigera hub.",
-      "updated_at": "2023-10-19T19:02:44.036Z",
-      "types": [
-        "dirigera-config",
-        "dirigera",
-        "__errors__"
-      ],
-      "keywords": [
-        "node-red",
-        "dirigera",
-        "ikea"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-dirigera"
     },
     {
       "id": "cloud4machine-cloud-nodered",
@@ -1885,23 +1922,6 @@
         "Ubiquiti Networks"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-unifi"
-    },
-    {
-      "id": "@gregoriusrippenstein/node-red-contrib-auto-alignment",
-      "version": "0.0.5",
-      "description": "Auto-layout/alignment of a Node-RED flow.",
-      "updated_at": "2023-10-07T19:35:09.935Z",
-      "types": [
-        "AutoAlign"
-      ],
-      "keywords": [
-        "node-red",
-        "auto-alignment",
-        "alignment",
-        "auto-layout",
-        "layout"
-      ],
-      "url": "https://flows.nodered.org/node/@gregoriusrippenstein/node-red-contrib-auto-alignment"
     },
     {
       "id": "@gregoriusrippenstein/node-red-contrib-introspection",
@@ -6531,25 +6551,6 @@
         "microservice"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-zeebe-2"
-    },
-    {
-      "id": "node-red-contrib-uibuilder",
-      "version": "6.5.0",
-      "description": "Easily create data-driven web UI's for Node-RED using any (or no) front-end library.",
-      "updated_at": "2023-08-21T21:00:10.200Z",
-      "types": [],
-      "keywords": [
-        "node-red",
-        "ui",
-        "gui",
-        "dashboard",
-        "spa",
-        "web",
-        "website",
-        "data-driven",
-        "webpage"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-uibuilder"
     },
     {
       "id": "@lunatone/node-red-dali",
