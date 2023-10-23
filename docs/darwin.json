@@ -1,12 +1,12 @@
 {
   "name": "Catalogue for macOS",
-  "updated_at": "2023-10-22T21:16:50.565Z",
+  "updated_at": "2023-10-23T21:28:50.641Z",
   "modules": [
     {
       "id": "node-red-contrib-dirigera",
-      "version": "1.0.2",
+      "version": "1.0.4",
       "description": "A Node-Red Node for controlling Ikea Dirigera hub.",
-      "updated_at": "2023-10-22T12:11:20.895Z",
+      "updated_at": "2023-10-23T19:36:49.797Z",
       "types": [
         "dirigera-config",
         "dirigera",
@@ -20,10 +20,60 @@
       "url": "https://flows.nodered.org/node/node-red-contrib-dirigera"
     },
     {
+      "id": "@joe-ab1do/mcp-pcf-aio",
+      "version": "3.2.0",
+      "description": "Node-Red nodes for i2c port expanders MCP23008, MCP23017, PCF8574(A) & PCF8575",
+      "updated_at": "2023-10-23T18:52:33.366Z",
+      "types": [
+        "mcp pcf chip",
+        "mcp pcf in",
+        "mcp pcf out"
+      ],
+      "keywords": [
+        "node-red",
+        "mcp23008",
+        "mcp23017",
+        "pcf8574",
+        "pcf8574A",
+        "pcf8575"
+      ],
+      "url": "https://flows.nodered.org/node/@joe-ab1do/mcp-pcf-aio"
+    },
+    {
+      "id": "@psotoulloa/node-red-neo4jdriver",
+      "version": "1.0.5",
+      "description": "This node use the neo4j driver",
+      "updated_at": "2023-10-23T18:11:35.821Z",
+      "types": [
+        "neo4j-driver"
+      ],
+      "keywords": [
+        "node-red",
+        "node",
+        "neo4j"
+      ],
+      "url": "https://flows.nodered.org/node/@psotoulloa/node-red-neo4jdriver"
+    },
+    {
+      "id": "@gregoriusrippenstein/node-red-contrib-flowcompare",
+      "version": "0.0.6",
+      "description": "Compare editor flow with the flow deployed to the server.",
+      "updated_at": "2023-10-23T17:54:44.463Z",
+      "types": [
+        "FlowCompareCfg"
+      ],
+      "keywords": [
+        "node-red",
+        "comparison",
+        "flow-comparison"
+      ],
+      "url": "https://flows.nodered.org/node/@gregoriusrippenstein/node-red-contrib-flowcompare"
+    },
+    {
       "id": "node-red-contrib-knx-ultimate",
-      "version": "2.1.58",
+      "version": "2.1.61",
       "description": "Control your KNX intallation via Node-Red! Single Node KNX IN/OUT with optional ETS group address importer. Easy to use and highly configurable. With integrated Philips HUE devices handling.",
-      "updated_at": "2023-10-22T11:16:06.886Z",
+      "updated_at": "2023-10-23T17:40:57.116Z",
       "types": [
         "knxUltimate",
         "knxUltimateSceneController",
@@ -58,10 +108,114 @@
       "url": "https://flows.nodered.org/node/node-red-contrib-knx-ultimate"
     },
     {
+      "id": "@softwaredevelopment/node-red-contrib-bodhi-connector",
+      "version": "0.1.2",
+      "description": "Bodhi connector configuration for connecting nodes to bodhi through bodhi bridge",
+      "updated_at": "2023-10-23T16:34:17.107Z",
+      "types": [
+        "Bodhi Connector"
+      ],
+      "keywords": [
+        "node-red",
+        "connector",
+        "bodhi"
+      ],
+      "url": "https://flows.nodered.org/node/@softwaredevelopment/node-red-contrib-bodhi-connector"
+    },
+    {
+      "id": "node-red-contrib-json-logic",
+      "version": "1.0.1",
+      "description": "Node-RED node utlizing json-logic rules & operations.",
+      "updated_at": "2023-10-23T15:29:53.370Z",
+      "types": [
+        "logic_engine",
+        "jsonlogic"
+      ],
+      "keywords": [
+        "node-red",
+        "node-inq",
+        "jsonlogic",
+        "rules",
+        "json"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-json-logic"
+    },
+    {
+      "id": "node-red-contrib-johnny5-te",
+      "version": "1.0.0",
+      "description": "A set of node-red nodes for using Johnny-Five and IO plugins (fork)",
+      "updated_at": "2023-10-23T14:07:25.442Z",
+      "types": [],
+      "keywords": [
+        "gpio",
+        "node-red-contrib-gpio",
+        "io",
+        "firmata",
+        "node-red",
+        "johnny-five",
+        "johnny5",
+        "mqtt",
+        "raspberry pi",
+        "arduino",
+        "galileo",
+        "edison",
+        "beaglebone",
+        "bluetooth",
+        "ble",
+        "ble-io",
+        "tachyon-energy"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-johnny5-te"
+    },
+    {
+      "id": "node-red-contrib-nspanel-lui",
+      "version": "0.0.1-alpha.28",
+      "description": "Node-RED based backend for NSPanel Lovelace UI custom firmware.",
+      "updated_at": "2023-10-23T13:27:50.379Z",
+      "types": [],
+      "keywords": [
+        "node-red",
+        "lovelace ui",
+        "nspanel"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-nspanel-lui"
+    },
+    {
+      "id": "node-red-contrib-alexa-master-function",
+      "version": "23.10.911",
+      "description": "A node to boost your skill with alexa",
+      "updated_at": "2023-10-23T12:11:57.994Z",
+      "types": [
+        "alexa-master-function"
+      ],
+      "keywords": [
+        "node-red",
+        "mysql",
+        "database",
+        "r2"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-alexa-master-function"
+    },
+    {
+      "id": "@gregoriusrippenstein/node-red-contrib-flow2uml",
+      "version": "0.1.0",
+      "description": "Convert Node-RED to Mermaid UML flowchart diagram.",
+      "updated_at": "2023-10-23T08:13:25.997Z",
+      "types": [
+        "Flow2MermaidCfg"
+      ],
+      "keywords": [
+        "node-red",
+        "uml",
+        "mermaid"
+      ],
+      "url": "https://flows.nodered.org/node/@gregoriusrippenstein/node-red-contrib-flow2uml"
+    },
+    {
       "id": "@gregoriusrippenstein/node-red-contrib-auto-alignment",
-      "version": "0.0.6",
+      "version": "0.0.7",
       "description": "Auto-layout/alignment of a Node-RED flow.",
-      "updated_at": "2023-10-22T10:49:24.664Z",
+      "updated_at": "2023-10-23T06:24:40.970Z",
       "types": [
         "AutoAlign"
       ],
@@ -73,6 +227,146 @@
         "layout"
       ],
       "url": "https://flows.nodered.org/node/@gregoriusrippenstein/node-red-contrib-auto-alignment"
+    },
+    {
+      "id": "@inductiv/node-red-couchbase-api",
+      "version": "0.1.1",
+      "description": "Node-RED nodes for the Couchbae REST API v7.2.0",
+      "updated_at": "2023-10-22T23:31:43.733Z",
+      "types": [
+        "admin-rest-api",
+        "admin-rest-api-service",
+        "analytics-administration-rest-apis",
+        "analytics-administration-rest-apis-service",
+        "analytics-configuration-rest-api",
+        "analytics-configuration-rest-api-service",
+        "analytics-library-rest-api",
+        "analytics-library-rest-api-service",
+        "analytics-links-rest-api",
+        "analytics-links-rest-api-service",
+        "analytics-settings-rest-api",
+        "analytics-settings-rest-api-service",
+        "functions-rest-api",
+        "functions-rest-api-service",
+        "index-statistics-rest-api",
+        "index-statistics-rest-api-service",
+        "query-service-rest-api",
+        "query-service-rest-api-service",
+        "query-settings-rest-api",
+        "query-settings-rest-api-service"
+      ],
+      "keywords": [
+        "node-red",
+        "nodered",
+        "couchbase",
+        "api",
+        "low-code",
+        "vector-store",
+        "multi-model",
+        "no-sql"
+      ],
+      "url": "https://flows.nodered.org/node/@inductiv/node-red-couchbase-api"
+    },
+    {
+      "id": "ankersolixe1600",
+      "version": "1.0.1",
+      "description": "Library to access an ANKER Solix Solarbank E1600",
+      "updated_at": "2023-10-22T22:28:21.708Z",
+      "types": [
+        "E1600"
+      ],
+      "keywords": [
+        "anker",
+        "solix",
+        "e1600",
+        "corrently",
+        "stromdao",
+        "energy",
+        "node-red"
+      ],
+      "url": "https://flows.nodered.org/node/ankersolixe1600"
+    },
+    {
+      "id": "node-red-contrib-controlbomba",
+      "version": "1.0.4",
+      "description": "Water pump control with tank level secure function",
+      "updated_at": "2023-10-22T20:59:52.386Z",
+      "types": [
+        "controlBomba"
+      ],
+      "keywords": [
+        "node-red"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-controlbomba"
+    },
+    {
+      "id": "@ptarmiganlabs/ctrl-q-nr",
+      "version": "0.2.8",
+      "description": "Node-RED components for cloud and client-managed Qlik Sense",
+      "updated_at": "2023-10-22T20:43:32.723Z",
+      "types": [
+        "qscloud-tenant",
+        "qseow-sense-server",
+        "qseow-app",
+        "qseow-license",
+        "qseow-service-status",
+        "qseow-tag",
+        "qseow-task",
+        "qscloud-app",
+        "qscloud-license",
+        "qscloud-reload",
+        "qscloud-reload-status",
+        "qscloud-user"
+      ],
+      "keywords": [
+        "ctrl-q",
+        "butler",
+        "qlik",
+        "qliksense",
+        "qlikcloud",
+        "senseops",
+        "node-red",
+        "low-code"
+      ],
+      "url": "https://flows.nodered.org/node/@ptarmiganlabs/ctrl-q-nr"
+    },
+    {
+      "id": "@gogovega/node-red-contrib-firebase-realtime-database",
+      "version": "0.5.3",
+      "description": "Node-RED nodes to communicate with Google Firebase Realtime Databases",
+      "updated_at": "2023-10-22T20:29:48.756Z",
+      "types": [
+        "database-config",
+        "firebase-in",
+        "firebase-get",
+        "firebase-out",
+        "on-disconnect"
+      ],
+      "keywords": [
+        "admin",
+        "database",
+        "firebase",
+        "node-red",
+        "realtime"
+      ],
+      "url": "https://flows.nodered.org/node/@gogovega/node-red-contrib-firebase-realtime-database"
+    },
+    {
+      "id": "@bartbutenaers/node-red-autolayout-sidebar",
+      "version": "0.0.1",
+      "description": "A sidebar plugin for Node-RED to offer auto-layouting",
+      "updated_at": "2023-10-22T20:26:56.996Z",
+      "types": [
+        "auto_layout_config"
+      ],
+      "keywords": [
+        "node-red",
+        "auto",
+        "layout",
+        "graph",
+        "sidebar"
+      ],
+      "url": "https://flows.nodered.org/node/@bartbutenaers/node-red-autolayout-sidebar"
     },
     {
       "id": "node-red-contrib-vib-smart-boiler",
@@ -128,22 +422,6 @@
         "climate"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-vib-smart-valve"
-    },
-    {
-      "id": "node-red-contrib-alexa-master-function",
-      "version": "21.10.1941",
-      "description": "A node to boost your skill with alexa",
-      "updated_at": "2023-10-21T22:40:02.202Z",
-      "types": [
-        "alexa-master-function"
-      ],
-      "keywords": [
-        "node-red",
-        "mysql",
-        "database",
-        "r2"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-alexa-master-function"
     },
     {
       "id": "node-red-contrib-uibuilder",
@@ -221,21 +499,6 @@
       "url": "https://flows.nodered.org/node/node-red-contrib-portscan"
     },
     {
-      "id": "@psotoulloa/node-red-neo4jdriver",
-      "version": "0.0.1",
-      "description": "This node use the neo4j driver",
-      "updated_at": "2023-10-20T17:57:54.082Z",
-      "types": [
-        "neo4j-driver"
-      ],
-      "keywords": [
-        "node-red",
-        "node",
-        "neo4j"
-      ],
-      "url": "https://flows.nodered.org/node/@psotoulloa/node-red-neo4jdriver"
-    },
-    {
       "id": "node-red-contrib-obix-niagara-connector",
       "version": "3.1.1",
       "description": "Connector from Niagara to Node-Red using Obix",
@@ -286,21 +549,6 @@
         "node-red"
       ],
       "url": "https://flows.nodered.org/node/@gastmanager/node-red-client"
-    },
-    {
-      "id": "@gregoriusrippenstein/node-red-contrib-flow2uml",
-      "version": "0.0.9",
-      "description": "Convert Node-RED to Mermaid UML flowchart diagram.",
-      "updated_at": "2023-10-20T12:58:15.264Z",
-      "types": [
-        "Flow2MermaidCfg"
-      ],
-      "keywords": [
-        "node-red",
-        "uml",
-        "mermaid"
-      ],
-      "url": "https://flows.nodered.org/node/@gregoriusrippenstein/node-red-contrib-flow2uml"
     },
     {
       "id": "node-red-contrib-ejbca",
@@ -519,21 +767,6 @@
         "node-red"
       ],
       "url": "https://flows.nodered.org/node/node-red-dashboard"
-    },
-    {
-      "id": "@gregoriusrippenstein/node-red-contrib-flowcompare",
-      "version": "0.0.5",
-      "description": "Compare editor flow with the flow deployed to the server.",
-      "updated_at": "2023-10-19T07:44:22.149Z",
-      "types": [
-        "FlowCompareCfg"
-      ],
-      "keywords": [
-        "node-red",
-        "comparison",
-        "flow-comparison"
-      ],
-      "url": "https://flows.nodered.org/node/@gregoriusrippenstein/node-red-contrib-flowcompare"
     },
     {
       "id": "node-red-contrib-blockly",
@@ -1065,19 +1298,6 @@
         "node-red"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-payload-cron"
-    },
-    {
-      "id": "node-red-contrib-nspanel-lui",
-      "version": "0.0.1-alpha.27",
-      "description": "node-red-contrib-nspanel-lui",
-      "updated_at": "2023-10-14T11:55:16.314Z",
-      "types": [],
-      "keywords": [
-        "node-red",
-        "lovelace ui",
-        "nspanel"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-nspanel-lui"
     },
     {
       "id": "node-red-contrib-mock-cli",
@@ -2296,23 +2516,6 @@
       "url": "https://flows.nodered.org/node/node-red-contrib-mssql-plus"
     },
     {
-      "id": "node-red-contrib-json-logic",
-      "version": "0.0.10",
-      "description": "Node-RED node for configuring json-logic.",
-      "updated_at": "2023-10-05T21:19:19.974Z",
-      "types": [
-        "jsonlogic"
-      ],
-      "keywords": [
-        "node-red",
-        "node-inq",
-        "jsonlogic",
-        "rules",
-        "json"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-json-logic"
-    },
-    {
       "id": "node-red-contrib-whatsapp-cmb",
       "version": "1.0.3",
       "description": "Node-RED node to send WhatsApp Messages with WhatsApp CallmeBot",
@@ -2492,26 +2695,6 @@
         "node-red"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-polywall-api"
-    },
-    {
-      "id": "@joe-ab1do/mcp-pcf-aio",
-      "version": "3.1.2",
-      "description": "Node-Red nodes for i2c port expanders MCP23008, MCP23017, PCF8574(A) & PCF8575",
-      "updated_at": "2023-10-03T16:06:26.490Z",
-      "types": [
-        "mcp pcf chip",
-        "mcp pcf in",
-        "mcp pcf out"
-      ],
-      "keywords": [
-        "node-red",
-        "mcp23008",
-        "mcp23017",
-        "pcf8574",
-        "pcf8574A",
-        "pcf8575"
-      ],
-      "url": "https://flows.nodered.org/node/@joe-ab1do/mcp-pcf-aio"
     },
     {
       "id": "node-red-contrib-virtual-smart-home",
@@ -3037,37 +3220,6 @@
         "smithtek"
       ],
       "url": "https://flows.nodered.org/node/smithtek-node-red-lora"
-    },
-    {
-      "id": "@ptarmiganlabs/ctrl-q-nr",
-      "version": "0.2.7",
-      "description": "Node-RED components for cloud and client-managed Qlik Sense",
-      "updated_at": "2023-09-28T22:29:48.089Z",
-      "types": [
-        "qscloud-tenant",
-        "qseow-sense-server",
-        "qseow-app",
-        "qseow-license",
-        "qseow-service-status",
-        "qseow-tag",
-        "qseow-task",
-        "qscloud-app",
-        "qscloud-license",
-        "qscloud-reload",
-        "qscloud-reload-status",
-        "qscloud-user"
-      ],
-      "keywords": [
-        "ctrl-q",
-        "butler",
-        "qlik",
-        "qliksense",
-        "qlikcloud",
-        "senseops",
-        "node-red",
-        "low-code"
-      ],
-      "url": "https://flows.nodered.org/node/@ptarmiganlabs/ctrl-q-nr"
     },
     {
       "id": "node-red-contrib-ewelink-cube",
@@ -4439,21 +4591,6 @@
       "url": "https://flows.nodered.org/node/node-red-pyz-ble"
     },
     {
-      "id": "@softwaredevelopment/node-red-contrib-bodhi-connector",
-      "version": "0.1.1",
-      "description": "Bodhi connector configuration for connecting nodes to bodhi through bodhi bridge",
-      "updated_at": "2023-09-20T19:42:03.190Z",
-      "types": [
-        "Bodhi Connector"
-      ],
-      "keywords": [
-        "node-red",
-        "connector",
-        "bodhi"
-      ],
-      "url": "https://flows.nodered.org/node/@softwaredevelopment/node-red-contrib-bodhi-connector"
-    },
-    {
       "id": "@programie/node-red-aircon-rac-wf",
       "version": "1.1.1",
       "description": "Node-RED nodes for interacting with Mitsubishi Aircon RAC-WF WiFi modules",
@@ -5304,27 +5441,6 @@
         "aligenie"
       ],
       "url": "https://flows.nodered.org/node/node-red-aligeni-syh"
-    },
-    {
-      "id": "@gogovega/node-red-contrib-firebase-realtime-database",
-      "version": "0.5.2",
-      "description": "Node-RED nodes to communicate with Google Firebase Realtime Databases",
-      "updated_at": "2023-09-09T12:57:53.538Z",
-      "types": [
-        "database-config",
-        "firebase-in",
-        "firebase-get",
-        "firebase-out",
-        "on-disconnect"
-      ],
-      "keywords": [
-        "admin",
-        "database",
-        "firebase",
-        "node-red",
-        "realtime"
-      ],
-      "url": "https://flows.nodered.org/node/@gogovega/node-red-contrib-firebase-realtime-database"
     },
     {
       "id": "node-red-contrib-amap",
@@ -25953,6 +26069,26 @@
       "url": "https://flows.nodered.org/node/node-red-contrib-simple-queue"
     },
     {
+      "id": "node-red-contrib-satel-integra-integration",
+      "version": "1.3.0",
+      "description": "Node-red nodes facilitating integration with Satel Integra alarm/home automation system",
+      "updated_at": "2022-05-11T03:54:47.807Z",
+      "types": [
+        "satel-integra-connection",
+        "satel-integra-decoder",
+        "satel-integra-encoder",
+        "satel-integra-security_prefix",
+        "satel-integra-user"
+      ],
+      "keywords": [
+        "node-red",
+        "satel",
+        "integra",
+        "protocol"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-satel-integra-integration"
+    },
+    {
       "id": "node-red-contrib-public-ip-address",
       "version": "0.0.3",
       "description": "Node-RED Node to get the public IP address",
@@ -42173,26 +42309,6 @@
         "persist"
       ],
       "url": "https://flows.nodered.org/node/nodered-contrib-system-utils"
-    },
-    {
-      "id": "node-red-contrib-satel-integra-integration",
-      "version": "1.2.0",
-      "description": "Node-red nodes facilitating integration with Satel Integra alarm/home automation system",
-      "updated_at": "2021-02-13T19:33:38.382Z",
-      "types": [
-        "satel-integra-connection",
-        "satel-integra-decoder",
-        "satel-integra-encoder",
-        "satel-integra-security_prefix",
-        "satel-integra-user"
-      ],
-      "keywords": [
-        "node-red",
-        "satel",
-        "integra",
-        "protocol"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-satel-integra-integration"
     },
     {
       "id": "node-red-contrib-domotz",
