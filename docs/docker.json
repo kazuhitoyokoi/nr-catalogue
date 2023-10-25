@@ -1,7 +1,242 @@
 {
   "name": "Catalogue for Docker",
-  "updated_at": "2023-10-24T16:05:55.000Z",
+  "updated_at": "2023-10-25T16:23:49.011Z",
   "modules": [
+    {
+      "id": "node-red-contrib-pylips-philips-tv-control",
+      "version": "1.1.3",
+      "description": "This is only a subflow which then calls the python script in pylips. So the rest of the readme is directly copied from there.",
+      "updated_at": "2023-10-25T14:23:13.219Z",
+      "types": [],
+      "keywords": [
+        "Philips",
+        "tv",
+        "pylips",
+        "remote",
+        "node-red"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-pylips-philips-tv-control"
+    },
+    {
+      "id": "@appmodule/node-red-contrib-siot",
+      "version": "3.0.0-rc14",
+      "description": "Node-RED interactions with SIOT",
+      "updated_at": "2023-10-25T12:47:06.119Z",
+      "types": [
+        "de-commands",
+        "cmd-ack",
+        "de-subscriber",
+        "de-publisher",
+        "siot-config",
+        "class-config"
+      ],
+      "keywords": [
+        "node-red"
+      ],
+      "url": "https://flows.nodered.org/node/@appmodule/node-red-contrib-siot"
+    },
+    {
+      "id": "node-red-contrib-load-balance-knapsack",
+      "version": "1.0.0",
+      "description": "A Node-RED node that load balances electric consumption based on the knapsack algorithm.",
+      "updated_at": "2023-10-25T10:15:53.536Z",
+      "types": [
+        "load-balance-knapsack"
+      ],
+      "keywords": [
+        "node-red",
+        "knapsack",
+        "load-balance",
+        "electric"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-load-balance-knapsack"
+    },
+    {
+      "id": "@starke-dms/node-red",
+      "version": "0.0.9",
+      "description": "node-red for starke-dms rest-api",
+      "updated_at": "2023-10-25T10:13:55.988Z",
+      "types": [
+        "starke-dms-login",
+        "starke-dms-logout",
+        "starke-dms-write-log",
+        "starke-dms-get-metadata",
+        "starke-dms-set-metadata",
+        "starke-dms-set-client",
+        "starke-dms-set-doctype",
+        "starke-dms-set-indexes",
+        "starke-dms-set-protection",
+        "starke-dms-set-year",
+        "starke-dms-search",
+        "starke-dms-download-document",
+        "starke-dms-archive-document",
+        "starke-dms-generic"
+      ],
+      "keywords": [
+        "starke-dms",
+        "node-red"
+      ],
+      "url": "https://flows.nodered.org/node/@starke-dms/node-red"
+    },
+    {
+      "id": "node-red-contrib-pkcs11",
+      "version": "1.0.9",
+      "description": "Node-RED Nodes for a PKCS11 interface with an HSM",
+      "updated_at": "2023-10-25T09:23:40.565Z",
+      "types": [
+        "p11-generate-key-pair",
+        "pkcs11-config",
+        "p11-info",
+        "p11-create-csr",
+        "p11-sign",
+        "p11-verify",
+        "p11-digest",
+        "list-objects",
+        "p11-store-cert"
+      ],
+      "keywords": [
+        "node-red"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-pkcs11"
+    },
+    {
+      "id": "node-red-contrib-knx-ultimate",
+      "version": "2.1.63",
+      "description": "Control your KNX intallation via Node-Red! Single Node KNX IN/OUT with optional ETS group address importer. Easy to use and highly configurable. With integrated Philips HUE devices handling.",
+      "updated_at": "2023-10-25T08:38:25.284Z",
+      "types": [
+        "knxUltimate",
+        "knxUltimateSceneController",
+        "knxUltimateWatchDog",
+        "knxUltimateLogger",
+        "knxUltimate-config",
+        "knxUltimateGlobalContext",
+        "knxUltimateAlerter",
+        "knxUltimateLoadControl",
+        "knxUltimateViewer",
+        "hue-config",
+        "knxUltimateHueLight",
+        "knxUltimateHueButton",
+        "knxUltimateHueMotion",
+        "knxUltimateHueTapDial",
+        "knxUltimateHueLightSensor",
+        "knxUltimateHueTemperatureSensor",
+        "knxUltimateHueScene",
+        "knxUltimateHueBattery"
+      ],
+      "keywords": [
+        "node-red",
+        "KNX",
+        "ETS",
+        "eib",
+        "eibd",
+        "knxd",
+        "konnex",
+        "IOT",
+        "hue"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-knx-ultimate"
+    },
+    {
+      "id": "node-red-contrib-alexa-master-function",
+      "version": "24.10.2108",
+      "description": "Beta version",
+      "updated_at": "2023-10-25T00:08:13.856Z",
+      "types": [
+        "alexa-master-function"
+      ],
+      "keywords": [
+        "node-red",
+        "mysql",
+        "database",
+        "r2"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-alexa-master-function"
+    },
+    {
+      "id": "@bartbutenaers/node-red-autolayout-sidebar",
+      "version": "0.0.2",
+      "description": "A sidebar plugin for Node-RED to offer auto-layouting",
+      "updated_at": "2023-10-24T19:01:28.592Z",
+      "types": [
+        "auto_layout_config"
+      ],
+      "keywords": [
+        "node-red",
+        "auto",
+        "layout",
+        "graph",
+        "sidebar"
+      ],
+      "url": "https://flows.nodered.org/node/@bartbutenaers/node-red-autolayout-sidebar"
+    },
+    {
+      "id": "@flowforge/node-red-dashboard",
+      "version": "0.7.0",
+      "description": "A collection of Node-RED nodes that provide functionality to build your own UI applications (inc. forms, buttons, charts) within Node-RED.",
+      "updated_at": "2023-10-24T16:32:09.875Z",
+      "types": [
+        "ui-base",
+        "ui-page",
+        "ui-group",
+        "ui-theme",
+        "ui-form",
+        "__errors__",
+        "ui-text-input",
+        "__errors__",
+        "ui-button",
+        "__errors__",
+        "ui-dropdown",
+        "__errors__",
+        "ui-radio-group",
+        "__errors__",
+        "ui-slider",
+        "__errors__",
+        "ui-switch",
+        "__errors__",
+        "ui-text",
+        "__errors__",
+        "ui-table",
+        "__errors__",
+        "ui-chart",
+        "__errors__",
+        "ui-notification",
+        "__errors__",
+        "ui-markdown",
+        "__errors__",
+        "ui-template",
+        "__errors__"
+      ],
+      "keywords": [
+        "node-red"
+      ],
+      "url": "https://flows.nodered.org/node/@flowforge/node-red-dashboard"
+    },
+    {
+      "id": "node-red-contrib-valvulafertilizante",
+      "version": "1.0.1",
+      "description": "Nodo personalizado para Node-RED que permite controlar una válvula de inyección de fertilizante. El nodo evalúa una serie de condiciones basadas en el flujo de fluidos y parámetros configurables para determinar si se debe activar o desactivar la inyección",
+      "updated_at": "2023-10-24T14:20:26.843Z",
+      "types": [
+        "valvula-fertilizante"
+      ],
+      "keywords": [
+        "node-red"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-valvulafertilizante"
+    },
+    {
+      "id": "@flowfuse/nr-tools-plugin",
+      "version": "0.3.0",
+      "description": "A Node-RED plugin that adds FlowFuse platform tools to the editor",
+      "updated_at": "2023-10-24T14:15:07.926Z",
+      "types": [],
+      "keywords": [
+        "flowforge",
+        "node-red"
+      ],
+      "url": "https://flows.nodered.org/node/@flowfuse/nr-tools-plugin"
+    },
     {
       "id": "node-red-contrib-puppeteer-js",
       "version": "1.0.0",
@@ -348,44 +583,6 @@
       "url": "https://flows.nodered.org/node/@psotoulloa/node-red-neo4jdriver"
     },
     {
-      "id": "node-red-contrib-knx-ultimate",
-      "version": "2.1.61",
-      "description": "Control your KNX intallation via Node-Red! Single Node KNX IN/OUT with optional ETS group address importer. Easy to use and highly configurable. With integrated Philips HUE devices handling.",
-      "updated_at": "2023-10-23T17:40:57.116Z",
-      "types": [
-        "knxUltimate",
-        "knxUltimateSceneController",
-        "knxUltimateWatchDog",
-        "knxUltimateLogger",
-        "knxUltimate-config",
-        "knxUltimateGlobalContext",
-        "knxUltimateAlerter",
-        "knxUltimateLoadControl",
-        "knxUltimateViewer",
-        "hue-config",
-        "knxUltimateHueLight",
-        "knxUltimateHueButton",
-        "knxUltimateHueMotion",
-        "knxUltimateHueTapDial",
-        "knxUltimateHueLightSensor",
-        "knxUltimateHueTemperatureSensor",
-        "knxUltimateHueScene",
-        "knxUltimateHueBattery"
-      ],
-      "keywords": [
-        "node-red",
-        "KNX",
-        "ETS",
-        "eib",
-        "eibd",
-        "knxd",
-        "konnex",
-        "IOT",
-        "hue"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-knx-ultimate"
-    },
-    {
       "id": "@softwaredevelopment/node-red-contrib-bodhi-connector",
       "version": "0.1.2",
       "description": "Bodhi connector configuration for connecting nodes to bodhi through bodhi bridge",
@@ -426,22 +623,6 @@
         "tachyon-energy"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-johnny5-te"
-    },
-    {
-      "id": "node-red-contrib-alexa-master-function",
-      "version": "23.10.911",
-      "description": "A node to boost your skill with alexa",
-      "updated_at": "2023-10-23T12:11:57.994Z",
-      "types": [
-        "alexa-master-function"
-      ],
-      "keywords": [
-        "node-red",
-        "mysql",
-        "database",
-        "r2"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-alexa-master-function"
     },
     {
       "id": "@gregoriusrippenstein/node-red-contrib-auto-alignment",
@@ -563,23 +744,6 @@
         "realtime"
       ],
       "url": "https://flows.nodered.org/node/@gogovega/node-red-contrib-firebase-realtime-database"
-    },
-    {
-      "id": "@bartbutenaers/node-red-autolayout-sidebar",
-      "version": "0.0.1",
-      "description": "A sidebar plugin for Node-RED to offer auto-layouting",
-      "updated_at": "2023-10-22T20:26:56.996Z",
-      "types": [
-        "auto_layout_config"
-      ],
-      "keywords": [
-        "node-red",
-        "auto",
-        "layout",
-        "graph",
-        "sidebar"
-      ],
-      "url": "https://flows.nodered.org/node/@bartbutenaers/node-red-autolayout-sidebar"
     },
     {
       "id": "node-red-contrib-vib-smart-scheduler",
@@ -817,24 +981,6 @@
       "url": "https://flows.nodered.org/node/node-red-contrib-obix-niagara-connector"
     },
     {
-      "id": "@appmodule/node-red-contrib-siot",
-      "version": "3.0.0-rc10",
-      "description": "Node-RED interactions with SIOT",
-      "updated_at": "2023-10-20T14:57:11.904Z",
-      "types": [
-        "de-commands",
-        "cmd-ack",
-        "de-subscriber",
-        "de-publisher",
-        "siot-config",
-        "class-config"
-      ],
-      "keywords": [
-        "node-red"
-      ],
-      "url": "https://flows.nodered.org/node/@appmodule/node-red-contrib-siot"
-    },
-    {
       "id": "@gastmanager/node-red-client",
       "version": "1.1.0",
       "description": "Connects to the gastmanager cloud and provides nodes to listen and publish events",
@@ -872,27 +1018,6 @@
         "node-red"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-ejbca"
-    },
-    {
-      "id": "node-red-contrib-pkcs11",
-      "version": "1.0.7",
-      "description": "Node-RED Nodes for a PKCS11 interface with an HSM",
-      "updated_at": "2023-10-20T12:51:28.587Z",
-      "types": [
-        "p11-generate-key-pair",
-        "pkcs11-config",
-        "p11-info",
-        "p11-create-csr",
-        "p11-sign",
-        "p11-verify",
-        "p11-digest",
-        "list-objects",
-        "p11-store-cert"
-      ],
-      "keywords": [
-        "node-red"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-pkcs11"
     },
     {
       "id": "victron-dynamic-ess",
@@ -1266,28 +1391,6 @@
       "url": "https://flows.nodered.org/node/@hylink/node-red-kafka-client"
     },
     {
-      "id": "@starke-dms/node-red",
-      "version": "0.0.7",
-      "description": "node-red for starke-dms rest-api",
-      "updated_at": "2023-10-17T08:15:54.280Z",
-      "types": [
-        "starke-dms-login",
-        "starke-dms-logout",
-        "starke-dms-write-log",
-        "starke-dms-get-metadata",
-        "starke-dms-set-metadata",
-        "starke-dms-search",
-        "starke-dms-download-document",
-        "starke-dms-archive-document",
-        "starke-dms-generic"
-      ],
-      "keywords": [
-        "starke-dms",
-        "node-red"
-      ],
-      "url": "https://flows.nodered.org/node/@starke-dms/node-red"
-    },
-    {
       "id": "node-red-contrib-cot2xtopo",
       "version": "1.1.5",
       "description": "This module parses 'live tracks' in network kmls from services such as CalTopo / SARTopo and converts the last coordinate in the live tracking folder to a position location information (pli) cursor-on-target (CoT) message to send to a Team Awareness Kit (",
@@ -1544,21 +1647,6 @@
         "selfbot"
       ],
       "url": "https://flows.nodered.org/node/node-red-node-telegrambot"
-    },
-    {
-      "id": "node-red-contrib-pylips-philips-tv-control",
-      "version": "1.0.8",
-      "description": "This is only a subflow which then calls the python script in pylips. So the rest of the readme is directly copied from there.",
-      "updated_at": "2023-10-15T10:44:02.280Z",
-      "types": [],
-      "keywords": [
-        "Philips",
-        "tv",
-        "pylips",
-        "remote",
-        "node-red"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-pylips-philips-tv-control"
     },
     {
       "id": "node-red-contrib-cx-tag-emitter",
@@ -2698,48 +2786,6 @@
         "energy-management"
       ],
       "url": "https://flows.nodered.org/node/@fw-systeme/node-red-msl"
-    },
-    {
-      "id": "@flowforge/node-red-dashboard",
-      "version": "0.6.1",
-      "description": "A collection of Node-RED nodes that provide functionality to build your own UI applications (inc. forms, buttons, charts) within Node-RED.",
-      "updated_at": "2023-10-06T07:34:09.714Z",
-      "types": [
-        "ui-base",
-        "ui-page",
-        "ui-group",
-        "ui-theme",
-        "ui-form",
-        "__errors__",
-        "ui-text-input",
-        "__errors__",
-        "ui-button",
-        "__errors__",
-        "ui-dropdown",
-        "__errors__",
-        "ui-radio-group",
-        "__errors__",
-        "ui-slider",
-        "__errors__",
-        "ui-switch",
-        "__errors__",
-        "ui-text",
-        "__errors__",
-        "ui-table",
-        "__errors__",
-        "ui-chart",
-        "__errors__",
-        "ui-notification",
-        "__errors__",
-        "ui-markdown",
-        "__errors__",
-        "ui-template",
-        "__errors__"
-      ],
-      "keywords": [
-        "node-red"
-      ],
-      "url": "https://flows.nodered.org/node/@flowforge/node-red-dashboard"
     },
     {
       "id": "node-red-contrib-mssql-plus",
