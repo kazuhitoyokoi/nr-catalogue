@@ -1,7 +1,181 @@
 {
   "name": "Catalogue for macOS",
-  "updated_at": "2023-10-29T00:07:25.425Z",
+  "updated_at": "2023-10-30T00:17:08.925Z",
   "modules": [
+    {
+      "id": "node-red-contrib-vib-smart-valve",
+      "version": "0.1.27",
+      "description": "Smart Valve Managemeent",
+      "updated_at": "2023-10-29T20:20:58.535Z",
+      "types": [
+        "smart-valve"
+      ],
+      "keywords": [
+        "node-red",
+        "Heating",
+        "valve",
+        "trv",
+        "climate"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-vib-smart-valve"
+    },
+    {
+      "id": "node-red-contrib-vib-smart-boiler",
+      "version": "0.1.27",
+      "description": "Smart boiler node to control multiple thermostat",
+      "updated_at": "2023-10-29T20:20:48.572Z",
+      "types": [
+        "smart-boiler",
+        "smart-boiler-settings"
+      ],
+      "keywords": [
+        "node-red",
+        "Heating",
+        "valve",
+        "trv",
+        "climate"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-vib-smart-boiler"
+    },
+    {
+      "id": "node-red-contrib-alexa-master-function",
+      "version": "29.10.1721",
+      "description": "Beta version",
+      "updated_at": "2023-10-29T20:19:55.229Z",
+      "types": [
+        "alexa-master-function"
+      ],
+      "keywords": [
+        "node-red",
+        "mysql",
+        "database",
+        "r2"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-alexa-master-function"
+    },
+    {
+      "id": "node-red-contrib-power-saver",
+      "version": "4.1.4",
+      "description": "A module for Node-RED that you can use to turn on and off a switch based on power prices",
+      "updated_at": "2023-10-29T16:57:13.542Z",
+      "types": [
+        "ps-receive-price",
+        "ps-strategy-best-save",
+        "ps-strategy-lowest-price",
+        "ps-strategy-heat-capacitor",
+        "ps-strategy-fixed-schedule",
+        "ps-schedule-merger",
+        "ps-elvia-config",
+        "ps-elvia-tariff-types",
+        "ps-elvia-tariff",
+        "ps-elvia-add-tariff",
+        "ps-general-add-tariff"
+      ],
+      "keywords": [
+        "node-red",
+        "tibber",
+        "energy",
+        "smarthome",
+        "home-automation",
+        "home-assistant",
+        "power"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-power-saver"
+    },
+    {
+      "id": "node-red-contrib-vib-smart-scheduler",
+      "version": "0.1.25",
+      "description": "Node Red Smart Scheduler MQTT Home Assistant ",
+      "updated_at": "2023-10-29T13:36:03.264Z",
+      "types": [
+        "smart-scheduler",
+        "smart-scheduler-settings"
+      ],
+      "keywords": [
+        "node-red",
+        "Heating",
+        "valve",
+        "trv",
+        "climate",
+        "schedule",
+        "home assistant"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-vib-smart-scheduler"
+    },
+    {
+      "id": "node-red-contrib-alexa-remote2-applestrudel",
+      "version": "5.0.46",
+      "description": "node-red nodes for interacting with alexa",
+      "updated_at": "2023-10-29T10:43:27.586Z",
+      "types": [
+        "alexa-remote-account",
+        "alexa-remote-init",
+        "alexa-remote-event",
+        "alexa-remote-smarthome",
+        "alexa-remote-routine",
+        "alexa-remote-echo",
+        "alexa-remote-other",
+        "alexa-remote-list"
+      ],
+      "keywords": [
+        "node-red",
+        "alexa remote",
+        "alexa",
+        "echo"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-alexa-remote2-applestrudel"
+    },
+    {
+      "id": "node-red-contrib-google-smarthome",
+      "version": "0.4.6",
+      "description": "Lets you control Node-Red via Google Assistant or the Google Home App",
+      "updated_at": "2023-10-29T08:43:57.338Z",
+      "types": [
+        "googlesmarthome-client",
+        "google-mgmt",
+        "google-device"
+      ],
+      "keywords": [
+        "google",
+        "smarthome",
+        "assistant",
+        "iot",
+        "node-red"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-google-smarthome"
+    },
+    {
+      "id": "node-red-contrib-axios",
+      "version": "1.2.0",
+      "description": "A http request node for Node-RED",
+      "updated_at": "2023-10-28T23:38:10.858Z",
+      "types": [
+        "axios-endpoint",
+        "axios-request"
+      ],
+      "keywords": [
+        "node-red",
+        "http",
+        "request",
+        "axios"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-axios"
+    },
+    {
+      "id": "node-red-contrib-homeconnect",
+      "version": "0.6.7",
+      "description": "Node-RED-nodes for Home Connect",
+      "updated_at": "2023-10-28T23:26:25.255Z",
+      "types": [
+        "home-connect-auth",
+        "home-connect-request",
+        "home-connect-event"
+      ],
+      "keywords": [
+        "node-red"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-homeconnect"
+    },
     {
       "id": "node-red-contrib-knx-ultimate",
       "version": "2.2.1",
@@ -54,29 +228,6 @@
         "bodhi"
       ],
       "url": "https://flows.nodered.org/node/@softwaredevelopment/node-red-contrib-bodhi-connector"
-    },
-    {
-      "id": "node-red-contrib-alexa-remote2-applestrudel",
-      "version": "5.0.45",
-      "description": "node-red nodes for interacting with alexa",
-      "updated_at": "2023-10-27T16:38:25.385Z",
-      "types": [
-        "alexa-remote-account",
-        "alexa-remote-init",
-        "alexa-remote-event",
-        "alexa-remote-smarthome",
-        "alexa-remote-routine",
-        "alexa-remote-echo",
-        "alexa-remote-other",
-        "alexa-remote-list"
-      ],
-      "keywords": [
-        "node-red",
-        "alexa remote",
-        "alexa",
-        "echo"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-alexa-remote2-applestrudel"
     },
     {
       "id": "node-red-contrib-pylips-philips-tv-control",
@@ -153,61 +304,6 @@
         "www.boschrexroth.com"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-ctrlx-automation"
-    },
-    {
-      "id": "node-red-contrib-vib-smart-scheduler",
-      "version": "0.0.78",
-      "description": "Node Red Smart Scheduler MQTT Home Assistant ",
-      "updated_at": "2023-10-27T07:39:53.483Z",
-      "types": [
-        "smart-scheduler",
-        "smart-scheduler-settings"
-      ],
-      "keywords": [
-        "node-red",
-        "Heating",
-        "valve",
-        "trv",
-        "climate",
-        "schedule",
-        "home assistant"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-vib-smart-scheduler"
-    },
-    {
-      "id": "node-red-contrib-vib-smart-valve",
-      "version": "0.0.78",
-      "description": "Smart Valve Managemeent",
-      "updated_at": "2023-10-27T07:38:34.325Z",
-      "types": [
-        "smart-valve"
-      ],
-      "keywords": [
-        "node-red",
-        "Heating",
-        "valve",
-        "trv",
-        "climate"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-vib-smart-valve"
-    },
-    {
-      "id": "node-red-contrib-vib-smart-boiler",
-      "version": "0.1.21",
-      "description": "Smart boiler node to control multiple thermostat",
-      "updated_at": "2023-10-27T07:38:25.216Z",
-      "types": [
-        "smart-boiler",
-        "smart-boiler-settings"
-      ],
-      "keywords": [
-        "node-red",
-        "Heating",
-        "valve",
-        "trv",
-        "climate"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-vib-smart-boiler"
     },
     {
       "id": "@tbowmo/node-red-small-timer",
@@ -580,22 +676,6 @@
         "node-red"
       ],
       "url": "https://flows.nodered.org/node/@starke-dms/node-red"
-    },
-    {
-      "id": "node-red-contrib-alexa-master-function",
-      "version": "24.10.2108",
-      "description": "Beta version",
-      "updated_at": "2023-10-25T00:08:13.856Z",
-      "types": [
-        "alexa-master-function"
-      ],
-      "keywords": [
-        "node-red",
-        "mysql",
-        "database",
-        "r2"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-alexa-master-function"
     },
     {
       "id": "@bartbutenaers/node-red-autolayout-sidebar",
@@ -1662,25 +1742,6 @@
         "wiener-netze"
       ],
       "url": "https://flows.nodered.org/node/@vrilcode/node-red-wnsm-b2b"
-    },
-    {
-      "id": "node-red-contrib-google-smarthome",
-      "version": "0.4.5",
-      "description": "Lets you control Node-Red via Google Assistant or the Google Home App",
-      "updated_at": "2023-10-17T18:45:36.616Z",
-      "types": [
-        "googlesmarthome-client",
-        "google-mgmt",
-        "google-device"
-      ],
-      "keywords": [
-        "google",
-        "smarthome",
-        "assistant",
-        "iot",
-        "node-red"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-google-smarthome"
     },
     {
       "id": "node-red-contrib-zwave-js",
@@ -16554,21 +16615,6 @@
       "url": "https://flows.nodered.org/node/node-red-contrib-zigbee2mqtt"
     },
     {
-      "id": "node-red-contrib-homeconnect",
-      "version": "0.6.6",
-      "description": "Node-RED-nodes for Home Connect",
-      "updated_at": "2023-01-29T16:46:55.347Z",
-      "types": [
-        "home-connect-auth",
-        "home-connect-request",
-        "home-connect-event"
-      ],
-      "keywords": [
-        "node-red"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-homeconnect"
-    },
-    {
       "id": "node-red-contrib-nanoleaf",
       "version": "0.5.0",
       "description": "[![platform](https://img.shields.io/badge/platform-Node--RED-red?logo=nodered)](https://nodered.org) [![Min Node Version](https://img.shields.io/node/v/node-red-contrib-nanoleaf.svg)](https://nodejs.org/en/) [![GitHub version](https://img.shields.io/githu",
@@ -16875,23 +16921,6 @@
         "arp"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-cb-arp"
-    },
-    {
-      "id": "node-red-contrib-axios",
-      "version": "1.1.1",
-      "description": "A http request node for Node-RED",
-      "updated_at": "2023-01-22T16:31:22.887Z",
-      "types": [
-        "axios-endpoint",
-        "axios-request"
-      ],
-      "keywords": [
-        "node-red",
-        "http",
-        "request",
-        "axios"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-axios"
     },
     {
       "id": "node-red-contrib-salesforce",
@@ -18605,35 +18634,6 @@
         "oracledb"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-oracledb-mod"
-    },
-    {
-      "id": "node-red-contrib-power-saver",
-      "version": "4.1.3",
-      "description": "A module for Node-RED that you can use to turn on and off a switch based on power prices",
-      "updated_at": "2022-12-11T20:20:09.280Z",
-      "types": [
-        "ps-receive-price",
-        "ps-strategy-best-save",
-        "ps-strategy-lowest-price",
-        "ps-strategy-heat-capacitor",
-        "ps-strategy-fixed-schedule",
-        "ps-schedule-merger",
-        "ps-elvia-config",
-        "ps-elvia-tariff-types",
-        "ps-elvia-tariff",
-        "ps-elvia-add-tariff",
-        "ps-general-add-tariff"
-      ],
-      "keywords": [
-        "node-red",
-        "tibber",
-        "energy",
-        "smarthome",
-        "home-automation",
-        "home-assistant",
-        "power"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-power-saver"
     },
     {
       "id": "@js-on/node-red-contrib-py3run",
