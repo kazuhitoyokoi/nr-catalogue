@@ -1,7 +1,97 @@
 {
   "name": "Catalogue for verified nodes",
-  "updated_at": "2023-10-29T00:07:47.940Z",
+  "updated_at": "2023-10-30T00:20:28.582Z",
   "modules": [
+    {
+      "id": "node-red-contrib-alexa-remote2-applestrudel",
+      "version": "5.0.46",
+      "description": "node-red nodes for interacting with alexa",
+      "updated_at": "2023-10-29T10:43:27.586Z",
+      "types": [
+        "alexa-remote-account",
+        "alexa-remote-init",
+        "alexa-remote-event",
+        "alexa-remote-smarthome",
+        "alexa-remote-routine",
+        "alexa-remote-echo",
+        "alexa-remote-other",
+        "alexa-remote-list"
+      ],
+      "keywords": [
+        "node-red",
+        "alexa remote",
+        "alexa",
+        "echo"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-alexa-remote2-applestrudel"
+    },
+    {
+      "id": "node-red-contrib-google-smarthome",
+      "version": "0.4.6",
+      "description": "Lets you control Node-Red via Google Assistant or the Google Home App",
+      "updated_at": "2023-10-29T08:43:57.338Z",
+      "types": [
+        "googlesmarthome-client",
+        "google-mgmt",
+        "google-device"
+      ],
+      "keywords": [
+        "google",
+        "smarthome",
+        "assistant",
+        "iot",
+        "node-red"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-google-smarthome"
+    },
+    {
+      "id": "node-red-contrib-alexa-master-function",
+      "version": "28.10.2331",
+      "description": "Beta version",
+      "updated_at": "2023-10-29T02:29:42.856Z",
+      "types": [
+        "alexa-master-function"
+      ],
+      "keywords": [
+        "node-red",
+        "mysql",
+        "database",
+        "r2"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-alexa-master-function"
+    },
+    {
+      "id": "node-red-contrib-axios",
+      "version": "1.2.0",
+      "description": "A http request node for Node-RED",
+      "updated_at": "2023-10-28T23:38:10.858Z",
+      "types": [
+        "axios-endpoint",
+        "axios-request"
+      ],
+      "keywords": [
+        "node-red",
+        "http",
+        "request",
+        "axios"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-axios"
+    },
+    {
+      "id": "node-red-contrib-homeconnect",
+      "version": "0.6.7",
+      "description": "Node-RED-nodes for Home Connect",
+      "updated_at": "2023-10-28T23:26:25.255Z",
+      "types": [
+        "home-connect-auth",
+        "home-connect-request",
+        "home-connect-event"
+      ],
+      "keywords": [
+        "node-red"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-homeconnect"
+    },
     {
       "id": "node-red-contrib-knx-ultimate",
       "version": "2.2.1",
@@ -54,29 +144,6 @@
         "bodhi"
       ],
       "url": "https://flows.nodered.org/node/@softwaredevelopment/node-red-contrib-bodhi-connector"
-    },
-    {
-      "id": "node-red-contrib-alexa-remote2-applestrudel",
-      "version": "5.0.45",
-      "description": "node-red nodes for interacting with alexa",
-      "updated_at": "2023-10-27T16:38:25.385Z",
-      "types": [
-        "alexa-remote-account",
-        "alexa-remote-init",
-        "alexa-remote-event",
-        "alexa-remote-smarthome",
-        "alexa-remote-routine",
-        "alexa-remote-echo",
-        "alexa-remote-other",
-        "alexa-remote-list"
-      ],
-      "keywords": [
-        "node-red",
-        "alexa remote",
-        "alexa",
-        "echo"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-alexa-remote2-applestrudel"
     },
     {
       "id": "node-red-contrib-pylips-philips-tv-control",
@@ -509,22 +576,6 @@
         "node-red"
       ],
       "url": "https://flows.nodered.org/node/@starke-dms/node-red"
-    },
-    {
-      "id": "node-red-contrib-alexa-master-function",
-      "version": "24.10.2108",
-      "description": "Beta version",
-      "updated_at": "2023-10-25T00:08:13.856Z",
-      "types": [
-        "alexa-master-function"
-      ],
-      "keywords": [
-        "node-red",
-        "mysql",
-        "database",
-        "r2"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-alexa-master-function"
     },
     {
       "id": "@bartbutenaers/node-red-autolayout-sidebar",
@@ -1591,25 +1642,6 @@
         "wiener-netze"
       ],
       "url": "https://flows.nodered.org/node/@vrilcode/node-red-wnsm-b2b"
-    },
-    {
-      "id": "node-red-contrib-google-smarthome",
-      "version": "0.4.5",
-      "description": "Lets you control Node-Red via Google Assistant or the Google Home App",
-      "updated_at": "2023-10-17T18:45:36.616Z",
-      "types": [
-        "googlesmarthome-client",
-        "google-mgmt",
-        "google-device"
-      ],
-      "keywords": [
-        "google",
-        "smarthome",
-        "assistant",
-        "iot",
-        "node-red"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-google-smarthome"
     },
     {
       "id": "node-red-contrib-zwave-js",
@@ -5914,6 +5946,34 @@
         "home automation"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-ical-events"
+    },
+    {
+      "id": "pekfinger-red",
+      "version": "1.0.0-beta.20",
+      "description": "A web-framework. Basically Svelte for Node-RED. With some sugar.",
+      "updated_at": "2023-09-06T14:59:40.788Z",
+      "types": [
+        "web-entry",
+        "web-page",
+        "__errors__",
+        "web-ressource",
+        "__errors__",
+        "web-event",
+        "web-app",
+        "web-tab"
+      ],
+      "keywords": [
+        "node-red",
+        "svelte",
+        "nodes",
+        "flow",
+        "web",
+        "serve",
+        "app",
+        "webclient",
+        "webserver"
+      ],
+      "url": "https://flows.nodered.org/node/pekfinger-red"
     },
     {
       "id": "@objectif-lune/node-red-contrib-sendgrid",
@@ -14020,34 +14080,6 @@
       "url": "https://flows.nodered.org/node/@nnc/node-red-contrib-wxwork"
     },
     {
-      "id": "pekfinger-red",
-      "version": "1.0.0-alpha.25",
-      "description": "A web-framework. Basically Svelte for Node-RED. With some sugar.",
-      "updated_at": "2023-03-21T14:26:23.522Z",
-      "types": [
-        "web-entry",
-        "web-page",
-        "__errors__",
-        "web-ressource",
-        "__errors__",
-        "web-event",
-        "web-app",
-        "web-tab"
-      ],
-      "keywords": [
-        "node-red",
-        "svelte",
-        "nodes",
-        "flow",
-        "web",
-        "serve",
-        "app",
-        "webclient",
-        "webserver"
-      ],
-      "url": "https://flows.nodered.org/node/pekfinger-red"
-    },
-    {
       "id": "@autexis/node-red-payload-logger",
       "version": "1.0.1",
       "description": "Node-RED Contribution to log data",
@@ -16287,21 +16319,6 @@
       "url": "https://flows.nodered.org/node/node-red-contrib-zigbee2mqtt"
     },
     {
-      "id": "node-red-contrib-homeconnect",
-      "version": "0.6.6",
-      "description": "Node-RED-nodes for Home Connect",
-      "updated_at": "2023-01-29T16:46:55.347Z",
-      "types": [
-        "home-connect-auth",
-        "home-connect-request",
-        "home-connect-event"
-      ],
-      "keywords": [
-        "node-red"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-homeconnect"
-    },
-    {
       "id": "node-red-contrib-nanoleaf",
       "version": "0.5.0",
       "description": "[![platform](https://img.shields.io/badge/platform-Node--RED-red?logo=nodered)](https://nodered.org) [![Min Node Version](https://img.shields.io/node/v/node-red-contrib-nanoleaf.svg)](https://nodejs.org/en/) [![GitHub version](https://img.shields.io/githu",
@@ -16608,23 +16625,6 @@
         "arp"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-cb-arp"
-    },
-    {
-      "id": "node-red-contrib-axios",
-      "version": "1.1.1",
-      "description": "A http request node for Node-RED",
-      "updated_at": "2023-01-22T16:31:22.887Z",
-      "types": [
-        "axios-endpoint",
-        "axios-request"
-      ],
-      "keywords": [
-        "node-red",
-        "http",
-        "request",
-        "axios"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-axios"
     },
     {
       "id": "node-red-contrib-salesforce",
