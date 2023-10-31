@@ -1,7 +1,147 @@
 {
   "name": "Catalogue for verified nodes",
-  "updated_at": "2023-10-30T00:20:28.582Z",
+  "updated_at": "2023-10-31T00:40:22.323Z",
   "modules": [
+    {
+      "id": "@node-red-contrib-themes/theme-collection",
+      "version": "3.1.5",
+      "description": "A collection of themes for Node-RED",
+      "updated_at": "2023-10-30T11:41:58.913Z",
+      "types": [],
+      "keywords": [
+        "node-red",
+        "nodered",
+        "theme",
+        "themes",
+        "plugin",
+        "plugins",
+        "dark",
+        "light"
+      ],
+      "url": "https://flows.nodered.org/node/@node-red-contrib-themes/theme-collection"
+    },
+    {
+      "id": "node-red-contrib-knx-ultimate",
+      "version": "2.2.2",
+      "description": "Control your KNX intallation via Node-Red! Single Node KNX IN/OUT with optional ETS group address importer. Easy to use and highly configurable. With integrated Philips HUE devices control.",
+      "updated_at": "2023-10-30T10:59:18.750Z",
+      "types": [
+        "knxUltimate",
+        "knxUltimateSceneController",
+        "knxUltimateWatchDog",
+        "knxUltimateLogger",
+        "knxUltimate-config",
+        "knxUltimateGlobalContext",
+        "knxUltimateAlerter",
+        "knxUltimateLoadControl",
+        "knxUltimateViewer",
+        "hue-config",
+        "knxUltimateHueLight",
+        "knxUltimateHueButton",
+        "knxUltimateHueMotion",
+        "knxUltimateHueTapDial",
+        "knxUltimateHueLightSensor",
+        "knxUltimateHueTemperatureSensor",
+        "knxUltimateHueScene",
+        "knxUltimateHueBattery"
+      ],
+      "keywords": [
+        "node-red",
+        "KNX",
+        "ETS",
+        "eib",
+        "konnex",
+        "IOT",
+        "hue"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-knx-ultimate"
+    },
+    {
+      "id": "node-red-contrib-nspanel-lui",
+      "version": "0.0.1-alpha.32",
+      "description": "Node-RED based backend for NSPanel Lovelace UI custom firmware.",
+      "updated_at": "2023-10-30T08:09:59.351Z",
+      "types": [],
+      "keywords": [
+        "node-red",
+        "lovelace ui",
+        "nspanel"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-nspanel-lui"
+    },
+    {
+      "id": "@starke-dms/node-red",
+      "version": "0.0.10",
+      "description": "node-red for starke-dms rest-api",
+      "updated_at": "2023-10-30T07:43:15.209Z",
+      "types": [
+        "starke-dms-login",
+        "starke-dms-logout",
+        "starke-dms-write-log",
+        "starke-dms-get-metadata",
+        "starke-dms-set-metadata",
+        "starke-dms-set-client",
+        "starke-dms-set-doctype",
+        "starke-dms-set-indexes",
+        "starke-dms-set-protection",
+        "starke-dms-set-year",
+        "starke-dms-search",
+        "starke-dms-download-document",
+        "starke-dms-archive-document",
+        "starke-dms-versionize-document",
+        "starke-dms-generic"
+      ],
+      "keywords": [
+        "starke-dms",
+        "node-red"
+      ],
+      "url": "https://flows.nodered.org/node/@starke-dms/node-red"
+    },
+    {
+      "id": "node-red-contrib-alexa-master-function",
+      "version": "29.10.1937",
+      "description": "Beta version",
+      "updated_at": "2023-10-29T22:36:01.431Z",
+      "types": [
+        "alexa-master-function"
+      ],
+      "keywords": [
+        "node-red",
+        "mysql",
+        "database",
+        "r2"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-alexa-master-function"
+    },
+    {
+      "id": "node-red-contrib-power-saver",
+      "version": "4.1.4",
+      "description": "A module for Node-RED that you can use to turn on and off a switch based on power prices",
+      "updated_at": "2023-10-29T16:57:13.542Z",
+      "types": [
+        "ps-receive-price",
+        "ps-strategy-best-save",
+        "ps-strategy-lowest-price",
+        "ps-strategy-heat-capacitor",
+        "ps-strategy-fixed-schedule",
+        "ps-schedule-merger",
+        "ps-elvia-config",
+        "ps-elvia-tariff-types",
+        "ps-elvia-tariff",
+        "ps-elvia-add-tariff",
+        "ps-general-add-tariff"
+      ],
+      "keywords": [
+        "node-red",
+        "tibber",
+        "energy",
+        "smarthome",
+        "home-automation",
+        "home-assistant",
+        "power"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-power-saver"
+    },
     {
       "id": "node-red-contrib-alexa-remote2-applestrudel",
       "version": "5.0.46",
@@ -45,22 +185,6 @@
       "url": "https://flows.nodered.org/node/node-red-contrib-google-smarthome"
     },
     {
-      "id": "node-red-contrib-alexa-master-function",
-      "version": "28.10.2331",
-      "description": "Beta version",
-      "updated_at": "2023-10-29T02:29:42.856Z",
-      "types": [
-        "alexa-master-function"
-      ],
-      "keywords": [
-        "node-red",
-        "mysql",
-        "database",
-        "r2"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-alexa-master-function"
-    },
-    {
       "id": "node-red-contrib-axios",
       "version": "1.2.0",
       "description": "A http request node for Node-RED",
@@ -91,44 +215,6 @@
         "node-red"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-homeconnect"
-    },
-    {
-      "id": "node-red-contrib-knx-ultimate",
-      "version": "2.2.1",
-      "description": "Control your KNX intallation via Node-Red! Single Node KNX IN/OUT with optional ETS group address importer. Easy to use and highly configurable. With integrated Philips HUE devices handling.",
-      "updated_at": "2023-10-28T06:53:48.931Z",
-      "types": [
-        "knxUltimate",
-        "knxUltimateSceneController",
-        "knxUltimateWatchDog",
-        "knxUltimateLogger",
-        "knxUltimate-config",
-        "knxUltimateGlobalContext",
-        "knxUltimateAlerter",
-        "knxUltimateLoadControl",
-        "knxUltimateViewer",
-        "hue-config",
-        "knxUltimateHueLight",
-        "knxUltimateHueButton",
-        "knxUltimateHueMotion",
-        "knxUltimateHueTapDial",
-        "knxUltimateHueLightSensor",
-        "knxUltimateHueTemperatureSensor",
-        "knxUltimateHueScene",
-        "knxUltimateHueBattery"
-      ],
-      "keywords": [
-        "node-red",
-        "KNX",
-        "ETS",
-        "eib",
-        "eibd",
-        "knxd",
-        "konnex",
-        "IOT",
-        "hue"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-knx-ultimate"
     },
     {
       "id": "@softwaredevelopment/node-red-contrib-bodhi-connector",
@@ -185,19 +271,6 @@
         "node-opcua"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-opcua"
-    },
-    {
-      "id": "node-red-contrib-nspanel-lui",
-      "version": "0.0.1-alpha.31",
-      "description": "Node-RED based backend for NSPanel Lovelace UI custom firmware.",
-      "updated_at": "2023-10-27T10:22:00.758Z",
-      "types": [],
-      "keywords": [
-        "node-red",
-        "lovelace ui",
-        "nspanel"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-nspanel-lui"
     },
     {
       "id": "node-red-contrib-ctrlx-automation",
@@ -549,33 +622,6 @@
         "electric"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-load-balance-knapsack"
-    },
-    {
-      "id": "@starke-dms/node-red",
-      "version": "0.0.9",
-      "description": "node-red for starke-dms rest-api",
-      "updated_at": "2023-10-25T10:13:55.988Z",
-      "types": [
-        "starke-dms-login",
-        "starke-dms-logout",
-        "starke-dms-write-log",
-        "starke-dms-get-metadata",
-        "starke-dms-set-metadata",
-        "starke-dms-set-client",
-        "starke-dms-set-doctype",
-        "starke-dms-set-indexes",
-        "starke-dms-set-protection",
-        "starke-dms-set-year",
-        "starke-dms-search",
-        "starke-dms-download-document",
-        "starke-dms-archive-document",
-        "starke-dms-generic"
-      ],
-      "keywords": [
-        "starke-dms",
-        "node-red"
-      ],
-      "url": "https://flows.nodered.org/node/@starke-dms/node-red"
     },
     {
       "id": "@bartbutenaers/node-red-autolayout-sidebar",
@@ -2321,24 +2367,6 @@
         "download"
       ],
       "url": "https://flows.nodered.org/node/@prescient-devices/node-red-contrib-downloadfile"
-    },
-    {
-      "id": "@node-red-contrib-themes/theme-collection",
-      "version": "3.1.4",
-      "description": "A collection of themes for Node-RED",
-      "updated_at": "2023-10-11T20:48:29.222Z",
-      "types": [],
-      "keywords": [
-        "node-red",
-        "nodered",
-        "theme",
-        "themes",
-        "plugin",
-        "plugins",
-        "dark",
-        "light"
-      ],
-      "url": "https://flows.nodered.org/node/@node-red-contrib-themes/theme-collection"
     },
     {
       "id": "node-red-contrib-home-assistant-websocket",
@@ -18322,35 +18350,6 @@
         "oracledb"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-oracledb-mod"
-    },
-    {
-      "id": "node-red-contrib-power-saver",
-      "version": "4.1.3",
-      "description": "A module for Node-RED that you can use to turn on and off a switch based on power prices",
-      "updated_at": "2022-12-11T20:20:09.280Z",
-      "types": [
-        "ps-receive-price",
-        "ps-strategy-best-save",
-        "ps-strategy-lowest-price",
-        "ps-strategy-heat-capacitor",
-        "ps-strategy-fixed-schedule",
-        "ps-schedule-merger",
-        "ps-elvia-config",
-        "ps-elvia-tariff-types",
-        "ps-elvia-tariff",
-        "ps-elvia-add-tariff",
-        "ps-general-add-tariff"
-      ],
-      "keywords": [
-        "node-red",
-        "tibber",
-        "energy",
-        "smarthome",
-        "home-automation",
-        "home-assistant",
-        "power"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-power-saver"
     },
     {
       "id": "@js-on/node-red-contrib-py3run",
