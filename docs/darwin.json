@@ -1,12 +1,45 @@
 {
   "name": "Catalogue for macOS",
-  "updated_at": "2023-10-30T00:17:08.925Z",
+  "updated_at": "2023-10-31T00:40:09.324Z",
   "modules": [
     {
+      "id": "node-red-contrib-blockly",
+      "version": "2.3.0",
+      "description": "A Node Red node for visual programming a function using Blockly",
+      "updated_at": "2023-10-30T19:48:45.214Z",
+      "types": [
+        "Blockly",
+        "blockly-config"
+      ],
+      "keywords": [
+        "node-red",
+        "blockly",
+        "function",
+        "visual",
+        "programming",
+        "javascript",
+        "generate"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-blockly"
+    },
+    {
+      "id": "node-red-contrib-nspanel-lui",
+      "version": "0.0.1-alpha.33",
+      "description": "Node-RED based backend for NSPanel Lovelace UI custom firmware.",
+      "updated_at": "2023-10-30T16:25:44.146Z",
+      "types": [],
+      "keywords": [
+        "node-red",
+        "lovelace ui",
+        "nspanel"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-nspanel-lui"
+    },
+    {
       "id": "node-red-contrib-vib-smart-valve",
-      "version": "0.1.27",
+      "version": "0.1.28",
       "description": "Smart Valve Managemeent",
-      "updated_at": "2023-10-29T20:20:58.535Z",
+      "updated_at": "2023-10-30T12:26:07.189Z",
       "types": [
         "smart-valve"
       ],
@@ -20,10 +53,30 @@
       "url": "https://flows.nodered.org/node/node-red-contrib-vib-smart-valve"
     },
     {
+      "id": "node-red-contrib-vib-smart-scheduler",
+      "version": "0.1.28",
+      "description": "Node Red Smart Scheduler MQTT Home Assistant ",
+      "updated_at": "2023-10-30T12:25:56.848Z",
+      "types": [
+        "smart-scheduler",
+        "smart-scheduler-settings"
+      ],
+      "keywords": [
+        "node-red",
+        "Heating",
+        "valve",
+        "trv",
+        "climate",
+        "schedule",
+        "home assistant"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-vib-smart-scheduler"
+    },
+    {
       "id": "node-red-contrib-vib-smart-boiler",
-      "version": "0.1.27",
+      "version": "0.1.28",
       "description": "Smart boiler node to control multiple thermostat",
-      "updated_at": "2023-10-29T20:20:48.572Z",
+      "updated_at": "2023-10-30T12:25:43.851Z",
       "types": [
         "smart-boiler",
         "smart-boiler-settings"
@@ -38,10 +91,92 @@
       "url": "https://flows.nodered.org/node/node-red-contrib-vib-smart-boiler"
     },
     {
+      "id": "@node-red-contrib-themes/theme-collection",
+      "version": "3.1.5",
+      "description": "A collection of themes for Node-RED",
+      "updated_at": "2023-10-30T11:41:58.913Z",
+      "types": [],
+      "keywords": [
+        "node-red",
+        "nodered",
+        "theme",
+        "themes",
+        "plugin",
+        "plugins",
+        "dark",
+        "light"
+      ],
+      "url": "https://flows.nodered.org/node/@node-red-contrib-themes/theme-collection"
+    },
+    {
+      "id": "node-red-contrib-knx-ultimate",
+      "version": "2.2.2",
+      "description": "Control your KNX intallation via Node-Red! Single Node KNX IN/OUT with optional ETS group address importer. Easy to use and highly configurable. With integrated Philips HUE devices control.",
+      "updated_at": "2023-10-30T10:59:18.750Z",
+      "types": [
+        "knxUltimate",
+        "knxUltimateSceneController",
+        "knxUltimateWatchDog",
+        "knxUltimateLogger",
+        "knxUltimate-config",
+        "knxUltimateGlobalContext",
+        "knxUltimateAlerter",
+        "knxUltimateLoadControl",
+        "knxUltimateViewer",
+        "hue-config",
+        "knxUltimateHueLight",
+        "knxUltimateHueButton",
+        "knxUltimateHueMotion",
+        "knxUltimateHueTapDial",
+        "knxUltimateHueLightSensor",
+        "knxUltimateHueTemperatureSensor",
+        "knxUltimateHueScene",
+        "knxUltimateHueBattery"
+      ],
+      "keywords": [
+        "node-red",
+        "KNX",
+        "ETS",
+        "eib",
+        "konnex",
+        "IOT",
+        "hue"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-knx-ultimate"
+    },
+    {
+      "id": "@starke-dms/node-red",
+      "version": "0.0.10",
+      "description": "node-red for starke-dms rest-api",
+      "updated_at": "2023-10-30T07:43:15.209Z",
+      "types": [
+        "starke-dms-login",
+        "starke-dms-logout",
+        "starke-dms-write-log",
+        "starke-dms-get-metadata",
+        "starke-dms-set-metadata",
+        "starke-dms-set-client",
+        "starke-dms-set-doctype",
+        "starke-dms-set-indexes",
+        "starke-dms-set-protection",
+        "starke-dms-set-year",
+        "starke-dms-search",
+        "starke-dms-download-document",
+        "starke-dms-archive-document",
+        "starke-dms-versionize-document",
+        "starke-dms-generic"
+      ],
+      "keywords": [
+        "starke-dms",
+        "node-red"
+      ],
+      "url": "https://flows.nodered.org/node/@starke-dms/node-red"
+    },
+    {
       "id": "node-red-contrib-alexa-master-function",
-      "version": "29.10.1721",
+      "version": "29.10.1937",
       "description": "Beta version",
-      "updated_at": "2023-10-29T20:19:55.229Z",
+      "updated_at": "2023-10-29T22:36:01.431Z",
       "types": [
         "alexa-master-function"
       ],
@@ -81,26 +216,6 @@
         "power"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-power-saver"
-    },
-    {
-      "id": "node-red-contrib-vib-smart-scheduler",
-      "version": "0.1.25",
-      "description": "Node Red Smart Scheduler MQTT Home Assistant ",
-      "updated_at": "2023-10-29T13:36:03.264Z",
-      "types": [
-        "smart-scheduler",
-        "smart-scheduler-settings"
-      ],
-      "keywords": [
-        "node-red",
-        "Heating",
-        "valve",
-        "trv",
-        "climate",
-        "schedule",
-        "home assistant"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-vib-smart-scheduler"
     },
     {
       "id": "node-red-contrib-alexa-remote2-applestrudel",
@@ -177,42 +292,110 @@
       "url": "https://flows.nodered.org/node/node-red-contrib-homeconnect"
     },
     {
-      "id": "node-red-contrib-knx-ultimate",
-      "version": "2.2.1",
-      "description": "Control your KNX intallation via Node-Red! Single Node KNX IN/OUT with optional ETS group address importer. Easy to use and highly configurable. With integrated Philips HUE devices handling.",
-      "updated_at": "2023-10-28T06:53:48.931Z",
+      "id": "@edgepi-cloud/node-red-edgepi-relay",
+      "version": "1.0.2",
+      "description": "node-red node for edgepi relay module utilizing remote procedure calls",
+      "updated_at": "2023-10-27T18:23:31.034Z",
       "types": [
-        "knxUltimate",
-        "knxUltimateSceneController",
-        "knxUltimateWatchDog",
-        "knxUltimateLogger",
-        "knxUltimate-config",
-        "knxUltimateGlobalContext",
-        "knxUltimateAlerter",
-        "knxUltimateLoadControl",
-        "knxUltimateViewer",
-        "hue-config",
-        "knxUltimateHueLight",
-        "knxUltimateHueButton",
-        "knxUltimateHueMotion",
-        "knxUltimateHueTapDial",
-        "knxUltimateHueLightSensor",
-        "knxUltimateHueTemperatureSensor",
-        "knxUltimateHueScene",
-        "knxUltimateHueBattery"
+        "relay"
       ],
       "keywords": [
         "node-red",
-        "KNX",
-        "ETS",
-        "eib",
-        "eibd",
-        "knxd",
-        "konnex",
-        "IOT",
-        "hue"
+        "edgepi",
+        "rpc"
       ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-knx-ultimate"
+      "url": "https://flows.nodered.org/node/@edgepi-cloud/node-red-edgepi-relay"
+    },
+    {
+      "id": "@edgepi-cloud/node-red-edgepi-thermocouple",
+      "version": "1.0.5",
+      "description": "A node-red node for EdgePi thermocouple module",
+      "updated_at": "2023-10-27T18:23:01.164Z",
+      "types": [
+        "thermocouple"
+      ],
+      "keywords": [
+        "edgepi",
+        "thermocouple",
+        "node-red"
+      ],
+      "url": "https://flows.nodered.org/node/@edgepi-cloud/node-red-edgepi-thermocouple"
+    },
+    {
+      "id": "@edgepi-cloud/node-red-edgepi-led",
+      "version": "1.0.5",
+      "description": "Node for EdgePi Led Array",
+      "updated_at": "2023-10-27T18:22:22.405Z",
+      "types": [
+        "led"
+      ],
+      "keywords": [
+        "node-red",
+        "edgepi",
+        "led",
+        "edgepi-led"
+      ],
+      "url": "https://flows.nodered.org/node/@edgepi-cloud/node-red-edgepi-led"
+    },
+    {
+      "id": "@edgepi-cloud/node-red-edgepi-digital-out",
+      "version": "1.0.5",
+      "description": "node-red node for edgepi digital output module utilizing remote procedure calls",
+      "updated_at": "2023-10-27T18:21:47.839Z",
+      "types": [
+        "digital-out"
+      ],
+      "keywords": [
+        "node-red",
+        "edgepi",
+        "rpc"
+      ],
+      "url": "https://flows.nodered.org/node/@edgepi-cloud/node-red-edgepi-digital-out"
+    },
+    {
+      "id": "@edgepi-cloud/node-red-edgepi-digital-input",
+      "version": "1.0.2",
+      "description": "node-red node for edgepi digital-input module utilizing remote procedure calls",
+      "updated_at": "2023-10-27T18:21:02.858Z",
+      "types": [
+        "digital-in"
+      ],
+      "keywords": [
+        "node-red",
+        "edgepi",
+        "rpc"
+      ],
+      "url": "https://flows.nodered.org/node/@edgepi-cloud/node-red-edgepi-digital-input"
+    },
+    {
+      "id": "@edgepi-cloud/node-red-edgepi-adc",
+      "version": "1.0.2",
+      "description": "node-red node for edgepi adc module utilizing remote procedure calls",
+      "updated_at": "2023-10-27T18:20:34.457Z",
+      "types": [
+        "adc"
+      ],
+      "keywords": [
+        "node-red",
+        "edgepi",
+        "rpc"
+      ],
+      "url": "https://flows.nodered.org/node/@edgepi-cloud/node-red-edgepi-adc"
+    },
+    {
+      "id": "@edgepi-cloud/node-red-edgepi-dac",
+      "version": "1.0.4",
+      "description": "node-red node for edgepi dac module utilizing remote procedure calls",
+      "updated_at": "2023-10-27T18:19:31.050Z",
+      "types": [
+        "dac"
+      ],
+      "keywords": [
+        "node-red",
+        "edgepi",
+        "rpc"
+      ],
+      "url": "https://flows.nodered.org/node/@edgepi-cloud/node-red-edgepi-dac"
     },
     {
       "id": "@softwaredevelopment/node-red-contrib-bodhi-connector",
@@ -269,19 +452,6 @@
         "node-opcua"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-opcua"
-    },
-    {
-      "id": "node-red-contrib-nspanel-lui",
-      "version": "0.0.1-alpha.31",
-      "description": "Node-RED based backend for NSPanel Lovelace UI custom firmware.",
-      "updated_at": "2023-10-27T10:22:00.758Z",
-      "types": [],
-      "keywords": [
-        "node-red",
-        "lovelace ui",
-        "nspanel"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-nspanel-lui"
     },
     {
       "id": "node-red-contrib-ctrlx-automation",
@@ -649,33 +819,6 @@
         "electric"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-load-balance-knapsack"
-    },
-    {
-      "id": "@starke-dms/node-red",
-      "version": "0.0.9",
-      "description": "node-red for starke-dms rest-api",
-      "updated_at": "2023-10-25T10:13:55.988Z",
-      "types": [
-        "starke-dms-login",
-        "starke-dms-logout",
-        "starke-dms-write-log",
-        "starke-dms-get-metadata",
-        "starke-dms-set-metadata",
-        "starke-dms-set-client",
-        "starke-dms-set-doctype",
-        "starke-dms-set-indexes",
-        "starke-dms-set-protection",
-        "starke-dms-set-year",
-        "starke-dms-search",
-        "starke-dms-download-document",
-        "starke-dms-archive-document",
-        "starke-dms-generic"
-      ],
-      "keywords": [
-        "starke-dms",
-        "node-red"
-      ],
-      "url": "https://flows.nodered.org/node/@starke-dms/node-red"
     },
     {
       "id": "@bartbutenaers/node-red-autolayout-sidebar",
@@ -1662,26 +1805,6 @@
       "url": "https://flows.nodered.org/node/node-red-dashboard"
     },
     {
-      "id": "node-red-contrib-blockly",
-      "version": "2.2.0",
-      "description": "A Node Red node for visual programming a function using Blockly",
-      "updated_at": "2023-10-18T20:09:23.195Z",
-      "types": [
-        "Blockly",
-        "blockly-config"
-      ],
-      "keywords": [
-        "node-red",
-        "blockly",
-        "function",
-        "visual",
-        "programming",
-        "javascript",
-        "generate"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-blockly"
-    },
-    {
       "id": "node-red-contrib-gpt-engineer-api",
       "version": "1.0.1",
       "description": "adds Node to call  gpt-engineer through ssh connection and cli commands",
@@ -2421,24 +2544,6 @@
         "download"
       ],
       "url": "https://flows.nodered.org/node/@prescient-devices/node-red-contrib-downloadfile"
-    },
-    {
-      "id": "@node-red-contrib-themes/theme-collection",
-      "version": "3.1.4",
-      "description": "A collection of themes for Node-RED",
-      "updated_at": "2023-10-11T20:48:29.222Z",
-      "types": [],
-      "keywords": [
-        "node-red",
-        "nodered",
-        "theme",
-        "themes",
-        "plugin",
-        "plugins",
-        "dark",
-        "light"
-      ],
-      "url": "https://flows.nodered.org/node/@node-red-contrib-themes/theme-collection"
     },
     {
       "id": "node-red-contrib-home-assistant-websocket",
@@ -6443,112 +6548,6 @@
         "sentry"
       ],
       "url": "https://flows.nodered.org/node/mpowr-it-node-red-sentry-node"
-    },
-    {
-      "id": "@edgepi-cloud/node-red-edgepi-thermocouple",
-      "version": "1.0.4",
-      "description": "A node-red node for EdgePi thermocouple module",
-      "updated_at": "2023-09-03T19:11:21.729Z",
-      "types": [
-        "edgepi-thermocouple-node"
-      ],
-      "keywords": [
-        "edgepi",
-        "thermocouple",
-        "node-red"
-      ],
-      "url": "https://flows.nodered.org/node/@edgepi-cloud/node-red-edgepi-thermocouple"
-    },
-    {
-      "id": "@edgepi-cloud/node-red-edgepi-relay",
-      "version": "1.0.1",
-      "description": "node-red node for edgepi relay module utilizing remote procedure calls",
-      "updated_at": "2023-09-03T19:04:55.887Z",
-      "types": [
-        "edgepi-relay-node"
-      ],
-      "keywords": [
-        "node-red",
-        "edgepi",
-        "rpc"
-      ],
-      "url": "https://flows.nodered.org/node/@edgepi-cloud/node-red-edgepi-relay"
-    },
-    {
-      "id": "@edgepi-cloud/node-red-edgepi-led",
-      "version": "1.0.4",
-      "description": "Node for EdgePi Led Array",
-      "updated_at": "2023-09-03T19:01:23.885Z",
-      "types": [
-        "edgepi-led-node"
-      ],
-      "keywords": [
-        "node-red",
-        "edgepi",
-        "led",
-        "edgepi-led"
-      ],
-      "url": "https://flows.nodered.org/node/@edgepi-cloud/node-red-edgepi-led"
-    },
-    {
-      "id": "@edgepi-cloud/node-red-edgepi-digital-out",
-      "version": "1.0.4",
-      "description": "node-red node for edgepi digital output module utilizing remote procedure calls",
-      "updated_at": "2023-09-03T19:00:05.710Z",
-      "types": [
-        "edgepi-digital-out-node"
-      ],
-      "keywords": [
-        "node-red",
-        "edgepi",
-        "rpc"
-      ],
-      "url": "https://flows.nodered.org/node/@edgepi-cloud/node-red-edgepi-digital-out"
-    },
-    {
-      "id": "@edgepi-cloud/node-red-edgepi-digital-input",
-      "version": "1.0.1",
-      "description": "node-red node for edgepi digital-input module utilizing remote procedure calls",
-      "updated_at": "2023-09-03T18:58:37.985Z",
-      "types": [
-        "edgepi-digital-input-node"
-      ],
-      "keywords": [
-        "node-red",
-        "edgepi",
-        "rpc"
-      ],
-      "url": "https://flows.nodered.org/node/@edgepi-cloud/node-red-edgepi-digital-input"
-    },
-    {
-      "id": "@edgepi-cloud/node-red-edgepi-dac",
-      "version": "1.0.3",
-      "description": "node-red node for edgepi dac module utilizing remote procedure calls",
-      "updated_at": "2023-09-03T18:56:47.077Z",
-      "types": [
-        "edgepi-dac-node"
-      ],
-      "keywords": [
-        "node-red",
-        "edgepi",
-        "rpc"
-      ],
-      "url": "https://flows.nodered.org/node/@edgepi-cloud/node-red-edgepi-dac"
-    },
-    {
-      "id": "@edgepi-cloud/node-red-edgepi-adc",
-      "version": "1.0.1",
-      "description": "node-red node for edgepi adc module utilizing remote procedure calls",
-      "updated_at": "2023-09-03T18:55:59.925Z",
-      "types": [
-        "edgepi-adc-node"
-      ],
-      "keywords": [
-        "node-red",
-        "edgepi",
-        "rpc"
-      ],
-      "url": "https://flows.nodered.org/node/@edgepi-cloud/node-red-edgepi-adc"
     },
     {
       "id": "@racksync/node-red-contrib-moving-average",
