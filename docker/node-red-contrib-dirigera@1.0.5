@@ -1,0 +1,44 @@
+#0 building with "default" instance using docker driver
+
+#1 [internal] load .dockerignore
+#1 transferring context: 2B done
+#1 DONE 0.0s
+
+#2 [internal] load build definition from Dockerfile
+#2 transferring dockerfile: 118B done
+#2 DONE 0.0s
+
+#3 [internal] load metadata for docker.io/nodered/node-red:latest
+#3 DONE 0.2s
+
+#4 [1/2] FROM docker.io/nodered/node-red@sha256:0e3b590064a6bb32996aaa4ca63f0c17e63c877cc5219de501820e6457a616f1
+#4 CACHED
+
+#5 [2/2] RUN npm install npm install node-red-contrib-dirigera@1.0.5
+#5 2.221 npm WARN EBADENGINE Unsupported engine {
+#5 2.221 npm WARN EBADENGINE   package: 'npm@10.2.2',
+#5 2.222 npm WARN EBADENGINE   required: { node: '^18.17.0 || >=20.5.0' },
+#5 2.222 npm WARN EBADENGINE   current: { node: 'v16.20.2', npm: '8.19.4' }
+#5 2.222 npm WARN EBADENGINE }
+#5 4.306 
+#5 4.306 added 4 packages, and audited 533 packages in 4s
+#5 4.306 
+#5 4.306 68 packages are looking for funding
+#5 4.306   run `npm fund` for details
+#5 4.307 
+#5 4.307 found 0 vulnerabilities
+#5 4.308 npm notice 
+#5 4.308 npm notice New major version of npm available! 8.19.4 -> 10.2.2
+#5 4.308 npm notice Changelog: <https://github.com/npm/cli/releases/tag/v10.2.2>
+#5 4.308 npm notice Run `npm install -g npm@10.2.2` to update!
+#5 4.308 npm notice 
+#5 DONE 4.4s
+
+#6 exporting to image
+#6 exporting layers
+#6 exporting layers 1.0s done
+#6 writing image sha256:6b512fd8d560cad74f415d33ea002127640f552065bc7692072406b1da682f98 done
+#6 naming to docker.io/library/tmp done
+#6 DONE 1.0s
+
+----
