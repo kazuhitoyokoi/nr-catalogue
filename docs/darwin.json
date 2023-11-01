@@ -1,7 +1,168 @@
 {
   "name": "Catalogue for macOS",
-  "updated_at": "2023-10-31T00:40:09.324Z",
+  "updated_at": "2023-11-01T00:43:16.898Z",
   "modules": [
+    {
+      "id": "node-red-contrib-shelly",
+      "version": "10.14.3",
+      "description": "Shelly nodes.",
+      "updated_at": "2023-10-31T19:11:21.798Z",
+      "types": [
+        "shelly-gen1-server",
+        "shelly-gen1",
+        "shelly-gen2-server",
+        "shelly-gen2",
+        "shelly-cloud-server",
+        "shelly-cloud"
+      ],
+      "keywords": [
+        "node-red",
+        "shelly"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-shelly"
+    },
+    {
+      "id": "@elipse/e3-node-red",
+      "version": "1.0.4",
+      "description": "Nodes for communication with Elipse E3",
+      "updated_at": "2023-10-31T18:56:19.311Z",
+      "types": [
+        "E3Tag",
+        "E3AdviseTagList",
+        "connectionConfigNode"
+      ],
+      "keywords": [
+        "elipse-e3",
+        "node-red"
+      ],
+      "url": "https://flows.nodered.org/node/@elipse/e3-node-red"
+    },
+    {
+      "id": "@joe-ab1do/mcp-pcf-aio",
+      "version": "3.2.1",
+      "description": "Node-Red nodes for i2c port expanders MCP23008, MCP23017, PCF8574(A) & PCF8575",
+      "updated_at": "2023-10-31T18:23:55.819Z",
+      "types": [
+        "mcp pcf chip",
+        "mcp pcf in",
+        "mcp pcf out"
+      ],
+      "keywords": [
+        "node-red",
+        "mcp23008",
+        "mcp23017",
+        "pcf8574",
+        "pcf8574A",
+        "pcf8575"
+      ],
+      "url": "https://flows.nodered.org/node/@joe-ab1do/mcp-pcf-aio"
+    },
+    {
+      "id": "node-red-contrib-knx-ultimate",
+      "version": "2.2.4",
+      "description": "Control your KNX intallation via Node-Red! Single Node KNX IN/OUT with optional ETS group address importer. Easy to use and highly configurable. With integrated Philips HUE devices control.",
+      "updated_at": "2023-10-31T16:59:03.334Z",
+      "types": [
+        "knxUltimate",
+        "knxUltimateSceneController",
+        "knxUltimateWatchDog",
+        "knxUltimateLogger",
+        "knxUltimate-config",
+        "knxUltimateGlobalContext",
+        "knxUltimateAlerter",
+        "knxUltimateLoadControl",
+        "knxUltimateViewer",
+        "hue-config",
+        "knxUltimateHueLight",
+        "knxUltimateHueButton",
+        "knxUltimateHueMotion",
+        "knxUltimateHueTapDial",
+        "knxUltimateHueLightSensor",
+        "knxUltimateHueTemperatureSensor",
+        "knxUltimateHueScene",
+        "knxUltimateHueBattery"
+      ],
+      "keywords": [
+        "node-red",
+        "KNX",
+        "ETS",
+        "eib",
+        "konnex",
+        "IOT",
+        "hue"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-knx-ultimate"
+    },
+    {
+      "id": "node-red-contrib-pylips-philips-tv-control",
+      "version": "1.1.7",
+      "description": "This is only a subflow which then calls the python script in pylips. So the rest of the readme is directly copied from there.",
+      "updated_at": "2023-10-31T13:36:49.102Z",
+      "types": [],
+      "keywords": [
+        "Philips",
+        "tv",
+        "pylips",
+        "remote",
+        "node-red"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-pylips-philips-tv-control"
+    },
+    {
+      "id": "node-red-contrib-vib-smart-valve",
+      "version": "0.1.29",
+      "description": "Smart Valve Managemeent",
+      "updated_at": "2023-10-31T11:22:55.396Z",
+      "types": [
+        "smart-valve"
+      ],
+      "keywords": [
+        "node-red",
+        "Heating",
+        "valve",
+        "trv",
+        "climate"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-vib-smart-valve"
+    },
+    {
+      "id": "@hexa-ai/node-red-contrib-hexa-ai",
+      "version": "1.1.1",
+      "description": "A set of nodes for working with variables (reading, writing, history, alarm).",
+      "updated_at": "2023-10-31T08:14:15.119Z",
+      "types": [
+        "warp10",
+        "read-variable",
+        "on-alarm",
+        "write-variable",
+        "history-warp10"
+      ],
+      "keywords": [
+        "node-red",
+        "warp10",
+        "hexa-ai",
+        "variables",
+        "history",
+        "alarm"
+      ],
+      "url": "https://flows.nodered.org/node/@hexa-ai/node-red-contrib-hexa-ai"
+    },
+    {
+      "id": "node-red-contrib-alexa-master-function",
+      "version": "30.10.2107",
+      "description": "Beta version",
+      "updated_at": "2023-10-31T00:06:09.917Z",
+      "types": [
+        "alexa-master-function"
+      ],
+      "keywords": [
+        "node-red",
+        "mysql",
+        "database",
+        "r2"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-alexa-master-function"
+    },
     {
       "id": "node-red-contrib-blockly",
       "version": "2.3.0",
@@ -34,23 +195,6 @@
         "nspanel"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-nspanel-lui"
-    },
-    {
-      "id": "node-red-contrib-vib-smart-valve",
-      "version": "0.1.28",
-      "description": "Smart Valve Managemeent",
-      "updated_at": "2023-10-30T12:26:07.189Z",
-      "types": [
-        "smart-valve"
-      ],
-      "keywords": [
-        "node-red",
-        "Heating",
-        "valve",
-        "trv",
-        "climate"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-vib-smart-valve"
     },
     {
       "id": "node-red-contrib-vib-smart-scheduler",
@@ -109,42 +253,6 @@
       "url": "https://flows.nodered.org/node/@node-red-contrib-themes/theme-collection"
     },
     {
-      "id": "node-red-contrib-knx-ultimate",
-      "version": "2.2.2",
-      "description": "Control your KNX intallation via Node-Red! Single Node KNX IN/OUT with optional ETS group address importer. Easy to use and highly configurable. With integrated Philips HUE devices control.",
-      "updated_at": "2023-10-30T10:59:18.750Z",
-      "types": [
-        "knxUltimate",
-        "knxUltimateSceneController",
-        "knxUltimateWatchDog",
-        "knxUltimateLogger",
-        "knxUltimate-config",
-        "knxUltimateGlobalContext",
-        "knxUltimateAlerter",
-        "knxUltimateLoadControl",
-        "knxUltimateViewer",
-        "hue-config",
-        "knxUltimateHueLight",
-        "knxUltimateHueButton",
-        "knxUltimateHueMotion",
-        "knxUltimateHueTapDial",
-        "knxUltimateHueLightSensor",
-        "knxUltimateHueTemperatureSensor",
-        "knxUltimateHueScene",
-        "knxUltimateHueBattery"
-      ],
-      "keywords": [
-        "node-red",
-        "KNX",
-        "ETS",
-        "eib",
-        "konnex",
-        "IOT",
-        "hue"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-knx-ultimate"
-    },
-    {
       "id": "@starke-dms/node-red",
       "version": "0.0.10",
       "description": "node-red for starke-dms rest-api",
@@ -171,22 +279,6 @@
         "node-red"
       ],
       "url": "https://flows.nodered.org/node/@starke-dms/node-red"
-    },
-    {
-      "id": "node-red-contrib-alexa-master-function",
-      "version": "29.10.1937",
-      "description": "Beta version",
-      "updated_at": "2023-10-29T22:36:01.431Z",
-      "types": [
-        "alexa-master-function"
-      ],
-      "keywords": [
-        "node-red",
-        "mysql",
-        "database",
-        "r2"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-alexa-master-function"
     },
     {
       "id": "node-red-contrib-power-saver",
@@ -411,21 +503,6 @@
         "bodhi"
       ],
       "url": "https://flows.nodered.org/node/@softwaredevelopment/node-red-contrib-bodhi-connector"
-    },
-    {
-      "id": "node-red-contrib-pylips-philips-tv-control",
-      "version": "1.1.5",
-      "description": "This is only a subflow which then calls the python script in pylips. So the rest of the readme is directly copied from there.",
-      "updated_at": "2023-10-27T14:10:13.065Z",
-      "types": [],
-      "keywords": [
-        "Philips",
-        "tv",
-        "pylips",
-        "remote",
-        "node-red"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-pylips-philips-tv-control"
     },
     {
       "id": "node-red-contrib-opcua",
@@ -766,25 +843,6 @@
         "birdsong"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-dawnchorus"
-    },
-    {
-      "id": "node-red-contrib-shelly",
-      "version": "10.14.2",
-      "description": "Shelly nodes.",
-      "updated_at": "2023-10-25T21:55:33.707Z",
-      "types": [
-        "shelly-gen1-server",
-        "shelly-gen1",
-        "shelly-gen2-server",
-        "shelly-gen2",
-        "shelly-cloud-server",
-        "shelly-cloud"
-      ],
-      "keywords": [
-        "node-red",
-        "shelly"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-shelly"
     },
     {
       "id": "@appmodule/node-red-contrib-siot",
@@ -1182,26 +1240,6 @@
         "ikea"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-dirigera"
-    },
-    {
-      "id": "@joe-ab1do/mcp-pcf-aio",
-      "version": "3.2.0",
-      "description": "Node-Red nodes for i2c port expanders MCP23008, MCP23017, PCF8574(A) & PCF8575",
-      "updated_at": "2023-10-23T18:52:33.366Z",
-      "types": [
-        "mcp pcf chip",
-        "mcp pcf in",
-        "mcp pcf out"
-      ],
-      "keywords": [
-        "node-red",
-        "mcp23008",
-        "mcp23017",
-        "pcf8574",
-        "pcf8574A",
-        "pcf8575"
-      ],
-      "url": "https://flows.nodered.org/node/@joe-ab1do/mcp-pcf-aio"
     },
     {
       "id": "@psotoulloa/node-red-neo4jdriver",
@@ -5109,28 +5147,6 @@
       "url": "https://flows.nodered.org/node/node-red-notion"
     },
     {
-      "id": "@hexa-ai/node-red-contrib-hexa-ai",
-      "version": "1.1.0",
-      "description": "A set of nodes for working with variables (reading, writing, history, alarm).",
-      "updated_at": "2023-09-22T08:06:20.016Z",
-      "types": [
-        "warp10",
-        "read-variable",
-        "on-alarm",
-        "write-variable",
-        "history-warp10"
-      ],
-      "keywords": [
-        "node-red",
-        "warp10",
-        "hexa-ai",
-        "variables",
-        "history",
-        "alarm"
-      ],
-      "url": "https://flows.nodered.org/node/@hexa-ai/node-red-contrib-hexa-ai"
-    },
-    {
       "id": "@redplc/node-red-time",
       "version": "2.0.2",
       "description": "Node-RED nodes for get System-Time or NTP-Time using with redPlc nodes",
@@ -6291,22 +6307,6 @@
         "query game server"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-gamedig"
-    },
-    {
-      "id": "@elipse/e3-node-red",
-      "version": "1.0.1",
-      "description": "Nodes for communication with Elipse E3",
-      "updated_at": "2023-09-05T18:40:38.386Z",
-      "types": [
-        "E3Tag",
-        "E3AdviseTagList",
-        "connectionConfigNode"
-      ],
-      "keywords": [
-        "elipse-e3",
-        "node-red"
-      ],
-      "url": "https://flows.nodered.org/node/@elipse/e3-node-red"
     },
     {
       "id": "node-red-contrib-matrix-chat",
