@@ -1,7 +1,93 @@
 {
   "name": "Catalogue for Docker",
-  "updated_at": "2023-11-01T16:09:37.462Z",
+  "updated_at": "2023-11-02T15:58:40.236Z",
   "modules": [
+    {
+      "id": "node-red-contrib-knx-ultimate",
+      "version": "2.2.8",
+      "description": "Control your KNX intallation via Node-Red! Single Node KNX IN/OUT with optional ETS group address importer. Easy to use and highly configurable. With integrated Philips HUE devices control.",
+      "updated_at": "2023-11-02T14:18:11.848Z",
+      "types": [
+        "knxUltimate",
+        "knxUltimateSceneController",
+        "knxUltimateWatchDog",
+        "knxUltimateLogger",
+        "knxUltimate-config",
+        "knxUltimateGlobalContext",
+        "knxUltimateAlerter",
+        "knxUltimateLoadControl",
+        "knxUltimateViewer",
+        "hue-config",
+        "knxUltimateHueLight",
+        "knxUltimateHueButton",
+        "knxUltimateHueMotion",
+        "knxUltimateHueTapDial",
+        "knxUltimateHueLightSensor",
+        "knxUltimateHueTemperatureSensor",
+        "knxUltimateHueScene",
+        "knxUltimateHueBattery"
+      ],
+      "keywords": [
+        "node-red",
+        "KNX",
+        "ETS",
+        "eib",
+        "konnex",
+        "IOT",
+        "hue"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-knx-ultimate"
+    },
+    {
+      "id": "@opcua/for-node-red",
+      "version": "2.0.4",
+      "description": "The Node-RED node to communicate via OPC UA, powered NodeOPCUA and developed by Sterfive's team",
+      "updated_at": "2023-11-02T08:36:10.906Z",
+      "types": [],
+      "keywords": [
+        "node-red",
+        "OPC UA",
+        "opc-ua",
+        "unified architecture",
+        "opc foundation",
+        "node-opcua",
+        "IIoT"
+      ],
+      "url": "https://flows.nodered.org/node/@opcua/for-node-red"
+    },
+    {
+      "id": "@lightcode/node-red-contrib-github-sdk",
+      "version": "0.2.0",
+      "description": "Provide Github Octokit SDK in msg.githubOctokit",
+      "updated_at": "2023-11-01T22:18:01.675Z",
+      "types": [
+        "github-octokit"
+      ],
+      "keywords": [
+        "node-red",
+        "github",
+        "octokit",
+        "sdk"
+      ],
+      "url": "https://flows.nodered.org/node/@lightcode/node-red-contrib-github-sdk"
+    },
+    {
+      "id": "node-red-contrib-vib-smart-valve",
+      "version": "0.1.30",
+      "description": "Smart Valve Managemeent",
+      "updated_at": "2023-11-01T16:55:54.686Z",
+      "types": [
+        "smart-valve"
+      ],
+      "keywords": [
+        "node-red",
+        "Heating",
+        "valve",
+        "trv",
+        "climate"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-vib-smart-valve"
+    },
     {
       "id": "@platmac/node-red-platma-whoami",
       "version": "1.0.0",
@@ -65,42 +151,6 @@
         "ikea"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-dirigera"
-    },
-    {
-      "id": "node-red-contrib-knx-ultimate",
-      "version": "2.2.6",
-      "description": "Control your KNX intallation via Node-Red! Single Node KNX IN/OUT with optional ETS group address importer. Easy to use and highly configurable. With integrated Philips HUE devices control.",
-      "updated_at": "2023-11-01T10:47:37.789Z",
-      "types": [
-        "knxUltimate",
-        "knxUltimateSceneController",
-        "knxUltimateWatchDog",
-        "knxUltimateLogger",
-        "knxUltimate-config",
-        "knxUltimateGlobalContext",
-        "knxUltimateAlerter",
-        "knxUltimateLoadControl",
-        "knxUltimateViewer",
-        "hue-config",
-        "knxUltimateHueLight",
-        "knxUltimateHueButton",
-        "knxUltimateHueMotion",
-        "knxUltimateHueTapDial",
-        "knxUltimateHueLightSensor",
-        "knxUltimateHueTemperatureSensor",
-        "knxUltimateHueScene",
-        "knxUltimateHueBattery"
-      ],
-      "keywords": [
-        "node-red",
-        "KNX",
-        "ETS",
-        "eib",
-        "konnex",
-        "IOT",
-        "hue"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-knx-ultimate"
     },
     {
       "id": "node-red-contrib-web-worldmap",
@@ -222,6 +272,33 @@
       "url": "https://flows.nodered.org/node/node-red-contrib-august"
     },
     {
+      "id": "@hsync/node-red-hsync",
+      "version": "0.6.0",
+      "description": "put node-red online securely with a hsync server",
+      "updated_at": "2023-10-31T21:28:14.545Z",
+      "types": [
+        "hsync-connection",
+        "hsync-peer",
+        "hsync-in",
+        "hsync-out",
+        "hs-p2p-in",
+        "hs-p2p-out"
+      ],
+      "keywords": [
+        "node-red",
+        "hsync",
+        "ngrok",
+        "iot",
+        "mqtt",
+        "messaging",
+        "reverse-proxy",
+        "rtc",
+        "p2p",
+        "vpn"
+      ],
+      "url": "https://flows.nodered.org/node/@hsync/node-red-hsync"
+    },
+    {
       "id": "node-red-contrib-shelly",
       "version": "10.14.3",
       "description": "Shelly nodes.",
@@ -290,23 +367,6 @@
         "node-red"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-pylips-philips-tv-control"
-    },
-    {
-      "id": "node-red-contrib-vib-smart-valve",
-      "version": "0.1.29",
-      "description": "Smart Valve Managemeent",
-      "updated_at": "2023-10-31T11:22:55.396Z",
-      "types": [
-        "smart-valve"
-      ],
-      "keywords": [
-        "node-red",
-        "Heating",
-        "valve",
-        "trv",
-        "climate"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-vib-smart-valve"
     },
     {
       "id": "@hexa-ai/node-red-contrib-hexa-ai",
@@ -737,6 +797,29 @@
         "dusk"
       ],
       "url": "https://flows.nodered.org/node/@tbowmo/node-red-small-timer"
+    },
+    {
+      "id": "@hsync/node-red-ble-uart",
+      "version": "0.4.0",
+      "description": "Turn your node-red instance into a simple BLE UART device",
+      "updated_at": "2023-10-26T16:17:45.303Z",
+      "types": [
+        "uart-in",
+        "uart-notify"
+      ],
+      "keywords": [
+        "node-red",
+        "bluetooth",
+        "nordic",
+        "serial",
+        "uart",
+        "ble",
+        "peripheral",
+        "bluetooth low energy",
+        "bleno",
+        "noble"
+      ],
+      "url": "https://flows.nodered.org/node/@hsync/node-red-ble-uart"
     },
     {
       "id": "node-red-contrib-tado-client",
@@ -1289,29 +1372,6 @@
       "url": "https://flows.nodered.org/node/node-red-contrib-simple-bu"
     },
     {
-      "id": "@hsync/node-red-ble-uart",
-      "version": "0.2.0",
-      "description": "Turn your node-red instance into a simple BLE UART device",
-      "updated_at": "2023-10-24T06:33:17.582Z",
-      "types": [
-        "uart-in",
-        "uart-notify"
-      ],
-      "keywords": [
-        "node-red",
-        "bluetooth",
-        "nordic",
-        "serial",
-        "uart",
-        "ble",
-        "peripheral",
-        "bluetooth low energy",
-        "bleno",
-        "noble"
-      ],
-      "url": "https://flows.nodered.org/node/@hsync/node-red-ble-uart"
-    },
-    {
       "id": "@redplc/node-red-redplc",
       "version": "2.0.0",
       "description": "Node-Red nodes for the realization of Software-Plc with Ladder-Logic",
@@ -1860,33 +1920,6 @@
         "dropdown"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-dictionary"
-    },
-    {
-      "id": "@hsync/node-red-hsync",
-      "version": "0.5.0",
-      "description": "put node-red online securely with a hsync server",
-      "updated_at": "2023-10-20T01:41:18.497Z",
-      "types": [
-        "hsync-connection",
-        "hsync-peer",
-        "hsync-in",
-        "hsync-out",
-        "hs-p2p-in",
-        "hs-p2p-out"
-      ],
-      "keywords": [
-        "node-red",
-        "hsync",
-        "ngrok",
-        "iot",
-        "mqtt",
-        "messaging",
-        "reverse-proxy",
-        "rtc",
-        "p2p",
-        "vpn"
-      ],
-      "url": "https://flows.nodered.org/node/@hsync/node-red-hsync"
     },
     {
       "id": "node-red-contrib-rollun-aws-sp-api",
