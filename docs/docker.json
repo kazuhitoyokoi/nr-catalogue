@@ -1,12 +1,95 @@
 {
   "name": "Catalogue for Docker",
-  "updated_at": "2023-11-02T15:58:40.236Z",
+  "updated_at": "2023-11-03T16:00:26.569Z",
   "modules": [
     {
+      "id": "node-red-contrib-topsail",
+      "version": "3.1.0",
+      "description": "Interface with Topsail",
+      "updated_at": "2023-11-03T14:10:19.202Z",
+      "types": [
+        "email",
+        "ping",
+        "cbw",
+        "sms",
+        "influx-insert",
+        "influx-query",
+        "camera-capture-image",
+        "camera-capture-video",
+        "bosch-vca",
+        "sftp",
+        "dms-activate",
+        "dms-status",
+        "heartbeat",
+        "sunguide-ids"
+      ],
+      "keywords": [
+        "node-red",
+        "topsail"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-topsail"
+    },
+    {
+      "id": "node-red-contrib-presence-faker",
+      "version": "1.8.7",
+      "description": "Simulates home occupancy by intermittently activating and deactivating devices (e.g. lights) at random intervals",
+      "updated_at": "2023-11-03T13:54:16.705Z",
+      "types": [
+        "presence-faker"
+      ],
+      "keywords": [
+        "node-red",
+        "smart home",
+        "vacation",
+        "presence",
+        "lights",
+        "cron",
+        "occupation",
+        "simulator"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-presence-faker"
+    },
+    {
+      "id": "cloud4machine-cloud-nodered",
+      "version": "0.2.56",
+      "description": "A collection of node red nodes to define custom cloud⁴machine flows",
+      "updated_at": "2023-11-03T13:51:11.541Z",
+      "types": [
+        "rule set",
+        "custom parameter",
+        "relevant error",
+        "mqtt-cloud-broker",
+        "mqtt cloud in",
+        "mqtt cloud out"
+      ],
+      "keywords": [
+        "node-red",
+        "cloud4machine",
+        "grob-net4industry"
+      ],
+      "url": "https://flows.nodered.org/node/cloud4machine-cloud-nodered"
+    },
+    {
+      "id": "node-red-contrib-alexa-master-function",
+      "version": "3.11.1013",
+      "description": "Beta version",
+      "updated_at": "2023-11-03T13:05:33.627Z",
+      "types": [
+        "alexa-master-function"
+      ],
+      "keywords": [
+        "node-red",
+        "mysql",
+        "database",
+        "r2"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-alexa-master-function"
+    },
+    {
       "id": "node-red-contrib-knx-ultimate",
-      "version": "2.2.8",
+      "version": "2.2.10",
       "description": "Control your KNX intallation via Node-Red! Single Node KNX IN/OUT with optional ETS group address importer. Easy to use and highly configurable. With integrated Philips HUE devices control.",
-      "updated_at": "2023-11-02T14:18:11.848Z",
+      "updated_at": "2023-11-03T12:44:11.966Z",
       "types": [
         "knxUltimate",
         "knxUltimateSceneController",
@@ -37,6 +120,150 @@
         "hue"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-knx-ultimate"
+    },
+    {
+      "id": "node-red-contrib-vib-smart-valve",
+      "version": "0.1.33",
+      "description": "Smart Valve Managemeent",
+      "updated_at": "2023-11-03T06:35:31.269Z",
+      "types": [
+        "smart-valve"
+      ],
+      "keywords": [
+        "node-red",
+        "Heating",
+        "valve",
+        "trv",
+        "climate"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-vib-smart-valve"
+    },
+    {
+      "id": "@karthik1984/node-red-contrib-ocpp-client",
+      "version": "1.1.0",
+      "description": "This library provides node red OCPP 1.6 client which can connect to any OCPP 1.6 server and it supports security profile 1. It can be extended to support security profile 2 and 3.",
+      "updated_at": "2023-11-03T04:33:27.838Z",
+      "types": [
+        "ocpp-client"
+      ],
+      "keywords": [
+        "node-red",
+        "ocpp"
+      ],
+      "url": "https://flows.nodered.org/node/@karthik1984/node-red-contrib-ocpp-client"
+    },
+    {
+      "id": "node-red-contrib-caseta",
+      "version": "3.0.0",
+      "description": "Node-RED collection to observe and control a Lutron Caseta home network.",
+      "updated_at": "2023-11-03T02:30:01.492Z",
+      "types": [
+        "caseta-bridge",
+        "caseta-react",
+        "caseta-control",
+        "caseta-query"
+      ],
+      "keywords": [
+        "node-red",
+        "lutron",
+        "caseta",
+        "smartbridge pro",
+        "smart hub pro"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-caseta"
+    },
+    {
+      "id": "@kenke7/node-red-contrib-modbus",
+      "version": "5.28.1",
+      "description": "The all in one Modbus TCP and Serial contribution package for Node-RED.",
+      "updated_at": "2023-11-02T18:12:32.422Z",
+      "types": [
+        "modbus-client",
+        "modbus-response",
+        "modbus-read",
+        "modbus-getter",
+        "modbus-flex-getter",
+        "modbus-write",
+        "modbus-flex-write",
+        "modbus-server",
+        "modbus-flex-server",
+        "modbus-queue-info",
+        "modbus-flex-connector",
+        "modbus-io-config",
+        "modbus-response-filter",
+        "modbus-flex-sequencer",
+        "modbus-flex-fc"
+      ],
+      "keywords": [
+        "node-red",
+        "plusfornodered",
+        "modbus",
+        "automation",
+        "biancoroyal"
+      ],
+      "url": "https://flows.nodered.org/node/@kenke7/node-red-contrib-modbus"
+    },
+    {
+      "id": "@ralphwetzel/node-red-context-monitor",
+      "version": "1.0.0",
+      "description": "A Node-RED node to monitor a context.",
+      "updated_at": "2023-11-02T15:39:20.889Z",
+      "types": [
+        "context-monitor"
+      ],
+      "keywords": [
+        "node-red",
+        "context"
+      ],
+      "url": "https://flows.nodered.org/node/@ralphwetzel/node-red-context-monitor"
+    },
+    {
+      "id": "node-red-contrib-openai-ubos",
+      "version": "1.0.7",
+      "description": "A Node-RED node that interacts with OpenAI machine learning models to generate text like ChatGPT.",
+      "updated_at": "2023-11-02T15:23:29.577Z",
+      "types": [],
+      "keywords": [
+        "node-red",
+        "chatgpt",
+        "nodejs",
+        "javascript",
+        "api",
+        "flow",
+        "npm",
+        "machine-learning",
+        "node",
+        "example",
+        "text-generation",
+        "openai",
+        "code-generation",
+        "conversational-ai",
+        "gpt-3",
+        "gpt-4",
+        "dall-e",
+        "ai"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-openai-ubos"
+    },
+    {
+      "id": "node-red-contrib-web-worldmap",
+      "version": "4.2.1",
+      "description": "A Node-RED node to provide a web page of a world map for plotting things on.",
+      "updated_at": "2023-11-02T14:52:42.769Z",
+      "types": [
+        "worldmap",
+        "ui_worldmap",
+        "worldmap in",
+        "worldmap-tracks",
+        "worldmap-hull"
+      ],
+      "keywords": [
+        "node-red",
+        "map",
+        "world",
+        "tak"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-web-worldmap"
     },
     {
       "id": "@opcua/for-node-red",
@@ -70,23 +297,6 @@
         "sdk"
       ],
       "url": "https://flows.nodered.org/node/@lightcode/node-red-contrib-github-sdk"
-    },
-    {
-      "id": "node-red-contrib-vib-smart-valve",
-      "version": "0.1.30",
-      "description": "Smart Valve Managemeent",
-      "updated_at": "2023-11-01T16:55:54.686Z",
-      "types": [
-        "smart-valve"
-      ],
-      "keywords": [
-        "node-red",
-        "Heating",
-        "valve",
-        "trv",
-        "climate"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-vib-smart-valve"
     },
     {
       "id": "@platmac/node-red-platma-whoami",
@@ -153,26 +363,6 @@
       "url": "https://flows.nodered.org/node/node-red-contrib-dirigera"
     },
     {
-      "id": "node-red-contrib-web-worldmap",
-      "version": "4.2.0",
-      "description": "A Node-RED node to provide a web page of a world map for plotting things on.",
-      "updated_at": "2023-11-01T09:33:06.933Z",
-      "types": [
-        "worldmap",
-        "ui_worldmap",
-        "worldmap in",
-        "worldmap-tracks",
-        "worldmap-hull"
-      ],
-      "keywords": [
-        "node-red",
-        "map",
-        "world",
-        "tak"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-web-worldmap"
-    },
-    {
       "id": "node-red-contrib-boolean-logic-ultimate",
       "version": "1.1.1",
       "description": "A set of Node-RED enhanced boolean logic and utility nodes, flow interruption, blinker, invert, filter, toggle etc.., with persistent values after reboot. Compatible also with Homeassistant values.",
@@ -201,22 +391,6 @@
         "logic"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-boolean-logic-ultimate"
-    },
-    {
-      "id": "node-red-contrib-alexa-master-function",
-      "version": "31.10.2257",
-      "description": "Beta version",
-      "updated_at": "2023-11-01T01:56:14.144Z",
-      "types": [
-        "alexa-master-function"
-      ],
-      "keywords": [
-        "node-red",
-        "mysql",
-        "database",
-        "r2"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-alexa-master-function"
     },
     {
       "id": "node-red-contrib-onstar2",
@@ -1961,26 +2135,6 @@
       "url": "https://flows.nodered.org/node/@studiobox/node-red-contrib-ui-widget-thermometer"
     },
     {
-      "id": "cloud4machine-cloud-nodered",
-      "version": "0.2.55",
-      "description": "A collection of node red nodes to define custom cloud⁴machine flows",
-      "updated_at": "2023-10-19T13:05:40.571Z",
-      "types": [
-        "rule set",
-        "custom parameter",
-        "relevant error",
-        "mqtt-cloud-broker",
-        "mqtt cloud in",
-        "mqtt cloud out"
-      ],
-      "keywords": [
-        "node-red",
-        "cloud4machine",
-        "grob-net4industry"
-      ],
-      "url": "https://flows.nodered.org/node/cloud4machine-cloud-nodered"
-    },
-    {
       "id": "@yousolution/node-red-contrib-you-injector-workdays",
       "version": "0.0.2",
       "description": "> node for schedulate a send message on only WorkDays, based on the standard injector of NodeRed",
@@ -2982,32 +3136,6 @@
         "fastxml"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-fastxml"
-    },
-    {
-      "id": "node-red-contrib-topsail",
-      "version": "3.0.6",
-      "description": "Interface with Topsail",
-      "updated_at": "2023-10-09T22:16:02.881Z",
-      "types": [
-        "email",
-        "ping",
-        "cbw",
-        "sms",
-        "influx-insert",
-        "influx-query",
-        "camera-capture-image",
-        "camera-capture-video",
-        "bosch-vca",
-        "sftp",
-        "dms-activate",
-        "dms-status",
-        "heartbeat"
-      ],
-      "keywords": [
-        "node-red",
-        "topsail"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-topsail"
     },
     {
       "id": "topological-nodered-wdio",
@@ -6010,34 +6138,6 @@
       "url": "https://flows.nodered.org/node/node-red-contrib-ui-state-trail"
     },
     {
-      "id": "node-red-contrib-openai-ubos",
-      "version": "1.0.3",
-      "description": "A Node-RED node that interacts with OpenAI machine learning models to generate text like ChatGPT.",
-      "updated_at": "2023-09-12T09:35:24.334Z",
-      "types": [],
-      "keywords": [
-        "node-red",
-        "chatgpt",
-        "nodejs",
-        "javascript",
-        "api",
-        "flow",
-        "npm",
-        "machine-learning",
-        "node",
-        "example",
-        "text-generation",
-        "openai",
-        "code-generation",
-        "conversational-ai",
-        "gpt-3",
-        "gpt-4",
-        "dall-e",
-        "ai"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-openai-ubos"
-    },
-    {
       "id": "node-red-contrib-mf-mavlink",
       "version": "2.0.8",
       "description": "A MAVLink converter for Node-RED",
@@ -8699,20 +8799,6 @@
         "ocpp chargepoint"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-ocpp"
-    },
-    {
-      "id": "@karthik1984/node-red-contrib-ocpp-client",
-      "version": "1.0.4",
-      "description": "This library provides node red OCPP 1.6 client which can connect to any OCPP 1.6 server and it supports security profile 1. It can be extended to support security profile 2 and 3.",
-      "updated_at": "2023-07-19T15:33:05.109Z",
-      "types": [
-        "ocpp-client"
-      ],
-      "keywords": [
-        "node-red",
-        "ocpp"
-      ],
-      "url": "https://flows.nodered.org/node/@karthik1984/node-red-contrib-ocpp-client"
     },
     {
       "id": "@envidatec/interval",
@@ -11681,26 +11767,6 @@
         "nibe"
       ],
       "url": "https://flows.nodered.org/node/@andrei-tatar/node-red-contrib-nibetcp"
-    },
-    {
-      "id": "node-red-contrib-caseta",
-      "version": "2.2.2",
-      "description": "Node-RED nodes to observe and control a Lutron Caseta home network.",
-      "updated_at": "2023-05-11T10:27:50.912Z",
-      "types": [
-        "caseta-bridge",
-        "caseta-react",
-        "caseta-control",
-        "caseta-query"
-      ],
-      "keywords": [
-        "node-red",
-        "lutron",
-        "caseta",
-        "smartbridge",
-        "smart hub"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-caseta"
     },
     {
       "id": "node-red-contrib-palette-event-listener2",
@@ -26523,26 +26589,6 @@
         "protobuf"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-protobuf"
-    },
-    {
-      "id": "node-red-contrib-presence-faker",
-      "version": "1.8.6",
-      "description": "Let your home appear occupied by switching devices (e.g. lights) on and off at random (configurable) times.",
-      "updated_at": "2022-05-11T03:48:06.413Z",
-      "types": [
-        "presence-faker"
-      ],
-      "keywords": [
-        "node-red",
-        "smart home",
-        "vacation",
-        "presence",
-        "lights",
-        "cron",
-        "occupation",
-        "simulator"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-presence-faker"
     },
     {
       "id": "node-red-contrib-nina",
