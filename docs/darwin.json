@@ -1,7 +1,403 @@
 {
   "name": "Catalogue for macOS",
-  "updated_at": "2023-11-01T00:43:16.898Z",
+  "updated_at": "2023-11-03T01:09:06.175Z",
   "modules": [
+    {
+      "id": "node-red-contrib-topsail",
+      "version": "3.0.9",
+      "description": "Interface with Topsail",
+      "updated_at": "2023-11-02T21:01:45.352Z",
+      "types": [
+        "email",
+        "ping",
+        "cbw",
+        "sms",
+        "influx-insert",
+        "influx-query",
+        "camera-capture-image",
+        "camera-capture-video",
+        "bosch-vca",
+        "sftp",
+        "dms-activate",
+        "dms-status",
+        "heartbeat",
+        "sunguide-ids"
+      ],
+      "keywords": [
+        "node-red",
+        "topsail"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-topsail"
+    },
+    {
+      "id": "node-red-contrib-knx-ultimate",
+      "version": "2.2.9",
+      "description": "Control your KNX intallation via Node-Red! Single Node KNX IN/OUT with optional ETS group address importer. Easy to use and highly configurable. With integrated Philips HUE devices control.",
+      "updated_at": "2023-11-02T19:57:00.205Z",
+      "types": [
+        "knxUltimate",
+        "knxUltimateSceneController",
+        "knxUltimateWatchDog",
+        "knxUltimateLogger",
+        "knxUltimate-config",
+        "knxUltimateGlobalContext",
+        "knxUltimateAlerter",
+        "knxUltimateLoadControl",
+        "knxUltimateViewer",
+        "hue-config",
+        "knxUltimateHueLight",
+        "knxUltimateHueButton",
+        "knxUltimateHueMotion",
+        "knxUltimateHueTapDial",
+        "knxUltimateHueLightSensor",
+        "knxUltimateHueTemperatureSensor",
+        "knxUltimateHueScene",
+        "knxUltimateHueBattery"
+      ],
+      "keywords": [
+        "node-red",
+        "KNX",
+        "ETS",
+        "eib",
+        "konnex",
+        "IOT",
+        "hue"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-knx-ultimate"
+    },
+    {
+      "id": "@kenke7/node-red-contrib-modbus",
+      "version": "5.28.1",
+      "description": "The all in one Modbus TCP and Serial contribution package for Node-RED.",
+      "updated_at": "2023-11-02T18:12:32.422Z",
+      "types": [
+        "modbus-client",
+        "modbus-response",
+        "modbus-read",
+        "modbus-getter",
+        "modbus-flex-getter",
+        "modbus-write",
+        "modbus-flex-write",
+        "modbus-server",
+        "modbus-flex-server",
+        "modbus-queue-info",
+        "modbus-flex-connector",
+        "modbus-io-config",
+        "modbus-response-filter",
+        "modbus-flex-sequencer",
+        "modbus-flex-fc"
+      ],
+      "keywords": [
+        "node-red",
+        "plusfornodered",
+        "modbus",
+        "automation",
+        "biancoroyal"
+      ],
+      "url": "https://flows.nodered.org/node/@kenke7/node-red-contrib-modbus"
+    },
+    {
+      "id": "node-red-contrib-vib-smart-valve",
+      "version": "0.1.32",
+      "description": "Smart Valve Managemeent",
+      "updated_at": "2023-11-02T18:09:59.787Z",
+      "types": [
+        "smart-valve"
+      ],
+      "keywords": [
+        "node-red",
+        "Heating",
+        "valve",
+        "trv",
+        "climate"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-vib-smart-valve"
+    },
+    {
+      "id": "@ralphwetzel/node-red-context-monitor",
+      "version": "1.0.0",
+      "description": "A Node-RED node to monitor a context.",
+      "updated_at": "2023-11-02T15:39:20.889Z",
+      "types": [
+        "context-monitor"
+      ],
+      "keywords": [
+        "node-red",
+        "context"
+      ],
+      "url": "https://flows.nodered.org/node/@ralphwetzel/node-red-context-monitor"
+    },
+    {
+      "id": "node-red-contrib-openai-ubos",
+      "version": "1.0.7",
+      "description": "A Node-RED node that interacts with OpenAI machine learning models to generate text like ChatGPT.",
+      "updated_at": "2023-11-02T15:23:29.577Z",
+      "types": [],
+      "keywords": [
+        "node-red",
+        "chatgpt",
+        "nodejs",
+        "javascript",
+        "api",
+        "flow",
+        "npm",
+        "machine-learning",
+        "node",
+        "example",
+        "text-generation",
+        "openai",
+        "code-generation",
+        "conversational-ai",
+        "gpt-3",
+        "gpt-4",
+        "dall-e",
+        "ai"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-openai-ubos"
+    },
+    {
+      "id": "node-red-contrib-web-worldmap",
+      "version": "4.2.1",
+      "description": "A Node-RED node to provide a web page of a world map for plotting things on.",
+      "updated_at": "2023-11-02T14:52:42.769Z",
+      "types": [
+        "worldmap",
+        "ui_worldmap",
+        "worldmap in",
+        "worldmap-tracks",
+        "worldmap-hull"
+      ],
+      "keywords": [
+        "node-red",
+        "map",
+        "world",
+        "tak"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-web-worldmap"
+    },
+    {
+      "id": "@opcua/for-node-red",
+      "version": "2.0.4",
+      "description": "The Node-RED node to communicate via OPC UA, powered NodeOPCUA and developed by Sterfive's team",
+      "updated_at": "2023-11-02T08:36:10.906Z",
+      "types": [],
+      "keywords": [
+        "node-red",
+        "OPC UA",
+        "opc-ua",
+        "unified architecture",
+        "opc foundation",
+        "node-opcua",
+        "IIoT"
+      ],
+      "url": "https://flows.nodered.org/node/@opcua/for-node-red"
+    },
+    {
+      "id": "@lightcode/node-red-contrib-github-sdk",
+      "version": "0.2.0",
+      "description": "Provide Github Octokit SDK in msg.githubOctokit",
+      "updated_at": "2023-11-01T22:18:01.675Z",
+      "types": [
+        "github-octokit"
+      ],
+      "keywords": [
+        "node-red",
+        "github",
+        "octokit",
+        "sdk"
+      ],
+      "url": "https://flows.nodered.org/node/@lightcode/node-red-contrib-github-sdk"
+    },
+    {
+      "id": "@platmac/node-red-platma-whoami",
+      "version": "1.0.0",
+      "description": "NA node for receiving personal information of the Platma user.",
+      "updated_at": "2023-11-01T13:48:52.751Z",
+      "types": [
+        "platma-whoami"
+      ],
+      "keywords": [
+        "node-red",
+        "platma",
+        "whoami"
+      ],
+      "url": "https://flows.nodered.org/node/@platmac/node-red-platma-whoami"
+    },
+    {
+      "id": "smithtek-node-red-eagleio",
+      "version": "2.6.0",
+      "description": "Smithtek Node Red EagleIO",
+      "updated_at": "2023-11-01T13:12:53.727Z",
+      "types": [
+        "smithtek-eagleio-config",
+        "smithtek-eagleio-out",
+        "smithtek-eagleio-time"
+      ],
+      "keywords": [
+        "node-red"
+      ],
+      "url": "https://flows.nodered.org/node/smithtek-node-red-eagleio"
+    },
+    {
+      "id": "victron-vrm-api",
+      "version": "0.0.7",
+      "description": "Interface with the Victron Energy VRM API",
+      "updated_at": "2023-11-01T12:26:17.498Z",
+      "types": [
+        "config-vrm-api",
+        "vrm-api"
+      ],
+      "keywords": [
+        "node-red",
+        "victron",
+        "vrm",
+        "api"
+      ],
+      "url": "https://flows.nodered.org/node/victron-vrm-api"
+    },
+    {
+      "id": "node-red-contrib-dirigera",
+      "version": "1.0.5",
+      "description": "A Node-Red Node for controlling Ikea Dirigera hub.",
+      "updated_at": "2023-11-01T11:55:04.779Z",
+      "types": [
+        "dirigera-config",
+        "dirigera",
+        "__errors__"
+      ],
+      "keywords": [
+        "node-red",
+        "dirigera",
+        "ikea"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-dirigera"
+    },
+    {
+      "id": "node-red-contrib-boolean-logic-ultimate",
+      "version": "1.1.1",
+      "description": "A set of Node-RED enhanced boolean logic and utility nodes, flow interruption, blinker, invert, filter, toggle etc.., with persistent values after reboot. Compatible also with Homeassistant values.",
+      "updated_at": "2023-11-01T08:19:56.890Z",
+      "types": [
+        "BooleanLogicUltimate",
+        "InvertUltimate",
+        "FilterUltimate",
+        "InterruptFlowUltimate",
+        "BlinkerUltimate",
+        "SimpleOutputUltimate",
+        "InjectUltimate",
+        "StatusUltimate",
+        "ImpulseUltimate",
+        "SumUltimate",
+        "toggleUltimate",
+        "RailwaySwitchUltimate",
+        "Comparator",
+        "translator-config"
+      ],
+      "keywords": [
+        "node-red",
+        "boolean",
+        "gate",
+        "filter",
+        "logic"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-boolean-logic-ultimate"
+    },
+    {
+      "id": "node-red-contrib-alexa-master-function",
+      "version": "31.10.2257",
+      "description": "Beta version",
+      "updated_at": "2023-11-01T01:56:14.144Z",
+      "types": [
+        "alexa-master-function"
+      ],
+      "keywords": [
+        "node-red",
+        "mysql",
+        "database",
+        "r2"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-alexa-master-function"
+    },
+    {
+      "id": "node-red-contrib-onstar2",
+      "version": "2.1.17",
+      "description": "An updated Node-RED Library using OnStarJS, an unofficial client library for the OnStar Vehicle API",
+      "updated_at": "2023-11-01T01:15:37.446Z",
+      "types": [
+        "get-account-vehicles",
+        "get-diagnostics",
+        "lock-myvehicle",
+        "unlock-myvehicle",
+        "start-myvehicle",
+        "cancel-start-myvehicle",
+        "alert-myvehicle",
+        "alert-myvehicle-lights",
+        "alert-myvehicle-horn",
+        "cancel-alert-myvehicle",
+        "locate-vehicle",
+        "mycharge-override",
+        "get-mycharge-profile",
+        "set-mycharge-profile",
+        "onstar2"
+      ],
+      "keywords": [
+        "node-red",
+        "OnStar",
+        "Chevrolet",
+        "Chevy",
+        "GM",
+        "GMC",
+        "Buick",
+        "Cadillac"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-onstar2"
+    },
+    {
+      "id": "node-red-contrib-august",
+      "version": "1.2.0",
+      "description": "Node-RED node to connect to August locks",
+      "updated_at": "2023-10-31T22:35:34.084Z",
+      "types": [
+        "august",
+        "august-account"
+      ],
+      "keywords": [
+        "node-red",
+        "august",
+        "yale",
+        "smart lock",
+        "smartlock",
+        "wifi lock"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-august"
+    },
+    {
+      "id": "@hsync/node-red-hsync",
+      "version": "0.6.0",
+      "description": "put node-red online securely with a hsync server",
+      "updated_at": "2023-10-31T21:28:14.545Z",
+      "types": [
+        "hsync-connection",
+        "hsync-peer",
+        "hsync-in",
+        "hsync-out",
+        "hs-p2p-in",
+        "hs-p2p-out"
+      ],
+      "keywords": [
+        "node-red",
+        "hsync",
+        "ngrok",
+        "iot",
+        "mqtt",
+        "messaging",
+        "reverse-proxy",
+        "rtc",
+        "p2p",
+        "vpn"
+      ],
+      "url": "https://flows.nodered.org/node/@hsync/node-red-hsync"
+    },
     {
       "id": "node-red-contrib-shelly",
       "version": "10.14.3",
@@ -58,42 +454,6 @@
       "url": "https://flows.nodered.org/node/@joe-ab1do/mcp-pcf-aio"
     },
     {
-      "id": "node-red-contrib-knx-ultimate",
-      "version": "2.2.4",
-      "description": "Control your KNX intallation via Node-Red! Single Node KNX IN/OUT with optional ETS group address importer. Easy to use and highly configurable. With integrated Philips HUE devices control.",
-      "updated_at": "2023-10-31T16:59:03.334Z",
-      "types": [
-        "knxUltimate",
-        "knxUltimateSceneController",
-        "knxUltimateWatchDog",
-        "knxUltimateLogger",
-        "knxUltimate-config",
-        "knxUltimateGlobalContext",
-        "knxUltimateAlerter",
-        "knxUltimateLoadControl",
-        "knxUltimateViewer",
-        "hue-config",
-        "knxUltimateHueLight",
-        "knxUltimateHueButton",
-        "knxUltimateHueMotion",
-        "knxUltimateHueTapDial",
-        "knxUltimateHueLightSensor",
-        "knxUltimateHueTemperatureSensor",
-        "knxUltimateHueScene",
-        "knxUltimateHueBattery"
-      ],
-      "keywords": [
-        "node-red",
-        "KNX",
-        "ETS",
-        "eib",
-        "konnex",
-        "IOT",
-        "hue"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-knx-ultimate"
-    },
-    {
       "id": "node-red-contrib-pylips-philips-tv-control",
       "version": "1.1.7",
       "description": "This is only a subflow which then calls the python script in pylips. So the rest of the readme is directly copied from there.",
@@ -107,23 +467,6 @@
         "node-red"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-pylips-philips-tv-control"
-    },
-    {
-      "id": "node-red-contrib-vib-smart-valve",
-      "version": "0.1.29",
-      "description": "Smart Valve Managemeent",
-      "updated_at": "2023-10-31T11:22:55.396Z",
-      "types": [
-        "smart-valve"
-      ],
-      "keywords": [
-        "node-red",
-        "Heating",
-        "valve",
-        "trv",
-        "climate"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-vib-smart-valve"
     },
     {
       "id": "@hexa-ai/node-red-contrib-hexa-ai",
@@ -146,22 +489,6 @@
         "alarm"
       ],
       "url": "https://flows.nodered.org/node/@hexa-ai/node-red-contrib-hexa-ai"
-    },
-    {
-      "id": "node-red-contrib-alexa-master-function",
-      "version": "30.10.2107",
-      "description": "Beta version",
-      "updated_at": "2023-10-31T00:06:09.917Z",
-      "types": [
-        "alexa-master-function"
-      ],
-      "keywords": [
-        "node-red",
-        "mysql",
-        "database",
-        "r2"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-alexa-master-function"
     },
     {
       "id": "node-red-contrib-blockly",
@@ -570,6 +897,29 @@
         "dusk"
       ],
       "url": "https://flows.nodered.org/node/@tbowmo/node-red-small-timer"
+    },
+    {
+      "id": "@hsync/node-red-ble-uart",
+      "version": "0.4.0",
+      "description": "Turn your node-red instance into a simple BLE UART device",
+      "updated_at": "2023-10-26T16:17:45.303Z",
+      "types": [
+        "uart-in",
+        "uart-notify"
+      ],
+      "keywords": [
+        "node-red",
+        "bluetooth",
+        "nordic",
+        "serial",
+        "uart",
+        "ble",
+        "peripheral",
+        "bluetooth low energy",
+        "bleno",
+        "noble"
+      ],
+      "url": "https://flows.nodered.org/node/@hsync/node-red-ble-uart"
     },
     {
       "id": "node-red-contrib-tado-client",
@@ -1117,29 +1467,6 @@
       "url": "https://flows.nodered.org/node/node-red-contrib-simple-bu"
     },
     {
-      "id": "@hsync/node-red-ble-uart",
-      "version": "0.2.0",
-      "description": "Turn your node-red instance into a simple BLE UART device",
-      "updated_at": "2023-10-24T06:33:17.582Z",
-      "types": [
-        "uart-in",
-        "uart-notify"
-      ],
-      "keywords": [
-        "node-red",
-        "bluetooth",
-        "nordic",
-        "serial",
-        "uart",
-        "ble",
-        "peripheral",
-        "bluetooth low energy",
-        "bleno",
-        "noble"
-      ],
-      "url": "https://flows.nodered.org/node/@hsync/node-red-ble-uart"
-    },
-    {
       "id": "@redplc/node-red-redplc",
       "version": "2.0.0",
       "description": "Node-Red nodes for the realization of Software-Plc with Ladder-Logic",
@@ -1223,23 +1550,6 @@
         "json"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-json-logic"
-    },
-    {
-      "id": "node-red-contrib-dirigera",
-      "version": "1.0.4",
-      "description": "A Node-Red Node for controlling Ikea Dirigera hub.",
-      "updated_at": "2023-10-23T19:36:49.797Z",
-      "types": [
-        "dirigera-config",
-        "dirigera",
-        "__errors__"
-      ],
-      "keywords": [
-        "node-red",
-        "dirigera",
-        "ikea"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-dirigera"
     },
     {
       "id": "@psotoulloa/node-red-neo4jdriver",
@@ -1707,33 +2017,6 @@
       "url": "https://flows.nodered.org/node/node-red-contrib-dictionary"
     },
     {
-      "id": "@hsync/node-red-hsync",
-      "version": "0.5.0",
-      "description": "put node-red online securely with a hsync server",
-      "updated_at": "2023-10-20T01:41:18.497Z",
-      "types": [
-        "hsync-connection",
-        "hsync-peer",
-        "hsync-in",
-        "hsync-out",
-        "hs-p2p-in",
-        "hs-p2p-out"
-      ],
-      "keywords": [
-        "node-red",
-        "hsync",
-        "ngrok",
-        "iot",
-        "mqtt",
-        "messaging",
-        "reverse-proxy",
-        "rtc",
-        "p2p",
-        "vpn"
-      ],
-      "url": "https://flows.nodered.org/node/@hsync/node-red-hsync"
-    },
-    {
       "id": "node-red-contrib-rollun-aws-sp-api",
       "version": "1.0.2",
       "description": "Node-RED nodes to access AWS Selling Partner API",
@@ -2169,26 +2452,6 @@
         "daylight simulator"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-hue-tunable-white"
-    },
-    {
-      "id": "node-red-contrib-web-worldmap",
-      "version": "4.0.0",
-      "description": "A Node-RED node to provide a web page of a world map for plotting things on.",
-      "updated_at": "2023-10-15T14:27:41.640Z",
-      "types": [
-        "worldmap",
-        "ui_worldmap",
-        "worldmap in",
-        "worldmap-tracks",
-        "worldmap-hull"
-      ],
-      "keywords": [
-        "node-red",
-        "map",
-        "world",
-        "tak"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-web-worldmap"
     },
     {
       "id": "node-red-node-telegrambot",
@@ -2678,23 +2941,6 @@
       "url": "https://flows.nodered.org/node/node-red-contrib-wazo-platform"
     },
     {
-      "id": "victron-vrm-api",
-      "version": "0.0.6",
-      "description": "Interface with the Victron Energy VRM API",
-      "updated_at": "2023-10-11T14:38:18.696Z",
-      "types": [
-        "config-vrm-api",
-        "vrm-api"
-      ],
-      "keywords": [
-        "node-red",
-        "victron",
-        "vrm",
-        "api"
-      ],
-      "url": "https://flows.nodered.org/node/victron-vrm-api"
-    },
-    {
       "id": "node-red-contrib-ui-upload",
       "version": "0.8.1",
       "description": "Node-RED Dashboard UI widget node for uploading a file content by Socket.io streaming",
@@ -2798,40 +3044,6 @@
       "url": "https://flows.nodered.org/node/@dennip/node-red-google-apis"
     },
     {
-      "id": "node-red-contrib-onstar2",
-      "version": "2.1.16",
-      "description": "An updated Node-RED Library using OnStarJS, an unofficial client library for the OnStar Vehicle API",
-      "updated_at": "2023-10-10T19:31:26.663Z",
-      "types": [
-        "get-account-vehicles",
-        "get-diagnostics",
-        "lock-myvehicle",
-        "unlock-myvehicle",
-        "start-myvehicle",
-        "cancel-start-myvehicle",
-        "alert-myvehicle",
-        "alert-myvehicle-lights",
-        "alert-myvehicle-horn",
-        "cancel-alert-myvehicle",
-        "locate-vehicle",
-        "mycharge-override",
-        "get-mycharge-profile",
-        "set-mycharge-profile",
-        "onstar2"
-      ],
-      "keywords": [
-        "node-red",
-        "OnStar",
-        "Chevrolet",
-        "Chevy",
-        "GM",
-        "GMC",
-        "Buick",
-        "Cadillac"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-onstar2"
-    },
-    {
       "id": "node-red-contrib-socketio-client-fortes",
       "version": "0.4.9",
       "description": "Node Red client to work with socket.io server with QUERY option",
@@ -2865,32 +3077,6 @@
         "fastxml"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-fastxml"
-    },
-    {
-      "id": "node-red-contrib-topsail",
-      "version": "3.0.6",
-      "description": "Interface with Topsail",
-      "updated_at": "2023-10-09T22:16:02.881Z",
-      "types": [
-        "email",
-        "ping",
-        "cbw",
-        "sms",
-        "influx-insert",
-        "influx-query",
-        "camera-capture-image",
-        "camera-capture-video",
-        "bosch-vca",
-        "sftp",
-        "dms-activate",
-        "dms-status",
-        "heartbeat"
-      ],
-      "keywords": [
-        "node-red",
-        "topsail"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-topsail"
     },
     {
       "id": "topological-nodered-wdio",
@@ -5392,36 +5578,6 @@
       "url": "https://flows.nodered.org/node/node-red-contrib-aula-education"
     },
     {
-      "id": "node-red-contrib-boolean-logic-ultimate",
-      "version": "1.1.0",
-      "description": "A set of Node-RED enhanced boolean logic and utility nodes, flow interruption, blinker, invert, filter, toggle etc.., with persistent values after reboot. Compatible also with Homeassistant values.",
-      "updated_at": "2023-09-19T18:36:55.429Z",
-      "types": [
-        "BooleanLogicUltimate",
-        "InvertUltimate",
-        "FilterUltimate",
-        "InterruptFlowUltimate",
-        "BlinkerUltimate",
-        "SimpleOutputUltimate",
-        "InjectUltimate",
-        "StatusUltimate",
-        "ImpulseUltimate",
-        "SumUltimate",
-        "toggleUltimate",
-        "RailwaySwitchUltimate",
-        "Comparator",
-        "translator-config"
-      ],
-      "keywords": [
-        "node-red",
-        "boolean",
-        "gate",
-        "filter",
-        "logic"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-boolean-logic-ultimate"
-    },
-    {
       "id": "node-red-contrib-millheat",
       "version": "0.0.3",
       "description": "A Node-Red node to interact with the Mill Open API",
@@ -5900,34 +6056,6 @@
         "dashboard"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-ui-state-trail"
-    },
-    {
-      "id": "node-red-contrib-openai-ubos",
-      "version": "1.0.3",
-      "description": "A Node-RED node that interacts with OpenAI machine learning models to generate text like ChatGPT.",
-      "updated_at": "2023-09-12T09:35:24.334Z",
-      "types": [],
-      "keywords": [
-        "node-red",
-        "chatgpt",
-        "nodejs",
-        "javascript",
-        "api",
-        "flow",
-        "npm",
-        "machine-learning",
-        "node",
-        "example",
-        "text-generation",
-        "openai",
-        "code-generation",
-        "conversational-ai",
-        "gpt-3",
-        "gpt-4",
-        "dall-e",
-        "ai"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-openai-ubos"
     },
     {
       "id": "node-red-contrib-mf-mavlink",
@@ -9529,21 +9657,6 @@
         "smb"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-smb2"
-    },
-    {
-      "id": "smithtek-node-red-eagleio",
-      "version": "2.5.0",
-      "description": "Smithtek Node Red EagleIO",
-      "updated_at": "2023-06-29T14:40:26.871Z",
-      "types": [
-        "smithtek-eagleio-config",
-        "smithtek-eagleio-out",
-        "smithtek-eagleio-time"
-      ],
-      "keywords": [
-        "node-red"
-      ],
-      "url": "https://flows.nodered.org/node/smithtek-node-red-eagleio"
     },
     {
       "id": "node-red-contrib-analog-alarm-monitor",
@@ -25986,25 +26099,6 @@
         "iot"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-hal"
-    },
-    {
-      "id": "node-red-contrib-august",
-      "version": "1.1.0",
-      "description": "Node-RED node to connect to August locks",
-      "updated_at": "2022-05-16T18:25:52.457Z",
-      "types": [
-        "august",
-        "august-account"
-      ],
-      "keywords": [
-        "node-red",
-        "august",
-        "yale",
-        "smart lock",
-        "smartlock",
-        "wifi lock"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-august"
     },
     {
       "id": "node-red-contrib-rollun-common",
