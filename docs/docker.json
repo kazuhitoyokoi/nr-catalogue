@@ -1,12 +1,103 @@
 {
   "name": "Catalogue for Docker",
-  "updated_at": "2023-11-03T16:00:26.569Z",
+  "updated_at": "2023-11-04T16:07:24.793Z",
   "modules": [
     {
+      "id": "node-red-contrib-knx-ultimate",
+      "version": "2.2.16",
+      "description": "Control your KNX intallation via Node-Red! Single Node KNX IN/OUT with optional ETS group address importer. Easy to use and highly configurable. With integrated Philips HUE devices control.",
+      "updated_at": "2023-11-04T10:26:13.441Z",
+      "types": [
+        "knxUltimate",
+        "knxUltimateSceneController",
+        "knxUltimateWatchDog",
+        "knxUltimateLogger",
+        "knxUltimate-config",
+        "knxUltimateGlobalContext",
+        "knxUltimateAlerter",
+        "knxUltimateLoadControl",
+        "knxUltimateViewer",
+        "hue-config",
+        "knxUltimateHueLight",
+        "knxUltimateHueButton",
+        "knxUltimateHueMotion",
+        "knxUltimateHueTapDial",
+        "knxUltimateHueLightSensor",
+        "knxUltimateHueTemperatureSensor",
+        "knxUltimateHueScene",
+        "knxUltimateHueBattery"
+      ],
+      "keywords": [
+        "node-red",
+        "KNX",
+        "ETS",
+        "eib",
+        "konnex",
+        "IOT",
+        "hue"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-knx-ultimate"
+    },
+    {
+      "id": "node-red-contrib-tasmota",
+      "version": "0.9.13",
+      "description": "Node-RED integration for Tasmota flashed devices",
+      "updated_at": "2023-11-04T09:56:43.731Z",
+      "types": [
+        "tasmota-mqtt-broker",
+        "Tasmota Switch",
+        "Tasmota Sensor",
+        "Tasmota Light",
+        "Tasmota Button",
+        "Tasmota Generic"
+      ],
+      "keywords": [
+        "node-red",
+        "tasmota",
+        "sonoff",
+        "home automation"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-tasmota"
+    },
+    {
+      "id": "@lightcode/node-red-contrib-github-sdk",
+      "version": "0.5.0",
+      "description": "Provide Github Octokit SDK in msg.githubOctokit",
+      "updated_at": "2023-11-04T07:39:29.978Z",
+      "types": [],
+      "keywords": [
+        "node-red",
+        "github",
+        "octokit",
+        "sdk"
+      ],
+      "url": "https://flows.nodered.org/node/@lightcode/node-red-contrib-github-sdk"
+    },
+    {
+      "id": "node-red-contrib-presence-faker",
+      "version": "1.8.8",
+      "description": "Simulates home occupancy by intermittently activating and deactivating devices (e.g. lights) at random intervals",
+      "updated_at": "2023-11-04T07:04:26.897Z",
+      "types": [
+        "presence-faker"
+      ],
+      "keywords": [
+        "node-red",
+        "smart home",
+        "vacation",
+        "presence",
+        "lights",
+        "cron",
+        "occupation",
+        "simulator"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-presence-faker"
+    },
+    {
       "id": "node-red-contrib-topsail",
-      "version": "3.1.0",
+      "version": "3.1.1",
       "description": "Interface with Topsail",
-      "updated_at": "2023-11-03T14:10:19.202Z",
+      "updated_at": "2023-11-03T15:16:39.750Z",
       "types": [
         "email",
         "ping",
@@ -28,26 +119,6 @@
         "topsail"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-topsail"
-    },
-    {
-      "id": "node-red-contrib-presence-faker",
-      "version": "1.8.7",
-      "description": "Simulates home occupancy by intermittently activating and deactivating devices (e.g. lights) at random intervals",
-      "updated_at": "2023-11-03T13:54:16.705Z",
-      "types": [
-        "presence-faker"
-      ],
-      "keywords": [
-        "node-red",
-        "smart home",
-        "vacation",
-        "presence",
-        "lights",
-        "cron",
-        "occupation",
-        "simulator"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-presence-faker"
     },
     {
       "id": "cloud4machine-cloud-nodered",
@@ -84,42 +155,6 @@
         "r2"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-alexa-master-function"
-    },
-    {
-      "id": "node-red-contrib-knx-ultimate",
-      "version": "2.2.10",
-      "description": "Control your KNX intallation via Node-Red! Single Node KNX IN/OUT with optional ETS group address importer. Easy to use and highly configurable. With integrated Philips HUE devices control.",
-      "updated_at": "2023-11-03T12:44:11.966Z",
-      "types": [
-        "knxUltimate",
-        "knxUltimateSceneController",
-        "knxUltimateWatchDog",
-        "knxUltimateLogger",
-        "knxUltimate-config",
-        "knxUltimateGlobalContext",
-        "knxUltimateAlerter",
-        "knxUltimateLoadControl",
-        "knxUltimateViewer",
-        "hue-config",
-        "knxUltimateHueLight",
-        "knxUltimateHueButton",
-        "knxUltimateHueMotion",
-        "knxUltimateHueTapDial",
-        "knxUltimateHueLightSensor",
-        "knxUltimateHueTemperatureSensor",
-        "knxUltimateHueScene",
-        "knxUltimateHueBattery"
-      ],
-      "keywords": [
-        "node-red",
-        "KNX",
-        "ETS",
-        "eib",
-        "konnex",
-        "IOT",
-        "hue"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-knx-ultimate"
     },
     {
       "id": "node-red-contrib-vib-smart-valve",
@@ -283,20 +318,23 @@
       "url": "https://flows.nodered.org/node/@opcua/for-node-red"
     },
     {
-      "id": "@lightcode/node-red-contrib-github-sdk",
-      "version": "0.2.0",
-      "description": "Provide Github Octokit SDK in msg.githubOctokit",
-      "updated_at": "2023-11-01T22:18:01.675Z",
+      "id": "@tbowmo/node-red-small-timer",
+      "version": "0.12.0",
+      "description": "Small timer node for node red with support for sunrise, sunset etc. timers",
+      "updated_at": "2023-11-01T20:17:44.700Z",
       "types": [
-        "github-octokit"
+        "smalltimer",
+        "position"
       ],
       "keywords": [
         "node-red",
-        "github",
-        "octokit",
-        "sdk"
+        "timer",
+        "sunset",
+        "sunrise",
+        "dawn",
+        "dusk"
       ],
-      "url": "https://flows.nodered.org/node/@lightcode/node-red-contrib-github-sdk"
+      "url": "https://flows.nodered.org/node/@tbowmo/node-red-small-timer"
     },
     {
       "id": "@platmac/node-red-platma-whoami",
@@ -952,25 +990,6 @@
         "www.boschrexroth.com"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-ctrlx-automation"
-    },
-    {
-      "id": "@tbowmo/node-red-small-timer",
-      "version": "0.11.0",
-      "description": "Small timer node for node red with support for sunrise, sunset etc. timers",
-      "updated_at": "2023-10-26T18:41:52.764Z",
-      "types": [
-        "smalltimer",
-        "position"
-      ],
-      "keywords": [
-        "node-red",
-        "timer",
-        "sunset",
-        "sunrise",
-        "dawn",
-        "dusk"
-      ],
-      "url": "https://flows.nodered.org/node/@tbowmo/node-red-small-timer"
     },
     {
       "id": "@hsync/node-red-ble-uart",
@@ -30389,27 +30408,6 @@
         "knx"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-knx"
-    },
-    {
-      "id": "node-red-contrib-tasmota",
-      "version": "0.9.12",
-      "description": "Node-RED integration for Tasmota flashed devices",
-      "updated_at": "2022-02-06T11:26:37.460Z",
-      "types": [
-        "tasmota-mqtt-broker",
-        "Tasmota Switch",
-        "Tasmota Sensor",
-        "Tasmota Light",
-        "Tasmota Button",
-        "Tasmota Generic"
-      ],
-      "keywords": [
-        "node-red",
-        "tasmota",
-        "sonoff",
-        "home automation"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-tasmota"
     },
     {
       "id": "node-red-contrib-waveshare-shield-adda-11010",
