@@ -1,12 +1,51 @@
 {
   "name": "Catalogue for Docker",
-  "updated_at": "2023-11-04T16:07:24.793Z",
+  "updated_at": "2023-11-05T15:58:48.999Z",
   "modules": [
     {
+      "id": "node-red-contrib-nspanel-lui",
+      "version": "0.0.1-alpha.34",
+      "description": "Node-RED based backend for NSPanel Lovelace UI custom firmware.",
+      "updated_at": "2023-11-05T14:31:18.023Z",
+      "types": [],
+      "keywords": [
+        "node-red",
+        "lovelace ui",
+        "nspanel"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-nspanel-lui"
+    },
+    {
+      "id": "@marcus-j-davies/node-red-semaphore-plus",
+      "version": "3.1.0",
+      "description": "An advanced set of semaphore Nodes for Node RED, with a dynamic fail-safe",
+      "updated_at": "2023-11-05T13:27:58.698Z",
+      "types": [
+        "semaphore-plus-take",
+        "semaphore-plus-release",
+        "semaphore-plus-fs-reset",
+        "semaphore-plus-config"
+      ],
+      "keywords": [
+        "node-red",
+        "semaphore",
+        "control",
+        "single",
+        "lock",
+        "release",
+        "take",
+        "reset",
+        "plus",
+        "advanced",
+        "queue"
+      ],
+      "url": "https://flows.nodered.org/node/@marcus-j-davies/node-red-semaphore-plus"
+    },
+    {
       "id": "node-red-contrib-knx-ultimate",
-      "version": "2.2.16",
+      "version": "2.2.19",
       "description": "Control your KNX intallation via Node-Red! Single Node KNX IN/OUT with optional ETS group address importer. Easy to use and highly configurable. With integrated Philips HUE devices control.",
-      "updated_at": "2023-11-04T10:26:13.441Z",
+      "updated_at": "2023-11-05T09:19:49.912Z",
       "types": [
         "knxUltimate",
         "knxUltimateSceneController",
@@ -37,6 +76,85 @@
         "hue"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-knx-ultimate"
+    },
+    {
+      "id": "thingzi-logic-timers",
+      "version": "1.4.4",
+      "description": "Easy to use time based nodes with clean design",
+      "updated_at": "2023-11-04T21:44:57.062Z",
+      "types": [
+        "thingzi-timer",
+        "thingzi-time-check",
+        "thingzi-schedule",
+        "thingzi-activity"
+      ],
+      "keywords": [
+        "node-red",
+        "timer",
+        "schedule",
+        "time",
+        "calendar",
+        "trigger",
+        "motion",
+        "chrono",
+        "presence",
+        "sensor",
+        "activity",
+        "timeout"
+      ],
+      "url": "https://flows.nodered.org/node/thingzi-logic-timers"
+    },
+    {
+      "id": "node-red-contrib-vib-smart-boiler",
+      "version": "0.1.32",
+      "description": "Smart boiler node to control multiple thermostat",
+      "updated_at": "2023-11-04T17:16:53.022Z",
+      "types": [
+        "smart-boiler",
+        "smart-boiler-settings"
+      ],
+      "keywords": [
+        "node-red",
+        "Heating",
+        "valve",
+        "trv",
+        "climate"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-vib-smart-boiler"
+    },
+    {
+      "id": "node-red-contrib-luxtronik2",
+      "version": "0.5.4",
+      "description": "Node, that reads and controls heat pumps based on the Luxtronik 2.0 contol unit. Supports for example AlphaInnotec and Siemens Novelan (WRP NET).",
+      "updated_at": "2023-11-04T15:29:14.586Z",
+      "types": [
+        "luxtronik2 read",
+        "luxtronik2 write"
+      ],
+      "keywords": [
+        "node-red",
+        "luxtronik",
+        "luxtronik2",
+        "alpha",
+        "innotec",
+        "novelan"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-luxtronik2"
+    },
+    {
+      "id": "node-red-contrib-alphaess",
+      "version": "1.8.5",
+      "description": "This provides a node for retrieving information from Alpha ESS photovoltaic systems.",
+      "updated_at": "2023-11-04T14:33:51.063Z",
+      "types": [
+        "alphaess-monitoring"
+      ],
+      "keywords": [
+        "node-red",
+        "Alpha ESS",
+        "Storion"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-alphaess"
     },
     {
       "id": "node-red-contrib-tasmota",
@@ -237,6 +355,22 @@
         "biancoroyal"
       ],
       "url": "https://flows.nodered.org/node/@kenke7/node-red-contrib-modbus"
+    },
+    {
+      "id": "node-red-contrib-mongodb4",
+      "version": "2.5.0",
+      "description": "A MongoDB node for Node-Red without limitations.",
+      "updated_at": "2023-11-02T17:49:26.593Z",
+      "types": [
+        "mongodb4-client",
+        "mongodb4"
+      ],
+      "keywords": [
+        "node-red",
+        "nodes",
+        "mongodb"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-mongodb4"
     },
     {
       "id": "@ralphwetzel/node-red-context-monitor",
@@ -623,19 +757,6 @@
       "url": "https://flows.nodered.org/node/node-red-contrib-blockly"
     },
     {
-      "id": "node-red-contrib-nspanel-lui",
-      "version": "0.0.1-alpha.33",
-      "description": "Node-RED based backend for NSPanel Lovelace UI custom firmware.",
-      "updated_at": "2023-10-30T16:25:44.146Z",
-      "types": [],
-      "keywords": [
-        "node-red",
-        "lovelace ui",
-        "nspanel"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-nspanel-lui"
-    },
-    {
       "id": "node-red-contrib-vib-smart-scheduler",
       "version": "0.1.28",
       "description": "Node Red Smart Scheduler MQTT Home Assistant ",
@@ -654,24 +775,6 @@
         "home assistant"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-vib-smart-scheduler"
-    },
-    {
-      "id": "node-red-contrib-vib-smart-boiler",
-      "version": "0.1.28",
-      "description": "Smart boiler node to control multiple thermostat",
-      "updated_at": "2023-10-30T12:25:43.851Z",
-      "types": [
-        "smart-boiler",
-        "smart-boiler-settings"
-      ],
-      "keywords": [
-        "node-red",
-        "Heating",
-        "valve",
-        "trv",
-        "climate"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-vib-smart-boiler"
     },
     {
       "id": "@node-red-contrib-themes/theme-collection",
@@ -3852,29 +3955,6 @@
       "url": "https://flows.nodered.org/node/node-red-contrib-tts-ultimate"
     },
     {
-      "id": "thingzi-logic-timers",
-      "version": "1.4.3",
-      "description": "Easy to use time based nodes with clean design",
-      "updated_at": "2023-10-01T23:36:53.202Z",
-      "types": [
-        "thingzi-timer",
-        "thingzi-time-check",
-        "thingzi-schedule",
-        "thingzi-activity"
-      ],
-      "keywords": [
-        "node-red",
-        "timer",
-        "schedule",
-        "time",
-        "calendar",
-        "trigger",
-        "motion",
-        "chrono"
-      ],
-      "url": "https://flows.nodered.org/node/thingzi-logic-timers"
-    },
-    {
       "id": "@sip-irrigation/node-red-sip-irrigation-nodes",
       "version": "1.0.2",
       "description": "A collection of nodes that work with SIP irrigation control software",
@@ -4984,32 +5064,6 @@
         "weather-info"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-yr"
-    },
-    {
-      "id": "@marcus-j-davies/node-red-semaphore-plus",
-      "version": "3.0.3",
-      "description": "An advanced set of semaphore Nodes for Node RED, with a dynamic fail-safe",
-      "updated_at": "2023-09-23T15:03:26.348Z",
-      "types": [
-        "semaphore-plus-take",
-        "semaphore-plus-release",
-        "semaphore-plus-fs-reset",
-        "semaphore-plus-config"
-      ],
-      "keywords": [
-        "node-red",
-        "semaphore",
-        "control",
-        "single",
-        "lock",
-        "release",
-        "take",
-        "reset",
-        "plus",
-        "advanced",
-        "queue"
-      ],
-      "url": "https://flows.nodered.org/node/@marcus-j-davies/node-red-semaphore-plus"
     },
     {
       "id": "node-red-contrib-moonnode",
@@ -7250,22 +7304,6 @@
         "mdash"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-custom-mdash-ws"
-    },
-    {
-      "id": "node-red-contrib-mongodb4",
-      "version": "2.3.0",
-      "description": "A MongoDB node for Node-Red without limitations.",
-      "updated_at": "2023-08-27T12:09:16.841Z",
-      "types": [
-        "mongodb4-client",
-        "mongodb4"
-      ],
-      "keywords": [
-        "node-red",
-        "nodes",
-        "mongodb"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-mongodb4"
     },
     {
       "id": "@mschaeffler/node-red-lora",
@@ -19584,21 +19622,6 @@
       "url": "https://flows.nodered.org/node/@prescient-devices/node-red-contrib-promptinput"
     },
     {
-      "id": "node-red-contrib-alphaess",
-      "version": "1.8.3",
-      "description": "This provides a node for retrieving information from Alpha ESS photovoltaic systems.",
-      "updated_at": "2022-11-19T17:03:08.619Z",
-      "types": [
-        "alphaess-monitoring"
-      ],
-      "keywords": [
-        "node-red",
-        "Alpha ESS",
-        "Storion"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-alphaess"
-    },
-    {
       "id": "node-red-contrib-catalogue",
       "version": "0.0.2",
       "description": "\"# node-red-contrib-catalogue\" \n\n Generated a nodered catalog json from a verdaccio NPM registry. \n\n Heavily inspired by node-red-private-catalogue-builder from hardillb",
@@ -30122,25 +30145,6 @@
         "node-red"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-nooperation"
-    },
-    {
-      "id": "node-red-contrib-luxtronik2",
-      "version": "0.5.3",
-      "description": "Node, that reads and controls heat pumps based on the Luxtronik 2.0 contol unit. Supports for example AlphaInnotec and Siemens Novelan (WRP NET).",
-      "updated_at": "2022-02-13T10:24:40.601Z",
-      "types": [
-        "luxtronik2 read",
-        "luxtronik2 write"
-      ],
-      "keywords": [
-        "node-red",
-        "luxtronik",
-        "luxtronik2",
-        "alpha",
-        "innotec",
-        "novelan"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-luxtronik2"
     },
     {
       "id": "node-red-contrib-mytimeout",
