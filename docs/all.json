@@ -1,7 +1,174 @@
 {
   "name": "Catalogue for verified nodes",
-  "updated_at": "2023-11-07T00:10:29.733Z",
+  "updated_at": "2023-11-07T23:58:31.770Z",
   "modules": [
+    {
+      "id": "node-red-contrib-custom-chatgpt",
+      "version": "1.2.12",
+      "description": "A Node-RED node that interacts with OpenAI machine learning models to generate text and image outputs like 'ChatGPT' and 'DALL·E 2'.",
+      "updated_at": "2023-11-07T14:20:56.986Z",
+      "types": [
+        "chatgpt"
+      ],
+      "keywords": [
+        "node-red",
+        "chatgpt",
+        "nodejs",
+        "javascript",
+        "api",
+        "flow",
+        "npm",
+        "machine-learning",
+        "node",
+        "example",
+        "text-generation",
+        "openai",
+        "image-generation",
+        "code-generation",
+        "conversational-ai",
+        "gpt-3",
+        "gpt-4",
+        "dall-e",
+        "ai"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-custom-chatgpt"
+    },
+    {
+      "id": "node-red-contrib-pid",
+      "version": "2.0.0",
+      "description": "PID loop controller for Node-RED",
+      "updated_at": "2023-11-07T13:36:03.783Z",
+      "types": [
+        "PID"
+      ],
+      "keywords": [
+        "PID",
+        "node-red"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-pid"
+    },
+    {
+      "id": "node-red-contrib-home-assistant-websocket",
+      "version": "0.58.1",
+      "description": "Node-RED integration with Home Assistant through websocket and REST API",
+      "updated_at": "2023-11-07T12:43:25.067Z",
+      "types": [],
+      "keywords": [
+        "node-red",
+        "home-assistant",
+        "home assistant",
+        "home automation",
+        "websocket"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-home-assistant-websocket"
+    },
+    {
+      "id": "@gregoriusrippenstein/node-red-contrib-introspection",
+      "version": "0.5.2",
+      "description": "Node-RED Editor-only nodes for introspecting with flows in the frontend.",
+      "updated_at": "2023-11-07T10:21:11.658Z",
+      "types": [
+        "Seeker",
+        "Sink",
+        "GetFlows",
+        "SendFlow",
+        "ClientCode"
+      ],
+      "keywords": [
+        "node-red",
+        "introspection",
+        "selfreflection",
+        "node-red-editor"
+      ],
+      "url": "https://flows.nodered.org/node/@gregoriusrippenstein/node-red-contrib-introspection"
+    },
+    {
+      "id": "node-red-contrib-edge-tts",
+      "version": "2.2.0",
+      "description": "An simple Azure Speech Service module that uses the Microsoft Edge Read Aloud API.",
+      "updated_at": "2023-11-07T08:20:32.555Z",
+      "types": [
+        "edge-tts"
+      ],
+      "keywords": [
+        "edge",
+        "node-red",
+        "tts",
+        "readaloud"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-edge-tts"
+    },
+    {
+      "id": "node-red-contrib-tibber-api",
+      "version": "6.0.0",
+      "description": "Node Red module for integrating with Tibber api",
+      "updated_at": "2023-11-07T06:19:25.508Z",
+      "types": [
+        "tibber-api-endpoint",
+        "tibber-feed",
+        "tibber-query",
+        "tibber-data",
+        "tibber-notify"
+      ],
+      "keywords": [
+        "node-red",
+        "tibber",
+        "iot",
+        "power",
+        "home-automation",
+        "smarthome",
+        "energy"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-tibber-api"
+    },
+    {
+      "id": "node-red-contrib-simple-dalle3",
+      "version": "1.0.0",
+      "description": "DALL·E 3で画像生成を行うノードです。",
+      "updated_at": "2023-11-07T05:10:01.490Z",
+      "types": [
+        "simple-dalle3"
+      ],
+      "keywords": [
+        "DALL·E3",
+        "openai",
+        "chatgpt",
+        "node-red"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-simple-dalle3"
+    },
+    {
+      "id": "node-red-contrib-nspanel-lui",
+      "version": "0.0.1-alpha.35",
+      "description": "Node-RED based backend for NSPanel Lovelace UI custom firmware.",
+      "updated_at": "2023-11-06T20:37:24.322Z",
+      "types": [],
+      "keywords": [
+        "node-red",
+        "lovelace ui",
+        "nspanel"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-nspanel-lui"
+    },
+    {
+      "id": "node-red-contrib-google-smarthome",
+      "version": "0.4.7",
+      "description": "Lets you control Node-Red via Google Assistant or the Google Home App",
+      "updated_at": "2023-11-06T20:34:51.251Z",
+      "types": [
+        "googlesmarthome-client",
+        "google-mgmt",
+        "google-device"
+      ],
+      "keywords": [
+        "google",
+        "smarthome",
+        "assistant",
+        "iot",
+        "node-red"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-google-smarthome"
+    },
     {
       "id": "node-red-contrib-web-worldmap",
       "version": "4.3.0",
@@ -37,25 +204,6 @@
         "r2"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-alexa-master-function"
-    },
-    {
-      "id": "@gregoriusrippenstein/node-red-contrib-introspection",
-      "version": "0.5.0",
-      "description": "Node-RED Editor-only nodes for introspecting with flows in the frontend.",
-      "updated_at": "2023-11-06T12:05:43.635Z",
-      "types": [
-        "Seeker",
-        "Sink",
-        "GetFlows",
-        "SendFlow",
-        "ClientCode"
-      ],
-      "keywords": [
-        "node-red",
-        "introspection",
-        "selfreflection"
-      ],
-      "url": "https://flows.nodered.org/node/@gregoriusrippenstein/node-red-contrib-introspection"
     },
     {
       "id": "node-red-contrib-oscar-grayify-service",
@@ -140,22 +288,6 @@
         "hue"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-knx-ultimate"
-    },
-    {
-      "id": "node-red-contrib-edge-tts",
-      "version": "2.0.3",
-      "description": "An simple Azure Speech Service module that uses the Microsoft Edge Read Aloud API.",
-      "updated_at": "2023-11-06T03:18:39.582Z",
-      "types": [
-        "edge-tts"
-      ],
-      "keywords": [
-        "edge",
-        "node-red",
-        "tts",
-        "readaloud"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-edge-tts"
     },
     {
       "id": "thingzi-logic-twinkly",
@@ -360,19 +492,6 @@
         "queue"
       ],
       "url": "https://flows.nodered.org/node/@marcus-j-davies/node-red-semaphore-plus"
-    },
-    {
-      "id": "node-red-contrib-nspanel-lui",
-      "version": "0.0.1-alpha.34",
-      "description": "Node-RED based backend for NSPanel Lovelace UI custom firmware.",
-      "updated_at": "2023-11-05T14:31:18.023Z",
-      "types": [],
-      "keywords": [
-        "node-red",
-        "lovelace ui",
-        "nspanel"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-nspanel-lui"
     },
     {
       "id": "thingzi-logic-timers",
@@ -1079,25 +1198,6 @@
         "echo"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-alexa-remote2-applestrudel"
-    },
-    {
-      "id": "node-red-contrib-google-smarthome",
-      "version": "0.4.6",
-      "description": "Lets you control Node-Red via Google Assistant or the Google Home App",
-      "updated_at": "2023-10-29T08:43:57.338Z",
-      "types": [
-        "googlesmarthome-client",
-        "google-mgmt",
-        "google-device"
-      ],
-      "keywords": [
-        "google",
-        "smarthome",
-        "assistant",
-        "iot",
-        "node-red"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-google-smarthome"
     },
     {
       "id": "node-red-contrib-axios",
@@ -3065,21 +3165,6 @@
         "download"
       ],
       "url": "https://flows.nodered.org/node/@prescient-devices/node-red-contrib-downloadfile"
-    },
-    {
-      "id": "node-red-contrib-home-assistant-websocket",
-      "version": "0.57.4",
-      "description": "Node-RED integration with Home Assistant through websocket and REST API",
-      "updated_at": "2023-10-11T20:07:12.162Z",
-      "types": [],
-      "keywords": [
-        "node-red",
-        "home-assistant",
-        "home assistant",
-        "home automation",
-        "websocket"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-home-assistant-websocket"
     },
     {
       "id": "node-red-contrib-scd4x",
@@ -9337,29 +9422,6 @@
       "url": "https://flows.nodered.org/node/@edgewaretech/node-red-ble"
     },
     {
-      "id": "node-red-contrib-tibber-api",
-      "version": "5.2.2",
-      "description": "Node Red module for integrating with Tibber api",
-      "updated_at": "2023-07-07T20:35:34.023Z",
-      "types": [
-        "tibber-api-endpoint",
-        "tibber-feed",
-        "tibber-query",
-        "tibber-data",
-        "tibber-notify"
-      ],
-      "keywords": [
-        "node-red",
-        "tibber",
-        "iot",
-        "power",
-        "home-automation",
-        "smarthome",
-        "energy"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-tibber-api"
-    },
-    {
       "id": "node-red-contrib-auroral",
       "version": "2.1.10",
       "description": "Nodes for contributing to AURORAL network",
@@ -11680,37 +11742,6 @@
         "Google"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-bard"
-    },
-    {
-      "id": "node-red-contrib-custom-chatgpt",
-      "version": "1.2.11",
-      "description": "A Node-RED node that interacts with OpenAI machine learning models to generate text and image outputs like 'ChatGPT' and 'DALL·E 2'.",
-      "updated_at": "2023-05-10T21:30:49.920Z",
-      "types": [
-        "chatgpt"
-      ],
-      "keywords": [
-        "node-red",
-        "chatgpt",
-        "nodejs",
-        "javascript",
-        "api",
-        "flow",
-        "npm",
-        "machine-learning",
-        "node",
-        "example",
-        "text-generation",
-        "openai",
-        "image-generation",
-        "code-generation",
-        "conversational-ai",
-        "gpt-3",
-        "gpt-4",
-        "dall-e",
-        "ai"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-custom-chatgpt"
     },
     {
       "id": "node-red-contrib-ngsi-ld",
@@ -43467,20 +43498,6 @@
         "mqtt"
       ],
       "url": "https://flows.nodered.org/node/feezal"
-    },
-    {
-      "id": "node-red-contrib-pid",
-      "version": "1.1.7",
-      "description": "PID loop controller for Node-RED",
-      "updated_at": "2021-01-08T14:43:01.567Z",
-      "types": [
-        "PID"
-      ],
-      "keywords": [
-        "PID",
-        "node-red"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-pid"
     },
     {
       "id": "node-red-contrib-handlebarsjs",
