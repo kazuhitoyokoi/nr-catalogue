@@ -1,0 +1,44 @@
+#0 building with "default" instance using docker driver
+
+#1 [internal] load .dockerignore
+#1 transferring context: 2B done
+#1 DONE 0.0s
+
+#2 [internal] load build definition from Dockerfile
+#2 transferring dockerfile: 126B done
+#2 DONE 0.0s
+
+#3 [internal] load metadata for docker.io/nodered/node-red:latest
+#3 DONE 0.1s
+
+#4 [1/2] FROM docker.io/nodered/node-red@sha256:0e3b590064a6bb32996aaa4ca63f0c17e63c877cc5219de501820e6457a616f1
+#4 CACHED
+
+#5 [2/2] RUN npm install npm install node-red-contrib-vib-smart-valve@0.1.54
+#5 2.297 npm WARN EBADENGINE Unsupported engine {
+#5 2.297 npm WARN EBADENGINE   package: 'npm@10.2.3',
+#5 2.297 npm WARN EBADENGINE   required: { node: '^18.17.0 || >=20.5.0' },
+#5 2.297 npm WARN EBADENGINE   current: { node: 'v16.20.2', npm: '8.19.4' }
+#5 2.297 npm WARN EBADENGINE }
+#5 4.275 
+#5 4.275 added 26 packages, and audited 555 packages in 4s
+#5 4.275 
+#5 4.275 70 packages are looking for funding
+#5 4.275   run `npm fund` for details
+#5 4.277 
+#5 4.277 found 0 vulnerabilities
+#5 4.278 npm notice 
+#5 4.278 npm notice New major version of npm available! 8.19.4 -> 10.2.3
+#5 4.278 npm notice Changelog: <https://github.com/npm/cli/releases/tag/v10.2.3>
+#5 4.278 npm notice Run `npm install -g npm@10.2.3` to update!
+#5 4.278 npm notice 
+#5 DONE 4.4s
+
+#6 exporting to image
+#6 exporting layers
+#6 exporting layers 1.0s done
+#6 writing image sha256:3e32b18ab723bb81b590a74be10d2916e195906f31ec921d9c08058ded563f32 done
+#6 naming to docker.io/library/tmp done
+#6 DONE 1.0s
+
+----
