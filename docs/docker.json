@@ -1,7 +1,250 @@
 {
   "name": "Catalogue for Docker",
-  "updated_at": "2023-11-09T15:59:47.790Z",
+  "updated_at": "2023-11-10T16:00:24.425Z",
   "modules": [
+    {
+      "id": "node-red-contrib-vib-smart-boiler",
+      "version": "0.1.36",
+      "description": "Smart boiler node to control multiple thermostat",
+      "updated_at": "2023-11-10T14:10:59.811Z",
+      "types": [
+        "smart-boiler",
+        "smart-boiler-settings"
+      ],
+      "keywords": [
+        "node-red",
+        "Heating",
+        "valve",
+        "trv",
+        "climate"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-vib-smart-boiler"
+    },
+    {
+      "id": "apconic-node-red-image-service",
+      "version": "0.0.6",
+      "updated_at": "2023-11-10T13:45:06.061Z",
+      "types": [
+        "camerasConfig",
+        "apconic-images"
+      ],
+      "keywords": [
+        "node-red"
+      ],
+      "url": "https://flows.nodered.org/node/apconic-node-red-image-service"
+    },
+    {
+      "id": "@jambonz/node-red-contrib-jambonz",
+      "version": "2.4.19",
+      "description": "Node-RED nodes for jambonz platform",
+      "updated_at": "2023-11-10T13:31:02.372Z",
+      "types": [
+        "webhook in",
+        "webhook out",
+        "audio in",
+        "jambonz_auth",
+        "aws_auth",
+        "enqueue",
+        "lex",
+        "say",
+        "dtmf",
+        "cfg",
+        "conference",
+        "gather",
+        "listen",
+        "sip:decline",
+        "sip:request",
+        "sip:refer",
+        "hangup",
+        "message",
+        "tag",
+        "pause",
+        "dequeue",
+        "play",
+        "dial",
+        "redirect",
+        "dialogflow",
+        "leave",
+        "rasa",
+        "user auth",
+        "create-call",
+        "create-sms",
+        "lcc",
+        "get_alerts",
+        "get_call",
+        "get_calls",
+        "get_recent_calls"
+      ],
+      "keywords": [
+        "node-red"
+      ],
+      "url": "https://flows.nodered.org/node/@jambonz/node-red-contrib-jambonz"
+    },
+    {
+      "id": "@metz-connect/node-red-ewio2",
+      "version": "1.0.0",
+      "description": "Provides nodes to access EWIO2 interfaces like IOs and metering - from Node-RED",
+      "updated_at": "2023-11-10T10:54:09.879Z",
+      "types": [
+        "EWIO2",
+        "EWIO2 - Digital OUT",
+        "EWIO2 - Analog OUT",
+        "EWIO2 - Digital IN",
+        "EWIO2 - Analog IN",
+        "EWIO2 - Metering"
+      ],
+      "keywords": [
+        "node-red",
+        "ewio2",
+        "analog output",
+        "digital output",
+        "analog input",
+        "digital input",
+        "metering",
+        "m-bus",
+        "modbus",
+        "pulse counter"
+      ],
+      "url": "https://flows.nodered.org/node/@metz-connect/node-red-ewio2"
+    },
+    {
+      "id": "node-red-contrib-edge-tts",
+      "version": "2.2.1",
+      "description": "An simple Azure Speech Service module that uses the Microsoft Edge Read Aloud API.",
+      "updated_at": "2023-11-10T06:02:30.748Z",
+      "types": [
+        "edge-tts"
+      ],
+      "keywords": [
+        "edge",
+        "node-red",
+        "tts",
+        "readaloud"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-edge-tts"
+    },
+    {
+      "id": "node-red-contrib-home-assistant-websocket",
+      "version": "0.58.2",
+      "description": "Node-RED integration with Home Assistant through websocket and REST API",
+      "updated_at": "2023-11-10T03:16:29.702Z",
+      "types": [],
+      "keywords": [
+        "node-red",
+        "home-assistant",
+        "home assistant",
+        "home automation",
+        "websocket"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-home-assistant-websocket"
+    },
+    {
+      "id": "@ralphwetzel/node-red-context-monitor",
+      "version": "1.1.0",
+      "description": "A Node-RED node to monitor a context.",
+      "updated_at": "2023-11-09T20:19:13.571Z",
+      "types": [
+        "context-monitor"
+      ],
+      "keywords": [
+        "node-red",
+        "context"
+      ],
+      "url": "https://flows.nodered.org/node/@ralphwetzel/node-red-context-monitor"
+    },
+    {
+      "id": "node-red-contrib-aprs2",
+      "version": "3.0.1",
+      "description": "Node-RED Nodes for connecting to APRS-IS and sending & receiving APRS and CWOP Frames.",
+      "updated_at": "2023-11-09T18:47:22.606Z",
+      "types": [
+        "aprs config",
+        "aprs rx",
+        "aprs tx"
+      ],
+      "keywords": [
+        "node-red",
+        "aprs",
+        "hamradio",
+        "amateurradio"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-aprs2"
+    },
+    {
+      "id": "@elipse/e3-node-red",
+      "version": "1.0.6",
+      "description": "Nodes for communication with Elipse E3",
+      "updated_at": "2023-11-09T18:13:03.325Z",
+      "types": [
+        "E3Tag",
+        "E3AdviseTagList",
+        "connectionConfigNode"
+      ],
+      "keywords": [
+        "elipse-e3",
+        "node-red"
+      ],
+      "url": "https://flows.nodered.org/node/@elipse/e3-node-red"
+    },
+    {
+      "id": "node-red-contrib-knx-ultimate",
+      "version": "2.2.25",
+      "description": "Control your KNX intallation via Node-Red! Single Node KNX IN/OUT with optional ETS group address importer. Easy to use and highly configurable. With integrated Philips HUE devices control.",
+      "updated_at": "2023-11-09T16:56:59.598Z",
+      "types": [
+        "knxUltimate",
+        "knxUltimateSceneController",
+        "knxUltimateWatchDog",
+        "knxUltimateLogger",
+        "knxUltimate-config",
+        "knxUltimateGlobalContext",
+        "knxUltimateAlerter",
+        "knxUltimateLoadControl",
+        "knxUltimateViewer",
+        "hue-config",
+        "knxUltimateHueLight",
+        "knxUltimateHueButton",
+        "knxUltimateHueMotion",
+        "knxUltimateHueTapDial",
+        "knxUltimateHueLightSensor",
+        "knxUltimateHueTemperatureSensor",
+        "knxUltimateHueScene",
+        "knxUltimateHueBattery"
+      ],
+      "keywords": [
+        "node-red",
+        "KNX",
+        "ETS",
+        "eib",
+        "konnex",
+        "IOT",
+        "hue"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-knx-ultimate"
+    },
+    {
+      "id": "node-red-contrib-web-worldmap",
+      "version": "4.3.3",
+      "description": "A Node-RED node to provide a web page of a world map for plotting things on.",
+      "updated_at": "2023-11-09T16:19:27.250Z",
+      "types": [
+        "worldmap",
+        "ui_worldmap",
+        "worldmap in",
+        "worldmap-tracks",
+        "worldmap-hull"
+      ],
+      "keywords": [
+        "node-red",
+        "map",
+        "world",
+        "tak",
+        "pmtiles",
+        "esri",
+        "gis"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-web-worldmap"
+    },
     {
       "id": "node-red-contrib-chromadb",
       "version": "1.0.0",
@@ -21,29 +264,6 @@
         "embedding"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-chromadb"
-    },
-    {
-      "id": "node-red-contrib-web-worldmap",
-      "version": "4.3.2",
-      "description": "A Node-RED node to provide a web page of a world map for plotting things on.",
-      "updated_at": "2023-11-09T10:40:34.718Z",
-      "types": [
-        "worldmap",
-        "ui_worldmap",
-        "worldmap in",
-        "worldmap-tracks",
-        "worldmap-hull"
-      ],
-      "keywords": [
-        "node-red",
-        "map",
-        "world",
-        "tak",
-        "pmtiles",
-        "esri",
-        "gis"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-web-worldmap"
     },
     {
       "id": "node-red-contrib-nspanel-lui",
@@ -134,58 +354,6 @@
         "generic"
       ],
       "url": "https://flows.nodered.org/node/@digitalnodecom/node-red-contrib-generic-s3"
-    },
-    {
-      "id": "node-red-contrib-knx-ultimate",
-      "version": "2.2.24",
-      "description": "Control your KNX intallation via Node-Red! Single Node KNX IN/OUT with optional ETS group address importer. Easy to use and highly configurable. With integrated Philips HUE devices control.",
-      "updated_at": "2023-11-08T17:01:09.556Z",
-      "types": [
-        "knxUltimate",
-        "knxUltimateSceneController",
-        "knxUltimateWatchDog",
-        "knxUltimateLogger",
-        "knxUltimate-config",
-        "knxUltimateGlobalContext",
-        "knxUltimateAlerter",
-        "knxUltimateLoadControl",
-        "knxUltimateViewer",
-        "hue-config",
-        "knxUltimateHueLight",
-        "knxUltimateHueButton",
-        "knxUltimateHueMotion",
-        "knxUltimateHueTapDial",
-        "knxUltimateHueLightSensor",
-        "knxUltimateHueTemperatureSensor",
-        "knxUltimateHueScene",
-        "knxUltimateHueBattery"
-      ],
-      "keywords": [
-        "node-red",
-        "KNX",
-        "ETS",
-        "eib",
-        "konnex",
-        "IOT",
-        "hue"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-knx-ultimate"
-    },
-    {
-      "id": "@elipse/e3-node-red",
-      "version": "1.0.5",
-      "description": "Nodes for communication with Elipse E3",
-      "updated_at": "2023-11-08T14:29:11.882Z",
-      "types": [
-        "E3Tag",
-        "E3AdviseTagList",
-        "connectionConfigNode"
-      ],
-      "keywords": [
-        "elipse-e3",
-        "node-red"
-      ],
-      "url": "https://flows.nodered.org/node/@elipse/e3-node-red"
     },
     {
       "id": "@flowfuse/node-red-dashboard",
@@ -478,21 +646,6 @@
       "url": "https://flows.nodered.org/node/node-red-contrib-pid"
     },
     {
-      "id": "node-red-contrib-home-assistant-websocket",
-      "version": "0.58.1",
-      "description": "Node-RED integration with Home Assistant through websocket and REST API",
-      "updated_at": "2023-11-07T12:43:25.067Z",
-      "types": [],
-      "keywords": [
-        "node-red",
-        "home-assistant",
-        "home assistant",
-        "home automation",
-        "websocket"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-home-assistant-websocket"
-    },
-    {
       "id": "@gregoriusrippenstein/node-red-contrib-introspection",
       "version": "0.5.2",
       "description": "Node-RED Editor-only nodes for introspecting with flows in the frontend.",
@@ -511,22 +664,6 @@
         "node-red-editor"
       ],
       "url": "https://flows.nodered.org/node/@gregoriusrippenstein/node-red-contrib-introspection"
-    },
-    {
-      "id": "node-red-contrib-edge-tts",
-      "version": "2.2.0",
-      "description": "An simple Azure Speech Service module that uses the Microsoft Edge Read Aloud API.",
-      "updated_at": "2023-11-07T08:20:32.555Z",
-      "types": [
-        "edge-tts"
-      ],
-      "keywords": [
-        "edge",
-        "node-red",
-        "tts",
-        "readaloud"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-edge-tts"
     },
     {
       "id": "node-red-contrib-tibber-api",
@@ -823,24 +960,6 @@
       "url": "https://flows.nodered.org/node/thingzi-logic-timers"
     },
     {
-      "id": "node-red-contrib-vib-smart-boiler",
-      "version": "0.1.32",
-      "description": "Smart boiler node to control multiple thermostat",
-      "updated_at": "2023-11-04T17:16:53.022Z",
-      "types": [
-        "smart-boiler",
-        "smart-boiler-settings"
-      ],
-      "keywords": [
-        "node-red",
-        "Heating",
-        "valve",
-        "trv",
-        "climate"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-vib-smart-boiler"
-    },
-    {
       "id": "node-red-contrib-luxtronik2",
       "version": "0.5.4",
       "description": "Node, that reads and controls heat pumps based on the Luxtronik 2.0 contol unit. Supports for example AlphaInnotec and Siemens Novelan (WRP NET).",
@@ -1056,20 +1175,6 @@
         "mongodb"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-mongodb4"
-    },
-    {
-      "id": "@ralphwetzel/node-red-context-monitor",
-      "version": "1.0.0",
-      "description": "A Node-RED node to monitor a context.",
-      "updated_at": "2023-11-02T15:39:20.889Z",
-      "types": [
-        "context-monitor"
-      ],
-      "keywords": [
-        "node-red",
-        "context"
-      ],
-      "url": "https://flows.nodered.org/node/@ralphwetzel/node-red-context-monitor"
     },
     {
       "id": "node-red-contrib-openai-ubos",
@@ -5973,53 +6078,6 @@
         "automation"
       ],
       "url": "https://flows.nodered.org/node/cosmos8-clp"
-    },
-    {
-      "id": "@jambonz/node-red-contrib-jambonz",
-      "version": "2.4.18",
-      "description": "Node-RED nodes for jambonz platform",
-      "updated_at": "2023-09-19T20:17:20.540Z",
-      "types": [
-        "webhook in",
-        "webhook out",
-        "audio in",
-        "jambonz_auth",
-        "aws_auth",
-        "enqueue",
-        "lex",
-        "say",
-        "dtmf",
-        "cfg",
-        "conference",
-        "gather",
-        "listen",
-        "sip:decline",
-        "sip:request",
-        "sip:refer",
-        "hangup",
-        "message",
-        "tag",
-        "pause",
-        "dequeue",
-        "play",
-        "dial",
-        "redirect",
-        "dialogflow",
-        "leave",
-        "rasa",
-        "user auth",
-        "create-call",
-        "create-sms",
-        "lcc",
-        "get_alerts",
-        "get_call",
-        "get_calls",
-        "get_recent_calls"
-      ],
-      "keywords": [
-        "node-red"
-      ],
-      "url": "https://flows.nodered.org/node/@jambonz/node-red-contrib-jambonz"
     },
     {
       "id": "node-red-contrib-aula-education",
@@ -11088,6 +11146,26 @@
       "url": "https://flows.nodered.org/node/node-red-contrib-st7735s"
     },
     {
+      "id": "@gotillit/tillit-node-red",
+      "version": "1.2.62",
+      "description": "A TilliT node for Node-RED",
+      "updated_at": "2023-06-04T07:03:28.508Z",
+      "types": [
+        "tillit-node-connection",
+        "tillit-out",
+        "tillit-in",
+        "tillit-api",
+        "tillit-pv",
+        "tillit-event",
+        "tillit-progress"
+      ],
+      "keywords": [
+        "node-red",
+        "tillit"
+      ],
+      "url": "https://flows.nodered.org/node/@gotillit/tillit-node-red"
+    },
+    {
       "id": "node-red-contrib-telegrambot-home",
       "version": "0.8.0",
       "description": "Useful nodes for connecting your home to Telegram",
@@ -13552,23 +13630,6 @@
         "IPC"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-ads-application"
-    },
-    {
-      "id": "@gotillit/tillit-node-red",
-      "version": "1.1.10",
-      "description": "A TilliT node for Node-RED",
-      "updated_at": "2023-04-13T10:00:49.669Z",
-      "types": [
-        "tillit-node-connection",
-        "tillit-out",
-        "tillit-in",
-        "tillit-api"
-      ],
-      "keywords": [
-        "node-red",
-        "tillit"
-      ],
-      "url": "https://flows.nodered.org/node/@gotillit/tillit-node-red"
     },
     {
       "id": "@realsixi/node-red-contrib-ring-alarm",
