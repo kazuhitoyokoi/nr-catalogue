@@ -1,7 +1,629 @@
 {
   "name": "Catalogue for verified nodes",
-  "updated_at": "2023-11-07T23:58:31.770Z",
+  "updated_at": "2023-11-11T23:34:30.157Z",
   "modules": [
+    {
+      "id": "@gregoriusrippenstein/node-red-contrib-flowcompare",
+      "version": "0.1.1",
+      "description": "Compare editor flow with the flow deployed to the server.",
+      "updated_at": "2023-11-11T13:55:38.726Z",
+      "types": [
+        "FlowCompareCfg"
+      ],
+      "keywords": [
+        "node-red",
+        "comparison",
+        "flow-comparison"
+      ],
+      "url": "https://flows.nodered.org/node/@gregoriusrippenstein/node-red-contrib-flowcompare"
+    },
+    {
+      "id": "node-red-contrib-power-saver",
+      "version": "4.1.5",
+      "description": "A module for Node-RED that you can use to turn on and off a switch based on power prices",
+      "updated_at": "2023-11-11T13:07:35.220Z",
+      "types": [
+        "ps-receive-price",
+        "ps-strategy-best-save",
+        "ps-strategy-lowest-price",
+        "ps-strategy-heat-capacitor",
+        "ps-strategy-fixed-schedule",
+        "ps-schedule-merger",
+        "ps-elvia-config",
+        "ps-elvia-tariff-types",
+        "ps-elvia-tariff",
+        "ps-elvia-add-tariff",
+        "ps-general-add-tariff"
+      ],
+      "keywords": [
+        "node-red",
+        "tibber",
+        "energy",
+        "smarthome",
+        "home-automation",
+        "home-assistant",
+        "power"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-power-saver"
+    },
+    {
+      "id": "node-red-contrib-home-assistant-websocket",
+      "version": "0.59.0",
+      "description": "Node-RED integration with Home Assistant through websocket and REST API",
+      "updated_at": "2023-11-11T08:08:55.541Z",
+      "types": [],
+      "keywords": [
+        "node-red",
+        "home-assistant",
+        "home assistant",
+        "home automation",
+        "websocket"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-home-assistant-websocket"
+    },
+    {
+      "id": "@digitalnodecom/node-red-contrib-generic-s3",
+      "version": "1.15.0",
+      "description": "Generic node-red S3 nodes",
+      "updated_at": "2023-11-10T20:10:18.051Z",
+      "types": [
+        "client-s3",
+        "List Buckets",
+        "Create Bucket",
+        "List Objects",
+        "List Objects V2",
+        "List Object Versions",
+        "Get Object",
+        "Get Objects",
+        "Head Object",
+        "Put Object",
+        "Put Objects",
+        "Delete Object",
+        "Copy Object",
+        "Move Object",
+        "Object Exists",
+        "Put Object ACL"
+      ],
+      "keywords": [
+        "node-red",
+        "s3",
+        "generic"
+      ],
+      "url": "https://flows.nodered.org/node/@digitalnodecom/node-red-contrib-generic-s3"
+    },
+    {
+      "id": "node-red-contrib-knx-ultimate",
+      "version": "2.2.26",
+      "description": "Control your KNX intallation via Node-Red! Single Node KNX IN/OUT with optional ETS group address importer. Easy to use and highly configurable. With integrated Philips HUE devices control.",
+      "updated_at": "2023-11-10T17:01:50.010Z",
+      "types": [
+        "knxUltimate",
+        "knxUltimateSceneController",
+        "knxUltimateWatchDog",
+        "knxUltimateLogger",
+        "knxUltimate-config",
+        "knxUltimateGlobalContext",
+        "knxUltimateAlerter",
+        "knxUltimateLoadControl",
+        "knxUltimateViewer",
+        "hue-config",
+        "knxUltimateHueLight",
+        "knxUltimateHueButton",
+        "knxUltimateHueMotion",
+        "knxUltimateHueTapDial",
+        "knxUltimateHueLightSensor",
+        "knxUltimateHueTemperatureSensor",
+        "knxUltimateHueScene",
+        "knxUltimateHueBattery"
+      ],
+      "keywords": [
+        "node-red",
+        "KNX",
+        "ETS",
+        "eib",
+        "konnex",
+        "IOT",
+        "hue"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-knx-ultimate"
+    },
+    {
+      "id": "@softwaredevelopment/node-red-contrib-bodhi-connector",
+      "version": "0.1.5",
+      "description": "Bodhi connector configuration for connecting nodes to bodhi through bodhi bridge",
+      "updated_at": "2023-11-10T15:56:09.465Z",
+      "types": [
+        "Bodhi Connector"
+      ],
+      "keywords": [
+        "node-red",
+        "connector",
+        "bodhi"
+      ],
+      "url": "https://flows.nodered.org/node/@softwaredevelopment/node-red-contrib-bodhi-connector"
+    },
+    {
+      "id": "apconic-node-red-image-service",
+      "version": "0.0.6",
+      "updated_at": "2023-11-10T13:45:06.061Z",
+      "types": [
+        "camerasConfig",
+        "apconic-images"
+      ],
+      "keywords": [
+        "node-red"
+      ],
+      "url": "https://flows.nodered.org/node/apconic-node-red-image-service"
+    },
+    {
+      "id": "@jambonz/node-red-contrib-jambonz",
+      "version": "2.4.19",
+      "description": "Node-RED nodes for jambonz platform",
+      "updated_at": "2023-11-10T13:31:02.372Z",
+      "types": [
+        "webhook in",
+        "webhook out",
+        "audio in",
+        "jambonz_auth",
+        "aws_auth",
+        "enqueue",
+        "lex",
+        "say",
+        "dtmf",
+        "cfg",
+        "conference",
+        "gather",
+        "listen",
+        "sip:decline",
+        "sip:request",
+        "sip:refer",
+        "hangup",
+        "message",
+        "tag",
+        "pause",
+        "dequeue",
+        "play",
+        "dial",
+        "redirect",
+        "dialogflow",
+        "leave",
+        "rasa",
+        "user auth",
+        "create-call",
+        "create-sms",
+        "lcc",
+        "get_alerts",
+        "get_call",
+        "get_calls",
+        "get_recent_calls"
+      ],
+      "keywords": [
+        "node-red"
+      ],
+      "url": "https://flows.nodered.org/node/@jambonz/node-red-contrib-jambonz"
+    },
+    {
+      "id": "@metz-connect/node-red-ewio2",
+      "version": "1.0.0",
+      "description": "Provides nodes to access EWIO2 interfaces like IOs and metering - from Node-RED",
+      "updated_at": "2023-11-10T10:54:09.879Z",
+      "types": [
+        "EWIO2",
+        "EWIO2 - Digital OUT",
+        "EWIO2 - Analog OUT",
+        "EWIO2 - Digital IN",
+        "EWIO2 - Analog IN",
+        "EWIO2 - Metering"
+      ],
+      "keywords": [
+        "node-red",
+        "ewio2",
+        "analog output",
+        "digital output",
+        "analog input",
+        "digital input",
+        "metering",
+        "m-bus",
+        "modbus",
+        "pulse counter"
+      ],
+      "url": "https://flows.nodered.org/node/@metz-connect/node-red-ewio2"
+    },
+    {
+      "id": "node-red-contrib-edge-tts",
+      "version": "2.2.1",
+      "description": "An simple Azure Speech Service module that uses the Microsoft Edge Read Aloud API.",
+      "updated_at": "2023-11-10T06:02:30.748Z",
+      "types": [
+        "edge-tts"
+      ],
+      "keywords": [
+        "edge",
+        "node-red",
+        "tts",
+        "readaloud"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-edge-tts"
+    },
+    {
+      "id": "@ralphwetzel/node-red-context-monitor",
+      "version": "1.1.0",
+      "description": "A Node-RED node to monitor a context.",
+      "updated_at": "2023-11-09T20:19:13.571Z",
+      "types": [
+        "context-monitor"
+      ],
+      "keywords": [
+        "node-red",
+        "context"
+      ],
+      "url": "https://flows.nodered.org/node/@ralphwetzel/node-red-context-monitor"
+    },
+    {
+      "id": "node-red-contrib-aprs2",
+      "version": "3.0.1",
+      "description": "Node-RED Nodes for connecting to APRS-IS and sending & receiving APRS and CWOP Frames.",
+      "updated_at": "2023-11-09T18:47:22.606Z",
+      "types": [
+        "aprs config",
+        "aprs rx",
+        "aprs tx"
+      ],
+      "keywords": [
+        "node-red",
+        "aprs",
+        "hamradio",
+        "amateurradio"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-aprs2"
+    },
+    {
+      "id": "@elipse/e3-node-red",
+      "version": "1.0.6",
+      "description": "Nodes for communication with Elipse E3",
+      "updated_at": "2023-11-09T18:13:03.325Z",
+      "types": [
+        "E3Tag",
+        "E3AdviseTagList",
+        "connectionConfigNode"
+      ],
+      "keywords": [
+        "elipse-e3",
+        "node-red"
+      ],
+      "url": "https://flows.nodered.org/node/@elipse/e3-node-red"
+    },
+    {
+      "id": "node-red-contrib-web-worldmap",
+      "version": "4.3.3",
+      "description": "A Node-RED node to provide a web page of a world map for plotting things on.",
+      "updated_at": "2023-11-09T16:19:27.250Z",
+      "types": [
+        "worldmap",
+        "ui_worldmap",
+        "worldmap in",
+        "worldmap-tracks",
+        "worldmap-hull"
+      ],
+      "keywords": [
+        "node-red",
+        "map",
+        "world",
+        "tak",
+        "pmtiles",
+        "esri",
+        "gis"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-web-worldmap"
+    },
+    {
+      "id": "node-red-contrib-chromadb",
+      "version": "1.0.0",
+      "description": "ChromaDB Node for Node-RED",
+      "updated_at": "2023-11-09T10:55:40.618Z",
+      "types": [
+        "remote-server-client",
+        "chromadb-client",
+        "remote-server-collection",
+        "chromadb-collection"
+      ],
+      "keywords": [
+        "node-red",
+        "vector",
+        "database",
+        "chromadb",
+        "embedding"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-chromadb"
+    },
+    {
+      "id": "node-red-contrib-nspanel-lui",
+      "version": "0.0.1-alpha.37",
+      "description": "Node-RED based backend for NSPanel Lovelace UI custom firmware.",
+      "updated_at": "2023-11-09T09:17:10.910Z",
+      "types": [],
+      "keywords": [
+        "node-red",
+        "lovelace ui",
+        "nspanel"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-nspanel-lui"
+    },
+    {
+      "id": "node-red-contrib-obniz",
+      "version": "0.7.0",
+      "description": "Obniz node to send json data to obniz cloud. Obniz is electronics as a service and you can use electronics with json APIs. ",
+      "updated_at": "2023-11-09T06:30:33.355Z",
+      "types": [
+        "obniz",
+        "obniz-repeat",
+        "obniz-function"
+      ],
+      "keywords": [
+        "node-red",
+        "obniz"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-obniz"
+    },
+    {
+      "id": "node-red-contrib-tado-client",
+      "version": "0.10.9",
+      "description": "Tado web API client node for Node Red",
+      "updated_at": "2023-11-08T21:30:46.098Z",
+      "types": [
+        "tado-config",
+        "tado"
+      ],
+      "keywords": [
+        "node-red",
+        "tado"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-tado-client"
+    },
+    {
+      "id": "@diidum/node-red-contrib-husqvarna-automower-connect",
+      "version": "1.0.7",
+      "description": "Node for controlling/monitoring Husqvarna mowers",
+      "updated_at": "2023-11-08T18:43:47.853Z",
+      "types": [
+        "auto-mower"
+      ],
+      "keywords": [
+        "husqvarna",
+        "node-red",
+        "automower-connect",
+        "mower",
+        "lawn mower"
+      ],
+      "url": "https://flows.nodered.org/node/@diidum/node-red-contrib-husqvarna-automower-connect"
+    },
+    {
+      "id": "@flowfuse/node-red-dashboard",
+      "version": "0.7.2",
+      "description": "A collection of Node-RED nodes that provide functionality to build your own UI applications (inc. forms, buttons, charts) within Node-RED.",
+      "updated_at": "2023-11-08T13:05:53.974Z",
+      "types": [
+        "ui-base",
+        "ui-page",
+        "ui-group",
+        "ui-theme",
+        "ui-form",
+        "__errors__",
+        "ui-text-input",
+        "__errors__",
+        "ui-button",
+        "__errors__",
+        "ui-dropdown",
+        "__errors__",
+        "ui-radio-group",
+        "__errors__",
+        "ui-slider",
+        "__errors__",
+        "ui-switch",
+        "__errors__",
+        "ui-text",
+        "__errors__",
+        "ui-table",
+        "__errors__",
+        "ui-chart",
+        "__errors__",
+        "ui-notification",
+        "__errors__",
+        "ui-markdown",
+        "__errors__",
+        "ui-template",
+        "__errors__"
+      ],
+      "keywords": [
+        "node-red"
+      ],
+      "url": "https://flows.nodered.org/node/@flowfuse/node-red-dashboard"
+    },
+    {
+      "id": "@blebtechnology/node-red-blebricks",
+      "version": "1.0.0",
+      "description": "A node-red package to manage blebricks data",
+      "updated_at": "2023-11-08T12:34:05.097Z",
+      "types": [
+        "PMX",
+        "CHT",
+        "ENV",
+        "OAQ",
+        "BLEB_TEMP",
+        "PTX",
+        "MAG",
+        "SOIL",
+        "LGH",
+        "UHF",
+        "PRT",
+        "REL",
+        "RELOUT",
+        "WPLOUT",
+        "VBROUT",
+        "BUZOUT",
+        "IRTOUT",
+        "ODCOUT",
+        "ODC",
+        "WPL",
+        "VBR",
+        "BUZ",
+        "IRT",
+        "PLV",
+        "WND",
+        "SOL",
+        "PYR",
+        "CMS",
+        "RHT",
+        "UVA",
+        "RGB",
+        "CLT",
+        "IMU",
+        "ACC",
+        "PDM",
+        "CAP",
+        "IRR",
+        "SMS",
+        "DSD",
+        "BLEB_IN",
+        "BLEB_RPS",
+        "SFX",
+        "ESP",
+        "UWS",
+        "RMS",
+        "VMS",
+        "GPS",
+        "BLEB_CNT"
+      ],
+      "keywords": [
+        "node-red"
+      ],
+      "url": "https://flows.nodered.org/node/@blebtechnology/node-red-blebricks"
+    },
+    {
+      "id": "node-red-contrib-oscar-plants-service",
+      "version": "1.0.0",
+      "description": "The OSCAR Cowsay Service node shows the basic functionality for invoking the OSCAR service synchronously.",
+      "updated_at": "2023-11-08T11:57:25.695Z",
+      "types": [],
+      "keywords": [
+        "node-red",
+        "OSCAR",
+        "plants",
+        "GRyCAP",
+        "UPV",
+        "AI4EOSC"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-oscar-plants-service"
+    },
+    {
+      "id": "@bartbutenaers/node-red-autolayout-sidebar",
+      "version": "0.0.3",
+      "description": "A sidebar plugin for Node-RED to offer auto-layouting",
+      "updated_at": "2023-11-08T11:25:50.655Z",
+      "types": [
+        "auto_layout_config"
+      ],
+      "keywords": [
+        "node-red",
+        "auto",
+        "layout",
+        "graph",
+        "sidebar"
+      ],
+      "url": "https://flows.nodered.org/node/@bartbutenaers/node-red-autolayout-sidebar"
+    },
+    {
+      "id": "node-red-contrib-stepper",
+      "version": "1.0.0",
+      "description": "A Node-RED node that steps through numbers from a start value to an end value at configurable intervals.",
+      "updated_at": "2023-11-08T11:11:42.114Z",
+      "types": [
+        "stepper"
+      ],
+      "keywords": [
+        "node-red",
+        "stepper",
+        "counter",
+        "Up Counter",
+        "Down Counter"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-stepper"
+    },
+    {
+      "id": "node-red-contrib-oscar-textspeech-service",
+      "version": "1.0.1",
+      "description": "The OSCAR Cowsay Service node shows the basic functionality for invoking the OSCAR service synchronously.",
+      "updated_at": "2023-11-08T11:10:42.993Z",
+      "types": [],
+      "keywords": [
+        "node-red",
+        "OSCAR",
+        "textspeech",
+        "GRyCAP",
+        "UPV",
+        "AI4EOSC"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-oscar-textspeech-service"
+    },
+    {
+      "id": "node-red-contrib-oscar-cowsay-service",
+      "version": "1.0.3",
+      "description": "The OSCAR Cowsay Service node shows the basic functionality for invoking the OSCAR service synchronously.",
+      "updated_at": "2023-11-08T10:47:43.234Z",
+      "types": [],
+      "keywords": [
+        "node-red",
+        "OSCAR",
+        "cowsay",
+        "GRyCAP",
+        "UPV",
+        "AI4EOSC"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-oscar-cowsay-service"
+    },
+    {
+      "id": "@marcus-j-davies/node-red-semaphore-plus",
+      "version": "3.3.1",
+      "description": "An advanced set of semaphore Nodes for Node RED, with a dynamic fail-safe",
+      "updated_at": "2023-11-07T20:35:51.509Z",
+      "types": [
+        "semaphore-plus-take",
+        "semaphore-plus-release",
+        "semaphore-plus-fs-reset",
+        "semaphore-plus-config"
+      ],
+      "keywords": [
+        "node-red",
+        "semaphore",
+        "control",
+        "single",
+        "lock",
+        "release",
+        "take",
+        "reset",
+        "plus",
+        "advanced",
+        "queue"
+      ],
+      "url": "https://flows.nodered.org/node/@marcus-j-davies/node-red-semaphore-plus"
+    },
+    {
+      "id": "@gregoriusrippenstein/node-red-contrib-flowhub",
+      "version": "0.3.2",
+      "description": "Nodes for interacting with FlowHub.org.",
+      "updated_at": "2023-11-07T18:35:19.325Z",
+      "types": [
+        "FlowHubPull",
+        "FlowHubPushCfg",
+        "FlowHubDiffCfg"
+      ],
+      "keywords": [
+        "node-red",
+        "flowhub",
+        "flowsharing"
+      ],
+      "url": "https://flows.nodered.org/node/@gregoriusrippenstein/node-red-contrib-flowhub"
+    },
     {
       "id": "node-red-contrib-custom-chatgpt",
       "version": "1.2.12",
@@ -48,21 +670,6 @@
       "url": "https://flows.nodered.org/node/node-red-contrib-pid"
     },
     {
-      "id": "node-red-contrib-home-assistant-websocket",
-      "version": "0.58.1",
-      "description": "Node-RED integration with Home Assistant through websocket and REST API",
-      "updated_at": "2023-11-07T12:43:25.067Z",
-      "types": [],
-      "keywords": [
-        "node-red",
-        "home-assistant",
-        "home assistant",
-        "home automation",
-        "websocket"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-home-assistant-websocket"
-    },
-    {
       "id": "@gregoriusrippenstein/node-red-contrib-introspection",
       "version": "0.5.2",
       "description": "Node-RED Editor-only nodes for introspecting with flows in the frontend.",
@@ -81,22 +688,6 @@
         "node-red-editor"
       ],
       "url": "https://flows.nodered.org/node/@gregoriusrippenstein/node-red-contrib-introspection"
-    },
-    {
-      "id": "node-red-contrib-edge-tts",
-      "version": "2.2.0",
-      "description": "An simple Azure Speech Service module that uses the Microsoft Edge Read Aloud API.",
-      "updated_at": "2023-11-07T08:20:32.555Z",
-      "types": [
-        "edge-tts"
-      ],
-      "keywords": [
-        "edge",
-        "node-red",
-        "tts",
-        "readaloud"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-edge-tts"
     },
     {
       "id": "node-red-contrib-tibber-api",
@@ -138,17 +729,26 @@
       "url": "https://flows.nodered.org/node/node-red-contrib-simple-dalle3"
     },
     {
-      "id": "node-red-contrib-nspanel-lui",
-      "version": "0.0.1-alpha.35",
-      "description": "Node-RED based backend for NSPanel Lovelace UI custom firmware.",
-      "updated_at": "2023-11-06T20:37:24.322Z",
-      "types": [],
+      "id": "@mobsean/node-red-vallox-webserver-api",
+      "version": "1.0.1",
+      "description": "Connect your vallox HVAC unit with node-red over vallox webserver.",
+      "updated_at": "2023-11-06T20:40:07.681Z",
+      "types": [
+        "valloxApi",
+        "getTemp",
+        "getProfile",
+        "setProfile"
+      ],
       "keywords": [
         "node-red",
-        "lovelace ui",
-        "nspanel"
+        "vallox",
+        "webserver",
+        "api",
+        "HVAC",
+        "ventilation unit",
+        "home automation"
       ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-nspanel-lui"
+      "url": "https://flows.nodered.org/node/@mobsean/node-red-vallox-webserver-api"
     },
     {
       "id": "node-red-contrib-google-smarthome",
@@ -168,26 +768,6 @@
         "node-red"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-google-smarthome"
-    },
-    {
-      "id": "node-red-contrib-web-worldmap",
-      "version": "4.3.0",
-      "description": "A Node-RED node to provide a web page of a world map for plotting things on.",
-      "updated_at": "2023-11-06T13:53:36.874Z",
-      "types": [
-        "worldmap",
-        "ui_worldmap",
-        "worldmap in",
-        "worldmap-tracks",
-        "worldmap-hull"
-      ],
-      "keywords": [
-        "node-red",
-        "map",
-        "world",
-        "tak"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-web-worldmap"
     },
     {
       "id": "node-red-contrib-alexa-master-function",
@@ -222,22 +802,6 @@
       "url": "https://flows.nodered.org/node/node-red-contrib-oscar-grayify-service"
     },
     {
-      "id": "node-red-contrib-oscar-cowsay-service",
-      "version": "1.0.2",
-      "description": "The OSCAR Cowsay Service node shows the basic functionality for invoking the OSCAR service synchronously.",
-      "updated_at": "2023-11-06T07:51:36.778Z",
-      "types": [],
-      "keywords": [
-        "node-red",
-        "OSCAR",
-        "cowsay",
-        "GRyCAP",
-        "UPV",
-        "AI4EOSC"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-oscar-cowsay-service"
-    },
-    {
       "id": "atomic-mssql",
       "version": "0.0.19",
       "description": "MSSQL module for Brobridge Atomic",
@@ -252,42 +816,6 @@
         "atomic"
       ],
       "url": "https://flows.nodered.org/node/atomic-mssql"
-    },
-    {
-      "id": "node-red-contrib-knx-ultimate",
-      "version": "2.2.20",
-      "description": "Control your KNX intallation via Node-Red! Single Node KNX IN/OUT with optional ETS group address importer. Easy to use and highly configurable. With integrated Philips HUE devices control.",
-      "updated_at": "2023-11-06T06:45:50.235Z",
-      "types": [
-        "knxUltimate",
-        "knxUltimateSceneController",
-        "knxUltimateWatchDog",
-        "knxUltimateLogger",
-        "knxUltimate-config",
-        "knxUltimateGlobalContext",
-        "knxUltimateAlerter",
-        "knxUltimateLoadControl",
-        "knxUltimateViewer",
-        "hue-config",
-        "knxUltimateHueLight",
-        "knxUltimateHueButton",
-        "knxUltimateHueMotion",
-        "knxUltimateHueTapDial",
-        "knxUltimateHueLightSensor",
-        "knxUltimateHueTemperatureSensor",
-        "knxUltimateHueScene",
-        "knxUltimateHueBattery"
-      ],
-      "keywords": [
-        "node-red",
-        "KNX",
-        "ETS",
-        "eib",
-        "konnex",
-        "IOT",
-        "hue"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-knx-ultimate"
     },
     {
       "id": "thingzi-logic-twinkly",
@@ -308,28 +836,6 @@
         "decorations"
       ],
       "url": "https://flows.nodered.org/node/thingzi-logic-twinkly"
-    },
-    {
-      "id": "@mobsean/node-red-vallox-webserver-api",
-      "version": "1.0.0",
-      "description": "Connect your vallox HVAC unit with node-red over vallox webserver.",
-      "updated_at": "2023-11-05T20:23:24.009Z",
-      "types": [
-        "valloxApi",
-        "getTemp",
-        "getProfile",
-        "setProfile"
-      ],
-      "keywords": [
-        "node-red",
-        "vallox",
-        "webserver",
-        "api",
-        "HVAC",
-        "ventilation unit",
-        "home automation"
-      ],
-      "url": "https://flows.nodered.org/node/@mobsean/node-red-vallox-webserver-api"
     },
     {
       "id": "@gregoriusrippenstein/node-red-contrib-auto-alignment",
@@ -414,38 +920,6 @@
       "url": "https://flows.nodered.org/node/@gregoriusrippenstein/node-red-contrib-flow2uml"
     },
     {
-      "id": "@gregoriusrippenstein/node-red-contrib-flowcompare",
-      "version": "0.1.0",
-      "description": "Compare editor flow with the flow deployed to the server.",
-      "updated_at": "2023-11-05T17:59:59.238Z",
-      "types": [
-        "FlowCompareCfg"
-      ],
-      "keywords": [
-        "node-red",
-        "comparison",
-        "flow-comparison"
-      ],
-      "url": "https://flows.nodered.org/node/@gregoriusrippenstein/node-red-contrib-flowcompare"
-    },
-    {
-      "id": "@gregoriusrippenstein/node-red-contrib-flowhub",
-      "version": "0.3.0",
-      "description": "Nodes for interacting with FlowHub.org.",
-      "updated_at": "2023-11-05T17:51:51.280Z",
-      "types": [
-        "FlowHubPull",
-        "FlowHubPushCfg",
-        "FlowHubDiffCfg"
-      ],
-      "keywords": [
-        "node-red",
-        "flowhub",
-        "flowsharing"
-      ],
-      "url": "https://flows.nodered.org/node/@gregoriusrippenstein/node-red-contrib-flowhub"
-    },
-    {
       "id": "@gregoriusrippenstein/node-red-contrib-nodedev",
       "version": "0.1.6",
       "description": "Support the development of Node-RED nodes within Node-RED.",
@@ -466,32 +940,6 @@
         "recursion"
       ],
       "url": "https://flows.nodered.org/node/@gregoriusrippenstein/node-red-contrib-nodedev"
-    },
-    {
-      "id": "@marcus-j-davies/node-red-semaphore-plus",
-      "version": "3.2.0",
-      "description": "An advanced set of semaphore Nodes for Node RED, with a dynamic fail-safe",
-      "updated_at": "2023-11-05T16:06:28.389Z",
-      "types": [
-        "semaphore-plus-take",
-        "semaphore-plus-release",
-        "semaphore-plus-fs-reset",
-        "semaphore-plus-config"
-      ],
-      "keywords": [
-        "node-red",
-        "semaphore",
-        "control",
-        "single",
-        "lock",
-        "release",
-        "take",
-        "reset",
-        "plus",
-        "advanced",
-        "queue"
-      ],
-      "url": "https://flows.nodered.org/node/@marcus-j-davies/node-red-semaphore-plus"
     },
     {
       "id": "thingzi-logic-timers",
@@ -736,20 +1184,6 @@
         "mongodb"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-mongodb4"
-    },
-    {
-      "id": "@ralphwetzel/node-red-context-monitor",
-      "version": "1.0.0",
-      "description": "A Node-RED node to monitor a context.",
-      "updated_at": "2023-11-02T15:39:20.889Z",
-      "types": [
-        "context-monitor"
-      ],
-      "keywords": [
-        "node-red",
-        "context"
-      ],
-      "url": "https://flows.nodered.org/node/@ralphwetzel/node-red-context-monitor"
     },
     {
       "id": "node-red-contrib-openai-ubos",
@@ -1009,22 +1443,6 @@
       "url": "https://flows.nodered.org/node/node-red-contrib-shelly"
     },
     {
-      "id": "@elipse/e3-node-red",
-      "version": "1.0.4",
-      "description": "Nodes for communication with Elipse E3",
-      "updated_at": "2023-10-31T18:56:19.311Z",
-      "types": [
-        "E3Tag",
-        "E3AdviseTagList",
-        "connectionConfigNode"
-      ],
-      "keywords": [
-        "elipse-e3",
-        "node-red"
-      ],
-      "url": "https://flows.nodered.org/node/@elipse/e3-node-red"
-    },
-    {
       "id": "@joe-ab1do/mcp-pcf-aio",
       "version": "3.2.1",
       "description": "Node-Red nodes for i2c port expanders MCP23008, MCP23017, PCF8574(A) & PCF8575",
@@ -1146,35 +1564,6 @@
         "node-red"
       ],
       "url": "https://flows.nodered.org/node/@starke-dms/node-red"
-    },
-    {
-      "id": "node-red-contrib-power-saver",
-      "version": "4.1.4",
-      "description": "A module for Node-RED that you can use to turn on and off a switch based on power prices",
-      "updated_at": "2023-10-29T16:57:13.542Z",
-      "types": [
-        "ps-receive-price",
-        "ps-strategy-best-save",
-        "ps-strategy-lowest-price",
-        "ps-strategy-heat-capacitor",
-        "ps-strategy-fixed-schedule",
-        "ps-schedule-merger",
-        "ps-elvia-config",
-        "ps-elvia-tariff-types",
-        "ps-elvia-tariff",
-        "ps-elvia-add-tariff",
-        "ps-general-add-tariff"
-      ],
-      "keywords": [
-        "node-red",
-        "tibber",
-        "energy",
-        "smarthome",
-        "home-automation",
-        "home-assistant",
-        "power"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-power-saver"
     },
     {
       "id": "node-red-contrib-alexa-remote2-applestrudel",
@@ -1338,21 +1727,6 @@
       "url": "https://flows.nodered.org/node/@edgepi-cloud/node-red-edgepi-dac"
     },
     {
-      "id": "@softwaredevelopment/node-red-contrib-bodhi-connector",
-      "version": "0.1.3",
-      "description": "Bodhi connector configuration for connecting nodes to bodhi through bodhi bridge",
-      "updated_at": "2023-10-27T17:21:15.889Z",
-      "types": [
-        "Bodhi Connector"
-      ],
-      "keywords": [
-        "node-red",
-        "connector",
-        "bodhi"
-      ],
-      "url": "https://flows.nodered.org/node/@softwaredevelopment/node-red-contrib-bodhi-connector"
-    },
-    {
       "id": "node-red-contrib-opcua",
       "version": "0.2.318",
       "description": "A Node-RED node to communicate via OPC UA based on node-opcua library.",
@@ -1424,21 +1798,6 @@
       "url": "https://flows.nodered.org/node/@hsync/node-red-ble-uart"
     },
     {
-      "id": "node-red-contrib-tado-client",
-      "version": "0.10.7",
-      "description": "Tado web API client node for Node Red",
-      "updated_at": "2023-10-26T16:11:46.871Z",
-      "types": [
-        "tado-config",
-        "tado"
-      ],
-      "keywords": [
-        "node-red",
-        "tado"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-tado-client"
-    },
-    {
       "id": "@strato-automation/node-red-contrib-strato-automation",
       "version": "0.1.2",
       "description": "Strato Automation Official Node Red Library",
@@ -1463,48 +1822,6 @@
         "node-red-node"
       ],
       "url": "https://flows.nodered.org/node/@strato-automation/node-red-contrib-strato-automation"
-    },
-    {
-      "id": "@flowfuse/node-red-dashboard",
-      "version": "0.7.1",
-      "description": "A collection of Node-RED nodes that provide functionality to build your own UI applications (inc. forms, buttons, charts) within Node-RED.",
-      "updated_at": "2023-10-26T13:35:45.168Z",
-      "types": [
-        "ui-base",
-        "ui-page",
-        "ui-group",
-        "ui-theme",
-        "ui-form",
-        "__errors__",
-        "ui-text-input",
-        "__errors__",
-        "ui-button",
-        "__errors__",
-        "ui-dropdown",
-        "__errors__",
-        "ui-radio-group",
-        "__errors__",
-        "ui-slider",
-        "__errors__",
-        "ui-switch",
-        "__errors__",
-        "ui-text",
-        "__errors__",
-        "ui-table",
-        "__errors__",
-        "ui-chart",
-        "__errors__",
-        "ui-notification",
-        "__errors__",
-        "ui-markdown",
-        "__errors__",
-        "ui-template",
-        "__errors__"
-      ],
-      "keywords": [
-        "node-red"
-      ],
-      "url": "https://flows.nodered.org/node/@flowfuse/node-red-dashboard"
     },
     {
       "id": "node-red-contrib-edgesignal-connector",
@@ -1646,23 +1963,6 @@
         "electric"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-load-balance-knapsack"
-    },
-    {
-      "id": "@bartbutenaers/node-red-autolayout-sidebar",
-      "version": "0.0.2",
-      "description": "A sidebar plugin for Node-RED to offer auto-layouting",
-      "updated_at": "2023-10-24T19:01:28.592Z",
-      "types": [
-        "auto_layout_config"
-      ],
-      "keywords": [
-        "node-red",
-        "auto",
-        "layout",
-        "graph",
-        "sidebar"
-      ],
-      "url": "https://flows.nodered.org/node/@bartbutenaers/node-red-autolayout-sidebar"
     },
     {
       "id": "@flowforge/node-red-dashboard",
@@ -3468,35 +3768,6 @@
       "url": "https://flows.nodered.org/node/node-red-contrib-ha-mqtt"
     },
     {
-      "id": "@digitalnodecom/node-red-contrib-generic-s3",
-      "version": "1.14.0",
-      "description": "Generic node-red S3 nodes",
-      "updated_at": "2023-10-08T18:48:20.055Z",
-      "types": [
-        "client-s3",
-        "List Buckets",
-        "Create Bucket",
-        "List Objects",
-        "List Objects V2",
-        "List Object Versions",
-        "Get Object",
-        "Get Objects",
-        "Head Object",
-        "Put Object",
-        "Put Objects",
-        "Delete Object",
-        "Copy Object",
-        "Move Object",
-        "Object Exists"
-      ],
-      "keywords": [
-        "node-red",
-        "s3",
-        "generic"
-      ],
-      "url": "https://flows.nodered.org/node/@digitalnodecom/node-red-contrib-generic-s3"
-    },
-    {
       "id": "node-red-contrib-mcdm",
       "version": "0.0.2",
       "description": "Node-RED Multi Criterion Decision Making Nodes",
@@ -4932,6 +5203,23 @@
       "url": "https://flows.nodered.org/node/@softwaredevelopment/node-red-contrib-bodhi-device-outlet"
     },
     {
+      "id": "@arduino/node-red-contrib-arduino-iot-cloud",
+      "version": "1.0.10",
+      "description": "Node-RED nodes to talk to Arduino IoT Cloud",
+      "updated_at": "2023-09-25T08:39:14.432Z",
+      "types": [
+        "arduino-connection",
+        "__errors__"
+      ],
+      "keywords": [
+        "node-red",
+        "Arduino",
+        "IoT",
+        "Cloud"
+      ],
+      "url": "https://flows.nodered.org/node/@arduino/node-red-contrib-arduino-iot-cloud"
+    },
+    {
       "id": "@softwaredevelopment/node-red-contrib-bodhi-device-occupancy-sensor",
       "version": "0.0.2",
       "description": "Occupancy Sensor device for bodhi node red",
@@ -5710,53 +5998,6 @@
         "automation"
       ],
       "url": "https://flows.nodered.org/node/cosmos8-clp"
-    },
-    {
-      "id": "@jambonz/node-red-contrib-jambonz",
-      "version": "2.4.18",
-      "description": "Node-RED nodes for jambonz platform",
-      "updated_at": "2023-09-19T20:17:20.540Z",
-      "types": [
-        "webhook in",
-        "webhook out",
-        "audio in",
-        "jambonz_auth",
-        "aws_auth",
-        "enqueue",
-        "lex",
-        "say",
-        "dtmf",
-        "cfg",
-        "conference",
-        "gather",
-        "listen",
-        "sip:decline",
-        "sip:request",
-        "sip:refer",
-        "hangup",
-        "message",
-        "tag",
-        "pause",
-        "dequeue",
-        "play",
-        "dial",
-        "redirect",
-        "dialogflow",
-        "leave",
-        "rasa",
-        "user auth",
-        "create-call",
-        "create-sms",
-        "lcc",
-        "get_alerts",
-        "get_call",
-        "get_calls",
-        "get_recent_calls"
-      ],
-      "keywords": [
-        "node-red"
-      ],
-      "url": "https://flows.nodered.org/node/@jambonz/node-red-contrib-jambonz"
     },
     {
       "id": "node-red-contrib-aula-education",
@@ -7178,6 +7419,21 @@
       "url": "https://flows.nodered.org/node/node-red-contrib-slack-ubos"
     },
     {
+      "id": "@envidatec/node-red-contrib-jevis",
+      "version": "1.0.6",
+      "description": "Read / Write to JEVis Server",
+      "updated_at": "2023-08-29T11:54:28.413Z",
+      "types": [
+        "JEVis-Read",
+        "JEVis-Write",
+        "JEVis-Server"
+      ],
+      "keywords": [
+        "node-red"
+      ],
+      "url": "https://flows.nodered.org/node/@envidatec/node-red-contrib-jevis"
+    },
+    {
       "id": "node-red-contrib-ais-decoder",
       "version": "1.2.4",
       "description": "Decodes AIS messages from an AIS receiver such as rtl-ais.",
@@ -7477,21 +7733,6 @@
         "novaposhta"
       ],
       "url": "https://flows.nodered.org/node/@platmac/node-red-novaposhta-track"
-    },
-    {
-      "id": "@envidatec/node-red-contrib-jevis",
-      "version": "1.0.5",
-      "description": "Read / Write to JEVis Server",
-      "updated_at": "2023-08-22T12:22:30.767Z",
-      "types": [
-        "JEVis-Read",
-        "JEVis-Write",
-        "JEVis-Server"
-      ],
-      "keywords": [
-        "node-red"
-      ],
-      "url": "https://flows.nodered.org/node/@envidatec/node-red-contrib-jevis"
     },
     {
       "id": "@envidatec/node-red-contrib-logger",
@@ -10703,6 +10944,26 @@
       "url": "https://flows.nodered.org/node/node-red-contrib-st7735s"
     },
     {
+      "id": "@gotillit/tillit-node-red",
+      "version": "1.2.62",
+      "description": "A TilliT node for Node-RED",
+      "updated_at": "2023-06-04T07:03:28.508Z",
+      "types": [
+        "tillit-node-connection",
+        "tillit-out",
+        "tillit-in",
+        "tillit-api",
+        "tillit-pv",
+        "tillit-event",
+        "tillit-progress"
+      ],
+      "keywords": [
+        "node-red",
+        "tillit"
+      ],
+      "url": "https://flows.nodered.org/node/@gotillit/tillit-node-red"
+    },
+    {
       "id": "node-red-contrib-telegrambot-home",
       "version": "0.8.0",
       "description": "Useful nodes for connecting your home to Telegram",
@@ -11674,23 +11935,6 @@
         "sun events"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-today-time-range-switch"
-    },
-    {
-      "id": "@arduino/node-red-contrib-arduino-iot-cloud",
-      "version": "1.0.9",
-      "description": "Node-RED nodes to talk to Arduino IoT Cloud",
-      "updated_at": "2023-05-11T15:43:11.850Z",
-      "types": [
-        "arduino-connection",
-        "__errors__"
-      ],
-      "keywords": [
-        "node-red",
-        "Arduino",
-        "IoT",
-        "Cloud"
-      ],
-      "url": "https://flows.nodered.org/node/@arduino/node-red-contrib-arduino-iot-cloud"
     },
     {
       "id": "@andrei-tatar/node-red-contrib-nibetcp",
@@ -13134,23 +13378,6 @@
         "IPC"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-ads-application"
-    },
-    {
-      "id": "@gotillit/tillit-node-red",
-      "version": "1.1.10",
-      "description": "A TilliT node for Node-RED",
-      "updated_at": "2023-04-13T10:00:49.669Z",
-      "types": [
-        "tillit-node-connection",
-        "tillit-out",
-        "tillit-in",
-        "tillit-api"
-      ],
-      "keywords": [
-        "node-red",
-        "tillit"
-      ],
-      "url": "https://flows.nodered.org/node/@gotillit/tillit-node-red"
     },
     {
       "id": "@realsixi/node-red-contrib-ring-alarm",
@@ -26286,6 +26513,24 @@
       "url": "https://flows.nodered.org/node/node-red-contrib-satel-integra-integration"
     },
     {
+      "id": "node-red-contrib-reusable-flows",
+      "version": "1.0.0",
+      "description": "a single Node-RED node representing a complete self-contained flow",
+      "updated_at": "2022-05-11T03:52:17.212Z",
+      "types": [
+        "reusable-in",
+        "reusable-out",
+        "reusable"
+      ],
+      "keywords": [
+        "node-red",
+        "javascript",
+        "function",
+        "node"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-reusable-flows"
+    },
+    {
       "id": "node-red-contrib-public-ip-address",
       "version": "0.0.3",
       "description": "Node-RED Node to get the public IP address",
@@ -33806,24 +34051,6 @@
         "node-red"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-knx-raspberry"
-    },
-    {
-      "id": "node-red-contrib-reusable-flows",
-      "version": "0.1.5",
-      "description": "a single Node-RED node representing a complete self-contained flow",
-      "updated_at": "2021-10-25T12:39:57.488Z",
-      "types": [
-        "reusable-in",
-        "reusable-out",
-        "reusable"
-      ],
-      "keywords": [
-        "node-red",
-        "javascript",
-        "function",
-        "node"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-reusable-flows"
     },
     {
       "id": "node-red-contrib-special-date",
@@ -41946,22 +42173,6 @@
         "Sigfox"
       ],
       "url": "https://flows.nodered.org/node/@pilot-things/node-red-contrib-pilot-things"
-    },
-    {
-      "id": "node-red-contrib-obniz",
-      "version": "0.6.2",
-      "description": "Obniz node to send json data to obniz cloud. Obniz is electronics as a service and you can use electronics with json APIs. ",
-      "updated_at": "2021-02-17T02:35:02.283Z",
-      "types": [
-        "obniz",
-        "obniz-repeat",
-        "obniz-function"
-      ],
-      "keywords": [
-        "node-red",
-        "obniz"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-obniz"
     },
     {
       "id": "node-red-contrib-xmlrpc-evo",
