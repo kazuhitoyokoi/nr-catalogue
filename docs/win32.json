@@ -1,7 +1,80 @@
 {
   "name": "Catalogue for Windows",
-  "updated_at": "2023-11-11T20:47:24.766Z",
+  "updated_at": "2023-11-12T21:17:14.226Z",
   "modules": [
+    {
+      "id": "node-red-contrib-melcloud-atw",
+      "version": "1.0.0",
+      "description": "Mitsubishi Melcloud API connection for Air-to-Water(ATW) devices",
+      "updated_at": "2023-11-12T13:51:43.806Z",
+      "types": [
+        "melcloud-credential-atw",
+        "melcloud-device-atw",
+        "melcloud-connect-atw"
+      ],
+      "keywords": [
+        "node-red",
+        "mitsubishi",
+        "melcloud",
+        "ecodan",
+        "air conditioning",
+        "heat pump",
+        "air-to-water"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-melcloud-atw"
+    },
+    {
+      "id": "@opcua/for-node-red",
+      "version": "2.0.6",
+      "description": "The Node-RED node to communicate via OPC UA, powered NodeOPCUA and developed by Sterfive's team",
+      "updated_at": "2023-11-11T22:08:44.740Z",
+      "types": [],
+      "keywords": [
+        "node-red",
+        "OPC UA",
+        "opc-ua",
+        "unified architecture",
+        "opc foundation",
+        "node-opcua",
+        "IIoT"
+      ],
+      "url": "https://flows.nodered.org/node/@opcua/for-node-red"
+    },
+    {
+      "id": "node-red-contrib-alphaess",
+      "version": "2.0.0",
+      "description": "This provides a node for retrieving information from Alpha ESS photovoltaic systems.",
+      "updated_at": "2023-11-11T17:54:36.072Z",
+      "types": [
+        "alphaess-monitoring"
+      ],
+      "keywords": [
+        "node-red",
+        "Alpha ESS",
+        "Storion"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-alphaess"
+    },
+    {
+      "id": "@gregoriusrippenstein/node-red-contrib-introspection",
+      "version": "0.5.3",
+      "description": "Node-RED Editor-only nodes for introspecting with flows in the frontend.",
+      "updated_at": "2023-11-11T16:52:56.375Z",
+      "types": [
+        "Seeker",
+        "Sink",
+        "GetFlows",
+        "SendFlow",
+        "ClientCode"
+      ],
+      "keywords": [
+        "node-red",
+        "introspection",
+        "selfreflection",
+        "node-red-editor"
+      ],
+      "url": "https://flows.nodered.org/node/@gregoriusrippenstein/node-red-contrib-introspection"
+    },
     {
       "id": "@gregoriusrippenstein/node-red-contrib-flowcompare",
       "version": "0.1.2",
@@ -686,26 +759,6 @@
       "url": "https://flows.nodered.org/node/node-red-contrib-pid"
     },
     {
-      "id": "@gregoriusrippenstein/node-red-contrib-introspection",
-      "version": "0.5.2",
-      "description": "Node-RED Editor-only nodes for introspecting with flows in the frontend.",
-      "updated_at": "2023-11-07T10:21:11.658Z",
-      "types": [
-        "Seeker",
-        "Sink",
-        "GetFlows",
-        "SendFlow",
-        "ClientCode"
-      ],
-      "keywords": [
-        "node-red",
-        "introspection",
-        "selfreflection",
-        "node-red-editor"
-      ],
-      "url": "https://flows.nodered.org/node/@gregoriusrippenstein/node-red-contrib-introspection"
-    },
-    {
       "id": "node-red-contrib-tibber-api",
       "version": "6.0.0",
       "description": "Node Red module for integrating with Tibber api",
@@ -1004,21 +1057,6 @@
       "url": "https://flows.nodered.org/node/node-red-contrib-luxtronik2"
     },
     {
-      "id": "node-red-contrib-alphaess",
-      "version": "1.8.5",
-      "description": "This provides a node for retrieving information from Alpha ESS photovoltaic systems.",
-      "updated_at": "2023-11-04T14:33:51.063Z",
-      "types": [
-        "alphaess-monitoring"
-      ],
-      "keywords": [
-        "node-red",
-        "Alpha ESS",
-        "Storion"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-alphaess"
-    },
-    {
       "id": "node-red-contrib-tasmota",
       "version": "0.9.13",
       "description": "Node-RED integration for Tasmota flashed devices",
@@ -1228,23 +1266,6 @@
         "ai"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-openai-ubos"
-    },
-    {
-      "id": "@opcua/for-node-red",
-      "version": "2.0.4",
-      "description": "The Node-RED node to communicate via OPC UA, powered NodeOPCUA and developed by Sterfive's team",
-      "updated_at": "2023-11-02T08:36:10.906Z",
-      "types": [],
-      "keywords": [
-        "node-red",
-        "OPC UA",
-        "opc-ua",
-        "unified architecture",
-        "opc foundation",
-        "node-opcua",
-        "IIoT"
-      ],
-      "url": "https://flows.nodered.org/node/@opcua/for-node-red"
     },
     {
       "id": "@tbowmo/node-red-small-timer",
