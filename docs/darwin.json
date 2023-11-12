@@ -1,7 +1,81 @@
 {
   "name": "Catalogue for macOS",
-  "updated_at": "2023-11-11T23:34:10.262Z",
+  "updated_at": "2023-11-12T23:34:42.197Z",
   "modules": [
+    {
+      "id": "node-red-contrib-knx-ultimate",
+      "version": "2.2.27",
+      "description": "Control your KNX intallation via Node-Red! Single Node KNX IN/OUT with optional ETS group address importer. Easy to use and highly configurable. With integrated Philips HUE devices control.",
+      "updated_at": "2023-11-12T20:23:33.893Z",
+      "types": [
+        "knxUltimate",
+        "knxUltimateSceneController",
+        "knxUltimateWatchDog",
+        "knxUltimateLogger",
+        "knxUltimate-config",
+        "knxUltimateGlobalContext",
+        "knxUltimateAlerter",
+        "knxUltimateLoadControl",
+        "knxUltimateViewer",
+        "hue-config",
+        "knxUltimateHueLight",
+        "knxUltimateHueButton",
+        "knxUltimateHueMotion",
+        "knxUltimateHueTapDial",
+        "knxUltimateHueLightSensor",
+        "knxUltimateHueTemperatureSensor",
+        "knxUltimateHueScene",
+        "knxUltimateHueBattery"
+      ],
+      "keywords": [
+        "node-red",
+        "KNX",
+        "ETS",
+        "eib",
+        "konnex",
+        "IOT",
+        "hue"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-knx-ultimate"
+    },
+    {
+      "id": "node-red-contrib-melcloud-atw",
+      "version": "1.0.11",
+      "description": "Mitsubishi Melcloud API connection for Air-to-Water(ATW) devices",
+      "updated_at": "2023-11-12T19:21:46.204Z",
+      "types": [
+        "melcloud-credential-atw",
+        "melcloud-device-atw",
+        "melcloud-connect-atw"
+      ],
+      "keywords": [
+        "node-red",
+        "mitsubishi",
+        "melcloud",
+        "ecodan",
+        "air conditioning",
+        "heat pump",
+        "air-to-water"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-melcloud-atw"
+    },
+    {
+      "id": "@opcua/for-node-red",
+      "version": "2.0.6",
+      "description": "The Node-RED node to communicate via OPC UA, powered NodeOPCUA and developed by Sterfive's team",
+      "updated_at": "2023-11-11T22:08:44.740Z",
+      "types": [],
+      "keywords": [
+        "node-red",
+        "OPC UA",
+        "opc-ua",
+        "unified architecture",
+        "opc foundation",
+        "node-opcua",
+        "IIoT"
+      ],
+      "url": "https://flows.nodered.org/node/@opcua/for-node-red"
+    },
     {
       "id": "node-red-contrib-alphaess",
       "version": "2.0.0",
@@ -142,42 +216,6 @@
         "generic"
       ],
       "url": "https://flows.nodered.org/node/@digitalnodecom/node-red-contrib-generic-s3"
-    },
-    {
-      "id": "node-red-contrib-knx-ultimate",
-      "version": "2.2.26",
-      "description": "Control your KNX intallation via Node-Red! Single Node KNX IN/OUT with optional ETS group address importer. Easy to use and highly configurable. With integrated Philips HUE devices control.",
-      "updated_at": "2023-11-10T17:01:50.010Z",
-      "types": [
-        "knxUltimate",
-        "knxUltimateSceneController",
-        "knxUltimateWatchDog",
-        "knxUltimateLogger",
-        "knxUltimate-config",
-        "knxUltimateGlobalContext",
-        "knxUltimateAlerter",
-        "knxUltimateLoadControl",
-        "knxUltimateViewer",
-        "hue-config",
-        "knxUltimateHueLight",
-        "knxUltimateHueButton",
-        "knxUltimateHueMotion",
-        "knxUltimateHueTapDial",
-        "knxUltimateHueLightSensor",
-        "knxUltimateHueTemperatureSensor",
-        "knxUltimateHueScene",
-        "knxUltimateHueBattery"
-      ],
-      "keywords": [
-        "node-red",
-        "KNX",
-        "ETS",
-        "eib",
-        "konnex",
-        "IOT",
-        "hue"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-knx-ultimate"
     },
     {
       "id": "@softwaredevelopment/node-red-contrib-bodhi-connector",
@@ -1264,23 +1302,6 @@
         "ai"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-openai-ubos"
-    },
-    {
-      "id": "@opcua/for-node-red",
-      "version": "2.0.4",
-      "description": "The Node-RED node to communicate via OPC UA, powered NodeOPCUA and developed by Sterfive's team",
-      "updated_at": "2023-11-02T08:36:10.906Z",
-      "types": [],
-      "keywords": [
-        "node-red",
-        "OPC UA",
-        "opc-ua",
-        "unified architecture",
-        "opc foundation",
-        "node-opcua",
-        "IIoT"
-      ],
-      "url": "https://flows.nodered.org/node/@opcua/for-node-red"
     },
     {
       "id": "@tbowmo/node-red-small-timer",
