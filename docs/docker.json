@@ -1,12 +1,138 @@
 {
   "name": "Catalogue for Docker",
-  "updated_at": "2023-11-12T16:03:41.047Z",
+  "updated_at": "2023-11-13T15:59:24.405Z",
   "modules": [
     {
+      "id": "@elipse/e3-node-red",
+      "version": "1.0.7",
+      "description": "Nodes for communication with Elipse E3",
+      "updated_at": "2023-11-13T13:54:54.685Z",
+      "types": [
+        "E3Tag",
+        "E3AdviseTagList",
+        "connectionConfigNode"
+      ],
+      "keywords": [
+        "elipse-e3",
+        "node-red"
+      ],
+      "url": "https://flows.nodered.org/node/@elipse/e3-node-red"
+    },
+    {
+      "id": "node-red-contrib-knx-ultimate",
+      "version": "2.2.29",
+      "description": "Control your KNX intallation via Node-Red! Single Node KNX IN/OUT with optional ETS group address importer. Easy to use and highly configurable. With integrated Philips HUE devices control.",
+      "updated_at": "2023-11-13T13:19:06.389Z",
+      "types": [
+        "knxUltimate",
+        "knxUltimateSceneController",
+        "knxUltimateWatchDog",
+        "knxUltimateLogger",
+        "knxUltimate-config",
+        "knxUltimateGlobalContext",
+        "knxUltimateAlerter",
+        "knxUltimateLoadControl",
+        "knxUltimateViewer",
+        "hue-config",
+        "knxUltimateHueLight",
+        "knxUltimateHueButton",
+        "knxUltimateHueMotion",
+        "knxUltimateHueTapDial",
+        "knxUltimateHueLightSensor",
+        "knxUltimateHueTemperatureSensor",
+        "knxUltimateHueScene",
+        "knxUltimateHueBattery"
+      ],
+      "keywords": [
+        "node-red",
+        "KNX",
+        "ETS",
+        "eib",
+        "konnex",
+        "IOT",
+        "hue"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-knx-ultimate"
+    },
+    {
+      "id": "node-red-contrib-oscar-plants-service",
+      "version": "1.0.7",
+      "description": "This example uses the pre-trained classification model by DEEP-Hybrid-DataCloud Plants species classifier and is prepared to be used with synchronous invocations.",
+      "updated_at": "2023-11-13T13:00:37.551Z",
+      "types": [],
+      "keywords": [
+        "node-red",
+        "OSCAR",
+        "Plants",
+        "GRyCAP",
+        "UPV",
+        "AI4EOSC"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-oscar-plants-service"
+    },
+    {
+      "id": "node-red-contrib-simple-bu",
+      "version": "1.2.7",
+      "description": "A Node-RED node that simplifies the data process.",
+      "updated_at": "2023-11-13T11:37:22.400Z",
+      "types": [
+        "simple-bu"
+      ],
+      "keywords": [
+        "node-red",
+        "simple-bu"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-simple-bu"
+    },
+    {
+      "id": "node-red-contrib-json2xlsx",
+      "version": "1.0.2",
+      "description": "Convert a json payload to xlsx buffered file",
+      "updated_at": "2023-11-13T10:37:41.359Z",
+      "types": [
+        "json-xlsx"
+      ],
+      "keywords": [
+        "node-red",
+        "JSON to excel",
+        "xlsx"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-json2xlsx"
+    },
+    {
+      "id": "@julaoshi/node-red-log-to-file",
+      "version": "0.0.4",
+      "description": "A sample node for node-red",
+      "updated_at": "2023-11-13T08:15:18.727Z",
+      "types": [
+        "log-to-file",
+        "log-server-config"
+      ],
+      "keywords": [
+        "node-red"
+      ],
+      "url": "https://flows.nodered.org/node/@julaoshi/node-red-log-to-file"
+    },
+    {
+      "id": "node-red-contrib-dawnchorus",
+      "version": "0.0.5",
+      "description": "Nodes for uploading birdsongs to dawnchorus.",
+      "updated_at": "2023-11-12T23:06:05.823Z",
+      "types": [
+        "dawn chorus"
+      ],
+      "keywords": [
+        "node-red",
+        "dawnchorus",
+        "birdsong"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-dawnchorus"
+    },
+    {
       "id": "node-red-contrib-melcloud-atw",
-      "version": "1.0.0",
+      "version": "1.0.11",
       "description": "Mitsubishi Melcloud API connection for Air-to-Water(ATW) devices",
-      "updated_at": "2023-11-12T13:51:43.806Z",
+      "updated_at": "2023-11-12T19:21:46.204Z",
       "types": [
         "melcloud-credential-atw",
         "melcloud-device-atw",
@@ -182,42 +308,6 @@
       "url": "https://flows.nodered.org/node/@digitalnodecom/node-red-contrib-generic-s3"
     },
     {
-      "id": "node-red-contrib-knx-ultimate",
-      "version": "2.2.26",
-      "description": "Control your KNX intallation via Node-Red! Single Node KNX IN/OUT with optional ETS group address importer. Easy to use and highly configurable. With integrated Philips HUE devices control.",
-      "updated_at": "2023-11-10T17:01:50.010Z",
-      "types": [
-        "knxUltimate",
-        "knxUltimateSceneController",
-        "knxUltimateWatchDog",
-        "knxUltimateLogger",
-        "knxUltimate-config",
-        "knxUltimateGlobalContext",
-        "knxUltimateAlerter",
-        "knxUltimateLoadControl",
-        "knxUltimateViewer",
-        "hue-config",
-        "knxUltimateHueLight",
-        "knxUltimateHueButton",
-        "knxUltimateHueMotion",
-        "knxUltimateHueTapDial",
-        "knxUltimateHueLightSensor",
-        "knxUltimateHueTemperatureSensor",
-        "knxUltimateHueScene",
-        "knxUltimateHueBattery"
-      ],
-      "keywords": [
-        "node-red",
-        "KNX",
-        "ETS",
-        "eib",
-        "konnex",
-        "IOT",
-        "hue"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-knx-ultimate"
-    },
-    {
       "id": "@softwaredevelopment/node-red-contrib-bodhi-connector",
       "version": "0.1.5",
       "description": "Bodhi connector configuration for connecting nodes to bodhi through bodhi bridge",
@@ -384,22 +474,6 @@
         "amateurradio"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-aprs2"
-    },
-    {
-      "id": "@elipse/e3-node-red",
-      "version": "1.0.6",
-      "description": "Nodes for communication with Elipse E3",
-      "updated_at": "2023-11-09T18:13:03.325Z",
-      "types": [
-        "E3Tag",
-        "E3AdviseTagList",
-        "connectionConfigNode"
-      ],
-      "keywords": [
-        "elipse-e3",
-        "node-red"
-      ],
-      "url": "https://flows.nodered.org/node/@elipse/e3-node-red"
     },
     {
       "id": "node-red-contrib-web-worldmap",
@@ -606,22 +680,6 @@
         "node-red"
       ],
       "url": "https://flows.nodered.org/node/@blebtechnology/node-red-blebricks"
-    },
-    {
-      "id": "node-red-contrib-oscar-plants-service",
-      "version": "1.0.0",
-      "description": "The OSCAR Cowsay Service node shows the basic functionality for invoking the OSCAR service synchronously.",
-      "updated_at": "2023-11-08T11:57:25.695Z",
-      "types": [],
-      "keywords": [
-        "node-red",
-        "OSCAR",
-        "plants",
-        "GRyCAP",
-        "UPV",
-        "AI4EOSC"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-oscar-plants-service"
     },
     {
       "id": "@bartbutenaers/node-red-autolayout-sidebar",
@@ -1993,21 +2051,6 @@
       "url": "https://flows.nodered.org/node/node-red-contrib-sia-ultimate"
     },
     {
-      "id": "node-red-contrib-dawnchorus",
-      "version": "0.0.4",
-      "description": "Nodes for uploading birdsongs to dawnchorus.",
-      "updated_at": "2023-10-25T21:58:57.474Z",
-      "types": [
-        "dawn chorus"
-      ],
-      "keywords": [
-        "node-red",
-        "dawnchorus",
-        "birdsong"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-dawnchorus"
-    },
-    {
       "id": "@appmodule/node-red-contrib-siot",
       "version": "3.0.0-rc14",
       "description": "Node-RED interactions with SIOT",
@@ -2238,20 +2281,6 @@
         "node-red"
       ],
       "url": "https://flows.nodered.org/node/@ia-cloud/node-red-contrib-ia-cloud-fds"
-    },
-    {
-      "id": "node-red-contrib-simple-bu",
-      "version": "1.2.6",
-      "description": "A Node-RED node that simplifies the data process.",
-      "updated_at": "2023-10-24T06:51:44.491Z",
-      "types": [
-        "simple-bu"
-      ],
-      "keywords": [
-        "node-red",
-        "simple-bu"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-simple-bu"
     },
     {
       "id": "@redplc/node-red-redplc",
@@ -12449,26 +12478,6 @@
       "url": "https://flows.nodered.org/node/@nodecolor/node-red-contrib-azure-iot-hub"
     },
     {
-      "id": "node-red-contrib-iiot-ds18b20",
-      "version": "2.0.6",
-      "description": "A Node-RED node for multiple ds18b20 digital temperature sensors.",
-      "updated_at": "2023-05-06T16:47:37.829Z",
-      "types": [
-        "iiot-ds18b20-fs"
-      ],
-      "keywords": [
-        "node-red",
-        "raspberry pi",
-        "rpi",
-        "ds18b20",
-        "one wire",
-        "iot",
-        "iiot",
-        "temperature"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-iiot-ds18b20"
-    },
-    {
       "id": "node-red-contrib-gaode-smc",
       "version": "1.0.4",
       "description": "node red node for gaode",
@@ -12502,35 +12511,6 @@
       "url": "https://flows.nodered.org/node/node-red-contrib-ishrae-comfort"
     },
     {
-      "id": "node-red-contrib-iiot-rpi-mcp342x",
-      "version": "2.0.1",
-      "description": "A Node-Red node for mcp342x analog to digital converter.",
-      "updated_at": "2023-05-05T17:03:14.091Z",
-      "types": [
-        "mcp342x",
-        "mcp342x-m"
-      ],
-      "keywords": [
-        "node-red",
-        "raspberry pi",
-        "rpi",
-        "mcp342x",
-        "mcp3421",
-        "mcp3422",
-        "mcp3423",
-        "mcp3424",
-        "mcp3425",
-        "mcp3426",
-        "mcp3427",
-        "mcp3428",
-        "iot",
-        "iiot",
-        "analog",
-        "adc"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-iiot-rpi-mcp342x"
-    },
-    {
       "id": "node-red-contrib-trng",
       "version": "1.0.0",
       "description": "A Node-RED module for generating random data using a hybrid approach.",
@@ -12548,27 +12528,6 @@
         "Truly Random Number Generator"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-trng"
-    },
-    {
-      "id": "node-red-contrib-iiot-rpi-ads1115",
-      "version": "2.0.5",
-      "description": "A Node-Red node for ads1115 analog to digital converter",
-      "updated_at": "2023-05-05T05:15:09.839Z",
-      "types": [
-        "iiot-ads1115",
-        "iiot-ads1115-m"
-      ],
-      "keywords": [
-        "node-red",
-        "raspberry pi",
-        "rpi",
-        "ads1115",
-        "iot",
-        "iiot",
-        "analog",
-        "adc"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-iiot-rpi-ads1115"
     },
     {
       "id": "node-red-contrib-esphome",
@@ -14362,25 +14321,6 @@
       "url": "https://flows.nodered.org/node/node-red-contrib-haier"
     },
     {
-      "id": "node-red-contrib-iiot-ntptime",
-      "version": "1.0.24",
-      "description": "A Node-Red node for read NTP server time",
-      "updated_at": "2023-03-29T13:47:46.796Z",
-      "types": [
-        "iiot-ntptime"
-      ],
-      "keywords": [
-        "node-red",
-        "time",
-        "system time",
-        "ntp time",
-        "ntp",
-        "iot",
-        "iiot"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-iiot-ntptime"
-    },
-    {
       "id": "@ba47/node-red-preferred-language",
       "version": "0.6.4",
       "description": "Determine preferred language from browser's Accept-Language.",
@@ -15849,37 +15789,6 @@
         "node-red"
       ],
       "url": "https://flows.nodered.org/node/energyprofiles"
-    },
-    {
-      "id": "node-red-contrib-iiot-rpi-pcf857x",
-      "version": "1.0.21",
-      "description": "A Node-Red node for pcf8574(A), pcf8575, pcf8574(A) + hd44780-LCD",
-      "updated_at": "2023-02-21T13:58:47.925Z",
-      "types": [
-        "pcf857x-in",
-        "pcf857x-out",
-        "hd44780",
-        "__errors__",
-        "hd44780-b",
-        "__errors__"
-      ],
-      "keywords": [
-        "node-red",
-        "raspberry pi",
-        "rpi",
-        "pcf8574",
-        "pcf8575",
-        "hd44780",
-        "iot",
-        "iiot",
-        "digital",
-        "dio",
-        "display",
-        "lcd",
-        "1602",
-        "2004"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-iiot-rpi-pcf857x"
     },
     {
       "id": "node-red-contrib-epi-aws-s3",
@@ -17571,29 +17480,6 @@
         "whatsapp"
       ],
       "url": "https://flows.nodered.org/node/@inutil-labs/node-red-whin-whatsapp"
-    },
-    {
-      "id": "node-red-contrib-iiot-rpi-max7219",
-      "version": "1.0.22",
-      "description": "A Node-Red node for max7219 8-Digit LED Display",
-      "updated_at": "2023-01-19T14:56:17.014Z",
-      "types": [
-        "max7219-7seg",
-        "max7219-mtx"
-      ],
-      "keywords": [
-        "node-red",
-        "raspberry pi",
-        "rpi",
-        "max7219",
-        "iot",
-        "iiot",
-        "display",
-        "led",
-        "7-segment",
-        "matrix"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-iiot-rpi-max7219"
     },
     {
       "id": "@sparktime/node-red-contrib-wamp-auth",
@@ -22086,28 +21972,6 @@
       "url": "https://flows.nodered.org/node/node-red-contrib-bit"
     },
     {
-      "id": "node-red-contrib-iiot-rpi-mcp4728",
-      "version": "1.0.21",
-      "description": "A Node-Red node for mcp4728 digital to analog converter",
-      "updated_at": "2022-09-25T14:34:51.100Z",
-      "types": [
-        "mcp4728",
-        "mcp4728-m"
-      ],
-      "keywords": [
-        "node-red",
-        "raspberry pi",
-        "rpi",
-        "mcp4728",
-        "iot",
-        "iiot",
-        "analog",
-        "dac",
-        "digital to analog"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-iiot-rpi-mcp4728"
-    },
-    {
       "id": "node-red-node-ui-lineargauge",
       "version": "0.3.7",
       "description": "A Node-RED ui node to display a linear gauge on the dashboard.",
@@ -24269,37 +24133,6 @@
       "url": "https://flows.nodered.org/node/node-red-contrib-bayesian"
     },
     {
-      "id": "node-red-contrib-iiot-rpi-gpio",
-      "version": "1.0.26",
-      "description": "A Node-Red node for gpio",
-      "updated_at": "2022-07-23T16:48:28.153Z",
-      "types": [
-        "gpio-in",
-        "gpio-out",
-        "gpio-pwm",
-        "gpio-cnt",
-        "gpio-enc",
-        "gpio-kbd"
-      ],
-      "keywords": [
-        "node-red",
-        "raspberry pi",
-        "rpi",
-        "gpio",
-        "iot",
-        "iiot",
-        "digital",
-        "pwm",
-        "counter",
-        "count",
-        "encoder",
-        "rotary encoder",
-        "keypad",
-        "4x4"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-iiot-rpi-gpio"
-    },
-    {
       "id": "@equans/smart-buildings-vacancy-sensing",
       "version": "1.0.8",
       "description": "Occupants to turn on the lights manually based on their needs. The sensor will automatically turn the lights off, provided, the space is detected to be vacant, or no motion is detected",
@@ -24560,28 +24393,6 @@
         "tls"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-certificate-grabber"
-    },
-    {
-      "id": "node-red-contrib-iiot-rpi-pca9685",
-      "version": "1.0.21",
-      "description": "A Node-Red node for pca9685 16-Channel pwm/servo driver",
-      "updated_at": "2022-07-10T12:34:20.094Z",
-      "types": [
-        "pca9685-pwm",
-        "pca9685-srv"
-      ],
-      "keywords": [
-        "node-red",
-        "raspberry pi",
-        "rpi",
-        "pca9685",
-        "iot",
-        "iiot",
-        "analog",
-        "pwm",
-        "servo"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-iiot-rpi-pca9685"
     },
     {
       "id": "node-red-contrib-mh-z19-co2sensor",
@@ -25692,23 +25503,6 @@
         "humidity"
       ],
       "url": "https://flows.nodered.org/node/@rakwireless/shtc3"
-    },
-    {
-      "id": "node-red-contrib-iiot-systime",
-      "version": "1.0.20",
-      "description": "A Node-Red node for read system time",
-      "updated_at": "2022-06-13T13:54:02.350Z",
-      "types": [
-        "iiot-systime"
-      ],
-      "keywords": [
-        "node-red",
-        "time",
-        "system time",
-        "iot",
-        "iiot"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-iiot-systime"
     },
     {
       "id": "@intres/node-red-azure-storage",
