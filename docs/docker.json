@@ -1,7 +1,78 @@
 {
   "name": "Catalogue for Docker",
-  "updated_at": "2023-11-13T15:59:24.405Z",
+  "updated_at": "2023-11-14T15:58:10.509Z",
   "modules": [
+    {
+      "id": "@julaoshi/node-red-log-to-file",
+      "version": "0.0.7",
+      "description": "Log collection sharding cleaning",
+      "updated_at": "2023-11-14T10:42:10.301Z",
+      "types": [
+        "log-to-file",
+        "log-server-config"
+      ],
+      "keywords": [
+        "node-red"
+      ],
+      "url": "https://flows.nodered.org/node/@julaoshi/node-red-log-to-file"
+    },
+    {
+      "id": "node-red-contrib-simple-bu",
+      "version": "1.2.8",
+      "description": "A Node-RED node that simplifies the data process.",
+      "updated_at": "2023-11-14T09:34:04.688Z",
+      "types": [
+        "simple-bu"
+      ],
+      "keywords": [
+        "node-red",
+        "simple-bu"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-simple-bu"
+    },
+    {
+      "id": "apconic-node-red-image-service",
+      "version": "0.0.8",
+      "updated_at": "2023-11-14T08:58:27.820Z",
+      "types": [
+        "camerasConfig",
+        "apconic-capture-images",
+        "apconic-serve-image"
+      ],
+      "keywords": [
+        "node-red"
+      ],
+      "url": "https://flows.nodered.org/node/apconic-node-red-image-service"
+    },
+    {
+      "id": "node-red-contrib-nspanel-lui",
+      "version": "0.0.1-alpha.38",
+      "description": "Node-RED based backend for NSPanel Lovelace UI custom firmware.",
+      "updated_at": "2023-11-14T07:27:56.748Z",
+      "types": [],
+      "keywords": [
+        "node-red",
+        "lovelace ui",
+        "nspanel"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-nspanel-lui"
+    },
+    {
+      "id": "@envidatec/node-red-contrib-logger",
+      "version": "1.0.8",
+      "description": "Logs Data into SQL-Lite",
+      "updated_at": "2023-11-13T15:31:12.250Z",
+      "types": [
+        "logger",
+        "SQL-DB",
+        "Rest-Server",
+        "SQL-Lite"
+      ],
+      "keywords": [
+        "node-red"
+      ],
+      "url": "https://flows.nodered.org/node/@envidatec/node-red-contrib-logger"
+    },
     {
       "id": "@elipse/e3-node-red",
       "version": "1.0.7",
@@ -71,20 +142,6 @@
       "url": "https://flows.nodered.org/node/node-red-contrib-oscar-plants-service"
     },
     {
-      "id": "node-red-contrib-simple-bu",
-      "version": "1.2.7",
-      "description": "A Node-RED node that simplifies the data process.",
-      "updated_at": "2023-11-13T11:37:22.400Z",
-      "types": [
-        "simple-bu"
-      ],
-      "keywords": [
-        "node-red",
-        "simple-bu"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-simple-bu"
-    },
-    {
       "id": "node-red-contrib-json2xlsx",
       "version": "1.0.2",
       "description": "Convert a json payload to xlsx buffered file",
@@ -98,20 +155,6 @@
         "xlsx"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-json2xlsx"
-    },
-    {
-      "id": "@julaoshi/node-red-log-to-file",
-      "version": "0.0.4",
-      "description": "A sample node for node-red",
-      "updated_at": "2023-11-13T08:15:18.727Z",
-      "types": [
-        "log-to-file",
-        "log-server-config"
-      ],
-      "keywords": [
-        "node-red"
-      ],
-      "url": "https://flows.nodered.org/node/@julaoshi/node-red-log-to-file"
     },
     {
       "id": "node-red-contrib-dawnchorus",
@@ -151,9 +194,9 @@
     },
     {
       "id": "@opcua/for-node-red",
-      "version": "2.0.6",
+      "version": "2.0.7",
       "description": "The Node-RED node to communicate via OPC UA, powered NodeOPCUA and developed by Sterfive's team",
-      "updated_at": "2023-11-11T22:08:44.740Z",
+      "updated_at": "2023-11-11T22:43:37.879Z",
       "types": [],
       "keywords": [
         "node-red",
@@ -341,19 +384,6 @@
       "url": "https://flows.nodered.org/node/node-red-contrib-vib-smart-boiler"
     },
     {
-      "id": "apconic-node-red-image-service",
-      "version": "0.0.6",
-      "updated_at": "2023-11-10T13:45:06.061Z",
-      "types": [
-        "camerasConfig",
-        "apconic-images"
-      ],
-      "keywords": [
-        "node-red"
-      ],
-      "url": "https://flows.nodered.org/node/apconic-node-red-image-service"
-    },
-    {
       "id": "@jambonz/node-red-contrib-jambonz",
       "version": "2.4.19",
       "description": "Node-RED nodes for jambonz platform",
@@ -517,19 +547,6 @@
         "embedding"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-chromadb"
-    },
-    {
-      "id": "node-red-contrib-nspanel-lui",
-      "version": "0.0.1-alpha.37",
-      "description": "Node-RED based backend for NSPanel Lovelace UI custom firmware.",
-      "updated_at": "2023-11-09T09:17:10.910Z",
-      "types": [],
-      "keywords": [
-        "node-red",
-        "lovelace ui",
-        "nspanel"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-nspanel-lui"
     },
     {
       "id": "node-red-contrib-obniz",
@@ -7912,22 +7929,6 @@
         "node-red"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-harsh-lower-case"
-    },
-    {
-      "id": "@envidatec/node-red-contrib-logger",
-      "version": "1.0.7",
-      "description": "Logs Data into SQL-Lite",
-      "updated_at": "2023-08-22T12:19:26.300Z",
-      "types": [
-        "logger",
-        "SQL-DB",
-        "Rest-Server",
-        "SQL-Lite"
-      ],
-      "keywords": [
-        "node-red"
-      ],
-      "url": "https://flows.nodered.org/node/@envidatec/node-red-contrib-logger"
     },
     {
       "id": "@sinch/node-red-mailgun",
