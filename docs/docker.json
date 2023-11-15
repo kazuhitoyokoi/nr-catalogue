@@ -1,12 +1,74 @@
 {
   "name": "Catalogue for Docker",
-  "updated_at": "2023-11-14T15:58:10.509Z",
+  "updated_at": "2023-11-15T15:59:45.002Z",
   "modules": [
     {
+      "id": "node-red-contrib-onstar2",
+      "version": "2.1.18",
+      "description": "An updated Node-RED Library using OnStarJS, an unofficial client library for the OnStar Vehicle API",
+      "updated_at": "2023-11-15T12:55:19.183Z",
+      "types": [
+        "get-account-vehicles",
+        "get-diagnostics",
+        "lock-myvehicle",
+        "unlock-myvehicle",
+        "start-myvehicle",
+        "cancel-start-myvehicle",
+        "alert-myvehicle",
+        "alert-myvehicle-lights",
+        "alert-myvehicle-horn",
+        "cancel-alert-myvehicle",
+        "locate-vehicle",
+        "mycharge-override",
+        "get-mycharge-profile",
+        "set-mycharge-profile",
+        "onstar2"
+      ],
+      "keywords": [
+        "node-red",
+        "OnStar",
+        "Chevrolet",
+        "Chevy",
+        "GM",
+        "GMC",
+        "Buick",
+        "Cadillac"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-onstar2"
+    },
+    {
+      "id": "apconic-node-red-image-service",
+      "version": "0.0.9",
+      "updated_at": "2023-11-15T11:41:11.689Z",
+      "types": [
+        "camerasConfig",
+        "apconic-capture-images",
+        "apconic-serve-image"
+      ],
+      "keywords": [
+        "node-red"
+      ],
+      "url": "https://flows.nodered.org/node/apconic-node-red-image-service"
+    },
+    {
+      "id": "@ralphwetzel/node-red-context-monitor",
+      "version": "1.2.0",
+      "description": "A Node-RED node to monitor a context.",
+      "updated_at": "2023-11-15T06:46:09.241Z",
+      "types": [
+        "context-monitor"
+      ],
+      "keywords": [
+        "node-red",
+        "context"
+      ],
+      "url": "https://flows.nodered.org/node/@ralphwetzel/node-red-context-monitor"
+    },
+    {
       "id": "@julaoshi/node-red-log-to-file",
-      "version": "0.0.7",
+      "version": "0.0.8",
       "description": "Log collection sharding cleaning",
-      "updated_at": "2023-11-14T10:42:10.301Z",
+      "updated_at": "2023-11-15T00:49:54.912Z",
       "types": [
         "log-to-file",
         "log-server-config"
@@ -15,6 +77,206 @@
         "node-red"
       ],
       "url": "https://flows.nodered.org/node/@julaoshi/node-red-log-to-file"
+    },
+    {
+      "id": "node-red-contrib-scd30",
+      "version": "1.0.3",
+      "description": "Node-RED node for reading measurements from Sensirion SCD30, the CO2, temperature, and humidity sensor.",
+      "updated_at": "2023-11-14T23:45:09.529Z",
+      "types": [
+        "scd30"
+      ],
+      "keywords": [
+        "node-red",
+        "scd30",
+        "co2",
+        "temperature",
+        "humidity",
+        "sensor"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-scd30"
+    },
+    {
+      "id": "node-red-contrib-json-logic",
+      "version": "2.0.1",
+      "description": "Node-RED node utlizing json-logic rules & operations.",
+      "updated_at": "2023-11-14T22:07:39.470Z",
+      "types": [
+        "jsonlogic",
+        "jsonlogic_switcher",
+        "jsonlogic_engine"
+      ],
+      "keywords": [
+        "node-red",
+        "node-inq",
+        "jsonlogic",
+        "rules",
+        "json"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-json-logic"
+    },
+    {
+      "id": "node-red-contrib-grohe-sense",
+      "version": "0.19.0",
+      "description": "Grohe sense nodes via ondus API.",
+      "updated_at": "2023-11-14T21:06:41.244Z",
+      "types": [
+        "grohe location",
+        "grohe sense"
+      ],
+      "keywords": [
+        "node-red",
+        "grohe",
+        "ondus",
+        "sense"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-grohe-sense"
+    },
+    {
+      "id": "@gastmanager/node-red-client",
+      "version": "1.1.2",
+      "description": "Connects to the gastmanager cloud and provides nodes to listen and publish events",
+      "updated_at": "2023-11-14T19:36:12.091Z",
+      "types": [
+        "gastmanager-config",
+        "gastmanager-listener",
+        "gastmanager-publisher"
+      ],
+      "keywords": [
+        "node-red"
+      ],
+      "url": "https://flows.nodered.org/node/@gastmanager/node-red-client"
+    },
+    {
+      "id": "@inductiv/node-red-openai-api",
+      "version": "0.1.0",
+      "description": "Node-RED node for interfacing with OpenAI platform services",
+      "updated_at": "2023-11-14T17:47:44.761Z",
+      "types": [
+        "openai-api",
+        "openai-api-service"
+      ],
+      "keywords": [
+        "openai",
+        "api",
+        "automation",
+        "chatgpt",
+        "llm",
+        "agent",
+        "automation",
+        "node-red",
+        "nodered",
+        "low-code",
+        "ai"
+      ],
+      "url": "https://flows.nodered.org/node/@inductiv/node-red-openai-api"
+    },
+    {
+      "id": "connect-logic-nodes",
+      "version": "0.0.3",
+      "description": "Node-RED contribution package with nodes to simplify configuration of logic for CONNECT Smart Home.",
+      "updated_at": "2023-11-14T13:57:37.203Z",
+      "types": [
+        "Connect-logic-invert",
+        "Connect-logic-variable-config",
+        "Connect-logic-variable-set",
+        "Connect-logic-variable-get",
+        "Connect-logic-variable-condition",
+        "Connect-logic-button-events",
+        "Connect-logic-toggle",
+        "Connect-logic-constant",
+        "Connect-logic-smooth-change"
+      ],
+      "keywords": [
+        "node-red",
+        "connect-smart-home",
+        "connect",
+        "iot",
+        "smarthome",
+        "smart",
+        "home",
+        "boolean",
+        "logic",
+        "invert",
+        "variable",
+        "condition",
+        "button",
+        "events",
+        "buttonevents",
+        "singleclick",
+        "doubleclick",
+        "tripleclick",
+        "quadreclick",
+        "toggle",
+        "constant",
+        "smooth"
+      ],
+      "url": "https://flows.nodered.org/node/connect-logic-nodes"
+    },
+    {
+      "id": "connect-nodes",
+      "version": "0.0.3",
+      "description": "Node-RED contribution package with nodes for interaction with CONNECT Smart Home system and configure your own UI",
+      "updated_at": "2023-11-14T13:57:22.158Z",
+      "types": [
+        "CONNECT digital input",
+        "__errors__",
+        "CONNECT relay",
+        "__errors__",
+        "CONNECT RS485 in",
+        "__errors__",
+        "CONNECT RS485 out",
+        "__errors__",
+        "CONNECT DMX",
+        "__errors__",
+        "CONNECT dimmer",
+        "__errors__",
+        "CONNECT DMX mode config",
+        "CONNECT DMX sending period config",
+        "CONNECT modbus RS485",
+        "CONNECT Ajax",
+        "__errors__",
+        "CONNECT Ajax add",
+        "CONNECT Ajax delete",
+        "CONNECT Ajax protection",
+        "CONNECT ZigBee",
+        "CONNECT ZigBee add",
+        "CONNECT ZigBee delete",
+        "CONNECT UI switch",
+        "CONNECT UI dimmer",
+        "CONNECT UI rgb",
+        "CONNECT UI rgbw",
+        "CONNECT UI warm cold",
+        "CONNECT UI thermostat",
+        "CONNECT UI status",
+        "CONNECT UI curtains",
+        "CONNECT UI notification",
+        "CONNECT UI scene",
+        "CONNECT UI room config",
+        "CONNECT UI category config"
+      ],
+      "keywords": [
+        "node-red",
+        "connect-smart-home",
+        "connect",
+        "iot",
+        "smarthome",
+        "smart",
+        "home",
+        "homekit",
+        "dmx",
+        "1-wire",
+        "modbus",
+        "rs485",
+        "dimmer",
+        "rgbw",
+        "rgb",
+        "led",
+        "ajax",
+        "zigbee",
+        "0-10v"
+      ],
+      "url": "https://flows.nodered.org/node/connect-nodes"
     },
     {
       "id": "node-red-contrib-simple-bu",
@@ -31,20 +293,6 @@
       "url": "https://flows.nodered.org/node/node-red-contrib-simple-bu"
     },
     {
-      "id": "apconic-node-red-image-service",
-      "version": "0.0.8",
-      "updated_at": "2023-11-14T08:58:27.820Z",
-      "types": [
-        "camerasConfig",
-        "apconic-capture-images",
-        "apconic-serve-image"
-      ],
-      "keywords": [
-        "node-red"
-      ],
-      "url": "https://flows.nodered.org/node/apconic-node-red-image-service"
-    },
-    {
       "id": "node-red-contrib-nspanel-lui",
       "version": "0.0.1-alpha.38",
       "description": "Node-RED based backend for NSPanel Lovelace UI custom firmware.",
@@ -56,6 +304,22 @@
         "nspanel"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-nspanel-lui"
+    },
+    {
+      "id": "node-red-contrib-edge-tts",
+      "version": "2.2.2",
+      "description": "An simple Azure Speech Service module that uses the Microsoft Edge Read Aloud API.",
+      "updated_at": "2023-11-14T03:23:40.126Z",
+      "types": [
+        "edge-tts"
+      ],
+      "keywords": [
+        "edge",
+        "node-red",
+        "tts",
+        "readaloud"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-edge-tts"
     },
     {
       "id": "@envidatec/node-red-contrib-logger",
@@ -456,36 +720,6 @@
         "pulse counter"
       ],
       "url": "https://flows.nodered.org/node/@metz-connect/node-red-ewio2"
-    },
-    {
-      "id": "node-red-contrib-edge-tts",
-      "version": "2.2.1",
-      "description": "An simple Azure Speech Service module that uses the Microsoft Edge Read Aloud API.",
-      "updated_at": "2023-11-10T06:02:30.748Z",
-      "types": [
-        "edge-tts"
-      ],
-      "keywords": [
-        "edge",
-        "node-red",
-        "tts",
-        "readaloud"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-edge-tts"
-    },
-    {
-      "id": "@ralphwetzel/node-red-context-monitor",
-      "version": "1.1.0",
-      "description": "A Node-RED node to monitor a context.",
-      "updated_at": "2023-11-09T20:19:13.571Z",
-      "types": [
-        "context-monitor"
-      ],
-      "keywords": [
-        "node-red",
-        "context"
-      ],
-      "url": "https://flows.nodered.org/node/@ralphwetzel/node-red-context-monitor"
     },
     {
       "id": "node-red-contrib-aprs2",
@@ -1476,40 +1710,6 @@
       "url": "https://flows.nodered.org/node/node-red-contrib-boolean-logic-ultimate"
     },
     {
-      "id": "node-red-contrib-onstar2",
-      "version": "2.1.17",
-      "description": "An updated Node-RED Library using OnStarJS, an unofficial client library for the OnStar Vehicle API",
-      "updated_at": "2023-11-01T01:15:37.446Z",
-      "types": [
-        "get-account-vehicles",
-        "get-diagnostics",
-        "lock-myvehicle",
-        "unlock-myvehicle",
-        "start-myvehicle",
-        "cancel-start-myvehicle",
-        "alert-myvehicle",
-        "alert-myvehicle-lights",
-        "alert-myvehicle-horn",
-        "cancel-alert-myvehicle",
-        "locate-vehicle",
-        "mycharge-override",
-        "get-mycharge-profile",
-        "set-mycharge-profile",
-        "onstar2"
-      ],
-      "keywords": [
-        "node-red",
-        "OnStar",
-        "Chevrolet",
-        "Chevy",
-        "GM",
-        "GMC",
-        "Buick",
-        "Cadillac"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-onstar2"
-    },
-    {
       "id": "node-red-contrib-august",
       "version": "1.2.0",
       "description": "Node-RED node to connect to August locks",
@@ -2367,24 +2567,6 @@
       "url": "https://flows.nodered.org/node/ankersolixe1600"
     },
     {
-      "id": "node-red-contrib-json-logic",
-      "version": "1.0.3",
-      "description": "Node-RED node utlizing json-logic rules & operations.",
-      "updated_at": "2023-10-23T21:39:39.407Z",
-      "types": [
-        "logic_engine",
-        "jsonlogic"
-      ],
-      "keywords": [
-        "node-red",
-        "node-inq",
-        "jsonlogic",
-        "rules",
-        "json"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-json-logic"
-    },
-    {
       "id": "@psotoulloa/node-red-neo4jdriver",
       "version": "1.0.5",
       "description": "This node use the neo4j driver",
@@ -2727,21 +2909,6 @@
         "Obix"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-obix-niagara-connector"
-    },
-    {
-      "id": "@gastmanager/node-red-client",
-      "version": "1.1.0",
-      "description": "Connects to the gastmanager cloud and provides nodes to listen and publish events",
-      "updated_at": "2023-10-20T13:09:03.357Z",
-      "types": [
-        "gastmanager-config",
-        "gastmanager-listener",
-        "gastmanager-publisher"
-      ],
-      "keywords": [
-        "node-red"
-      ],
-      "url": "https://flows.nodered.org/node/@gastmanager/node-red-client"
     },
     {
       "id": "node-red-contrib-ejbca",
@@ -5042,23 +5209,6 @@
         "television"
       ],
       "url": "https://flows.nodered.org/node/@softwaredevelopment/node-red-contrib-bodhi-device-television"
-    },
-    {
-      "id": "node-red-contrib-grohe-sense",
-      "version": "0.18.0",
-      "description": "Grohe sense nodes via ondus API.",
-      "updated_at": "2023-09-25T19:19:19.303Z",
-      "types": [
-        "grohe location",
-        "grohe sense"
-      ],
-      "keywords": [
-        "node-red",
-        "grohe",
-        "ondus",
-        "sense"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-grohe-sense"
     },
     {
       "id": "@softwaredevelopment/node-red-contrib-bodhi-device-pool",
@@ -12688,71 +12838,6 @@
         "pm5000"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-schneider-powerlogic"
-    },
-    {
-      "id": "connect-nodes",
-      "version": "0.0.2",
-      "description": "Node-RED contribution package with nodes for interaction with CONNECT Smart Home system and configure your own UI",
-      "updated_at": "2023-05-02T15:31:30.124Z",
-      "types": [
-        "CONNECT digital input",
-        "__errors__",
-        "CONNECT relay",
-        "__errors__",
-        "CONNECT RS485 in",
-        "__errors__",
-        "CONNECT RS485 out",
-        "__errors__",
-        "CONNECT DMX",
-        "__errors__",
-        "CONNECT dimmer",
-        "__errors__",
-        "CONNECT DMX mode config",
-        "CONNECT DMX sending period config",
-        "CONNECT modbus RS485",
-        "CONNECT Ajax",
-        "__errors__",
-        "CONNECT Ajax add",
-        "CONNECT Ajax delete",
-        "CONNECT Ajax protection",
-        "CONNECT ZigBee",
-        "CONNECT ZigBee add",
-        "CONNECT ZigBee delete",
-        "CONNECT UI switch",
-        "CONNECT UI dimmer",
-        "CONNECT UI rgb",
-        "CONNECT UI rgbw",
-        "CONNECT UI warm cold",
-        "CONNECT UI thermostat",
-        "CONNECT UI status",
-        "CONNECT UI curtains",
-        "CONNECT UI notification",
-        "CONNECT UI scene",
-        "CONNECT UI room config",
-        "CONNECT UI category config"
-      ],
-      "keywords": [
-        "node-red",
-        "connect-smart-home",
-        "connect",
-        "iot",
-        "smarthome",
-        "smart",
-        "home",
-        "homekit",
-        "dmx",
-        "1-wire",
-        "modbus",
-        "rs485",
-        "dimmer",
-        "rgbw",
-        "rgb",
-        "led",
-        "ajax",
-        "zigbee",
-        "0-10v"
-      ],
-      "url": "https://flows.nodered.org/node/connect-nodes"
     },
     {
       "id": "@gemini86/node-red-contrib-alarm-manager",
@@ -51484,25 +51569,6 @@
         "hc"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-fibaro-hc2-bridge"
-    },
-    {
-      "id": "node-red-contrib-scd30",
-      "version": "1.0.1",
-      "description": "Node-RED node for reading measurements from Sensirion SCD30, the CO2, temperature, and humidity sensor.",
-      "updated_at": "2020-04-14T19:00:13.269Z",
-      "types": [
-        "read-measurement",
-        "scd30-config"
-      ],
-      "keywords": [
-        "node-red",
-        "scd30",
-        "co2",
-        "temperature",
-        "humidity",
-        "sensor"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-scd30"
     },
     {
       "id": "node-red-contrib-node-lifx",
