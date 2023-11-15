@@ -1,0 +1,56 @@
+#0 building with "default" instance using docker driver
+
+#1 [internal] load .dockerignore
+#1 transferring context: 2B done
+#1 DONE 0.0s
+
+#2 [internal] load build definition from Dockerfile
+#2 transferring dockerfile: 123B done
+#2 DONE 0.0s
+
+#3 [internal] load metadata for docker.io/nodered/node-red:latest
+#3 DONE 0.3s
+
+#4 [1/2] FROM docker.io/nodered/node-red@sha256:0e3b590064a6bb32996aaa4ca63f0c17e63c877cc5219de501820e6457a616f1
+#4 CACHED
+
+#5 [2/2] RUN npm install npm install apconic-node-red-image-service@0.0.9
+#5 1.878 npm WARN EBADENGINE Unsupported engine {
+#5 1.879 npm WARN EBADENGINE   package: 'npm@10.2.3',
+#5 1.879 npm WARN EBADENGINE   required: { node: '^18.17.0 || >=20.5.0' },
+#5 1.879 npm WARN EBADENGINE   current: { node: 'v16.20.2', npm: '8.19.4' }
+#5 1.879 npm WARN EBADENGINE }
+#5 3.367 npm WARN deprecated har-validator@5.1.5: this library is no longer supported
+#5 3.377 npm WARN deprecated request-promise@4.2.6: request-promise has been deprecated because it extends the now deprecated request package, see https://github.com/request/request/issues/3142
+#5 3.389 npm WARN deprecated uuid@3.4.0: Please upgrade  to version 7 or higher.  Older versions may use Math.random() in certain circumstances, which is known to be problematic.  See https://v8.dev/blog/math-random for details.
+#5 3.404 npm WARN deprecated request@2.88.2: request has been deprecated, see https://github.com/request/request/issues/3142
+#5 3.800 
+#5 3.800 added 45 packages, and audited 574 packages in 3s
+#5 3.801 
+#5 3.801 69 packages are looking for funding
+#5 3.801   run `npm fund` for details
+#5 3.805 
+#5 3.805 8 moderate severity vulnerabilities
+#5 3.805 
+#5 3.805 To address issues that do not require attention, run:
+#5 3.805   npm audit fix
+#5 3.805 
+#5 3.805 To address all issues (including breaking changes), run:
+#5 3.805   npm audit fix --force
+#5 3.805 
+#5 3.805 Run `npm audit` for details.
+#5 3.805 npm notice 
+#5 3.805 npm notice New major version of npm available! 8.19.4 -> 10.2.3
+#5 3.805 npm notice Changelog: <https://github.com/npm/cli/releases/tag/v10.2.3>
+#5 3.805 npm notice Run `npm install -g npm@10.2.3` to update!
+#5 3.805 npm notice 
+#5 DONE 3.9s
+
+#6 exporting to image
+#6 exporting layers
+#6 exporting layers 1.2s done
+#6 writing image sha256:ad9e4d6325292c63cf7efccc9a89f5f762eddaa10ee2a759a58ea5415ccd761c done
+#6 naming to docker.io/library/tmp done
+#6 DONE 1.2s
+
+----
