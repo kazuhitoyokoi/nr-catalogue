@@ -1,0 +1,50 @@
+#0 building with "default" instance using docker driver
+
+#1 [internal] load build definition from Dockerfile
+#1 transferring dockerfile: 117B done
+#1 DONE 0.0s
+
+#2 [internal] load .dockerignore
+#2 transferring context: 2B done
+#2 DONE 0.0s
+
+#3 [internal] load metadata for docker.io/nodered/node-red:latest
+#3 DONE 0.3s
+
+#4 [1/2] FROM docker.io/nodered/node-red@sha256:0e3b590064a6bb32996aaa4ca63f0c17e63c877cc5219de501820e6457a616f1
+#4 CACHED
+
+#5 [2/2] RUN npm install npm install topological-nodered-wdio@0.5.2
+#5 6.129 npm WARN EBADENGINE Unsupported engine {
+#5 6.129 npm WARN EBADENGINE   package: 'npm@10.2.4',
+#5 6.129 npm WARN EBADENGINE   required: { node: '^18.17.0 || >=20.5.0' },
+#5 6.129 npm WARN EBADENGINE   current: { node: 'v16.20.2', npm: '8.19.4' }
+#5 6.129 npm WARN EBADENGINE }
+#5 10.99 npm WARN deprecated uuid@3.4.0: Please upgrade  to version 7 or higher.  Older versions may use Math.random() in certain circumstances, which is known to be problematic.  See https://v8.dev/blog/math-random for details.
+#5 15.46 
+#5 15.46 added 606 packages, and audited 1145 packages in 15s
+#5 15.46 
+#5 15.46 140 packages are looking for funding
+#5 15.46   run `npm fund` for details
+#5 15.47 
+#5 15.47 3 moderate severity vulnerabilities
+#5 15.47 
+#5 15.47 To address all issues (including breaking changes), run:
+#5 15.47   npm audit fix --force
+#5 15.47 
+#5 15.47 Run `npm audit` for details.
+#5 15.47 npm notice 
+#5 15.47 npm notice New major version of npm available! 8.19.4 -> 10.2.4
+#5 15.47 npm notice Changelog: <https://github.com/npm/cli/releases/tag/v10.2.4>
+#5 15.47 npm notice Run `npm install -g npm@10.2.4` to update!
+#5 15.47 npm notice 
+#5 DONE 16.0s
+
+#6 exporting to image
+#6 exporting layers
+#6 exporting layers 3.8s done
+#6 writing image sha256:52afd9ebbd7e14f70e87a8476cf3547f79cedd417d72fc72a17a49dedc0f5bd2 done
+#6 naming to docker.io/library/tmp done
+#6 DONE 3.8s
+
+----
