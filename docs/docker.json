@@ -1,11 +1,11 @@
 {
   "name": "Catalogue for Docker",
-  "updated_at": "2023-11-16T15:58:33.666Z",
+  "updated_at": "2023-11-17T15:58:31.009Z",
   "modules": [
     {
       "id": "apconic-node-red-image-service",
-      "version": "1.0.0",
-      "updated_at": "2023-11-16T10:19:45.236Z",
+      "version": "1.0.2",
+      "updated_at": "2023-11-17T11:07:09.979Z",
       "types": [
         "camerasConfig",
         "apconic-capture-images",
@@ -15,6 +15,147 @@
         "node-red"
       ],
       "url": "https://flows.nodered.org/node/apconic-node-red-image-service"
+    },
+    {
+      "id": "node-red-contrib-oscar-plants-service",
+      "version": "1.0.9",
+      "description": "This example uses the pre-trained classification model by DEEP-Hybrid-DataCloud Plants species classifier and is prepared to be used with synchronous invocations.",
+      "updated_at": "2023-11-17T10:40:01.009Z",
+      "types": [],
+      "keywords": [
+        "node-red",
+        "OSCAR",
+        "Plants",
+        "GRyCAP",
+        "UPV",
+        "AI4EOSC"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-oscar-plants-service"
+    },
+    {
+      "id": "node-red-sending-nodes",
+      "version": "1.0.3",
+      "description": "Node-RED Package: noderedpackage\r This Node-RED package, noderedpackage, is a collection of custom nodes designed to enhance Node-RED's capabilities. It includes nodes for gate functions, filtering variables, setting timeouts, and handling HTTP responses.",
+      "updated_at": "2023-11-17T09:49:24.663Z",
+      "types": [],
+      "keywords": [
+        "node-red"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-sending-nodes"
+    },
+    {
+      "id": "@julaoshi/node-red-log-to-file",
+      "version": "0.1.3",
+      "description": "Log collection sharding cleaning",
+      "updated_at": "2023-11-17T08:02:44.801Z",
+      "types": [
+        "log-to-file",
+        "log-server-config"
+      ],
+      "keywords": [
+        "node-red"
+      ],
+      "url": "https://flows.nodered.org/node/@julaoshi/node-red-log-to-file"
+    },
+    {
+      "id": "apconic-oracledb-connect",
+      "version": "0.0.7",
+      "description": "Node for weight parser",
+      "updated_at": "2023-11-17T07:36:26.937Z",
+      "types": [
+        "apconicOracleDBConfig",
+        "apconic-oracledb-connect"
+      ],
+      "keywords": [
+        "node-red"
+      ],
+      "url": "https://flows.nodered.org/node/apconic-oracledb-connect"
+    },
+    {
+      "id": "@hylink/node-red-oracle-client",
+      "version": "1.0.3",
+      "description": "Easy to use Node-RED oracle database nodes",
+      "updated_at": "2023-11-17T05:49:37.723Z",
+      "types": [
+        "oracle-config",
+        "oracle"
+      ],
+      "keywords": [
+        "node-red",
+        "oracle",
+        "node-red oracle"
+      ],
+      "url": "https://flows.nodered.org/node/@hylink/node-red-oracle-client"
+    },
+    {
+      "id": "node-red-contrib-topsail",
+      "version": "3.1.2",
+      "description": "Interface with Topsail",
+      "updated_at": "2023-11-17T00:51:28.453Z",
+      "types": [
+        "loudspeaker",
+        "bosch-vca",
+        "camera-capture-image",
+        "camera-capture-video",
+        "cbw",
+        "dms-activate",
+        "dms-status",
+        "email",
+        "heartbeat",
+        "influx-insert",
+        "influx-query",
+        "ping",
+        "sftp",
+        "sms",
+        "sunguide-ids"
+      ],
+      "keywords": [
+        "node-red",
+        "topsail"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-topsail"
+    },
+    {
+      "id": "node-red-contrib-smarthome-powerswitch",
+      "version": "1.0.11",
+      "description": "This is the powerswitch node as standalone, which is part of 'node-red-contrib-smarthome'. It containes nodes for Node-RED.",
+      "updated_at": "2023-11-16T19:33:36.914Z",
+      "types": [
+        "powerswitch"
+      ],
+      "keywords": [
+        "node",
+        "node-red",
+        "nodered",
+        "switch",
+        "power",
+        "toggle",
+        "motion",
+        "plug",
+        "smartplug",
+        "smarthome",
+        "loxone",
+        "sps",
+        "plc",
+        "digital"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-smarthome-powerswitch"
+    },
+    {
+      "id": "@vrilcode/node-red-wnsm-b2b",
+      "version": "1.1.0",
+      "description": "Wiener Netze Smart Meter B2B API node for Node-RED",
+      "updated_at": "2023-11-16T17:32:08.816Z",
+      "types": [
+        "wnsm-b2b-credentials",
+        "wnsm-b2b"
+      ],
+      "keywords": [
+        "node-red",
+        "smart-meter",
+        "wiener-netze"
+      ],
+      "url": "https://flows.nodered.org/node/@vrilcode/node-red-wnsm-b2b"
     },
     {
       "id": "node-red-contrib-nspanel-lui",
@@ -42,20 +183,6 @@
         "node-red"
       ],
       "url": "https://flows.nodered.org/node/@autexis/node-red-payload-logger"
-    },
-    {
-      "id": "@julaoshi/node-red-log-to-file",
-      "version": "0.1.1",
-      "description": "Log collection sharding cleaning",
-      "updated_at": "2023-11-16T06:17:57.546Z",
-      "types": [
-        "log-to-file",
-        "log-server-config"
-      ],
-      "keywords": [
-        "node-red"
-      ],
-      "url": "https://flows.nodered.org/node/@julaoshi/node-red-log-to-file"
     },
     {
       "id": "topological-nodered-wdio",
@@ -537,22 +664,6 @@
         "hue"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-knx-ultimate"
-    },
-    {
-      "id": "node-red-contrib-oscar-plants-service",
-      "version": "1.0.7",
-      "description": "This example uses the pre-trained classification model by DEEP-Hybrid-DataCloud Plants species classifier and is prepared to be used with synchronous invocations.",
-      "updated_at": "2023-11-13T13:00:37.551Z",
-      "types": [],
-      "keywords": [
-        "node-red",
-        "OSCAR",
-        "Plants",
-        "GRyCAP",
-        "UPV",
-        "AI4EOSC"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-oscar-plants-service"
     },
     {
       "id": "node-red-contrib-json2xlsx",
@@ -1567,33 +1678,6 @@
         "simulator"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-presence-faker"
-    },
-    {
-      "id": "node-red-contrib-topsail",
-      "version": "3.1.1",
-      "description": "Interface with Topsail",
-      "updated_at": "2023-11-03T15:16:39.750Z",
-      "types": [
-        "email",
-        "ping",
-        "cbw",
-        "sms",
-        "influx-insert",
-        "influx-query",
-        "camera-capture-image",
-        "camera-capture-video",
-        "bosch-vca",
-        "sftp",
-        "dms-activate",
-        "dms-status",
-        "heartbeat",
-        "sunguide-ids"
-      ],
-      "keywords": [
-        "node-red",
-        "topsail"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-topsail"
     },
     {
       "id": "cloud4machine-cloud-nodered",
@@ -3246,22 +3330,6 @@
         "node-red"
       ],
       "url": "https://flows.nodered.org/node/smithtek-node-red-format"
-    },
-    {
-      "id": "@vrilcode/node-red-wnsm-b2b",
-      "version": "1.0.3",
-      "description": "Wiener Netze Smart Meter B2B API node for Node-RED",
-      "updated_at": "2023-10-18T03:56:34.452Z",
-      "types": [
-        "wnsm-b2b-credentials",
-        "wnsm-b2b"
-      ],
-      "keywords": [
-        "node-red",
-        "smart-meter",
-        "wiener-netze"
-      ],
-      "url": "https://flows.nodered.org/node/@vrilcode/node-red-wnsm-b2b"
     },
     {
       "id": "node-red-contrib-zwave-js",
@@ -28857,32 +28925,6 @@
         "iiot"
       ],
       "url": "https://flows.nodered.org/node/@brayit/node-red-contrib-bray-iiot"
-    },
-    {
-      "id": "node-red-contrib-smarthome-powerswitch",
-      "version": "1.0.10",
-      "description": "This is the powerswitch node as standalone, which is part of 'node-red-contrib-smarthome'. It containes nodes for Node-RED.",
-      "updated_at": "2022-04-02T19:34:27.489Z",
-      "types": [
-        "powerswitch"
-      ],
-      "keywords": [
-        "node",
-        "node-red",
-        "nodered",
-        "switch",
-        "power",
-        "toggle",
-        "motion",
-        "plug",
-        "smartplug",
-        "smarthome",
-        "loxone",
-        "sps",
-        "plc",
-        "digital"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-smarthome-powerswitch"
     },
     {
       "id": "node-red-contrib-staircase-timer",
