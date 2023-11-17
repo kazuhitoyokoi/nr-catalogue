@@ -1,0 +1,49 @@
+#0 building with "default" instance using docker driver
+
+#1 [internal] load .dockerignore
+#1 transferring context: 2B done
+#1 DONE 0.0s
+
+#2 [internal] load build definition from Dockerfile
+#2 transferring dockerfile: 117B done
+#2 DONE 0.0s
+
+#3 [internal] load metadata for docker.io/nodered/node-red:latest
+#3 DONE 0.1s
+
+#4 [1/2] FROM docker.io/nodered/node-red@sha256:0e3b590064a6bb32996aaa4ca63f0c17e63c877cc5219de501820e6457a616f1
+#4 CACHED
+
+#5 [2/2] RUN npm install npm install apconic-oracledb-connect@0.0.7
+#5 1.644 npm WARN EBADENGINE Unsupported engine {
+#5 1.644 npm WARN EBADENGINE   package: 'npm@10.2.4',
+#5 1.645 npm WARN EBADENGINE   required: { node: '^18.17.0 || >=20.5.0' },
+#5 1.645 npm WARN EBADENGINE   current: { node: 'v16.20.2', npm: '8.19.4' }
+#5 1.645 npm WARN EBADENGINE }
+#5 3.474 
+#5 3.474 added 5 packages, and audited 544 packages in 3s
+#5 3.474 
+#5 3.474 69 packages are looking for funding
+#5 3.474   run `npm fund` for details
+#5 3.477 
+#5 3.477 2 moderate severity vulnerabilities
+#5 3.477 
+#5 3.477 To address all issues, run:
+#5 3.477   npm audit fix
+#5 3.477 
+#5 3.477 Run `npm audit` for details.
+#5 3.478 npm notice 
+#5 3.478 npm notice New major version of npm available! 8.19.4 -> 10.2.4
+#5 3.478 npm notice Changelog: <https://github.com/npm/cli/releases/tag/v10.2.4>
+#5 3.478 npm notice Run `npm install -g npm@10.2.4` to update!
+#5 3.478 npm notice 
+#5 DONE 3.6s
+
+#6 exporting to image
+#6 exporting layers
+#6 exporting layers 1.0s done
+#6 writing image sha256:9ab217f6c519bc3523f1e0dcb97c3725b24dacf752eb3e211ed81465389e6080 done
+#6 naming to docker.io/library/tmp done
+#6 DONE 1.0s
+
+----
