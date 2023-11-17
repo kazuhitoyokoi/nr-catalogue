@@ -1,0 +1,49 @@
+#0 building with "default" instance using docker driver
+
+#1 [internal] load .dockerignore
+#1 transferring context: 2B done
+#1 DONE 0.0s
+
+#2 [internal] load build definition from Dockerfile
+#2 transferring dockerfile: 130B done
+#2 DONE 0.0s
+
+#3 [internal] load metadata for docker.io/nodered/node-red:latest
+#3 DONE 0.1s
+
+#4 [1/2] FROM docker.io/nodered/node-red@sha256:0e3b590064a6bb32996aaa4ca63f0c17e63c877cc5219de501820e6457a616f1
+#4 CACHED
+
+#5 [2/2] RUN npm install npm install node-red-contrib-oscar-plants-service@1.0.9
+#5 1.389 npm WARN EBADENGINE Unsupported engine {
+#5 1.389 npm WARN EBADENGINE   package: 'npm@10.2.4',
+#5 1.389 npm WARN EBADENGINE   required: { node: '^18.17.0 || >=20.5.0' },
+#5 1.390 npm WARN EBADENGINE   current: { node: 'v16.20.2', npm: '8.19.4' }
+#5 1.390 npm WARN EBADENGINE }
+#5 2.968 
+#5 2.968 added 3 packages, and audited 542 packages in 2s
+#5 2.968 
+#5 2.968 69 packages are looking for funding
+#5 2.968   run `npm fund` for details
+#5 2.970 
+#5 2.970 2 moderate severity vulnerabilities
+#5 2.970 
+#5 2.970 To address all issues, run:
+#5 2.970   npm audit fix
+#5 2.970 
+#5 2.970 Run `npm audit` for details.
+#5 2.970 npm notice 
+#5 2.970 npm notice New major version of npm available! 8.19.4 -> 10.2.4
+#5 2.971 npm notice Changelog: <https://github.com/npm/cli/releases/tag/v10.2.4>
+#5 2.971 npm notice Run `npm install -g npm@10.2.4` to update!
+#5 2.971 npm notice 
+#5 DONE 3.1s
+
+#6 exporting to image
+#6 exporting layers
+#6 exporting layers 1.0s done
+#6 writing image sha256:ce1a2d00b7b74e3ac8311216b6e544676a1a73c4e62239dc7a553b48f0156023 done
+#6 naming to docker.io/library/tmp done
+#6 DONE 1.0s
+
+----
