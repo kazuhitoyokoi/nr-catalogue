@@ -1,7 +1,116 @@
 {
   "name": "Catalogue for Docker",
-  "updated_at": "2023-11-17T15:58:31.009Z",
+  "updated_at": "2023-11-18T16:00:31.382Z",
   "modules": [
+    {
+      "id": "@hylink/node-red-kafka-client",
+      "version": "0.2.6",
+      "description": "Node-RED Kafka Consumer and Producer",
+      "updated_at": "2023-11-18T13:22:12.327Z",
+      "types": [
+        "consumer",
+        "producer",
+        "kafka-broker"
+      ],
+      "keywords": [
+        "kafka-producer",
+        "kafka-consumer",
+        "node-red",
+        "kafka-broker",
+        "kafka-node",
+        "big-data",
+        "data"
+      ],
+      "url": "https://flows.nodered.org/node/@hylink/node-red-kafka-client"
+    },
+    {
+      "id": "@insectos/node-red-cloudflare-ddns",
+      "version": "0.0.1",
+      "description": "A DDNS clinet for Cloudflare",
+      "updated_at": "2023-11-18T12:51:17.170Z",
+      "types": [
+        "cloudflare-ddns"
+      ],
+      "keywords": [
+        "node-red",
+        "ssh",
+        "interactive"
+      ],
+      "url": "https://flows.nodered.org/node/@insectos/node-red-cloudflare-ddns"
+    },
+    {
+      "id": "@hylink/node-red-oracle-client",
+      "version": "1.0.4",
+      "description": "Easy to use Node-RED oracle database nodes",
+      "updated_at": "2023-11-18T11:34:11.680Z",
+      "types": [
+        "oracle-config",
+        "oracle"
+      ],
+      "keywords": [
+        "node-red",
+        "oracle",
+        "node-red oracle"
+      ],
+      "url": "https://flows.nodered.org/node/@hylink/node-red-oracle-client"
+    },
+    {
+      "id": "@parallaxcontrol/node-red-control",
+      "version": "1.0.2",
+      "description": "A package of node-red nodes for the Parallax AV Control System",
+      "updated_at": "2023-11-17T23:56:42.625Z",
+      "types": [
+        "and-gate",
+        "set-serial-feedback",
+        "compare-string",
+        "get-values",
+        "input-select",
+        "inverter-gate",
+        "or-gate",
+        "set-reset-latch",
+        "set-digital-feedback",
+        "set-analog-feedback",
+        "send-string-dictionary",
+        "send-analog-dictionary",
+        "send-bool-dictionary"
+      ],
+      "keywords": [
+        "parallaxcontrol",
+        "node-red",
+        "audiovisual",
+        "av"
+      ],
+      "url": "https://flows.nodered.org/node/@parallaxcontrol/node-red-control"
+    },
+    {
+      "id": "@envidatec/node-red-contrib-logger",
+      "version": "1.0.12",
+      "description": "Logs Data into SQL-Lite",
+      "updated_at": "2023-11-17T14:58:27.566Z",
+      "types": [
+        "logger",
+        "SQL-DB",
+        "Rest-Server",
+        "SQL-Lite"
+      ],
+      "keywords": [
+        "node-red"
+      ],
+      "url": "https://flows.nodered.org/node/@envidatec/node-red-contrib-logger"
+    },
+    {
+      "id": "node-red-contrib-nspanel-lui",
+      "version": "0.0.1-alpha.41",
+      "description": "Node-RED based backend for NSPanel Lovelace UI custom firmware.",
+      "updated_at": "2023-11-17T14:48:07.297Z",
+      "types": [],
+      "keywords": [
+        "node-red",
+        "lovelace ui",
+        "nspanel"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-nspanel-lui"
+    },
     {
       "id": "apconic-node-red-image-service",
       "version": "1.0.2",
@@ -72,22 +181,6 @@
       "url": "https://flows.nodered.org/node/apconic-oracledb-connect"
     },
     {
-      "id": "@hylink/node-red-oracle-client",
-      "version": "1.0.3",
-      "description": "Easy to use Node-RED oracle database nodes",
-      "updated_at": "2023-11-17T05:49:37.723Z",
-      "types": [
-        "oracle-config",
-        "oracle"
-      ],
-      "keywords": [
-        "node-red",
-        "oracle",
-        "node-red oracle"
-      ],
-      "url": "https://flows.nodered.org/node/@hylink/node-red-oracle-client"
-    },
-    {
       "id": "node-red-contrib-topsail",
       "version": "3.1.2",
       "description": "Interface with Topsail",
@@ -156,19 +249,6 @@
         "wiener-netze"
       ],
       "url": "https://flows.nodered.org/node/@vrilcode/node-red-wnsm-b2b"
-    },
-    {
-      "id": "node-red-contrib-nspanel-lui",
-      "version": "0.0.1-alpha.40",
-      "description": "Node-RED based backend for NSPanel Lovelace UI custom firmware.",
-      "updated_at": "2023-11-16T10:08:45.172Z",
-      "types": [],
-      "keywords": [
-        "node-red",
-        "lovelace ui",
-        "nspanel"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-nspanel-lui"
     },
     {
       "id": "@autexis/node-red-payload-logger",
@@ -342,22 +422,6 @@
         "rfc7617"
       ],
       "url": "https://flows.nodered.org/node/@alexandrainst/node-red-http-basic-auth"
-    },
-    {
-      "id": "@envidatec/node-red-contrib-logger",
-      "version": "1.0.11",
-      "description": "Logs Data into SQL-Lite",
-      "updated_at": "2023-11-15T14:38:03.821Z",
-      "types": [
-        "logger",
-        "SQL-DB",
-        "Rest-Server",
-        "SQL-Lite"
-      ],
-      "keywords": [
-        "node-red"
-      ],
-      "url": "https://flows.nodered.org/node/@envidatec/node-red-contrib-logger"
     },
     {
       "id": "node-red-contrib-onstar2",
@@ -3353,27 +3417,6 @@
         "home"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-zwave-js"
-    },
-    {
-      "id": "@hylink/node-red-kafka-client",
-      "version": "0.2.2",
-      "description": "Node-RED Kafka Consumer and Producer",
-      "updated_at": "2023-10-17T09:42:33.253Z",
-      "types": [
-        "kafka-consumer",
-        "kafka-producer",
-        "kafka-broker"
-      ],
-      "keywords": [
-        "kafka-producer",
-        "kafka-consumer",
-        "node-red",
-        "kafka-broker",
-        "kafka-node",
-        "big-data",
-        "data"
-      ],
-      "url": "https://flows.nodered.org/node/@hylink/node-red-kafka-client"
     },
     {
       "id": "node-red-contrib-cot2xtopo",
