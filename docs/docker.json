@@ -1,7 +1,135 @@
 {
   "name": "Catalogue for Docker",
-  "updated_at": "2023-11-18T16:00:31.382Z",
+  "updated_at": "2023-11-19T16:00:08.813Z",
   "modules": [
+    {
+      "id": "node-red-contrib-obs-ws",
+      "version": "0.2.11",
+      "description": "Connect to OBS Studio and control it/receive events. Node-Red bindings for obs-websocket-js.",
+      "updated_at": "2023-11-19T09:50:21.066Z",
+      "types": [
+        "obs-instance",
+        "obs connection status",
+        "obs event",
+        "obs request",
+        "SetCurrentProgramScene",
+        "TriggerStudioModeTransition"
+      ],
+      "keywords": [
+        "node-red",
+        "obs-websocket",
+        "obs-websocket-js"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-obs-ws"
+    },
+    {
+      "id": "node-red-contrib-edge-tts",
+      "version": "2.2.3",
+      "description": "An simple Azure Speech Service module that uses the Microsoft Edge Read Aloud API.",
+      "updated_at": "2023-11-19T05:16:40.213Z",
+      "types": [
+        "edge-tts"
+      ],
+      "keywords": [
+        "edge",
+        "node-red",
+        "tts",
+        "readaloud"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-edge-tts"
+    },
+    {
+      "id": "topological-nodered-wdio",
+      "version": "0.5.4",
+      "description": "Open source WebdriverIO nodes for Node-RED",
+      "updated_at": "2023-11-19T01:36:43.487Z",
+      "types": [
+        "delete-session",
+        "element-action",
+        "new-session",
+        "browser-action",
+        "element-check",
+        "alert-action",
+        "dropdown-action",
+        "window-action",
+        "frame-action",
+        "execute-script",
+        "explicit-wait",
+        "implicit-wait-config",
+        "document-helper"
+      ],
+      "keywords": [
+        "node-red",
+        "topological"
+      ],
+      "url": "https://flows.nodered.org/node/topological-nodered-wdio"
+    },
+    {
+      "id": "node-red-contrib-nordpool-api-plus",
+      "version": "4.5.0",
+      "description": "A Node-Red Node for collecting `day ahead` prices from Nord Pool Group.",
+      "updated_at": "2023-11-18T19:40:42.450Z",
+      "types": [
+        "nordpool-api-plus"
+      ],
+      "keywords": [
+        "node-red",
+        "nord pool",
+        "watt prices"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-nordpool-api-plus"
+    },
+    {
+      "id": "node-red-contrib-axis-host",
+      "version": "1.1.7",
+      "description": "Axis Devices resource binding nodes that provides access to events, image capture and analytics data.  Node-RED must be running on the Axis Device.",
+      "updated_at": "2023-11-18T18:29:12.518Z",
+      "types": [
+        "Events",
+        "Camera",
+        "Trigger",
+        "Objects"
+      ],
+      "keywords": [
+        "node-red",
+        "Axis"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-axis-host"
+    },
+    {
+      "id": "node-red-contrib-tado-client",
+      "version": "0.10.10",
+      "description": "Tado web API client node for Node Red",
+      "updated_at": "2023-11-18T17:09:42.530Z",
+      "types": [
+        "tado-config",
+        "tado"
+      ],
+      "keywords": [
+        "node-red",
+        "tado"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-tado-client"
+    },
+    {
+      "id": "@runnane/node-red-contrib-easee",
+      "version": "0.5.6",
+      "description": "Module for streaming Easee data. Based on node-red-contrib-signalrcore",
+      "updated_at": "2023-11-18T16:36:56.982Z",
+      "types": [
+        "easee-configuration",
+        "easee-rest-client",
+        "charger-streaming-client"
+      ],
+      "keywords": [
+        "easee",
+        "charger",
+        "ev",
+        "signalr",
+        "node-red"
+      ],
+      "url": "https://flows.nodered.org/node/@runnane/node-red-contrib-easee"
+    },
     {
       "id": "@hylink/node-red-kafka-client",
       "version": "0.2.6",
@@ -263,32 +391,6 @@
         "node-red"
       ],
       "url": "https://flows.nodered.org/node/@autexis/node-red-payload-logger"
-    },
-    {
-      "id": "topological-nodered-wdio",
-      "version": "0.5.2",
-      "description": "Open source WebdriverIO nodes for Node-RED",
-      "updated_at": "2023-11-16T03:49:48.009Z",
-      "types": [
-        "delete-session",
-        "element-action",
-        "new-session",
-        "browser-action",
-        "element-check",
-        "alert-action",
-        "dropdown-action",
-        "window-action",
-        "frame-action",
-        "execute-script",
-        "explicit-wait",
-        "implicit-wait-config",
-        "document-helper"
-      ],
-      "keywords": [
-        "node-red",
-        "topological"
-      ],
-      "url": "https://flows.nodered.org/node/topological-nodered-wdio"
     },
     {
       "id": "@inductiv/node-red-openai-api",
@@ -660,22 +762,6 @@
         "simple-bu"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-simple-bu"
-    },
-    {
-      "id": "node-red-contrib-edge-tts",
-      "version": "2.2.2",
-      "description": "An simple Azure Speech Service module that uses the Microsoft Edge Read Aloud API.",
-      "updated_at": "2023-11-14T03:23:40.126Z",
-      "types": [
-        "edge-tts"
-      ],
-      "keywords": [
-        "edge",
-        "node-red",
-        "tts",
-        "readaloud"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-edge-tts"
     },
     {
       "id": "@elipse/e3-node-red",
@@ -1100,21 +1186,6 @@
         "obniz"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-obniz"
-    },
-    {
-      "id": "node-red-contrib-tado-client",
-      "version": "0.10.9",
-      "description": "Tado web API client node for Node Red",
-      "updated_at": "2023-11-08T21:30:46.098Z",
-      "types": [
-        "tado-config",
-        "tado"
-      ],
-      "keywords": [
-        "node-red",
-        "tado"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-tado-client"
     },
     {
       "id": "@diidum/node-red-contrib-husqvarna-automower-connect",
@@ -3030,23 +3101,6 @@
         "ds18b20"
       ],
       "url": "https://flows.nodered.org/node/@redplc/node-red-rpi-ds18b20"
-    },
-    {
-      "id": "node-red-contrib-axis-host",
-      "version": "1.1.5",
-      "description": "Axis Devices resource binding nodes that provides access to events, image capture and analytics data.  Node-RED must be running on the Axis Device.",
-      "updated_at": "2023-10-21T07:37:01.050Z",
-      "types": [
-        "Events",
-        "Camera",
-        "Trigger",
-        "Objects"
-      ],
-      "keywords": [
-        "node-red",
-        "Axis"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-axis-host"
     },
     {
       "id": "node-red-contrib-musiccast",
@@ -9459,26 +9513,6 @@
       "url": "https://flows.nodered.org/node/@buglss/node-red-crontinject"
     },
     {
-      "id": "node-red-contrib-obs-ws",
-      "version": "0.2.10",
-      "description": "Connect to OBS Studio and control it/receive events. Node-Red bindings for obs-websocket-js.",
-      "updated_at": "2023-07-22T08:32:53.517Z",
-      "types": [
-        "obs-instance",
-        "obs connection status",
-        "obs event",
-        "obs request",
-        "SetCurrentProgramScene",
-        "TriggerStudioModeTransition"
-      ],
-      "keywords": [
-        "node-red",
-        "obs-websocket",
-        "obs-websocket-js"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-obs-ws"
-    },
-    {
       "id": "node-red-contrib-midea-hvac",
       "version": "1.2.5",
       "description": "Nodes for controlling Midea HVAC in Node-RED",
@@ -10188,25 +10222,6 @@
         "home automation"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-dyson-purelink"
-    },
-    {
-      "id": "@runnane/node-red-contrib-easee",
-      "version": "0.5.4",
-      "description": "Module for streaming Easee data. Based on node-red-contrib-signalrcore",
-      "updated_at": "2023-07-08T16:43:32.366Z",
-      "types": [
-        "easee-configuration",
-        "easee-rest-client",
-        "charger-streaming-client"
-      ],
-      "keywords": [
-        "easee",
-        "charger",
-        "ev",
-        "signalr",
-        "node-red"
-      ],
-      "url": "https://flows.nodered.org/node/@runnane/node-red-contrib-easee"
     },
     {
       "id": "@decthings/node-red",
@@ -17869,21 +17884,6 @@
         "timeseries"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-nixtla"
-    },
-    {
-      "id": "node-red-contrib-nordpool-api-plus",
-      "version": "4.4.0",
-      "description": "A Node-Red Node for collecting `day ahead` prices from Nord Pool Group.",
-      "updated_at": "2023-01-14T19:34:06.948Z",
-      "types": [
-        "nordpool-api-plus"
-      ],
-      "keywords": [
-        "node-red",
-        "nord pool",
-        "watt prices"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-nordpool-api-plus"
     },
     {
       "id": "node-red-contrib-js-storage",
