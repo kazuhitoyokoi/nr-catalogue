@@ -1,0 +1,54 @@
+#0 building with "default" instance using docker driver
+
+#1 [internal] load .dockerignore
+#1 transferring context: 2B done
+#1 DONE 0.0s
+
+#2 [internal] load build definition from Dockerfile
+#2 transferring dockerfile: 118B done
+#2 DONE 0.0s
+
+#3 [internal] load metadata for docker.io/nodered/node-red:latest
+#3 DONE 0.3s
+
+#4 [1/2] FROM docker.io/nodered/node-red@sha256:0e3b590064a6bb32996aaa4ca63f0c17e63c877cc5219de501820e6457a616f1
+#4 CACHED
+
+#5 [2/2] RUN npm install npm install node-red-contrib-shelly@10.15.0
+#5 2.122 npm WARN EBADENGINE Unsupported engine {
+#5 2.122 npm WARN EBADENGINE   package: 'npm@10.2.4',
+#5 2.122 npm WARN EBADENGINE   required: { node: '^18.17.0 || >=20.5.0' },
+#5 2.122 npm WARN EBADENGINE   current: { node: 'v16.20.2', npm: '8.19.4' }
+#5 2.123 npm WARN EBADENGINE }
+#5 3.621 npm WARN deprecated string-similarity@4.0.4: Package no longer supported. Contact Support at https://www.npmjs.com/support for more info.
+#5 3.633 npm WARN deprecated crypto@1.0.1: This package is no longer supported. It's now a built-in Node module. If you've depended on crypto, you should switch to the one that's built-in.
+#5 3.975 
+#5 3.975 added 48 packages, and audited 587 packages in 3s
+#5 3.975 
+#5 3.975 71 packages are looking for funding
+#5 3.975   run `npm fund` for details
+#5 3.977 
+#5 3.977 3 moderate severity vulnerabilities
+#5 3.977 
+#5 3.977 To address issues that do not require attention, run:
+#5 3.977   npm audit fix
+#5 3.977 
+#5 3.977 To address all issues (including breaking changes), run:
+#5 3.977   npm audit fix --force
+#5 3.977 
+#5 3.977 Run `npm audit` for details.
+#5 3.978 npm notice 
+#5 3.978 npm notice New major version of npm available! 8.19.4 -> 10.2.4
+#5 3.978 npm notice Changelog: <https://github.com/npm/cli/releases/tag/v10.2.4>
+#5 3.978 npm notice Run `npm install -g npm@10.2.4` to update!
+#5 3.978 npm notice 
+#5 DONE 4.1s
+
+#6 exporting to image
+#6 exporting layers
+#6 exporting layers 1.2s done
+#6 writing image sha256:c3c6f2e5366d60e827ae8c135157ca0b7dccdb97cd67f15a369e1adf7cc60555 done
+#6 naming to docker.io/library/tmp done
+#6 DONE 1.2s
+
+----
