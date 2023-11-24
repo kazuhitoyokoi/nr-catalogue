@@ -1,7 +1,135 @@
 {
   "name": "Catalogue for Docker",
-  "updated_at": "2023-11-23T16:01:48.291Z",
+  "updated_at": "2023-11-24T16:04:25.767Z",
   "modules": [
+    {
+      "id": "@flowforge/node-red-function-gpt",
+      "version": "0.3.0",
+      "description": "Variation of the standard Node-RED function node that includes an interface to ChatGPT for writing into the function content.",
+      "updated_at": "2023-11-24T14:28:53.272Z",
+      "types": [
+        "function-gpt",
+        "chatgpt-config"
+      ],
+      "keywords": [
+        "node-red"
+      ],
+      "url": "https://flows.nodered.org/node/@flowforge/node-red-function-gpt"
+    },
+    {
+      "id": "@gregoriusrippenstein/node-red-contrib-nodedev",
+      "version": "0.1.8",
+      "description": "Support the development of Node-RED nodes within Node-RED.",
+      "updated_at": "2023-11-24T10:54:39.158Z",
+      "types": [
+        "NodeDevOps",
+        "NodeFactory",
+        "PkgFile",
+        "NpmTarBall",
+        "NodeRedInstall",
+        "NpmPublish",
+        "NodeFactorySidebarCfg"
+      ],
+      "keywords": [
+        "node-red",
+        "node development",
+        "introspection",
+        "bootstrapping",
+        "recursion"
+      ],
+      "url": "https://flows.nodered.org/node/@gregoriusrippenstein/node-red-contrib-nodedev"
+    },
+    {
+      "id": "@gregoriusrippenstein/node-red-contrib-tarball",
+      "version": "0.0.2",
+      "description": "Create tar files and extract tarballs in xz and gzip formats",
+      "updated_at": "2023-11-23T18:57:12.941Z",
+      "types": [
+        "tarball"
+      ],
+      "keywords": [
+        "node-red",
+        "tar",
+        "xz",
+        "gzip",
+        "tarball",
+        "archive"
+      ],
+      "url": "https://flows.nodered.org/node/@gregoriusrippenstein/node-red-contrib-tarball"
+    },
+    {
+      "id": "node-red-contrib-debounce-advanced",
+      "version": "0.1.1",
+      "description": "A debounce node for node-red, with support for leading/trailing, and with support of time units.",
+      "updated_at": "2023-11-23T17:10:30.638Z",
+      "types": [
+        "debounce-advanced"
+      ],
+      "keywords": [
+        "node-red",
+        "debounce",
+        "leading",
+        "trailing"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-debounce-advanced"
+    },
+    {
+      "id": "@platmac/node-red-platma-inbuilddb",
+      "version": "1.0.1",
+      "description": "Node is providing full access to InBuild DB of Platma.",
+      "updated_at": "2023-11-23T14:31:49.720Z",
+      "types": [
+        "platma-inbuilddb"
+      ],
+      "keywords": [
+        "node-red",
+        "platma",
+        "inbuilddb"
+      ],
+      "url": "https://flows.nodered.org/node/@platmac/node-red-platma-inbuilddb"
+    },
+    {
+      "id": "@flowfuse/node-red-dashboard",
+      "version": "0.8.0",
+      "description": "A collection of Node-RED nodes that provide functionality to build your own UI applications (inc. forms, buttons, charts) within Node-RED.",
+      "updated_at": "2023-11-23T14:16:22.690Z",
+      "types": [
+        "ui-base",
+        "ui-page",
+        "ui-group",
+        "ui-theme",
+        "ui-form",
+        "__errors__",
+        "ui-text-input",
+        "__errors__",
+        "ui-button",
+        "__errors__",
+        "ui-dropdown",
+        "__errors__",
+        "ui-radio-group",
+        "__errors__",
+        "ui-slider",
+        "__errors__",
+        "ui-switch",
+        "__errors__",
+        "ui-text",
+        "__errors__",
+        "ui-table",
+        "__errors__",
+        "ui-chart",
+        "__errors__",
+        "ui-notification",
+        "__errors__",
+        "ui-markdown",
+        "__errors__",
+        "ui-template",
+        "__errors__"
+      ],
+      "keywords": [
+        "node-red"
+      ],
+      "url": "https://flows.nodered.org/node/@flowfuse/node-red-dashboard"
+    },
     {
       "id": "nrc-elasticsearch-nodes",
       "version": "0.3.16",
@@ -25,6 +153,23 @@
         "elasticsearch"
       ],
       "url": "https://flows.nodered.org/node/nrc-elasticsearch-nodes"
+    },
+    {
+      "id": "@chvdapi/node-red-pn4800-1602lcd",
+      "version": "0.0.2",
+      "description": "drive PCF8574 1602 LCD on PN4800",
+      "updated_at": "2023-11-23T12:58:10.517Z",
+      "types": [
+        "PN4800_1602LCD"
+      ],
+      "keywords": [
+        "node-red",
+        "PN4800",
+        "PCF8574",
+        "LCD",
+        "I2C"
+      ],
+      "url": "https://flows.nodered.org/node/@chvdapi/node-red-pn4800-1602lcd"
     },
     {
       "id": "@blebtechnology/node-red-blebricks",
@@ -365,29 +510,6 @@
       "url": "https://flows.nodered.org/node/@gregoriusrippenstein/node-red-contrib-validation-and-documentation"
     },
     {
-      "id": "@gregoriusrippenstein/node-red-contrib-nodedev",
-      "version": "0.1.7",
-      "description": "Support the development of Node-RED nodes within Node-RED.",
-      "updated_at": "2023-11-22T13:38:48.816Z",
-      "types": [
-        "NodeDevOps",
-        "NodeFactory",
-        "PkgFile",
-        "NpmTarBall",
-        "NodeRedInstall",
-        "NpmPublish",
-        "NodeFactorySidebarCfg"
-      ],
-      "keywords": [
-        "node-red",
-        "node development",
-        "introspection",
-        "bootstrapping",
-        "recursion"
-      ],
-      "url": "https://flows.nodered.org/node/@gregoriusrippenstein/node-red-contrib-nodedev"
-    },
-    {
       "id": "node-red-contrib-superpower-test-lyp",
       "version": "0.1.6",
       "description": "Node-RED integration with eWeLink Cube",
@@ -472,22 +594,6 @@
         "smartpi"
       ],
       "url": "https://flows.nodered.org/node/@nd-enerserve/node-red-smartpi"
-    },
-    {
-      "id": "node-red-contrib-debounce-advanced",
-      "version": "0.1.0",
-      "description": "A debounce node for node-red, with support for leading/trailing, and with support of time units.",
-      "updated_at": "2023-11-21T12:01:23.523Z",
-      "types": [
-        "debounce-advanced"
-      ],
-      "keywords": [
-        "node-red",
-        "debounce",
-        "leading",
-        "trailing"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-debounce-advanced"
     },
     {
       "id": "@gregoriusrippenstein/node-red-contrib-flowhub",
@@ -1806,48 +1912,6 @@
       "url": "https://flows.nodered.org/node/@diidum/node-red-contrib-husqvarna-automower-connect"
     },
     {
-      "id": "@flowfuse/node-red-dashboard",
-      "version": "0.7.2",
-      "description": "A collection of Node-RED nodes that provide functionality to build your own UI applications (inc. forms, buttons, charts) within Node-RED.",
-      "updated_at": "2023-11-08T13:05:53.974Z",
-      "types": [
-        "ui-base",
-        "ui-page",
-        "ui-group",
-        "ui-theme",
-        "ui-form",
-        "__errors__",
-        "ui-text-input",
-        "__errors__",
-        "ui-button",
-        "__errors__",
-        "ui-dropdown",
-        "__errors__",
-        "ui-radio-group",
-        "__errors__",
-        "ui-slider",
-        "__errors__",
-        "ui-switch",
-        "__errors__",
-        "ui-text",
-        "__errors__",
-        "ui-table",
-        "__errors__",
-        "ui-chart",
-        "__errors__",
-        "ui-notification",
-        "__errors__",
-        "ui-markdown",
-        "__errors__",
-        "ui-template",
-        "__errors__"
-      ],
-      "keywords": [
-        "node-red"
-      ],
-      "url": "https://flows.nodered.org/node/@flowfuse/node-red-dashboard"
-    },
-    {
       "id": "@bartbutenaers/node-red-autolayout-sidebar",
       "version": "0.0.3",
       "description": "A sidebar plugin for Node-RED to offer auto-layouting",
@@ -3105,48 +3169,6 @@
         "node-red"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-pkcs11"
-    },
-    {
-      "id": "@flowforge/node-red-dashboard",
-      "version": "0.7.0",
-      "description": "A collection of Node-RED nodes that provide functionality to build your own UI applications (inc. forms, buttons, charts) within Node-RED.",
-      "updated_at": "2023-10-24T16:32:09.875Z",
-      "types": [
-        "ui-base",
-        "ui-page",
-        "ui-group",
-        "ui-theme",
-        "ui-form",
-        "__errors__",
-        "ui-text-input",
-        "__errors__",
-        "ui-button",
-        "__errors__",
-        "ui-dropdown",
-        "__errors__",
-        "ui-radio-group",
-        "__errors__",
-        "ui-slider",
-        "__errors__",
-        "ui-switch",
-        "__errors__",
-        "ui-text",
-        "__errors__",
-        "ui-table",
-        "__errors__",
-        "ui-chart",
-        "__errors__",
-        "ui-notification",
-        "__errors__",
-        "ui-markdown",
-        "__errors__",
-        "ui-template",
-        "__errors__"
-      ],
-      "keywords": [
-        "node-red"
-      ],
-      "url": "https://flows.nodered.org/node/@flowforge/node-red-dashboard"
     },
     {
       "id": "node-red-contrib-valvulafertilizante",
@@ -5714,23 +5736,6 @@
         "ewelink-cube"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-superpower-test"
-    },
-    {
-      "id": "@chvdapi/node-red-pn4800-1602lcd",
-      "version": "0.0.1",
-      "description": "drive PCF8574 1602 LCD on PN4800",
-      "updated_at": "2023-09-27T08:40:49.877Z",
-      "types": [
-        "PN4800_1602LCD"
-      ],
-      "keywords": [
-        "node-red",
-        "PN4800",
-        "PCF8574",
-        "LCD",
-        "I2C"
-      ],
-      "url": "https://flows.nodered.org/node/@chvdapi/node-red-pn4800-1602lcd"
     },
     {
       "id": "ilvo-parse-config-nodered",
@@ -12615,20 +12620,6 @@
         "woocommerce"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-woocommerce"
-    },
-    {
-      "id": "@flowforge/node-red-function-gpt",
-      "version": "0.2.1",
-      "description": "Variation of the standard Node-RED function node that includes an interface to ChatGPT for writing into the function content.",
-      "updated_at": "2023-05-17T10:37:11.883Z",
-      "types": [
-        "function-gpt",
-        "chatgpt-config"
-      ],
-      "keywords": [
-        "node-red"
-      ],
-      "url": "https://flows.nodered.org/node/@flowforge/node-red-function-gpt"
     },
     {
       "id": "node-red-contrib-phidget22",
