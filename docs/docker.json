@@ -1,26 +1,12 @@
 {
   "name": "Catalogue for Docker",
-  "updated_at": "2023-11-24T16:04:25.767Z",
+  "updated_at": "2023-11-25T15:59:17.788Z",
   "modules": [
     {
-      "id": "@flowforge/node-red-function-gpt",
-      "version": "0.3.0",
-      "description": "Variation of the standard Node-RED function node that includes an interface to ChatGPT for writing into the function content.",
-      "updated_at": "2023-11-24T14:28:53.272Z",
-      "types": [
-        "function-gpt",
-        "chatgpt-config"
-      ],
-      "keywords": [
-        "node-red"
-      ],
-      "url": "https://flows.nodered.org/node/@flowforge/node-red-function-gpt"
-    },
-    {
       "id": "@gregoriusrippenstein/node-red-contrib-nodedev",
-      "version": "0.1.8",
+      "version": "0.2.0",
       "description": "Support the development of Node-RED nodes within Node-RED.",
-      "updated_at": "2023-11-24T10:54:39.158Z",
+      "updated_at": "2023-11-25T11:26:17.611Z",
       "types": [
         "NodeDevOps",
         "NodeFactory",
@@ -38,6 +24,73 @@
         "recursion"
       ],
       "url": "https://flows.nodered.org/node/@gregoriusrippenstein/node-red-contrib-nodedev"
+    },
+    {
+      "id": "@technithusiast/node-red-contrib-ai-intent",
+      "version": "1.1.2",
+      "description": "A collection of nodes to elevate a user's automation interactions",
+      "updated_at": "2023-11-25T09:43:33.313Z",
+      "types": [
+        "Register Intent",
+        "Call Intent",
+        "OpenAI User",
+        "OpenAI System",
+        "OpenAI Chat",
+        "OpenAI Response",
+        "OpenAI Tool"
+      ],
+      "keywords": [
+        "node-red"
+      ],
+      "url": "https://flows.nodered.org/node/@technithusiast/node-red-contrib-ai-intent"
+    },
+    {
+      "id": "@gregoriusrippenstein/node-red-contrib-flowhub",
+      "version": "0.4.0",
+      "description": "Nodes for interacting with FlowHub.org.",
+      "updated_at": "2023-11-24T17:43:43.560Z",
+      "types": [
+        "FlowHubPull",
+        "FlowHubCfg"
+      ],
+      "keywords": [
+        "node-red",
+        "flowhub",
+        "flow-sharing",
+        "collaborative",
+        "flow-development"
+      ],
+      "url": "https://flows.nodered.org/node/@gregoriusrippenstein/node-red-contrib-flowhub"
+    },
+    {
+      "id": "@flowforge/node-red-function-gpt",
+      "version": "0.3.0",
+      "description": "Variation of the standard Node-RED function node that includes an interface to ChatGPT for writing into the function content.",
+      "updated_at": "2023-11-24T14:28:53.272Z",
+      "types": [
+        "function-gpt",
+        "chatgpt-config"
+      ],
+      "keywords": [
+        "node-red"
+      ],
+      "url": "https://flows.nodered.org/node/@flowforge/node-red-function-gpt"
+    },
+    {
+      "id": "@vrilcode/node-red-wnsm-b2b",
+      "version": "1.1.1",
+      "description": "Wiener Netze Smart Meter B2B API node for Node-RED",
+      "updated_at": "2023-11-24T00:00:25.679Z",
+      "types": [
+        "wnsm-b2b-credentials",
+        "wnsm-b2b"
+      ],
+      "keywords": [
+        "node-red",
+        "smart-meter",
+        "wiener-netze"
+      ],
+      "url": "https://flows.nodered.org/node/@vrilcode/node-red-wnsm-b2b"
     },
     {
       "id": "@gregoriusrippenstein/node-red-contrib-tarball",
@@ -596,23 +649,6 @@
       "url": "https://flows.nodered.org/node/@nd-enerserve/node-red-smartpi"
     },
     {
-      "id": "@gregoriusrippenstein/node-red-contrib-flowhub",
-      "version": "0.3.5",
-      "description": "Nodes for interacting with FlowHub.org.",
-      "updated_at": "2023-11-21T10:00:49.982Z",
-      "types": [
-        "FlowHubPull",
-        "FlowHubPushCfg",
-        "FlowHubDiffCfg"
-      ],
-      "keywords": [
-        "node-red",
-        "flowhub",
-        "flowsharing"
-      ],
-      "url": "https://flows.nodered.org/node/@gregoriusrippenstein/node-red-contrib-flowhub"
-    },
-    {
       "id": "apconic-oracledb-connect",
       "version": "0.0.9",
       "description": "Node for weight parser",
@@ -1109,22 +1145,6 @@
         "digital"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-smarthome-powerswitch"
-    },
-    {
-      "id": "@vrilcode/node-red-wnsm-b2b",
-      "version": "1.1.0",
-      "description": "Wiener Netze Smart Meter B2B API node for Node-RED",
-      "updated_at": "2023-11-16T17:32:08.816Z",
-      "types": [
-        "wnsm-b2b-credentials",
-        "wnsm-b2b"
-      ],
-      "keywords": [
-        "node-red",
-        "smart-meter",
-        "wiener-netze"
-      ],
-      "url": "https://flows.nodered.org/node/@vrilcode/node-red-wnsm-b2b"
     },
     {
       "id": "@autexis/node-red-payload-logger",
@@ -10376,22 +10396,6 @@
       "url": "https://flows.nodered.org/node/node-red-contrib-industrial-machine-forecast"
     },
     {
-      "id": "@technithusiast/node-red-contrib-ai-intent",
-      "version": "1.0.15",
-      "description": "A collection of nodes to elevate a user's automation interactions",
-      "updated_at": "2023-07-11T07:27:11.833Z",
-      "types": [
-        "Context Handler",
-        "Register Intent",
-        "Call Intent",
-        "Gather Context"
-      ],
-      "keywords": [
-        "node-red"
-      ],
-      "url": "https://flows.nodered.org/node/@technithusiast/node-red-contrib-ai-intent"
-    },
-    {
       "id": "edgedatasource",
       "version": "2.0.2",
       "description": "edgedatasource节点描述",
@@ -15564,6 +15568,24 @@
         "PiGpio"
       ],
       "url": "https://flows.nodered.org/node/node-red-node-pi-gpio"
+    },
+    {
+      "id": "@genghistask/node-red",
+      "version": "1.0.3",
+      "description": "Run a script from a repository",
+      "updated_at": "2023-03-14T12:01:56.548Z",
+      "types": [
+        "genghistask",
+        "genghistask-workspace"
+      ],
+      "keywords": [
+        "crontab",
+        "scheduler",
+        "script",
+        "library",
+        "node-red"
+      ],
+      "url": "https://flows.nodered.org/node/@genghistask/node-red"
     },
     {
       "id": "node-red-contrib-datacake",
