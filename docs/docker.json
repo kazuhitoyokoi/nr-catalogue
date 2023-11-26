@@ -1,12 +1,12 @@
 {
   "name": "Catalogue for Docker",
-  "updated_at": "2023-11-25T15:59:17.788Z",
+  "updated_at": "2023-11-26T15:57:08.153Z",
   "modules": [
     {
       "id": "@gregoriusrippenstein/node-red-contrib-nodedev",
-      "version": "0.2.0",
+      "version": "0.2.1",
       "description": "Support the development of Node-RED nodes within Node-RED.",
-      "updated_at": "2023-11-25T11:26:17.611Z",
+      "updated_at": "2023-11-26T14:22:51.799Z",
       "types": [
         "NodeDevOps",
         "NodeFactory",
@@ -26,10 +26,25 @@
       "url": "https://flows.nodered.org/node/@gregoriusrippenstein/node-red-contrib-nodedev"
     },
     {
+      "id": "node-red-contrib-victron-vedirect-usb",
+      "version": "0.1.5",
+      "description": "Access the Victron equipment with a USB VE.Direct cable",
+      "updated_at": "2023-11-26T08:35:07.837Z",
+      "types": [
+        "victron-vedirect-usb"
+      ],
+      "keywords": [
+        "node-red",
+        "victron",
+        "vedirect"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-victron-vedirect-usb"
+    },
+    {
       "id": "@technithusiast/node-red-contrib-ai-intent",
-      "version": "1.1.2",
+      "version": "1.1.21",
       "description": "A collection of nodes to elevate a user's automation interactions",
-      "updated_at": "2023-11-25T09:43:33.313Z",
+      "updated_at": "2023-11-26T07:53:37.329Z",
       "types": [
         "Register Intent",
         "Call Intent",
@@ -43,6 +58,67 @@
         "node-red"
       ],
       "url": "https://flows.nodered.org/node/@technithusiast/node-red-contrib-ai-intent"
+    },
+    {
+      "id": "node-red-contrib-nspanel-lui",
+      "version": "0.0.1-alpha.44",
+      "description": "Node-RED based backend for NSPanel Lovelace UI custom firmware.",
+      "updated_at": "2023-11-26T07:11:39.763Z",
+      "types": [],
+      "keywords": [
+        "node-red",
+        "lovelace ui",
+        "nspanel"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-nspanel-lui"
+    },
+    {
+      "id": "@gregoriusrippenstein/node-red-contrib-filetype",
+      "version": "0.0.3",
+      "description": "Wrapper node around the file-type npmjs package.",
+      "updated_at": "2023-11-25T21:55:11.171Z",
+      "types": [
+        "filetype"
+      ],
+      "keywords": [
+        "node-red",
+        "file-type",
+        "filetype",
+        "file"
+      ],
+      "url": "https://flows.nodered.org/node/@gregoriusrippenstein/node-red-contrib-filetype"
+    },
+    {
+      "id": "@gregoriusrippenstein/node-red-contrib-flow2uml",
+      "version": "0.1.5",
+      "description": "Convert Node-RED to Mermaid UML flowchart diagram.",
+      "updated_at": "2023-11-25T20:11:08.154Z",
+      "types": [
+        "Flow2MermaidCfg"
+      ],
+      "keywords": [
+        "node-red",
+        "uml",
+        "mermaid"
+      ],
+      "url": "https://flows.nodered.org/node/@gregoriusrippenstein/node-red-contrib-flow2uml"
+    },
+    {
+      "id": "@marcelodf12/node-red-contrib-wca-integration",
+      "version": "1.2.0",
+      "description": "Whatsapp cloud api integration node for node-red",
+      "updated_at": "2023-11-25T19:21:07.343Z",
+      "types": [
+        "wca_send_template",
+        "wca_send_image",
+        "wca_send_msg",
+        "wca_config"
+      ],
+      "keywords": [
+        "whatsapp",
+        "node-red"
+      ],
+      "url": "https://flows.nodered.org/node/@marcelodf12/node-red-contrib-wca-integration"
     },
     {
       "id": "@gregoriusrippenstein/node-red-contrib-flowhub",
@@ -415,6 +491,34 @@
       "url": "https://flows.nodered.org/node/@inductiv/node-red-openai-api"
     },
     {
+      "id": "@strato-automation/node-red-contrib-strato-automation",
+      "version": "0.2.2",
+      "description": "Strato Automation Official Node Red Library",
+      "updated_at": "2023-11-22T21:32:41.307Z",
+      "types": [
+        "input",
+        "output",
+        "ocn-server",
+        "func-on-off",
+        "func-ramp",
+        "func-min",
+        "func-max",
+        "const",
+        "input-topic",
+        "unit-converter",
+        "logic-gate",
+        "not-gate",
+        "psychrometric-calculator",
+        "strato-pid",
+        "signal-generator"
+      ],
+      "keywords": [
+        "node-red",
+        "node-red-node"
+      ],
+      "url": "https://flows.nodered.org/node/@strato-automation/node-red-contrib-strato-automation"
+    },
+    {
       "id": "node-red-contrib-blockly",
       "version": "2.4.0",
       "description": "A Node Red node for visual programming a function using Blockly",
@@ -616,19 +720,6 @@
         "tesla"
       ],
       "url": "https://flows.nodered.org/node/@gaphi/node-red-contrib-tesla"
-    },
-    {
-      "id": "node-red-contrib-nspanel-lui",
-      "version": "0.0.1-alpha.43",
-      "description": "Node-RED based backend for NSPanel Lovelace UI custom firmware.",
-      "updated_at": "2023-11-21T16:55:43.489Z",
-      "types": [],
-      "keywords": [
-        "node-red",
-        "lovelace ui",
-        "nspanel"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-nspanel-lui"
     },
     {
       "id": "@nd-enerserve/node-red-smartpi",
@@ -2286,21 +2377,6 @@
       "url": "https://flows.nodered.org/node/@gregoriusrippenstein/node-red-contrib-uglifyjs"
     },
     {
-      "id": "@gregoriusrippenstein/node-red-contrib-flow2uml",
-      "version": "0.1.2",
-      "description": "Convert Node-RED to Mermaid UML flowchart diagram.",
-      "updated_at": "2023-11-05T18:12:09.314Z",
-      "types": [
-        "Flow2MermaidCfg"
-      ],
-      "keywords": [
-        "node-red",
-        "uml",
-        "mermaid"
-      ],
-      "url": "https://flows.nodered.org/node/@gregoriusrippenstein/node-red-contrib-flow2uml"
-    },
-    {
       "id": "node-red-contrib-luxtronik2",
       "version": "0.5.4",
       "description": "Node, that reads and controls heat pumps based on the Luxtronik 2.0 contol unit. Supports for example AlphaInnotec and Siemens Novelan (WRP NET).",
@@ -3016,32 +3092,6 @@
         "noble"
       ],
       "url": "https://flows.nodered.org/node/@hsync/node-red-ble-uart"
-    },
-    {
-      "id": "@strato-automation/node-red-contrib-strato-automation",
-      "version": "0.1.2",
-      "description": "Strato Automation Official Node Red Library",
-      "updated_at": "2023-10-26T14:21:52.579Z",
-      "types": [
-        "input",
-        "output",
-        "ocn-server",
-        "func-on-off",
-        "func-ramp",
-        "func-min",
-        "func-max",
-        "const",
-        "input-topic",
-        "unit-converter",
-        "logic-gate",
-        "not-gate",
-        "psychrometric-calculator"
-      ],
-      "keywords": [
-        "node-red",
-        "node-red-node"
-      ],
-      "url": "https://flows.nodered.org/node/@strato-automation/node-red-contrib-strato-automation"
     },
     {
       "id": "node-red-contrib-edgesignal-connector",
@@ -5278,21 +5328,6 @@
         "home automation"
       ],
       "url": "https://flows.nodered.org/node/@almostinteractive/node-red-contrib-basic-ical-calendar"
-    },
-    {
-      "id": "node-red-contrib-victron-vedirect-usb",
-      "version": "0.1.4",
-      "description": "Access the Victron equipment with a USB VE.Direct cable",
-      "updated_at": "2023-10-02T11:28:48.397Z",
-      "types": [
-        "victron-vedirect-usb"
-      ],
-      "keywords": [
-        "node-red",
-        "victron",
-        "vedirect"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-victron-vedirect-usb"
     },
     {
       "id": "node-red-contrib-tts-ultimate",
@@ -19939,22 +19974,6 @@
         "schedule"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-cb-suncron"
-    },
-    {
-      "id": "@marcelodf12/node-red-contrib-wca-integration",
-      "version": "1.1.0",
-      "description": "Whatsapp cloud api integration node for node-red",
-      "updated_at": "2022-11-27T21:51:08.881Z",
-      "types": [
-        "wca_send_template",
-        "wca_send_msg",
-        "wca_config"
-      ],
-      "keywords": [
-        "whatsapp",
-        "node-red"
-      ],
-      "url": "https://flows.nodered.org/node/@marcelodf12/node-red-contrib-wca-integration"
     },
     {
       "id": "node-red-contrib-array-permutations",
