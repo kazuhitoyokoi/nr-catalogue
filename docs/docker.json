@@ -1,12 +1,135 @@
 {
   "name": "Catalogue for Docker",
-  "updated_at": "2023-11-26T15:57:08.153Z",
+  "updated_at": "2023-11-27T15:59:40.510Z",
   "modules": [
     {
+      "id": "@orbis-developers/node-red-viaris",
+      "version": "1.0.1",
+      "description": "Monitor viaris EV charger.",
+      "updated_at": "2023-11-27T13:47:02.459Z",
+      "types": [
+        "viaris"
+      ],
+      "keywords": [
+        "node-red",
+        "viaris",
+        "orbis"
+      ],
+      "url": "https://flows.nodered.org/node/@orbis-developers/node-red-viaris"
+    },
+    {
+      "id": "node-red-contrib-nspanel-lui",
+      "version": "0.0.1-alpha.45",
+      "description": "Node-RED based backend for NSPanel Lovelace UI custom firmware.",
+      "updated_at": "2023-11-27T12:50:48.404Z",
+      "types": [],
+      "keywords": [
+        "node-red",
+        "lovelace ui",
+        "nspanel"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-nspanel-lui"
+    },
+    {
+      "id": "victron-dynamic-ess",
+      "version": "0.1.9",
+      "description": "Fetch the ideal ESS setpoint from VRM",
+      "updated_at": "2023-11-27T10:48:45.981Z",
+      "types": [
+        "victron-dynamic-ess"
+      ],
+      "keywords": [
+        "node-red",
+        "victron",
+        "dynamic ess",
+        "scheduled charging",
+        "ess"
+      ],
+      "url": "https://flows.nodered.org/node/victron-dynamic-ess"
+    },
+    {
+      "id": "@shri123321/node-red-contrib-shri-super-trend",
+      "version": "9.0.0",
+      "description": "Node red warapper for Olivier Seban & stonkpunk node module super trend. It takes data and calculates super trend",
+      "updated_at": "2023-11-27T10:05:51.510Z",
+      "types": [
+        "super-trend"
+      ],
+      "keywords": [
+        "node-red"
+      ],
+      "url": "https://flows.nodered.org/node/@shri123321/node-red-contrib-shri-super-trend"
+    },
+    {
+      "id": "@gregoriusrippenstein/node-red-contrib-flowhub",
+      "version": "0.4.1",
+      "description": "Nodes for interacting with FlowHub.org.",
+      "updated_at": "2023-11-27T09:46:07.877Z",
+      "types": [
+        "FlowHubPull",
+        "FlowHubCfg"
+      ],
+      "keywords": [
+        "node-red",
+        "flowhub",
+        "flow-sharing",
+        "collaborative",
+        "flow-development"
+      ],
+      "url": "https://flows.nodered.org/node/@gregoriusrippenstein/node-red-contrib-flowhub"
+    },
+    {
+      "id": "@opcua/for-node-red",
+      "version": "2.1.2",
+      "description": "The Node-RED node to communicate via OPC UA, powered NodeOPCUA and developed by Sterfive's team",
+      "updated_at": "2023-11-27T09:31:11.573Z",
+      "types": [],
+      "keywords": [
+        "node-red",
+        "OPC UA",
+        "opc-ua",
+        "unified architecture",
+        "opc foundation",
+        "node-opcua",
+        "IIoT"
+      ],
+      "url": "https://flows.nodered.org/node/@opcua/for-node-red"
+    },
+    {
+      "id": "@gregoriusrippenstein/node-red-contrib-flow2uml",
+      "version": "0.1.7",
+      "description": "Convert Node-RED to Mermaid UML flowchart diagram.",
+      "updated_at": "2023-11-27T09:04:21.273Z",
+      "types": [
+        "Flow2MermaidCfg"
+      ],
+      "keywords": [
+        "node-red",
+        "uml",
+        "mermaid"
+      ],
+      "url": "https://flows.nodered.org/node/@gregoriusrippenstein/node-red-contrib-flow2uml"
+    },
+    {
+      "id": "node-red-contrib-dawnchorus",
+      "version": "0.0.6",
+      "description": "Nodes for uploading birdsongs to dawnchorus.",
+      "updated_at": "2023-11-26T20:45:13.926Z",
+      "types": [
+        "dawn chorus"
+      ],
+      "keywords": [
+        "node-red",
+        "dawnchorus",
+        "birdsong"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-dawnchorus"
+    },
+    {
       "id": "@gregoriusrippenstein/node-red-contrib-nodedev",
-      "version": "0.2.1",
+      "version": "0.2.2",
       "description": "Support the development of Node-RED nodes within Node-RED.",
-      "updated_at": "2023-11-26T14:22:51.799Z",
+      "updated_at": "2023-11-26T15:51:41.116Z",
       "types": [
         "NodeDevOps",
         "NodeFactory",
@@ -60,19 +183,6 @@
       "url": "https://flows.nodered.org/node/@technithusiast/node-red-contrib-ai-intent"
     },
     {
-      "id": "node-red-contrib-nspanel-lui",
-      "version": "0.0.1-alpha.44",
-      "description": "Node-RED based backend for NSPanel Lovelace UI custom firmware.",
-      "updated_at": "2023-11-26T07:11:39.763Z",
-      "types": [],
-      "keywords": [
-        "node-red",
-        "lovelace ui",
-        "nspanel"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-nspanel-lui"
-    },
-    {
       "id": "@gregoriusrippenstein/node-red-contrib-filetype",
       "version": "0.0.3",
       "description": "Wrapper node around the file-type npmjs package.",
@@ -87,21 +197,6 @@
         "file"
       ],
       "url": "https://flows.nodered.org/node/@gregoriusrippenstein/node-red-contrib-filetype"
-    },
-    {
-      "id": "@gregoriusrippenstein/node-red-contrib-flow2uml",
-      "version": "0.1.5",
-      "description": "Convert Node-RED to Mermaid UML flowchart diagram.",
-      "updated_at": "2023-11-25T20:11:08.154Z",
-      "types": [
-        "Flow2MermaidCfg"
-      ],
-      "keywords": [
-        "node-red",
-        "uml",
-        "mermaid"
-      ],
-      "url": "https://flows.nodered.org/node/@gregoriusrippenstein/node-red-contrib-flow2uml"
     },
     {
       "id": "@marcelodf12/node-red-contrib-wca-integration",
@@ -119,24 +214,6 @@
         "node-red"
       ],
       "url": "https://flows.nodered.org/node/@marcelodf12/node-red-contrib-wca-integration"
-    },
-    {
-      "id": "@gregoriusrippenstein/node-red-contrib-flowhub",
-      "version": "0.4.0",
-      "description": "Nodes for interacting with FlowHub.org.",
-      "updated_at": "2023-11-24T17:43:43.560Z",
-      "types": [
-        "FlowHubPull",
-        "FlowHubCfg"
-      ],
-      "keywords": [
-        "node-red",
-        "flowhub",
-        "flow-sharing",
-        "collaborative",
-        "flow-development"
-      ],
-      "url": "https://flows.nodered.org/node/@gregoriusrippenstein/node-red-contrib-flowhub"
     },
     {
       "id": "@flowforge/node-red-function-gpt",
@@ -1664,38 +1741,6 @@
         "xlsx"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-json2xlsx"
-    },
-    {
-      "id": "node-red-contrib-dawnchorus",
-      "version": "0.0.5",
-      "description": "Nodes for uploading birdsongs to dawnchorus.",
-      "updated_at": "2023-11-12T23:06:05.823Z",
-      "types": [
-        "dawn chorus"
-      ],
-      "keywords": [
-        "node-red",
-        "dawnchorus",
-        "birdsong"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-dawnchorus"
-    },
-    {
-      "id": "@opcua/for-node-red",
-      "version": "2.0.7",
-      "description": "The Node-RED node to communicate via OPC UA, powered NodeOPCUA and developed by Sterfive's team",
-      "updated_at": "2023-11-11T22:43:37.879Z",
-      "types": [],
-      "keywords": [
-        "node-red",
-        "OPC UA",
-        "opc-ua",
-        "unified architecture",
-        "opc foundation",
-        "node-opcua",
-        "IIoT"
-      ],
-      "url": "https://flows.nodered.org/node/@opcua/for-node-red"
     },
     {
       "id": "node-red-contrib-alphaess",
@@ -3772,23 +3817,6 @@
         "node-red"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-ejbca"
-    },
-    {
-      "id": "victron-dynamic-ess",
-      "version": "0.1.8",
-      "description": "Fetch the ideal ESS setpoint from VRM",
-      "updated_at": "2023-10-20T11:20:45.252Z",
-      "types": [
-        "victron-dynamic-ess"
-      ],
-      "keywords": [
-        "node-red",
-        "victron",
-        "dynamic ess",
-        "scheduled charging",
-        "ess"
-      ],
-      "url": "https://flows.nodered.org/node/victron-dynamic-ess"
     },
     {
       "id": "@redplc/node-red-wago-cc100-io",
