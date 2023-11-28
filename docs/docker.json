@@ -1,7 +1,173 @@
 {
   "name": "Catalogue for Docker",
-  "updated_at": "2023-11-27T15:59:40.510Z",
+  "updated_at": "2023-11-28T15:59:34.660Z",
   "modules": [
+    {
+      "id": "virtual-parameters",
+      "version": "1.0.2",
+      "description": "virtual parameters setting",
+      "updated_at": "2023-11-28T14:05:44.309Z",
+      "types": [
+        "virtual-parameters"
+      ],
+      "keywords": [
+        "node-red",
+        "parameters",
+        "virtual"
+      ],
+      "url": "https://flows.nodered.org/node/virtual-parameters"
+    },
+    {
+      "id": "node-red-contrib-edge-tts",
+      "version": "2.2.4",
+      "description": "An simple Azure Speech Service module that uses the Microsoft Edge Read Aloud API.",
+      "updated_at": "2023-11-28T09:55:19.381Z",
+      "types": [
+        "edge-tts"
+      ],
+      "keywords": [
+        "edge",
+        "node-red",
+        "tts",
+        "readaloud"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-edge-tts"
+    },
+    {
+      "id": "@inductiv/node-red-openai-api",
+      "version": "0.3.7",
+      "description": "Go beyond ChatGPT and DALL·E 3: this Node-RED node seamlessly integrates a range of OpenAI services, including Assistants, Threads, Vision, and Audio, enabling feature-rich enhancement of your AI workflows with any OpenAI REST API-compatible solution.",
+      "updated_at": "2023-11-27T22:52:21.380Z",
+      "types": [
+        "OpenAI API",
+        "Service Host"
+      ],
+      "keywords": [
+        "openai",
+        "api",
+        "automation",
+        "chatgpt",
+        "llm",
+        "slm",
+        "agent",
+        "automation",
+        "node-red",
+        "nodered",
+        "low-code",
+        "ai"
+      ],
+      "url": "https://flows.nodered.org/node/@inductiv/node-red-openai-api"
+    },
+    {
+      "id": "@opcua/for-node-red",
+      "version": "2.1.7",
+      "description": "The Node-RED node to communicate via OPC UA, powered NodeOPCUA and developed by Sterfive's team",
+      "updated_at": "2023-11-27T21:33:45.035Z",
+      "types": [],
+      "keywords": [
+        "node-red",
+        "OPC UA",
+        "opc-ua",
+        "unified architecture",
+        "opc foundation",
+        "node-opcua",
+        "IIoT"
+      ],
+      "url": "https://flows.nodered.org/node/@opcua/for-node-red"
+    },
+    {
+      "id": "@gregoriusrippenstein/node-red-contrib-nodedev",
+      "version": "0.2.3",
+      "description": "Support the development of Node-RED nodes within Node-RED.",
+      "updated_at": "2023-11-27T17:31:58.953Z",
+      "types": [
+        "NodeDevOps",
+        "NodeFactory",
+        "PkgFile",
+        "NpmTarBall",
+        "NodeRedInstall",
+        "NpmPublish",
+        "NodeFactorySidebarCfg"
+      ],
+      "keywords": [
+        "node-red",
+        "node development",
+        "introspection",
+        "bootstrapping",
+        "recursion"
+      ],
+      "url": "https://flows.nodered.org/node/@gregoriusrippenstein/node-red-contrib-nodedev"
+    },
+    {
+      "id": "node-red-contrib-web-worldmap",
+      "version": "4.4.0",
+      "description": "A Node-RED node to provide a web page of a world map for plotting things on.",
+      "updated_at": "2023-11-27T17:27:32.015Z",
+      "types": [
+        "worldmap",
+        "ui_worldmap",
+        "worldmap in",
+        "worldmap-tracks",
+        "worldmap-hull"
+      ],
+      "keywords": [
+        "node-red",
+        "map",
+        "world",
+        "tak",
+        "pmtiles",
+        "esri",
+        "gis"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-web-worldmap"
+    },
+    {
+      "id": "node-red-contrib-nspanel-lui",
+      "version": "0.0.1-alpha.47",
+      "description": "Node-RED based backend for NSPanel Lovelace UI custom firmware.",
+      "updated_at": "2023-11-27T17:23:36.938Z",
+      "types": [],
+      "keywords": [
+        "node-red",
+        "lovelace ui",
+        "nspanel"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-nspanel-lui"
+    },
+    {
+      "id": "@tonymacdonald/node-red-rapt-pull",
+      "version": "0.9.0",
+      "description": "Simple node to pull data from RAPT cloud for integration into node red flows",
+      "updated_at": "2023-11-27T16:25:30.066Z",
+      "types": [
+        "rapt-credentials",
+        "rapt-pull"
+      ],
+      "keywords": [
+        "node-red",
+        "rapt",
+        "pill",
+        "hydrometer"
+      ],
+      "url": "https://flows.nodered.org/node/@tonymacdonald/node-red-rapt-pull"
+    },
+    {
+      "id": "victron-dynamic-ess",
+      "version": "0.1.10",
+      "description": "Fetch the ideal ESS setpoint from VRM",
+      "updated_at": "2023-11-27T15:20:00.357Z",
+      "types": [
+        "victron-dynamic-ess"
+      ],
+      "keywords": [
+        "node-red",
+        "victron",
+        "dynamic ess",
+        "scheduled charging",
+        "ess"
+      ],
+      "url": "https://flows.nodered.org/node/victron-dynamic-ess"
+    },
     {
       "id": "@orbis-developers/node-red-viaris",
       "version": "1.0.1",
@@ -16,36 +182,6 @@
         "orbis"
       ],
       "url": "https://flows.nodered.org/node/@orbis-developers/node-red-viaris"
-    },
-    {
-      "id": "node-red-contrib-nspanel-lui",
-      "version": "0.0.1-alpha.45",
-      "description": "Node-RED based backend for NSPanel Lovelace UI custom firmware.",
-      "updated_at": "2023-11-27T12:50:48.404Z",
-      "types": [],
-      "keywords": [
-        "node-red",
-        "lovelace ui",
-        "nspanel"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-nspanel-lui"
-    },
-    {
-      "id": "victron-dynamic-ess",
-      "version": "0.1.9",
-      "description": "Fetch the ideal ESS setpoint from VRM",
-      "updated_at": "2023-11-27T10:48:45.981Z",
-      "types": [
-        "victron-dynamic-ess"
-      ],
-      "keywords": [
-        "node-red",
-        "victron",
-        "dynamic ess",
-        "scheduled charging",
-        "ess"
-      ],
-      "url": "https://flows.nodered.org/node/victron-dynamic-ess"
     },
     {
       "id": "@shri123321/node-red-contrib-shri-super-trend",
@@ -79,23 +215,6 @@
       "url": "https://flows.nodered.org/node/@gregoriusrippenstein/node-red-contrib-flowhub"
     },
     {
-      "id": "@opcua/for-node-red",
-      "version": "2.1.2",
-      "description": "The Node-RED node to communicate via OPC UA, powered NodeOPCUA and developed by Sterfive's team",
-      "updated_at": "2023-11-27T09:31:11.573Z",
-      "types": [],
-      "keywords": [
-        "node-red",
-        "OPC UA",
-        "opc-ua",
-        "unified architecture",
-        "opc foundation",
-        "node-opcua",
-        "IIoT"
-      ],
-      "url": "https://flows.nodered.org/node/@opcua/for-node-red"
-    },
-    {
       "id": "@gregoriusrippenstein/node-red-contrib-flow2uml",
       "version": "0.1.7",
       "description": "Convert Node-RED to Mermaid UML flowchart diagram.",
@@ -124,29 +243,6 @@
         "birdsong"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-dawnchorus"
-    },
-    {
-      "id": "@gregoriusrippenstein/node-red-contrib-nodedev",
-      "version": "0.2.2",
-      "description": "Support the development of Node-RED nodes within Node-RED.",
-      "updated_at": "2023-11-26T15:51:41.116Z",
-      "types": [
-        "NodeDevOps",
-        "NodeFactory",
-        "PkgFile",
-        "NpmTarBall",
-        "NodeRedInstall",
-        "NpmPublish",
-        "NodeFactorySidebarCfg"
-      ],
-      "keywords": [
-        "node-red",
-        "node development",
-        "introspection",
-        "bootstrapping",
-        "recursion"
-      ],
-      "url": "https://flows.nodered.org/node/@gregoriusrippenstein/node-red-contrib-nodedev"
     },
     {
       "id": "node-red-contrib-victron-vedirect-usb",
@@ -228,6 +324,38 @@
         "node-red"
       ],
       "url": "https://flows.nodered.org/node/@flowforge/node-red-function-gpt"
+    },
+    {
+      "id": "node-red-contrib-thinger",
+      "version": "1.5.1",
+      "description": "Node-Red library for Thinger.io Platform",
+      "updated_at": "2023-11-24T13:12:02.782Z",
+      "types": [
+        "asset-iterator",
+        "bucket-create",
+        "bucket-read",
+        "bucket-write",
+        "device-callback",
+        "device-create",
+        "device-read",
+        "device-stream",
+        "device-write",
+        "endpoint-call",
+        "property-read",
+        "property-write",
+        "storage-read",
+        "storage-write",
+        "server-events",
+        "thinger-server"
+      ],
+      "keywords": [
+        "node-red",
+        "thinger.io",
+        "IoT",
+        "arduino",
+        "raspberry"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-thinger"
     },
     {
       "id": "@vrilcode/node-red-wnsm-b2b",
@@ -541,31 +669,6 @@
         "delaytimer"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-delaytimer"
-    },
-    {
-      "id": "@inductiv/node-red-openai-api",
-      "version": "0.3.6",
-      "description": "Go beyond ChatGPT and DALL·E 3: this Node-RED node seamlessly integrates a range of OpenAI services, including Assistants, Threads, Vision, and Audio, enabling feature-rich enhancement of your AI workflows with any OpenAI REST API-compatible solution.",
-      "updated_at": "2023-11-23T01:09:49.613Z",
-      "types": [
-        "OpenAI API",
-        "Service Host"
-      ],
-      "keywords": [
-        "openai",
-        "api",
-        "automation",
-        "chatgpt",
-        "llm",
-        "slm",
-        "agent",
-        "automation",
-        "node-red",
-        "nodered",
-        "low-code",
-        "ai"
-      ],
-      "url": "https://flows.nodered.org/node/@inductiv/node-red-openai-api"
     },
     {
       "id": "@strato-automation/node-red-contrib-strato-automation",
@@ -1076,22 +1179,6 @@
       "url": "https://flows.nodered.org/node/node-red-contrib-obs-ws"
     },
     {
-      "id": "node-red-contrib-edge-tts",
-      "version": "2.2.3",
-      "description": "An simple Azure Speech Service module that uses the Microsoft Edge Read Aloud API.",
-      "updated_at": "2023-11-19T05:16:40.213Z",
-      "types": [
-        "edge-tts"
-      ],
-      "keywords": [
-        "edge",
-        "node-red",
-        "tts",
-        "readaloud"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-edge-tts"
-    },
-    {
       "id": "topological-nodered-wdio",
       "version": "0.5.4",
       "description": "Open source WebdriverIO nodes for Node-RED",
@@ -1379,38 +1466,6 @@
         "sun blind"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-smarthome-shading"
-    },
-    {
-      "id": "node-red-contrib-thinger",
-      "version": "1.5.0",
-      "description": "Node-Red library for Thinger.io Platform",
-      "updated_at": "2023-11-15T15:15:24.716Z",
-      "types": [
-        "asset-iterator",
-        "bucket-create",
-        "bucket-read",
-        "bucket-write",
-        "device-callback",
-        "device-create",
-        "device-read",
-        "device-stream",
-        "device-write",
-        "endpoint-call",
-        "property-read",
-        "property-write",
-        "storage-read",
-        "storage-write",
-        "server-events",
-        "thinger-server"
-      ],
-      "keywords": [
-        "node-red",
-        "thinger.io",
-        "IoT",
-        "arduino",
-        "raspberry"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-thinger"
     },
     {
       "id": "@alexandrainst/node-red-http-basic-auth",
@@ -1990,29 +2045,6 @@
         "amateurradio"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-aprs2"
-    },
-    {
-      "id": "node-red-contrib-web-worldmap",
-      "version": "4.3.3",
-      "description": "A Node-RED node to provide a web page of a world map for plotting things on.",
-      "updated_at": "2023-11-09T16:19:27.250Z",
-      "types": [
-        "worldmap",
-        "ui_worldmap",
-        "worldmap in",
-        "worldmap-tracks",
-        "worldmap-hull"
-      ],
-      "keywords": [
-        "node-red",
-        "map",
-        "world",
-        "tak",
-        "pmtiles",
-        "esri",
-        "gis"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-web-worldmap"
     },
     {
       "id": "node-red-contrib-chromadb",
