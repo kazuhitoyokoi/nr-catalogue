@@ -1,0 +1,50 @@
+#0 building with "default" instance using docker driver
+
+#1 [internal] load .dockerignore
+#1 transferring context: 2B done
+#1 DONE 0.0s
+
+#2 [internal] load build definition from Dockerfile
+#2 transferring dockerfile: 137B done
+#2 DONE 0.0s
+
+#3 [internal] load metadata for docker.io/nodered/node-red:latest
+#3 DONE 0.3s
+
+#4 [1/2] FROM docker.io/nodered/node-red@sha256:0e3b590064a6bb32996aaa4ca63f0c17e63c877cc5219de501820e6457a616f1
+#4 CACHED
+
+#5 [2/2] RUN npm install npm install node-red-contrib-alexa-remote2-applestrudel@5.0.48
+#5 2.240 npm WARN EBADENGINE Unsupported engine {
+#5 2.240 npm WARN EBADENGINE   package: 'npm@10.2.4',
+#5 2.240 npm WARN EBADENGINE   required: { node: '^18.17.0 || >=20.5.0' },
+#5 2.240 npm WARN EBADENGINE   current: { node: 'v16.20.2', npm: '8.19.4' }
+#5 2.240 npm WARN EBADENGINE }
+#5 3.593 npm WARN deprecated querystring@0.2.1: The querystring API is considered Legacy. new code should use the URLSearchParams API instead.
+#5 3.901 
+#5 3.901 added 31 packages, and audited 570 packages in 3s
+#5 3.902 
+#5 3.902 72 packages are looking for funding
+#5 3.902   run `npm fund` for details
+#5 3.905 
+#5 3.905 2 moderate severity vulnerabilities
+#5 3.905 
+#5 3.905 To address all issues, run:
+#5 3.905   npm audit fix
+#5 3.905 
+#5 3.905 Run `npm audit` for details.
+#5 3.906 npm notice 
+#5 3.906 npm notice New major version of npm available! 8.19.4 -> 10.2.4
+#5 3.906 npm notice Changelog: <https://github.com/npm/cli/releases/tag/v10.2.4>
+#5 3.906 npm notice Run `npm install -g npm@10.2.4` to update!
+#5 3.906 npm notice 
+#5 DONE 4.0s
+
+#6 exporting to image
+#6 exporting layers
+#6 exporting layers 1.1s done
+#6 writing image sha256:25af7c648bf7e593a9b7c478753d6c32e2ae33b2ffba452f03c8dc770f23ad52 done
+#6 naming to docker.io/library/tmp done
+#6 DONE 1.1s
+
+----
