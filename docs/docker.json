@@ -1,7 +1,213 @@
 {
   "name": "Catalogue for Docker",
-  "updated_at": "2023-11-29T15:59:50.261Z",
+  "updated_at": "2023-11-30T15:58:32.888Z",
   "modules": [
+    {
+      "id": "node-red-contrib-smartnora",
+      "version": "1.21.0",
+      "description": "Google Smart Home integration via Smart Nora https://smart-nora.eu/",
+      "updated_at": "2023-11-30T11:36:16.279Z",
+      "types": [
+        "noraf-ac",
+        "noraf-airpurifier",
+        "noraf-blinds",
+        "noraf-camera",
+        "noraf-charger",
+        "noraf-config",
+        "noraf-doorbell",
+        "noraf-fan",
+        "noraf-garage",
+        "noraf-light",
+        "noraf-lock",
+        "noraf-media",
+        "noraf-notify",
+        "noraf-openclose",
+        "noraf-outlet",
+        "noraf-scene",
+        "noraf-security",
+        "noraf-sensor",
+        "noraf-sousvide",
+        "noraf-speaker",
+        "noraf-sprinkler",
+        "noraf-switch",
+        "noraf-thermostat",
+        "noraf-vacuum",
+        "noraf-async"
+      ],
+      "keywords": [
+        "node-red",
+        "google",
+        "google home",
+        "assistant",
+        "smarthome",
+        "smart",
+        "home",
+        "iot"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-smartnora"
+    },
+    {
+      "id": "@nickiv/node-red-huawei-sms",
+      "version": "0.0.5",
+      "description": "Nodes to send and receive SMS from Huawei LTE USB Stick",
+      "updated_at": "2023-11-30T11:27:14.514Z",
+      "types": [
+        "huawei-sms-send",
+        "huawei-sms-receive",
+        "huawei-sms-config"
+      ],
+      "keywords": [
+        "node-red",
+        "sms",
+        "huawei"
+      ],
+      "url": "https://flows.nodered.org/node/@nickiv/node-red-huawei-sms"
+    },
+    {
+      "id": "@flowfuse/node-red-function-gpt",
+      "version": "0.4.0",
+      "description": "Variation of the standard Node-RED function node that includes an interface to ChatGPT for writing into the function content.",
+      "updated_at": "2023-11-30T09:46:38.811Z",
+      "types": [
+        "function-gpt",
+        "chatgpt-config"
+      ],
+      "keywords": [
+        "node-red"
+      ],
+      "url": "https://flows.nodered.org/node/@flowfuse/node-red-function-gpt"
+    },
+    {
+      "id": "node-red-contrib-esphome",
+      "version": "0.2.3",
+      "description": "Node-RED nodes to ESPhome devices",
+      "updated_at": "2023-11-30T06:53:12.879Z",
+      "types": [
+        "esphome-device",
+        "esphome-in",
+        "esphome-out"
+      ],
+      "keywords": [
+        "node-red",
+        "esphome",
+        "esp",
+        "home",
+        "esp32",
+        "esp8266",
+        "iot"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-esphome"
+    },
+    {
+      "id": "node-red-contrib-opentelemetry",
+      "version": "1.1.0",
+      "description": "Distributed tracing with OpenTelemetry SDK for Node-RED",
+      "updated_at": "2023-11-29T23:34:48.851Z",
+      "types": [
+        "OpenTelemetry"
+      ],
+      "keywords": [
+        "node-red",
+        "opentelemetry",
+        "tracing"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-opentelemetry"
+    },
+    {
+      "id": "node-red-contrib-alexa-remote2-applestrudel",
+      "version": "5.0.48",
+      "description": "node-red nodes for interacting with alexa",
+      "updated_at": "2023-11-29T19:55:44.322Z",
+      "types": [
+        "alexa-remote-account",
+        "alexa-remote-init",
+        "alexa-remote-event",
+        "alexa-remote-smarthome",
+        "alexa-remote-routine",
+        "alexa-remote-echo",
+        "alexa-remote-other",
+        "alexa-remote-list"
+      ],
+      "keywords": [
+        "node-red",
+        "alexa remote",
+        "alexa",
+        "echo"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-alexa-remote2-applestrudel"
+    },
+    {
+      "id": "@yousolution/node-red-contrib-you-ftp-sftp",
+      "version": "1.11.0",
+      "description": "A node-red node that support FTP and SFTP file transfer using $() environment variables to control the ftp connection details",
+      "updated_at": "2023-11-29T16:29:22.555Z",
+      "types": [
+        "ftp",
+        "ftp in",
+        "sftp",
+        "sftp in",
+        "ftps",
+        "ftps in"
+      ],
+      "keywords": [
+        "node-red",
+        "ftp",
+        "sftp",
+        "ftps",
+        "redconnect"
+      ],
+      "url": "https://flows.nodered.org/node/@yousolution/node-red-contrib-you-ftp-sftp"
+    },
+    {
+      "id": "node-red-contrib-thinger",
+      "version": "1.6.0",
+      "description": "Node-Red library for Thinger.io Platform",
+      "updated_at": "2023-11-29T16:25:18.737Z",
+      "types": [
+        "asset-iterator",
+        "bucket-create",
+        "bucket-read",
+        "bucket-write",
+        "device-callback",
+        "device-create",
+        "device-read",
+        "device-stream",
+        "device-write",
+        "endpoint-call",
+        "property-read",
+        "property-write",
+        "storage-read",
+        "storage-write",
+        "server-events",
+        "thinger-server"
+      ],
+      "keywords": [
+        "node-red",
+        "thinger.io",
+        "IoT",
+        "arduino",
+        "raspberry"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-thinger"
+    },
+    {
+      "id": "@hcl-software/node-red-domino",
+      "version": "0.1.0",
+      "description": "Connect NodeRED to HCL Domino",
+      "updated_at": "2023-11-29T15:59:45.271Z",
+      "types": [
+        "domino-connector",
+        "domino-user-session",
+        "domino-access"
+      ],
+      "keywords": [
+        "NodeRED",
+        "node-red",
+        "Domino",
+        "REST"
+      ],
+      "url": "https://flows.nodered.org/node/@hcl-software/node-red-domino"
+    },
     {
       "id": "node-red-contrib-web-worldmap",
       "version": "4.5.2",
@@ -422,52 +628,6 @@
         "node-red"
       ],
       "url": "https://flows.nodered.org/node/@marcelodf12/node-red-contrib-wca-integration"
-    },
-    {
-      "id": "@flowforge/node-red-function-gpt",
-      "version": "0.3.0",
-      "description": "Variation of the standard Node-RED function node that includes an interface to ChatGPT for writing into the function content.",
-      "updated_at": "2023-11-24T14:28:53.272Z",
-      "types": [
-        "function-gpt",
-        "chatgpt-config"
-      ],
-      "keywords": [
-        "node-red"
-      ],
-      "url": "https://flows.nodered.org/node/@flowforge/node-red-function-gpt"
-    },
-    {
-      "id": "node-red-contrib-thinger",
-      "version": "1.5.1",
-      "description": "Node-Red library for Thinger.io Platform",
-      "updated_at": "2023-11-24T13:12:02.782Z",
-      "types": [
-        "asset-iterator",
-        "bucket-create",
-        "bucket-read",
-        "bucket-write",
-        "device-callback",
-        "device-create",
-        "device-read",
-        "device-stream",
-        "device-write",
-        "endpoint-call",
-        "property-read",
-        "property-write",
-        "storage-read",
-        "storage-write",
-        "server-events",
-        "thinger-server"
-      ],
-      "keywords": [
-        "node-red",
-        "thinger.io",
-        "IoT",
-        "arduino",
-        "raspberry"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-thinger"
     },
     {
       "id": "@vrilcode/node-red-wnsm-b2b",
@@ -3023,29 +3183,6 @@
       "url": "https://flows.nodered.org/node/@starke-dms/node-red"
     },
     {
-      "id": "node-red-contrib-alexa-remote2-applestrudel",
-      "version": "5.0.46",
-      "description": "node-red nodes for interacting with alexa",
-      "updated_at": "2023-10-29T10:43:27.586Z",
-      "types": [
-        "alexa-remote-account",
-        "alexa-remote-init",
-        "alexa-remote-event",
-        "alexa-remote-smarthome",
-        "alexa-remote-routine",
-        "alexa-remote-echo",
-        "alexa-remote-other",
-        "alexa-remote-list"
-      ],
-      "keywords": [
-        "node-red",
-        "alexa remote",
-        "alexa",
-        "echo"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-alexa-remote2-applestrudel"
-    },
-    {
       "id": "node-red-contrib-axios",
       "version": "1.2.0",
       "description": "A http request node for Node-RED",
@@ -4126,6 +4263,25 @@
       "url": "https://flows.nodered.org/node/node-red-contrib-zwave-js"
     },
     {
+      "id": "@terranlabs/appflow-langchain",
+      "version": "0.0.15",
+      "description": "Use langchain in appflow",
+      "updated_at": "2023-10-17T07:56:17.409Z",
+      "types": [
+        "find-domain-bod",
+        "find-domain-bod-internal",
+        "find-bod"
+      ],
+      "keywords": [
+        "node-red",
+        "appflow",
+        "langchain",
+        "terranlabs",
+        "terran"
+      ],
+      "url": "https://flows.nodered.org/node/@terranlabs/appflow-langchain"
+    },
+    {
       "id": "node-red-contrib-cot2xtopo",
       "version": "1.1.5",
       "description": "This module parses 'live tracks' in network kmls from services such as CalTopo / SARTopo and converts the last coordinate in the live tracking folder to a position location information (pli) cursor-on-target (CoT) message to send to a Team Awareness Kit (",
@@ -4975,6 +5131,28 @@
       "url": "https://flows.nodered.org/node/node-red-contrib-ha-mqtt"
     },
     {
+      "id": "@terranlabs/email-nodes",
+      "version": "2.0.1",
+      "description": "Node-RED nodes to send and receive simple emails.",
+      "updated_at": "2023-10-09T02:42:28.925Z",
+      "types": [
+        "e-mail",
+        "e-mail in",
+        "e-mail mta"
+      ],
+      "keywords": [
+        "node-red",
+        "email",
+        "gmail",
+        "imap",
+        "pop",
+        "smtp",
+        "smtp-server",
+        "mta"
+      ],
+      "url": "https://flows.nodered.org/node/@terranlabs/email-nodes"
+    },
+    {
       "id": "node-red-contrib-mcdm",
       "version": "0.0.2",
       "description": "Node-RED Multi Criterion Decision Making Nodes",
@@ -5379,23 +5557,6 @@
         "node-red"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-agur-connector"
-    },
-    {
-      "id": "@terranlabs/appflow-langchain",
-      "version": "0.0.12",
-      "description": "Use langchain in appflow",
-      "updated_at": "2023-10-03T10:41:23.443Z",
-      "types": [
-        "find-domain-bod"
-      ],
-      "keywords": [
-        "node-red",
-        "appflow",
-        "langchain",
-        "terranlabs",
-        "terran"
-      ],
-      "url": "https://flows.nodered.org/node/@terranlabs/appflow-langchain"
     },
     {
       "id": "@bitpoolos/edge-bacnet",
@@ -7629,50 +7790,6 @@
         "interactive"
       ],
       "url": "https://flows.nodered.org/node/@insectos/ssh-exec"
-    },
-    {
-      "id": "node-red-contrib-smartnora",
-      "version": "1.20.0",
-      "description": "Google Smart Home integration via Smart Nora https://smart-nora.eu/",
-      "updated_at": "2023-09-11T15:22:22.415Z",
-      "types": [
-        "noraf-ac",
-        "noraf-airpurifier",
-        "noraf-blinds",
-        "noraf-camera",
-        "noraf-charger",
-        "noraf-config",
-        "noraf-doorbell",
-        "noraf-fan",
-        "noraf-garage",
-        "noraf-light",
-        "noraf-lock",
-        "noraf-media",
-        "noraf-notify",
-        "noraf-openclose",
-        "noraf-outlet",
-        "noraf-scene",
-        "noraf-security",
-        "noraf-sensor",
-        "noraf-sousvide",
-        "noraf-speaker",
-        "noraf-sprinkler",
-        "noraf-switch",
-        "noraf-thermostat",
-        "noraf-vacuum",
-        "noraf-async"
-      ],
-      "keywords": [
-        "node-red",
-        "google",
-        "google home",
-        "assistant",
-        "smarthome",
-        "smart",
-        "home",
-        "iot"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-smartnora"
     },
     {
       "id": "node-red-contrib-schedule-generator",
@@ -13205,26 +13322,6 @@
       "url": "https://flows.nodered.org/node/node-red-contrib-trng"
     },
     {
-      "id": "node-red-contrib-esphome",
-      "version": "0.2.1",
-      "description": "Node-RED nodes to ESPhome devices",
-      "updated_at": "2023-05-05T03:52:46.614Z",
-      "types": [
-        "esphome-device",
-        "esphome-in",
-        "esphome-out"
-      ],
-      "keywords": [
-        "node-red",
-        "esphome",
-        "esp",
-        "home",
-        "esp32",
-        "esp8266"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-esphome"
-    },
-    {
       "id": "@mcfitz2/node-red-json-stream-array",
       "version": "0.0.2",
       "description": "Node-RED node to read large JSON files",
@@ -13237,28 +13334,6 @@
         "json"
       ],
       "url": "https://flows.nodered.org/node/@mcfitz2/node-red-json-stream-array"
-    },
-    {
-      "id": "@yousolution/node-red-contrib-you-ftp-sftp",
-      "version": "1.10.1",
-      "description": "A node-red node that support FTP and SFTP file transfer using $() environment variables to control the ftp connection details",
-      "updated_at": "2023-05-04T15:40:22.845Z",
-      "types": [
-        "ftp",
-        "ftp in",
-        "sftp",
-        "sftp in",
-        "ftps",
-        "ftps in"
-      ],
-      "keywords": [
-        "node-red",
-        "ftp",
-        "sftp",
-        "ftps",
-        "redconnect"
-      ],
-      "url": "https://flows.nodered.org/node/@yousolution/node-red-contrib-you-ftp-sftp"
     },
     {
       "id": "@ciro99678_net/node-red-contrib-mssql-rai",
@@ -14092,6 +14167,20 @@
         "serial"
       ],
       "url": "https://flows.nodered.org/node/@wiesemann-theis/node-red-contrib-wut"
+    },
+    {
+      "id": "node-red-contrib-powershell",
+      "version": "0.0.4",
+      "description": "Provides powershell functionality in node-red",
+      "updated_at": "2023-04-18T09:55:52.121Z",
+      "types": [
+        "powershell"
+      ],
+      "keywords": [
+        "node-red",
+        "powershell"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-powershell"
     },
     {
       "id": "node-red-contrib-getnet-api",
@@ -15754,21 +15843,6 @@
         "node-red"
       ],
       "url": "https://flows.nodered.org/node/nr-strompreis"
-    },
-    {
-      "id": "node-red-contrib-opentelemetry",
-      "version": "1.0.2",
-      "description": "Distributed tracing with OpenTelemetry SDK for Node-RED",
-      "updated_at": "2023-03-12T22:11:12.947Z",
-      "types": [
-        "OpenTelemetry"
-      ],
-      "keywords": [
-        "node-red",
-        "opentelemetry",
-        "tracing"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-opentelemetry"
     },
     {
       "id": "node-red-pushsafer",
@@ -67295,20 +67369,6 @@
       "url": "https://flows.nodered.org/node/node-red-contrib-cep"
     },
     {
-      "id": "node-red-contrib-powershell",
-      "version": "0.0.3",
-      "description": "Provides powershell functionality in node-red",
-      "updated_at": "2018-07-30T15:08:22.310Z",
-      "types": [
-        "powershell"
-      ],
-      "keywords": [
-        "node-red",
-        "powershell"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-powershell"
-    },
-    {
       "id": "@intelup/node-red-contrib-intelup",
       "version": "0.0.3",
       "description": "A module to send data to Intelup platform",
@@ -81503,6 +81563,20 @@
         "pebble timeline"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-pebble"
+    },
+    {
+      "id": "node-red-contrib-wii",
+      "version": "0.0.1",
+      "description": "Node-Red nodes for communicating with Wiimote and Nunchuk",
+      "updated_at": "2015-11-25T19:35:57.261Z",
+      "types": [
+        "wii"
+      ],
+      "keywords": [
+        "node-red",
+        "wii"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-wii"
     },
     {
       "id": "node-red-contrib-lightbluebean",
