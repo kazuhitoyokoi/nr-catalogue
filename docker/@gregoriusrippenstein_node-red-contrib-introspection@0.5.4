@@ -1,0 +1,54 @@
+#0 building with "default" instance using docker driver
+
+#1 [internal] load .dockerignore
+#1 transferring context: 2B done
+#1 DONE 0.0s
+
+#2 [internal] load build definition from Dockerfile
+#2 transferring dockerfile: 145B done
+#2 DONE 0.0s
+
+#3 [internal] load metadata for docker.io/nodered/node-red:latest
+#3 DONE 0.1s
+
+#4 [1/2] FROM docker.io/nodered/node-red@sha256:cf9749f31fdaee0a87a27aebf97ef6c051e1b6e77f021806f876055ae8d0b4c8
+#4 CACHED
+
+#5 [2/2] RUN npm install npm install @gregoriusrippenstein/node-red-contrib-introspection@0.5.4
+#5 2.001 npm WARN EBADENGINE Unsupported engine {
+#5 2.001 npm WARN EBADENGINE   package: 'npm@10.2.4',
+#5 2.001 npm WARN EBADENGINE   required: { node: '^18.17.0 || >=20.5.0' },
+#5 2.001 npm WARN EBADENGINE   current: { node: 'v16.20.2', npm: '8.19.4' }
+#5 2.001 npm WARN EBADENGINE }
+#5 2.002 npm WARN EBADENGINE Unsupported engine {
+#5 2.002 npm WARN EBADENGINE   package: 'got@14.0.0',
+#5 2.002 npm WARN EBADENGINE   required: { node: '>=20' },
+#5 2.002 npm WARN EBADENGINE   current: { node: 'v16.20.2', npm: '8.19.4' }
+#5 2.002 npm WARN EBADENGINE }
+#5 2.003 npm WARN EBADENGINE Unsupported engine {
+#5 2.003 npm WARN EBADENGINE   package: 'form-data-encoder@4.0.2',
+#5 2.003 npm WARN EBADENGINE   required: { node: '>= 18' },
+#5 2.003 npm WARN EBADENGINE   current: { node: 'v16.20.2', npm: '8.19.4' }
+#5 2.003 npm WARN EBADENGINE }
+#5 3.714 
+#5 3.714 added 8 packages, and audited 548 packages in 3s
+#5 3.714 
+#5 3.714 72 packages are looking for funding
+#5 3.714   run `npm fund` for details
+#5 3.715 
+#5 3.715 found 0 vulnerabilities
+#5 3.715 npm notice 
+#5 3.715 npm notice New major version of npm available! 8.19.4 -> 10.2.4
+#5 3.715 npm notice Changelog: <https://github.com/npm/cli/releases/tag/v10.2.4>
+#5 3.715 npm notice Run `npm install -g npm@10.2.4` to update!
+#5 3.715 npm notice 
+#5 DONE 3.8s
+
+#6 exporting to image
+#6 exporting layers
+#6 exporting layers 1.0s done
+#6 writing image sha256:f444e948e1577d5726f9e99883636a53cc8452610df0c0dba3cae8712970585c done
+#6 naming to docker.io/library/tmp done
+#6 DONE 1.0s
+
+----
