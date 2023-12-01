@@ -1,0 +1,44 @@
+#0 building with "default" instance using docker driver
+
+#1 [internal] load .dockerignore
+#1 transferring context: 2B done
+#1 DONE 0.0s
+
+#2 [internal] load build definition from Dockerfile
+#2 transferring dockerfile: 127B done
+#2 DONE 0.0s
+
+#3 [internal] load metadata for docker.io/nodered/node-red:latest
+#3 DONE 0.1s
+
+#4 [1/2] FROM docker.io/nodered/node-red@sha256:cf9749f31fdaee0a87a27aebf97ef6c051e1b6e77f021806f876055ae8d0b4c8
+#4 CACHED
+
+#5 [2/2] RUN npm install npm install node-red-contrib-xlsx-template-lsi@1.0.0
+#5 2.001 npm WARN EBADENGINE Unsupported engine {
+#5 2.001 npm WARN EBADENGINE   package: 'npm@10.2.4',
+#5 2.001 npm WARN EBADENGINE   required: { node: '^18.17.0 || >=20.5.0' },
+#5 2.002 npm WARN EBADENGINE   current: { node: 'v16.20.2', npm: '8.19.4' }
+#5 2.002 npm WARN EBADENGINE }
+#5 3.557 
+#5 3.557 added 11 packages, and audited 551 packages in 3s
+#5 3.557 
+#5 3.557 69 packages are looking for funding
+#5 3.558   run `npm fund` for details
+#5 3.559 
+#5 3.559 found 0 vulnerabilities
+#5 3.559 npm notice 
+#5 3.559 npm notice New major version of npm available! 8.19.4 -> 10.2.4
+#5 3.559 npm notice Changelog: <https://github.com/npm/cli/releases/tag/v10.2.4>
+#5 3.559 npm notice Run `npm install -g npm@10.2.4` to update!
+#5 3.559 npm notice 
+#5 DONE 3.6s
+
+#6 exporting to image
+#6 exporting layers
+#6 exporting layers 1.0s done
+#6 writing image sha256:f5e0a99b9a0a34974c7851871e9476f37db72a3d5b75293528648c06525b8464 done
+#6 naming to docker.io/library/tmp done
+#6 DONE 1.0s
+
+----
