@@ -1,7 +1,43 @@
 {
   "name": "Catalogue for Docker",
-  "updated_at": "2023-12-02T16:00:26.920Z",
+  "updated_at": "2023-12-03T15:56:50.453Z",
   "modules": [
+    {
+      "id": "node-red-contrib-knx-ultimate",
+      "version": "2.2.31",
+      "description": "Control your KNX intallation via Node-Red! A bunch of KNX nodes, with integrated Philips HUE control and ETS group address importer. Easy to use and highly configurable.",
+      "updated_at": "2023-12-02T20:50:19.491Z",
+      "types": [
+        "knxUltimate",
+        "knxUltimateSceneController",
+        "knxUltimateWatchDog",
+        "knxUltimateLogger",
+        "knxUltimate-config",
+        "knxUltimateGlobalContext",
+        "knxUltimateAlerter",
+        "knxUltimateLoadControl",
+        "knxUltimateViewer",
+        "hue-config",
+        "knxUltimateHueLight",
+        "knxUltimateHueButton",
+        "knxUltimateHueMotion",
+        "knxUltimateHueTapDial",
+        "knxUltimateHueLightSensor",
+        "knxUltimateHueTemperatureSensor",
+        "knxUltimateHueScene",
+        "knxUltimateHueBattery"
+      ],
+      "keywords": [
+        "node-red",
+        "KNX",
+        "ETS",
+        "eib",
+        "konnex",
+        "IOT",
+        "philips hue"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-knx-ultimate"
+    },
     {
       "id": "node-red-contrib-nspanel-lui",
       "version": "0.0.1-alpha.48",
@@ -2138,42 +2174,6 @@
         "node-red"
       ],
       "url": "https://flows.nodered.org/node/@elipse/e3-node-red"
-    },
-    {
-      "id": "node-red-contrib-knx-ultimate",
-      "version": "2.2.29",
-      "description": "Control your KNX intallation via Node-Red! Single Node KNX IN/OUT with optional ETS group address importer. Easy to use and highly configurable. With integrated Philips HUE devices control.",
-      "updated_at": "2023-11-13T13:19:06.389Z",
-      "types": [
-        "knxUltimate",
-        "knxUltimateSceneController",
-        "knxUltimateWatchDog",
-        "knxUltimateLogger",
-        "knxUltimate-config",
-        "knxUltimateGlobalContext",
-        "knxUltimateAlerter",
-        "knxUltimateLoadControl",
-        "knxUltimateViewer",
-        "hue-config",
-        "knxUltimateHueLight",
-        "knxUltimateHueButton",
-        "knxUltimateHueMotion",
-        "knxUltimateHueTapDial",
-        "knxUltimateHueLightSensor",
-        "knxUltimateHueTemperatureSensor",
-        "knxUltimateHueScene",
-        "knxUltimateHueBattery"
-      ],
-      "keywords": [
-        "node-red",
-        "KNX",
-        "ETS",
-        "eib",
-        "konnex",
-        "IOT",
-        "hue"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-knx-ultimate"
     },
     {
       "id": "node-red-contrib-json2xlsx",
@@ -20854,26 +20854,6 @@
         "mbus"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-m-bus"
-    },
-    {
-      "id": "node-red-contrib-home-assistant-discovery",
-      "version": "0.1.2",
-      "description": "Nodes for controlling Home Assistant MQTT Discovery devices in Node-RED",
-      "updated_at": "2022-11-09T22:30:50.392Z",
-      "types": [
-        "ha-discovery",
-        "ha-discovery-in",
-        "ha-discovery-out"
-      ],
-      "keywords": [
-        "node-red",
-        "mqtt",
-        "discovery",
-        "home assistant",
-        "home",
-        "assistant"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-home-assistant-discovery"
     },
     {
       "id": "@dsyunda/node-red-contrib-picase",
