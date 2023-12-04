@@ -1,0 +1,49 @@
+#0 building with "default" instance using docker driver
+
+#1 [internal] load build definition from Dockerfile
+#1 transferring dockerfile: 112B done
+#1 DONE 0.0s
+
+#2 [internal] load .dockerignore
+#2 transferring context: 2B done
+#2 DONE 0.0s
+
+#3 [internal] load metadata for docker.io/nodered/node-red:latest
+#3 DONE 0.1s
+
+#4 [1/2] FROM docker.io/nodered/node-red@sha256:cf9749f31fdaee0a87a27aebf97ef6c051e1b6e77f021806f876055ae8d0b4c8
+#4 CACHED
+
+#5 [2/2] RUN npm install npm install @opcua/for-node-red@2.1.8
+#5 11.50 npm WARN EBADENGINE Unsupported engine {
+#5 11.50 npm WARN EBADENGINE   package: '@opcua/for-node-red@2.1.8',
+#5 11.50 npm WARN EBADENGINE   required: { node: '>=18.0.0' },
+#5 11.50 npm WARN EBADENGINE   current: { node: 'v16.20.2', npm: '8.19.4' }
+#5 11.50 npm WARN EBADENGINE }
+#5 11.50 npm WARN EBADENGINE Unsupported engine {
+#5 11.50 npm WARN EBADENGINE   package: 'npm@10.2.4',
+#5 11.50 npm WARN EBADENGINE   required: { node: '^18.17.0 || >=20.5.0' },
+#5 11.50 npm WARN EBADENGINE   current: { node: 'v16.20.2', npm: '8.19.4' }
+#5 11.50 npm WARN EBADENGINE }
+#5 14.92 
+#5 14.92 added 196 packages, and audited 736 packages in 14s
+#5 14.92 
+#5 14.92 89 packages are looking for funding
+#5 14.92   run `npm fund` for details
+#5 14.92 
+#5 14.92 found 0 vulnerabilities
+#5 14.92 npm notice 
+#5 14.92 npm notice New major version of npm available! 8.19.4 -> 10.2.4
+#5 14.92 npm notice Changelog: <https://github.com/npm/cli/releases/tag/v10.2.4>
+#5 14.92 npm notice Run `npm install -g npm@10.2.4` to update!
+#5 14.92 npm notice 
+#5 DONE 15.2s
+
+#6 exporting to image
+#6 exporting layers
+#6 exporting layers 2.4s done
+#6 writing image sha256:059f1c3ec321cd4dcd807b4bf2ce3575a10b2e32de2a336569efa6d5715466be done
+#6 naming to docker.io/library/tmp done
+#6 DONE 2.4s
+
+----
