@@ -1,7 +1,149 @@
 {
   "name": "Catalogue for Docker",
-  "updated_at": "2023-12-03T15:56:50.453Z",
+  "updated_at": "2023-12-04T15:59:07.621Z",
   "modules": [
+    {
+      "id": "node-red-contrib-alphaess",
+      "version": "2.0.1",
+      "description": "This provides a node for retrieving information from Alpha ESS photovoltaic systems.",
+      "updated_at": "2023-12-04T14:14:58.186Z",
+      "types": [
+        "alphaess-monitoring"
+      ],
+      "keywords": [
+        "node-red",
+        "Alpha ESS",
+        "Storion"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-alphaess"
+    },
+    {
+      "id": "@gregoriusrippenstein/node-red-contrib-flowhub",
+      "version": "0.4.2",
+      "description": "Nodes for interacting with FlowHub.org.",
+      "updated_at": "2023-12-04T13:09:42.407Z",
+      "types": [
+        "FlowHubPull",
+        "FlowHubCfg"
+      ],
+      "keywords": [
+        "node-red",
+        "flowhub",
+        "flow-sharing",
+        "collaborative",
+        "flow-development"
+      ],
+      "url": "https://flows.nodered.org/node/@gregoriusrippenstein/node-red-contrib-flowhub"
+    },
+    {
+      "id": "apconic-oracledb-connect",
+      "version": "1.1.0",
+      "description": "Node for weight parser",
+      "updated_at": "2023-12-04T09:19:55.578Z",
+      "types": [
+        "apconicOracleDBConfig",
+        "apconic-oracledb-connect"
+      ],
+      "keywords": [
+        "node-red"
+      ],
+      "url": "https://flows.nodered.org/node/apconic-oracledb-connect"
+    },
+    {
+      "id": "@opcua/for-node-red",
+      "version": "2.1.8",
+      "description": "The Node-RED node to communicate via OPC UA, powered NodeOPCUA and developed by Sterfive's team",
+      "updated_at": "2023-12-03T20:28:03.273Z",
+      "types": [],
+      "keywords": [
+        "node-red",
+        "OPC UA",
+        "opc-ua",
+        "unified architecture",
+        "opc foundation",
+        "node-opcua",
+        "IIoT"
+      ],
+      "url": "https://flows.nodered.org/node/@opcua/for-node-red"
+    },
+    {
+      "id": "node-red-contrib-shelly",
+      "version": "10.16.0",
+      "description": "Shelly nodes.",
+      "updated_at": "2023-12-03T19:57:39.740Z",
+      "types": [
+        "shelly-gen1-server",
+        "shelly-gen1",
+        "shelly-gen2-server",
+        "shelly-gen2",
+        "shelly-cloud-server",
+        "shelly-cloud"
+      ],
+      "keywords": [
+        "node-red",
+        "shelly"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-shelly"
+    },
+    {
+      "id": "@gregoriusrippenstein/node-red-contrib-flow2uml",
+      "version": "0.1.8",
+      "description": "Convert Node-RED to Mermaid UML flowchart diagram.",
+      "updated_at": "2023-12-03T15:43:39.047Z",
+      "types": [
+        "Flow2MermaidCfg"
+      ],
+      "keywords": [
+        "node-red",
+        "uml",
+        "mermaid"
+      ],
+      "url": "https://flows.nodered.org/node/@gregoriusrippenstein/node-red-contrib-flow2uml"
+    },
+    {
+      "id": "node-red-contrib-smartnora",
+      "version": "1.21.4",
+      "description": "Google Smart Home integration via Smart Nora https://smart-nora.eu/",
+      "updated_at": "2023-12-03T14:55:16.182Z",
+      "types": [
+        "noraf-ac",
+        "noraf-airpurifier",
+        "noraf-blinds",
+        "noraf-camera",
+        "noraf-charger",
+        "noraf-config",
+        "noraf-doorbell",
+        "noraf-fan",
+        "noraf-garage",
+        "noraf-light",
+        "noraf-lock",
+        "noraf-media",
+        "noraf-notify",
+        "noraf-openclose",
+        "noraf-outlet",
+        "noraf-scene",
+        "noraf-security",
+        "noraf-sensor",
+        "noraf-sousvide",
+        "noraf-speaker",
+        "noraf-sprinkler",
+        "noraf-switch",
+        "noraf-thermostat",
+        "noraf-vacuum",
+        "noraf-async"
+      ],
+      "keywords": [
+        "node-red",
+        "google",
+        "google home",
+        "assistant",
+        "smarthome",
+        "smart",
+        "home",
+        "iot"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-smartnora"
+    },
     {
       "id": "node-red-contrib-knx-ultimate",
       "version": "2.2.31",
@@ -297,50 +439,6 @@
         "output"
       ],
       "url": "https://flows.nodered.org/node/@redplc/node-red-wago-cc100-io"
-    },
-    {
-      "id": "node-red-contrib-smartnora",
-      "version": "1.21.0",
-      "description": "Google Smart Home integration via Smart Nora https://smart-nora.eu/",
-      "updated_at": "2023-11-30T11:36:16.279Z",
-      "types": [
-        "noraf-ac",
-        "noraf-airpurifier",
-        "noraf-blinds",
-        "noraf-camera",
-        "noraf-charger",
-        "noraf-config",
-        "noraf-doorbell",
-        "noraf-fan",
-        "noraf-garage",
-        "noraf-light",
-        "noraf-lock",
-        "noraf-media",
-        "noraf-notify",
-        "noraf-openclose",
-        "noraf-outlet",
-        "noraf-scene",
-        "noraf-security",
-        "noraf-sensor",
-        "noraf-sousvide",
-        "noraf-speaker",
-        "noraf-sprinkler",
-        "noraf-switch",
-        "noraf-thermostat",
-        "noraf-vacuum",
-        "noraf-async"
-      ],
-      "keywords": [
-        "node-red",
-        "google",
-        "google home",
-        "assistant",
-        "smarthome",
-        "smart",
-        "home",
-        "iot"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-smartnora"
     },
     {
       "id": "@nickiv/node-red-huawei-sms",
@@ -670,23 +768,6 @@
       "url": "https://flows.nodered.org/node/@inductiv/node-red-openai-api"
     },
     {
-      "id": "@opcua/for-node-red",
-      "version": "2.1.7",
-      "description": "The Node-RED node to communicate via OPC UA, powered NodeOPCUA and developed by Sterfive's team",
-      "updated_at": "2023-11-27T21:33:45.035Z",
-      "types": [],
-      "keywords": [
-        "node-red",
-        "OPC UA",
-        "opc-ua",
-        "unified architecture",
-        "opc foundation",
-        "node-opcua",
-        "IIoT"
-      ],
-      "url": "https://flows.nodered.org/node/@opcua/for-node-red"
-    },
-    {
       "id": "@gregoriusrippenstein/node-red-contrib-nodedev",
       "version": "0.2.3",
       "description": "Support the development of Node-RED nodes within Node-RED.",
@@ -770,39 +851,6 @@
         "node-red"
       ],
       "url": "https://flows.nodered.org/node/@shri123321/node-red-contrib-shri-super-trend"
-    },
-    {
-      "id": "@gregoriusrippenstein/node-red-contrib-flowhub",
-      "version": "0.4.1",
-      "description": "Nodes for interacting with FlowHub.org.",
-      "updated_at": "2023-11-27T09:46:07.877Z",
-      "types": [
-        "FlowHubPull",
-        "FlowHubCfg"
-      ],
-      "keywords": [
-        "node-red",
-        "flowhub",
-        "flow-sharing",
-        "collaborative",
-        "flow-development"
-      ],
-      "url": "https://flows.nodered.org/node/@gregoriusrippenstein/node-red-contrib-flowhub"
-    },
-    {
-      "id": "@gregoriusrippenstein/node-red-contrib-flow2uml",
-      "version": "0.1.7",
-      "description": "Convert Node-RED to Mermaid UML flowchart diagram.",
-      "updated_at": "2023-11-27T09:04:21.273Z",
-      "types": [
-        "Flow2MermaidCfg"
-      ],
-      "keywords": [
-        "node-red",
-        "uml",
-        "mermaid"
-      ],
-      "url": "https://flows.nodered.org/node/@gregoriusrippenstein/node-red-contrib-flow2uml"
     },
     {
       "id": "node-red-contrib-dawnchorus",
@@ -1407,20 +1455,6 @@
       "url": "https://flows.nodered.org/node/@nd-enerserve/node-red-smartpi"
     },
     {
-      "id": "apconic-oracledb-connect",
-      "version": "0.0.9",
-      "description": "Node for weight parser",
-      "updated_at": "2023-11-21T08:15:24.569Z",
-      "types": [
-        "apconicOracleDBConfig",
-        "apconic-oracledb-connect"
-      ],
-      "keywords": [
-        "node-red"
-      ],
-      "url": "https://flows.nodered.org/node/apconic-oracledb-connect"
-    },
-    {
       "id": "node-red-dragino",
       "version": "1.0.2",
       "description": "Dragino visualization for Node-RED",
@@ -1435,25 +1469,6 @@
         "dragino"
       ],
       "url": "https://flows.nodered.org/node/node-red-dragino"
-    },
-    {
-      "id": "node-red-contrib-shelly",
-      "version": "10.15.0",
-      "description": "Shelly nodes.",
-      "updated_at": "2023-11-20T20:18:30.507Z",
-      "types": [
-        "shelly-gen1-server",
-        "shelly-gen1",
-        "shelly-gen2-server",
-        "shelly-gen2",
-        "shelly-cloud-server",
-        "shelly-cloud"
-      ],
-      "keywords": [
-        "node-red",
-        "shelly"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-shelly"
     },
     {
       "id": "node-red-contrib-oauth2",
@@ -2189,21 +2204,6 @@
         "xlsx"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-json2xlsx"
-    },
-    {
-      "id": "node-red-contrib-alphaess",
-      "version": "2.0.0",
-      "description": "This provides a node for retrieving information from Alpha ESS photovoltaic systems.",
-      "updated_at": "2023-11-11T17:54:36.072Z",
-      "types": [
-        "alphaess-monitoring"
-      ],
-      "keywords": [
-        "node-red",
-        "Alpha ESS",
-        "Storion"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-alphaess"
     },
     {
       "id": "@gregoriusrippenstein/node-red-contrib-flowcompare",
