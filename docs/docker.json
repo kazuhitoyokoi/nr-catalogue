@@ -1,7 +1,240 @@
 {
   "name": "Catalogue for Docker",
-  "updated_at": "2023-12-04T15:59:07.621Z",
+  "updated_at": "2023-12-05T15:59:33.849Z",
   "modules": [
+    {
+      "id": "node-red-contrib-alexa-master-function",
+      "version": "6.12.910",
+      "description": "Beta version: password and logs",
+      "updated_at": "2023-12-05T12:11:03.288Z",
+      "types": [
+        "alexa-master-function"
+      ],
+      "keywords": [
+        "node-red",
+        "mysql",
+        "database",
+        "r2"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-alexa-master-function"
+    },
+    {
+      "id": "@blebtechnology/node-red-blebricks",
+      "version": "1.0.3",
+      "description": "A node-red package to manage blebricks data",
+      "updated_at": "2023-12-05T11:37:16.892Z",
+      "types": [
+        "CHT",
+        "ENV",
+        "OAQ",
+        "BLEB_TEMP",
+        "PTX",
+        "MAG",
+        "SOIL",
+        "LGH",
+        "UHF",
+        "PRT",
+        "REL",
+        "RELOUT",
+        "WPLOUT",
+        "VBROUT",
+        "BUZOUT",
+        "IRTOUT",
+        "ODCOUT",
+        "ODC",
+        "WPL",
+        "VBR",
+        "BUZ",
+        "IRT",
+        "PLV",
+        "WND",
+        "SOL",
+        "PYR",
+        "CMS",
+        "RHT",
+        "UVA",
+        "RGB",
+        "CLT",
+        "IMU",
+        "ACC",
+        "PDM",
+        "CAP",
+        "IRR",
+        "SMS",
+        "DSD",
+        "BLEB_IN",
+        "BLEB_RPS",
+        "SFX",
+        "ESP",
+        "UWS",
+        "RMS",
+        "VMS",
+        "GPS",
+        "BLEB_CNT",
+        "PMX",
+        "PROTECTOR",
+        "LCDOUT",
+        "SLS"
+      ],
+      "keywords": [
+        "node-red"
+      ],
+      "url": "https://flows.nodered.org/node/@blebtechnology/node-red-blebricks"
+    },
+    {
+      "id": "@gotillit/tillit-node-red",
+      "version": "1.3.1",
+      "description": "A TilliT node for Node-RED",
+      "updated_at": "2023-12-05T03:36:37.313Z",
+      "types": [
+        "tillit-node-connection",
+        "tillit-out",
+        "tillit-in",
+        "tillit-api",
+        "tillit-pv",
+        "tillit-event",
+        "tillit-progress"
+      ],
+      "keywords": [
+        "node-red",
+        "tillit"
+      ],
+      "url": "https://flows.nodered.org/node/@gotillit/tillit-node-red"
+    },
+    {
+      "id": "@kenke7/node-red-contrib-modbus",
+      "version": "5.28.3",
+      "description": "The all in one Modbus TCP and Serial contribution package for Node-RED.",
+      "updated_at": "2023-12-04T22:39:27.248Z",
+      "types": [
+        "modbus-client",
+        "modbus-response",
+        "modbus-read",
+        "modbus-getter",
+        "modbus-flex-getter",
+        "modbus-write",
+        "modbus-flex-write",
+        "modbus-server",
+        "modbus-flex-server",
+        "modbus-queue-info",
+        "modbus-flex-connector",
+        "modbus-io-config",
+        "modbus-response-filter",
+        "modbus-flex-sequencer",
+        "modbus-flex-fc"
+      ],
+      "keywords": [
+        "node-red",
+        "plusfornodered",
+        "modbus",
+        "automation",
+        "biancoroyal"
+      ],
+      "url": "https://flows.nodered.org/node/@kenke7/node-red-contrib-modbus"
+    },
+    {
+      "id": "node-red-node-stomp",
+      "version": "1.0.6",
+      "description": "A Node-RED node to publish and subscribe to/from a Stomp server",
+      "updated_at": "2023-12-04T20:38:56.310Z",
+      "types": [
+        "stomp in",
+        "stomp out",
+        "stomp-server",
+        "stomp ack"
+      ],
+      "keywords": [
+        "node-red",
+        "stomp",
+        "stomp-client"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-node-stomp"
+    },
+    {
+      "id": "node-red-node-mysql",
+      "version": "2.0.0",
+      "description": "A Node-RED node to read and write to a MySQL database",
+      "updated_at": "2023-12-04T20:33:44.125Z",
+      "types": [
+        "MySQLdatabase",
+        "mysql"
+      ],
+      "keywords": [
+        "node-red",
+        "mysql"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-node-mysql"
+    },
+    {
+      "id": "node-red-node-email",
+      "version": "2.1.0",
+      "description": "Node-RED nodes to send and receive simple emails.",
+      "updated_at": "2023-12-04T20:32:36.051Z",
+      "types": [
+        "e-mail",
+        "e-mail in",
+        "e-mail mta"
+      ],
+      "keywords": [
+        "node-red",
+        "email",
+        "gmail",
+        "imap",
+        "pop",
+        "smtp",
+        "smtp-server",
+        "mta"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-node-email"
+    },
+    {
+      "id": "node-red-node-arduino",
+      "version": "1.0.0",
+      "description": "A Node-RED node to talk to an Arduino running firmata",
+      "updated_at": "2023-12-04T20:19:06.304Z",
+      "types": [
+        "arduino in",
+        "arduino out",
+        "arduino-board"
+      ],
+      "keywords": [
+        "node-red",
+        "arduino",
+        "firmata"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-node-arduino"
+    },
+    {
+      "id": "node-red-contrib-nspanel-lui",
+      "version": "0.0.1-alpha.49",
+      "description": "Node-RED based backend for NSPanel Lovelace UI custom firmware.",
+      "updated_at": "2023-12-04T19:06:49.120Z",
+      "types": [],
+      "keywords": [
+        "node-red",
+        "lovelace ui",
+        "nspanel"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-nspanel-lui"
+    },
+    {
+      "id": "node-red-node-serialport",
+      "version": "2.0.2",
+      "description": "Node-RED nodes to talk to serial ports",
+      "updated_at": "2023-12-04T17:35:46.359Z",
+      "types": [
+        "serial in",
+        "serial out",
+        "serial request",
+        "serial-port",
+        "serial control"
+      ],
+      "keywords": [
+        "node-red",
+        "serial"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-node-serialport"
+    },
     {
       "id": "node-red-contrib-alphaess",
       "version": "2.0.1",
@@ -181,17 +414,24 @@
       "url": "https://flows.nodered.org/node/node-red-contrib-knx-ultimate"
     },
     {
-      "id": "node-red-contrib-nspanel-lui",
-      "version": "0.0.1-alpha.48",
-      "description": "Node-RED based backend for NSPanel Lovelace UI custom firmware.",
-      "updated_at": "2023-12-02T10:42:42.582Z",
-      "types": [],
+      "id": "@fetchbot/node-red-contrib-ikea-home-smart",
+      "version": "0.3.4",
+      "description": "Node-RED node to utilize IKEA smart home devices.",
+      "updated_at": "2023-12-02T16:14:14.101Z",
+      "types": [
+        "ikea-connection",
+        "ikea-homesmart",
+        "__errors__"
+      ],
       "keywords": [
         "node-red",
-        "lovelace ui",
-        "nspanel"
+        "ikea",
+        "tradfri",
+        "home",
+        "smart",
+        "coap"
       ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-nspanel-lui"
+      "url": "https://flows.nodered.org/node/@fetchbot/node-red-contrib-ikea-home-smart"
     },
     {
       "id": "@flowfuse/node-red-dashboard",
@@ -1041,69 +1281,6 @@
       "url": "https://flows.nodered.org/node/@chvdapi/node-red-pn4800-1602lcd"
     },
     {
-      "id": "@blebtechnology/node-red-blebricks",
-      "version": "1.0.2",
-      "description": "A node-red package to manage blebricks data",
-      "updated_at": "2023-11-23T12:51:56.820Z",
-      "types": [
-        "CHT",
-        "ENV",
-        "OAQ",
-        "BLEB_TEMP",
-        "PTX",
-        "MAG",
-        "SOIL",
-        "LGH",
-        "UHF",
-        "PRT",
-        "REL",
-        "RELOUT",
-        "WPLOUT",
-        "VBROUT",
-        "BUZOUT",
-        "IRTOUT",
-        "ODCOUT",
-        "ODC",
-        "WPL",
-        "VBR",
-        "BUZ",
-        "IRT",
-        "PLV",
-        "WND",
-        "SOL",
-        "PYR",
-        "CMS",
-        "RHT",
-        "UVA",
-        "RGB",
-        "CLT",
-        "IMU",
-        "ACC",
-        "PDM",
-        "CAP",
-        "IRR",
-        "SMS",
-        "DSD",
-        "BLEB_IN",
-        "BLEB_RPS",
-        "SFX",
-        "ESP",
-        "UWS",
-        "RMS",
-        "VMS",
-        "GPS",
-        "BLEB_CNT",
-        "PMX",
-        "PROTECTOR",
-        "LCDOUT",
-        "SLS"
-      ],
-      "keywords": [
-        "node-red"
-      ],
-      "url": "https://flows.nodered.org/node/@blebtechnology/node-red-blebricks"
-    },
-    {
       "id": "node-red-contrib-ais-decoder",
       "version": "1.2.5",
       "description": "Decodes AIS messages from an AIS receiver such as rtl-ais.",
@@ -1116,24 +1293,6 @@
         "node-red"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-ais-decoder"
-    },
-    {
-      "id": "node-red-node-serialport",
-      "version": "2.0.0",
-      "description": "Node-RED nodes to talk to serial ports",
-      "updated_at": "2023-11-23T12:30:17.456Z",
-      "types": [
-        "serial in",
-        "serial out",
-        "serial request",
-        "serial-port",
-        "serial control"
-      ],
-      "keywords": [
-        "node-red",
-        "serial"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-node-serialport"
     },
     {
       "id": "node-red-contrib-iot-controlcenter",
@@ -2708,22 +2867,6 @@
       "url": "https://flows.nodered.org/node/node-red-contrib-google-smarthome"
     },
     {
-      "id": "node-red-contrib-alexa-master-function",
-      "version": "6.11.936",
-      "description": "Beta version",
-      "updated_at": "2023-11-06T12:36:57.121Z",
-      "types": [
-        "alexa-master-function"
-      ],
-      "keywords": [
-        "node-red",
-        "mysql",
-        "database",
-        "r2"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-alexa-master-function"
-    },
-    {
       "id": "node-red-contrib-oscar-grayify-service",
       "version": "1.0.3",
       "description": "This node supports highly-scalable event-driven image conversion to grayscale using the popular ImageMagick software.",
@@ -2953,37 +3096,6 @@
         "smart hub pro"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-caseta"
-    },
-    {
-      "id": "@kenke7/node-red-contrib-modbus",
-      "version": "5.28.1",
-      "description": "The all in one Modbus TCP and Serial contribution package for Node-RED.",
-      "updated_at": "2023-11-02T18:12:32.422Z",
-      "types": [
-        "modbus-client",
-        "modbus-response",
-        "modbus-read",
-        "modbus-getter",
-        "modbus-flex-getter",
-        "modbus-write",
-        "modbus-flex-write",
-        "modbus-server",
-        "modbus-flex-server",
-        "modbus-queue-info",
-        "modbus-flex-connector",
-        "modbus-io-config",
-        "modbus-response-filter",
-        "modbus-flex-sequencer",
-        "modbus-flex-fc"
-      ],
-      "keywords": [
-        "node-red",
-        "plusfornodered",
-        "modbus",
-        "automation",
-        "biancoroyal"
-      ],
-      "url": "https://flows.nodered.org/node/@kenke7/node-red-contrib-modbus"
     },
     {
       "id": "node-red-contrib-mongodb4",
@@ -9185,24 +9297,6 @@
       "url": "https://flows.nodered.org/node/node-red-contrib-domain-wildcard-parking"
     },
     {
-      "id": "node-red-node-stomp",
-      "version": "1.0.5",
-      "description": "A Node-RED node to publish and subscribe to/from a Stomp server",
-      "updated_at": "2023-08-11T14:33:10.042Z",
-      "types": [
-        "stomp in",
-        "stomp out",
-        "stomp-server",
-        "stomp ack"
-      ],
-      "keywords": [
-        "node-red",
-        "stomp",
-        "stomp-client"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-node-stomp"
-    },
-    {
       "id": "node-red-contrib-alexa-remote2-mattl0",
       "version": "5.10.4",
       "description": "node-red nodes for interacting with alexa",
@@ -12074,26 +12168,6 @@
       "url": "https://flows.nodered.org/node/node-red-contrib-st7735s"
     },
     {
-      "id": "@gotillit/tillit-node-red",
-      "version": "1.2.62",
-      "description": "A TilliT node for Node-RED",
-      "updated_at": "2023-06-04T07:03:28.508Z",
-      "types": [
-        "tillit-node-connection",
-        "tillit-out",
-        "tillit-in",
-        "tillit-api",
-        "tillit-pv",
-        "tillit-event",
-        "tillit-progress"
-      ],
-      "keywords": [
-        "node-red",
-        "tillit"
-      ],
-      "url": "https://flows.nodered.org/node/@gotillit/tillit-node-red"
-    },
-    {
       "id": "node-red-contrib-telegrambot-home",
       "version": "0.8.0",
       "description": "Useful nodes for connecting your home to Telegram",
@@ -12405,28 +12479,6 @@
         "xml"
       ],
       "url": "https://flows.nodered.org/node/xslt3transformer"
-    },
-    {
-      "id": "node-red-node-email",
-      "version": "2.0.1",
-      "description": "Node-RED nodes to send and receive simple emails.",
-      "updated_at": "2023-05-29T21:00:52.322Z",
-      "types": [
-        "e-mail",
-        "e-mail in",
-        "e-mail mta"
-      ],
-      "keywords": [
-        "node-red",
-        "email",
-        "gmail",
-        "imap",
-        "pop",
-        "smtp",
-        "smtp-server",
-        "mta"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-node-email"
     },
     {
       "id": "node-red-2stools-packetdecode",
@@ -24741,21 +24793,6 @@
         "node-red"
       ],
       "url": "https://flows.nodered.org/node/@equans/smart-buildings-vacancy-sensing"
-    },
-    {
-      "id": "node-red-node-mysql",
-      "version": "1.0.3",
-      "description": "A Node-RED node to read and write to a MySQL database",
-      "updated_at": "2022-07-22T09:16:51.029Z",
-      "types": [
-        "MySQLdatabase",
-        "mysql"
-      ],
-      "keywords": [
-        "node-red",
-        "mysql"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-node-mysql"
     },
     {
       "id": "node-red-node-cbor",
@@ -37820,26 +37857,6 @@
         "json"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-scrape-it"
-    },
-    {
-      "id": "@fetchbot/node-red-contrib-ikea-home-smart",
-      "version": "0.3.3",
-      "description": "Node-RED node to utilize IKEA smart home devices.",
-      "updated_at": "2021-07-01T21:27:11.732Z",
-      "types": [
-        "ikea-connection",
-        "ikea-homesmart",
-        "__errors__"
-      ],
-      "keywords": [
-        "node-red",
-        "ikea",
-        "tradfri",
-        "home",
-        "smart",
-        "coap"
-      ],
-      "url": "https://flows.nodered.org/node/@fetchbot/node-red-contrib-ikea-home-smart"
     },
     {
       "id": "node-red-contrib-govee-bt-client",
@@ -56503,23 +56520,6 @@
         "weather"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-weather"
-    },
-    {
-      "id": "node-red-node-arduino",
-      "version": "0.3.1",
-      "description": "A Node-RED node to talk to an Arduino running firmata",
-      "updated_at": "2019-12-03T21:39:30.561Z",
-      "types": [
-        "arduino in",
-        "arduino out",
-        "arduino-board"
-      ],
-      "keywords": [
-        "node-red",
-        "arduino",
-        "firmata"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-node-arduino"
     },
     {
       "id": "node-red-contrib-ui-media",
