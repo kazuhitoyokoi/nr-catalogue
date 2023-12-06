@@ -1,12 +1,12 @@
 {
   "name": "Catalogue for Docker",
-  "updated_at": "2023-12-05T15:59:33.849Z",
+  "updated_at": "2023-12-06T15:58:26.668Z",
   "modules": [
     {
       "id": "node-red-contrib-alexa-master-function",
-      "version": "6.12.910",
+      "version": "6.12.2222",
       "description": "Beta version: password and logs",
-      "updated_at": "2023-12-05T12:11:03.288Z",
+      "updated_at": "2023-12-06T13:36:58.524Z",
       "types": [
         "alexa-master-function"
       ],
@@ -17,6 +17,100 @@
         "r2"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-alexa-master-function"
+    },
+    {
+      "id": "node-red-contrib-nupmes",
+      "version": "3.0.6",
+      "description": "The all-in-one package for controlling and monitoring machines via the N+P MES.",
+      "updated_at": "2023-12-06T12:14:20.552Z",
+      "types": [
+        "nupmes-authentication",
+        "nupmes-request",
+        "nupmes-hub",
+        "nupmes-counter",
+        "nupmes-get-io",
+        "nupmes-server",
+        "nupmes-set-io",
+        "nupmes-opcua-signal",
+        "nupmes-opcua-server",
+        "nupmes-set-parameter-message",
+        "nupmes-pareto",
+        "nupmes-oee",
+        "nupmes-winauth-request"
+      ],
+      "keywords": [
+        "node-red"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-nupmes"
+    },
+    {
+      "id": "atomic-jetstream",
+      "version": "0.0.17",
+      "description": "NATS JetStream module for Brobridge Atomic",
+      "updated_at": "2023-12-06T02:16:57.309Z",
+      "types": [
+        "NATS JetStream Consumer",
+        "NATS JetStream Publish",
+        "NATS JetStream Server",
+        "NATS JetStream Acknowledge",
+        "NATS JetStream Stream"
+      ],
+      "keywords": [
+        "jetstream",
+        "node-red",
+        "atomic"
+      ],
+      "url": "https://flows.nodered.org/node/atomic-jetstream"
+    },
+    {
+      "id": "node-red-contrib-knx-ultimate",
+      "version": "2.2.33",
+      "description": "Control your KNX intallation via Node-Red! A bunch of KNX nodes, with integrated Philips HUE control and ETS group address importer. Easy to use and highly configurable.",
+      "updated_at": "2023-12-05T17:53:23.750Z",
+      "types": [
+        "knxUltimate",
+        "knxUltimateSceneController",
+        "knxUltimateWatchDog",
+        "knxUltimateLogger",
+        "knxUltimate-config",
+        "knxUltimateGlobalContext",
+        "knxUltimateAlerter",
+        "knxUltimateLoadControl",
+        "knxUltimateViewer",
+        "hue-config",
+        "knxUltimateHueLight",
+        "knxUltimateHueButton",
+        "knxUltimateHueMotion",
+        "knxUltimateHueTapDial",
+        "knxUltimateHueLightSensor",
+        "knxUltimateHueTemperatureSensor",
+        "knxUltimateHueScene",
+        "knxUltimateHueBattery"
+      ],
+      "keywords": [
+        "node-red",
+        "KNX",
+        "ETS",
+        "eib",
+        "konnex",
+        "IOT",
+        "philips hue"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-knx-ultimate"
+    },
+    {
+      "id": "node-red-contrib-cb-suncron",
+      "version": "2.1.3",
+      "description": "A Node-RED node that triggers configurable outgoing messages based on the position of the sun",
+      "updated_at": "2023-12-05T17:06:52.874Z",
+      "types": [],
+      "keywords": [
+        "node-red",
+        "sunset",
+        "sunrise",
+        "schedule"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-cb-suncron"
     },
     {
       "id": "@blebtechnology/node-red-blebricks",
@@ -376,42 +470,6 @@
         "iot"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-smartnora"
-    },
-    {
-      "id": "node-red-contrib-knx-ultimate",
-      "version": "2.2.31",
-      "description": "Control your KNX intallation via Node-Red! A bunch of KNX nodes, with integrated Philips HUE control and ETS group address importer. Easy to use and highly configurable.",
-      "updated_at": "2023-12-02T20:50:19.491Z",
-      "types": [
-        "knxUltimate",
-        "knxUltimateSceneController",
-        "knxUltimateWatchDog",
-        "knxUltimateLogger",
-        "knxUltimate-config",
-        "knxUltimateGlobalContext",
-        "knxUltimateAlerter",
-        "knxUltimateLoadControl",
-        "knxUltimateViewer",
-        "hue-config",
-        "knxUltimateHueLight",
-        "knxUltimateHueButton",
-        "knxUltimateHueMotion",
-        "knxUltimateHueTapDial",
-        "knxUltimateHueLightSensor",
-        "knxUltimateHueTemperatureSensor",
-        "knxUltimateHueScene",
-        "knxUltimateHueBattery"
-      ],
-      "keywords": [
-        "node-red",
-        "KNX",
-        "ETS",
-        "eib",
-        "konnex",
-        "IOT",
-        "philips hue"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-knx-ultimate"
     },
     {
       "id": "@fetchbot/node-red-contrib-ikea-home-smart",
@@ -6149,25 +6207,6 @@
       "url": "https://flows.nodered.org/node/node-red-contrib-ewelink-cube"
     },
     {
-      "id": "atomic-jetstream",
-      "version": "0.0.16",
-      "description": "NATS JetStream module for Brobridge Atomic",
-      "updated_at": "2023-09-28T08:19:18.237Z",
-      "types": [
-        "NATS JetStream Consumer",
-        "NATS JetStream Publish",
-        "NATS JetStream Server",
-        "NATS JetStream Acknowledge",
-        "NATS JetStream Stream"
-      ],
-      "keywords": [
-        "jetstream",
-        "node-red",
-        "atomic"
-      ],
-      "url": "https://flows.nodered.org/node/atomic-jetstream"
-    },
-    {
       "id": "@gbl-sasm-alert/node-red-contrib-moduleflows",
       "version": "1.0.1",
       "description": "Flow Modularization Nodes for Node-RED",
@@ -7270,31 +7309,6 @@
         "ntp-time"
       ],
       "url": "https://flows.nodered.org/node/@redplc/node-red-time"
-    },
-    {
-      "id": "node-red-contrib-nupmes",
-      "version": "3.0.5",
-      "description": "The all-in-one package for controlling and monitoring machines via the N+P MES.",
-      "updated_at": "2023-09-21T13:17:44.858Z",
-      "types": [
-        "nupmes-authentication",
-        "nupmes-request",
-        "nupmes-hub",
-        "nupmes-counter",
-        "nupmes-get-io",
-        "nupmes-server",
-        "nupmes-set-io",
-        "nupmes-opcua-signal",
-        "nupmes-opcua-server",
-        "nupmes-set-parameter-message",
-        "nupmes-pareto",
-        "nupmes-oee",
-        "nupmes-winauth-request"
-      ],
-      "keywords": [
-        "node-red"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-nupmes"
     },
     {
       "id": "node-red-contrib-web3-blue",
@@ -20177,24 +20191,6 @@
         "horario"
       ],
       "url": "https://flows.nodered.org/node/@virtualbat/balance-neto-horario"
-    },
-    {
-      "id": "node-red-contrib-cb-suncron",
-      "version": "2.1.1",
-      "description": "A Node-RED node that triggers configurable outgoing messages based on the position of the sun",
-      "updated_at": "2022-11-28T18:24:23.424Z",
-      "types": [
-        "suncron",
-        "suncron-location",
-        "sun-time-of-day"
-      ],
-      "keywords": [
-        "node-red",
-        "sunset",
-        "sunrise",
-        "schedule"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-cb-suncron"
     },
     {
       "id": "node-red-contrib-array-permutations",
