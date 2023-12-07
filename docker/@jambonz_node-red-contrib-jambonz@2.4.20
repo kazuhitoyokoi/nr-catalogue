@@ -1,0 +1,51 @@
+#0 building with "default" instance using docker driver
+
+#1 [internal] load .dockerignore
+#1 transferring context: 2B done
+#1 DONE 0.0s
+
+#2 [internal] load build definition from Dockerfile
+#2 transferring dockerfile: 127B done
+#2 DONE 0.0s
+
+#3 [internal] load metadata for docker.io/nodered/node-red:latest
+#3 DONE 0.1s
+
+#4 [1/2] FROM docker.io/nodered/node-red@sha256:097ba1a042e00a71e43d836c5e6b7b4ca03957ebd3c963ab0755dd2285997f9a
+#4 CACHED
+
+#5 [2/2] RUN npm install npm install @jambonz/node-red-contrib-jambonz@2.4.20
+#5 3.021 npm WARN EBADENGINE Unsupported engine {
+#5 3.021 npm WARN EBADENGINE   package: 'npm@10.2.5',
+#5 3.021 npm WARN EBADENGINE   required: { node: '^18.17.0 || >=20.5.0' },
+#5 3.021 npm WARN EBADENGINE   current: { node: 'v16.20.2', npm: '8.19.4' }
+#5 3.021 npm WARN EBADENGINE }
+#5 4.487 npm WARN deprecated multer@1.4.4: Multer 1.x is affected by CVE-2022-24434. This is fixed in v1.4.4-lts.1 which drops support for versions of Node.js before 6. Please upgrade to at least Node.js 6 and version 1.4.4-lts.1 of Multer. If you need support for older versions of Node.js, we are open to accepting patches that would fix the CVE on the main 1.x release line, whilst maintaining compatibility with Node.js 0.10.
+#5 4.491 npm WARN deprecated querystring@0.2.0: The querystring API is considered Legacy. new code should use the URLSearchParams API instead.
+#5 5.626 
+#5 5.626 added 40 packages, and audited 579 packages in 5s
+#5 5.626 
+#5 5.626 76 packages are looking for funding
+#5 5.626   run `npm fund` for details
+#5 5.629 
+#5 5.629 4 high severity vulnerabilities
+#5 5.629 
+#5 5.629 To address all issues (including breaking changes), run:
+#5 5.629   npm audit fix --force
+#5 5.629 
+#5 5.629 Run `npm audit` for details.
+#5 5.630 npm notice 
+#5 5.630 npm notice New major version of npm available! 8.19.4 -> 10.2.5
+#5 5.630 npm notice Changelog: <https://github.com/npm/cli/releases/tag/v10.2.5>
+#5 5.630 npm notice Run `npm install -g npm@10.2.5` to update!
+#5 5.630 npm notice 
+#5 DONE 5.8s
+
+#6 exporting to image
+#6 exporting layers
+#6 exporting layers 1.7s done
+#6 writing image sha256:3159ed441263da99fa439a96fd4d857f375b74ab10baa909df6e3993b3d2ed37 done
+#6 naming to docker.io/library/tmp done
+#6 DONE 1.7s
+
+----
