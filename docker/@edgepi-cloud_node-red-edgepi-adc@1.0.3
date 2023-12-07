@@ -1,0 +1,44 @@
+#0 building with "default" instance using docker driver
+
+#1 [internal] load .dockerignore
+#1 transferring context: 2B done
+#1 DONE 0.0s
+
+#2 [internal] load build definition from Dockerfile
+#2 transferring dockerfile: 126B done
+#2 DONE 0.0s
+
+#3 [internal] load metadata for docker.io/nodered/node-red:latest
+#3 DONE 0.1s
+
+#4 [1/2] FROM docker.io/nodered/node-red@sha256:097ba1a042e00a71e43d836c5e6b7b4ca03957ebd3c963ab0755dd2285997f9a
+#4 CACHED
+
+#5 [2/2] RUN npm install npm install @edgepi-cloud/node-red-edgepi-adc@1.0.3
+#5 3.372 npm WARN EBADENGINE Unsupported engine {
+#5 3.372 npm WARN EBADENGINE   package: 'npm@10.2.5',
+#5 3.373 npm WARN EBADENGINE   required: { node: '^18.17.0 || >=20.5.0' },
+#5 3.373 npm WARN EBADENGINE   current: { node: 'v16.20.2', npm: '8.19.4' }
+#5 3.373 npm WARN EBADENGINE }
+#5 5.906 
+#5 5.906 added 89 packages, and audited 628 packages in 5s
+#5 5.906 
+#5 5.906 77 packages are looking for funding
+#5 5.906   run `npm fund` for details
+#5 5.907 
+#5 5.907 found 0 vulnerabilities
+#5 5.907 npm notice 
+#5 5.907 npm notice New major version of npm available! 8.19.4 -> 10.2.5
+#5 5.907 npm notice Changelog: <https://github.com/npm/cli/releases/tag/v10.2.5>
+#5 5.907 npm notice Run `npm install -g npm@10.2.5` to update!
+#5 5.908 npm notice 
+#5 DONE 6.0s
+
+#6 exporting to image
+#6 exporting layers
+#6 exporting layers 1.5s done
+#6 writing image sha256:f07c80e89b94746e3ae8e1e872cc167b13d5e257f8f0741421ddddcc86ed6ad2 done
+#6 naming to docker.io/library/tmp done
+#6 DONE 1.5s
+
+----
