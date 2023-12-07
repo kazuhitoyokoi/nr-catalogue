@@ -1,7 +1,407 @@
 {
   "name": "Catalogue for Docker",
-  "updated_at": "2023-12-06T15:58:26.668Z",
+  "updated_at": "2023-12-07T16:00:19.856Z",
   "modules": [
+    {
+      "id": "node-red-contrib-ejbca",
+      "version": "1.0.8",
+      "description": "Node-RED Nodes to request, renew and revoke certificates via a RESTful API with EJBCA",
+      "updated_at": "2023-12-07T13:04:47.281Z",
+      "types": [
+        "ejbca-status",
+        "export-keys",
+        "create-csr",
+        "ejbca-config-3",
+        "configure-entity",
+        "enroll-pkcs10",
+        "generate-p12",
+        "revocation-status",
+        "revoke",
+        "search-certificates",
+        "enroll-keystore",
+        "store-certificate"
+      ],
+      "keywords": [
+        "node-red"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-ejbca"
+    },
+    {
+      "id": "@jambonz/node-red-contrib-jambonz",
+      "version": "2.4.20",
+      "description": "Node-RED nodes for jambonz platform",
+      "updated_at": "2023-12-07T12:44:00.646Z",
+      "types": [
+        "webhook in",
+        "webhook out",
+        "audio in",
+        "jambonz_auth",
+        "aws_auth",
+        "enqueue",
+        "lex",
+        "say",
+        "dtmf",
+        "cfg",
+        "conference",
+        "gather",
+        "listen",
+        "sip:decline",
+        "sip:request",
+        "sip:refer",
+        "hangup",
+        "message",
+        "tag",
+        "pause",
+        "dequeue",
+        "play",
+        "dial",
+        "redirect",
+        "dialogflow",
+        "leave",
+        "rasa",
+        "user auth",
+        "create-call",
+        "create-sms",
+        "lcc",
+        "get_alerts",
+        "get_call",
+        "get_calls",
+        "get_recent_calls"
+      ],
+      "keywords": [
+        "node-red"
+      ],
+      "url": "https://flows.nodered.org/node/@jambonz/node-red-contrib-jambonz"
+    },
+    {
+      "id": "@appmodule/node-red-contrib-siot",
+      "version": "3.0.0-rc15",
+      "description": "Node-RED interactions with SIOT",
+      "updated_at": "2023-12-07T10:47:54.442Z",
+      "types": [
+        "de-commands",
+        "ack",
+        "de-subscriber",
+        "de-publisher",
+        "siot-config",
+        "class-config",
+        "plugin-cnf"
+      ],
+      "keywords": [
+        "node-red"
+      ],
+      "url": "https://flows.nodered.org/node/@appmodule/node-red-contrib-siot"
+    },
+    {
+      "id": "node-red-n8n-invoice",
+      "version": "0.0.1",
+      "description": "A sample node for node-red with n8n-invoice",
+      "updated_at": "2023-12-07T10:41:32.718Z",
+      "types": [
+        "invoice"
+      ],
+      "keywords": [
+        "node-red"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-n8n-invoice"
+    },
+    {
+      "id": "node-red-contrib-mobilealerts",
+      "version": "3.3.0",
+      "description": "This provides a node for receiving Mobile Alerts status infos.",
+      "updated_at": "2023-12-07T09:13:59.240Z",
+      "types": [
+        "mobilealerts-status"
+      ],
+      "keywords": [
+        "node-red",
+        "Mobile Alerts"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-mobilealerts"
+    },
+    {
+      "id": "@technithusiast/node-red-contrib-ai-intent",
+      "version": "1.1.25",
+      "description": "A collection of nodes to elevate a user's automation interactions",
+      "updated_at": "2023-12-07T08:04:53.954Z",
+      "types": [
+        "Register Intent",
+        "Call Intent",
+        "OpenAI User",
+        "OpenAI System",
+        "OpenAI Chat",
+        "OpenAI Response",
+        "OpenAI Tool"
+      ],
+      "keywords": [
+        "node-red"
+      ],
+      "url": "https://flows.nodered.org/node/@technithusiast/node-red-contrib-ai-intent"
+    },
+    {
+      "id": "@edgepi-cloud/node-red-edgepi-thermocouple",
+      "version": "1.0.8",
+      "description": "A node-red node for EdgePi thermocouple module",
+      "updated_at": "2023-12-06T22:46:46.755Z",
+      "types": [
+        "thermocouple"
+      ],
+      "keywords": [
+        "edgepi",
+        "thermocouple",
+        "node-red"
+      ],
+      "url": "https://flows.nodered.org/node/@edgepi-cloud/node-red-edgepi-thermocouple"
+    },
+    {
+      "id": "@edgepi-cloud/node-red-edgepi-led",
+      "version": "1.0.6",
+      "description": "Node for EdgePi Led Array",
+      "updated_at": "2023-12-06T22:45:42.140Z",
+      "types": [
+        "led"
+      ],
+      "keywords": [
+        "node-red",
+        "edgepi",
+        "led",
+        "edgepi-led"
+      ],
+      "url": "https://flows.nodered.org/node/@edgepi-cloud/node-red-edgepi-led"
+    },
+    {
+      "id": "@edgepi-cloud/node-red-edgepi-relay",
+      "version": "1.0.4",
+      "description": "node-red node for edgepi relay module utilizing remote procedure calls",
+      "updated_at": "2023-12-06T22:45:07.428Z",
+      "types": [
+        "relay"
+      ],
+      "keywords": [
+        "node-red",
+        "edgepi",
+        "rpc"
+      ],
+      "url": "https://flows.nodered.org/node/@edgepi-cloud/node-red-edgepi-relay"
+    },
+    {
+      "id": "@edgepi-cloud/node-red-edgepi-digital-out",
+      "version": "1.0.7",
+      "description": "node-red node for edgepi digital output module utilizing remote procedure calls",
+      "updated_at": "2023-12-06T22:44:41.916Z",
+      "types": [
+        "digital-out"
+      ],
+      "keywords": [
+        "node-red",
+        "edgepi",
+        "rpc"
+      ],
+      "url": "https://flows.nodered.org/node/@edgepi-cloud/node-red-edgepi-digital-out"
+    },
+    {
+      "id": "@edgepi-cloud/node-red-edgepi-digital-input",
+      "version": "1.0.4",
+      "description": "node-red node for edgepi digital-input module utilizing remote procedure calls",
+      "updated_at": "2023-12-06T22:44:17.352Z",
+      "types": [
+        "digital-in"
+      ],
+      "keywords": [
+        "node-red",
+        "edgepi",
+        "rpc"
+      ],
+      "url": "https://flows.nodered.org/node/@edgepi-cloud/node-red-edgepi-digital-input"
+    },
+    {
+      "id": "@edgepi-cloud/node-red-edgepi-adc",
+      "version": "1.0.3",
+      "description": "node-red node for edgepi adc module utilizing remote procedure calls",
+      "updated_at": "2023-12-06T22:43:04.516Z",
+      "types": [
+        "adc"
+      ],
+      "keywords": [
+        "node-red",
+        "edgepi",
+        "rpc"
+      ],
+      "url": "https://flows.nodered.org/node/@edgepi-cloud/node-red-edgepi-adc"
+    },
+    {
+      "id": "node-red-dashboard",
+      "version": "3.6.2",
+      "description": "A set of dashboard nodes for Node-RED",
+      "updated_at": "2023-12-06T17:43:45.951Z",
+      "types": [
+        "ui_base",
+        "ui_button",
+        "ui_dropdown",
+        "ui_switch",
+        "ui_slider",
+        "ui_numeric",
+        "ui_text_input",
+        "ui_date_picker",
+        "ui_colour_picker",
+        "ui_form",
+        "ui_text",
+        "ui_gauge",
+        "ui_chart",
+        "ui_audio",
+        "ui_toast",
+        "ui_ui_control",
+        "ui_template",
+        "ui_link",
+        "ui_tab",
+        "ui_group",
+        "ui_spacer"
+      ],
+      "keywords": [
+        "node-red"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-dashboard"
+    },
+    {
+      "id": "connect-nodes",
+      "version": "0.0.4",
+      "description": "Node-RED contribution package with nodes for interaction with CONNECT Smart Home system and configure your own UI",
+      "updated_at": "2023-12-06T17:42:56.948Z",
+      "types": [
+        "CONNECT digital input",
+        "__errors__",
+        "CONNECT relay",
+        "__errors__",
+        "CONNECT RS485 in",
+        "__errors__",
+        "CONNECT RS485 out",
+        "__errors__",
+        "CONNECT DMX",
+        "__errors__",
+        "CONNECT dimmer",
+        "__errors__",
+        "CONNECT DMX mode config",
+        "CONNECT DMX sending period config",
+        "CONNECT modbus RS485",
+        "CONNECT Ajax",
+        "__errors__",
+        "CONNECT Ajax add",
+        "CONNECT Ajax delete",
+        "CONNECT Ajax protection",
+        "CONNECT ZigBee",
+        "CONNECT ZigBee add",
+        "CONNECT ZigBee delete",
+        "CONNECT UI switch",
+        "CONNECT UI dimmer",
+        "CONNECT UI rgb",
+        "CONNECT UI rgbw",
+        "CONNECT UI warm cold",
+        "CONNECT UI thermostat",
+        "CONNECT UI status",
+        "CONNECT UI curtains",
+        "CONNECT UI notification",
+        "CONNECT UI scene",
+        "CONNECT UI room config",
+        "CONNECT UI category config"
+      ],
+      "keywords": [
+        "node-red",
+        "connect-smart-home",
+        "connect",
+        "iot",
+        "smarthome",
+        "smart",
+        "home",
+        "homekit",
+        "dmx",
+        "1-wire",
+        "modbus",
+        "rs485",
+        "dimmer",
+        "rgbw",
+        "rgb",
+        "led",
+        "ajax",
+        "zigbee",
+        "0-10v"
+      ],
+      "url": "https://flows.nodered.org/node/connect-nodes"
+    },
+    {
+      "id": "node-red-contrib-zwave-js",
+      "version": "9.0.3",
+      "description": "The most powerful, high performing and highly polished Z-Wave node for Node-RED based on Z-Wave JS. If you want a fully featured Z-Wave framework in your Node-RED instance, you have found it.",
+      "updated_at": "2023-12-06T16:49:50.375Z",
+      "types": [
+        "zwave-js",
+        "zwave-device",
+        "event-filter",
+        "cmd-factory"
+      ],
+      "keywords": [
+        "node-red",
+        "zwave",
+        "zwave-js",
+        "controller",
+        "smart",
+        "automation",
+        "home-automation",
+        "home"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-zwave-js"
+    },
+    {
+      "id": "node-red-contrib-ecovacs-deebot",
+      "version": "0.4.10",
+      "description": "Node-RED node for Ecovacs Deebot vacuum cleaner",
+      "updated_at": "2023-12-06T16:15:13.501Z",
+      "types": [
+        "ecovacs-account",
+        "ecovacs-deebot",
+        "ecovacs-deebot-command"
+      ],
+      "keywords": [
+        "node-red",
+        "ecovacs",
+        "deebot",
+        "ozmo",
+        "yeedi",
+        "vacuum",
+        "robot",
+        "airbot",
+        "air purifier",
+        "smart home",
+        "home automation"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-ecovacs-deebot"
+    },
+    {
+      "id": "@thewiw/node-red-contrib-wiw-bridge",
+      "version": "1.2.0",
+      "description": "Communication with What Is What through Bridge Connector and/or direct HTTP",
+      "updated_at": "2023-12-06T14:32:05.760Z",
+      "types": [
+        "dataSources2Wiw",
+        "entities2Wiw",
+        "system2Wiw",
+        "valuesObject2Wiw",
+        "wiwMqttConfig",
+        "wiw2ValuesObject",
+        "wiwLogs",
+        "wiwCheck",
+        "valuesObject2S7",
+        "wiwHttpConfig",
+        "wiwHttpRequest"
+      ],
+      "keywords": [
+        "wiw",
+        "thewiw",
+        "the wiw",
+        "what is what",
+        "node-red"
+      ],
+      "url": "https://flows.nodered.org/node/@thewiw/node-red-contrib-wiw-bridge"
+    },
     {
       "id": "node-red-contrib-alexa-master-function",
       "version": "6.12.2222",
@@ -1181,25 +1581,6 @@
       "url": "https://flows.nodered.org/node/node-red-contrib-victron-vedirect-usb"
     },
     {
-      "id": "@technithusiast/node-red-contrib-ai-intent",
-      "version": "1.1.21",
-      "description": "A collection of nodes to elevate a user's automation interactions",
-      "updated_at": "2023-11-26T07:53:37.329Z",
-      "types": [
-        "Register Intent",
-        "Call Intent",
-        "OpenAI User",
-        "OpenAI System",
-        "OpenAI Chat",
-        "OpenAI Response",
-        "OpenAI Tool"
-      ],
-      "keywords": [
-        "node-red"
-      ],
-      "url": "https://flows.nodered.org/node/@technithusiast/node-red-contrib-ai-intent"
-    },
-    {
       "id": "@gregoriusrippenstein/node-red-contrib-filetype",
       "version": "0.0.3",
       "description": "Wrapper node around the file-type npmjs package.",
@@ -2313,71 +2694,6 @@
       "url": "https://flows.nodered.org/node/connect-logic-nodes"
     },
     {
-      "id": "connect-nodes",
-      "version": "0.0.3",
-      "description": "Node-RED contribution package with nodes for interaction with CONNECT Smart Home system and configure your own UI",
-      "updated_at": "2023-11-14T13:57:22.158Z",
-      "types": [
-        "CONNECT digital input",
-        "__errors__",
-        "CONNECT relay",
-        "__errors__",
-        "CONNECT RS485 in",
-        "__errors__",
-        "CONNECT RS485 out",
-        "__errors__",
-        "CONNECT DMX",
-        "__errors__",
-        "CONNECT dimmer",
-        "__errors__",
-        "CONNECT DMX mode config",
-        "CONNECT DMX sending period config",
-        "CONNECT modbus RS485",
-        "CONNECT Ajax",
-        "__errors__",
-        "CONNECT Ajax add",
-        "CONNECT Ajax delete",
-        "CONNECT Ajax protection",
-        "CONNECT ZigBee",
-        "CONNECT ZigBee add",
-        "CONNECT ZigBee delete",
-        "CONNECT UI switch",
-        "CONNECT UI dimmer",
-        "CONNECT UI rgb",
-        "CONNECT UI rgbw",
-        "CONNECT UI warm cold",
-        "CONNECT UI thermostat",
-        "CONNECT UI status",
-        "CONNECT UI curtains",
-        "CONNECT UI notification",
-        "CONNECT UI scene",
-        "CONNECT UI room config",
-        "CONNECT UI category config"
-      ],
-      "keywords": [
-        "node-red",
-        "connect-smart-home",
-        "connect",
-        "iot",
-        "smarthome",
-        "smart",
-        "home",
-        "homekit",
-        "dmx",
-        "1-wire",
-        "modbus",
-        "rs485",
-        "dimmer",
-        "rgbw",
-        "rgb",
-        "led",
-        "ajax",
-        "zigbee",
-        "0-10v"
-      ],
-      "url": "https://flows.nodered.org/node/connect-nodes"
-    },
-    {
       "id": "node-red-contrib-simple-bu",
       "version": "1.2.8",
       "description": "A Node-RED node that simplifies the data process.",
@@ -2543,53 +2859,6 @@
         "climate"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-vib-smart-boiler"
-    },
-    {
-      "id": "@jambonz/node-red-contrib-jambonz",
-      "version": "2.4.19",
-      "description": "Node-RED nodes for jambonz platform",
-      "updated_at": "2023-11-10T13:31:02.372Z",
-      "types": [
-        "webhook in",
-        "webhook out",
-        "audio in",
-        "jambonz_auth",
-        "aws_auth",
-        "enqueue",
-        "lex",
-        "say",
-        "dtmf",
-        "cfg",
-        "conference",
-        "gather",
-        "listen",
-        "sip:decline",
-        "sip:request",
-        "sip:refer",
-        "hangup",
-        "message",
-        "tag",
-        "pause",
-        "dequeue",
-        "play",
-        "dial",
-        "redirect",
-        "dialogflow",
-        "leave",
-        "rasa",
-        "user auth",
-        "create-call",
-        "create-sms",
-        "lcc",
-        "get_alerts",
-        "get_call",
-        "get_calls",
-        "get_recent_calls"
-      ],
-      "keywords": [
-        "node-red"
-      ],
-      "url": "https://flows.nodered.org/node/@jambonz/node-red-contrib-jambonz"
     },
     {
       "id": "@metz-connect/node-red-ewio2",
@@ -3496,97 +3765,6 @@
       "url": "https://flows.nodered.org/node/node-red-contrib-homeconnect"
     },
     {
-      "id": "@edgepi-cloud/node-red-edgepi-relay",
-      "version": "1.0.2",
-      "description": "node-red node for edgepi relay module utilizing remote procedure calls",
-      "updated_at": "2023-10-27T18:23:31.034Z",
-      "types": [
-        "relay"
-      ],
-      "keywords": [
-        "node-red",
-        "edgepi",
-        "rpc"
-      ],
-      "url": "https://flows.nodered.org/node/@edgepi-cloud/node-red-edgepi-relay"
-    },
-    {
-      "id": "@edgepi-cloud/node-red-edgepi-thermocouple",
-      "version": "1.0.5",
-      "description": "A node-red node for EdgePi thermocouple module",
-      "updated_at": "2023-10-27T18:23:01.164Z",
-      "types": [
-        "thermocouple"
-      ],
-      "keywords": [
-        "edgepi",
-        "thermocouple",
-        "node-red"
-      ],
-      "url": "https://flows.nodered.org/node/@edgepi-cloud/node-red-edgepi-thermocouple"
-    },
-    {
-      "id": "@edgepi-cloud/node-red-edgepi-led",
-      "version": "1.0.5",
-      "description": "Node for EdgePi Led Array",
-      "updated_at": "2023-10-27T18:22:22.405Z",
-      "types": [
-        "led"
-      ],
-      "keywords": [
-        "node-red",
-        "edgepi",
-        "led",
-        "edgepi-led"
-      ],
-      "url": "https://flows.nodered.org/node/@edgepi-cloud/node-red-edgepi-led"
-    },
-    {
-      "id": "@edgepi-cloud/node-red-edgepi-digital-out",
-      "version": "1.0.5",
-      "description": "node-red node for edgepi digital output module utilizing remote procedure calls",
-      "updated_at": "2023-10-27T18:21:47.839Z",
-      "types": [
-        "digital-out"
-      ],
-      "keywords": [
-        "node-red",
-        "edgepi",
-        "rpc"
-      ],
-      "url": "https://flows.nodered.org/node/@edgepi-cloud/node-red-edgepi-digital-out"
-    },
-    {
-      "id": "@edgepi-cloud/node-red-edgepi-digital-input",
-      "version": "1.0.2",
-      "description": "node-red node for edgepi digital-input module utilizing remote procedure calls",
-      "updated_at": "2023-10-27T18:21:02.858Z",
-      "types": [
-        "digital-in"
-      ],
-      "keywords": [
-        "node-red",
-        "edgepi",
-        "rpc"
-      ],
-      "url": "https://flows.nodered.org/node/@edgepi-cloud/node-red-edgepi-digital-input"
-    },
-    {
-      "id": "@edgepi-cloud/node-red-edgepi-adc",
-      "version": "1.0.2",
-      "description": "node-red node for edgepi adc module utilizing remote procedure calls",
-      "updated_at": "2023-10-27T18:20:34.457Z",
-      "types": [
-        "adc"
-      ],
-      "keywords": [
-        "node-red",
-        "edgepi",
-        "rpc"
-      ],
-      "url": "https://flows.nodered.org/node/@edgepi-cloud/node-red-edgepi-adc"
-    },
-    {
       "id": "@edgepi-cloud/node-red-edgepi-dac",
       "version": "1.0.4",
       "description": "node-red node for edgepi dac module utilizing remote procedure calls",
@@ -3737,24 +3915,6 @@
         "burglar"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-sia-ultimate"
-    },
-    {
-      "id": "@appmodule/node-red-contrib-siot",
-      "version": "3.0.0-rc14",
-      "description": "Node-RED interactions with SIOT",
-      "updated_at": "2023-10-25T12:47:06.119Z",
-      "types": [
-        "de-commands",
-        "cmd-ack",
-        "de-subscriber",
-        "de-publisher",
-        "siot-config",
-        "class-config"
-      ],
-      "keywords": [
-        "node-red"
-      ],
-      "url": "https://flows.nodered.org/node/@appmodule/node-red-contrib-siot"
     },
     {
       "id": "node-red-contrib-load-balance-knapsack",
@@ -4303,30 +4463,6 @@
       "url": "https://flows.nodered.org/node/node-red-contrib-obix-niagara-connector"
     },
     {
-      "id": "node-red-contrib-ejbca",
-      "version": "1.0.6",
-      "description": "Node-RED Nodes to request, renew and revoke certificates via a RESTful API with EJBCA",
-      "updated_at": "2023-10-20T12:52:08.996Z",
-      "types": [
-        "ejbca-status",
-        "export-keys",
-        "create-csr",
-        "ejbca-config-3",
-        "configure-entity",
-        "enroll-pkcs10",
-        "generate-p12",
-        "revocation-status",
-        "revoke",
-        "search-certificates",
-        "enroll-keystore",
-        "store-certificate"
-      ],
-      "keywords": [
-        "node-red"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-ejbca"
-    },
-    {
       "id": "node-red-contrib-dictionary",
       "version": "1.0.1",
       "description": "node for node red with dictionary ui",
@@ -4403,39 +4539,6 @@
       "url": "https://flows.nodered.org/node/@yousolution/node-red-contrib-you-injector-workdays"
     },
     {
-      "id": "node-red-dashboard",
-      "version": "3.6.1",
-      "description": "A set of dashboard nodes for Node-RED",
-      "updated_at": "2023-10-19T10:18:46.468Z",
-      "types": [
-        "ui_base",
-        "ui_button",
-        "ui_dropdown",
-        "ui_switch",
-        "ui_slider",
-        "ui_numeric",
-        "ui_text_input",
-        "ui_date_picker",
-        "ui_colour_picker",
-        "ui_form",
-        "ui_text",
-        "ui_gauge",
-        "ui_chart",
-        "ui_audio",
-        "ui_toast",
-        "ui_ui_control",
-        "ui_template",
-        "ui_link",
-        "ui_tab",
-        "ui_group",
-        "ui_spacer"
-      ],
-      "keywords": [
-        "node-red"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-dashboard"
-    },
-    {
       "id": "node-red-contrib-gpt-engineer-api",
       "version": "1.0.1",
       "description": "adds Node to call  gpt-engineer through ssh connection and cli commands",
@@ -4465,29 +4568,6 @@
         "node-red"
       ],
       "url": "https://flows.nodered.org/node/smithtek-node-red-format"
-    },
-    {
-      "id": "node-red-contrib-zwave-js",
-      "version": "9.0.2",
-      "description": "The most powerful, high performing and highly polished Z-Wave node for Node-RED based on Z-Wave JS. If you want a fully featured Z-Wave framework in your Node-RED instance, you have found it.",
-      "updated_at": "2023-10-17T18:08:32.224Z",
-      "types": [
-        "zwave-js",
-        "zwave-device",
-        "event-filter",
-        "cmd-factory"
-      ],
-      "keywords": [
-        "node-red",
-        "zwave",
-        "zwave-js",
-        "controller",
-        "smart",
-        "automation",
-        "home-automation",
-        "home"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-zwave-js"
     },
     {
       "id": "@terranlabs/appflow-langchain",
@@ -14801,30 +14881,6 @@
       "url": "https://flows.nodered.org/node/eloy-ui-upload"
     },
     {
-      "id": "@thewiw/node-red-contrib-wiw-bridge",
-      "version": "1.0.3",
-      "description": "Tools for communication with What Is What via Bridge Connector",
-      "updated_at": "2023-04-04T11:24:00.767Z",
-      "types": [
-        "dataSources2Wiw",
-        "entities2Wiw",
-        "system2Wiw",
-        "valuesObject2Wiw",
-        "wiwMqttConfig",
-        "wiw2ValuesObject",
-        "wiwLogs",
-        "wiwCheck",
-        "valuesObject2S7"
-      ],
-      "keywords": [
-        "wiw",
-        "the wiw",
-        "what is what",
-        "node-red"
-      ],
-      "url": "https://flows.nodered.org/node/@thewiw/node-red-contrib-wiw-bridge"
-    },
-    {
       "id": "@tyntec/node-red-contrib-tyntec",
       "version": "1.1.0",
       "description": "[![](https://raw.githubusercontent.com/tyntec/node-red-contrib-tyntec/main/docs/logo.png)](https://tyntec.com)",
@@ -14937,31 +14993,6 @@
         "io-key"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-io-key"
-    },
-    {
-      "id": "node-red-contrib-ecovacs-deebot",
-      "version": "0.4.8",
-      "description": "Node-RED node for Ecovacs Deebot vacuum cleaner",
-      "updated_at": "2023-04-02T19:57:19.608Z",
-      "types": [
-        "ecovacs-account",
-        "ecovacs-deebot",
-        "ecovacs-deebot-command"
-      ],
-      "keywords": [
-        "node-red",
-        "ecovacs",
-        "deebot",
-        "ozmo",
-        "yeedi",
-        "vacuum",
-        "robot",
-        "airbot",
-        "air purifier",
-        "smart home",
-        "home automation"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-ecovacs-deebot"
     },
     {
       "id": "node-red-contrib-dockerode",
@@ -29833,20 +29864,6 @@
         "auth"
       ],
       "url": "https://flows.nodered.org/node/red-contrib-ags_authrest"
-    },
-    {
-      "id": "node-red-contrib-mobilealerts",
-      "version": "3.2.0",
-      "description": "This provides a node for receiving Mobile Alerts status infos.",
-      "updated_at": "2022-03-16T16:49:06.585Z",
-      "types": [
-        "mobilealerts-status"
-      ],
-      "keywords": [
-        "node-red",
-        "Mobile Alerts"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-mobilealerts"
     },
     {
       "id": "pdf-red",
