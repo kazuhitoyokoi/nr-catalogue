@@ -1,0 +1,49 @@
+#0 building with "default" instance using docker driver
+
+#1 [internal] load .dockerignore
+#1 transferring context: 2B done
+#1 DONE 0.0s
+
+#2 [internal] load build definition from Dockerfile
+#2 transferring dockerfile: 140B done
+#2 DONE 0.0s
+
+#3 [internal] load metadata for docker.io/nodered/node-red:latest
+#3 DONE 0.3s
+
+#4 [1/2] FROM docker.io/nodered/node-red@sha256:f72381be70e1e1f06ae31fa28fc322fbf806184a2a4b97df765e6916f9204d47
+#4 CACHED
+
+#5 [2/2] RUN npm install npm install @siglesiasg/node-red-hyperledger-fabric-gateway@1.0.2
+#5 2.430 npm WARN EBADENGINE Unsupported engine {
+#5 2.430 npm WARN EBADENGINE   package: 'npm@10.2.5',
+#5 2.431 npm WARN EBADENGINE   required: { node: '^18.17.0 || >=20.5.0' },
+#5 2.431 npm WARN EBADENGINE   current: { node: 'v16.20.2', npm: '8.19.4' }
+#5 2.431 npm WARN EBADENGINE }
+#5 2.431 npm WARN EBADENGINE Unsupported engine {
+#5 2.431 npm WARN EBADENGINE   package: '@hyperledger/fabric-gateway@1.4.0',
+#5 2.431 npm WARN EBADENGINE   required: { node: '>=18.12.0' },
+#5 2.431 npm WARN EBADENGINE   current: { node: 'v16.20.2', npm: '8.19.4' }
+#5 2.431 npm WARN EBADENGINE }
+#5 27.28 
+#5 27.28 added 47 packages, and audited 586 packages in 27s
+#5 27.28 
+#5 27.28 70 packages are looking for funding
+#5 27.28   run `npm fund` for details
+#5 27.28 
+#5 27.28 found 0 vulnerabilities
+#5 27.28 npm notice 
+#5 27.28 npm notice New major version of npm available! 8.19.4 -> 10.2.5
+#5 27.28 npm notice Changelog: <https://github.com/npm/cli/releases/tag/v10.2.5>
+#5 27.28 npm notice Run `npm install -g npm@10.2.5` to update!
+#5 27.28 npm notice 
+#5 DONE 27.3s
+
+#6 exporting to image
+#6 exporting layers
+#6 exporting layers 1.4s done
+#6 writing image sha256:16fc6432d842b21775cb83c7b09bd38ba2c72ae422c10c8cbda56544d31005b0 done
+#6 naming to docker.io/library/tmp done
+#6 DONE 1.4s
+
+----
