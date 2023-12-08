@@ -1,36 +1,45 @@
 {
   "name": "Catalogue for Docker",
-  "updated_at": "2023-12-07T16:00:19.856Z",
+  "updated_at": "2023-12-08T15:59:19.530Z",
   "modules": [
     {
-      "id": "node-red-contrib-ejbca",
-      "version": "1.0.8",
-      "description": "Node-RED Nodes to request, renew and revoke certificates via a RESTful API with EJBCA",
-      "updated_at": "2023-12-07T13:04:47.281Z",
+      "id": "node-red-contrib-tak-registration",
+      "version": "0.11.5",
+      "description": "A Node-RED node to register to TAK and to help wrap files as datapackages to send to TAK",
+      "updated_at": "2023-12-08T14:24:25.650Z",
       "types": [
-        "ejbca-status",
-        "export-keys",
-        "create-csr",
-        "ejbca-config-3",
-        "configure-entity",
-        "enroll-pkcs10",
-        "generate-p12",
-        "revocation-status",
-        "revoke",
-        "search-certificates",
-        "enroll-keystore",
-        "store-certificate"
+        "tak registration",
+        "tak ingest"
       ],
       "keywords": [
+        "TAK",
+        "COT",
         "node-red"
       ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-ejbca"
+      "url": "https://flows.nodered.org/node/node-red-contrib-tak-registration"
+    },
+    {
+      "id": "node-red-contrib-axis-host",
+      "version": "1.2.0",
+      "description": "Axis Devices resource binding nodes that provides access to events, image capture and analytics data.  Node-RED must be running on the Axis Device.",
+      "updated_at": "2023-12-08T14:02:27.975Z",
+      "types": [
+        "Events",
+        "Camera",
+        "Trigger",
+        "Objects"
+      ],
+      "keywords": [
+        "node-red",
+        "Axis"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-axis-host"
     },
     {
       "id": "@jambonz/node-red-contrib-jambonz",
-      "version": "2.4.20",
+      "version": "2.4.21",
       "description": "Node-RED nodes for jambonz platform",
-      "updated_at": "2023-12-07T12:44:00.646Z",
+      "updated_at": "2023-12-08T13:25:59.852Z",
       "types": [
         "webhook in",
         "webhook out",
@@ -74,10 +83,200 @@
       "url": "https://flows.nodered.org/node/@jambonz/node-red-contrib-jambonz"
     },
     {
+      "id": "@flowfuse/node-red-dashboard",
+      "version": "0.10.1",
+      "description": "A collection of Node-RED nodes that provide functionality to build your own UI applications (inc. forms, buttons, charts) within Node-RED.",
+      "updated_at": "2023-12-08T11:47:58.466Z",
+      "types": [
+        "ui-base",
+        "ui-page",
+        "ui-group",
+        "ui-theme",
+        "ui-form",
+        "__errors__",
+        "ui-text-input",
+        "__errors__",
+        "ui-button",
+        "__errors__",
+        "ui-dropdown",
+        "__errors__",
+        "ui-radio-group",
+        "__errors__",
+        "ui-slider",
+        "__errors__",
+        "ui-switch",
+        "__errors__",
+        "ui-text",
+        "__errors__",
+        "ui-table",
+        "__errors__",
+        "ui-chart",
+        "__errors__",
+        "ui-notification",
+        "__errors__",
+        "ui-markdown",
+        "__errors__",
+        "ui-template",
+        "__errors__",
+        "ui-event",
+        "__errors__",
+        "ui-control",
+        "__errors__"
+      ],
+      "keywords": [
+        "node-red"
+      ],
+      "url": "https://flows.nodered.org/node/@flowfuse/node-red-dashboard"
+    },
+    {
+      "id": "@technithusiast/node-red-contrib-ai-intent",
+      "version": "1.1.27",
+      "description": "A collection of nodes to elevate a user's automation interactions",
+      "updated_at": "2023-12-08T08:20:29.088Z",
+      "types": [
+        "Register Intent",
+        "Call Intent",
+        "OpenAI User",
+        "OpenAI System",
+        "OpenAI Chat",
+        "OpenAI Response",
+        "OpenAI Tool"
+      ],
+      "keywords": [
+        "node-red"
+      ],
+      "url": "https://flows.nodered.org/node/@technithusiast/node-red-contrib-ai-intent"
+    },
+    {
+      "id": "node-red-contrib-tibber-api",
+      "version": "6.0.1",
+      "description": "Node Red module for integrating with Tibber api",
+      "updated_at": "2023-12-08T06:17:32.900Z",
+      "types": [
+        "tibber-api-endpoint",
+        "tibber-feed",
+        "tibber-query",
+        "tibber-data",
+        "tibber-notify"
+      ],
+      "keywords": [
+        "node-red",
+        "tibber",
+        "iot",
+        "power",
+        "home-automation",
+        "smarthome",
+        "energy"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-tibber-api"
+    },
+    {
+      "id": "@thingwala/node-red-contrib-geyserwala-connect",
+      "version": "0.0.4",
+      "description": "Node-RED nodes for the Geyserwala Connect",
+      "updated_at": "2023-12-07T21:48:59.491Z",
+      "types": [
+        "geyserwala-connect-api"
+      ],
+      "keywords": [
+        "node-red",
+        "thingwala",
+        "geyserwala"
+      ],
+      "url": "https://flows.nodered.org/node/@thingwala/node-red-contrib-geyserwala-connect"
+    },
+    {
+      "id": "node-red-contrib-ejbca",
+      "version": "1.0.15",
+      "description": "Node-RED Nodes to request, renew and revoke certificates via a RESTful API with EJBCA",
+      "updated_at": "2023-12-07T19:36:19.003Z",
+      "types": [
+        "ejbca-status",
+        "export-keys",
+        "create-csr",
+        "ejbca-config-3",
+        "configure-entity",
+        "enroll-pkcs10",
+        "generate-p12",
+        "revocation-status",
+        "revoke",
+        "search-certificates",
+        "enroll-keystore",
+        "store-certificate"
+      ],
+      "keywords": [
+        "node-red"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-ejbca"
+    },
+    {
+      "id": "@siglesiasg/node-red-hyperledger-fabric-gateway",
+      "version": "1.0.2",
+      "description": "Hyperledger Fabric 2.x nodes for node-red with latest fabric-gateway library",
+      "updated_at": "2023-12-07T17:09:38.900Z",
+      "types": [],
+      "keywords": [
+        "node-red",
+        "fabric",
+        "blockchain",
+        "hyperledger",
+        "gateway",
+        "fabric-gateway"
+      ],
+      "url": "https://flows.nodered.org/node/@siglesiasg/node-red-hyperledger-fabric-gateway"
+    },
+    {
+      "id": "node-red-contrib-phidget22",
+      "version": "2.0.1",
+      "description": "Provides access to input, output, and sensor channels from Phidgets devices.",
+      "updated_at": "2023-12-07T16:35:04.455Z",
+      "types": [
+        "phidget22-connect",
+        "phidget22-accelerometer",
+        "phidget22-bldcmotor",
+        "phidget22-capacitivetouch",
+        "phidget22-currentinput",
+        "phidget22-dcmotor",
+        "phidget22-dictionary",
+        "phidget22-digitalinput",
+        "phidget22-digitaloutput",
+        "phidget22-distancesensor",
+        "phidget22-encoder",
+        "phidget22-frequencycounter",
+        "phidget22-gps",
+        "phidget22-gyroscope",
+        "phidget22-hub",
+        "phidget22-humiditysensor",
+        "phidget22-ir",
+        "phidget22-lcd",
+        "phidget22-lightsensor",
+        "phidget22-magnetometer",
+        "phidget22-motorpositioncontroller",
+        "phidget22-phsensor",
+        "phidget22-powerguard",
+        "phidget22-pressuresensor",
+        "phidget22-rcservo",
+        "phidget22-resistanceinput",
+        "phidget22-rfid",
+        "phidget22-soundsensor",
+        "phidget22-spatial",
+        "phidget22-stepper",
+        "phidget22-temperaturesensor",
+        "phidget22-voltageinput",
+        "phidget22-voltageoutput",
+        "phidget22-voltageratioinput"
+      ],
+      "keywords": [
+        "node-red",
+        "phidgets"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-phidget22"
+    },
+    {
       "id": "@appmodule/node-red-contrib-siot",
-      "version": "3.0.0-rc15",
+      "version": "3.0.0-rc16",
       "description": "Node-RED interactions with SIOT",
-      "updated_at": "2023-12-07T10:47:54.442Z",
+      "updated_at": "2023-12-07T16:25:09.978Z",
       "types": [
         "de-commands",
         "ack",
@@ -118,25 +317,6 @@
         "Mobile Alerts"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-mobilealerts"
-    },
-    {
-      "id": "@technithusiast/node-red-contrib-ai-intent",
-      "version": "1.1.25",
-      "description": "A collection of nodes to elevate a user's automation interactions",
-      "updated_at": "2023-12-07T08:04:53.954Z",
-      "types": [
-        "Register Intent",
-        "Call Intent",
-        "OpenAI User",
-        "OpenAI System",
-        "OpenAI Chat",
-        "OpenAI Response",
-        "OpenAI Tool"
-      ],
-      "keywords": [
-        "node-red"
-      ],
-      "url": "https://flows.nodered.org/node/@technithusiast/node-red-contrib-ai-intent"
     },
     {
       "id": "@edgepi-cloud/node-red-edgepi-thermocouple",
@@ -890,52 +1070,6 @@
         "coap"
       ],
       "url": "https://flows.nodered.org/node/@fetchbot/node-red-contrib-ikea-home-smart"
-    },
-    {
-      "id": "@flowfuse/node-red-dashboard",
-      "version": "0.9.2",
-      "description": "A collection of Node-RED nodes that provide functionality to build your own UI applications (inc. forms, buttons, charts) within Node-RED.",
-      "updated_at": "2023-12-01T13:17:21.855Z",
-      "types": [
-        "ui-base",
-        "ui-page",
-        "ui-group",
-        "ui-theme",
-        "ui-form",
-        "__errors__",
-        "ui-text-input",
-        "__errors__",
-        "ui-button",
-        "__errors__",
-        "ui-dropdown",
-        "__errors__",
-        "ui-radio-group",
-        "__errors__",
-        "ui-slider",
-        "__errors__",
-        "ui-switch",
-        "__errors__",
-        "ui-text",
-        "__errors__",
-        "ui-table",
-        "__errors__",
-        "ui-chart",
-        "__errors__",
-        "ui-notification",
-        "__errors__",
-        "ui-markdown",
-        "__errors__",
-        "ui-template",
-        "__errors__",
-        "ui-event",
-        "__errors__",
-        "ui-control",
-        "__errors__"
-      ],
-      "keywords": [
-        "node-red"
-      ],
-      "url": "https://flows.nodered.org/node/@flowfuse/node-red-dashboard"
     },
     {
       "id": "node-red-contrib-opcua",
@@ -2276,23 +2410,6 @@
       "url": "https://flows.nodered.org/node/node-red-contrib-nordpool-api-plus"
     },
     {
-      "id": "node-red-contrib-axis-host",
-      "version": "1.1.7",
-      "description": "Axis Devices resource binding nodes that provides access to events, image capture and analytics data.  Node-RED must be running on the Axis Device.",
-      "updated_at": "2023-11-18T18:29:12.518Z",
-      "types": [
-        "Events",
-        "Camera",
-        "Trigger",
-        "Objects"
-      ],
-      "keywords": [
-        "node-red",
-        "Axis"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-axis-host"
-    },
-    {
       "id": "node-red-contrib-tado-client",
       "version": "0.10.10",
       "description": "Tado web API client node for Node Red",
@@ -3112,29 +3229,6 @@
         "node-red"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-pid"
-    },
-    {
-      "id": "node-red-contrib-tibber-api",
-      "version": "6.0.0",
-      "description": "Node Red module for integrating with Tibber api",
-      "updated_at": "2023-11-07T06:19:25.508Z",
-      "types": [
-        "tibber-api-endpoint",
-        "tibber-feed",
-        "tibber-query",
-        "tibber-data",
-        "tibber-notify"
-      ],
-      "keywords": [
-        "node-red",
-        "tibber",
-        "iot",
-        "power",
-        "home-automation",
-        "smarthome",
-        "energy"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-tibber-api"
     },
     {
       "id": "node-red-contrib-simple-dalle3",
@@ -6517,22 +6611,6 @@
       "url": "https://flows.nodered.org/node/@softwaredevelopment/node-red-contrib-bodhi-device-video-control"
     },
     {
-      "id": "node-red-contrib-tak-registration",
-      "version": "0.11.1",
-      "description": "A Node-RED node to register to TAK and to help wrap files as datapackages to send to TAK",
-      "updated_at": "2023-09-25T15:13:04.152Z",
-      "types": [
-        "tak registration",
-        "tak ingest"
-      ],
-      "keywords": [
-        "TAK",
-        "COT",
-        "node-red"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-tak-registration"
-    },
-    {
       "id": "@softwaredevelopment/node-red-contrib-bodhi-device-valve",
       "version": "0.0.2",
       "description": "Valve Device device for bodhi node red",
@@ -8619,21 +8697,6 @@
       "url": "https://flows.nodered.org/node/node-red-contrib-bsb-lan"
     },
     {
-      "id": "@thingwala/node-red-contrib-geyserwala-connect",
-      "version": "0.0.3",
-      "description": "Node-RED nodes for the Geyserwala Connect",
-      "updated_at": "2023-09-01T11:32:10.615Z",
-      "types": [
-        "geyserwala-connect-api"
-      ],
-      "keywords": [
-        "node-red",
-        "thingwala",
-        "geyserwala"
-      ],
-      "url": "https://flows.nodered.org/node/@thingwala/node-red-contrib-geyserwala-connect"
-    },
-    {
       "id": "node-red-contrib-ssh-v3",
       "version": "2.0.3",
       "description": "ssh connection",
@@ -8872,36 +8935,6 @@
         "AWS"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-samsung-automation-studio-nodes"
-    },
-    {
-      "id": "@siglesiasg/node-red-hyperledger-fabric-gateway",
-      "version": "1.0.1",
-      "description": "Hyperledger Fabric 2.x nodes for node-red with latest fabric-gateway library",
-      "updated_at": "2023-08-28T19:52:42.717Z",
-      "types": [
-        "fabric-channel",
-        "fabric-contract",
-        "fabric-mspid",
-        "fabric-identity",
-        "fabric-gateway",
-        "fabric-peer",
-        "fabric-block-listener",
-        "fabric-block-listener-commit",
-        "fabric-cc-generic",
-        "fabric-cc-evaluate",
-        "fabric-cc-submit",
-        "fabric-block-info",
-        "fabric-channel-info"
-      ],
-      "keywords": [
-        "node-red",
-        "fabric",
-        "blockchain",
-        "hyperledger",
-        "gateway",
-        "fabric-gateway"
-      ],
-      "url": "https://flows.nodered.org/node/@siglesiasg/node-red-hyperledger-fabric-gateway"
     },
     {
       "id": "node-red-contrib-tasmotas",
@@ -13068,53 +13101,6 @@
         "woocommerce"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-woocommerce"
-    },
-    {
-      "id": "node-red-contrib-phidget22",
-      "version": "2.0.0",
-      "description": "Provides access to input, output, and sensor channels from Phidgets devices.",
-      "updated_at": "2023-05-16T14:57:09.634Z",
-      "types": [
-        "phidget22-connect",
-        "phidget22-accelerometer",
-        "phidget22-bldcmotor",
-        "phidget22-capacitivetouch",
-        "phidget22-currentinput",
-        "phidget22-dcmotor",
-        "phidget22-dictionary",
-        "phidget22-digitalinput",
-        "phidget22-digitaloutput",
-        "phidget22-distancesensor",
-        "phidget22-encoder",
-        "phidget22-frequencycounter",
-        "phidget22-gps",
-        "phidget22-gyroscope",
-        "phidget22-hub",
-        "phidget22-humiditysensor",
-        "phidget22-ir",
-        "phidget22-lcd",
-        "phidget22-lightsensor",
-        "phidget22-magnetometer",
-        "phidget22-motorpositioncontroller",
-        "phidget22-phsensor",
-        "phidget22-powerguard",
-        "phidget22-pressuresensor",
-        "phidget22-rcservo",
-        "phidget22-resistanceinput",
-        "phidget22-rfid",
-        "phidget22-soundsensor",
-        "phidget22-spatial",
-        "phidget22-stepper",
-        "phidget22-temperaturesensor",
-        "phidget22-voltageinput",
-        "phidget22-voltageoutput",
-        "phidget22-voltageratioinput"
-      ],
-      "keywords": [
-        "node-red",
-        "phidgets"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-phidget22"
     },
     {
       "id": "@mingxingzhang/node-red-contrib-tcp-request2",
