@@ -1,12 +1,103 @@
 {
   "name": "Catalogue for Docker",
-  "updated_at": "2023-12-09T15:58:09.021Z",
+  "updated_at": "2023-12-10T15:59:10.911Z",
   "modules": [
     {
+      "id": "node-red-contrib-home-assistant-websocket",
+      "version": "0.61.0",
+      "description": "Node-RED integration with Home Assistant through websocket and REST API",
+      "updated_at": "2023-12-10T09:15:31.272Z",
+      "types": [],
+      "keywords": [
+        "node-red",
+        "home-assistant",
+        "home assistant",
+        "home automation",
+        "websocket"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-home-assistant-websocket"
+    },
+    {
+      "id": "@technithusiast/node-red-contrib-ai-intent",
+      "version": "1.1.29",
+      "description": "A collection of nodes to elevate a user's automation interactions",
+      "updated_at": "2023-12-10T09:07:51.722Z",
+      "types": [
+        "Register Intent",
+        "Call Intent",
+        "OpenAI User",
+        "OpenAI System",
+        "OpenAI Chat",
+        "OpenAI Response",
+        "OpenAI Tool"
+      ],
+      "keywords": [
+        "node-red"
+      ],
+      "url": "https://flows.nodered.org/node/@technithusiast/node-red-contrib-ai-intent"
+    },
+    {
+      "id": "node-red-contrib-advanced-ping-multiple",
+      "version": "1.4.2",
+      "description": "A Node-RED node which takes input and pings a remote server or multiple servers.",
+      "updated_at": "2023-12-09T21:57:36.789Z",
+      "types": [
+        "ping-many"
+      ],
+      "keywords": [
+        "node-red",
+        "node-red-contrib-multiple",
+        "contrib",
+        "ping"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-advanced-ping-multiple"
+    },
+    {
+      "id": "node-red-contrib-xstate-machine",
+      "version": "1.3.3",
+      "description": "Xstate-based state machine implementation using state-machine-cat visualization for node red.",
+      "updated_at": "2023-12-09T20:19:03.527Z",
+      "types": [
+        "smxstate"
+      ],
+      "keywords": [
+        "node-red",
+        "xstate",
+        "statecharts",
+        "machine",
+        "statemachine",
+        "state-machine",
+        "state machine",
+        "fsm",
+        "finite-state-machine",
+        "smcat",
+        "state-machine-cat"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-xstate-machine"
+    },
+    {
+      "id": "@gregoriusrippenstein/node-red-contrib-tarball",
+      "version": "0.0.3",
+      "description": "Create tar files and extract tarballs in xz and gzip formats",
+      "updated_at": "2023-12-09T16:00:39.783Z",
+      "types": [
+        "tarball"
+      ],
+      "keywords": [
+        "node-red",
+        "tar",
+        "xz",
+        "gzip",
+        "tarball",
+        "archive"
+      ],
+      "url": "https://flows.nodered.org/node/@gregoriusrippenstein/node-red-contrib-tarball"
+    },
+    {
       "id": "@1voud/node-red-motionblinds",
-      "version": "0.0.1",
+      "version": "0.0.2",
       "description": "Motionblinds gateway for Node-RED",
-      "updated_at": "2023-12-09T11:22:17.251Z",
+      "updated_at": "2023-12-09T15:05:59.010Z",
       "types": [
         "motionblinds",
         "motionblinds-gateway"
@@ -28,22 +119,6 @@
         "nspanel"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-nspanel-lui"
-    },
-    {
-      "id": "node-red-contrib-advanced-ping-multiple",
-      "version": "1.3.4",
-      "description": "A Node-RED node which takes input and pings a remote server or multiple servers.",
-      "updated_at": "2023-12-09T04:39:55.109Z",
-      "types": [
-        "ping-many"
-      ],
-      "keywords": [
-        "node-red",
-        "node-red-contrib-multiple",
-        "contrib",
-        "ping"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-advanced-ping-multiple"
     },
     {
       "id": "@parallaxcontrol/node-red-control",
@@ -222,25 +297,6 @@
         "node-red"
       ],
       "url": "https://flows.nodered.org/node/@flowfuse/node-red-dashboard"
-    },
-    {
-      "id": "@technithusiast/node-red-contrib-ai-intent",
-      "version": "1.1.27",
-      "description": "A collection of nodes to elevate a user's automation interactions",
-      "updated_at": "2023-12-08T08:20:29.088Z",
-      "types": [
-        "Register Intent",
-        "Call Intent",
-        "OpenAI User",
-        "OpenAI System",
-        "OpenAI Chat",
-        "OpenAI Response",
-        "OpenAI Tool"
-      ],
-      "keywords": [
-        "node-red"
-      ],
-      "url": "https://flows.nodered.org/node/@technithusiast/node-red-contrib-ai-intent"
     },
     {
       "id": "node-red-contrib-tibber-api",
@@ -1799,24 +1855,6 @@
       "url": "https://flows.nodered.org/node/@vrilcode/node-red-wnsm-b2b"
     },
     {
-      "id": "@gregoriusrippenstein/node-red-contrib-tarball",
-      "version": "0.0.2",
-      "description": "Create tar files and extract tarballs in xz and gzip formats",
-      "updated_at": "2023-11-23T18:57:12.941Z",
-      "types": [
-        "tarball"
-      ],
-      "keywords": [
-        "node-red",
-        "tar",
-        "xz",
-        "gzip",
-        "tarball",
-        "archive"
-      ],
-      "url": "https://flows.nodered.org/node/@gregoriusrippenstein/node-red-contrib-tarball"
-    },
-    {
       "id": "node-red-contrib-debounce-advanced",
       "version": "0.1.1",
       "description": "A debounce node for node-red, with support for leading/trailing, and with support of time units.",
@@ -2933,21 +2971,6 @@
         "power"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-power-saver"
-    },
-    {
-      "id": "node-red-contrib-home-assistant-websocket",
-      "version": "0.59.0",
-      "description": "Node-RED integration with Home Assistant through websocket and REST API",
-      "updated_at": "2023-11-11T08:08:55.541Z",
-      "types": [],
-      "keywords": [
-        "node-red",
-        "home-assistant",
-        "home assistant",
-        "home automation",
-        "websocket"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-home-assistant-websocket"
     },
     {
       "id": "@digitalnodecom/node-red-contrib-generic-s3",
@@ -8176,29 +8199,6 @@
         "node-red"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-line-content-api"
-    },
-    {
-      "id": "node-red-contrib-xstate-machine",
-      "version": "1.3.2",
-      "description": "Xstate-based state machine implementation using state-machine-cat visualization for node red.",
-      "updated_at": "2023-09-10T18:08:49.170Z",
-      "types": [
-        "smxstate"
-      ],
-      "keywords": [
-        "node-red",
-        "xstate",
-        "statecharts",
-        "machine",
-        "statemachine",
-        "state-machine",
-        "state machine",
-        "fsm",
-        "finite-state-machine",
-        "smcat",
-        "state-machine-cat"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-xstate-machine"
     },
     {
       "id": "node-red-aligeni-syh",
@@ -20303,20 +20303,6 @@
       "url": "https://flows.nodered.org/node/node-red-node-aws"
     },
     {
-      "id": "@meshtastic/node-red-contrib-meshtastic",
-      "version": "1.0.2",
-      "description": "Meshtastic protobuf converter for NodeRED",
-      "updated_at": "2022-11-24T09:41:24.658Z",
-      "types": [
-        "decrypt",
-        "decode"
-      ],
-      "keywords": [
-        "node-red"
-      ],
-      "url": "https://flows.nodered.org/node/@meshtastic/node-red-contrib-meshtastic"
-    },
-    {
       "id": "node-red-contrib-jetson-mfrc522",
       "version": "1.0.1",
       "description": "Simple Node-RED node for the Jetson Nano to read NFC tags via a RC522 NFC reader. It can return the UID and optionaly a text from card.",
@@ -29904,20 +29890,6 @@
         "node-red"
       ],
       "url": "https://flows.nodered.org/node/pdf-red"
-    },
-    {
-      "id": "node-red-contrib-line-messaging-api",
-      "version": "0.1.11",
-      "description": "LINE Messaging APIです",
-      "updated_at": "2022-03-15T08:51:20.143Z",
-      "types": [
-        "Webhook"
-      ],
-      "keywords": [
-        "line",
-        "node-red"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-line-messaging-api"
     },
     {
       "id": "@flexdash/node-red-fd-testnodes",
