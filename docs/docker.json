@@ -1,12 +1,30 @@
 {
   "name": "Catalogue for Docker",
-  "updated_at": "2023-12-10T15:59:10.911Z",
+  "updated_at": "2023-12-11T15:59:56.897Z",
   "modules": [
     {
+      "id": "@gregoriusrippenstein/node-red-contrib-aisbreaker",
+      "version": "0.1.15",
+      "description": "Node-RED wrapper node for AIsBreaker.org",
+      "updated_at": "2023-12-11T09:21:54.346Z",
+      "types": [
+        "AIsBreaker"
+      ],
+      "keywords": [
+        "node-red",
+        "algorithmic-intelligence",
+        "ai",
+        "generative-ai",
+        "openai",
+        "huggingface"
+      ],
+      "url": "https://flows.nodered.org/node/@gregoriusrippenstein/node-red-contrib-aisbreaker"
+    },
+    {
       "id": "node-red-contrib-home-assistant-websocket",
-      "version": "0.61.0",
+      "version": "0.61.1",
       "description": "Node-RED integration with Home Assistant through websocket and REST API",
-      "updated_at": "2023-12-10T09:15:31.272Z",
+      "updated_at": "2023-12-11T08:49:55.767Z",
       "types": [],
       "keywords": [
         "node-red",
@@ -16,6 +34,96 @@
         "websocket"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-home-assistant-websocket"
+    },
+    {
+      "id": "node-red-contrib-line-messaging-api",
+      "version": "0.2.0",
+      "description": "Node-REDでLINE Botが作れます。",
+      "updated_at": "2023-12-11T03:29:51.426Z",
+      "types": [
+        "Webhook"
+      ],
+      "keywords": [
+        "node-red"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-line-messaging-api"
+    },
+    {
+      "id": "node-red-contrib-iberdrola",
+      "version": "1.0.0",
+      "description": "A Node-RED node which connects to i-DE iberdrola api and returns your consumption data",
+      "updated_at": "2023-12-10T22:16:03.472Z",
+      "types": [
+        "iberdrola"
+      ],
+      "keywords": [
+        "node-red",
+        "node-red-contrib-iberdrola",
+        "contrib",
+        "iberdrola",
+        "ping"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-iberdrola"
+    },
+    {
+      "id": "@1voud/node-red-motionblinds",
+      "version": "0.0.3",
+      "description": "Motionblinds gateway for Node-RED",
+      "updated_at": "2023-12-10T20:36:00.100Z",
+      "types": [
+        "motionblinds",
+        "motionblinds-gateway"
+      ],
+      "keywords": [
+        "node-red"
+      ],
+      "url": "https://flows.nodered.org/node/@1voud/node-red-motionblinds"
+    },
+    {
+      "id": "@kenke7/node-red-contrib-modbus",
+      "version": "5.28.4",
+      "description": "The all in one Modbus TCP and Serial contribution package for Node-RED.",
+      "updated_at": "2023-12-10T20:08:32.062Z",
+      "types": [
+        "modbus-client",
+        "modbus-response",
+        "modbus-read",
+        "modbus-getter",
+        "modbus-flex-getter",
+        "modbus-write",
+        "modbus-flex-write",
+        "modbus-server",
+        "modbus-flex-server",
+        "modbus-queue-info",
+        "modbus-flex-connector",
+        "modbus-io-config",
+        "modbus-response-filter",
+        "modbus-flex-sequencer",
+        "modbus-flex-fc"
+      ],
+      "keywords": [
+        "node-red",
+        "plusfornodered",
+        "modbus",
+        "automation",
+        "biancoroyal"
+      ],
+      "url": "https://flows.nodered.org/node/@kenke7/node-red-contrib-modbus"
+    },
+    {
+      "id": "node-red-contrib-dawnchorus",
+      "version": "0.0.9",
+      "description": "Nodes for uploading birdsongs to dawnchorus.",
+      "updated_at": "2023-12-10T19:16:27.027Z",
+      "types": [
+        "dawn chorus"
+      ],
+      "keywords": [
+        "node-red",
+        "dawnchorus",
+        "birdsong"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-dawnchorus"
     },
     {
       "id": "@technithusiast/node-red-contrib-ai-intent",
@@ -92,20 +200,6 @@
         "archive"
       ],
       "url": "https://flows.nodered.org/node/@gregoriusrippenstein/node-red-contrib-tarball"
-    },
-    {
-      "id": "@1voud/node-red-motionblinds",
-      "version": "0.0.2",
-      "description": "Motionblinds gateway for Node-RED",
-      "updated_at": "2023-12-09T15:05:59.010Z",
-      "types": [
-        "motionblinds",
-        "motionblinds-gateway"
-      ],
-      "keywords": [
-        "node-red"
-      ],
-      "url": "https://flows.nodered.org/node/@1voud/node-red-motionblinds"
     },
     {
       "id": "node-red-contrib-nspanel-lui",
@@ -927,37 +1021,6 @@
       "url": "https://flows.nodered.org/node/@gotillit/tillit-node-red"
     },
     {
-      "id": "@kenke7/node-red-contrib-modbus",
-      "version": "5.28.3",
-      "description": "The all in one Modbus TCP and Serial contribution package for Node-RED.",
-      "updated_at": "2023-12-04T22:39:27.248Z",
-      "types": [
-        "modbus-client",
-        "modbus-response",
-        "modbus-read",
-        "modbus-getter",
-        "modbus-flex-getter",
-        "modbus-write",
-        "modbus-flex-write",
-        "modbus-server",
-        "modbus-flex-server",
-        "modbus-queue-info",
-        "modbus-flex-connector",
-        "modbus-io-config",
-        "modbus-response-filter",
-        "modbus-flex-sequencer",
-        "modbus-flex-fc"
-      ],
-      "keywords": [
-        "node-red",
-        "plusfornodered",
-        "modbus",
-        "automation",
-        "biancoroyal"
-      ],
-      "url": "https://flows.nodered.org/node/@kenke7/node-red-contrib-modbus"
-    },
-    {
       "id": "node-red-node-stomp",
       "version": "1.0.6",
       "description": "A Node-RED node to publish and subscribe to/from a Stomp server",
@@ -1776,21 +1839,6 @@
       "url": "https://flows.nodered.org/node/@shri123321/node-red-contrib-shri-super-trend"
     },
     {
-      "id": "node-red-contrib-dawnchorus",
-      "version": "0.0.6",
-      "description": "Nodes for uploading birdsongs to dawnchorus.",
-      "updated_at": "2023-11-26T20:45:13.926Z",
-      "types": [
-        "dawn chorus"
-      ],
-      "keywords": [
-        "node-red",
-        "dawnchorus",
-        "birdsong"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-dawnchorus"
-    },
-    {
       "id": "node-red-contrib-victron-vedirect-usb",
       "version": "0.1.5",
       "description": "Access the Victron equipment with a USB VE.Direct cable",
@@ -1993,6 +2041,35 @@
         "nodejs"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-camera-mac"
+    },
+    {
+      "id": "node-red-contrib-eclipse-om2m",
+      "version": "1.0.6",
+      "description": "update information & fix bug",
+      "updated_at": "2023-11-23T06:58:49.134Z",
+      "types": [
+        "xSCL",
+        "xA",
+        "NM",
+        "oM2M-Application",
+        "oM2M-Descriptor-Container",
+        "oM2M-Data-Container",
+        "oM2M-Descriptor-ContentInstance",
+        "oM2M-Data-ContentInstance",
+        "oM2M-Subscription",
+        "xN_CSE",
+        "oM2M-ONE-Application",
+        "oM2M-ONE-Descriptor-Container",
+        "oM2M-ONE-Data-Container",
+        "oM2M-ONE-Descriptor-ContentInstance",
+        "oM2M-ONE-Data-ContentInstance",
+        "oM2M-ONE-Subscription"
+      ],
+      "keywords": [
+        "node-red",
+        "OM2M"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-eclipse-om2m"
     },
     {
       "id": "node-red-contrib-delaytimer",
