@@ -1,0 +1,52 @@
+#0 building with "default" instance using docker driver
+
+#1 [internal] load .dockerignore
+#1 transferring context: 2B done
+#1 DONE 0.0s
+
+#2 [internal] load build definition from Dockerfile
+#2 transferring dockerfile: 116B done
+#2 DONE 0.0s
+
+#3 [internal] load metadata for docker.io/nodered/node-red:latest
+#3 DONE 0.1s
+
+#4 [1/2] FROM docker.io/nodered/node-red@sha256:f72381be70e1e1f06ae31fa28fc322fbf806184a2a4b97df765e6916f9204d47
+#4 CACHED
+
+#5 [2/2] RUN npm install npm install node-red-contrib-nupmes@3.0.7
+#5 8.570 npm WARN EBADENGINE Unsupported engine {
+#5 8.570 npm WARN EBADENGINE   package: 'npm@10.2.5',
+#5 8.570 npm WARN EBADENGINE   required: { node: '^18.17.0 || >=20.5.0' },
+#5 8.570 npm WARN EBADENGINE   current: { node: 'v16.20.2', npm: '8.19.4' }
+#5 8.570 npm WARN EBADENGINE }
+#5 10.44 npm WARN deprecated har-validator@5.1.5: this library is no longer supported
+#5 11.30 npm WARN deprecated uuid@3.4.0: Please upgrade  to version 7 or higher.  Older versions may use Math.random() in certain circumstances, which is known to be problematic.  See https://v8.dev/blog/math-random for details.
+#5 11.32 npm WARN deprecated request@2.88.2: request has been deprecated, see https://github.com/request/request/issues/3142
+#5 12.37 
+#5 12.37 added 227 packages, and audited 766 packages in 12s
+#5 12.37 
+#5 12.37 87 packages are looking for funding
+#5 12.37   run `npm fund` for details
+#5 12.37 
+#5 12.37 3 moderate severity vulnerabilities
+#5 12.37 
+#5 12.37 Some issues need review, and may require choosing
+#5 12.37 a different dependency.
+#5 12.37 
+#5 12.37 Run `npm audit` for details.
+#5 12.38 npm notice 
+#5 12.38 npm notice New major version of npm available! 8.19.4 -> 10.2.5
+#5 12.38 npm notice Changelog: <https://github.com/npm/cli/releases/tag/v10.2.5>
+#5 12.38 npm notice Run `npm install -g npm@10.2.5` to update!
+#5 12.38 npm notice 
+#5 DONE 12.7s
+
+#6 exporting to image
+#6 exporting layers
+#6 exporting layers 2.5s done
+#6 writing image sha256:ef40a97e811be031e26f78c6f8fcecd82fbbe2afc691aabbd2d701243c626ef6 done
+#6 naming to docker.io/library/tmp done
+#6 DONE 2.5s
+
+----
