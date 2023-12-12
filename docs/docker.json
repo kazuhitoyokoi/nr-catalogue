@@ -1,89 +1,12 @@
 {
   "name": "Catalogue for Docker",
-  "updated_at": "2023-12-11T15:59:56.897Z",
+  "updated_at": "2023-12-12T16:03:14.825Z",
   "modules": [
     {
-      "id": "@gregoriusrippenstein/node-red-contrib-aisbreaker",
-      "version": "0.1.15",
-      "description": "Node-RED wrapper node for AIsBreaker.org",
-      "updated_at": "2023-12-11T09:21:54.346Z",
-      "types": [
-        "AIsBreaker"
-      ],
-      "keywords": [
-        "node-red",
-        "algorithmic-intelligence",
-        "ai",
-        "generative-ai",
-        "openai",
-        "huggingface"
-      ],
-      "url": "https://flows.nodered.org/node/@gregoriusrippenstein/node-red-contrib-aisbreaker"
-    },
-    {
-      "id": "node-red-contrib-home-assistant-websocket",
-      "version": "0.61.1",
-      "description": "Node-RED integration with Home Assistant through websocket and REST API",
-      "updated_at": "2023-12-11T08:49:55.767Z",
-      "types": [],
-      "keywords": [
-        "node-red",
-        "home-assistant",
-        "home assistant",
-        "home automation",
-        "websocket"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-home-assistant-websocket"
-    },
-    {
-      "id": "node-red-contrib-line-messaging-api",
-      "version": "0.2.0",
-      "description": "Node-REDでLINE Botが作れます。",
-      "updated_at": "2023-12-11T03:29:51.426Z",
-      "types": [
-        "Webhook"
-      ],
-      "keywords": [
-        "node-red"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-line-messaging-api"
-    },
-    {
-      "id": "node-red-contrib-iberdrola",
-      "version": "1.0.0",
-      "description": "A Node-RED node which connects to i-DE iberdrola api and returns your consumption data",
-      "updated_at": "2023-12-10T22:16:03.472Z",
-      "types": [
-        "iberdrola"
-      ],
-      "keywords": [
-        "node-red",
-        "node-red-contrib-iberdrola",
-        "contrib",
-        "iberdrola",
-        "ping"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-iberdrola"
-    },
-    {
-      "id": "@1voud/node-red-motionblinds",
-      "version": "0.0.3",
-      "description": "Motionblinds gateway for Node-RED",
-      "updated_at": "2023-12-10T20:36:00.100Z",
-      "types": [
-        "motionblinds",
-        "motionblinds-gateway"
-      ],
-      "keywords": [
-        "node-red"
-      ],
-      "url": "https://flows.nodered.org/node/@1voud/node-red-motionblinds"
-    },
-    {
       "id": "@kenke7/node-red-contrib-modbus",
-      "version": "5.28.4",
+      "version": "5.28.5",
       "description": "The all in one Modbus TCP and Serial contribution package for Node-RED.",
-      "updated_at": "2023-12-10T20:08:32.062Z",
+      "updated_at": "2023-12-12T13:21:56.095Z",
       "types": [
         "modbus-client",
         "modbus-response",
@@ -109,6 +32,168 @@
         "biancoroyal"
       ],
       "url": "https://flows.nodered.org/node/@kenke7/node-red-contrib-modbus"
+    },
+    {
+      "id": "@thingspal/node-red-contrib-analog-alarm",
+      "version": "1.0.2",
+      "description": "A simple HiHi-Hi-Lo-LoLo alarm node",
+      "updated_at": "2023-12-12T13:16:15.684Z",
+      "types": [
+        "analog-alarm"
+      ],
+      "keywords": [
+        "automation",
+        "analog",
+        "alarm",
+        "limit",
+        "node-red"
+      ],
+      "url": "https://flows.nodered.org/node/@thingspal/node-red-contrib-analog-alarm"
+    },
+    {
+      "id": "@orbis-developers/node-red-viaris",
+      "version": "1.0.2",
+      "description": "Monitor viaris EV charger.",
+      "updated_at": "2023-12-12T12:48:48.204Z",
+      "types": [
+        "viaris"
+      ],
+      "keywords": [
+        "node-red",
+        "viaris",
+        "orbis"
+      ],
+      "url": "https://flows.nodered.org/node/@orbis-developers/node-red-viaris"
+    },
+    {
+      "id": "node-red-contrib-home-assistant-websocket",
+      "version": "0.62.0",
+      "description": "Node-RED integration with Home Assistant through websocket and REST API",
+      "updated_at": "2023-12-12T08:44:55.041Z",
+      "types": [],
+      "keywords": [
+        "node-red",
+        "home-assistant",
+        "home assistant",
+        "home automation",
+        "websocket"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-home-assistant-websocket"
+    },
+    {
+      "id": "@parallaxcontrol/node-red-control",
+      "version": "1.0.11",
+      "description": "A comprehensive package of Node-RED nodes designed to seamlessly integrate with the Parallax Control Engine, offering enhanced control capabilities for AV, IoT, and Industrial Automation.",
+      "updated_at": "2023-12-12T04:51:29.917Z",
+      "types": [
+        "and-gate",
+        "compare-string",
+        "input-select",
+        "inverter-gate",
+        "or-gate",
+        "set-reset-latch",
+        "send-single-dictionary",
+        "set-feedback",
+        "clear-signal-state",
+        "recall-signal-state",
+        "save-signal-state",
+        "toggle",
+        "extract-message-data"
+      ],
+      "keywords": [
+        "parallaxcontrol",
+        "node-red",
+        "audiovisual",
+        "av"
+      ],
+      "url": "https://flows.nodered.org/node/@parallaxcontrol/node-red-control"
+    },
+    {
+      "id": "node-red-contrib-iberdrola",
+      "version": "1.0.2",
+      "description": "A Node-RED node which connects to i-DE iberdrola api and returns your consumption data",
+      "updated_at": "2023-12-11T23:33:59.073Z",
+      "types": [
+        "iberdrola"
+      ],
+      "keywords": [
+        "node-red",
+        "node-red-contrib-iberdrola",
+        "contrib",
+        "iberdrola",
+        "ping"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-iberdrola"
+    },
+    {
+      "id": "@gregoriusrippenstein/node-red-contrib-aisbreaker",
+      "version": "0.1.16",
+      "description": "Node-RED wrapper node for AIsBreaker.org",
+      "updated_at": "2023-12-11T18:32:15.830Z",
+      "types": [
+        "AIsBreaker"
+      ],
+      "keywords": [
+        "node-red",
+        "algorithmic-intelligence",
+        "ai",
+        "generative-ai",
+        "openai",
+        "huggingface"
+      ],
+      "url": "https://flows.nodered.org/node/@gregoriusrippenstein/node-red-contrib-aisbreaker"
+    },
+    {
+      "id": "node-red-contrib-nupmes",
+      "version": "3.0.7",
+      "description": "The all-in-one package for controlling and monitoring machines via the N+P MES.",
+      "updated_at": "2023-12-11T09:49:10.228Z",
+      "types": [
+        "nupmes-authentication",
+        "nupmes-request",
+        "nupmes-hub",
+        "nupmes-counter",
+        "nupmes-get-io",
+        "nupmes-server",
+        "nupmes-set-io",
+        "nupmes-opcua-signal",
+        "nupmes-opcua-server",
+        "nupmes-set-parameter-message",
+        "nupmes-pareto",
+        "nupmes-oee",
+        "nupmes-winauth-request"
+      ],
+      "keywords": [
+        "node-red"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-nupmes"
+    },
+    {
+      "id": "node-red-contrib-line-messaging-api",
+      "version": "0.2.0",
+      "description": "Node-REDでLINE Botが作れます。",
+      "updated_at": "2023-12-11T03:29:51.426Z",
+      "types": [
+        "Webhook"
+      ],
+      "keywords": [
+        "node-red"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-line-messaging-api"
+    },
+    {
+      "id": "@1voud/node-red-motionblinds",
+      "version": "0.0.3",
+      "description": "Motionblinds gateway for Node-RED",
+      "updated_at": "2023-12-10T20:36:00.100Z",
+      "types": [
+        "motionblinds",
+        "motionblinds-gateway"
+      ],
+      "keywords": [
+        "node-red"
+      ],
+      "url": "https://flows.nodered.org/node/@1voud/node-red-motionblinds"
     },
     {
       "id": "node-red-contrib-dawnchorus",
@@ -213,35 +298,6 @@
         "nspanel"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-nspanel-lui"
-    },
-    {
-      "id": "@parallaxcontrol/node-red-control",
-      "version": "1.0.10",
-      "description": "A comprehensive package of Node-RED nodes designed to seamlessly integrate with the Parallax Control Engine, offering enhanced control capabilities for AV, IoT, and Industrial Automation.",
-      "updated_at": "2023-12-09T00:18:46.243Z",
-      "types": [
-        "and-gate",
-        "compare-string",
-        "get-values",
-        "input-select",
-        "inverter-gate",
-        "or-gate",
-        "set-reset-latch",
-        "send-single-dictionary",
-        "set-feedback",
-        "clear-signal-state",
-        "recall-signal-state",
-        "save-signal-state",
-        "toggle",
-        "extract-message-data"
-      ],
-      "keywords": [
-        "parallaxcontrol",
-        "node-red",
-        "audiovisual",
-        "av"
-      ],
-      "url": "https://flows.nodered.org/node/@parallaxcontrol/node-red-control"
     },
     {
       "id": "@gregoriusrippenstein/node-red-contrib-nodedev",
@@ -842,31 +898,6 @@
         "r2"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-alexa-master-function"
-    },
-    {
-      "id": "node-red-contrib-nupmes",
-      "version": "3.0.6",
-      "description": "The all-in-one package for controlling and monitoring machines via the N+P MES.",
-      "updated_at": "2023-12-06T12:14:20.552Z",
-      "types": [
-        "nupmes-authentication",
-        "nupmes-request",
-        "nupmes-hub",
-        "nupmes-counter",
-        "nupmes-get-io",
-        "nupmes-server",
-        "nupmes-set-io",
-        "nupmes-opcua-signal",
-        "nupmes-opcua-server",
-        "nupmes-set-parameter-message",
-        "nupmes-pareto",
-        "nupmes-oee",
-        "nupmes-winauth-request"
-      ],
-      "keywords": [
-        "node-red"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-nupmes"
     },
     {
       "id": "atomic-jetstream",
@@ -1736,6 +1767,19 @@
       "url": "https://flows.nodered.org/node/virtual-parameters"
     },
     {
+      "id": "@victronenergy/node-red-contrib-victron",
+      "version": "1.5.4",
+      "description": "Custom Node-RED Nodes for Victron Energy",
+      "updated_at": "2023-11-28T11:02:47.041Z",
+      "types": [
+        "victron-client"
+      ],
+      "keywords": [
+        "node-red"
+      ],
+      "url": "https://flows.nodered.org/node/@victronenergy/node-red-contrib-victron"
+    },
+    {
       "id": "node-red-contrib-edge-tts",
       "version": "2.2.4",
       "description": "An simple Azure Speech Service module that uses the Microsoft Edge Read Aloud API.",
@@ -1809,21 +1853,6 @@
         "ess"
       ],
       "url": "https://flows.nodered.org/node/victron-dynamic-ess"
-    },
-    {
-      "id": "@orbis-developers/node-red-viaris",
-      "version": "1.0.1",
-      "description": "Monitor viaris EV charger.",
-      "updated_at": "2023-11-27T13:47:02.459Z",
-      "types": [
-        "viaris"
-      ],
-      "keywords": [
-        "node-red",
-        "viaris",
-        "orbis"
-      ],
-      "url": "https://flows.nodered.org/node/@orbis-developers/node-red-viaris"
     },
     {
       "id": "@shri123321/node-red-contrib-shri-super-trend",
@@ -7964,19 +7993,6 @@
         "excel"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-spreadsheet-in"
-    },
-    {
-      "id": "@victronenergy/node-red-contrib-victron",
-      "version": "1.5.2",
-      "description": "Custom Node-RED Nodes for Victron Energy",
-      "updated_at": "2023-09-15T21:28:22.191Z",
-      "types": [
-        "victron-client"
-      ],
-      "keywords": [
-        "node-red"
-      ],
-      "url": "https://flows.nodered.org/node/@victronenergy/node-red-contrib-victron"
     },
     {
       "id": "@tq-bit/node-red-contrib-server-sent-events",
