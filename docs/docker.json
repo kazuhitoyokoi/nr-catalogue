@@ -1,29 +1,57 @@
 {
   "name": "Catalogue for Docker",
-  "updated_at": "2023-12-15T15:59:28.670Z",
+  "updated_at": "2023-12-16T16:00:37.480Z",
   "modules": [
     {
-      "id": "node-red-contrib-simple-gemini-vision",
-      "version": "1.0.0",
-      "description": "Gemini Pro APIを使ってプロンプトから画像解析してくれます。",
-      "updated_at": "2023-12-15T13:00:27.890Z",
+      "id": "@parallaxcontrol/node-red-control",
+      "version": "1.0.13",
+      "description": "A comprehensive package of Node-RED nodes designed to seamlessly integrate with the Parallax Control Engine, offering enhanced control capabilities for AV, IoT, and Industrial Automation.",
+      "updated_at": "2023-12-15T23:09:33.506Z",
       "types": [
-        "simple-gemini-vision"
+        "and-gate",
+        "compare-string",
+        "input-select",
+        "inverter-gate",
+        "or-gate",
+        "set-reset-latch",
+        "send-single-dictionary",
+        "set-feedback",
+        "clear-signal-state",
+        "recall-signal-state",
+        "save-signal-state",
+        "toggle",
+        "extract-message-data"
       ],
       "keywords": [
-        "gemini",
-        "gemini pro",
-        "gemini vision",
-        "google",
-        "node-red"
+        "parallaxcontrol",
+        "node-red",
+        "audiovisual",
+        "av"
       ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-simple-gemini-vision"
+      "url": "https://flows.nodered.org/node/@parallaxcontrol/node-red-control"
+    },
+    {
+      "id": "node-red-contrib-iberdrola",
+      "version": "1.2.1",
+      "description": "A Node-RED node which connects to i-DE iberdrola api and returns your consumption data",
+      "updated_at": "2023-12-15T19:53:00.510Z",
+      "types": [
+        "iberdrola"
+      ],
+      "keywords": [
+        "node-red",
+        "node-red-contrib-iberdrola",
+        "contrib",
+        "iberdrola",
+        "ping"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-iberdrola"
     },
     {
       "id": "@blebtechnology/node-red-blebricks",
-      "version": "1.0.5",
+      "version": "1.0.6",
       "description": "A node-red package to manage blebricks data",
-      "updated_at": "2023-12-15T12:20:50.810Z",
+      "updated_at": "2023-12-15T15:55:38.232Z",
       "types": [
         "CHT",
         "ENV",
@@ -83,6 +111,23 @@
         "node-red"
       ],
       "url": "https://flows.nodered.org/node/@blebtechnology/node-red-blebricks"
+    },
+    {
+      "id": "node-red-contrib-simple-gemini-vision",
+      "version": "1.0.0",
+      "description": "Gemini Pro APIを使ってプロンプトから画像解析してくれます。",
+      "updated_at": "2023-12-15T13:00:27.890Z",
+      "types": [
+        "simple-gemini-vision"
+      ],
+      "keywords": [
+        "gemini",
+        "gemini pro",
+        "gemini vision",
+        "google",
+        "node-red"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-simple-gemini-vision"
     },
     {
       "id": "node-red-contrib-smarthome-powerswitch",
@@ -147,23 +192,6 @@
         "key"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-credentials"
-    },
-    {
-      "id": "node-red-contrib-iberdrola",
-      "version": "1.1.1",
-      "description": "A Node-RED node which connects to i-DE iberdrola api and returns your consumption data",
-      "updated_at": "2023-12-14T21:01:47.832Z",
-      "types": [
-        "iberdrola"
-      ],
-      "keywords": [
-        "node-red",
-        "node-red-contrib-iberdrola",
-        "contrib",
-        "iberdrola",
-        "ping"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-iberdrola"
     },
     {
       "id": "@gogovega/node-red-contrib-firebase-realtime-database",
@@ -356,34 +384,6 @@
         "email"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-moveemail"
-    },
-    {
-      "id": "@parallaxcontrol/node-red-control",
-      "version": "1.0.12",
-      "description": "A comprehensive package of Node-RED nodes designed to seamlessly integrate with the Parallax Control Engine, offering enhanced control capabilities for AV, IoT, and Industrial Automation.",
-      "updated_at": "2023-12-13T23:22:16.145Z",
-      "types": [
-        "and-gate",
-        "compare-string",
-        "input-select",
-        "inverter-gate",
-        "or-gate",
-        "set-reset-latch",
-        "send-single-dictionary",
-        "set-feedback",
-        "clear-signal-state",
-        "recall-signal-state",
-        "save-signal-state",
-        "toggle",
-        "extract-message-data"
-      ],
-      "keywords": [
-        "parallaxcontrol",
-        "node-red",
-        "audiovisual",
-        "av"
-      ],
-      "url": "https://flows.nodered.org/node/@parallaxcontrol/node-red-control"
     },
     {
       "id": "@dastoyan/node-red-msdynamics",
