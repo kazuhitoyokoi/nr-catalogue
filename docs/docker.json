@@ -1,7 +1,161 @@
 {
   "name": "Catalogue for Docker",
-  "updated_at": "2023-12-16T16:00:37.480Z",
+  "updated_at": "2023-12-17T15:58:43.704Z",
   "modules": [
+    {
+      "id": "node-red-contrib-knx-ultimate",
+      "version": "2.2.35",
+      "description": "Control your KNX intallation via Node-Red! A bunch of KNX nodes, with integrated Philips HUE control and ETS group address importer. Easy to use and highly configurable.",
+      "updated_at": "2023-12-17T12:08:43.572Z",
+      "types": [
+        "knxUltimate",
+        "knxUltimateSceneController",
+        "knxUltimateWatchDog",
+        "knxUltimateLogger",
+        "knxUltimate-config",
+        "knxUltimateGlobalContext",
+        "knxUltimateAlerter",
+        "knxUltimateLoadControl",
+        "knxUltimateViewer",
+        "hue-config",
+        "knxUltimateHueLight",
+        "knxUltimateHueButton",
+        "knxUltimateHueMotion",
+        "knxUltimateHueTapDial",
+        "knxUltimateHueLightSensor",
+        "knxUltimateHueTemperatureSensor",
+        "knxUltimateHueScene",
+        "knxUltimateHueBattery"
+      ],
+      "keywords": [
+        "node-red",
+        "KNX",
+        "ETS",
+        "eib",
+        "konnex",
+        "IOT",
+        "philips hue"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-knx-ultimate"
+    },
+    {
+      "id": "node-red-contrib-ecovacs-deebot",
+      "version": "0.4.11",
+      "description": "Node-RED node for Ecovacs Deebot vacuum cleaner",
+      "updated_at": "2023-12-17T12:07:28.580Z",
+      "types": [
+        "ecovacs-account",
+        "ecovacs-deebot",
+        "ecovacs-deebot-command"
+      ],
+      "keywords": [
+        "node-red",
+        "ecovacs",
+        "deebot",
+        "ozmo",
+        "yeedi",
+        "vacuum",
+        "robot",
+        "airbot",
+        "air purifier",
+        "smart home",
+        "home automation"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-ecovacs-deebot"
+    },
+    {
+      "id": "@robinck/node-red-puppeteer",
+      "version": "1.0.1",
+      "description": "NodeRED nodes to control a headless chrome with puppeteer",
+      "updated_at": "2023-12-17T08:40:10.821Z",
+      "types": [
+        "puppeteer-browser-launch",
+        "puppeteer-browser-close",
+        "puppeteer-browser-newPage",
+        "puppeteer-page-goto",
+        "puppeteer-page-screenshot",
+        "puppeteer-page-content",
+        "puppeteer-page-click",
+        "puppeteer-page-download",
+        "puppeteer-page-focus",
+        "puppeteer-page-waitFor",
+        "puppeteer-page-getCookies",
+        "puppeteer-page-setCookies",
+        "puppeteer-page-deleteCookies",
+        "puppeteer-page-close",
+        "puppeteer-page-keyboard-type",
+        "puppeteer-page-keyboard-press",
+        "puppeteer-page-get-value",
+        "puppeteer-page-set-value",
+        "puppeteer-page-upload",
+        "puppeteer-rename"
+      ],
+      "keywords": [
+        "chrome",
+        "browser automation",
+        "puppeteer",
+        "node-red"
+      ],
+      "url": "https://flows.nodered.org/node/@robinck/node-red-puppeteer"
+    },
+    {
+      "id": "node-red-contrib-smarthome-powerswitch",
+      "version": "1.2.0-beta",
+      "description": "This is the powerswitch node as standalone, which is part of 'node-red-contrib-smarthome'. It containes nodes for Node-RED.",
+      "updated_at": "2023-12-16T19:10:21.119Z",
+      "types": [
+        "powerswitch"
+      ],
+      "keywords": [
+        "node",
+        "node-red",
+        "nodered",
+        "switch",
+        "power",
+        "toggle",
+        "motion",
+        "plug",
+        "smartplug",
+        "smarthome",
+        "loxone",
+        "sps",
+        "plc",
+        "digital"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-smarthome-powerswitch"
+    },
+    {
+      "id": "node-red-contrib-advanced-ping-multiple",
+      "version": "1.4.3",
+      "description": "A Node-RED node which takes input and pings a remote server or multiple servers.",
+      "updated_at": "2023-12-16T17:54:07.162Z",
+      "types": [
+        "ping-many"
+      ],
+      "keywords": [
+        "node-red",
+        "node-red-contrib-multiple",
+        "contrib",
+        "ping"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-advanced-ping-multiple"
+    },
+    {
+      "id": "@pavelbrazda/node-red-tagbind",
+      "version": "0.0.2",
+      "description": "Node na komunikaci se TagBind aplikací",
+      "updated_at": "2023-12-16T17:53:57.464Z",
+      "types": [
+        "TagBind",
+        "TagBind-Input"
+      ],
+      "keywords": [
+        "node-red",
+        "TagBind",
+        "fve"
+      ],
+      "url": "https://flows.nodered.org/node/@pavelbrazda/node-red-tagbind"
+    },
     {
       "id": "@parallaxcontrol/node-red-control",
       "version": "1.0.13",
@@ -128,32 +282,6 @@
         "node-red"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-simple-gemini-vision"
-    },
-    {
-      "id": "node-red-contrib-smarthome-powerswitch",
-      "version": "1.1.1",
-      "description": "This is the powerswitch node as standalone, which is part of 'node-red-contrib-smarthome'. It containes nodes for Node-RED.",
-      "updated_at": "2023-12-15T10:05:55.393Z",
-      "types": [
-        "powerswitch"
-      ],
-      "keywords": [
-        "node",
-        "node-red",
-        "nodered",
-        "switch",
-        "power",
-        "toggle",
-        "motion",
-        "plug",
-        "smartplug",
-        "smarthome",
-        "loxone",
-        "sps",
-        "plc",
-        "digital"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-smarthome-powerswitch"
     },
     {
       "id": "@cedricziel/node-red-contrib-baserow",
@@ -593,42 +721,6 @@
       "url": "https://flows.nodered.org/node/@pavelbrazda/node-red-simplepv"
     },
     {
-      "id": "node-red-contrib-knx-ultimate",
-      "version": "2.2.34",
-      "description": "Control your KNX intallation via Node-Red! A bunch of KNX nodes, with integrated Philips HUE control and ETS group address importer. Easy to use and highly configurable.",
-      "updated_at": "2023-12-12T17:34:04.635Z",
-      "types": [
-        "knxUltimate",
-        "knxUltimateSceneController",
-        "knxUltimateWatchDog",
-        "knxUltimateLogger",
-        "knxUltimate-config",
-        "knxUltimateGlobalContext",
-        "knxUltimateAlerter",
-        "knxUltimateLoadControl",
-        "knxUltimateViewer",
-        "hue-config",
-        "knxUltimateHueLight",
-        "knxUltimateHueButton",
-        "knxUltimateHueMotion",
-        "knxUltimateHueTapDial",
-        "knxUltimateHueLightSensor",
-        "knxUltimateHueTemperatureSensor",
-        "knxUltimateHueScene",
-        "knxUltimateHueBattery"
-      ],
-      "keywords": [
-        "node-red",
-        "KNX",
-        "ETS",
-        "eib",
-        "konnex",
-        "IOT",
-        "philips hue"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-knx-ultimate"
-    },
-    {
       "id": "@flowfuse/node-red-dashboard",
       "version": "0.10.2",
       "description": "A collection of Node-RED nodes that provide functionality to build your own UI applications (inc. forms, buttons, charts) within Node-RED.",
@@ -794,22 +886,6 @@
         "node-red"
       ],
       "url": "https://flows.nodered.org/node/@technithusiast/node-red-contrib-ai-intent"
-    },
-    {
-      "id": "node-red-contrib-advanced-ping-multiple",
-      "version": "1.4.2",
-      "description": "A Node-RED node which takes input and pings a remote server or multiple servers.",
-      "updated_at": "2023-12-09T21:57:36.789Z",
-      "types": [
-        "ping-many"
-      ],
-      "keywords": [
-        "node-red",
-        "node-red-contrib-multiple",
-        "contrib",
-        "ping"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-advanced-ping-multiple"
     },
     {
       "id": "node-red-contrib-xstate-machine",
@@ -1303,31 +1379,6 @@
         "home"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-zwave-js"
-    },
-    {
-      "id": "node-red-contrib-ecovacs-deebot",
-      "version": "0.4.10",
-      "description": "Node-RED node for Ecovacs Deebot vacuum cleaner",
-      "updated_at": "2023-12-06T16:15:13.501Z",
-      "types": [
-        "ecovacs-account",
-        "ecovacs-deebot",
-        "ecovacs-deebot-command"
-      ],
-      "keywords": [
-        "node-red",
-        "ecovacs",
-        "deebot",
-        "ozmo",
-        "yeedi",
-        "vacuum",
-        "robot",
-        "airbot",
-        "air purifier",
-        "smart home",
-        "home automation"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-ecovacs-deebot"
     },
     {
       "id": "@thewiw/node-red-contrib-wiw-bridge",
