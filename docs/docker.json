@@ -1,12 +1,55 @@
 {
   "name": "Catalogue for Docker",
-  "updated_at": "2023-12-17T15:58:43.704Z",
+  "updated_at": "2023-12-18T15:59:29.921Z",
   "modules": [
     {
+      "id": "node-red-contrib-alice-self-hosting",
+      "version": "0.0.4",
+      "description": "Node-RED nodes to Yandex Alice devices in Self-Hosting",
+      "updated_at": "2023-12-18T12:08:43.252Z",
+      "types": [
+        "alice-sh-service",
+        "alice-sh-device",
+        "alice-sh-onoff",
+        "alice-sh-toggle",
+        "alice-sh-range",
+        "alice-sh-color",
+        "alice-sh-mode",
+        "alice-sh-sensor",
+        "alice-sh-event"
+      ],
+      "keywords": [
+        "node-red",
+        "yandex",
+        "alice",
+        "iot",
+        "self",
+        "hosting"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-alice-self-hosting"
+    },
+    {
+      "id": "victron-dynamic-ess",
+      "version": "0.1.11",
+      "description": "Fetch the ideal ESS setpoint from VRM",
+      "updated_at": "2023-12-18T09:04:54.923Z",
+      "types": [
+        "victron-dynamic-ess"
+      ],
+      "keywords": [
+        "node-red",
+        "victron",
+        "dynamic ess",
+        "scheduled charging",
+        "ess"
+      ],
+      "url": "https://flows.nodered.org/node/victron-dynamic-ess"
+    },
+    {
       "id": "node-red-contrib-knx-ultimate",
-      "version": "2.2.35",
+      "version": "2.2.36",
       "description": "Control your KNX intallation via Node-Red! A bunch of KNX nodes, with integrated Philips HUE control and ETS group address importer. Easy to use and highly configurable.",
-      "updated_at": "2023-12-17T12:08:43.572Z",
+      "updated_at": "2023-12-18T07:54:37.245Z",
       "types": [
         "knxUltimate",
         "knxUltimateSceneController",
@@ -37,6 +80,182 @@
         "philips hue"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-knx-ultimate"
+    },
+    {
+      "id": "victron-vrm-api",
+      "version": "0.0.8",
+      "description": "Interface with the Victron Energy VRM API",
+      "updated_at": "2023-12-18T07:36:38.779Z",
+      "types": [
+        "config-vrm-api",
+        "vrm-api"
+      ],
+      "keywords": [
+        "node-red",
+        "victron",
+        "vrm",
+        "api"
+      ],
+      "url": "https://flows.nodered.org/node/victron-vrm-api"
+    },
+    {
+      "id": "@gulpetl/node-red-core",
+      "version": "0.0.1",
+      "description": "Core nodes for using gulp/gulpetl under Node.RED",
+      "updated_at": "2023-12-18T05:45:22.823Z",
+      "types": [
+        "gulp.src",
+        "gulp.dest",
+        "msg-pipe",
+        "msg-restream"
+      ],
+      "keywords": [
+        "gulpfriendly",
+        "csv",
+        "gulp-etl",
+        "gulpetl",
+        "etl",
+        "data",
+        "node-red"
+      ],
+      "url": "https://flows.nodered.org/node/@gulpetl/node-red-core"
+    },
+    {
+      "id": "gulp-etl-target-csv",
+      "version": "1.0.8",
+      "description": "Convert .ndjson gulp-etl files to CSV",
+      "updated_at": "2023-12-18T01:08:16.669Z",
+      "types": [],
+      "keywords": [
+        "gulpplugin",
+        "csv",
+        "gulp-etl",
+        "gulpetl",
+        "etl",
+        "data",
+        "node-red"
+      ],
+      "url": "https://flows.nodered.org/node/gulp-etl-target-csv"
+    },
+    {
+      "id": "gulp-etl-tap-csv",
+      "version": "1.0.9",
+      "description": "Convert CSV files to JSON compatible with gulp-etl",
+      "updated_at": "2023-12-18T01:06:20.993Z",
+      "types": [],
+      "keywords": [
+        "gulpplugin",
+        "csv",
+        "gulp-etl",
+        "gulpetl",
+        "etl",
+        "data",
+        "node-red"
+      ],
+      "url": "https://flows.nodered.org/node/gulp-etl-tap-csv"
+    },
+    {
+      "id": "@tq-bit/node-red-contrib-server-sent-events",
+      "version": "1.2.1",
+      "description": "Nodes to create - or subscribe to - server-sent events",
+      "updated_at": "2023-12-17T19:36:34.545Z",
+      "types": [
+        "sse-server",
+        "sse-client"
+      ],
+      "keywords": [
+        "node-red",
+        "nodes",
+        "server-sent-events",
+        "sse"
+      ],
+      "url": "https://flows.nodered.org/node/@tq-bit/node-red-contrib-server-sent-events"
+    },
+    {
+      "id": "node-red-contrib-esphome",
+      "version": "0.2.4",
+      "description": "Node-RED nodes to ESPhome devices",
+      "updated_at": "2023-12-17T19:22:01.697Z",
+      "types": [
+        "esphome-device",
+        "esphome-in",
+        "esphome-out"
+      ],
+      "keywords": [
+        "node-red",
+        "esphome",
+        "esp",
+        "home",
+        "esp32",
+        "esp8266",
+        "iot"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-esphome"
+    },
+    {
+      "id": "@stefa168/node-red-hysteresis",
+      "version": "0.5.0",
+      "description": "Adds hysteresis function to node-red",
+      "updated_at": "2023-12-17T18:49:00.166Z",
+      "types": [
+        "hysteresis2"
+      ],
+      "keywords": [
+        "hysteresis",
+        "falling",
+        "rising",
+        "trigger",
+        "node-red"
+      ],
+      "url": "https://flows.nodered.org/node/@stefa168/node-red-hysteresis"
+    },
+    {
+      "id": "@gregoriusrippenstein/node-red-contrib-flowcompare",
+      "version": "0.1.3",
+      "description": "Compare editor flow with the flow deployed to the server.",
+      "updated_at": "2023-12-17T16:32:25.790Z",
+      "types": [
+        "FlowCompareCfg"
+      ],
+      "keywords": [
+        "node-red",
+        "comparison",
+        "flow-comparison"
+      ],
+      "url": "https://flows.nodered.org/node/@gregoriusrippenstein/node-red-contrib-flowcompare"
+    },
+    {
+      "id": "node-red-contrib-nordpool-api-plus",
+      "version": "4.5.1",
+      "description": "A Node-Red Node for collecting `day ahead` prices from Nord Pool Group.",
+      "updated_at": "2023-12-17T15:22:04.195Z",
+      "types": [
+        "nordpool-api-plus"
+      ],
+      "keywords": [
+        "node-red",
+        "nord pool",
+        "watt prices"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-nordpool-api-plus"
+    },
+    {
+      "id": "@gregoriusrippenstein/node-red-contrib-flowhub",
+      "version": "0.4.3",
+      "description": "Nodes for interacting with FlowHub.org.",
+      "updated_at": "2023-12-17T15:11:54.114Z",
+      "types": [
+        "FlowHubPull",
+        "FlowHubCfg"
+      ],
+      "keywords": [
+        "node-red",
+        "flowhub",
+        "flow-sharing",
+        "collaborative",
+        "flow-development"
+      ],
+      "url": "https://flows.nodered.org/node/@gregoriusrippenstein/node-red-contrib-flowhub"
     },
     {
       "id": "node-red-contrib-ecovacs-deebot",
@@ -499,19 +718,6 @@
         "node-red"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-simple-gemini"
-    },
-    {
-      "id": "node-red-contrib-moveemail",
-      "version": "1.0.1",
-      "description": "A Node-RED palette to move emails in Office 365",
-      "updated_at": "2023-12-14T07:13:58.576Z",
-      "types": [],
-      "keywords": [
-        "node-red",
-        "office365",
-        "email"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-moveemail"
     },
     {
       "id": "@dastoyan/node-red-msdynamics",
@@ -1582,24 +1788,6 @@
       "url": "https://flows.nodered.org/node/node-red-contrib-alphaess"
     },
     {
-      "id": "@gregoriusrippenstein/node-red-contrib-flowhub",
-      "version": "0.4.2",
-      "description": "Nodes for interacting with FlowHub.org.",
-      "updated_at": "2023-12-04T13:09:42.407Z",
-      "types": [
-        "FlowHubPull",
-        "FlowHubCfg"
-      ],
-      "keywords": [
-        "node-red",
-        "flowhub",
-        "flow-sharing",
-        "collaborative",
-        "flow-development"
-      ],
-      "url": "https://flows.nodered.org/node/@gregoriusrippenstein/node-red-contrib-flowhub"
-    },
-    {
       "id": "apconic-oracledb-connect",
       "version": "1.1.0",
       "description": "Node for weight parser",
@@ -1879,27 +2067,6 @@
         "node-red"
       ],
       "url": "https://flows.nodered.org/node/@flowfuse/node-red-function-gpt"
-    },
-    {
-      "id": "node-red-contrib-esphome",
-      "version": "0.2.3",
-      "description": "Node-RED nodes to ESPhome devices",
-      "updated_at": "2023-11-30T06:53:12.879Z",
-      "types": [
-        "esphome-device",
-        "esphome-in",
-        "esphome-out"
-      ],
-      "keywords": [
-        "node-red",
-        "esphome",
-        "esp",
-        "home",
-        "esp32",
-        "esp8266",
-        "iot"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-esphome"
     },
     {
       "id": "node-red-contrib-opentelemetry",
@@ -2182,23 +2349,6 @@
         "hydrometer"
       ],
       "url": "https://flows.nodered.org/node/@tonymacdonald/node-red-rapt-pull"
-    },
-    {
-      "id": "victron-dynamic-ess",
-      "version": "0.1.10",
-      "description": "Fetch the ideal ESS setpoint from VRM",
-      "updated_at": "2023-11-27T15:20:00.357Z",
-      "types": [
-        "victron-dynamic-ess"
-      ],
-      "keywords": [
-        "node-red",
-        "victron",
-        "dynamic ess",
-        "scheduled charging",
-        "ess"
-      ],
-      "url": "https://flows.nodered.org/node/victron-dynamic-ess"
     },
     {
       "id": "@shri123321/node-red-contrib-shri-super-trend",
@@ -2920,21 +3070,6 @@
       "url": "https://flows.nodered.org/node/topological-nodered-wdio"
     },
     {
-      "id": "node-red-contrib-nordpool-api-plus",
-      "version": "4.5.0",
-      "description": "A Node-Red Node for collecting `day ahead` prices from Nord Pool Group.",
-      "updated_at": "2023-11-18T19:40:42.450Z",
-      "types": [
-        "nordpool-api-plus"
-      ],
-      "keywords": [
-        "node-red",
-        "nord pool",
-        "watt prices"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-nordpool-api-plus"
-    },
-    {
       "id": "node-red-contrib-tado-client",
       "version": "0.10.10",
       "description": "Tado web API client node for Node Red",
@@ -3353,21 +3488,6 @@
         "xlsx"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-json2xlsx"
-    },
-    {
-      "id": "@gregoriusrippenstein/node-red-contrib-flowcompare",
-      "version": "0.1.2",
-      "description": "Compare editor flow with the flow deployed to the server.",
-      "updated_at": "2023-11-11T14:46:07.035Z",
-      "types": [
-        "FlowCompareCfg"
-      ],
-      "keywords": [
-        "node-red",
-        "comparison",
-        "flow-comparison"
-      ],
-      "url": "https://flows.nodered.org/node/@gregoriusrippenstein/node-red-contrib-flowcompare"
     },
     {
       "id": "node-red-contrib-power-saver",
@@ -4074,23 +4194,6 @@
         "node-red"
       ],
       "url": "https://flows.nodered.org/node/smithtek-node-red-eagleio"
-    },
-    {
-      "id": "victron-vrm-api",
-      "version": "0.0.7",
-      "description": "Interface with the Victron Energy VRM API",
-      "updated_at": "2023-11-01T12:26:17.498Z",
-      "types": [
-        "config-vrm-api",
-        "vrm-api"
-      ],
-      "keywords": [
-        "node-red",
-        "victron",
-        "vrm",
-        "api"
-      ],
-      "url": "https://flows.nodered.org/node/victron-vrm-api"
     },
     {
       "id": "node-red-contrib-dirigera",
@@ -8274,23 +8377,6 @@
       "url": "https://flows.nodered.org/node/node-red-contrib-spreadsheet-in"
     },
     {
-      "id": "@tq-bit/node-red-contrib-server-sent-events",
-      "version": "1.1.0",
-      "description": "Nodes to create - or subscribe to - server-sent events",
-      "updated_at": "2023-09-15T17:42:06.534Z",
-      "types": [
-        "sse-server",
-        "sse-client"
-      ],
-      "keywords": [
-        "node-red",
-        "nodes",
-        "server-sent-events",
-        "sse"
-      ],
-      "url": "https://flows.nodered.org/node/@tq-bit/node-red-contrib-server-sent-events"
-    },
-    {
       "id": "node-red-contrib-postgresql",
       "version": "0.14.0",
       "description": "Node-RED node for PostgreSQL, supporting parameters, split, back-pressure",
@@ -11085,23 +11171,6 @@
         "tfjs"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-tfjs-coco-ssd"
-    },
-    {
-      "id": "@stefa168/node-red-hysteresis",
-      "version": "0.4.0-a",
-      "description": "Adds hysteresis function to node-red",
-      "updated_at": "2023-07-15T09:09:12.218Z",
-      "types": [
-        "hysteresis2"
-      ],
-      "keywords": [
-        "hysteresis",
-        "falling",
-        "rising",
-        "trigger",
-        "node-red"
-      ],
-      "url": "https://flows.nodered.org/node/@stefa168/node-red-hysteresis"
     },
     {
       "id": "node-red-contrib-observation",
