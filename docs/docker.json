@@ -1,12 +1,12 @@
 {
   "name": "Catalogue for Docker",
-  "updated_at": "2023-12-18T15:59:29.921Z",
+  "updated_at": "2023-12-19T15:58:33.468Z",
   "modules": [
     {
       "id": "node-red-contrib-alice-self-hosting",
-      "version": "0.0.4",
+      "version": "0.0.7",
       "description": "Node-RED nodes to Yandex Alice devices in Self-Hosting",
-      "updated_at": "2023-12-18T12:08:43.252Z",
+      "updated_at": "2023-12-19T14:23:50.391Z",
       "types": [
         "alice-sh-service",
         "alice-sh-device",
@@ -27,6 +27,40 @@
         "hosting"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-alice-self-hosting"
+    },
+    {
+      "id": "@tq-bit/node-red-contrib-de-fuelprices",
+      "version": "0.1.1",
+      "description": "Node to fetch fuelprices from the Tankerkoenig API",
+      "updated_at": "2023-12-19T12:41:05.016Z",
+      "types": [
+        "tankerkoenig-config",
+        "tankerkoenig-search"
+      ],
+      "keywords": [
+        "node-red",
+        "nodes",
+        "benzinpreis",
+        "tankerkoenig"
+      ],
+      "url": "https://flows.nodered.org/node/@tq-bit/node-red-contrib-de-fuelprices"
+    },
+    {
+      "id": "victron-vrm-api",
+      "version": "0.0.9",
+      "description": "Interface with the Victron Energy VRM API",
+      "updated_at": "2023-12-19T07:49:48.260Z",
+      "types": [
+        "config-vrm-api",
+        "vrm-api"
+      ],
+      "keywords": [
+        "node-red",
+        "victron",
+        "vrm",
+        "api"
+      ],
+      "url": "https://flows.nodered.org/node/victron-vrm-api"
     },
     {
       "id": "victron-dynamic-ess",
@@ -80,23 +114,6 @@
         "philips hue"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-knx-ultimate"
-    },
-    {
-      "id": "victron-vrm-api",
-      "version": "0.0.8",
-      "description": "Interface with the Victron Energy VRM API",
-      "updated_at": "2023-12-18T07:36:38.779Z",
-      "types": [
-        "config-vrm-api",
-        "vrm-api"
-      ],
-      "keywords": [
-        "node-red",
-        "victron",
-        "vrm",
-        "api"
-      ],
-      "url": "https://flows.nodered.org/node/victron-vrm-api"
     },
     {
       "id": "@gulpetl/node-red-core",
