@@ -1,12 +1,169 @@
 {
   "name": "Catalogue for Docker",
-  "updated_at": "2023-12-19T15:58:33.468Z",
+  "updated_at": "2023-12-20T15:58:09.992Z",
   "modules": [
     {
+      "id": "@robinck/node-red-puppeteer",
+      "version": "1.0.3",
+      "description": "NodeRED nodes to control a headless chrome with puppeteer",
+      "updated_at": "2023-12-20T14:20:38.002Z",
+      "types": [
+        "puppeteer-browser-launch",
+        "puppeteer-browser-close",
+        "puppeteer-browser-newPage",
+        "puppeteer-page-goto",
+        "puppeteer-page-screenshot",
+        "puppeteer-page-content",
+        "puppeteer-page-click",
+        "puppeteer-page-download",
+        "puppeteer-page-focus",
+        "puppeteer-page-waitFor",
+        "puppeteer-page-getCookies",
+        "puppeteer-page-setCookies",
+        "puppeteer-page-deleteCookies",
+        "puppeteer-page-close",
+        "puppeteer-page-keyboard-type",
+        "puppeteer-page-keyboard-press",
+        "puppeteer-page-get-value",
+        "puppeteer-page-set-value",
+        "puppeteer-page-upload",
+        "puppeteer-rename"
+      ],
+      "keywords": [
+        "chrome",
+        "browser automation",
+        "puppeteer",
+        "node-red"
+      ],
+      "url": "https://flows.nodered.org/node/@robinck/node-red-puppeteer"
+    },
+    {
+      "id": "node-red-contrib-alphaess",
+      "version": "2.0.2",
+      "description": "This provides a node for retrieving information from Alpha ESS photovoltaic systems.",
+      "updated_at": "2023-12-20T11:33:17.789Z",
+      "types": [
+        "alphaess-monitoring"
+      ],
+      "keywords": [
+        "node-red",
+        "Alpha ESS",
+        "Storion"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-alphaess"
+    },
+    {
+      "id": "@envidatec/node-red-contrib-logger",
+      "version": "1.0.13",
+      "description": "Logs Data into SQL-Lite",
+      "updated_at": "2023-12-20T11:20:31.131Z",
+      "types": [
+        "logger",
+        "SQL-DB",
+        "Rest-Server",
+        "SQL-Lite"
+      ],
+      "keywords": [
+        "node-red"
+      ],
+      "url": "https://flows.nodered.org/node/@envidatec/node-red-contrib-logger"
+    },
+    {
+      "id": "@edgepi-cloud/node-red-edgepi-pwm",
+      "version": "1.0.0",
+      "description": "Node-RED node for EdgePi PWM Module",
+      "updated_at": "2023-12-19T20:09:11.944Z",
+      "types": [
+        "pwm"
+      ],
+      "keywords": [
+        "node-red",
+        "edgepi",
+        "pwm",
+        "edgepi-pwm"
+      ],
+      "url": "https://flows.nodered.org/node/@edgepi-cloud/node-red-edgepi-pwm"
+    },
+    {
+      "id": "node-red-contrib-dirigera",
+      "version": "1.0.7",
+      "description": "A Node-Red Node for controlling Ikea Dirigera hub.",
+      "updated_at": "2023-12-19T19:24:53.186Z",
+      "types": [
+        "dirigera-config",
+        "dirigera",
+        "__errors__"
+      ],
+      "keywords": [
+        "node-red",
+        "dirigera",
+        "ikea"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-dirigera"
+    },
+    {
+      "id": "node-red-contrib-dawnchorus",
+      "version": "0.0.13",
+      "description": "Nodes for uploading birdsongs to dawnchorus.",
+      "updated_at": "2023-12-19T19:20:05.048Z",
+      "types": [
+        "dawn chorus"
+      ],
+      "keywords": [
+        "node-red",
+        "dawnchorus",
+        "birdsong"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-dawnchorus"
+    },
+    {
+      "id": "@gregoriusrippenstein/node-red-contrib-flowhub",
+      "version": "0.4.4",
+      "description": "Nodes for interacting with FlowHub.org.",
+      "updated_at": "2023-12-19T19:11:32.143Z",
+      "types": [
+        "FlowHubPull",
+        "FlowHubCfg"
+      ],
+      "keywords": [
+        "node-red",
+        "flowhub",
+        "flow-sharing",
+        "collaborative",
+        "flow-development"
+      ],
+      "url": "https://flows.nodered.org/node/@gregoriusrippenstein/node-red-contrib-flowhub"
+    },
+    {
+      "id": "node-red-contrib-doorbird-ultimate",
+      "version": "1.4.0",
+      "description": "Node-Red Integration for Doorbird Devices",
+      "updated_at": "2023-12-19T15:03:43.883Z",
+      "types": [
+        "doorbird-config",
+        "doorbird-image",
+        "doorbird-info",
+        "doorbird-open",
+        "ui_doorbird-ui-image",
+        "ui_doorbird-ui-video",
+        "doorbird-ring",
+        "doorbird-motion",
+        "doorbird-light",
+        "doorbird-restart"
+      ],
+      "keywords": [
+        "node-red",
+        "smart",
+        "home",
+        "doorbird"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-doorbird-ultimate"
+    },
+    {
       "id": "node-red-contrib-alice-self-hosting",
-      "version": "0.0.7",
+      "version": "0.0.8",
       "description": "Node-RED nodes to Yandex Alice devices in Self-Hosting",
-      "updated_at": "2023-12-19T14:23:50.391Z",
+      "updated_at": "2023-12-19T15:00:23.497Z",
       "types": [
         "alice-sh-service",
         "alice-sh-device",
@@ -257,24 +414,6 @@
       "url": "https://flows.nodered.org/node/node-red-contrib-nordpool-api-plus"
     },
     {
-      "id": "@gregoriusrippenstein/node-red-contrib-flowhub",
-      "version": "0.4.3",
-      "description": "Nodes for interacting with FlowHub.org.",
-      "updated_at": "2023-12-17T15:11:54.114Z",
-      "types": [
-        "FlowHubPull",
-        "FlowHubCfg"
-      ],
-      "keywords": [
-        "node-red",
-        "flowhub",
-        "flow-sharing",
-        "collaborative",
-        "flow-development"
-      ],
-      "url": "https://flows.nodered.org/node/@gregoriusrippenstein/node-red-contrib-flowhub"
-    },
-    {
       "id": "node-red-contrib-ecovacs-deebot",
       "version": "0.4.11",
       "description": "Node-RED node for Ecovacs Deebot vacuum cleaner",
@@ -298,41 +437,6 @@
         "home automation"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-ecovacs-deebot"
-    },
-    {
-      "id": "@robinck/node-red-puppeteer",
-      "version": "1.0.1",
-      "description": "NodeRED nodes to control a headless chrome with puppeteer",
-      "updated_at": "2023-12-17T08:40:10.821Z",
-      "types": [
-        "puppeteer-browser-launch",
-        "puppeteer-browser-close",
-        "puppeteer-browser-newPage",
-        "puppeteer-page-goto",
-        "puppeteer-page-screenshot",
-        "puppeteer-page-content",
-        "puppeteer-page-click",
-        "puppeteer-page-download",
-        "puppeteer-page-focus",
-        "puppeteer-page-waitFor",
-        "puppeteer-page-getCookies",
-        "puppeteer-page-setCookies",
-        "puppeteer-page-deleteCookies",
-        "puppeteer-page-close",
-        "puppeteer-page-keyboard-type",
-        "puppeteer-page-keyboard-press",
-        "puppeteer-page-get-value",
-        "puppeteer-page-set-value",
-        "puppeteer-page-upload",
-        "puppeteer-rename"
-      ],
-      "keywords": [
-        "chrome",
-        "browser automation",
-        "puppeteer",
-        "node-red"
-      ],
-      "url": "https://flows.nodered.org/node/@robinck/node-red-puppeteer"
     },
     {
       "id": "node-red-contrib-smarthome-powerswitch",
@@ -912,21 +1016,6 @@
         "light"
       ],
       "url": "https://flows.nodered.org/node/@node-red-contrib-themes/theme-collection"
-    },
-    {
-      "id": "node-red-contrib-dawnchorus",
-      "version": "0.0.11",
-      "description": "Nodes for uploading birdsongs to dawnchorus.",
-      "updated_at": "2023-12-12T21:32:02.553Z",
-      "types": [
-        "dawn chorus"
-      ],
-      "keywords": [
-        "node-red",
-        "dawnchorus",
-        "birdsong"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-dawnchorus"
     },
     {
       "id": "@pavelbrazda/node-red-simplepv",
@@ -1788,21 +1877,6 @@
         "serial"
       ],
       "url": "https://flows.nodered.org/node/node-red-node-serialport"
-    },
-    {
-      "id": "node-red-contrib-alphaess",
-      "version": "2.0.1",
-      "description": "This provides a node for retrieving information from Alpha ESS photovoltaic systems.",
-      "updated_at": "2023-12-04T14:14:58.186Z",
-      "types": [
-        "alphaess-monitoring"
-      ],
-      "keywords": [
-        "node-red",
-        "Alpha ESS",
-        "Storion"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-alphaess"
     },
     {
       "id": "apconic-oracledb-connect",
@@ -3157,22 +3231,6 @@
       "url": "https://flows.nodered.org/node/@insectos/node-red-cloudflare-ddns"
     },
     {
-      "id": "@envidatec/node-red-contrib-logger",
-      "version": "1.0.12",
-      "description": "Logs Data into SQL-Lite",
-      "updated_at": "2023-11-17T14:58:27.566Z",
-      "types": [
-        "logger",
-        "SQL-DB",
-        "Rest-Server",
-        "SQL-Lite"
-      ],
-      "keywords": [
-        "node-red"
-      ],
-      "url": "https://flows.nodered.org/node/@envidatec/node-red-contrib-logger"
-    },
-    {
       "id": "apconic-node-red-image-service",
       "version": "1.0.2",
       "updated_at": "2023-11-17T11:07:09.979Z",
@@ -4211,23 +4269,6 @@
         "node-red"
       ],
       "url": "https://flows.nodered.org/node/smithtek-node-red-eagleio"
-    },
-    {
-      "id": "node-red-contrib-dirigera",
-      "version": "1.0.5",
-      "description": "A Node-Red Node for controlling Ikea Dirigera hub.",
-      "updated_at": "2023-11-01T11:55:04.779Z",
-      "types": [
-        "dirigera-config",
-        "dirigera",
-        "__errors__"
-      ],
-      "keywords": [
-        "node-red",
-        "dirigera",
-        "ikea"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-dirigera"
     },
     {
       "id": "node-red-contrib-boolean-logic-ultimate",
@@ -12955,30 +12996,6 @@
         "smart-home"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-warema-webcontrol"
-    },
-    {
-      "id": "node-red-contrib-doorbird-ultimate",
-      "version": "1.3.0",
-      "description": "Node-Red Integration for Doorbird Devices",
-      "updated_at": "2023-05-31T15:33:30.119Z",
-      "types": [
-        "doorbird-config",
-        "doorbird-image",
-        "doorbird-info",
-        "doorbird-open",
-        "ui_doorbird-ui-image",
-        "ui_doorbird-ui-video",
-        "doorbird-ring",
-        "doorbird-motion",
-        "doorbird-light"
-      ],
-      "keywords": [
-        "node-red",
-        "smart",
-        "home",
-        "doorbird"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-doorbird-ultimate"
     },
     {
       "id": "node-red-contrib-latch",
