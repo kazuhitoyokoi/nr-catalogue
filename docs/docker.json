@@ -1,12 +1,215 @@
 {
   "name": "Catalogue for Docker",
-  "updated_at": "2023-12-20T15:58:09.992Z",
+  "updated_at": "2023-12-21T15:58:02.102Z",
   "modules": [
     {
+      "id": "node-red-notion",
+      "version": "1.1.0",
+      "description": "Node-RED Notion nodes",
+      "updated_at": "2023-12-21T14:18:32.066Z",
+      "types": [
+        "notion integration",
+        "append block children",
+        "get block children",
+        "update block",
+        "delete block",
+        "get page",
+        "update page",
+        "create page",
+        "get page property",
+        "create database",
+        "get database",
+        "query database",
+        "get users"
+      ],
+      "keywords": [
+        "node-red",
+        "notion"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-notion"
+    },
+    {
+      "id": "node-red-contrib-unifi",
+      "version": "0.3.11",
+      "description": "Node for Node-RED to connect to a UniFi Controller ",
+      "updated_at": "2023-12-21T13:05:42.999Z",
+      "types": [
+        "unificonfig",
+        "Unifi",
+        "UnifiWS"
+      ],
+      "keywords": [
+        "node-red",
+        "unifi",
+        "ubnt",
+        "Ubiquiti Networks"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-unifi"
+    },
+    {
+      "id": "node-red-contrib-alice-self-hosting",
+      "version": "0.0.9",
+      "description": "Node-RED nodes to Yandex Alice devices in Self-Hosting",
+      "updated_at": "2023-12-21T12:00:18.334Z",
+      "types": [
+        "alice-sh-service",
+        "alice-sh-device",
+        "alice-sh-onoff",
+        "alice-sh-toggle",
+        "alice-sh-range",
+        "alice-sh-color",
+        "alice-sh-mode",
+        "alice-sh-sensor",
+        "alice-sh-event"
+      ],
+      "keywords": [
+        "node-red",
+        "yandex",
+        "alice",
+        "iot",
+        "self",
+        "hosting"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-alice-self-hosting"
+    },
+    {
+      "id": "@headless-architecture/node-red-contrib-slack-bolt",
+      "version": "1.1.4",
+      "description": "Control your Slack App via Node-Red! Slack Bolt integration.",
+      "updated_at": "2023-12-21T09:34:42.795Z",
+      "types": [
+        "slack-bolt-registry",
+        "slack-bolt-message",
+        "slack-bolt-app"
+      ],
+      "keywords": [
+        "Slack",
+        "Slack-bolt",
+        "node-red",
+        "microservice"
+      ],
+      "url": "https://flows.nodered.org/node/@headless-architecture/node-red-contrib-slack-bolt"
+    },
+    {
+      "id": "@blebtechnology/node-red-blebricks",
+      "version": "1.0.8",
+      "description": "A node-red package to manage blebricks data",
+      "updated_at": "2023-12-20T16:18:26.869Z",
+      "types": [
+        "CHT",
+        "ENV",
+        "OAQ",
+        "BLEB_TEMP",
+        "PTX",
+        "MAG",
+        "SOIL",
+        "LGH",
+        "UHF",
+        "PRT",
+        "REL",
+        "RELOUT",
+        "WPLOUT",
+        "VBROUT",
+        "BUZOUT",
+        "IRTOUT",
+        "ODCOUT",
+        "ODC",
+        "WPL",
+        "VBR",
+        "BUZ",
+        "IRT",
+        "PLV",
+        "WND",
+        "SOL",
+        "PYR",
+        "CMS",
+        "RHT",
+        "UVA",
+        "RGB",
+        "CLT",
+        "IMU",
+        "ACC",
+        "PDM",
+        "CAP",
+        "IRR",
+        "SMS",
+        "DSD",
+        "BLEB_IN",
+        "BLEB_RPS",
+        "SFX",
+        "ESP",
+        "UWS",
+        "RMS",
+        "VMS",
+        "GPS",
+        "BLEB_CNT",
+        "PMX",
+        "PROTECTOR",
+        "LCDOUT",
+        "SLS",
+        "PWMOUT",
+        "TPD"
+      ],
+      "keywords": [
+        "node-red"
+      ],
+      "url": "https://flows.nodered.org/node/@blebtechnology/node-red-blebricks"
+    },
+    {
+      "id": "nr-eaf-amr",
+      "version": "0.2.1",
+      "description": "Automated Meter Reading client for STROMDAO Energy Application Framework",
+      "updated_at": "2023-12-20T15:40:28.470Z",
+      "types": [
+        "SendReading",
+        "Tariff",
+        "BestPrice",
+        "eaf-credentials"
+      ],
+      "keywords": [
+        "node-red",
+        "amr",
+        "smartmeter",
+        "tariff",
+        "energy",
+        "stromdao"
+      ],
+      "url": "https://flows.nodered.org/node/nr-eaf-amr"
+    },
+    {
+      "id": "@strato-automation/node-red-contrib-strato-automation",
+      "version": "0.3.0",
+      "description": "Strato Automation Official Node Red Library",
+      "updated_at": "2023-12-20T15:39:45.468Z",
+      "types": [
+        "input",
+        "output",
+        "ocn-server",
+        "func-on-off",
+        "func-ramp",
+        "func-min",
+        "func-max",
+        "const",
+        "input-topic",
+        "unit-converter",
+        "logic-gate",
+        "not-gate",
+        "psychrometric-calculator",
+        "strato-pid",
+        "signal-generator",
+        "deadband"
+      ],
+      "keywords": [
+        "node-red",
+        "node-red-node"
+      ],
+      "url": "https://flows.nodered.org/node/@strato-automation/node-red-contrib-strato-automation"
+    },
+    {
       "id": "@robinck/node-red-puppeteer",
-      "version": "1.0.3",
+      "version": "1.0.4",
       "description": "NodeRED nodes to control a headless chrome with puppeteer",
-      "updated_at": "2023-12-20T14:20:38.002Z",
+      "updated_at": "2023-12-20T15:16:12.944Z",
       "types": [
         "puppeteer-browser-launch",
         "puppeteer-browser-close",
@@ -27,7 +230,9 @@
         "puppeteer-page-get-value",
         "puppeteer-page-set-value",
         "puppeteer-page-upload",
-        "puppeteer-rename"
+        "puppeteer-rename",
+        "puppeteer-page-viewport",
+        "puppeteer-page-localstorage"
       ],
       "keywords": [
         "chrome",
@@ -36,6 +241,37 @@
         "node-red"
       ],
       "url": "https://flows.nodered.org/node/@robinck/node-red-puppeteer"
+    },
+    {
+      "id": "@kenke7/node-red-contrib-modbus",
+      "version": "5.28.7",
+      "description": "The all in one Modbus TCP and Serial contribution package for Node-RED.",
+      "updated_at": "2023-12-20T15:07:45.366Z",
+      "types": [
+        "modbus-client",
+        "modbus-response",
+        "modbus-read",
+        "modbus-getter",
+        "modbus-flex-getter",
+        "modbus-write",
+        "modbus-flex-write",
+        "modbus-server",
+        "modbus-flex-server",
+        "modbus-queue-info",
+        "modbus-flex-connector",
+        "modbus-io-config",
+        "modbus-response-filter",
+        "modbus-flex-sequencer",
+        "modbus-flex-fc"
+      ],
+      "keywords": [
+        "node-red",
+        "plusfornodered",
+        "modbus",
+        "automation",
+        "biancoroyal"
+      ],
+      "url": "https://flows.nodered.org/node/@kenke7/node-red-contrib-modbus"
     },
     {
       "id": "node-red-contrib-alphaess",
@@ -158,32 +394,6 @@
         "doorbird"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-doorbird-ultimate"
-    },
-    {
-      "id": "node-red-contrib-alice-self-hosting",
-      "version": "0.0.8",
-      "description": "Node-RED nodes to Yandex Alice devices in Self-Hosting",
-      "updated_at": "2023-12-19T15:00:23.497Z",
-      "types": [
-        "alice-sh-service",
-        "alice-sh-device",
-        "alice-sh-onoff",
-        "alice-sh-toggle",
-        "alice-sh-range",
-        "alice-sh-color",
-        "alice-sh-mode",
-        "alice-sh-sensor",
-        "alice-sh-event"
-      ],
-      "keywords": [
-        "node-red",
-        "yandex",
-        "alice",
-        "iot",
-        "self",
-        "hosting"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-alice-self-hosting"
     },
     {
       "id": "@tq-bit/node-red-contrib-de-fuelprices",
@@ -542,71 +752,6 @@
       "url": "https://flows.nodered.org/node/node-red-contrib-iberdrola"
     },
     {
-      "id": "@blebtechnology/node-red-blebricks",
-      "version": "1.0.6",
-      "description": "A node-red package to manage blebricks data",
-      "updated_at": "2023-12-15T15:55:38.232Z",
-      "types": [
-        "CHT",
-        "ENV",
-        "OAQ",
-        "BLEB_TEMP",
-        "PTX",
-        "MAG",
-        "SOIL",
-        "LGH",
-        "UHF",
-        "PRT",
-        "REL",
-        "RELOUT",
-        "WPLOUT",
-        "VBROUT",
-        "BUZOUT",
-        "IRTOUT",
-        "ODCOUT",
-        "ODC",
-        "WPL",
-        "VBR",
-        "BUZ",
-        "IRT",
-        "PLV",
-        "WND",
-        "SOL",
-        "PYR",
-        "CMS",
-        "RHT",
-        "UVA",
-        "RGB",
-        "CLT",
-        "IMU",
-        "ACC",
-        "PDM",
-        "CAP",
-        "IRR",
-        "SMS",
-        "DSD",
-        "BLEB_IN",
-        "BLEB_RPS",
-        "SFX",
-        "ESP",
-        "UWS",
-        "RMS",
-        "VMS",
-        "GPS",
-        "BLEB_CNT",
-        "PMX",
-        "PROTECTOR",
-        "LCDOUT",
-        "SLS",
-        "PWMOUT",
-        "TPD"
-      ],
-      "keywords": [
-        "node-red"
-      ],
-      "url": "https://flows.nodered.org/node/@blebtechnology/node-red-blebricks"
-    },
-    {
       "id": "node-red-contrib-simple-gemini-vision",
       "version": "1.0.0",
       "description": "Gemini Pro APIを使ってプロンプトから画像解析してくれます。",
@@ -681,37 +826,6 @@
         "realtime"
       ],
       "url": "https://flows.nodered.org/node/@gogovega/node-red-contrib-firebase-realtime-database"
-    },
-    {
-      "id": "@kenke7/node-red-contrib-modbus",
-      "version": "5.28.6",
-      "description": "The all in one Modbus TCP and Serial contribution package for Node-RED.",
-      "updated_at": "2023-12-14T19:19:20.606Z",
-      "types": [
-        "modbus-client",
-        "modbus-response",
-        "modbus-read",
-        "modbus-getter",
-        "modbus-flex-getter",
-        "modbus-write",
-        "modbus-flex-write",
-        "modbus-server",
-        "modbus-flex-server",
-        "modbus-queue-info",
-        "modbus-flex-connector",
-        "modbus-io-config",
-        "modbus-response-filter",
-        "modbus-flex-sequencer",
-        "modbus-flex-fc"
-      ],
-      "keywords": [
-        "node-red",
-        "plusfornodered",
-        "modbus",
-        "automation",
-        "biancoroyal"
-      ],
-      "url": "https://flows.nodered.org/node/@kenke7/node-red-contrib-modbus"
     },
     {
       "id": "node-red-contrib-web-worldmap",
@@ -2702,34 +2816,6 @@
         "delaytimer"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-delaytimer"
-    },
-    {
-      "id": "@strato-automation/node-red-contrib-strato-automation",
-      "version": "0.2.2",
-      "description": "Strato Automation Official Node Red Library",
-      "updated_at": "2023-11-22T21:32:41.307Z",
-      "types": [
-        "input",
-        "output",
-        "ocn-server",
-        "func-on-off",
-        "func-ramp",
-        "func-min",
-        "func-max",
-        "const",
-        "input-topic",
-        "unit-converter",
-        "logic-gate",
-        "not-gate",
-        "psychrometric-calculator",
-        "strato-pid",
-        "signal-generator"
-      ],
-      "keywords": [
-        "node-red",
-        "node-red-node"
-      ],
-      "url": "https://flows.nodered.org/node/@strato-automation/node-red-contrib-strato-automation"
     },
     {
       "id": "node-red-contrib-blockly",
@@ -6157,24 +6243,6 @@
       "url": "https://flows.nodered.org/node/node-red-contrib-mcdm"
     },
     {
-      "id": "node-red-contrib-unifi",
-      "version": "0.3.10",
-      "description": "Node for Node-RED to connect to a UniFi Controller ",
-      "updated_at": "2023-10-08T10:20:46.972Z",
-      "types": [
-        "unificonfig",
-        "Unifi",
-        "UnifiWS"
-      ],
-      "keywords": [
-        "node-red",
-        "unifi",
-        "ubnt",
-        "Ubiquiti Networks"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-unifi"
-    },
-    {
       "id": "node-red-contrib-telegrambot",
       "version": "15.1.7",
       "description": "Telegram bot nodes for Node-RED",
@@ -8025,30 +8093,6 @@
         "custom"
       ],
       "url": "https://flows.nodered.org/node/@softwaredevelopment/node-red-contrib-bodhi-device-custom"
-    },
-    {
-      "id": "node-red-notion",
-      "version": "1.0.1",
-      "description": "Node-RED Notion nodes",
-      "updated_at": "2023-09-22T08:27:33.998Z",
-      "types": [
-        "notion integration",
-        "append block children",
-        "get block children",
-        "delete block",
-        "get page",
-        "update page",
-        "create page",
-        "get page property",
-        "create database",
-        "get database",
-        "query database"
-      ],
-      "keywords": [
-        "node-red",
-        "notion"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-notion"
     },
     {
       "id": "@redplc/node-red-time",
