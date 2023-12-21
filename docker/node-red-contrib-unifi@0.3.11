@@ -1,0 +1,49 @@
+#0 building with "default" instance using docker driver
+
+#1 [internal] load build definition from Dockerfile
+#1 transferring dockerfile: 116B done
+#1 DONE 0.0s
+
+#2 [internal] load .dockerignore
+#2 transferring context: 2B done
+#2 DONE 0.0s
+
+#3 [internal] load metadata for docker.io/nodered/node-red:latest
+#3 DONE 0.1s
+
+#4 [1/2] FROM docker.io/nodered/node-red@sha256:f72381be70e1e1f06ae31fa28fc322fbf806184a2a4b97df765e6916f9204d47
+#4 CACHED
+
+#5 [2/2] RUN npm install npm install node-red-contrib-unifi@0.3.11
+#5 2.185 npm WARN EBADENGINE Unsupported engine {
+#5 2.186 npm WARN EBADENGINE   package: 'npm@10.2.5',
+#5 2.186 npm WARN EBADENGINE   required: { node: '^18.17.0 || >=20.5.0' },
+#5 2.186 npm WARN EBADENGINE   current: { node: 'v16.20.2', npm: '8.19.4' }
+#5 2.186 npm WARN EBADENGINE }
+#5 3.547 
+#5 3.547 added 9 packages, and audited 548 packages in 3s
+#5 3.547 
+#5 3.547 71 packages are looking for funding
+#5 3.547   run `npm fund` for details
+#5 3.549 
+#5 3.549 2 moderate severity vulnerabilities
+#5 3.549 
+#5 3.549 To address all issues (including breaking changes), run:
+#5 3.549   npm audit fix --force
+#5 3.549 
+#5 3.549 Run `npm audit` for details.
+#5 3.550 npm notice 
+#5 3.550 npm notice New major version of npm available! 8.19.4 -> 10.2.5
+#5 3.550 npm notice Changelog: <https://github.com/npm/cli/releases/tag/v10.2.5>
+#5 3.550 npm notice Run `npm install -g npm@10.2.5` to update!
+#5 3.550 npm notice 
+#5 DONE 3.6s
+
+#6 exporting to image
+#6 exporting layers
+#6 exporting layers 1.0s done
+#6 writing image sha256:e1cb5856554c6a344656e5e6b090c4d4ae8b7f9ae0665e670c51f55c1ccffcca done
+#6 naming to docker.io/library/tmp done
+#6 DONE 1.0s
+
+----
