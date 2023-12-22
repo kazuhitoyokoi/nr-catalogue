@@ -1,7 +1,193 @@
 {
   "name": "Catalogue for Docker",
-  "updated_at": "2023-12-21T15:58:02.102Z",
+  "updated_at": "2023-12-22T15:59:22.900Z",
   "modules": [
+    {
+      "id": "nr-eaf-amr",
+      "version": "0.2.2",
+      "description": "Automated Meter Reading client for STROMDAO Energy Application Framework",
+      "updated_at": "2023-12-22T13:57:17.043Z",
+      "types": [
+        "SendReading",
+        "Tariff",
+        "BestPrice",
+        "eaf-credentials"
+      ],
+      "keywords": [
+        "node-red",
+        "amr",
+        "smartmeter",
+        "tariff",
+        "energy",
+        "stromdao"
+      ],
+      "url": "https://flows.nodered.org/node/nr-eaf-amr"
+    },
+    {
+      "id": "vjezba3-node-red_3",
+      "version": "1.0.1",
+      "description": "citaj me",
+      "updated_at": "2023-12-22T13:17:18.117Z",
+      "types": [
+        "a_node",
+        "myname-config"
+      ],
+      "keywords": [
+        "node-red"
+      ],
+      "url": "https://flows.nodered.org/node/vjezba3-node-red_3"
+    },
+    {
+      "id": "node-red-contrib-dirigera",
+      "version": "1.2.0",
+      "description": "A Node-Red Node for controlling Ikea Dirigera hub.",
+      "updated_at": "2023-12-22T12:11:06.801Z",
+      "types": [
+        "dirigera-config",
+        "dirigera",
+        "__errors__"
+      ],
+      "keywords": [
+        "node-red",
+        "dirigera",
+        "ikea"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-dirigera"
+    },
+    {
+      "id": "node-red-contrib-handshake-node",
+      "version": "1.0.0",
+      "description": "A contrib Node-RED node for handling handshake operations between Bufferstack.IO IIoT Gateway and Industrial Controllers.",
+      "updated_at": "2023-12-22T07:15:44.732Z",
+      "types": [
+        "handshake-node"
+      ],
+      "keywords": [
+        "node-red",
+        "handshake",
+        "communication",
+        "PLC",
+        "Network"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-handshake-node"
+    },
+    {
+      "id": "@robinck/node-red-puppeteer",
+      "version": "1.0.6",
+      "description": "NodeRED nodes to control a headless chrome with puppeteer",
+      "updated_at": "2023-12-21T20:49:45.106Z",
+      "types": [
+        "puppeteer-browser-launch",
+        "puppeteer-browser-close",
+        "puppeteer-browser-newPage",
+        "puppeteer-page-goto",
+        "puppeteer-page-screenshot",
+        "puppeteer-page-content",
+        "puppeteer-page-click",
+        "puppeteer-page-download",
+        "puppeteer-page-focus",
+        "puppeteer-page-waitFor",
+        "puppeteer-page-getCookies",
+        "puppeteer-page-setCookies",
+        "puppeteer-page-deleteCookies",
+        "puppeteer-page-close",
+        "puppeteer-page-keyboard-type",
+        "puppeteer-page-keyboard-press",
+        "puppeteer-page-get-value",
+        "puppeteer-page-set-value",
+        "puppeteer-page-upload",
+        "puppeteer-rename",
+        "puppeteer-page-viewport",
+        "puppeteer-page-localstorage"
+      ],
+      "keywords": [
+        "chrome",
+        "browser automation",
+        "puppeteer",
+        "node-red"
+      ],
+      "url": "https://flows.nodered.org/node/@robinck/node-red-puppeteer"
+    },
+    {
+      "id": "@tonymacdonald/node-red-rapt-pull",
+      "version": "0.9.1",
+      "description": "Simple node to pull data from RAPT cloud for integration into Node-RED flows",
+      "updated_at": "2023-12-21T16:49:44.644Z",
+      "types": [
+        "rapt-credentials",
+        "rapt-pull"
+      ],
+      "keywords": [
+        "node-red",
+        "rapt",
+        "pill",
+        "hydrometer"
+      ],
+      "url": "https://flows.nodered.org/node/@tonymacdonald/node-red-rapt-pull"
+    },
+    {
+      "id": "victron-vrm-api",
+      "version": "0.0.10",
+      "description": "Interface with the Victron Energy VRM API",
+      "updated_at": "2023-12-21T16:45:56.562Z",
+      "types": [
+        "config-vrm-api",
+        "vrm-api"
+      ],
+      "keywords": [
+        "node-red",
+        "victron",
+        "vrm",
+        "api"
+      ],
+      "url": "https://flows.nodered.org/node/victron-vrm-api"
+    },
+    {
+      "id": "@strato-automation/node-red-contrib-strato-automation",
+      "version": "0.3.1",
+      "description": "Strato Automation Official Node Red Library",
+      "updated_at": "2023-12-21T16:05:07.498Z",
+      "types": [
+        "input",
+        "output",
+        "ocn-server",
+        "func-on-off",
+        "func-ramp",
+        "func-min",
+        "func-max",
+        "const",
+        "input-topic",
+        "unit-converter",
+        "logic-gate",
+        "not-gate",
+        "psychrometric-calculator",
+        "strato-pid",
+        "signal-generator",
+        "deadband"
+      ],
+      "keywords": [
+        "node-red",
+        "node-red-node"
+      ],
+      "url": "https://flows.nodered.org/node/@strato-automation/node-red-contrib-strato-automation"
+    },
+    {
+      "id": "@nickiv/node-red-huawei-sms",
+      "version": "0.0.6",
+      "description": "Nodes to send and receive SMS from Huawei LTE USB Stick",
+      "updated_at": "2023-12-21T15:56:34.171Z",
+      "types": [
+        "huawei-sms-send",
+        "huawei-sms-receive",
+        "huawei-sms-config"
+      ],
+      "keywords": [
+        "node-red",
+        "sms",
+        "huawei"
+      ],
+      "url": "https://flows.nodered.org/node/@nickiv/node-red-huawei-sms"
+    },
     {
       "id": "node-red-notion",
       "version": "1.1.0",
@@ -156,93 +342,6 @@
       "url": "https://flows.nodered.org/node/@blebtechnology/node-red-blebricks"
     },
     {
-      "id": "nr-eaf-amr",
-      "version": "0.2.1",
-      "description": "Automated Meter Reading client for STROMDAO Energy Application Framework",
-      "updated_at": "2023-12-20T15:40:28.470Z",
-      "types": [
-        "SendReading",
-        "Tariff",
-        "BestPrice",
-        "eaf-credentials"
-      ],
-      "keywords": [
-        "node-red",
-        "amr",
-        "smartmeter",
-        "tariff",
-        "energy",
-        "stromdao"
-      ],
-      "url": "https://flows.nodered.org/node/nr-eaf-amr"
-    },
-    {
-      "id": "@strato-automation/node-red-contrib-strato-automation",
-      "version": "0.3.0",
-      "description": "Strato Automation Official Node Red Library",
-      "updated_at": "2023-12-20T15:39:45.468Z",
-      "types": [
-        "input",
-        "output",
-        "ocn-server",
-        "func-on-off",
-        "func-ramp",
-        "func-min",
-        "func-max",
-        "const",
-        "input-topic",
-        "unit-converter",
-        "logic-gate",
-        "not-gate",
-        "psychrometric-calculator",
-        "strato-pid",
-        "signal-generator",
-        "deadband"
-      ],
-      "keywords": [
-        "node-red",
-        "node-red-node"
-      ],
-      "url": "https://flows.nodered.org/node/@strato-automation/node-red-contrib-strato-automation"
-    },
-    {
-      "id": "@robinck/node-red-puppeteer",
-      "version": "1.0.4",
-      "description": "NodeRED nodes to control a headless chrome with puppeteer",
-      "updated_at": "2023-12-20T15:16:12.944Z",
-      "types": [
-        "puppeteer-browser-launch",
-        "puppeteer-browser-close",
-        "puppeteer-browser-newPage",
-        "puppeteer-page-goto",
-        "puppeteer-page-screenshot",
-        "puppeteer-page-content",
-        "puppeteer-page-click",
-        "puppeteer-page-download",
-        "puppeteer-page-focus",
-        "puppeteer-page-waitFor",
-        "puppeteer-page-getCookies",
-        "puppeteer-page-setCookies",
-        "puppeteer-page-deleteCookies",
-        "puppeteer-page-close",
-        "puppeteer-page-keyboard-type",
-        "puppeteer-page-keyboard-press",
-        "puppeteer-page-get-value",
-        "puppeteer-page-set-value",
-        "puppeteer-page-upload",
-        "puppeteer-rename",
-        "puppeteer-page-viewport",
-        "puppeteer-page-localstorage"
-      ],
-      "keywords": [
-        "chrome",
-        "browser automation",
-        "puppeteer",
-        "node-red"
-      ],
-      "url": "https://flows.nodered.org/node/@robinck/node-red-puppeteer"
-    },
-    {
       "id": "@kenke7/node-red-contrib-modbus",
       "version": "5.28.7",
       "description": "The all in one Modbus TCP and Serial contribution package for Node-RED.",
@@ -321,23 +420,6 @@
       "url": "https://flows.nodered.org/node/@edgepi-cloud/node-red-edgepi-pwm"
     },
     {
-      "id": "node-red-contrib-dirigera",
-      "version": "1.0.7",
-      "description": "A Node-Red Node for controlling Ikea Dirigera hub.",
-      "updated_at": "2023-12-19T19:24:53.186Z",
-      "types": [
-        "dirigera-config",
-        "dirigera",
-        "__errors__"
-      ],
-      "keywords": [
-        "node-red",
-        "dirigera",
-        "ikea"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-dirigera"
-    },
-    {
       "id": "node-red-contrib-dawnchorus",
       "version": "0.0.13",
       "description": "Nodes for uploading birdsongs to dawnchorus.",
@@ -411,23 +493,6 @@
         "tankerkoenig"
       ],
       "url": "https://flows.nodered.org/node/@tq-bit/node-red-contrib-de-fuelprices"
-    },
-    {
-      "id": "victron-vrm-api",
-      "version": "0.0.9",
-      "description": "Interface with the Victron Energy VRM API",
-      "updated_at": "2023-12-19T07:49:48.260Z",
-      "types": [
-        "config-vrm-api",
-        "vrm-api"
-      ],
-      "keywords": [
-        "node-red",
-        "victron",
-        "vrm",
-        "api"
-      ],
-      "url": "https://flows.nodered.org/node/victron-vrm-api"
     },
     {
       "id": "victron-dynamic-ess",
@@ -2243,23 +2308,6 @@
       "url": "https://flows.nodered.org/node/@redplc/node-red-wago-cc100-io"
     },
     {
-      "id": "@nickiv/node-red-huawei-sms",
-      "version": "0.0.5",
-      "description": "Nodes to send and receive SMS from Huawei LTE USB Stick",
-      "updated_at": "2023-11-30T11:27:14.514Z",
-      "types": [
-        "huawei-sms-send",
-        "huawei-sms-receive",
-        "huawei-sms-config"
-      ],
-      "keywords": [
-        "node-red",
-        "sms",
-        "huawei"
-      ],
-      "url": "https://flows.nodered.org/node/@nickiv/node-red-huawei-sms"
-    },
-    {
       "id": "@flowfuse/node-red-function-gpt",
       "version": "0.4.0",
       "description": "Variation of the standard Node-RED function node that includes an interface to ChatGPT for writing into the function content.",
@@ -2537,23 +2585,6 @@
         "ai"
       ],
       "url": "https://flows.nodered.org/node/@inductiv/node-red-openai-api"
-    },
-    {
-      "id": "@tonymacdonald/node-red-rapt-pull",
-      "version": "0.9.0",
-      "description": "Simple node to pull data from RAPT cloud for integration into node red flows",
-      "updated_at": "2023-11-27T16:25:30.066Z",
-      "types": [
-        "rapt-credentials",
-        "rapt-pull"
-      ],
-      "keywords": [
-        "node-red",
-        "rapt",
-        "pill",
-        "hydrometer"
-      ],
-      "url": "https://flows.nodered.org/node/@tonymacdonald/node-red-rapt-pull"
     },
     {
       "id": "@shri123321/node-red-contrib-shri-super-trend",
