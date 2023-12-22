@@ -1,0 +1,45 @@
+#0 building with "default" instance using docker driver
+
+#1 [internal] load .dockerignore
+#1 transferring context: 2B done
+#1 DONE 0.0s
+
+#2 [internal] load build definition from Dockerfile
+#2 transferring dockerfile: 120B done
+#2 DONE 0.0s
+
+#3 [internal] load metadata for docker.io/nodered/node-red:latest
+#3 DONE 0.1s
+
+#4 [1/2] FROM docker.io/nodered/node-red@sha256:f72381be70e1e1f06ae31fa28fc322fbf806184a2a4b97df765e6916f9204d47
+#4 CACHED
+
+#5 [2/2] RUN npm install npm install @robinck/node-red-puppeteer@1.0.6
+#5 3.590 npm WARN EBADENGINE Unsupported engine {
+#5 3.590 npm WARN EBADENGINE   package: 'npm@10.2.5',
+#5 3.590 npm WARN EBADENGINE   required: { node: '^18.17.0 || >=20.5.0' },
+#5 3.590 npm WARN EBADENGINE   current: { node: 'v16.20.2', npm: '8.19.4' }
+#5 3.590 npm WARN EBADENGINE }
+#5 5.180 npm WARN deprecated puppeteer@19.8.5: < 21.3.7 is no longer supported
+#5 11.20 
+#5 11.20 added 68 packages, and audited 607 packages in 11s
+#5 11.20 
+#5 11.20 73 packages are looking for funding
+#5 11.20   run `npm fund` for details
+#5 11.20 
+#5 11.20 found 0 vulnerabilities
+#5 11.20 npm notice 
+#5 11.20 npm notice New major version of npm available! 8.19.4 -> 10.2.5
+#5 11.20 npm notice Changelog: <https://github.com/npm/cli/releases/tag/v10.2.5>
+#5 11.20 npm notice Run `npm install -g npm@10.2.5` to update!
+#5 11.20 npm notice 
+#5 DONE 12.3s
+
+#6 exporting to image
+#6 exporting layers
+#6 exporting layers 3.0s done
+#6 writing image sha256:7163d3250dd05919fcb6e06520941d584b9986da60b259645786adf971da1c8c done
+#6 naming to docker.io/library/tmp done
+#6 DONE 3.0s
+
+----
