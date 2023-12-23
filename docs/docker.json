@@ -1,7 +1,220 @@
 {
   "name": "Catalogue for Docker",
-  "updated_at": "2023-12-22T15:59:22.900Z",
+  "updated_at": "2023-12-23T15:58:31.287Z",
   "modules": [
+    {
+      "id": "@insectos/node-red-cloudflare-ddns",
+      "version": "0.2.0",
+      "description": "A DDNS client for Cloudflare with optional distributed operation",
+      "updated_at": "2023-12-23T13:07:19.873Z",
+      "types": [
+        "cloudflare-ddns",
+        "cloudflare-ddns-hub",
+        "cloudflare-ddns-spoke"
+      ],
+      "keywords": [
+        "node-red",
+        "ddns",
+        "cloudflare"
+      ],
+      "url": "https://flows.nodered.org/node/@insectos/node-red-cloudflare-ddns"
+    },
+    {
+      "id": "@nickiv/node-red-huawei-sms",
+      "version": "0.0.7",
+      "description": "Nodes to send and receive SMS from Huawei LTE USB Stick",
+      "updated_at": "2023-12-23T06:28:11.792Z",
+      "types": [
+        "huawei-sms-send",
+        "huawei-sms-receive",
+        "huawei-sms-config"
+      ],
+      "keywords": [
+        "node-red",
+        "sms",
+        "huawei"
+      ],
+      "url": "https://flows.nodered.org/node/@nickiv/node-red-huawei-sms"
+    },
+    {
+      "id": "node-red-contrib-esphome",
+      "version": "0.2.5",
+      "description": "Node-RED nodes to ESPhome devices",
+      "updated_at": "2023-12-23T00:10:51.620Z",
+      "types": [
+        "esphome-device",
+        "esphome-in",
+        "esphome-out"
+      ],
+      "keywords": [
+        "node-red",
+        "esphome",
+        "esp",
+        "home",
+        "esp32",
+        "esp8266",
+        "iot"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-esphome"
+    },
+    {
+      "id": "node-red-contrib-hapcan",
+      "version": "2.8.0",
+      "description": "Set of nodes for HAPCAN (home automation project based on CAN bus).",
+      "updated_at": "2023-12-22T22:36:42.861Z",
+      "types": [
+        "blind-output",
+        "blind-input",
+        "button-output",
+        "button-input",
+        "dimmer-output",
+        "dimmer-input",
+        "ir-input",
+        "relay-output",
+        "relay-input",
+        "rgb-output",
+        "rgb-input",
+        "rtc-output",
+        "rtc-input",
+        "state-output",
+        "temp-input",
+        "thermostat-input",
+        "hapcan-gateway",
+        "custom-output",
+        "custom-input"
+      ],
+      "keywords": [
+        "node-red",
+        "hapcan",
+        "home-automation",
+        "iot",
+        "can-bus",
+        "relay",
+        "blind",
+        "dimmer",
+        "button",
+        "led",
+        "rtc",
+        "ir",
+        "infrared",
+        "receive",
+        "send",
+        "temperature",
+        "thermostat"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-hapcan"
+    },
+    {
+      "id": "@flowfuse/node-red-dashboard",
+      "version": "0.11.1",
+      "description": "A collection of Node-RED nodes that provide functionality to build your own UI applications (inc. forms, buttons, charts) within Node-RED.",
+      "updated_at": "2023-12-22T20:55:46.626Z",
+      "types": [
+        "ui-base",
+        "ui-page",
+        "ui-group",
+        "ui-theme",
+        "ui-form",
+        "__errors__",
+        "ui-text-input",
+        "__errors__",
+        "ui-button",
+        "__errors__",
+        "ui-dropdown",
+        "__errors__",
+        "ui-radio-group",
+        "__errors__",
+        "ui-slider",
+        "__errors__",
+        "ui-switch",
+        "__errors__",
+        "ui-text",
+        "__errors__",
+        "ui-table",
+        "__errors__",
+        "ui-chart",
+        "__errors__",
+        "ui-notification",
+        "__errors__",
+        "ui-markdown",
+        "__errors__",
+        "ui-template",
+        "__errors__",
+        "ui-event",
+        "__errors__",
+        "ui-control",
+        "__errors__"
+      ],
+      "keywords": [
+        "node-red"
+      ],
+      "url": "https://flows.nodered.org/node/@flowfuse/node-red-dashboard"
+    },
+    {
+      "id": "@blebtechnology/node-red-blebricks",
+      "version": "1.0.9",
+      "description": "A node-red package to manage blebricks data",
+      "updated_at": "2023-12-22T18:49:50.242Z",
+      "types": [
+        "CHT",
+        "ENV",
+        "OAQ",
+        "BLEB_TEMP",
+        "PTX",
+        "MAG",
+        "SOIL",
+        "LGH",
+        "UHF",
+        "PRT",
+        "REL",
+        "RELOUT",
+        "WPLOUT",
+        "VBROUT",
+        "BUZOUT",
+        "IRTOUT",
+        "ODCOUT",
+        "ODC",
+        "WPL",
+        "VBR",
+        "BUZ",
+        "IRT",
+        "PLV",
+        "WND",
+        "SOL",
+        "PYR",
+        "CMS",
+        "RHT",
+        "UVA",
+        "RGB",
+        "CLT",
+        "IMU",
+        "ACC",
+        "PDM",
+        "CAP",
+        "IRR",
+        "SMS",
+        "DSD",
+        "BLEB_IN",
+        "BLEB_RPS",
+        "SFX",
+        "ESP",
+        "UWS",
+        "RMS",
+        "VMS",
+        "GPS",
+        "BLEB_CNT",
+        "PMX",
+        "PROTECTOR",
+        "LCDOUT",
+        "SLS",
+        "PWMOUT",
+        "TPD"
+      ],
+      "keywords": [
+        "node-red"
+      ],
+      "url": "https://flows.nodered.org/node/@blebtechnology/node-red-blebricks"
+    },
     {
       "id": "nr-eaf-amr",
       "version": "0.2.2",
@@ -109,6 +322,26 @@
       "url": "https://flows.nodered.org/node/@robinck/node-red-puppeteer"
     },
     {
+      "id": "node-red-contrib-genetic-charging-strategy2",
+      "version": "1.0.19",
+      "description": "A module for Node-RED that adds a battery charging strategy to node-red-contrib-power-saver. It uses genetic algorithms to find the best schedule",
+      "updated_at": "2023-12-21T18:01:09.185Z",
+      "types": [
+        "strategy-genetic-charging"
+      ],
+      "keywords": [
+        "node-red",
+        "tibber",
+        "energy",
+        "smarthome",
+        "home-automation",
+        "home-assistant",
+        "power",
+        "powersaver"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-genetic-charging-strategy2"
+    },
+    {
       "id": "@tonymacdonald/node-red-rapt-pull",
       "version": "0.9.1",
       "description": "Simple node to pull data from RAPT cloud for integration into Node-RED flows",
@@ -170,23 +403,6 @@
         "node-red-node"
       ],
       "url": "https://flows.nodered.org/node/@strato-automation/node-red-contrib-strato-automation"
-    },
-    {
-      "id": "@nickiv/node-red-huawei-sms",
-      "version": "0.0.6",
-      "description": "Nodes to send and receive SMS from Huawei LTE USB Stick",
-      "updated_at": "2023-12-21T15:56:34.171Z",
-      "types": [
-        "huawei-sms-send",
-        "huawei-sms-receive",
-        "huawei-sms-config"
-      ],
-      "keywords": [
-        "node-red",
-        "sms",
-        "huawei"
-      ],
-      "url": "https://flows.nodered.org/node/@nickiv/node-red-huawei-sms"
     },
     {
       "id": "node-red-notion",
@@ -275,71 +491,6 @@
         "microservice"
       ],
       "url": "https://flows.nodered.org/node/@headless-architecture/node-red-contrib-slack-bolt"
-    },
-    {
-      "id": "@blebtechnology/node-red-blebricks",
-      "version": "1.0.8",
-      "description": "A node-red package to manage blebricks data",
-      "updated_at": "2023-12-20T16:18:26.869Z",
-      "types": [
-        "CHT",
-        "ENV",
-        "OAQ",
-        "BLEB_TEMP",
-        "PTX",
-        "MAG",
-        "SOIL",
-        "LGH",
-        "UHF",
-        "PRT",
-        "REL",
-        "RELOUT",
-        "WPLOUT",
-        "VBROUT",
-        "BUZOUT",
-        "IRTOUT",
-        "ODCOUT",
-        "ODC",
-        "WPL",
-        "VBR",
-        "BUZ",
-        "IRT",
-        "PLV",
-        "WND",
-        "SOL",
-        "PYR",
-        "CMS",
-        "RHT",
-        "UVA",
-        "RGB",
-        "CLT",
-        "IMU",
-        "ACC",
-        "PDM",
-        "CAP",
-        "IRR",
-        "SMS",
-        "DSD",
-        "BLEB_IN",
-        "BLEB_RPS",
-        "SFX",
-        "ESP",
-        "UWS",
-        "RMS",
-        "VMS",
-        "GPS",
-        "BLEB_CNT",
-        "PMX",
-        "PROTECTOR",
-        "LCDOUT",
-        "SLS",
-        "PWMOUT",
-        "TPD"
-      ],
-      "keywords": [
-        "node-red"
-      ],
-      "url": "https://flows.nodered.org/node/@blebtechnology/node-red-blebricks"
     },
     {
       "id": "@kenke7/node-red-contrib-modbus",
@@ -619,27 +770,6 @@
         "sse"
       ],
       "url": "https://flows.nodered.org/node/@tq-bit/node-red-contrib-server-sent-events"
-    },
-    {
-      "id": "node-red-contrib-esphome",
-      "version": "0.2.4",
-      "description": "Node-RED nodes to ESPhome devices",
-      "updated_at": "2023-12-17T19:22:01.697Z",
-      "types": [
-        "esphome-device",
-        "esphome-in",
-        "esphome-out"
-      ],
-      "keywords": [
-        "node-red",
-        "esphome",
-        "esp",
-        "home",
-        "esp32",
-        "esp8266",
-        "iot"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-esphome"
     },
     {
       "id": "@stefa168/node-red-hysteresis",
@@ -1210,52 +1340,6 @@
         "fve"
       ],
       "url": "https://flows.nodered.org/node/@pavelbrazda/node-red-simplepv"
-    },
-    {
-      "id": "@flowfuse/node-red-dashboard",
-      "version": "0.10.2",
-      "description": "A collection of Node-RED nodes that provide functionality to build your own UI applications (inc. forms, buttons, charts) within Node-RED.",
-      "updated_at": "2023-12-12T16:12:48.349Z",
-      "types": [
-        "ui-base",
-        "ui-page",
-        "ui-group",
-        "ui-theme",
-        "ui-form",
-        "__errors__",
-        "ui-text-input",
-        "__errors__",
-        "ui-button",
-        "__errors__",
-        "ui-dropdown",
-        "__errors__",
-        "ui-radio-group",
-        "__errors__",
-        "ui-slider",
-        "__errors__",
-        "ui-switch",
-        "__errors__",
-        "ui-text",
-        "__errors__",
-        "ui-table",
-        "__errors__",
-        "ui-chart",
-        "__errors__",
-        "ui-notification",
-        "__errors__",
-        "ui-markdown",
-        "__errors__",
-        "ui-template",
-        "__errors__",
-        "ui-event",
-        "__errors__",
-        "ui-control",
-        "__errors__"
-      ],
-      "keywords": [
-        "node-red"
-      ],
-      "url": "https://flows.nodered.org/node/@flowfuse/node-red-dashboard"
     },
     {
       "id": "@thingspal/node-red-contrib-analog-alarm",
@@ -3331,21 +3415,6 @@
         "data"
       ],
       "url": "https://flows.nodered.org/node/@hylink/node-red-kafka-client"
-    },
-    {
-      "id": "@insectos/node-red-cloudflare-ddns",
-      "version": "0.0.1",
-      "description": "A DDNS clinet for Cloudflare",
-      "updated_at": "2023-11-18T12:51:17.170Z",
-      "types": [
-        "cloudflare-ddns"
-      ],
-      "keywords": [
-        "node-red",
-        "ssh",
-        "interactive"
-      ],
-      "url": "https://flows.nodered.org/node/@insectos/node-red-cloudflare-ddns"
     },
     {
       "id": "apconic-node-red-image-service",
@@ -9499,6 +9568,37 @@
       "url": "https://flows.nodered.org/node/node-red-contrib-slack-ubos"
     },
     {
+      "id": "node-red-contrib-modbus",
+      "version": "5.27.2",
+      "description": "The all in one Modbus TCP and Serial contribution package for Node-RED.",
+      "updated_at": "2023-08-29T13:20:47.606Z",
+      "types": [
+        "modbus-client",
+        "modbus-response",
+        "modbus-read",
+        "modbus-getter",
+        "modbus-flex-getter",
+        "modbus-write",
+        "modbus-flex-write",
+        "modbus-server",
+        "modbus-flex-server",
+        "modbus-queue-info",
+        "modbus-flex-connector",
+        "modbus-io-config",
+        "modbus-response-filter",
+        "modbus-flex-sequencer",
+        "modbus-flex-fc"
+      ],
+      "keywords": [
+        "node-red",
+        "plusfornodered",
+        "modbus",
+        "automation",
+        "biancoroyal"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-modbus"
+    },
+    {
       "id": "@envidatec/node-red-contrib-jevis",
       "version": "1.0.6",
       "description": "Read / Write to JEVis Server",
@@ -15225,36 +15325,6 @@
         "iot"
       ],
       "url": "https://flows.nodered.org/node/node-red-sensecap-paas"
-    },
-    {
-      "id": "node-red-contrib-modbus",
-      "version": "5.26.0",
-      "description": "The all in one Modbus TCP and Serial contribution package for Node-RED.",
-      "updated_at": "2023-04-10T06:39:10.891Z",
-      "types": [
-        "modbus-client",
-        "modbus-response",
-        "modbus-read",
-        "modbus-getter",
-        "modbus-flex-getter",
-        "modbus-write",
-        "modbus-flex-write",
-        "modbus-server",
-        "modbus-flex-server",
-        "modbus-queue-info",
-        "modbus-flex-connector",
-        "modbus-io-config",
-        "modbus-response-filter",
-        "modbus-flex-sequencer"
-      ],
-      "keywords": [
-        "node-red",
-        "plusfornodered",
-        "modbus",
-        "automation",
-        "biancoroyal"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-modbus"
     },
     {
       "id": "node-red-contrib-environmental-data-simulator",
@@ -23194,53 +23264,6 @@
         "websocket"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-ws-subscriber-custom-deltaecho07"
-    },
-    {
-      "id": "node-red-contrib-hapcan",
-      "version": "2.7.0",
-      "description": "Set of nodes for HAPCAN (home automation project based on CAN bus).",
-      "updated_at": "2022-09-24T18:12:24.501Z",
-      "types": [
-        "blind-output",
-        "blind-input",
-        "button-output",
-        "button-input",
-        "dimmer-output",
-        "dimmer-input",
-        "ir-input",
-        "relay-output",
-        "relay-input",
-        "rgb-output",
-        "rgb-input",
-        "rtc-output",
-        "rtc-input",
-        "state-output",
-        "temp-input",
-        "thermostat-input",
-        "hapcan-gateway",
-        "custom-output",
-        "custom-input"
-      ],
-      "keywords": [
-        "node-red",
-        "hapcan",
-        "home-automation",
-        "iot",
-        "can-bus",
-        "relay",
-        "blind",
-        "dimmer",
-        "button",
-        "led",
-        "rtc",
-        "ir",
-        "infrared",
-        "receive",
-        "send",
-        "temperature",
-        "thermostat"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-hapcan"
     },
     {
       "id": "node-red-contrib-apple-findme-reloaded",
