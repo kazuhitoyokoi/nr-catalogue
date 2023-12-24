@@ -1,7 +1,142 @@
 {
   "name": "Catalogue for Docker",
-  "updated_at": "2023-12-23T15:58:31.287Z",
+  "updated_at": "2023-12-24T16:01:09.952Z",
   "modules": [
+    {
+      "id": "@bartbutenaers/node-red-autolayout-sidebar",
+      "version": "0.0.4",
+      "description": "A sidebar plugin for Node-RED to offer auto-layouting",
+      "updated_at": "2023-12-24T09:07:42.047Z",
+      "types": [
+        "auto_layout_config"
+      ],
+      "keywords": [
+        "node-red",
+        "auto",
+        "layout",
+        "graph",
+        "sidebar"
+      ],
+      "url": "https://flows.nodered.org/node/@bartbutenaers/node-red-autolayout-sidebar"
+    },
+    {
+      "id": "node-red-contrib-dawnchorus",
+      "version": "0.0.14",
+      "description": "Nodes for uploading birdsongs to dawnchorus.",
+      "updated_at": "2023-12-23T22:57:05.202Z",
+      "types": [
+        "dawn chorus"
+      ],
+      "keywords": [
+        "node-red",
+        "dawnchorus",
+        "birdsong"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-dawnchorus"
+    },
+    {
+      "id": "victron-vrm-api",
+      "version": "0.0.11",
+      "description": "Interface with the Victron Energy VRM API",
+      "updated_at": "2023-12-23T22:01:40.365Z",
+      "types": [
+        "config-vrm-api",
+        "vrm-api"
+      ],
+      "keywords": [
+        "node-red",
+        "victron",
+        "vrm",
+        "api"
+      ],
+      "url": "https://flows.nodered.org/node/victron-vrm-api"
+    },
+    {
+      "id": "@nickiv/node-red-huawei-sms",
+      "version": "0.0.8",
+      "description": "Nodes to send and receive SMS from Huawei LTE USB Stick",
+      "updated_at": "2023-12-23T19:28:51.059Z",
+      "types": [
+        "huawei-sms-send",
+        "huawei-sms-receive",
+        "huawei-sms-config"
+      ],
+      "keywords": [
+        "node-red",
+        "sms",
+        "huawei"
+      ],
+      "url": "https://flows.nodered.org/node/@nickiv/node-red-huawei-sms"
+    },
+    {
+      "id": "node-red-contrib-knx-ultimate",
+      "version": "2.2.37",
+      "description": "Control your KNX intallation via Node-Red! A bunch of KNX nodes, with integrated Philips HUE control and ETS group address importer. Easy to use and highly configurable.",
+      "updated_at": "2023-12-23T18:14:14.308Z",
+      "types": [
+        "knxUltimate",
+        "knxUltimateSceneController",
+        "knxUltimateWatchDog",
+        "knxUltimateLogger",
+        "knxUltimate-config",
+        "knxUltimateGlobalContext",
+        "knxUltimateAlerter",
+        "knxUltimateLoadControl",
+        "knxUltimateViewer",
+        "hue-config",
+        "knxUltimateHueLight",
+        "knxUltimateHueButton",
+        "knxUltimateHueMotion",
+        "knxUltimateHueTapDial",
+        "knxUltimateHueLightSensor",
+        "knxUltimateHueTemperatureSensor",
+        "knxUltimateHueScene",
+        "knxUltimateHueBattery"
+      ],
+      "keywords": [
+        "node-red",
+        "KNX",
+        "ETS",
+        "eib",
+        "konnex",
+        "IOT",
+        "philips hue"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-knx-ultimate"
+    },
+    {
+      "id": "node-red-contrib-unifi",
+      "version": "0.3.12",
+      "description": "Node for Node-RED to connect to a UniFi Controller ",
+      "updated_at": "2023-12-23T17:04:22.459Z",
+      "types": [
+        "unificonfig",
+        "Unifi",
+        "UnifiWS"
+      ],
+      "keywords": [
+        "node-red",
+        "unifi",
+        "ubnt",
+        "Ubiquiti Networks"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-unifi"
+    },
+    {
+      "id": "node-red-contrib-aedes",
+      "version": "0.12.0",
+      "description": "Node Red MQTT broker node based on aedes.js",
+      "updated_at": "2023-12-23T15:43:21.718Z",
+      "types": [
+        "aedes broker"
+      ],
+      "keywords": [
+        "node-red",
+        "aedes",
+        "mqtt"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-aedes"
+    },
     {
       "id": "@insectos/node-red-cloudflare-ddns",
       "version": "0.2.0",
@@ -18,23 +153,6 @@
         "cloudflare"
       ],
       "url": "https://flows.nodered.org/node/@insectos/node-red-cloudflare-ddns"
-    },
-    {
-      "id": "@nickiv/node-red-huawei-sms",
-      "version": "0.0.7",
-      "description": "Nodes to send and receive SMS from Huawei LTE USB Stick",
-      "updated_at": "2023-12-23T06:28:11.792Z",
-      "types": [
-        "huawei-sms-send",
-        "huawei-sms-receive",
-        "huawei-sms-config"
-      ],
-      "keywords": [
-        "node-red",
-        "sms",
-        "huawei"
-      ],
-      "url": "https://flows.nodered.org/node/@nickiv/node-red-huawei-sms"
     },
     {
       "id": "node-red-contrib-esphome",
@@ -359,23 +477,6 @@
       "url": "https://flows.nodered.org/node/@tonymacdonald/node-red-rapt-pull"
     },
     {
-      "id": "victron-vrm-api",
-      "version": "0.0.10",
-      "description": "Interface with the Victron Energy VRM API",
-      "updated_at": "2023-12-21T16:45:56.562Z",
-      "types": [
-        "config-vrm-api",
-        "vrm-api"
-      ],
-      "keywords": [
-        "node-red",
-        "victron",
-        "vrm",
-        "api"
-      ],
-      "url": "https://flows.nodered.org/node/victron-vrm-api"
-    },
-    {
       "id": "@strato-automation/node-red-contrib-strato-automation",
       "version": "0.3.1",
       "description": "Strato Automation Official Node Red Library",
@@ -429,24 +530,6 @@
         "notion"
       ],
       "url": "https://flows.nodered.org/node/node-red-notion"
-    },
-    {
-      "id": "node-red-contrib-unifi",
-      "version": "0.3.11",
-      "description": "Node for Node-RED to connect to a UniFi Controller ",
-      "updated_at": "2023-12-21T13:05:42.999Z",
-      "types": [
-        "unificonfig",
-        "Unifi",
-        "UnifiWS"
-      ],
-      "keywords": [
-        "node-red",
-        "unifi",
-        "ubnt",
-        "Ubiquiti Networks"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-unifi"
     },
     {
       "id": "node-red-contrib-alice-self-hosting",
@@ -571,21 +654,6 @@
       "url": "https://flows.nodered.org/node/@edgepi-cloud/node-red-edgepi-pwm"
     },
     {
-      "id": "node-red-contrib-dawnchorus",
-      "version": "0.0.13",
-      "description": "Nodes for uploading birdsongs to dawnchorus.",
-      "updated_at": "2023-12-19T19:20:05.048Z",
-      "types": [
-        "dawn chorus"
-      ],
-      "keywords": [
-        "node-red",
-        "dawnchorus",
-        "birdsong"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-dawnchorus"
-    },
-    {
       "id": "@gregoriusrippenstein/node-red-contrib-flowhub",
       "version": "0.4.4",
       "description": "Nodes for interacting with FlowHub.org.",
@@ -661,42 +729,6 @@
         "ess"
       ],
       "url": "https://flows.nodered.org/node/victron-dynamic-ess"
-    },
-    {
-      "id": "node-red-contrib-knx-ultimate",
-      "version": "2.2.36",
-      "description": "Control your KNX intallation via Node-Red! A bunch of KNX nodes, with integrated Philips HUE control and ETS group address importer. Easy to use and highly configurable.",
-      "updated_at": "2023-12-18T07:54:37.245Z",
-      "types": [
-        "knxUltimate",
-        "knxUltimateSceneController",
-        "knxUltimateWatchDog",
-        "knxUltimateLogger",
-        "knxUltimate-config",
-        "knxUltimateGlobalContext",
-        "knxUltimateAlerter",
-        "knxUltimateLoadControl",
-        "knxUltimateViewer",
-        "hue-config",
-        "knxUltimateHueLight",
-        "knxUltimateHueButton",
-        "knxUltimateHueMotion",
-        "knxUltimateHueTapDial",
-        "knxUltimateHueLightSensor",
-        "knxUltimateHueTemperatureSensor",
-        "knxUltimateHueScene",
-        "knxUltimateHueBattery"
-      ],
-      "keywords": [
-        "node-red",
-        "KNX",
-        "ETS",
-        "eib",
-        "konnex",
-        "IOT",
-        "philips hue"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-knx-ultimate"
     },
     {
       "id": "@gulpetl/node-red-core",
@@ -3939,23 +3971,6 @@
         "lawn mower"
       ],
       "url": "https://flows.nodered.org/node/@diidum/node-red-contrib-husqvarna-automower-connect"
-    },
-    {
-      "id": "@bartbutenaers/node-red-autolayout-sidebar",
-      "version": "0.0.3",
-      "description": "A sidebar plugin for Node-RED to offer auto-layouting",
-      "updated_at": "2023-11-08T11:25:50.655Z",
-      "types": [
-        "auto_layout_config"
-      ],
-      "keywords": [
-        "node-red",
-        "auto",
-        "layout",
-        "graph",
-        "sidebar"
-      ],
-      "url": "https://flows.nodered.org/node/@bartbutenaers/node-red-autolayout-sidebar"
     },
     {
       "id": "node-red-contrib-stepper",
@@ -16593,21 +16608,6 @@
         "datacake"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-datacake"
-    },
-    {
-      "id": "node-red-contrib-aedes",
-      "version": "0.11.1",
-      "description": "Node Red MQTT broker node based on aedes.js",
-      "updated_at": "2023-03-13T17:17:52.050Z",
-      "types": [
-        "aedes broker"
-      ],
-      "keywords": [
-        "node-red",
-        "aedes",
-        "mqtt"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-aedes"
     },
     {
       "id": "nr-strompreis",
