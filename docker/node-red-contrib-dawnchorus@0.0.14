@@ -1,0 +1,44 @@
+#0 building with "default" instance using docker driver
+
+#1 [internal] load .dockerignore
+#1 transferring context: 2B done
+#1 DONE 0.0s
+
+#2 [internal] load build definition from Dockerfile
+#2 transferring dockerfile: 121B done
+#2 DONE 0.0s
+
+#3 [internal] load metadata for docker.io/nodered/node-red:latest
+#3 DONE 0.1s
+
+#4 [1/2] FROM docker.io/nodered/node-red@sha256:f72381be70e1e1f06ae31fa28fc322fbf806184a2a4b97df765e6916f9204d47
+#4 CACHED
+
+#5 [2/2] RUN npm install npm install node-red-contrib-dawnchorus@0.0.14
+#5 1.922 npm WARN EBADENGINE Unsupported engine {
+#5 1.923 npm WARN EBADENGINE   package: 'npm@10.2.5',
+#5 1.923 npm WARN EBADENGINE   required: { node: '^18.17.0 || >=20.5.0' },
+#5 1.923 npm WARN EBADENGINE   current: { node: 'v16.20.2', npm: '8.19.4' }
+#5 1.924 npm WARN EBADENGINE }
+#5 3.580 
+#5 3.580 added 4 packages, and audited 543 packages in 3s
+#5 3.580 
+#5 3.580 69 packages are looking for funding
+#5 3.580   run `npm fund` for details
+#5 3.581 
+#5 3.581 found 0 vulnerabilities
+#5 3.581 npm notice 
+#5 3.581 npm notice New major version of npm available! 8.19.4 -> 10.2.5
+#5 3.581 npm notice Changelog: <https://github.com/npm/cli/releases/tag/v10.2.5>
+#5 3.582 npm notice Run `npm install -g npm@10.2.5` to update!
+#5 3.582 npm notice 
+#5 DONE 3.7s
+
+#6 exporting to image
+#6 exporting layers
+#6 exporting layers 1.0s done
+#6 writing image sha256:028dba9ea96e1afd68ac545da5f4a4fa961e3156a06e2ea00c98bc24af3554b7 done
+#6 naming to docker.io/library/tmp done
+#6 DONE 1.0s
+
+----
