@@ -1,7 +1,116 @@
 {
   "name": "Catalogue for Docker",
-  "updated_at": "2023-12-24T16:01:09.952Z",
+  "updated_at": "2023-12-25T15:58:32.539Z",
   "modules": [
+    {
+      "id": "node-red-contrib-iot-controlcenter",
+      "version": "1.0.8",
+      "description": "Data exchange from node-red to control center",
+      "updated_at": "2023-12-25T13:50:18.850Z",
+      "types": [
+        "Send",
+        "Get"
+      ],
+      "keywords": [
+        "iot",
+        "controlcenter",
+        "node-red"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-iot-controlcenter"
+    },
+    {
+      "id": "node-red-node-tmeter-emulator",
+      "version": "1.2.1",
+      "description": "ung dung tao cong to ao Tien Ho",
+      "updated_at": "2023-12-25T03:29:54.060Z",
+      "types": [],
+      "keywords": [
+        "node-red",
+        "random",
+        "emulator"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-node-tmeter-emulator"
+    },
+    {
+      "id": "@parallaxcontrol/node-red-control",
+      "version": "1.0.14",
+      "description": "A comprehensive package of Node-RED nodes designed to seamlessly integrate with the Parallax Control Engine, offering enhanced control capabilities for AV, IoT, and Industrial Automation.",
+      "updated_at": "2023-12-24T23:41:22.446Z",
+      "types": [
+        "and-gate",
+        "compare-string",
+        "input-select",
+        "inverter-gate",
+        "or-gate",
+        "set-reset-latch",
+        "send-single-dictionary",
+        "set-feedback",
+        "clear-signal-state",
+        "recall-signal-state",
+        "save-signal-state",
+        "toggle",
+        "extract-message-data"
+      ],
+      "keywords": [
+        "parallaxcontrol",
+        "node-red",
+        "audiovisual",
+        "av"
+      ],
+      "url": "https://flows.nodered.org/node/@parallaxcontrol/node-red-control"
+    },
+    {
+      "id": "node-red-contrib-knx-ultimate",
+      "version": "2.2.38",
+      "description": "Control your KNX intallation via Node-Red! A bunch of KNX nodes, with integrated Philips HUE control and ETS group address importer. Easy to use and highly configurable.",
+      "updated_at": "2023-12-24T17:03:17.044Z",
+      "types": [
+        "knxUltimate",
+        "knxUltimateSceneController",
+        "knxUltimateWatchDog",
+        "knxUltimateLogger",
+        "knxUltimate-config",
+        "knxUltimateGlobalContext",
+        "knxUltimateAlerter",
+        "knxUltimateLoadControl",
+        "knxUltimateViewer",
+        "hue-config",
+        "knxUltimateHueLight",
+        "knxUltimateHueButton",
+        "knxUltimateHueMotion",
+        "knxUltimateHueTapDial",
+        "knxUltimateHueLightSensor",
+        "knxUltimateHueTemperatureSensor",
+        "knxUltimateHueScene",
+        "knxUltimateHueBattery"
+      ],
+      "keywords": [
+        "node-red",
+        "KNX",
+        "ETS",
+        "eib",
+        "konnex",
+        "IOT",
+        "philips hue"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-knx-ultimate"
+    },
+    {
+      "id": "@nitisakc/node-red-oracledb",
+      "version": "1.1.2",
+      "description": "node-red-oracledb",
+      "updated_at": "2023-12-24T16:31:37.283Z",
+      "types": [
+        "oracle-server",
+        "oracle-exec"
+      ],
+      "keywords": [
+        "node-red",
+        "oracle",
+        "oracledb"
+      ],
+      "url": "https://flows.nodered.org/node/@nitisakc/node-red-oracledb"
+    },
     {
       "id": "@bartbutenaers/node-red-autolayout-sidebar",
       "version": "0.0.4",
@@ -67,42 +176,6 @@
         "huawei"
       ],
       "url": "https://flows.nodered.org/node/@nickiv/node-red-huawei-sms"
-    },
-    {
-      "id": "node-red-contrib-knx-ultimate",
-      "version": "2.2.37",
-      "description": "Control your KNX intallation via Node-Red! A bunch of KNX nodes, with integrated Philips HUE control and ETS group address importer. Easy to use and highly configurable.",
-      "updated_at": "2023-12-23T18:14:14.308Z",
-      "types": [
-        "knxUltimate",
-        "knxUltimateSceneController",
-        "knxUltimateWatchDog",
-        "knxUltimateLogger",
-        "knxUltimate-config",
-        "knxUltimateGlobalContext",
-        "knxUltimateAlerter",
-        "knxUltimateLoadControl",
-        "knxUltimateViewer",
-        "hue-config",
-        "knxUltimateHueLight",
-        "knxUltimateHueButton",
-        "knxUltimateHueMotion",
-        "knxUltimateHueTapDial",
-        "knxUltimateHueLightSensor",
-        "knxUltimateHueTemperatureSensor",
-        "knxUltimateHueScene",
-        "knxUltimateHueBattery"
-      ],
-      "keywords": [
-        "node-red",
-        "KNX",
-        "ETS",
-        "eib",
-        "konnex",
-        "IOT",
-        "philips hue"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-knx-ultimate"
     },
     {
       "id": "node-red-contrib-unifi",
@@ -932,34 +1005,6 @@
         "fve"
       ],
       "url": "https://flows.nodered.org/node/@pavelbrazda/node-red-tagbind"
-    },
-    {
-      "id": "@parallaxcontrol/node-red-control",
-      "version": "1.0.13",
-      "description": "A comprehensive package of Node-RED nodes designed to seamlessly integrate with the Parallax Control Engine, offering enhanced control capabilities for AV, IoT, and Industrial Automation.",
-      "updated_at": "2023-12-15T23:09:33.506Z",
-      "types": [
-        "and-gate",
-        "compare-string",
-        "input-select",
-        "inverter-gate",
-        "or-gate",
-        "set-reset-latch",
-        "send-single-dictionary",
-        "set-feedback",
-        "clear-signal-state",
-        "recall-signal-state",
-        "save-signal-state",
-        "toggle",
-        "extract-message-data"
-      ],
-      "keywords": [
-        "parallaxcontrol",
-        "node-red",
-        "audiovisual",
-        "av"
-      ],
-      "url": "https://flows.nodered.org/node/@parallaxcontrol/node-red-control"
     },
     {
       "id": "node-red-contrib-iberdrola",
@@ -2864,22 +2909,6 @@
         "node-red"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-ais-decoder"
-    },
-    {
-      "id": "node-red-contrib-iot-controlcenter",
-      "version": "1.0.5",
-      "description": "Data exchange from node-red to control center",
-      "updated_at": "2023-11-23T12:21:30.003Z",
-      "types": [
-        "Send",
-        "Get"
-      ],
-      "keywords": [
-        "node-red",
-        "iot",
-        "controlcenter"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-iot-controlcenter"
     },
     {
       "id": "node-red-contrib-feedparser-simple",
@@ -11752,19 +11781,6 @@
         "auroral"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-auroral"
-    },
-    {
-      "id": "node-red-node-tmeter-emulator",
-      "version": "1.1.2",
-      "description": "ung dung tao cong to ao Tien Ho",
-      "updated_at": "2023-07-07T09:47:32.954Z",
-      "types": [],
-      "keywords": [
-        "node-red",
-        "random",
-        "emulator"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-node-tmeter-emulator"
     },
     {
       "id": "node-red-contrib-trexmes-signal-counter",
