@@ -1,7 +1,144 @@
 {
   "name": "Catalogue for Docker",
-  "updated_at": "2023-12-25T15:58:32.539Z",
+  "updated_at": "2023-12-26T15:59:03.802Z",
   "modules": [
+    {
+      "id": "@thingwala/node-red-contrib-geyserwala-connect",
+      "version": "0.0.5",
+      "description": "Node-RED nodes for the Geyserwala Connect",
+      "updated_at": "2023-12-26T10:27:33.107Z",
+      "types": [
+        "geyserwala-connect-api"
+      ],
+      "keywords": [
+        "node-red",
+        "thingwala",
+        "geyserwala"
+      ],
+      "url": "https://flows.nodered.org/node/@thingwala/node-red-contrib-geyserwala-connect"
+    },
+    {
+      "id": "@ralphwetzel/node-red-systeminformation",
+      "version": "1.0.1",
+      "description": "Node-RED interface to systeminformation, the System Information Library for Node.JS",
+      "updated_at": "2023-12-26T10:25:38.109Z",
+      "types": [
+        "systeminformation"
+      ],
+      "keywords": [
+        "Node-RED",
+        "node-red",
+        "systeminformation",
+        "node.js",
+        "node"
+      ],
+      "url": "https://flows.nodered.org/node/@ralphwetzel/node-red-systeminformation"
+    },
+    {
+      "id": "@headless-architecture/node-red-contrib-slack-bolt",
+      "version": "1.1.5",
+      "description": "Control your Slack App via Node-Red! Slack Bolt integration.",
+      "updated_at": "2023-12-26T08:30:25.132Z",
+      "types": [
+        "slack-bolt-registry",
+        "slack-bolt-message",
+        "slack-bolt-app"
+      ],
+      "keywords": [
+        "Slack",
+        "Slack-bolt",
+        "node-red",
+        "microservice",
+        "notification"
+      ],
+      "url": "https://flows.nodered.org/node/@headless-architecture/node-red-contrib-slack-bolt"
+    },
+    {
+      "id": "@parallaxcontrol/node-red-control",
+      "version": "1.0.16",
+      "description": "A comprehensive package of Node-RED nodes designed to seamlessly integrate with the Parallax Control Engine, offering enhanced control capabilities for AV, IoT, and Industrial Automation.",
+      "updated_at": "2023-12-26T03:13:36.765Z",
+      "types": [
+        "and-gate",
+        "compare-string",
+        "input-select",
+        "inverter-gate",
+        "or-gate",
+        "set-reset-latch",
+        "send-single-dictionary",
+        "set-feedback",
+        "clear-signal-state",
+        "recall-signal-state",
+        "save-signal-state",
+        "toggle",
+        "extract-message-data"
+      ],
+      "keywords": [
+        "parallaxcontrol",
+        "node-red",
+        "audiovisual",
+        "av"
+      ],
+      "url": "https://flows.nodered.org/node/@parallaxcontrol/node-red-control"
+    },
+    {
+      "id": "@opcua/for-node-red",
+      "version": "2.2.1",
+      "description": "The Node-RED node to communicate via OPC UA, powered NodeOPCUA and developed by Sterfive's team",
+      "updated_at": "2023-12-25T21:15:17.612Z",
+      "types": [],
+      "keywords": [
+        "node-red",
+        "OPC UA",
+        "opc-ua",
+        "unified architecture",
+        "opc foundation",
+        "node-opcua",
+        "IIoT"
+      ],
+      "url": "https://flows.nodered.org/node/@opcua/for-node-red"
+    },
+    {
+      "id": "node-red-contrib-alice",
+      "version": "2.2.1",
+      "description": "**NodeRed Home** (node-red-contrib-alice) - это сервис позволит, в несколько простых шагов, подключить любые ваши устройства заведенные в Node-RED к умному дому от Яндекса и управлять ими с помощью голосового помощника Алиса.",
+      "updated_at": "2023-12-25T17:32:21.298Z",
+      "types": [
+        "alice-service",
+        "alice-device",
+        "On_Off",
+        "Toggle",
+        "Range",
+        "Color",
+        "Mode",
+        "Sensor",
+        "Event",
+        "Video"
+      ],
+      "keywords": [
+        "node-red",
+        "yandex",
+        "alice",
+        "яндекс",
+        "алиса"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-alice"
+    },
+    {
+      "id": "node-red-contrib-dawnchorus",
+      "version": "0.0.15",
+      "description": "Nodes for uploading birdsongs to dawnchorus.",
+      "updated_at": "2023-12-25T16:07:05.758Z",
+      "types": [
+        "dawn chorus"
+      ],
+      "keywords": [
+        "node-red",
+        "dawnchorus",
+        "birdsong"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-dawnchorus"
+    },
     {
       "id": "node-red-contrib-iot-controlcenter",
       "version": "1.0.8",
@@ -30,34 +167,6 @@
         "emulator"
       ],
       "url": "https://flows.nodered.org/node/node-red-node-tmeter-emulator"
-    },
-    {
-      "id": "@parallaxcontrol/node-red-control",
-      "version": "1.0.14",
-      "description": "A comprehensive package of Node-RED nodes designed to seamlessly integrate with the Parallax Control Engine, offering enhanced control capabilities for AV, IoT, and Industrial Automation.",
-      "updated_at": "2023-12-24T23:41:22.446Z",
-      "types": [
-        "and-gate",
-        "compare-string",
-        "input-select",
-        "inverter-gate",
-        "or-gate",
-        "set-reset-latch",
-        "send-single-dictionary",
-        "set-feedback",
-        "clear-signal-state",
-        "recall-signal-state",
-        "save-signal-state",
-        "toggle",
-        "extract-message-data"
-      ],
-      "keywords": [
-        "parallaxcontrol",
-        "node-red",
-        "audiovisual",
-        "av"
-      ],
-      "url": "https://flows.nodered.org/node/@parallaxcontrol/node-red-control"
     },
     {
       "id": "node-red-contrib-knx-ultimate",
@@ -127,21 +236,6 @@
         "sidebar"
       ],
       "url": "https://flows.nodered.org/node/@bartbutenaers/node-red-autolayout-sidebar"
-    },
-    {
-      "id": "node-red-contrib-dawnchorus",
-      "version": "0.0.14",
-      "description": "Nodes for uploading birdsongs to dawnchorus.",
-      "updated_at": "2023-12-23T22:57:05.202Z",
-      "types": [
-        "dawn chorus"
-      ],
-      "keywords": [
-        "node-red",
-        "dawnchorus",
-        "birdsong"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-dawnchorus"
     },
     {
       "id": "victron-vrm-api",
@@ -442,6 +536,23 @@
       "url": "https://flows.nodered.org/node/vjezba3-node-red_3"
     },
     {
+      "id": "node-red-contrib-handshake-node",
+      "version": "1.0.1",
+      "description": "A contrib Node-RED node for handling handshake operations between Bufferstack.IO IIoT Gateway and Industrial Controllers.",
+      "updated_at": "2023-12-22T12:35:53.258Z",
+      "types": [
+        "handshake-node"
+      ],
+      "keywords": [
+        "node-red",
+        "handshake",
+        "communication",
+        "PLC",
+        "Network"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-handshake-node"
+    },
+    {
       "id": "node-red-contrib-dirigera",
       "version": "1.2.0",
       "description": "A Node-Red Node for controlling Ikea Dirigera hub.",
@@ -457,23 +568,6 @@
         "ikea"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-dirigera"
-    },
-    {
-      "id": "node-red-contrib-handshake-node",
-      "version": "1.0.0",
-      "description": "A contrib Node-RED node for handling handshake operations between Bufferstack.IO IIoT Gateway and Industrial Controllers.",
-      "updated_at": "2023-12-22T07:15:44.732Z",
-      "types": [
-        "handshake-node"
-      ],
-      "keywords": [
-        "node-red",
-        "handshake",
-        "communication",
-        "PLC",
-        "Network"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-handshake-node"
     },
     {
       "id": "@robinck/node-red-puppeteer",
@@ -629,24 +723,6 @@
         "hosting"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-alice-self-hosting"
-    },
-    {
-      "id": "@headless-architecture/node-red-contrib-slack-bolt",
-      "version": "1.1.4",
-      "description": "Control your Slack App via Node-Red! Slack Bolt integration.",
-      "updated_at": "2023-12-21T09:34:42.795Z",
-      "types": [
-        "slack-bolt-registry",
-        "slack-bolt-message",
-        "slack-bolt-app"
-      ],
-      "keywords": [
-        "Slack",
-        "Slack-bolt",
-        "node-red",
-        "microservice"
-      ],
-      "url": "https://flows.nodered.org/node/@headless-architecture/node-red-contrib-slack-bolt"
     },
     {
       "id": "@kenke7/node-red-contrib-modbus",
@@ -1673,21 +1749,6 @@
       "url": "https://flows.nodered.org/node/node-red-contrib-tibber-api"
     },
     {
-      "id": "@thingwala/node-red-contrib-geyserwala-connect",
-      "version": "0.0.4",
-      "description": "Node-RED nodes for the Geyserwala Connect",
-      "updated_at": "2023-12-07T21:48:59.491Z",
-      "types": [
-        "geyserwala-connect-api"
-      ],
-      "keywords": [
-        "node-red",
-        "thingwala",
-        "geyserwala"
-      ],
-      "url": "https://flows.nodered.org/node/@thingwala/node-red-contrib-geyserwala-connect"
-    },
-    {
       "id": "node-red-contrib-ejbca",
       "version": "1.0.15",
       "description": "Node-RED Nodes to request, renew and revoke certificates via a RESTful API with EJBCA",
@@ -2231,23 +2292,6 @@
         "node-red"
       ],
       "url": "https://flows.nodered.org/node/apconic-oracledb-connect"
-    },
-    {
-      "id": "@opcua/for-node-red",
-      "version": "2.1.8",
-      "description": "The Node-RED node to communicate via OPC UA, powered NodeOPCUA and developed by Sterfive's team",
-      "updated_at": "2023-12-03T20:28:03.273Z",
-      "types": [],
-      "keywords": [
-        "node-red",
-        "OPC UA",
-        "opc-ua",
-        "unified architecture",
-        "opc foundation",
-        "node-opcua",
-        "IIoT"
-      ],
-      "url": "https://flows.nodered.org/node/@opcua/for-node-red"
     },
     {
       "id": "node-red-contrib-shelly",
@@ -6593,32 +6637,6 @@
         "node-red"
       ],
       "url": "https://flows.nodered.org/node/unified-red"
-    },
-    {
-      "id": "node-red-contrib-alice",
-      "version": "2.1.5",
-      "description": "**NodeRed Home** (node-red-contrib-alice) - это сервис позволит, в несколько простых шагов, подключить любые ваши устройства заведенные в Node-RED к умному дому от Яндекса и управлять ими с помощью голосового помощника Алиса.",
-      "updated_at": "2023-10-05T14:42:38.661Z",
-      "types": [
-        "alice-service",
-        "alice-device",
-        "On_Off",
-        "Toggle",
-        "Range",
-        "Color",
-        "Mode",
-        "Sensor",
-        "Event",
-        "Video"
-      ],
-      "keywords": [
-        "node-red",
-        "yandex",
-        "alice",
-        "яндекс",
-        "алиса"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-alice"
     },
     {
       "id": "node-red-contrib-ftp-client",
