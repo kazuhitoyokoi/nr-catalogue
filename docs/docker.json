@@ -1,7 +1,249 @@
 {
   "name": "Catalogue for Docker",
-  "updated_at": "2023-12-26T15:59:03.802Z",
+  "updated_at": "2023-12-27T15:59:13.184Z",
   "modules": [
+    {
+      "id": "node-red-contrib-feiertage-switzerland",
+      "version": "1.6.1",
+      "description": "NodeRED node to get swiss holidays and own special dates",
+      "updated_at": "2023-12-27T13:18:12.231Z",
+      "types": [
+        "feiertageCH"
+      ],
+      "keywords": [
+        "node-red",
+        "holidays",
+        "feiertage",
+        "publicholiday",
+        "switzerland",
+        "schedule",
+        "calendar"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-feiertage-switzerland"
+    },
+    {
+      "id": "node-red-contrib-feiertage-germany",
+      "version": "1.6.1",
+      "description": "NodeRED node to get german holidays and own special dates",
+      "updated_at": "2023-12-27T13:17:36.152Z",
+      "types": [
+        "feiertageDE"
+      ],
+      "keywords": [
+        "node-red",
+        "holidays",
+        "feiertage",
+        "publicholiday",
+        "german",
+        "germanholidays",
+        "date",
+        "schedule",
+        "calendar"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-feiertage-germany"
+    },
+    {
+      "id": "node-red-contrib-feiertage-austria",
+      "version": "1.6.1",
+      "description": "NodeRED node to get austrian holidays and own special dates",
+      "updated_at": "2023-12-27T13:16:09.580Z",
+      "types": [
+        "feiertageAT"
+      ],
+      "keywords": [
+        "node-red",
+        "holidays",
+        "feiertage",
+        "publicholiday",
+        "austria",
+        "austrianholidays",
+        "date",
+        "schedule",
+        "calendar"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-feiertage-austria"
+    },
+    {
+      "id": "node-red-contrib-feiertage",
+      "version": "1.6.1",
+      "description": "NodeRED node to get german, austrian, swiss holidays and own special dates",
+      "updated_at": "2023-12-27T13:13:44.220Z",
+      "types": [
+        "feiertage"
+      ],
+      "keywords": [
+        "node-red",
+        "holidays",
+        "feiertage",
+        "publicholiday",
+        "german",
+        "austria",
+        "switzerland",
+        "germanholidays",
+        "date",
+        "schedule",
+        "calendar"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-feiertage"
+    },
+    {
+      "id": "node-red-contrib-alice-self-hosting",
+      "version": "0.1.0",
+      "description": "Node-RED nodes to Yandex Alice devices in Self-Hosting",
+      "updated_at": "2023-12-27T12:33:49.886Z",
+      "types": [
+        "alice-sh-service",
+        "alice-sh-device",
+        "alice-sh-onoff",
+        "alice-sh-toggle",
+        "alice-sh-range",
+        "alice-sh-color",
+        "alice-sh-mode",
+        "alice-sh-sensor",
+        "alice-sh-event",
+        "alice-sh-video"
+      ],
+      "keywords": [
+        "node-red",
+        "yandex",
+        "alice",
+        "iot",
+        "self",
+        "hosting"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-alice-self-hosting"
+    },
+    {
+      "id": "node-red-contrib-thinger",
+      "version": "1.6.2",
+      "description": "Node-Red library for Thinger.io Platform",
+      "updated_at": "2023-12-27T12:25:12.175Z",
+      "types": [
+        "asset-iterator",
+        "bucket-create",
+        "bucket-read",
+        "bucket-write",
+        "device-callback",
+        "device-create",
+        "device-read",
+        "device-stream",
+        "device-write",
+        "endpoint-call",
+        "property-read",
+        "property-write",
+        "storage-read",
+        "storage-write",
+        "server-events",
+        "thinger-server"
+      ],
+      "keywords": [
+        "node-red",
+        "thinger.io",
+        "IoT",
+        "arduino",
+        "raspberry"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-thinger"
+    },
+    {
+      "id": "node-red-contrib-iot-controlcenter",
+      "version": "1.0.5",
+      "description": "Data exchange from node-red to control center",
+      "updated_at": "2023-12-27T09:10:55.884Z",
+      "types": [
+        "Send",
+        "Get"
+      ],
+      "keywords": [
+        "node-red",
+        "iot",
+        "controlcenter"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-iot-controlcenter"
+    },
+    {
+      "id": "@nitisakc/node-red-oracledb",
+      "version": "1.3.1",
+      "description": "node-red-oracledb",
+      "updated_at": "2023-12-27T08:10:24.001Z",
+      "types": [
+        "oracle-server",
+        "oracle-exec"
+      ],
+      "keywords": [
+        "node-red",
+        "oracle",
+        "oracledb"
+      ],
+      "url": "https://flows.nodered.org/node/@nitisakc/node-red-oracledb"
+    },
+    {
+      "id": "@parallaxcontrol/node-red-control",
+      "version": "1.0.21",
+      "description": "A comprehensive package of Node-RED nodes designed to seamlessly integrate with the Parallax Control Engine, offering enhanced control capabilities for AV, IoT, and Industrial Automation.",
+      "updated_at": "2023-12-27T00:35:58.091Z",
+      "types": [
+        "and-gate",
+        "compare-string",
+        "input-select",
+        "inverter-gate",
+        "or-gate",
+        "set-reset-latch",
+        "send-single-dictionary",
+        "set-feedback",
+        "clear-signal-state",
+        "recall-signal-state",
+        "save-signal-state",
+        "toggle",
+        "extract-message-data",
+        "system-management"
+      ],
+      "keywords": [
+        "parallaxcontrol",
+        "node-red",
+        "audiovisual",
+        "av"
+      ],
+      "url": "https://flows.nodered.org/node/@parallaxcontrol/node-red-control"
+    },
+    {
+      "id": "@ralphwetzel/node-red-systeminformation",
+      "version": "1.0.2",
+      "description": "Node-RED interface to systeminformation, the System Information Library for Node.JS",
+      "updated_at": "2023-12-26T20:57:42.880Z",
+      "types": [
+        "systeminformation"
+      ],
+      "keywords": [
+        "Node-RED",
+        "node-red",
+        "systeminformation",
+        "node.js",
+        "node"
+      ],
+      "url": "https://flows.nodered.org/node/@ralphwetzel/node-red-systeminformation"
+    },
+    {
+      "id": "node-red-contrib-pinecone",
+      "version": "1.0.7",
+      "description": "Pinecone makes it easy to provide long-term memory for high-performance AI applications",
+      "updated_at": "2023-12-26T16:54:42.726Z",
+      "types": [],
+      "keywords": [
+        "node-red",
+        "pinecone",
+        "nodejs",
+        "javascript",
+        "api",
+        "flow",
+        "npm",
+        "machine-learning",
+        "node",
+        "example",
+        "ai"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-pinecone"
+    },
     {
       "id": "@thingwala/node-red-contrib-geyserwala-connect",
       "version": "0.0.5",
@@ -16,23 +258,6 @@
         "geyserwala"
       ],
       "url": "https://flows.nodered.org/node/@thingwala/node-red-contrib-geyserwala-connect"
-    },
-    {
-      "id": "@ralphwetzel/node-red-systeminformation",
-      "version": "1.0.1",
-      "description": "Node-RED interface to systeminformation, the System Information Library for Node.JS",
-      "updated_at": "2023-12-26T10:25:38.109Z",
-      "types": [
-        "systeminformation"
-      ],
-      "keywords": [
-        "Node-RED",
-        "node-red",
-        "systeminformation",
-        "node.js",
-        "node"
-      ],
-      "url": "https://flows.nodered.org/node/@ralphwetzel/node-red-systeminformation"
     },
     {
       "id": "@headless-architecture/node-red-contrib-slack-bolt",
@@ -52,34 +277,6 @@
         "notification"
       ],
       "url": "https://flows.nodered.org/node/@headless-architecture/node-red-contrib-slack-bolt"
-    },
-    {
-      "id": "@parallaxcontrol/node-red-control",
-      "version": "1.0.16",
-      "description": "A comprehensive package of Node-RED nodes designed to seamlessly integrate with the Parallax Control Engine, offering enhanced control capabilities for AV, IoT, and Industrial Automation.",
-      "updated_at": "2023-12-26T03:13:36.765Z",
-      "types": [
-        "and-gate",
-        "compare-string",
-        "input-select",
-        "inverter-gate",
-        "or-gate",
-        "set-reset-latch",
-        "send-single-dictionary",
-        "set-feedback",
-        "clear-signal-state",
-        "recall-signal-state",
-        "save-signal-state",
-        "toggle",
-        "extract-message-data"
-      ],
-      "keywords": [
-        "parallaxcontrol",
-        "node-red",
-        "audiovisual",
-        "av"
-      ],
-      "url": "https://flows.nodered.org/node/@parallaxcontrol/node-red-control"
     },
     {
       "id": "@opcua/for-node-red",
@@ -140,22 +337,6 @@
       "url": "https://flows.nodered.org/node/node-red-contrib-dawnchorus"
     },
     {
-      "id": "node-red-contrib-iot-controlcenter",
-      "version": "1.0.8",
-      "description": "Data exchange from node-red to control center",
-      "updated_at": "2023-12-25T13:50:18.850Z",
-      "types": [
-        "Send",
-        "Get"
-      ],
-      "keywords": [
-        "iot",
-        "controlcenter",
-        "node-red"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-iot-controlcenter"
-    },
-    {
       "id": "node-red-node-tmeter-emulator",
       "version": "1.2.1",
       "description": "ung dung tao cong to ao Tien Ho",
@@ -203,22 +384,6 @@
         "philips hue"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-knx-ultimate"
-    },
-    {
-      "id": "@nitisakc/node-red-oracledb",
-      "version": "1.1.2",
-      "description": "node-red-oracledb",
-      "updated_at": "2023-12-24T16:31:37.283Z",
-      "types": [
-        "oracle-server",
-        "oracle-exec"
-      ],
-      "keywords": [
-        "node-red",
-        "oracle",
-        "oracledb"
-      ],
-      "url": "https://flows.nodered.org/node/@nitisakc/node-red-oracledb"
     },
     {
       "id": "@bartbutenaers/node-red-autolayout-sidebar",
@@ -699,32 +864,6 @@
       "url": "https://flows.nodered.org/node/node-red-notion"
     },
     {
-      "id": "node-red-contrib-alice-self-hosting",
-      "version": "0.0.9",
-      "description": "Node-RED nodes to Yandex Alice devices in Self-Hosting",
-      "updated_at": "2023-12-21T12:00:18.334Z",
-      "types": [
-        "alice-sh-service",
-        "alice-sh-device",
-        "alice-sh-onoff",
-        "alice-sh-toggle",
-        "alice-sh-range",
-        "alice-sh-color",
-        "alice-sh-mode",
-        "alice-sh-sensor",
-        "alice-sh-event"
-      ],
-      "keywords": [
-        "node-red",
-        "yandex",
-        "alice",
-        "iot",
-        "self",
-        "hosting"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-alice-self-hosting"
-    },
-    {
       "id": "@kenke7/node-red-contrib-modbus",
       "version": "5.28.7",
       "description": "The all in one Modbus TCP and Serial contribution package for Node-RED.",
@@ -1081,6 +1220,23 @@
         "fve"
       ],
       "url": "https://flows.nodered.org/node/@pavelbrazda/node-red-tagbind"
+    },
+    {
+      "id": "node-red-contrib-oracledb-mod",
+      "version": "0.6.4",
+      "description": "Node-RED oracle database nodes",
+      "updated_at": "2023-12-15T21:32:12.665Z",
+      "types": [
+        "oracle-server",
+        "oracledb"
+      ],
+      "keywords": [
+        "node-red",
+        "oracle",
+        "sql",
+        "oracledb"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-oracledb-mod"
     },
     {
       "id": "node-red-contrib-iberdrola",
@@ -2585,38 +2741,6 @@
         "redconnect"
       ],
       "url": "https://flows.nodered.org/node/@yousolution/node-red-contrib-you-ftp-sftp"
-    },
-    {
-      "id": "node-red-contrib-thinger",
-      "version": "1.6.0",
-      "description": "Node-Red library for Thinger.io Platform",
-      "updated_at": "2023-11-29T16:25:18.737Z",
-      "types": [
-        "asset-iterator",
-        "bucket-create",
-        "bucket-read",
-        "bucket-write",
-        "device-callback",
-        "device-create",
-        "device-read",
-        "device-stream",
-        "device-write",
-        "endpoint-call",
-        "property-read",
-        "property-write",
-        "storage-read",
-        "storage-write",
-        "server-events",
-        "thinger-server"
-      ],
-      "keywords": [
-        "node-red",
-        "thinger.io",
-        "IoT",
-        "arduino",
-        "raspberry"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-thinger"
     },
     {
       "id": "@hcl-software/node-red-domino",
@@ -8828,27 +8952,6 @@
       "url": "https://flows.nodered.org/node/node-red-contrib-tuya-devices"
     },
     {
-      "id": "node-red-contrib-pinecone",
-      "version": "1.0.5",
-      "description": "Pinecone makes it easy to provide long-term memory for high-performance AI applications",
-      "updated_at": "2023-09-12T14:41:14.941Z",
-      "types": [],
-      "keywords": [
-        "node-red",
-        "pinecone",
-        "nodejs",
-        "javascript",
-        "api",
-        "flow",
-        "npm",
-        "machine-learning",
-        "node",
-        "example",
-        "ai"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-pinecone"
-    },
-    {
       "id": "node-red-contrib-ui-state-trail",
       "version": "1.0.2",
       "description": "A Node-RED dashboard ui node. Trail of state changes over time",
@@ -12229,90 +12332,6 @@
       "url": "https://flows.nodered.org/node/node-red-hello-world-minimal"
     },
     {
-      "id": "node-red-contrib-feiertage-switzerland",
-      "version": "1.5.5",
-      "description": "NodeRED node to get swiss holidays and own special dates",
-      "updated_at": "2023-06-21T16:21:01.701Z",
-      "types": [
-        "feiertageCH"
-      ],
-      "keywords": [
-        "node-red",
-        "holidays",
-        "feiertage",
-        "publicholiday",
-        "switzerland",
-        "schedule",
-        "calendar"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-feiertage-switzerland"
-    },
-    {
-      "id": "node-red-contrib-feiertage-austria",
-      "version": "1.5.5",
-      "description": "NodeRED node to get austrian holidays and own special dates",
-      "updated_at": "2023-06-21T16:18:49.606Z",
-      "types": [
-        "feiertageAT"
-      ],
-      "keywords": [
-        "node-red",
-        "holidays",
-        "feiertage",
-        "publicholiday",
-        "austria",
-        "austrianholidays",
-        "date",
-        "schedule",
-        "calendar"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-feiertage-austria"
-    },
-    {
-      "id": "node-red-contrib-feiertage-germany",
-      "version": "1.5.5",
-      "description": "NodeRED node to get german holidays and own special dates",
-      "updated_at": "2023-06-21T16:16:58.148Z",
-      "types": [
-        "feiertageDE"
-      ],
-      "keywords": [
-        "node-red",
-        "holidays",
-        "feiertage",
-        "publicholiday",
-        "german",
-        "germanholidays",
-        "date",
-        "schedule",
-        "calendar"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-feiertage-germany"
-    },
-    {
-      "id": "node-red-contrib-feiertage",
-      "version": "1.5.5",
-      "description": "NodeRED node to get german, austrian, swiss holidays and own special dates",
-      "updated_at": "2023-06-21T16:14:28.533Z",
-      "types": [
-        "feiertage"
-      ],
-      "keywords": [
-        "node-red",
-        "holidays",
-        "feiertage",
-        "publicholiday",
-        "german",
-        "austria",
-        "switzerland",
-        "germanholidays",
-        "date",
-        "schedule",
-        "calendar"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-feiertage"
-    },
-    {
       "id": "@telnyx/node-red-telnyx",
       "version": "1.2.2",
       "description": "A Node-RED node interacting with Telnyx",
@@ -13147,6 +13166,30 @@
       "url": "https://flows.nodered.org/node/@gladder/node-red-kostal-piko-json"
     },
     {
+      "id": "node-red-contrib-mysensors",
+      "version": "4.2.0",
+      "description": "Mysensors related nodes, for decoding / encoding mysensors serial protocol and MQTT topic, and wrapping arbitrary messages into mysensors compatible messages",
+      "updated_at": "2023-06-01T17:58:06.518Z",
+      "types": [
+        "mysdecode",
+        "mysencode",
+        "mysencap",
+        "mysdebug",
+        "myscontroller",
+        "mysensorsdb"
+      ],
+      "keywords": [
+        "node-red",
+        "mysensors",
+        "decode",
+        "encode",
+        "wrap",
+        "encapsulate",
+        "debug"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-mysensors"
+    },
+    {
       "id": "node-red-contrib-comfoair",
       "version": "0.0.9",
       "description": "Node-RED Node, that reads and parses the data from a Zehnder ComfoAir 350 and similar devices",
@@ -13848,30 +13891,6 @@
         "limit"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-message-rate-topic"
-    },
-    {
-      "id": "node-red-contrib-mysensors",
-      "version": "4.1.0",
-      "description": "Mysensors related nodes, for decoding / encoding mysensors serial protocol and MQTT topic, and wrapping arbitrary messages into mysensors compatible messages",
-      "updated_at": "2023-05-15T19:18:31.416Z",
-      "types": [
-        "mysdecode",
-        "mysencode",
-        "mysencap",
-        "mysdebug",
-        "myscontroller",
-        "mysensorsdb"
-      ],
-      "keywords": [
-        "node-red",
-        "mysensors",
-        "decode",
-        "encode",
-        "wrap",
-        "encapsulate",
-        "debug"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-mysensors"
     },
     {
       "id": "node-red-contrib-genetic-algorithm",
@@ -20394,23 +20413,6 @@
         "Smaregi"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-smaregi"
-    },
-    {
-      "id": "node-red-contrib-oracledb-mod",
-      "version": "0.6.3",
-      "description": "Node-RED oracle database nodes",
-      "updated_at": "2022-12-11T21:15:06.157Z",
-      "types": [
-        "oracle-server",
-        "oracledb"
-      ],
-      "keywords": [
-        "node-red",
-        "oracle",
-        "sql",
-        "oracledb"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-oracledb-mod"
     },
     {
       "id": "@js-on/node-red-contrib-py3run",
