@@ -1,7 +1,89 @@
 {
   "name": "Catalogue for Docker",
-  "updated_at": "2023-12-27T15:59:13.184Z",
+  "updated_at": "2023-12-28T15:58:43.752Z",
   "modules": [
+    {
+      "id": "node-red-contrib-deconz",
+      "version": "2.3.12",
+      "description": "deCONZ connectivity nodes for node-red",
+      "updated_at": "2023-12-28T12:03:58.815Z",
+      "types": [
+        "deconz-api",
+        "deconz-input",
+        "deconz-get",
+        "deconz-output",
+        "deconz-event",
+        "deconz-battery",
+        "deconz-server"
+      ],
+      "keywords": [
+        "deconz",
+        "drezden",
+        "conbee",
+        "node-red"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-deconz"
+    },
+    {
+      "id": "node-red-contrib-smart-door",
+      "version": "1.0.2",
+      "description": "优智云家连接节点",
+      "updated_at": "2023-12-28T05:39:48.829Z",
+      "types": [
+        "live"
+      ],
+      "keywords": [
+        "node-red"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-smart-door"
+    },
+    {
+      "id": "@parallaxcontrol/node-red-control",
+      "version": "1.0.24",
+      "description": "A comprehensive package of Node-RED nodes designed to seamlessly integrate with the Parallax Control Engine, offering enhanced control capabilities for AV, IoT, and Industrial Automation.",
+      "updated_at": "2023-12-27T22:37:48.735Z",
+      "types": [
+        "and-gate",
+        "compare-string",
+        "input-select",
+        "inverter-gate",
+        "or-gate",
+        "set-reset-latch",
+        "send-single-dictionary",
+        "set-feedback",
+        "clear-signal-state",
+        "recall-signal-state",
+        "save-signal-state",
+        "toggle",
+        "extract-message-data",
+        "system-management"
+      ],
+      "keywords": [
+        "parallaxcontrol",
+        "node-red",
+        "audiovisual",
+        "av"
+      ],
+      "url": "https://flows.nodered.org/node/@parallaxcontrol/node-red-control"
+    },
+    {
+      "id": "atomic-gravity",
+      "version": "2.0.13",
+      "description": "Gravity module for Brobridge Atomic",
+      "updated_at": "2023-12-27T18:24:19.451Z",
+      "types": [
+        "Gravity Subscriber",
+        "Gravity Publish",
+        "Gravity Server",
+        "Gravity Acknowledge"
+      ],
+      "keywords": [
+        "gravity",
+        "node-red",
+        "atomic"
+      ],
+      "url": "https://flows.nodered.org/node/atomic-gravity"
+    },
     {
       "id": "node-red-contrib-feiertage-switzerland",
       "version": "1.6.1",
@@ -176,35 +258,6 @@
         "oracledb"
       ],
       "url": "https://flows.nodered.org/node/@nitisakc/node-red-oracledb"
-    },
-    {
-      "id": "@parallaxcontrol/node-red-control",
-      "version": "1.0.21",
-      "description": "A comprehensive package of Node-RED nodes designed to seamlessly integrate with the Parallax Control Engine, offering enhanced control capabilities for AV, IoT, and Industrial Automation.",
-      "updated_at": "2023-12-27T00:35:58.091Z",
-      "types": [
-        "and-gate",
-        "compare-string",
-        "input-select",
-        "inverter-gate",
-        "or-gate",
-        "set-reset-latch",
-        "send-single-dictionary",
-        "set-feedback",
-        "clear-signal-state",
-        "recall-signal-state",
-        "save-signal-state",
-        "toggle",
-        "extract-message-data",
-        "system-management"
-      ],
-      "keywords": [
-        "parallaxcontrol",
-        "node-red",
-        "audiovisual",
-        "av"
-      ],
-      "url": "https://flows.nodered.org/node/@parallaxcontrol/node-red-control"
     },
     {
       "id": "@ralphwetzel/node-red-systeminformation",
@@ -1368,28 +1421,6 @@
         "websocket"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-home-assistant-websocket"
-    },
-    {
-      "id": "node-red-contrib-deconz",
-      "version": "2.3.10",
-      "description": "deCONZ connectivity nodes for node-red",
-      "updated_at": "2023-12-14T12:18:27.648Z",
-      "types": [
-        "deconz-api",
-        "deconz-input",
-        "deconz-get",
-        "deconz-output",
-        "deconz-event",
-        "deconz-battery",
-        "deconz-server"
-      ],
-      "keywords": [
-        "deconz",
-        "drezden",
-        "conbee",
-        "node-red"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-deconz"
     },
     {
       "id": "node-red-contrib-azureiothubnode-param",
@@ -4994,24 +5025,6 @@
         "Ax Pro"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-hikvision-ultimate"
-    },
-    {
-      "id": "atomic-gravity",
-      "version": "2.0.12",
-      "description": "Gravity module for Brobridge Atomic",
-      "updated_at": "2023-10-26T06:14:01.122Z",
-      "types": [
-        "Gravity Subscriber",
-        "Gravity Publish",
-        "Gravity Server",
-        "Gravity Acknowledge"
-      ],
-      "keywords": [
-        "gravity",
-        "node-red",
-        "atomic"
-      ],
-      "url": "https://flows.nodered.org/node/atomic-gravity"
     },
     {
       "id": "node-red-contrib-sia-ultimate",
