@@ -1,0 +1,64 @@
+#0 building with "default" instance using docker driver
+
+#1 [internal] load .dockerignore
+#1 transferring context: 2B done
+#1 DONE 0.0s
+
+#2 [internal] load build definition from Dockerfile
+#2 transferring dockerfile: 110B done
+#2 DONE 0.0s
+
+#3 [internal] load metadata for docker.io/nodered/node-red:latest
+#3 DONE 0.1s
+
+#4 [1/2] FROM docker.io/nodered/node-red@sha256:f72381be70e1e1f06ae31fa28fc322fbf806184a2a4b97df765e6916f9204d47
+#4 CACHED
+
+#5 [2/2] RUN npm install npm install @gulpetl/vinyl-s3@0.3.2
+#5 2.299 npm WARN EBADENGINE Unsupported engine {
+#5 2.299 npm WARN EBADENGINE   package: 'npm@10.2.5',
+#5 2.299 npm WARN EBADENGINE   required: { node: '^18.17.0 || >=20.5.0' },
+#5 2.299 npm WARN EBADENGINE   current: { node: 'v16.20.2', npm: '8.19.4' }
+#5 2.299 npm WARN EBADENGINE }
+#5 2.300 npm WARN EBADENGINE Unsupported engine {
+#5 2.300 npm WARN EBADENGINE   package: 's3-glob@0.2.0',
+#5 2.300 npm WARN EBADENGINE   required: { node: '^0.10 || ^0.12', iojs: '^1.0.0' },
+#5 2.300 npm WARN EBADENGINE   current: { node: 'v16.20.2', npm: '8.19.4' }
+#5 2.300 npm WARN EBADENGINE }
+#5 2.300 npm WARN EBADENGINE Unsupported engine {
+#5 2.300 npm WARN EBADENGINE   package: 's3-streams@0.2.1',
+#5 2.301 npm WARN EBADENGINE   required: { node: '^0.8 || ^0.10 || ^0.12', iojs: '^1.2.0' },
+#5 2.301 npm WARN EBADENGINE   current: { node: 'v16.20.2', npm: '8.19.4' }
+#5 2.301 npm WARN EBADENGINE }
+#5 3.819 npm WARN deprecated querystring@0.2.0: The querystring API is considered Legacy. new code should use the URLSearchParams API instead.
+#5 3.835 npm WARN deprecated minimatch@1.0.0: Please update to minimatch 3.0.2 or higher to avoid a RegExp DoS issue
+#5 4.947 
+#5 4.947 added 52 packages, and audited 591 packages in 4s
+#5 4.947 
+#5 4.947 76 packages are looking for funding
+#5 4.947   run `npm fund` for details
+#5 4.955 
+#5 4.955 4 vulnerabilities (3 high, 1 critical)
+#5 4.955 
+#5 4.955 To address issues that do not require attention, run:
+#5 4.955   npm audit fix
+#5 4.955 
+#5 4.955 Some issues need review, and may require choosing
+#5 4.955 a different dependency.
+#5 4.955 
+#5 4.955 Run `npm audit` for details.
+#5 4.955 npm notice 
+#5 4.955 npm notice New major version of npm available! 8.19.4 -> 10.2.5
+#5 4.955 npm notice Changelog: <https://github.com/npm/cli/releases/tag/v10.2.5>
+#5 4.955 npm notice Run `npm install -g npm@10.2.5` to update!
+#5 4.955 npm notice 
+#5 DONE 5.2s
+
+#6 exporting to image
+#6 exporting layers
+#6 exporting layers 1.7s done
+#6 writing image sha256:dd19ef242cd074364d594a2f93d65d4bdd3628bf98c8fbe50bd2eb9c8bbaf092 done
+#6 naming to docker.io/library/tmp done
+#6 DONE 1.7s
+
+----
