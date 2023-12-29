@@ -1,7 +1,111 @@
 {
   "name": "Catalogue for Docker",
-  "updated_at": "2023-12-28T15:58:43.752Z",
+  "updated_at": "2023-12-29T15:57:09.603Z",
   "modules": [
+    {
+      "id": "@wiesemann-theis/node-red-contrib-wut",
+      "version": "2.2.0",
+      "description": "Integrate Wiesemann & Theis products - like Com-Servers, Web-IOs or Web-Thermometers - into Node-RED.",
+      "updated_at": "2023-12-29T09:22:55.516Z",
+      "types": [
+        "Web-IO",
+        "Analog IN",
+        "Analog OUT",
+        "Digital IN",
+        "Digital OUT",
+        "Counter",
+        "Com-Server"
+      ],
+      "keywords": [
+        "node-red",
+        "web-io",
+        "com-server",
+        "serial"
+      ],
+      "url": "https://flows.nodered.org/node/@wiesemann-theis/node-red-contrib-wut"
+    },
+    {
+      "id": "ducoboxhttp",
+      "version": "0.2.0",
+      "description": "HTTP grabber ducobox",
+      "updated_at": "2023-12-29T09:04:20.901Z",
+      "types": [
+        "ducoboxSettings",
+        "ducoboxSend",
+        "ducoboxHTTP"
+      ],
+      "keywords": [
+        "node-red",
+        "ducobox"
+      ],
+      "url": "https://flows.nodered.org/node/ducoboxhttp"
+    },
+    {
+      "id": "@gulpetl/vinyl-s3",
+      "version": "0.3.2",
+      "description": "Use S3 as a source or destination of vinyl files.",
+      "updated_at": "2023-12-29T07:07:20.468Z",
+      "types": [
+        "s3.src",
+        "s3.dest"
+      ],
+      "keywords": [
+        "s3",
+        "vinyl",
+        "gulp",
+        "gulpfriendly",
+        "gulp-etl",
+        "gulpetl",
+        "etl",
+        "data",
+        "node-red"
+      ],
+      "url": "https://flows.nodered.org/node/@gulpetl/vinyl-s3"
+    },
+    {
+      "id": "@parallaxcontrol/node-red-control",
+      "version": "1.0.25",
+      "description": "A comprehensive package of Node-RED nodes designed to seamlessly integrate with the Parallax Control Engine, offering enhanced control capabilities for AV, IoT, and Industrial Automation.",
+      "updated_at": "2023-12-28T15:52:55.177Z",
+      "types": [
+        "and-gate",
+        "compare-string",
+        "input-select",
+        "inverter-gate",
+        "or-gate",
+        "set-reset-latch",
+        "send-single-dictionary",
+        "set-feedback",
+        "clear-signal-state",
+        "recall-signal-state",
+        "save-signal-state",
+        "toggle",
+        "extract-message-data",
+        "system-management"
+      ],
+      "keywords": [
+        "parallaxcontrol",
+        "node-red",
+        "audiovisual",
+        "av"
+      ],
+      "url": "https://flows.nodered.org/node/@parallaxcontrol/node-red-control"
+    },
+    {
+      "id": "@gregoriusrippenstein/node-red-contrib-flow2uml",
+      "version": "0.1.9",
+      "description": "Convert Node-RED to Mermaid UML flowchart diagram.",
+      "updated_at": "2023-12-28T15:40:19.845Z",
+      "types": [
+        "Flow2MermaidCfg"
+      ],
+      "keywords": [
+        "node-red",
+        "uml",
+        "mermaid"
+      ],
+      "url": "https://flows.nodered.org/node/@gregoriusrippenstein/node-red-contrib-flow2uml"
+    },
     {
       "id": "node-red-contrib-deconz",
       "version": "2.3.12",
@@ -36,35 +140,6 @@
         "node-red"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-smart-door"
-    },
-    {
-      "id": "@parallaxcontrol/node-red-control",
-      "version": "1.0.24",
-      "description": "A comprehensive package of Node-RED nodes designed to seamlessly integrate with the Parallax Control Engine, offering enhanced control capabilities for AV, IoT, and Industrial Automation.",
-      "updated_at": "2023-12-27T22:37:48.735Z",
-      "types": [
-        "and-gate",
-        "compare-string",
-        "input-select",
-        "inverter-gate",
-        "or-gate",
-        "set-reset-latch",
-        "send-single-dictionary",
-        "set-feedback",
-        "clear-signal-state",
-        "recall-signal-state",
-        "save-signal-state",
-        "toggle",
-        "extract-message-data",
-        "system-management"
-      ],
-      "keywords": [
-        "parallaxcontrol",
-        "node-red",
-        "audiovisual",
-        "av"
-      ],
-      "url": "https://flows.nodered.org/node/@parallaxcontrol/node-red-control"
     },
     {
       "id": "atomic-gravity",
@@ -2498,21 +2573,6 @@
         "shelly"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-shelly"
-    },
-    {
-      "id": "@gregoriusrippenstein/node-red-contrib-flow2uml",
-      "version": "0.1.8",
-      "description": "Convert Node-RED to Mermaid UML flowchart diagram.",
-      "updated_at": "2023-12-03T15:43:39.047Z",
-      "types": [
-        "Flow2MermaidCfg"
-      ],
-      "keywords": [
-        "node-red",
-        "uml",
-        "mermaid"
-      ],
-      "url": "https://flows.nodered.org/node/@gregoriusrippenstein/node-red-contrib-flow2uml"
     },
     {
       "id": "node-red-contrib-smartnora",
@@ -15089,28 +15149,6 @@
       "url": "https://flows.nodered.org/node/node-red-contrib-alexa-virtual-smarthome"
     },
     {
-      "id": "@wiesemann-theis/node-red-contrib-wut",
-      "version": "2.1.8",
-      "description": "Integrate Wiesemann & Theis products - like Com-Servers, Web-IOs or Web-Thermometers - into Node-RED.",
-      "updated_at": "2023-04-18T11:56:04.703Z",
-      "types": [
-        "Web-IO",
-        "Analog IN",
-        "Analog OUT",
-        "Digital IN",
-        "Digital OUT",
-        "Counter",
-        "Com-Server"
-      ],
-      "keywords": [
-        "node-red",
-        "web-io",
-        "com-server",
-        "serial"
-      ],
-      "url": "https://flows.nodered.org/node/@wiesemann-theis/node-red-contrib-wut"
-    },
-    {
       "id": "node-red-contrib-powershell",
       "version": "0.0.4",
       "description": "Provides powershell functionality in node-red",
@@ -22105,22 +22143,6 @@
         "intents"
       ],
       "url": "https://flows.nodered.org/node/node-red-boxip"
-    },
-    {
-      "id": "ducoboxhttp",
-      "version": "0.1.0",
-      "description": "HTTP grabber ducobox",
-      "updated_at": "2022-10-27T20:02:15.167Z",
-      "types": [
-        "ducoboxSettings",
-        "ducoboxSend",
-        "ducoboxHTTP"
-      ],
-      "keywords": [
-        "node-red",
-        "ducobox"
-      ],
-      "url": "https://flows.nodered.org/node/ducoboxhttp"
     },
     {
       "id": "node-red-contrib-c1-salesforce3",
