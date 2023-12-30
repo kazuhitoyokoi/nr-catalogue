@@ -1,7 +1,106 @@
 {
   "name": "Catalogue for Docker",
-  "updated_at": "2023-12-29T15:57:09.603Z",
+  "updated_at": "2023-12-30T15:59:11.895Z",
   "modules": [
+    {
+      "id": "node-red-contrib-esphome",
+      "version": "0.2.6",
+      "description": "Node-RED nodes to ESPhome devices",
+      "updated_at": "2023-12-30T13:50:03.615Z",
+      "types": [
+        "esphome-device",
+        "esphome-in",
+        "esphome-out"
+      ],
+      "keywords": [
+        "node-red",
+        "esphome",
+        "esp",
+        "home",
+        "esp32",
+        "esp8266",
+        "iot"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-esphome"
+    },
+    {
+      "id": "node-red-contrib-nspanel-lui",
+      "version": "0.0.1-alpha.51",
+      "description": "Node-RED based backend for NSPanel Lovelace UI custom firmware.",
+      "updated_at": "2023-12-30T08:39:15.197Z",
+      "types": [],
+      "keywords": [
+        "node-red",
+        "lovelace ui",
+        "nspanel"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-nspanel-lui"
+    },
+    {
+      "id": "@technithusiast/node-red-contrib-ai-intent",
+      "version": "1.1.31",
+      "description": "A collection of nodes to elevate a user's automation interactions",
+      "updated_at": "2023-12-30T06:46:14.831Z",
+      "types": [
+        "Register Intent",
+        "Call Intent",
+        "OpenAI User",
+        "OpenAI System",
+        "OpenAI Chat",
+        "OpenAI Response",
+        "OpenAI Tool"
+      ],
+      "keywords": [
+        "node-red"
+      ],
+      "url": "https://flows.nodered.org/node/@technithusiast/node-red-contrib-ai-intent"
+    },
+    {
+      "id": "node-red-contrib-smarthome-powerswitch",
+      "version": "1.2.0",
+      "description": "This is the powerswitch node as standalone, which is part of 'node-red-contrib-smarthome'. It containes nodes for Node-RED.",
+      "updated_at": "2023-12-29T21:53:34.664Z",
+      "types": [
+        "powerswitch"
+      ],
+      "keywords": [
+        "node",
+        "node-red",
+        "nodered",
+        "switch",
+        "power",
+        "toggle",
+        "motion",
+        "plug",
+        "smartplug",
+        "smarthome",
+        "loxone",
+        "sps",
+        "plc",
+        "digital"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-smarthome-powerswitch"
+    },
+    {
+      "id": "@caitken-com/node-red-contrib-daikin-api",
+      "version": "1.0.6",
+      "description": "Daikin Control API",
+      "updated_at": "2023-12-29T19:23:07.965Z",
+      "types": [
+        "daikin-server",
+        "daikin-api"
+      ],
+      "keywords": [
+        "daikin",
+        "AC",
+        "HVAC",
+        "air",
+        "conditioner",
+        "BRP15B61",
+        "node-red"
+      ],
+      "url": "https://flows.nodered.org/node/@caitken-com/node-red-contrib-daikin-api"
+    },
     {
       "id": "@wiesemann-theis/node-red-contrib-wut",
       "version": "2.2.0",
@@ -613,27 +712,6 @@
         "cloudflare"
       ],
       "url": "https://flows.nodered.org/node/@insectos/node-red-cloudflare-ddns"
-    },
-    {
-      "id": "node-red-contrib-esphome",
-      "version": "0.2.5",
-      "description": "Node-RED nodes to ESPhome devices",
-      "updated_at": "2023-12-23T00:10:51.620Z",
-      "types": [
-        "esphome-device",
-        "esphome-in",
-        "esphome-out"
-      ],
-      "keywords": [
-        "node-red",
-        "esphome",
-        "esp",
-        "home",
-        "esp32",
-        "esp8266",
-        "iot"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-esphome"
     },
     {
       "id": "node-red-contrib-hapcan",
@@ -1292,32 +1370,6 @@
       "url": "https://flows.nodered.org/node/node-red-contrib-ecovacs-deebot"
     },
     {
-      "id": "node-red-contrib-smarthome-powerswitch",
-      "version": "1.2.0-beta",
-      "description": "This is the powerswitch node as standalone, which is part of 'node-red-contrib-smarthome'. It containes nodes for Node-RED.",
-      "updated_at": "2023-12-16T19:10:21.119Z",
-      "types": [
-        "powerswitch"
-      ],
-      "keywords": [
-        "node",
-        "node-red",
-        "nodered",
-        "switch",
-        "power",
-        "toggle",
-        "motion",
-        "plug",
-        "smartplug",
-        "smarthome",
-        "loxone",
-        "sps",
-        "plc",
-        "digital"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-smarthome-powerswitch"
-    },
-    {
       "id": "node-red-contrib-advanced-ping-multiple",
       "version": "1.4.3",
       "description": "A Node-RED node which takes input and pings a remote server or multiple servers.",
@@ -1859,25 +1911,6 @@
       "url": "https://flows.nodered.org/node/@1voud/node-red-motionblinds"
     },
     {
-      "id": "@technithusiast/node-red-contrib-ai-intent",
-      "version": "1.1.29",
-      "description": "A collection of nodes to elevate a user's automation interactions",
-      "updated_at": "2023-12-10T09:07:51.722Z",
-      "types": [
-        "Register Intent",
-        "Call Intent",
-        "OpenAI User",
-        "OpenAI System",
-        "OpenAI Chat",
-        "OpenAI Response",
-        "OpenAI Tool"
-      ],
-      "keywords": [
-        "node-red"
-      ],
-      "url": "https://flows.nodered.org/node/@technithusiast/node-red-contrib-ai-intent"
-    },
-    {
       "id": "node-red-contrib-xstate-machine",
       "version": "1.3.3",
       "description": "Xstate-based state machine implementation using state-machine-cat visualization for node red.",
@@ -1917,19 +1950,6 @@
         "archive"
       ],
       "url": "https://flows.nodered.org/node/@gregoriusrippenstein/node-red-contrib-tarball"
-    },
-    {
-      "id": "node-red-contrib-nspanel-lui",
-      "version": "0.0.1-alpha.50",
-      "description": "Node-RED based backend for NSPanel Lovelace UI custom firmware.",
-      "updated_at": "2023-12-09T11:06:10.006Z",
-      "types": [],
-      "keywords": [
-        "node-red",
-        "lovelace ui",
-        "nspanel"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-nspanel-lui"
     },
     {
       "id": "@gregoriusrippenstein/node-red-contrib-nodedev",
@@ -14907,23 +14927,6 @@
         "Road Traffic"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-road-traffic"
-    },
-    {
-      "id": "@caitken-com/node-red-contrib-daikin-api",
-      "version": "1.0.5",
-      "description": "Daikin Control API",
-      "updated_at": "2023-04-24T03:11:31.525Z",
-      "types": [
-        "daikin-server",
-        "daikin-api"
-      ],
-      "keywords": [
-        "daikin",
-        "airconditioner",
-        "BRP15B61",
-        "node-red"
-      ],
-      "url": "https://flows.nodered.org/node/@caitken-com/node-red-contrib-daikin-api"
     },
     {
       "id": "node-red-contrib-mqtt-sparkplug-plus",
