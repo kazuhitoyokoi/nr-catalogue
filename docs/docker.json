@@ -1,7 +1,156 @@
 {
   "name": "Catalogue for Docker",
-  "updated_at": "2023-12-30T15:59:11.895Z",
+  "updated_at": "2023-12-31T15:57:25.578Z",
   "modules": [
+    {
+      "id": "victron-vrm-api",
+      "version": "0.1.0",
+      "description": "Interface with the Victron Energy VRM API",
+      "updated_at": "2023-12-31T11:39:35.969Z",
+      "types": [
+        "config-vrm-api",
+        "vrm-api"
+      ],
+      "keywords": [
+        "node-red",
+        "victron",
+        "vrm",
+        "api"
+      ],
+      "url": "https://flows.nodered.org/node/victron-vrm-api"
+    },
+    {
+      "id": "node-red-contrib-alice-self-hosting",
+      "version": "0.1.1",
+      "description": "Node-RED nodes to Yandex Alice devices in Self-Hosting",
+      "updated_at": "2023-12-31T08:40:09.175Z",
+      "types": [
+        "alice-sh-service",
+        "alice-sh-device",
+        "alice-sh-onoff",
+        "alice-sh-toggle",
+        "alice-sh-range",
+        "alice-sh-color",
+        "alice-sh-mode",
+        "alice-sh-sensor",
+        "alice-sh-event",
+        "alice-sh-video"
+      ],
+      "keywords": [
+        "node-red",
+        "yandex",
+        "alice",
+        "iot",
+        "self",
+        "hosting"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-alice-self-hosting"
+    },
+    {
+      "id": "@parallaxcontrol/node-red-control",
+      "version": "1.0.26",
+      "description": "A comprehensive package of Node-RED nodes designed to seamlessly integrate with the Parallax Control Engine, offering enhanced control capabilities for AV, IoT, and Industrial Automation.",
+      "updated_at": "2023-12-31T04:30:51.499Z",
+      "types": [
+        "and-gate",
+        "compare-string-text",
+        "input-select",
+        "inverter-gate",
+        "or-gate",
+        "set-reset-latch",
+        "send-single-dictionary",
+        "set-feedback",
+        "clear-signal-state",
+        "recall-signal-state",
+        "save-signal-state",
+        "bool-toggle",
+        "extract-message-data",
+        "system-management"
+      ],
+      "keywords": [
+        "parallaxcontrol",
+        "node-red",
+        "audiovisual",
+        "av"
+      ],
+      "url": "https://flows.nodered.org/node/@parallaxcontrol/node-red-control"
+    },
+    {
+      "id": "@caitken-com/node-red-contrib-daikin-api",
+      "version": "1.1.0",
+      "description": "Daikin Control API",
+      "updated_at": "2023-12-31T03:55:51.631Z",
+      "types": [
+        "daikin-server",
+        "daikin-api"
+      ],
+      "keywords": [
+        "daikin",
+        "AC",
+        "HVAC",
+        "air",
+        "conditioner",
+        "BRP15B61",
+        "node-red"
+      ],
+      "url": "https://flows.nodered.org/node/@caitken-com/node-red-contrib-daikin-api"
+    },
+    {
+      "id": "@technithusiast/node-red-contrib-ai-intent",
+      "version": "1.1.34",
+      "description": "A collection of nodes to elevate a user's automation interactions",
+      "updated_at": "2023-12-31T02:55:10.885Z",
+      "types": [
+        "Register Intent",
+        "Call Intent",
+        "OpenAI User",
+        "OpenAI System",
+        "OpenAI Chat",
+        "OpenAI Response",
+        "OpenAI Tool",
+        "openai-configuration"
+      ],
+      "keywords": [
+        "node-red"
+      ],
+      "url": "https://flows.nodered.org/node/@technithusiast/node-red-contrib-ai-intent"
+    },
+    {
+      "id": "node-red-contrib-influxdb",
+      "version": "0.7.0",
+      "description": "Node-RED nodes to save and query data from an influxdb time series database",
+      "updated_at": "2023-12-30T22:43:01.742Z",
+      "types": [
+        "influxdb",
+        "influxdb out",
+        "influxdb batch",
+        "influxdb in"
+      ],
+      "keywords": [
+        "node-red",
+        "influxdb"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-influxdb"
+    },
+    {
+      "id": "node-red-contrib-google-smarthome",
+      "version": "0.4.8",
+      "description": "Lets you control Node-Red via Google Assistant or the Google Home App",
+      "updated_at": "2023-12-30T15:59:32.634Z",
+      "types": [
+        "googlesmarthome-client",
+        "google-mgmt",
+        "google-device"
+      ],
+      "keywords": [
+        "google",
+        "smarthome",
+        "assistant",
+        "iot",
+        "node-red"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-google-smarthome"
+    },
     {
       "id": "node-red-contrib-esphome",
       "version": "0.2.6",
@@ -37,25 +186,6 @@
       "url": "https://flows.nodered.org/node/node-red-contrib-nspanel-lui"
     },
     {
-      "id": "@technithusiast/node-red-contrib-ai-intent",
-      "version": "1.1.31",
-      "description": "A collection of nodes to elevate a user's automation interactions",
-      "updated_at": "2023-12-30T06:46:14.831Z",
-      "types": [
-        "Register Intent",
-        "Call Intent",
-        "OpenAI User",
-        "OpenAI System",
-        "OpenAI Chat",
-        "OpenAI Response",
-        "OpenAI Tool"
-      ],
-      "keywords": [
-        "node-red"
-      ],
-      "url": "https://flows.nodered.org/node/@technithusiast/node-red-contrib-ai-intent"
-    },
-    {
       "id": "node-red-contrib-smarthome-powerswitch",
       "version": "1.2.0",
       "description": "This is the powerswitch node as standalone, which is part of 'node-red-contrib-smarthome'. It containes nodes for Node-RED.",
@@ -80,26 +210,6 @@
         "digital"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-smarthome-powerswitch"
-    },
-    {
-      "id": "@caitken-com/node-red-contrib-daikin-api",
-      "version": "1.0.6",
-      "description": "Daikin Control API",
-      "updated_at": "2023-12-29T19:23:07.965Z",
-      "types": [
-        "daikin-server",
-        "daikin-api"
-      ],
-      "keywords": [
-        "daikin",
-        "AC",
-        "HVAC",
-        "air",
-        "conditioner",
-        "BRP15B61",
-        "node-red"
-      ],
-      "url": "https://flows.nodered.org/node/@caitken-com/node-red-contrib-daikin-api"
     },
     {
       "id": "@wiesemann-theis/node-red-contrib-wut",
@@ -160,35 +270,6 @@
         "node-red"
       ],
       "url": "https://flows.nodered.org/node/@gulpetl/vinyl-s3"
-    },
-    {
-      "id": "@parallaxcontrol/node-red-control",
-      "version": "1.0.25",
-      "description": "A comprehensive package of Node-RED nodes designed to seamlessly integrate with the Parallax Control Engine, offering enhanced control capabilities for AV, IoT, and Industrial Automation.",
-      "updated_at": "2023-12-28T15:52:55.177Z",
-      "types": [
-        "and-gate",
-        "compare-string",
-        "input-select",
-        "inverter-gate",
-        "or-gate",
-        "set-reset-latch",
-        "send-single-dictionary",
-        "set-feedback",
-        "clear-signal-state",
-        "recall-signal-state",
-        "save-signal-state",
-        "toggle",
-        "extract-message-data",
-        "system-management"
-      ],
-      "keywords": [
-        "parallaxcontrol",
-        "node-red",
-        "audiovisual",
-        "av"
-      ],
-      "url": "https://flows.nodered.org/node/@parallaxcontrol/node-red-control"
     },
     {
       "id": "@gregoriusrippenstein/node-red-contrib-flow2uml",
@@ -341,33 +422,6 @@
         "calendar"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-feiertage"
-    },
-    {
-      "id": "node-red-contrib-alice-self-hosting",
-      "version": "0.1.0",
-      "description": "Node-RED nodes to Yandex Alice devices in Self-Hosting",
-      "updated_at": "2023-12-27T12:33:49.886Z",
-      "types": [
-        "alice-sh-service",
-        "alice-sh-device",
-        "alice-sh-onoff",
-        "alice-sh-toggle",
-        "alice-sh-range",
-        "alice-sh-color",
-        "alice-sh-mode",
-        "alice-sh-sensor",
-        "alice-sh-event",
-        "alice-sh-video"
-      ],
-      "keywords": [
-        "node-red",
-        "yandex",
-        "alice",
-        "iot",
-        "self",
-        "hosting"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-alice-self-hosting"
     },
     {
       "id": "node-red-contrib-thinger",
@@ -628,23 +682,6 @@
         "sidebar"
       ],
       "url": "https://flows.nodered.org/node/@bartbutenaers/node-red-autolayout-sidebar"
-    },
-    {
-      "id": "victron-vrm-api",
-      "version": "0.0.11",
-      "description": "Interface with the Victron Energy VRM API",
-      "updated_at": "2023-12-23T22:01:40.365Z",
-      "types": [
-        "config-vrm-api",
-        "vrm-api"
-      ],
-      "keywords": [
-        "node-red",
-        "victron",
-        "vrm",
-        "api"
-      ],
-      "url": "https://flows.nodered.org/node/victron-vrm-api"
     },
     {
       "id": "@nickiv/node-red-huawei-sms",
@@ -4455,25 +4492,6 @@
         "home automation"
       ],
       "url": "https://flows.nodered.org/node/@mobsean/node-red-vallox-webserver-api"
-    },
-    {
-      "id": "node-red-contrib-google-smarthome",
-      "version": "0.4.7",
-      "description": "Lets you control Node-Red via Google Assistant or the Google Home App",
-      "updated_at": "2023-11-06T20:34:51.251Z",
-      "types": [
-        "googlesmarthome-client",
-        "google-mgmt",
-        "google-device"
-      ],
-      "keywords": [
-        "google",
-        "smarthome",
-        "assistant",
-        "iot",
-        "node-red"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-google-smarthome"
     },
     {
       "id": "node-red-contrib-oscar-grayify-service",
@@ -39988,23 +40006,6 @@
         "server to server"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-accellion-custom-generic"
-    },
-    {
-      "id": "node-red-contrib-influxdb",
-      "version": "0.6.1",
-      "description": "Node-RED nodes to save and query data from an influxdb time series database",
-      "updated_at": "2021-05-24T02:13:53.693Z",
-      "types": [
-        "influxdb",
-        "influxdb out",
-        "influxdb batch",
-        "influxdb in"
-      ],
-      "keywords": [
-        "node-red",
-        "influxdb"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-influxdb"
     },
     {
       "id": "node-red-contrib-mihome",
