@@ -1,29 +1,38 @@
 {
   "name": "Catalogue for Docker",
-  "updated_at": "2023-12-31T15:57:25.578Z",
+  "updated_at": "2024-01-01T15:59:39.588Z",
   "modules": [
     {
-      "id": "victron-vrm-api",
-      "version": "0.1.0",
-      "description": "Interface with the Victron Energy VRM API",
-      "updated_at": "2023-12-31T11:39:35.969Z",
+      "id": "thingzi-logic-climate",
+      "version": "1.0.3",
+      "description": "Climate control via node red",
+      "updated_at": "2024-01-01T09:52:02.997Z",
       "types": [
-        "config-vrm-api",
-        "vrm-api"
+        "thingzi-climate"
       ],
       "keywords": [
         "node-red",
-        "victron",
-        "vrm",
-        "api"
+        "climate",
+        "smart home",
+        "temperature",
+        "thermostat",
+        "zone",
+        "hot water",
+        "heat",
+        "cool",
+        "hvac",
+        "mqtt",
+        "homeassistant",
+        "hass",
+        "thingzi"
       ],
-      "url": "https://flows.nodered.org/node/victron-vrm-api"
+      "url": "https://flows.nodered.org/node/thingzi-logic-climate"
     },
     {
       "id": "node-red-contrib-alice-self-hosting",
-      "version": "0.1.1",
+      "version": "0.1.2",
       "description": "Node-RED nodes to Yandex Alice devices in Self-Hosting",
-      "updated_at": "2023-12-31T08:40:09.175Z",
+      "updated_at": "2024-01-01T06:24:52.630Z",
       "types": [
         "alice-sh-service",
         "alice-sh-device",
@@ -48,9 +57,9 @@
     },
     {
       "id": "@parallaxcontrol/node-red-control",
-      "version": "1.0.26",
+      "version": "1.0.31",
       "description": "A comprehensive package of Node-RED nodes designed to seamlessly integrate with the Parallax Control Engine, offering enhanced control capabilities for AV, IoT, and Industrial Automation.",
-      "updated_at": "2023-12-31T04:30:51.499Z",
+      "updated_at": "2024-01-01T05:09:39.202Z",
       "types": [
         "and-gate",
         "compare-string-text",
@@ -65,7 +74,8 @@
         "save-signal-state",
         "bool-toggle",
         "extract-message-data",
-        "system-management"
+        "system-management",
+        "tester-node"
       ],
       "keywords": [
         "parallaxcontrol",
@@ -74,6 +84,58 @@
         "av"
       ],
       "url": "https://flows.nodered.org/node/@parallaxcontrol/node-red-control"
+    },
+    {
+      "id": "node-red-contrib-dyson-purelink",
+      "version": "0.7.0",
+      "description": "NodeRed dyson purelink Adapter",
+      "updated_at": "2024-01-01T01:16:16.227Z",
+      "types": [
+        "dyson-config",
+        "dyson-link"
+      ],
+      "keywords": [
+        "node-red",
+        "dyson",
+        "purelink",
+        "Smart Home",
+        "home automation"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-dyson-purelink"
+    },
+    {
+      "id": "@ralphwetzel/node-red-systeminformation",
+      "version": "1.1.0",
+      "description": "Node-RED interface to systeminformation, the System Information Library for Node.JS",
+      "updated_at": "2023-12-31T22:13:57.527Z",
+      "types": [
+        "systeminformation"
+      ],
+      "keywords": [
+        "Node-RED",
+        "node-red",
+        "systeminformation",
+        "node.js",
+        "node"
+      ],
+      "url": "https://flows.nodered.org/node/@ralphwetzel/node-red-systeminformation"
+    },
+    {
+      "id": "victron-vrm-api",
+      "version": "0.1.0",
+      "description": "Interface with the Victron Energy VRM API",
+      "updated_at": "2023-12-31T11:39:35.969Z",
+      "types": [
+        "config-vrm-api",
+        "vrm-api"
+      ],
+      "keywords": [
+        "node-red",
+        "victron",
+        "vrm",
+        "api"
+      ],
+      "url": "https://flows.nodered.org/node/victron-vrm-api"
     },
     {
       "id": "@caitken-com/node-red-contrib-daikin-api",
@@ -486,23 +548,6 @@
         "oracledb"
       ],
       "url": "https://flows.nodered.org/node/@nitisakc/node-red-oracledb"
-    },
-    {
-      "id": "@ralphwetzel/node-red-systeminformation",
-      "version": "1.0.2",
-      "description": "Node-RED interface to systeminformation, the System Information Library for Node.JS",
-      "updated_at": "2023-12-26T20:57:42.880Z",
-      "types": [
-        "systeminformation"
-      ],
-      "keywords": [
-        "Node-RED",
-        "node-red",
-        "systeminformation",
-        "node.js",
-        "node"
-      ],
-      "url": "https://flows.nodered.org/node/@ralphwetzel/node-red-systeminformation"
     },
     {
       "id": "node-red-contrib-pinecone",
@@ -1735,6 +1780,19 @@
         "node-red"
       ],
       "url": "https://flows.nodered.org/node/@jambonz/node-red-contrib-jambonz"
+    },
+    {
+      "id": "@victronenergy/node-red-contrib-victron",
+      "version": "1.5.7",
+      "description": "Custom Node-RED Nodes for Victron Energy",
+      "updated_at": "2023-12-13T11:36:55.956Z",
+      "types": [
+        "victron-client"
+      ],
+      "keywords": [
+        "node-red"
+      ],
+      "url": "https://flows.nodered.org/node/@victronenergy/node-red-contrib-victron"
     },
     {
       "id": "node-red-contrib-ssh-v3",
@@ -3010,19 +3068,6 @@
       "url": "https://flows.nodered.org/node/virtual-parameters"
     },
     {
-      "id": "@victronenergy/node-red-contrib-victron",
-      "version": "1.5.4",
-      "description": "Custom Node-RED Nodes for Victron Energy",
-      "updated_at": "2023-11-28T11:02:47.041Z",
-      "types": [
-        "victron-client"
-      ],
-      "keywords": [
-        "node-red"
-      ],
-      "url": "https://flows.nodered.org/node/@victronenergy/node-red-contrib-victron"
-    },
-    {
       "id": "node-red-contrib-edge-tts",
       "version": "2.2.4",
       "description": "An simple Azure Speech Service module that uses the Microsoft Edge Read Aloud API.",
@@ -3665,32 +3710,6 @@
         "timeout"
       ],
       "url": "https://flows.nodered.org/node/thingzi-logic-timers"
-    },
-    {
-      "id": "thingzi-logic-climate",
-      "version": "1.0.0",
-      "description": "Climate control via node red",
-      "updated_at": "2023-11-19T17:16:21.305Z",
-      "types": [
-        "thingzi-climate"
-      ],
-      "keywords": [
-        "node-red",
-        "climate",
-        "smart home",
-        "temperature",
-        "thermostat",
-        "zone",
-        "hot water",
-        "heat",
-        "cool",
-        "hvac",
-        "mqtt",
-        "homeassistant",
-        "hass",
-        "thingzi"
-      ],
-      "url": "https://flows.nodered.org/node/thingzi-logic-climate"
     },
     {
       "id": "node-red-contrib-obs-ws",
@@ -11948,24 +11967,6 @@
         "nmea"
       ],
       "url": "https://flows.nodered.org/node/smithtek-nodered-gps"
-    },
-    {
-      "id": "node-red-contrib-dyson-purelink",
-      "version": "0.6.1",
-      "description": "NodeRed dyson purelink Adapter",
-      "updated_at": "2023-07-08T21:56:57.141Z",
-      "types": [
-        "dyson-config",
-        "dyson-link"
-      ],
-      "keywords": [
-        "node-red",
-        "dyson",
-        "purelink",
-        "Smart Home",
-        "home automation"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-dyson-purelink"
     },
     {
       "id": "@decthings/node-red",
