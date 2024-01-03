@@ -1,0 +1,52 @@
+#0 building with "default" instance using docker driver
+
+#1 [internal] load .dockerignore
+#1 transferring context: 2B done
+#1 DONE 0.0s
+
+#2 [internal] load build definition from Dockerfile
+#2 transferring dockerfile: 131B done
+#2 DONE 0.0s
+
+#3 [internal] load metadata for docker.io/nodered/node-red:latest
+#3 DONE 0.1s
+
+#4 [1/2] FROM docker.io/nodered/node-red@sha256:f72381be70e1e1f06ae31fa28fc322fbf806184a2a4b97df765e6916f9204d47
+#4 CACHED
+
+#5 [2/2] RUN npm install npm install @renyoo/node-red-dfrobot-lorawan-nodes@1.0.7
+#5 2.036 npm WARN EBADENGINE Unsupported engine {
+#5 2.036 npm WARN EBADENGINE   package: 'npm@10.2.5',
+#5 2.036 npm WARN EBADENGINE   required: { node: '^18.17.0 || >=20.5.0' },
+#5 2.036 npm WARN EBADENGINE   current: { node: 'v16.20.2', npm: '8.19.4' }
+#5 2.036 npm WARN EBADENGINE }
+#5 3.392 npm WARN deprecated har-validator@5.1.5: this library is no longer supported
+#5 3.417 npm WARN deprecated uuid@3.4.0: Please upgrade  to version 7 or higher.  Older versions may use Math.random() in certain circumstances, which is known to be problematic.  See https://v8.dev/blog/math-random for details.
+#5 3.419 npm WARN deprecated request@2.88.2: request has been deprecated, see https://github.com/request/request/issues/3142
+#5 3.652 
+#5 3.652 added 38 packages, and audited 577 packages in 3s
+#5 3.652 
+#5 3.652 70 packages are looking for funding
+#5 3.652   run `npm fund` for details
+#5 3.655 
+#5 3.655 3 moderate severity vulnerabilities
+#5 3.655 
+#5 3.655 Some issues need review, and may require choosing
+#5 3.655 a different dependency.
+#5 3.655 
+#5 3.655 Run `npm audit` for details.
+#5 3.655 npm notice 
+#5 3.655 npm notice New major version of npm available! 8.19.4 -> 10.2.5
+#5 3.655 npm notice Changelog: <https://github.com/npm/cli/releases/tag/v10.2.5>
+#5 3.656 npm notice Run `npm install -g npm@10.2.5` to update!
+#5 3.656 npm notice 
+#5 DONE 3.8s
+
+#6 exporting to image
+#6 exporting layers
+#6 exporting layers 1.1s done
+#6 writing image sha256:4716479b531b3e0258b02c2c25ddfd830c8ddadf53b8d79c9b664d6c0b9bdd9f done
+#6 naming to docker.io/library/tmp done
+#6 DONE 1.1s
+
+----
