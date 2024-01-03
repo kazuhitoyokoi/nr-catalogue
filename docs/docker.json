@@ -1,7 +1,393 @@
 {
   "name": "Catalogue for Docker",
-  "updated_at": "2024-01-02T16:00:30.204Z",
+  "updated_at": "2024-01-03T16:00:01.800Z",
   "modules": [
+    {
+      "id": "@flowfuse/node-red-dashboard",
+      "version": "0.11.2",
+      "description": "A collection of Node-RED nodes that provide functionality to build your own UI applications (inc. forms, buttons, charts) within Node-RED.",
+      "updated_at": "2024-01-03T14:20:11.494Z",
+      "types": [
+        "ui-base",
+        "ui-page",
+        "ui-group",
+        "ui-theme",
+        "ui-form",
+        "__errors__",
+        "ui-text-input",
+        "__errors__",
+        "ui-button",
+        "__errors__",
+        "ui-dropdown",
+        "__errors__",
+        "ui-radio-group",
+        "__errors__",
+        "ui-slider",
+        "__errors__",
+        "ui-switch",
+        "__errors__",
+        "ui-text",
+        "__errors__",
+        "ui-table",
+        "__errors__",
+        "ui-chart",
+        "__errors__",
+        "ui-notification",
+        "__errors__",
+        "ui-markdown",
+        "__errors__",
+        "ui-template",
+        "__errors__",
+        "ui-event",
+        "__errors__",
+        "ui-control",
+        "__errors__"
+      ],
+      "keywords": [
+        "node-red"
+      ],
+      "url": "https://flows.nodered.org/node/@flowfuse/node-red-dashboard"
+    },
+    {
+      "id": "node-red-contrib-dyson-purelink",
+      "version": "0.8.1",
+      "description": "NodeRed dyson purelink Adapter",
+      "updated_at": "2024-01-03T11:59:53.997Z",
+      "types": [
+        "dyson-config",
+        "dyson-link"
+      ],
+      "keywords": [
+        "node-red",
+        "dyson",
+        "purelink",
+        "Smart Home",
+        "home automation"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-dyson-purelink"
+    },
+    {
+      "id": "@renyoo/node-red-dfrobot-lorawan-nodes",
+      "version": "1.0.7",
+      "description": "node red nodes for dfrobot-lorawan",
+      "updated_at": "2024-01-03T11:40:28.277Z",
+      "types": [
+        "Decoder",
+        "Packet Item",
+        "LW Receive",
+        "LW Send",
+        "Node List",
+        "Group",
+        "GW Events",
+        "MusicPlayer",
+        "Single Node"
+      ],
+      "keywords": [
+        "node-red",
+        "dfrobot",
+        "lorawan",
+        "renyoo"
+      ],
+      "url": "https://flows.nodered.org/node/@renyoo/node-red-dfrobot-lorawan-nodes"
+    },
+    {
+      "id": "node-red-contrib-log-elk",
+      "version": "1.2.8",
+      "description": "A Node-RED logging node with multiple outputs using the winston and winston-elasticsearch logging libraries",
+      "updated_at": "2024-01-03T11:06:38.547Z",
+      "types": [
+        "log-elk",
+        "log-elk-logger"
+      ],
+      "keywords": [
+        "logger",
+        "winston",
+        "elasticsearch",
+        "node-red"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-log-elk"
+    },
+    {
+      "id": "@floflal/node-red-ewelink-v2-oauth",
+      "version": "0.0.1",
+      "description": "Node-RED to manage ewelink",
+      "updated_at": "2024-01-03T10:55:32.058Z",
+      "types": [
+        "ewelink-auth",
+        "ewelink-list-devices",
+        "ewelink-set-status",
+        "ewelink-status-device",
+        "ewelink-home"
+      ],
+      "keywords": [
+        "node-red",
+        "ewelink"
+      ],
+      "url": "https://flows.nodered.org/node/@floflal/node-red-ewelink-v2-oauth"
+    },
+    {
+      "id": "node-red-contrib-thinger",
+      "version": "1.6.3",
+      "description": "Node-Red library for Thinger.io Platform",
+      "updated_at": "2024-01-03T10:49:03.448Z",
+      "types": [
+        "asset-iterator",
+        "bucket-create",
+        "bucket-read",
+        "bucket-write",
+        "device-callback",
+        "device-create",
+        "device-read",
+        "device-stream",
+        "device-write",
+        "endpoint-call",
+        "property-read",
+        "property-write",
+        "storage-read",
+        "storage-write",
+        "server-events",
+        "thinger-server"
+      ],
+      "keywords": [
+        "node-red",
+        "thinger.io",
+        "IoT",
+        "arduino",
+        "raspberry"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-thinger"
+    },
+    {
+      "id": "node-red-contrib-smartnora",
+      "version": "1.22.0",
+      "description": "Google Smart Home integration via Smart Nora https://smart-nora.eu/",
+      "updated_at": "2024-01-03T10:14:09.415Z",
+      "types": [
+        "noraf-ac",
+        "noraf-airpurifier",
+        "noraf-blinds",
+        "noraf-camera",
+        "noraf-charger",
+        "noraf-config",
+        "noraf-doorbell",
+        "noraf-fan",
+        "noraf-garage",
+        "noraf-light",
+        "noraf-lock",
+        "noraf-media",
+        "noraf-notify",
+        "noraf-openclose",
+        "noraf-outlet",
+        "noraf-scene",
+        "noraf-security",
+        "noraf-sensor",
+        "noraf-sousvide",
+        "noraf-speaker",
+        "noraf-sprinkler",
+        "noraf-switch",
+        "noraf-thermostat",
+        "noraf-vacuum",
+        "noraf-async"
+      ],
+      "keywords": [
+        "node-red",
+        "google",
+        "google home",
+        "assistant",
+        "smarthome",
+        "smart",
+        "home",
+        "iot"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-smartnora"
+    },
+    {
+      "id": "node-red-dragino",
+      "version": "1.0.4",
+      "description": "Dragino visualization for Node-RED",
+      "updated_at": "2024-01-03T08:41:39.388Z",
+      "types": [
+        "dragino-decoder",
+        "dragino-sqlite",
+        "dragino-echarts"
+      ],
+      "keywords": [
+        "node-red",
+        "dragino"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-dragino"
+    },
+    {
+      "id": "@gulpetl/vinyl-ftp",
+      "version": "0.6.1",
+      "description": "Vinyl adapter for FTP",
+      "updated_at": "2024-01-03T05:10:49.986Z",
+      "types": [],
+      "keywords": [
+        "vinyl",
+        "gulp",
+        "ftp",
+        "deploy",
+        "deployment",
+        "upload",
+        "gulp-etl",
+        "gulpetl",
+        "etl",
+        "data",
+        "node-red"
+      ],
+      "url": "https://flows.nodered.org/node/@gulpetl/vinyl-ftp"
+    },
+    {
+      "id": "@meshtastic/node-red-contrib-meshtastic",
+      "version": "2.2.17-1",
+      "description": "Meshtastic protobuf converter for NodeRED",
+      "updated_at": "2024-01-03T04:33:42.381Z",
+      "types": [
+        "decrypt",
+        "decode"
+      ],
+      "keywords": [
+        "node-red"
+      ],
+      "url": "https://flows.nodered.org/node/@meshtastic/node-red-contrib-meshtastic"
+    },
+    {
+      "id": "@tataille/node-red-french-holidays",
+      "version": "1.1.8",
+      "description": "A simple node-red component for working with French holidays.",
+      "updated_at": "2024-01-02T20:34:44.886Z",
+      "types": [
+        "french-holidays"
+      ],
+      "keywords": [
+        "node-red",
+        "french-holidays",
+        "holidays",
+        "france",
+        "specialdays",
+        "weekdays"
+      ],
+      "url": "https://flows.nodered.org/node/@tataille/node-red-french-holidays"
+    },
+    {
+      "id": "@blebtechnology/node-red-blebricks",
+      "version": "1.0.10",
+      "description": "A node-red package to manage blebricks data",
+      "updated_at": "2024-01-02T17:38:08.487Z",
+      "types": [
+        "CHT",
+        "ENV",
+        "OAQ",
+        "BLEB_TEMP",
+        "PTX",
+        "MAG",
+        "SOIL",
+        "LGH",
+        "UHF",
+        "PRT",
+        "REL",
+        "RELOUT",
+        "WPLOUT",
+        "VBROUT",
+        "BUZOUT",
+        "IRTOUT",
+        "ODCOUT",
+        "ODC",
+        "WPL",
+        "VBR",
+        "BUZ",
+        "IRT",
+        "PLV",
+        "WND",
+        "SOL",
+        "PYR",
+        "CMS",
+        "RHT",
+        "UVA",
+        "RGB",
+        "CLT",
+        "IMU",
+        "ACC",
+        "PDM",
+        "CAP",
+        "IRR",
+        "SMS",
+        "DSD",
+        "BLEB_IN",
+        "BLEB_RPS",
+        "SFX",
+        "ESP",
+        "UWS",
+        "RMS",
+        "VMS",
+        "GPS",
+        "BLEB_CNT",
+        "PMX",
+        "PROTECTOR",
+        "LCDOUT",
+        "SLS",
+        "PWMOUT",
+        "TPD"
+      ],
+      "keywords": [
+        "node-red"
+      ],
+      "url": "https://flows.nodered.org/node/@blebtechnology/node-red-blebricks"
+    },
+    {
+      "id": "@thib3113/node-red-lovebox",
+      "version": "1.0.1",
+      "description": "## Features Allow to interact with a [lovebox](https://lovebox.love)",
+      "updated_at": "2024-01-02T16:48:06.529Z",
+      "types": [
+        "lovebox-account",
+        "lovebox-list-boxes",
+        "lovebox-send-picture",
+        "lovebox-connected-user",
+        "lovebox-raw-request",
+        "lovebox-get-messages"
+      ],
+      "keywords": [
+        "node-red",
+        "lovebox"
+      ],
+      "url": "https://flows.nodered.org/node/@thib3113/node-red-lovebox"
+    },
+    {
+      "id": "victron-vrm-api",
+      "version": "0.1.1",
+      "description": "Interface with the Victron Energy VRM API",
+      "updated_at": "2024-01-02T15:37:06.881Z",
+      "types": [
+        "config-vrm-api",
+        "vrm-api"
+      ],
+      "keywords": [
+        "node-red",
+        "victron",
+        "vrm",
+        "api"
+      ],
+      "url": "https://flows.nodered.org/node/victron-vrm-api"
+    },
+    {
+      "id": "node-red-contrib-alexa-master-function",
+      "version": "2402.1.1143",
+      "description": "Beta version: password and logs",
+      "updated_at": "2024-01-02T14:43:48.846Z",
+      "types": [
+        "alexa-master-function"
+      ],
+      "keywords": [
+        "axios",
+        "node-red",
+        "mysql",
+        "database",
+        "r2"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-alexa-master-function"
+    },
     {
       "id": "node-red-contrib-vib-smart-scheduler",
       "version": "0.1.55",
@@ -248,41 +634,6 @@
         "hosting"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-alice-self-hosting"
-    },
-    {
-      "id": "node-red-contrib-dyson-purelink",
-      "version": "0.7.0",
-      "description": "NodeRed dyson purelink Adapter",
-      "updated_at": "2024-01-01T01:16:16.227Z",
-      "types": [
-        "dyson-config",
-        "dyson-link"
-      ],
-      "keywords": [
-        "node-red",
-        "dyson",
-        "purelink",
-        "Smart Home",
-        "home automation"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-dyson-purelink"
-    },
-    {
-      "id": "victron-vrm-api",
-      "version": "0.1.0",
-      "description": "Interface with the Victron Energy VRM API",
-      "updated_at": "2023-12-31T11:39:35.969Z",
-      "types": [
-        "config-vrm-api",
-        "vrm-api"
-      ],
-      "keywords": [
-        "node-red",
-        "victron",
-        "vrm",
-        "api"
-      ],
-      "url": "https://flows.nodered.org/node/victron-vrm-api"
     },
     {
       "id": "@caitken-com/node-red-contrib-daikin-api",
@@ -633,38 +984,6 @@
       "url": "https://flows.nodered.org/node/node-red-contrib-feiertage"
     },
     {
-      "id": "node-red-contrib-thinger",
-      "version": "1.6.2",
-      "description": "Node-Red library for Thinger.io Platform",
-      "updated_at": "2023-12-27T12:25:12.175Z",
-      "types": [
-        "asset-iterator",
-        "bucket-create",
-        "bucket-read",
-        "bucket-write",
-        "device-callback",
-        "device-create",
-        "device-read",
-        "device-stream",
-        "device-write",
-        "endpoint-call",
-        "property-read",
-        "property-write",
-        "storage-read",
-        "storage-write",
-        "server-events",
-        "thinger-server"
-      ],
-      "keywords": [
-        "node-red",
-        "thinger.io",
-        "IoT",
-        "arduino",
-        "raspberry"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-thinger"
-    },
-    {
       "id": "node-red-contrib-iot-controlcenter",
       "version": "1.0.5",
       "description": "Data exchange from node-red to control center",
@@ -988,117 +1307,6 @@
         "thermostat"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-hapcan"
-    },
-    {
-      "id": "@flowfuse/node-red-dashboard",
-      "version": "0.11.1",
-      "description": "A collection of Node-RED nodes that provide functionality to build your own UI applications (inc. forms, buttons, charts) within Node-RED.",
-      "updated_at": "2023-12-22T20:55:46.626Z",
-      "types": [
-        "ui-base",
-        "ui-page",
-        "ui-group",
-        "ui-theme",
-        "ui-form",
-        "__errors__",
-        "ui-text-input",
-        "__errors__",
-        "ui-button",
-        "__errors__",
-        "ui-dropdown",
-        "__errors__",
-        "ui-radio-group",
-        "__errors__",
-        "ui-slider",
-        "__errors__",
-        "ui-switch",
-        "__errors__",
-        "ui-text",
-        "__errors__",
-        "ui-table",
-        "__errors__",
-        "ui-chart",
-        "__errors__",
-        "ui-notification",
-        "__errors__",
-        "ui-markdown",
-        "__errors__",
-        "ui-template",
-        "__errors__",
-        "ui-event",
-        "__errors__",
-        "ui-control",
-        "__errors__"
-      ],
-      "keywords": [
-        "node-red"
-      ],
-      "url": "https://flows.nodered.org/node/@flowfuse/node-red-dashboard"
-    },
-    {
-      "id": "@blebtechnology/node-red-blebricks",
-      "version": "1.0.9",
-      "description": "A node-red package to manage blebricks data",
-      "updated_at": "2023-12-22T18:49:50.242Z",
-      "types": [
-        "CHT",
-        "ENV",
-        "OAQ",
-        "BLEB_TEMP",
-        "PTX",
-        "MAG",
-        "SOIL",
-        "LGH",
-        "UHF",
-        "PRT",
-        "REL",
-        "RELOUT",
-        "WPLOUT",
-        "VBROUT",
-        "BUZOUT",
-        "IRTOUT",
-        "ODCOUT",
-        "ODC",
-        "WPL",
-        "VBR",
-        "BUZ",
-        "IRT",
-        "PLV",
-        "WND",
-        "SOL",
-        "PYR",
-        "CMS",
-        "RHT",
-        "UVA",
-        "RGB",
-        "CLT",
-        "IMU",
-        "ACC",
-        "PDM",
-        "CAP",
-        "IRR",
-        "SMS",
-        "DSD",
-        "BLEB_IN",
-        "BLEB_RPS",
-        "SFX",
-        "ESP",
-        "UWS",
-        "RMS",
-        "VMS",
-        "GPS",
-        "BLEB_CNT",
-        "PMX",
-        "PROTECTOR",
-        "LCDOUT",
-        "SLS",
-        "PWMOUT",
-        "TPD"
-      ],
-      "keywords": [
-        "node-red"
-      ],
-      "url": "https://flows.nodered.org/node/@blebtechnology/node-red-blebricks"
     },
     {
       "id": "nr-eaf-amr",
@@ -2625,22 +2833,6 @@
       "url": "https://flows.nodered.org/node/@thewiw/node-red-contrib-wiw-bridge"
     },
     {
-      "id": "node-red-contrib-alexa-master-function",
-      "version": "6.12.2222",
-      "description": "Beta version: password and logs",
-      "updated_at": "2023-12-06T13:36:58.524Z",
-      "types": [
-        "alexa-master-function"
-      ],
-      "keywords": [
-        "node-red",
-        "mysql",
-        "database",
-        "r2"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-alexa-master-function"
-    },
-    {
       "id": "atomic-jetstream",
       "version": "0.0.17",
       "description": "NATS JetStream module for Brobridge Atomic",
@@ -2815,50 +3007,6 @@
         "shelly"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-shelly"
-    },
-    {
-      "id": "node-red-contrib-smartnora",
-      "version": "1.21.4",
-      "description": "Google Smart Home integration via Smart Nora https://smart-nora.eu/",
-      "updated_at": "2023-12-03T14:55:16.182Z",
-      "types": [
-        "noraf-ac",
-        "noraf-airpurifier",
-        "noraf-blinds",
-        "noraf-camera",
-        "noraf-charger",
-        "noraf-config",
-        "noraf-doorbell",
-        "noraf-fan",
-        "noraf-garage",
-        "noraf-light",
-        "noraf-lock",
-        "noraf-media",
-        "noraf-notify",
-        "noraf-openclose",
-        "noraf-outlet",
-        "noraf-scene",
-        "noraf-security",
-        "noraf-sensor",
-        "noraf-sousvide",
-        "noraf-speaker",
-        "noraf-sprinkler",
-        "noraf-switch",
-        "noraf-thermostat",
-        "noraf-vacuum",
-        "noraf-async"
-      ],
-      "keywords": [
-        "node-red",
-        "google",
-        "google home",
-        "assistant",
-        "smarthome",
-        "smart",
-        "home",
-        "iot"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-smartnora"
     },
     {
       "id": "@fetchbot/node-red-contrib-ikea-home-smart",
@@ -3145,24 +3293,6 @@
         "iot"
       ],
       "url": "https://flows.nodered.org/node/@bitpoolos/edge-modbus"
-    },
-    {
-      "id": "@tataille/node-red-french-holidays",
-      "version": "1.1.7",
-      "description": "A simple node-red component for working whith French holidays.",
-      "updated_at": "2023-11-28T21:36:17.825Z",
-      "types": [
-        "french-holidays"
-      ],
-      "keywords": [
-        "node-red",
-        "french-holidays",
-        "holidays",
-        "france",
-        "specialdays",
-        "weekdays"
-      ],
-      "url": "https://flows.nodered.org/node/@tataille/node-red-french-holidays"
     },
     {
       "id": "node-red-contrib-victron-modbus",
@@ -3681,22 +3811,6 @@
         "smartpi"
       ],
       "url": "https://flows.nodered.org/node/@nd-enerserve/node-red-smartpi"
-    },
-    {
-      "id": "node-red-dragino",
-      "version": "1.0.2",
-      "description": "Dragino visualization for Node-RED",
-      "updated_at": "2023-11-21T06:46:46.087Z",
-      "types": [
-        "dragino-decoder",
-        "dragino-echarts",
-        "dragino-echarts2"
-      ],
-      "keywords": [
-        "node-red",
-        "dragino"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-dragino"
     },
     {
       "id": "node-red-contrib-oauth2",
@@ -19044,23 +19158,6 @@
         "node-red"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-airbrake"
-    },
-    {
-      "id": "node-red-contrib-log-elk",
-      "version": "1.2.7",
-      "description": "A Node-RED logging node with multiple outputs using the winston and winston-elasticsearch logging libraries",
-      "updated_at": "2023-01-17T17:22:02.855Z",
-      "types": [
-        "log-elk",
-        "log-elk-logger"
-      ],
-      "keywords": [
-        "logger",
-        "winston",
-        "elasticsearch",
-        "node-red"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-log-elk"
     },
     {
       "id": "node-red-contrib-airship-polaris",
