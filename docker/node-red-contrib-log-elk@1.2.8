@@ -1,0 +1,45 @@
+#0 building with "default" instance using docker driver
+
+#1 [internal] load build definition from Dockerfile
+#1 transferring dockerfile: 117B done
+#1 DONE 0.0s
+
+#2 [internal] load .dockerignore
+#2 transferring context: 2B done
+#2 DONE 0.0s
+
+#3 [internal] load metadata for docker.io/nodered/node-red:latest
+#3 DONE 0.1s
+
+#4 [1/2] FROM docker.io/nodered/node-red@sha256:f72381be70e1e1f06ae31fa28fc322fbf806184a2a4b97df765e6916f9204d47
+#4 CACHED
+
+#5 [2/2] RUN npm install npm install node-red-contrib-log-elk@1.2.8
+#5 3.360 npm WARN EBADENGINE Unsupported engine {
+#5 3.361 npm WARN EBADENGINE   package: 'npm@10.2.5',
+#5 3.361 npm WARN EBADENGINE   required: { node: '^18.17.0 || >=20.5.0' },
+#5 3.361 npm WARN EBADENGINE   current: { node: 'v16.20.2', npm: '8.19.4' }
+#5 3.361 npm WARN EBADENGINE }
+#5 5.312 npm WARN deprecated async-cache@1.1.0: No longer maintained. Use [lru-cache](http://npm.im/lru-cache) version 7.6 or higher, and provide an asynchronous `fetchMethod` option.
+#5 6.239 
+#5 6.239 added 162 packages, and audited 701 packages in 6s
+#5 6.239 
+#5 6.239 112 packages are looking for funding
+#5 6.239   run `npm fund` for details
+#5 6.240 
+#5 6.240 found 0 vulnerabilities
+#5 6.241 npm notice 
+#5 6.241 npm notice New major version of npm available! 8.19.4 -> 10.2.5
+#5 6.241 npm notice Changelog: <https://github.com/npm/cli/releases/tag/v10.2.5>
+#5 6.241 npm notice Run `npm install -g npm@10.2.5` to update!
+#5 6.241 npm notice 
+#5 DONE 6.4s
+
+#6 exporting to image
+#6 exporting layers
+#6 exporting layers 1.9s done
+#6 writing image sha256:14eb6abfa9420cc5be493dab99af9c88bc8caf08f3856078cb1bec5e618df1b6 done
+#6 naming to docker.io/library/tmp done
+#6 DONE 1.9s
+
+----
