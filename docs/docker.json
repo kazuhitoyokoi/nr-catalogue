@@ -1,7 +1,353 @@
 {
   "name": "Catalogue for Docker",
-  "updated_at": "2024-01-03T16:00:01.800Z",
+  "updated_at": "2024-01-04T16:00:03.486Z",
   "modules": [
+    {
+      "id": "@renyoo/node-red-dfrobot-lorawan-nodes",
+      "version": "1.0.10",
+      "description": "node red nodes for dfrobot-lorawan",
+      "updated_at": "2024-01-04T12:54:04.701Z",
+      "types": [
+        "Decoder",
+        "Packet Item",
+        "LW Receive",
+        "LW Send",
+        "Node List",
+        "Group",
+        "GW Events",
+        "MusicPlayer",
+        "Single Node"
+      ],
+      "keywords": [
+        "node-red",
+        "dfrobot",
+        "lorawan",
+        "renyoo"
+      ],
+      "url": "https://flows.nodered.org/node/@renyoo/node-red-dfrobot-lorawan-nodes"
+    },
+    {
+      "id": "node-red-contrib-knx-ultimate",
+      "version": "2.2.40",
+      "description": "Control your KNX intallation via Node-Red! A bunch of KNX nodes, with integrated Philips HUE control and ETS group address importer. Easy to use and highly configurable.",
+      "updated_at": "2024-01-04T12:11:13.363Z",
+      "types": [
+        "knxUltimate",
+        "knxUltimateSceneController",
+        "knxUltimateWatchDog",
+        "knxUltimateLogger",
+        "knxUltimate-config",
+        "knxUltimateGlobalContext",
+        "knxUltimateAlerter",
+        "knxUltimateLoadControl",
+        "knxUltimateViewer",
+        "hue-config",
+        "knxUltimateHueLight",
+        "knxUltimateHueButton",
+        "knxUltimateHueMotion",
+        "knxUltimateHueTapDial",
+        "knxUltimateHueLightSensor",
+        "knxUltimateHueTemperatureSensor",
+        "knxUltimateHueScene",
+        "knxUltimateHueBattery"
+      ],
+      "keywords": [
+        "node-red",
+        "KNX",
+        "ETS",
+        "eib",
+        "konnex",
+        "IOT",
+        "philips hue"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-knx-ultimate"
+    },
+    {
+      "id": "@blebtechnology/node-red-blebricks",
+      "version": "1.0.12",
+      "description": "A node-red package to manage blebricks data",
+      "updated_at": "2024-01-04T12:04:06.605Z",
+      "types": [
+        "CHT",
+        "ENV",
+        "OAQ",
+        "BLEB_TEMP",
+        "PTX",
+        "MAG",
+        "SOIL",
+        "LGH",
+        "UHF",
+        "PRT",
+        "REL",
+        "RELOUT",
+        "WPLOUT",
+        "VBROUT",
+        "BUZOUT",
+        "IRTOUT",
+        "ODCOUT",
+        "ODC",
+        "WPL",
+        "VBR",
+        "BUZ",
+        "IRT",
+        "PLV",
+        "WND",
+        "SOL",
+        "PYR",
+        "CMS",
+        "RHT",
+        "UVA",
+        "RGB",
+        "CLT",
+        "IMU",
+        "ACC",
+        "PDM",
+        "CAP",
+        "IRR",
+        "SMS",
+        "DSD",
+        "BLEB_IN",
+        "BLEB_RPS",
+        "SFX",
+        "ESP",
+        "UWS",
+        "RMS",
+        "VMS",
+        "GPS",
+        "BLEB_CNT",
+        "PMX",
+        "PROTECTOR",
+        "LCDOUT",
+        "SLS",
+        "PWMOUT",
+        "TPD"
+      ],
+      "keywords": [
+        "node-red"
+      ],
+      "url": "https://flows.nodered.org/node/@blebtechnology/node-red-blebricks"
+    },
+    {
+      "id": "node-red-contrib-uibuilder",
+      "version": "6.8.2",
+      "description": "Easily create data-driven web UI's for Node-RED using any (or no) front-end library.",
+      "updated_at": "2024-01-04T11:14:35.583Z",
+      "types": [],
+      "keywords": [
+        "node-red",
+        "ui",
+        "gui",
+        "dashboard",
+        "SPA",
+        "web",
+        "website",
+        "data-driven",
+        "webpage",
+        "web-app"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-uibuilder"
+    },
+    {
+      "id": "node-red-contrib-tasmota",
+      "version": "1.0.0",
+      "description": "Node-RED integration for Tasmota flashed devices",
+      "updated_at": "2024-01-04T09:54:27.533Z",
+      "types": [
+        "tasmota-mqtt-broker",
+        "Tasmota Switch",
+        "Tasmota Sensor",
+        "Tasmota Light",
+        "Tasmota Button",
+        "Tasmota Generic"
+      ],
+      "keywords": [
+        "node-red",
+        "tasmota",
+        "sonoff",
+        "home automation"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-tasmota"
+    },
+    {
+      "id": "node-red-contrib-axis-host",
+      "version": "1.3.0",
+      "description": "Axis Devices resource binding nodes that provides access to events, image capture and analytics data.  Node-RED must be running on the Axis Device.",
+      "updated_at": "2024-01-04T06:31:12.345Z",
+      "types": [
+        "Events",
+        "Camera",
+        "Trigger",
+        "Objects"
+      ],
+      "keywords": [
+        "node-red",
+        "Axis"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-axis-host"
+    },
+    {
+      "id": "node-red-dragino",
+      "version": "1.0.5",
+      "description": "Dragino visualization for Node-RED",
+      "updated_at": "2024-01-04T00:40:26.620Z",
+      "types": [
+        "dragino-decoder",
+        "dragino-sqlite",
+        "dragino-echarts"
+      ],
+      "keywords": [
+        "node-red",
+        "dragino"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-dragino"
+    },
+    {
+      "id": "@inductiv/node-red-openai-api",
+      "version": "0.3.8",
+      "description": "Go beyond ChatGPT and DALL·E 3: this Node-RED node seamlessly integrates a range of OpenAI services, including Assistants, Threads, Vision, and Audio, enabling feature-rich enhancement of your AI workflows with any OpenAI REST API-compatible solution.",
+      "updated_at": "2024-01-03T21:50:59.933Z",
+      "types": [
+        "OpenAI API",
+        "Service Host"
+      ],
+      "keywords": [
+        "openai",
+        "api",
+        "automation",
+        "chatgpt",
+        "llm",
+        "slm",
+        "agent",
+        "automation",
+        "node-red",
+        "nodered",
+        "low-code",
+        "ai"
+      ],
+      "url": "https://flows.nodered.org/node/@inductiv/node-red-openai-api"
+    },
+    {
+      "id": "node-red-contrib-ccxt-v3",
+      "version": "0.2.17",
+      "description": "A Node-RED node to communicate with crypto exchanges using CCXT library supporting both CCXT Unified and Exchange-specific API calls.",
+      "updated_at": "2024-01-03T20:33:42.735Z",
+      "types": [
+        "ccxt-api-v3",
+        "ccxt-exchange-v3"
+      ],
+      "keywords": [
+        "node-red",
+        "ccxt",
+        "bitcoin",
+        "cryptocurrency",
+        "trading",
+        "cryptoexchange",
+        "cryptotrading"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-ccxt-v3"
+    },
+    {
+      "id": "@floflal/node-red-ewelink-v2-oauth",
+      "version": "0.0.2",
+      "description": "Node-RED to manage ewelink",
+      "updated_at": "2024-01-03T18:18:50.374Z",
+      "types": [
+        "ewelink-auth",
+        "ewelink-list-devices",
+        "ewelink-set-status",
+        "ewelink-status-device",
+        "ewelink-home"
+      ],
+      "keywords": [
+        "node-red",
+        "ewelink"
+      ],
+      "url": "https://flows.nodered.org/node/@floflal/node-red-ewelink-v2-oauth"
+    },
+    {
+      "id": "@technithusiast/node-red-contrib-ai-intent",
+      "version": "1.1.38",
+      "description": "A collection of nodes to elevate a user's automation interactions",
+      "updated_at": "2024-01-03T16:16:21.683Z",
+      "types": [
+        "Register Intent",
+        "Call Intent",
+        "OpenAI User",
+        "OpenAI System",
+        "OpenAI Chat",
+        "OpenAI Response",
+        "OpenAI Tool",
+        "openai-configuration"
+      ],
+      "keywords": [
+        "node-red"
+      ],
+      "url": "https://flows.nodered.org/node/@technithusiast/node-red-contrib-ai-intent"
+    },
+    {
+      "id": "node-red-contrib-postgrestor-next",
+      "version": "0.2.0",
+      "description": "Yet another Node-RED node to query PostgreSQL with query parameters",
+      "updated_at": "2024-01-03T15:07:20.774Z",
+      "types": [
+        "postgresDB",
+        "postgrestor",
+        "postgrestor-listener"
+      ],
+      "keywords": [
+        "node-red",
+        "postgresql",
+        "postgres"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-postgrestor-next"
+    },
+    {
+      "id": "@jambonz/node-red-contrib-jambonz",
+      "version": "2.4.23",
+      "description": "Node-RED nodes for jambonz platform",
+      "updated_at": "2024-01-03T14:59:24.864Z",
+      "types": [
+        "webhook in",
+        "webhook out",
+        "audio in",
+        "jambonz_auth",
+        "aws_auth",
+        "enqueue",
+        "lex",
+        "say",
+        "dtmf",
+        "cfg",
+        "conference",
+        "gather",
+        "listen",
+        "sip:decline",
+        "sip:request",
+        "sip:refer",
+        "hangup",
+        "message",
+        "tag",
+        "pause",
+        "dequeue",
+        "play",
+        "dial",
+        "redirect",
+        "dialogflow",
+        "leave",
+        "rasa",
+        "user auth",
+        "create-call",
+        "create-sms",
+        "lcc",
+        "get_alerts",
+        "get_call",
+        "get_calls",
+        "get_recent_calls"
+      ],
+      "keywords": [
+        "node-red"
+      ],
+      "url": "https://flows.nodered.org/node/@jambonz/node-red-contrib-jambonz"
+    },
     {
       "id": "@flowfuse/node-red-dashboard",
       "version": "0.11.2",
@@ -67,30 +413,6 @@
       "url": "https://flows.nodered.org/node/node-red-contrib-dyson-purelink"
     },
     {
-      "id": "@renyoo/node-red-dfrobot-lorawan-nodes",
-      "version": "1.0.7",
-      "description": "node red nodes for dfrobot-lorawan",
-      "updated_at": "2024-01-03T11:40:28.277Z",
-      "types": [
-        "Decoder",
-        "Packet Item",
-        "LW Receive",
-        "LW Send",
-        "Node List",
-        "Group",
-        "GW Events",
-        "MusicPlayer",
-        "Single Node"
-      ],
-      "keywords": [
-        "node-red",
-        "dfrobot",
-        "lorawan",
-        "renyoo"
-      ],
-      "url": "https://flows.nodered.org/node/@renyoo/node-red-dfrobot-lorawan-nodes"
-    },
-    {
       "id": "node-red-contrib-log-elk",
       "version": "1.2.8",
       "description": "A Node-RED logging node with multiple outputs using the winston and winston-elasticsearch logging libraries",
@@ -106,24 +428,6 @@
         "node-red"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-log-elk"
-    },
-    {
-      "id": "@floflal/node-red-ewelink-v2-oauth",
-      "version": "0.0.1",
-      "description": "Node-RED to manage ewelink",
-      "updated_at": "2024-01-03T10:55:32.058Z",
-      "types": [
-        "ewelink-auth",
-        "ewelink-list-devices",
-        "ewelink-set-status",
-        "ewelink-status-device",
-        "ewelink-home"
-      ],
-      "keywords": [
-        "node-red",
-        "ewelink"
-      ],
-      "url": "https://flows.nodered.org/node/@floflal/node-red-ewelink-v2-oauth"
     },
     {
       "id": "node-red-contrib-thinger",
@@ -202,22 +506,6 @@
       "url": "https://flows.nodered.org/node/node-red-contrib-smartnora"
     },
     {
-      "id": "node-red-dragino",
-      "version": "1.0.4",
-      "description": "Dragino visualization for Node-RED",
-      "updated_at": "2024-01-03T08:41:39.388Z",
-      "types": [
-        "dragino-decoder",
-        "dragino-sqlite",
-        "dragino-echarts"
-      ],
-      "keywords": [
-        "node-red",
-        "dragino"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-dragino"
-    },
-    {
       "id": "@gulpetl/vinyl-ftp",
       "version": "0.6.1",
       "description": "Vinyl adapter for FTP",
@@ -269,71 +557,6 @@
         "weekdays"
       ],
       "url": "https://flows.nodered.org/node/@tataille/node-red-french-holidays"
-    },
-    {
-      "id": "@blebtechnology/node-red-blebricks",
-      "version": "1.0.10",
-      "description": "A node-red package to manage blebricks data",
-      "updated_at": "2024-01-02T17:38:08.487Z",
-      "types": [
-        "CHT",
-        "ENV",
-        "OAQ",
-        "BLEB_TEMP",
-        "PTX",
-        "MAG",
-        "SOIL",
-        "LGH",
-        "UHF",
-        "PRT",
-        "REL",
-        "RELOUT",
-        "WPLOUT",
-        "VBROUT",
-        "BUZOUT",
-        "IRTOUT",
-        "ODCOUT",
-        "ODC",
-        "WPL",
-        "VBR",
-        "BUZ",
-        "IRT",
-        "PLV",
-        "WND",
-        "SOL",
-        "PYR",
-        "CMS",
-        "RHT",
-        "UVA",
-        "RGB",
-        "CLT",
-        "IMU",
-        "ACC",
-        "PDM",
-        "CAP",
-        "IRR",
-        "SMS",
-        "DSD",
-        "BLEB_IN",
-        "BLEB_RPS",
-        "SFX",
-        "ESP",
-        "UWS",
-        "RMS",
-        "VMS",
-        "GPS",
-        "BLEB_CNT",
-        "PMX",
-        "PROTECTOR",
-        "LCDOUT",
-        "SLS",
-        "PWMOUT",
-        "TPD"
-      ],
-      "keywords": [
-        "node-red"
-      ],
-      "url": "https://flows.nodered.org/node/@blebtechnology/node-red-blebricks"
     },
     {
       "id": "@thib3113/node-red-lovebox",
@@ -425,46 +648,6 @@
         "climate"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-vib-smart-valve"
-    },
-    {
-      "id": "node-red-contrib-uibuilder",
-      "version": "6.8.1",
-      "description": "Easily create data-driven web UI's for Node-RED using any (or no) front-end library.",
-      "updated_at": "2024-01-02T12:36:35.005Z",
-      "types": [],
-      "keywords": [
-        "node-red",
-        "ui",
-        "gui",
-        "dashboard",
-        "SPA",
-        "web",
-        "website",
-        "data-driven",
-        "webpage",
-        "web-app"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-uibuilder"
-    },
-    {
-      "id": "@technithusiast/node-red-contrib-ai-intent",
-      "version": "1.1.37",
-      "description": "A collection of nodes to elevate a user's automation interactions",
-      "updated_at": "2024-01-02T09:00:23.192Z",
-      "types": [
-        "Register Intent",
-        "Call Intent",
-        "OpenAI User",
-        "OpenAI System",
-        "OpenAI Chat",
-        "OpenAI Response",
-        "OpenAI Tool",
-        "openai-configuration"
-      ],
-      "keywords": [
-        "node-red"
-      ],
-      "url": "https://flows.nodered.org/node/@technithusiast/node-red-contrib-ai-intent"
     },
     {
       "id": "node-red-contrib-ngrok",
@@ -1140,42 +1323,6 @@
         "emulator"
       ],
       "url": "https://flows.nodered.org/node/node-red-node-tmeter-emulator"
-    },
-    {
-      "id": "node-red-contrib-knx-ultimate",
-      "version": "2.2.38",
-      "description": "Control your KNX intallation via Node-Red! A bunch of KNX nodes, with integrated Philips HUE control and ETS group address importer. Easy to use and highly configurable.",
-      "updated_at": "2023-12-24T17:03:17.044Z",
-      "types": [
-        "knxUltimate",
-        "knxUltimateSceneController",
-        "knxUltimateWatchDog",
-        "knxUltimateLogger",
-        "knxUltimate-config",
-        "knxUltimateGlobalContext",
-        "knxUltimateAlerter",
-        "knxUltimateLoadControl",
-        "knxUltimateViewer",
-        "hue-config",
-        "knxUltimateHueLight",
-        "knxUltimateHueButton",
-        "knxUltimateHueMotion",
-        "knxUltimateHueTapDial",
-        "knxUltimateHueLightSensor",
-        "knxUltimateHueTemperatureSensor",
-        "knxUltimateHueScene",
-        "knxUltimateHueBattery"
-      ],
-      "keywords": [
-        "node-red",
-        "KNX",
-        "ETS",
-        "eib",
-        "konnex",
-        "IOT",
-        "philips hue"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-knx-ultimate"
     },
     {
       "id": "@bartbutenaers/node-red-autolayout-sidebar",
@@ -2070,53 +2217,6 @@
       "url": "https://flows.nodered.org/node/node-red-contrib-relaycontrol"
     },
     {
-      "id": "@jambonz/node-red-contrib-jambonz",
-      "version": "2.4.22",
-      "description": "Node-RED nodes for jambonz platform",
-      "updated_at": "2023-12-13T13:15:35.600Z",
-      "types": [
-        "webhook in",
-        "webhook out",
-        "audio in",
-        "jambonz_auth",
-        "aws_auth",
-        "enqueue",
-        "lex",
-        "say",
-        "dtmf",
-        "cfg",
-        "conference",
-        "gather",
-        "listen",
-        "sip:decline",
-        "sip:request",
-        "sip:refer",
-        "hangup",
-        "message",
-        "tag",
-        "pause",
-        "dequeue",
-        "play",
-        "dial",
-        "redirect",
-        "dialogflow",
-        "leave",
-        "rasa",
-        "user auth",
-        "create-call",
-        "create-sms",
-        "lcc",
-        "get_alerts",
-        "get_call",
-        "get_calls",
-        "get_recent_calls"
-      ],
-      "keywords": [
-        "node-red"
-      ],
-      "url": "https://flows.nodered.org/node/@jambonz/node-red-contrib-jambonz"
-    },
-    {
       "id": "@victronenergy/node-red-contrib-victron",
       "version": "1.5.7",
       "description": "Custom Node-RED Nodes for Victron Energy",
@@ -2419,23 +2519,6 @@
         "node-red"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-tak-registration"
-    },
-    {
-      "id": "node-red-contrib-axis-host",
-      "version": "1.2.0",
-      "description": "Axis Devices resource binding nodes that provides access to events, image capture and analytics data.  Node-RED must be running on the Axis Device.",
-      "updated_at": "2023-12-08T14:02:27.975Z",
-      "types": [
-        "Events",
-        "Camera",
-        "Trigger",
-        "Objects"
-      ],
-      "keywords": [
-        "node-red",
-        "Axis"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-axis-host"
     },
     {
       "id": "node-red-contrib-tibber-api",
@@ -3339,31 +3422,6 @@
         "readaloud"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-edge-tts"
-    },
-    {
-      "id": "@inductiv/node-red-openai-api",
-      "version": "0.3.7",
-      "description": "Go beyond ChatGPT and DALL·E 3: this Node-RED node seamlessly integrates a range of OpenAI services, including Assistants, Threads, Vision, and Audio, enabling feature-rich enhancement of your AI workflows with any OpenAI REST API-compatible solution.",
-      "updated_at": "2023-11-27T22:52:21.380Z",
-      "types": [
-        "OpenAI API",
-        "Service Host"
-      ],
-      "keywords": [
-        "openai",
-        "api",
-        "automation",
-        "chatgpt",
-        "llm",
-        "slm",
-        "agent",
-        "automation",
-        "node-red",
-        "nodered",
-        "low-code",
-        "ai"
-      ],
-      "url": "https://flows.nodered.org/node/@inductiv/node-red-openai-api"
     },
     {
       "id": "@shri123321/node-red-contrib-shri-super-trend",
@@ -4836,27 +4894,6 @@
         "novelan"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-luxtronik2"
-    },
-    {
-      "id": "node-red-contrib-tasmota",
-      "version": "0.9.13",
-      "description": "Node-RED integration for Tasmota flashed devices",
-      "updated_at": "2023-11-04T09:56:43.731Z",
-      "types": [
-        "tasmota-mqtt-broker",
-        "Tasmota Switch",
-        "Tasmota Sensor",
-        "Tasmota Light",
-        "Tasmota Button",
-        "Tasmota Generic"
-      ],
-      "keywords": [
-        "node-red",
-        "tasmota",
-        "sonoff",
-        "home automation"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-tasmota"
     },
     {
       "id": "@lightcode/node-red-contrib-github-sdk",
@@ -40260,22 +40297,6 @@
         "air conditioning"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-daikin-ac"
-    },
-    {
-      "id": "node-red-contrib-postgrestor-next",
-      "version": "0.0.9-c",
-      "description": "Yet another Node-RED node to query PostgreSQL with query parameters",
-      "updated_at": "2021-05-15T20:39:55.311Z",
-      "types": [
-        "postgresDB",
-        "postgrestor"
-      ],
-      "keywords": [
-        "node-red",
-        "postgresql",
-        "postgres"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-postgrestor-next"
     },
     {
       "id": "node-red-contrib-socketio-server",
