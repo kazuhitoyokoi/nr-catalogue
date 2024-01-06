@@ -1,32 +1,29 @@
 {
   "name": "Catalogue for Docker",
-  "updated_at": "2024-01-05T15:58:16.467Z",
+  "updated_at": "2024-01-06T15:57:26.865Z",
   "modules": [
     {
-      "id": "@coremarine/nr-nmea-parser",
+      "id": "@iorsan/node-red-contrib-firebase-cloud-messaging",
       "version": "1.0.1",
-      "description": "Node-Red component to read NMEA 0183 sentences",
-      "updated_at": "2024-01-05T11:49:35.879Z",
+      "description": "Custom node to send push notifications to firebase",
+      "updated_at": "2024-01-06T11:35:37.084Z",
       "types": [
-        "nmea-parser"
+        "FCM Send",
+        "FCM Config"
       ],
       "keywords": [
+        "admin",
+        "firebase",
         "node-red",
-        "nmea",
-        "nmea0183",
-        "0183",
-        "gnss",
-        "gps",
-        "parser",
-        "protocol"
+        "custom-node"
       ],
-      "url": "https://flows.nodered.org/node/@coremarine/nr-nmea-parser"
+      "url": "https://flows.nodered.org/node/@iorsan/node-red-contrib-firebase-cloud-messaging"
     },
     {
       "id": "node-red-contrib-knx-ultimate",
-      "version": "2.3.2",
+      "version": "2.3.4",
       "description": "Control your KNX intallation via Node-Red! A bunch of KNX nodes, with integrated Philips HUE control and ETS group address importer. Easy to use and highly configurable.",
-      "updated_at": "2024-01-05T09:40:07.039Z",
+      "updated_at": "2024-01-06T09:17:42.428Z",
       "types": [
         "knxUltimate",
         "knxUltimateSceneController",
@@ -57,6 +54,131 @@
         "philips hue"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-knx-ultimate"
+    },
+    {
+      "id": "@technithusiast/node-red-contrib-ai-intent",
+      "version": "1.1.41",
+      "description": "A collection of nodes to elevate a user's automation interactions",
+      "updated_at": "2024-01-06T09:13:51.280Z",
+      "types": [
+        "Register Intent",
+        "Call Intent",
+        "OpenAI User",
+        "OpenAI System",
+        "OpenAI Chat",
+        "OpenAI Response",
+        "OpenAI Tool",
+        "openai-configuration"
+      ],
+      "keywords": [
+        "node-red"
+      ],
+      "url": "https://flows.nodered.org/node/@technithusiast/node-red-contrib-ai-intent"
+    },
+    {
+      "id": "node-red-contrib-homekit-rgb",
+      "version": "2.0.1",
+      "description": "Node-RED node to convert HomeKit light Accessory's HSB values to RGB",
+      "updated_at": "2024-01-06T00:55:38.920Z",
+      "types": [
+        "homekit-rgb"
+      ],
+      "keywords": [
+        "rgb",
+        "homekit",
+        "hsv",
+        "hsb",
+        "kelvin",
+        "xy",
+        "node-red"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-homekit-rgb"
+    },
+    {
+      "id": "node-red-contrib-virtual-smart-home",
+      "version": "4.0.0",
+      "description": "A Node-RED node that represents a 'virtual device' which can be controlled via Alexa. Requires the virtual smart home skill to be enabled for your Amazon account.",
+      "updated_at": "2024-01-05T16:47:48.528Z",
+      "types": [
+        "vsh-connection",
+        "vsh-virtual-device"
+      ],
+      "keywords": [
+        "Alexa",
+        "Echo",
+        "smart-home",
+        "node-red",
+        "virtual smart home",
+        "virtual device",
+        "vsh"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-virtual-smart-home"
+    },
+    {
+      "id": "@flowfuse/node-red-dashboard",
+      "version": "0.11.3",
+      "description": "A collection of Node-RED nodes that provide functionality to build your own UI applications (inc. forms, buttons, charts) within Node-RED.",
+      "updated_at": "2024-01-05T14:57:12.104Z",
+      "types": [
+        "ui-base",
+        "ui-page",
+        "ui-group",
+        "ui-theme",
+        "ui-form",
+        "__errors__",
+        "ui-text-input",
+        "__errors__",
+        "ui-button",
+        "__errors__",
+        "ui-dropdown",
+        "__errors__",
+        "ui-radio-group",
+        "__errors__",
+        "ui-slider",
+        "__errors__",
+        "ui-switch",
+        "__errors__",
+        "ui-text",
+        "__errors__",
+        "ui-table",
+        "__errors__",
+        "ui-chart",
+        "__errors__",
+        "ui-notification",
+        "__errors__",
+        "ui-markdown",
+        "__errors__",
+        "ui-template",
+        "__errors__",
+        "ui-event",
+        "__errors__",
+        "ui-control",
+        "__errors__"
+      ],
+      "keywords": [
+        "node-red"
+      ],
+      "url": "https://flows.nodered.org/node/@flowfuse/node-red-dashboard"
+    },
+    {
+      "id": "@coremarine/nr-nmea-parser",
+      "version": "1.0.1",
+      "description": "Node-Red component to read NMEA 0183 sentences",
+      "updated_at": "2024-01-05T11:49:35.879Z",
+      "types": [
+        "nmea-parser"
+      ],
+      "keywords": [
+        "node-red",
+        "nmea",
+        "nmea0183",
+        "0183",
+        "gnss",
+        "gps",
+        "parser",
+        "protocol"
+      ],
+      "url": "https://flows.nodered.org/node/@coremarine/nr-nmea-parser"
     },
     {
       "id": "@daisugiura/node-red-contrib-example-lower-case",
@@ -154,26 +276,6 @@
         "lower-case"
       ],
       "url": "https://flows.nodered.org/node/@jj1fvg/node-red-contrib-example-lower-case"
-    },
-    {
-      "id": "@technithusiast/node-red-contrib-ai-intent",
-      "version": "1.1.39",
-      "description": "A collection of nodes to elevate a user's automation interactions",
-      "updated_at": "2024-01-04T17:08:41.943Z",
-      "types": [
-        "Register Intent",
-        "Call Intent",
-        "OpenAI User",
-        "OpenAI System",
-        "OpenAI Chat",
-        "OpenAI Response",
-        "OpenAI Tool",
-        "openai-configuration"
-      ],
-      "keywords": [
-        "node-red"
-      ],
-      "url": "https://flows.nodered.org/node/@technithusiast/node-red-contrib-ai-intent"
     },
     {
       "id": "node-red-contrib-simple-energymeter",
@@ -472,52 +574,6 @@
         "node-red"
       ],
       "url": "https://flows.nodered.org/node/@jambonz/node-red-contrib-jambonz"
-    },
-    {
-      "id": "@flowfuse/node-red-dashboard",
-      "version": "0.11.2",
-      "description": "A collection of Node-RED nodes that provide functionality to build your own UI applications (inc. forms, buttons, charts) within Node-RED.",
-      "updated_at": "2024-01-03T14:20:11.494Z",
-      "types": [
-        "ui-base",
-        "ui-page",
-        "ui-group",
-        "ui-theme",
-        "ui-form",
-        "__errors__",
-        "ui-text-input",
-        "__errors__",
-        "ui-button",
-        "__errors__",
-        "ui-dropdown",
-        "__errors__",
-        "ui-radio-group",
-        "__errors__",
-        "ui-slider",
-        "__errors__",
-        "ui-switch",
-        "__errors__",
-        "ui-text",
-        "__errors__",
-        "ui-table",
-        "__errors__",
-        "ui-chart",
-        "__errors__",
-        "ui-notification",
-        "__errors__",
-        "ui-markdown",
-        "__errors__",
-        "ui-template",
-        "__errors__",
-        "ui-event",
-        "__errors__",
-        "ui-control",
-        "__errors__"
-      ],
-      "keywords": [
-        "node-red"
-      ],
-      "url": "https://flows.nodered.org/node/@flowfuse/node-red-dashboard"
     },
     {
       "id": "node-red-contrib-dyson-purelink",
@@ -7275,26 +7331,6 @@
       "url": "https://flows.nodered.org/node/node-red-contrib-polywall-api"
     },
     {
-      "id": "node-red-contrib-virtual-smart-home",
-      "version": "3.0.12",
-      "description": "A Node-RED node that represents a 'virtual device' which can be controlled via Alexa. Requires the virtual smart home skill to be enabled for your Amazon account.",
-      "updated_at": "2023-10-03T15:15:22.707Z",
-      "types": [
-        "vsh-connection",
-        "vsh-virtual-device"
-      ],
-      "keywords": [
-        "Alexa",
-        "Echo",
-        "smart-home",
-        "node-red",
-        "virtual smart home",
-        "virtual device",
-        "vsh"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-virtual-smart-home"
-    },
-    {
       "id": "red-contrib-dx-viewer-2",
       "version": "1.0.1",
       "description": "A table viewer node which can preview the data in a tabular fasion.",
@@ -10352,25 +10388,6 @@
         "database"
       ],
       "url": "https://flows.nodered.org/node/@helix_italia/node-red-helix-odbc"
-    },
-    {
-      "id": "node-red-contrib-homekit-rgb",
-      "version": "2.0.0",
-      "description": "Node-RED node to convert HomeKit light Accessory's HSB values to RGB",
-      "updated_at": "2023-08-24T06:14:38.690Z",
-      "types": [
-        "homekit-rgb"
-      ],
-      "keywords": [
-        "rgb",
-        "homekit",
-        "hsv",
-        "hsb",
-        "kelvin",
-        "xy",
-        "node-red"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-homekit-rgb"
     },
     {
       "id": "node-red-contrib-life360",
