@@ -1,29 +1,178 @@
 {
   "name": "Catalogue for Docker",
-  "updated_at": "2024-01-06T15:57:26.865Z",
+  "updated_at": "2024-01-07T15:59:15.871Z",
   "modules": [
     {
-      "id": "@iorsan/node-red-contrib-firebase-cloud-messaging",
-      "version": "1.0.1",
-      "description": "Custom node to send push notifications to firebase",
-      "updated_at": "2024-01-06T11:35:37.084Z",
+      "id": "@jens_rossbach/node-red-sony-audio",
+      "version": "2.0.5",
+      "description": "Node-RED nodes for querying and controlling Sony audio devices",
+      "updated_at": "2024-01-07T12:59:51.500Z",
       "types": [
-        "FCM Send",
-        "FCM Config"
+        "sonyaudio-device",
+        "sonyaudio-control",
+        "sonyaudio-notify"
       ],
       "keywords": [
-        "admin",
-        "firebase",
         "node-red",
-        "custom-node"
+        "sony",
+        "audio",
+        "audio control api",
+        "remote control",
+        "home automation"
       ],
-      "url": "https://flows.nodered.org/node/@iorsan/node-red-contrib-firebase-cloud-messaging"
+      "url": "https://flows.nodered.org/node/@jens_rossbach/node-red-sony-audio"
+    },
+    {
+      "id": "@corebos/node-red-corebos",
+      "version": "1.1.0",
+      "description": "This node can be used in order to interact with the coreBOS web service API.",
+      "updated_at": "2024-01-07T11:34:40.663Z",
+      "types": [
+        "corebos-config",
+        "corebos-login",
+        "corebos-logout",
+        "corebos-query",
+        "corebos-describe",
+        "corebos-listtypes",
+        "corebos-retrieve",
+        "corebos-delete",
+        "corebos-create",
+        "corebos-update",
+        "corebos-invoke"
+      ],
+      "keywords": [
+        "corebos",
+        "node-red",
+        "webservice"
+      ],
+      "url": "https://flows.nodered.org/node/@corebos/node-red-corebos"
+    },
+    {
+      "id": "@gregoriusrippenstein/node-red-contrib-nodedev",
+      "version": "0.2.5",
+      "description": "Support the development of Node-RED nodes within Node-RED.",
+      "updated_at": "2024-01-07T10:23:00.778Z",
+      "types": [
+        "NodeDevOps",
+        "NodeFactory",
+        "PkgFile",
+        "NpmTarBall",
+        "NodeRedInstall",
+        "NpmPublish",
+        "NodeFactorySidebarCfg"
+      ],
+      "keywords": [
+        "node-red",
+        "node development",
+        "introspection",
+        "bootstrapping",
+        "recursion"
+      ],
+      "url": "https://flows.nodered.org/node/@gregoriusrippenstein/node-red-contrib-nodedev"
+    },
+    {
+      "id": "@gregoriusrippenstein/node-red-contrib-flowhub",
+      "version": "0.4.5",
+      "description": "Nodes for interacting with FlowHub.org.",
+      "updated_at": "2024-01-07T09:57:09.316Z",
+      "types": [
+        "FlowHubPull",
+        "FlowHubCfg"
+      ],
+      "keywords": [
+        "node-red",
+        "flowhub",
+        "flow-sharing",
+        "collaborative",
+        "flow-development"
+      ],
+      "url": "https://flows.nodered.org/node/@gregoriusrippenstein/node-red-contrib-flowhub"
+    },
+    {
+      "id": "@gregoriusrippenstein/node-red-contrib-introspection",
+      "version": "0.5.6",
+      "description": "Node-RED Editor-only nodes for introspecting with flows in the frontend.",
+      "updated_at": "2024-01-07T09:50:40.257Z",
+      "types": [
+        "Seeker",
+        "Sink",
+        "GetFlows",
+        "SendFlow",
+        "ClientCode"
+      ],
+      "keywords": [
+        "node-red",
+        "introspection",
+        "selfreflection",
+        "node-red-editor",
+        "screenshot"
+      ],
+      "url": "https://flows.nodered.org/node/@gregoriusrippenstein/node-red-contrib-introspection"
+    },
+    {
+      "id": "node-red-contrib-alice-self-hosting",
+      "version": "0.1.3",
+      "description": "Node-RED nodes to Yandex Alice devices in Self-Hosting",
+      "updated_at": "2024-01-06T22:24:41.526Z",
+      "types": [
+        "alice-sh-service",
+        "alice-sh-device",
+        "alice-sh-onoff",
+        "alice-sh-toggle",
+        "alice-sh-range",
+        "alice-sh-color",
+        "alice-sh-mode",
+        "alice-sh-sensor",
+        "alice-sh-event",
+        "alice-sh-video"
+      ],
+      "keywords": [
+        "node-red",
+        "yandex",
+        "alice",
+        "iot",
+        "self",
+        "hosting"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-alice-self-hosting"
+    },
+    {
+      "id": "@thingwala/node-red-contrib-geyserwala-connect",
+      "version": "0.0.6",
+      "description": "Node-RED nodes for the Geyserwala Connect",
+      "updated_at": "2024-01-06T21:13:11.204Z",
+      "types": [
+        "geyserwala-connect-api"
+      ],
+      "keywords": [
+        "node-red",
+        "thingwala",
+        "geyserwala"
+      ],
+      "url": "https://flows.nodered.org/node/@thingwala/node-red-contrib-geyserwala-connect"
+    },
+    {
+      "id": "node-red-contrib-alexa-master-function",
+      "version": "2406.1.1639",
+      "description": "Beta version: password and logs",
+      "updated_at": "2024-01-06T19:36:03.010Z",
+      "types": [
+        "alexa-master-function"
+      ],
+      "keywords": [
+        "axios",
+        "node-red",
+        "mysql",
+        "database",
+        "r2"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-alexa-master-function"
     },
     {
       "id": "node-red-contrib-knx-ultimate",
-      "version": "2.3.4",
+      "version": "2.3.5",
       "description": "Control your KNX intallation via Node-Red! A bunch of KNX nodes, with integrated Philips HUE control and ETS group address importer. Easy to use and highly configurable.",
-      "updated_at": "2024-01-06T09:17:42.428Z",
+      "updated_at": "2024-01-06T18:56:59.070Z",
       "types": [
         "knxUltimate",
         "knxUltimateSceneController",
@@ -54,6 +203,23 @@
         "philips hue"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-knx-ultimate"
+    },
+    {
+      "id": "@iorsan/node-red-contrib-firebase-cloud-messaging",
+      "version": "1.0.1",
+      "description": "Custom node to send push notifications to firebase",
+      "updated_at": "2024-01-06T11:35:37.084Z",
+      "types": [
+        "FCM Send",
+        "FCM Config"
+      ],
+      "keywords": [
+        "admin",
+        "firebase",
+        "node-red",
+        "custom-node"
+      ],
+      "url": "https://flows.nodered.org/node/@iorsan/node-red-contrib-firebase-cloud-messaging"
     },
     {
       "id": "@technithusiast/node-red-contrib-ai-intent",
@@ -759,23 +925,6 @@
       "url": "https://flows.nodered.org/node/@thib3113/node-red-lovebox"
     },
     {
-      "id": "node-red-contrib-alexa-master-function",
-      "version": "2402.1.1143",
-      "description": "Beta version: password and logs",
-      "updated_at": "2024-01-02T14:43:48.846Z",
-      "types": [
-        "alexa-master-function"
-      ],
-      "keywords": [
-        "axios",
-        "node-red",
-        "mysql",
-        "database",
-        "r2"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-alexa-master-function"
-    },
-    {
       "id": "node-red-contrib-vib-smart-scheduler",
       "version": "0.1.55",
       "description": "Node Red Smart Scheduler MQTT Home Assistant ",
@@ -954,33 +1103,6 @@
         "thingzi"
       ],
       "url": "https://flows.nodered.org/node/thingzi-logic-climate"
-    },
-    {
-      "id": "node-red-contrib-alice-self-hosting",
-      "version": "0.1.2",
-      "description": "Node-RED nodes to Yandex Alice devices in Self-Hosting",
-      "updated_at": "2024-01-01T06:24:52.630Z",
-      "types": [
-        "alice-sh-service",
-        "alice-sh-device",
-        "alice-sh-onoff",
-        "alice-sh-toggle",
-        "alice-sh-range",
-        "alice-sh-color",
-        "alice-sh-mode",
-        "alice-sh-sensor",
-        "alice-sh-event",
-        "alice-sh-video"
-      ],
-      "keywords": [
-        "node-red",
-        "yandex",
-        "alice",
-        "iot",
-        "self",
-        "hosting"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-alice-self-hosting"
     },
     {
       "id": "@caitken-com/node-red-contrib-daikin-api",
@@ -1366,21 +1488,6 @@
         "ai"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-pinecone"
-    },
-    {
-      "id": "@thingwala/node-red-contrib-geyserwala-connect",
-      "version": "0.0.5",
-      "description": "Node-RED nodes for the Geyserwala Connect",
-      "updated_at": "2023-12-26T10:27:33.107Z",
-      "types": [
-        "geyserwala-connect-api"
-      ],
-      "keywords": [
-        "node-red",
-        "thingwala",
-        "geyserwala"
-      ],
-      "url": "https://flows.nodered.org/node/@thingwala/node-red-contrib-geyserwala-connect"
     },
     {
       "id": "@headless-architecture/node-red-contrib-slack-bolt",
@@ -1858,24 +1965,6 @@
         "edgepi-pwm"
       ],
       "url": "https://flows.nodered.org/node/@edgepi-cloud/node-red-edgepi-pwm"
-    },
-    {
-      "id": "@gregoriusrippenstein/node-red-contrib-flowhub",
-      "version": "0.4.4",
-      "description": "Nodes for interacting with FlowHub.org.",
-      "updated_at": "2023-12-19T19:11:32.143Z",
-      "types": [
-        "FlowHubPull",
-        "FlowHubCfg"
-      ],
-      "keywords": [
-        "node-red",
-        "flowhub",
-        "flow-sharing",
-        "collaborative",
-        "flow-development"
-      ],
-      "url": "https://flows.nodered.org/node/@gregoriusrippenstein/node-red-contrib-flowhub"
     },
     {
       "id": "node-red-contrib-doorbird-ultimate",
@@ -2395,27 +2484,6 @@
       "url": "https://flows.nodered.org/node/node-red-contrib-ssh-v3"
     },
     {
-      "id": "@gregoriusrippenstein/node-red-contrib-introspection",
-      "version": "0.5.5",
-      "description": "Node-RED Editor-only nodes for introspecting with flows in the frontend.",
-      "updated_at": "2023-12-13T10:44:27.296Z",
-      "types": [
-        "Seeker",
-        "Sink",
-        "GetFlows",
-        "SendFlow",
-        "ClientCode"
-      ],
-      "keywords": [
-        "node-red",
-        "introspection",
-        "selfreflection",
-        "node-red-editor",
-        "screenshot"
-      ],
-      "url": "https://flows.nodered.org/node/@gregoriusrippenstein/node-red-contrib-introspection"
-    },
-    {
       "id": "cloud4machine-cloud-nodered",
       "version": "0.2.57",
       "description": "A collection of node red nodes to define custom cloud⁴machine flows",
@@ -2628,29 +2696,6 @@
         "archive"
       ],
       "url": "https://flows.nodered.org/node/@gregoriusrippenstein/node-red-contrib-tarball"
-    },
-    {
-      "id": "@gregoriusrippenstein/node-red-contrib-nodedev",
-      "version": "0.2.4",
-      "description": "Support the development of Node-RED nodes within Node-RED.",
-      "updated_at": "2023-12-08T17:55:52.046Z",
-      "types": [
-        "NodeDevOps",
-        "NodeFactory",
-        "PkgFile",
-        "NpmTarBall",
-        "NodeRedInstall",
-        "NpmPublish",
-        "NodeFactorySidebarCfg"
-      ],
-      "keywords": [
-        "node-red",
-        "node development",
-        "introspection",
-        "bootstrapping",
-        "recursion"
-      ],
-      "url": "https://flows.nodered.org/node/@gregoriusrippenstein/node-red-contrib-nodedev"
     },
     {
       "id": "node-red-contrib-tak-registration",
@@ -12996,26 +13041,6 @@
         "automation"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-simple-spc"
-    },
-    {
-      "id": "@jens_rossbach/node-red-sony-audio",
-      "version": "2.0.4",
-      "description": "Node-RED nodes for querying and controlling Sony audio devices",
-      "updated_at": "2023-06-15T18:10:38.247Z",
-      "types": [
-        "sonyaudio-device",
-        "sonyaudio-control",
-        "sonyaudio-notify"
-      ],
-      "keywords": [
-        "node-red",
-        "sony",
-        "audio",
-        "audio control api",
-        "remote control",
-        "home automation"
-      ],
-      "url": "https://flows.nodered.org/node/@jens_rossbach/node-red-sony-audio"
     },
     {
       "id": "node-red-contrib-sony-audio",
