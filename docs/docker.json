@@ -1,7 +1,150 @@
 {
   "name": "Catalogue for Docker",
-  "updated_at": "2024-01-07T15:59:15.871Z",
+  "updated_at": "2024-01-08T15:58:20.873Z",
   "modules": [
+    {
+      "id": "@iorsan/node-red-contrib-firebase-cloud-messaging",
+      "version": "1.0.4",
+      "description": "Custom node to send push notifications to firebase",
+      "updated_at": "2024-01-08T10:53:27.087Z",
+      "types": [
+        "FCM Send",
+        "FCM Config"
+      ],
+      "keywords": [
+        "admin",
+        "firebase",
+        "node-red",
+        "custom-node"
+      ],
+      "url": "https://flows.nodered.org/node/@iorsan/node-red-contrib-firebase-cloud-messaging"
+    },
+    {
+      "id": "node-red-contrib-flightradar24",
+      "version": "0.2.0",
+      "description": "Node-RED node to fetch aircraft data from Flightradar24",
+      "updated_at": "2024-01-08T10:09:04.741Z",
+      "types": [
+        "flightradar24"
+      ],
+      "keywords": [
+        "node-red",
+        "flight",
+        "flightradar24"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-flightradar24"
+    },
+    {
+      "id": "@coremarine/nr-nmea-parser",
+      "version": "1.0.4",
+      "description": "Node-Red component to read NMEA 0183 sentences",
+      "updated_at": "2024-01-08T07:32:38.145Z",
+      "types": [
+        "nmea-parser"
+      ],
+      "keywords": [
+        "node-red",
+        "nmea",
+        "nmea0183",
+        "0183",
+        "gnss",
+        "gps",
+        "parser",
+        "protocol"
+      ],
+      "url": "https://flows.nodered.org/node/@coremarine/nr-nmea-parser"
+    },
+    {
+      "id": "@blebtechnology/node-red-blebricks",
+      "version": "1.0.13",
+      "description": "A node-red package to manage blebricks data",
+      "updated_at": "2024-01-07T21:08:13.331Z",
+      "types": [
+        "CHT",
+        "ENV",
+        "OAQ",
+        "BLEB_TEMP",
+        "PTX",
+        "MAG",
+        "SOIL",
+        "LGH",
+        "UHF",
+        "PRT",
+        "REL",
+        "RELOUT",
+        "WPLOUT",
+        "VBROUT",
+        "BUZOUT",
+        "IRTOUT",
+        "ODCOUT",
+        "ODC",
+        "WPL",
+        "VBR",
+        "BUZ",
+        "IRT",
+        "PLV",
+        "WND",
+        "SOL",
+        "PYR",
+        "CMS",
+        "RHT",
+        "UVA",
+        "RGB",
+        "CLT",
+        "IMU",
+        "ACC",
+        "PDM",
+        "CAP",
+        "IRR",
+        "SMS",
+        "DSD",
+        "BLEB_IN",
+        "BLEB_RPS",
+        "SFX",
+        "ESP",
+        "UWS",
+        "RMS",
+        "VMS",
+        "GPS",
+        "BLEB_CNT",
+        "PMX",
+        "PROTECTOR",
+        "LCDOUT",
+        "SLS",
+        "PWMOUT",
+        "TPD"
+      ],
+      "keywords": [
+        "node-red"
+      ],
+      "url": "https://flows.nodered.org/node/@blebtechnology/node-red-blebricks"
+    },
+    {
+      "id": "@mschaeffler/node-red-logic",
+      "version": "1.4.3",
+      "description": "nodes for simple operations.",
+      "updated_at": "2024-01-07T19:37:47.056Z",
+      "types": [
+        "counter",
+        "tobool",
+        "not",
+        "or",
+        "and",
+        "tonumber",
+        "negate",
+        "reduce",
+        "__errors__",
+        "fallingEdge",
+        "raisingEdge",
+        "hysteresisEdge",
+        "statistics",
+        "mean"
+      ],
+      "keywords": [
+        "node-red"
+      ],
+      "url": "https://flows.nodered.org/node/@mschaeffler/node-red-logic"
+    },
     {
       "id": "@jens_rossbach/node-red-sony-audio",
       "version": "2.0.5",
@@ -205,23 +348,6 @@
       "url": "https://flows.nodered.org/node/node-red-contrib-knx-ultimate"
     },
     {
-      "id": "@iorsan/node-red-contrib-firebase-cloud-messaging",
-      "version": "1.0.1",
-      "description": "Custom node to send push notifications to firebase",
-      "updated_at": "2024-01-06T11:35:37.084Z",
-      "types": [
-        "FCM Send",
-        "FCM Config"
-      ],
-      "keywords": [
-        "admin",
-        "firebase",
-        "node-red",
-        "custom-node"
-      ],
-      "url": "https://flows.nodered.org/node/@iorsan/node-red-contrib-firebase-cloud-messaging"
-    },
-    {
       "id": "@technithusiast/node-red-contrib-ai-intent",
       "version": "1.1.41",
       "description": "A collection of nodes to elevate a user's automation interactions",
@@ -325,26 +451,6 @@
         "node-red"
       ],
       "url": "https://flows.nodered.org/node/@flowfuse/node-red-dashboard"
-    },
-    {
-      "id": "@coremarine/nr-nmea-parser",
-      "version": "1.0.1",
-      "description": "Node-Red component to read NMEA 0183 sentences",
-      "updated_at": "2024-01-05T11:49:35.879Z",
-      "types": [
-        "nmea-parser"
-      ],
-      "keywords": [
-        "node-red",
-        "nmea",
-        "nmea0183",
-        "0183",
-        "gnss",
-        "gps",
-        "parser",
-        "protocol"
-      ],
-      "url": "https://flows.nodered.org/node/@coremarine/nr-nmea-parser"
     },
     {
       "id": "@daisugiura/node-red-contrib-example-lower-case",
@@ -474,71 +580,6 @@
         "oracledb"
       ],
       "url": "https://flows.nodered.org/node/@nitisakc/node-red-oracledb"
-    },
-    {
-      "id": "@blebtechnology/node-red-blebricks",
-      "version": "1.0.12",
-      "description": "A node-red package to manage blebricks data",
-      "updated_at": "2024-01-04T12:04:06.605Z",
-      "types": [
-        "CHT",
-        "ENV",
-        "OAQ",
-        "BLEB_TEMP",
-        "PTX",
-        "MAG",
-        "SOIL",
-        "LGH",
-        "UHF",
-        "PRT",
-        "REL",
-        "RELOUT",
-        "WPLOUT",
-        "VBROUT",
-        "BUZOUT",
-        "IRTOUT",
-        "ODCOUT",
-        "ODC",
-        "WPL",
-        "VBR",
-        "BUZ",
-        "IRT",
-        "PLV",
-        "WND",
-        "SOL",
-        "PYR",
-        "CMS",
-        "RHT",
-        "UVA",
-        "RGB",
-        "CLT",
-        "IMU",
-        "ACC",
-        "PDM",
-        "CAP",
-        "IRR",
-        "SMS",
-        "DSD",
-        "BLEB_IN",
-        "BLEB_RPS",
-        "SFX",
-        "ESP",
-        "UWS",
-        "RMS",
-        "VMS",
-        "GPS",
-        "BLEB_CNT",
-        "PMX",
-        "PROTECTOR",
-        "LCDOUT",
-        "SLS",
-        "PWMOUT",
-        "TPD"
-      ],
-      "keywords": [
-        "node-red"
-      ],
-      "url": "https://flows.nodered.org/node/@blebtechnology/node-red-blebricks"
     },
     {
       "id": "node-red-contrib-uibuilder",
@@ -2630,6 +2671,22 @@
       "url": "https://flows.nodered.org/node/node-red-contrib-nupmes"
     },
     {
+      "id": "node-red-contrib-sendmail",
+      "version": "1.0.10",
+      "description": "send emails with help of a local senmdmail command.",
+      "updated_at": "2023-12-11T08:49:57.227Z",
+      "types": [
+        "sendmail"
+      ],
+      "keywords": [
+        "node-red",
+        "email",
+        "sendmail",
+        "nullmailer"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-sendmail"
+    },
+    {
       "id": "node-red-contrib-line-messaging-api",
       "version": "0.2.0",
       "description": "Node-REDでLINE Botが作れます。",
@@ -3615,6 +3672,26 @@
         "readaloud"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-edge-tts"
+    },
+    {
+      "id": "@mschaeffler/node-red-lora",
+      "version": "3.2.0",
+      "description": "Five nodes to send and receive LoRaWan messages via a gateway via the Semtech UDP protocol.",
+      "updated_at": "2023-11-27T11:31:21.169Z",
+      "types": [
+        "lorawan-server",
+        "lorawan-keys",
+        "lorawan-packet-decoder",
+        "lorawan-packet-encoder",
+        "lorawan-packet-checkFC",
+        "lorawan-queue-message"
+      ],
+      "keywords": [
+        "node-red",
+        "lora",
+        "LoRaWan"
+      ],
+      "url": "https://flows.nodered.org/node/@mschaeffler/node-red-lora"
     },
     {
       "id": "@shri123321/node-red-contrib-shri-super-trend",
@@ -10031,6 +10108,49 @@
       "url": "https://flows.nodered.org/node/@racksync/node-red-contrib-low-pass-filter"
     },
     {
+      "id": "@mschaeffler/node-red-asterisk-ami-manager",
+      "version": "1.1.4",
+      "description": "Transfer Asterisk AMI events to json object string representation",
+      "updated_at": "2023-09-02T15:56:35.044Z",
+      "types": [
+        "Asterisk-AMI"
+      ],
+      "keywords": [
+        "node-red",
+        "asterisk"
+      ],
+      "url": "https://flows.nodered.org/node/@mschaeffler/node-red-asterisk-ami-manager"
+    },
+    {
+      "id": "@mschaeffler/node-red-hourmeter",
+      "version": "0.2.5",
+      "description": "A working hour meter for NodeRed.",
+      "updated_at": "2023-09-02T11:54:28.839Z",
+      "types": [
+        "hourmeter"
+      ],
+      "keywords": [
+        "node-red"
+      ],
+      "url": "https://flows.nodered.org/node/@mschaeffler/node-red-hourmeter"
+    },
+    {
+      "id": "@mschaeffler/node-red-dualled",
+      "version": "1.3.1",
+      "description": "control dual (CCT) LEDs.",
+      "updated_at": "2023-09-02T11:53:58.280Z",
+      "types": [
+        "confDualLed",
+        "ctrlDualLed",
+        "feedbackDualLed"
+      ],
+      "keywords": [
+        "node-red",
+        "LED"
+      ],
+      "url": "https://flows.nodered.org/node/@mschaeffler/node-red-dualled"
+    },
+    {
       "id": "node-red-contrib-ui-svg",
       "version": "2.3.3",
       "description": "A Node-RED widget node to show interactive SVG (vector graphics) in the dashboard",
@@ -10380,26 +10500,6 @@
         "mdash"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-custom-mdash-ws"
-    },
-    {
-      "id": "@mschaeffler/node-red-lora",
-      "version": "3.1.0",
-      "description": "Five nodes to send and receive LoRaWan messages via a gateway via the Semtech UDP protocol.",
-      "updated_at": "2023-08-26T13:57:22.593Z",
-      "types": [
-        "lorawan-server",
-        "lorawan-keys",
-        "lorawan-packet-decoder",
-        "lorawan-packet-encoder",
-        "lorawan-packet-checkFC",
-        "lorawan-queue-message"
-      ],
-      "keywords": [
-        "node-red",
-        "lora",
-        "LoRaWan"
-      ],
-      "url": "https://flows.nodered.org/node/@mschaeffler/node-red-lora"
     },
     {
       "id": "@tq-bit/node-red-contrib-trace-messages",
@@ -11821,31 +11921,6 @@
         "thingsboard"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-mobius-flow-thingsboard"
-    },
-    {
-      "id": "@mschaeffler/node-red-logic",
-      "version": "1.0.2",
-      "description": "nodes for simple operations.",
-      "updated_at": "2023-07-18T06:35:42.298Z",
-      "types": [
-        "counter",
-        "tobool",
-        "not",
-        "or",
-        "and",
-        "tonumber",
-        "negate",
-        "reduce",
-        "__errors__",
-        "fallingEdge",
-        "raisingEdge",
-        "hysteresisEdge",
-        "statistics"
-      ],
-      "keywords": [
-        "node-red"
-      ],
-      "url": "https://flows.nodered.org/node/@mschaeffler/node-red-logic"
     },
     {
       "id": "node-red-contrib-tf-model",
@@ -16880,22 +16955,6 @@
       "url": "https://flows.nodered.org/node/node-red-contrib-homebridge-automation"
     },
     {
-      "id": "@mschaeffler/node-red-dualled",
-      "version": "1.2.0",
-      "description": "control dual (CCT) LEDs.",
-      "updated_at": "2023-03-19T15:02:05.193Z",
-      "types": [
-        "confDualLed",
-        "ctrlDualLed",
-        "feedbackDualLed"
-      ],
-      "keywords": [
-        "node-red",
-        "LED"
-      ],
-      "url": "https://flows.nodered.org/node/@mschaeffler/node-red-dualled"
-    },
-    {
       "id": "node-red-contrib-hal2",
       "version": "1.15.2",
       "description": "A set of nodes to help with basic home automation logic",
@@ -21857,19 +21916,6 @@
       "url": "https://flows.nodered.org/node/node-red-contrib-axis-acap"
     },
     {
-      "id": "@mschaeffler/node-red-hourmeter",
-      "version": "0.2.4",
-      "description": "A working hour meter for NodeRed.",
-      "updated_at": "2022-11-12T11:19:17.012Z",
-      "types": [
-        "hourmeter"
-      ],
-      "keywords": [
-        "node-red"
-      ],
-      "url": "https://flows.nodered.org/node/@mschaeffler/node-red-hourmeter"
-    },
-    {
       "id": "node-red-contrib-netatmo-dashboard",
       "version": "1.0.0",
       "description": "Get JSON payload for NetAtmo dashboard. See http://netatmo.com, https://dev.netatmo.com/doc",
@@ -23986,36 +24032,6 @@
         "vvb001"
       ],
       "url": "https://flows.nodered.org/node/@inuse/node-red-contrib-ifm-vvb001"
-    },
-    {
-      "id": "node-red-contrib-sendmail",
-      "version": "1.0.7",
-      "description": "send emails with help of a local senmdmail command.",
-      "updated_at": "2022-09-15T06:43:53.891Z",
-      "types": [
-        "sendmail"
-      ],
-      "keywords": [
-        "node-red",
-        "email",
-        "sendmail",
-        "nullmailer"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-sendmail"
-    },
-    {
-      "id": "@mschaeffler/node-red-asterisk-ami-manager",
-      "version": "1.1.3",
-      "description": "Transfer Asterisk AMI events to json object string representation",
-      "updated_at": "2022-09-15T06:43:14.203Z",
-      "types": [
-        "Asterisk-AMI"
-      ],
-      "keywords": [
-        "node-red",
-        "asterisk"
-      ],
-      "url": "https://flows.nodered.org/node/@mschaeffler/node-red-asterisk-ami-manager"
     },
     {
       "id": "@komodokodomo/node-red-contrib-ui-iframe-modal-fork",
@@ -46487,21 +46503,6 @@
         "get"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-fluttergenerator"
-    },
-    {
-      "id": "node-red-contrib-flightradar24",
-      "version": "0.1.0",
-      "description": "Node-RED node to fetch aircraft data from Flightradar24",
-      "updated_at": "2020-11-29T08:56:03.846Z",
-      "types": [
-        "flightradar24"
-      ],
-      "keywords": [
-        "node-red",
-        "flight",
-        "flightradar24"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-flightradar24"
     },
     {
       "id": "node-red-contrib-habitica-link",
