@@ -1,0 +1,50 @@
+#0 building with "default" instance using docker driver
+
+#1 [internal] load build definition from Dockerfile
+#1 transferring dockerfile: 128B done
+#1 DONE 0.0s
+
+#2 [internal] load .dockerignore
+#2 transferring context: 2B done
+#2 DONE 0.0s
+
+#3 [internal] load metadata for docker.io/nodered/node-red:latest
+#3 DONE 0.1s
+
+#4 [1/2] FROM docker.io/nodered/node-red@sha256:f72381be70e1e1f06ae31fa28fc322fbf806184a2a4b97df765e6916f9204d47
+#4 CACHED
+
+#5 [2/2] RUN npm install npm install @blebtechnology/node-red-blebricks@1.0.13
+#5 2.803 npm WARN EBADENGINE Unsupported engine {
+#5 2.803 npm WARN EBADENGINE   package: 'npm@10.2.5',
+#5 2.803 npm WARN EBADENGINE   required: { node: '^18.17.0 || >=20.5.0' },
+#5 2.803 npm WARN EBADENGINE   current: { node: 'v16.20.2', npm: '8.19.4' }
+#5 2.803 npm WARN EBADENGINE }
+#5 2.804 npm WARN EBADENGINE Unsupported engine {
+#5 2.804 npm WARN EBADENGINE   package: 'csv-express@1.2.2',
+#5 2.804 npm WARN EBADENGINE   required: { node: '0.6 || 0.8 || 0.10 || 0.12 || 4.x' },
+#5 2.804 npm WARN EBADENGINE   current: { node: 'v16.20.2', npm: '8.19.4' }
+#5 2.804 npm WARN EBADENGINE }
+#5 4.354 npm WARN deprecated @npmcli/move-file@1.1.2: This functionality has been moved to @npmcli/fs
+#5 5.021 
+#5 5.021 added 90 packages, and audited 629 packages in 5s
+#5 5.021 
+#5 5.021 71 packages are looking for funding
+#5 5.022   run `npm fund` for details
+#5 5.023 
+#5 5.023 found 0 vulnerabilities
+#5 5.023 npm notice 
+#5 5.023 npm notice New major version of npm available! 8.19.4 -> 10.2.5
+#5 5.023 npm notice Changelog: <https://github.com/npm/cli/releases/tag/v10.2.5>
+#5 5.023 npm notice Run `npm install -g npm@10.2.5` to update!
+#5 5.023 npm notice 
+#5 DONE 5.1s
+
+#6 exporting to image
+#6 exporting layers
+#6 exporting layers 1.2s done
+#6 writing image sha256:66e54be7a0c74f3c242ffe6d52cefd002f2042e4f53986eb21f56489f027ff9f done
+#6 naming to docker.io/library/tmp done
+#6 DONE 1.2s
+
+----
