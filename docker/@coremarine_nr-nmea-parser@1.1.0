@@ -1,0 +1,59 @@
+#0 building with "default" instance using docker driver
+
+#1 [internal] load .dockerignore
+#1 transferring context: 2B done
+#1 DONE 0.0s
+
+#2 [internal] load build definition from Dockerfile
+#2 transferring dockerfile: 119B done
+#2 DONE 0.0s
+
+#3 [internal] load metadata for docker.io/nodered/node-red:latest
+#3 DONE 0.1s
+
+#4 [1/2] FROM docker.io/nodered/node-red@sha256:f72381be70e1e1f06ae31fa28fc322fbf806184a2a4b97df765e6916f9204d47
+#4 CACHED
+
+#5 [2/2] RUN npm install npm install @coremarine/nr-nmea-parser@1.1.0
+#5 2.426 npm WARN EBADENGINE Unsupported engine {
+#5 2.427 npm WARN EBADENGINE   package: '@coremarine/nr-nmea-parser@1.1.0',
+#5 2.427 npm WARN EBADENGINE   required: { node: '>=18.0.0' },
+#5 2.427 npm WARN EBADENGINE   current: { node: 'v16.20.2', npm: '8.19.4' }
+#5 2.427 npm WARN EBADENGINE }
+#5 2.428 npm WARN EBADENGINE Unsupported engine {
+#5 2.428 npm WARN EBADENGINE   package: 'npm@10.2.5',
+#5 2.428 npm WARN EBADENGINE   required: { node: '^18.17.0 || >=20.5.0' },
+#5 2.428 npm WARN EBADENGINE   current: { node: 'v16.20.2', npm: '8.19.4' }
+#5 2.428 npm WARN EBADENGINE }
+#5 2.429 npm WARN EBADENGINE Unsupported engine {
+#5 2.429 npm WARN EBADENGINE   package: '@coremarine/nmea-parser@1.6.2',
+#5 2.429 npm WARN EBADENGINE   required: { node: '>= 18' },
+#5 2.429 npm WARN EBADENGINE   current: { node: 'v16.20.2', npm: '8.19.4' }
+#5 2.429 npm WARN EBADENGINE }
+#5 4.325 
+#5 4.325 added 6 packages, and audited 545 packages in 4s
+#5 4.325 
+#5 4.325 70 packages are looking for funding
+#5 4.325   run `npm fund` for details
+#5 4.327 
+#5 4.327 1 high severity vulnerability
+#5 4.327 
+#5 4.327 To address all issues, run:
+#5 4.327   npm audit fix
+#5 4.327 
+#5 4.327 Run `npm audit` for details.
+#5 4.327 npm notice 
+#5 4.327 npm notice New major version of npm available! 8.19.4 -> 10.2.5
+#5 4.327 npm notice Changelog: <https://github.com/npm/cli/releases/tag/v10.2.5>
+#5 4.327 npm notice Run `npm install -g npm@10.2.5` to update!
+#5 4.327 npm notice 
+#5 DONE 4.4s
+
+#6 exporting to image
+#6 exporting layers
+#6 exporting layers 1.0s done
+#6 writing image sha256:695f4927bb9b3174c82b60fe90237ccc44fcbcbb19d38b09d8c0a30636d62d8f done
+#6 naming to docker.io/library/tmp done
+#6 DONE 1.0s
+
+----
