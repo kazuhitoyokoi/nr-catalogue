@@ -1,7 +1,238 @@
 {
   "name": "Catalogue for Docker",
-  "updated_at": "2024-01-08T15:58:20.873Z",
+  "updated_at": "2024-01-09T15:59:33.892Z",
   "modules": [
+    {
+      "id": "@daviderib/node-red-semilimes",
+      "version": "0.9.2",
+      "description": "The new semilimes connector which integrates with the public API",
+      "updated_at": "2024-01-09T12:45:30.055Z",
+      "types": [
+        "sme-main-connector",
+        "sme-main-actionSelector",
+        "sme-main-sender",
+        "sme-main-listener",
+        "sme-main-sshTunnel",
+        "sme-comp-text",
+        "sme-comp-html",
+        "sme-comp-file",
+        "sme-comp-contact",
+        "sme-comp-location",
+        "sme-comp-webview",
+        "sme-comp-channel",
+        "sme-comp-tunnel",
+        "sme-comp-form",
+        "sme-formComp-label",
+        "sme-formComp-textBox",
+        "sme-formComp-buttonList",
+        "sme-formComp-singleChoice",
+        "sme-formComp-multiChoice",
+        "sme-formComp-switch",
+        "sme-formComp-slider",
+        "sme-formComp-datePicker",
+        "sme-formComp-timePicker",
+        "sme-formComp-locationPicker",
+        "sme-formComp-photoPicker",
+        "sme-formComp-filePicker",
+        "sme-formComp-contactPicker",
+        "sme-formComp-groupChatPicker",
+        "sme-formComp-channelPicker",
+        "sme-formComp-bucketPicker",
+        "sme-formComp-hiddenValue",
+        "sme-formComp-qrCodeScanner",
+        "sme-formComp-nfcReader",
+        "sme-filter-formsubmission"
+      ],
+      "keywords": [
+        "semilimes",
+        "iot",
+        "connector",
+        "node-red",
+        "mobile phone",
+        "interface",
+        "remote access",
+        "ssh tunnel",
+        "websocket"
+      ],
+      "url": "https://flows.nodered.org/node/@daviderib/node-red-semilimes"
+    },
+    {
+      "id": "node-red-contrib-gree2",
+      "version": "1.0.1",
+      "description": "格力云控接入",
+      "updated_at": "2024-01-09T12:01:10.531Z",
+      "types": [
+        "Gree2Climate-Account",
+        "Gree2Climate-DeviceList",
+        "Gree2Climate"
+      ],
+      "keywords": [
+        "node-red"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-gree2"
+    },
+    {
+      "id": "@gregoriusrippenstein/node-red-contrib-nodedev",
+      "version": "0.2.6",
+      "description": "Support the development of Node-RED nodes within Node-RED.",
+      "updated_at": "2024-01-09T09:12:51.045Z",
+      "types": [
+        "NodeDevOps",
+        "NodeFactory",
+        "PkgFile",
+        "NpmTarBall",
+        "NodeRedInstall",
+        "NpmPublish",
+        "NodeFactorySidebarCfg"
+      ],
+      "keywords": [
+        "node-red",
+        "node development",
+        "introspection",
+        "bootstrapping",
+        "recursion"
+      ],
+      "url": "https://flows.nodered.org/node/@gregoriusrippenstein/node-red-contrib-nodedev"
+    },
+    {
+      "id": "node-red-contrib-users-jwt",
+      "version": "0.1.0",
+      "description": "A node used to quickly build a simple user system to control access to your http nodes on Node-RED.",
+      "updated_at": "2024-01-09T08:36:05.931Z",
+      "types": [
+        "users_config",
+        "users_isloggedin"
+      ],
+      "keywords": [
+        "node-red",
+        "user management"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-users-jwt"
+    },
+    {
+      "id": "@coremarine/nr-nmea-parser",
+      "version": "1.1.0",
+      "description": "Node-Red component to read NMEA 0183 sentences",
+      "updated_at": "2024-01-09T08:01:40.179Z",
+      "types": [
+        "nmea-parser"
+      ],
+      "keywords": [
+        "node-red",
+        "nmea",
+        "nmea0183",
+        "0183",
+        "gnss",
+        "gps",
+        "parser",
+        "protocol"
+      ],
+      "url": "https://flows.nodered.org/node/@coremarine/nr-nmea-parser"
+    },
+    {
+      "id": "node-red-contrib-home-assistant-websocket",
+      "version": "0.62.3",
+      "description": "Node-RED integration with Home Assistant through websocket and REST API",
+      "updated_at": "2024-01-09T03:33:25.923Z",
+      "types": [],
+      "keywords": [
+        "node-red",
+        "home-assistant",
+        "home assistant",
+        "home automation",
+        "websocket"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-home-assistant-websocket"
+    },
+    {
+      "id": "@renyoo/node-red-dfrobot-lorawan-nodes",
+      "version": "1.0.12",
+      "description": "node red nodes for dfrobot-lorawan",
+      "updated_at": "2024-01-09T02:47:02.115Z",
+      "types": [
+        "Decoder",
+        "Packet Item",
+        "LW Receive",
+        "LW Send",
+        "Node List",
+        "Group",
+        "GW Events",
+        "MusicPlayer",
+        "Single Node"
+      ],
+      "keywords": [
+        "node-red",
+        "dfrobot",
+        "lorawan",
+        "renyoo"
+      ],
+      "url": "https://flows.nodered.org/node/@renyoo/node-red-dfrobot-lorawan-nodes"
+    },
+    {
+      "id": "node-red-contrib-alexa-master-function",
+      "version": "2408.1.1910",
+      "description": "Beta version: password and logs",
+      "updated_at": "2024-01-08T22:06:29.343Z",
+      "types": [
+        "alexa-master-function"
+      ],
+      "keywords": [
+        "axios",
+        "node-red",
+        "mysql",
+        "database",
+        "r2"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-alexa-master-function"
+    },
+    {
+      "id": "@thingwala/node-red-contrib-geyserwala-connect",
+      "version": "0.0.7",
+      "description": "Node-RED nodes for the Geyserwala Connect",
+      "updated_at": "2024-01-08T20:19:32.915Z",
+      "types": [
+        "geyserwala-connect-api"
+      ],
+      "keywords": [
+        "node-red",
+        "thingwala",
+        "geyserwala"
+      ],
+      "url": "https://flows.nodered.org/node/@thingwala/node-red-contrib-geyserwala-connect"
+    },
+    {
+      "id": "@ralphwetzel/node-red-contrib-eta",
+      "version": "2.0.0",
+      "description": "A node to utilize Eta - the lightweight, powerful, pluggable embedded JS template engine.",
+      "updated_at": "2024-01-08T20:16:20.071Z",
+      "types": [
+        "etaTemplate"
+      ],
+      "keywords": [
+        "node-red",
+        "Eta",
+        "Template Engine",
+        "Javascript",
+        "template"
+      ],
+      "url": "https://flows.nodered.org/node/@ralphwetzel/node-red-contrib-eta"
+    },
+    {
+      "id": "node-red-contrib-mime-generator",
+      "version": "1.0.2",
+      "description": "RFC2822 compliant raw email message generator for node-red",
+      "updated_at": "2024-01-08T18:40:38.994Z",
+      "types": [
+        "MIME Generator"
+      ],
+      "keywords": [
+        "node-red",
+        "rfc-2822",
+        "mime-message",
+        "email-message"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-mime-generator"
+    },
     {
       "id": "@iorsan/node-red-contrib-firebase-cloud-messaging",
       "version": "1.0.4",
@@ -33,26 +264,6 @@
         "flightradar24"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-flightradar24"
-    },
-    {
-      "id": "@coremarine/nr-nmea-parser",
-      "version": "1.0.4",
-      "description": "Node-Red component to read NMEA 0183 sentences",
-      "updated_at": "2024-01-08T07:32:38.145Z",
-      "types": [
-        "nmea-parser"
-      ],
-      "keywords": [
-        "node-red",
-        "nmea",
-        "nmea0183",
-        "0183",
-        "gnss",
-        "gps",
-        "parser",
-        "protocol"
-      ],
-      "url": "https://flows.nodered.org/node/@coremarine/nr-nmea-parser"
     },
     {
       "id": "@blebtechnology/node-red-blebricks",
@@ -191,29 +402,6 @@
       "url": "https://flows.nodered.org/node/@corebos/node-red-corebos"
     },
     {
-      "id": "@gregoriusrippenstein/node-red-contrib-nodedev",
-      "version": "0.2.5",
-      "description": "Support the development of Node-RED nodes within Node-RED.",
-      "updated_at": "2024-01-07T10:23:00.778Z",
-      "types": [
-        "NodeDevOps",
-        "NodeFactory",
-        "PkgFile",
-        "NpmTarBall",
-        "NodeRedInstall",
-        "NpmPublish",
-        "NodeFactorySidebarCfg"
-      ],
-      "keywords": [
-        "node-red",
-        "node development",
-        "introspection",
-        "bootstrapping",
-        "recursion"
-      ],
-      "url": "https://flows.nodered.org/node/@gregoriusrippenstein/node-red-contrib-nodedev"
-    },
-    {
       "id": "@gregoriusrippenstein/node-red-contrib-flowhub",
       "version": "0.4.5",
       "description": "Nodes for interacting with FlowHub.org.",
@@ -278,38 +466,6 @@
         "hosting"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-alice-self-hosting"
-    },
-    {
-      "id": "@thingwala/node-red-contrib-geyserwala-connect",
-      "version": "0.0.6",
-      "description": "Node-RED nodes for the Geyserwala Connect",
-      "updated_at": "2024-01-06T21:13:11.204Z",
-      "types": [
-        "geyserwala-connect-api"
-      ],
-      "keywords": [
-        "node-red",
-        "thingwala",
-        "geyserwala"
-      ],
-      "url": "https://flows.nodered.org/node/@thingwala/node-red-contrib-geyserwala-connect"
-    },
-    {
-      "id": "node-red-contrib-alexa-master-function",
-      "version": "2406.1.1639",
-      "description": "Beta version: password and logs",
-      "updated_at": "2024-01-06T19:36:03.010Z",
-      "types": [
-        "alexa-master-function"
-      ],
-      "keywords": [
-        "axios",
-        "node-red",
-        "mysql",
-        "database",
-        "r2"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-alexa-master-function"
     },
     {
       "id": "node-red-contrib-knx-ultimate",
@@ -496,30 +652,6 @@
         "node-red"
       ],
       "url": "https://flows.nodered.org/node/apconic-node-red-image-service"
-    },
-    {
-      "id": "@renyoo/node-red-dfrobot-lorawan-nodes",
-      "version": "1.0.11",
-      "description": "node red nodes for dfrobot-lorawan",
-      "updated_at": "2024-01-05T06:51:47.025Z",
-      "types": [
-        "Decoder",
-        "Packet Item",
-        "LW Receive",
-        "LW Send",
-        "Node List",
-        "Group",
-        "GW Events",
-        "MusicPlayer",
-        "Single Node"
-      ],
-      "keywords": [
-        "node-red",
-        "dfrobot",
-        "lorawan",
-        "renyoo"
-      ],
-      "url": "https://flows.nodered.org/node/@renyoo/node-red-dfrobot-lorawan-nodes"
     },
     {
       "id": "@ueponx/node-red-contrib-example-lower-case",
@@ -2375,21 +2507,6 @@
         "gis"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-web-worldmap"
-    },
-    {
-      "id": "node-red-contrib-home-assistant-websocket",
-      "version": "0.62.2",
-      "description": "Node-RED integration with Home Assistant through websocket and REST API",
-      "updated_at": "2023-12-14T13:20:23.538Z",
-      "types": [],
-      "keywords": [
-        "node-red",
-        "home-assistant",
-        "home assistant",
-        "home automation",
-        "websocket"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-home-assistant-websocket"
     },
     {
       "id": "node-red-contrib-azureiothubnode-param",
@@ -26050,22 +26167,6 @@
       "url": "https://flows.nodered.org/node/node-red-contrib-aws-ses-send-raw"
     },
     {
-      "id": "node-red-contrib-mime-generator",
-      "version": "1.0.1",
-      "description": "RFC2822 compliant raw email message generator for node-red",
-      "updated_at": "2022-07-06T15:00:11.675Z",
-      "types": [
-        "MIME Generator"
-      ],
-      "keywords": [
-        "node-red",
-        "rfc-2822",
-        "mime-message",
-        "email-message"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-mime-generator"
-    },
-    {
       "id": "node-red-contrib-oled",
       "version": "1.0.5",
       "description": "Node-Red node for controlling OLED displays",
@@ -30554,23 +30655,6 @@
         "raumfeld"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-raumfeld"
-    },
-    {
-      "id": "@ralphwetzel/node-red-contrib-eta",
-      "version": "1.0.0",
-      "description": "A node to utilize Eta - the lightweight, powerful, pluggable embedded JS template engine.",
-      "updated_at": "2022-03-27T19:42:18.134Z",
-      "types": [
-        "etaTemplate"
-      ],
-      "keywords": [
-        "node-red",
-        "Eta",
-        "Template Engine",
-        "Javascript",
-        "template"
-      ],
-      "url": "https://flows.nodered.org/node/@ralphwetzel/node-red-contrib-eta"
     },
     {
       "id": "node-red-contrib-toyota-myt",
