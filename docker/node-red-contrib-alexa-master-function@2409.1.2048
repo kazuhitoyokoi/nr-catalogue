@@ -1,0 +1,49 @@
+#0 building with "default" instance using docker driver
+
+#1 [internal] load .dockerignore
+#1 transferring context: 2B done
+#1 DONE 0.0s
+
+#2 [internal] load build definition from Dockerfile
+#2 transferring dockerfile: 137B done
+#2 DONE 0.0s
+
+#3 [internal] load metadata for docker.io/nodered/node-red:latest
+#3 DONE 0.3s
+
+#4 [1/2] FROM docker.io/nodered/node-red@sha256:f72381be70e1e1f06ae31fa28fc322fbf806184a2a4b97df765e6916f9204d47
+#4 CACHED
+
+#5 [2/2] RUN npm install npm install node-red-contrib-alexa-master-function@2409.1.2048
+#5 1.289 npm WARN EBADENGINE Unsupported engine {
+#5 1.289 npm WARN EBADENGINE   package: 'npm@10.2.5',
+#5 1.289 npm WARN EBADENGINE   required: { node: '^18.17.0 || >=20.5.0' },
+#5 1.289 npm WARN EBADENGINE   current: { node: 'v16.20.2', npm: '8.19.4' }
+#5 1.289 npm WARN EBADENGINE }
+#5 2.672 
+#5 2.672 added 8 packages, and audited 547 packages in 2s
+#5 2.672 
+#5 2.672 69 packages are looking for funding
+#5 2.672   run `npm fund` for details
+#5 2.674 
+#5 2.674 1 moderate severity vulnerability
+#5 2.674 
+#5 2.674 To address all issues, run:
+#5 2.674   npm audit fix
+#5 2.674 
+#5 2.674 Run `npm audit` for details.
+#5 2.674 npm notice 
+#5 2.674 npm notice New major version of npm available! 8.19.4 -> 10.2.5
+#5 2.674 npm notice Changelog: <https://github.com/npm/cli/releases/tag/v10.2.5>
+#5 2.675 npm notice Run `npm install -g npm@10.2.5` to update!
+#5 2.675 npm notice 
+#5 DONE 2.8s
+
+#6 exporting to image
+#6 exporting layers
+#6 exporting layers 1.0s done
+#6 writing image sha256:c1325b9a2689e2064fba3aa47d6a0aefc6c8acd032a5c07f7cf32901bd1bd8d0 done
+#6 naming to docker.io/library/tmp done
+#6 DONE 1.0s
+
+----
