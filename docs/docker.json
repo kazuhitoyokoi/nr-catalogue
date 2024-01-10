@@ -1,7 +1,182 @@
 {
   "name": "Catalogue for Docker",
-  "updated_at": "2024-01-09T15:59:33.892Z",
+  "updated_at": "2024-01-10T15:59:08.351Z",
   "modules": [
+    {
+      "id": "@blebtechnology/node-red-blebricks",
+      "version": "1.0.14",
+      "description": "A node-red package to manage blebricks data",
+      "updated_at": "2024-01-10T12:32:56.164Z",
+      "types": [
+        "CHT",
+        "ENV",
+        "OAQ",
+        "BLEB_TEMP",
+        "PTX",
+        "MAG",
+        "SOIL",
+        "LGH",
+        "UHF",
+        "PRT",
+        "REL",
+        "RELOUT",
+        "WPLOUT",
+        "VBROUT",
+        "BUZOUT",
+        "IRTOUT",
+        "ODCOUT",
+        "ODC",
+        "WPL",
+        "VBR",
+        "BUZ",
+        "IRT",
+        "PLV",
+        "WND",
+        "SOL",
+        "PYR",
+        "CMS",
+        "RHT",
+        "UVA",
+        "RGB",
+        "CLT",
+        "IMU",
+        "ACC",
+        "PDM",
+        "CAP",
+        "IRR",
+        "SMS",
+        "DSD",
+        "BLEB_IN",
+        "BLEB_RPS",
+        "SFX",
+        "ESP",
+        "UWS",
+        "RMS",
+        "VMS",
+        "GPS",
+        "BLEB_CNT",
+        "PMX",
+        "PROTECTOR",
+        "LCDOUT",
+        "SLS",
+        "PWMOUT",
+        "TPD"
+      ],
+      "keywords": [
+        "node-red"
+      ],
+      "url": "https://flows.nodered.org/node/@blebtechnology/node-red-blebricks"
+    },
+    {
+      "id": "@industrial-shields/node-red-simplecomm",
+      "version": "1.0.3",
+      "description": "A simple communication node for Node-RED",
+      "updated_at": "2024-01-10T10:32:49.343Z",
+      "types": [
+        "simplecomm-config",
+        "simplecomm-in",
+        "simplecomm-out"
+      ],
+      "keywords": [
+        "Industrial Shields",
+        "SimpleComm",
+        "node-red",
+        "industrial",
+        "arduino"
+      ],
+      "url": "https://flows.nodered.org/node/@industrial-shields/node-red-simplecomm"
+    },
+    {
+      "id": "node-red-contrib-xsltransform",
+      "version": "0.5.21",
+      "description": "Node-RED node node to tranform xml content using saxon-js.",
+      "updated_at": "2024-01-10T07:13:53.144Z",
+      "types": [
+        "xslParse",
+        "xslTransform"
+      ],
+      "keywords": [
+        "node-red",
+        "saxon",
+        "transform",
+        "xml",
+        "xsl",
+        "xslt",
+        "xslt3.0"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-xsltransform"
+    },
+    {
+      "id": "@renyoo/node-red-dfrobot-lorawan-nodes",
+      "version": "1.0.14",
+      "description": "node red nodes for dfrobot-lorawan",
+      "updated_at": "2024-01-10T07:03:26.466Z",
+      "types": [
+        "Decoder",
+        "Packet Item",
+        "LW Receive",
+        "LW Send",
+        "Node List",
+        "Group",
+        "GW Events",
+        "MusicPlayer",
+        "Single Node"
+      ],
+      "keywords": [
+        "node-red",
+        "dfrobot",
+        "lorawan",
+        "renyoo"
+      ],
+      "url": "https://flows.nodered.org/node/@renyoo/node-red-dfrobot-lorawan-nodes"
+    },
+    {
+      "id": "node-red-contrib-alexa-master-function",
+      "version": "2409.1.2048",
+      "description": "Beta version: password and logs",
+      "updated_at": "2024-01-09T23:44:50.387Z",
+      "types": [
+        "alexa-master-function"
+      ],
+      "keywords": [
+        "axios",
+        "node-red",
+        "mysql",
+        "database",
+        "r2"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-alexa-master-function"
+    },
+    {
+      "id": "node-red-contrib-gree2",
+      "version": "1.0.2",
+      "description": "格力云控接入",
+      "updated_at": "2024-01-09T16:22:57.548Z",
+      "types": [
+        "Gree2Climate-Account",
+        "Gree2Climate-DeviceList",
+        "Gree2Climate"
+      ],
+      "keywords": [
+        "node-red"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-gree2"
+    },
+    {
+      "id": "@platmac/node-red-platma-inbuilddb",
+      "version": "1.0.2",
+      "description": "Node is providing full access to InBuild DB of Platma.",
+      "updated_at": "2024-01-09T14:56:00.863Z",
+      "types": [
+        "platma-inbuilddb"
+      ],
+      "keywords": [
+        "node-red",
+        "platma",
+        "inbuilddb"
+      ],
+      "url": "https://flows.nodered.org/node/@platmac/node-red-platma-inbuilddb"
+    },
     {
       "id": "@daviderib/node-red-semilimes",
       "version": "0.9.2",
@@ -55,21 +230,6 @@
         "websocket"
       ],
       "url": "https://flows.nodered.org/node/@daviderib/node-red-semilimes"
-    },
-    {
-      "id": "node-red-contrib-gree2",
-      "version": "1.0.1",
-      "description": "格力云控接入",
-      "updated_at": "2024-01-09T12:01:10.531Z",
-      "types": [
-        "Gree2Climate-Account",
-        "Gree2Climate-DeviceList",
-        "Gree2Climate"
-      ],
-      "keywords": [
-        "node-red"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-gree2"
     },
     {
       "id": "@gregoriusrippenstein/node-red-contrib-nodedev",
@@ -145,47 +305,6 @@
       "url": "https://flows.nodered.org/node/node-red-contrib-home-assistant-websocket"
     },
     {
-      "id": "@renyoo/node-red-dfrobot-lorawan-nodes",
-      "version": "1.0.12",
-      "description": "node red nodes for dfrobot-lorawan",
-      "updated_at": "2024-01-09T02:47:02.115Z",
-      "types": [
-        "Decoder",
-        "Packet Item",
-        "LW Receive",
-        "LW Send",
-        "Node List",
-        "Group",
-        "GW Events",
-        "MusicPlayer",
-        "Single Node"
-      ],
-      "keywords": [
-        "node-red",
-        "dfrobot",
-        "lorawan",
-        "renyoo"
-      ],
-      "url": "https://flows.nodered.org/node/@renyoo/node-red-dfrobot-lorawan-nodes"
-    },
-    {
-      "id": "node-red-contrib-alexa-master-function",
-      "version": "2408.1.1910",
-      "description": "Beta version: password and logs",
-      "updated_at": "2024-01-08T22:06:29.343Z",
-      "types": [
-        "alexa-master-function"
-      ],
-      "keywords": [
-        "axios",
-        "node-red",
-        "mysql",
-        "database",
-        "r2"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-alexa-master-function"
-    },
-    {
       "id": "@thingwala/node-red-contrib-geyserwala-connect",
       "version": "0.0.7",
       "description": "Node-RED nodes for the Geyserwala Connect",
@@ -234,23 +353,6 @@
       "url": "https://flows.nodered.org/node/node-red-contrib-mime-generator"
     },
     {
-      "id": "@iorsan/node-red-contrib-firebase-cloud-messaging",
-      "version": "1.0.4",
-      "description": "Custom node to send push notifications to firebase",
-      "updated_at": "2024-01-08T10:53:27.087Z",
-      "types": [
-        "FCM Send",
-        "FCM Config"
-      ],
-      "keywords": [
-        "admin",
-        "firebase",
-        "node-red",
-        "custom-node"
-      ],
-      "url": "https://flows.nodered.org/node/@iorsan/node-red-contrib-firebase-cloud-messaging"
-    },
-    {
       "id": "node-red-contrib-flightradar24",
       "version": "0.2.0",
       "description": "Node-RED node to fetch aircraft data from Flightradar24",
@@ -266,69 +368,20 @@
       "url": "https://flows.nodered.org/node/node-red-contrib-flightradar24"
     },
     {
-      "id": "@blebtechnology/node-red-blebricks",
-      "version": "1.0.13",
-      "description": "A node-red package to manage blebricks data",
-      "updated_at": "2024-01-07T21:08:13.331Z",
-      "types": [
-        "CHT",
-        "ENV",
-        "OAQ",
-        "BLEB_TEMP",
-        "PTX",
-        "MAG",
-        "SOIL",
-        "LGH",
-        "UHF",
-        "PRT",
-        "REL",
-        "RELOUT",
-        "WPLOUT",
-        "VBROUT",
-        "BUZOUT",
-        "IRTOUT",
-        "ODCOUT",
-        "ODC",
-        "WPL",
-        "VBR",
-        "BUZ",
-        "IRT",
-        "PLV",
-        "WND",
-        "SOL",
-        "PYR",
-        "CMS",
-        "RHT",
-        "UVA",
-        "RGB",
-        "CLT",
-        "IMU",
-        "ACC",
-        "PDM",
-        "CAP",
-        "IRR",
-        "SMS",
-        "DSD",
-        "BLEB_IN",
-        "BLEB_RPS",
-        "SFX",
-        "ESP",
-        "UWS",
-        "RMS",
-        "VMS",
-        "GPS",
-        "BLEB_CNT",
-        "PMX",
-        "PROTECTOR",
-        "LCDOUT",
-        "SLS",
-        "PWMOUT",
-        "TPD"
-      ],
+      "id": "node-red-contrib-oscar-service-cowsay",
+      "version": "1.0.5",
+      "description": "The OSCAR Cowsay Service node shows the basic functionality for invoking the OSCAR service synchronously.",
+      "updated_at": "2024-01-08T08:55:29.448Z",
+      "types": [],
       "keywords": [
-        "node-red"
+        "node-red",
+        "OSCAR",
+        "cowsay",
+        "GRyCAP",
+        "UPV",
+        "AI4EOSC"
       ],
-      "url": "https://flows.nodered.org/node/@blebtechnology/node-red-blebricks"
+      "url": "https://flows.nodered.org/node/node-red-contrib-oscar-service-cowsay"
     },
     {
       "id": "@mschaeffler/node-red-logic",
@@ -1626,22 +1679,6 @@
       "url": "https://flows.nodered.org/node/node-red-contrib-feiertage"
     },
     {
-      "id": "node-red-contrib-iot-controlcenter",
-      "version": "1.0.5",
-      "description": "Data exchange from node-red to control center",
-      "updated_at": "2023-12-27T09:10:55.884Z",
-      "types": [
-        "Send",
-        "Get"
-      ],
-      "keywords": [
-        "node-red",
-        "iot",
-        "controlcenter"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-iot-controlcenter"
-    },
-    {
       "id": "node-red-contrib-pinecone",
       "version": "1.0.7",
       "description": "Pinecone makes it easy to provide long-term memory for high-performance AI applications",
@@ -2180,6 +2217,22 @@
         "tankerkoenig"
       ],
       "url": "https://flows.nodered.org/node/@tq-bit/node-red-contrib-de-fuelprices"
+    },
+    {
+      "id": "node-red-contrib-oscar-service-grayify",
+      "version": "1.0.11",
+      "description": "This node supports highly-scalable event-driven image conversion to grayscale using the popular ImageMagick software.",
+      "updated_at": "2023-12-18T12:51:01.780Z",
+      "types": [],
+      "keywords": [
+        "node-red",
+        "OSCAR",
+        "grayify",
+        "GRyCAP",
+        "UPV",
+        "AI4EOSC"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-oscar-service-grayify"
     },
     {
       "id": "victron-dynamic-ess",
@@ -3904,21 +3957,6 @@
       "url": "https://flows.nodered.org/node/node-red-contrib-debounce-advanced"
     },
     {
-      "id": "@platmac/node-red-platma-inbuilddb",
-      "version": "1.0.1",
-      "description": "Node is providing full access to InBuild DB of Platma.",
-      "updated_at": "2023-11-23T14:31:49.720Z",
-      "types": [
-        "platma-inbuilddb"
-      ],
-      "keywords": [
-        "node-red",
-        "platma",
-        "inbuilddb"
-      ],
-      "url": "https://flows.nodered.org/node/@platmac/node-red-platma-inbuilddb"
-    },
-    {
       "id": "nrc-elasticsearch-nodes",
       "version": "0.3.16",
       "description": "A set of Node-RED contributed (NRC) nodes for Elasticsearch including search, get, exists, create, update, delete, tail.",
@@ -4273,54 +4311,6 @@
       "url": "https://flows.nodered.org/node/node-red-contrib-oauth2"
     },
     {
-      "id": "node-red-contrib-oscar-service-plants",
-      "version": "1.0.2",
-      "description": "Classify plant images among 10K species from the iNaturalist dataset.",
-      "updated_at": "2023-11-20T12:07:15.154Z",
-      "types": [],
-      "keywords": [
-        "node-red",
-        "OSCAR",
-        "plants",
-        "GRyCAP",
-        "UPV",
-        "AI4EOSC"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-oscar-service-plants"
-    },
-    {
-      "id": "node-red-contrib-oscar-service-cowsay",
-      "version": "1.0.1",
-      "description": "The OSCAR Cowsay Service node shows the basic functionality for invoking the OSCAR service synchronously.",
-      "updated_at": "2023-11-20T11:20:29.640Z",
-      "types": [],
-      "keywords": [
-        "node-red",
-        "OSCAR",
-        "cowsay",
-        "GRyCAP",
-        "UPV",
-        "AI4EOSC"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-oscar-service-cowsay"
-    },
-    {
-      "id": "node-red-contrib-oscar-service-grayify",
-      "version": "1.0.1",
-      "description": "This node supports highly-scalable event-driven image conversion to grayscale using the popular ImageMagick software.",
-      "updated_at": "2023-11-20T11:18:09.309Z",
-      "types": [],
-      "keywords": [
-        "node-red",
-        "OSCAR",
-        "grayify",
-        "GRyCAP",
-        "UPV",
-        "AI4EOSC"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-oscar-service-grayify"
-    },
-    {
       "id": "@julaoshi/node-red-log-to-file",
       "version": "0.1.4",
       "description": "Log collection sharding cleaning",
@@ -4333,22 +4323,6 @@
         "node-red"
       ],
       "url": "https://flows.nodered.org/node/@julaoshi/node-red-log-to-file"
-    },
-    {
-      "id": "node-red-contrib-oscar-plants-service",
-      "version": "1.0.11",
-      "description": "Classify plant images among 10K species from the iNaturalist dataset.",
-      "updated_at": "2023-11-20T08:10:34.612Z",
-      "types": [],
-      "keywords": [
-        "node-red",
-        "OSCAR",
-        "plants",
-        "GRyCAP",
-        "UPV",
-        "AI4EOSC"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-oscar-plants-service"
     },
     {
       "id": "thingzi-logic-timers",
@@ -5006,38 +4980,6 @@
       "url": "https://flows.nodered.org/node/node-red-contrib-stepper"
     },
     {
-      "id": "node-red-contrib-oscar-textspeech-service",
-      "version": "1.0.1",
-      "description": "The OSCAR Cowsay Service node shows the basic functionality for invoking the OSCAR service synchronously.",
-      "updated_at": "2023-11-08T11:10:42.993Z",
-      "types": [],
-      "keywords": [
-        "node-red",
-        "OSCAR",
-        "textspeech",
-        "GRyCAP",
-        "UPV",
-        "AI4EOSC"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-oscar-textspeech-service"
-    },
-    {
-      "id": "node-red-contrib-oscar-cowsay-service",
-      "version": "1.0.3",
-      "description": "The OSCAR Cowsay Service node shows the basic functionality for invoking the OSCAR service synchronously.",
-      "updated_at": "2023-11-08T10:47:43.234Z",
-      "types": [],
-      "keywords": [
-        "node-red",
-        "OSCAR",
-        "cowsay",
-        "GRyCAP",
-        "UPV",
-        "AI4EOSC"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-oscar-cowsay-service"
-    },
-    {
       "id": "@marcus-j-davies/node-red-semaphore-plus",
       "version": "3.3.1",
       "description": "An advanced set of semaphore Nodes for Node RED, with a dynamic fail-safe",
@@ -5145,22 +5087,6 @@
         "home automation"
       ],
       "url": "https://flows.nodered.org/node/@mobsean/node-red-vallox-webserver-api"
-    },
-    {
-      "id": "node-red-contrib-oscar-grayify-service",
-      "version": "1.0.3",
-      "description": "This node supports highly-scalable event-driven image conversion to grayscale using the popular ImageMagick software.",
-      "updated_at": "2023-11-06T09:42:17.941Z",
-      "types": [],
-      "keywords": [
-        "node-red",
-        "OSCAR",
-        "grayify",
-        "GRyCAP",
-        "UPV",
-        "AI4EOSC"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-oscar-grayify-service"
     },
     {
       "id": "atomic-mssql",
@@ -33283,26 +33209,6 @@
         "hebcal"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-hebcal"
-    },
-    {
-      "id": "node-red-contrib-xsltransform",
-      "version": "0.4.0",
-      "description": "Node-RED node node to tranform xml content using saxon-js.",
-      "updated_at": "2022-01-08T06:54:13.317Z",
-      "types": [
-        "xslParse",
-        "xslTransform"
-      ],
-      "keywords": [
-        "node-red",
-        "saxon",
-        "transform",
-        "xml",
-        "xsl",
-        "xslt",
-        "xslt3.0"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-xsltransform"
     },
     {
       "id": "node-red-contrib-azure-iothub-2-adt",
