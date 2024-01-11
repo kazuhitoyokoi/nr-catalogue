@@ -1,12 +1,48 @@
 {
   "name": "Catalogue for Docker",
-  "updated_at": "2024-01-10T15:59:08.351Z",
+  "updated_at": "2024-01-11T16:00:55.028Z",
   "modules": [
     {
+      "id": "@nickcuper/node-red-contrib-html-pro",
+      "version": "1.0.1",
+      "description": "Advance html parser for NodeRED",
+      "updated_at": "2024-01-11T13:59:26.604Z",
+      "types": [
+        "html-pro"
+      ],
+      "keywords": [
+        "node-red",
+        "html",
+        "html-pro",
+        "parser"
+      ],
+      "url": "https://flows.nodered.org/node/@nickcuper/node-red-contrib-html-pro"
+    },
+    {
+      "id": "@nickcuper/node-red-contrib-aws-cloud",
+      "version": "1.0.0",
+      "description": "AWS nodes for NodeRED",
+      "updated_at": "2024-01-11T13:59:00.920Z",
+      "types": [
+        "s3-write",
+        "aws-config"
+      ],
+      "keywords": [
+        "node-red",
+        "aws",
+        "aws-cloud",
+        "s3",
+        "Amazon Simple Storage Service",
+        "aws-s3",
+        "putObject"
+      ],
+      "url": "https://flows.nodered.org/node/@nickcuper/node-red-contrib-aws-cloud"
+    },
+    {
       "id": "@blebtechnology/node-red-blebricks",
-      "version": "1.0.14",
+      "version": "1.0.16",
       "description": "A node-red package to manage blebricks data",
-      "updated_at": "2024-01-10T12:32:56.164Z",
+      "updated_at": "2024-01-11T12:27:01.523Z",
       "types": [
         "CHT",
         "ENV",
@@ -68,49 +104,101 @@
       "url": "https://flows.nodered.org/node/@blebtechnology/node-red-blebricks"
     },
     {
-      "id": "@industrial-shields/node-red-simplecomm",
-      "version": "1.0.3",
-      "description": "A simple communication node for Node-RED",
-      "updated_at": "2024-01-10T10:32:49.343Z",
+      "id": "node-red-contrib-iot-controlcenter",
+      "version": "2.0.6",
+      "description": "Data exchange from node-red to control center",
+      "updated_at": "2024-01-11T11:17:46.032Z",
       "types": [
-        "simplecomm-config",
-        "simplecomm-in",
-        "simplecomm-out"
+        "Send",
+        "Get",
+        "Function",
+        "Request"
       ],
       "keywords": [
-        "Industrial Shields",
-        "SimpleComm",
         "node-red",
-        "industrial",
-        "arduino"
+        "iot",
+        "controlcenter"
       ],
-      "url": "https://flows.nodered.org/node/@industrial-shields/node-red-simplecomm"
+      "url": "https://flows.nodered.org/node/node-red-contrib-iot-controlcenter"
     },
     {
-      "id": "node-red-contrib-xsltransform",
-      "version": "0.5.21",
-      "description": "Node-RED node node to tranform xml content using saxon-js.",
-      "updated_at": "2024-01-10T07:13:53.144Z",
+      "id": "@smartdcc/dccboxed-nodered-nodes",
+      "version": "0.4.1",
+      "description": "Collection of nodes for NodeRED to facilitate interfacing with DCC Boxed",
+      "updated_at": "2024-01-11T10:30:58.130Z",
+      "types": [],
+      "keywords": [
+        "node-red",
+        "duis",
+        "gbcs",
+        "front-end",
+        "smartdcc",
+        "smartmeter",
+        "smets2"
+      ],
+      "url": "https://flows.nodered.org/node/@smartdcc/dccboxed-nodered-nodes"
+    },
+    {
+      "id": "node-red-contrib-genetic-charging-strategy2",
+      "version": "1.0.22",
+      "description": "A module for Node-RED that adds a battery charging strategy to node-red-contrib-power-saver. It uses genetic algorithms to find the best schedule",
+      "updated_at": "2024-01-11T09:26:24.622Z",
       "types": [
-        "xslParse",
-        "xslTransform"
+        "strategy-genetic-charging"
       ],
       "keywords": [
         "node-red",
-        "saxon",
-        "transform",
-        "xml",
-        "xsl",
-        "xslt",
-        "xslt3.0"
+        "tibber",
+        "energy",
+        "smarthome",
+        "home-automation",
+        "home-assistant",
+        "power",
+        "powersaver"
       ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-xsltransform"
+      "url": "https://flows.nodered.org/node/node-red-contrib-genetic-charging-strategy2"
+    },
+    {
+      "id": "@platmac/node-red-platma-inbuilddb",
+      "version": "1.0.4",
+      "description": "Node is providing full access to InBuild DB of Platma.",
+      "updated_at": "2024-01-11T07:49:41.719Z",
+      "types": [
+        "platma-inbuilddb"
+      ],
+      "keywords": [
+        "node-red",
+        "platma",
+        "inbuilddb"
+      ],
+      "url": "https://flows.nodered.org/node/@platmac/node-red-platma-inbuilddb"
+    },
+    {
+      "id": "@gulpetl/vinyl-ftp",
+      "version": "0.7.1",
+      "description": "Vinyl adapter for FTP",
+      "updated_at": "2024-01-11T05:51:52.385Z",
+      "types": [],
+      "keywords": [
+        "vinyl",
+        "gulp",
+        "ftp",
+        "deploy",
+        "deployment",
+        "upload",
+        "gulp-etl",
+        "gulpetl",
+        "etl",
+        "data",
+        "node-red"
+      ],
+      "url": "https://flows.nodered.org/node/@gulpetl/vinyl-ftp"
     },
     {
       "id": "@renyoo/node-red-dfrobot-lorawan-nodes",
-      "version": "1.0.14",
+      "version": "1.0.15",
       "description": "node red nodes for dfrobot-lorawan",
-      "updated_at": "2024-01-10T07:03:26.466Z",
+      "updated_at": "2024-01-11T04:26:12.624Z",
       "types": [
         "Decoder",
         "Packet Item",
@@ -129,6 +217,88 @@
         "renyoo"
       ],
       "url": "https://flows.nodered.org/node/@renyoo/node-red-dfrobot-lorawan-nodes"
+    },
+    {
+      "id": "node-red-contrib-xsltransform",
+      "version": "0.5.22",
+      "description": "Node-RED node node to tranform xml content using saxon-js.",
+      "updated_at": "2024-01-10T23:44:37.629Z",
+      "types": [
+        "xslParse",
+        "xslTransform"
+      ],
+      "keywords": [
+        "node-red",
+        "saxon",
+        "transform",
+        "xml",
+        "xsl",
+        "xslt",
+        "xslt3.0"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-xsltransform"
+    },
+    {
+      "id": "@parallaxcontrol/node-red-control",
+      "version": "1.0.35",
+      "description": "A comprehensive package of Node-RED nodes designed to seamlessly integrate with the Parallax Control Engine, offering enhanced control capabilities for AV, IoT, and Industrial Automation.",
+      "updated_at": "2024-01-10T20:09:00.072Z",
+      "types": [
+        "and-gate",
+        "compare-string-text",
+        "input-select",
+        "inverter-gate",
+        "or-gate",
+        "set-reset-latch",
+        "send-single-dictionary",
+        "set-feedback",
+        "clear-signal-state",
+        "recall-signal-state",
+        "save-signal-state",
+        "bool-toggle",
+        "extract-message-data",
+        "system-management"
+      ],
+      "keywords": [
+        "parallaxcontrol",
+        "node-red",
+        "audiovisual",
+        "av"
+      ],
+      "url": "https://flows.nodered.org/node/@parallaxcontrol/node-red-control"
+    },
+    {
+      "id": "node-red-node-exif",
+      "version": "1.0.0",
+      "description": "A Node-RED node that extracts Exif information from JPEG image buffers.",
+      "updated_at": "2024-01-10T15:02:46.764Z",
+      "types": [
+        "exif"
+      ],
+      "keywords": [
+        "node-red",
+        "exif"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-node-exif"
+    },
+    {
+      "id": "@industrial-shields/node-red-simplecomm",
+      "version": "1.0.3",
+      "description": "A simple communication node for Node-RED",
+      "updated_at": "2024-01-10T10:32:49.343Z",
+      "types": [
+        "simplecomm-config",
+        "simplecomm-in",
+        "simplecomm-out"
+      ],
+      "keywords": [
+        "Industrial Shields",
+        "SimpleComm",
+        "node-red",
+        "industrial",
+        "arduino"
+      ],
+      "url": "https://flows.nodered.org/node/@industrial-shields/node-red-simplecomm"
     },
     {
       "id": "node-red-contrib-alexa-master-function",
@@ -161,21 +331,6 @@
         "node-red"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-gree2"
-    },
-    {
-      "id": "@platmac/node-red-platma-inbuilddb",
-      "version": "1.0.2",
-      "description": "Node is providing full access to InBuild DB of Platma.",
-      "updated_at": "2024-01-09T14:56:00.863Z",
-      "types": [
-        "platma-inbuilddb"
-      ],
-      "keywords": [
-        "node-red",
-        "platma",
-        "inbuilddb"
-      ],
-      "url": "https://flows.nodered.org/node/@platmac/node-red-platma-inbuilddb"
     },
     {
       "id": "@daviderib/node-red-semilimes",
@@ -594,6 +749,44 @@
         "node-red"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-homekit-rgb"
+    },
+    {
+      "id": "node-red-contrib-fv-detection-nodes",
+      "version": "1.1.0",
+      "description": "Flexible Vision Detection Nodes",
+      "updated_at": "2024-01-05T23:54:23.180Z",
+      "types": [
+        "server-settings",
+        "cloud-upload",
+        "onprem-upload",
+        "onprem-snap",
+        "open-camera",
+        "get-cam-image",
+        "set-camera-property",
+        "motion-detection",
+        "image-manipulation",
+        "release-camera",
+        "update-inference",
+        "pin-state-get",
+        "pin-state-set",
+        "display-image"
+      ],
+      "keywords": [
+        "node-red",
+        "npm",
+        "nodejs",
+        "javascript",
+        "modules",
+        "IoT",
+        "vision",
+        "AI Vision",
+        "autoML",
+        "Computer Vision",
+        "Machine Learning",
+        "TensorFlow",
+        "Keras"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-fv-detection-nodes"
     },
     {
       "id": "node-red-contrib-virtual-smart-home",
@@ -1079,27 +1272,6 @@
       "url": "https://flows.nodered.org/node/node-red-contrib-smartnora"
     },
     {
-      "id": "@gulpetl/vinyl-ftp",
-      "version": "0.6.1",
-      "description": "Vinyl adapter for FTP",
-      "updated_at": "2024-01-03T05:10:49.986Z",
-      "types": [],
-      "keywords": [
-        "vinyl",
-        "gulp",
-        "ftp",
-        "deploy",
-        "deployment",
-        "upload",
-        "gulp-etl",
-        "gulpetl",
-        "etl",
-        "data",
-        "node-red"
-      ],
-      "url": "https://flows.nodered.org/node/@gulpetl/vinyl-ftp"
-    },
-    {
       "id": "@meshtastic/node-red-contrib-meshtastic",
       "version": "2.2.17-1",
       "description": "Meshtastic protobuf converter for NodeRED",
@@ -1218,35 +1390,6 @@
         "node"
       ],
       "url": "https://flows.nodered.org/node/@ralphwetzel/node-red-systeminformation"
-    },
-    {
-      "id": "@parallaxcontrol/node-red-control",
-      "version": "1.0.34",
-      "description": "A comprehensive package of Node-RED nodes designed to seamlessly integrate with the Parallax Control Engine, offering enhanced control capabilities for AV, IoT, and Industrial Automation.",
-      "updated_at": "2024-01-01T20:15:18.448Z",
-      "types": [
-        "and-gate",
-        "compare-string-text",
-        "input-select",
-        "inverter-gate",
-        "or-gate",
-        "set-reset-latch",
-        "send-single-dictionary",
-        "set-feedback",
-        "clear-signal-state",
-        "recall-signal-state",
-        "save-signal-state",
-        "bool-toggle",
-        "extract-message-data",
-        "system-management"
-      ],
-      "keywords": [
-        "parallaxcontrol",
-        "node-red",
-        "audiovisual",
-        "av"
-      ],
-      "url": "https://flows.nodered.org/node/@parallaxcontrol/node-red-control"
     },
     {
       "id": "node-red-contrib-myhome-bticino-v2",
@@ -1520,26 +1663,6 @@
         "mermaid"
       ],
       "url": "https://flows.nodered.org/node/@gregoriusrippenstein/node-red-contrib-flow2uml"
-    },
-    {
-      "id": "node-red-contrib-genetic-charging-strategy2",
-      "version": "1.0.21",
-      "description": "A module for Node-RED that adds a battery charging strategy to node-red-contrib-power-saver. It uses genetic algorithms to find the best schedule",
-      "updated_at": "2023-12-28T13:35:07.401Z",
-      "types": [
-        "strategy-genetic-charging"
-      ],
-      "keywords": [
-        "node-red",
-        "tibber",
-        "energy",
-        "smarthome",
-        "home-automation",
-        "home-assistant",
-        "power",
-        "powersaver"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-genetic-charging-strategy2"
     },
     {
       "id": "node-red-contrib-deconz",
@@ -7738,20 +7861,6 @@
       "url": "https://flows.nodered.org/node/@good-i-deer/node-red-contrib-object-detection"
     },
     {
-      "id": "node-red-node-exif",
-      "version": "0.4.0",
-      "description": "A Node-RED node that extracts Exif information from JPEG image buffers.",
-      "updated_at": "2023-09-30T14:42:22.305Z",
-      "types": [
-        "exif"
-      ],
-      "keywords": [
-        "node-red",
-        "exif"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-node-exif"
-    },
-    {
       "id": "@good-i-deer/node-red-contrib-chromadb",
       "version": "1.0.5",
       "description": "ChromaDB Node for Node-RED",
@@ -9868,23 +9977,6 @@
         "federated"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-matrix-chat"
-    },
-    {
-      "id": "@smartdcc/dccboxed-nodered-nodes",
-      "version": "0.4.0",
-      "description": "Collection of nodes for NodeRED to facilitate interfacing with DCC Boxed",
-      "updated_at": "2023-09-05T16:00:55.252Z",
-      "types": [],
-      "keywords": [
-        "node-red",
-        "duis",
-        "gbcs",
-        "front-end",
-        "smartdcc",
-        "smartmeter",
-        "smets2"
-      ],
-      "url": "https://flows.nodered.org/node/@smartdcc/dccboxed-nodered-nodes"
     },
     {
       "id": "@sckl/node-red-contrib-oparl",
@@ -13279,6 +13371,26 @@
       "url": "https://flows.nodered.org/node/node-red-contrib-sodick-siot-comm"
     },
     {
+      "id": "@kevingodell/node-red-pipe2jpeg",
+      "version": "0.1.1-beta.2",
+      "description": "Parse a jpeg from a buffer and send it to a downstream node or serve it via http.",
+      "updated_at": "2023-06-11T16:50:29.091Z",
+      "types": [
+        "pipe2jpeg"
+      ],
+      "keywords": [
+        "node-red",
+        "buffer",
+        "jpeg",
+        "mjpeg",
+        "parser",
+        "ffmpeg",
+        "video",
+        "cctv"
+      ],
+      "url": "https://flows.nodered.org/node/@kevingodell/node-red-pipe2jpeg"
+    },
+    {
       "id": "node-red-contrib-tuya-smart-device",
       "version": "5.2.0",
       "description": "A node-red module to interact with the tuya smart devices",
@@ -13905,6 +14017,27 @@
         "xml"
       ],
       "url": "https://flows.nodered.org/node/xslt3transformer"
+    },
+    {
+      "id": "@kevingodell/node-red-mp4frag",
+      "version": "0.1.1-beta.2",
+      "description": "Parse a fragmented mp4 from a buffer and send it to a downstream node or serve it via socket.io and http.",
+      "updated_at": "2023-05-29T22:31:11.384Z",
+      "types": [
+        "mp4frag"
+      ],
+      "keywords": [
+        "node-red",
+        "buffer",
+        "mp4",
+        "fragmented",
+        "fmp4",
+        "parser",
+        "ffmpeg",
+        "video",
+        "cctv"
+      ],
+      "url": "https://flows.nodered.org/node/@kevingodell/node-red-mp4frag"
     },
     {
       "id": "node-red-2stools-packetdecode",
@@ -19755,26 +19888,6 @@
       "url": "https://flows.nodered.org/node/node-red-near-protocol"
     },
     {
-      "id": "@kevingodell/node-red-pipe2jpeg",
-      "version": "0.1.1-beta.1",
-      "description": "Parse a jpeg from a buffer and send it to a downstream node or serve it via http.",
-      "updated_at": "2023-01-07T19:31:48.643Z",
-      "types": [
-        "pipe2jpeg"
-      ],
-      "keywords": [
-        "node-red",
-        "buffer",
-        "jpeg",
-        "mjpeg",
-        "parser",
-        "ffmpeg",
-        "video",
-        "cctv"
-      ],
-      "url": "https://flows.nodered.org/node/@kevingodell/node-red-pipe2jpeg"
-    },
-    {
       "id": "@gorootde/node-red-grist",
       "version": "1.1.0",
       "description": "getgrist.com connectivity for NodeRed",
@@ -20394,24 +20507,6 @@
       "url": "https://flows.nodered.org/node/@chvdapi/node-red-baiduface"
     },
     {
-      "id": "@kevingodell/node-red-ui-mp4frag",
-      "version": "0.1.1-beta.1",
-      "description": "Play fragmented mp4 video in the node-red-dashboard.",
-      "updated_at": "2022-12-23T03:33:01.440Z",
-      "types": [
-        "ui_mp4frag"
-      ],
-      "keywords": [
-        "node-red",
-        "node-red-dashboard",
-        "mp4",
-        "fragmented",
-        "fmp4",
-        "video"
-      ],
-      "url": "https://flows.nodered.org/node/@kevingodell/node-red-ui-mp4frag"
-    },
-    {
       "id": "node-red-contrib-ale-iot-hub",
       "version": "0.0.23",
       "description": "Alcatel-Lucent Enterprise IOT HUB Nodes for Node Red",
@@ -20592,27 +20687,6 @@
         "ffmpeg"
       ],
       "url": "https://flows.nodered.org/node/@kevingodell/node-red-ffmpeg"
-    },
-    {
-      "id": "@kevingodell/node-red-mp4frag",
-      "version": "0.1.1-beta.1",
-      "description": "Parse a fragmented mp4 from a buffer and send it to a downstream node or serve it via socket.io and http.",
-      "updated_at": "2022-12-17T05:02:03.136Z",
-      "types": [
-        "mp4frag"
-      ],
-      "keywords": [
-        "node-red",
-        "buffer",
-        "mp4",
-        "fragmented",
-        "fmp4",
-        "parser",
-        "ffmpeg",
-        "video",
-        "cctv"
-      ],
-      "url": "https://flows.nodered.org/node/@kevingodell/node-red-mp4frag"
     },
     {
       "id": "node-red-contrib-dashboard-bar-chart-data",
@@ -24239,29 +24313,6 @@
         "websocket"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-ignition-nodes"
-    },
-    {
-      "id": "node-red-contrib-fv-detection-nodes",
-      "version": "1.0.9",
-      "description": "Flexible Vision Detection Nodes",
-      "updated_at": "2022-09-08T19:54:28.051Z",
-      "types": [],
-      "keywords": [
-        "node-red",
-        "npm",
-        "nodejs",
-        "javascript",
-        "modules",
-        "IoT",
-        "vision",
-        "AI Vision",
-        "autoML",
-        "Computer Vision",
-        "Machine Learning",
-        "TensorFlow",
-        "Keras"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-fv-detection-nodes"
     },
     {
       "id": "@pizzaprogram/mcp-pcf-aio",
