@@ -1,0 +1,45 @@
+#0 building with "default" instance using docker driver
+
+#1 [internal] load .dockerignore
+#1 transferring context: 2B done
+#1 DONE 0.0s
+
+#2 [internal] load build definition from Dockerfile
+#2 transferring dockerfile: 128B done
+#2 DONE 0.0s
+
+#3 [internal] load metadata for docker.io/nodered/node-red:latest
+#3 DONE 0.1s
+
+#4 [1/2] FROM docker.io/nodered/node-red@sha256:75e48924159f6c6bf4221017069a8b496cab8d0b21d3d0b1fcaf058af8294865
+#4 CACHED
+
+#5 [2/2] RUN npm install npm install @blebtechnology/node-red-blebricks@1.0.16
+#5 3.043 npm WARN EBADENGINE Unsupported engine {
+#5 3.043 npm WARN EBADENGINE   package: 'npm@10.3.0',
+#5 3.043 npm WARN EBADENGINE   required: { node: '^18.17.0 || >=20.5.0' },
+#5 3.043 npm WARN EBADENGINE   current: { node: 'v16.20.2', npm: '8.19.4' }
+#5 3.043 npm WARN EBADENGINE }
+#5 4.506 npm WARN deprecated @npmcli/move-file@1.1.2: This functionality has been moved to @npmcli/fs
+#5 5.508 
+#5 5.508 added 88 packages, and audited 616 packages in 5s
+#5 5.508 
+#5 5.508 70 packages are looking for funding
+#5 5.508   run `npm fund` for details
+#5 5.509 
+#5 5.509 found 0 vulnerabilities
+#5 5.510 npm notice 
+#5 5.510 npm notice New major version of npm available! 8.19.4 -> 10.3.0
+#5 5.510 npm notice Changelog: <https://github.com/npm/cli/releases/tag/v10.3.0>
+#5 5.510 npm notice Run `npm install -g npm@10.3.0` to update!
+#5 5.510 npm notice 
+#5 DONE 5.6s
+
+#6 exporting to image
+#6 exporting layers
+#6 exporting layers 1.2s done
+#6 writing image sha256:0ef61ef9ab8f401c9597550db7da9c24bfb651e66665aa84736f4eec808b3f3c done
+#6 naming to docker.io/library/tmp done
+#6 DONE 1.2s
+
+----
