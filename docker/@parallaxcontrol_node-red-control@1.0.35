@@ -1,0 +1,45 @@
+#0 building with "default" instance using docker driver
+
+#1 [internal] load .dockerignore
+#1 transferring context: 2B done
+#1 DONE 0.0s
+
+#2 [internal] load build definition from Dockerfile
+#2 transferring dockerfile: 127B done
+#2 DONE 0.0s
+
+#3 [internal] load metadata for docker.io/nodered/node-red:latest
+#3 DONE 0.3s
+
+#4 [1/2] FROM docker.io/nodered/node-red@sha256:75e48924159f6c6bf4221017069a8b496cab8d0b21d3d0b1fcaf058af8294865
+#4 CACHED
+
+#5 [2/2] RUN npm install npm install @parallaxcontrol/node-red-control@1.0.35
+#5 5.093 npm WARN EBADENGINE Unsupported engine {
+#5 5.094 npm WARN EBADENGINE   package: 'npm@10.3.0',
+#5 5.094 npm WARN EBADENGINE   required: { node: '^18.17.0 || >=20.5.0' },
+#5 5.094 npm WARN EBADENGINE   current: { node: 'v16.20.2', npm: '8.19.4' }
+#5 5.094 npm WARN EBADENGINE }
+#5 6.553 npm WARN deprecated querystring@0.2.1: The querystring API is considered Legacy. new code should use the URLSearchParams API instead.
+#5 7.623 
+#5 7.623 added 142 packages, and audited 670 packages in 7s
+#5 7.623 
+#5 7.623 72 packages are looking for funding
+#5 7.623   run `npm fund` for details
+#5 7.624 
+#5 7.624 found 0 vulnerabilities
+#5 7.625 npm notice 
+#5 7.625 npm notice New major version of npm available! 8.19.4 -> 10.3.0
+#5 7.625 npm notice Changelog: <https://github.com/npm/cli/releases/tag/v10.3.0>
+#5 7.625 npm notice Run `npm install -g npm@10.3.0` to update!
+#5 7.625 npm notice 
+#5 DONE 7.8s
+
+#6 exporting to image
+#6 exporting layers
+#6 exporting layers 1.7s done
+#6 writing image sha256:f5ff81efae6f1b5877481181fc8e91aad82e5ea3d31a761bc734adb1905b510e done
+#6 naming to docker.io/library/tmp done
+#6 DONE 1.7s
+
+----
