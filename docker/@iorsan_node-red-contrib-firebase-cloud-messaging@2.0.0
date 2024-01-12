@@ -1,0 +1,44 @@
+#0 building with "default" instance using docker driver
+
+#1 [internal] load build definition from Dockerfile
+#1 transferring dockerfile: 142B done
+#1 DONE 0.0s
+
+#2 [internal] load .dockerignore
+#2 transferring context: 2B done
+#2 DONE 0.0s
+
+#3 [internal] load metadata for docker.io/nodered/node-red:latest
+#3 DONE 0.1s
+
+#4 [1/2] FROM docker.io/nodered/node-red@sha256:75e48924159f6c6bf4221017069a8b496cab8d0b21d3d0b1fcaf058af8294865
+#4 CACHED
+
+#5 [2/2] RUN npm install npm install @iorsan/node-red-contrib-firebase-cloud-messaging@2.0.0
+#5 2.835 npm WARN EBADENGINE Unsupported engine {
+#5 2.836 npm WARN EBADENGINE   package: 'npm@10.3.0',
+#5 2.836 npm WARN EBADENGINE   required: { node: '^18.17.0 || >=20.5.0' },
+#5 2.836 npm WARN EBADENGINE   current: { node: 'v16.20.2', npm: '8.19.4' }
+#5 2.836 npm WARN EBADENGINE }
+#5 5.509 
+#5 5.509 added 82 packages, and audited 610 packages in 5s
+#5 5.510 
+#5 5.510 86 packages are looking for funding
+#5 5.510   run `npm fund` for details
+#5 5.511 
+#5 5.511 found 0 vulnerabilities
+#5 5.511 npm notice 
+#5 5.511 npm notice New major version of npm available! 8.19.4 -> 10.3.0
+#5 5.511 npm notice Changelog: <https://github.com/npm/cli/releases/tag/v10.3.0>
+#5 5.511 npm notice Run `npm install -g npm@10.3.0` to update!
+#5 5.511 npm notice 
+#5 DONE 5.6s
+
+#6 exporting to image
+#6 exporting layers
+#6 exporting layers 1.7s done
+#6 writing image sha256:101d77fb59519ed6166d08637d5f8e9dc5511fc0820ca64b8e046b15602534f2 done
+#6 naming to docker.io/library/tmp done
+#6 DONE 1.7s
+
+----
