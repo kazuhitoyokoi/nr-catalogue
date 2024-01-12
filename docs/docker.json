@@ -1,7 +1,291 @@
 {
   "name": "Catalogue for Docker",
-  "updated_at": "2024-01-11T16:00:55.028Z",
+  "updated_at": "2024-01-12T15:59:17.582Z",
   "modules": [
+    {
+      "id": "node-red-contrib-oscar-plants",
+      "version": "0.0.2",
+      "description": "Classify plant images among 10K species from the iNaturalist dataset.",
+      "updated_at": "2024-01-12T11:18:03.551Z",
+      "types": [],
+      "keywords": [
+        "node-red",
+        "OSCAR",
+        "plants",
+        "GRyCAP",
+        "UPV",
+        "AI4EOSC"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-oscar-plants"
+    },
+    {
+      "id": "node-red-contrib-oscar-cowsay",
+      "version": "0.0.1",
+      "description": "The OSCAR Cowsay Service node shows the basic functionality for invoking the OSCAR service synchronously.",
+      "updated_at": "2024-01-12T09:47:13.701Z",
+      "types": [],
+      "keywords": [
+        "node-red",
+        "OSCAR",
+        "cowsay",
+        "GRyCAP",
+        "UPV",
+        "AI4EOSC"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-oscar-cowsay"
+    },
+    {
+      "id": "node-red-contrib-dawnchorus",
+      "version": "0.0.18",
+      "description": "Nodes for uploading birdsongs to dawnchorus.",
+      "updated_at": "2024-01-12T09:22:38.429Z",
+      "types": [
+        "dawn chorus"
+      ],
+      "keywords": [
+        "node-red",
+        "dawnchorus",
+        "birdsong"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-dawnchorus"
+    },
+    {
+      "id": "@industrial-shields/node-red-simplecomm",
+      "version": "1.0.4",
+      "description": "A simple communication node for Node-RED",
+      "updated_at": "2024-01-12T09:17:33.804Z",
+      "types": [
+        "simplecomm-config",
+        "simplecomm-in",
+        "simplecomm-out"
+      ],
+      "keywords": [
+        "Industrial Shields",
+        "SimpleComm",
+        "node-red",
+        "industrial",
+        "arduino"
+      ],
+      "url": "https://flows.nodered.org/node/@industrial-shields/node-red-simplecomm"
+    },
+    {
+      "id": "@gulpetl/vinyl-ftp",
+      "version": "0.7.2",
+      "description": "Vinyl adapter for FTP",
+      "updated_at": "2024-01-12T08:34:23.704Z",
+      "types": [],
+      "keywords": [
+        "vinyl",
+        "gulp",
+        "ftp",
+        "deploy",
+        "deployment",
+        "upload",
+        "gulp-etl",
+        "gulpetl",
+        "etl",
+        "data",
+        "node-red"
+      ],
+      "url": "https://flows.nodered.org/node/@gulpetl/vinyl-ftp"
+    },
+    {
+      "id": "@renyoo/node-red-dfrobot-lorawan-nodes",
+      "version": "1.0.16",
+      "description": "node red nodes for dfrobot-lorawan",
+      "updated_at": "2024-01-12T07:55:51.903Z",
+      "types": [
+        "Decoder",
+        "Packet Item",
+        "LW Receive",
+        "LW Send",
+        "Node List",
+        "Group",
+        "MusicPlayer",
+        "Single Node"
+      ],
+      "keywords": [
+        "node-red",
+        "dfrobot",
+        "lorawan"
+      ],
+      "url": "https://flows.nodered.org/node/@renyoo/node-red-dfrobot-lorawan-nodes"
+    },
+    {
+      "id": "node-red-contrib-homekit-bridged",
+      "version": "1.6.0",
+      "description": "Node-RED nodes to simulate Apple HomeKit devices.",
+      "updated_at": "2024-01-12T00:38:44.221Z",
+      "types": [
+        "nrchkb",
+        "homekit-bridge",
+        "homekit-standalone",
+        "homekit-service",
+        "homekit-service2",
+        "homekit-status"
+      ],
+      "keywords": [
+        "homekit",
+        "node-red",
+        "NRCHKB",
+        "iot",
+        "home",
+        "hap-nodejs",
+        "homebridge"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-homekit-bridged"
+    },
+    {
+      "id": "@gregoriusrippenstein/node-red-contrib-pipestream",
+      "version": "0.0.2",
+      "description": "Nodes to make streaming possible in Node-RED.",
+      "updated_at": "2024-01-11T22:39:15.459Z",
+      "types": [
+        "PipeStart",
+        "FileStream",
+        "HttpRequestStream",
+        "CsvStream",
+        "JsonLStream",
+        "LineStream",
+        "IconvStream",
+        "DeCompStream",
+        "ArchiveStream",
+        "PipeEnd"
+      ],
+      "keywords": [
+        "node-red"
+      ],
+      "url": "https://flows.nodered.org/node/@gregoriusrippenstein/node-red-contrib-pipestream"
+    },
+    {
+      "id": "victron-vrm-api",
+      "version": "0.1.3",
+      "description": "Interface with the Victron Energy VRM API",
+      "updated_at": "2024-01-11T21:18:38.449Z",
+      "types": [
+        "config-vrm-api",
+        "vrm-api"
+      ],
+      "keywords": [
+        "node-red",
+        "victron",
+        "vrm",
+        "api"
+      ],
+      "url": "https://flows.nodered.org/node/victron-vrm-api"
+    },
+    {
+      "id": "thingzi-logic-twinkly",
+      "version": "1.3.7",
+      "description": "Twinkly lights control via node red",
+      "updated_at": "2024-01-11T21:08:46.324Z",
+      "types": [
+        "thingzi-twinkly-get",
+        "thingzi-twinkly-set"
+      ],
+      "keywords": [
+        "node-red",
+        "lights",
+        "halloween",
+        "christmas",
+        "twinkly",
+        "led",
+        "decorations"
+      ],
+      "url": "https://flows.nodered.org/node/thingzi-logic-twinkly"
+    },
+    {
+      "id": "node-red-contrib-esphome",
+      "version": "0.2.7",
+      "description": "Node-RED nodes to ESPhome devices",
+      "updated_at": "2024-01-11T18:24:41.275Z",
+      "types": [
+        "esphome-device",
+        "esphome-in",
+        "esphome-out"
+      ],
+      "keywords": [
+        "node-red",
+        "esphome",
+        "esp",
+        "home",
+        "esp32",
+        "esp8266",
+        "iot"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-esphome"
+    },
+    {
+      "id": "@iorsan/node-red-contrib-firebase-cloud-messaging",
+      "version": "2.0.0",
+      "description": "Custom node to send push notifications to firebase",
+      "updated_at": "2024-01-11T16:05:06.013Z",
+      "types": [
+        "FCM Send",
+        "FCM Config"
+      ],
+      "keywords": [
+        "admin",
+        "firebase",
+        "node-red",
+        "custom-node"
+      ],
+      "url": "https://flows.nodered.org/node/@iorsan/node-red-contrib-firebase-cloud-messaging"
+    },
+    {
+      "id": "@semilimes/node-red-semilimes",
+      "version": "0.9.4",
+      "description": "The new semilimes connector which integrates with the public API",
+      "updated_at": "2024-01-11T15:47:02.099Z",
+      "types": [
+        "sme-main-connector",
+        "sme-main-actionSelector",
+        "sme-main-sender",
+        "sme-main-listener",
+        "sme-main-sshTunnel",
+        "sme-comp-text",
+        "sme-comp-html",
+        "sme-comp-file",
+        "sme-comp-contact",
+        "sme-comp-location",
+        "sme-comp-webview",
+        "sme-comp-channel",
+        "sme-comp-tunnel",
+        "sme-comp-form",
+        "sme-formComp-label",
+        "sme-formComp-textBox",
+        "sme-formComp-buttonList",
+        "sme-formComp-singleChoice",
+        "sme-formComp-multiChoice",
+        "sme-formComp-switch",
+        "sme-formComp-slider",
+        "sme-formComp-datePicker",
+        "sme-formComp-timePicker",
+        "sme-formComp-locationPicker",
+        "sme-formComp-photoPicker",
+        "sme-formComp-filePicker",
+        "sme-formComp-contactPicker",
+        "sme-formComp-groupChatPicker",
+        "sme-formComp-channelPicker",
+        "sme-formComp-bucketPicker",
+        "sme-formComp-hiddenValue",
+        "sme-formComp-qrCodeScanner",
+        "sme-formComp-nfcReader",
+        "sme-filter-formSubmission"
+      ],
+      "keywords": [
+        "semilimes",
+        "iot",
+        "connector",
+        "node-red",
+        "mobile phone",
+        "interface",
+        "remote access",
+        "ssh tunnel",
+        "websocket"
+      ],
+      "url": "https://flows.nodered.org/node/@semilimes/node-red-semilimes"
+    },
     {
       "id": "@nickcuper/node-red-contrib-html-pro",
       "version": "1.0.1",
@@ -174,51 +458,6 @@
       "url": "https://flows.nodered.org/node/@platmac/node-red-platma-inbuilddb"
     },
     {
-      "id": "@gulpetl/vinyl-ftp",
-      "version": "0.7.1",
-      "description": "Vinyl adapter for FTP",
-      "updated_at": "2024-01-11T05:51:52.385Z",
-      "types": [],
-      "keywords": [
-        "vinyl",
-        "gulp",
-        "ftp",
-        "deploy",
-        "deployment",
-        "upload",
-        "gulp-etl",
-        "gulpetl",
-        "etl",
-        "data",
-        "node-red"
-      ],
-      "url": "https://flows.nodered.org/node/@gulpetl/vinyl-ftp"
-    },
-    {
-      "id": "@renyoo/node-red-dfrobot-lorawan-nodes",
-      "version": "1.0.15",
-      "description": "node red nodes for dfrobot-lorawan",
-      "updated_at": "2024-01-11T04:26:12.624Z",
-      "types": [
-        "Decoder",
-        "Packet Item",
-        "LW Receive",
-        "LW Send",
-        "Node List",
-        "Group",
-        "GW Events",
-        "MusicPlayer",
-        "Single Node"
-      ],
-      "keywords": [
-        "node-red",
-        "dfrobot",
-        "lorawan",
-        "renyoo"
-      ],
-      "url": "https://flows.nodered.org/node/@renyoo/node-red-dfrobot-lorawan-nodes"
-    },
-    {
       "id": "node-red-contrib-xsltransform",
       "version": "0.5.22",
       "description": "Node-RED node node to tranform xml content using saxon-js.",
@@ -280,25 +519,6 @@
         "exif"
       ],
       "url": "https://flows.nodered.org/node/node-red-node-exif"
-    },
-    {
-      "id": "@industrial-shields/node-red-simplecomm",
-      "version": "1.0.3",
-      "description": "A simple communication node for Node-RED",
-      "updated_at": "2024-01-10T10:32:49.343Z",
-      "types": [
-        "simplecomm-config",
-        "simplecomm-in",
-        "simplecomm-out"
-      ],
-      "keywords": [
-        "Industrial Shields",
-        "SimpleComm",
-        "node-red",
-        "industrial",
-        "arduino"
-      ],
-      "url": "https://flows.nodered.org/node/@industrial-shields/node-red-simplecomm"
     },
     {
       "id": "node-red-contrib-alexa-master-function",
@@ -867,23 +1087,6 @@
         "lower-case"
       ],
       "url": "https://flows.nodered.org/node/@daisugiura/node-red-contrib-example-lower-case"
-    },
-    {
-      "id": "victron-vrm-api",
-      "version": "0.1.2",
-      "description": "Interface with the Victron Energy VRM API",
-      "updated_at": "2024-01-05T08:31:59.675Z",
-      "types": [
-        "config-vrm-api",
-        "vrm-api"
-      ],
-      "keywords": [
-        "node-red",
-        "victron",
-        "vrm",
-        "api"
-      ],
-      "url": "https://flows.nodered.org/node/victron-vrm-api"
     },
     {
       "id": "apconic-node-red-image-service",
@@ -1530,27 +1733,6 @@
       "url": "https://flows.nodered.org/node/node-red-contrib-google-smarthome"
     },
     {
-      "id": "node-red-contrib-esphome",
-      "version": "0.2.6",
-      "description": "Node-RED nodes to ESPhome devices",
-      "updated_at": "2023-12-30T13:50:03.615Z",
-      "types": [
-        "esphome-device",
-        "esphome-in",
-        "esphome-out"
-      ],
-      "keywords": [
-        "node-red",
-        "esphome",
-        "esp",
-        "home",
-        "esp32",
-        "esp8266",
-        "iot"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-esphome"
-    },
-    {
       "id": "node-red-contrib-nspanel-lui",
       "version": "0.0.1-alpha.51",
       "description": "Node-RED based backend for NSPanel Lovelace UI custom firmware.",
@@ -1883,21 +2065,6 @@
         "алиса"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-alice"
-    },
-    {
-      "id": "node-red-contrib-dawnchorus",
-      "version": "0.0.15",
-      "description": "Nodes for uploading birdsongs to dawnchorus.",
-      "updated_at": "2023-12-25T16:07:05.758Z",
-      "types": [
-        "dawn chorus"
-      ],
-      "keywords": [
-        "node-red",
-        "dawnchorus",
-        "birdsong"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-dawnchorus"
     },
     {
       "id": "node-red-node-tmeter-emulator",
@@ -5226,26 +5393,6 @@
         "atomic"
       ],
       "url": "https://flows.nodered.org/node/atomic-mssql"
-    },
-    {
-      "id": "thingzi-logic-twinkly",
-      "version": "1.3.4",
-      "description": "Twinkly lights control via node red",
-      "updated_at": "2023-11-05T21:15:52.469Z",
-      "types": [
-        "thingzi-twinkly-get",
-        "thingzi-twinkly-set"
-      ],
-      "keywords": [
-        "node-red",
-        "lights",
-        "halloween",
-        "christmas",
-        "twinkly",
-        "led",
-        "decorations"
-      ],
-      "url": "https://flows.nodered.org/node/thingzi-logic-twinkly"
     },
     {
       "id": "@gregoriusrippenstein/node-red-contrib-auto-alignment",
@@ -21568,30 +21715,6 @@
         "node-red"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-objtalk"
-    },
-    {
-      "id": "node-red-contrib-homekit-bridged",
-      "version": "1.5.0",
-      "description": "Node-RED nodes to simulate Apple HomeKit devices.",
-      "updated_at": "2022-11-20T18:31:55.563Z",
-      "types": [
-        "nrchkb",
-        "homekit-bridge",
-        "homekit-standalone",
-        "homekit-service",
-        "homekit-service2",
-        "homekit-status"
-      ],
-      "keywords": [
-        "homekit",
-        "node-red",
-        "NRCHKB",
-        "iot",
-        "home",
-        "hap-nodejs",
-        "homebridge"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-homekit-bridged"
     },
     {
       "id": "@prescient-devices/node-red-contrib-usb-camera",
