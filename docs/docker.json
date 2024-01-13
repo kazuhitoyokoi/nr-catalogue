@@ -1,7 +1,297 @@
 {
   "name": "Catalogue for Docker",
-  "updated_at": "2024-01-12T15:59:17.582Z",
+  "updated_at": "2024-01-13T16:00:42.860Z",
   "modules": [
+    {
+      "id": "@gregoriusrippenstein/node-red-streaming",
+      "version": "0.0.3",
+      "description": "Nodes to make streaming possible in Node-RED.",
+      "updated_at": "2024-01-13T12:45:26.419Z",
+      "types": [
+        "PipeStart",
+        "FileStream",
+        "HttpRequestStream",
+        "CsvStream",
+        "JsonLStream",
+        "LineStream",
+        "IconvStream",
+        "DeCompStream",
+        "ArchiveStream",
+        "PipeEnd"
+      ],
+      "keywords": [
+        "node-red",
+        "streaming",
+        "pipeline",
+        "etl"
+      ],
+      "url": "https://flows.nodered.org/node/@gregoriusrippenstein/node-red-streaming"
+    },
+    {
+      "id": "node-red-contrib-semilimes",
+      "version": "1.0.44",
+      "description": "Node-RED semilimes",
+      "updated_at": "2024-01-13T12:15:33.087Z",
+      "types": [
+        "sme-connector",
+        "sme-listener",
+        "sme-sender",
+        "sme-uploader",
+        "sme-bucketcreator",
+        "sme-bucketselector",
+        "sme-bucketupdater",
+        "sme-sshtunnel",
+        "sme-textmessage",
+        "sme-htmlmessage",
+        "sme-filemessage",
+        "sme-calendarmessage",
+        "sme-webviewmessage",
+        "sme-form",
+        "sme-formsubmission",
+        "sme-formsetter",
+        "sme-messageoption",
+        "sme-messagedeleter",
+        "sme-label",
+        "sme-textbox",
+        "sme-buttonlist",
+        "sme-singlechoice",
+        "sme-multichoice",
+        "sme-toggle",
+        "sme-slider",
+        "sme-datepicker",
+        "sme-timepicker",
+        "sme-locationpicker",
+        "sme-photopicker",
+        "sme-filepicker",
+        "sme-contactpicker",
+        "sme-qrscanner",
+        "sme-nfcreader",
+        "sme-conversationpicker"
+      ],
+      "keywords": [
+        "node-red",
+        "semilimes"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-semilimes"
+    },
+    {
+      "id": "node-red-contrib-flightradar24",
+      "version": "0.3.1",
+      "description": "Node-RED node to fetch aircraft data from Flightradar24",
+      "updated_at": "2024-01-13T10:57:52.150Z",
+      "types": [
+        "flightradar24"
+      ],
+      "keywords": [
+        "node-red",
+        "flight",
+        "flightradar24"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-flightradar24"
+    },
+    {
+      "id": "@technithusiast/node-red-contrib-ai-intent",
+      "version": "1.1.43",
+      "description": "A collection of nodes to elevate a user's automation interactions",
+      "updated_at": "2024-01-13T09:22:56.343Z",
+      "types": [
+        "Register Intent",
+        "Call Intent",
+        "OpenAI User",
+        "OpenAI System",
+        "OpenAI Chat",
+        "OpenAI Response",
+        "OpenAI Tool",
+        "openai-configuration"
+      ],
+      "keywords": [
+        "node-red"
+      ],
+      "url": "https://flows.nodered.org/node/@technithusiast/node-red-contrib-ai-intent"
+    },
+    {
+      "id": "node-red-contrib-manipulator",
+      "version": "0.0.3",
+      "description": "2d manipulator Node-RED UI widget",
+      "updated_at": "2024-01-13T07:27:55.010Z",
+      "types": [
+        "ui_manipulator_widget"
+      ],
+      "keywords": [
+        "ui",
+        "button",
+        "state",
+        "selection",
+        "nodered",
+        "node",
+        "red",
+        "node-red"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-manipulator"
+    },
+    {
+      "id": "node-red-contrib-custom-chatgpt",
+      "version": "1.2.15",
+      "description": "A Node-RED node that interacts with OpenAI machine learning models to generate text and image outputs like 'ChatGPT' and 'DALL·E 2'.",
+      "updated_at": "2024-01-13T00:36:25.043Z",
+      "types": [
+        "chatgpt"
+      ],
+      "keywords": [
+        "node-red",
+        "chatgpt",
+        "nodejs",
+        "javascript",
+        "api",
+        "flow",
+        "npm",
+        "machine-learning",
+        "node",
+        "example",
+        "text-generation",
+        "openai",
+        "image-generation",
+        "code-generation",
+        "conversational-ai",
+        "gpt-3",
+        "gpt-4",
+        "dall-e",
+        "ai"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-custom-chatgpt"
+    },
+    {
+      "id": "@gregoriusrippenstein/node-red-contrib-aisbreaker",
+      "version": "0.1.17",
+      "description": "Node-RED wrapper node for AIsBreaker.org",
+      "updated_at": "2024-01-12T20:13:14.212Z",
+      "types": [
+        "AIsBreaker"
+      ],
+      "keywords": [
+        "node-red",
+        "algorithmic-intelligence",
+        "ai",
+        "generative-ai",
+        "openai",
+        "huggingface"
+      ],
+      "url": "https://flows.nodered.org/node/@gregoriusrippenstein/node-red-contrib-aisbreaker"
+    },
+    {
+      "id": "@parallaxcontrol/node-red-control",
+      "version": "1.0.36",
+      "description": "A comprehensive package of Node-RED nodes designed to seamlessly integrate with the Parallax Control Engine, offering enhanced control capabilities for AV, IoT, and Industrial Automation.",
+      "updated_at": "2024-01-12T19:11:29.752Z",
+      "types": [
+        "and-gate",
+        "compare-string-text",
+        "input-select",
+        "inverter-gate",
+        "or-gate",
+        "set-reset-latch",
+        "send-single-dictionary",
+        "set-feedback",
+        "clear-signal-state",
+        "recall-signal-state",
+        "save-signal-state",
+        "bool-toggle",
+        "extract-message-data",
+        "system-management"
+      ],
+      "keywords": [
+        "parallaxcontrol",
+        "node-red",
+        "audiovisual",
+        "av"
+      ],
+      "url": "https://flows.nodered.org/node/@parallaxcontrol/node-red-control"
+    },
+    {
+      "id": "node-red-contrib-http-event-collector",
+      "version": "1.1.0",
+      "description": "The purpose of this project is to allow node-red to publish a node-red payload to Splunk's HTTP Event Collector.",
+      "updated_at": "2024-01-12T18:04:43.544Z",
+      "types": [
+        "splunk-http-event-config",
+        "splunk-http-event-collector"
+      ],
+      "keywords": [
+        "splunk",
+        "HTTP Event Collector",
+        "node-red"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-http-event-collector"
+    },
+    {
+      "id": "@strato-automation/node-red-contrib-strato-automation",
+      "version": "0.3.2",
+      "description": "Strato Automation Official Node Red Library",
+      "updated_at": "2024-01-12T16:38:24.944Z",
+      "types": [
+        "input",
+        "output",
+        "ocn-server",
+        "func-on-off",
+        "func-ramp",
+        "func-min",
+        "func-max",
+        "const",
+        "input-topic",
+        "unit-converter",
+        "logic-gate",
+        "not-gate",
+        "psychrometric-calculator",
+        "strato-pid",
+        "signal-generator",
+        "deadband"
+      ],
+      "keywords": [
+        "node-red",
+        "node-red-node"
+      ],
+      "url": "https://flows.nodered.org/node/@strato-automation/node-red-contrib-strato-automation"
+    },
+    {
+      "id": "@platmac/node-red-platma-inbuilddb",
+      "version": "1.0.5",
+      "description": "Node is providing full access to InBuild DB of Platma.",
+      "updated_at": "2024-01-12T15:34:29.563Z",
+      "types": [
+        "platma-inbuilddb"
+      ],
+      "keywords": [
+        "node-red",
+        "platma",
+        "inbuilddb"
+      ],
+      "url": "https://flows.nodered.org/node/@platmac/node-red-platma-inbuilddb"
+    },
+    {
+      "id": "@gregoriusrippenstein/node-red-contrib-pipestream",
+      "version": "0.0.3",
+      "description": "Nodes to make streaming possible in Node-RED.",
+      "updated_at": "2024-01-12T15:23:15.153Z",
+      "types": [
+        "PipeStart",
+        "FileStream",
+        "HttpRequestStream",
+        "CsvStream",
+        "JsonLStream",
+        "LineStream",
+        "IconvStream",
+        "DeCompStream",
+        "ArchiveStream",
+        "PipeEnd"
+      ],
+      "keywords": [
+        "node-red",
+        "streaming",
+        "pipeline",
+        "etl"
+      ],
+      "url": "https://flows.nodered.org/node/@gregoriusrippenstein/node-red-contrib-pipestream"
+    },
     {
       "id": "node-red-contrib-oscar-plants",
       "version": "0.0.2",
@@ -134,28 +424,6 @@
         "homebridge"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-homekit-bridged"
-    },
-    {
-      "id": "@gregoriusrippenstein/node-red-contrib-pipestream",
-      "version": "0.0.2",
-      "description": "Nodes to make streaming possible in Node-RED.",
-      "updated_at": "2024-01-11T22:39:15.459Z",
-      "types": [
-        "PipeStart",
-        "FileStream",
-        "HttpRequestStream",
-        "CsvStream",
-        "JsonLStream",
-        "LineStream",
-        "IconvStream",
-        "DeCompStream",
-        "ArchiveStream",
-        "PipeEnd"
-      ],
-      "keywords": [
-        "node-red"
-      ],
-      "url": "https://flows.nodered.org/node/@gregoriusrippenstein/node-red-contrib-pipestream"
     },
     {
       "id": "victron-vrm-api",
@@ -443,21 +711,6 @@
       "url": "https://flows.nodered.org/node/node-red-contrib-genetic-charging-strategy2"
     },
     {
-      "id": "@platmac/node-red-platma-inbuilddb",
-      "version": "1.0.4",
-      "description": "Node is providing full access to InBuild DB of Platma.",
-      "updated_at": "2024-01-11T07:49:41.719Z",
-      "types": [
-        "platma-inbuilddb"
-      ],
-      "keywords": [
-        "node-red",
-        "platma",
-        "inbuilddb"
-      ],
-      "url": "https://flows.nodered.org/node/@platmac/node-red-platma-inbuilddb"
-    },
-    {
       "id": "node-red-contrib-xsltransform",
       "version": "0.5.22",
       "description": "Node-RED node node to tranform xml content using saxon-js.",
@@ -476,35 +729,6 @@
         "xslt3.0"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-xsltransform"
-    },
-    {
-      "id": "@parallaxcontrol/node-red-control",
-      "version": "1.0.35",
-      "description": "A comprehensive package of Node-RED nodes designed to seamlessly integrate with the Parallax Control Engine, offering enhanced control capabilities for AV, IoT, and Industrial Automation.",
-      "updated_at": "2024-01-10T20:09:00.072Z",
-      "types": [
-        "and-gate",
-        "compare-string-text",
-        "input-select",
-        "inverter-gate",
-        "or-gate",
-        "set-reset-latch",
-        "send-single-dictionary",
-        "set-feedback",
-        "clear-signal-state",
-        "recall-signal-state",
-        "save-signal-state",
-        "bool-toggle",
-        "extract-message-data",
-        "system-management"
-      ],
-      "keywords": [
-        "parallaxcontrol",
-        "node-red",
-        "audiovisual",
-        "av"
-      ],
-      "url": "https://flows.nodered.org/node/@parallaxcontrol/node-red-control"
     },
     {
       "id": "node-red-node-exif",
@@ -728,21 +952,6 @@
       "url": "https://flows.nodered.org/node/node-red-contrib-mime-generator"
     },
     {
-      "id": "node-red-contrib-flightradar24",
-      "version": "0.2.0",
-      "description": "Node-RED node to fetch aircraft data from Flightradar24",
-      "updated_at": "2024-01-08T10:09:04.741Z",
-      "types": [
-        "flightradar24"
-      ],
-      "keywords": [
-        "node-red",
-        "flight",
-        "flightradar24"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-flightradar24"
-    },
-    {
       "id": "node-red-contrib-oscar-service-cowsay",
       "version": "1.0.5",
       "description": "The OSCAR Cowsay Service node shows the basic functionality for invoking the OSCAR service synchronously.",
@@ -930,26 +1139,6 @@
         "philips hue"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-knx-ultimate"
-    },
-    {
-      "id": "@technithusiast/node-red-contrib-ai-intent",
-      "version": "1.1.41",
-      "description": "A collection of nodes to elevate a user's automation interactions",
-      "updated_at": "2024-01-06T09:13:51.280Z",
-      "types": [
-        "Register Intent",
-        "Call Intent",
-        "OpenAI User",
-        "OpenAI System",
-        "OpenAI Chat",
-        "OpenAI Response",
-        "OpenAI Tool",
-        "openai-configuration"
-      ],
-      "keywords": [
-        "node-red"
-      ],
-      "url": "https://flows.nodered.org/node/@technithusiast/node-red-contrib-ai-intent"
     },
     {
       "id": "node-red-contrib-homekit-rgb",
@@ -2334,35 +2523,6 @@
       "url": "https://flows.nodered.org/node/@tonymacdonald/node-red-rapt-pull"
     },
     {
-      "id": "@strato-automation/node-red-contrib-strato-automation",
-      "version": "0.3.1",
-      "description": "Strato Automation Official Node Red Library",
-      "updated_at": "2023-12-21T16:05:07.498Z",
-      "types": [
-        "input",
-        "output",
-        "ocn-server",
-        "func-on-off",
-        "func-ramp",
-        "func-min",
-        "func-max",
-        "const",
-        "input-topic",
-        "unit-converter",
-        "logic-gate",
-        "not-gate",
-        "psychrometric-calculator",
-        "strato-pid",
-        "signal-generator",
-        "deadband"
-      ],
-      "keywords": [
-        "node-red",
-        "node-red-node"
-      ],
-      "url": "https://flows.nodered.org/node/@strato-automation/node-red-contrib-strato-automation"
-    },
-    {
       "id": "node-red-notion",
       "version": "1.1.0",
       "description": "Node-RED Notion nodes",
@@ -3086,24 +3246,6 @@
         "orbis"
       ],
       "url": "https://flows.nodered.org/node/@orbis-developers/node-red-viaris"
-    },
-    {
-      "id": "@gregoriusrippenstein/node-red-contrib-aisbreaker",
-      "version": "0.1.16",
-      "description": "Node-RED wrapper node for AIsBreaker.org",
-      "updated_at": "2023-12-11T18:32:15.830Z",
-      "types": [
-        "AIsBreaker"
-      ],
-      "keywords": [
-        "node-red",
-        "algorithmic-intelligence",
-        "ai",
-        "generative-ai",
-        "openai",
-        "huggingface"
-      ],
-      "url": "https://flows.nodered.org/node/@gregoriusrippenstein/node-red-contrib-aisbreaker"
     },
     {
       "id": "node-red-contrib-nupmes",
@@ -5294,37 +5436,6 @@
         "queue"
       ],
       "url": "https://flows.nodered.org/node/@marcus-j-davies/node-red-semaphore-plus"
-    },
-    {
-      "id": "node-red-contrib-custom-chatgpt",
-      "version": "1.2.12",
-      "description": "A Node-RED node that interacts with OpenAI machine learning models to generate text and image outputs like 'ChatGPT' and 'DALL·E 2'.",
-      "updated_at": "2023-11-07T14:20:56.986Z",
-      "types": [
-        "chatgpt"
-      ],
-      "keywords": [
-        "node-red",
-        "chatgpt",
-        "nodejs",
-        "javascript",
-        "api",
-        "flow",
-        "npm",
-        "machine-learning",
-        "node",
-        "example",
-        "text-generation",
-        "openai",
-        "image-generation",
-        "code-generation",
-        "conversational-ai",
-        "gpt-3",
-        "gpt-4",
-        "dall-e",
-        "ai"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-custom-chatgpt"
     },
     {
       "id": "node-red-contrib-pid",
@@ -14353,53 +14464,6 @@
         "jsonata"
       ],
       "url": "https://flows.nodered.org/node/autana-api-gateway"
-    },
-    {
-      "id": "node-red-contrib-semilimes",
-      "version": "1.0.43",
-      "description": "Node-RED semilimes",
-      "updated_at": "2023-05-25T23:54:22.543Z",
-      "types": [
-        "sme-connector",
-        "sme-listener",
-        "sme-sender",
-        "sme-uploader",
-        "sme-bucketcreator",
-        "sme-bucketselector",
-        "sme-bucketupdater",
-        "sme-sshtunnel",
-        "sme-textmessage",
-        "sme-htmlmessage",
-        "sme-filemessage",
-        "sme-calendarmessage",
-        "sme-webviewmessage",
-        "sme-form",
-        "sme-formsubmission",
-        "sme-formsetter",
-        "sme-messageoption",
-        "sme-messagedeleter",
-        "sme-label",
-        "sme-textbox",
-        "sme-buttonlist",
-        "sme-singlechoice",
-        "sme-multichoice",
-        "sme-toggle",
-        "sme-slider",
-        "sme-datepicker",
-        "sme-timepicker",
-        "sme-locationpicker",
-        "sme-photopicker",
-        "sme-filepicker",
-        "sme-contactpicker",
-        "sme-qrscanner",
-        "sme-nfcreader",
-        "sme-conversationpicker"
-      ],
-      "keywords": [
-        "node-red",
-        "semilimes"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-semilimes"
     },
     {
       "id": "node-red-contrib-freebox",
@@ -38307,27 +38371,6 @@
         "mosaiq"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-mosaiq"
-    },
-    {
-      "id": "node-red-contrib-http-event-collector",
-      "version": "0.2.0",
-      "description": "The purpose of this project is to allow node-red to publish a node-red payload to Splunk's HTTP Event Collector.",
-      "updated_at": "2021-07-27T19:09:07.595Z",
-      "types": [
-        "splunk-http-event-collector",
-        "splunk-http-event-collector-metric"
-      ],
-      "keywords": [
-        "splunk",
-        "HTTP Event Collector",
-        "node-red",
-        "HEC",
-        "Machine",
-        "Machine Data",
-        "Analytics",
-        "Machine Learning"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-http-event-collector"
     },
     {
       "id": "node-red-contrib-time-controller",
