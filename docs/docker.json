@@ -1,12 +1,38 @@
 {
   "name": "Catalogue for Docker",
-  "updated_at": "2024-01-13T16:00:42.860Z",
+  "updated_at": "2024-01-14T16:00:09.569Z",
   "modules": [
     {
       "id": "@gregoriusrippenstein/node-red-streaming",
-      "version": "0.0.3",
+      "version": "0.0.5",
       "description": "Nodes to make streaming possible in Node-RED.",
-      "updated_at": "2024-01-13T12:45:26.419Z",
+      "updated_at": "2024-01-13T15:52:36.730Z",
+      "types": [
+        "PipeStart",
+        "FileStream",
+        "HttpRequestStream",
+        "CsvStream",
+        "JsonLStream",
+        "LineStream",
+        "IconvStream",
+        "DeCompStream",
+        "ArchiveStream",
+        "PipeEnd"
+      ],
+      "keywords": [
+        "node-red",
+        "streaming",
+        "pipeline",
+        "etl",
+        "streamapi"
+      ],
+      "url": "https://flows.nodered.org/node/@gregoriusrippenstein/node-red-streaming"
+    },
+    {
+      "id": "@gregoriusrippenstein/node-red-contrib-pipestream",
+      "version": "0.0.4",
+      "description": "Nodes to make streaming possible in Node-RED.",
+      "updated_at": "2024-01-13T12:47:24.038Z",
       "types": [
         "PipeStart",
         "FileStream",
@@ -25,7 +51,7 @@
         "pipeline",
         "etl"
       ],
-      "url": "https://flows.nodered.org/node/@gregoriusrippenstein/node-red-streaming"
+      "url": "https://flows.nodered.org/node/@gregoriusrippenstein/node-red-contrib-pipestream"
     },
     {
       "id": "node-red-contrib-semilimes",
@@ -266,31 +292,6 @@
         "inbuilddb"
       ],
       "url": "https://flows.nodered.org/node/@platmac/node-red-platma-inbuilddb"
-    },
-    {
-      "id": "@gregoriusrippenstein/node-red-contrib-pipestream",
-      "version": "0.0.3",
-      "description": "Nodes to make streaming possible in Node-RED.",
-      "updated_at": "2024-01-12T15:23:15.153Z",
-      "types": [
-        "PipeStart",
-        "FileStream",
-        "HttpRequestStream",
-        "CsvStream",
-        "JsonLStream",
-        "LineStream",
-        "IconvStream",
-        "DeCompStream",
-        "ArchiveStream",
-        "PipeEnd"
-      ],
-      "keywords": [
-        "node-red",
-        "streaming",
-        "pipeline",
-        "etl"
-      ],
-      "url": "https://flows.nodered.org/node/@gregoriusrippenstein/node-red-contrib-pipestream"
     },
     {
       "id": "node-red-contrib-oscar-plants",
@@ -1262,6 +1263,19 @@
         "node-red"
       ],
       "url": "https://flows.nodered.org/node/@flowfuse/node-red-dashboard"
+    },
+    {
+      "id": "@victronenergy/node-red-contrib-victron",
+      "version": "1.5.8",
+      "description": "Custom Node-RED Nodes for Victron Energy",
+      "updated_at": "2024-01-05T14:30:11.042Z",
+      "types": [
+        "victron-client"
+      ],
+      "keywords": [
+        "node-red"
+      ],
+      "url": "https://flows.nodered.org/node/@victronenergy/node-red-contrib-victron"
     },
     {
       "id": "@daisugiura/node-red-contrib-example-lower-case",
@@ -3113,19 +3127,6 @@
         "victron"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-relaycontrol"
-    },
-    {
-      "id": "@victronenergy/node-red-contrib-victron",
-      "version": "1.5.7",
-      "description": "Custom Node-RED Nodes for Victron Energy",
-      "updated_at": "2023-12-13T11:36:55.956Z",
-      "types": [
-        "victron-client"
-      ],
-      "keywords": [
-        "node-red"
-      ],
-      "url": "https://flows.nodered.org/node/@victronenergy/node-red-contrib-victron"
     },
     {
       "id": "node-red-contrib-ssh-v3",
