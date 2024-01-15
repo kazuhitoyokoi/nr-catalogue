@@ -1,7 +1,228 @@
 {
   "name": "Catalogue for Docker",
-  "updated_at": "2024-01-14T16:00:09.569Z",
+  "updated_at": "2024-01-15T16:00:51.399Z",
   "modules": [
+    {
+      "id": "@nickiv/node-red-huawei-sms",
+      "version": "0.0.9",
+      "description": "Nodes to send and receive SMS from Huawei LTE USB Stick",
+      "updated_at": "2024-01-15T14:11:40.266Z",
+      "types": [
+        "huawei-sms-send",
+        "huawei-sms-receive",
+        "huawei-sms-config"
+      ],
+      "keywords": [
+        "node-red",
+        "sms",
+        "huawei"
+      ],
+      "url": "https://flows.nodered.org/node/@nickiv/node-red-huawei-sms"
+    },
+    {
+      "id": "@semilimes/node-red-semilimes",
+      "version": "0.9.6",
+      "description": "The new semilimes connector which integrates with the public API",
+      "updated_at": "2024-01-15T12:11:57.861Z",
+      "types": [
+        "sme-main-connector",
+        "sme-main-actionSelector",
+        "sme-main-sender",
+        "sme-main-listener",
+        "sme-main-sshTunnel",
+        "sme-main-formSaver",
+        "sme-main-formLoader",
+        "sme-main-formUpdater",
+        "sme-main-uploader",
+        "sme-comp-text",
+        "sme-comp-html",
+        "sme-comp-file",
+        "sme-comp-contact",
+        "sme-comp-location",
+        "sme-comp-webview",
+        "sme-comp-channel",
+        "sme-comp-tunnel",
+        "sme-comp-form",
+        "sme-formComp-label",
+        "sme-formComp-textBox",
+        "sme-formComp-buttonList",
+        "sme-formComp-singleChoice",
+        "sme-formComp-multiChoice",
+        "sme-formComp-switch",
+        "sme-formComp-slider",
+        "sme-formComp-datePicker",
+        "sme-formComp-timePicker",
+        "sme-formComp-locationPicker",
+        "sme-formComp-photoPicker",
+        "sme-formComp-filePicker",
+        "sme-formComp-contactPicker",
+        "sme-formComp-groupChatPicker",
+        "sme-formComp-channelPicker",
+        "sme-formComp-bucketPicker",
+        "sme-formComp-hiddenValue",
+        "sme-formComp-qrCodeScanner",
+        "sme-formComp-nfcReader",
+        "sme-filter-formSubmission"
+      ],
+      "keywords": [
+        "semilimes",
+        "iot",
+        "connector",
+        "node-red",
+        "mobile phone",
+        "interface",
+        "remote access",
+        "ssh tunnel",
+        "websocket"
+      ],
+      "url": "https://flows.nodered.org/node/@semilimes/node-red-semilimes"
+    },
+    {
+      "id": "node-red-contrib-oscar-plants-classification",
+      "version": "0.0.1",
+      "description": "Classify plant images among 10K species from the iNaturalist dataset.",
+      "updated_at": "2024-01-15T11:34:51.141Z",
+      "types": [],
+      "keywords": [
+        "node-red",
+        "OSCAR",
+        "plants",
+        "GRyCAP",
+        "UPV",
+        "AI4EOSC"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-oscar-plants-classification"
+    },
+    {
+      "id": "@iotechcherry/node-red-lower-case",
+      "version": "0.0.2",
+      "description": "**For publishing test**",
+      "updated_at": "2024-01-15T09:27:10.786Z",
+      "types": [
+        "lower-case"
+      ],
+      "keywords": [
+        "sample",
+        "node-red"
+      ],
+      "url": "https://flows.nodered.org/node/@iotechcherry/node-red-lower-case"
+    },
+    {
+      "id": "@technithusiast/node-red-contrib-ai-intent",
+      "version": "1.1.44",
+      "description": "A collection of nodes to elevate a user's automation interactions",
+      "updated_at": "2024-01-15T09:10:46.025Z",
+      "types": [
+        "Register Intent",
+        "Call Intent",
+        "OpenAI User",
+        "OpenAI System",
+        "OpenAI Chat",
+        "OpenAI Response",
+        "OpenAI Tool",
+        "openai-configuration"
+      ],
+      "keywords": [
+        "node-red"
+      ],
+      "url": "https://flows.nodered.org/node/@technithusiast/node-red-contrib-ai-intent"
+    },
+    {
+      "id": "node-red-contrib-oscar-grayify",
+      "version": "0.0.1",
+      "description": "This node supports highly-scalable event-driven image conversion to grayscale using the popular ImageMagick software.",
+      "updated_at": "2024-01-15T08:43:23.600Z",
+      "types": [],
+      "keywords": [
+        "node-red",
+        "OSCAR",
+        "grayify",
+        "GRyCAP",
+        "UPV",
+        "AI4EOSC"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-oscar-grayify"
+    },
+    {
+      "id": "node-red-contrib-smart-door",
+      "version": "1.0.3",
+      "description": "优智云家连接节点",
+      "updated_at": "2024-01-15T05:52:55.489Z",
+      "types": [
+        "live"
+      ],
+      "keywords": [
+        "node-red"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-smart-door"
+    },
+    {
+      "id": "node-red-contrib-telegrambot",
+      "version": "15.1.8",
+      "description": "Telegram bot nodes for Node-RED",
+      "updated_at": "2024-01-14T19:41:51.829Z",
+      "types": [
+        "telegram bot",
+        "telegram receiver",
+        "telegram command",
+        "telegram event",
+        "telegram sender",
+        "telegram reply",
+        "telegram control"
+      ],
+      "keywords": [
+        "node-red",
+        "telegram",
+        "bot"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-telegrambot"
+    },
+    {
+      "id": "node-red-node-telegrambot",
+      "version": "0.1.6",
+      "description": "Telegram userbot nodes for Node-RED",
+      "updated_at": "2024-01-14T19:33:34.043Z",
+      "types": [
+        "telegram client config",
+        "telegram client receiver",
+        "telegram client sender"
+      ],
+      "keywords": [
+        "node-red",
+        "telegram",
+        "bot",
+        "userbot",
+        "selfbot"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-node-telegrambot"
+    },
+    {
+      "id": "node-red-contrib-alice-self-hosting",
+      "version": "0.1.4",
+      "description": "Node-RED nodes to Yandex Alice devices in Self-Hosting",
+      "updated_at": "2024-01-14T14:37:43.155Z",
+      "types": [
+        "alice-sh-service",
+        "alice-sh-device",
+        "alice-sh-onoff",
+        "alice-sh-toggle",
+        "alice-sh-range",
+        "alice-sh-color",
+        "alice-sh-mode",
+        "alice-sh-sensor",
+        "alice-sh-event",
+        "alice-sh-video"
+      ],
+      "keywords": [
+        "node-red",
+        "yandex",
+        "alice",
+        "iot",
+        "self",
+        "hosting"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-alice-self-hosting"
+    },
     {
       "id": "@gregoriusrippenstein/node-red-streaming",
       "version": "0.0.5",
@@ -116,26 +337,6 @@
       "url": "https://flows.nodered.org/node/node-red-contrib-flightradar24"
     },
     {
-      "id": "@technithusiast/node-red-contrib-ai-intent",
-      "version": "1.1.43",
-      "description": "A collection of nodes to elevate a user's automation interactions",
-      "updated_at": "2024-01-13T09:22:56.343Z",
-      "types": [
-        "Register Intent",
-        "Call Intent",
-        "OpenAI User",
-        "OpenAI System",
-        "OpenAI Chat",
-        "OpenAI Response",
-        "OpenAI Tool",
-        "openai-configuration"
-      ],
-      "keywords": [
-        "node-red"
-      ],
-      "url": "https://flows.nodered.org/node/@technithusiast/node-red-contrib-ai-intent"
-    },
-    {
       "id": "node-red-contrib-manipulator",
       "version": "0.0.3",
       "description": "2d manipulator Node-RED UI widget",
@@ -248,6 +449,22 @@
         "node-red"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-http-event-collector"
+    },
+    {
+      "id": "node-red-contrib-sendmail",
+      "version": "1.0.11",
+      "description": "send emails with help of a local senmdmail command.",
+      "updated_at": "2024-01-12T18:01:51.974Z",
+      "types": [
+        "sendmail"
+      ],
+      "keywords": [
+        "node-red",
+        "email",
+        "sendmail",
+        "nullmailer"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-sendmail"
     },
     {
       "id": "@strato-automation/node-red-contrib-strato-automation",
@@ -502,60 +719,6 @@
       "url": "https://flows.nodered.org/node/@iorsan/node-red-contrib-firebase-cloud-messaging"
     },
     {
-      "id": "@semilimes/node-red-semilimes",
-      "version": "0.9.4",
-      "description": "The new semilimes connector which integrates with the public API",
-      "updated_at": "2024-01-11T15:47:02.099Z",
-      "types": [
-        "sme-main-connector",
-        "sme-main-actionSelector",
-        "sme-main-sender",
-        "sme-main-listener",
-        "sme-main-sshTunnel",
-        "sme-comp-text",
-        "sme-comp-html",
-        "sme-comp-file",
-        "sme-comp-contact",
-        "sme-comp-location",
-        "sme-comp-webview",
-        "sme-comp-channel",
-        "sme-comp-tunnel",
-        "sme-comp-form",
-        "sme-formComp-label",
-        "sme-formComp-textBox",
-        "sme-formComp-buttonList",
-        "sme-formComp-singleChoice",
-        "sme-formComp-multiChoice",
-        "sme-formComp-switch",
-        "sme-formComp-slider",
-        "sme-formComp-datePicker",
-        "sme-formComp-timePicker",
-        "sme-formComp-locationPicker",
-        "sme-formComp-photoPicker",
-        "sme-formComp-filePicker",
-        "sme-formComp-contactPicker",
-        "sme-formComp-groupChatPicker",
-        "sme-formComp-channelPicker",
-        "sme-formComp-bucketPicker",
-        "sme-formComp-hiddenValue",
-        "sme-formComp-qrCodeScanner",
-        "sme-formComp-nfcReader",
-        "sme-filter-formSubmission"
-      ],
-      "keywords": [
-        "semilimes",
-        "iot",
-        "connector",
-        "node-red",
-        "mobile phone",
-        "interface",
-        "remote access",
-        "ssh tunnel",
-        "websocket"
-      ],
-      "url": "https://flows.nodered.org/node/@semilimes/node-red-semilimes"
-    },
-    {
       "id": "@nickcuper/node-red-contrib-html-pro",
       "version": "1.0.1",
       "description": "Advance html parser for NodeRED",
@@ -778,60 +941,6 @@
       "url": "https://flows.nodered.org/node/node-red-contrib-gree2"
     },
     {
-      "id": "@daviderib/node-red-semilimes",
-      "version": "0.9.2",
-      "description": "The new semilimes connector which integrates with the public API",
-      "updated_at": "2024-01-09T12:45:30.055Z",
-      "types": [
-        "sme-main-connector",
-        "sme-main-actionSelector",
-        "sme-main-sender",
-        "sme-main-listener",
-        "sme-main-sshTunnel",
-        "sme-comp-text",
-        "sme-comp-html",
-        "sme-comp-file",
-        "sme-comp-contact",
-        "sme-comp-location",
-        "sme-comp-webview",
-        "sme-comp-channel",
-        "sme-comp-tunnel",
-        "sme-comp-form",
-        "sme-formComp-label",
-        "sme-formComp-textBox",
-        "sme-formComp-buttonList",
-        "sme-formComp-singleChoice",
-        "sme-formComp-multiChoice",
-        "sme-formComp-switch",
-        "sme-formComp-slider",
-        "sme-formComp-datePicker",
-        "sme-formComp-timePicker",
-        "sme-formComp-locationPicker",
-        "sme-formComp-photoPicker",
-        "sme-formComp-filePicker",
-        "sme-formComp-contactPicker",
-        "sme-formComp-groupChatPicker",
-        "sme-formComp-channelPicker",
-        "sme-formComp-bucketPicker",
-        "sme-formComp-hiddenValue",
-        "sme-formComp-qrCodeScanner",
-        "sme-formComp-nfcReader",
-        "sme-filter-formsubmission"
-      ],
-      "keywords": [
-        "semilimes",
-        "iot",
-        "connector",
-        "node-red",
-        "mobile phone",
-        "interface",
-        "remote access",
-        "ssh tunnel",
-        "websocket"
-      ],
-      "url": "https://flows.nodered.org/node/@daviderib/node-red-semilimes"
-    },
-    {
       "id": "@gregoriusrippenstein/node-red-contrib-nodedev",
       "version": "0.2.6",
       "description": "Support the development of Node-RED nodes within Node-RED.",
@@ -953,22 +1062,6 @@
       "url": "https://flows.nodered.org/node/node-red-contrib-mime-generator"
     },
     {
-      "id": "node-red-contrib-oscar-service-cowsay",
-      "version": "1.0.5",
-      "description": "The OSCAR Cowsay Service node shows the basic functionality for invoking the OSCAR service synchronously.",
-      "updated_at": "2024-01-08T08:55:29.448Z",
-      "types": [],
-      "keywords": [
-        "node-red",
-        "OSCAR",
-        "cowsay",
-        "GRyCAP",
-        "UPV",
-        "AI4EOSC"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-oscar-service-cowsay"
-    },
-    {
       "id": "@mschaeffler/node-red-logic",
       "version": "1.4.3",
       "description": "nodes for simple operations.",
@@ -1077,33 +1170,6 @@
         "screenshot"
       ],
       "url": "https://flows.nodered.org/node/@gregoriusrippenstein/node-red-contrib-introspection"
-    },
-    {
-      "id": "node-red-contrib-alice-self-hosting",
-      "version": "0.1.3",
-      "description": "Node-RED nodes to Yandex Alice devices in Self-Hosting",
-      "updated_at": "2024-01-06T22:24:41.526Z",
-      "types": [
-        "alice-sh-service",
-        "alice-sh-device",
-        "alice-sh-onoff",
-        "alice-sh-toggle",
-        "alice-sh-range",
-        "alice-sh-color",
-        "alice-sh-mode",
-        "alice-sh-sensor",
-        "alice-sh-event",
-        "alice-sh-video"
-      ],
-      "keywords": [
-        "node-red",
-        "yandex",
-        "alice",
-        "iot",
-        "self",
-        "hosting"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-alice-self-hosting"
     },
     {
       "id": "node-red-contrib-knx-ultimate",
@@ -2072,19 +2138,6 @@
       "url": "https://flows.nodered.org/node/node-red-contrib-deconz"
     },
     {
-      "id": "node-red-contrib-smart-door",
-      "version": "1.0.2",
-      "description": "优智云家连接节点",
-      "updated_at": "2023-12-28T05:39:48.829Z",
-      "types": [
-        "live"
-      ],
-      "keywords": [
-        "node-red"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-smart-door"
-    },
-    {
       "id": "atomic-gravity",
       "version": "2.0.13",
       "description": "Gravity module for Brobridge Atomic",
@@ -2298,23 +2351,6 @@
         "sidebar"
       ],
       "url": "https://flows.nodered.org/node/@bartbutenaers/node-red-autolayout-sidebar"
-    },
-    {
-      "id": "@nickiv/node-red-huawei-sms",
-      "version": "0.0.8",
-      "description": "Nodes to send and receive SMS from Huawei LTE USB Stick",
-      "updated_at": "2023-12-23T19:28:51.059Z",
-      "types": [
-        "huawei-sms-send",
-        "huawei-sms-receive",
-        "huawei-sms-config"
-      ],
-      "keywords": [
-        "node-red",
-        "sms",
-        "huawei"
-      ],
-      "url": "https://flows.nodered.org/node/@nickiv/node-red-huawei-sms"
     },
     {
       "id": "node-red-contrib-unifi",
@@ -2681,22 +2717,6 @@
         "tankerkoenig"
       ],
       "url": "https://flows.nodered.org/node/@tq-bit/node-red-contrib-de-fuelprices"
-    },
-    {
-      "id": "node-red-contrib-oscar-service-grayify",
-      "version": "1.0.11",
-      "description": "This node supports highly-scalable event-driven image conversion to grayscale using the popular ImageMagick software.",
-      "updated_at": "2023-12-18T12:51:01.780Z",
-      "types": [],
-      "keywords": [
-        "node-red",
-        "OSCAR",
-        "grayify",
-        "GRyCAP",
-        "UPV",
-        "AI4EOSC"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-oscar-service-grayify"
     },
     {
       "id": "victron-dynamic-ess",
@@ -3272,22 +3292,6 @@
         "node-red"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-nupmes"
-    },
-    {
-      "id": "node-red-contrib-sendmail",
-      "version": "1.0.10",
-      "description": "send emails with help of a local senmdmail command.",
-      "updated_at": "2023-12-11T08:49:57.227Z",
-      "types": [
-        "sendmail"
-      ],
-      "keywords": [
-        "node-red",
-        "email",
-        "sendmail",
-        "nullmailer"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-sendmail"
     },
     {
       "id": "node-red-contrib-line-messaging-api",
@@ -6893,25 +6897,6 @@
       "url": "https://flows.nodered.org/node/node-red-contrib-hue-tunable-white"
     },
     {
-      "id": "node-red-node-telegrambot",
-      "version": "0.1.4",
-      "description": "Telegram userbot nodes for Node-RED",
-      "updated_at": "2023-10-15T14:15:44.254Z",
-      "types": [
-        "telegram client config",
-        "telegram client receiver",
-        "telegram client sender"
-      ],
-      "keywords": [
-        "node-red",
-        "telegram",
-        "bot",
-        "userbot",
-        "selfbot"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-node-telegrambot"
-    },
-    {
       "id": "node-red-contrib-cx-tag-emitter",
       "version": "2.4.14",
       "description": "Emits tag values on change",
@@ -7584,27 +7569,6 @@
         "node-inq"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-mcdm"
-    },
-    {
-      "id": "node-red-contrib-telegrambot",
-      "version": "15.1.7",
-      "description": "Telegram bot nodes for Node-RED",
-      "updated_at": "2023-10-07T18:50:53.343Z",
-      "types": [
-        "telegram bot",
-        "telegram receiver",
-        "telegram command",
-        "telegram event",
-        "telegram sender",
-        "telegram reply",
-        "telegram control"
-      ],
-      "keywords": [
-        "node-red",
-        "telegram",
-        "bot"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-telegrambot"
     },
     {
       "id": "node-red-contrib-panasonic-comfort-cloud",
