@@ -1,0 +1,45 @@
+#0 building with "default" instance using docker driver
+
+#1 [internal] load .dockerignore
+#1 transferring context: 2B done
+#1 DONE 0.0s
+
+#2 [internal] load build definition from Dockerfile
+#2 transferring dockerfile: 136B done
+#2 DONE 0.0s
+
+#3 [internal] load metadata for docker.io/nodered/node-red:latest
+#3 DONE 0.1s
+
+#4 [1/2] FROM docker.io/nodered/node-red@sha256:75e48924159f6c6bf4221017069a8b496cab8d0b21d3d0b1fcaf058af8294865
+#4 CACHED
+
+#5 [2/2] RUN npm install npm install @technithusiast/node-red-contrib-ai-intent@1.1.44
+#5 2.348 npm WARN EBADENGINE Unsupported engine {
+#5 2.348 npm WARN EBADENGINE   package: 'npm@10.3.0',
+#5 2.349 npm WARN EBADENGINE   required: { node: '^18.17.0 || >=20.5.0' },
+#5 2.349 npm WARN EBADENGINE   current: { node: 'v16.20.2', npm: '8.19.4' }
+#5 2.349 npm WARN EBADENGINE }
+#5 4.567 
+#5 4.567 added 27 packages, and audited 555 packages in 4s
+#5 4.567 
+#5 4.567 69 packages are looking for funding
+#5 4.567   run `npm fund` for details
+#5 4.568 
+#5 4.568 found 0 vulnerabilities
+#5 4.569 npm notice 
+#5 4.569 npm notice New major version of npm available! 8.19.4 -> 10.3.0
+#5 4.569 npm notice Changelog: <https://github.com/npm/cli/releases/tag/v10.3.0>
+#5 4.569 npm notice Run `npm install -g npm@10.3.0` to update!
+#5 4.569 npm notice 
+#5 DONE 4.7s
+
+#6 exporting to image
+#6 exporting layers
+#6 exporting layers 1.3s done
+#6 writing image sha256:010655d99a2b8f243d0e8fc0fd184c33e1cd35af1ca9ae2efc2885d78322ea94
+#6 writing image sha256:010655d99a2b8f243d0e8fc0fd184c33e1cd35af1ca9ae2efc2885d78322ea94 done
+#6 naming to docker.io/library/tmp done
+#6 DONE 1.3s
+
+----
