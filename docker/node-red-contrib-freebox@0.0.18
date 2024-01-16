@@ -1,0 +1,124 @@
+#0 building with "default" instance using docker driver
+
+#1 [internal] load .dockerignore
+#1 transferring context: 2B done
+#1 DONE 0.0s
+
+#2 [internal] load build definition from Dockerfile
+#2 transferring dockerfile: 118B done
+#2 DONE 0.0s
+
+#3 [internal] load metadata for docker.io/nodered/node-red:latest
+#3 DONE 0.1s
+
+#4 [1/2] FROM docker.io/nodered/node-red@sha256:75e48924159f6c6bf4221017069a8b496cab8d0b21d3d0b1fcaf058af8294865
+#4 CACHED
+
+#5 [2/2] RUN npm install npm install node-red-contrib-freebox@0.0.18
+#5 5.432 npm WARN EBADENGINE Unsupported engine {
+#5 5.432 npm WARN EBADENGINE   package: 'npm@10.3.0',
+#5 5.433 npm WARN EBADENGINE   required: { node: '^18.17.0 || >=20.5.0' },
+#5 5.433 npm WARN EBADENGINE   current: { node: 'v16.20.2', npm: '8.19.4' }
+#5 5.433 npm WARN EBADENGINE }
+#5 5.433 npm WARN EBADENGINE Unsupported engine {
+#5 5.433 npm WARN EBADENGINE   package: 'release-it@17.0.1',
+#5 5.433 npm WARN EBADENGINE   required: { node: '>=18' },
+#5 5.433 npm WARN EBADENGINE   current: { node: 'v16.20.2', npm: '8.19.4' }
+#5 5.433 npm WARN EBADENGINE }
+#5 5.434 npm WARN EBADENGINE Unsupported engine {
+#5 5.434 npm WARN EBADENGINE   package: '@octokit/rest@20.0.2',
+#5 5.434 npm WARN EBADENGINE   required: { node: '>= 18' },
+#5 5.434 npm WARN EBADENGINE   current: { node: 'v16.20.2', npm: '8.19.4' }
+#5 5.434 npm WARN EBADENGINE }
+#5 5.435 npm WARN EBADENGINE Unsupported engine {
+#5 5.435 npm WARN EBADENGINE   package: 'globby@14.0.0',
+#5 5.435 npm WARN EBADENGINE   required: { node: '>=18' },
+#5 5.435 npm WARN EBADENGINE   current: { node: 'v16.20.2', npm: '8.19.4' }
+#5 5.435 npm WARN EBADENGINE }
+#5 5.436 npm WARN EBADENGINE Unsupported engine {
+#5 5.436 npm WARN EBADENGINE   package: 'update-notifier@7.0.0',
+#5 5.436 npm WARN EBADENGINE   required: { node: '>=18' },
+#5 5.436 npm WARN EBADENGINE   current: { node: 'v16.20.2', npm: '8.19.4' }
+#5 5.436 npm WARN EBADENGINE }
+#5 5.436 npm WARN EBADENGINE Unsupported engine {
+#5 5.436 npm WARN EBADENGINE   package: '@octokit/core@5.0.2',
+#5 5.436 npm WARN EBADENGINE   required: { node: '>= 18' },
+#5 5.436 npm WARN EBADENGINE   current: { node: 'v16.20.2', npm: '8.19.4' }
+#5 5.436 npm WARN EBADENGINE }
+#5 5.437 npm WARN EBADENGINE Unsupported engine {
+#5 5.437 npm WARN EBADENGINE   package: '@octokit/plugin-paginate-rest@9.1.5',
+#5 5.437 npm WARN EBADENGINE   required: { node: '>= 18' },
+#5 5.437 npm WARN EBADENGINE   current: { node: 'v16.20.2', npm: '8.19.4' }
+#5 5.437 npm WARN EBADENGINE }
+#5 5.438 npm WARN EBADENGINE Unsupported engine {
+#5 5.438 npm WARN EBADENGINE   package: '@octokit/plugin-request-log@4.0.0',
+#5 5.438 npm WARN EBADENGINE   required: { node: '>= 18' },
+#5 5.438 npm WARN EBADENGINE   current: { node: 'v16.20.2', npm: '8.19.4' }
+#5 5.438 npm WARN EBADENGINE }
+#5 5.438 npm WARN EBADENGINE Unsupported engine {
+#5 5.438 npm WARN EBADENGINE   package: '@octokit/plugin-rest-endpoint-methods@10.2.0',
+#5 5.438 npm WARN EBADENGINE   required: { node: '>= 18' },
+#5 5.438 npm WARN EBADENGINE   current: { node: 'v16.20.2', npm: '8.19.4' }
+#5 5.438 npm WARN EBADENGINE }
+#5 5.439 npm WARN EBADENGINE Unsupported engine {
+#5 5.439 npm WARN EBADENGINE   package: '@octokit/auth-token@4.0.0',
+#5 5.439 npm WARN EBADENGINE   required: { node: '>= 18' },
+#5 5.439 npm WARN EBADENGINE   current: { node: 'v16.20.2', npm: '8.19.4' }
+#5 5.439 npm WARN EBADENGINE }
+#5 5.439 npm WARN EBADENGINE Unsupported engine {
+#5 5.439 npm WARN EBADENGINE   package: '@octokit/graphql@7.0.2',
+#5 5.439 npm WARN EBADENGINE   required: { node: '>= 18' },
+#5 5.439 npm WARN EBADENGINE   current: { node: 'v16.20.2', npm: '8.19.4' }
+#5 5.439 npm WARN EBADENGINE }
+#5 5.439 npm WARN EBADENGINE Unsupported engine {
+#5 5.439 npm WARN EBADENGINE   package: '@octokit/request@8.1.6',
+#5 5.439 npm WARN EBADENGINE   required: { node: '>= 18' },
+#5 5.439 npm WARN EBADENGINE   current: { node: 'v16.20.2', npm: '8.19.4' }
+#5 5.439 npm WARN EBADENGINE }
+#5 5.440 npm WARN EBADENGINE Unsupported engine {
+#5 5.440 npm WARN EBADENGINE   package: '@octokit/request-error@5.0.1',
+#5 5.440 npm WARN EBADENGINE   required: { node: '>= 18' },
+#5 5.440 npm WARN EBADENGINE   current: { node: 'v16.20.2', npm: '8.19.4' }
+#5 5.440 npm WARN EBADENGINE }
+#5 5.440 npm WARN EBADENGINE Unsupported engine {
+#5 5.440 npm WARN EBADENGINE   package: '@octokit/endpoint@9.0.4',
+#5 5.440 npm WARN EBADENGINE   required: { node: '>= 18' },
+#5 5.440 npm WARN EBADENGINE   current: { node: 'v16.20.2', npm: '8.19.4' }
+#5 5.440 npm WARN EBADENGINE }
+#5 5.443 npm WARN EBADENGINE Unsupported engine {
+#5 5.443 npm WARN EBADENGINE   package: '@sindresorhus/merge-streams@1.0.0',
+#5 5.443 npm WARN EBADENGINE   required: { node: '>=18' },
+#5 5.443 npm WARN EBADENGINE   current: { node: 'v16.20.2', npm: '8.19.4' }
+#5 5.443 npm WARN EBADENGINE }
+#5 5.443 npm WARN EBADENGINE Unsupported engine {
+#5 5.444 npm WARN EBADENGINE   package: 'unicorn-magic@0.1.0',
+#5 5.444 npm WARN EBADENGINE   required: { node: '>=18' },
+#5 5.444 npm WARN EBADENGINE   current: { node: 'v16.20.2', npm: '8.19.4' }
+#5 5.444 npm WARN EBADENGINE }
+#5 5.445 npm WARN EBADENGINE Unsupported engine {
+#5 5.445 npm WARN EBADENGINE   package: 'is-in-ci@0.1.0',
+#5 5.445 npm WARN EBADENGINE   required: { node: '>=18' },
+#5 5.445 npm WARN EBADENGINE   current: { node: 'v16.20.2', npm: '8.19.4' }
+#5 5.445 npm WARN EBADENGINE }
+#5 9.603 
+#5 9.603 added 359 packages, and audited 887 packages in 9s
+#5 9.603 
+#5 9.603 199 packages are looking for funding
+#5 9.603   run `npm fund` for details
+#5 9.605 
+#5 9.605 found 0 vulnerabilities
+#5 9.605 npm notice 
+#5 9.605 npm notice New major version of npm available! 8.19.4 -> 10.3.0
+#5 9.605 npm notice Changelog: <https://github.com/npm/cli/releases/tag/v10.3.0>
+#5 9.605 npm notice Run `npm install -g npm@10.3.0` to update!
+#5 9.605 npm notice 
+#5 DONE 9.9s
+
+#6 exporting to image
+#6 exporting layers
+#6 exporting layers 2.4s done
+#6 writing image sha256:1ac6bc2e656272d20ea375e822e5569217d1146b091af4368076e2b68659727e done
+#6 naming to docker.io/library/tmp done
+#6 DONE 2.4s
+
+----
