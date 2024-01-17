@@ -1,7 +1,243 @@
 {
   "name": "Catalogue for Docker",
-  "updated_at": "2024-01-16T16:03:06.274Z",
+  "updated_at": "2024-01-17T16:00:24.438Z",
   "modules": [
+    {
+      "id": "node-red-contrib-ewelink-apikey",
+      "version": "1.0.0",
+      "description": "NodeRED nodes for eWeLink smart devices",
+      "updated_at": "2024-01-17T14:30:33.356Z",
+      "types": [
+        "ewelink-credentials",
+        "ewelink-devices",
+        "ewelink-generic-device",
+        "ewelink-firmware-version",
+        "ewelink-power-state-read",
+        "ewelink-power-state-write",
+        "ewelink-channel-count",
+        "ewelink-event-listener",
+        "ewelink-power-usage",
+        "ewelink-humidity",
+        "ewelink-temperature",
+        "ewelink-temperature-humidity"
+      ],
+      "keywords": [
+        "node-red",
+        "ewelink",
+        "sonoff"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-ewelink-apikey"
+    },
+    {
+      "id": "@flowfuse/node-red-dashboard",
+      "version": "0.11.5",
+      "description": "Dashboard 2.0 - A collection of Node-RED nodes that provide functionality to build your own UI applications (inc. forms, buttons, charts).",
+      "updated_at": "2024-01-17T11:05:50.124Z",
+      "types": [
+        "ui-base",
+        "ui-page",
+        "ui-group",
+        "ui-theme",
+        "ui-form",
+        "__errors__",
+        "ui-text-input",
+        "__errors__",
+        "ui-button",
+        "__errors__",
+        "ui-dropdown",
+        "__errors__",
+        "ui-radio-group",
+        "__errors__",
+        "ui-slider",
+        "__errors__",
+        "ui-switch",
+        "__errors__",
+        "ui-text",
+        "__errors__",
+        "ui-table",
+        "__errors__",
+        "ui-chart",
+        "__errors__",
+        "ui-notification",
+        "__errors__",
+        "ui-markdown",
+        "__errors__",
+        "ui-template",
+        "__errors__",
+        "ui-event",
+        "__errors__",
+        "ui-control",
+        "__errors__"
+      ],
+      "keywords": [
+        "node-red"
+      ],
+      "url": "https://flows.nodered.org/node/@flowfuse/node-red-dashboard"
+    },
+    {
+      "id": "node-red-contrib-edge-tts",
+      "version": "2.3.0",
+      "description": "An simple Azure Speech Service module that uses the Microsoft Edge Read Aloud API.",
+      "updated_at": "2024-01-17T09:58:29.073Z",
+      "types": [
+        "edge-tts"
+      ],
+      "keywords": [
+        "edge",
+        "node-red",
+        "tts",
+        "readaloud"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-edge-tts"
+    },
+    {
+      "id": "smithtek-node-red-restart",
+      "version": "1.0.2",
+      "description": "Nodes to restart the PassPort IGW.",
+      "updated_at": "2024-01-17T09:14:53.136Z",
+      "types": [
+        "restart"
+      ],
+      "keywords": [
+        "node-red"
+      ],
+      "url": "https://flows.nodered.org/node/smithtek-node-red-restart"
+    },
+    {
+      "id": "@iotechcherry/node-red-lower-case",
+      "version": "0.0.3",
+      "description": "**For publishing test**",
+      "updated_at": "2024-01-17T08:51:55.692Z",
+      "types": [
+        "lower-case"
+      ],
+      "keywords": [
+        "node-red"
+      ],
+      "url": "https://flows.nodered.org/node/@iotechcherry/node-red-lower-case"
+    },
+    {
+      "id": "@parallaxcontrol/node-red-control",
+      "version": "1.0.37",
+      "description": "A comprehensive package of Node-RED nodes designed to seamlessly integrate with the Parallax Control Engine, offering enhanced control capabilities for AV, IoT, and Industrial Automation.",
+      "updated_at": "2024-01-16T19:56:27.095Z",
+      "types": [
+        "and-gate",
+        "compare-string-text",
+        "input-select",
+        "inverter-gate",
+        "or-gate",
+        "set-reset-latch",
+        "send-single-dictionary",
+        "set-feedback",
+        "clear-signal-state",
+        "recall-signal-state",
+        "save-signal-state",
+        "bool-toggle",
+        "extract-message-data",
+        "system-management"
+      ],
+      "keywords": [
+        "parallaxcontrol",
+        "node-red",
+        "audiovisual",
+        "av"
+      ],
+      "url": "https://flows.nodered.org/node/@parallaxcontrol/node-red-control"
+    },
+    {
+      "id": "@siglesiasg/node-red-hyperledger-fabric-gateway",
+      "version": "1.0.4",
+      "description": "Hyperledger Fabric 2.x nodes for node-red with latest fabric-gateway library",
+      "updated_at": "2024-01-16T18:52:32.428Z",
+      "types": [
+        "fabric-channel",
+        "fabric-contract",
+        "fabric-mspid",
+        "fabric-identity",
+        "fabric-gateway",
+        "fabric-peer",
+        "fabric-block-listener",
+        "fabric-block-listener-commit",
+        "fabric-cc-generic",
+        "fabric-cc-evaluate",
+        "fabric-cc-submit",
+        "fabric-block-info",
+        "fabric-channel-info"
+      ],
+      "keywords": [
+        "node-red",
+        "fabric",
+        "blockchain",
+        "hyperledger",
+        "gateway",
+        "fabric-gateway"
+      ],
+      "url": "https://flows.nodered.org/node/@siglesiasg/node-red-hyperledger-fabric-gateway"
+    },
+    {
+      "id": "@gdziuba/node-red-usbhid",
+      "version": "1.0.3",
+      "description": "A node-hid (USB HID device access library) wrapper for Node-RED",
+      "updated_at": "2024-01-16T18:40:01.092Z",
+      "types": [
+        "HIDConfig",
+        "getHIDdevices",
+        "HIDdevice"
+      ],
+      "keywords": [
+        "HID",
+        "FlowFuse",
+        "usbhid",
+        "usb-hid",
+        "node-red",
+        "barcodescanner",
+        "usb"
+      ],
+      "url": "https://flows.nodered.org/node/@gdziuba/node-red-usbhid"
+    },
+    {
+      "id": "@iiot2k/node-red-rpi-gpiox",
+      "version": "2.0.1",
+      "description": "Node-RED nodes for Raspberry Pi GPIO",
+      "updated_at": "2024-01-16T18:08:18.198Z",
+      "types": [
+        "iiot2k-rpi-gpiox-in",
+        "iiot2k-rpi-gpiox-out"
+      ],
+      "keywords": [
+        "node-red",
+        "iot",
+        "iiot2k",
+        "raspberry pi",
+        "rpi",
+        "digital",
+        "gpio",
+        "gpiox",
+        "input",
+        "output",
+        "pwm"
+      ],
+      "url": "https://flows.nodered.org/node/@iiot2k/node-red-rpi-gpiox"
+    },
+    {
+      "id": "node-red-contrib-iot-controlcenter",
+      "version": "2.0.7",
+      "description": "Data exchange from node-red to control center",
+      "updated_at": "2024-01-16T15:43:28.190Z",
+      "types": [
+        "Send",
+        "Get",
+        "Function",
+        "Request"
+      ],
+      "keywords": [
+        "node-red",
+        "iot",
+        "controlcenter"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-iot-controlcenter"
+    },
     {
       "id": "node-red-contrib-alexa-master-function",
       "version": "2416.1.1107",
@@ -56,22 +292,6 @@
         "freebox"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-freebox"
-    },
-    {
-      "id": "@siglesiasg/node-red-hyperledger-fabric-gateway",
-      "version": "1.0.3",
-      "description": "Hyperledger Fabric 2.x nodes for node-red with latest fabric-gateway library",
-      "updated_at": "2024-01-16T09:22:18.335Z",
-      "types": [],
-      "keywords": [
-        "node-red",
-        "fabric",
-        "blockchain",
-        "hyperledger",
-        "gateway",
-        "fabric-gateway"
-      ],
-      "url": "https://flows.nodered.org/node/@siglesiasg/node-red-hyperledger-fabric-gateway"
     },
     {
       "id": "@opcua/for-node-red",
@@ -254,30 +474,6 @@
         "recursion"
       ],
       "url": "https://flows.nodered.org/node/@gregoriusrippenstein/node-red-contrib-nodedev"
-    },
-    {
-      "id": "@iiot2k/node-red-rpi-gpiox",
-      "version": "2.0.0",
-      "description": "Node-RED nodes for Raspberry Pi GPIO",
-      "updated_at": "2024-01-15T16:50:34.409Z",
-      "types": [
-        "iiot2k-rpi-gpiox-in",
-        "iiot2k-rpi-gpiox-out"
-      ],
-      "keywords": [
-        "node-red",
-        "iot",
-        "iiot2k",
-        "raspberry pi",
-        "rpi",
-        "digital",
-        "gpio",
-        "gpiod",
-        "gpiox",
-        "input",
-        "output"
-      ],
-      "url": "https://flows.nodered.org/node/@iiot2k/node-red-rpi-gpiox"
     },
     {
       "id": "@gregoriusrippenstein/node-red-streaming",
@@ -670,35 +866,6 @@
       "url": "https://flows.nodered.org/node/@gregoriusrippenstein/node-red-contrib-aisbreaker"
     },
     {
-      "id": "@parallaxcontrol/node-red-control",
-      "version": "1.0.36",
-      "description": "A comprehensive package of Node-RED nodes designed to seamlessly integrate with the Parallax Control Engine, offering enhanced control capabilities for AV, IoT, and Industrial Automation.",
-      "updated_at": "2024-01-12T19:11:29.752Z",
-      "types": [
-        "and-gate",
-        "compare-string-text",
-        "input-select",
-        "inverter-gate",
-        "or-gate",
-        "set-reset-latch",
-        "send-single-dictionary",
-        "set-feedback",
-        "clear-signal-state",
-        "recall-signal-state",
-        "save-signal-state",
-        "bool-toggle",
-        "extract-message-data",
-        "system-management"
-      ],
-      "keywords": [
-        "parallaxcontrol",
-        "node-red",
-        "audiovisual",
-        "av"
-      ],
-      "url": "https://flows.nodered.org/node/@parallaxcontrol/node-red-control"
-    },
-    {
       "id": "node-red-contrib-http-event-collector",
       "version": "1.1.0",
       "description": "The purpose of this project is to allow node-red to publish a node-red payload to Splunk's HTTP Event Collector.",
@@ -773,68 +940,6 @@
         "inbuilddb"
       ],
       "url": "https://flows.nodered.org/node/@platmac/node-red-platma-inbuilddb"
-    },
-    {
-      "id": "@flowfuse/node-red-dashboard",
-      "version": "0.11.4",
-      "description": "A collection of Node-RED nodes that provide functionality to build your own UI applications (inc. forms, buttons, charts) within Node-RED.",
-      "updated_at": "2024-01-12T15:20:25.174Z",
-      "types": [
-        "ui-base",
-        "ui-page",
-        "ui-group",
-        "ui-theme",
-        "ui-form",
-        "__errors__",
-        "ui-text-input",
-        "__errors__",
-        "ui-button",
-        "__errors__",
-        "ui-dropdown",
-        "__errors__",
-        "ui-radio-group",
-        "__errors__",
-        "ui-slider",
-        "__errors__",
-        "ui-switch",
-        "__errors__",
-        "ui-text",
-        "__errors__",
-        "ui-table",
-        "__errors__",
-        "ui-chart",
-        "__errors__",
-        "ui-notification",
-        "__errors__",
-        "ui-markdown",
-        "__errors__",
-        "ui-template",
-        "__errors__",
-        "ui-event",
-        "__errors__",
-        "ui-control",
-        "__errors__"
-      ],
-      "keywords": [
-        "node-red"
-      ],
-      "url": "https://flows.nodered.org/node/@flowfuse/node-red-dashboard"
-    },
-    {
-      "id": "node-red-contrib-oscar-plants",
-      "version": "0.0.2",
-      "description": "Classify plant images among 10K species from the iNaturalist dataset.",
-      "updated_at": "2024-01-12T11:18:03.551Z",
-      "types": [],
-      "keywords": [
-        "node-red",
-        "OSCAR",
-        "plants",
-        "GRyCAP",
-        "UPV",
-        "AI4EOSC"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-oscar-plants"
     },
     {
       "id": "node-red-contrib-oscar-cowsay",
@@ -1154,24 +1259,6 @@
         "node-red"
       ],
       "url": "https://flows.nodered.org/node/@blebtechnology/node-red-blebricks"
-    },
-    {
-      "id": "node-red-contrib-iot-controlcenter",
-      "version": "2.0.6",
-      "description": "Data exchange from node-red to control center",
-      "updated_at": "2024-01-11T11:17:46.032Z",
-      "types": [
-        "Send",
-        "Get",
-        "Function",
-        "Request"
-      ],
-      "keywords": [
-        "node-red",
-        "iot",
-        "controlcenter"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-iot-controlcenter"
     },
     {
       "id": "@smartdcc/dccboxed-nodered-nodes",
@@ -4090,6 +4177,29 @@
       "url": "https://flows.nodered.org/node/@ralphwetzel/node-red-context-monitor"
     },
     {
+      "id": "node-red-contrib-web-content-analyzer",
+      "version": "1.0.2",
+      "description": "Node-RED nodes for web content analysis",
+      "updated_at": "2023-11-30T20:32:52.308Z",
+      "types": [
+        "image-analyzer",
+        "page-finder",
+        "text-analyzer"
+      ],
+      "keywords": [
+        "node-red",
+        "web",
+        "content",
+        "analysis",
+        "crawler",
+        "scraper",
+        "image",
+        "text",
+        "page"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-web-content-analyzer"
+    },
+    {
       "id": "@ncd-io/node-red-enterprise-sensors",
       "version": "0.1.14",
       "description": "You can install this library through the Palette Manager in Node-Red's UI.",
@@ -4327,22 +4437,6 @@
         "virtual"
       ],
       "url": "https://flows.nodered.org/node/virtual-parameters"
-    },
-    {
-      "id": "node-red-contrib-edge-tts",
-      "version": "2.2.4",
-      "description": "An simple Azure Speech Service module that uses the Microsoft Edge Read Aloud API.",
-      "updated_at": "2023-11-28T09:55:19.381Z",
-      "types": [
-        "edge-tts"
-      ],
-      "keywords": [
-        "edge",
-        "node-red",
-        "tts",
-        "readaloud"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-edge-tts"
     },
     {
       "id": "@shri123321/node-red-contrib-shri-super-trend",
