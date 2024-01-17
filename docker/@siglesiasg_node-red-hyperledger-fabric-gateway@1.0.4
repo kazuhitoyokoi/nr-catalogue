@@ -1,0 +1,54 @@
+#0 building with "default" instance using docker driver
+
+#1 [internal] load .dockerignore
+#1 transferring context: 2B done
+#1 DONE 0.0s
+
+#2 [internal] load build definition from Dockerfile
+#2 transferring dockerfile: 140B done
+#2 DONE 0.0s
+
+#3 [internal] load metadata for docker.io/nodered/node-red:latest
+#3 DONE 0.1s
+
+#4 [1/2] FROM docker.io/nodered/node-red@sha256:75e48924159f6c6bf4221017069a8b496cab8d0b21d3d0b1fcaf058af8294865
+#4 CACHED
+
+#5 [2/2] RUN npm install npm install @siglesiasg/node-red-hyperledger-fabric-gateway@1.0.4
+#5 3.234 npm WARN EBADENGINE Unsupported engine {
+#5 3.234 npm WARN EBADENGINE   package: '@siglesiasg/node-red-hyperledger-fabric-gateway@1.0.4',
+#5 3.234 npm WARN EBADENGINE   required: { node: '>=18.16.1' },
+#5 3.234 npm WARN EBADENGINE   current: { node: 'v16.20.2', npm: '8.19.4' }
+#5 3.235 npm WARN EBADENGINE }
+#5 3.235 npm WARN EBADENGINE Unsupported engine {
+#5 3.235 npm WARN EBADENGINE   package: 'npm@10.3.0',
+#5 3.235 npm WARN EBADENGINE   required: { node: '^18.17.0 || >=20.5.0' },
+#5 3.235 npm WARN EBADENGINE   current: { node: 'v16.20.2', npm: '8.19.4' }
+#5 3.236 npm WARN EBADENGINE }
+#5 3.236 npm WARN EBADENGINE Unsupported engine {
+#5 3.236 npm WARN EBADENGINE   package: '@hyperledger/fabric-gateway@1.4.0',
+#5 3.236 npm WARN EBADENGINE   required: { node: '>=18.12.0' },
+#5 3.236 npm WARN EBADENGINE   current: { node: 'v16.20.2', npm: '8.19.4' }
+#5 3.236 npm WARN EBADENGINE }
+#5 28.43 
+#5 28.43 added 47 packages, and audited 575 packages in 28s
+#5 28.43 
+#5 28.43 69 packages are looking for funding
+#5 28.43   run `npm fund` for details
+#5 28.44 
+#5 28.44 found 0 vulnerabilities
+#5 28.44 npm notice 
+#5 28.44 npm notice New major version of npm available! 8.19.4 -> 10.3.0
+#5 28.44 npm notice Changelog: <https://github.com/npm/cli/releases/tag/v10.3.0>
+#5 28.44 npm notice Run `npm install -g npm@10.3.0` to update!
+#5 28.44 npm notice 
+#5 DONE 28.5s
+
+#6 exporting to image
+#6 exporting layers
+#6 exporting layers 1.4s done
+#6 writing image sha256:8a66d890d600defe84759988f6241802414102332519b8a8050bb31cd29cca12 done
+#6 naming to docker.io/library/tmp done
+#6 DONE 1.4s
+
+----
