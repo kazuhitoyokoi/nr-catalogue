@@ -1,7 +1,297 @@
 {
   "name": "Catalogue for Docker",
-  "updated_at": "2024-01-17T16:00:24.438Z",
+  "updated_at": "2024-01-18T16:01:37.651Z",
   "modules": [
+    {
+      "id": "node-red-contrib-remote",
+      "version": "1.5.2",
+      "description": "Remote-RED is an ecosystem to bring remote access, push notification and geofencing to Node-RED. There are also additional functions like directly answer on a notification and homescreen widgets.",
+      "updated_at": "2024-01-18T13:16:33.309Z",
+      "types": [
+        "remote-config",
+        "remote-access",
+        "remote-notification",
+        "remote-question"
+      ],
+      "keywords": [
+        "node-red"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-remote"
+    },
+    {
+      "id": "@blebtechnology/node-red-blebricks",
+      "version": "1.0.18",
+      "description": "A node-red package to manage blebricks data",
+      "updated_at": "2024-01-18T12:14:05.800Z",
+      "types": [
+        "CHT",
+        "ENV",
+        "OAQ",
+        "BLEB_TEMP",
+        "PTX",
+        "MAG",
+        "SOIL",
+        "LGH",
+        "UHF",
+        "PRT",
+        "REL",
+        "RELOUT",
+        "WPLOUT",
+        "VBROUT",
+        "BUZOUT",
+        "IRTOUT",
+        "ODCOUT",
+        "ODC",
+        "WPL",
+        "VBR",
+        "BUZ",
+        "IRT",
+        "PLV",
+        "WND",
+        "SOL",
+        "PYR",
+        "CMS",
+        "RHT",
+        "UVA",
+        "RGB",
+        "CLT",
+        "IMU",
+        "ACC",
+        "PDM",
+        "CAP",
+        "IRR",
+        "SMS",
+        "DSD",
+        "BLEB_IN",
+        "BLEB_RPS",
+        "SFX",
+        "ESP",
+        "UWS",
+        "RMS",
+        "VMS",
+        "GPS",
+        "BLEB_CNT",
+        "PMX",
+        "PROTECTOR",
+        "LCDOUT",
+        "SLS",
+        "PWMOUT",
+        "TPD"
+      ],
+      "keywords": [
+        "node-red"
+      ],
+      "url": "https://flows.nodered.org/node/@blebtechnology/node-red-blebricks"
+    },
+    {
+      "id": "@coremarine/nr-norsub-emru",
+      "version": "1.0.1",
+      "description": "Node-Red component to work with NorSub eMRU devices",
+      "updated_at": "2024-01-18T12:00:51.331Z",
+      "types": [
+        "norsub-parser"
+      ],
+      "keywords": [
+        "node-red",
+        "mru",
+        "imu",
+        "norsub",
+        "nmea",
+        "nmea0183",
+        "0183",
+        "parser"
+      ],
+      "url": "https://flows.nodered.org/node/@coremarine/nr-norsub-emru"
+    },
+    {
+      "id": "node-red-contrib-alexa-master-function",
+      "version": "2418.1.747",
+      "description": "Beta version: password and logs",
+      "updated_at": "2024-01-18T10:47:30.369Z",
+      "types": [
+        "alexa-master-function"
+      ],
+      "keywords": [
+        "axios",
+        "node-red",
+        "mysql",
+        "database",
+        "r2"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-alexa-master-function"
+    },
+    {
+      "id": "node-red-contrib-freebox",
+      "version": "0.0.19",
+      "description": "Freebox api calls for node-red",
+      "updated_at": "2024-01-18T08:02:13.534Z",
+      "types": [
+        "freebox-server",
+        "connection",
+        "api",
+        "lan-browser",
+        "poll"
+      ],
+      "keywords": [
+        "node-red",
+        "freebox"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-freebox"
+    },
+    {
+      "id": "node-red-contrib-boolean-logic-ultimate",
+      "version": "1.1.2",
+      "description": "A set of Node-RED enhanced boolean logic and utility nodes, flow interruption, blinker, invert, filter, toggle etc.., with persistent values after reboot. Compatible also with Homeassistant values.",
+      "updated_at": "2024-01-18T07:36:04.248Z",
+      "types": [
+        "BooleanLogicUltimate",
+        "InvertUltimate",
+        "FilterUltimate",
+        "InterruptFlowUltimate",
+        "BlinkerUltimate",
+        "SimpleOutputUltimate",
+        "InjectUltimate",
+        "StatusUltimate",
+        "ImpulseUltimate",
+        "SumUltimate",
+        "toggleUltimate",
+        "RailwaySwitchUltimate",
+        "Comparator",
+        "translator-config"
+      ],
+      "keywords": [
+        "node-red",
+        "boolean",
+        "gate",
+        "filter",
+        "logic"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-boolean-logic-ultimate"
+    },
+    {
+      "id": "node-red-contrib-mqtt-sparkplug-plus",
+      "version": "2.0.1",
+      "description": "MQTT-Sparkplug-Plus is a set of Node-Red nodes, that will enable Node-Red to communicate with a MQTT Server using the sparkplug b protocol.",
+      "updated_at": "2024-01-18T04:08:59.579Z",
+      "types": [
+        "mqtt-sparkplug-broker",
+        "mqtt sparkplug device",
+        "mqtt sparkplug in",
+        "mqtt sparkplug out"
+      ],
+      "keywords": [
+        "MQTT",
+        "Sparkplug",
+        "node-red"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-mqtt-sparkplug-plus"
+    },
+    {
+      "id": "node-red-contrib-antenna-genius",
+      "version": "1.1.0",
+      "description": "Antenna Genius Control and Monitoring Nodes",
+      "updated_at": "2024-01-18T03:20:48.069Z",
+      "types": [
+        "antenna-genius-server",
+        "antenna-genius-band-labels",
+        "antenna-genius-antenna-status",
+        "antenna-genius-activate-antenna"
+      ],
+      "keywords": [
+        "node-red"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-antenna-genius"
+    },
+    {
+      "id": "smithtek-node-red-restart",
+      "version": "1.0.3",
+      "description": "Nodes to restart the PassPort IGW.",
+      "updated_at": "2024-01-17T23:38:33.993Z",
+      "types": [
+        "restart"
+      ],
+      "keywords": [
+        "node-red"
+      ],
+      "url": "https://flows.nodered.org/node/smithtek-node-red-restart"
+    },
+    {
+      "id": "node-red-contrib-iot-controlcenter",
+      "version": "2.0.8",
+      "description": "Data exchange from node-red to control center",
+      "updated_at": "2024-01-17T19:45:26.429Z",
+      "types": [
+        "Send",
+        "Get",
+        "Function",
+        "Request"
+      ],
+      "keywords": [
+        "node-red",
+        "iot",
+        "controlcenter"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-iot-controlcenter"
+    },
+    {
+      "id": "node-red-contrib-custom-chatgpt",
+      "version": "1.2.17",
+      "description": "A Node-RED node that interacts with OpenAI machine learning models to generate text and image outputs like 'ChatGPT' and 'DALL·E 2'.",
+      "updated_at": "2024-01-17T18:34:46.141Z",
+      "types": [
+        "chatgpt"
+      ],
+      "keywords": [
+        "node-red",
+        "chatgpt",
+        "nodejs",
+        "javascript",
+        "api",
+        "flow",
+        "npm",
+        "machine-learning",
+        "node",
+        "example",
+        "text-generation",
+        "openai",
+        "image-generation",
+        "code-generation",
+        "conversational-ai",
+        "gpt-3",
+        "gpt-4",
+        "dall-e",
+        "ai"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-custom-chatgpt"
+    },
+    {
+      "id": "node-red-contrib-tts-ultimate",
+      "version": "2.0.6",
+      "description": "Transforms the text in speech and hear it using Sonos player or generate an audio file to be used with third parties nodes. Works with voices from Amazon, Google (without credentials as well), Microsoft TTS Azure, ElevenLabs.io TTS or your own voice. You ",
+      "updated_at": "2024-01-17T15:26:19.867Z",
+      "types": [
+        "ttsultimate",
+        "ttsultimate-config",
+        "ownfileultimate"
+      ],
+      "keywords": [
+        "node-red",
+        "polly",
+        "google",
+        "voice",
+        "amazon",
+        "azure",
+        "tts",
+        "sonos",
+        "IOT",
+        "speech",
+        "ttsultimate",
+        "sonospollytts",
+        "neural",
+        "elevenlabs"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-tts-ultimate"
+    },
     {
       "id": "node-red-contrib-ewelink-apikey",
       "version": "1.0.0",
@@ -89,19 +379,6 @@
         "readaloud"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-edge-tts"
-    },
-    {
-      "id": "smithtek-node-red-restart",
-      "version": "1.0.2",
-      "description": "Nodes to restart the PassPort IGW.",
-      "updated_at": "2024-01-17T09:14:53.136Z",
-      "types": [
-        "restart"
-      ],
-      "keywords": [
-        "node-red"
-      ],
-      "url": "https://flows.nodered.org/node/smithtek-node-red-restart"
     },
     {
       "id": "@iotechcherry/node-red-lower-case",
@@ -221,41 +498,6 @@
       "url": "https://flows.nodered.org/node/@iiot2k/node-red-rpi-gpiox"
     },
     {
-      "id": "node-red-contrib-iot-controlcenter",
-      "version": "2.0.7",
-      "description": "Data exchange from node-red to control center",
-      "updated_at": "2024-01-16T15:43:28.190Z",
-      "types": [
-        "Send",
-        "Get",
-        "Function",
-        "Request"
-      ],
-      "keywords": [
-        "node-red",
-        "iot",
-        "controlcenter"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-iot-controlcenter"
-    },
-    {
-      "id": "node-red-contrib-alexa-master-function",
-      "version": "2416.1.1107",
-      "description": "Beta version: password and logs",
-      "updated_at": "2024-01-16T14:08:01.392Z",
-      "types": [
-        "alexa-master-function"
-      ],
-      "keywords": [
-        "axios",
-        "node-red",
-        "mysql",
-        "database",
-        "r2"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-alexa-master-function"
-    },
-    {
       "id": "@mschaeffler/node-red-lora",
       "version": "3.2.2",
       "description": "Five nodes to send and receive LoRaWan messages via a gateway via the Semtech UDP protocol.",
@@ -274,24 +516,6 @@
         "LoRaWan"
       ],
       "url": "https://flows.nodered.org/node/@mschaeffler/node-red-lora"
-    },
-    {
-      "id": "node-red-contrib-freebox",
-      "version": "0.0.18",
-      "description": "Freebox api calls for node-red",
-      "updated_at": "2024-01-16T09:40:14.061Z",
-      "types": [
-        "freebox-server",
-        "connection",
-        "api",
-        "lan-browser",
-        "poll"
-      ],
-      "keywords": [
-        "node-red",
-        "freebox"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-freebox"
     },
     {
       "id": "@opcua/for-node-red",
@@ -817,37 +1041,6 @@
       "url": "https://flows.nodered.org/node/node-red-contrib-manipulator"
     },
     {
-      "id": "node-red-contrib-custom-chatgpt",
-      "version": "1.2.15",
-      "description": "A Node-RED node that interacts with OpenAI machine learning models to generate text and image outputs like 'ChatGPT' and 'DALL·E 2'.",
-      "updated_at": "2024-01-13T00:36:25.043Z",
-      "types": [
-        "chatgpt"
-      ],
-      "keywords": [
-        "node-red",
-        "chatgpt",
-        "nodejs",
-        "javascript",
-        "api",
-        "flow",
-        "npm",
-        "machine-learning",
-        "node",
-        "example",
-        "text-generation",
-        "openai",
-        "image-generation",
-        "code-generation",
-        "conversational-ai",
-        "gpt-3",
-        "gpt-4",
-        "dall-e",
-        "ai"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-custom-chatgpt"
-    },
-    {
       "id": "@gregoriusrippenstein/node-red-contrib-aisbreaker",
       "version": "0.1.17",
       "description": "Node-RED wrapper node for AIsBreaker.org",
@@ -1194,71 +1387,6 @@
         "putObject"
       ],
       "url": "https://flows.nodered.org/node/@nickcuper/node-red-contrib-aws-cloud"
-    },
-    {
-      "id": "@blebtechnology/node-red-blebricks",
-      "version": "1.0.16",
-      "description": "A node-red package to manage blebricks data",
-      "updated_at": "2024-01-11T12:27:01.523Z",
-      "types": [
-        "CHT",
-        "ENV",
-        "OAQ",
-        "BLEB_TEMP",
-        "PTX",
-        "MAG",
-        "SOIL",
-        "LGH",
-        "UHF",
-        "PRT",
-        "REL",
-        "RELOUT",
-        "WPLOUT",
-        "VBROUT",
-        "BUZOUT",
-        "IRTOUT",
-        "ODCOUT",
-        "ODC",
-        "WPL",
-        "VBR",
-        "BUZ",
-        "IRT",
-        "PLV",
-        "WND",
-        "SOL",
-        "PYR",
-        "CMS",
-        "RHT",
-        "UVA",
-        "RGB",
-        "CLT",
-        "IMU",
-        "ACC",
-        "PDM",
-        "CAP",
-        "IRR",
-        "SMS",
-        "DSD",
-        "BLEB_IN",
-        "BLEB_RPS",
-        "SFX",
-        "ESP",
-        "UWS",
-        "RMS",
-        "VMS",
-        "GPS",
-        "BLEB_CNT",
-        "PMX",
-        "PROTECTOR",
-        "LCDOUT",
-        "SLS",
-        "PWMOUT",
-        "TPD"
-      ],
-      "keywords": [
-        "node-red"
-      ],
-      "url": "https://flows.nodered.org/node/@blebtechnology/node-red-blebricks"
     },
     {
       "id": "@smartdcc/dccboxed-nodered-nodes",
@@ -5880,36 +6008,6 @@
       "url": "https://flows.nodered.org/node/smithtek-node-red-eagleio"
     },
     {
-      "id": "node-red-contrib-boolean-logic-ultimate",
-      "version": "1.1.1",
-      "description": "A set of Node-RED enhanced boolean logic and utility nodes, flow interruption, blinker, invert, filter, toggle etc.., with persistent values after reboot. Compatible also with Homeassistant values.",
-      "updated_at": "2023-11-01T08:19:56.890Z",
-      "types": [
-        "BooleanLogicUltimate",
-        "InvertUltimate",
-        "FilterUltimate",
-        "InterruptFlowUltimate",
-        "BlinkerUltimate",
-        "SimpleOutputUltimate",
-        "InjectUltimate",
-        "StatusUltimate",
-        "ImpulseUltimate",
-        "SumUltimate",
-        "toggleUltimate",
-        "RailwaySwitchUltimate",
-        "Comparator",
-        "translator-config"
-      ],
-      "keywords": [
-        "node-red",
-        "boolean",
-        "gate",
-        "filter",
-        "logic"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-boolean-logic-ultimate"
-    },
-    {
       "id": "node-red-contrib-august",
       "version": "1.2.0",
       "description": "Node-RED node to connect to August locks",
@@ -8057,34 +8155,6 @@
       "url": "https://flows.nodered.org/node/@almostinteractive/node-red-contrib-basic-ical-calendar"
     },
     {
-      "id": "node-red-contrib-tts-ultimate",
-      "version": "2.0.5",
-      "description": "Transforms the text in speech and hear it using Sonos player or generate an audio file to be used with third parties nodes. Works with voices from Amazon, Google (without credentials as well), Microsoft TTS Azure, ElevenLabs.io TTS or your own voice. You ",
-      "updated_at": "2023-10-02T05:50:13.734Z",
-      "types": [
-        "ttsultimate",
-        "ttsultimate-config",
-        "ownfileultimate"
-      ],
-      "keywords": [
-        "node-red",
-        "polly",
-        "google",
-        "voice",
-        "amazon",
-        "azure",
-        "tts",
-        "sonos",
-        "IOT",
-        "speech",
-        "ttsultimate",
-        "sonospollytts",
-        "neural",
-        "elevenlabs"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-tts-ultimate"
-    },
-    {
       "id": "@sip-irrigation/node-red-sip-irrigation-nodes",
       "version": "1.0.2",
       "description": "A collection of nodes that work with SIP irrigation control software",
@@ -8536,22 +8606,6 @@
         "count"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-resend-last-msg"
-    },
-    {
-      "id": "node-red-contrib-remote",
-      "version": "1.5.1",
-      "description": "Remote-RED is an ecosystem to bring remote access, push notification and geofencing to Node-RED. There are also additional functions like directly answer on a notification and homescreen widgets.",
-      "updated_at": "2023-09-26T12:09:39.589Z",
-      "types": [
-        "remote-config",
-        "remote-access",
-        "remote-notification",
-        "remote-question"
-      ],
-      "keywords": [
-        "node-red"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-remote"
     },
     {
       "id": "@hexelink/node-red-aries-hw-io",
@@ -15787,24 +15841,6 @@
         "Road Traffic"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-road-traffic"
-    },
-    {
-      "id": "node-red-contrib-mqtt-sparkplug-plus",
-      "version": "1.4.1",
-      "description": "MQTT-Sparkplug-Plus is a set of Node-Red nodes, that will enable Node-Red to communicate with a MQTT Server using the sparkplug b protocol.",
-      "updated_at": "2023-04-23T20:54:26.052Z",
-      "types": [
-        "mqtt-sparkplug-broker",
-        "mqtt sparkplug device",
-        "mqtt sparkplug in",
-        "mqtt sparkplug out"
-      ],
-      "keywords": [
-        "MQTT",
-        "Sparkplug",
-        "node-red"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-mqtt-sparkplug-plus"
     },
     {
       "id": "@cameo69/node-red-ratelimit",
@@ -32688,22 +32724,6 @@
         "worker"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-process-resources"
-    },
-    {
-      "id": "node-red-contrib-antenna-genius",
-      "version": "1.0.1",
-      "description": "Antenna Genius Control and Monitoring Nodes",
-      "updated_at": "2022-01-29T13:56:12.109Z",
-      "types": [
-        "antenna-genius-server",
-        "antenna-genius-band-labels",
-        "antenna-genius-antenna-status",
-        "antenna-genius-activate-antenna"
-      ],
-      "keywords": [
-        "node-red"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-antenna-genius"
     },
     {
       "id": "node-red-contrib-node-homie-red",
