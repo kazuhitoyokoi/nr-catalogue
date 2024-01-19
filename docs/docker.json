@@ -1,28 +1,220 @@
 {
   "name": "Catalogue for Docker",
-  "updated_at": "2024-01-18T16:01:37.651Z",
+  "updated_at": "2024-01-19T16:01:10.885Z",
   "modules": [
     {
-      "id": "node-red-contrib-remote",
-      "version": "1.5.2",
-      "description": "Remote-RED is an ecosystem to bring remote access, push notification and geofencing to Node-RED. There are also additional functions like directly answer on a notification and homescreen widgets.",
-      "updated_at": "2024-01-18T13:16:33.309Z",
+      "id": "@gregoriusrippenstein/node-red-contrib-nodedev",
+      "version": "0.2.8",
+      "description": "Support the development of Node-RED nodes within Node-RED.",
+      "updated_at": "2024-01-19T14:20:06.953Z",
       "types": [
-        "remote-config",
-        "remote-access",
-        "remote-notification",
-        "remote-question"
+        "NodeDevOps",
+        "NodeFactory",
+        "PkgFile",
+        "NpmTarBall",
+        "NodeRedInstall",
+        "NpmPublish",
+        "NodeFactorySidebarCfg"
+      ],
+      "keywords": [
+        "node-red",
+        "node development",
+        "introspection",
+        "bootstrapping",
+        "recursion"
+      ],
+      "url": "https://flows.nodered.org/node/@gregoriusrippenstein/node-red-contrib-nodedev"
+    },
+    {
+      "id": "node-red-contrib-meross",
+      "version": "2.3.0",
+      "description": "This provides nodes for controlling Meross devices.",
+      "updated_at": "2024-01-19T12:50:00.867Z",
+      "types": [
+        "meross-config",
+        "smartplug-control",
+        "smartgarage-control"
+      ],
+      "keywords": [
+        "node-red",
+        "meross"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-meross"
+    },
+    {
+      "id": "@appmodule/node-red-contrib-siot",
+      "version": "3.0.0-rc17",
+      "description": "Node-RED interactions with SIOT",
+      "updated_at": "2024-01-19T10:45:19.092Z",
+      "types": [
+        "ack",
+        "de-subscriber",
+        "de-publisher",
+        "siot-config",
+        "class-config",
+        "plugin-cnf"
       ],
       "keywords": [
         "node-red"
       ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-remote"
+      "url": "https://flows.nodered.org/node/@appmodule/node-red-contrib-siot"
+    },
+    {
+      "id": "node-red-contrib-knx-ultimate",
+      "version": "2.4.0-beta.1",
+      "description": "Control your KNX intallation via Node-Red! A bunch of KNX nodes, with integrated Philips HUE control and ETS group address importer. Easy to use and highly configurable.",
+      "updated_at": "2024-01-19T10:14:30.882Z",
+      "types": [
+        "knxUltimate",
+        "knxUltimateSceneController",
+        "knxUltimateWatchDog",
+        "knxUltimateLogger",
+        "knxUltimate-config",
+        "knxUltimateGlobalContext",
+        "knxUltimateAlerter",
+        "knxUltimateLoadControl",
+        "knxUltimateViewer",
+        "hue-config",
+        "knxUltimateHueLight",
+        "knxUltimateHueButton",
+        "knxUltimateHueMotion",
+        "knxUltimateHueTapDial",
+        "knxUltimateHueLightSensor",
+        "knxUltimateHueTemperatureSensor",
+        "knxUltimateHueScene",
+        "knxUltimateHueBattery"
+      ],
+      "keywords": [
+        "node-red",
+        "KNX",
+        "ETS",
+        "eib",
+        "konnex",
+        "IOT",
+        "philips hue"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-knx-ultimate"
+    },
+    {
+      "id": "@ifp-software/node-red-contrib-oee-ai-connector",
+      "version": "2.8.0",
+      "description": "Easily connect your production machines to oee.ai – The Industry 4.0 solution for OEE optimization.",
+      "updated_at": "2024-01-19T09:39:46.432Z",
+      "types": [],
+      "keywords": [
+        "industrial",
+        "industry 4.0",
+        "iot",
+        "node-red",
+        "oee",
+        "oee.ai",
+        "sick",
+        "smart-factory",
+        "tdc"
+      ],
+      "url": "https://flows.nodered.org/node/@ifp-software/node-red-contrib-oee-ai-connector"
+    },
+    {
+      "id": "node-red-contrib-samsung-automation-studio-nodes",
+      "version": "1.1.18",
+      "description": "Samsung Automation Studio Nodes for Node-RED",
+      "updated_at": "2024-01-19T01:20:20.817Z",
+      "types": [
+        "device-profile",
+        "installed-device",
+        "automation",
+        "event-device",
+        "status-device",
+        "command-device",
+        "bixby in",
+        "bixby out",
+        "basic-auth",
+        "aws-config",
+        "aws-sdk",
+        "db-config",
+        "db-query",
+        "slack-notification",
+        "data-extractor",
+        "data-filter"
+      ],
+      "keywords": [
+        "SmartThings",
+        "Bixby",
+        "node-red",
+        "Samsung Automation Studio",
+        "AWS"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-samsung-automation-studio-nodes"
+    },
+    {
+      "id": "victron-vrm-api",
+      "version": "0.1.4",
+      "description": "Interface with the Victron Energy VRM API",
+      "updated_at": "2024-01-18T20:10:09.827Z",
+      "types": [
+        "config-vrm-api",
+        "vrm-api"
+      ],
+      "keywords": [
+        "node-red",
+        "victron",
+        "vrm",
+        "api"
+      ],
+      "url": "https://flows.nodered.org/node/victron-vrm-api"
+    },
+    {
+      "id": "node-red-contrib-line-messaging-api",
+      "version": "0.2.1",
+      "description": "Node-REDでLINE Botが作れます。",
+      "updated_at": "2024-01-18T18:48:33.303Z",
+      "types": [
+        "Webhook"
+      ],
+      "keywords": [
+        "node-red"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-line-messaging-api"
+    },
+    {
+      "id": "node-red-contrib-onstar2",
+      "version": "2.1.19",
+      "description": "An updated Node-RED Library using OnStarJS, an unofficial client library for the OnStar Vehicle API",
+      "updated_at": "2024-01-18T16:33:30.221Z",
+      "types": [
+        "get-account-vehicles",
+        "get-diagnostics",
+        "lock-myvehicle",
+        "unlock-myvehicle",
+        "start-myvehicle",
+        "cancel-start-myvehicle",
+        "alert-myvehicle",
+        "alert-myvehicle-lights",
+        "alert-myvehicle-horn",
+        "cancel-alert-myvehicle",
+        "locate-vehicle",
+        "mycharge-override",
+        "get-mycharge-profile",
+        "set-mycharge-profile",
+        "onstar2"
+      ],
+      "keywords": [
+        "node-red",
+        "OnStar",
+        "Chevrolet",
+        "Chevy",
+        "GM",
+        "GMC",
+        "Buick",
+        "Cadillac"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-onstar2"
     },
     {
       "id": "@blebtechnology/node-red-blebricks",
-      "version": "1.0.18",
+      "version": "1.0.19",
       "description": "A node-red package to manage blebricks data",
-      "updated_at": "2024-01-18T12:14:05.800Z",
+      "updated_at": "2024-01-18T14:51:41.655Z",
       "types": [
         "CHT",
         "ENV",
@@ -84,6 +276,22 @@
       "url": "https://flows.nodered.org/node/@blebtechnology/node-red-blebricks"
     },
     {
+      "id": "node-red-contrib-remote",
+      "version": "1.5.2",
+      "description": "Remote-RED is an ecosystem to bring remote access, push notification and geofencing to Node-RED. There are also additional functions like directly answer on a notification and homescreen widgets.",
+      "updated_at": "2024-01-18T13:16:33.309Z",
+      "types": [
+        "remote-config",
+        "remote-access",
+        "remote-notification",
+        "remote-question"
+      ],
+      "keywords": [
+        "node-red"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-remote"
+    },
+    {
       "id": "@coremarine/nr-norsub-emru",
       "version": "1.0.1",
       "description": "Node-Red component to work with NorSub eMRU devices",
@@ -119,6 +327,22 @@
         "r2"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-alexa-master-function"
+    },
+    {
+      "id": "node-red-node-rdk-camera",
+      "version": "0.0.1",
+      "description": "Node Red node for using camera on a RDK hardware",
+      "updated_at": "2024-01-18T10:05:04.076Z",
+      "types": [
+        "rdk-camera takephoto"
+      ],
+      "keywords": [
+        "node-red",
+        "rdk",
+        "x3",
+        "camera"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-node-rdk-camera"
     },
     {
       "id": "node-red-contrib-freebox",
@@ -675,29 +899,6 @@
         "protocol"
       ],
       "url": "https://flows.nodered.org/node/@coremarine/nr-nmea-parser"
-    },
-    {
-      "id": "@gregoriusrippenstein/node-red-contrib-nodedev",
-      "version": "0.2.7",
-      "description": "Support the development of Node-RED nodes within Node-RED.",
-      "updated_at": "2024-01-15T18:25:50.837Z",
-      "types": [
-        "NodeDevOps",
-        "NodeFactory",
-        "PkgFile",
-        "NpmTarBall",
-        "NodeRedInstall",
-        "NpmPublish",
-        "NodeFactorySidebarCfg"
-      ],
-      "keywords": [
-        "node-red",
-        "node development",
-        "introspection",
-        "bootstrapping",
-        "recursion"
-      ],
-      "url": "https://flows.nodered.org/node/@gregoriusrippenstein/node-red-contrib-nodedev"
     },
     {
       "id": "@gregoriusrippenstein/node-red-streaming",
@@ -1278,23 +1479,6 @@
       "url": "https://flows.nodered.org/node/node-red-contrib-homekit-bridged"
     },
     {
-      "id": "victron-vrm-api",
-      "version": "0.1.3",
-      "description": "Interface with the Victron Energy VRM API",
-      "updated_at": "2024-01-11T21:18:38.449Z",
-      "types": [
-        "config-vrm-api",
-        "vrm-api"
-      ],
-      "keywords": [
-        "node-red",
-        "victron",
-        "vrm",
-        "api"
-      ],
-      "url": "https://flows.nodered.org/node/victron-vrm-api"
-    },
-    {
       "id": "thingzi-logic-twinkly",
       "version": "1.3.7",
       "description": "Twinkly lights control via node red",
@@ -1635,42 +1819,6 @@
         "screenshot"
       ],
       "url": "https://flows.nodered.org/node/@gregoriusrippenstein/node-red-contrib-introspection"
-    },
-    {
-      "id": "node-red-contrib-knx-ultimate",
-      "version": "2.3.5",
-      "description": "Control your KNX intallation via Node-Red! A bunch of KNX nodes, with integrated Philips HUE control and ETS group address importer. Easy to use and highly configurable.",
-      "updated_at": "2024-01-06T18:56:59.070Z",
-      "types": [
-        "knxUltimate",
-        "knxUltimateSceneController",
-        "knxUltimateWatchDog",
-        "knxUltimateLogger",
-        "knxUltimate-config",
-        "knxUltimateGlobalContext",
-        "knxUltimateAlerter",
-        "knxUltimateLoadControl",
-        "knxUltimateViewer",
-        "hue-config",
-        "knxUltimateHueLight",
-        "knxUltimateHueButton",
-        "knxUltimateHueMotion",
-        "knxUltimateHueTapDial",
-        "knxUltimateHueLightSensor",
-        "knxUltimateHueTemperatureSensor",
-        "knxUltimateHueScene",
-        "knxUltimateHueBattery"
-      ],
-      "keywords": [
-        "node-red",
-        "KNX",
-        "ETS",
-        "eib",
-        "konnex",
-        "IOT",
-        "philips hue"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-knx-ultimate"
     },
     {
       "id": "node-red-contrib-homekit-rgb",
@@ -3680,19 +3828,6 @@
       "url": "https://flows.nodered.org/node/node-red-contrib-nupmes"
     },
     {
-      "id": "node-red-contrib-line-messaging-api",
-      "version": "0.2.0",
-      "description": "Node-REDでLINE Botが作れます。",
-      "updated_at": "2023-12-11T03:29:51.426Z",
-      "types": [
-        "Webhook"
-      ],
-      "keywords": [
-        "node-red"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-line-messaging-api"
-    },
-    {
       "id": "@1voud/node-red-motionblinds",
       "version": "0.0.3",
       "description": "Motionblinds gateway for Node-RED",
@@ -3856,25 +3991,6 @@
         "phidgets"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-phidget22"
-    },
-    {
-      "id": "@appmodule/node-red-contrib-siot",
-      "version": "3.0.0-rc16",
-      "description": "Node-RED interactions with SIOT",
-      "updated_at": "2023-12-07T16:25:09.978Z",
-      "types": [
-        "de-commands",
-        "ack",
-        "de-subscriber",
-        "de-publisher",
-        "siot-config",
-        "class-config",
-        "plugin-cnf"
-      ],
-      "keywords": [
-        "node-red"
-      ],
-      "url": "https://flows.nodered.org/node/@appmodule/node-red-contrib-siot"
     },
     {
       "id": "node-red-n8n-invoice",
@@ -5284,40 +5400,6 @@
         "rfc7617"
       ],
       "url": "https://flows.nodered.org/node/@alexandrainst/node-red-http-basic-auth"
-    },
-    {
-      "id": "node-red-contrib-onstar2",
-      "version": "2.1.18",
-      "description": "An updated Node-RED Library using OnStarJS, an unofficial client library for the OnStar Vehicle API",
-      "updated_at": "2023-11-15T12:55:19.183Z",
-      "types": [
-        "get-account-vehicles",
-        "get-diagnostics",
-        "lock-myvehicle",
-        "unlock-myvehicle",
-        "start-myvehicle",
-        "cancel-start-myvehicle",
-        "alert-myvehicle",
-        "alert-myvehicle-lights",
-        "alert-myvehicle-horn",
-        "cancel-alert-myvehicle",
-        "locate-vehicle",
-        "mycharge-override",
-        "get-mycharge-profile",
-        "set-mycharge-profile",
-        "onstar2"
-      ],
-      "keywords": [
-        "node-red",
-        "OnStar",
-        "Chevrolet",
-        "Chevy",
-        "GM",
-        "GMC",
-        "Buick",
-        "Cadillac"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-onstar2"
     },
     {
       "id": "node-red-contrib-scd30",
@@ -10857,25 +10939,6 @@
       "url": "https://flows.nodered.org/node/node-red-contrib-teachable-machine"
     },
     {
-      "id": "@ifp-software/node-red-contrib-oee-ai-connector",
-      "version": "2.7.1",
-      "description": "Easily connect your production machines to oee.ai – The Industry 4.0 solution for OEE optimization.",
-      "updated_at": "2023-08-30T13:47:36.380Z",
-      "types": [],
-      "keywords": [
-        "industrial",
-        "industry 4.0",
-        "iot",
-        "node-red",
-        "oee",
-        "oee.ai",
-        "sick",
-        "smart-factory",
-        "tdc"
-      ],
-      "url": "https://flows.nodered.org/node/@ifp-software/node-red-contrib-oee-ai-connector"
-    },
-    {
       "id": "node-red-contrib-slack-ubos",
       "version": "0.0.1",
       "description": "A node-red module to interact with the Slack API",
@@ -10941,38 +11004,6 @@
         "node-red"
       ],
       "url": "https://flows.nodered.org/node/@envidatec/node-red-contrib-jevis"
-    },
-    {
-      "id": "node-red-contrib-samsung-automation-studio-nodes",
-      "version": "1.1.17",
-      "description": "Samsung Automation Studio Nodes for Node-RED",
-      "updated_at": "2023-08-29T07:35:19.058Z",
-      "types": [
-        "device-profile",
-        "installed-device",
-        "automation",
-        "event-device",
-        "status-device",
-        "command-device",
-        "bixby in",
-        "bixby out",
-        "basic-auth",
-        "aws-config",
-        "aws-sdk",
-        "db-config",
-        "db-query",
-        "slack-notification",
-        "data-extractor",
-        "data-filter"
-      ],
-      "keywords": [
-        "SmartThings",
-        "Bixby",
-        "node-red",
-        "Samsung Automation Studio",
-        "AWS"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-samsung-automation-studio-nodes"
     },
     {
       "id": "node-red-contrib-tasmotas",
@@ -20250,22 +20281,6 @@
         "node-red"
       ],
       "url": "https://flows.nodered.org/node/@equans/smart-buildings-occupancy"
-    },
-    {
-      "id": "node-red-contrib-meross",
-      "version": "2.2.1",
-      "description": "This provides nodes for controlling Meross devices.",
-      "updated_at": "2023-01-06T12:51:03.890Z",
-      "types": [
-        "meross-config",
-        "smartplug-control",
-        "smartgarage-control"
-      ],
-      "keywords": [
-        "node-red",
-        "meross"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-meross"
     },
     {
       "id": "node-red-mocknode",
