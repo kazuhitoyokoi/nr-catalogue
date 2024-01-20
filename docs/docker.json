@@ -1,12 +1,59 @@
 {
   "name": "Catalogue for Docker",
-  "updated_at": "2024-01-19T16:01:10.885Z",
+  "updated_at": "2024-01-20T16:00:57.780Z",
   "modules": [
     {
+      "id": "node-red-contrib-virtual-smart-home",
+      "version": "4.1.2",
+      "description": "A Node-RED node that represents a 'virtual device' which can be controlled via Alexa. Requires the virtual smart home skill to be enabled for your Amazon account.",
+      "updated_at": "2024-01-20T14:30:35.022Z",
+      "types": [
+        "vsh-connection",
+        "vsh-virtual-device"
+      ],
+      "keywords": [
+        "Alexa",
+        "Echo",
+        "smart-home",
+        "node-red",
+        "virtual smart home",
+        "virtual device",
+        "vsh"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-virtual-smart-home"
+    },
+    {
+      "id": "@gregoriusrippenstein/node-red-streaming",
+      "version": "0.0.9",
+      "description": "Nodes to make streaming possible in Node-RED.",
+      "updated_at": "2024-01-20T12:32:59.901Z",
+      "types": [
+        "PipeStart",
+        "FileStream",
+        "HttpRequestStream",
+        "CsvStream",
+        "JsonLStream",
+        "LineStream",
+        "IconvStream",
+        "Chunk2Msg",
+        "DeCompStream",
+        "ArchiveStream",
+        "PipeEnd"
+      ],
+      "keywords": [
+        "node-red",
+        "streaming",
+        "pipeline",
+        "etl",
+        "streamapi"
+      ],
+      "url": "https://flows.nodered.org/node/@gregoriusrippenstein/node-red-streaming"
+    },
+    {
       "id": "@gregoriusrippenstein/node-red-contrib-nodedev",
-      "version": "0.2.8",
+      "version": "0.2.9",
       "description": "Support the development of Node-RED nodes within Node-RED.",
-      "updated_at": "2024-01-19T14:20:06.953Z",
+      "updated_at": "2024-01-20T12:16:46.431Z",
       "types": [
         "NodeDevOps",
         "NodeFactory",
@@ -26,10 +73,139 @@
       "url": "https://flows.nodered.org/node/@gregoriusrippenstein/node-red-contrib-nodedev"
     },
     {
+      "id": "@aingtii/node-red-trashdate",
+      "version": "1.0.1",
+      "description": "A node to generate next and overnext trashdate with type from CSV Files",
+      "updated_at": "2024-01-20T07:49:52.357Z",
+      "types": [
+        "TrashDate"
+      ],
+      "keywords": [
+        "node-red"
+      ],
+      "url": "https://flows.nodered.org/node/@aingtii/node-red-trashdate"
+    },
+    {
+      "id": "@technithusiast/node-red-contrib-ai-intent",
+      "version": "1.1.47",
+      "description": "A collection of nodes to elevate a user's automation interactions",
+      "updated_at": "2024-01-20T04:51:57.467Z",
+      "types": [
+        "Register Intent",
+        "Call Intent",
+        "OpenAI User",
+        "OpenAI System",
+        "OpenAI Chat",
+        "OpenAI Response",
+        "OpenAI Tool",
+        "openai-configuration"
+      ],
+      "keywords": [
+        "node-red"
+      ],
+      "url": "https://flows.nodered.org/node/@technithusiast/node-red-contrib-ai-intent"
+    },
+    {
+      "id": "@meshtastic/node-red-contrib-meshtastic",
+      "version": "2.2.18-1",
+      "description": "Meshtastic protobuf converter for NodeRED",
+      "updated_at": "2024-01-20T03:02:14.719Z",
+      "types": [
+        "decrypt",
+        "decode"
+      ],
+      "keywords": [
+        "node-red"
+      ],
+      "url": "https://flows.nodered.org/node/@meshtastic/node-red-contrib-meshtastic"
+    },
+    {
+      "id": "node-red-contrib-tapo-new-api",
+      "version": "0.4.0",
+      "description": "Unofficial node-RED node for connecting to TP-Link Tapo devices with new API. Currently limited to the P100 & P105 & P110 smart plugs and L510E smart bulbs.",
+      "updated_at": "2024-01-19T23:45:00.861Z",
+      "types": [],
+      "keywords": [
+        "node-red",
+        "tplink",
+        "p100",
+        "p105",
+        "p110",
+        "p115",
+        "L510E",
+        "klap",
+        "passthrough"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-tapo-new-api"
+    },
+    {
+      "id": "@flowfuse/node-red-dashboard",
+      "version": "0.11.6",
+      "description": "Dashboard 2.0 - A collection of Node-RED nodes that provide functionality to build your own UI applications (inc. forms, buttons, charts).",
+      "updated_at": "2024-01-19T16:31:35.058Z",
+      "types": [
+        "ui-base",
+        "ui-page",
+        "ui-group",
+        "ui-theme",
+        "ui-form",
+        "__errors__",
+        "ui-text-input",
+        "__errors__",
+        "ui-button",
+        "__errors__",
+        "ui-dropdown",
+        "__errors__",
+        "ui-radio-group",
+        "__errors__",
+        "ui-slider",
+        "__errors__",
+        "ui-switch",
+        "__errors__",
+        "ui-text",
+        "__errors__",
+        "ui-table",
+        "__errors__",
+        "ui-chart",
+        "__errors__",
+        "ui-notification",
+        "__errors__",
+        "ui-markdown",
+        "__errors__",
+        "ui-template",
+        "__errors__",
+        "ui-event",
+        "__errors__",
+        "ui-control",
+        "__errors__"
+      ],
+      "keywords": [
+        "node-red"
+      ],
+      "url": "https://flows.nodered.org/node/@flowfuse/node-red-dashboard"
+    },
+    {
+      "id": "node-red-contrib-ui-time-scheduler-italian",
+      "version": "1.17.3",
+      "description": "Italian translation of the ui-time-scheduler module for NodeRed",
+      "updated_at": "2024-01-19T14:58:28.511Z",
+      "types": [
+        "ui_time_scheduler"
+      ],
+      "keywords": [
+        "node-red",
+        "dashboard",
+        "ui",
+        "scheduler",
+        "italian"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-ui-time-scheduler-italian"
+    },
+    {
       "id": "node-red-contrib-meross",
-      "version": "2.3.0",
+      "version": "2.3.1",
       "description": "This provides nodes for controlling Meross devices.",
-      "updated_at": "2024-01-19T12:50:00.867Z",
+      "updated_at": "2024-01-19T14:56:53.462Z",
       "types": [
         "meross-config",
         "smartplug-control",
@@ -40,6 +216,23 @@
         "meross"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-meross"
+    },
+    {
+      "id": "node-red-node-rdk-camera",
+      "version": "0.0.2",
+      "description": "Node Red node for using camera on a RDK hardware",
+      "updated_at": "2024-01-19T14:56:44.534Z",
+      "types": [
+        "rdk-camera takephoto",
+        "rdk-camera imagestream"
+      ],
+      "keywords": [
+        "node-red",
+        "rdk",
+        "x3",
+        "camera"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-node-rdk-camera"
     },
     {
       "id": "@appmodule/node-red-contrib-siot",
@@ -145,6 +338,22 @@
         "AWS"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-samsung-automation-studio-nodes"
+    },
+    {
+      "id": "node-red-contrib-mongodb4",
+      "version": "2.5.2",
+      "description": "A MongoDB node for Node-Red without limitations.",
+      "updated_at": "2024-01-18T20:31:47.717Z",
+      "types": [
+        "mongodb4-client",
+        "mongodb4"
+      ],
+      "keywords": [
+        "node-red",
+        "nodes",
+        "mongodb"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-mongodb4"
     },
     {
       "id": "victron-vrm-api",
@@ -327,22 +536,6 @@
         "r2"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-alexa-master-function"
-    },
-    {
-      "id": "node-red-node-rdk-camera",
-      "version": "0.0.1",
-      "description": "Node Red node for using camera on a RDK hardware",
-      "updated_at": "2024-01-18T10:05:04.076Z",
-      "types": [
-        "rdk-camera takephoto"
-      ],
-      "keywords": [
-        "node-red",
-        "rdk",
-        "x3",
-        "camera"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-node-rdk-camera"
     },
     {
       "id": "node-red-contrib-freebox",
@@ -541,52 +734,6 @@
         "sonoff"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-ewelink-apikey"
-    },
-    {
-      "id": "@flowfuse/node-red-dashboard",
-      "version": "0.11.5",
-      "description": "Dashboard 2.0 - A collection of Node-RED nodes that provide functionality to build your own UI applications (inc. forms, buttons, charts).",
-      "updated_at": "2024-01-17T11:05:50.124Z",
-      "types": [
-        "ui-base",
-        "ui-page",
-        "ui-group",
-        "ui-theme",
-        "ui-form",
-        "__errors__",
-        "ui-text-input",
-        "__errors__",
-        "ui-button",
-        "__errors__",
-        "ui-dropdown",
-        "__errors__",
-        "ui-radio-group",
-        "__errors__",
-        "ui-slider",
-        "__errors__",
-        "ui-switch",
-        "__errors__",
-        "ui-text",
-        "__errors__",
-        "ui-table",
-        "__errors__",
-        "ui-chart",
-        "__errors__",
-        "ui-notification",
-        "__errors__",
-        "ui-markdown",
-        "__errors__",
-        "ui-template",
-        "__errors__",
-        "ui-event",
-        "__errors__",
-        "ui-control",
-        "__errors__"
-      ],
-      "keywords": [
-        "node-red"
-      ],
-      "url": "https://flows.nodered.org/node/@flowfuse/node-red-dashboard"
     },
     {
       "id": "node-red-contrib-edge-tts",
@@ -901,33 +1048,6 @@
       "url": "https://flows.nodered.org/node/@coremarine/nr-nmea-parser"
     },
     {
-      "id": "@gregoriusrippenstein/node-red-streaming",
-      "version": "0.0.6",
-      "description": "Nodes to make streaming possible in Node-RED.",
-      "updated_at": "2024-01-15T15:27:26.778Z",
-      "types": [
-        "PipeStart",
-        "FileStream",
-        "HttpRequestStream",
-        "CsvStream",
-        "JsonLStream",
-        "LineStream",
-        "IconvStream",
-        "Chunk2Msg",
-        "DeCompStream",
-        "ArchiveStream",
-        "PipeEnd"
-      ],
-      "keywords": [
-        "node-red",
-        "streaming",
-        "pipeline",
-        "etl",
-        "streamapi"
-      ],
-      "url": "https://flows.nodered.org/node/@gregoriusrippenstein/node-red-streaming"
-    },
-    {
       "id": "@nickiv/node-red-huawei-sms",
       "version": "0.0.9",
       "description": "Nodes to send and receive SMS from Huawei LTE USB Stick",
@@ -1017,26 +1137,6 @@
         "AI4EOSC"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-oscar-plants-classification"
-    },
-    {
-      "id": "@technithusiast/node-red-contrib-ai-intent",
-      "version": "1.1.44",
-      "description": "A collection of nodes to elevate a user's automation interactions",
-      "updated_at": "2024-01-15T09:10:46.025Z",
-      "types": [
-        "Register Intent",
-        "Call Intent",
-        "OpenAI User",
-        "OpenAI System",
-        "OpenAI Chat",
-        "OpenAI Response",
-        "OpenAI Tool",
-        "openai-configuration"
-      ],
-      "keywords": [
-        "node-red"
-      ],
-      "url": "https://flows.nodered.org/node/@technithusiast/node-red-contrib-ai-intent"
     },
     {
       "id": "node-red-contrib-oscar-grayify",
@@ -1878,26 +1978,6 @@
       "url": "https://flows.nodered.org/node/node-red-contrib-fv-detection-nodes"
     },
     {
-      "id": "node-red-contrib-virtual-smart-home",
-      "version": "4.0.0",
-      "description": "A Node-RED node that represents a 'virtual device' which can be controlled via Alexa. Requires the virtual smart home skill to be enabled for your Amazon account.",
-      "updated_at": "2024-01-05T16:47:48.528Z",
-      "types": [
-        "vsh-connection",
-        "vsh-virtual-device"
-      ],
-      "keywords": [
-        "Alexa",
-        "Echo",
-        "smart-home",
-        "node-red",
-        "virtual smart home",
-        "virtual device",
-        "vsh"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-virtual-smart-home"
-    },
-    {
       "id": "@victronenergy/node-red-contrib-victron",
       "version": "1.5.8",
       "description": "Custom Node-RED Nodes for Victron Energy",
@@ -2309,20 +2389,6 @@
         "iot"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-smartnora"
-    },
-    {
-      "id": "@meshtastic/node-red-contrib-meshtastic",
-      "version": "2.2.17-1",
-      "description": "Meshtastic protobuf converter for NodeRED",
-      "updated_at": "2024-01-03T04:33:42.381Z",
-      "types": [
-        "decrypt",
-        "decode"
-      ],
-      "keywords": [
-        "node-red"
-      ],
-      "url": "https://flows.nodered.org/node/@meshtastic/node-red-contrib-meshtastic"
     },
     {
       "id": "@tataille/node-red-french-holidays",
@@ -5995,22 +6061,6 @@
         "smart hub pro"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-caseta"
-    },
-    {
-      "id": "node-red-contrib-mongodb4",
-      "version": "2.5.0",
-      "description": "A MongoDB node for Node-Red without limitations.",
-      "updated_at": "2023-11-02T17:49:26.593Z",
-      "types": [
-        "mongodb4-client",
-        "mongodb4"
-      ],
-      "keywords": [
-        "node-red",
-        "nodes",
-        "mongodb"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-mongodb4"
     },
     {
       "id": "node-red-contrib-openai-ubos",
