@@ -1,7 +1,165 @@
 {
   "name": "Catalogue for Docker",
-  "updated_at": "2024-01-20T16:00:57.780Z",
+  "updated_at": "2024-01-21T15:59:59.846Z",
   "modules": [
+    {
+      "id": "node-red-contrib-hikvision-ultimate",
+      "version": "1.1.14",
+      "description": "A native set of nodes for Hikvision (and compatible) Cameras, Alarms, Radars, NVR, Doorbells, etc.",
+      "updated_at": "2024-01-21T14:20:31.161Z",
+      "types": [
+        "Hikvision-config",
+        "AXPro-config",
+        "Doorbell-config",
+        "ANPR-config",
+        "AccessControl-config",
+        "hikvisionUltimateText",
+        "hikvisionUltimateAlarm",
+        "hikvisionUltimateAlarmRaw",
+        "hikvisionUltimateANPR",
+        "hikvisionUltimatePTZ",
+        "hikvisionUltimatePicture",
+        "hikvisionUltimateXML",
+        "hikvisionUltimateDoorbell",
+        "hikvisionUltimateAxPro",
+        "hikvisionUltimateAccessControlTerminal"
+      ],
+      "keywords": [
+        "node-red",
+        "hikvision",
+        "alarm",
+        "camera",
+        "radar",
+        "ANPR",
+        "license plate",
+        "doorbell",
+        "door intercom",
+        "access control terminal",
+        "Ax Pro"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-hikvision-ultimate"
+    },
+    {
+      "id": "@redplc/node-red-rpi-mcp3424",
+      "version": "2.0.5",
+      "description": "Node-RED node for mcp3424 18bit adc using with redPlc nodes.",
+      "updated_at": "2024-01-21T13:45:51.935Z",
+      "types": [
+        "redplc-mcp3424"
+      ],
+      "keywords": [
+        "node-red",
+        "iot",
+        "redplc",
+        "plc",
+        "control",
+        "raspberry pi",
+        "rpi",
+        "analog",
+        "adc",
+        "analog to digital",
+        "mcp3421",
+        "mcp3422",
+        "mcp3423",
+        "mcp3424",
+        "mcp3425",
+        "mcp3426",
+        "mcp3427",
+        "mcp3428"
+      ],
+      "url": "https://flows.nodered.org/node/@redplc/node-red-rpi-mcp3424"
+    },
+    {
+      "id": "node-red-contrib-tapo-new-api",
+      "version": "0.4.5",
+      "description": "Unofficial node-RED node for connecting to TP-Link Tapo devices with new API. Currently limited to the P100 & P105 & P110 smart plugs and L510E smart bulbs.",
+      "updated_at": "2024-01-21T13:41:49.334Z",
+      "types": [],
+      "keywords": [
+        "node-red",
+        "tplink",
+        "p100",
+        "p105",
+        "p110",
+        "p115",
+        "L510E",
+        "klap",
+        "passthrough"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-tapo-new-api"
+    },
+    {
+      "id": "node-red-contrib-rollun-aws-sp-api",
+      "version": "1.0.3",
+      "description": "Node-RED nodes to access AWS Selling Partner API",
+      "updated_at": "2024-01-20T20:00:10.868Z",
+      "types": [
+        "rollun-aws-sp-api-credentials",
+        "rollun-aws-sp-api"
+      ],
+      "keywords": [
+        "node-red",
+        "aws",
+        "sp",
+        "selling",
+        "partner"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-rollun-aws-sp-api"
+    },
+    {
+      "id": "@redplc/node-red-rpi-ads1115",
+      "version": "2.0.8",
+      "description": "Node-RED node for ads1115 16bit adc using with redPlc nodes.",
+      "updated_at": "2024-01-20T18:47:10.060Z",
+      "types": [
+        "redplc-ads1115"
+      ],
+      "keywords": [
+        "node-red",
+        "iot",
+        "redplc",
+        "plc",
+        "control",
+        "raspberry pi",
+        "rpi",
+        "analog",
+        "adc",
+        "analog to digital",
+        "ads1115"
+      ],
+      "url": "https://flows.nodered.org/node/@redplc/node-red-rpi-ads1115"
+    },
+    {
+      "id": "node-red-contrib-mqtt-sparkplug-plus",
+      "version": "2.0.2",
+      "description": "MQTT-Sparkplug-Plus is a set of Node-Red nodes, that will enable Node-Red to communicate with a MQTT Server using the sparkplug b protocol.",
+      "updated_at": "2024-01-20T17:20:16.680Z",
+      "types": [
+        "mqtt-sparkplug-broker",
+        "mqtt sparkplug device",
+        "mqtt sparkplug in",
+        "mqtt sparkplug out"
+      ],
+      "keywords": [
+        "MQTT",
+        "Sparkplug",
+        "node-red"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-mqtt-sparkplug-plus"
+    },
+    {
+      "id": "@aingtii/node-red-trashdate",
+      "version": "1.0.4",
+      "description": "A node to generate next and overnext trashdate with type from CSV Files",
+      "updated_at": "2024-01-20T14:53:18.070Z",
+      "types": [
+        "TrashDate"
+      ],
+      "keywords": [
+        "node-red"
+      ],
+      "url": "https://flows.nodered.org/node/@aingtii/node-red-trashdate"
+    },
     {
       "id": "node-red-contrib-virtual-smart-home",
       "version": "4.1.2",
@@ -73,19 +231,6 @@
       "url": "https://flows.nodered.org/node/@gregoriusrippenstein/node-red-contrib-nodedev"
     },
     {
-      "id": "@aingtii/node-red-trashdate",
-      "version": "1.0.1",
-      "description": "A node to generate next and overnext trashdate with type from CSV Files",
-      "updated_at": "2024-01-20T07:49:52.357Z",
-      "types": [
-        "TrashDate"
-      ],
-      "keywords": [
-        "node-red"
-      ],
-      "url": "https://flows.nodered.org/node/@aingtii/node-red-trashdate"
-    },
-    {
       "id": "@technithusiast/node-red-contrib-ai-intent",
       "version": "1.1.47",
       "description": "A collection of nodes to elevate a user's automation interactions",
@@ -118,25 +263,6 @@
         "node-red"
       ],
       "url": "https://flows.nodered.org/node/@meshtastic/node-red-contrib-meshtastic"
-    },
-    {
-      "id": "node-red-contrib-tapo-new-api",
-      "version": "0.4.0",
-      "description": "Unofficial node-RED node for connecting to TP-Link Tapo devices with new API. Currently limited to the P100 & P105 & P110 smart plugs and L510E smart bulbs.",
-      "updated_at": "2024-01-19T23:45:00.861Z",
-      "types": [],
-      "keywords": [
-        "node-red",
-        "tplink",
-        "p100",
-        "p105",
-        "p110",
-        "p115",
-        "L510E",
-        "klap",
-        "passthrough"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-tapo-new-api"
     },
     {
       "id": "@flowfuse/node-red-dashboard",
@@ -584,24 +710,6 @@
         "logic"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-boolean-logic-ultimate"
-    },
-    {
-      "id": "node-red-contrib-mqtt-sparkplug-plus",
-      "version": "2.0.1",
-      "description": "MQTT-Sparkplug-Plus is a set of Node-Red nodes, that will enable Node-Red to communicate with a MQTT Server using the sparkplug b protocol.",
-      "updated_at": "2024-01-18T04:08:59.579Z",
-      "types": [
-        "mqtt-sparkplug-broker",
-        "mqtt sparkplug device",
-        "mqtt sparkplug in",
-        "mqtt sparkplug out"
-      ],
-      "keywords": [
-        "MQTT",
-        "Sparkplug",
-        "node-red"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-mqtt-sparkplug-plus"
     },
     {
       "id": "node-red-contrib-antenna-genius",
@@ -6365,43 +6473,6 @@
       "url": "https://flows.nodered.org/node/node-red-contrib-edgesignal-connector"
     },
     {
-      "id": "node-red-contrib-hikvision-ultimate",
-      "version": "1.1.13",
-      "description": "A native set of nodes for Hikvision (and compatible) Cameras, Alarms, Radars, NVR, Doorbells, etc.",
-      "updated_at": "2023-10-26T09:43:46.569Z",
-      "types": [
-        "Hikvision-config",
-        "AXPro-config",
-        "Doorbell-config",
-        "ANPR-config",
-        "AccessControl-config",
-        "hikvisionUltimateText",
-        "hikvisionUltimateAlarm",
-        "hikvisionUltimateAlarmRaw",
-        "hikvisionUltimateANPR",
-        "hikvisionUltimatePTZ",
-        "hikvisionUltimatePicture",
-        "hikvisionUltimateXML",
-        "hikvisionUltimateDoorbell",
-        "hikvisionUltimateAxPro",
-        "hikvisionUltimateAccessControlTerminal"
-      ],
-      "keywords": [
-        "node-red",
-        "hikvision",
-        "alarm",
-        "camera",
-        "radar",
-        "ANPR",
-        "license plate",
-        "doorbell",
-        "door intercom",
-        "access control terminal",
-        "Ax Pro"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-hikvision-ultimate"
-    },
-    {
       "id": "node-red-contrib-sia-ultimate",
       "version": "1.0.7",
       "description": "Connect your SIA-DCS compatible alarm system to node-red. It works with Ajax System too.",
@@ -6875,59 +6946,6 @@
       "url": "https://flows.nodered.org/node/@redplc/node-red-rpi-gpio"
     },
     {
-      "id": "@redplc/node-red-rpi-ads1115",
-      "version": "2.0.7",
-      "description": "Node-RED node for ads1115 16bit adc using with redPlc nodes.",
-      "updated_at": "2023-10-20T19:05:20.621Z",
-      "types": [
-        "redplc-ads1115"
-      ],
-      "keywords": [
-        "node-red",
-        "iot",
-        "redplc",
-        "plc",
-        "control",
-        "raspberry pi",
-        "rpi",
-        "analog",
-        "adc",
-        "analog to digital",
-        "ads1115"
-      ],
-      "url": "https://flows.nodered.org/node/@redplc/node-red-rpi-ads1115"
-    },
-    {
-      "id": "@redplc/node-red-rpi-mcp3424",
-      "version": "2.0.4",
-      "description": "Node-RED node for mcp3424 18bit adc using with redPlc nodes.",
-      "updated_at": "2023-10-20T19:04:46.504Z",
-      "types": [
-        "redplc-mcp3424"
-      ],
-      "keywords": [
-        "node-red",
-        "iot",
-        "redplc",
-        "plc",
-        "control",
-        "raspberry pi",
-        "rpi",
-        "analog",
-        "adc",
-        "analog to digital",
-        "mcp3421",
-        "mcp3422",
-        "mcp3423",
-        "mcp3424",
-        "mcp3425",
-        "mcp3426",
-        "mcp3427",
-        "mcp3428"
-      ],
-      "url": "https://flows.nodered.org/node/@redplc/node-red-rpi-mcp3424"
-    },
-    {
       "id": "node-red-contrib-obix-niagara-connector",
       "version": "3.1.1",
       "description": "Connector from Niagara to Node-Red using Obix",
@@ -6965,24 +6983,6 @@
         "dropdown"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-dictionary"
-    },
-    {
-      "id": "node-red-contrib-rollun-aws-sp-api",
-      "version": "1.0.2",
-      "description": "Node-RED nodes to access AWS Selling Partner API",
-      "updated_at": "2023-10-19T20:06:40.824Z",
-      "types": [
-        "rollun-aws-sp-api-credentials",
-        "rollun-aws-sp-api"
-      ],
-      "keywords": [
-        "node-red",
-        "aws",
-        "sp",
-        "selling",
-        "partner"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-rollun-aws-sp-api"
     },
     {
       "id": "@studiobox/node-red-contrib-ui-widget-thermometer",
