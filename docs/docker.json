@@ -1,7 +1,146 @@
 {
   "name": "Catalogue for Docker",
-  "updated_at": "2024-01-21T15:59:59.846Z",
+  "updated_at": "2024-01-22T15:59:10.379Z",
   "modules": [
+    {
+      "id": "node-red-contrib-openbci-eegmetrics",
+      "version": "0.0.3",
+      "description": "input params for eeg metrics from open bci devices",
+      "updated_at": "2024-01-22T13:54:05.120Z",
+      "types": [
+        "openBCI-EEGmetrics"
+      ],
+      "keywords": [
+        "node-red"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-openbci-eegmetrics"
+    },
+    {
+      "id": "node-red-node-rdk-camera",
+      "version": "0.0.4",
+      "description": "Node Red node for using camera on a RDK hardware",
+      "updated_at": "2024-01-22T13:13:26.545Z",
+      "types": [
+        "rdk-camera takephoto",
+        "rdk-camera imagestream"
+      ],
+      "keywords": [
+        "node-red",
+        "rdk",
+        "x3",
+        "camera"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-node-rdk-camera"
+    },
+    {
+      "id": "node-red-contrib-openbci-streaming",
+      "version": "0.0.2",
+      "description": "input params for open bci devices",
+      "updated_at": "2024-01-22T11:12:05.623Z",
+      "types": [
+        "openBCI-streaming"
+      ],
+      "keywords": [
+        "node-red"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-openbci-streaming"
+    },
+    {
+      "id": "node-red-contrib-openbci",
+      "version": "0.0.2",
+      "description": "input params for open bci devices",
+      "updated_at": "2024-01-22T11:09:06.787Z",
+      "types": [
+        "openBCI-data"
+      ],
+      "keywords": [
+        "node-red"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-openbci"
+    },
+    {
+      "id": "atomic-gravity",
+      "version": "2.0.15",
+      "description": "Gravity module for Brobridge Atomic",
+      "updated_at": "2024-01-22T06:53:34.865Z",
+      "types": [
+        "Gravity Subscriber",
+        "Gravity Publish",
+        "Gravity Server",
+        "Gravity Acknowledge"
+      ],
+      "keywords": [
+        "gravity",
+        "node-red",
+        "atomic"
+      ],
+      "url": "https://flows.nodered.org/node/atomic-gravity"
+    },
+    {
+      "id": "node-red-contrib-samsung-automation-studio-nodes",
+      "version": "1.1.19",
+      "description": "Samsung Automation Studio Nodes for Node-RED",
+      "updated_at": "2024-01-22T05:27:01.302Z",
+      "types": [
+        "device-profile",
+        "installed-device",
+        "automation",
+        "event-device",
+        "status-device",
+        "command-device",
+        "bixby in",
+        "bixby out",
+        "basic-auth",
+        "aws-config",
+        "aws-sdk",
+        "db-config",
+        "db-query",
+        "slack-notification",
+        "data-extractor",
+        "data-filter"
+      ],
+      "keywords": [
+        "SmartThings",
+        "Bixby",
+        "node-red",
+        "Samsung Automation Studio",
+        "AWS"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-samsung-automation-studio-nodes"
+    },
+    {
+      "id": "@technithusiast/node-red-contrib-ai-intent",
+      "version": "1.1.49",
+      "description": "A collection of nodes to elevate a user's automation interactions",
+      "updated_at": "2024-01-21T23:14:45.018Z",
+      "types": [
+        "Register Intent",
+        "Call Intent",
+        "OpenAI User",
+        "OpenAI System",
+        "OpenAI Chat",
+        "OpenAI Response",
+        "OpenAI Tool",
+        "openai-configuration"
+      ],
+      "keywords": [
+        "node-red"
+      ],
+      "url": "https://flows.nodered.org/node/@technithusiast/node-red-contrib-ai-intent"
+    },
+    {
+      "id": "@aingtii/node-red-trashdate",
+      "version": "1.0.6",
+      "description": "A node to generate next and overnext trashdate with type from CSV Files",
+      "updated_at": "2024-01-21T17:40:07.272Z",
+      "types": [
+        "TrashDate"
+      ],
+      "keywords": [
+        "node-red"
+      ],
+      "url": "https://flows.nodered.org/node/@aingtii/node-red-trashdate"
+    },
     {
       "id": "node-red-contrib-hikvision-ultimate",
       "version": "1.1.14",
@@ -148,19 +287,6 @@
       "url": "https://flows.nodered.org/node/node-red-contrib-mqtt-sparkplug-plus"
     },
     {
-      "id": "@aingtii/node-red-trashdate",
-      "version": "1.0.4",
-      "description": "A node to generate next and overnext trashdate with type from CSV Files",
-      "updated_at": "2024-01-20T14:53:18.070Z",
-      "types": [
-        "TrashDate"
-      ],
-      "keywords": [
-        "node-red"
-      ],
-      "url": "https://flows.nodered.org/node/@aingtii/node-red-trashdate"
-    },
-    {
       "id": "node-red-contrib-virtual-smart-home",
       "version": "4.1.2",
       "description": "A Node-RED node that represents a 'virtual device' which can be controlled via Alexa. Requires the virtual smart home skill to be enabled for your Amazon account.",
@@ -229,26 +355,6 @@
         "recursion"
       ],
       "url": "https://flows.nodered.org/node/@gregoriusrippenstein/node-red-contrib-nodedev"
-    },
-    {
-      "id": "@technithusiast/node-red-contrib-ai-intent",
-      "version": "1.1.47",
-      "description": "A collection of nodes to elevate a user's automation interactions",
-      "updated_at": "2024-01-20T04:51:57.467Z",
-      "types": [
-        "Register Intent",
-        "Call Intent",
-        "OpenAI User",
-        "OpenAI System",
-        "OpenAI Chat",
-        "OpenAI Response",
-        "OpenAI Tool",
-        "openai-configuration"
-      ],
-      "keywords": [
-        "node-red"
-      ],
-      "url": "https://flows.nodered.org/node/@technithusiast/node-red-contrib-ai-intent"
     },
     {
       "id": "@meshtastic/node-red-contrib-meshtastic",
@@ -344,23 +450,6 @@
       "url": "https://flows.nodered.org/node/node-red-contrib-meross"
     },
     {
-      "id": "node-red-node-rdk-camera",
-      "version": "0.0.2",
-      "description": "Node Red node for using camera on a RDK hardware",
-      "updated_at": "2024-01-19T14:56:44.534Z",
-      "types": [
-        "rdk-camera takephoto",
-        "rdk-camera imagestream"
-      ],
-      "keywords": [
-        "node-red",
-        "rdk",
-        "x3",
-        "camera"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-node-rdk-camera"
-    },
-    {
       "id": "@appmodule/node-red-contrib-siot",
       "version": "3.0.0-rc17",
       "description": "Node-RED interactions with SIOT",
@@ -432,38 +521,6 @@
         "tdc"
       ],
       "url": "https://flows.nodered.org/node/@ifp-software/node-red-contrib-oee-ai-connector"
-    },
-    {
-      "id": "node-red-contrib-samsung-automation-studio-nodes",
-      "version": "1.1.18",
-      "description": "Samsung Automation Studio Nodes for Node-RED",
-      "updated_at": "2024-01-19T01:20:20.817Z",
-      "types": [
-        "device-profile",
-        "installed-device",
-        "automation",
-        "event-device",
-        "status-device",
-        "command-device",
-        "bixby in",
-        "bixby out",
-        "basic-auth",
-        "aws-config",
-        "aws-sdk",
-        "db-config",
-        "db-query",
-        "slack-notification",
-        "data-extractor",
-        "data-filter"
-      ],
-      "keywords": [
-        "SmartThings",
-        "Bixby",
-        "node-red",
-        "Samsung Automation Studio",
-        "AWS"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-samsung-automation-studio-nodes"
     },
     {
       "id": "node-red-contrib-mongodb4",
@@ -2879,24 +2936,6 @@
       "url": "https://flows.nodered.org/node/node-red-contrib-deconz"
     },
     {
-      "id": "atomic-gravity",
-      "version": "2.0.13",
-      "description": "Gravity module for Brobridge Atomic",
-      "updated_at": "2023-12-27T18:24:19.451Z",
-      "types": [
-        "Gravity Subscriber",
-        "Gravity Publish",
-        "Gravity Server",
-        "Gravity Acknowledge"
-      ],
-      "keywords": [
-        "gravity",
-        "node-red",
-        "atomic"
-      ],
-      "url": "https://flows.nodered.org/node/atomic-gravity"
-    },
-    {
       "id": "node-red-contrib-feiertage-switzerland",
       "version": "1.6.1",
       "description": "NodeRED node to get swiss holidays and own special dates",
@@ -4500,9 +4539,9 @@
     },
     {
       "id": "node-red-contrib-shelly",
-      "version": "10.16.0",
+      "version": "10.16.1",
       "description": "Shelly nodes.",
-      "updated_at": "2023-12-03T19:57:39.740Z",
+      "updated_at": "2023-12-03T21:51:02.454Z",
       "types": [
         "shelly-gen1-server",
         "shelly-gen1",
