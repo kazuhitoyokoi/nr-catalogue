@@ -1,7 +1,332 @@
 {
   "name": "Catalogue for Docker",
-  "updated_at": "2024-01-22T15:59:10.379Z",
+  "updated_at": "2024-01-23T16:00:44.760Z",
   "modules": [
+    {
+      "id": "@smartdcc/dccboxed-nodered-nodes",
+      "version": "0.5.0",
+      "description": "Collection of nodes for NodeRED to facilitate interfacing with DCC Boxed",
+      "updated_at": "2024-01-23T12:17:36.024Z",
+      "types": [],
+      "keywords": [
+        "node-red",
+        "duis",
+        "gbcs",
+        "front-end",
+        "smartdcc",
+        "smartmeter",
+        "smets2"
+      ],
+      "url": "https://flows.nodered.org/node/@smartdcc/dccboxed-nodered-nodes"
+    },
+    {
+      "id": "@tq-bit/node-red-contrib-de-fuelprices",
+      "version": "0.1.4",
+      "description": "Node to fetch fuelprices from the Tankerkoenig API",
+      "updated_at": "2024-01-23T12:05:00.637Z",
+      "types": [
+        "tankerkoenig-config",
+        "tankerkoenig-search",
+        "tankerkoenig-prices"
+      ],
+      "keywords": [
+        "node-red",
+        "nodes",
+        "benzinpreis",
+        "tankerkoenig"
+      ],
+      "url": "https://flows.nodered.org/node/@tq-bit/node-red-contrib-de-fuelprices"
+    },
+    {
+      "id": "node-red-contrib-tts-ultimate",
+      "version": "2.0.7",
+      "description": "Transforms the text in speech and hear it using Sonos player or generate an audio file to be used with third parties nodes. Works with voices from Amazon, Google (without credentials as well), Microsoft TTS Azure, ElevenLabs.io TTS or your own voice. You ",
+      "updated_at": "2024-01-23T11:13:58.803Z",
+      "types": [
+        "ttsultimate",
+        "ttsultimate-config",
+        "ownfileultimate"
+      ],
+      "keywords": [
+        "node-red",
+        "polly",
+        "google",
+        "voice",
+        "amazon",
+        "azure",
+        "tts",
+        "sonos",
+        "IOT",
+        "speech",
+        "ttsultimate",
+        "sonospollytts",
+        "neural",
+        "elevenlabs"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-tts-ultimate"
+    },
+    {
+      "id": "node-red-contrib-knx-ultimate",
+      "version": "2.4.1",
+      "description": "Control your KNX intallation via Node-Red! A bunch of KNX nodes, with integrated Philips HUE control and ETS group address importer. Easy to use and highly configurable.",
+      "updated_at": "2024-01-23T10:38:35.819Z",
+      "types": [
+        "knxUltimate",
+        "knxUltimateSceneController",
+        "knxUltimateWatchDog",
+        "knxUltimateLogger",
+        "knxUltimate-config",
+        "knxUltimateGlobalContext",
+        "knxUltimateAlerter",
+        "knxUltimateLoadControl",
+        "knxUltimateViewer",
+        "hue-config",
+        "knxUltimateHueLight",
+        "knxUltimateHueButton",
+        "knxUltimateHueMotion",
+        "knxUltimateHueTapDial",
+        "knxUltimateHueLightSensor",
+        "knxUltimateHueTemperatureSensor",
+        "knxUltimateHueScene",
+        "knxUltimateHueBattery"
+      ],
+      "keywords": [
+        "node-red",
+        "KNX",
+        "ETS",
+        "eib",
+        "konnex",
+        "IOT",
+        "philips hue"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-knx-ultimate"
+    },
+    {
+      "id": "node-red-contrib-manipulator",
+      "version": "0.0.5",
+      "description": "2d manipulator Node-RED UI widget",
+      "updated_at": "2024-01-23T10:03:13.887Z",
+      "types": [
+        "ui_manipulator_widget"
+      ],
+      "keywords": [
+        "ui",
+        "button",
+        "state",
+        "selection",
+        "nodered",
+        "node",
+        "red",
+        "node-red"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-manipulator"
+    },
+    {
+      "id": "@opcua/for-node-red",
+      "version": "2.4.0",
+      "description": "The Node-RED node to communicate via OPC UA, powered NodeOPCUA and developed by Sterfive's team",
+      "updated_at": "2024-01-23T07:44:35.180Z",
+      "types": [],
+      "keywords": [
+        "node-red",
+        "OPC UA",
+        "opc-ua",
+        "unified architecture",
+        "opc foundation",
+        "node-opcua",
+        "IIoT"
+      ],
+      "url": "https://flows.nodered.org/node/@opcua/for-node-red"
+    },
+    {
+      "id": "node-red-contrib-ui-statechart",
+      "version": "0.2.1",
+      "description": "A Node-RED dashboard ui node.",
+      "updated_at": "2024-01-23T06:51:12.296Z",
+      "types": [
+        "ui_statechart"
+      ],
+      "keywords": [
+        "node-red",
+        "statechart",
+        "chart",
+        "dashboard"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-ui-statechart"
+    },
+    {
+      "id": "node-red-node-rdk-gpio",
+      "version": "0.0.1",
+      "description": "The basic Node-RED node for RDK GPIO",
+      "updated_at": "2024-01-23T06:42:32.555Z",
+      "types": [
+        "rdk-gpio out",
+        "rdk-gpio soft pwm",
+        "rdk-gpio pwm",
+        "rdk-gpio in",
+        "rdk-mouse",
+        "rdk-keyboard"
+      ],
+      "keywords": [
+        "node-red",
+        "RDK",
+        "GPIO",
+        "rdk-gpio"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-node-rdk-gpio"
+    },
+    {
+      "id": "@edgepi-cloud/node-red-edgepi-thermocouple",
+      "version": "1.0.12",
+      "description": "A node-red node for EdgePi thermocouple module",
+      "updated_at": "2024-01-23T00:02:43.490Z",
+      "types": [
+        "thermocouple"
+      ],
+      "keywords": [
+        "edgepi",
+        "thermocouple",
+        "node-red"
+      ],
+      "url": "https://flows.nodered.org/node/@edgepi-cloud/node-red-edgepi-thermocouple"
+    },
+    {
+      "id": "@edgepi-cloud/node-red-edgepi-relay",
+      "version": "1.0.8",
+      "description": "node-red node for edgepi relay module utilizing remote procedure calls",
+      "updated_at": "2024-01-23T00:01:42.350Z",
+      "types": [
+        "relay"
+      ],
+      "keywords": [
+        "node-red",
+        "edgepi",
+        "rpc"
+      ],
+      "url": "https://flows.nodered.org/node/@edgepi-cloud/node-red-edgepi-relay"
+    },
+    {
+      "id": "@edgepi-cloud/node-red-edgepi-led",
+      "version": "1.0.10",
+      "description": "Node for EdgePi Led Array",
+      "updated_at": "2024-01-22T23:59:22.248Z",
+      "types": [
+        "led"
+      ],
+      "keywords": [
+        "node-red",
+        "edgepi",
+        "led",
+        "edgepi-led"
+      ],
+      "url": "https://flows.nodered.org/node/@edgepi-cloud/node-red-edgepi-led"
+    },
+    {
+      "id": "@edgepi-cloud/node-red-edgepi-digital-out",
+      "version": "1.0.11",
+      "description": "node-red node for edgepi digital output module utilizing remote procedure calls",
+      "updated_at": "2024-01-22T23:55:39.790Z",
+      "types": [
+        "digital-out"
+      ],
+      "keywords": [
+        "node-red",
+        "edgepi",
+        "rpc"
+      ],
+      "url": "https://flows.nodered.org/node/@edgepi-cloud/node-red-edgepi-digital-out"
+    },
+    {
+      "id": "@edgepi-cloud/node-red-edgepi-digital-input",
+      "version": "1.0.9",
+      "description": "node-red node for edgepi digital-input module utilizing remote procedure calls",
+      "updated_at": "2024-01-22T23:53:42.357Z",
+      "types": [
+        "digital-in"
+      ],
+      "keywords": [
+        "node-red",
+        "edgepi",
+        "rpc"
+      ],
+      "url": "https://flows.nodered.org/node/@edgepi-cloud/node-red-edgepi-digital-input"
+    },
+    {
+      "id": "@edgepi-cloud/node-red-edgepi-dac",
+      "version": "1.0.12",
+      "description": "node-red node for edgepi dac module utilizing remote procedure calls",
+      "updated_at": "2024-01-22T23:50:42.532Z",
+      "types": [
+        "dac"
+      ],
+      "keywords": [
+        "node-red",
+        "edgepi",
+        "rpc"
+      ],
+      "url": "https://flows.nodered.org/node/@edgepi-cloud/node-red-edgepi-dac"
+    },
+    {
+      "id": "@edgepi-cloud/node-red-edgepi-adc",
+      "version": "1.0.13",
+      "description": "node-red node for edgepi adc module utilizing remote procedure calls",
+      "updated_at": "2024-01-22T23:46:52.885Z",
+      "types": [
+        "adc"
+      ],
+      "keywords": [
+        "node-red",
+        "edgepi",
+        "rpc"
+      ],
+      "url": "https://flows.nodered.org/node/@edgepi-cloud/node-red-edgepi-adc"
+    },
+    {
+      "id": "@iiot2k/node-red-rpi-gpiox",
+      "version": "2.0.2",
+      "description": "Node-RED nodes for Raspberry Pi GPIO",
+      "updated_at": "2024-01-22T21:40:21.824Z",
+      "types": [
+        "iiot2k-rpi-gpiox-in",
+        "iiot2k-rpi-gpiox-out",
+        "iiot2k-rpi-gpiox-pwm"
+      ],
+      "keywords": [
+        "node-red",
+        "iot",
+        "iiot2k",
+        "raspberry pi",
+        "rpi",
+        "digital",
+        "gpio",
+        "gpiox",
+        "input",
+        "output",
+        "pwm"
+      ],
+      "url": "https://flows.nodered.org/node/@iiot2k/node-red-rpi-gpiox"
+    },
+    {
+      "id": "@elipse/epm-node-red",
+      "version": "5.2.160",
+      "description": "Nodes for communication with Elipse Plant Manager (EPM) Web Api in Node-RED",
+      "updated_at": "2024-01-22T20:03:20.000Z",
+      "types": [
+        "EPM Event",
+        "EPM History Read Raw",
+        "EPM History Read Aggregate",
+        "EPM Read",
+        "EPM Write",
+        "EPM Subscribe",
+        "EPM Connection Config",
+        "EPM Connection Status"
+      ],
+      "keywords": [
+        "epm",
+        "node-red"
+      ],
+      "url": "https://flows.nodered.org/node/@elipse/epm-node-red"
+    },
     {
       "id": "node-red-contrib-openbci-eegmetrics",
       "version": "0.0.3",
@@ -57,6 +382,19 @@
         "node-red"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-openbci"
+    },
+    {
+      "id": "node-red-contrib-nspanel-lui",
+      "version": "0.0.1-alpha.52.1",
+      "description": "Node-RED based backend for NSPanel Lovelace UI custom firmware.",
+      "updated_at": "2024-01-22T09:37:50.026Z",
+      "types": [],
+      "keywords": [
+        "node-red",
+        "lovelace ui",
+        "nspanel"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-nspanel-lui"
     },
     {
       "id": "atomic-gravity",
@@ -468,42 +806,6 @@
       "url": "https://flows.nodered.org/node/@appmodule/node-red-contrib-siot"
     },
     {
-      "id": "node-red-contrib-knx-ultimate",
-      "version": "2.4.0-beta.1",
-      "description": "Control your KNX intallation via Node-Red! A bunch of KNX nodes, with integrated Philips HUE control and ETS group address importer. Easy to use and highly configurable.",
-      "updated_at": "2024-01-19T10:14:30.882Z",
-      "types": [
-        "knxUltimate",
-        "knxUltimateSceneController",
-        "knxUltimateWatchDog",
-        "knxUltimateLogger",
-        "knxUltimate-config",
-        "knxUltimateGlobalContext",
-        "knxUltimateAlerter",
-        "knxUltimateLoadControl",
-        "knxUltimateViewer",
-        "hue-config",
-        "knxUltimateHueLight",
-        "knxUltimateHueButton",
-        "knxUltimateHueMotion",
-        "knxUltimateHueTapDial",
-        "knxUltimateHueLightSensor",
-        "knxUltimateHueTemperatureSensor",
-        "knxUltimateHueScene",
-        "knxUltimateHueBattery"
-      ],
-      "keywords": [
-        "node-red",
-        "KNX",
-        "ETS",
-        "eib",
-        "konnex",
-        "IOT",
-        "philips hue"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-knx-ultimate"
-    },
-    {
       "id": "@ifp-software/node-red-contrib-oee-ai-connector",
       "version": "2.8.0",
       "description": "Easily connect your production machines to oee.ai – The Industry 4.0 solution for OEE optimization.",
@@ -847,34 +1149,6 @@
       "url": "https://flows.nodered.org/node/node-red-contrib-custom-chatgpt"
     },
     {
-      "id": "node-red-contrib-tts-ultimate",
-      "version": "2.0.6",
-      "description": "Transforms the text in speech and hear it using Sonos player or generate an audio file to be used with third parties nodes. Works with voices from Amazon, Google (without credentials as well), Microsoft TTS Azure, ElevenLabs.io TTS or your own voice. You ",
-      "updated_at": "2024-01-17T15:26:19.867Z",
-      "types": [
-        "ttsultimate",
-        "ttsultimate-config",
-        "ownfileultimate"
-      ],
-      "keywords": [
-        "node-red",
-        "polly",
-        "google",
-        "voice",
-        "amazon",
-        "azure",
-        "tts",
-        "sonos",
-        "IOT",
-        "speech",
-        "ttsultimate",
-        "sonospollytts",
-        "neural",
-        "elevenlabs"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-tts-ultimate"
-    },
-    {
       "id": "node-red-contrib-ewelink-apikey",
       "version": "1.0.0",
       "description": "NodeRED nodes for eWeLink smart devices",
@@ -1010,30 +1284,6 @@
       "url": "https://flows.nodered.org/node/@gdziuba/node-red-usbhid"
     },
     {
-      "id": "@iiot2k/node-red-rpi-gpiox",
-      "version": "2.0.1",
-      "description": "Node-RED nodes for Raspberry Pi GPIO",
-      "updated_at": "2024-01-16T18:08:18.198Z",
-      "types": [
-        "iiot2k-rpi-gpiox-in",
-        "iiot2k-rpi-gpiox-out"
-      ],
-      "keywords": [
-        "node-red",
-        "iot",
-        "iiot2k",
-        "raspberry pi",
-        "rpi",
-        "digital",
-        "gpio",
-        "gpiox",
-        "input",
-        "output",
-        "pwm"
-      ],
-      "url": "https://flows.nodered.org/node/@iiot2k/node-red-rpi-gpiox"
-    },
-    {
       "id": "@mschaeffler/node-red-lora",
       "version": "3.2.2",
       "description": "Five nodes to send and receive LoRaWan messages via a gateway via the Semtech UDP protocol.",
@@ -1054,39 +1304,6 @@
       "url": "https://flows.nodered.org/node/@mschaeffler/node-red-lora"
     },
     {
-      "id": "@opcua/for-node-red",
-      "version": "2.3.0",
-      "description": "The Node-RED node to communicate via OPC UA, powered NodeOPCUA and developed by Sterfive's team",
-      "updated_at": "2024-01-16T08:16:57.770Z",
-      "types": [],
-      "keywords": [
-        "node-red",
-        "OPC UA",
-        "opc-ua",
-        "unified architecture",
-        "opc foundation",
-        "node-opcua",
-        "IIoT"
-      ],
-      "url": "https://flows.nodered.org/node/@opcua/for-node-red"
-    },
-    {
-      "id": "@edgepi-cloud/node-red-edgepi-led",
-      "version": "1.0.8",
-      "description": "Node for EdgePi Led Array",
-      "updated_at": "2024-01-15T23:37:37.601Z",
-      "types": [
-        "led"
-      ],
-      "keywords": [
-        "node-red",
-        "edgepi",
-        "led",
-        "edgepi-led"
-      ],
-      "url": "https://flows.nodered.org/node/@edgepi-cloud/node-red-edgepi-led"
-    },
-    {
       "id": "@edgepi-cloud/node-red-edgepi-pwm",
       "version": "1.0.1",
       "description": "Node-RED node for EdgePi PWM Module",
@@ -1101,96 +1318,6 @@
         "edgepi-pwm"
       ],
       "url": "https://flows.nodered.org/node/@edgepi-cloud/node-red-edgepi-pwm"
-    },
-    {
-      "id": "@edgepi-cloud/node-red-edgepi-digital-out",
-      "version": "1.0.10",
-      "description": "node-red node for edgepi digital output module utilizing remote procedure calls",
-      "updated_at": "2024-01-15T23:10:30.437Z",
-      "types": [
-        "digital-out"
-      ],
-      "keywords": [
-        "node-red",
-        "edgepi",
-        "rpc"
-      ],
-      "url": "https://flows.nodered.org/node/@edgepi-cloud/node-red-edgepi-digital-out"
-    },
-    {
-      "id": "@edgepi-cloud/node-red-edgepi-digital-input",
-      "version": "1.0.7",
-      "description": "node-red node for edgepi digital-input module utilizing remote procedure calls",
-      "updated_at": "2024-01-15T23:09:51.057Z",
-      "types": [
-        "digital-in"
-      ],
-      "keywords": [
-        "node-red",
-        "edgepi",
-        "rpc"
-      ],
-      "url": "https://flows.nodered.org/node/@edgepi-cloud/node-red-edgepi-digital-input"
-    },
-    {
-      "id": "@edgepi-cloud/node-red-edgepi-dac",
-      "version": "1.0.8",
-      "description": "node-red node for edgepi dac module utilizing remote procedure calls",
-      "updated_at": "2024-01-15T23:08:20.171Z",
-      "types": [
-        "dac"
-      ],
-      "keywords": [
-        "node-red",
-        "edgepi",
-        "rpc"
-      ],
-      "url": "https://flows.nodered.org/node/@edgepi-cloud/node-red-edgepi-dac"
-    },
-    {
-      "id": "@edgepi-cloud/node-red-edgepi-adc",
-      "version": "1.0.6",
-      "description": "node-red node for edgepi adc module utilizing remote procedure calls",
-      "updated_at": "2024-01-15T23:04:25.823Z",
-      "types": [
-        "adc"
-      ],
-      "keywords": [
-        "node-red",
-        "edgepi",
-        "rpc"
-      ],
-      "url": "https://flows.nodered.org/node/@edgepi-cloud/node-red-edgepi-adc"
-    },
-    {
-      "id": "@edgepi-cloud/node-red-edgepi-relay",
-      "version": "1.0.6",
-      "description": "node-red node for edgepi relay module utilizing remote procedure calls",
-      "updated_at": "2024-01-15T23:02:04.835Z",
-      "types": [
-        "relay"
-      ],
-      "keywords": [
-        "node-red",
-        "edgepi",
-        "rpc"
-      ],
-      "url": "https://flows.nodered.org/node/@edgepi-cloud/node-red-edgepi-relay"
-    },
-    {
-      "id": "@edgepi-cloud/node-red-edgepi-thermocouple",
-      "version": "1.0.11",
-      "description": "A node-red node for EdgePi thermocouple module",
-      "updated_at": "2024-01-15T23:01:44.399Z",
-      "types": [
-        "thermocouple"
-      ],
-      "keywords": [
-        "edgepi",
-        "thermocouple",
-        "node-red"
-      ],
-      "url": "https://flows.nodered.org/node/@edgepi-cloud/node-red-edgepi-thermocouple"
     },
     {
       "id": "@coremarine/nr-nmea-parser",
@@ -1485,26 +1612,6 @@
         "flightradar24"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-flightradar24"
-    },
-    {
-      "id": "node-red-contrib-manipulator",
-      "version": "0.0.3",
-      "description": "2d manipulator Node-RED UI widget",
-      "updated_at": "2024-01-13T07:27:55.010Z",
-      "types": [
-        "ui_manipulator_widget"
-      ],
-      "keywords": [
-        "ui",
-        "button",
-        "state",
-        "selection",
-        "nodered",
-        "node",
-        "red",
-        "node-red"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-manipulator"
     },
     {
       "id": "@gregoriusrippenstein/node-red-contrib-aisbreaker",
@@ -1836,23 +1943,6 @@
         "putObject"
       ],
       "url": "https://flows.nodered.org/node/@nickcuper/node-red-contrib-aws-cloud"
-    },
-    {
-      "id": "@smartdcc/dccboxed-nodered-nodes",
-      "version": "0.4.1",
-      "description": "Collection of nodes for NodeRED to facilitate interfacing with DCC Boxed",
-      "updated_at": "2024-01-11T10:30:58.130Z",
-      "types": [],
-      "keywords": [
-        "node-red",
-        "duis",
-        "gbcs",
-        "front-end",
-        "smartdcc",
-        "smartmeter",
-        "smets2"
-      ],
-      "url": "https://flows.nodered.org/node/@smartdcc/dccboxed-nodered-nodes"
     },
     {
       "id": "node-red-contrib-genetic-charging-strategy2",
@@ -2800,19 +2890,6 @@
       "url": "https://flows.nodered.org/node/node-red-contrib-google-smarthome"
     },
     {
-      "id": "node-red-contrib-nspanel-lui",
-      "version": "0.0.1-alpha.51",
-      "description": "Node-RED based backend for NSPanel Lovelace UI custom firmware.",
-      "updated_at": "2023-12-30T08:39:15.197Z",
-      "types": [],
-      "keywords": [
-        "node-red",
-        "lovelace ui",
-        "nspanel"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-nspanel-lui"
-    },
-    {
       "id": "node-red-contrib-smarthome-powerswitch",
       "version": "1.2.0",
       "description": "This is the powerswitch node as standalone, which is part of 'node-red-contrib-smarthome'. It containes nodes for Node-RED.",
@@ -3447,23 +3524,6 @@
         "doorbird"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-doorbird-ultimate"
-    },
-    {
-      "id": "@tq-bit/node-red-contrib-de-fuelprices",
-      "version": "0.1.1",
-      "description": "Node to fetch fuelprices from the Tankerkoenig API",
-      "updated_at": "2023-12-19T12:41:05.016Z",
-      "types": [
-        "tankerkoenig-config",
-        "tankerkoenig-search"
-      ],
-      "keywords": [
-        "node-red",
-        "nodes",
-        "benzinpreis",
-        "tankerkoenig"
-      ],
-      "url": "https://flows.nodered.org/node/@tq-bit/node-red-contrib-de-fuelprices"
     },
     {
       "id": "victron-dynamic-ess",
@@ -21678,22 +21738,6 @@
         "nats"
       ],
       "url": "https://flows.nodered.org/node/@kurago-dev/node-red-contrib-nats"
-    },
-    {
-      "id": "node-red-contrib-ui-statechart",
-      "version": "0.2.0",
-      "description": "A Node-RED dashboard ui node.",
-      "updated_at": "2022-11-30T12:51:40.589Z",
-      "types": [
-        "ui_statechart"
-      ],
-      "keywords": [
-        "node-red",
-        "statechart",
-        "chart",
-        "dashboard"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-ui-statechart"
     },
     {
       "id": "node-red-contrib-fhem",
