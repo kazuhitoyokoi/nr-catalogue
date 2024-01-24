@@ -1,7 +1,151 @@
 {
   "name": "Catalogue for Docker",
-  "updated_at": "2024-01-23T16:00:44.760Z",
+  "updated_at": "2024-01-24T15:59:53.140Z",
   "modules": [
+    {
+      "id": "node-red-contrib-axis-com",
+      "version": "1.4.0",
+      "description": "Simplified integration with Axis devices",
+      "updated_at": "2024-01-24T13:09:25.785Z",
+      "types": [
+        "Device Access",
+        "Axis camera",
+        "Axis ACAP",
+        "Axis Security"
+      ],
+      "keywords": [
+        "node-red",
+        "Axis",
+        "Camera"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-axis-com"
+    },
+    {
+      "id": "node-red-contrib-tapo-new-api",
+      "version": "0.4.8",
+      "description": "Unofficial node-RED node for connecting to TP-Link Tapo devices with new API. Currently limited to the P100 & P105 & P110 smart plugs and L510E smart bulbs.",
+      "updated_at": "2024-01-23T22:56:24.793Z",
+      "types": [],
+      "keywords": [
+        "node-red",
+        "tplink",
+        "p100",
+        "p105",
+        "p110",
+        "p115",
+        "L510E",
+        "klap",
+        "passthrough"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-tapo-new-api"
+    },
+    {
+      "id": "node-red-contrib-knx-ultimate",
+      "version": "2.4.5-beta.0",
+      "description": "Control your KNX intallation via Node-Red! A bunch of KNX nodes, with integrated Philips HUE control and ETS group address importer. Easy to use and highly configurable.",
+      "updated_at": "2024-01-23T22:34:32.606Z",
+      "types": [
+        "knxUltimate",
+        "knxUltimateSceneController",
+        "knxUltimateWatchDog",
+        "knxUltimateLogger",
+        "knxUltimate-config",
+        "knxUltimateGlobalContext",
+        "knxUltimateAlerter",
+        "knxUltimateLoadControl",
+        "knxUltimateViewer",
+        "hue-config",
+        "knxUltimateHueLight",
+        "knxUltimateHueButton",
+        "knxUltimateHueMotion",
+        "knxUltimateHueTapDial",
+        "knxUltimateHueLightSensor",
+        "knxUltimateHueTemperatureSensor",
+        "knxUltimateHueScene",
+        "knxUltimateHueBattery"
+      ],
+      "keywords": [
+        "node-red",
+        "KNX",
+        "ETS",
+        "eib",
+        "konnex",
+        "IOT",
+        "philips hue"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-knx-ultimate"
+    },
+    {
+      "id": "@semilimes/node-red-semilimes",
+      "version": "0.9.7",
+      "description": "The new semilimes connector which integrates with the public API",
+      "updated_at": "2024-01-23T20:02:47.210Z",
+      "types": [
+        "sme-main-connector",
+        "sme-main-intent",
+        "sme-main-sender",
+        "sme-main-listener",
+        "sme-main-sshTunnel",
+        "sme-main-formSaver",
+        "sme-main-formLoader",
+        "sme-main-formUpdater",
+        "sme-main-uploader",
+        "sme-comp-text",
+        "sme-comp-html",
+        "sme-comp-file",
+        "sme-comp-contact",
+        "sme-comp-location",
+        "sme-comp-webview",
+        "sme-comp-channel",
+        "sme-comp-tunnel",
+        "sme-comp-form",
+        "sme-formComp-label",
+        "sme-formComp-textBox",
+        "sme-formComp-buttonList",
+        "sme-formComp-singleChoice",
+        "sme-formComp-multiChoice",
+        "sme-formComp-switch",
+        "sme-formComp-slider",
+        "sme-formComp-datePicker",
+        "sme-formComp-timePicker",
+        "sme-formComp-locationPicker",
+        "sme-formComp-photoPicker",
+        "sme-formComp-filePicker",
+        "sme-formComp-contactPicker",
+        "sme-formComp-groupChatPicker",
+        "sme-formComp-channelPicker",
+        "sme-formComp-bucketPicker",
+        "sme-formComp-hiddenValue",
+        "sme-formComp-qrCodeScanner",
+        "sme-formComp-nfcReader",
+        "sme-filter-formSubmission"
+      ],
+      "keywords": [
+        "semilimes",
+        "iot",
+        "connector",
+        "node-red",
+        "mobile phone",
+        "interface",
+        "remote access",
+        "ssh tunnel",
+        "websocket"
+      ],
+      "url": "https://flows.nodered.org/node/@semilimes/node-red-semilimes"
+    },
+    {
+      "id": "@aingtii/node-red-trashdate",
+      "version": "1.1.1",
+      "description": "A node to generate next and overnext trashdate with type from CSV Files",
+      "updated_at": "2024-01-23T17:21:18.720Z",
+      "types": [
+        "TrashDate"
+      ],
+      "keywords": [
+        "node-red"
+      ],
+      "url": "https://flows.nodered.org/node/@aingtii/node-red-trashdate"
+    },
     {
       "id": "@smartdcc/dccboxed-nodered-nodes",
       "version": "0.5.0",
@@ -64,42 +208,6 @@
         "elevenlabs"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-tts-ultimate"
-    },
-    {
-      "id": "node-red-contrib-knx-ultimate",
-      "version": "2.4.1",
-      "description": "Control your KNX intallation via Node-Red! A bunch of KNX nodes, with integrated Philips HUE control and ETS group address importer. Easy to use and highly configurable.",
-      "updated_at": "2024-01-23T10:38:35.819Z",
-      "types": [
-        "knxUltimate",
-        "knxUltimateSceneController",
-        "knxUltimateWatchDog",
-        "knxUltimateLogger",
-        "knxUltimate-config",
-        "knxUltimateGlobalContext",
-        "knxUltimateAlerter",
-        "knxUltimateLoadControl",
-        "knxUltimateViewer",
-        "hue-config",
-        "knxUltimateHueLight",
-        "knxUltimateHueButton",
-        "knxUltimateHueMotion",
-        "knxUltimateHueTapDial",
-        "knxUltimateHueLightSensor",
-        "knxUltimateHueTemperatureSensor",
-        "knxUltimateHueScene",
-        "knxUltimateHueBattery"
-      ],
-      "keywords": [
-        "node-red",
-        "KNX",
-        "ETS",
-        "eib",
-        "konnex",
-        "IOT",
-        "philips hue"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-knx-ultimate"
     },
     {
       "id": "node-red-contrib-manipulator",
@@ -467,19 +575,6 @@
       "url": "https://flows.nodered.org/node/@technithusiast/node-red-contrib-ai-intent"
     },
     {
-      "id": "@aingtii/node-red-trashdate",
-      "version": "1.0.6",
-      "description": "A node to generate next and overnext trashdate with type from CSV Files",
-      "updated_at": "2024-01-21T17:40:07.272Z",
-      "types": [
-        "TrashDate"
-      ],
-      "keywords": [
-        "node-red"
-      ],
-      "url": "https://flows.nodered.org/node/@aingtii/node-red-trashdate"
-    },
-    {
       "id": "node-red-contrib-hikvision-ultimate",
       "version": "1.1.14",
       "description": "A native set of nodes for Hikvision (and compatible) Cameras, Alarms, Radars, NVR, Doorbells, etc.",
@@ -545,25 +640,6 @@
         "mcp3428"
       ],
       "url": "https://flows.nodered.org/node/@redplc/node-red-rpi-mcp3424"
-    },
-    {
-      "id": "node-red-contrib-tapo-new-api",
-      "version": "0.4.5",
-      "description": "Unofficial node-RED node for connecting to TP-Link Tapo devices with new API. Currently limited to the P100 & P105 & P110 smart plugs and L510E smart bulbs.",
-      "updated_at": "2024-01-21T13:41:49.334Z",
-      "types": [],
-      "keywords": [
-        "node-red",
-        "tplink",
-        "p100",
-        "p105",
-        "p110",
-        "p115",
-        "L510E",
-        "klap",
-        "passthrough"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-tapo-new-api"
     },
     {
       "id": "node-red-contrib-rollun-aws-sp-api",
@@ -695,6 +771,25 @@
       "url": "https://flows.nodered.org/node/@gregoriusrippenstein/node-red-contrib-nodedev"
     },
     {
+      "id": "node-red-contrib-ui-time-scheduler-italian",
+      "version": "1.17.8",
+      "description": "Italian translation of the ui-time-scheduler module for NodeRed",
+      "updated_at": "2024-01-20T08:27:45.009Z",
+      "types": [
+        "ui_time_scheduler"
+      ],
+      "keywords": [
+        "node-red",
+        "time-scheduler",
+        "schedules",
+        "timer",
+        "dashboard",
+        "frontend",
+        "italian"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-ui-time-scheduler-italian"
+    },
+    {
       "id": "@meshtastic/node-red-contrib-meshtastic",
       "version": "2.2.18-1",
       "description": "Meshtastic protobuf converter for NodeRED",
@@ -753,23 +848,6 @@
         "node-red"
       ],
       "url": "https://flows.nodered.org/node/@flowfuse/node-red-dashboard"
-    },
-    {
-      "id": "node-red-contrib-ui-time-scheduler-italian",
-      "version": "1.17.3",
-      "description": "Italian translation of the ui-time-scheduler module for NodeRed",
-      "updated_at": "2024-01-19T14:58:28.511Z",
-      "types": [
-        "ui_time_scheduler"
-      ],
-      "keywords": [
-        "node-red",
-        "dashboard",
-        "ui",
-        "scheduler",
-        "italian"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-ui-time-scheduler-italian"
     },
     {
       "id": "node-red-contrib-meross",
@@ -1355,64 +1433,6 @@
         "huawei"
       ],
       "url": "https://flows.nodered.org/node/@nickiv/node-red-huawei-sms"
-    },
-    {
-      "id": "@semilimes/node-red-semilimes",
-      "version": "0.9.6",
-      "description": "The new semilimes connector which integrates with the public API",
-      "updated_at": "2024-01-15T12:11:57.861Z",
-      "types": [
-        "sme-main-connector",
-        "sme-main-actionSelector",
-        "sme-main-sender",
-        "sme-main-listener",
-        "sme-main-sshTunnel",
-        "sme-main-formSaver",
-        "sme-main-formLoader",
-        "sme-main-formUpdater",
-        "sme-main-uploader",
-        "sme-comp-text",
-        "sme-comp-html",
-        "sme-comp-file",
-        "sme-comp-contact",
-        "sme-comp-location",
-        "sme-comp-webview",
-        "sme-comp-channel",
-        "sme-comp-tunnel",
-        "sme-comp-form",
-        "sme-formComp-label",
-        "sme-formComp-textBox",
-        "sme-formComp-buttonList",
-        "sme-formComp-singleChoice",
-        "sme-formComp-multiChoice",
-        "sme-formComp-switch",
-        "sme-formComp-slider",
-        "sme-formComp-datePicker",
-        "sme-formComp-timePicker",
-        "sme-formComp-locationPicker",
-        "sme-formComp-photoPicker",
-        "sme-formComp-filePicker",
-        "sme-formComp-contactPicker",
-        "sme-formComp-groupChatPicker",
-        "sme-formComp-channelPicker",
-        "sme-formComp-bucketPicker",
-        "sme-formComp-hiddenValue",
-        "sme-formComp-qrCodeScanner",
-        "sme-formComp-nfcReader",
-        "sme-filter-formSubmission"
-      ],
-      "keywords": [
-        "semilimes",
-        "iot",
-        "connector",
-        "node-red",
-        "mobile phone",
-        "interface",
-        "remote access",
-        "ssh tunnel",
-        "websocket"
-      ],
-      "url": "https://flows.nodered.org/node/@semilimes/node-red-semilimes"
     },
     {
       "id": "node-red-contrib-oscar-plants-classification",
@@ -12884,25 +12904,6 @@
         "node-red"
       ],
       "url": "https://flows.nodered.org/node/cosmino-digitaltwin-add-quantity"
-    },
-    {
-      "id": "node-red-contrib-axis-com",
-      "version": "1.3.0",
-      "description": "Simplified integration with Axis devices",
-      "updated_at": "2023-07-12T22:18:35.921Z",
-      "types": [
-        "Device Access",
-        "Axis device",
-        "Axis camera",
-        "Axis ACAP",
-        "Axis Security"
-      ],
-      "keywords": [
-        "node-red",
-        "Axis",
-        "Camera"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-axis-com"
     },
     {
       "id": "node-red-contrib-persistent-global-context",
