@@ -1,30 +1,73 @@
 {
   "name": "Catalogue for Docker",
-  "updated_at": "2024-01-24T15:59:53.140Z",
+  "updated_at": "2024-01-25T16:00:39.435Z",
   "modules": [
     {
-      "id": "node-red-contrib-axis-com",
-      "version": "1.4.0",
-      "description": "Simplified integration with Axis devices",
-      "updated_at": "2024-01-24T13:09:25.785Z",
+      "id": "@gregoriusrippenstein/node-red-contrib-introspection",
+      "version": "0.5.8",
+      "description": "Node-RED Editor-only nodes for introspecting with flows in the frontend.",
+      "updated_at": "2024-01-25T12:36:47.466Z",
       "types": [
-        "Device Access",
-        "Axis camera",
-        "Axis ACAP",
-        "Axis Security"
+        "Seeker",
+        "Sink",
+        "GetFlows",
+        "SendFlow",
+        "ClientCode"
       ],
       "keywords": [
         "node-red",
-        "Axis",
-        "Camera"
+        "introspection",
+        "selfreflection",
+        "node-red-editor",
+        "screenshot"
       ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-axis-com"
+      "url": "https://flows.nodered.org/node/@gregoriusrippenstein/node-red-contrib-introspection"
+    },
+    {
+      "id": "node-red-contrib-unifi",
+      "version": "0.3.13",
+      "description": "Node for Node-RED to connect to a UniFi Controller ",
+      "updated_at": "2024-01-25T12:20:25.447Z",
+      "types": [
+        "unificonfig",
+        "Unifi",
+        "UnifiWS"
+      ],
+      "keywords": [
+        "node-red",
+        "unifi",
+        "ubnt",
+        "Ubiquiti Networks"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-unifi"
+    },
+    {
+      "id": "@bitpoolos/edge-bacnet",
+      "version": "1.2.7",
+      "description": "A bacnet gateway for node-red",
+      "updated_at": "2024-01-25T06:39:33.532Z",
+      "types": [
+        "Bacnet-Gateway",
+        "Bacnet-Discovery",
+        "Bacnet-Write",
+        "Bitpool-Inject"
+      ],
+      "keywords": [
+        "node-red",
+        "bitpool",
+        "bitpoolos",
+        "edge",
+        "big data",
+        "iot",
+        "BACnet"
+      ],
+      "url": "https://flows.nodered.org/node/@bitpoolos/edge-bacnet"
     },
     {
       "id": "node-red-contrib-tapo-new-api",
-      "version": "0.4.8",
+      "version": "0.4.9",
       "description": "Unofficial node-RED node for connecting to TP-Link Tapo devices with new API. Currently limited to the P100 & P105 & P110 smart plugs and L510E smart bulbs.",
-      "updated_at": "2024-01-23T22:56:24.793Z",
+      "updated_at": "2024-01-24T20:30:39.080Z",
       "types": [],
       "keywords": [
         "node-red",
@@ -38,6 +81,76 @@
         "passthrough"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-tapo-new-api"
+    },
+    {
+      "id": "node-red-contrib-axis-com",
+      "version": "1.4.1",
+      "description": "Simplified integration with Axis devices",
+      "updated_at": "2024-01-24T20:17:56.510Z",
+      "types": [
+        "Device Access",
+        "Axis device",
+        "Axis camera",
+        "Axis ACAP",
+        "Axis Security"
+      ],
+      "keywords": [
+        "node-red",
+        "Axis",
+        "Camera"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-axis-com"
+    },
+    {
+      "id": "victron-dynamic-ess",
+      "version": "0.1.12",
+      "description": "Fetch the ideal ESS setpoint from VRM",
+      "updated_at": "2024-01-24T19:44:24.914Z",
+      "types": [
+        "victron-dynamic-ess"
+      ],
+      "keywords": [
+        "node-red",
+        "victron",
+        "dynamic ess",
+        "scheduled charging",
+        "ess"
+      ],
+      "url": "https://flows.nodered.org/node/victron-dynamic-ess"
+    },
+    {
+      "id": "@elipse/epm-node-red",
+      "version": "5.50.1",
+      "description": "Nodes for communication with Elipse Plant Manager (EPM) Web Api in Node-RED",
+      "updated_at": "2024-01-24T18:18:57.556Z",
+      "types": [
+        "EPM Event",
+        "EPM History Read Raw",
+        "EPM History Read Aggregate",
+        "EPM Read",
+        "EPM Write",
+        "EPM Subscribe",
+        "EPM Connection Config",
+        "EPM Connection Status"
+      ],
+      "keywords": [
+        "epm",
+        "node-red"
+      ],
+      "url": "https://flows.nodered.org/node/@elipse/epm-node-red"
+    },
+    {
+      "id": "@aingtii/node-red-trashdate",
+      "version": "1.2.0",
+      "description": "A node to generate next and overnext trashdate with type from CSV Files",
+      "updated_at": "2024-01-24T16:56:55.620Z",
+      "types": [
+        "TrashDate"
+      ],
+      "keywords": [
+        "node-red"
+      ],
+      "url": "https://flows.nodered.org/node/@aingtii/node-red-trashdate"
     },
     {
       "id": "node-red-contrib-knx-ultimate",
@@ -132,19 +245,6 @@
         "websocket"
       ],
       "url": "https://flows.nodered.org/node/@semilimes/node-red-semilimes"
-    },
-    {
-      "id": "@aingtii/node-red-trashdate",
-      "version": "1.1.1",
-      "description": "A node to generate next and overnext trashdate with type from CSV Files",
-      "updated_at": "2024-01-23T17:21:18.720Z",
-      "types": [
-        "TrashDate"
-      ],
-      "keywords": [
-        "node-red"
-      ],
-      "url": "https://flows.nodered.org/node/@aingtii/node-red-trashdate"
     },
     {
       "id": "@smartdcc/dccboxed-nodered-nodes",
@@ -413,27 +513,6 @@
         "pwm"
       ],
       "url": "https://flows.nodered.org/node/@iiot2k/node-red-rpi-gpiox"
-    },
-    {
-      "id": "@elipse/epm-node-red",
-      "version": "5.2.160",
-      "description": "Nodes for communication with Elipse Plant Manager (EPM) Web Api in Node-RED",
-      "updated_at": "2024-01-22T20:03:20.000Z",
-      "types": [
-        "EPM Event",
-        "EPM History Read Raw",
-        "EPM History Read Aggregate",
-        "EPM Read",
-        "EPM Write",
-        "EPM Subscribe",
-        "EPM Connection Config",
-        "EPM Connection Status"
-      ],
-      "keywords": [
-        "epm",
-        "node-red"
-      ],
-      "url": "https://flows.nodered.org/node/@elipse/epm-node-red"
     },
     {
       "id": "node-red-contrib-openbci-eegmetrics",
@@ -2175,27 +2254,6 @@
       "url": "https://flows.nodered.org/node/@gregoriusrippenstein/node-red-contrib-flowhub"
     },
     {
-      "id": "@gregoriusrippenstein/node-red-contrib-introspection",
-      "version": "0.5.6",
-      "description": "Node-RED Editor-only nodes for introspecting with flows in the frontend.",
-      "updated_at": "2024-01-07T09:50:40.257Z",
-      "types": [
-        "Seeker",
-        "Sink",
-        "GetFlows",
-        "SendFlow",
-        "ClientCode"
-      ],
-      "keywords": [
-        "node-red",
-        "introspection",
-        "selfreflection",
-        "node-red-editor",
-        "screenshot"
-      ],
-      "url": "https://flows.nodered.org/node/@gregoriusrippenstein/node-red-contrib-introspection"
-    },
-    {
       "id": "node-red-contrib-homekit-rgb",
       "version": "2.0.1",
       "description": "Node-RED node to convert HomeKit light Accessory's HSB values to RGB",
@@ -3213,24 +3271,6 @@
       "url": "https://flows.nodered.org/node/@bartbutenaers/node-red-autolayout-sidebar"
     },
     {
-      "id": "node-red-contrib-unifi",
-      "version": "0.3.12",
-      "description": "Node for Node-RED to connect to a UniFi Controller ",
-      "updated_at": "2023-12-23T17:04:22.459Z",
-      "types": [
-        "unificonfig",
-        "Unifi",
-        "UnifiWS"
-      ],
-      "keywords": [
-        "node-red",
-        "unifi",
-        "ubnt",
-        "Ubiquiti Networks"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-unifi"
-    },
-    {
       "id": "node-red-contrib-aedes",
       "version": "0.12.0",
       "description": "Node Red MQTT broker node based on aedes.js",
@@ -3544,23 +3584,6 @@
         "doorbird"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-doorbird-ultimate"
-    },
-    {
-      "id": "victron-dynamic-ess",
-      "version": "0.1.11",
-      "description": "Fetch the ideal ESS setpoint from VRM",
-      "updated_at": "2023-12-18T09:04:54.923Z",
-      "types": [
-        "victron-dynamic-ess"
-      ],
-      "keywords": [
-        "node-red",
-        "victron",
-        "dynamic ess",
-        "scheduled charging",
-        "ess"
-      ],
-      "url": "https://flows.nodered.org/node/victron-dynamic-ess"
     },
     {
       "id": "@gulpetl/node-red-core",
@@ -8343,28 +8366,6 @@
         "node-red"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-agur-connector"
-    },
-    {
-      "id": "@bitpoolos/edge-bacnet",
-      "version": "1.2.6",
-      "description": "A bacnet gateway for node-red",
-      "updated_at": "2023-10-03T06:02:14.777Z",
-      "types": [
-        "Bacnet-Gateway",
-        "Bacnet-Discovery",
-        "Bacnet-Write",
-        "Bitpool-Inject"
-      ],
-      "keywords": [
-        "node-red",
-        "bitpool",
-        "bitpoolos",
-        "edge",
-        "big data",
-        "iot",
-        "BACnet"
-      ],
-      "url": "https://flows.nodered.org/node/@bitpoolos/edge-bacnet"
     },
     {
       "id": "@allanoricil/node-red-timsort",
