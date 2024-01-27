@@ -1,7 +1,224 @@
 {
   "name": "Catalogue for Docker",
-  "updated_at": "2024-01-26T16:00:59.669Z",
+  "updated_at": "2024-01-27T15:59:40.680Z",
   "modules": [
+    {
+      "id": "node-red-contrib-niu-cloud",
+      "version": "1.1.0",
+      "description": "A Node-RED library for connect to NIU Cloud for your electric scooter",
+      "updated_at": "2024-01-27T14:27:38.829Z",
+      "types": [
+        "niu-cloud-client",
+        "niu-cloud"
+      ],
+      "keywords": [
+        "node-red",
+        "niu",
+        "niu-cloud",
+        "e-scooter",
+        "ev",
+        "electric",
+        "scooter",
+        "vehicle"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-niu-cloud"
+    },
+    {
+      "id": "@sumit_shinde_84/node-red-contrib-node-gpt",
+      "version": "1.0.6",
+      "description": "Node-RED node to interact with chatgpt",
+      "updated_at": "2024-01-27T14:10:39.809Z",
+      "types": [
+        "ChatGPT"
+      ],
+      "keywords": [
+        "node-red",
+        "chat-gpt",
+        "gpt"
+      ],
+      "url": "https://flows.nodered.org/node/@sumit_shinde_84/node-red-contrib-node-gpt"
+    },
+    {
+      "id": "@tq-bit/node-red-contrib-trace-messages",
+      "version": "2.0.1",
+      "description": "Node to track and aggregate messages over your flows",
+      "updated_at": "2024-01-26T17:54:41.505Z",
+      "types": [
+        "snapshot",
+        "transaction"
+      ],
+      "keywords": [
+        "node-red",
+        "trace",
+        "debug",
+        "messages",
+        "compare"
+      ],
+      "url": "https://flows.nodered.org/node/@tq-bit/node-red-contrib-trace-messages"
+    },
+    {
+      "id": "node-red-contrib-virtual-smart-home",
+      "version": "4.1.4",
+      "description": "A Node-RED node that represents a 'virtual device' which can be controlled via Alexa. Requires the virtual smart home skill to be enabled for your Amazon account.",
+      "updated_at": "2024-01-26T17:50:24.438Z",
+      "types": [
+        "vsh-connection",
+        "vsh-virtual-device"
+      ],
+      "keywords": [
+        "Alexa",
+        "Echo",
+        "smart-home",
+        "node-red",
+        "virtual smart home",
+        "virtual device",
+        "Home Assistant",
+        "vsh"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-virtual-smart-home"
+    },
+    {
+      "id": "@flowfuse/node-red-dashboard",
+      "version": "1.0.2",
+      "description": "Dashboard 2.0 - A collection of Node-RED nodes that provide functionality to build your own UI applications (inc. forms, buttons, charts).",
+      "updated_at": "2024-01-26T16:52:03.567Z",
+      "types": [
+        "ui-base",
+        "ui-page",
+        "ui-group",
+        "ui-theme",
+        "ui-form",
+        "__errors__",
+        "ui-text-input",
+        "__errors__",
+        "ui-button",
+        "__errors__",
+        "ui-dropdown",
+        "__errors__",
+        "ui-radio-group",
+        "__errors__",
+        "ui-slider",
+        "__errors__",
+        "ui-switch",
+        "__errors__",
+        "ui-text",
+        "__errors__",
+        "ui-table",
+        "__errors__",
+        "ui-chart",
+        "__errors__",
+        "ui-notification",
+        "__errors__",
+        "ui-markdown",
+        "__errors__",
+        "ui-template",
+        "__errors__",
+        "ui-event",
+        "__errors__",
+        "ui-control",
+        "__errors__"
+      ],
+      "keywords": [
+        "node-red"
+      ],
+      "url": "https://flows.nodered.org/node/@flowfuse/node-red-dashboard"
+    },
+    {
+      "id": "@logiccloud/node-red-runtime-configuration",
+      "version": "2.0.1",
+      "description": "Configuration node for runtime connection.",
+      "updated_at": "2024-01-26T14:56:53.297Z",
+      "types": [
+        "runtime-configuration"
+      ],
+      "keywords": [
+        "node-red",
+        "lc",
+        "LC",
+        "runtime",
+        "Runtime",
+        "iec61131-3",
+        "iec61131-10",
+        "IEC 61131-3",
+        "IEC 61131-10",
+        "iec61131",
+        "IEC 61131"
+      ],
+      "url": "https://flows.nodered.org/node/@logiccloud/node-red-runtime-configuration"
+    },
+    {
+      "id": "@logiccloud/node-red-runtime-variable-reader",
+      "version": "2.0.1",
+      "description": "A simple node that is reading variable from a logiccloud runtime.",
+      "updated_at": "2024-01-26T14:56:26.054Z",
+      "types": [
+        "runtime-variable-reader"
+      ],
+      "keywords": [
+        "node-red",
+        "lc",
+        "LC",
+        "runtime",
+        "Runtime",
+        "iec61131-3",
+        "iec61131-10",
+        "IEC 61131-3",
+        "IEC 61131-10",
+        "iec61131",
+        "IEC 61131"
+      ],
+      "url": "https://flows.nodered.org/node/@logiccloud/node-red-runtime-variable-reader"
+    },
+    {
+      "id": "@logiccloud/node-red-runtime-variable-writer",
+      "version": "2.0.1",
+      "description": "A simple node that is writing a variable to a logiccloud runtime.",
+      "updated_at": "2024-01-26T14:56:00.352Z",
+      "types": [
+        "runtime-variable-writer"
+      ],
+      "keywords": [
+        "node-red",
+        "lc",
+        "LC",
+        "runtime",
+        "Runtime",
+        "iec61131-3",
+        "iec61131-10",
+        "IEC 61131-3",
+        "IEC 61131-10",
+        "iec61131",
+        "IEC 61131"
+      ],
+      "url": "https://flows.nodered.org/node/@logiccloud/node-red-runtime-variable-writer"
+    },
+    {
+      "id": "do-red",
+      "version": "0.4.1",
+      "description": "A do-node and corresponding return-node for creating loops and task-lists.",
+      "updated_at": "2024-01-26T14:37:36.252Z",
+      "types": [],
+      "keywords": [
+        "node-red",
+        "nodes",
+        "flow",
+        "loop",
+        "iterate",
+        "collection",
+        "repeat",
+        "tasks",
+        "task-list",
+        "building-plan",
+        "construct",
+        "no-op",
+        "navigate",
+        "navigation",
+        "replace",
+        "append",
+        "rename"
+      ],
+      "url": "https://flows.nodered.org/node/do-red"
+    },
     {
       "id": "node-red-contrib-nibeuplink",
       "version": "1.1.1",
@@ -65,105 +282,6 @@
       "url": "https://flows.nodered.org/node/@starke-dms/node-red"
     },
     {
-      "id": "node-red-contrib-virtual-smart-home",
-      "version": "4.1.3",
-      "description": "A Node-RED node that represents a 'virtual device' which can be controlled via Alexa. Requires the virtual smart home skill to be enabled for your Amazon account.",
-      "updated_at": "2024-01-26T12:15:36.526Z",
-      "types": [
-        "vsh-connection",
-        "vsh-virtual-device"
-      ],
-      "keywords": [
-        "Alexa",
-        "Echo",
-        "smart-home",
-        "node-red",
-        "virtual smart home",
-        "virtual device",
-        "Home Assistant",
-        "vsh"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-virtual-smart-home"
-    },
-    {
-      "id": "@flowfuse/node-red-dashboard",
-      "version": "1.0.1",
-      "description": "Dashboard 2.0 - A collection of Node-RED nodes that provide functionality to build your own UI applications (inc. forms, buttons, charts).",
-      "updated_at": "2024-01-26T10:32:59.976Z",
-      "types": [
-        "ui-base",
-        "ui-page",
-        "ui-group",
-        "ui-theme",
-        "ui-form",
-        "__errors__",
-        "ui-text-input",
-        "__errors__",
-        "ui-button",
-        "__errors__",
-        "ui-dropdown",
-        "__errors__",
-        "ui-radio-group",
-        "__errors__",
-        "ui-slider",
-        "__errors__",
-        "ui-switch",
-        "__errors__",
-        "ui-text",
-        "__errors__",
-        "ui-table",
-        "__errors__",
-        "ui-chart",
-        "__errors__",
-        "ui-notification",
-        "__errors__",
-        "ui-markdown",
-        "__errors__",
-        "ui-template",
-        "__errors__",
-        "ui-event",
-        "__errors__",
-        "ui-control",
-        "__errors__"
-      ],
-      "keywords": [
-        "node-red"
-      ],
-      "url": "https://flows.nodered.org/node/@flowfuse/node-red-dashboard"
-    },
-    {
-      "id": "do-red",
-      "version": "0.4.0",
-      "description": "A do-node and corresponding return-node for creating loops and task-lists.",
-      "updated_at": "2024-01-26T09:34:22.102Z",
-      "types": [
-        "do",
-        "__errors__",
-        "do-return",
-        "__errors__"
-      ],
-      "keywords": [
-        "node-red",
-        "nodes",
-        "flow",
-        "loop",
-        "iterate",
-        "collection",
-        "repeat",
-        "tasks",
-        "task-list",
-        "building-plan",
-        "construct",
-        "no-op",
-        "navigate",
-        "navigation",
-        "replace",
-        "append",
-        "rename"
-      ],
-      "url": "https://flows.nodered.org/node/do-red"
-    },
-    {
       "id": "node-red-lower-case-25-en",
       "version": "0.0.13",
       "description": "Collection of STATUS project components.",
@@ -213,21 +331,6 @@
         "IIoT"
       ],
       "url": "https://flows.nodered.org/node/@opcua/for-node-red"
-    },
-    {
-      "id": "@sumit_shinde_84/node-red-contrib-node-gpt",
-      "version": "1.0.5",
-      "description": "Node-RED node to interact with chatgpt",
-      "updated_at": "2024-01-26T05:28:18.687Z",
-      "types": [
-        "ChatGPT"
-      ],
-      "keywords": [
-        "node-red",
-        "chat-gpt",
-        "gpt"
-      ],
-      "url": "https://flows.nodered.org/node/@sumit_shinde_84/node-red-contrib-node-gpt"
     },
     {
       "id": "@parallaxcontrol/node-red-control",
@@ -10725,75 +10828,6 @@
       "url": "https://flows.nodered.org/node/@node-red-matter/node-red-matter"
     },
     {
-      "id": "@logiccloud/node-red-runtime-variable-writer",
-      "version": "1.2.8",
-      "description": "A simple node that is writing a variable to a logiccloud runtime.",
-      "updated_at": "2023-09-05T05:42:17.004Z",
-      "types": [
-        "runtime-variable-writer"
-      ],
-      "keywords": [
-        "node-red",
-        "lc",
-        "LC",
-        "runtime",
-        "Runtime",
-        "iec61131-3",
-        "iec61131-10",
-        "IEC 61131-3",
-        "IEC 61131-10",
-        "iec61131",
-        "IEC 61131"
-      ],
-      "url": "https://flows.nodered.org/node/@logiccloud/node-red-runtime-variable-writer"
-    },
-    {
-      "id": "@logiccloud/node-red-runtime-variable-reader",
-      "version": "1.2.8",
-      "description": "A simple node that is reading variable from a logiccloud runtime.",
-      "updated_at": "2023-09-05T05:42:06.345Z",
-      "types": [
-        "runtime-variable-reader"
-      ],
-      "keywords": [
-        "node-red",
-        "lc",
-        "LC",
-        "runtime",
-        "Runtime",
-        "iec61131-3",
-        "iec61131-10",
-        "IEC 61131-3",
-        "IEC 61131-10",
-        "iec61131",
-        "IEC 61131"
-      ],
-      "url": "https://flows.nodered.org/node/@logiccloud/node-red-runtime-variable-reader"
-    },
-    {
-      "id": "@logiccloud/node-red-runtime-configuration",
-      "version": "1.2.8",
-      "description": "Configuration node for runtime connection.",
-      "updated_at": "2023-09-05T05:41:38.169Z",
-      "types": [
-        "runtime-configuration"
-      ],
-      "keywords": [
-        "node-red",
-        "lc",
-        "LC",
-        "runtime",
-        "Runtime",
-        "iec61131-3",
-        "iec61131-10",
-        "IEC 61131-3",
-        "IEC 61131-10",
-        "iec61131",
-        "IEC 61131"
-      ],
-      "url": "https://flows.nodered.org/node/@logiccloud/node-red-runtime-configuration"
-    },
-    {
       "id": "node-red-contrib-castv2",
       "version": "4.3.0",
       "description": "A Node-Red node that provides basic Google Cast functionality based on the node-castv2-client package.",
@@ -11271,23 +11305,6 @@
         "mdash"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-custom-mdash-ws"
-    },
-    {
-      "id": "@tq-bit/node-red-contrib-trace-messages",
-      "version": "1.2.1",
-      "description": "Node to track and aggregate messages over your flows",
-      "updated_at": "2023-08-25T14:27:44.903Z",
-      "types": [
-        "trace"
-      ],
-      "keywords": [
-        "node-red",
-        "trace",
-        "debug",
-        "messages",
-        "compare"
-      ],
-      "url": "https://flows.nodered.org/node/@tq-bit/node-red-contrib-trace-messages"
     },
     {
       "id": "@helix_italia/node-red-helix-odbc",
@@ -19189,27 +19206,6 @@
         "node-red"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-rollun-openapi"
-    },
-    {
-      "id": "node-red-contrib-niu-cloud",
-      "version": "1.0.2",
-      "description": "A Node-RED library for connect to NIU Cloud for your electric scooter",
-      "updated_at": "2023-02-07T18:05:46.630Z",
-      "types": [
-        "niu-cloud-client",
-        "niu-cloud"
-      ],
-      "keywords": [
-        "node-red",
-        "niu",
-        "niu-cloud",
-        "e-scooter",
-        "ev",
-        "electric",
-        "scooter",
-        "vehicle"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-niu-cloud"
     },
     {
       "id": "@krakul/node-red-modbus-rtu-slave",
