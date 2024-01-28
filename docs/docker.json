@@ -1,7 +1,234 @@
 {
   "name": "Catalogue for Docker",
-  "updated_at": "2024-01-27T15:59:40.680Z",
+  "updated_at": "2024-01-28T15:57:23.845Z",
   "modules": [
+    {
+      "id": "virtual-parameters",
+      "version": "1.0.3",
+      "description": "virtual parameters setting",
+      "updated_at": "2024-01-28T14:14:10.337Z",
+      "types": [
+        "virtual-parameters"
+      ],
+      "keywords": [
+        "node-red",
+        "parameters",
+        "virtual"
+      ],
+      "url": "https://flows.nodered.org/node/virtual-parameters"
+    },
+    {
+      "id": "@edgeflow/kafka-client",
+      "version": "1.0.1",
+      "description": "EdgeFlow Kafka Consumer and Producer",
+      "updated_at": "2024-01-28T12:06:56.102Z",
+      "types": [
+        "hm-kafka-consumer",
+        "hm-kafka-producer",
+        "hm-kafka-broker"
+      ],
+      "keywords": [
+        "kafka-producer",
+        "kafka-consumer",
+        "node-red",
+        "kafka-broker",
+        "kafka-node",
+        "big-data",
+        "data"
+      ],
+      "url": "https://flows.nodered.org/node/@edgeflow/kafka-client"
+    },
+    {
+      "id": "@gregoriusrippenstein/node-red-contrib-introspection",
+      "version": "0.6.0",
+      "description": "Node-RED Editor-only nodes for introspecting with flows in the frontend.",
+      "updated_at": "2024-01-28T11:46:00.543Z",
+      "types": [
+        "Seeker",
+        "Sink",
+        "GetFlows",
+        "SendFlow",
+        "ClientCode"
+      ],
+      "keywords": [
+        "node-red",
+        "introspection",
+        "selfreflection",
+        "node-red-editor",
+        "screenshot"
+      ],
+      "url": "https://flows.nodered.org/node/@gregoriusrippenstein/node-red-contrib-introspection"
+    },
+    {
+      "id": "node-red-contrib-rfxcom",
+      "version": "2.13.0",
+      "description": "A set of node-red nodes to use the Rfxcom RFXtrx433 remote control transceiver",
+      "updated_at": "2024-01-28T10:02:23.936Z",
+      "types": [
+        "rfxtrx-port",
+        "rfx-lights-in",
+        "rfx-lights-out",
+        "rfx-fan-out",
+        "rfx-blinds-in",
+        "rfx-blinds-out",
+        "rfx-doorbell-in",
+        "rfx-doorbell-out",
+        "rfx-meter",
+        "rfx-sensor",
+        "rfx-trv-out",
+        "rfx-heat-out",
+        "rfx-detector-in",
+        "rfx-alarm-out",
+        "PT2262-device-list",
+        "rfx-PT2262-in",
+        "rfx-PT2262-out",
+        "rfx-raw-out",
+        "raw-device-list"
+      ],
+      "keywords": [
+        "node-red",
+        "rfxcom",
+        "RFXtrx433"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-rfxcom"
+    },
+    {
+      "id": "node-red-contrib-chronos",
+      "version": "1.19.1",
+      "description": "Time-based Node-RED scheduling, repeating, queueing, routing, filtering and manipulating nodes",
+      "updated_at": "2024-01-28T09:53:21.206Z",
+      "types": [
+        "chronos-config",
+        "chronos-scheduler",
+        "chronos-repeat",
+        "chronos-delay",
+        "chronos-switch",
+        "chronos-filter",
+        "chronos-change"
+      ],
+      "keywords": [
+        "node-red",
+        "scheduler",
+        "timer",
+        "time",
+        "sun",
+        "moon"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-chronos"
+    },
+    {
+      "id": "@aingtii/node-red-trashdate",
+      "version": "1.3.0",
+      "description": "A node to generate next and overnext trashdate with type from CSV Files",
+      "updated_at": "2024-01-28T08:39:54.156Z",
+      "types": [
+        "TrashDate"
+      ],
+      "keywords": [
+        "node-red"
+      ],
+      "url": "https://flows.nodered.org/node/@aingtii/node-red-trashdate"
+    },
+    {
+      "id": "@inductiv/node-red-openai-api",
+      "version": "0.3.9",
+      "description": "Go beyond ChatGPT and DALL·E 3: this Node-RED node seamlessly integrates a range of OpenAI services, including Assistants, Threads, Vision, and Audio, enabling feature-rich enhancement of your AI workflows with any OpenAI REST API-compatible solution.",
+      "updated_at": "2024-01-27T22:42:59.605Z",
+      "types": [
+        "OpenAI API",
+        "Service Host"
+      ],
+      "keywords": [
+        "openai",
+        "api",
+        "automation",
+        "chatgpt",
+        "llm",
+        "slm",
+        "agent",
+        "automation",
+        "node-red",
+        "nodered",
+        "low-code",
+        "ai"
+      ],
+      "url": "https://flows.nodered.org/node/@inductiv/node-red-openai-api"
+    },
+    {
+      "id": "victron-vrm-api",
+      "version": "0.2.1",
+      "description": "Interface with the Victron Energy VRM API",
+      "updated_at": "2024-01-27T21:44:46.977Z",
+      "types": [
+        "config-vrm-api",
+        "vrm-api"
+      ],
+      "keywords": [
+        "node-red",
+        "victron",
+        "vrm",
+        "api"
+      ],
+      "url": "https://flows.nodered.org/node/victron-vrm-api"
+    },
+    {
+      "id": "@semilimes/node-red-semilimes",
+      "version": "0.9.8",
+      "description": "The new semilimes connector which integrates with the public API",
+      "updated_at": "2024-01-27T15:41:36.840Z",
+      "types": [
+        "sme-main-connector",
+        "sme-main-intent",
+        "sme-main-sender",
+        "sme-main-listener",
+        "sme-main-sshTunnel",
+        "sme-main-formSaver",
+        "sme-main-formLoader",
+        "sme-main-formUpdater",
+        "sme-main-uploader",
+        "sme-comp-text",
+        "sme-comp-html",
+        "sme-comp-file",
+        "sme-comp-contact",
+        "sme-comp-location",
+        "sme-comp-webview",
+        "sme-comp-channel",
+        "sme-comp-tunnel",
+        "sme-comp-form",
+        "sme-formComp-label",
+        "sme-formComp-textBox",
+        "sme-formComp-buttonList",
+        "sme-formComp-singleChoice",
+        "sme-formComp-multiChoice",
+        "sme-formComp-switch",
+        "sme-formComp-slider",
+        "sme-formComp-datePicker",
+        "sme-formComp-timePicker",
+        "sme-formComp-locationPicker",
+        "sme-formComp-photoPicker",
+        "sme-formComp-filePicker",
+        "sme-formComp-contactPicker",
+        "sme-formComp-groupChatPicker",
+        "sme-formComp-channelPicker",
+        "sme-formComp-bucketPicker",
+        "sme-formComp-hiddenValue",
+        "sme-formComp-qrCodeScanner",
+        "sme-formComp-nfcReader",
+        "sme-filter-formSubmission"
+      ],
+      "keywords": [
+        "semilimes",
+        "iot",
+        "connector",
+        "node-red",
+        "mobile phone",
+        "interface",
+        "remote access",
+        "ssh tunnel",
+        "websocket"
+      ],
+      "url": "https://flows.nodered.org/node/@semilimes/node-red-semilimes"
+    },
     {
       "id": "node-red-contrib-niu-cloud",
       "version": "1.1.0",
@@ -76,6 +303,29 @@
         "vsh"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-virtual-smart-home"
+    },
+    {
+      "id": "node-red-contrib-alexa-remote2-applestrudel",
+      "version": "5.0.49",
+      "description": "node-red nodes for interacting with alexa",
+      "updated_at": "2024-01-26T17:37:53.974Z",
+      "types": [
+        "alexa-remote-account",
+        "alexa-remote-init",
+        "alexa-remote-event",
+        "alexa-remote-smarthome",
+        "alexa-remote-routine",
+        "alexa-remote-echo",
+        "alexa-remote-other",
+        "alexa-remote-list"
+      ],
+      "keywords": [
+        "node-red",
+        "alexa remote",
+        "alexa",
+        "echo"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-alexa-remote2-applestrudel"
     },
     {
       "id": "@flowfuse/node-red-dashboard",
@@ -235,23 +485,6 @@
         "vølund"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-nibeuplink"
-    },
-    {
-      "id": "victron-vrm-api",
-      "version": "0.2.0",
-      "description": "Interface with the Victron Energy VRM API",
-      "updated_at": "2024-01-26T12:56:43.297Z",
-      "types": [
-        "config-vrm-api",
-        "vrm-api"
-      ],
-      "keywords": [
-        "node-red",
-        "victron",
-        "vrm",
-        "api"
-      ],
-      "url": "https://flows.nodered.org/node/victron-vrm-api"
     },
     {
       "id": "@starke-dms/node-red",
@@ -417,27 +650,6 @@
       "url": "https://flows.nodered.org/node/node-red-contrib-google-smarthome"
     },
     {
-      "id": "@gregoriusrippenstein/node-red-contrib-introspection",
-      "version": "0.5.9",
-      "description": "Node-RED Editor-only nodes for introspecting with flows in the frontend.",
-      "updated_at": "2024-01-25T18:45:41.675Z",
-      "types": [
-        "Seeker",
-        "Sink",
-        "GetFlows",
-        "SendFlow",
-        "ClientCode"
-      ],
-      "keywords": [
-        "node-red",
-        "introspection",
-        "selfreflection",
-        "node-red-editor",
-        "screenshot"
-      ],
-      "url": "https://flows.nodered.org/node/@gregoriusrippenstein/node-red-contrib-introspection"
-    },
-    {
       "id": "node-red-contrib-millheat",
       "version": "0.0.4",
       "description": "A Node-Red node to interact with the Mill Open API V2",
@@ -571,19 +783,6 @@
       "url": "https://flows.nodered.org/node/@elipse/epm-node-red"
     },
     {
-      "id": "@aingtii/node-red-trashdate",
-      "version": "1.2.0",
-      "description": "A node to generate next and overnext trashdate with type from CSV Files",
-      "updated_at": "2024-01-24T16:56:55.620Z",
-      "types": [
-        "TrashDate"
-      ],
-      "keywords": [
-        "node-red"
-      ],
-      "url": "https://flows.nodered.org/node/@aingtii/node-red-trashdate"
-    },
-    {
       "id": "node-red-contrib-knx-ultimate",
       "version": "2.4.5-beta.0",
       "description": "Control your KNX intallation via Node-Red! A bunch of KNX nodes, with integrated Philips HUE control and ETS group address importer. Easy to use and highly configurable.",
@@ -618,64 +817,6 @@
         "philips hue"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-knx-ultimate"
-    },
-    {
-      "id": "@semilimes/node-red-semilimes",
-      "version": "0.9.7",
-      "description": "The new semilimes connector which integrates with the public API",
-      "updated_at": "2024-01-23T20:02:47.210Z",
-      "types": [
-        "sme-main-connector",
-        "sme-main-intent",
-        "sme-main-sender",
-        "sme-main-listener",
-        "sme-main-sshTunnel",
-        "sme-main-formSaver",
-        "sme-main-formLoader",
-        "sme-main-formUpdater",
-        "sme-main-uploader",
-        "sme-comp-text",
-        "sme-comp-html",
-        "sme-comp-file",
-        "sme-comp-contact",
-        "sme-comp-location",
-        "sme-comp-webview",
-        "sme-comp-channel",
-        "sme-comp-tunnel",
-        "sme-comp-form",
-        "sme-formComp-label",
-        "sme-formComp-textBox",
-        "sme-formComp-buttonList",
-        "sme-formComp-singleChoice",
-        "sme-formComp-multiChoice",
-        "sme-formComp-switch",
-        "sme-formComp-slider",
-        "sme-formComp-datePicker",
-        "sme-formComp-timePicker",
-        "sme-formComp-locationPicker",
-        "sme-formComp-photoPicker",
-        "sme-formComp-filePicker",
-        "sme-formComp-contactPicker",
-        "sme-formComp-groupChatPicker",
-        "sme-formComp-channelPicker",
-        "sme-formComp-bucketPicker",
-        "sme-formComp-hiddenValue",
-        "sme-formComp-qrCodeScanner",
-        "sme-formComp-nfcReader",
-        "sme-filter-formSubmission"
-      ],
-      "keywords": [
-        "semilimes",
-        "iot",
-        "connector",
-        "node-red",
-        "mobile phone",
-        "interface",
-        "remote access",
-        "ssh tunnel",
-        "websocket"
-      ],
-      "url": "https://flows.nodered.org/node/@semilimes/node-red-semilimes"
     },
     {
       "id": "@smartdcc/dccboxed-nodered-nodes",
@@ -2747,31 +2888,6 @@
         "dragino"
       ],
       "url": "https://flows.nodered.org/node/node-red-dragino"
-    },
-    {
-      "id": "@inductiv/node-red-openai-api",
-      "version": "0.3.8",
-      "description": "Go beyond ChatGPT and DALL·E 3: this Node-RED node seamlessly integrates a range of OpenAI services, including Assistants, Threads, Vision, and Audio, enabling feature-rich enhancement of your AI workflows with any OpenAI REST API-compatible solution.",
-      "updated_at": "2024-01-03T21:50:59.933Z",
-      "types": [
-        "OpenAI API",
-        "Service Host"
-      ],
-      "keywords": [
-        "openai",
-        "api",
-        "automation",
-        "chatgpt",
-        "llm",
-        "slm",
-        "agent",
-        "automation",
-        "node-red",
-        "nodered",
-        "low-code",
-        "ai"
-      ],
-      "url": "https://flows.nodered.org/node/@inductiv/node-red-openai-api"
     },
     {
       "id": "node-red-contrib-ccxt-v3",
@@ -5077,29 +5193,6 @@
       "url": "https://flows.nodered.org/node/node-red-contrib-opentelemetry"
     },
     {
-      "id": "node-red-contrib-alexa-remote2-applestrudel",
-      "version": "5.0.48",
-      "description": "node-red nodes for interacting with alexa",
-      "updated_at": "2023-11-29T19:55:44.322Z",
-      "types": [
-        "alexa-remote-account",
-        "alexa-remote-init",
-        "alexa-remote-event",
-        "alexa-remote-smarthome",
-        "alexa-remote-routine",
-        "alexa-remote-echo",
-        "alexa-remote-other",
-        "alexa-remote-list"
-      ],
-      "keywords": [
-        "node-red",
-        "alexa remote",
-        "alexa",
-        "echo"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-alexa-remote2-applestrudel"
-    },
-    {
       "id": "@yousolution/node-red-contrib-you-ftp-sftp",
       "version": "1.11.0",
       "description": "A node-red node that support FTP and SFTP file transfer using $() environment variables to control the ftp connection details",
@@ -5206,21 +5299,6 @@
         "modbus"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-victron-modbus"
-    },
-    {
-      "id": "virtual-parameters",
-      "version": "1.0.2",
-      "description": "virtual parameters setting",
-      "updated_at": "2023-11-28T14:05:44.309Z",
-      "types": [
-        "virtual-parameters"
-      ],
-      "keywords": [
-        "node-red",
-        "parameters",
-        "virtual"
-      ],
-      "url": "https://flows.nodered.org/node/virtual-parameters"
     },
     {
       "id": "@shri123321/node-red-contrib-shri-super-trend",
@@ -18137,30 +18215,6 @@
       "url": "https://flows.nodered.org/node/@ozmap/node-red-contrib-oztracer"
     },
     {
-      "id": "node-red-contrib-chronos",
-      "version": "1.19.0",
-      "description": "Time-based Node-RED scheduling, repeating, queueing, routing, filtering and manipulating nodes",
-      "updated_at": "2023-03-01T18:55:35.329Z",
-      "types": [
-        "chronos-config",
-        "chronos-scheduler",
-        "chronos-repeat",
-        "chronos-delay",
-        "chronos-switch",
-        "chronos-filter",
-        "chronos-change"
-      ],
-      "keywords": [
-        "node-red",
-        "scheduler",
-        "timer",
-        "time",
-        "sun",
-        "moon"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-chronos"
-    },
-    {
       "id": "node-red-contrib-delay-topic-message",
       "version": "1.3.1",
       "description": "Node-red node for delaying message for topic",
@@ -19434,39 +19488,6 @@
         "alexa"
       ],
       "url": "https://flows.nodered.org/node/@sinricpro/node-red-contrib-sinric-pro"
-    },
-    {
-      "id": "node-red-contrib-rfxcom",
-      "version": "2.12.1",
-      "description": "A set of node-red nodes to use the Rfxcom RFXtrx433 remote control transceiver",
-      "updated_at": "2023-02-04T17:30:07.388Z",
-      "types": [
-        "rfxtrx-port",
-        "rfx-lights-in",
-        "rfx-lights-out",
-        "rfx-fan-out",
-        "rfx-blinds-in",
-        "rfx-blinds-out",
-        "rfx-doorbell-in",
-        "rfx-doorbell-out",
-        "rfx-meter",
-        "rfx-sensor",
-        "rfx-trv-out",
-        "rfx-heat-out",
-        "rfx-detector-in",
-        "rfx-alarm-out",
-        "PT2262-device-list",
-        "rfx-PT2262-in",
-        "rfx-PT2262-out",
-        "rfx-raw-out",
-        "raw-device-list"
-      ],
-      "keywords": [
-        "node-red",
-        "rfxcom",
-        "RFXtrx433"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-rfxcom"
     },
     {
       "id": "@hurenkam/hue-services",
