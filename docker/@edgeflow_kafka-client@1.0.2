@@ -1,0 +1,45 @@
+#0 building with "default" instance using docker driver
+
+#1 [internal] load .dockerignore
+#1 transferring context: 2B done
+#1 DONE 0.0s
+
+#2 [internal] load build definition from Dockerfile
+#2 transferring dockerfile: 115B done
+#2 DONE 0.0s
+
+#3 [internal] load metadata for docker.io/nodered/node-red:latest
+#3 DONE 0.3s
+
+#4 [1/2] FROM docker.io/nodered/node-red@sha256:75e48924159f6c6bf4221017069a8b496cab8d0b21d3d0b1fcaf058af8294865
+#4 CACHED
+
+#5 [2/2] RUN npm install npm install @edgeflow/kafka-client@1.0.2
+#5 2.292 npm WARN EBADENGINE Unsupported engine {
+#5 2.292 npm WARN EBADENGINE   package: 'npm@10.4.0',
+#5 2.293 npm WARN EBADENGINE   required: { node: '^18.17.0 || >=20.5.0' },
+#5 2.293 npm WARN EBADENGINE   current: { node: 'v16.20.2', npm: '8.19.4' }
+#5 2.293 npm WARN EBADENGINE }
+#5 3.672 npm WARN deprecated uuid@3.4.0: Please upgrade  to version 7 or higher.  Older versions may use Math.random() in certain circumstances, which is known to be problematic.  See https://v8.dev/blog/math-random for details.
+#5 8.546 
+#5 8.546 added 69 packages, and audited 590 packages in 8s
+#5 8.546 
+#5 8.546 69 packages are looking for funding
+#5 8.546   run `npm fund` for details
+#5 8.547 
+#5 8.547 found 0 vulnerabilities
+#5 8.547 npm notice 
+#5 8.547 npm notice New major version of npm available! 8.19.4 -> 10.4.0
+#5 8.548 npm notice Changelog: <https://github.com/npm/cli/releases/tag/v10.4.0>
+#5 8.548 npm notice Run `npm install -g npm@10.4.0` to update!
+#5 8.548 npm notice 
+#5 DONE 8.6s
+
+#6 exporting to image
+#6 exporting layers
+#6 exporting layers 1.4s done
+#6 writing image sha256:d2e7687b455e03942b6150de5bf3a95b8581d09a48398ab7dc515392e4df2184 done
+#6 naming to docker.io/library/tmp done
+#6 DONE 1.4s
+
+----
