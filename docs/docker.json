@@ -1,27 +1,30 @@
 {
   "name": "Catalogue for Docker",
-  "updated_at": "2024-01-28T15:57:23.845Z",
+  "updated_at": "2024-01-29T15:58:54.353Z",
   "modules": [
     {
-      "id": "virtual-parameters",
-      "version": "1.0.3",
-      "description": "virtual parameters setting",
-      "updated_at": "2024-01-28T14:14:10.337Z",
+      "id": "node-red-contrib-ampio",
+      "version": "0.6.4",
+      "description": "Ampio node",
+      "updated_at": "2024-01-29T13:49:34.715Z",
       "types": [
-        "virtual-parameters"
+        "Ampio IN",
+        "Ampio OUT",
+        "Ampio LCD",
+        "Ampio Events",
+        "ampioconfig"
       ],
       "keywords": [
-        "node-red",
-        "parameters",
-        "virtual"
+        "ampio",
+        "node-red"
       ],
-      "url": "https://flows.nodered.org/node/virtual-parameters"
+      "url": "https://flows.nodered.org/node/node-red-contrib-ampio"
     },
     {
       "id": "@edgeflow/kafka-client",
-      "version": "1.0.1",
+      "version": "1.0.2",
       "description": "EdgeFlow Kafka Consumer and Producer",
-      "updated_at": "2024-01-28T12:06:56.102Z",
+      "updated_at": "2024-01-29T11:57:10.175Z",
       "types": [
         "hm-kafka-consumer",
         "hm-kafka-producer",
@@ -37,6 +40,164 @@
         "data"
       ],
       "url": "https://flows.nodered.org/node/@edgeflow/kafka-client"
+    },
+    {
+      "id": "@gregoriusrippenstein/node-red-contrib-flowhub",
+      "version": "0.4.7",
+      "description": "Nodes for interacting with FlowHub.org.",
+      "updated_at": "2024-01-29T10:57:28.078Z",
+      "types": [
+        "FlowHubPull",
+        "FlowHubCfg"
+      ],
+      "keywords": [
+        "node-red",
+        "flowhub",
+        "flow-sharing",
+        "collaborative",
+        "flow-development"
+      ],
+      "url": "https://flows.nodered.org/node/@gregoriusrippenstein/node-red-contrib-flowhub"
+    },
+    {
+      "id": "node-red-node-rdk-camera",
+      "version": "0.0.5",
+      "description": "Node Red node for using camera on a RDK hardware",
+      "updated_at": "2024-01-29T04:52:34.683Z",
+      "types": [
+        "rdk-camera takephoto",
+        "rdk-camera imagestream"
+      ],
+      "keywords": [
+        "node-red",
+        "rdk",
+        "x3",
+        "camera"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-node-rdk-camera"
+    },
+    {
+      "id": "node-red-contrib-spruthub",
+      "version": "3.3.0",
+      "description": "Sprut.hub connectivity nodes for node-red",
+      "updated_at": "2024-01-28T22:33:59.300Z",
+      "types": [
+        "spruthub-in",
+        "spruthub-get",
+        "spruthub-out",
+        "spruthub-server"
+      ],
+      "keywords": [
+        "spruthub",
+        "sprut",
+        "mqtt",
+        "wirenboard",
+        "node-red"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-spruthub"
+    },
+    {
+      "id": "@opcua/for-node-red",
+      "version": "2.5.1",
+      "description": "The Node-RED node to communicate via OPC UA, powered NodeOPCUA and developed by Sterfive's team",
+      "updated_at": "2024-01-28T17:20:09.937Z",
+      "types": [],
+      "keywords": [
+        "node-red",
+        "OPC UA",
+        "opc-ua",
+        "unified architecture",
+        "opc foundation",
+        "node-opcua",
+        "IIoT"
+      ],
+      "url": "https://flows.nodered.org/node/@opcua/for-node-red"
+    },
+    {
+      "id": "@aingtii/node-red-trashdate",
+      "version": "1.3.1",
+      "description": "A node to generate next and overnext trashdate with type from CSV Files",
+      "updated_at": "2024-01-28T16:59:56.891Z",
+      "types": [
+        "TrashDate"
+      ],
+      "keywords": [
+        "node-red"
+      ],
+      "url": "https://flows.nodered.org/node/@aingtii/node-red-trashdate"
+    },
+    {
+      "id": "@gregoriusrippenstein/node-red-streaming",
+      "version": "0.0.10",
+      "description": "Nodes to make streaming possible in Node-RED.",
+      "updated_at": "2024-01-28T16:32:09.503Z",
+      "types": [
+        "PipeStart",
+        "FileStream",
+        "HttpRequestStream",
+        "CsvStream",
+        "JsonLStream",
+        "LineStream",
+        "IconvStream",
+        "Chunk2Msg",
+        "DeCompStream",
+        "ArchiveStream",
+        "PipeEnd"
+      ],
+      "keywords": [
+        "node-red",
+        "streaming",
+        "pipeline",
+        "etl",
+        "streamapi"
+      ],
+      "url": "https://flows.nodered.org/node/@gregoriusrippenstein/node-red-streaming"
+    },
+    {
+      "id": "node-red-contrib-modbus",
+      "version": "5.28.0",
+      "description": "The all in one Modbus TCP and Serial contribution package for Node-RED.",
+      "updated_at": "2024-01-28T15:30:42.854Z",
+      "types": [
+        "modbus-client",
+        "modbus-response",
+        "modbus-read",
+        "modbus-getter",
+        "modbus-flex-getter",
+        "modbus-write",
+        "modbus-flex-write",
+        "modbus-server",
+        "modbus-flex-server",
+        "modbus-queue-info",
+        "modbus-flex-connector",
+        "modbus-io-config",
+        "modbus-response-filter",
+        "modbus-flex-sequencer",
+        "modbus-flex-fc"
+      ],
+      "keywords": [
+        "node-red",
+        "plusfornodered",
+        "modbus",
+        "automation",
+        "biancoroyal"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-modbus"
+    },
+    {
+      "id": "virtual-parameters",
+      "version": "1.0.3",
+      "description": "virtual parameters setting",
+      "updated_at": "2024-01-28T14:14:10.337Z",
+      "types": [
+        "virtual-parameters"
+      ],
+      "keywords": [
+        "node-red",
+        "parameters",
+        "virtual"
+      ],
+      "url": "https://flows.nodered.org/node/virtual-parameters"
     },
     {
       "id": "@gregoriusrippenstein/node-red-contrib-introspection",
@@ -115,19 +276,6 @@
         "moon"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-chronos"
-    },
-    {
-      "id": "@aingtii/node-red-trashdate",
-      "version": "1.3.0",
-      "description": "A node to generate next and overnext trashdate with type from CSV Files",
-      "updated_at": "2024-01-28T08:39:54.156Z",
-      "types": [
-        "TrashDate"
-      ],
-      "keywords": [
-        "node-red"
-      ],
-      "url": "https://flows.nodered.org/node/@aingtii/node-red-trashdate"
     },
     {
       "id": "@inductiv/node-red-openai-api",
@@ -549,23 +697,6 @@
       "url": "https://flows.nodered.org/node/@gregoriusrippenstein/node-red-contrib-nodedev"
     },
     {
-      "id": "@opcua/for-node-red",
-      "version": "2.5.0",
-      "description": "The Node-RED node to communicate via OPC UA, powered NodeOPCUA and developed by Sterfive's team",
-      "updated_at": "2024-01-26T08:21:41.212Z",
-      "types": [],
-      "keywords": [
-        "node-red",
-        "OPC UA",
-        "opc-ua",
-        "unified architecture",
-        "opc foundation",
-        "node-opcua",
-        "IIoT"
-      ],
-      "url": "https://flows.nodered.org/node/@opcua/for-node-red"
-    },
-    {
       "id": "@parallaxcontrol/node-red-control",
       "version": "1.0.38",
       "description": "A comprehensive package of Node-RED nodes designed to seamlessly integrate with the Parallax Control Engine, offering enhanced control capabilities for AV, IoT, and Industrial Automation.",
@@ -836,6 +967,32 @@
       "url": "https://flows.nodered.org/node/@smartdcc/dccboxed-nodered-nodes"
     },
     {
+      "id": "@mschaeffler/node-red-logic",
+      "version": "1.4.7",
+      "description": "nodes for simple operations.",
+      "updated_at": "2024-01-23T12:09:05.770Z",
+      "types": [
+        "counter",
+        "tobool",
+        "not",
+        "or",
+        "and",
+        "tonumber",
+        "negate",
+        "reduce",
+        "__errors__",
+        "fallingEdge",
+        "raisingEdge",
+        "hysteresisEdge",
+        "statistics",
+        "mean"
+      ],
+      "keywords": [
+        "node-red"
+      ],
+      "url": "https://flows.nodered.org/node/@mschaeffler/node-red-logic"
+    },
+    {
       "id": "@tq-bit/node-red-contrib-de-fuelprices",
       "version": "0.1.4",
       "description": "Node to fetch fuelprices from the Tankerkoenig API",
@@ -1083,23 +1240,6 @@
       "url": "https://flows.nodered.org/node/node-red-contrib-openbci-eegmetrics"
     },
     {
-      "id": "node-red-node-rdk-camera",
-      "version": "0.0.4",
-      "description": "Node Red node for using camera on a RDK hardware",
-      "updated_at": "2024-01-22T13:13:26.545Z",
-      "types": [
-        "rdk-camera takephoto",
-        "rdk-camera imagestream"
-      ],
-      "keywords": [
-        "node-red",
-        "rdk",
-        "x3",
-        "camera"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-node-rdk-camera"
-    },
-    {
       "id": "node-red-contrib-openbci-streaming",
       "version": "0.0.2",
       "description": "input params for open bci devices",
@@ -1333,33 +1473,6 @@
         "node-red"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-mqtt-sparkplug-plus"
-    },
-    {
-      "id": "@gregoriusrippenstein/node-red-streaming",
-      "version": "0.0.9",
-      "description": "Nodes to make streaming possible in Node-RED.",
-      "updated_at": "2024-01-20T12:32:59.901Z",
-      "types": [
-        "PipeStart",
-        "FileStream",
-        "HttpRequestStream",
-        "CsvStream",
-        "JsonLStream",
-        "LineStream",
-        "IconvStream",
-        "Chunk2Msg",
-        "DeCompStream",
-        "ArchiveStream",
-        "PipeEnd"
-      ],
-      "keywords": [
-        "node-red",
-        "streaming",
-        "pipeline",
-        "etl",
-        "streamapi"
-      ],
-      "url": "https://flows.nodered.org/node/@gregoriusrippenstein/node-red-streaming"
     },
     {
       "id": "node-red-contrib-ui-time-scheduler-italian",
@@ -2304,32 +2417,6 @@
       "url": "https://flows.nodered.org/node/@renyoo/node-red-dfrobot-lorawan-nodes"
     },
     {
-      "id": "@mschaeffler/node-red-logic",
-      "version": "1.4.6",
-      "description": "nodes for simple operations.",
-      "updated_at": "2024-01-12T07:39:39.209Z",
-      "types": [
-        "counter",
-        "tobool",
-        "not",
-        "or",
-        "and",
-        "tonumber",
-        "negate",
-        "reduce",
-        "__errors__",
-        "fallingEdge",
-        "raisingEdge",
-        "hysteresisEdge",
-        "statistics",
-        "mean"
-      ],
-      "keywords": [
-        "node-red"
-      ],
-      "url": "https://flows.nodered.org/node/@mschaeffler/node-red-logic"
-    },
-    {
       "id": "node-red-contrib-homekit-bridged",
       "version": "1.6.0",
       "description": "Node-RED nodes to simulate Apple HomeKit devices.",
@@ -2638,24 +2725,6 @@
         "webservice"
       ],
       "url": "https://flows.nodered.org/node/@corebos/node-red-corebos"
-    },
-    {
-      "id": "@gregoriusrippenstein/node-red-contrib-flowhub",
-      "version": "0.4.5",
-      "description": "Nodes for interacting with FlowHub.org.",
-      "updated_at": "2024-01-07T09:57:09.316Z",
-      "types": [
-        "FlowHubPull",
-        "FlowHubCfg"
-      ],
-      "keywords": [
-        "node-red",
-        "flowhub",
-        "flow-sharing",
-        "collaborative",
-        "flow-development"
-      ],
-      "url": "https://flows.nodered.org/node/@gregoriusrippenstein/node-red-contrib-flowhub"
     },
     {
       "id": "node-red-contrib-homekit-rgb",
@@ -11277,37 +11346,6 @@
       "url": "https://flows.nodered.org/node/node-red-contrib-slack-ubos"
     },
     {
-      "id": "node-red-contrib-modbus",
-      "version": "5.27.2",
-      "description": "The all in one Modbus TCP and Serial contribution package for Node-RED.",
-      "updated_at": "2023-08-29T13:20:47.606Z",
-      "types": [
-        "modbus-client",
-        "modbus-response",
-        "modbus-read",
-        "modbus-getter",
-        "modbus-flex-getter",
-        "modbus-write",
-        "modbus-flex-write",
-        "modbus-server",
-        "modbus-flex-server",
-        "modbus-queue-info",
-        "modbus-flex-connector",
-        "modbus-io-config",
-        "modbus-response-filter",
-        "modbus-flex-sequencer",
-        "modbus-flex-fc"
-      ],
-      "keywords": [
-        "node-red",
-        "plusfornodered",
-        "modbus",
-        "automation",
-        "biancoroyal"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-modbus"
-    },
-    {
       "id": "@envidatec/node-red-contrib-jevis",
       "version": "1.0.6",
       "description": "Read / Write to JEVis Server",
@@ -11532,26 +11570,6 @@
         "lunatone"
       ],
       "url": "https://flows.nodered.org/node/@lunatone/node-red-dali"
-    },
-    {
-      "id": "node-red-contrib-spruthub",
-      "version": "3.2.0",
-      "description": "Sprut.hub connectivity nodes for node-red",
-      "updated_at": "2023-08-19T21:11:14.243Z",
-      "types": [
-        "spruthub-in",
-        "spruthub-get",
-        "spruthub-out",
-        "spruthub-server"
-      ],
-      "keywords": [
-        "spruthub",
-        "sprut",
-        "mqtt",
-        "wirenboard",
-        "node-red"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-spruthub"
     },
     {
       "id": "node-red-node-pibrella",
@@ -21232,24 +21250,6 @@
         "openems"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-gsi"
-    },
-    {
-      "id": "node-red-contrib-ampio",
-      "version": "0.6.3",
-      "description": "Ampio node",
-      "updated_at": "2022-12-16T07:11:09.872Z",
-      "types": [
-        "Ampio IN",
-        "Ampio OUT",
-        "Ampio LCD",
-        "Ampio Events",
-        "ampioconfig"
-      ],
-      "keywords": [
-        "ampio",
-        "node-red"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-ampio"
     },
     {
       "id": "node-red-contrib-dotnsf-gpt",
