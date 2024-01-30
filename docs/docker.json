@@ -1,7 +1,84 @@
 {
   "name": "Catalogue for Docker",
-  "updated_at": "2024-01-29T15:58:54.353Z",
+  "updated_at": "2024-01-30T16:00:51.448Z",
   "modules": [
+    {
+      "id": "@julaoshi/node-red-log-to-file",
+      "version": "0.1.5",
+      "description": "Log collection sharding cleaning",
+      "updated_at": "2024-01-30T08:45:16.235Z",
+      "types": [
+        "log-to-file",
+        "log-server-config"
+      ],
+      "keywords": [
+        "node-red"
+      ],
+      "url": "https://flows.nodered.org/node/@julaoshi/node-red-log-to-file"
+    },
+    {
+      "id": "@gemini86/node-red-contrib-alarm-manager",
+      "version": "1.1.4",
+      "description": "Monitors condition and status inputs and aggregates alarms conditions into a single emitter node.",
+      "updated_at": "2024-01-29T23:15:11.853Z",
+      "types": [
+        "alarm-manager",
+        "alarm-emitter",
+        "persistence-hook",
+        "condition-monitor",
+        "status-monitor"
+      ],
+      "keywords": [
+        "node-red",
+        "alarm",
+        "alarm manager",
+        "alarm logger",
+        "scheduler",
+        "timer"
+      ],
+      "url": "https://flows.nodered.org/node/@gemini86/node-red-contrib-alarm-manager"
+    },
+    {
+      "id": "node-red-contrib-solaredge-optimizers",
+      "version": "0.0.5",
+      "description": "Read optimizer data from solaredge cloud",
+      "updated_at": "2024-01-29T21:25:33.539Z",
+      "types": [
+        "solaredge-optimizers"
+      ],
+      "keywords": [
+        "node-red",
+        "solaredge",
+        "optimizers"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-solaredge-optimizers"
+    },
+    {
+      "id": "node-red-contrib-opcua",
+      "version": "0.2.321",
+      "description": "A Node-RED node to communicate via OPC UA based on node-opcua library.",
+      "updated_at": "2024-01-29T14:49:04.154Z",
+      "types": [
+        "OpcUa-Item",
+        "OpcUa-Client",
+        "OpcUa-Browser",
+        "OpcUa-Server",
+        "OpcUa-Endpoint",
+        "OpcUa-Event",
+        "OpcUa-Method",
+        "OpcUa-Rights",
+        "OpcUa-Discovery"
+      ],
+      "keywords": [
+        "node-red",
+        "OPC UA",
+        "opc-ua",
+        "unified automation",
+        "opc foundation",
+        "node-opcua"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-opcua"
+    },
     {
       "id": "node-red-contrib-ampio",
       "version": "0.6.4",
@@ -58,6 +135,19 @@
         "flow-development"
       ],
       "url": "https://flows.nodered.org/node/@gregoriusrippenstein/node-red-contrib-flowhub"
+    },
+    {
+      "id": "@victronenergy/node-red-contrib-victron",
+      "version": "1.5.10",
+      "description": "Custom Node-RED Nodes for Victron Energy",
+      "updated_at": "2024-01-29T09:24:55.456Z",
+      "types": [
+        "victron-client"
+      ],
+      "keywords": [
+        "node-red"
+      ],
+      "url": "https://flows.nodered.org/node/@victronenergy/node-red-contrib-victron"
     },
     {
       "id": "node-red-node-rdk-camera",
@@ -2784,19 +2874,6 @@
       "url": "https://flows.nodered.org/node/node-red-contrib-fv-detection-nodes"
     },
     {
-      "id": "@victronenergy/node-red-contrib-victron",
-      "version": "1.5.8",
-      "description": "Custom Node-RED Nodes for Victron Energy",
-      "updated_at": "2024-01-05T14:30:11.042Z",
-      "types": [
-        "victron-client"
-      ],
-      "keywords": [
-        "node-red"
-      ],
-      "url": "https://flows.nodered.org/node/@victronenergy/node-red-contrib-victron"
-    },
-    {
       "id": "@daisugiura/node-red-contrib-example-lower-case",
       "version": "0.0.1",
       "description": "A simple node that converts the message payloads into all lower-case",
@@ -5109,32 +5186,6 @@
       "url": "https://flows.nodered.org/node/@fetchbot/node-red-contrib-ikea-home-smart"
     },
     {
-      "id": "node-red-contrib-opcua",
-      "version": "0.2.320",
-      "description": "A Node-RED node to communicate via OPC UA based on node-opcua library.",
-      "updated_at": "2023-12-01T13:14:14.602Z",
-      "types": [
-        "OpcUa-Item",
-        "OpcUa-Client",
-        "OpcUa-Browser",
-        "OpcUa-Server",
-        "OpcUa-Endpoint",
-        "OpcUa-Event",
-        "OpcUa-Method",
-        "OpcUa-Rights",
-        "OpcUa-Discovery"
-      ],
-      "keywords": [
-        "node-red",
-        "OPC UA",
-        "opc-ua",
-        "unified automation",
-        "opc foundation",
-        "node-opcua"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-opcua"
-    },
-    {
       "id": "@knallle/node-red-contrib-is-day",
       "version": "1.0.3",
       "description": "A node that, given a latitude and a longitude, passes `msg` to either of its' two outputs.",
@@ -5791,20 +5842,6 @@
         "security"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-oauth2"
-    },
-    {
-      "id": "@julaoshi/node-red-log-to-file",
-      "version": "0.1.4",
-      "description": "Log collection sharding cleaning",
-      "updated_at": "2023-11-20T08:34:24.405Z",
-      "types": [
-        "log-to-file",
-        "log-server-config"
-      ],
-      "keywords": [
-        "node-red"
-      ],
-      "url": "https://flows.nodered.org/node/@julaoshi/node-red-log-to-file"
     },
     {
       "id": "thingzi-logic-timers",
@@ -15703,28 +15740,6 @@
         "pm5000"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-schneider-powerlogic"
-    },
-    {
-      "id": "@gemini86/node-red-contrib-alarm-manager",
-      "version": "1.1.2",
-      "description": "Monitors condition and status inputs and aggregates alarms conditions into a single emitter node.",
-      "updated_at": "2023-05-02T14:17:01.495Z",
-      "types": [
-        "alarm-manager",
-        "alarm-emitter",
-        "persistence-hook",
-        "condition-monitor",
-        "status-monitor"
-      ],
-      "keywords": [
-        "node-red",
-        "alarm",
-        "alarm manager",
-        "alarm logger",
-        "scheduler",
-        "timer"
-      ],
-      "url": "https://flows.nodered.org/node/@gemini86/node-red-contrib-alarm-manager"
     },
     {
       "id": "node-red-contrib-google-play-scraper",
