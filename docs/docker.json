@@ -1,7 +1,177 @@
 {
   "name": "Catalogue for Docker",
-  "updated_at": "2024-01-30T16:00:51.448Z",
+  "updated_at": "2024-01-31T15:59:26.881Z",
   "modules": [
+    {
+      "id": "node-red-node-rdk-camera",
+      "version": "0.0.6",
+      "description": "Node Red node for using camera on a RDK hardware",
+      "updated_at": "2024-01-31T13:55:35.340Z",
+      "types": [
+        "rdk-camera takephoto",
+        "rdk-camera imagestream"
+      ],
+      "keywords": [
+        "node-red",
+        "rdk",
+        "x3",
+        "camera"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-node-rdk-camera"
+    },
+    {
+      "id": "node-red-contrib-alice",
+      "version": "2.2.2",
+      "description": "**NodeRed Home** (node-red-contrib-alice) - это сервис позволит, в несколько простых шагов, подключить любые ваши устройства заведенные в Node-RED к умному дому от Яндекса и управлять ими с помощью голосового помощника Алиса.",
+      "updated_at": "2024-01-31T13:28:07.411Z",
+      "types": [
+        "alice-service",
+        "alice-device",
+        "On_Off",
+        "Toggle",
+        "Range",
+        "Color",
+        "Mode",
+        "Sensor",
+        "Event",
+        "Video"
+      ],
+      "keywords": [
+        "node-red",
+        "yandex",
+        "alice",
+        "яндекс",
+        "алиса"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-alice"
+    },
+    {
+      "id": "node-red-contrib-alice-self-hosting",
+      "version": "0.1.5",
+      "description": "Node-RED nodes to Yandex Alice devices in Self-Hosting",
+      "updated_at": "2024-01-31T13:26:49.131Z",
+      "types": [
+        "alice-sh-service",
+        "alice-sh-device",
+        "alice-sh-onoff",
+        "alice-sh-toggle",
+        "alice-sh-range",
+        "alice-sh-color",
+        "alice-sh-mode",
+        "alice-sh-sensor",
+        "alice-sh-event",
+        "alice-sh-video"
+      ],
+      "keywords": [
+        "node-red",
+        "yandex",
+        "alice",
+        "iot",
+        "self",
+        "hosting"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-alice-self-hosting"
+    },
+    {
+      "id": "node-red-contrib-iot-controlcenter",
+      "version": "2.1.0",
+      "description": "Data exchange from node-red to control center",
+      "updated_at": "2024-01-31T09:27:23.972Z",
+      "types": [
+        "IOT Send",
+        "IOT Get",
+        "IOT Function",
+        "IOT Request"
+      ],
+      "keywords": [
+        "node-red",
+        "iot",
+        "controlcenter"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-iot-controlcenter"
+    },
+    {
+      "id": "kdbx-red",
+      "version": "1.2.0",
+      "description": "Node-Red nodes to work with keepass files.",
+      "updated_at": "2024-01-31T09:16:54.364Z",
+      "types": [],
+      "keywords": [
+        "node-red",
+        "kdbx",
+        "keepass",
+        "password",
+        "manager"
+      ],
+      "url": "https://flows.nodered.org/node/kdbx-red"
+    },
+    {
+      "id": "@metz-connect/node-red-ewio2",
+      "version": "1.0.1",
+      "description": "Provides nodes to access EWIO2 interfaces like IOs and metering - from Node-RED",
+      "updated_at": "2024-01-31T09:00:41.168Z",
+      "types": [
+        "EWIO2",
+        "EWIO2 - Digital OUT",
+        "EWIO2 - Analog OUT",
+        "EWIO2 - Digital IN",
+        "EWIO2 - Analog IN",
+        "EWIO2 - Metering"
+      ],
+      "keywords": [
+        "node-red",
+        "ewio2",
+        "analog output",
+        "digital output",
+        "analog input",
+        "digital input",
+        "metering",
+        "m-bus",
+        "modbus",
+        "pulse counter"
+      ],
+      "url": "https://flows.nodered.org/node/@metz-connect/node-red-ewio2"
+    },
+    {
+      "id": "node-red-contrib-tapo-new-api",
+      "version": "0.5.0",
+      "description": "Unofficial node-RED node for connecting to TP-Link Tapo devices with new API. Currently limited to the P100 & P105 & P110 smart plugs and L510E smart bulbs.",
+      "updated_at": "2024-01-30T21:44:52.236Z",
+      "types": [],
+      "keywords": [
+        "node-red",
+        "tplink",
+        "p100",
+        "p105",
+        "p110",
+        "p115",
+        "L510E",
+        "klap",
+        "passthrough"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-tapo-new-api"
+    },
+    {
+      "id": "node-red-contrib-telegrambot",
+      "version": "15.1.9",
+      "description": "Telegram bot nodes for Node-RED",
+      "updated_at": "2024-01-30T21:03:40.697Z",
+      "types": [
+        "telegram bot",
+        "telegram receiver",
+        "telegram command",
+        "telegram event",
+        "telegram sender",
+        "telegram reply",
+        "telegram control"
+      ],
+      "keywords": [
+        "node-red",
+        "telegram",
+        "bot"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-telegrambot"
+    },
     {
       "id": "@julaoshi/node-red-log-to-file",
       "version": "0.1.5",
@@ -148,23 +318,6 @@
         "node-red"
       ],
       "url": "https://flows.nodered.org/node/@victronenergy/node-red-contrib-victron"
-    },
-    {
-      "id": "node-red-node-rdk-camera",
-      "version": "0.0.5",
-      "description": "Node Red node for using camera on a RDK hardware",
-      "updated_at": "2024-01-29T04:52:34.683Z",
-      "types": [
-        "rdk-camera takephoto",
-        "rdk-camera imagestream"
-      ],
-      "keywords": [
-        "node-red",
-        "rdk",
-        "x3",
-        "camera"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-node-rdk-camera"
     },
     {
       "id": "node-red-contrib-spruthub",
@@ -926,25 +1079,6 @@
         "BACnet"
       ],
       "url": "https://flows.nodered.org/node/@bitpoolos/edge-bacnet"
-    },
-    {
-      "id": "node-red-contrib-tapo-new-api",
-      "version": "0.4.9",
-      "description": "Unofficial node-RED node for connecting to TP-Link Tapo devices with new API. Currently limited to the P100 & P105 & P110 smart plugs and L510E smart bulbs.",
-      "updated_at": "2024-01-24T20:30:39.080Z",
-      "types": [],
-      "keywords": [
-        "node-red",
-        "tplink",
-        "p100",
-        "p105",
-        "p110",
-        "p115",
-        "L510E",
-        "klap",
-        "passthrough"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-tapo-new-api"
     },
     {
       "id": "node-red-contrib-axis-com",
@@ -1909,24 +2043,6 @@
       "url": "https://flows.nodered.org/node/smithtek-node-red-restart"
     },
     {
-      "id": "node-red-contrib-iot-controlcenter",
-      "version": "2.0.8",
-      "description": "Data exchange from node-red to control center",
-      "updated_at": "2024-01-17T19:45:26.429Z",
-      "types": [
-        "Send",
-        "Get",
-        "Function",
-        "Request"
-      ],
-      "keywords": [
-        "node-red",
-        "iot",
-        "controlcenter"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-iot-controlcenter"
-    },
-    {
       "id": "node-red-contrib-custom-chatgpt",
       "version": "1.2.17",
       "description": "A Node-RED node that interacts with OpenAI machine learning models to generate text and image outputs like 'ChatGPT' and 'DALL·E 2'.",
@@ -2166,27 +2282,6 @@
       "url": "https://flows.nodered.org/node/node-red-contrib-smart-door"
     },
     {
-      "id": "node-red-contrib-telegrambot",
-      "version": "15.1.8",
-      "description": "Telegram bot nodes for Node-RED",
-      "updated_at": "2024-01-14T19:41:51.829Z",
-      "types": [
-        "telegram bot",
-        "telegram receiver",
-        "telegram command",
-        "telegram event",
-        "telegram sender",
-        "telegram reply",
-        "telegram control"
-      ],
-      "keywords": [
-        "node-red",
-        "telegram",
-        "bot"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-telegrambot"
-    },
-    {
       "id": "node-red-node-telegrambot",
       "version": "0.1.6",
       "description": "Telegram userbot nodes for Node-RED",
@@ -2204,33 +2299,6 @@
         "selfbot"
       ],
       "url": "https://flows.nodered.org/node/node-red-node-telegrambot"
-    },
-    {
-      "id": "node-red-contrib-alice-self-hosting",
-      "version": "0.1.4",
-      "description": "Node-RED nodes to Yandex Alice devices in Self-Hosting",
-      "updated_at": "2024-01-14T14:37:43.155Z",
-      "types": [
-        "alice-sh-service",
-        "alice-sh-device",
-        "alice-sh-onoff",
-        "alice-sh-toggle",
-        "alice-sh-range",
-        "alice-sh-color",
-        "alice-sh-mode",
-        "alice-sh-sensor",
-        "alice-sh-event",
-        "alice-sh-video"
-      ],
-      "keywords": [
-        "node-red",
-        "yandex",
-        "alice",
-        "iot",
-        "self",
-        "hosting"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-alice-self-hosting"
     },
     {
       "id": "@gregoriusrippenstein/node-red-contrib-pipestream",
@@ -3719,32 +3787,6 @@
         "notification"
       ],
       "url": "https://flows.nodered.org/node/@headless-architecture/node-red-contrib-slack-bolt"
-    },
-    {
-      "id": "node-red-contrib-alice",
-      "version": "2.2.1",
-      "description": "**NodeRed Home** (node-red-contrib-alice) - это сервис позволит, в несколько простых шагов, подключить любые ваши устройства заведенные в Node-RED к умному дому от Яндекса и управлять ими с помощью голосового помощника Алиса.",
-      "updated_at": "2023-12-25T17:32:21.298Z",
-      "types": [
-        "alice-service",
-        "alice-device",
-        "On_Off",
-        "Toggle",
-        "Range",
-        "Color",
-        "Mode",
-        "Sensor",
-        "Event",
-        "Video"
-      ],
-      "keywords": [
-        "node-red",
-        "yandex",
-        "alice",
-        "яндекс",
-        "алиса"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-alice"
     },
     {
       "id": "node-red-node-tmeter-emulator",
@@ -6348,33 +6390,6 @@
         "climate"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-vib-smart-boiler"
-    },
-    {
-      "id": "@metz-connect/node-red-ewio2",
-      "version": "1.0.0",
-      "description": "Provides nodes to access EWIO2 interfaces like IOs and metering - from Node-RED",
-      "updated_at": "2023-11-10T10:54:09.879Z",
-      "types": [
-        "EWIO2",
-        "EWIO2 - Digital OUT",
-        "EWIO2 - Analog OUT",
-        "EWIO2 - Digital IN",
-        "EWIO2 - Analog IN",
-        "EWIO2 - Metering"
-      ],
-      "keywords": [
-        "node-red",
-        "ewio2",
-        "analog output",
-        "digital output",
-        "analog input",
-        "digital input",
-        "metering",
-        "m-bus",
-        "modbus",
-        "pulse counter"
-      ],
-      "url": "https://flows.nodered.org/node/@metz-connect/node-red-ewio2"
     },
     {
       "id": "node-red-contrib-aprs2",
@@ -15889,24 +15904,6 @@
         "authentication"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-2fa"
-    },
-    {
-      "id": "kdbx-red",
-      "version": "1.0.0",
-      "description": "Node-Red nodes to work with keepass files.",
-      "updated_at": "2023-04-28T11:19:57.003Z",
-      "types": [
-        "kdbx",
-        "kdbxFile"
-      ],
-      "keywords": [
-        "node-red",
-        "kdbx",
-        "keepass",
-        "password",
-        "manager"
-      ],
-      "url": "https://flows.nodered.org/node/kdbx-red"
     },
     {
       "id": "node-red-contrib-keyvalue-r2",
