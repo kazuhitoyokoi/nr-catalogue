@@ -1,26 +1,109 @@
 {
   "name": "Catalogue for Docker",
-  "updated_at": "2024-02-01T16:01:57.959Z",
+  "updated_at": "2024-02-02T16:00:38.683Z",
   "modules": [
     {
-      "id": "@julaoshi/node-red-log-to-file",
-      "version": "0.1.6",
-      "description": "Log collection sharding cleaning",
-      "updated_at": "2024-02-01T09:38:28.093Z",
+      "id": "@yousolution/node-red-contrib-you-nth-layerone",
+      "version": "0.0.3",
+      "description": "NodeRed library node for connection to LayerOne ",
+      "updated_at": "2024-02-02T09:40:35.882Z",
       "types": [
-        "log-to-file",
-        "log-server-config"
+        "authenticate",
+        "logout",
+        "query",
+        "company",
+        "companyInfo",
+        "companyAdminInfo",
+        "document",
+        "getObject",
+        "businessPartner",
+        "item",
+        "pick",
+        "stockTransfer",
+        "authenticateLayerOneSL",
+        "listLayerOneSL",
+        "createLayerOneSl",
+        "deleteLayerOneSl",
+        "getLayerOneSL",
+        "patchLayerOneSL",
+        "closeLayerOneSl",
+        "crossJoinLayerOneSL",
+        "nextLinkLayerOneSL",
+        "serviceLayerOneSL",
+        "manipulateEntityLayerOneSL",
+        "createLayerOneSlSQLQuery",
+        "SQLQueryLayerOneSL"
       ],
       "keywords": [
+        "node-red",
+        "LayerOne",
+        "NTH",
+        "service layer",
+        "API",
+        "ERP",
+        "integration",
+        "youSolution.Cloud"
+      ],
+      "url": "https://flows.nodered.org/node/@yousolution/node-red-contrib-you-nth-layerone"
+    },
+    {
+      "id": "@hidetak/node-red-contrib-web-of-things",
+      "version": "2.0.0-beta.5",
+      "description": "Web of Things node for node-RED.",
+      "updated_at": "2024-02-01T20:10:52.223Z",
+      "types": [
+        "consumed-thing",
+        "read-property",
+        "write-property",
+        "invoke-action",
+        "subscribe-event",
+        "wot-server-config",
+        "wot-thing-config",
+        "wot-server-end",
+        "wot-server-property",
+        "wot-server-action",
+        "wot-server-event"
+      ],
+      "keywords": [
+        "wot",
         "node-red"
       ],
-      "url": "https://flows.nodered.org/node/@julaoshi/node-red-log-to-file"
+      "url": "https://flows.nodered.org/node/@hidetak/node-red-contrib-web-of-things"
+    },
+    {
+      "id": "@strato-automation/node-red-contrib-strato-automation",
+      "version": "0.4.0",
+      "description": "Strato Automation Official Node Red Library",
+      "updated_at": "2024-02-01T19:37:03.284Z",
+      "types": [
+        "input",
+        "output",
+        "ocn-server",
+        "func-on-off",
+        "func-ramp",
+        "func-min",
+        "func-max",
+        "const",
+        "input-topic",
+        "unit-converter",
+        "logic-gate",
+        "not-gate",
+        "psychrometric-calculator",
+        "strato-pid",
+        "signal-generator",
+        "deadband"
+      ],
+      "keywords": [
+        "node-red",
+        "node-red-node"
+      ],
+      "url": "https://flows.nodered.org/node/@strato-automation/node-red-contrib-strato-automation"
     },
     {
       "id": "@gregoriusrippenstein/node-red-contrib-introspection",
-      "version": "0.6.1",
+      "version": "0.6.2",
       "description": "Node-RED Editor-only nodes for introspecting with flows in the frontend.",
-      "updated_at": "2024-02-01T08:48:17.318Z",
+      "updated_at": "2024-02-01T14:39:16.363Z",
       "types": [
         "Seeker",
         "Sink",
@@ -36,6 +119,20 @@
         "screenshot"
       ],
       "url": "https://flows.nodered.org/node/@gregoriusrippenstein/node-red-contrib-introspection"
+    },
+    {
+      "id": "@julaoshi/node-red-log-to-file",
+      "version": "0.1.6",
+      "description": "Log collection sharding cleaning",
+      "updated_at": "2024-02-01T09:38:28.093Z",
+      "types": [
+        "log-to-file",
+        "log-server-config"
+      ],
+      "keywords": [
+        "node-red"
+      ],
+      "url": "https://flows.nodered.org/node/@julaoshi/node-red-log-to-file"
     },
     {
       "id": "@edgepi-cloud/node-red-edgepi-led",
@@ -108,50 +205,6 @@
         "optimizers"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-solaredge-optimizers"
-    },
-    {
-      "id": "@yousolution/node-red-contrib-you-nth-layerone",
-      "version": "0.0.1",
-      "description": "NodeRed library node for connection to LayerOne ",
-      "updated_at": "2024-01-31T14:41:52.125Z",
-      "types": [
-        "authenticate",
-        "logout",
-        "query",
-        "company",
-        "companyInfo",
-        "companyAdminInfo",
-        "document",
-        "getObject",
-        "businessPartner",
-        "item",
-        "pick",
-        "stockTransfer",
-        "authenticateLayerOneSL",
-        "listLayerOneSL",
-        "createLayerOneSl",
-        "deleteLayerOneSl",
-        "getLayerOneSL",
-        "patchLayerOneSL",
-        "closeLayerOneSl",
-        "crossJoinLayerOneSL",
-        "nextLinkLayerOneSL",
-        "serviceLayerOneSL",
-        "manipulateEntityLayerOneSL",
-        "createLayerOneSlSQLQuery",
-        "SQLQueryLayerOneSL"
-      ],
-      "keywords": [
-        "node-red",
-        "LayerOne",
-        "NTH",
-        "service layer",
-        "API",
-        "ERP",
-        "integration",
-        "youSolution.Cloud"
-      ],
-      "url": "https://flows.nodered.org/node/@yousolution/node-red-contrib-you-nth-layerone"
     },
     {
       "id": "node-red-node-rdk-camera",
@@ -1237,6 +1290,23 @@
         "node-red"
       ],
       "url": "https://flows.nodered.org/node/@elipse/epm-node-red"
+    },
+    {
+      "id": "gulp-etl-target-csv",
+      "version": "1.0.9",
+      "description": "Convert .ndjson gulp-etl files to CSV",
+      "updated_at": "2024-01-24T18:11:27.560Z",
+      "types": [],
+      "keywords": [
+        "gulpplugin",
+        "csv",
+        "gulp-etl",
+        "gulpetl",
+        "etl",
+        "data",
+        "node-red"
+      ],
+      "url": "https://flows.nodered.org/node/gulp-etl-target-csv"
     },
     {
       "id": "node-red-contrib-knx-ultimate",
@@ -2521,35 +2591,6 @@
         "nullmailer"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-sendmail"
-    },
-    {
-      "id": "@strato-automation/node-red-contrib-strato-automation",
-      "version": "0.3.2",
-      "description": "Strato Automation Official Node Red Library",
-      "updated_at": "2024-01-12T16:38:24.944Z",
-      "types": [
-        "input",
-        "output",
-        "ocn-server",
-        "func-on-off",
-        "func-ramp",
-        "func-min",
-        "func-max",
-        "const",
-        "input-topic",
-        "unit-converter",
-        "logic-gate",
-        "not-gate",
-        "psychrometric-calculator",
-        "strato-pid",
-        "signal-generator",
-        "deadband"
-      ],
-      "keywords": [
-        "node-red",
-        "node-red-node"
-      ],
-      "url": "https://flows.nodered.org/node/@strato-automation/node-red-contrib-strato-automation"
     },
     {
       "id": "@platmac/node-red-platma-inbuilddb",
@@ -4239,23 +4280,6 @@
         "node-red"
       ],
       "url": "https://flows.nodered.org/node/@gulpetl/node-red-core"
-    },
-    {
-      "id": "gulp-etl-target-csv",
-      "version": "1.0.8",
-      "description": "Convert .ndjson gulp-etl files to CSV",
-      "updated_at": "2023-12-18T01:08:16.669Z",
-      "types": [],
-      "keywords": [
-        "gulpplugin",
-        "csv",
-        "gulp-etl",
-        "gulpetl",
-        "etl",
-        "data",
-        "node-red"
-      ],
-      "url": "https://flows.nodered.org/node/gulp-etl-target-csv"
     },
     {
       "id": "gulp-etl-tap-csv",
