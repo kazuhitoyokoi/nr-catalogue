@@ -1,7 +1,209 @@
 {
   "name": "Catalogue for Docker",
-  "updated_at": "2024-02-02T16:00:38.683Z",
+  "updated_at": "2024-02-03T15:58:22.379Z",
   "modules": [
+    {
+      "id": "smithtek-nodered-gps",
+      "version": "2.6.0",
+      "description": "A Node-RED node to parse NMEA sentences from a GPS system",
+      "updated_at": "2024-02-03T14:09:17.655Z",
+      "types": [
+        "smithtek-nodered-gps"
+      ],
+      "keywords": [
+        "node-red",
+        "gps",
+        "nmea"
+      ],
+      "url": "https://flows.nodered.org/node/smithtek-nodered-gps"
+    },
+    {
+      "id": "smithtek-node-red-format",
+      "version": "1.0.3",
+      "description": "A custom node for Node-RED to format messages with timestamps.",
+      "updated_at": "2024-02-03T12:37:45.784Z",
+      "types": [
+        "smithtek format"
+      ],
+      "keywords": [
+        "node-red"
+      ],
+      "url": "https://flows.nodered.org/node/smithtek-node-red-format"
+    },
+    {
+      "id": "node-red-contrib-chronos",
+      "version": "1.20.0",
+      "description": "Time-based Node-RED scheduling, repeating, queueing, routing, filtering and manipulating nodes",
+      "updated_at": "2024-02-03T11:47:25.804Z",
+      "types": [
+        "chronos-config",
+        "chronos-scheduler",
+        "chronos-repeat",
+        "chronos-delay",
+        "chronos-switch",
+        "chronos-filter",
+        "chronos-change"
+      ],
+      "keywords": [
+        "node-red",
+        "scheduler",
+        "timer",
+        "time",
+        "sun",
+        "moon"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-chronos"
+    },
+    {
+      "id": "@gulpetl/node-red-core",
+      "version": "0.0.2",
+      "description": "Core nodes for using gulp/gulpetl under Node.RED",
+      "updated_at": "2024-02-03T04:45:42.644Z",
+      "types": [
+        "gulp.src",
+        "gulp.dest",
+        "msg-pipe",
+        "msg-restream"
+      ],
+      "keywords": [
+        "gulpfriendly",
+        "csv",
+        "gulp-etl",
+        "gulpetl",
+        "etl",
+        "data",
+        "node-red"
+      ],
+      "url": "https://flows.nodered.org/node/@gulpetl/node-red-core"
+    },
+    {
+      "id": "node-red-contrib-ifm-al13xx",
+      "version": "1.0.0",
+      "description": "Nodes for process data from Io-Link master IFM",
+      "updated_at": "2024-02-02T23:31:28.484Z",
+      "types": [
+        "sensor-processData",
+        "mqtt-processData",
+        "sensor-status"
+      ],
+      "keywords": [
+        "node-red",
+        "Io-Link",
+        "IFM"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-ifm-al13xx"
+    },
+    {
+      "id": "node-red-contrib-solaredge-optimizers",
+      "version": "0.1.0",
+      "description": "Read optimizer data from solaredge cloud",
+      "updated_at": "2024-02-02T21:56:15.769Z",
+      "types": [
+        "solaredge-optimizers"
+      ],
+      "keywords": [
+        "node-red",
+        "solaredge",
+        "optimizers"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-solaredge-optimizers"
+    },
+    {
+      "id": "node-red-contrib-nibeuplink",
+      "version": "1.1.2",
+      "description": "A Node-Red Node for collecting data from nibe uplink.",
+      "updated_at": "2024-02-02T20:16:27.018Z",
+      "types": [
+        "nibeuplink-config",
+        "nibeuplink"
+      ],
+      "keywords": [
+        "node-red",
+        "nibeuplink",
+        "volund",
+        "vølund"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-nibeuplink"
+    },
+    {
+      "id": "gulp-etl-mysql-adapter",
+      "version": "1.0.4",
+      "description": "Extract data from mysql into gulp-etl Message Stream JSON",
+      "updated_at": "2024-02-02T19:47:00.238Z",
+      "types": [],
+      "keywords": [
+        "gulpfriendly",
+        "mysql",
+        "sql",
+        "gulp",
+        "gulp-etl",
+        "gulpetl",
+        "vinyl",
+        "adapter",
+        "etl",
+        "data",
+        "node-red"
+      ],
+      "url": "https://flows.nodered.org/node/gulp-etl-mysql-adapter"
+    },
+    {
+      "id": "@semilimes/node-red-semilimes",
+      "version": "0.9.9",
+      "description": "The new semilimes connector which integrates with the public API",
+      "updated_at": "2024-02-02T15:47:26.746Z",
+      "types": [
+        "sme-main-connector",
+        "sme-main-intent",
+        "sme-main-sender",
+        "sme-main-listener",
+        "sme-main-sshTunnel",
+        "sme-main-formSaver",
+        "sme-main-formLoader",
+        "sme-main-formUpdater",
+        "sme-main-uploader",
+        "sme-comp-text",
+        "sme-comp-html",
+        "sme-comp-file",
+        "sme-comp-contact",
+        "sme-comp-location",
+        "sme-comp-webview",
+        "sme-comp-channel",
+        "sme-comp-tunnel",
+        "sme-comp-form",
+        "sme-formComp-label",
+        "sme-formComp-textBox",
+        "sme-formComp-buttonList",
+        "sme-formComp-singleChoice",
+        "sme-formComp-multiChoice",
+        "sme-formComp-switch",
+        "sme-formComp-slider",
+        "sme-formComp-datePicker",
+        "sme-formComp-timePicker",
+        "sme-formComp-locationPicker",
+        "sme-formComp-photoPicker",
+        "sme-formComp-filePicker",
+        "sme-formComp-contactPicker",
+        "sme-formComp-groupChatPicker",
+        "sme-formComp-channelPicker",
+        "sme-formComp-bucketPicker",
+        "sme-formComp-hiddenValue",
+        "sme-formComp-qrCodeScanner",
+        "sme-formComp-nfcReader",
+        "sme-filter-formSubmission"
+      ],
+      "keywords": [
+        "semilimes",
+        "iot",
+        "connector",
+        "node-red",
+        "mobile phone",
+        "interface",
+        "remote access",
+        "ssh tunnel",
+        "websocket"
+      ],
+      "url": "https://flows.nodered.org/node/@semilimes/node-red-semilimes"
+    },
     {
       "id": "@yousolution/node-red-contrib-you-nth-layerone",
       "version": "0.0.3",
@@ -190,21 +392,6 @@
         "generate"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-blockly"
-    },
-    {
-      "id": "node-red-contrib-solaredge-optimizers",
-      "version": "0.0.7",
-      "description": "Read optimizer data from solaredge cloud",
-      "updated_at": "2024-01-31T15:50:59.422Z",
-      "types": [
-        "solaredge-optimizers"
-      ],
-      "keywords": [
-        "node-red",
-        "solaredge",
-        "optimizers"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-solaredge-optimizers"
     },
     {
       "id": "node-red-node-rdk-camera",
@@ -651,30 +838,6 @@
       "url": "https://flows.nodered.org/node/node-red-contrib-rfxcom"
     },
     {
-      "id": "node-red-contrib-chronos",
-      "version": "1.19.1",
-      "description": "Time-based Node-RED scheduling, repeating, queueing, routing, filtering and manipulating nodes",
-      "updated_at": "2024-01-28T09:53:21.206Z",
-      "types": [
-        "chronos-config",
-        "chronos-scheduler",
-        "chronos-repeat",
-        "chronos-delay",
-        "chronos-switch",
-        "chronos-filter",
-        "chronos-change"
-      ],
-      "keywords": [
-        "node-red",
-        "scheduler",
-        "timer",
-        "time",
-        "sun",
-        "moon"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-chronos"
-    },
-    {
       "id": "@inductiv/node-red-openai-api",
       "version": "0.3.9",
       "description": "Go beyond ChatGPT and DALL·E 3: this Node-RED node seamlessly integrates a range of OpenAI services, including Assistants, Threads, Vision, and Audio, enabling feature-rich enhancement of your AI workflows with any OpenAI REST API-compatible solution.",
@@ -715,64 +878,6 @@
         "api"
       ],
       "url": "https://flows.nodered.org/node/victron-vrm-api"
-    },
-    {
-      "id": "@semilimes/node-red-semilimes",
-      "version": "0.9.8",
-      "description": "The new semilimes connector which integrates with the public API",
-      "updated_at": "2024-01-27T15:41:36.840Z",
-      "types": [
-        "sme-main-connector",
-        "sme-main-intent",
-        "sme-main-sender",
-        "sme-main-listener",
-        "sme-main-sshTunnel",
-        "sme-main-formSaver",
-        "sme-main-formLoader",
-        "sme-main-formUpdater",
-        "sme-main-uploader",
-        "sme-comp-text",
-        "sme-comp-html",
-        "sme-comp-file",
-        "sme-comp-contact",
-        "sme-comp-location",
-        "sme-comp-webview",
-        "sme-comp-channel",
-        "sme-comp-tunnel",
-        "sme-comp-form",
-        "sme-formComp-label",
-        "sme-formComp-textBox",
-        "sme-formComp-buttonList",
-        "sme-formComp-singleChoice",
-        "sme-formComp-multiChoice",
-        "sme-formComp-switch",
-        "sme-formComp-slider",
-        "sme-formComp-datePicker",
-        "sme-formComp-timePicker",
-        "sme-formComp-locationPicker",
-        "sme-formComp-photoPicker",
-        "sme-formComp-filePicker",
-        "sme-formComp-contactPicker",
-        "sme-formComp-groupChatPicker",
-        "sme-formComp-channelPicker",
-        "sme-formComp-bucketPicker",
-        "sme-formComp-hiddenValue",
-        "sme-formComp-qrCodeScanner",
-        "sme-formComp-nfcReader",
-        "sme-filter-formSubmission"
-      ],
-      "keywords": [
-        "semilimes",
-        "iot",
-        "connector",
-        "node-red",
-        "mobile phone",
-        "interface",
-        "remote access",
-        "ssh tunnel",
-        "websocket"
-      ],
-      "url": "https://flows.nodered.org/node/@semilimes/node-red-semilimes"
     },
     {
       "id": "node-red-contrib-niu-cloud",
@@ -1013,23 +1118,6 @@
         "rename"
       ],
       "url": "https://flows.nodered.org/node/do-red"
-    },
-    {
-      "id": "node-red-contrib-nibeuplink",
-      "version": "1.1.1",
-      "description": "A Node-Red Node for collecting data from nibe uplink.",
-      "updated_at": "2024-01-26T13:52:46.847Z",
-      "types": [
-        "nibeuplink-config",
-        "nibeuplink"
-      ],
-      "keywords": [
-        "node-red",
-        "nibeuplink",
-        "volund",
-        "vølund"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-nibeuplink"
     },
     {
       "id": "@starke-dms/node-red",
@@ -4258,28 +4346,6 @@
         "doorbird"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-doorbird-ultimate"
-    },
-    {
-      "id": "@gulpetl/node-red-core",
-      "version": "0.0.1",
-      "description": "Core nodes for using gulp/gulpetl under Node.RED",
-      "updated_at": "2023-12-18T05:45:22.823Z",
-      "types": [
-        "gulp.src",
-        "gulp.dest",
-        "msg-pipe",
-        "msg-restream"
-      ],
-      "keywords": [
-        "gulpfriendly",
-        "csv",
-        "gulp-etl",
-        "gulpetl",
-        "etl",
-        "data",
-        "node-red"
-      ],
-      "url": "https://flows.nodered.org/node/@gulpetl/node-red-core"
     },
     {
       "id": "gulp-etl-tap-csv",
@@ -7641,19 +7707,6 @@
         "cli"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-gpt-engineer-api"
-    },
-    {
-      "id": "smithtek-node-red-format",
-      "version": "1.0.2",
-      "description": "A custom node for Node-RED to format messages with timestamps.",
-      "updated_at": "2023-10-18T13:18:08.693Z",
-      "types": [
-        "smithtek format"
-      ],
-      "keywords": [
-        "node-red"
-      ],
-      "url": "https://flows.nodered.org/node/smithtek-node-red-format"
     },
     {
       "id": "@terranlabs/appflow-langchain",
@@ -13362,21 +13415,6 @@
         "aligenie"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-xiaodu-xiaoai"
-    },
-    {
-      "id": "smithtek-nodered-gps",
-      "version": "2.2.0",
-      "description": "A Node-RED node to parse NMEA sentences from a GPS system",
-      "updated_at": "2023-07-09T00:31:01.771Z",
-      "types": [
-        "smithtek-nodered-gps"
-      ],
-      "keywords": [
-        "node-red",
-        "gps",
-        "nmea"
-      ],
-      "url": "https://flows.nodered.org/node/smithtek-nodered-gps"
     },
     {
       "id": "@decthings/node-red",
