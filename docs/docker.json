@@ -1,12 +1,116 @@
 {
   "name": "Catalogue for Docker",
-  "updated_at": "2024-02-03T15:58:22.379Z",
+  "updated_at": "2024-02-04T16:00:46.884Z",
   "modules": [
     {
+      "id": "node-red-contrib-cb-suncron",
+      "version": "2.1.4",
+      "description": "A Node-RED node that triggers configurable outgoing messages based on the position of the sun",
+      "updated_at": "2024-02-04T14:03:39.777Z",
+      "types": [],
+      "keywords": [
+        "node-red",
+        "sunset",
+        "sunrise",
+        "schedule"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-cb-suncron"
+    },
+    {
+      "id": "node-red-contrib-axis-com",
+      "version": "1.5.0",
+      "description": "Simplified integration with Axis devices",
+      "updated_at": "2024-02-04T09:18:31.304Z",
+      "types": [
+        "Device Access",
+        "Axis device",
+        "Axis camera",
+        "Axis ACAP",
+        "Axis Security"
+      ],
+      "keywords": [
+        "node-red",
+        "Axis",
+        "Camera"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-axis-com"
+    },
+    {
+      "id": "node-red-contrib-axis-host",
+      "version": "1.3.1",
+      "description": "Axis Devices resource binding nodes that provides access to events, image capture and analytics data.  Node-RED must be running on the Axis Device.",
+      "updated_at": "2024-02-04T09:13:58.120Z",
+      "types": [
+        "Events",
+        "Camera",
+        "Trigger",
+        "Objects"
+      ],
+      "keywords": [
+        "node-red",
+        "Axis"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-axis-host"
+    },
+    {
+      "id": "node-red-contrib-smart-door",
+      "version": "1.0.4",
+      "description": "优智云家连接节点",
+      "updated_at": "2024-02-04T06:58:16.039Z",
+      "types": [
+        "live"
+      ],
+      "keywords": [
+        "node-red"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-smart-door"
+    },
+    {
+      "id": "@gulpetl/node-red-core",
+      "version": "0.0.3",
+      "description": "Core nodes for using gulp/gulpetl under Node.RED",
+      "updated_at": "2024-02-04T06:47:39.002Z",
+      "types": [
+        "gulp.src",
+        "gulp.dest",
+        "msg-pipe",
+        "msg-restream"
+      ],
+      "keywords": [
+        "gulpfriendly",
+        "csv",
+        "gulp-etl",
+        "gulpetl",
+        "etl",
+        "data",
+        "node-red"
+      ],
+      "url": "https://flows.nodered.org/node/@gulpetl/node-red-core"
+    },
+    {
+      "id": "node-red-node-rdk-vision",
+      "version": "0.0.2",
+      "description": "Node Red node for using vision algorithms on a RDK hardware",
+      "updated_at": "2024-02-04T02:46:19.948Z",
+      "types": [
+        "rdk-vision yolov3",
+        "rdk-vision yolov5",
+        "rdk-vision unet"
+      ],
+      "keywords": [
+        "node-red",
+        "rdk",
+        "x3",
+        "vision",
+        "algorithm"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-node-rdk-vision"
+    },
+    {
       "id": "smithtek-nodered-gps",
-      "version": "2.6.0",
+      "version": "2.7.0",
       "description": "A Node-RED node to parse NMEA sentences from a GPS system",
-      "updated_at": "2024-02-03T14:09:17.655Z",
+      "updated_at": "2024-02-04T01:09:14.534Z",
       "types": [
         "smithtek-nodered-gps"
       ],
@@ -16,6 +120,175 @@
         "nmea"
       ],
       "url": "https://flows.nodered.org/node/smithtek-nodered-gps"
+    },
+    {
+      "id": "node-red-contrib-solaredge-optimizers",
+      "version": "0.2.2",
+      "description": "Read optimizer data from solaredge cloud",
+      "updated_at": "2024-02-03T23:11:51.606Z",
+      "types": [
+        "solaredge-optimizers"
+      ],
+      "keywords": [
+        "node-red",
+        "solaredge",
+        "optimizers"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-solaredge-optimizers"
+    },
+    {
+      "id": "node-red-contrib-zigbee2mqtt-devices",
+      "version": "0.20.0",
+      "description": "Nodes to interact with zigbee2mqtt for Node-RED",
+      "updated_at": "2024-02-03T21:14:23.349Z",
+      "types": [
+        "bridge-log",
+        "zigbee2mqtt-bridge-config",
+        "zigbee2mqtt-device-config",
+        "eurotronic-spirit",
+        "hue-dimmer-switch",
+        "ikea-dimmer",
+        "ikea-remote",
+        "ikea-dimmer-v2",
+        "ikea-styrbar",
+        "scenic-foh-switch",
+        "sonoff-button",
+        "tasmota",
+        "tint-remote",
+        "generic-lamp",
+        "send-messages",
+        "button-switch",
+        "device-status",
+        "get-lamp-state",
+        "shelly-config",
+        "shelly-25",
+        "ota-update",
+        "override-state",
+        "override-brightness",
+        "override-temperature",
+        "override-color",
+        "override-action",
+        "scene-in",
+        "scene-selector",
+        "contact-sensor",
+        "occupancy-sensor",
+        "climate-sensor"
+      ],
+      "keywords": [
+        "node-red",
+        "zigbee2mqtt",
+        "smart home"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-zigbee2mqtt-devices"
+    },
+    {
+      "id": "smart-nodes",
+      "version": "0.1.1",
+      "description": "Smart Nodes",
+      "updated_at": "2024-02-03T20:57:15.969Z",
+      "types": [
+        "smart_light-control",
+        "__errors__",
+        "smart_scene-control",
+        "smart_shutter-control",
+        "smart_shutter-complex-control",
+        "smart_long-press-control",
+        "smart_multi-press-control",
+        "smart_logic",
+        "smart_forwarder",
+        "smart_compare",
+        "smart_hysteresis",
+        "smart_statistic",
+        "smart_scheduler",
+        "smart_delay",
+        "smart_central-control",
+        "__errors__"
+      ],
+      "keywords": [
+        "node-red",
+        "smart nodes",
+        "light control",
+        "shutter control",
+        "long press",
+        "multi press",
+        "scene",
+        "scenes",
+        "delay",
+        "forwarder",
+        "logic",
+        "hysteresis",
+        "compare",
+        "comparator",
+        "statistic",
+        "scheduler",
+        "central"
+      ],
+      "url": "https://flows.nodered.org/node/smart-nodes"
+    },
+    {
+      "id": "@gregoriusrippenstein/node-red-contrib-introspection",
+      "version": "0.6.3",
+      "description": "Node-RED Editor-only nodes for introspecting with flows in the frontend.",
+      "updated_at": "2024-02-03T20:40:44.007Z",
+      "types": [
+        "Seeker",
+        "Sink",
+        "GetFlows",
+        "SendFlow",
+        "ClientCode"
+      ],
+      "keywords": [
+        "node-red",
+        "introspection",
+        "selfreflection",
+        "node-red-editor",
+        "screenshot"
+      ],
+      "url": "https://flows.nodered.org/node/@gregoriusrippenstein/node-red-contrib-introspection"
+    },
+    {
+      "id": "@gregoriusrippenstein/node-red-contrib-flowhub",
+      "version": "0.4.8",
+      "description": "Nodes for interacting with FlowHub.org.",
+      "updated_at": "2024-02-03T20:31:46.160Z",
+      "types": [
+        "FlowHubPull",
+        "FlowHubCfg"
+      ],
+      "keywords": [
+        "node-red",
+        "flowhub",
+        "flow-sharing",
+        "collaborative",
+        "flow-development"
+      ],
+      "url": "https://flows.nodered.org/node/@gregoriusrippenstein/node-red-contrib-flowhub"
+    },
+    {
+      "id": "node-red-contrib-alice",
+      "version": "2.2.3",
+      "description": "**NodeRed Home** (node-red-contrib-alice) - это сервис позволит, в несколько простых шагов, подключить любые ваши устройства заведенные в Node-RED к умному дому от Яндекса и управлять ими с помощью голосового помощника Алиса.",
+      "updated_at": "2024-02-03T17:32:49.348Z",
+      "types": [
+        "alice-service",
+        "alice-device",
+        "On_Off",
+        "Toggle",
+        "Range",
+        "Color",
+        "Mode",
+        "Sensor",
+        "Event",
+        "Video"
+      ],
+      "keywords": [
+        "node-red",
+        "yandex",
+        "alice",
+        "яндекс",
+        "алиса"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-alice"
     },
     {
       "id": "smithtek-node-red-format",
@@ -55,28 +328,6 @@
       "url": "https://flows.nodered.org/node/node-red-contrib-chronos"
     },
     {
-      "id": "@gulpetl/node-red-core",
-      "version": "0.0.2",
-      "description": "Core nodes for using gulp/gulpetl under Node.RED",
-      "updated_at": "2024-02-03T04:45:42.644Z",
-      "types": [
-        "gulp.src",
-        "gulp.dest",
-        "msg-pipe",
-        "msg-restream"
-      ],
-      "keywords": [
-        "gulpfriendly",
-        "csv",
-        "gulp-etl",
-        "gulpetl",
-        "etl",
-        "data",
-        "node-red"
-      ],
-      "url": "https://flows.nodered.org/node/@gulpetl/node-red-core"
-    },
-    {
       "id": "node-red-contrib-ifm-al13xx",
       "version": "1.0.0",
       "description": "Nodes for process data from Io-Link master IFM",
@@ -92,21 +343,6 @@
         "IFM"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-ifm-al13xx"
-    },
-    {
-      "id": "node-red-contrib-solaredge-optimizers",
-      "version": "0.1.0",
-      "description": "Read optimizer data from solaredge cloud",
-      "updated_at": "2024-02-02T21:56:15.769Z",
-      "types": [
-        "solaredge-optimizers"
-      ],
-      "keywords": [
-        "node-red",
-        "solaredge",
-        "optimizers"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-solaredge-optimizers"
     },
     {
       "id": "node-red-contrib-nibeuplink",
@@ -302,27 +538,6 @@
       "url": "https://flows.nodered.org/node/@strato-automation/node-red-contrib-strato-automation"
     },
     {
-      "id": "@gregoriusrippenstein/node-red-contrib-introspection",
-      "version": "0.6.2",
-      "description": "Node-RED Editor-only nodes for introspecting with flows in the frontend.",
-      "updated_at": "2024-02-01T14:39:16.363Z",
-      "types": [
-        "Seeker",
-        "Sink",
-        "GetFlows",
-        "SendFlow",
-        "ClientCode"
-      ],
-      "keywords": [
-        "node-red",
-        "introspection",
-        "selfreflection",
-        "node-red-editor",
-        "screenshot"
-      ],
-      "url": "https://flows.nodered.org/node/@gregoriusrippenstein/node-red-contrib-introspection"
-    },
-    {
       "id": "@julaoshi/node-red-log-to-file",
       "version": "0.1.6",
       "description": "Log collection sharding cleaning",
@@ -409,32 +624,6 @@
         "camera"
       ],
       "url": "https://flows.nodered.org/node/node-red-node-rdk-camera"
-    },
-    {
-      "id": "node-red-contrib-alice",
-      "version": "2.2.2",
-      "description": "**NodeRed Home** (node-red-contrib-alice) - это сервис позволит, в несколько простых шагов, подключить любые ваши устройства заведенные в Node-RED к умному дому от Яндекса и управлять ими с помощью голосового помощника Алиса.",
-      "updated_at": "2024-01-31T13:28:07.411Z",
-      "types": [
-        "alice-service",
-        "alice-device",
-        "On_Off",
-        "Toggle",
-        "Range",
-        "Color",
-        "Mode",
-        "Sensor",
-        "Event",
-        "Video"
-      ],
-      "keywords": [
-        "node-red",
-        "yandex",
-        "alice",
-        "яндекс",
-        "алиса"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-alice"
     },
     {
       "id": "node-red-contrib-alice-self-hosting",
@@ -649,24 +838,6 @@
         "data"
       ],
       "url": "https://flows.nodered.org/node/@edgeflow/kafka-client"
-    },
-    {
-      "id": "@gregoriusrippenstein/node-red-contrib-flowhub",
-      "version": "0.4.7",
-      "description": "Nodes for interacting with FlowHub.org.",
-      "updated_at": "2024-01-29T10:57:28.078Z",
-      "types": [
-        "FlowHubPull",
-        "FlowHubCfg"
-      ],
-      "keywords": [
-        "node-red",
-        "flowhub",
-        "flow-sharing",
-        "collaborative",
-        "flow-development"
-      ],
-      "url": "https://flows.nodered.org/node/@gregoriusrippenstein/node-red-contrib-flowhub"
     },
     {
       "id": "@victronenergy/node-red-contrib-victron",
@@ -1321,25 +1492,6 @@
         "BACnet"
       ],
       "url": "https://flows.nodered.org/node/@bitpoolos/edge-bacnet"
-    },
-    {
-      "id": "node-red-contrib-axis-com",
-      "version": "1.4.1",
-      "description": "Simplified integration with Axis devices",
-      "updated_at": "2024-01-24T20:17:56.510Z",
-      "types": [
-        "Device Access",
-        "Axis device",
-        "Axis camera",
-        "Axis ACAP",
-        "Axis Security"
-      ],
-      "keywords": [
-        "node-red",
-        "Axis",
-        "Camera"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-axis-com"
     },
     {
       "id": "victron-dynamic-ess",
@@ -2512,19 +2664,6 @@
       "url": "https://flows.nodered.org/node/node-red-contrib-oscar-grayify"
     },
     {
-      "id": "node-red-contrib-smart-door",
-      "version": "1.0.3",
-      "description": "优智云家连接节点",
-      "updated_at": "2024-01-15T05:52:55.489Z",
-      "types": [
-        "live"
-      ],
-      "keywords": [
-        "node-red"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-smart-door"
-    },
-    {
       "id": "node-red-node-telegrambot",
       "version": "0.1.6",
       "description": "Telegram userbot nodes for Node-RED",
@@ -3283,23 +3422,6 @@
         "home automation"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-tasmota"
-    },
-    {
-      "id": "node-red-contrib-axis-host",
-      "version": "1.3.0",
-      "description": "Axis Devices resource binding nodes that provides access to events, image capture and analytics data.  Node-RED must be running on the Axis Device.",
-      "updated_at": "2024-01-04T06:31:12.345Z",
-      "types": [
-        "Events",
-        "Camera",
-        "Trigger",
-        "Objects"
-      ],
-      "keywords": [
-        "node-red",
-        "Axis"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-axis-host"
     },
     {
       "id": "node-red-dragino",
@@ -5224,20 +5346,6 @@
         "atomic"
       ],
       "url": "https://flows.nodered.org/node/atomic-jetstream"
-    },
-    {
-      "id": "node-red-contrib-cb-suncron",
-      "version": "2.1.3",
-      "description": "A Node-RED node that triggers configurable outgoing messages based on the position of the sun",
-      "updated_at": "2023-12-05T17:06:52.874Z",
-      "types": [],
-      "keywords": [
-        "node-red",
-        "sunset",
-        "sunrise",
-        "schedule"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-cb-suncron"
     },
     {
       "id": "@gotillit/tillit-node-red",
@@ -22508,50 +22616,6 @@
         "node-red"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-ha-miraie-ac"
-    },
-    {
-      "id": "node-red-contrib-zigbee2mqtt-devices",
-      "version": "0.19.6",
-      "description": "Nodes to interact with zigbee2mqtt for Node-RED",
-      "updated_at": "2022-11-14T07:51:42.620Z",
-      "types": [
-        "bridge-log",
-        "zigbee2mqtt-bridge-config",
-        "zigbee2mqtt-device-config",
-        "eurotronic-spirit",
-        "hue-dimmer-switch",
-        "ikea-dimmer",
-        "ikea-remote",
-        "ikea-dimmer-v2",
-        "scenic-foh-switch",
-        "sonoff-button",
-        "tasmota",
-        "tint-remote",
-        "generic-lamp",
-        "send-messages",
-        "button-switch",
-        "device-status",
-        "get-lamp-state",
-        "shelly-config",
-        "shelly-25",
-        "ota-update",
-        "override-state",
-        "override-brightness",
-        "override-temperature",
-        "override-color",
-        "override-action",
-        "scene-in",
-        "scene-selector",
-        "contact-sensor",
-        "occupancy-sensor",
-        "climate-sensor"
-      ],
-      "keywords": [
-        "node-red",
-        "zigbee2mqtt",
-        "smart home"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-zigbee2mqtt-devices"
     },
     {
       "id": "node-red-contrib-line-notify-api",
