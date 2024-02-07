@@ -1,28 +1,27 @@
 {
   "name": "Catalogue for Docker",
-  "updated_at": "2024-02-06T15:59:09.179Z",
+  "updated_at": "2024-02-07T15:59:16.236Z",
   "modules": [
     {
-      "id": "@gregoriusrippenstein/node-red-contrib-uglifyjs",
-      "version": "0.0.7",
-      "description": "Node-RED wrapper node around the uglify-js package.",
-      "updated_at": "2024-02-06T09:58:10.054Z",
+      "id": "@tec6/node-red-humhub-services",
+      "version": "0.1.3",
+      "description": "A node providing the services offered by the RESTful API of Humhub.",
+      "updated_at": "2024-02-07T10:05:25.833Z",
       "types": [
-        "UglifyJS",
-        "MinifyCSS"
+        "client-credentials",
+        "humhub-services"
       ],
       "keywords": [
         "node-red",
-        "uglifyjs",
-        "uglify-js"
+        "humhub"
       ],
-      "url": "https://flows.nodered.org/node/@gregoriusrippenstein/node-red-contrib-uglifyjs"
+      "url": "https://flows.nodered.org/node/@tec6/node-red-humhub-services"
     },
     {
       "id": "@gregoriusrippenstein/node-red-contrib-introspection",
-      "version": "0.6.6",
+      "version": "0.6.7",
       "description": "Node-RED Editor-only nodes for introspecting with flows in the frontend.",
-      "updated_at": "2024-02-06T09:29:46.539Z",
+      "updated_at": "2024-02-07T08:44:51.128Z",
       "types": [
         "Seeker",
         "Sink",
@@ -38,6 +37,242 @@
         "screenshot"
       ],
       "url": "https://flows.nodered.org/node/@gregoriusrippenstein/node-red-contrib-introspection"
+    },
+    {
+      "id": "node-red-contrib-modbus",
+      "version": "5.30.0",
+      "description": "The all in one Modbus TCP and Serial contribution long term supported package for Node-RED.",
+      "updated_at": "2024-02-07T08:18:22.804Z",
+      "types": [
+        "modbus-client",
+        "modbus-response",
+        "modbus-read",
+        "modbus-getter",
+        "modbus-flex-getter",
+        "modbus-write",
+        "modbus-flex-write",
+        "modbus-server",
+        "modbus-flex-server",
+        "modbus-queue-info",
+        "modbus-flex-connector",
+        "modbus-io-config",
+        "modbus-response-filter",
+        "modbus-flex-sequencer",
+        "modbus-flex-fc"
+      ],
+      "keywords": [
+        "node-red",
+        "plusfornodered",
+        "modbus",
+        "automation",
+        "biancoroyal"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-modbus"
+    },
+    {
+      "id": "node-red-contrib-melcloud",
+      "version": "1.6.0",
+      "description": "Node-RED node to interface with Mitsubishi Air Conditioning Device with MELCloud API",
+      "updated_at": "2024-02-07T07:14:12.303Z",
+      "types": [
+        "melcloud-credential",
+        "melcloud-device",
+        "melcloud-read",
+        "melcloud-connect"
+      ],
+      "keywords": [
+        "node-red",
+        "mitsubishi",
+        "melcloud",
+        "MSZ-AP25VG",
+        "air conditioning",
+        "heat pump",
+        "pac"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-melcloud"
+    },
+    {
+      "id": "tams-node-contrib",
+      "version": "1.0.4",
+      "description": "Provides a set of nodes to Node-RED to help control tams.",
+      "updated_at": "2024-02-07T05:27:55.834Z",
+      "types": [
+        "order-config",
+        "order-in",
+        "order-out"
+      ],
+      "keywords": [
+        "node-red"
+      ],
+      "url": "https://flows.nodered.org/node/tams-node-contrib"
+    },
+    {
+      "id": "@runvnc/node-red-md-to-notion",
+      "version": "2.3.0",
+      "description": "This will convert markdown into JSON which is appropriate for using with the Notion add block children API.",
+      "updated_at": "2024-02-07T05:16:31.566Z",
+      "types": [
+        "markdown-to-notion"
+      ],
+      "keywords": [
+        "node-red"
+      ],
+      "url": "https://flows.nodered.org/node/@runvnc/node-red-md-to-notion"
+    },
+    {
+      "id": "gulp-etl-target-csv",
+      "version": "1.0.11",
+      "description": "Convert .ndjson gulp-etl files to CSV",
+      "updated_at": "2024-02-07T03:54:22.012Z",
+      "types": [],
+      "keywords": [
+        "gulpplugin",
+        "csv",
+        "gulp-etl",
+        "gulpetl",
+        "etl",
+        "data",
+        "node-red"
+      ],
+      "url": "https://flows.nodered.org/node/gulp-etl-target-csv"
+    },
+    {
+      "id": "gulp-etl-tap-csv",
+      "version": "1.0.10",
+      "description": "Convert CSV files to JSON compatible with gulp-etl",
+      "updated_at": "2024-02-07T03:09:16.643Z",
+      "types": [],
+      "keywords": [
+        "gulpplugin",
+        "csv",
+        "gulp-etl",
+        "gulpetl",
+        "etl",
+        "data",
+        "node-red"
+      ],
+      "url": "https://flows.nodered.org/node/gulp-etl-tap-csv"
+    },
+    {
+      "id": "@gulpetl/node-red-core",
+      "version": "0.0.9",
+      "description": "Core nodes/code for using gulp/gulpetl under Node.RED",
+      "updated_at": "2024-02-07T03:04:22.919Z",
+      "types": [
+        "gulp.src",
+        "gulp.dest",
+        "msg-pipe",
+        "msg-restream"
+      ],
+      "keywords": [
+        "gulpfriendly",
+        "csv",
+        "gulp-etl",
+        "gulpetl",
+        "etl",
+        "data",
+        "node-red"
+      ],
+      "url": "https://flows.nodered.org/node/@gulpetl/node-red-core"
+    },
+    {
+      "id": "@inductiv/node-red-openai-api",
+      "version": "0.4.0",
+      "description": "Go beyond ChatGPT and DALL·E 3: this Node-RED node seamlessly integrates a range of OpenAI services, including Assistants, Threads, Vision, and Audio, enabling feature-rich enhancement of your AI workflows with any OpenAI REST API-compatible solution.",
+      "updated_at": "2024-02-07T01:43:50.784Z",
+      "types": [
+        "OpenAI API",
+        "Service Host"
+      ],
+      "keywords": [
+        "openai",
+        "api",
+        "automation",
+        "chatgpt",
+        "llm",
+        "slm",
+        "agent",
+        "automation",
+        "node-red",
+        "nodered",
+        "low-code",
+        "ai"
+      ],
+      "url": "https://flows.nodered.org/node/@inductiv/node-red-openai-api"
+    },
+    {
+      "id": "@semilimes/node-red-semilimes",
+      "version": "0.9.10",
+      "description": "The new semilimes connector which integrates with the public API",
+      "updated_at": "2024-02-06T16:40:02.902Z",
+      "types": [
+        "sme-main-connector",
+        "sme-main-intent",
+        "sme-main-sender",
+        "sme-main-listener",
+        "sme-main-sshTunnel",
+        "sme-main-formSaver",
+        "sme-main-formLoader",
+        "sme-main-formUpdater",
+        "sme-main-uploader",
+        "sme-comp-text",
+        "sme-comp-html",
+        "sme-comp-file",
+        "sme-comp-contact",
+        "sme-comp-location",
+        "sme-comp-webview",
+        "sme-comp-channel",
+        "sme-comp-tunnel",
+        "sme-comp-form",
+        "sme-formComp-label",
+        "sme-formComp-textBox",
+        "sme-formComp-buttonList",
+        "sme-formComp-singleChoice",
+        "sme-formComp-multiChoice",
+        "sme-formComp-switch",
+        "sme-formComp-slider",
+        "sme-formComp-datePicker",
+        "sme-formComp-timePicker",
+        "sme-formComp-locationPicker",
+        "sme-formComp-photoPicker",
+        "sme-formComp-filePicker",
+        "sme-formComp-contactPicker",
+        "sme-formComp-groupChatPicker",
+        "sme-formComp-channelPicker",
+        "sme-formComp-bucketPicker",
+        "sme-formComp-hiddenValue",
+        "sme-formComp-qrCodeScanner",
+        "sme-formComp-nfcReader",
+        "sme-filter-formSubmission"
+      ],
+      "keywords": [
+        "semilimes",
+        "iot",
+        "connector",
+        "node-red",
+        "mobile phone",
+        "interface",
+        "remote access",
+        "ssh tunnel",
+        "websocket"
+      ],
+      "url": "https://flows.nodered.org/node/@semilimes/node-red-semilimes"
+    },
+    {
+      "id": "@gregoriusrippenstein/node-red-contrib-uglifyjs",
+      "version": "0.0.7",
+      "description": "Node-RED wrapper node around the uglify-js package.",
+      "updated_at": "2024-02-06T09:58:10.054Z",
+      "types": [
+        "UglifyJS",
+        "MinifyCSS"
+      ],
+      "keywords": [
+        "node-red",
+        "uglifyjs",
+        "uglify-js"
+      ],
+      "url": "https://flows.nodered.org/node/@gregoriusrippenstein/node-red-contrib-uglifyjs"
     },
     {
       "id": "node-red-contrib-onstar2",
@@ -74,21 +309,6 @@
       "url": "https://flows.nodered.org/node/node-red-contrib-onstar2"
     },
     {
-      "id": "node-red-humhub-services",
-      "version": "0.1.1",
-      "description": "A node providing the services offered by the RESTful API of Humhub.",
-      "updated_at": "2024-02-05T23:06:45.341Z",
-      "types": [
-        "client-credentials",
-        "humhub-services"
-      ],
-      "keywords": [
-        "node-red",
-        "humhub"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-humhub-services"
-    },
-    {
       "id": "node-red-contrib-tapo-new-api",
       "version": "0.5.3",
       "description": "Unofficial node-RED node for connecting to TP-Link Tapo devices with new API. Currently limited to the P100 & P105 & P110 smart plugs and L510E smart bulbs.",
@@ -106,76 +326,6 @@
         "passthrough"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-tapo-new-api"
-    },
-    {
-      "id": "gulp-etl-target-csv",
-      "version": "1.0.10",
-      "description": "Convert .ndjson gulp-etl files to CSV",
-      "updated_at": "2024-02-05T21:04:38.264Z",
-      "types": [],
-      "keywords": [
-        "gulpplugin",
-        "csv",
-        "gulp-etl",
-        "gulpetl",
-        "etl",
-        "data",
-        "node-red"
-      ],
-      "url": "https://flows.nodered.org/node/gulp-etl-target-csv"
-    },
-    {
-      "id": "@gulpetl/node-red-core",
-      "version": "0.0.7",
-      "description": "Core nodes/code for using gulp/gulpetl under Node.RED",
-      "updated_at": "2024-02-05T21:01:12.549Z",
-      "types": [
-        "gulp.src",
-        "gulp.dest",
-        "msg-pipe",
-        "msg-restream"
-      ],
-      "keywords": [
-        "gulpfriendly",
-        "csv",
-        "gulp-etl",
-        "gulpetl",
-        "etl",
-        "data",
-        "node-red"
-      ],
-      "url": "https://flows.nodered.org/node/@gulpetl/node-red-core"
-    },
-    {
-      "id": "node-red-contrib-modbus",
-      "version": "5.29.0",
-      "description": "The all in one Modbus TCP and Serial contribution long term supported package for Node-RED.",
-      "updated_at": "2024-02-05T17:03:11.724Z",
-      "types": [
-        "modbus-client",
-        "modbus-response",
-        "modbus-read",
-        "modbus-getter",
-        "modbus-flex-getter",
-        "modbus-write",
-        "modbus-flex-write",
-        "modbus-server",
-        "modbus-flex-server",
-        "modbus-queue-info",
-        "modbus-flex-connector",
-        "modbus-io-config",
-        "modbus-response-filter",
-        "modbus-flex-sequencer",
-        "modbus-flex-fc"
-      ],
-      "keywords": [
-        "node-red",
-        "plusfornodered",
-        "modbus",
-        "automation",
-        "biancoroyal"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-modbus"
     },
     {
       "id": "@helander/node-red-boolean-gates",
@@ -598,64 +748,6 @@
         "node-red"
       ],
       "url": "https://flows.nodered.org/node/gulp-etl-mysql-adapter"
-    },
-    {
-      "id": "@semilimes/node-red-semilimes",
-      "version": "0.9.9",
-      "description": "The new semilimes connector which integrates with the public API",
-      "updated_at": "2024-02-02T15:47:26.746Z",
-      "types": [
-        "sme-main-connector",
-        "sme-main-intent",
-        "sme-main-sender",
-        "sme-main-listener",
-        "sme-main-sshTunnel",
-        "sme-main-formSaver",
-        "sme-main-formLoader",
-        "sme-main-formUpdater",
-        "sme-main-uploader",
-        "sme-comp-text",
-        "sme-comp-html",
-        "sme-comp-file",
-        "sme-comp-contact",
-        "sme-comp-location",
-        "sme-comp-webview",
-        "sme-comp-channel",
-        "sme-comp-tunnel",
-        "sme-comp-form",
-        "sme-formComp-label",
-        "sme-formComp-textBox",
-        "sme-formComp-buttonList",
-        "sme-formComp-singleChoice",
-        "sme-formComp-multiChoice",
-        "sme-formComp-switch",
-        "sme-formComp-slider",
-        "sme-formComp-datePicker",
-        "sme-formComp-timePicker",
-        "sme-formComp-locationPicker",
-        "sme-formComp-photoPicker",
-        "sme-formComp-filePicker",
-        "sme-formComp-contactPicker",
-        "sme-formComp-groupChatPicker",
-        "sme-formComp-channelPicker",
-        "sme-formComp-bucketPicker",
-        "sme-formComp-hiddenValue",
-        "sme-formComp-qrCodeScanner",
-        "sme-formComp-nfcReader",
-        "sme-filter-formSubmission"
-      ],
-      "keywords": [
-        "semilimes",
-        "iot",
-        "connector",
-        "node-red",
-        "mobile phone",
-        "interface",
-        "remote access",
-        "ssh tunnel",
-        "websocket"
-      ],
-      "url": "https://flows.nodered.org/node/@semilimes/node-red-semilimes"
     },
     {
       "id": "@yousolution/node-red-contrib-you-nth-layerone",
@@ -1174,31 +1266,6 @@
         "RFXtrx433"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-rfxcom"
-    },
-    {
-      "id": "@inductiv/node-red-openai-api",
-      "version": "0.3.9",
-      "description": "Go beyond ChatGPT and DALL·E 3: this Node-RED node seamlessly integrates a range of OpenAI services, including Assistants, Threads, Vision, and Audio, enabling feature-rich enhancement of your AI workflows with any OpenAI REST API-compatible solution.",
-      "updated_at": "2024-01-27T22:42:59.605Z",
-      "types": [
-        "OpenAI API",
-        "Service Host"
-      ],
-      "keywords": [
-        "openai",
-        "api",
-        "automation",
-        "chatgpt",
-        "llm",
-        "slm",
-        "agent",
-        "automation",
-        "node-red",
-        "nodered",
-        "low-code",
-        "ai"
-      ],
-      "url": "https://flows.nodered.org/node/@inductiv/node-red-openai-api"
     },
     {
       "id": "victron-vrm-api",
@@ -4536,23 +4603,6 @@
         "doorbird"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-doorbird-ultimate"
-    },
-    {
-      "id": "gulp-etl-tap-csv",
-      "version": "1.0.9",
-      "description": "Convert CSV files to JSON compatible with gulp-etl",
-      "updated_at": "2023-12-18T01:06:20.993Z",
-      "types": [],
-      "keywords": [
-        "gulpplugin",
-        "csv",
-        "gulp-etl",
-        "gulpetl",
-        "etl",
-        "data",
-        "node-red"
-      ],
-      "url": "https://flows.nodered.org/node/gulp-etl-tap-csv"
     },
     {
       "id": "@tq-bit/node-red-contrib-server-sent-events",
@@ -23076,27 +23126,6 @@
         "controlx.io"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-cx-user-lib"
-    },
-    {
-      "id": "node-red-contrib-melcloud",
-      "version": "1.4.4",
-      "description": "Node-RED node to interface with Mitsubishi Air Conditioning Device with MELCloud API",
-      "updated_at": "2022-11-01T18:04:03.957Z",
-      "types": [
-        "melcloud-credential",
-        "melcloud-device",
-        "melcloud-connect"
-      ],
-      "keywords": [
-        "node-red",
-        "mitsubishi",
-        "melcloud",
-        "MSZ-AP25VG",
-        "air conditioning",
-        "heat pump",
-        "pac"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-melcloud"
     },
     {
       "id": "node-red-contrib-waservice",
