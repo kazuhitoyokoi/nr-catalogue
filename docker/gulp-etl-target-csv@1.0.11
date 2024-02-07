@@ -1,0 +1,57 @@
+#0 building with "default" instance using docker driver
+
+#1 [internal] load .dockerignore
+#1 transferring context: 2B done
+#1 DONE 0.0s
+
+#2 [internal] load build definition from Dockerfile
+#2 transferring dockerfile: 113B done
+#2 DONE 0.0s
+
+#3 [internal] load metadata for docker.io/nodered/node-red:latest
+#3 DONE 0.1s
+
+#4 [1/2] FROM docker.io/nodered/node-red@sha256:1fd175ea74e4d20ff5e5b82d6a34a7f03238e0a40fe2f8dc6e320f9d86984b06
+#4 CACHED
+
+#5 [2/2] RUN npm install npm install gulp-etl-target-csv@1.0.11
+#5 6.161 npm WARN EBADENGINE Unsupported engine {
+#5 6.161 npm WARN EBADENGINE   package: 'npm@10.4.0',
+#5 6.161 npm WARN EBADENGINE   required: { node: '^18.17.0 || >=20.5.0' },
+#5 6.161 npm WARN EBADENGINE   current: { node: 'v16.20.2', npm: '8.19.4' }
+#5 6.161 npm WARN EBADENGINE }
+#5 8.414 npm WARN deprecated urix@0.1.0: Please see https://github.com/lydell/urix#deprecated
+#5 8.523 npm WARN deprecated source-map-resolve@0.5.3: See https://github.com/lydell/source-map-resolve#deprecated
+#5 8.544 npm WARN deprecated source-map-url@0.4.1: See https://github.com/lydell/source-map-url#deprecated
+#5 8.591 npm WARN deprecated resolve-url@0.2.1: https://github.com/lydell/resolve-url#deprecated
+#5 8.995 npm WARN deprecated chokidar@2.1.8: Chokidar 2 does not receive security updates since 2019. Upgrade to chokidar 3 with 15x fewer dependencies
+#5 9.627 
+#5 9.627 added 347 packages, and audited 869 packages in 9s
+#5 9.627 
+#5 9.627 76 packages are looking for funding
+#5 9.627   run `npm fund` for details
+#5 9.632 
+#5 9.632 8 high severity vulnerabilities
+#5 9.632 
+#5 9.632 To address issues that do not require attention, run:
+#5 9.632   npm audit fix
+#5 9.632 
+#5 9.632 To address all issues (including breaking changes), run:
+#5 9.632   npm audit fix --force
+#5 9.632 
+#5 9.632 Run `npm audit` for details.
+#5 9.633 npm notice 
+#5 9.633 npm notice New major version of npm available! 8.19.4 -> 10.4.0
+#5 9.633 npm notice Changelog: <https://github.com/npm/cli/releases/tag/v10.4.0>
+#5 9.633 npm notice Run `npm install -g npm@10.4.0` to update!
+#5 9.633 npm notice 
+#5 DONE 9.8s
+
+#6 exporting to image
+#6 exporting layers
+#6 exporting layers 1.7s done
+#6 writing image sha256:d1190a39492e94ee2d0b6f845822101b577ba4194c8db76c736bb5c1dbad1656 done
+#6 naming to docker.io/library/tmp done
+#6 DONE 1.7s
+
+----
