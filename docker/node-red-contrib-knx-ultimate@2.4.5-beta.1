@@ -1,0 +1,44 @@
+#0 building with "default" instance using docker driver
+
+#1 [internal] load .dockerignore
+#1 transferring context: 2B done
+#1 DONE 0.0s
+
+#2 [internal] load build definition from Dockerfile
+#2 transferring dockerfile: 129B done
+#2 DONE 0.0s
+
+#3 [internal] load metadata for docker.io/nodered/node-red:latest
+#3 DONE 0.1s
+
+#4 [1/2] FROM docker.io/nodered/node-red@sha256:1fd175ea74e4d20ff5e5b82d6a34a7f03238e0a40fe2f8dc6e320f9d86984b06
+#4 CACHED
+
+#5 [2/2] RUN npm install npm install node-red-contrib-knx-ultimate@2.4.5-beta.1
+#5 2.617 npm WARN EBADENGINE Unsupported engine {
+#5 2.617 npm WARN EBADENGINE   package: 'npm@10.4.0',
+#5 2.618 npm WARN EBADENGINE   required: { node: '^18.17.0 || >=20.5.0' },
+#5 2.618 npm WARN EBADENGINE   current: { node: 'v16.20.2', npm: '8.19.4' }
+#5 2.618 npm WARN EBADENGINE }
+#5 4.586 
+#5 4.586 added 31 packages, and audited 553 packages in 4s
+#5 4.586 
+#5 4.586 73 packages are looking for funding
+#5 4.586   run `npm fund` for details
+#5 4.587 
+#5 4.587 found 0 vulnerabilities
+#5 4.587 npm notice 
+#5 4.587 npm notice New major version of npm available! 8.19.4 -> 10.4.0
+#5 4.587 npm notice Changelog: <https://github.com/npm/cli/releases/tag/v10.4.0>
+#5 4.587 npm notice Run `npm install -g npm@10.4.0` to update!
+#5 4.587 npm notice 
+#5 DONE 4.7s
+
+#6 exporting to image
+#6 exporting layers
+#6 exporting layers 1.4s done
+#6 writing image sha256:8524e16c1a814e9e06a00a54cb799e3c63d9f0d89a7a6381c65f0a56f9e80586 done
+#6 naming to docker.io/library/tmp done
+#6 DONE 1.4s
+
+----
