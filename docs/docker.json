@@ -1,7 +1,174 @@
 {
   "name": "Catalogue for Docker",
-  "updated_at": "2024-02-07T15:59:16.236Z",
+  "updated_at": "2024-02-08T15:56:54.311Z",
   "modules": [
+    {
+      "id": "node-red-contrib-alice",
+      "version": "2.2.4",
+      "description": "**NodeRed Home** (node-red-contrib-alice) - это сервис позволит, в несколько простых шагов, подключить любые ваши устройства заведенные в Node-RED к умному дому от Яндекса и управлять ими с помощью голосового помощника Алиса.",
+      "updated_at": "2024-02-08T12:11:54.659Z",
+      "types": [
+        "alice-service",
+        "alice-device",
+        "On_Off",
+        "Toggle",
+        "Range",
+        "Color",
+        "Mode",
+        "Sensor",
+        "Event",
+        "Video"
+      ],
+      "keywords": [
+        "node-red",
+        "yandex",
+        "alice",
+        "яндекс",
+        "алиса"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-alice"
+    },
+    {
+      "id": "node-red-contrib-web-worldmap",
+      "version": "4.6.2",
+      "description": "A Node-RED node to provide a web page of a world map for plotting things on.",
+      "updated_at": "2024-02-08T11:45:11.276Z",
+      "types": [
+        "worldmap",
+        "ui_worldmap",
+        "worldmap in",
+        "worldmap-tracks",
+        "worldmap-hull"
+      ],
+      "keywords": [
+        "node-red",
+        "map",
+        "world",
+        "tak",
+        "pmtiles",
+        "esri",
+        "gis"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-web-worldmap"
+    },
+    {
+      "id": "@flowfuse/node-red-dashboard",
+      "version": "1.1.0",
+      "description": "Dashboard 2.0 - A collection of Node-RED nodes that provide functionality to build your own UI applications (inc. forms, buttons, charts).",
+      "updated_at": "2024-02-08T11:44:03.239Z",
+      "types": [
+        "ui-base",
+        "ui-page",
+        "ui-group",
+        "ui-theme",
+        "ui-form",
+        "__errors__",
+        "ui-text-input",
+        "__errors__",
+        "ui-button",
+        "__errors__",
+        "ui-dropdown",
+        "__errors__",
+        "ui-radio-group",
+        "__errors__",
+        "ui-slider",
+        "__errors__",
+        "ui-switch",
+        "__errors__",
+        "ui-text",
+        "__errors__",
+        "ui-table",
+        "__errors__",
+        "ui-chart",
+        "__errors__",
+        "ui-gauge",
+        "__errors__",
+        "ui-notification",
+        "__errors__",
+        "ui-markdown",
+        "__errors__",
+        "ui-template",
+        "__errors__",
+        "ui-event",
+        "__errors__",
+        "ui-control",
+        "__errors__"
+      ],
+      "keywords": [
+        "node-red"
+      ],
+      "url": "https://flows.nodered.org/node/@flowfuse/node-red-dashboard"
+    },
+    {
+      "id": "node-red-contrib-onstar2",
+      "version": "2.1.21",
+      "description": "An updated Node-RED Library using OnStarJS, an unofficial client library for the OnStar Vehicle API",
+      "updated_at": "2024-02-07T17:48:37.475Z",
+      "types": [
+        "get-account-vehicles",
+        "get-diagnostics",
+        "lock-myvehicle",
+        "unlock-myvehicle",
+        "start-myvehicle",
+        "cancel-start-myvehicle",
+        "alert-myvehicle",
+        "alert-myvehicle-lights",
+        "alert-myvehicle-horn",
+        "cancel-alert-myvehicle",
+        "locate-vehicle",
+        "mycharge-override",
+        "get-mycharge-profile",
+        "set-mycharge-profile",
+        "onstar2"
+      ],
+      "keywords": [
+        "node-red",
+        "OnStar",
+        "Chevrolet",
+        "Chevy",
+        "GM",
+        "GMC",
+        "Buick",
+        "Cadillac"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-onstar2"
+    },
+    {
+      "id": "node-red-contrib-knx-ultimate",
+      "version": "2.4.5-beta.1",
+      "description": "Control your KNX intallation via Node-Red! A bunch of KNX nodes, with integrated Philips HUE control and ETS group address importer. Easy to use and highly configurable.",
+      "updated_at": "2024-02-07T16:03:49.119Z",
+      "types": [
+        "knxUltimate",
+        "knxUltimateSceneController",
+        "knxUltimateWatchDog",
+        "knxUltimateLogger",
+        "knxUltimate-config",
+        "knxUltimateGlobalContext",
+        "knxUltimateAlerter",
+        "knxUltimateLoadControl",
+        "knxUltimateViewer",
+        "hue-config",
+        "knxUltimateHueLight",
+        "knxUltimateHueButton",
+        "knxUltimateHueMotion",
+        "knxUltimateHueTapDial",
+        "knxUltimateHueLightSensor",
+        "knxUltimateHueTemperatureSensor",
+        "knxUltimateHueScene",
+        "knxUltimateHueBattery"
+      ],
+      "keywords": [
+        "node-red",
+        "KNX",
+        "ETS",
+        "eib",
+        "konnex",
+        "IOT",
+        "philips hue"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-knx-ultimate"
+    },
     {
       "id": "@tec6/node-red-humhub-services",
       "version": "0.1.3",
@@ -273,40 +440,6 @@
         "uglify-js"
       ],
       "url": "https://flows.nodered.org/node/@gregoriusrippenstein/node-red-contrib-uglifyjs"
-    },
-    {
-      "id": "node-red-contrib-onstar2",
-      "version": "2.1.20",
-      "description": "An updated Node-RED Library using OnStarJS, an unofficial client library for the OnStar Vehicle API",
-      "updated_at": "2024-02-06T04:15:35.095Z",
-      "types": [
-        "get-account-vehicles",
-        "get-diagnostics",
-        "lock-myvehicle",
-        "unlock-myvehicle",
-        "start-myvehicle",
-        "cancel-start-myvehicle",
-        "alert-myvehicle",
-        "alert-myvehicle-lights",
-        "alert-myvehicle-horn",
-        "cancel-alert-myvehicle",
-        "locate-vehicle",
-        "mycharge-override",
-        "get-mycharge-profile",
-        "set-mycharge-profile",
-        "onstar2"
-      ],
-      "keywords": [
-        "node-red",
-        "OnStar",
-        "Chevrolet",
-        "Chevy",
-        "GM",
-        "GMC",
-        "Buick",
-        "Cadillac"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-onstar2"
     },
     {
       "id": "node-red-contrib-tapo-new-api",
@@ -604,32 +737,6 @@
         "flow-development"
       ],
       "url": "https://flows.nodered.org/node/@gregoriusrippenstein/node-red-contrib-flowhub"
-    },
-    {
-      "id": "node-red-contrib-alice",
-      "version": "2.2.3",
-      "description": "**NodeRed Home** (node-red-contrib-alice) - это сервис позволит, в несколько простых шагов, подключить любые ваши устройства заведенные в Node-RED к умному дому от Яндекса и управлять ими с помощью голосового помощника Алиса.",
-      "updated_at": "2024-02-03T17:32:49.348Z",
-      "types": [
-        "alice-service",
-        "alice-device",
-        "On_Off",
-        "Toggle",
-        "Range",
-        "Color",
-        "Mode",
-        "Sensor",
-        "Event",
-        "Video"
-      ],
-      "keywords": [
-        "node-red",
-        "yandex",
-        "alice",
-        "яндекс",
-        "алиса"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-alice"
     },
     {
       "id": "smithtek-node-red-format",
@@ -1383,52 +1490,6 @@
       "url": "https://flows.nodered.org/node/node-red-contrib-alexa-remote2-applestrudel"
     },
     {
-      "id": "@flowfuse/node-red-dashboard",
-      "version": "1.0.2",
-      "description": "Dashboard 2.0 - A collection of Node-RED nodes that provide functionality to build your own UI applications (inc. forms, buttons, charts).",
-      "updated_at": "2024-01-26T16:52:03.567Z",
-      "types": [
-        "ui-base",
-        "ui-page",
-        "ui-group",
-        "ui-theme",
-        "ui-form",
-        "__errors__",
-        "ui-text-input",
-        "__errors__",
-        "ui-button",
-        "__errors__",
-        "ui-dropdown",
-        "__errors__",
-        "ui-radio-group",
-        "__errors__",
-        "ui-slider",
-        "__errors__",
-        "ui-switch",
-        "__errors__",
-        "ui-text",
-        "__errors__",
-        "ui-table",
-        "__errors__",
-        "ui-chart",
-        "__errors__",
-        "ui-notification",
-        "__errors__",
-        "ui-markdown",
-        "__errors__",
-        "ui-template",
-        "__errors__",
-        "ui-event",
-        "__errors__",
-        "ui-control",
-        "__errors__"
-      ],
-      "keywords": [
-        "node-red"
-      ],
-      "url": "https://flows.nodered.org/node/@flowfuse/node-red-dashboard"
-    },
-    {
       "id": "@logiccloud/node-red-runtime-configuration",
       "version": "2.0.1",
       "description": "Configuration node for runtime connection.",
@@ -1742,42 +1803,6 @@
         "node-red"
       ],
       "url": "https://flows.nodered.org/node/@elipse/epm-node-red"
-    },
-    {
-      "id": "node-red-contrib-knx-ultimate",
-      "version": "2.4.5-beta.0",
-      "description": "Control your KNX intallation via Node-Red! A bunch of KNX nodes, with integrated Philips HUE control and ETS group address importer. Easy to use and highly configurable.",
-      "updated_at": "2024-01-23T22:34:32.606Z",
-      "types": [
-        "knxUltimate",
-        "knxUltimateSceneController",
-        "knxUltimateWatchDog",
-        "knxUltimateLogger",
-        "knxUltimate-config",
-        "knxUltimateGlobalContext",
-        "knxUltimateAlerter",
-        "knxUltimateLoadControl",
-        "knxUltimateViewer",
-        "hue-config",
-        "knxUltimateHueLight",
-        "knxUltimateHueButton",
-        "knxUltimateHueMotion",
-        "knxUltimateHueTapDial",
-        "knxUltimateHueLightSensor",
-        "knxUltimateHueTemperatureSensor",
-        "knxUltimateHueScene",
-        "knxUltimateHueBattery"
-      ],
-      "keywords": [
-        "node-red",
-        "KNX",
-        "ETS",
-        "eib",
-        "konnex",
-        "IOT",
-        "philips hue"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-knx-ultimate"
     },
     {
       "id": "@smartdcc/dccboxed-nodered-nodes",
@@ -4834,29 +4859,6 @@
         "realtime"
       ],
       "url": "https://flows.nodered.org/node/@gogovega/node-red-contrib-firebase-realtime-database"
-    },
-    {
-      "id": "node-red-contrib-web-worldmap",
-      "version": "4.6.1",
-      "description": "A Node-RED node to provide a web page of a world map for plotting things on.",
-      "updated_at": "2023-12-14T15:38:42.128Z",
-      "types": [
-        "worldmap",
-        "ui_worldmap",
-        "worldmap in",
-        "worldmap-tracks",
-        "worldmap-hull"
-      ],
-      "keywords": [
-        "node-red",
-        "map",
-        "world",
-        "tak",
-        "pmtiles",
-        "esri",
-        "gis"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-web-worldmap"
     },
     {
       "id": "node-red-contrib-azureiothubnode-param",
@@ -22073,22 +22075,6 @@
         "graphql"
       ],
       "url": "https://flows.nodered.org/node/@yousolution/node-red-contrib-you-graphql-timeout"
-    },
-    {
-      "id": "@kurago-dev/node-red-contrib-nats",
-      "version": "0.0.3",
-      "description": "Node RED source and sink nodes for NATS",
-      "updated_at": "2022-12-01T07:47:34.023Z",
-      "types": [
-        "NATS in",
-        "NATS out",
-        "NATS server"
-      ],
-      "keywords": [
-        "node-red",
-        "nats"
-      ],
-      "url": "https://flows.nodered.org/node/@kurago-dev/node-red-contrib-nats"
     },
     {
       "id": "node-red-contrib-fhem",
