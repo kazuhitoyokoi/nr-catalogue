@@ -1,7 +1,107 @@
 {
   "name": "Catalogue for Docker",
-  "updated_at": "2024-02-08T15:56:54.311Z",
+  "updated_at": "2024-02-09T15:58:24.825Z",
   "modules": [
+    {
+      "id": "@bitpoolos/edge-modbus",
+      "version": "1.5.5",
+      "description": "Modules to support reading Modbus devices.",
+      "updated_at": "2024-02-09T03:13:21.220Z",
+      "types": [
+        "bp-device",
+        "bp-reader",
+        "bp-decoder",
+        "bp-display",
+        "bp-modbus-io-config",
+        "bp-modbus-client"
+      ],
+      "keywords": [
+        "node-red",
+        "bitpool",
+        "bitpoolos",
+        "edge",
+        "modbus",
+        "rtu",
+        "ascii",
+        "tcp",
+        "serial",
+        "iot"
+      ],
+      "url": "https://flows.nodered.org/node/@bitpoolos/edge-modbus"
+    },
+    {
+      "id": "@strato-automation/node-red-contrib-strato-automation",
+      "version": "0.4.2",
+      "description": "Strato Automation Official Node Red Library",
+      "updated_at": "2024-02-08T20:48:07.594Z",
+      "types": [
+        "input",
+        "output",
+        "ocn-server",
+        "func-on-off",
+        "func-ramp",
+        "func-min",
+        "func-max",
+        "const",
+        "input-topic",
+        "unit-converter",
+        "logic-gate",
+        "not-gate",
+        "psychrometric-calculator",
+        "strato-pid",
+        "signal-generator",
+        "deadband"
+      ],
+      "keywords": [
+        "node-red",
+        "node-red-node"
+      ],
+      "url": "https://flows.nodered.org/node/@strato-automation/node-red-contrib-strato-automation"
+    },
+    {
+      "id": "smart-nodes",
+      "version": "0.2.0",
+      "description": "Smart Nodes",
+      "updated_at": "2024-02-08T17:06:29.067Z",
+      "types": [
+        "smart_light-control",
+        "__errors__",
+        "smart_scene-control",
+        "smart_shutter-control",
+        "smart_shutter-complex-control",
+        "smart_long-press-control",
+        "smart_multi-press-control",
+        "smart_logic",
+        "smart_forwarder",
+        "smart_compare",
+        "smart_hysteresis",
+        "smart_statistic",
+        "smart_scheduler",
+        "smart_delay",
+        "smart_central-control",
+        "__errors__"
+      ],
+      "keywords": [
+        "node-red",
+        "smart nodes",
+        "light control",
+        "shutter control",
+        "long press",
+        "multi press",
+        "scene",
+        "scenes",
+        "delay",
+        "forwarder",
+        "logic",
+        "hysteresis",
+        "compare",
+        "comparator",
+        "statistic",
+        "scheduler",
+        "central"
+      ],
+      "url": "https://flows.nodered.org/node/smart-nodes"
+    },
     {
       "id": "node-red-contrib-alice",
       "version": "2.2.4",
@@ -677,50 +777,6 @@
       "url": "https://flows.nodered.org/node/node-red-contrib-zigbee2mqtt-devices"
     },
     {
-      "id": "smart-nodes",
-      "version": "0.1.1",
-      "description": "Smart Nodes",
-      "updated_at": "2024-02-03T20:57:15.969Z",
-      "types": [
-        "smart_light-control",
-        "__errors__",
-        "smart_scene-control",
-        "smart_shutter-control",
-        "smart_shutter-complex-control",
-        "smart_long-press-control",
-        "smart_multi-press-control",
-        "smart_logic",
-        "smart_forwarder",
-        "smart_compare",
-        "smart_hysteresis",
-        "smart_statistic",
-        "smart_scheduler",
-        "smart_delay",
-        "smart_central-control",
-        "__errors__"
-      ],
-      "keywords": [
-        "node-red",
-        "smart nodes",
-        "light control",
-        "shutter control",
-        "long press",
-        "multi press",
-        "scene",
-        "scenes",
-        "delay",
-        "forwarder",
-        "logic",
-        "hysteresis",
-        "compare",
-        "comparator",
-        "statistic",
-        "scheduler",
-        "central"
-      ],
-      "url": "https://flows.nodered.org/node/smart-nodes"
-    },
-    {
       "id": "@gregoriusrippenstein/node-red-contrib-flowhub",
       "version": "0.4.8",
       "description": "Nodes for interacting with FlowHub.org.",
@@ -923,35 +979,6 @@
         "node-red"
       ],
       "url": "https://flows.nodered.org/node/@hidetak/node-red-contrib-web-of-things"
-    },
-    {
-      "id": "@strato-automation/node-red-contrib-strato-automation",
-      "version": "0.4.0",
-      "description": "Strato Automation Official Node Red Library",
-      "updated_at": "2024-02-01T19:37:03.284Z",
-      "types": [
-        "input",
-        "output",
-        "ocn-server",
-        "func-on-off",
-        "func-ramp",
-        "func-min",
-        "func-max",
-        "const",
-        "input-topic",
-        "unit-converter",
-        "logic-gate",
-        "not-gate",
-        "psychrometric-calculator",
-        "strato-pid",
-        "signal-generator",
-        "deadband"
-      ],
-      "keywords": [
-        "node-red",
-        "node-red-node"
-      ],
-      "url": "https://flows.nodered.org/node/@strato-automation/node-red-contrib-strato-automation"
     },
     {
       "id": "@julaoshi/node-red-log-to-file",
@@ -5822,33 +5849,6 @@
         "node-red"
       ],
       "url": "https://flows.nodered.org/node/@equans/smart-buildings-heating-boost"
-    },
-    {
-      "id": "@bitpoolos/edge-modbus",
-      "version": "1.5.1",
-      "description": "Modules to support reading Modbus devices.",
-      "updated_at": "2023-11-29T05:55:57.534Z",
-      "types": [
-        "bp-device",
-        "bp-reader",
-        "bp-decoder",
-        "bp-display",
-        "bp-modbus-io-config",
-        "bp-modbus-client"
-      ],
-      "keywords": [
-        "node-red",
-        "bitpool",
-        "bitpoolos",
-        "edge",
-        "modbus",
-        "rtu",
-        "ascii",
-        "tcp",
-        "serial",
-        "iot"
-      ],
-      "url": "https://flows.nodered.org/node/@bitpoolos/edge-modbus"
     },
     {
       "id": "node-red-contrib-victron-modbus",
