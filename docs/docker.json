@@ -1,7 +1,128 @@
 {
   "name": "Catalogue for Docker",
-  "updated_at": "2024-02-10T15:57:14.558Z",
+  "updated_at": "2024-02-11T16:00:56.786Z",
   "modules": [
+    {
+      "id": "node-red-contrib-knx-ultimate",
+      "version": "2.4.5-beta.2",
+      "description": "Control your KNX intallation via Node-Red! A bunch of KNX nodes, with integrated Philips HUE control and ETS group address importer. Easy to use and highly configurable.",
+      "updated_at": "2024-02-11T12:58:46.325Z",
+      "types": [
+        "knxUltimate",
+        "knxUltimateSceneController",
+        "knxUltimateWatchDog",
+        "knxUltimateLogger",
+        "knxUltimate-config",
+        "knxUltimateGlobalContext",
+        "knxUltimateAlerter",
+        "knxUltimateLoadControl",
+        "knxUltimateViewer",
+        "hue-config",
+        "knxUltimateHueLight",
+        "knxUltimateHueButton",
+        "knxUltimateHueMotion",
+        "knxUltimateHueTapDial",
+        "knxUltimateHueLightSensor",
+        "knxUltimateHueTemperatureSensor",
+        "knxUltimateHueScene",
+        "knxUltimateHueBattery"
+      ],
+      "keywords": [
+        "node-red",
+        "KNX",
+        "ETS",
+        "eib",
+        "konnex",
+        "IOT",
+        "philips hue"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-knx-ultimate"
+    },
+    {
+      "id": "@lexsus/node-red-contrib-hdlbus",
+      "version": "1.2.1",
+      "description": "Fork of hdlbus implementation by mrgadget, which fixes validator's errors",
+      "updated_at": "2024-02-11T12:35:03.629Z",
+      "types": [
+        "hdl-controller",
+        "hdl-raw-in",
+        "hdl-raw-out",
+        "hdl-channel-in",
+        "hdl-channel-out",
+        "hdl-channel-get",
+        "hdl-uv-in",
+        "hdl-uv-out",
+        "hdl-btn-color",
+        "hdl-panel-brightness",
+        "hdl-dali-groups",
+        "hdl-virtual-hvac-in",
+        "hdl-virtual-hvac-out",
+        "hdl-virtual-temp-sensor"
+      ],
+      "keywords": [
+        "node-red",
+        "hdl",
+        "hdlbus",
+        "smart-bus"
+      ],
+      "url": "https://flows.nodered.org/node/@lexsus/node-red-contrib-hdlbus"
+    },
+    {
+      "id": "@gregoriusrippenstein/node-red-contrib-introspection",
+      "version": "0.6.9",
+      "description": "Node-RED Editor-only nodes for introspecting with flows in the frontend.",
+      "updated_at": "2024-02-11T09:15:16.597Z",
+      "types": [
+        "Seeker",
+        "Sink",
+        "GetFlows",
+        "SendFlow",
+        "ClientCode"
+      ],
+      "keywords": [
+        "node-red",
+        "introspection",
+        "selfreflection",
+        "node-red-editor",
+        "screenshot"
+      ],
+      "url": "https://flows.nodered.org/node/@gregoriusrippenstein/node-red-contrib-introspection"
+    },
+    {
+      "id": "node-red-contrib-xsltransform",
+      "version": "0.5.28",
+      "description": "Node-RED node node to tranform xml content using saxon-js.",
+      "updated_at": "2024-02-11T01:23:11.595Z",
+      "types": [
+        "xslParse",
+        "xslTransform"
+      ],
+      "keywords": [
+        "node-red",
+        "saxon",
+        "transform",
+        "xml",
+        "xsl",
+        "xslt",
+        "xslt3.0"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-xsltransform"
+    },
+    {
+      "id": "node-red-contrib-home-assistant-websocket",
+      "version": "0.63.0",
+      "description": "Node-RED integration with Home Assistant through websocket and REST API",
+      "updated_at": "2024-02-10T17:45:27.499Z",
+      "types": [],
+      "keywords": [
+        "node-red",
+        "home-assistant",
+        "home assistant",
+        "home automation",
+        "websocket"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-home-assistant-websocket"
+    },
     {
       "id": "smart-nodes",
       "version": "0.3.2",
@@ -405,42 +526,6 @@
       "url": "https://flows.nodered.org/node/node-red-contrib-onstar2"
     },
     {
-      "id": "node-red-contrib-knx-ultimate",
-      "version": "2.4.5-beta.1",
-      "description": "Control your KNX intallation via Node-Red! A bunch of KNX nodes, with integrated Philips HUE control and ETS group address importer. Easy to use and highly configurable.",
-      "updated_at": "2024-02-07T16:03:49.119Z",
-      "types": [
-        "knxUltimate",
-        "knxUltimateSceneController",
-        "knxUltimateWatchDog",
-        "knxUltimateLogger",
-        "knxUltimate-config",
-        "knxUltimateGlobalContext",
-        "knxUltimateAlerter",
-        "knxUltimateLoadControl",
-        "knxUltimateViewer",
-        "hue-config",
-        "knxUltimateHueLight",
-        "knxUltimateHueButton",
-        "knxUltimateHueMotion",
-        "knxUltimateHueTapDial",
-        "knxUltimateHueLightSensor",
-        "knxUltimateHueTemperatureSensor",
-        "knxUltimateHueScene",
-        "knxUltimateHueBattery"
-      ],
-      "keywords": [
-        "node-red",
-        "KNX",
-        "ETS",
-        "eib",
-        "konnex",
-        "IOT",
-        "philips hue"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-knx-ultimate"
-    },
-    {
       "id": "@tec6/node-red-humhub-services",
       "version": "0.1.3",
       "description": "A node providing the services offered by the RESTful API of Humhub.",
@@ -454,27 +539,6 @@
         "humhub"
       ],
       "url": "https://flows.nodered.org/node/@tec6/node-red-humhub-services"
-    },
-    {
-      "id": "@gregoriusrippenstein/node-red-contrib-introspection",
-      "version": "0.6.7",
-      "description": "Node-RED Editor-only nodes for introspecting with flows in the frontend.",
-      "updated_at": "2024-02-07T08:44:51.128Z",
-      "types": [
-        "Seeker",
-        "Sink",
-        "GetFlows",
-        "SendFlow",
-        "ClientCode"
-      ],
-      "keywords": [
-        "node-red",
-        "introspection",
-        "selfreflection",
-        "node-red-editor",
-        "screenshot"
-      ],
-      "url": "https://flows.nodered.org/node/@gregoriusrippenstein/node-red-contrib-introspection"
     },
     {
       "id": "node-red-contrib-modbus",
@@ -3306,26 +3370,6 @@
       "url": "https://flows.nodered.org/node/node-red-contrib-genetic-charging-strategy2"
     },
     {
-      "id": "node-red-contrib-xsltransform",
-      "version": "0.5.22",
-      "description": "Node-RED node node to tranform xml content using saxon-js.",
-      "updated_at": "2024-01-10T23:44:37.629Z",
-      "types": [
-        "xslParse",
-        "xslTransform"
-      ],
-      "keywords": [
-        "node-red",
-        "saxon",
-        "transform",
-        "xml",
-        "xsl",
-        "xslt",
-        "xslt3.0"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-xsltransform"
-    },
-    {
       "id": "node-red-node-exif",
       "version": "1.0.0",
       "description": "A Node-RED node that extracts Exif information from JPEG image buffers.",
@@ -3368,21 +3412,6 @@
         "user management"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-users-jwt"
-    },
-    {
-      "id": "node-red-contrib-home-assistant-websocket",
-      "version": "0.62.3",
-      "description": "Node-RED integration with Home Assistant through websocket and REST API",
-      "updated_at": "2024-01-09T03:33:25.923Z",
-      "types": [],
-      "keywords": [
-        "node-red",
-        "home-assistant",
-        "home assistant",
-        "home automation",
-        "websocket"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-home-assistant-websocket"
     },
     {
       "id": "@thingwala/node-red-contrib-geyserwala-connect",
