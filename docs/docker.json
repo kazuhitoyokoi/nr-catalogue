@@ -1,12 +1,12 @@
 {
   "name": "Catalogue for Docker",
-  "updated_at": "2024-02-11T16:00:56.786Z",
+  "updated_at": "2024-02-12T15:54:09.709Z",
   "modules": [
     {
       "id": "node-red-contrib-knx-ultimate",
-      "version": "2.4.5-beta.2",
+      "version": "2.4.5-beta.3",
       "description": "Control your KNX intallation via Node-Red! A bunch of KNX nodes, with integrated Philips HUE control and ETS group address importer. Easy to use and highly configurable.",
-      "updated_at": "2024-02-11T12:58:46.325Z",
+      "updated_at": "2024-02-12T13:34:24.843Z",
       "types": [
         "knxUltimate",
         "knxUltimateSceneController",
@@ -25,7 +25,8 @@
         "knxUltimateHueLightSensor",
         "knxUltimateHueTemperatureSensor",
         "knxUltimateHueScene",
-        "knxUltimateHueBattery"
+        "knxUltimateHueBattery",
+        "knxUltimateHueZigbeeConnectivity"
       ],
       "keywords": [
         "node-red",
@@ -37,6 +38,170 @@
         "philips hue"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-knx-ultimate"
+    },
+    {
+      "id": "node-red-contrib-ngrok",
+      "version": "3.0.2",
+      "description": "Node-RED node to wrap and control ngrok",
+      "updated_at": "2024-02-12T13:23:40.788Z",
+      "types": [
+        "ngrok",
+        "ngrokauth"
+      ],
+      "keywords": [
+        "node-red"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-ngrok"
+    },
+    {
+      "id": "@tbowmo/node-red-small-timer",
+      "version": "0.12.1",
+      "description": "Small timer node for node red with support for sunrise, sunset etc. timers",
+      "updated_at": "2024-02-12T13:09:21.957Z",
+      "types": [
+        "smalltimer",
+        "position"
+      ],
+      "keywords": [
+        "node-red",
+        "timer",
+        "sunset",
+        "sunrise",
+        "dawn",
+        "dusk"
+      ],
+      "url": "https://flows.nodered.org/node/@tbowmo/node-red-small-timer"
+    },
+    {
+      "id": "@opcua/for-node-red",
+      "version": "2.5.3",
+      "description": "The Node-RED node to communicate via OPC UA, powered NodeOPCUA and developed by Sterfive's team",
+      "updated_at": "2024-02-12T12:50:35.302Z",
+      "types": [],
+      "keywords": [
+        "node-red",
+        "OPC UA",
+        "opc-ua",
+        "unified architecture",
+        "opc foundation",
+        "node-opcua",
+        "IIoT"
+      ],
+      "url": "https://flows.nodered.org/node/@opcua/for-node-red"
+    },
+    {
+      "id": "@ifp-software/node-red-contrib-oee-ai-connector",
+      "version": "2.9.0",
+      "description": "Easily connect your production machines to oee.ai – The Industry 4.0 solution for OEE optimization.",
+      "updated_at": "2024-02-12T12:07:37.790Z",
+      "types": [],
+      "keywords": [
+        "industrial",
+        "industry 4.0",
+        "iot",
+        "node-red",
+        "oee",
+        "oee.ai",
+        "sick",
+        "smart-factory",
+        "tdc"
+      ],
+      "url": "https://flows.nodered.org/node/@ifp-software/node-red-contrib-oee-ai-connector"
+    },
+    {
+      "id": "@noemarius/nodered-adt-create",
+      "version": "0.0.6",
+      "description": "Azure DT Nodes",
+      "updated_at": "2024-02-12T11:44:24.201Z",
+      "types": [
+        "createTwin"
+      ],
+      "keywords": [
+        "node-red",
+        "azure digital twin",
+        "adt",
+        "azure dt"
+      ],
+      "url": "https://flows.nodered.org/node/@noemarius/nodered-adt-create"
+    },
+    {
+      "id": "smart-nodes",
+      "version": "0.3.9",
+      "description": "Smart Nodes",
+      "updated_at": "2024-02-11T20:24:49.898Z",
+      "types": [
+        "smart_light-control",
+        "smart_scene-control",
+        "smart_shutter-control",
+        "smart_shutter-complex-control",
+        "smart_long-press-control",
+        "smart_multi-press-control",
+        "smart_logic",
+        "smart_forwarder",
+        "smart_compare",
+        "smart_hysteresis",
+        "smart_statistic",
+        "smart_scheduler",
+        "smart_delay",
+        "smart_central-control",
+        "__errors__",
+        "smart_text-exec"
+      ],
+      "keywords": [
+        "node-red",
+        "smart nodes",
+        "light control",
+        "shutter control",
+        "long press",
+        "multi press",
+        "scene",
+        "scenes",
+        "delay",
+        "forwarder",
+        "logic",
+        "hysteresis",
+        "compare",
+        "comparator",
+        "statistic",
+        "scheduler",
+        "central",
+        "text execution"
+      ],
+      "url": "https://flows.nodered.org/node/smart-nodes"
+    },
+    {
+      "id": "node-red-contrib-timeouttrigger",
+      "version": "0.0.5",
+      "description": "This node will pipe any received `msg` to its output. At the same time a time-out interval is set. Upon time-out a defined payload is send. Each new message will reset the time-out.",
+      "updated_at": "2024-02-11T18:26:04.247Z",
+      "types": [
+        "timeouttrigger"
+      ],
+      "keywords": [
+        "node-red",
+        "time-out",
+        "trigger",
+        "iot"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-timeouttrigger"
+    },
+    {
+      "id": "node-red-contrib-sonos-plus",
+      "version": "6.7.4",
+      "description": "A set of Node-RED nodes to control SONOS player in your local network.",
+      "updated_at": "2024-02-11T15:56:53.200Z",
+      "types": [
+        "sonos-config",
+        "sonos-manage-mysonos",
+        "sonos-universal"
+      ],
+      "keywords": [
+        "sonos",
+        "node-red",
+        "music",
+        "node-red-contrib-sonos-plus"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-sonos-plus"
     },
     {
       "id": "@lexsus/node-red-contrib-hdlbus",
@@ -122,53 +287,6 @@
         "websocket"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-home-assistant-websocket"
-    },
-    {
-      "id": "smart-nodes",
-      "version": "0.3.2",
-      "description": "Smart Nodes",
-      "updated_at": "2024-02-10T11:16:09.434Z",
-      "types": [
-        "smart_light-control",
-        "__errors__",
-        "smart_scene-control",
-        "smart_shutter-control",
-        "smart_shutter-complex-control",
-        "smart_long-press-control",
-        "smart_multi-press-control",
-        "smart_logic",
-        "smart_forwarder",
-        "smart_compare",
-        "smart_hysteresis",
-        "smart_statistic",
-        "smart_scheduler",
-        "smart_delay",
-        "smart_central-control",
-        "__errors__",
-        "smart_text-exec",
-        "__errors__"
-      ],
-      "keywords": [
-        "node-red",
-        "smart nodes",
-        "light control",
-        "shutter control",
-        "long press",
-        "multi press",
-        "scene",
-        "scenes",
-        "delay",
-        "forwarder",
-        "logic",
-        "hysteresis",
-        "compare",
-        "comparator",
-        "statistic",
-        "scheduler",
-        "central",
-        "text execution"
-      ],
-      "url": "https://flows.nodered.org/node/smart-nodes"
     },
     {
       "id": "node-red-contrib-chronos",
@@ -1455,23 +1573,6 @@
       "url": "https://flows.nodered.org/node/node-red-contrib-spruthub"
     },
     {
-      "id": "@opcua/for-node-red",
-      "version": "2.5.1",
-      "description": "The Node-RED node to communicate via OPC UA, powered NodeOPCUA and developed by Sterfive's team",
-      "updated_at": "2024-01-28T17:20:09.937Z",
-      "types": [],
-      "keywords": [
-        "node-red",
-        "OPC UA",
-        "opc-ua",
-        "unified architecture",
-        "opc foundation",
-        "node-opcua",
-        "IIoT"
-      ],
-      "url": "https://flows.nodered.org/node/@opcua/for-node-red"
-    },
-    {
       "id": "@aingtii/node-red-trashdate",
       "version": "1.3.1",
       "description": "A node to generate next and overnext trashdate with type from CSV Files",
@@ -2497,25 +2598,6 @@
         "node-red"
       ],
       "url": "https://flows.nodered.org/node/@appmodule/node-red-contrib-siot"
-    },
-    {
-      "id": "@ifp-software/node-red-contrib-oee-ai-connector",
-      "version": "2.8.0",
-      "description": "Easily connect your production machines to oee.ai – The Industry 4.0 solution for OEE optimization.",
-      "updated_at": "2024-01-19T09:39:46.432Z",
-      "types": [],
-      "keywords": [
-        "industrial",
-        "industry 4.0",
-        "iot",
-        "node-red",
-        "oee",
-        "oee.ai",
-        "sick",
-        "smart-factory",
-        "tdc"
-      ],
-      "url": "https://flows.nodered.org/node/@ifp-software/node-red-contrib-oee-ai-connector"
     },
     {
       "id": "node-red-contrib-mongodb4",
@@ -3995,20 +4077,6 @@
         "climate"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-vib-smart-valve"
-    },
-    {
-      "id": "node-red-contrib-ngrok",
-      "version": "2.1.0",
-      "description": "nodered node to wrap and control ngrok",
-      "updated_at": "2024-01-01T21:10:44.303Z",
-      "types": [
-        "ngrok",
-        "ngrokauth"
-      ],
-      "keywords": [
-        "node-red"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-ngrok"
     },
     {
       "id": "@ralphwetzel/node-red-systeminformation",
@@ -7159,25 +7227,6 @@
         "ai"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-openai-ubos"
-    },
-    {
-      "id": "@tbowmo/node-red-small-timer",
-      "version": "0.12.0",
-      "description": "Small timer node for node red with support for sunrise, sunset etc. timers",
-      "updated_at": "2023-11-01T20:17:44.700Z",
-      "types": [
-        "smalltimer",
-        "position"
-      ],
-      "keywords": [
-        "node-red",
-        "timer",
-        "sunset",
-        "sunrise",
-        "dawn",
-        "dusk"
-      ],
-      "url": "https://flows.nodered.org/node/@tbowmo/node-red-small-timer"
     },
     {
       "id": "@platmac/node-red-platma-whoami",
@@ -17888,22 +17937,6 @@
       "url": "https://flows.nodered.org/node/node-red-contrib-sma-webconnect"
     },
     {
-      "id": "node-red-contrib-timeouttrigger",
-      "version": "0.0.4",
-      "description": "This node will pipe any received `msg` to its output. At the same time a time-out interval is set. Upon time-out a defined payload is send. Each new message will reset the time-out.",
-      "updated_at": "2023-03-24T18:34:24.243Z",
-      "types": [
-        "timeouttrigger"
-      ],
-      "keywords": [
-        "node-red",
-        "time-out",
-        "trigger",
-        "iot"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-timeouttrigger"
-    },
-    {
       "id": "@chvdapi/node-red-pn6400-led",
       "version": "0.0.4",
       "description": "A node by chvda to drive LED on PN6400",
@@ -17969,24 +18002,6 @@
         "node-red"
       ],
       "url": "https://flows.nodered.org/node/@s1seven/node-red-chartjs"
-    },
-    {
-      "id": "node-red-contrib-sonos-plus",
-      "version": "6.7.3",
-      "description": "A set of Node-RED nodes to control SONOS player in your local network.",
-      "updated_at": "2023-03-23T08:23:10.495Z",
-      "types": [
-        "sonos-config",
-        "sonos-manage-mysonos",
-        "sonos-universal"
-      ],
-      "keywords": [
-        "sonos",
-        "node-red",
-        "music",
-        "node-red-contrib-sonos-plus"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-sonos-plus"
     },
     {
       "id": "@nnc/node-red-contrib-wxwork",
