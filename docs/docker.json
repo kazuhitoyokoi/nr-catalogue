@@ -1,7 +1,158 @@
 {
   "name": "Catalogue for Docker",
-  "updated_at": "2024-02-13T15:57:57.174Z",
+  "updated_at": "2024-02-14T15:58:52.196Z",
   "modules": [
+    {
+      "id": "node-red-contrib-opcua",
+      "version": "0.2.322",
+      "description": "A Node-RED node to communicate via OPC UA based on node-opcua library.",
+      "updated_at": "2024-02-14T10:34:48.606Z",
+      "types": [
+        "OpcUa-Item",
+        "OpcUa-Client",
+        "OpcUa-Browser",
+        "OpcUa-Server",
+        "OpcUa-Endpoint",
+        "OpcUa-Event",
+        "OpcUa-Method",
+        "OpcUa-Rights",
+        "OpcUa-Discovery"
+      ],
+      "keywords": [
+        "node-red",
+        "OPC UA",
+        "opc-ua",
+        "unified automation",
+        "opc foundation",
+        "node-opcua"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-opcua"
+    },
+    {
+      "id": "@runvnc/node-red-chatgpt-model",
+      "version": "0.1.0",
+      "description": "A Node-RED node that interacts with OpenAI machine learning models to generate text and image outputs like 'ChatGPT' and 'DALL·E 2'. With model parameter for gpt4",
+      "updated_at": "2024-02-14T08:05:21.871Z",
+      "types": [
+        "chatgpt-model"
+      ],
+      "keywords": [
+        "node-red",
+        "chatgpt",
+        "nodejs",
+        "javascript",
+        "api",
+        "flow",
+        "npm",
+        "machine-learning",
+        "node",
+        "example",
+        "text-generation",
+        "openai",
+        "image-generation",
+        "code-generation",
+        "conversational-ai",
+        "gpt-3",
+        "gpt-4",
+        "dall-e",
+        "ai"
+      ],
+      "url": "https://flows.nodered.org/node/@runvnc/node-red-chatgpt-model"
+    },
+    {
+      "id": "@edgepi-cloud/node-red-edgepi-adc",
+      "version": "1.0.16",
+      "description": "node-red node for edgepi adc module utilizing remote procedure calls",
+      "updated_at": "2024-02-14T02:36:04.174Z",
+      "types": [
+        "adc"
+      ],
+      "keywords": [
+        "node-red",
+        "edgepi",
+        "rpc"
+      ],
+      "url": "https://flows.nodered.org/node/@edgepi-cloud/node-red-edgepi-adc"
+    },
+    {
+      "id": "tams-node-contrib",
+      "version": "1.0.9",
+      "description": "Provides a set of nodes to Node-RED to help control tams.",
+      "updated_at": "2024-02-14T02:29:19.053Z",
+      "types": [
+        "order-config",
+        "order in",
+        "order out"
+      ],
+      "keywords": [
+        "node-red"
+      ],
+      "url": "https://flows.nodered.org/node/tams-node-contrib"
+    },
+    {
+      "id": "@edgepi-cloud/node-red-edgepi-dac",
+      "version": "1.0.14",
+      "description": "node-red node for edgepi dac module utilizing remote procedure calls",
+      "updated_at": "2024-02-14T02:26:49.870Z",
+      "types": [
+        "dac"
+      ],
+      "keywords": [
+        "node-red",
+        "edgepi",
+        "rpc"
+      ],
+      "url": "https://flows.nodered.org/node/@edgepi-cloud/node-red-edgepi-dac"
+    },
+    {
+      "id": "smithtek-node-red-lora",
+      "version": "2.6.0",
+      "description": "NodeRED nodes.",
+      "updated_at": "2024-02-13T23:29:46.951Z",
+      "types": [
+        "loraconfig"
+      ],
+      "keywords": [
+        "node-red",
+        "loraconfig",
+        "iot",
+        "smithtek"
+      ],
+      "url": "https://flows.nodered.org/node/smithtek-node-red-lora"
+    },
+    {
+      "id": "node-red-contrib-wago-plc-functions",
+      "version": "0.0.4",
+      "description": "A node containing standard PLC functions",
+      "updated_at": "2024-02-13T19:29:29.451Z",
+      "types": [
+        "timer-on",
+        "counter",
+        "Run State"
+      ],
+      "keywords": [
+        "wago",
+        "cc100",
+        "node-red",
+        "plc"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-wago-plc-functions"
+    },
+    {
+      "id": "node-red-disguise-http",
+      "version": "0.0.3",
+      "description": "Helper nodes for interacting with the disguise HTTP API",
+      "updated_at": "2024-02-13T16:09:11.433Z",
+      "types": [
+        "extract-system",
+        "extract-health",
+        "extract-health-state"
+      ],
+      "keywords": [
+        "node-red"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-disguise-http"
+    },
     {
       "id": "@lunatone/node-red-dali",
       "version": "0.3.7",
@@ -57,37 +208,6 @@
         "philips hue"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-knx-ultimate"
-    },
-    {
-      "id": "smithtek-node-red-lora",
-      "version": "2.5.0",
-      "description": "NodeRED nodes.",
-      "updated_at": "2024-02-13T10:44:47.698Z",
-      "types": [
-        "loraconfig"
-      ],
-      "keywords": [
-        "node-red",
-        "loraconfig",
-        "iot",
-        "smithtek"
-      ],
-      "url": "https://flows.nodered.org/node/smithtek-node-red-lora"
-    },
-    {
-      "id": "tams-node-contrib",
-      "version": "1.0.7",
-      "description": "Provides a set of nodes to Node-RED to help control tams.",
-      "updated_at": "2024-02-13T05:47:24.476Z",
-      "types": [
-        "order-config",
-        "order in",
-        "order out"
-      ],
-      "keywords": [
-        "node-red"
-      ],
-      "url": "https://flows.nodered.org/node/tams-node-contrib"
     },
     {
       "id": "@inductiv/node-red-openai-api",
@@ -1525,32 +1645,6 @@
       "url": "https://flows.nodered.org/node/@gemini86/node-red-contrib-alarm-manager"
     },
     {
-      "id": "node-red-contrib-opcua",
-      "version": "0.2.321",
-      "description": "A Node-RED node to communicate via OPC UA based on node-opcua library.",
-      "updated_at": "2024-01-29T14:49:04.154Z",
-      "types": [
-        "OpcUa-Item",
-        "OpcUa-Client",
-        "OpcUa-Browser",
-        "OpcUa-Server",
-        "OpcUa-Endpoint",
-        "OpcUa-Event",
-        "OpcUa-Method",
-        "OpcUa-Rights",
-        "OpcUa-Discovery"
-      ],
-      "keywords": [
-        "node-red",
-        "OPC UA",
-        "opc-ua",
-        "unified automation",
-        "opc foundation",
-        "node-opcua"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-opcua"
-    },
-    {
       "id": "node-red-contrib-ampio",
       "version": "0.6.4",
       "description": "Ampio node",
@@ -2298,36 +2392,6 @@
         "rpc"
       ],
       "url": "https://flows.nodered.org/node/@edgepi-cloud/node-red-edgepi-digital-input"
-    },
-    {
-      "id": "@edgepi-cloud/node-red-edgepi-dac",
-      "version": "1.0.12",
-      "description": "node-red node for edgepi dac module utilizing remote procedure calls",
-      "updated_at": "2024-01-22T23:50:42.532Z",
-      "types": [
-        "dac"
-      ],
-      "keywords": [
-        "node-red",
-        "edgepi",
-        "rpc"
-      ],
-      "url": "https://flows.nodered.org/node/@edgepi-cloud/node-red-edgepi-dac"
-    },
-    {
-      "id": "@edgepi-cloud/node-red-edgepi-adc",
-      "version": "1.0.13",
-      "description": "node-red node for edgepi adc module utilizing remote procedure calls",
-      "updated_at": "2024-01-22T23:46:52.885Z",
-      "types": [
-        "adc"
-      ],
-      "keywords": [
-        "node-red",
-        "edgepi",
-        "rpc"
-      ],
-      "url": "https://flows.nodered.org/node/@edgepi-cloud/node-red-edgepi-adc"
     },
     {
       "id": "@iiot2k/node-red-rpi-gpiox",
