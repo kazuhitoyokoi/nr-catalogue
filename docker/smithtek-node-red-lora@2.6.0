@@ -1,0 +1,49 @@
+#0 building with "default" instance using docker driver
+
+#1 [internal] load .dockerignore
+#1 transferring context: 2B done
+#1 DONE 0.0s
+
+#2 [internal] load build definition from Dockerfile
+#2 transferring dockerfile: 115B done
+#2 DONE 0.0s
+
+#3 [internal] load metadata for docker.io/nodered/node-red:latest
+#3 DONE 0.1s
+
+#4 [1/2] FROM docker.io/nodered/node-red@sha256:a5cc2d5417d48c13a50de322aa4c0b909ff28f826e6f6449c5d8aaefbf01b558
+#4 CACHED
+
+#5 [2/2] RUN npm install npm install smithtek-node-red-lora@2.6.0
+#5 2.948 npm WARN EBADENGINE Unsupported engine {
+#5 2.948 npm WARN EBADENGINE   package: 'npm@10.4.0',
+#5 2.949 npm WARN EBADENGINE   required: { node: '^18.17.0 || >=20.5.0' },
+#5 2.949 npm WARN EBADENGINE   current: { node: 'v16.20.2', npm: '8.19.4' }
+#5 2.949 npm WARN EBADENGINE }
+#5 4.684 
+#5 4.684 added 27 packages, and audited 549 packages in 4s
+#5 4.684 
+#5 4.684 80 packages are looking for funding
+#5 4.684   run `npm fund` for details
+#5 4.686 
+#5 4.686 2 high severity vulnerabilities
+#5 4.686 
+#5 4.686 To address all issues, run:
+#5 4.686   npm audit fix
+#5 4.686 
+#5 4.686 Run `npm audit` for details.
+#5 4.686 npm notice 
+#5 4.687 npm notice New major version of npm available! 8.19.4 -> 10.4.0
+#5 4.687 npm notice Changelog: <https://github.com/npm/cli/releases/tag/v10.4.0>
+#5 4.687 npm notice Run `npm install -g npm@10.4.0` to update!
+#5 4.687 npm notice 
+#5 DONE 4.8s
+
+#6 exporting to image
+#6 exporting layers
+#6 exporting layers 1.0s done
+#6 writing image sha256:b1c1f87a891e6df27fb043f7214cb79d4f557b2ebe1baed838cf945ec55631bd done
+#6 naming to docker.io/library/tmp done
+#6 DONE 1.0s
+
+----
