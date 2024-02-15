@@ -1,0 +1,54 @@
+#0 building with "default" instance using docker driver
+
+#1 [internal] load .dockerignore
+#1 transferring context: 2B done
+#1 DONE 0.0s
+
+#2 [internal] load build definition from Dockerfile
+#2 transferring dockerfile: 121B done
+#2 DONE 0.0s
+
+#3 [internal] load metadata for docker.io/nodered/node-red:latest
+#3 DONE 0.2s
+
+#4 [1/2] FROM docker.io/nodered/node-red@sha256:a5cc2d5417d48c13a50de322aa4c0b909ff28f826e6f6449c5d8aaefbf01b558
+#4 CACHED
+
+#5 [2/2] RUN npm install npm install node-red-contrib-html-to-pdf@1.1.1
+#5 3.510 npm WARN EBADENGINE Unsupported engine {
+#5 3.511 npm WARN EBADENGINE   package: 'npm@10.4.0',
+#5 3.511 npm WARN EBADENGINE   required: { node: '^18.17.0 || >=20.5.0' },
+#5 3.511 npm WARN EBADENGINE   current: { node: 'v16.20.2', npm: '8.19.4' }
+#5 3.511 npm WARN EBADENGINE }
+#5 5.305 npm WARN deprecated vm2@3.9.19: The library contains critical security issues and should not be used for production! The maintenance of the project has been discontinued. Consider migrating your code to isolated-vm.
+#5 5.346 npm WARN deprecated puppeteer@20.5.0: < 21.5.0 is no longer supported
+#5 17.51 
+#5 17.51 added 115 packages, and audited 637 packages in 17s
+#5 17.51 
+#5 17.51 72 packages are looking for funding
+#5 17.51   run `npm fund` for details
+#5 17.53 
+#5 17.53 11 vulnerabilities (8 high, 3 critical)
+#5 17.53 
+#5 17.53 To address issues that do not require attention, run:
+#5 17.53   npm audit fix
+#5 17.53 
+#5 17.53 To address all issues (including breaking changes), run:
+#5 17.53   npm audit fix --force
+#5 17.53 
+#5 17.53 Run `npm audit` for details.
+#5 17.53 npm notice 
+#5 17.53 npm notice New major version of npm available! 8.19.4 -> 10.4.0
+#5 17.53 npm notice Changelog: <https://github.com/npm/cli/releases/tag/v10.4.0>
+#5 17.53 npm notice Run `npm install -g npm@10.4.0` to update!
+#5 17.53 npm notice 
+#5 DONE 19.3s
+
+#6 exporting to image
+#6 exporting layers
+#6 exporting layers 4.1s done
+#6 writing image sha256:234ab51c2daf9fdfc7ccbe9d6578766da0a62a60659259a1dc4b60d50abe9f0d done
+#6 naming to docker.io/library/tmp done
+#6 DONE 4.1s
+
+----
