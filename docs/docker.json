@@ -1,7 +1,86 @@
 {
   "name": "Catalogue for Docker",
-  "updated_at": "2024-02-15T16:00:39.797Z",
+  "updated_at": "2024-02-16T15:58:45.106Z",
   "modules": [
+    {
+      "id": "smithtek-nodered-gps",
+      "version": "2.9.0",
+      "description": "A Node-RED node to parse NMEA sentences from a GPS system",
+      "updated_at": "2024-02-16T13:26:56.578Z",
+      "types": [
+        "smithtek-nodered-gps"
+      ],
+      "keywords": [
+        "node-red",
+        "gps",
+        "nmea"
+      ],
+      "url": "https://flows.nodered.org/node/smithtek-nodered-gps"
+    },
+    {
+      "id": "@opcua/for-node-red",
+      "version": "2.6.2",
+      "description": "The Node-RED node to communicate via OPC UA, powered NodeOPCUA and developed by Sterfive's team",
+      "updated_at": "2024-02-16T11:27:17.067Z",
+      "types": [],
+      "keywords": [
+        "node-red",
+        "OPC UA",
+        "opc-ua",
+        "unified architecture",
+        "opc foundation",
+        "node-opcua",
+        "IIoT"
+      ],
+      "url": "https://flows.nodered.org/node/@opcua/for-node-red"
+    },
+    {
+      "id": "tams-node-contrib",
+      "version": "1.0.11",
+      "description": "Provides a set of nodes to Node-RED to help control tams.",
+      "updated_at": "2024-02-16T05:45:32.955Z",
+      "types": [
+        "order-config",
+        "order in",
+        "order out"
+      ],
+      "keywords": [
+        "node-red"
+      ],
+      "url": "https://flows.nodered.org/node/tams-node-contrib"
+    },
+    {
+      "id": "@sumit_shinde_84/node-red-dashboard-2-ui-webcam",
+      "version": "1.0.0",
+      "description": "The ui-webcam node for Node-RED Dashboard 2.0 enables users to integrate webcam functionality into Node-RED Dashboard 2.0. It allows users to capture images, select different cameras, and control webcam features through an intuitive user interface within ",
+      "updated_at": "2024-02-15T17:25:30.743Z",
+      "types": [
+        "ui-webcam",
+        "__errors__"
+      ],
+      "keywords": [
+        "node-red",
+        "node-red-dashboard-2"
+      ],
+      "url": "https://flows.nodered.org/node/@sumit_shinde_84/node-red-dashboard-2-ui-webcam"
+    },
+    {
+      "id": "node-red-contrib-io-key",
+      "version": "1.5.1",
+      "description": "A collection of nodes to access the io-key cloud with Node-RED.",
+      "updated_at": "2024-02-15T15:25:23.161Z",
+      "types": [
+        "tenant-config",
+        "measurements",
+        "alarms",
+        "events"
+      ],
+      "keywords": [
+        "node-red",
+        "io-key"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-io-key"
+    },
     {
       "id": "smithtek-node-red-lora",
       "version": "2.8.0",
@@ -315,21 +394,6 @@
       "url": "https://flows.nodered.org/node/@edgepi-cloud/node-red-edgepi-adc"
     },
     {
-      "id": "tams-node-contrib",
-      "version": "1.0.9",
-      "description": "Provides a set of nodes to Node-RED to help control tams.",
-      "updated_at": "2024-02-14T02:29:19.053Z",
-      "types": [
-        "order-config",
-        "order in",
-        "order out"
-      ],
-      "keywords": [
-        "node-red"
-      ],
-      "url": "https://flows.nodered.org/node/tams-node-contrib"
-    },
-    {
       "id": "@edgepi-cloud/node-red-edgepi-dac",
       "version": "1.0.14",
       "description": "node-red node for edgepi dac module utilizing remote procedure calls",
@@ -420,23 +484,6 @@
         "ai"
       ],
       "url": "https://flows.nodered.org/node/@inductiv/node-red-openai-api"
-    },
-    {
-      "id": "@opcua/for-node-red",
-      "version": "2.5.4",
-      "description": "The Node-RED node to communicate via OPC UA, powered NodeOPCUA and developed by Sterfive's team",
-      "updated_at": "2024-02-12T21:19:44.539Z",
-      "types": [],
-      "keywords": [
-        "node-red",
-        "OPC UA",
-        "opc-ua",
-        "unified architecture",
-        "opc foundation",
-        "node-opcua",
-        "IIoT"
-      ],
-      "url": "https://flows.nodered.org/node/@opcua/for-node-red"
     },
     {
       "id": "@adeunis/node-red-contrib-adeunis-codecs",
@@ -1301,21 +1348,6 @@
         "algorithm"
       ],
       "url": "https://flows.nodered.org/node/node-red-node-rdk-vision"
-    },
-    {
-      "id": "smithtek-nodered-gps",
-      "version": "2.7.0",
-      "description": "A Node-RED node to parse NMEA sentences from a GPS system",
-      "updated_at": "2024-02-04T01:09:14.534Z",
-      "types": [
-        "smithtek-nodered-gps"
-      ],
-      "keywords": [
-        "node-red",
-        "gps",
-        "nmea"
-      ],
-      "url": "https://flows.nodered.org/node/smithtek-nodered-gps"
     },
     {
       "id": "node-red-contrib-solaredge-optimizers",
@@ -17441,23 +17473,6 @@
         "ot-sf2n"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-ot-hz-detector"
-    },
-    {
-      "id": "node-red-contrib-io-key",
-      "version": "1.5.0",
-      "description": "A collection of nodes to access the io-key cloud with Node-RED.",
-      "updated_at": "2023-04-03T09:21:44.006Z",
-      "types": [
-        "tenant-config",
-        "measurements",
-        "alarms",
-        "events"
-      ],
-      "keywords": [
-        "node-red",
-        "io-key"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-io-key"
     },
     {
       "id": "node-red-contrib-dockerode",
