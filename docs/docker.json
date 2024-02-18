@@ -1,7 +1,57 @@
 {
   "name": "Catalogue for Docker",
-  "updated_at": "2024-02-17T16:02:01.908Z",
+  "updated_at": "2024-02-18T15:59:03.126Z",
   "modules": [
+    {
+      "id": "@nagisa~/node-red-dsmr",
+      "version": "1.0.3",
+      "description": "A node to give some structure to a stream of DSMR data",
+      "updated_at": "2024-02-18T12:59:32.445Z",
+      "types": [
+        "dsmr"
+      ],
+      "keywords": [
+        "node-red",
+        "dsmr"
+      ],
+      "url": "https://flows.nodered.org/node/@nagisa~/node-red-dsmr"
+    },
+    {
+      "id": "@gregoriusrippenstein/node-red-contrib-introspection",
+      "version": "0.6.10",
+      "description": "Node-RED Editor-only nodes for introspecting with flows in the frontend.",
+      "updated_at": "2024-02-18T08:38:45.497Z",
+      "types": [
+        "Seeker",
+        "Sink",
+        "GetFlows",
+        "SendFlow",
+        "ClientCode"
+      ],
+      "keywords": [
+        "node-red",
+        "introspection",
+        "selfreflection",
+        "node-red-editor",
+        "screenshot"
+      ],
+      "url": "https://flows.nodered.org/node/@gregoriusrippenstein/node-red-contrib-introspection"
+    },
+    {
+      "id": "node-red-contrib-tado-client",
+      "version": "0.10.11",
+      "description": "Tado web API client node for Node Red",
+      "updated_at": "2024-02-17T16:22:17.777Z",
+      "types": [
+        "tado-config",
+        "tado"
+      ],
+      "keywords": [
+        "node-red",
+        "tado"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-tado-client"
+    },
     {
       "id": "@flowfuse/node-red-dashboard-2-ui-led",
       "version": "1.0.0",
@@ -678,27 +728,6 @@
         "smart-bus"
       ],
       "url": "https://flows.nodered.org/node/@lexsus/node-red-contrib-hdlbus"
-    },
-    {
-      "id": "@gregoriusrippenstein/node-red-contrib-introspection",
-      "version": "0.6.9",
-      "description": "Node-RED Editor-only nodes for introspecting with flows in the frontend.",
-      "updated_at": "2024-02-11T09:15:16.597Z",
-      "types": [
-        "Seeker",
-        "Sink",
-        "GetFlows",
-        "SendFlow",
-        "ClientCode"
-      ],
-      "keywords": [
-        "node-red",
-        "introspection",
-        "selfreflection",
-        "node-red-editor",
-        "screenshot"
-      ],
-      "url": "https://flows.nodered.org/node/@gregoriusrippenstein/node-red-contrib-introspection"
     },
     {
       "id": "node-red-contrib-xsltransform",
@@ -6715,21 +6744,6 @@
         "topological"
       ],
       "url": "https://flows.nodered.org/node/topological-nodered-wdio"
-    },
-    {
-      "id": "node-red-contrib-tado-client",
-      "version": "0.10.10",
-      "description": "Tado web API client node for Node Red",
-      "updated_at": "2023-11-18T17:09:42.530Z",
-      "types": [
-        "tado-config",
-        "tado"
-      ],
-      "keywords": [
-        "node-red",
-        "tado"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-tado-client"
     },
     {
       "id": "@runnane/node-red-contrib-easee",
