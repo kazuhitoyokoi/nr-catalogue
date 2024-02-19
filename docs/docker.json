@@ -1,7 +1,157 @@
 {
   "name": "Catalogue for Docker",
-  "updated_at": "2024-02-18T15:59:03.126Z",
+  "updated_at": "2024-02-19T15:59:54.045Z",
   "modules": [
+    {
+      "id": "node-red-node-suncalc",
+      "version": "1.1.2",
+      "description": "A Node-RED node to provide a signal at sunrise and sunset",
+      "updated_at": "2024-02-19T10:20:31.724Z",
+      "types": [
+        "sunrise"
+      ],
+      "keywords": [
+        "node-red",
+        "suncalc"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-node-suncalc"
+    },
+    {
+      "id": "node-red-contrib-superpower-test",
+      "version": "1.1.1",
+      "description": "Node-RED integration with eWeLink Cube",
+      "updated_at": "2024-02-19T08:20:51.602Z",
+      "types": [
+        "api-server",
+        "get-devices",
+        "event-state",
+        "event-online",
+        "control-device",
+        "event-add-device",
+        "event-del-device",
+        "event-device-info",
+        "put-device-state",
+        "register-device"
+      ],
+      "keywords": [
+        "node-red",
+        "ewelink",
+        "ewelink-cube"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-superpower-test"
+    },
+    {
+      "id": "node-red-contrib-sonos-plus",
+      "version": "6.7.5",
+      "description": "A set of Node-RED nodes to control SONOS player in your local network.",
+      "updated_at": "2024-02-19T07:40:01.217Z",
+      "types": [
+        "sonos-config",
+        "sonos-manage-mysonos",
+        "sonos-universal"
+      ],
+      "keywords": [
+        "sonos",
+        "node-red",
+        "music",
+        "node-red-contrib-sonos-plus"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-sonos-plus"
+    },
+    {
+      "id": "@parallaxcontrol/node-red-control",
+      "version": "1.0.40",
+      "description": "A comprehensive package of Node-RED nodes designed to seamlessly integrate with the Parallax Control Engine, offering enhanced control capabilities for AV, IoT, and Industrial Automation.",
+      "updated_at": "2024-02-19T06:32:53.427Z",
+      "types": [
+        "and-gate",
+        "compare-string-text",
+        "input-select",
+        "inverter-gate",
+        "or-gate",
+        "set-reset-latch",
+        "send-single-dictionary",
+        "set-feedback",
+        "clear-signal-state",
+        "recall-signal-state",
+        "save-signal-state",
+        "bool-toggle",
+        "extract-message-data",
+        "system-management",
+        "message-array"
+      ],
+      "keywords": [
+        "parallaxcontrol",
+        "node-red",
+        "audiovisual",
+        "av"
+      ],
+      "url": "https://flows.nodered.org/node/@parallaxcontrol/node-red-control"
+    },
+    {
+      "id": "smart-nodes",
+      "version": "0.3.15",
+      "description": "Smart Nodes",
+      "updated_at": "2024-02-18T22:41:11.089Z",
+      "types": [
+        "smart_light-control",
+        "smart_scene-control",
+        "smart_shutter-control",
+        "smart_shutter-complex-control",
+        "smart_long-press-control",
+        "smart_multi-press-control",
+        "smart_logic",
+        "smart_forwarder",
+        "smart_compare",
+        "smart_hysteresis",
+        "smart_statistic",
+        "smart_scheduler",
+        "smart_delay",
+        "smart_central-control",
+        "__errors__",
+        "smart_text-exec"
+      ],
+      "keywords": [
+        "node-red",
+        "smart nodes",
+        "light control",
+        "shutter control",
+        "long press",
+        "multi press",
+        "scene",
+        "scenes",
+        "delay",
+        "forwarder",
+        "logic",
+        "hysteresis",
+        "compare",
+        "comparator",
+        "statistic",
+        "scheduler",
+        "central",
+        "text execution"
+      ],
+      "url": "https://flows.nodered.org/node/smart-nodes"
+    },
+    {
+      "id": "@tbowmo/node-red-small-timer",
+      "version": "0.15.0",
+      "description": "Small timer node for node red with support for sunrise, sunset etc. timers",
+      "updated_at": "2024-02-18T20:50:35.581Z",
+      "types": [
+        "smalltimer",
+        "position"
+      ],
+      "keywords": [
+        "node-red",
+        "timer",
+        "sunset",
+        "sunrise",
+        "dawn",
+        "dusk"
+      ],
+      "url": "https://flows.nodered.org/node/@tbowmo/node-red-small-timer"
+    },
     {
       "id": "@nagisa~/node-red-dsmr",
       "version": "1.0.3",
@@ -289,80 +439,6 @@
       "url": "https://flows.nodered.org/node/node-red-contrib-br_navigator-webassistant"
     },
     {
-      "id": "@parallaxcontrol/node-red-control",
-      "version": "1.0.39",
-      "description": "A comprehensive package of Node-RED nodes designed to seamlessly integrate with the Parallax Control Engine, offering enhanced control capabilities for AV, IoT, and Industrial Automation.",
-      "updated_at": "2024-02-14T21:25:57.966Z",
-      "types": [
-        "and-gate",
-        "compare-string-text",
-        "input-select",
-        "inverter-gate",
-        "or-gate",
-        "set-reset-latch",
-        "send-single-dictionary",
-        "set-feedback",
-        "clear-signal-state",
-        "recall-signal-state",
-        "save-signal-state",
-        "bool-toggle",
-        "extract-message-data",
-        "system-management"
-      ],
-      "keywords": [
-        "parallaxcontrol",
-        "node-red",
-        "audiovisual",
-        "av"
-      ],
-      "url": "https://flows.nodered.org/node/@parallaxcontrol/node-red-control"
-    },
-    {
-      "id": "smart-nodes",
-      "version": "0.3.13",
-      "description": "Smart Nodes",
-      "updated_at": "2024-02-14T20:15:27.354Z",
-      "types": [
-        "smart_light-control",
-        "smart_scene-control",
-        "smart_shutter-control",
-        "smart_shutter-complex-control",
-        "smart_long-press-control",
-        "smart_multi-press-control",
-        "smart_logic",
-        "smart_forwarder",
-        "smart_compare",
-        "smart_hysteresis",
-        "smart_statistic",
-        "smart_scheduler",
-        "smart_delay",
-        "smart_central-control",
-        "__errors__",
-        "smart_text-exec"
-      ],
-      "keywords": [
-        "node-red",
-        "smart nodes",
-        "light control",
-        "shutter control",
-        "long press",
-        "multi press",
-        "scene",
-        "scenes",
-        "delay",
-        "forwarder",
-        "logic",
-        "hysteresis",
-        "compare",
-        "comparator",
-        "statistic",
-        "scheduler",
-        "central",
-        "text execution"
-      ],
-      "url": "https://flows.nodered.org/node/smart-nodes"
-    },
-    {
       "id": "node-red-contrib-email",
       "version": "0.2.2",
       "description": "SMTP email node for Node-RED",
@@ -613,25 +689,6 @@
       "url": "https://flows.nodered.org/node/@gregoriusrippenstein/node-red-contrib-flowhub"
     },
     {
-      "id": "@tbowmo/node-red-small-timer",
-      "version": "0.12.1",
-      "description": "Small timer node for node red with support for sunrise, sunset etc. timers",
-      "updated_at": "2024-02-12T13:09:21.957Z",
-      "types": [
-        "smalltimer",
-        "position"
-      ],
-      "keywords": [
-        "node-red",
-        "timer",
-        "sunset",
-        "sunrise",
-        "dawn",
-        "dusk"
-      ],
-      "url": "https://flows.nodered.org/node/@tbowmo/node-red-small-timer"
-    },
-    {
       "id": "@ifp-software/node-red-contrib-oee-ai-connector",
       "version": "2.9.0",
       "description": "Easily connect your production machines to oee.ai – The Industry 4.0 solution for OEE optimization.",
@@ -681,24 +738,6 @@
         "iot"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-timeouttrigger"
-    },
-    {
-      "id": "node-red-contrib-sonos-plus",
-      "version": "6.7.4",
-      "description": "A set of Node-RED nodes to control SONOS player in your local network.",
-      "updated_at": "2024-02-11T15:56:53.200Z",
-      "types": [
-        "sonos-config",
-        "sonos-manage-mysonos",
-        "sonos-universal"
-      ],
-      "keywords": [
-        "sonos",
-        "node-red",
-        "music",
-        "node-red-contrib-sonos-plus"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-sonos-plus"
     },
     {
       "id": "@lexsus/node-red-contrib-hdlbus",
@@ -5488,21 +5527,6 @@
       "url": "https://flows.nodered.org/node/@node-red-contrib-themes/theme-collection"
     },
     {
-      "id": "@pavelbrazda/node-red-simplepv",
-      "version": "0.0.2",
-      "description": "Node na komunikaci se simplepv aplikací",
-      "updated_at": "2023-12-12T20:41:49.848Z",
-      "types": [
-        "simplepv"
-      ],
-      "keywords": [
-        "node-red",
-        "simplepv",
-        "fve"
-      ],
-      "url": "https://flows.nodered.org/node/@pavelbrazda/node-red-simplepv"
-    },
-    {
       "id": "@thingspal/node-red-contrib-analog-alarm",
       "version": "1.0.2",
       "description": "A simple HiHi-Hi-Lo-LoLo alarm node",
@@ -9819,30 +9843,6 @@
       "url": "https://flows.nodered.org/node/@good-i-deer/node-red-contrib-face-detection"
     },
     {
-      "id": "node-red-contrib-superpower-test",
-      "version": "0.2.1",
-      "description": "Node-RED integration with eWeLink Cube",
-      "updated_at": "2023-09-27T09:33:59.755Z",
-      "types": [
-        "api-server",
-        "get-devices",
-        "event-state",
-        "event-online",
-        "control-device",
-        "event-add-device",
-        "event-del-device",
-        "event-device-info",
-        "put-device-state",
-        "register-device"
-      ],
-      "keywords": [
-        "node-red",
-        "ewelink",
-        "ewelink-cube"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-superpower-test"
-    },
-    {
       "id": "ilvo-parse-config-nodered",
       "version": "0.0.1",
       "description": "Framework config parse module",
@@ -11745,19 +11745,6 @@
       "url": "https://flows.nodered.org/node/@racksync/node-red-contrib-moving-average"
     },
     {
-      "id": "apconic-string-parser",
-      "version": "1.0.2",
-      "description": "- Basic String15 parser for controllers, returns weight.",
-      "updated_at": "2023-09-03T08:43:17.389Z",
-      "types": [
-        "apconic-string-parser"
-      ],
-      "keywords": [
-        "node-red"
-      ],
-      "url": "https://flows.nodered.org/node/apconic-string-parser"
-    },
-    {
       "id": "apconic-tcp-connection",
       "version": "1.0.2",
       "description": "- Takes IP, Port, and Interval",
@@ -12809,23 +12796,6 @@
         "calendar"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-trashschedule"
-    },
-    {
-      "id": "@kurago-dev/node-red-contrib-azure",
-      "version": "1.0.7",
-      "description": "Node RED nodes for Azure",
-      "updated_at": "2023-08-04T06:41:54.571Z",
-      "types": [
-        "Azure IotHub device",
-        "Azure Blob storage"
-      ],
-      "keywords": [
-        "node-red",
-        "azure",
-        "iothub",
-        "blob-storage"
-      ],
-      "url": "https://flows.nodered.org/node/@kurago-dev/node-red-contrib-azure"
     },
     {
       "id": "node-red-contrib-rcm-connector",
@@ -14311,19 +14281,6 @@
         "youSolution.Cloud"
       ],
       "url": "https://flows.nodered.org/node/@yousolution/node-red-contrib-you-tunnel-ssh"
-    },
-    {
-      "id": "node-red-tpro-random-data",
-      "version": "1.0.1",
-      "description": "random data",
-      "updated_at": "2023-06-23T08:18:19.649Z",
-      "types": [],
-      "keywords": [
-        "node-red",
-        "random",
-        "data"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-tpro-random-data"
     },
     {
       "id": "node-red-contrib-simple-chatgpt",
@@ -17261,20 +17218,6 @@
       "url": "https://flows.nodered.org/node/node-red-sensecap-paas"
     },
     {
-      "id": "node-red-contrib-environmental-data-simulator",
-      "version": "1.0.2",
-      "description": "The Environmental Data Simulator node in Node-RED simulates data from a variety of environmental sensors commonly used in IoT (Internet of Things) and IIoT (Industrial Internet of Things) applications. The node generates random values within specified ran",
-      "updated_at": "2023-04-09T23:55:51.336Z",
-      "types": [],
-      "keywords": [
-        "node-red",
-        "environmental",
-        "data",
-        "simulator"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-environmental-data-simulator"
-    },
-    {
       "id": "node-contrib-inovelli-status-manager",
       "version": "0.1.0",
       "description": "Status manager node for inovelli switch",
@@ -18178,20 +18121,6 @@
       "url": "https://flows.nodered.org/node/node-red-contrib-dynamic-request-validator"
     },
     {
-      "id": "node-red-node-suncalc",
-      "version": "1.1.0",
-      "description": "A Node-RED node to provide a signal at sunrise and sunset",
-      "updated_at": "2023-03-21T10:23:25.625Z",
-      "types": [
-        "sunrise"
-      ],
-      "keywords": [
-        "node-red",
-        "suncalc"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-node-suncalc"
-    },
-    {
       "id": "@shikiryu/node-red-contrib-mastodon-bookmark",
       "version": "1.0.0",
       "description": "NodeRED to retrieve Bookmark from Mastodon",
@@ -18585,30 +18514,6 @@
         "node-red"
       ],
       "url": "https://flows.nodered.org/node/@equans/smart-buildings-manual-heating-override"
-    },
-    {
-      "id": "node-red-contrib-tcube",
-      "version": "0.0.12",
-      "description": "Node-RED integration with eWeLink Cube",
-      "updated_at": "2023-03-07T09:29:54.611Z",
-      "types": [
-        "api-server",
-        "get-devices",
-        "event-state",
-        "event-online",
-        "control-device",
-        "event-add-device",
-        "event-del-device",
-        "event-device-info",
-        "put-device-state",
-        "register-device"
-      ],
-      "keywords": [
-        "node-red",
-        "ewelink",
-        "ewelink-cube"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-tcube"
     },
     {
       "id": "@lal12/node-red-curve",
@@ -19962,22 +19867,6 @@
         "node-red"
       ],
       "url": "https://flows.nodered.org/node/@solwena_pl/node-red-contrib-solwenalib"
-    },
-    {
-      "id": "node-red-contrib-cyblion-edge",
-      "version": "0.0.6",
-      "description": "Node-RED cipherflow special implement for cyblion cloud platform first version for testing only",
-      "updated_at": "2023-02-06T10:08:26.038Z",
-      "types": [
-        "cyblion-mqtt-broker",
-        "cyblion-seal"
-      ],
-      "keywords": [
-        "node-red",
-        "cyblion",
-        "cipherflow"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-cyblion-edge"
     },
     {
       "id": "node-red-cipherflow",
@@ -23063,24 +22952,6 @@
       "url": "https://flows.nodered.org/node/@ridort/node-red-contrib-socketio-simple"
     },
     {
-      "id": "@tesd/node-red-contrib-powerschool",
-      "version": "2022.11.2",
-      "description": "Interact with the PowerSchool API",
-      "updated_at": "2022-11-08T17:39:35.415Z",
-      "types": [
-        "powerschool-token",
-        "powerschool-request",
-        "powerschool-client"
-      ],
-      "keywords": [
-        "node-red",
-        "contrib-powerschool",
-        "powerschool",
-        "ps"
-      ],
-      "url": "https://flows.nodered.org/node/@tesd/node-red-contrib-powerschool"
-    },
-    {
       "id": "node-red-contrib-power-monitor",
       "version": "1.2.1",
       "description": "A Node-RED node to monitor home appliances based on their power consumption.",
@@ -25167,22 +25038,6 @@
       "url": "https://flows.nodered.org/node/node-red-contrib-viseo-google-speech-custom"
     },
     {
-      "id": "node-red-contrib-send-form-v4",
-      "version": "0.0.45",
-      "description": "NodeRed node for posting multipart/form-data to http server",
-      "updated_at": "2022-09-09T21:43:15.885Z",
-      "types": [
-        "http-send-multipart-form-v4"
-      ],
-      "keywords": [
-        "node-red",
-        "multipart",
-        "form-data",
-        "http"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-send-form-v4"
-    },
-    {
       "id": "node-red-contrib-ignition-nodes",
       "version": "1.5.10",
       "description": "Adds support for reading, writing, and browsing tags in Ignition",
@@ -26426,22 +26281,6 @@
         "biancoroyal"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-objectid"
-    },
-    {
-      "id": "node-red-contrib-re-http-ntlm-req-v2",
-      "version": "0.1.10",
-      "description": "HTTP request with NTLM",
-      "updated_at": "2022-08-01T21:21:53.311Z",
-      "types": [
-        "http-ntlm-req",
-        "http-ntlm-req-config"
-      ],
-      "keywords": [
-        "node-red",
-        "http",
-        "ntlm"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-re-http-ntlm-req-v2"
     },
     {
       "id": "node-red-contrib-wago-cc100",
@@ -28027,24 +27866,6 @@
         "node-red"
       ],
       "url": "https://flows.nodered.org/node/@ragrug/ragrug-nodered"
-    },
-    {
-      "id": "node-red-contrib-neogramm-automation-kit",
-      "version": "0.1.6",
-      "description": "Connect to the neogramm automationKit",
-      "updated_at": "2022-06-15T07:59:57.291Z",
-      "types": [
-        "AlarmValue",
-        "DataPointValue"
-      ],
-      "keywords": [
-        "node-red",
-        "iot",
-        "neogramm",
-        "automationKit",
-        "iiot"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-neogramm-automation-kit"
     },
     {
       "id": "toradex_colibri_imx7_asterv1.1b_tdwillin",
@@ -30738,25 +30559,6 @@
         "belkin"
       ],
       "url": "https://flows.nodered.org/node/node-red-node-wemo"
-    },
-    {
-      "id": "node-red-contrib-baidu-iot-device",
-      "version": "0.1.1",
-      "description": "MQTT Node for Baidu IoTPlatform using custom authentication",
-      "updated_at": "2022-04-16T17:33:04.022Z",
-      "types": [
-        "device-broker",
-        "property post",
-        "event post",
-        "command invoke"
-      ],
-      "keywords": [
-        "node-red",
-        "mqtt",
-        "baidu",
-        "iot"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-baidu-iot-device"
     },
     {
       "id": "node-red-contrib-enocean-esp2",
@@ -41167,27 +40969,6 @@
       "url": "https://flows.nodered.org/node/node-red-contrib-servicenow-table-api"
     },
     {
-      "id": "node-red-contrib-accellion-custom-generic",
-      "version": "0.6.13",
-      "description": "A contribution package for Node Red to perform tasks on the Accellion platform",
-      "updated_at": "2021-05-24T11:09:12.144Z",
-      "types": [
-        "server2server",
-        "utils.trigger",
-        "fs.file.attributes",
-        "file.sync",
-        "mail.list",
-        "mail.download"
-      ],
-      "keywords": [
-        "node-red",
-        "accellion",
-        "custom",
-        "server to server"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-accellion-custom-generic"
-    },
-    {
       "id": "node-red-contrib-mihome",
       "version": "1.1.1",
       "description": "Get Xiaomi device information from Mi Home",
@@ -43349,20 +43130,6 @@
         "easycodef"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-codef"
-    },
-    {
-      "id": "node-red-contrib-ifm-master-iolink-mqtt",
-      "version": "0.0.3",
-      "description": "Package contribution Master IOlink IFM MQTT node for node-red",
-      "updated_at": "2021-03-25T11:51:00.318Z",
-      "types": [
-        "parse-processData",
-        "set-timer"
-      ],
-      "keywords": [
-        "node-red"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-ifm-master-iolink-mqtt"
     },
     {
       "id": "node-red-contrib-array-splitter",
@@ -46209,27 +45976,6 @@
         "xmljson"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-xmljson"
-    },
-    {
-      "id": "nodered-contrib-signal-client-2",
-      "version": "0.0.5",
-      "description": "Signal communicator client nodes for Node-RED",
-      "updated_at": "2021-01-13T20:12:54.810Z",
-      "types": [
-        "account",
-        "request-sms",
-        "request-voice",
-        "register",
-        "send",
-        "receive"
-      ],
-      "keywords": [
-        "node-red",
-        "signal",
-        "communicator",
-        "client"
-      ],
-      "url": "https://flows.nodered.org/node/nodered-contrib-signal-client-2"
     },
     {
       "id": "node-red-contrib-xml2json",
@@ -54966,28 +54712,6 @@
         "pdf"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-pdfjs"
-    },
-    {
-      "id": "node-red-contrib-accellion-custom-cdr",
-      "version": "0.5.3",
-      "description": "A contribution package for Node Red to automate Accellion integration with CDR solutions",
-      "updated_at": "2020-03-10T11:53:14.927Z",
-      "types": [
-        "accellion.sanitize.sasa"
-      ],
-      "keywords": [
-        "node-red",
-        "cdr",
-        "content disarm and reconstruction",
-        "accellion",
-        "sanitize",
-        "sanitise",
-        "sasa",
-        "kiteworks",
-        "sanitisation",
-        "sanitization"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-accellion-custom-cdr"
     },
     {
       "id": "@pib-statuslamp/sparkfun-canbusshield_node-red",
@@ -65549,20 +65273,6 @@
       "url": "https://flows.nodered.org/node/node-red-contrib-netvar"
     },
     {
-      "id": "node-red-contrib-embedded-file",
-      "version": "0.0.2",
-      "description": "Node-RED node to store file data to flow",
-      "updated_at": "2019-02-04T12:09:05.966Z",
-      "types": [
-        "embedded-file"
-      ],
-      "keywords": [
-        "node-red",
-        "file"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-embedded-file"
-    },
-    {
       "id": "node-red-contrib-java-function",
       "version": "0.1.1",
       "description": "Node-RED node to run Java code like function node",
@@ -67945,30 +67655,6 @@
         "SODA"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-socrata"
-    },
-    {
-      "id": "node-red-contrib-home-assistant-llat",
-      "version": "0.3.10",
-      "description": "Node-red nodes to connect with Home Assistant using Long Lived Access Tokens",
-      "updated_at": "2018-10-07T20:26:40.771Z",
-      "types": [
-        "server",
-        "server-events",
-        "server-state-changed",
-        "trigger-state",
-        "poll-state",
-        "api-call-service",
-        "api-current-state",
-        "api-get-history",
-        "api-render-template"
-      ],
-      "keywords": [
-        "node-red",
-        "home-assistant",
-        "home assistant",
-        "home automation"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-home-assistant-llat"
     },
     {
       "id": "node-red-contrib-publishflows",
@@ -75343,20 +75029,6 @@
       "url": "https://flows.nodered.org/node/node-red-aws-tools"
     },
     {
-      "id": "node-red-contrib-xiaomi-home",
-      "version": "0.1.1",
-      "description": "A node to receive input from the Xiaomi Smart Home kit on the same LAN",
-      "updated_at": "2017-09-27T06:51:33.581Z",
-      "types": [
-        "xiaomi-home"
-      ],
-      "keywords": [
-        "node-red",
-        "xiaomi"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-xiaomi-home"
-    },
-    {
       "id": "node-red-asterisk-ami-manager",
       "version": "0.0.9",
       "description": "Transfer Asterisk AMI events to json object string representation",
@@ -75719,20 +75391,6 @@
         "murano"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-exosite"
-    },
-    {
-      "id": "node-red-contrib-pegjs",
-      "version": "1.1.0",
-      "description": "Node Red node to parse and transform message payload using [PEG.js](https://pegjs.org).",
-      "updated_at": "2017-09-07T13:31:06.556Z",
-      "types": [
-        "pegjs"
-      ],
-      "keywords": [
-        "parsing",
-        "node-red"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-pegjs"
     },
     {
       "id": "node-red-contrib-cec",
