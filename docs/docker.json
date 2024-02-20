@@ -1,7 +1,129 @@
 {
   "name": "Catalogue for Docker",
-  "updated_at": "2024-02-19T15:59:54.045Z",
+  "updated_at": "2024-02-20T15:57:28.206Z",
   "modules": [
+    {
+      "id": "node-red-node-email",
+      "version": "2.2.0",
+      "description": "Node-RED nodes to send and receive simple emails.",
+      "updated_at": "2024-02-20T09:11:46.885Z",
+      "types": [
+        "e-mail",
+        "e-mail in",
+        "e-mail mta"
+      ],
+      "keywords": [
+        "node-red",
+        "email",
+        "gmail",
+        "imap",
+        "pop",
+        "smtp",
+        "smtp-server",
+        "mta"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-node-email"
+    },
+    {
+      "id": "node-red-contrib-virtual-smart-home",
+      "version": "4.1.6",
+      "description": "A Node-RED node that represents a 'virtual device' which can be controlled via Alexa. Requires the virtual smart home skill to be enabled for your Amazon account.",
+      "updated_at": "2024-02-20T07:49:10.357Z",
+      "types": [
+        "vsh-connection",
+        "vsh-virtual-device"
+      ],
+      "keywords": [
+        "Alexa",
+        "Echo",
+        "smart-home",
+        "node-red",
+        "virtual smart home",
+        "virtual device",
+        "Home Assistant",
+        "vsh"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-virtual-smart-home"
+    },
+    {
+      "id": "@sumit_shinde_84/node-red-dashboard-2-ui-webcam",
+      "version": "1.0.2",
+      "description": "The ui-webcam node for Node-RED Dashboard 2.0 enables users to integrate webcam functionality into Node-RED Dashboard 2.0. It allows users to capture images, select different cameras, and control webcam features through an intuitive user interface within ",
+      "updated_at": "2024-02-20T05:18:18.707Z",
+      "types": [
+        "ui-webcam",
+        "__errors__"
+      ],
+      "keywords": [
+        "node-red",
+        "node-red-dashboard-2"
+      ],
+      "url": "https://flows.nodered.org/node/@sumit_shinde_84/node-red-dashboard-2-ui-webcam"
+    },
+    {
+      "id": "node-red-contrib-homekit-bridged",
+      "version": "1.6.1",
+      "description": "Node-RED nodes to simulate Apple HomeKit devices.",
+      "updated_at": "2024-02-19T22:04:08.539Z",
+      "types": [
+        "nrchkb",
+        "homekit-bridge",
+        "homekit-standalone",
+        "homekit-service",
+        "homekit-service2",
+        "homekit-status"
+      ],
+      "keywords": [
+        "homekit",
+        "node-red",
+        "NRCHKB",
+        "iot",
+        "home",
+        "hap-nodejs",
+        "homebridge"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-homekit-bridged"
+    },
+    {
+      "id": "node-red-contrib-ecovacs-deebot",
+      "version": "0.4.12",
+      "description": "Node-RED node for Ecovacs Deebot vacuum cleaner",
+      "updated_at": "2024-02-19T18:37:05.292Z",
+      "types": [
+        "ecovacs-account",
+        "ecovacs-deebot",
+        "ecovacs-deebot-command"
+      ],
+      "keywords": [
+        "node-red",
+        "ecovacs",
+        "deebot",
+        "ozmo",
+        "yeedi",
+        "vacuum",
+        "robot",
+        "airbot",
+        "air purifier",
+        "smart home",
+        "home automation"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-ecovacs-deebot"
+    },
+    {
+      "id": "@tec6/node-red-humhub-services",
+      "version": "0.2.0",
+      "description": "A node providing the services offered by the RESTful API of Humhub.",
+      "updated_at": "2024-02-19T17:39:20.061Z",
+      "types": [
+        "client-credentials",
+        "humhub-services"
+      ],
+      "keywords": [
+        "node-red",
+        "humhub"
+      ],
+      "url": "https://flows.nodered.org/node/@tec6/node-red-humhub-services"
+    },
     {
       "id": "node-red-node-suncalc",
       "version": "1.1.2",
@@ -87,6 +209,28 @@
         "av"
       ],
       "url": "https://flows.nodered.org/node/@parallaxcontrol/node-red-control"
+    },
+    {
+      "id": "node-red-contrib-mssql-plus",
+      "version": "0.12.2",
+      "description": "A node-red node to execute queries, stored procedures and bulk inserts in Microsoft SQL Server and Azure Databases SQL2000 ~ SQL2022",
+      "updated_at": "2024-02-19T02:53:37.463Z",
+      "types": [
+        "MSSQL-CN",
+        "MSSQL"
+      ],
+      "keywords": [
+        "node-red",
+        "odbc",
+        "unixodbc",
+        "mssql",
+        "sql",
+        "Microsoft",
+        "database",
+        "sql-server",
+        "azure"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-mssql-plus"
     },
     {
       "id": "smart-nodes",
@@ -292,21 +436,6 @@
         "node-red"
       ],
       "url": "https://flows.nodered.org/node/tams-node-contrib"
-    },
-    {
-      "id": "@sumit_shinde_84/node-red-dashboard-2-ui-webcam",
-      "version": "1.0.0",
-      "description": "The ui-webcam node for Node-RED Dashboard 2.0 enables users to integrate webcam functionality into Node-RED Dashboard 2.0. It allows users to capture images, select different cameras, and control webcam features through an intuitive user interface within ",
-      "updated_at": "2024-02-15T17:25:30.743Z",
-      "types": [
-        "ui-webcam",
-        "__errors__"
-      ],
-      "keywords": [
-        "node-red",
-        "node-red-dashboard-2"
-      ],
-      "url": "https://flows.nodered.org/node/@sumit_shinde_84/node-red-dashboard-2-ui-webcam"
     },
     {
       "id": "node-red-contrib-io-key",
@@ -579,6 +708,31 @@
       "url": "https://flows.nodered.org/node/@edgepi-cloud/node-red-edgepi-dac"
     },
     {
+      "id": "@inductiv/node-red-openai-api",
+      "version": "0.5.0",
+      "description": "Go beyond ChatGPT and DALL·E 3: this Node-RED node seamlessly integrates a range of OpenAI services, including Assistants, Threads, Vision, and Audio, enabling feature-rich enhancement of your AI workflows with any OpenAI REST API-compatible solution.",
+      "updated_at": "2024-02-14T00:11:42.034Z",
+      "types": [
+        "OpenAI API",
+        "Service Host"
+      ],
+      "keywords": [
+        "openai",
+        "api",
+        "automation",
+        "chatgpt",
+        "llm",
+        "slm",
+        "agent",
+        "automation",
+        "node-red",
+        "nodered",
+        "low-code",
+        "ai"
+      ],
+      "url": "https://flows.nodered.org/node/@inductiv/node-red-openai-api"
+    },
+    {
       "id": "node-red-contrib-wago-plc-functions",
       "version": "0.0.4",
       "description": "A node containing standard PLC functions",
@@ -629,31 +783,6 @@
         "lunatone"
       ],
       "url": "https://flows.nodered.org/node/@lunatone/node-red-dali"
-    },
-    {
-      "id": "@inductiv/node-red-openai-api",
-      "version": "0.4.1",
-      "description": "Go beyond ChatGPT and DALL·E 3: this Node-RED node seamlessly integrates a range of OpenAI services, including Assistants, Threads, Vision, and Audio, enabling feature-rich enhancement of your AI workflows with any OpenAI REST API-compatible solution.",
-      "updated_at": "2024-02-12T21:30:11.703Z",
-      "types": [
-        "OpenAI API",
-        "Service Host"
-      ],
-      "keywords": [
-        "openai",
-        "api",
-        "automation",
-        "chatgpt",
-        "llm",
-        "slm",
-        "agent",
-        "automation",
-        "node-red",
-        "nodered",
-        "low-code",
-        "ai"
-      ],
-      "url": "https://flows.nodered.org/node/@inductiv/node-red-openai-api"
     },
     {
       "id": "@adeunis/node-red-contrib-adeunis-codecs",
@@ -846,27 +975,6 @@
         "node-red"
       ],
       "url": "https://flows.nodered.org/node/@technithusiast/node-red-contrib-ai-intent"
-    },
-    {
-      "id": "node-red-contrib-virtual-smart-home",
-      "version": "4.1.5",
-      "description": "A Node-RED node that represents a 'virtual device' which can be controlled via Alexa. Requires the virtual smart home skill to be enabled for your Amazon account.",
-      "updated_at": "2024-02-10T07:37:10.598Z",
-      "types": [
-        "vsh-connection",
-        "vsh-virtual-device"
-      ],
-      "keywords": [
-        "Alexa",
-        "Echo",
-        "smart-home",
-        "node-red",
-        "virtual smart home",
-        "virtual device",
-        "Home Assistant",
-        "vsh"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-virtual-smart-home"
     },
     {
       "id": "@semilimes/node-red-semilimes",
@@ -1128,21 +1236,6 @@
         "Cadillac"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-onstar2"
-    },
-    {
-      "id": "@tec6/node-red-humhub-services",
-      "version": "0.1.3",
-      "description": "A node providing the services offered by the RESTful API of Humhub.",
-      "updated_at": "2024-02-07T10:05:25.833Z",
-      "types": [
-        "client-credentials",
-        "humhub-services"
-      ],
-      "keywords": [
-        "node-red",
-        "humhub"
-      ],
-      "url": "https://flows.nodered.org/node/@tec6/node-red-humhub-services"
     },
     {
       "id": "node-red-contrib-modbus",
@@ -3642,30 +3735,6 @@
       "url": "https://flows.nodered.org/node/@renyoo/node-red-dfrobot-lorawan-nodes"
     },
     {
-      "id": "node-red-contrib-homekit-bridged",
-      "version": "1.6.0",
-      "description": "Node-RED nodes to simulate Apple HomeKit devices.",
-      "updated_at": "2024-01-12T00:38:44.221Z",
-      "types": [
-        "nrchkb",
-        "homekit-bridge",
-        "homekit-standalone",
-        "homekit-service",
-        "homekit-service2",
-        "homekit-status"
-      ],
-      "keywords": [
-        "homekit",
-        "node-red",
-        "NRCHKB",
-        "iot",
-        "home",
-        "hap-nodejs",
-        "homebridge"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-homekit-bridged"
-    },
-    {
       "id": "thingzi-logic-twinkly",
       "version": "1.3.7",
       "description": "Twinkly lights control via node red",
@@ -5184,31 +5253,6 @@
       "url": "https://flows.nodered.org/node/node-red-contrib-nordpool-api-plus"
     },
     {
-      "id": "node-red-contrib-ecovacs-deebot",
-      "version": "0.4.11",
-      "description": "Node-RED node for Ecovacs Deebot vacuum cleaner",
-      "updated_at": "2023-12-17T12:07:28.580Z",
-      "types": [
-        "ecovacs-account",
-        "ecovacs-deebot",
-        "ecovacs-deebot-command"
-      ],
-      "keywords": [
-        "node-red",
-        "ecovacs",
-        "deebot",
-        "ozmo",
-        "yeedi",
-        "vacuum",
-        "robot",
-        "airbot",
-        "air purifier",
-        "smart home",
-        "home automation"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-ecovacs-deebot"
-    },
-    {
       "id": "node-red-contrib-advanced-ping-multiple",
       "version": "1.4.3",
       "description": "A Node-RED node which takes input and pings a remote server or multiple servers.",
@@ -5974,28 +6018,6 @@
         "mysql"
       ],
       "url": "https://flows.nodered.org/node/node-red-node-mysql"
-    },
-    {
-      "id": "node-red-node-email",
-      "version": "2.1.0",
-      "description": "Node-RED nodes to send and receive simple emails.",
-      "updated_at": "2023-12-04T20:32:36.051Z",
-      "types": [
-        "e-mail",
-        "e-mail in",
-        "e-mail mta"
-      ],
-      "keywords": [
-        "node-red",
-        "email",
-        "gmail",
-        "imap",
-        "pop",
-        "smtp",
-        "smtp-server",
-        "mta"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-node-email"
     },
     {
       "id": "node-red-node-arduino",
@@ -9251,28 +9273,6 @@
         "energy-management"
       ],
       "url": "https://flows.nodered.org/node/@fw-systeme/node-red-msl"
-    },
-    {
-      "id": "node-red-contrib-mssql-plus",
-      "version": "0.12.1",
-      "description": "A node-red node to execute queries, stored procedures and bulk inserts in Microsoft SQL Server and Azure Databases SQL2000 ~ SQL2022",
-      "updated_at": "2023-10-06T01:16:02.312Z",
-      "types": [
-        "MSSQL-CN",
-        "MSSQL"
-      ],
-      "keywords": [
-        "node-red",
-        "odbc",
-        "unixodbc",
-        "mssql",
-        "sql",
-        "Microsoft",
-        "database",
-        "sql-server",
-        "azure"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-mssql-plus"
     },
     {
       "id": "node-red-contrib-whatsapp-cmb",
