@@ -1,7 +1,167 @@
 {
   "name": "Catalogue for Docker",
-  "updated_at": "2024-02-21T16:00:33.336Z",
+  "updated_at": "2024-02-22T15:54:56.010Z",
   "modules": [
+    {
+      "id": "@semilimes/node-red-semilimes",
+      "version": "0.10.1",
+      "description": "The new semilimes connector which integrates with the public API",
+      "updated_at": "2024-02-22T14:18:20.789Z",
+      "types": [
+        "message",
+        "formSetup",
+        "formComponent",
+        "formUpdater",
+        "sender",
+        "listener",
+        "uploader",
+        "filterSubmission",
+        "tunnel",
+        "sme-main-connector",
+        "sme-main-intent",
+        "sme-main-sender",
+        "sme-main-listener",
+        "sme-main-sshTunnel",
+        "sme-main-formSaver",
+        "sme-main-formLoader",
+        "sme-main-formUpdater",
+        "sme-main-uploader",
+        "sme-comp-text",
+        "sme-comp-html",
+        "sme-comp-file",
+        "sme-comp-contact",
+        "sme-comp-location",
+        "sme-comp-webview",
+        "sme-comp-channel",
+        "sme-comp-tunnel",
+        "sme-comp-form",
+        "sme-formComp-label",
+        "sme-formComp-textBox",
+        "sme-formComp-buttonList",
+        "sme-formComp-singleChoice",
+        "sme-formComp-multiChoice",
+        "sme-formComp-switch",
+        "sme-formComp-slider",
+        "sme-formComp-datePicker",
+        "sme-formComp-timePicker",
+        "sme-formComp-locationPicker",
+        "sme-formComp-photoPicker",
+        "sme-formComp-filePicker",
+        "sme-formComp-contactPicker",
+        "sme-formComp-groupChatPicker",
+        "sme-formComp-channelPicker",
+        "sme-formComp-bucketPicker",
+        "sme-formComp-hiddenValue",
+        "sme-formComp-qrCodeScanner",
+        "sme-formComp-nfcReader",
+        "sme-filter-formSubmission"
+      ],
+      "keywords": [
+        "semilimes",
+        "iot",
+        "connector",
+        "node-red",
+        "mobile phone",
+        "interface",
+        "remote access",
+        "ssh tunnel",
+        "websocket"
+      ],
+      "url": "https://flows.nodered.org/node/@semilimes/node-red-semilimes"
+    },
+    {
+      "id": "@tec6/node-red-humhub-services",
+      "version": "0.4.1",
+      "description": "A node providing the services offered by the RESTful API of Humhub.",
+      "updated_at": "2024-02-22T13:16:20.657Z",
+      "types": [
+        "client-credentials",
+        "humhub-services"
+      ],
+      "keywords": [
+        "node-red",
+        "humhub"
+      ],
+      "url": "https://flows.nodered.org/node/@tec6/node-red-humhub-services"
+    },
+    {
+      "id": "@renyoo/node-red-dfrobot_noderedcomputer",
+      "version": "1.0.1",
+      "description": "node red nodes for NodeREDComputer",
+      "updated_at": "2024-02-22T10:13:52.463Z",
+      "types": [
+        "GPIO Out",
+        "GPIO In",
+        "ADC",
+        "DAC",
+        "Dev Event",
+        "ESP32 Burn",
+        "IO Interrupt"
+      ],
+      "keywords": [
+        "node-red",
+        "dfrobot",
+        "NodeREDComputer"
+      ],
+      "url": "https://flows.nodered.org/node/@renyoo/node-red-dfrobot_noderedcomputer"
+    },
+    {
+      "id": "@orbis-developers/node-red-viaris",
+      "version": "1.1.0",
+      "description": "Monitor viaris EV charger.",
+      "updated_at": "2024-02-22T09:55:08.359Z",
+      "types": [
+        "viaris"
+      ],
+      "keywords": [
+        "node-red",
+        "viaris",
+        "orbis"
+      ],
+      "url": "https://flows.nodered.org/node/@orbis-developers/node-red-viaris"
+    },
+    {
+      "id": "node-red-contrib-superpower-test",
+      "version": "1.1.3",
+      "description": "Node-RED integration with eWeLink Cube",
+      "updated_at": "2024-02-22T03:14:55.464Z",
+      "types": [
+        "api-server",
+        "get-devices",
+        "event-state",
+        "event-online",
+        "control-device",
+        "event-add-device",
+        "event-del-device",
+        "event-device-info",
+        "put-device-state",
+        "register-device"
+      ],
+      "keywords": [
+        "node-red",
+        "ewelink",
+        "ewelink-cube"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-superpower-test"
+    },
+    {
+      "id": "node-red-contrib-sonos-plus",
+      "version": "6.7.6",
+      "description": "A set of Node-RED nodes to control SONOS player in your local network.",
+      "updated_at": "2024-02-21T20:01:02.076Z",
+      "types": [
+        "sonos-config",
+        "sonos-manage-mysonos",
+        "sonos-universal"
+      ],
+      "keywords": [
+        "sonos",
+        "node-red",
+        "music",
+        "node-red-contrib-sonos-plus"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-sonos-plus"
+    },
     {
       "id": "@objectif-lune/node-red-contrib-sendgrid",
       "version": "0.9.11",
@@ -122,27 +282,6 @@
         "node-red"
       ],
       "url": "https://flows.nodered.org/node/@objectif-lune/node-red-contrib-connect"
-    },
-    {
-      "id": "@renyoo/node-red-dfrobot_noderedcomputer",
-      "version": "1.0.0",
-      "description": "node red nodes for NodeREDComputer",
-      "updated_at": "2024-02-21T13:13:27.407Z",
-      "types": [
-        "GPIO Out",
-        "GPIO In",
-        "ADC",
-        "DAC",
-        "Dev Event",
-        "ESP32 Burn",
-        "IO Interrupt"
-      ],
-      "keywords": [
-        "node-red",
-        "dfrobot",
-        "NodeREDComputer"
-      ],
-      "url": "https://flows.nodered.org/node/@renyoo/node-red-dfrobot_noderedcomputer"
     },
     {
       "id": "@manyos/node-red-contrib-rapi",
@@ -378,30 +517,6 @@
       "url": "https://flows.nodered.org/node/@sumit_shinde_84/node-red-dashboard-2-ui-webcam"
     },
     {
-      "id": "node-red-contrib-superpower-test",
-      "version": "1.1.2",
-      "description": "Node-RED integration with eWeLink Cube",
-      "updated_at": "2024-02-20T02:01:41.452Z",
-      "types": [
-        "api-server",
-        "get-devices",
-        "event-state",
-        "event-online",
-        "control-device",
-        "event-add-device",
-        "event-del-device",
-        "event-device-info",
-        "put-device-state",
-        "register-device"
-      ],
-      "keywords": [
-        "node-red",
-        "ewelink",
-        "ewelink-cube"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-superpower-test"
-    },
-    {
       "id": "node-red-contrib-homekit-bridged",
       "version": "1.6.1",
       "description": "Node-RED nodes to simulate Apple HomeKit devices.",
@@ -451,21 +566,6 @@
       "url": "https://flows.nodered.org/node/node-red-contrib-ecovacs-deebot"
     },
     {
-      "id": "@tec6/node-red-humhub-services",
-      "version": "0.2.0",
-      "description": "A node providing the services offered by the RESTful API of Humhub.",
-      "updated_at": "2024-02-19T17:39:20.061Z",
-      "types": [
-        "client-credentials",
-        "humhub-services"
-      ],
-      "keywords": [
-        "node-red",
-        "humhub"
-      ],
-      "url": "https://flows.nodered.org/node/@tec6/node-red-humhub-services"
-    },
-    {
       "id": "node-red-node-suncalc",
       "version": "1.1.2",
       "description": "A Node-RED node to provide a signal at sunrise and sunset",
@@ -478,24 +578,6 @@
         "suncalc"
       ],
       "url": "https://flows.nodered.org/node/node-red-node-suncalc"
-    },
-    {
-      "id": "node-red-contrib-sonos-plus",
-      "version": "6.7.5",
-      "description": "A set of Node-RED nodes to control SONOS player in your local network.",
-      "updated_at": "2024-02-19T07:40:01.217Z",
-      "types": [
-        "sonos-config",
-        "sonos-manage-mysonos",
-        "sonos-universal"
-      ],
-      "keywords": [
-        "sonos",
-        "node-red",
-        "music",
-        "node-red-contrib-sonos-plus"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-sonos-plus"
     },
     {
       "id": "@parallaxcontrol/node-red-control",
@@ -1292,64 +1374,6 @@
         "node-red"
       ],
       "url": "https://flows.nodered.org/node/@technithusiast/node-red-contrib-ai-intent"
-    },
-    {
-      "id": "@semilimes/node-red-semilimes",
-      "version": "0.9.11",
-      "description": "The new semilimes connector which integrates with the public API",
-      "updated_at": "2024-02-09T18:58:48.235Z",
-      "types": [
-        "sme-main-connector",
-        "sme-main-intent",
-        "sme-main-sender",
-        "sme-main-listener",
-        "sme-main-sshTunnel",
-        "sme-main-formSaver",
-        "sme-main-formLoader",
-        "sme-main-formUpdater",
-        "sme-main-uploader",
-        "sme-comp-text",
-        "sme-comp-html",
-        "sme-comp-file",
-        "sme-comp-contact",
-        "sme-comp-location",
-        "sme-comp-webview",
-        "sme-comp-channel",
-        "sme-comp-tunnel",
-        "sme-comp-form",
-        "sme-formComp-label",
-        "sme-formComp-textBox",
-        "sme-formComp-buttonList",
-        "sme-formComp-singleChoice",
-        "sme-formComp-multiChoice",
-        "sme-formComp-switch",
-        "sme-formComp-slider",
-        "sme-formComp-datePicker",
-        "sme-formComp-timePicker",
-        "sme-formComp-locationPicker",
-        "sme-formComp-photoPicker",
-        "sme-formComp-filePicker",
-        "sme-formComp-contactPicker",
-        "sme-formComp-groupChatPicker",
-        "sme-formComp-channelPicker",
-        "sme-formComp-bucketPicker",
-        "sme-formComp-hiddenValue",
-        "sme-formComp-qrCodeScanner",
-        "sme-formComp-nfcReader",
-        "sme-filter-formSubmission"
-      ],
-      "keywords": [
-        "semilimes",
-        "iot",
-        "connector",
-        "node-red",
-        "mobile phone",
-        "interface",
-        "remote access",
-        "ssh tunnel",
-        "websocket"
-      ],
-      "url": "https://flows.nodered.org/node/@semilimes/node-red-semilimes"
     },
     {
       "id": "@helander/node-red-boolean-gates",
@@ -3688,6 +3712,27 @@
       "url": "https://flows.nodered.org/node/node-red-node-telegrambot"
     },
     {
+      "id": "@okonek83/node-red-ecur-connection",
+      "version": "0.1.2",
+      "description": "Nodde-RED module for reading data from APsystems devices",
+      "updated_at": "2024-01-14T13:47:12.130Z",
+      "types": [
+        "inverters-query",
+        "inverters-config"
+      ],
+      "keywords": [
+        "node-red",
+        "ap systems",
+        "apsystems",
+        "solar",
+        "inverter",
+        "ecu",
+        "ecur",
+        "ecu-r"
+      ],
+      "url": "https://flows.nodered.org/node/@okonek83/node-red-ecur-connection"
+    },
+    {
       "id": "@gregoriusrippenstein/node-red-contrib-pipestream",
       "version": "0.0.4",
       "description": "Nodes to make streaming possible in Node-RED.",
@@ -5769,21 +5814,6 @@
         "node-red"
       ],
       "url": "https://flows.nodered.org/node/@thingspal/node-red-contrib-analog-alarm"
-    },
-    {
-      "id": "@orbis-developers/node-red-viaris",
-      "version": "1.0.2",
-      "description": "Monitor viaris EV charger.",
-      "updated_at": "2023-12-12T12:48:48.204Z",
-      "types": [
-        "viaris"
-      ],
-      "keywords": [
-        "node-red",
-        "viaris",
-        "orbis"
-      ],
-      "url": "https://flows.nodered.org/node/@orbis-developers/node-red-viaris"
     },
     {
       "id": "node-red-contrib-nupmes",
@@ -12440,20 +12470,6 @@
         "on-off"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-boolean-parser"
-    },
-    {
-      "id": "@okonek83/node-red-ecur-connection",
-      "version": "0.1.0",
-      "description": "Nodde-RED module for reading data from APsystems devices",
-      "updated_at": "2023-08-14T13:57:23.380Z",
-      "types": [
-        "inverters-query",
-        "inverters-config"
-      ],
-      "keywords": [
-        "node-red"
-      ],
-      "url": "https://flows.nodered.org/node/@okonek83/node-red-ecur-connection"
     },
     {
       "id": "@blokcert/node-red-azure-storage",
@@ -20410,37 +20426,6 @@
         "arp"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-cb-arp"
-    },
-    {
-      "id": "node-red-contrib-energenie-ener314rt",
-      "version": "0.6.0",
-      "description": "Node-red module for energenie ENER314-RT board for raspberry pi",
-      "updated_at": "2023-01-23T13:32:32.444Z",
-      "types": [
-        "ook-switch",
-        "ook-dimmer",
-        "openThings-monitor",
-        "openThings-pir",
-        "openThings-door",
-        "openThings-switch",
-        "openThings-trv",
-        "openThings-thermostat",
-        "openThings-cmd",
-        "ener314rt-raw",
-        "openThings-device",
-        "energenie-board"
-      ],
-      "keywords": [
-        "energenie",
-        "radio",
-        "ener314",
-        "ener314rt",
-        "ener314-rt",
-        "node-red",
-        "MiHome",
-        "rf433"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-energenie-ener314rt"
     },
     {
       "id": "node-red-contrib-salesforce",
