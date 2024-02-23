@@ -1,12 +1,273 @@
 {
   "name": "Catalogue for Docker",
-  "updated_at": "2024-02-22T15:54:56.010Z",
+  "updated_at": "2024-02-23T15:57:16.294Z",
   "modules": [
     {
+      "id": "@renyoo/node-red-dfrobot_noderedcomputer",
+      "version": "1.0.2",
+      "description": "node red nodes for NodeREDComputer",
+      "updated_at": "2024-02-23T10:06:44.873Z",
+      "types": [
+        "GPIO Out",
+        "GPIO In",
+        "ADC",
+        "DAC",
+        "Dev Event",
+        "ESP32 Burn",
+        "IO Interrupt"
+      ],
+      "keywords": [
+        "node-red",
+        "dfrobot",
+        "NodeREDComputer"
+      ],
+      "url": "https://flows.nodered.org/node/@renyoo/node-red-dfrobot_noderedcomputer"
+    },
+    {
+      "id": "@nkhhphuc/semilimes-node-red",
+      "version": "1.0.1",
+      "description": "semilimes Node-RED",
+      "updated_at": "2024-02-23T04:59:58.579Z",
+      "types": [
+        "sme-connector",
+        "sme-listener",
+        "sme-sender",
+        "sme-uploader",
+        "sme-bucketcreator",
+        "sme-bucketselector",
+        "sme-bucketupdater",
+        "sme-sshtunnel",
+        "sme-textmessage",
+        "sme-htmlmessage",
+        "sme-filemessage",
+        "sme-calendarmessage",
+        "sme-webviewmessage",
+        "sme-form",
+        "sme-formsubmission",
+        "sme-formsetter",
+        "sme-messageoption",
+        "sme-messagedeleter",
+        "sme-label",
+        "sme-textbox",
+        "sme-buttonlist",
+        "sme-singlechoice",
+        "sme-multichoice",
+        "sme-toggle",
+        "sme-slider",
+        "sme-datepicker",
+        "sme-timepicker",
+        "sme-locationpicker",
+        "sme-photopicker",
+        "sme-filepicker",
+        "sme-contactpicker",
+        "sme-qrscanner",
+        "sme-nfcreader",
+        "sme-conversationpicker"
+      ],
+      "keywords": [
+        "node-red",
+        "semilimes"
+      ],
+      "url": "https://flows.nodered.org/node/@nkhhphuc/semilimes-node-red"
+    },
+    {
+      "id": "@gastmanager/node-red-client",
+      "version": "1.2.1",
+      "description": "Connects to the gastmanager cloud and provides nodes to listen and publish events",
+      "updated_at": "2024-02-23T04:16:43.693Z",
+      "types": [
+        "gastmanager-config",
+        "gastmanager-listener",
+        "gastmanager-publisher"
+      ],
+      "keywords": [
+        "node-red"
+      ],
+      "url": "https://flows.nodered.org/node/@gastmanager/node-red-client"
+    },
+    {
+      "id": "atomic-gravity",
+      "version": "2.0.16",
+      "description": "Gravity module for Brobridge Atomic",
+      "updated_at": "2024-02-23T02:43:10.770Z",
+      "types": [
+        "Gravity Subscriber",
+        "Gravity Publish",
+        "Gravity Server",
+        "Gravity Acknowledge"
+      ],
+      "keywords": [
+        "gravity",
+        "node-red",
+        "atomic"
+      ],
+      "url": "https://flows.nodered.org/node/atomic-gravity"
+    },
+    {
+      "id": "node-red-contrib-superpower-test",
+      "version": "1.1.4",
+      "description": "Node-RED integration with eWeLink Cube",
+      "updated_at": "2024-02-23T02:41:40.488Z",
+      "types": [
+        "api-server",
+        "get-devices",
+        "event-state",
+        "event-online",
+        "control-device",
+        "event-add-device",
+        "event-del-device",
+        "event-device-info",
+        "put-device-state",
+        "register-device"
+      ],
+      "keywords": [
+        "node-red",
+        "ewelink",
+        "ewelink-cube"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-superpower-test"
+    },
+    {
+      "id": "node-red-contrib-wazo-platform",
+      "version": "1.0.36",
+      "description": "Node Red module for the Wazo Platform API",
+      "updated_at": "2024-02-23T02:05:10.700Z",
+      "types": [
+        "wazo answer",
+        "wazo bridge_call",
+        "wazo call user",
+        "wazo create user",
+        "wazo chat",
+        "wazo continue",
+        "wazo config",
+        "wazo dtmf",
+        "wazo fetch voicemail",
+        "wazo hangup",
+        "wazo hangup call",
+        "wazo hold",
+        "wazo unhold",
+        "wazo mute",
+        "wazo unmute",
+        "wazo moh",
+        "wazo stop_moh",
+        "wazo new_call",
+        "wazo make call",
+        "wazo remove_call",
+        "wazo create_node",
+        "wazo delete_node",
+        "wazo list_calls_node",
+        "wazo create_snoop",
+        "wazo list_snoop",
+        "wazo view_snoop",
+        "wazo update_snoop",
+        "wazo delete_snoop",
+        "wazo add_to_node",
+        "wazo new_call_node",
+        "wazo playback",
+        "wazo stop_playback",
+        "wazo presence",
+        "wazo progress",
+        "wazo push",
+        "wazo stop_progress",
+        "wazo request",
+        "wazo trunk",
+        "wazo voicemail",
+        "wazo event",
+        "wazo send_fax",
+        "wazo websocket"
+      ],
+      "keywords": [
+        "node-red",
+        "wazo",
+        "call",
+        "chat",
+        "voice",
+        "api"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-wazo-platform"
+    },
+    {
+      "id": "@strato-automation/node-red-contrib-strato-automation",
+      "version": "0.4.3",
+      "description": "Strato Automation Official Node Red Library",
+      "updated_at": "2024-02-22T19:08:14.700Z",
+      "types": [
+        "input",
+        "output",
+        "ocn-server",
+        "func-on-off",
+        "func-ramp",
+        "func-min",
+        "func-max",
+        "const",
+        "input-topic",
+        "unit-converter",
+        "logic-gate",
+        "not-gate",
+        "psychrometric-calculator",
+        "strato-pid",
+        "signal-generator",
+        "deadband"
+      ],
+      "keywords": [
+        "node-red",
+        "node-red-node"
+      ],
+      "url": "https://flows.nodered.org/node/@strato-automation/node-red-contrib-strato-automation"
+    },
+    {
+      "id": "@flowfuse/node-red-dashboard",
+      "version": "1.2.0",
+      "description": "Dashboard 2.0 - A collection of Node-RED nodes that provide functionality to build your own UI applications (inc. forms, buttons, charts).",
+      "updated_at": "2024-02-22T17:51:13.617Z",
+      "types": [
+        "ui-base",
+        "ui-page",
+        "ui-group",
+        "ui-theme",
+        "ui-form",
+        "__errors__",
+        "ui-text-input",
+        "__errors__",
+        "ui-button",
+        "__errors__",
+        "ui-dropdown",
+        "__errors__",
+        "ui-radio-group",
+        "__errors__",
+        "ui-slider",
+        "__errors__",
+        "ui-switch",
+        "__errors__",
+        "ui-text",
+        "__errors__",
+        "ui-table",
+        "__errors__",
+        "ui-chart",
+        "__errors__",
+        "ui-gauge",
+        "__errors__",
+        "ui-notification",
+        "__errors__",
+        "ui-markdown",
+        "__errors__",
+        "ui-template",
+        "__errors__",
+        "ui-event",
+        "__errors__",
+        "ui-control",
+        "__errors__"
+      ],
+      "keywords": [
+        "node-red"
+      ],
+      "url": "https://flows.nodered.org/node/@flowfuse/node-red-dashboard"
+    },
+    {
       "id": "@semilimes/node-red-semilimes",
-      "version": "0.10.1",
+      "version": "0.10.2",
       "description": "The new semilimes connector which integrates with the public API",
-      "updated_at": "2024-02-22T14:18:20.789Z",
+      "updated_at": "2024-02-22T14:47:37.279Z",
       "types": [
         "message",
         "formSetup",
@@ -85,27 +346,6 @@
       "url": "https://flows.nodered.org/node/@tec6/node-red-humhub-services"
     },
     {
-      "id": "@renyoo/node-red-dfrobot_noderedcomputer",
-      "version": "1.0.1",
-      "description": "node red nodes for NodeREDComputer",
-      "updated_at": "2024-02-22T10:13:52.463Z",
-      "types": [
-        "GPIO Out",
-        "GPIO In",
-        "ADC",
-        "DAC",
-        "Dev Event",
-        "ESP32 Burn",
-        "IO Interrupt"
-      ],
-      "keywords": [
-        "node-red",
-        "dfrobot",
-        "NodeREDComputer"
-      ],
-      "url": "https://flows.nodered.org/node/@renyoo/node-red-dfrobot_noderedcomputer"
-    },
-    {
       "id": "@orbis-developers/node-red-viaris",
       "version": "1.1.0",
       "description": "Monitor viaris EV charger.",
@@ -119,30 +359,6 @@
         "orbis"
       ],
       "url": "https://flows.nodered.org/node/@orbis-developers/node-red-viaris"
-    },
-    {
-      "id": "node-red-contrib-superpower-test",
-      "version": "1.1.3",
-      "description": "Node-RED integration with eWeLink Cube",
-      "updated_at": "2024-02-22T03:14:55.464Z",
-      "types": [
-        "api-server",
-        "get-devices",
-        "event-state",
-        "event-online",
-        "control-device",
-        "event-add-device",
-        "event-del-device",
-        "event-device-info",
-        "put-device-state",
-        "register-device"
-      ],
-      "keywords": [
-        "node-red",
-        "ewelink",
-        "ewelink-cube"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-superpower-test"
     },
     {
       "id": "node-red-contrib-sonos-plus",
@@ -1392,35 +1608,6 @@
       "url": "https://flows.nodered.org/node/@helander/node-red-boolean-gates"
     },
     {
-      "id": "@strato-automation/node-red-contrib-strato-automation",
-      "version": "0.4.2",
-      "description": "Strato Automation Official Node Red Library",
-      "updated_at": "2024-02-08T20:48:07.594Z",
-      "types": [
-        "input",
-        "output",
-        "ocn-server",
-        "func-on-off",
-        "func-ramp",
-        "func-min",
-        "func-max",
-        "const",
-        "input-topic",
-        "unit-converter",
-        "logic-gate",
-        "not-gate",
-        "psychrometric-calculator",
-        "strato-pid",
-        "signal-generator",
-        "deadband"
-      ],
-      "keywords": [
-        "node-red",
-        "node-red-node"
-      ],
-      "url": "https://flows.nodered.org/node/@strato-automation/node-red-contrib-strato-automation"
-    },
-    {
       "id": "node-red-contrib-alice",
       "version": "2.2.4",
       "description": "**NodeRed Home** (node-red-contrib-alice) - это сервис позволит, в несколько простых шагов, подключить любые ваши устройства заведенные в Node-RED к умному дому от Яндекса и управлять ими с помощью голосового помощника Алиса.",
@@ -1468,54 +1655,6 @@
         "gis"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-web-worldmap"
-    },
-    {
-      "id": "@flowfuse/node-red-dashboard",
-      "version": "1.1.0",
-      "description": "Dashboard 2.0 - A collection of Node-RED nodes that provide functionality to build your own UI applications (inc. forms, buttons, charts).",
-      "updated_at": "2024-02-08T11:44:03.239Z",
-      "types": [
-        "ui-base",
-        "ui-page",
-        "ui-group",
-        "ui-theme",
-        "ui-form",
-        "__errors__",
-        "ui-text-input",
-        "__errors__",
-        "ui-button",
-        "__errors__",
-        "ui-dropdown",
-        "__errors__",
-        "ui-radio-group",
-        "__errors__",
-        "ui-slider",
-        "__errors__",
-        "ui-switch",
-        "__errors__",
-        "ui-text",
-        "__errors__",
-        "ui-table",
-        "__errors__",
-        "ui-chart",
-        "__errors__",
-        "ui-gauge",
-        "__errors__",
-        "ui-notification",
-        "__errors__",
-        "ui-markdown",
-        "__errors__",
-        "ui-template",
-        "__errors__",
-        "ui-event",
-        "__errors__",
-        "ui-control",
-        "__errors__"
-      ],
-      "keywords": [
-        "node-red"
-      ],
-      "url": "https://flows.nodered.org/node/@flowfuse/node-red-dashboard"
     },
     {
       "id": "node-red-contrib-onstar2",
@@ -3000,24 +3139,6 @@
       "url": "https://flows.nodered.org/node/node-red-contrib-nspanel-lui"
     },
     {
-      "id": "atomic-gravity",
-      "version": "2.0.15",
-      "description": "Gravity module for Brobridge Atomic",
-      "updated_at": "2024-01-22T06:53:34.865Z",
-      "types": [
-        "Gravity Subscriber",
-        "Gravity Publish",
-        "Gravity Server",
-        "Gravity Acknowledge"
-      ],
-      "keywords": [
-        "gravity",
-        "node-red",
-        "atomic"
-      ],
-      "url": "https://flows.nodered.org/node/atomic-gravity"
-    },
-    {
       "id": "node-red-contrib-samsung-automation-studio-nodes",
       "version": "1.1.19",
       "description": "Samsung Automation Studio Nodes for Node-RED",
@@ -3756,53 +3877,6 @@
         "etl"
       ],
       "url": "https://flows.nodered.org/node/@gregoriusrippenstein/node-red-contrib-pipestream"
-    },
-    {
-      "id": "node-red-contrib-semilimes",
-      "version": "1.0.44",
-      "description": "Node-RED semilimes",
-      "updated_at": "2024-01-13T12:15:33.087Z",
-      "types": [
-        "sme-connector",
-        "sme-listener",
-        "sme-sender",
-        "sme-uploader",
-        "sme-bucketcreator",
-        "sme-bucketselector",
-        "sme-bucketupdater",
-        "sme-sshtunnel",
-        "sme-textmessage",
-        "sme-htmlmessage",
-        "sme-filemessage",
-        "sme-calendarmessage",
-        "sme-webviewmessage",
-        "sme-form",
-        "sme-formsubmission",
-        "sme-formsetter",
-        "sme-messageoption",
-        "sme-messagedeleter",
-        "sme-label",
-        "sme-textbox",
-        "sme-buttonlist",
-        "sme-singlechoice",
-        "sme-multichoice",
-        "sme-toggle",
-        "sme-slider",
-        "sme-datepicker",
-        "sme-timepicker",
-        "sme-locationpicker",
-        "sme-photopicker",
-        "sme-filepicker",
-        "sme-contactpicker",
-        "sme-qrscanner",
-        "sme-nfcreader",
-        "sme-conversationpicker"
-      ],
-      "keywords": [
-        "node-red",
-        "semilimes"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-semilimes"
     },
     {
       "id": "node-red-contrib-flightradar24",
@@ -7137,21 +7211,6 @@
       "url": "https://flows.nodered.org/node/node-red-contrib-grohe-sense"
     },
     {
-      "id": "@gastmanager/node-red-client",
-      "version": "1.1.2",
-      "description": "Connects to the gastmanager cloud and provides nodes to listen and publish events",
-      "updated_at": "2023-11-14T19:36:12.091Z",
-      "types": [
-        "gastmanager-config",
-        "gastmanager-listener",
-        "gastmanager-publisher"
-      ],
-      "keywords": [
-        "node-red"
-      ],
-      "url": "https://flows.nodered.org/node/@gastmanager/node-red-client"
-    },
-    {
       "id": "connect-logic-nodes",
       "version": "0.0.3",
       "description": "Node-RED contribution package with nodes to simplify configuration of logic for CONNECT Smart Home.",
@@ -8985,64 +9044,6 @@
         "sensor"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-scd4x"
-    },
-    {
-      "id": "node-red-contrib-wazo-platform",
-      "version": "1.0.34",
-      "description": "Node Red module for the Wazo Platform API",
-      "updated_at": "2023-10-11T16:38:40.411Z",
-      "types": [
-        "wazo answer",
-        "wazo bridge_call",
-        "wazo call user",
-        "wazo create user",
-        "wazo chat",
-        "wazo config",
-        "wazo dtmf",
-        "wazo fetch voicemail",
-        "wazo hangup",
-        "wazo hangup call",
-        "wazo hold",
-        "wazo unhold",
-        "wazo mute",
-        "wazo unmute",
-        "wazo moh",
-        "wazo stop_moh",
-        "wazo new_call",
-        "wazo make call",
-        "wazo remove_call",
-        "wazo create_node",
-        "wazo delete_node",
-        "wazo list_calls_node",
-        "wazo create_snoop",
-        "wazo list_snoop",
-        "wazo view_snoop",
-        "wazo update_snoop",
-        "wazo delete_snoop",
-        "wazo add_to_node",
-        "wazo new_call_node",
-        "wazo playback",
-        "wazo stop_playback",
-        "wazo presence",
-        "wazo progress",
-        "wazo push",
-        "wazo stop_progress",
-        "wazo request",
-        "wazo trunk",
-        "wazo voicemail",
-        "wazo event",
-        "wazo send_fax",
-        "wazo websocket"
-      ],
-      "keywords": [
-        "node-red",
-        "wazo",
-        "call",
-        "chat",
-        "voice",
-        "api"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-wazo-platform"
     },
     {
       "id": "node-red-contrib-ui-upload",
