@@ -1,0 +1,55 @@
+#0 building with "default" instance using docker driver
+
+#1 [internal] load build definition from Dockerfile
+#1 transferring dockerfile: 124B done
+#1 DONE 0.0s
+
+#2 [internal] load .dockerignore
+#2 transferring context: 2B done
+#2 DONE 0.0s
+
+#3 [internal] load metadata for docker.io/nodered/node-red:latest
+#3 DONE 0.1s
+
+#4 [1/2] FROM docker.io/nodered/node-red@sha256:a5cc2d5417d48c13a50de322aa4c0b909ff28f826e6f6449c5d8aaefbf01b558
+#4 CACHED
+
+#5 [2/2] RUN npm install npm install node-red-contrib-wazo-platform@1.0.37
+#5 3.885 npm WARN EBADENGINE Unsupported engine {
+#5 3.885 npm WARN EBADENGINE   package: 'npm@10.4.0',
+#5 3.885 npm WARN EBADENGINE   required: { node: '^18.17.0 || >=20.5.0' },
+#5 3.886 npm WARN EBADENGINE   current: { node: 'v16.20.2', npm: '8.19.4' }
+#5 3.886 npm WARN EBADENGINE }
+#5 5.368 npm WARN deprecated har-validator@5.1.5: this library is no longer supported
+#5 5.426 npm WARN deprecated uuid@3.4.0: Please upgrade  to version 7 or higher.  Older versions may use Math.random() in certain circumstances, which is known to be problematic.  See https://v8.dev/blog/math-random for details.
+#5 5.450 npm WARN deprecated request@2.88.2: request has been deprecated, see https://github.com/request/request/issues/3142
+#5 7.288 
+#5 7.288 added 79 packages, and audited 601 packages in 7s
+#5 7.288 
+#5 7.288 75 packages are looking for funding
+#5 7.288   run `npm fund` for details
+#5 7.296 
+#5 7.296 6 vulnerabilities (3 moderate, 3 high)
+#5 7.296 
+#5 7.296 To address issues that do not require attention, run:
+#5 7.296   npm audit fix
+#5 7.296 
+#5 7.296 To address all issues (including breaking changes), run:
+#5 7.296   npm audit fix --force
+#5 7.296 
+#5 7.296 Run `npm audit` for details.
+#5 7.296 npm notice 
+#5 7.296 npm notice New major version of npm available! 8.19.4 -> 10.4.0
+#5 7.296 npm notice Changelog: <https://github.com/npm/cli/releases/tag/v10.4.0>
+#5 7.296 npm notice Run `npm install -g npm@10.4.0` to update!
+#5 7.296 npm notice 
+#5 DONE 7.4s
+
+#6 exporting to image
+#6 exporting layers
+#6 exporting layers 1.4s done
+#6 writing image sha256:cf0cecfc01a6cf95c0451013bef80f150d2b22c346bd6b7671f7867869858e2c done
+#6 naming to docker.io/library/tmp done
+#6 DONE 1.4s
+
+----
