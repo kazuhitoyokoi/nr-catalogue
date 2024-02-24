@@ -1,7 +1,173 @@
 {
   "name": "Catalogue for Docker",
-  "updated_at": "2024-02-23T15:57:16.294Z",
+  "updated_at": "2024-02-24T15:56:29.013Z",
   "modules": [
+    {
+      "id": "@lexsus/node-red-contrib-hdlbus",
+      "version": "1.2.3",
+      "description": "Fork of hdlbus implementation by mrgadget, which fixes validator's errors",
+      "updated_at": "2024-02-24T12:04:48.684Z",
+      "types": [
+        "hdl-controller",
+        "hdl-raw-in",
+        "hdl-raw-out",
+        "hdl-channel-in",
+        "hdl-channel-out",
+        "hdl-channel-get",
+        "hdl-uv-in",
+        "hdl-uv-out",
+        "hdl-btn-color",
+        "hdl-panel-brightness",
+        "hdl-dali-groups",
+        "hdl-virtual-hvac-in",
+        "hdl-virtual-hvac-out",
+        "hdl-virtual-temp-sensor"
+      ],
+      "keywords": [
+        "node-red",
+        "hdl",
+        "hdlbus",
+        "smart-bus"
+      ],
+      "url": "https://flows.nodered.org/node/@lexsus/node-red-contrib-hdlbus"
+    },
+    {
+      "id": "node-red-contrib-virtual-smart-home",
+      "version": "4.1.7",
+      "description": "A Node-RED node that represents a 'virtual device' which can be controlled via Alexa. Requires the virtual smart home skill to be enabled for your Amazon account.",
+      "updated_at": "2024-02-24T11:12:31.452Z",
+      "types": [
+        "vsh-connection",
+        "vsh-virtual-device"
+      ],
+      "keywords": [
+        "Alexa",
+        "Echo",
+        "smart-home",
+        "node-red",
+        "virtual smart home",
+        "virtual device",
+        "Home Assistant",
+        "vsh"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-virtual-smart-home"
+    },
+    {
+      "id": "@alvarobc2412/status",
+      "version": "1.0.0",
+      "description": "Collection of STATUS project components.",
+      "updated_at": "2024-02-24T08:12:53.506Z",
+      "types": [
+        "url-to-doc",
+        "exists-url",
+        "filter-by",
+        "project-to-url",
+        "exists-section-in-doc"
+      ],
+      "keywords": [
+        "node-red",
+        "status",
+        "compliance"
+      ],
+      "url": "https://flows.nodered.org/node/@alvarobc2412/status"
+    },
+    {
+      "id": "node-red-contrib-wazo-platform",
+      "version": "1.0.37",
+      "description": "Node Red module for the Wazo Platform API",
+      "updated_at": "2024-02-24T01:13:04.689Z",
+      "types": [
+        "wazo answer",
+        "wazo bridge_call",
+        "wazo call user",
+        "wazo create user",
+        "wazo chat",
+        "wazo continue",
+        "wazo config",
+        "wazo dtmf",
+        "wazo fetch voicemail",
+        "wazo hangup",
+        "wazo hangup call",
+        "wazo hold",
+        "wazo unhold",
+        "wazo mute",
+        "wazo unmute",
+        "wazo moh",
+        "wazo stop_moh",
+        "wazo new_call",
+        "wazo make call",
+        "wazo remove_call",
+        "wazo create_node",
+        "wazo delete_node",
+        "wazo list_calls_node",
+        "wazo create_snoop",
+        "wazo list_snoop",
+        "wazo view_snoop",
+        "wazo update_snoop",
+        "wazo delete_snoop",
+        "wazo add_to_node",
+        "wazo new_call_node",
+        "wazo playback",
+        "wazo stop_playback",
+        "wazo presence",
+        "wazo progress",
+        "wazo stop_progress",
+        "wazo push",
+        "wazo request",
+        "wazo switch",
+        "wazo trunk",
+        "wazo voicemail",
+        "wazo event",
+        "wazo send_fax",
+        "wazo websocket"
+      ],
+      "keywords": [
+        "node-red",
+        "wazo",
+        "call",
+        "chat",
+        "voice",
+        "api"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-wazo-platform"
+    },
+    {
+      "id": "node-red-contrib-google-smarthome",
+      "version": "0.4.10",
+      "description": "Lets you control Node-Red via Google Assistant or the Google Home App",
+      "updated_at": "2024-02-23T18:36:31.501Z",
+      "types": [
+        "googlesmarthome-client",
+        "google-mgmt",
+        "google-device"
+      ],
+      "keywords": [
+        "google",
+        "smarthome",
+        "assistant",
+        "iot",
+        "node-red"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-google-smarthome"
+    },
+    {
+      "id": "@tataille/node-red-french-holidays",
+      "version": "1.2.1",
+      "description": "A simple node-red component for working with French holidays.",
+      "updated_at": "2024-02-23T14:53:56.791Z",
+      "types": [
+        "french-holidays"
+      ],
+      "keywords": [
+        "node-red",
+        "french-holidays",
+        "holidays",
+        "france",
+        "specialdays",
+        "weekdays"
+      ],
+      "url": "https://flows.nodered.org/node/@tataille/node-red-french-holidays"
+    },
     {
       "id": "@renyoo/node-red-dfrobot_noderedcomputer",
       "version": "1.0.2",
@@ -126,65 +292,6 @@
         "ewelink-cube"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-superpower-test"
-    },
-    {
-      "id": "node-red-contrib-wazo-platform",
-      "version": "1.0.36",
-      "description": "Node Red module for the Wazo Platform API",
-      "updated_at": "2024-02-23T02:05:10.700Z",
-      "types": [
-        "wazo answer",
-        "wazo bridge_call",
-        "wazo call user",
-        "wazo create user",
-        "wazo chat",
-        "wazo continue",
-        "wazo config",
-        "wazo dtmf",
-        "wazo fetch voicemail",
-        "wazo hangup",
-        "wazo hangup call",
-        "wazo hold",
-        "wazo unhold",
-        "wazo mute",
-        "wazo unmute",
-        "wazo moh",
-        "wazo stop_moh",
-        "wazo new_call",
-        "wazo make call",
-        "wazo remove_call",
-        "wazo create_node",
-        "wazo delete_node",
-        "wazo list_calls_node",
-        "wazo create_snoop",
-        "wazo list_snoop",
-        "wazo view_snoop",
-        "wazo update_snoop",
-        "wazo delete_snoop",
-        "wazo add_to_node",
-        "wazo new_call_node",
-        "wazo playback",
-        "wazo stop_playback",
-        "wazo presence",
-        "wazo progress",
-        "wazo push",
-        "wazo stop_progress",
-        "wazo request",
-        "wazo trunk",
-        "wazo voicemail",
-        "wazo event",
-        "wazo send_fax",
-        "wazo websocket"
-      ],
-      "keywords": [
-        "node-red",
-        "wazo",
-        "call",
-        "chat",
-        "voice",
-        "api"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-wazo-platform"
     },
     {
       "id": "@strato-automation/node-red-contrib-strato-automation",
@@ -695,27 +802,6 @@
         "mta"
       ],
       "url": "https://flows.nodered.org/node/node-red-node-email"
-    },
-    {
-      "id": "node-red-contrib-virtual-smart-home",
-      "version": "4.1.6",
-      "description": "A Node-RED node that represents a 'virtual device' which can be controlled via Alexa. Requires the virtual smart home skill to be enabled for your Amazon account.",
-      "updated_at": "2024-02-20T07:49:10.357Z",
-      "types": [
-        "vsh-connection",
-        "vsh-virtual-device"
-      ],
-      "keywords": [
-        "Alexa",
-        "Echo",
-        "smart-home",
-        "node-red",
-        "virtual smart home",
-        "virtual device",
-        "Home Assistant",
-        "vsh"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-virtual-smart-home"
     },
     {
       "id": "@sumit_shinde_84/node-red-dashboard-2-ui-webcam",
@@ -1482,35 +1568,6 @@
         "iot"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-timeouttrigger"
-    },
-    {
-      "id": "@lexsus/node-red-contrib-hdlbus",
-      "version": "1.2.1",
-      "description": "Fork of hdlbus implementation by mrgadget, which fixes validator's errors",
-      "updated_at": "2024-02-11T12:35:03.629Z",
-      "types": [
-        "hdl-controller",
-        "hdl-raw-in",
-        "hdl-raw-out",
-        "hdl-channel-in",
-        "hdl-channel-out",
-        "hdl-channel-get",
-        "hdl-uv-in",
-        "hdl-uv-out",
-        "hdl-btn-color",
-        "hdl-panel-brightness",
-        "hdl-dali-groups",
-        "hdl-virtual-hvac-in",
-        "hdl-virtual-hvac-out",
-        "hdl-virtual-temp-sensor"
-      ],
-      "keywords": [
-        "node-red",
-        "hdl",
-        "hdlbus",
-        "smart-bus"
-      ],
-      "url": "https://flows.nodered.org/node/@lexsus/node-red-contrib-hdlbus"
     },
     {
       "id": "node-red-contrib-xsltransform",
@@ -2848,25 +2905,6 @@
         "enterprise"
       ],
       "url": "https://flows.nodered.org/node/@ncd-io/node-red-enterprise-sensors"
-    },
-    {
-      "id": "node-red-contrib-google-smarthome",
-      "version": "0.4.9",
-      "description": "Lets you control Node-Red via Google Assistant or the Google Home App",
-      "updated_at": "2024-01-25T20:40:09.559Z",
-      "types": [
-        "googlesmarthome-client",
-        "google-mgmt",
-        "google-device"
-      ],
-      "keywords": [
-        "google",
-        "smarthome",
-        "assistant",
-        "iot",
-        "node-red"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-google-smarthome"
     },
     {
       "id": "node-red-contrib-millheat",
@@ -4716,24 +4754,6 @@
         "iot"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-smartnora"
-    },
-    {
-      "id": "@tataille/node-red-french-holidays",
-      "version": "1.1.8",
-      "description": "A simple node-red component for working with French holidays.",
-      "updated_at": "2024-01-02T20:34:44.886Z",
-      "types": [
-        "french-holidays"
-      ],
-      "keywords": [
-        "node-red",
-        "french-holidays",
-        "holidays",
-        "france",
-        "specialdays",
-        "weekdays"
-      ],
-      "url": "https://flows.nodered.org/node/@tataille/node-red-french-holidays"
     },
     {
       "id": "@thib3113/node-red-lovebox",
