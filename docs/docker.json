@@ -1,7 +1,164 @@
 {
   "name": "Catalogue for Docker",
-  "updated_at": "2024-02-24T15:56:29.013Z",
+  "updated_at": "2024-02-25T15:56:43.915Z",
   "modules": [
+    {
+      "id": "smart-nodes",
+      "version": "0.3.22",
+      "description": "Smart Nodes",
+      "updated_at": "2024-02-25T13:28:56.026Z",
+      "types": [
+        "smart_light-control",
+        "smart_scene-control",
+        "smart_shutter-control",
+        "smart_shutter-complex-control",
+        "smart_long-press-control",
+        "smart_multi-press-control",
+        "smart_logic",
+        "smart_forwarder",
+        "smart_compare",
+        "smart_hysteresis",
+        "smart_statistic",
+        "smart_scheduler",
+        "smart_delay",
+        "smart_central-control",
+        "__errors__",
+        "smart_text-exec"
+      ],
+      "keywords": [
+        "node-red",
+        "smart nodes",
+        "light control",
+        "shutter control",
+        "long press",
+        "multi press",
+        "scene",
+        "scenes",
+        "delay",
+        "forwarder",
+        "logic",
+        "hysteresis",
+        "compare",
+        "comparator",
+        "statistic",
+        "scheduler",
+        "central",
+        "text execution"
+      ],
+      "url": "https://flows.nodered.org/node/smart-nodes"
+    },
+    {
+      "id": "node-red-contrib-discord-advanced",
+      "version": "3.5.1",
+      "description": "Recieve, send, edit, reply, react to and delete Discord messages, handle interactions and much more in Node-RED.",
+      "updated_at": "2024-02-25T12:52:11.895Z",
+      "types": [
+        "discord-token",
+        "discordMessage",
+        "discordMessageManager",
+        "discordPermissions",
+        "discordReactionManager",
+        "discordChannelName",
+        "discordMember",
+        "discordActivity",
+        "discordClient",
+        "discordInteraction",
+        "discordInteractionManager",
+        "discordTyping"
+      ],
+      "keywords": [
+        "node-red"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-discord-advanced"
+    },
+    {
+      "id": "node-red-contrib-wmi",
+      "version": "0.2.8",
+      "description": "Node-RED node for wmi",
+      "updated_at": "2024-02-25T09:38:58.622Z",
+      "types": [],
+      "keywords": [
+        "node-red-nodegen",
+        "node-red",
+        "wmi",
+        "windows"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-wmi"
+    },
+    {
+      "id": "node-red-contrib-virtual-smart-home",
+      "version": "4.1.10",
+      "description": "A Node-RED node that represents a 'virtual device' which can be controlled via Alexa. Requires the virtual smart home skill to be enabled for your Amazon account.",
+      "updated_at": "2024-02-25T09:20:43.302Z",
+      "types": [
+        "vsh-connection",
+        "vsh-virtual-device"
+      ],
+      "keywords": [
+        "Alexa",
+        "Echo",
+        "smart-home",
+        "node-red",
+        "virtual smart home",
+        "virtual device",
+        "Home Assistant",
+        "vsh"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-virtual-smart-home"
+    },
+    {
+      "id": "node-red-v4-contrib-redis",
+      "version": "1.0.3",
+      "description": "Node Red client for Redis with pub/sub, list, lua scripting  and other commands support. Including the possibility to set cluster mode as an env variable",
+      "updated_at": "2024-02-25T07:53:10.467Z",
+      "types": [
+        "redis-config",
+        "redis-in",
+        "redis-out",
+        "redis-command",
+        "redis-lua-script",
+        "redis-instance"
+      ],
+      "keywords": [
+        "redis",
+        "node-red",
+        "node"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-v4-contrib-redis"
+    },
+    {
+      "id": "node-red-contrib-victron-modbus",
+      "version": "0.1.5",
+      "description": "Access the Victron equipment via the modbus",
+      "updated_at": "2024-02-24T22:21:02.385Z",
+      "types": [
+        "victron-modbus"
+      ],
+      "keywords": [
+        "node-red",
+        "victron",
+        "modbus"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-victron-modbus"
+    },
+    {
+      "id": "@gregoriusrippenstein/node-red-contrib-flowhub",
+      "version": "0.5.0",
+      "description": "Nodes for interacting with FlowHub.org.",
+      "updated_at": "2024-02-24T21:29:08.765Z",
+      "types": [
+        "FlowHubPull",
+        "FlowHubCfg"
+      ],
+      "keywords": [
+        "node-red",
+        "flowhub",
+        "flow-sharing",
+        "collaborative",
+        "flow-development"
+      ],
+      "url": "https://flows.nodered.org/node/@gregoriusrippenstein/node-red-contrib-flowhub"
+    },
     {
       "id": "@lexsus/node-red-contrib-hdlbus",
       "version": "1.2.3",
@@ -30,27 +187,6 @@
         "smart-bus"
       ],
       "url": "https://flows.nodered.org/node/@lexsus/node-red-contrib-hdlbus"
-    },
-    {
-      "id": "node-red-contrib-virtual-smart-home",
-      "version": "4.1.7",
-      "description": "A Node-RED node that represents a 'virtual device' which can be controlled via Alexa. Requires the virtual smart home skill to be enabled for your Amazon account.",
-      "updated_at": "2024-02-24T11:12:31.452Z",
-      "types": [
-        "vsh-connection",
-        "vsh-virtual-device"
-      ],
-      "keywords": [
-        "Alexa",
-        "Echo",
-        "smart-home",
-        "node-red",
-        "virtual smart home",
-        "virtual device",
-        "Home Assistant",
-        "vsh"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-virtual-smart-home"
     },
     {
       "id": "@alvarobc2412/status",
@@ -934,51 +1070,6 @@
       "url": "https://flows.nodered.org/node/node-red-contrib-mssql-plus"
     },
     {
-      "id": "smart-nodes",
-      "version": "0.3.15",
-      "description": "Smart Nodes",
-      "updated_at": "2024-02-18T22:41:11.089Z",
-      "types": [
-        "smart_light-control",
-        "smart_scene-control",
-        "smart_shutter-control",
-        "smart_shutter-complex-control",
-        "smart_long-press-control",
-        "smart_multi-press-control",
-        "smart_logic",
-        "smart_forwarder",
-        "smart_compare",
-        "smart_hysteresis",
-        "smart_statistic",
-        "smart_scheduler",
-        "smart_delay",
-        "smart_central-control",
-        "__errors__",
-        "smart_text-exec"
-      ],
-      "keywords": [
-        "node-red",
-        "smart nodes",
-        "light control",
-        "shutter control",
-        "long press",
-        "multi press",
-        "scene",
-        "scenes",
-        "delay",
-        "forwarder",
-        "logic",
-        "hysteresis",
-        "compare",
-        "comparator",
-        "statistic",
-        "scheduler",
-        "central",
-        "text execution"
-      ],
-      "url": "https://flows.nodered.org/node/smart-nodes"
-    },
-    {
       "id": "@tbowmo/node-red-small-timer",
       "version": "0.15.0",
       "description": "Small timer node for node red with support for sunrise, sunset etc. timers",
@@ -1499,24 +1590,6 @@
         "codec"
       ],
       "url": "https://flows.nodered.org/node/@adeunis/node-red-contrib-adeunis-codecs"
-    },
-    {
-      "id": "@gregoriusrippenstein/node-red-contrib-flowhub",
-      "version": "0.4.9",
-      "description": "Nodes for interacting with FlowHub.org.",
-      "updated_at": "2024-02-12T16:16:44.347Z",
-      "types": [
-        "FlowHubPull",
-        "FlowHubCfg"
-      ],
-      "keywords": [
-        "node-red",
-        "flowhub",
-        "flow-sharing",
-        "collaborative",
-        "flow-development"
-      ],
-      "url": "https://flows.nodered.org/node/@gregoriusrippenstein/node-red-contrib-flowhub"
     },
     {
       "id": "@ifp-software/node-red-contrib-oee-ai-connector",
@@ -6606,21 +6679,6 @@
         "node-red"
       ],
       "url": "https://flows.nodered.org/node/@equans/smart-buildings-heating-boost"
-    },
-    {
-      "id": "node-red-contrib-victron-modbus",
-      "version": "0.1.4",
-      "description": "Access the Victron equipment via the modbus",
-      "updated_at": "2023-11-28T19:36:41.782Z",
-      "types": [
-        "victron-modbus"
-      ],
-      "keywords": [
-        "node-red",
-        "victron",
-        "modbus"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-victron-modbus"
     },
     {
       "id": "@shri123321/node-red-contrib-shri-super-trend",
@@ -12804,29 +12862,6 @@
         "node"
       ],
       "url": "https://flows.nodered.org/node/@tolgaulas/node-red-contrib-beanstalkd"
-    },
-    {
-      "id": "node-red-contrib-discord-advanced",
-      "version": "3.5.0",
-      "description": "Recieve, send, edit, reply, react to and delete Discord messages, handle interactions and much more in Node-RED.",
-      "updated_at": "2023-08-05T23:17:39.340Z",
-      "types": [
-        "discord-token",
-        "discordMessage",
-        "discordMessageManager",
-        "discordPermissions",
-        "discordReactionManager",
-        "discordChannelName",
-        "discordMember",
-        "discordActivity",
-        "discordClient",
-        "discordInteraction",
-        "discordInteractionManager"
-      ],
-      "keywords": [
-        "node-red"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-discord-advanced"
     },
     {
       "id": "node-red-contrib-car-bmw",
@@ -19218,20 +19253,6 @@
         "bosch"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-unide-ppmp"
-    },
-    {
-      "id": "node-red-contrib-wmi",
-      "version": "0.2.6",
-      "description": "Node-RED node for wmi",
-      "updated_at": "2023-02-19T13:22:21.668Z",
-      "types": [],
-      "keywords": [
-        "node-red-nodegen",
-        "node-red",
-        "wmi",
-        "windows"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-wmi"
     },
     {
       "id": "node-red-contrib-chatbot",
