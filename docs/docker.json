@@ -1,7 +1,251 @@
 {
   "name": "Catalogue for Docker",
-  "updated_at": "2024-02-25T15:56:43.915Z",
+  "updated_at": "2024-02-26T15:57:26.322Z",
   "modules": [
+    {
+      "id": "victron-dynamic-ess",
+      "version": "0.1.14",
+      "description": "Fetch the ideal ESS setpoint from VRM",
+      "updated_at": "2024-02-26T12:03:58.761Z",
+      "types": [
+        "victron-dynamic-ess"
+      ],
+      "keywords": [
+        "node-red",
+        "victron",
+        "dynamic ess",
+        "scheduled charging",
+        "ess"
+      ],
+      "url": "https://flows.nodered.org/node/victron-dynamic-ess"
+    },
+    {
+      "id": "@gregoriusrippenstein/node-red-contrib-flowhub",
+      "version": "0.5.1",
+      "description": "Nodes for interacting with FlowHub.org.",
+      "updated_at": "2024-02-26T11:31:56.038Z",
+      "types": [
+        "FlowHubPull",
+        "FlowHubCfg"
+      ],
+      "keywords": [
+        "node-red",
+        "flowhub",
+        "flow-sharing",
+        "collaborative",
+        "flow-development"
+      ],
+      "url": "https://flows.nodered.org/node/@gregoriusrippenstein/node-red-contrib-flowhub"
+    },
+    {
+      "id": "node-red-contrib-bigtimer",
+      "version": "2.8.6",
+      "description": "The ultimate Node-Red Timer with dusk, dawn (and variations inc. sunrise, sunset, moonrise and moonset), months, days, manual override, schedule pause, random or fixed offsets, special days and much more. Using STOP now turns the output off.",
+      "updated_at": "2024-02-26T11:06:48.941Z",
+      "types": [
+        "bigtimer"
+      ],
+      "keywords": [
+        "node-red",
+        "bigtimer",
+        "scargill",
+        "timer",
+        "timers",
+        "scheduling",
+        "schedule",
+        "scheduler"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-bigtimer"
+    },
+    {
+      "id": "@corentin-pasquier/node-red-contrib-amqp",
+      "version": "1.3.1",
+      "description": "AMQP Nodes for Node-RED",
+      "updated_at": "2024-02-26T10:25:27.669Z",
+      "types": [
+        "amqp-in",
+        "amqp-out",
+        "amqp-broker",
+        "amqp-in-manual-ack"
+      ],
+      "keywords": [
+        "node-red",
+        "amqp",
+        "rabbitmq"
+      ],
+      "url": "https://flows.nodered.org/node/@corentin-pasquier/node-red-contrib-amqp"
+    },
+    {
+      "id": "@renyoo/node-red-dfrobot_noderedcomputer",
+      "version": "1.0.3",
+      "description": "node red nodes for NodeREDComputer",
+      "updated_at": "2024-02-26T10:17:39.034Z",
+      "types": [
+        "GPIO Out",
+        "GPIO In",
+        "ADC",
+        "DAC",
+        "Dev Event",
+        "ESP32 Burn",
+        "IO Interrupt",
+        "Flow Count"
+      ],
+      "keywords": [
+        "node-red",
+        "dfrobot",
+        "NodeREDComputer"
+      ],
+      "url": "https://flows.nodered.org/node/@renyoo/node-red-dfrobot_noderedcomputer"
+    },
+    {
+      "id": "node-red-contrib-remote",
+      "version": "1.5.3",
+      "description": "Remote-RED is an ecosystem to bring remote access, push notification and geofencing to Node-RED. There are also additional functions like directly answer on a notification and homescreen widgets.",
+      "updated_at": "2024-02-26T10:09:40.456Z",
+      "types": [
+        "remote-config",
+        "remote-access",
+        "remote-notification",
+        "remote-question"
+      ],
+      "keywords": [
+        "node-red"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-remote"
+    },
+    {
+      "id": "tams-tiu-cmd",
+      "version": "1.0.11",
+      "description": "Provides a set of nodes to Node-RED to help control tams.",
+      "updated_at": "2024-02-26T08:50:53.303Z",
+      "types": [
+        "tiu-config",
+        "tiu-cmd"
+      ],
+      "keywords": [
+        "node-red"
+      ],
+      "url": "https://flows.nodered.org/node/tams-tiu-cmd"
+    },
+    {
+      "id": "redis-cmd-test",
+      "version": "1.0.1",
+      "description": "Provides a set of nodes to Node-RED to help control tams.",
+      "updated_at": "2024-02-26T05:40:14.474Z",
+      "types": [
+        "redis-config",
+        "redis-command"
+      ],
+      "keywords": [
+        "node-red"
+      ],
+      "url": "https://flows.nodered.org/node/redis-cmd-test"
+    },
+    {
+      "id": "@bitpoolos/edge-modbus",
+      "version": "1.5.7",
+      "description": "Modules to support reading Modbus devices.",
+      "updated_at": "2024-02-26T03:55:45.263Z",
+      "types": [
+        "bp-device",
+        "bp-reader",
+        "bp-decoder",
+        "bp-display",
+        "bp-modbus-io-config",
+        "bp-modbus-client"
+      ],
+      "keywords": [
+        "node-red",
+        "bitpool",
+        "bitpoolos",
+        "edge",
+        "modbus",
+        "rtu",
+        "ascii",
+        "tcp",
+        "serial",
+        "iot"
+      ],
+      "url": "https://flows.nodered.org/node/@bitpoolos/edge-modbus"
+    },
+    {
+      "id": "node-red-contrib-superpower-test",
+      "version": "1.1.5",
+      "description": "Node-RED integration with eWeLink Cube",
+      "updated_at": "2024-02-26T03:54:15.530Z",
+      "types": [
+        "api-server",
+        "get-devices",
+        "event-state",
+        "event-online",
+        "control-device",
+        "event-add-device",
+        "event-del-device",
+        "event-device-info",
+        "put-device-state",
+        "register-device"
+      ],
+      "keywords": [
+        "node-red",
+        "ewelink",
+        "ewelink-cube"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-superpower-test"
+    },
+    {
+      "id": "@tbowmo/node-red-small-timer",
+      "version": "0.15.1",
+      "description": "Small timer node for node red with support for sunrise, sunset etc. timers",
+      "updated_at": "2024-02-25T19:32:07.461Z",
+      "types": [
+        "smalltimer",
+        "position"
+      ],
+      "keywords": [
+        "node-red",
+        "timer",
+        "sunset",
+        "sunrise",
+        "dawn",
+        "dusk"
+      ],
+      "url": "https://flows.nodered.org/node/@tbowmo/node-red-small-timer"
+    },
+    {
+      "id": "node-red-v4-contrib-redis",
+      "version": "1.0.4",
+      "description": "Node Red client for Redis with pub/sub, list, lua scripting  and other commands support. Including the possibility to set cluster mode as an env variable",
+      "updated_at": "2024-02-25T17:27:23.581Z",
+      "types": [
+        "redis-config",
+        "redis-in",
+        "redis-out",
+        "redis-command",
+        "redis-lua-script",
+        "redis-instance"
+      ],
+      "keywords": [
+        "redis",
+        "node-red",
+        "node"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-v4-contrib-redis"
+    },
+    {
+      "id": "@tec6/node-red-humhub-services",
+      "version": "0.4.2",
+      "description": "A node providing the services offered by the RESTful API of Humhub.",
+      "updated_at": "2024-02-25T16:16:19.633Z",
+      "types": [
+        "client-credentials",
+        "humhub-services"
+      ],
+      "keywords": [
+        "node-red",
+        "humhub"
+      ],
+      "url": "https://flows.nodered.org/node/@tec6/node-red-humhub-services"
+    },
     {
       "id": "smart-nodes",
       "version": "0.3.22",
@@ -107,26 +351,6 @@
       "url": "https://flows.nodered.org/node/node-red-contrib-virtual-smart-home"
     },
     {
-      "id": "node-red-v4-contrib-redis",
-      "version": "1.0.3",
-      "description": "Node Red client for Redis with pub/sub, list, lua scripting  and other commands support. Including the possibility to set cluster mode as an env variable",
-      "updated_at": "2024-02-25T07:53:10.467Z",
-      "types": [
-        "redis-config",
-        "redis-in",
-        "redis-out",
-        "redis-command",
-        "redis-lua-script",
-        "redis-instance"
-      ],
-      "keywords": [
-        "redis",
-        "node-red",
-        "node"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-v4-contrib-redis"
-    },
-    {
       "id": "node-red-contrib-victron-modbus",
       "version": "0.1.5",
       "description": "Access the Victron equipment via the modbus",
@@ -140,24 +364,6 @@
         "modbus"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-victron-modbus"
-    },
-    {
-      "id": "@gregoriusrippenstein/node-red-contrib-flowhub",
-      "version": "0.5.0",
-      "description": "Nodes for interacting with FlowHub.org.",
-      "updated_at": "2024-02-24T21:29:08.765Z",
-      "types": [
-        "FlowHubPull",
-        "FlowHubCfg"
-      ],
-      "keywords": [
-        "node-red",
-        "flowhub",
-        "flow-sharing",
-        "collaborative",
-        "flow-development"
-      ],
-      "url": "https://flows.nodered.org/node/@gregoriusrippenstein/node-red-contrib-flowhub"
     },
     {
       "id": "@lexsus/node-red-contrib-hdlbus",
@@ -305,27 +511,6 @@
       "url": "https://flows.nodered.org/node/@tataille/node-red-french-holidays"
     },
     {
-      "id": "@renyoo/node-red-dfrobot_noderedcomputer",
-      "version": "1.0.2",
-      "description": "node red nodes for NodeREDComputer",
-      "updated_at": "2024-02-23T10:06:44.873Z",
-      "types": [
-        "GPIO Out",
-        "GPIO In",
-        "ADC",
-        "DAC",
-        "Dev Event",
-        "ESP32 Burn",
-        "IO Interrupt"
-      ],
-      "keywords": [
-        "node-red",
-        "dfrobot",
-        "NodeREDComputer"
-      ],
-      "url": "https://flows.nodered.org/node/@renyoo/node-red-dfrobot_noderedcomputer"
-    },
-    {
       "id": "@nkhhphuc/semilimes-node-red",
       "version": "1.0.1",
       "description": "semilimes Node-RED",
@@ -404,30 +589,6 @@
         "atomic"
       ],
       "url": "https://flows.nodered.org/node/atomic-gravity"
-    },
-    {
-      "id": "node-red-contrib-superpower-test",
-      "version": "1.1.4",
-      "description": "Node-RED integration with eWeLink Cube",
-      "updated_at": "2024-02-23T02:41:40.488Z",
-      "types": [
-        "api-server",
-        "get-devices",
-        "event-state",
-        "event-online",
-        "control-device",
-        "event-add-device",
-        "event-del-device",
-        "event-device-info",
-        "put-device-state",
-        "register-device"
-      ],
-      "keywords": [
-        "node-red",
-        "ewelink",
-        "ewelink-cube"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-superpower-test"
     },
     {
       "id": "@strato-automation/node-red-contrib-strato-automation",
@@ -572,21 +733,6 @@
         "websocket"
       ],
       "url": "https://flows.nodered.org/node/@semilimes/node-red-semilimes"
-    },
-    {
-      "id": "@tec6/node-red-humhub-services",
-      "version": "0.4.1",
-      "description": "A node providing the services offered by the RESTful API of Humhub.",
-      "updated_at": "2024-02-22T13:16:20.657Z",
-      "types": [
-        "client-credentials",
-        "humhub-services"
-      ],
-      "keywords": [
-        "node-red",
-        "humhub"
-      ],
-      "url": "https://flows.nodered.org/node/@tec6/node-red-humhub-services"
     },
     {
       "id": "@orbis-developers/node-red-viaris",
@@ -782,33 +928,6 @@
         "EVSE"
       ],
       "url": "https://flows.nodered.org/node/@anl-ioc/node-red-contrib-ocpp2"
-    },
-    {
-      "id": "@bitpoolos/edge-modbus",
-      "version": "1.5.6",
-      "description": "Modules to support reading Modbus devices.",
-      "updated_at": "2024-02-21T02:46:40.804Z",
-      "types": [
-        "bp-device",
-        "bp-reader",
-        "bp-decoder",
-        "bp-display",
-        "bp-modbus-io-config",
-        "bp-modbus-client"
-      ],
-      "keywords": [
-        "node-red",
-        "bitpool",
-        "bitpoolos",
-        "edge",
-        "modbus",
-        "rtu",
-        "ascii",
-        "tcp",
-        "serial",
-        "iot"
-      ],
-      "url": "https://flows.nodered.org/node/@bitpoolos/edge-modbus"
     },
     {
       "id": "node-red-contrib-nordpool-api-plus",
@@ -1068,25 +1187,6 @@
         "azure"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-mssql-plus"
-    },
-    {
-      "id": "@tbowmo/node-red-small-timer",
-      "version": "0.15.0",
-      "description": "Small timer node for node red with support for sunrise, sunset etc. timers",
-      "updated_at": "2024-02-18T20:50:35.581Z",
-      "types": [
-        "smalltimer",
-        "position"
-      ],
-      "keywords": [
-        "node-red",
-        "timer",
-        "sunset",
-        "sunrise",
-        "dawn",
-        "dusk"
-      ],
-      "url": "https://flows.nodered.org/node/@tbowmo/node-red-small-timer"
     },
     {
       "id": "@nagisa~/node-red-dsmr",
@@ -3015,23 +3115,6 @@
       "url": "https://flows.nodered.org/node/node-red-contrib-unifi"
     },
     {
-      "id": "victron-dynamic-ess",
-      "version": "0.1.12",
-      "description": "Fetch the ideal ESS setpoint from VRM",
-      "updated_at": "2024-01-24T19:44:24.914Z",
-      "types": [
-        "victron-dynamic-ess"
-      ],
-      "keywords": [
-        "node-red",
-        "victron",
-        "dynamic ess",
-        "scheduled charging",
-        "ess"
-      ],
-      "url": "https://flows.nodered.org/node/victron-dynamic-ess"
-    },
-    {
       "id": "@elipse/epm-node-red",
       "version": "5.50.1",
       "description": "Nodes for communication with Elipse Plant Manager (EPM) Web Api in Node-RED",
@@ -3567,22 +3650,6 @@
         "node-red"
       ],
       "url": "https://flows.nodered.org/node/@blebtechnology/node-red-blebricks"
-    },
-    {
-      "id": "node-red-contrib-remote",
-      "version": "1.5.2",
-      "description": "Remote-RED is an ecosystem to bring remote access, push notification and geofencing to Node-RED. There are also additional functions like directly answer on a notification and homescreen widgets.",
-      "updated_at": "2024-01-18T13:16:33.309Z",
-      "types": [
-        "remote-config",
-        "remote-access",
-        "remote-notification",
-        "remote-question"
-      ],
-      "keywords": [
-        "node-red"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-remote"
     },
     {
       "id": "@coremarine/nr-norsub-emru",
@@ -19411,26 +19478,6 @@
         "node-red"
       ],
       "url": "https://flows.nodered.org/node/nr-discovergy-adapter"
-    },
-    {
-      "id": "node-red-contrib-bigtimer",
-      "version": "2.8.5",
-      "description": "The ultimate Node-Red Timer with dusk, dawn (and variations inc. sunrise, sunset, moonrise and moonset), months, days, manual override, schedule pause, random or fixed offsets, special days and much more. Using STOP now turns the output off.",
-      "updated_at": "2023-02-17T15:39:19.342Z",
-      "types": [
-        "bigtimer"
-      ],
-      "keywords": [
-        "node-red",
-        "bigtimer",
-        "scargill",
-        "timer",
-        "timers",
-        "scheduling",
-        "schedule",
-        "scheduler"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-bigtimer"
     },
     {
       "id": "node-red-contrib-brewfather",
