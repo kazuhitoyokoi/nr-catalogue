@@ -1,7 +1,290 @@
 {
   "name": "Catalogue for Docker",
-  "updated_at": "2024-02-26T15:57:26.322Z",
+  "updated_at": "2024-02-27T15:56:43.850Z",
   "modules": [
+    {
+      "id": "@kazuhitoyokoi/node-red-contrib-patlite",
+      "version": "0.0.2",
+      "description": "Node-RED node for patlite",
+      "updated_at": "2024-02-27T14:14:10.409Z",
+      "types": [],
+      "keywords": [
+        "node-red-nodegen",
+        "node-red",
+        " patlite"
+      ],
+      "url": "https://flows.nodered.org/node/@kazuhitoyokoi/node-red-contrib-patlite"
+    },
+    {
+      "id": "@corentin-pasquier/node-red-contrib-amqp",
+      "version": "1.3.6",
+      "description": "AMQP Nodes for Node-RED",
+      "updated_at": "2024-02-27T13:41:56.960Z",
+      "types": [
+        "amqp-in",
+        "amqp-out",
+        "amqp-broker",
+        "amqp-in-manual-ack"
+      ],
+      "keywords": [
+        "node-red",
+        "amqp",
+        "rabbitmq"
+      ],
+      "url": "https://flows.nodered.org/node/@corentin-pasquier/node-red-contrib-amqp"
+    },
+    {
+      "id": "node-red-contrib-nagios-nsca-send",
+      "version": "0.0.14",
+      "description": "Coming soon",
+      "updated_at": "2024-02-27T12:43:29.219Z",
+      "types": [
+        "nagios-nsca-send"
+      ],
+      "keywords": [
+        "node-red",
+        "nagios",
+        "nsca"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-nagios-nsca-send"
+    },
+    {
+      "id": "tams-cell-get",
+      "version": "1.0.2",
+      "description": "Node that provides the corresponding value through CellId of DYNA_CELL_DATA.",
+      "updated_at": "2024-02-27T08:27:06.036Z",
+      "types": [
+        "cell-config",
+        "cell-cmd"
+      ],
+      "keywords": [
+        "node-red"
+      ],
+      "url": "https://flows.nodered.org/node/tams-cell-get"
+    },
+    {
+      "id": "@gregoriusrippenstein/node-red-contrib-nodedev",
+      "version": "0.3.1",
+      "description": "Support the development of Node-RED nodes within Node-RED.",
+      "updated_at": "2024-02-27T08:21:06.644Z",
+      "types": [
+        "NodeDevOps",
+        "NodeFactory",
+        "PkgFile",
+        "NpmTarBall",
+        "NodeRedInstall",
+        "NpmPublish",
+        "NodeFactorySidebarCfg"
+      ],
+      "keywords": [
+        "node-red",
+        "node development",
+        "introspection",
+        "bootstrapping",
+        "recursion"
+      ],
+      "url": "https://flows.nodered.org/node/@gregoriusrippenstein/node-red-contrib-nodedev"
+    },
+    {
+      "id": "@pgspider/node-red-openmetadata",
+      "version": "1.0.1",
+      "description": "Node-RED node for calling OpenMetadata API",
+      "updated_at": "2024-02-27T07:22:27.275Z",
+      "types": [],
+      "keywords": [
+        "node-red",
+        "nodered",
+        "openmetadata"
+      ],
+      "url": "https://flows.nodered.org/node/@pgspider/node-red-openmetadata"
+    },
+    {
+      "id": "node-red-contrib-virtual-smart-home",
+      "version": "4.1.12",
+      "description": "A Node-RED node that represents a 'virtual device' which can be controlled via Alexa. Requires the virtual smart home skill to be enabled for your Amazon account.",
+      "updated_at": "2024-02-27T07:07:07.925Z",
+      "types": [
+        "vsh-connection",
+        "vsh-virtual-device"
+      ],
+      "keywords": [
+        "Alexa",
+        "Echo",
+        "smart-home",
+        "node-red",
+        "virtual smart home",
+        "virtual device",
+        "Home Assistant",
+        "vsh"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-virtual-smart-home"
+    },
+    {
+      "id": "@pgspider/node-red-db2chart",
+      "version": "1.0.0",
+      "description": "Node-RED node for converting database data to chart",
+      "updated_at": "2024-02-27T06:43:30.336Z",
+      "types": [
+        "db2chart"
+      ],
+      "keywords": [
+        "node-red",
+        "nodered",
+        "chart",
+        "conversion"
+      ],
+      "url": "https://flows.nodered.org/node/@pgspider/node-red-db2chart"
+    },
+    {
+      "id": "@bitpoolos/edge-modbus",
+      "version": "1.5.8",
+      "description": "Modules to support reading Modbus devices.",
+      "updated_at": "2024-02-27T00:23:25.779Z",
+      "types": [
+        "bp-device",
+        "bp-reader",
+        "bp-decoder",
+        "bp-display",
+        "bp-modbus-io-config",
+        "bp-modbus-client"
+      ],
+      "keywords": [
+        "node-red",
+        "bitpool",
+        "bitpoolos",
+        "edge",
+        "modbus",
+        "rtu",
+        "ascii",
+        "tcp",
+        "serial",
+        "iot"
+      ],
+      "url": "https://flows.nodered.org/node/@bitpoolos/edge-modbus"
+    },
+    {
+      "id": "@buglss/node-red-crontinject",
+      "version": "3.0.1",
+      "description": "It is an extended clone of core inject node with cronti package.",
+      "updated_at": "2024-02-26T22:32:00.864Z",
+      "types": [
+        "crontinject"
+      ],
+      "keywords": [
+        "inject",
+        "cronti",
+        "node-red",
+        "cronjo",
+        "crontab",
+        "crontime",
+        "repeater",
+        "schedule"
+      ],
+      "url": "https://flows.nodered.org/node/@buglss/node-red-crontinject"
+    },
+    {
+      "id": "node-red-contrib-luxtronik2",
+      "version": "0.5.5",
+      "description": "Node, that reads and controls heat pumps based on the Luxtronik 2.0 contol unit. Supports for example AlphaInnotec and Siemens Novelan (WRP NET).",
+      "updated_at": "2024-02-26T20:12:32.494Z",
+      "types": [
+        "luxtronik2 read",
+        "luxtronik2 write"
+      ],
+      "keywords": [
+        "node-red",
+        "luxtronik",
+        "luxtronik2",
+        "alpha",
+        "innotec",
+        "novelan"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-luxtronik2"
+    },
+    {
+      "id": "@runvnc/node-red-chatgpt-model",
+      "version": "1.0.0",
+      "description": "A Node-RED node that interacts with OpenAI machine learning models to generate text and image outputs like 'ChatGPT' and 'DALL·E 2'. With model parameter for gpt4",
+      "updated_at": "2024-02-26T19:15:16.341Z",
+      "types": [
+        "chatgpt-model"
+      ],
+      "keywords": [
+        "node-red",
+        "chatgpt",
+        "nodejs",
+        "javascript",
+        "api",
+        "flow",
+        "npm",
+        "machine-learning",
+        "node",
+        "example",
+        "text-generation",
+        "openai",
+        "image-generation",
+        "code-generation",
+        "conversational-ai",
+        "gpt-3",
+        "gpt-4",
+        "dall-e",
+        "ai"
+      ],
+      "url": "https://flows.nodered.org/node/@runvnc/node-red-chatgpt-model"
+    },
+    {
+      "id": "node-red-contrib-tcp-client2",
+      "version": "1.0.0",
+      "description": "Dynamic TCP Client",
+      "updated_at": "2024-02-26T18:14:05.706Z",
+      "types": [
+        "tcp-client"
+      ],
+      "keywords": [
+        "node-red",
+        "node",
+        "tcp",
+        "client",
+        "tcp-client"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-tcp-client2"
+    },
+    {
+      "id": "node-red-contrib-axis-host",
+      "version": "1.3.4",
+      "description": "Axis Devices resource binding nodes that provides access to events, image capture and analytics data.  Node-RED must be running on the Axis Device.",
+      "updated_at": "2024-02-26T15:31:08.698Z",
+      "types": [
+        "Events",
+        "Camera",
+        "Trigger",
+        "Objects"
+      ],
+      "keywords": [
+        "node-red",
+        "Axis"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-axis-host"
+    },
+    {
+      "id": "node-red-contrib-axis-com",
+      "version": "1.6.0",
+      "description": "Simplified integration with Axis devices",
+      "updated_at": "2024-02-26T15:05:17.116Z",
+      "types": [
+        "Device Access",
+        "Axis device",
+        "Axis camera",
+        "Axis ACAP",
+        "Axis Security"
+      ],
+      "keywords": [
+        "node-red",
+        "Axis",
+        "Camera"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-axis-com"
+    },
     {
       "id": "victron-dynamic-ess",
       "version": "0.1.14",
@@ -58,24 +341,6 @@
       "url": "https://flows.nodered.org/node/node-red-contrib-bigtimer"
     },
     {
-      "id": "@corentin-pasquier/node-red-contrib-amqp",
-      "version": "1.3.1",
-      "description": "AMQP Nodes for Node-RED",
-      "updated_at": "2024-02-26T10:25:27.669Z",
-      "types": [
-        "amqp-in",
-        "amqp-out",
-        "amqp-broker",
-        "amqp-in-manual-ack"
-      ],
-      "keywords": [
-        "node-red",
-        "amqp",
-        "rabbitmq"
-      ],
-      "url": "https://flows.nodered.org/node/@corentin-pasquier/node-red-contrib-amqp"
-    },
-    {
       "id": "@renyoo/node-red-dfrobot_noderedcomputer",
       "version": "1.0.3",
       "description": "node red nodes for NodeREDComputer",
@@ -114,20 +379,6 @@
       "url": "https://flows.nodered.org/node/node-red-contrib-remote"
     },
     {
-      "id": "tams-tiu-cmd",
-      "version": "1.0.11",
-      "description": "Provides a set of nodes to Node-RED to help control tams.",
-      "updated_at": "2024-02-26T08:50:53.303Z",
-      "types": [
-        "tiu-config",
-        "tiu-cmd"
-      ],
-      "keywords": [
-        "node-red"
-      ],
-      "url": "https://flows.nodered.org/node/tams-tiu-cmd"
-    },
-    {
       "id": "redis-cmd-test",
       "version": "1.0.1",
       "description": "Provides a set of nodes to Node-RED to help control tams.",
@@ -140,33 +391,6 @@
         "node-red"
       ],
       "url": "https://flows.nodered.org/node/redis-cmd-test"
-    },
-    {
-      "id": "@bitpoolos/edge-modbus",
-      "version": "1.5.7",
-      "description": "Modules to support reading Modbus devices.",
-      "updated_at": "2024-02-26T03:55:45.263Z",
-      "types": [
-        "bp-device",
-        "bp-reader",
-        "bp-decoder",
-        "bp-display",
-        "bp-modbus-io-config",
-        "bp-modbus-client"
-      ],
-      "keywords": [
-        "node-red",
-        "bitpool",
-        "bitpoolos",
-        "edge",
-        "modbus",
-        "rtu",
-        "ascii",
-        "tcp",
-        "serial",
-        "iot"
-      ],
-      "url": "https://flows.nodered.org/node/@bitpoolos/edge-modbus"
     },
     {
       "id": "node-red-contrib-superpower-test",
@@ -328,27 +552,6 @@
         "windows"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-wmi"
-    },
-    {
-      "id": "node-red-contrib-virtual-smart-home",
-      "version": "4.1.10",
-      "description": "A Node-RED node that represents a 'virtual device' which can be controlled via Alexa. Requires the virtual smart home skill to be enabled for your Amazon account.",
-      "updated_at": "2024-02-25T09:20:43.302Z",
-      "types": [
-        "vsh-connection",
-        "vsh-virtual-device"
-      ],
-      "keywords": [
-        "Alexa",
-        "Echo",
-        "smart-home",
-        "node-red",
-        "virtual smart home",
-        "virtual device",
-        "Home Assistant",
-        "vsh"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-virtual-smart-home"
     },
     {
       "id": "node-red-contrib-victron-modbus",
@@ -1539,37 +1742,6 @@
       "url": "https://flows.nodered.org/node/node-red-contrib-html-to-pdf"
     },
     {
-      "id": "@runvnc/node-red-chatgpt-model",
-      "version": "0.1.0",
-      "description": "A Node-RED node that interacts with OpenAI machine learning models to generate text and image outputs like 'ChatGPT' and 'DALL·E 2'. With model parameter for gpt4",
-      "updated_at": "2024-02-14T08:05:21.871Z",
-      "types": [
-        "chatgpt-model"
-      ],
-      "keywords": [
-        "node-red",
-        "chatgpt",
-        "nodejs",
-        "javascript",
-        "api",
-        "flow",
-        "npm",
-        "machine-learning",
-        "node",
-        "example",
-        "text-generation",
-        "openai",
-        "image-generation",
-        "code-generation",
-        "conversational-ai",
-        "gpt-3",
-        "gpt-4",
-        "dall-e",
-        "ai"
-      ],
-      "url": "https://flows.nodered.org/node/@runvnc/node-red-chatgpt-model"
-    },
-    {
       "id": "@edgepi-cloud/node-red-edgepi-adc",
       "version": "1.0.16",
       "description": "node-red node for edgepi adc module utilizing remote procedure calls",
@@ -1675,6 +1847,35 @@
         "lunatone"
       ],
       "url": "https://flows.nodered.org/node/@lunatone/node-red-dali"
+    },
+    {
+      "id": "node-red-contrib-cip-st-ethernet-ip",
+      "version": "2.0.2",
+      "description": "A Node-RED node to interact with Allen Bradley / Rockwell PLCs using the EtherNet/IP Protocol",
+      "updated_at": "2024-02-13T03:00:14.737Z",
+      "types": [
+        "eth-ip endpoint",
+        "eth-ip in",
+        "eth-ip out"
+      ],
+      "keywords": [
+        "hardware",
+        "ethernet",
+        "ethernet-ip",
+        "ethernet/ip",
+        "CIP",
+        "industrial",
+        "PLC",
+        "communication",
+        "controller",
+        "rockwell",
+        "allen",
+        "bradley",
+        "allen-bradley",
+        "pccc",
+        "node-red"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-cip-st-ethernet-ip"
     },
     {
       "id": "@adeunis/node-red-contrib-adeunis-codecs",
@@ -2120,23 +2321,6 @@
       "url": "https://flows.nodered.org/node/@tulip/node-red-tulip-api"
     },
     {
-      "id": "node-red-contrib-axis-host",
-      "version": "1.3.2",
-      "description": "Axis Devices resource binding nodes that provides access to events, image capture and analytics data.  Node-RED must be running on the Axis Device.",
-      "updated_at": "2024-02-05T08:30:44.457Z",
-      "types": [
-        "Events",
-        "Camera",
-        "Trigger",
-        "Objects"
-      ],
-      "keywords": [
-        "node-red",
-        "Axis"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-axis-host"
-    },
-    {
       "id": "@bitpoolos/edge-bacnet",
       "version": "1.2.8",
       "description": "A bacnet gateway for node-red",
@@ -2171,25 +2355,6 @@
         "schedule"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-cb-suncron"
-    },
-    {
-      "id": "node-red-contrib-axis-com",
-      "version": "1.5.0",
-      "description": "Simplified integration with Axis devices",
-      "updated_at": "2024-02-04T09:18:31.304Z",
-      "types": [
-        "Device Access",
-        "Axis device",
-        "Axis camera",
-        "Axis ACAP",
-        "Axis Security"
-      ],
-      "keywords": [
-        "node-red",
-        "Axis",
-        "Camera"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-axis-com"
     },
     {
       "id": "node-red-contrib-smart-door",
@@ -3035,29 +3200,6 @@
         "node-red"
       ],
       "url": "https://flows.nodered.org/node/node-red-lower-case-25-en"
-    },
-    {
-      "id": "@gregoriusrippenstein/node-red-contrib-nodedev",
-      "version": "0.3.0",
-      "description": "Support the development of Node-RED nodes within Node-RED.",
-      "updated_at": "2024-01-26T09:10:10.839Z",
-      "types": [
-        "NodeDevOps",
-        "NodeFactory",
-        "PkgFile",
-        "NpmTarBall",
-        "NodeRedInstall",
-        "NpmPublish",
-        "NodeFactorySidebarCfg"
-      ],
-      "keywords": [
-        "node-red",
-        "node development",
-        "introspection",
-        "bootstrapping",
-        "recursion"
-      ],
-      "url": "https://flows.nodered.org/node/@gregoriusrippenstein/node-red-contrib-nodedev"
     },
     {
       "id": "@ncd-io/node-red-enterprise-sensors",
@@ -7722,25 +7864,6 @@
         "ANN"
       ],
       "url": "https://flows.nodered.org/node/@gregoriusrippenstein/node-red-contrib-neuralnet-builder"
-    },
-    {
-      "id": "node-red-contrib-luxtronik2",
-      "version": "0.5.4",
-      "description": "Node, that reads and controls heat pumps based on the Luxtronik 2.0 contol unit. Supports for example AlphaInnotec and Siemens Novelan (WRP NET).",
-      "updated_at": "2023-11-04T15:29:14.586Z",
-      "types": [
-        "luxtronik2 read",
-        "luxtronik2 write"
-      ],
-      "keywords": [
-        "node-red",
-        "luxtronik",
-        "luxtronik2",
-        "alpha",
-        "innotec",
-        "novelan"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-luxtronik2"
     },
     {
       "id": "@lightcode/node-red-contrib-github-sdk",
@@ -13474,26 +13597,6 @@
         "power"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-solaredge-power"
-    },
-    {
-      "id": "@buglss/node-red-crontinject",
-      "version": "2.2.5",
-      "description": "It is an extended clone of core inject node with cronti package.",
-      "updated_at": "2023-07-22T08:39:22.416Z",
-      "types": [
-        "crontinject"
-      ],
-      "keywords": [
-        "inject",
-        "cronti",
-        "node-red",
-        "cronjo",
-        "crontab",
-        "crontime",
-        "repeater",
-        "schedule"
-      ],
-      "url": "https://flows.nodered.org/node/@buglss/node-red-crontinject"
     },
     {
       "id": "node-red-contrib-midea-hvac",
@@ -27469,35 +27572,6 @@
         "Seeed"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-grove-base-hat-dtam"
-    },
-    {
-      "id": "node-red-contrib-cip-st-ethernet-ip",
-      "version": "2.0.0-beta.3",
-      "description": "A Node-RED node to interact with Allen Bradley / Rockwell PLCs using the EtherNet/IP Protocol",
-      "updated_at": "2022-06-22T04:04:58.140Z",
-      "types": [
-        "eth-ip endpoint",
-        "eth-ip in",
-        "eth-ip out"
-      ],
-      "keywords": [
-        "hardware",
-        "ethernet",
-        "ethernet-ip",
-        "ethernet/ip",
-        "CIP",
-        "industrial",
-        "PLC",
-        "communication",
-        "controller",
-        "rockwell",
-        "allen",
-        "bradley",
-        "allen-bradley",
-        "pccc",
-        "node-red"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-cip-st-ethernet-ip"
     },
     {
       "id": "@thred/node-red-thred-schema-validator",
