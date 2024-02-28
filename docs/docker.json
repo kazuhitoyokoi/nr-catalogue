@@ -1,12 +1,103 @@
 {
   "name": "Catalogue for Docker",
-  "updated_at": "2024-02-27T15:56:43.850Z",
+  "updated_at": "2024-02-28T15:57:17.178Z",
   "modules": [
     {
+      "id": "@topcs/node-red-contrib-amqp-topcs",
+      "version": "1.0.2",
+      "description": "Amqp nodes for node-red by topcs",
+      "updated_at": "2024-02-28T14:27:17.140Z",
+      "types": [
+        "amqp-in",
+        "amqp-out",
+        "amqp-broker",
+        "amqp-in-manual-ack"
+      ],
+      "keywords": [
+        "node-red",
+        "amqp",
+        "rabbitmq",
+        "meow wolf"
+      ],
+      "url": "https://flows.nodered.org/node/@topcs/node-red-contrib-amqp-topcs"
+    },
+    {
+      "id": "@appmodule/node-red-contrib-siot",
+      "version": "3.0.0-rc18",
+      "description": "Node-RED interactions with SIOT",
+      "updated_at": "2024-02-28T13:57:44.231Z",
+      "types": [
+        "ack",
+        "de-subscriber",
+        "de-publisher",
+        "siot-config",
+        "class-config",
+        "plugin-cnf"
+      ],
+      "keywords": [
+        "node-red"
+      ],
+      "url": "https://flows.nodered.org/node/@appmodule/node-red-contrib-siot"
+    },
+    {
+      "id": "@renyoo/node-red-dfrobot_noderedcomputer",
+      "version": "1.0.4",
+      "description": "node red nodes for NodeREDComputer",
+      "updated_at": "2024-02-28T10:49:45.459Z",
+      "types": [
+        "GPIO Out",
+        "GPIO In",
+        "ADC",
+        "DAC",
+        "Dev Event",
+        "ESP32 Burn",
+        "IO Interrupt",
+        "Flow Count",
+        "Special Event"
+      ],
+      "keywords": [
+        "node-red",
+        "dfrobot",
+        "NodeREDComputer"
+      ],
+      "url": "https://flows.nodered.org/node/@renyoo/node-red-dfrobot_noderedcomputer"
+    },
+    {
+      "id": "iolinkmaster-mpb10",
+      "version": "1.0.1",
+      "description": "(Unoffical) Node for the MPB10 Sensor made by SICK",
+      "updated_at": "2024-02-28T10:35:09.308Z",
+      "types": [
+        "iolink-SICK-MPB10"
+      ],
+      "keywords": [
+        "iolinkmaster",
+        "node-red",
+        "mpb10"
+      ],
+      "url": "https://flows.nodered.org/node/iolinkmaster-mpb10"
+    },
+    {
+      "id": "node-red-contrib-tak-registration",
+      "version": "0.11.6",
+      "description": "A Node-RED node to register to TAK and to help wrap files as datapackages to send to TAK",
+      "updated_at": "2024-02-27T16:28:50.743Z",
+      "types": [
+        "tak registration",
+        "tak ingest"
+      ],
+      "keywords": [
+        "TAK",
+        "COT",
+        "node-red"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-tak-registration"
+    },
+    {
       "id": "@kazuhitoyokoi/node-red-contrib-patlite",
-      "version": "0.0.2",
+      "version": "0.0.5",
       "description": "Node-RED node for patlite",
-      "updated_at": "2024-02-27T14:14:10.409Z",
+      "updated_at": "2024-02-27T15:36:28.482Z",
       "types": [],
       "keywords": [
         "node-red-nodegen",
@@ -32,6 +123,22 @@
         "rabbitmq"
       ],
       "url": "https://flows.nodered.org/node/@corentin-pasquier/node-red-contrib-amqp"
+    },
+    {
+      "id": "node-red-contrib-peak-value-calculator",
+      "version": "1.0.1",
+      "description": "A Node-RED node for calculating peak (maximum) and lowest peak (minimum) value",
+      "updated_at": "2024-02-27T12:46:07.560Z",
+      "types": [
+        "peak-value"
+      ],
+      "keywords": [
+        "node-red",
+        "peak",
+        "value",
+        "calculator"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-peak-value-calculator"
     },
     {
       "id": "node-red-contrib-nagios-nsca-send",
@@ -339,28 +446,6 @@
         "scheduler"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-bigtimer"
-    },
-    {
-      "id": "@renyoo/node-red-dfrobot_noderedcomputer",
-      "version": "1.0.3",
-      "description": "node red nodes for NodeREDComputer",
-      "updated_at": "2024-02-26T10:17:39.034Z",
-      "types": [
-        "GPIO Out",
-        "GPIO In",
-        "ADC",
-        "DAC",
-        "Dev Event",
-        "ESP32 Burn",
-        "IO Interrupt",
-        "Flow Count"
-      ],
-      "keywords": [
-        "node-red",
-        "dfrobot",
-        "NodeREDComputer"
-      ],
-      "url": "https://flows.nodered.org/node/@renyoo/node-red-dfrobot_noderedcomputer"
     },
     {
       "id": "node-red-contrib-remote",
@@ -869,6 +954,22 @@
         "node-red"
       ],
       "url": "https://flows.nodered.org/node/@flowfuse/node-red-dashboard"
+    },
+    {
+      "id": "node-red-contrib-mgrs",
+      "version": "0.1.1",
+      "description": "A Node-RED node to convert co-ordinates to and from mgrs",
+      "updated_at": "2024-02-22T15:48:56.324Z",
+      "types": [
+        "mgrs"
+      ],
+      "keywords": [
+        "node-red",
+        "map",
+        "world",
+        "mgrs"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-mgrs"
     },
     {
       "id": "@semilimes/node-red-semilimes",
@@ -3682,24 +3783,6 @@
       "url": "https://flows.nodered.org/node/node-red-contrib-meross"
     },
     {
-      "id": "@appmodule/node-red-contrib-siot",
-      "version": "3.0.0-rc17",
-      "description": "Node-RED interactions with SIOT",
-      "updated_at": "2024-01-19T10:45:19.092Z",
-      "types": [
-        "ack",
-        "de-subscriber",
-        "de-publisher",
-        "siot-config",
-        "class-config",
-        "plugin-cnf"
-      ],
-      "keywords": [
-        "node-red"
-      ],
-      "url": "https://flows.nodered.org/node/@appmodule/node-red-contrib-siot"
-    },
-    {
       "id": "node-red-contrib-mongodb4",
       "version": "2.5.2",
       "description": "A MongoDB node for Node-Red without limitations.",
@@ -6270,22 +6353,6 @@
         "archive"
       ],
       "url": "https://flows.nodered.org/node/@gregoriusrippenstein/node-red-contrib-tarball"
-    },
-    {
-      "id": "node-red-contrib-tak-registration",
-      "version": "0.11.5",
-      "description": "A Node-RED node to register to TAK and to help wrap files as datapackages to send to TAK",
-      "updated_at": "2023-12-08T14:24:25.650Z",
-      "types": [
-        "tak registration",
-        "tak ingest"
-      ],
-      "keywords": [
-        "TAK",
-        "COT",
-        "node-red"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-tak-registration"
     },
     {
       "id": "node-red-contrib-tibber-api",
@@ -12030,22 +12097,6 @@
         "auth"
       ],
       "url": "https://flows.nodered.org/node/@betaathe/node-red-contrib-http-ntlm-req"
-    },
-    {
-      "id": "node-red-contrib-peak-value-calculator",
-      "version": "1.0.0",
-      "description": "A Node-RED node for calculating peak (maximum) value",
-      "updated_at": "2023-09-05T11:01:54.008Z",
-      "types": [
-        "peak-value"
-      ],
-      "keywords": [
-        "node-red",
-        "peak",
-        "value",
-        "calculator"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-peak-value-calculator"
     },
     {
       "id": "@node-red-matter/node-red-matter",
@@ -56892,22 +56943,6 @@
         "curve"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-spline-curve"
-    },
-    {
-      "id": "node-red-contrib-mgrs",
-      "version": "0.1.0",
-      "description": "A Node-RED node to convert co-ordinates to and from mgrs",
-      "updated_at": "2020-01-18T15:35:18.011Z",
-      "types": [
-        "mgrs"
-      ],
-      "keywords": [
-        "node-red",
-        "map",
-        "world",
-        "mgrs"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-mgrs"
     },
     {
       "id": "node-red-contrib-google-vision-object-detection",
