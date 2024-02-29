@@ -1,7 +1,317 @@
 {
   "name": "Catalogue for Docker",
-  "updated_at": "2024-02-28T15:57:17.178Z",
+  "updated_at": "2024-02-29T15:58:37.991Z",
   "modules": [
+    {
+      "id": "@flowfuse/node-red-dashboard",
+      "version": "1.3.0",
+      "description": "Dashboard 2.0 - A collection of Node-RED nodes that provide functionality to build your own UI applications (inc. forms, buttons, charts).",
+      "updated_at": "2024-02-29T13:25:06.999Z",
+      "types": [
+        "ui-base",
+        "ui-page",
+        "ui-group",
+        "ui-theme",
+        "ui-form",
+        "__errors__",
+        "ui-text-input",
+        "__errors__",
+        "ui-button",
+        "__errors__",
+        "ui-button-group",
+        "__errors__",
+        "ui-dropdown",
+        "__errors__",
+        "ui-radio-group",
+        "__errors__",
+        "ui-slider",
+        "__errors__",
+        "ui-switch",
+        "__errors__",
+        "ui-text",
+        "__errors__",
+        "ui-table",
+        "__errors__",
+        "ui-chart",
+        "__errors__",
+        "ui-gauge",
+        "__errors__",
+        "ui-notification",
+        "__errors__",
+        "ui-markdown",
+        "__errors__",
+        "ui-template",
+        "__errors__",
+        "ui-event",
+        "__errors__",
+        "ui-control",
+        "__errors__"
+      ],
+      "keywords": [
+        "node-red"
+      ],
+      "url": "https://flows.nodered.org/node/@flowfuse/node-red-dashboard"
+    },
+    {
+      "id": "node-red-contrib-openai-ubos",
+      "version": "1.0.8",
+      "description": "A Node-RED node that interacts with OpenAI machine learning models to generate text like ChatGPT.",
+      "updated_at": "2024-02-29T11:00:24.066Z",
+      "types": [],
+      "keywords": [
+        "node-red",
+        "chatgpt",
+        "nodejs",
+        "javascript",
+        "api",
+        "flow",
+        "npm",
+        "machine-learning",
+        "node",
+        "example",
+        "text-generation",
+        "openai",
+        "code-generation",
+        "conversational-ai",
+        "gpt-3",
+        "gpt-4",
+        "dall-e",
+        "ai"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-openai-ubos"
+    },
+    {
+      "id": "@appmodule/node-red-contrib-siot",
+      "version": "3.0.0-rc25",
+      "description": "Node-RED interactions with SIOT",
+      "updated_at": "2024-02-29T10:42:46.293Z",
+      "types": [
+        "ack",
+        "de-subscriber",
+        "de-publisher",
+        "siot-config",
+        "class-config",
+        "plugin-cnf"
+      ],
+      "keywords": [
+        "node-red"
+      ],
+      "url": "https://flows.nodered.org/node/@appmodule/node-red-contrib-siot"
+    },
+    {
+      "id": "@opcua/for-node-red",
+      "version": "2.8.2",
+      "description": "The Node-RED node to communicate via OPC UA, powered NodeOPCUA and developed by Sterfive's team",
+      "updated_at": "2024-02-29T10:27:11.977Z",
+      "types": [],
+      "keywords": [
+        "node-red",
+        "OPC UA",
+        "opc-ua",
+        "unified architecture",
+        "opc foundation",
+        "node-opcua",
+        "IIoT"
+      ],
+      "url": "https://flows.nodered.org/node/@opcua/for-node-red"
+    },
+    {
+      "id": "node-red-contrib-wazo-platform",
+      "version": "1.0.39",
+      "description": "Node Red module for the Wazo Platform API",
+      "updated_at": "2024-02-29T02:16:31.624Z",
+      "types": [
+        "wazo answer",
+        "wazo bridge_call",
+        "wazo call user",
+        "wazo create user",
+        "wazo chat",
+        "wazo continue",
+        "wazo config",
+        "wazo dtmf",
+        "wazo fetch voicemail",
+        "wazo hangup",
+        "wazo hangup call",
+        "wazo hold",
+        "wazo unhold",
+        "wazo mute",
+        "wazo unmute",
+        "wazo moh",
+        "wazo stop_moh",
+        "wazo new_call",
+        "wazo make call",
+        "wazo remove_call",
+        "wazo create_node",
+        "wazo delete_node",
+        "wazo list_calls_node",
+        "wazo create_snoop",
+        "wazo list_snoop",
+        "wazo view_snoop",
+        "wazo update_snoop",
+        "wazo delete_snoop",
+        "wazo add_to_node",
+        "wazo new_call_node",
+        "wazo playback",
+        "wazo stop_playback",
+        "wazo presence",
+        "wazo progress",
+        "wazo stop_progress",
+        "wazo push",
+        "wazo request",
+        "wazo switch",
+        "wazo trunk",
+        "wazo voicemail",
+        "wazo event",
+        "wazo send_fax",
+        "wazo websocket"
+      ],
+      "keywords": [
+        "node-red",
+        "wazo",
+        "call",
+        "chat",
+        "voice",
+        "api"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-wazo-platform"
+    },
+    {
+      "id": "node-red-contrib-grovepi-iot4h",
+      "version": "0.1.0",
+      "description": "Node Red nodes for IoT4H workshops and the use of GrovePi+ sensors and actuators.",
+      "updated_at": "2024-02-29T01:25:02.085Z",
+      "types": [
+        "saveVariable",
+        "loadVariable",
+        "timestamp",
+        "comparisonFilter",
+        "thresholdFilter",
+        "variableFilter",
+        "movingAverage",
+        "grovepi-button",
+        "grovepi-switch",
+        "grovepi-rotary",
+        "grovepi-slidePotentiometer",
+        "grovepi-rgblcd",
+        "grovepi-led",
+        "grovepi-pwm-led",
+        "grovepi-dht11",
+        "grovepi-dht22",
+        "grovepi-analog-input",
+        "grovepi-digital-input",
+        "grovepi-water",
+        "grovepi-moisture",
+        "grovepi-buzzer",
+        "grovepi-piezo",
+        "grovepi-gas-sensor",
+        "grovepi-ultrasonic",
+        "grovepi-air-quality",
+        "grovepi-analog-output",
+        "grovepi-digital-output",
+        "grovepi-light-sensor",
+        "grovepi-datapoint-lcd",
+        "grovepi-relay",
+        "grovepi-heart-rate",
+        "grovepi-heart-rate-bpm",
+        "grovepi-gesture-sensor",
+        "grovepi-loudness-sensor"
+      ],
+      "keywords": [
+        "node-red",
+        "iot",
+        "grovepi",
+        "IoT4H"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-grovepi-iot4h"
+    },
+    {
+      "id": "@xureilab/node-red-twitch-eventsub",
+      "version": "0.0.1",
+      "description": "Connect to Twitch EventSub API",
+      "updated_at": "2024-02-29T01:13:25.565Z",
+      "types": [
+        "twitch-eventsub",
+        "twitch-eventsub-config"
+      ],
+      "keywords": [
+        "node-red",
+        "twitch",
+        "stream",
+        "rewards",
+        "bits",
+        "cheer",
+        "follow",
+        "subscribe"
+      ],
+      "url": "https://flows.nodered.org/node/@xureilab/node-red-twitch-eventsub"
+    },
+    {
+      "id": "node-red-contrib-unifi",
+      "version": "0.3.14",
+      "description": "Node for Node-RED to connect to a UniFi Controller ",
+      "updated_at": "2024-02-28T19:15:23.200Z",
+      "types": [
+        "unificonfig",
+        "Unifi",
+        "UnifiWS"
+      ],
+      "keywords": [
+        "node-red",
+        "unifi",
+        "ubnt",
+        "Ubiquiti Networks"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-unifi"
+    },
+    {
+      "id": "node-red-contrib-image-tools",
+      "version": "2.1.1",
+      "description": "A dynamic image editor, image viewer, 1D/2D Barcode Generator and 1D/2D Barcode Decoder nodes",
+      "updated_at": "2024-02-28T18:09:55.804Z",
+      "types": [
+        "jimp-image",
+        "Barcode Decoder",
+        "Barcode Generator",
+        "image viewer"
+      ],
+      "keywords": [
+        "node-red",
+        "barcode",
+        "datamatrix",
+        "QR",
+        "zxing",
+        "jimp",
+        "image editing",
+        "image processing",
+        "image manipulation",
+        "image viewer",
+        "png",
+        "jpg",
+        "jpeg",
+        "bmp",
+        "bitmap",
+        "resize",
+        "scale",
+        "crop"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-image-tools"
+    },
+    {
+      "id": "node-red-contrib-aula-education",
+      "version": "0.6.0",
+      "description": "A Node-Red Node for collecting data from aula the danish educational platform.",
+      "updated_at": "2024-02-28T15:37:35.123Z",
+      "types": [
+        "aulaNode-config",
+        "aulaNode"
+      ],
+      "keywords": [
+        "node-red",
+        "aula",
+        "education"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-aula-education"
+    },
     {
       "id": "@topcs/node-red-contrib-amqp-topcs",
       "version": "1.0.2",
@@ -20,24 +330,6 @@
         "meow wolf"
       ],
       "url": "https://flows.nodered.org/node/@topcs/node-red-contrib-amqp-topcs"
-    },
-    {
-      "id": "@appmodule/node-red-contrib-siot",
-      "version": "3.0.0-rc18",
-      "description": "Node-RED interactions with SIOT",
-      "updated_at": "2024-02-28T13:57:44.231Z",
-      "types": [
-        "ack",
-        "de-subscriber",
-        "de-publisher",
-        "siot-config",
-        "class-config",
-        "plugin-cnf"
-      ],
-      "keywords": [
-        "node-red"
-      ],
-      "url": "https://flows.nodered.org/node/@appmodule/node-red-contrib-siot"
     },
     {
       "id": "@renyoo/node-red-dfrobot_noderedcomputer",
@@ -702,66 +994,6 @@
       "url": "https://flows.nodered.org/node/@alvarobc2412/status"
     },
     {
-      "id": "node-red-contrib-wazo-platform",
-      "version": "1.0.37",
-      "description": "Node Red module for the Wazo Platform API",
-      "updated_at": "2024-02-24T01:13:04.689Z",
-      "types": [
-        "wazo answer",
-        "wazo bridge_call",
-        "wazo call user",
-        "wazo create user",
-        "wazo chat",
-        "wazo continue",
-        "wazo config",
-        "wazo dtmf",
-        "wazo fetch voicemail",
-        "wazo hangup",
-        "wazo hangup call",
-        "wazo hold",
-        "wazo unhold",
-        "wazo mute",
-        "wazo unmute",
-        "wazo moh",
-        "wazo stop_moh",
-        "wazo new_call",
-        "wazo make call",
-        "wazo remove_call",
-        "wazo create_node",
-        "wazo delete_node",
-        "wazo list_calls_node",
-        "wazo create_snoop",
-        "wazo list_snoop",
-        "wazo view_snoop",
-        "wazo update_snoop",
-        "wazo delete_snoop",
-        "wazo add_to_node",
-        "wazo new_call_node",
-        "wazo playback",
-        "wazo stop_playback",
-        "wazo presence",
-        "wazo progress",
-        "wazo stop_progress",
-        "wazo push",
-        "wazo request",
-        "wazo switch",
-        "wazo trunk",
-        "wazo voicemail",
-        "wazo event",
-        "wazo send_fax",
-        "wazo websocket"
-      ],
-      "keywords": [
-        "node-red",
-        "wazo",
-        "call",
-        "chat",
-        "voice",
-        "api"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-wazo-platform"
-    },
-    {
       "id": "node-red-contrib-google-smarthome",
       "version": "0.4.10",
       "description": "Lets you control Node-Red via Google Assistant or the Google Home App",
@@ -906,54 +1138,6 @@
         "node-red-node"
       ],
       "url": "https://flows.nodered.org/node/@strato-automation/node-red-contrib-strato-automation"
-    },
-    {
-      "id": "@flowfuse/node-red-dashboard",
-      "version": "1.2.0",
-      "description": "Dashboard 2.0 - A collection of Node-RED nodes that provide functionality to build your own UI applications (inc. forms, buttons, charts).",
-      "updated_at": "2024-02-22T17:51:13.617Z",
-      "types": [
-        "ui-base",
-        "ui-page",
-        "ui-group",
-        "ui-theme",
-        "ui-form",
-        "__errors__",
-        "ui-text-input",
-        "__errors__",
-        "ui-button",
-        "__errors__",
-        "ui-dropdown",
-        "__errors__",
-        "ui-radio-group",
-        "__errors__",
-        "ui-slider",
-        "__errors__",
-        "ui-switch",
-        "__errors__",
-        "ui-text",
-        "__errors__",
-        "ui-table",
-        "__errors__",
-        "ui-chart",
-        "__errors__",
-        "ui-gauge",
-        "__errors__",
-        "ui-notification",
-        "__errors__",
-        "ui-markdown",
-        "__errors__",
-        "ui-template",
-        "__errors__",
-        "ui-event",
-        "__errors__",
-        "ui-control",
-        "__errors__"
-      ],
-      "keywords": [
-        "node-red"
-      ],
-      "url": "https://flows.nodered.org/node/@flowfuse/node-red-dashboard"
     },
     {
       "id": "node-red-contrib-mgrs",
@@ -1526,23 +1710,6 @@
         "screenshot"
       ],
       "url": "https://flows.nodered.org/node/@gregoriusrippenstein/node-red-contrib-introspection"
-    },
-    {
-      "id": "@opcua/for-node-red",
-      "version": "2.7.0",
-      "description": "The Node-RED node to communicate via OPC UA, powered NodeOPCUA and developed by Sterfive's team",
-      "updated_at": "2024-02-17T22:32:40.630Z",
-      "types": [],
-      "keywords": [
-        "node-red",
-        "OPC UA",
-        "opc-ua",
-        "unified architecture",
-        "opc foundation",
-        "node-opcua",
-        "IIoT"
-      ],
-      "url": "https://flows.nodered.org/node/@opcua/for-node-red"
     },
     {
       "id": "node-red-contrib-tado-client",
@@ -3338,24 +3505,6 @@
         "node-red"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-millheat"
-    },
-    {
-      "id": "node-red-contrib-unifi",
-      "version": "0.3.13",
-      "description": "Node for Node-RED to connect to a UniFi Controller ",
-      "updated_at": "2024-01-25T12:20:25.447Z",
-      "types": [
-        "unificonfig",
-        "Unifi",
-        "UnifiWS"
-      ],
-      "keywords": [
-        "node-red",
-        "unifi",
-        "ubnt",
-        "Ubiquiti Networks"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-unifi"
     },
     {
       "id": "@elipse/epm-node-red",
@@ -8001,34 +8150,6 @@
       "url": "https://flows.nodered.org/node/node-red-contrib-caseta"
     },
     {
-      "id": "node-red-contrib-openai-ubos",
-      "version": "1.0.7",
-      "description": "A Node-RED node that interacts with OpenAI machine learning models to generate text like ChatGPT.",
-      "updated_at": "2023-11-02T15:23:29.577Z",
-      "types": [],
-      "keywords": [
-        "node-red",
-        "chatgpt",
-        "nodejs",
-        "javascript",
-        "api",
-        "flow",
-        "npm",
-        "machine-learning",
-        "node",
-        "example",
-        "text-generation",
-        "openai",
-        "code-generation",
-        "conversational-ai",
-        "gpt-3",
-        "gpt-4",
-        "dall-e",
-        "ai"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-openai-ubos"
-    },
-    {
       "id": "@platmac/node-red-platma-whoami",
       "version": "1.0.0",
       "description": "NA node for receiving personal information of the Platma user.",
@@ -11419,22 +11540,6 @@
       "url": "https://flows.nodered.org/node/cosmos8-clp"
     },
     {
-      "id": "node-red-contrib-aula-education",
-      "version": "0.5.3",
-      "description": "A Node-Red Node for collecting data from aula the danish educational platform.",
-      "updated_at": "2023-09-19T19:04:38.883Z",
-      "types": [
-        "aulaNode-config",
-        "aulaNode"
-      ],
-      "keywords": [
-        "node-red",
-        "aula",
-        "education"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-aula-education"
-    },
-    {
       "id": "node-red-contrib-eskomsepush",
       "version": "0.0.17",
       "description": "Node-RED interface for the Eskomsepush API",
@@ -12790,6 +12895,26 @@
         "on-off"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-boolean-parser"
+    },
+    {
+      "id": "node-red-contrib-ack",
+      "version": "1.1.1",
+      "description": "A Node-RED node for acknowledging message paths.",
+      "updated_at": "2023-08-14T18:25:07.883Z",
+      "types": [
+        "ack-start",
+        "ack-clear"
+      ],
+      "keywords": [
+        "node-red",
+        "ack",
+        "acknowledge",
+        "acknowledgement",
+        "verify",
+        "assert",
+        "message"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-ack"
     },
     {
       "id": "@blokcert/node-red-azure-storage",
@@ -33438,39 +33563,6 @@
       "url": "https://flows.nodered.org/node/node-red-contrib-xlsx-to-json"
     },
     {
-      "id": "node-red-contrib-image-tools",
-      "version": "2.0.4",
-      "description": "A dynamic image editor, image viewer, 1D/2D Barcode Generator and 1D/2D Barcode Decoder nodes",
-      "updated_at": "2022-01-27T22:18:22.777Z",
-      "types": [
-        "jimp-image",
-        "Barcode Decoder",
-        "Barcode Generator",
-        "image viewer"
-      ],
-      "keywords": [
-        "node-red",
-        "barcode",
-        "datamatrix",
-        "QR",
-        "zxing",
-        "jimp",
-        "image editing",
-        "image processing",
-        "image manipulation",
-        "image viewer",
-        "png",
-        "jpg",
-        "jpeg",
-        "bmp",
-        "bitmap",
-        "resize",
-        "scale",
-        "crop"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-image-tools"
-    },
-    {
       "id": "node-red-contrib-ha-state",
       "version": "1.3.0",
       "description": "observable things in node red",
@@ -49959,26 +50051,6 @@
         "46elks"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-46elks"
-    },
-    {
-      "id": "node-red-contrib-ack",
-      "version": "1.0.1",
-      "description": "A Node-RED node for acknowledging message paths.",
-      "updated_at": "2020-09-09T17:42:11.689Z",
-      "types": [
-        "ack-start",
-        "ack-clear"
-      ],
-      "keywords": [
-        "node-red",
-        "ack",
-        "acknowledge",
-        "acknowledgement",
-        "verify",
-        "assert",
-        "message"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-ack"
     },
     {
       "id": "node-red-contrib-postman",
