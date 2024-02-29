@@ -1,0 +1,45 @@
+#0 building with "default" instance using docker driver
+
+#1 [internal] load .dockerignore
+#1 transferring context: 2B done
+#1 DONE 0.0s
+
+#2 [internal] load build definition from Dockerfile
+#2 transferring dockerfile: 121B done
+#2 DONE 0.0s
+
+#3 [internal] load metadata for docker.io/nodered/node-red:latest
+#3 DONE 0.3s
+
+#4 [1/2] FROM docker.io/nodered/node-red@sha256:a5cc2d5417d48c13a50de322aa4c0b909ff28f826e6f6449c5d8aaefbf01b558
+#4 CACHED
+
+#5 [2/2] RUN npm install npm install node-red-contrib-image-tools@2.1.1
+#5 2.776 npm WARN EBADENGINE Unsupported engine {
+#5 2.776 npm WARN EBADENGINE   package: 'npm@10.5.0',
+#5 2.776 npm WARN EBADENGINE   required: { node: '^18.17.0 || >=20.5.0' },
+#5 2.776 npm WARN EBADENGINE   current: { node: 'v16.20.2', npm: '8.19.4' }
+#5 2.777 npm WARN EBADENGINE }
+#5 4.188 npm WARN deprecated phin@2.9.3: Package no longer supported. Contact Support at https://www.npmjs.com/support for more info.
+#5 5.320 
+#5 5.320 added 81 packages, and audited 605 packages in 5s
+#5 5.320 
+#5 5.320 73 packages are looking for funding
+#5 5.320   run `npm fund` for details
+#5 5.321 
+#5 5.321 found 0 vulnerabilities
+#5 5.321 npm notice 
+#5 5.321 npm notice New major version of npm available! 8.19.4 -> 10.5.0
+#5 5.321 npm notice Changelog: <https://github.com/npm/cli/releases/tag/v10.5.0>
+#5 5.321 npm notice Run `npm install -g npm@10.5.0` to update!
+#5 5.321 npm notice 
+#5 DONE 5.4s
+
+#6 exporting to image
+#6 exporting layers
+#6 exporting layers 1.7s done
+#6 writing image sha256:a893615ddb02a06a18ff61ccb4e677a705fcfc59f4bb2e27aba74ec407e56ec1 done
+#6 naming to docker.io/library/tmp done
+#6 DONE 1.7s
+
+----
