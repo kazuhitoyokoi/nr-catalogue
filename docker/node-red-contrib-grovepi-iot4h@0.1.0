@@ -1,0 +1,49 @@
+#0 building with "default" instance using docker driver
+
+#1 [internal] load build definition from Dockerfile
+#1 transferring dockerfile: 123B done
+#1 DONE 0.0s
+
+#2 [internal] load .dockerignore
+#2 transferring context: 2B done
+#2 DONE 0.0s
+
+#3 [internal] load metadata for docker.io/nodered/node-red:latest
+#3 DONE 0.3s
+
+#4 [1/2] FROM docker.io/nodered/node-red@sha256:a5cc2d5417d48c13a50de322aa4c0b909ff28f826e6f6449c5d8aaefbf01b558
+#4 CACHED
+
+#5 [2/2] RUN npm install npm install node-red-contrib-grovepi-iot4h@0.1.0
+#5 2.236 npm WARN EBADENGINE Unsupported engine {
+#5 2.236 npm WARN EBADENGINE   package: 'npm@10.5.0',
+#5 2.236 npm WARN EBADENGINE   required: { node: '^18.17.0 || >=20.5.0' },
+#5 2.236 npm WARN EBADENGINE   current: { node: 'v16.20.2', npm: '8.19.4' }
+#5 2.236 npm WARN EBADENGINE }
+#5 8.395 
+#5 8.395 added 35 packages, and audited 559 packages in 8s
+#5 8.395 
+#5 8.395 68 packages are looking for funding
+#5 8.395   run `npm fund` for details
+#5 8.399 
+#5 8.399 3 high severity vulnerabilities
+#5 8.399 
+#5 8.399 Some issues need review, and may require choosing
+#5 8.399 a different dependency.
+#5 8.399 
+#5 8.399 Run `npm audit` for details.
+#5 8.399 npm notice 
+#5 8.399 npm notice New major version of npm available! 8.19.4 -> 10.5.0
+#5 8.399 npm notice Changelog: <https://github.com/npm/cli/releases/tag/v10.5.0>
+#5 8.399 npm notice Run `npm install -g npm@10.5.0` to update!
+#5 8.399 npm notice 
+#5 DONE 8.5s
+
+#6 exporting to image
+#6 exporting layers
+#6 exporting layers 1.4s done
+#6 writing image sha256:7432c2b2a435b69e0beaf94f86ee73bad4abd34dd06c5fb79ab60d54389afc10 done
+#6 naming to docker.io/library/tmp done
+#6 DONE 1.4s
+
+----
