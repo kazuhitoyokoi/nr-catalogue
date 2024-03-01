@@ -1,7 +1,152 @@
 {
   "name": "Catalogue for Docker",
-  "updated_at": "2024-02-29T15:58:37.991Z",
+  "updated_at": "2024-03-01T15:56:00.866Z",
   "modules": [
+    {
+      "id": "@tataille/node-red-french-holidays",
+      "version": "1.2.2",
+      "description": "A simple node-red component for working with French holidays.",
+      "updated_at": "2024-03-01T11:49:18.593Z",
+      "types": [
+        "french-holidays"
+      ],
+      "keywords": [
+        "node-red",
+        "french-holidays",
+        "holidays",
+        "france",
+        "specialdays",
+        "weekdays"
+      ],
+      "url": "https://flows.nodered.org/node/@tataille/node-red-french-holidays"
+    },
+    {
+      "id": "@semilimes/node-red-semilimes",
+      "version": "1.1.0",
+      "description": "The new semilimes connector which integrates with the public API",
+      "updated_at": "2024-03-01T09:42:46.678Z",
+      "types": [
+        "smeMessage",
+        "smeFormSetup",
+        "smeFormComponent",
+        "smeFormUpdater",
+        "smeSender",
+        "smeListener",
+        "smeFilter",
+        "smeUploader",
+        "smeDownloader",
+        "smeTunnel",
+        "sme-main-connector"
+      ],
+      "keywords": [
+        "semilimes",
+        "iot",
+        "connector",
+        "node-red",
+        "mobile phone",
+        "interface",
+        "remote access",
+        "ssh tunnel",
+        "websocket"
+      ],
+      "url": "https://flows.nodered.org/node/@semilimes/node-red-semilimes"
+    },
+    {
+      "id": "@siglesiasg/node-red-event-manager",
+      "version": "0.0.1",
+      "description": "Event Manager for Node Red",
+      "updated_at": "2024-03-01T08:21:07.209Z",
+      "types": [
+        "event-manager-dispatcher",
+        "event-manager-checkpoint"
+      ],
+      "keywords": [
+        "node-red"
+      ],
+      "url": "https://flows.nodered.org/node/@siglesiasg/node-red-event-manager"
+    },
+    {
+      "id": "@gotillit/tillit-node-red",
+      "version": "1.3.4",
+      "description": "A TilliT node for Node-RED",
+      "updated_at": "2024-03-01T07:39:45.728Z",
+      "types": [
+        "tillit-node-connection",
+        "tillit-out",
+        "tillit-in",
+        "tillit-api",
+        "tillit-pv",
+        "tillit-event",
+        "tillit-progress"
+      ],
+      "keywords": [
+        "node-red",
+        "tillit"
+      ],
+      "url": "https://flows.nodered.org/node/@gotillit/tillit-node-red"
+    },
+    {
+      "id": "node-red-contrib-mgrs",
+      "version": "1.0.0",
+      "description": "A Node-RED node to convert co-ordinates to and from mgrs",
+      "updated_at": "2024-02-29T19:58:23.671Z",
+      "types": [
+        "mgrs"
+      ],
+      "keywords": [
+        "node-red",
+        "map",
+        "world",
+        "mgrs"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-mgrs"
+    },
+    {
+      "id": "node-red-2stools-packetdecode",
+      "version": "0.9.27",
+      "description": "Decode string data to a respective sensor on IC",
+      "updated_at": "2024-02-29T19:48:06.541Z",
+      "types": [
+        "2stools-packetdecode"
+      ],
+      "keywords": [
+        "node-red",
+        "2solve",
+        "2stools"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-2stools-packetdecode"
+    },
+    {
+      "id": "@victronenergy/node-red-contrib-victron",
+      "version": "1.5.13",
+      "description": "Custom Node-RED Nodes for Victron Energy",
+      "updated_at": "2024-02-29T19:14:47.959Z",
+      "types": [
+        "victron-client"
+      ],
+      "keywords": [
+        "node-red"
+      ],
+      "url": "https://flows.nodered.org/node/@victronenergy/node-red-contrib-victron"
+    },
+    {
+      "id": "@gregoriusrippenstein/node-red-contrib-flowhub",
+      "version": "0.5.2",
+      "description": "Nodes for interacting with FlowHub.org.",
+      "updated_at": "2024-02-29T17:39:11.573Z",
+      "types": [
+        "FlowHubPull",
+        "FlowHubCfg"
+      ],
+      "keywords": [
+        "node-red",
+        "flowhub",
+        "flow-sharing",
+        "collaborative",
+        "flow-development"
+      ],
+      "url": "https://flows.nodered.org/node/@gregoriusrippenstein/node-red-contrib-flowhub"
+    },
     {
       "id": "@flowfuse/node-red-dashboard",
       "version": "1.3.0",
@@ -702,24 +847,6 @@
       "url": "https://flows.nodered.org/node/victron-dynamic-ess"
     },
     {
-      "id": "@gregoriusrippenstein/node-red-contrib-flowhub",
-      "version": "0.5.1",
-      "description": "Nodes for interacting with FlowHub.org.",
-      "updated_at": "2024-02-26T11:31:56.038Z",
-      "types": [
-        "FlowHubPull",
-        "FlowHubCfg"
-      ],
-      "keywords": [
-        "node-red",
-        "flowhub",
-        "flow-sharing",
-        "collaborative",
-        "flow-development"
-      ],
-      "url": "https://flows.nodered.org/node/@gregoriusrippenstein/node-red-contrib-flowhub"
-    },
-    {
       "id": "node-red-contrib-bigtimer",
       "version": "2.8.6",
       "description": "The ultimate Node-Red Timer with dusk, dawn (and variations inc. sunrise, sunset, moonrise and moonset), months, days, manual override, schedule pause, random or fixed offsets, special days and much more. Using STOP now turns the output off.",
@@ -1013,24 +1140,6 @@
       "url": "https://flows.nodered.org/node/node-red-contrib-google-smarthome"
     },
     {
-      "id": "@tataille/node-red-french-holidays",
-      "version": "1.2.1",
-      "description": "A simple node-red component for working with French holidays.",
-      "updated_at": "2024-02-23T14:53:56.791Z",
-      "types": [
-        "french-holidays"
-      ],
-      "keywords": [
-        "node-red",
-        "french-holidays",
-        "holidays",
-        "france",
-        "specialdays",
-        "weekdays"
-      ],
-      "url": "https://flows.nodered.org/node/@tataille/node-red-french-holidays"
-    },
-    {
       "id": "@nkhhphuc/semilimes-node-red",
       "version": "1.0.1",
       "description": "semilimes Node-RED",
@@ -1138,89 +1247,6 @@
         "node-red-node"
       ],
       "url": "https://flows.nodered.org/node/@strato-automation/node-red-contrib-strato-automation"
-    },
-    {
-      "id": "node-red-contrib-mgrs",
-      "version": "0.1.1",
-      "description": "A Node-RED node to convert co-ordinates to and from mgrs",
-      "updated_at": "2024-02-22T15:48:56.324Z",
-      "types": [
-        "mgrs"
-      ],
-      "keywords": [
-        "node-red",
-        "map",
-        "world",
-        "mgrs"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-mgrs"
-    },
-    {
-      "id": "@semilimes/node-red-semilimes",
-      "version": "0.10.2",
-      "description": "The new semilimes connector which integrates with the public API",
-      "updated_at": "2024-02-22T14:47:37.279Z",
-      "types": [
-        "message",
-        "formSetup",
-        "formComponent",
-        "formUpdater",
-        "sender",
-        "listener",
-        "uploader",
-        "filterSubmission",
-        "tunnel",
-        "sme-main-connector",
-        "sme-main-intent",
-        "sme-main-sender",
-        "sme-main-listener",
-        "sme-main-sshTunnel",
-        "sme-main-formSaver",
-        "sme-main-formLoader",
-        "sme-main-formUpdater",
-        "sme-main-uploader",
-        "sme-comp-text",
-        "sme-comp-html",
-        "sme-comp-file",
-        "sme-comp-contact",
-        "sme-comp-location",
-        "sme-comp-webview",
-        "sme-comp-channel",
-        "sme-comp-tunnel",
-        "sme-comp-form",
-        "sme-formComp-label",
-        "sme-formComp-textBox",
-        "sme-formComp-buttonList",
-        "sme-formComp-singleChoice",
-        "sme-formComp-multiChoice",
-        "sme-formComp-switch",
-        "sme-formComp-slider",
-        "sme-formComp-datePicker",
-        "sme-formComp-timePicker",
-        "sme-formComp-locationPicker",
-        "sme-formComp-photoPicker",
-        "sme-formComp-filePicker",
-        "sme-formComp-contactPicker",
-        "sme-formComp-groupChatPicker",
-        "sme-formComp-channelPicker",
-        "sme-formComp-bucketPicker",
-        "sme-formComp-hiddenValue",
-        "sme-formComp-qrCodeScanner",
-        "sme-formComp-nfcReader",
-        "sme-filter-formSubmission"
-      ],
-      "keywords": [
-        "semilimes",
-        "iot",
-        "connector",
-        "node-red",
-        "mobile phone",
-        "interface",
-        "remote access",
-        "ssh tunnel",
-        "websocket"
-      ],
-      "url": "https://flows.nodered.org/node/@semilimes/node-red-semilimes"
     },
     {
       "id": "@orbis-developers/node-red-viaris",
@@ -1832,26 +1858,6 @@
         "smithtek"
       ],
       "url": "https://flows.nodered.org/node/smithtek-node-red-lora"
-    },
-    {
-      "id": "@gotillit/tillit-node-red",
-      "version": "1.3.3",
-      "description": "A TilliT node for Node-RED",
-      "updated_at": "2024-02-15T08:42:25.349Z",
-      "types": [
-        "tillit-node-connection",
-        "tillit-out",
-        "tillit-in",
-        "tillit-api",
-        "tillit-pv",
-        "tillit-event",
-        "tillit-progress"
-      ],
-      "keywords": [
-        "node-red",
-        "tillit"
-      ],
-      "url": "https://flows.nodered.org/node/@gotillit/tillit-node-red"
     },
     {
       "id": "node-red-contrib-opcua",
@@ -3118,19 +3124,6 @@
         "data"
       ],
       "url": "https://flows.nodered.org/node/@edgeflow/kafka-client"
-    },
-    {
-      "id": "@victronenergy/node-red-contrib-victron",
-      "version": "1.5.10",
-      "description": "Custom Node-RED Nodes for Victron Energy",
-      "updated_at": "2024-01-29T09:24:55.456Z",
-      "types": [
-        "victron-client"
-      ],
-      "keywords": [
-        "node-red"
-      ],
-      "url": "https://flows.nodered.org/node/@victronenergy/node-red-contrib-victron"
     },
     {
       "id": "node-red-contrib-spruthub",
@@ -15877,21 +15870,6 @@
         "cctv"
       ],
       "url": "https://flows.nodered.org/node/@kevingodell/node-red-mp4frag"
-    },
-    {
-      "id": "node-red-2stools-packetdecode",
-      "version": "0.9.26",
-      "description": "Decode string data to a respective sensor on IC",
-      "updated_at": "2023-05-29T19:26:02.491Z",
-      "types": [
-        "2stools-packetdecode"
-      ],
-      "keywords": [
-        "node-red",
-        "2solve",
-        "2stools"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-2stools-packetdecode"
     },
     {
       "id": "node-red-contrib-play-soundfile",
@@ -29724,6 +29702,24 @@
         "data"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-kafka-client"
+    },
+    {
+      "id": "node-red-contrib-join-wait",
+      "version": "0.5.3",
+      "description": "Waits for incoming messages from different input paths to arrive within a fixed time window.",
+      "updated_at": "2022-05-11T03:26:12.303Z",
+      "types": [
+        "join-wait"
+      ],
+      "keywords": [
+        "node-red",
+        "join",
+        "parallel",
+        "timeout",
+        "wait",
+        "merge"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-join-wait"
     },
     {
       "id": "node-red-contrib-hubspot",
@@ -45505,24 +45501,6 @@
         "xlsx"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-xlsx-out"
-    },
-    {
-      "id": "node-red-contrib-join-wait",
-      "version": "0.5.2",
-      "description": "Waits for incoming messages from different input paths to arrive within a fixed time window.",
-      "updated_at": "2021-02-02T18:08:51.386Z",
-      "types": [
-        "join-wait"
-      ],
-      "keywords": [
-        "node-red",
-        "join",
-        "parallel",
-        "timeout",
-        "wait",
-        "merge"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-join-wait"
     },
     {
       "id": "node-red-contrib-milab-butter",
