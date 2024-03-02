@@ -1,7 +1,96 @@
 {
   "name": "Catalogue for Docker",
-  "updated_at": "2024-03-01T15:56:00.866Z",
+  "updated_at": "2024-03-02T15:54:19.301Z",
   "modules": [
+    {
+      "id": "iolinkmaster-mpb10",
+      "version": "1.0.2",
+      "description": "(Unoffical) Node for the MPB10 Sensor made by SICK",
+      "updated_at": "2024-03-02T13:14:49.201Z",
+      "types": [
+        "iolink-SICK-MPB10"
+      ],
+      "keywords": [
+        "iolinkmaster",
+        "node-red",
+        "mpb10"
+      ],
+      "url": "https://flows.nodered.org/node/iolinkmaster-mpb10"
+    },
+    {
+      "id": "node-red-contrib-tcp-client2",
+      "version": "1.1.0",
+      "description": "Dynamic TCP Client",
+      "updated_at": "2024-03-02T11:39:42.027Z",
+      "types": [
+        "tcp-client",
+        "tcp-server"
+      ],
+      "keywords": [
+        "node-red",
+        "node",
+        "tcp",
+        "client",
+        "tcp-client"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-tcp-client2"
+    },
+    {
+      "id": "@machinechat/node-red-node-machinechat",
+      "version": "0.2.1",
+      "description": "Machinechat JEDI connector enables you to easily add enterprise-grade data dashboards data storage, rules and multi-user web-based interface to any  Node-RED project. Machinechat JEDI runs locally on Microsoft Windows, Raspberry Pi OS, Linux and Apple mac",
+      "updated_at": "2024-03-02T11:25:19.270Z",
+      "types": [
+        "machinechat-jedi-connector"
+      ],
+      "keywords": [
+        "Machinechat",
+        "Dashboard",
+        "Rules",
+        "RBE",
+        "Storage",
+        "Report",
+        "Notification",
+        "node-red"
+      ],
+      "url": "https://flows.nodered.org/node/@machinechat/node-red-node-machinechat"
+    },
+    {
+      "id": "@infozap/node-red-contrib-ai-gpt-intent",
+      "version": "1.0.2",
+      "description": "Uma coleção de nós para elevar as interações de automação de um usuário",
+      "updated_at": "2024-03-02T00:15:11.638Z",
+      "types": [
+        "Register Intent",
+        "Call Intent",
+        "OpenAI User",
+        "OpenAI System",
+        "OpenAI Chat",
+        "OpenAI Response",
+        "A.I Tool",
+        "openai-configuration"
+      ],
+      "keywords": [
+        "node-red"
+      ],
+      "url": "https://flows.nodered.org/node/@infozap/node-red-contrib-ai-gpt-intent"
+    },
+    {
+      "id": "node-red-contrib-iberdrola",
+      "version": "1.2.2",
+      "description": "A Node-RED node which connects to i-DE iberdrola api and returns your consumption data",
+      "updated_at": "2024-03-01T19:41:58.454Z",
+      "types": [
+        "iberdrola"
+      ],
+      "keywords": [
+        "node-red",
+        "node-red-contrib-iberdrola",
+        "contrib",
+        "iberdrola"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-iberdrola"
+    },
     {
       "id": "@tataille/node-red-french-holidays",
       "version": "1.2.2",
@@ -500,21 +589,6 @@
       "url": "https://flows.nodered.org/node/@renyoo/node-red-dfrobot_noderedcomputer"
     },
     {
-      "id": "iolinkmaster-mpb10",
-      "version": "1.0.1",
-      "description": "(Unoffical) Node for the MPB10 Sensor made by SICK",
-      "updated_at": "2024-02-28T10:35:09.308Z",
-      "types": [
-        "iolink-SICK-MPB10"
-      ],
-      "keywords": [
-        "iolinkmaster",
-        "node-red",
-        "mpb10"
-      ],
-      "url": "https://flows.nodered.org/node/iolinkmaster-mpb10"
-    },
-    {
       "id": "node-red-contrib-tak-registration",
       "version": "0.11.6",
       "description": "A Node-RED node to register to TAK and to help wrap files as datapackages to send to TAK",
@@ -775,23 +849,6 @@
         "ai"
       ],
       "url": "https://flows.nodered.org/node/@runvnc/node-red-chatgpt-model"
-    },
-    {
-      "id": "node-red-contrib-tcp-client2",
-      "version": "1.0.0",
-      "description": "Dynamic TCP Client",
-      "updated_at": "2024-02-26T18:14:05.706Z",
-      "types": [
-        "tcp-client"
-      ],
-      "keywords": [
-        "node-red",
-        "node",
-        "tcp",
-        "client",
-        "tcp-client"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-tcp-client2"
     },
     {
       "id": "node-red-contrib-axis-host",
@@ -6129,23 +6186,6 @@
         "oracledb"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-oracledb-mod"
-    },
-    {
-      "id": "node-red-contrib-iberdrola",
-      "version": "1.2.1",
-      "description": "A Node-RED node which connects to i-DE iberdrola api and returns your consumption data",
-      "updated_at": "2023-12-15T19:53:00.510Z",
-      "types": [
-        "iberdrola"
-      ],
-      "keywords": [
-        "node-red",
-        "node-red-contrib-iberdrola",
-        "contrib",
-        "iberdrola",
-        "ping"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-iberdrola"
     },
     {
       "id": "node-red-contrib-simple-gemini-vision",
@@ -33259,26 +33299,6 @@
         "global grassroot community"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-openaq"
-    },
-    {
-      "id": "@machinechat/node-red-node-machinechat",
-      "version": "0.1.9",
-      "description": "Machinechat JEDI connector enables you to easily add enterprise-grade data dashboards data storage, rules and multi-user web-based interface to any  Node-RED project. Machinechat JEDI runs locally on Microsoft Windows,  Raspberry Pi OS, Linux and Apple ma",
-      "updated_at": "2022-02-03T15:03:45.792Z",
-      "types": [
-        "machinechat-jedi-connector"
-      ],
-      "keywords": [
-        "Machinechat",
-        "Dashboard",
-        "Rules",
-        "RBE",
-        "Storage",
-        "Report",
-        "Notification",
-        "node-red"
-      ],
-      "url": "https://flows.nodered.org/node/@machinechat/node-red-node-machinechat"
     },
     {
       "id": "node-red-contrib-tb-device-controller",
