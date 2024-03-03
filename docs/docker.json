@@ -1,7 +1,69 @@
 {
   "name": "Catalogue for Docker",
-  "updated_at": "2024-03-02T15:54:19.301Z",
+  "updated_at": "2024-03-03T15:53:04.659Z",
   "modules": [
+    {
+      "id": "node-red-contrib-tcp-client2",
+      "version": "1.1.1",
+      "description": "Dynamic TCP Client",
+      "updated_at": "2024-03-03T12:54:34.811Z",
+      "types": [
+        "tcp-client",
+        "tcp-server"
+      ],
+      "keywords": [
+        "node-red",
+        "node",
+        "tcp",
+        "client",
+        "tcp-client"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-tcp-client2"
+    },
+    {
+      "id": "@nagisa~/node-red-systemair-save",
+      "version": "1.0.1",
+      "description": "Node-RED nodes to interact with SystemAIR’s SAVE line of products",
+      "updated_at": "2024-03-02T17:23:10.416Z",
+      "types": [
+        "systemair register",
+        "systemair save device"
+      ],
+      "keywords": [
+        "node-red",
+        "systemair"
+      ],
+      "url": "https://flows.nodered.org/node/@nagisa~/node-red-systemair-save"
+    },
+    {
+      "id": "@plus4nodered/node-red-contrib-wago-cc100",
+      "version": "1.0.0",
+      "description": "A WAGO CC100 contribution package for Node-RED.",
+      "updated_at": "2024-03-02T15:42:56.170Z",
+      "types": [
+        "Set-DO1",
+        "Set-DO2",
+        "Set-DO3",
+        "Set-DO4",
+        "Read-DO",
+        "Read-DI",
+        "Set-AO1",
+        "Set-AO2",
+        "Read-AO",
+        "Read-AI1",
+        "Read-AI2",
+        "Read-PT1",
+        "Read-PT2"
+      ],
+      "keywords": [
+        "node-red",
+        "plus4nodered",
+        "wago",
+        "CC100",
+        "automation"
+      ],
+      "url": "https://flows.nodered.org/node/@plus4nodered/node-red-contrib-wago-cc100"
+    },
     {
       "id": "iolinkmaster-mpb10",
       "version": "1.0.2",
@@ -16,24 +78,6 @@
         "mpb10"
       ],
       "url": "https://flows.nodered.org/node/iolinkmaster-mpb10"
-    },
-    {
-      "id": "node-red-contrib-tcp-client2",
-      "version": "1.1.0",
-      "description": "Dynamic TCP Client",
-      "updated_at": "2024-03-02T11:39:42.027Z",
-      "types": [
-        "tcp-client",
-        "tcp-server"
-      ],
-      "keywords": [
-        "node-red",
-        "node",
-        "tcp",
-        "client",
-        "tcp-client"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-tcp-client2"
     },
     {
       "id": "@machinechat/node-red-node-machinechat",
@@ -22349,35 +22393,6 @@
         "clip"
       ],
       "url": "https://flows.nodered.org/node/@hurenkam/node-red-hue-services"
-    },
-    {
-      "id": "@plus4nodered/node-red-contrib-wago-cc100",
-      "version": "0.1.5",
-      "description": "A WAGO CC100 contribution package for Node-RED.",
-      "updated_at": "2022-12-08T16:28:49.684Z",
-      "types": [
-        "Set-DO1",
-        "Set-DO2",
-        "Set-DO3",
-        "Set-DO4",
-        "Read-DO",
-        "Read-DI",
-        "Set-AO1",
-        "Set-AO2",
-        "Read-AO",
-        "Read-AI1",
-        "Read-AI2",
-        "Read-PT1",
-        "Read-PT2"
-      ],
-      "keywords": [
-        "node-red",
-        "wago",
-        "CC100",
-        "automation",
-        "biancoroyal"
-      ],
-      "url": "https://flows.nodered.org/node/@plus4nodered/node-red-contrib-wago-cc100"
     },
     {
       "id": "lighttalk_relay_nodes",
