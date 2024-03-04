@@ -1,0 +1,57 @@
+#0 building with "default" instance using docker driver
+
+#1 [internal] load .dockerignore
+#1 transferring context: 2B done
+#1 DONE 0.0s
+
+#2 [internal] load build definition from Dockerfile
+#2 transferring dockerfile: 120B done
+#2 DONE 0.0s
+
+#3 [internal] load metadata for docker.io/nodered/node-red:latest
+#3 DONE 0.1s
+
+#4 [1/2] FROM docker.io/nodered/node-red@sha256:3d968a967d27b37388ea14019a75b2b2660b208ae3b500269c71e01eca67f28a
+#4 CACHED
+
+#5 [2/2] RUN npm install npm install @thingweb/node-red-node-wot@1.0.1
+#5 13.65 npm WARN EBADENGINE Unsupported engine {
+#5 13.65 npm WARN EBADENGINE   package: 'npm@10.5.0',
+#5 13.65 npm WARN EBADENGINE   required: { node: '^18.17.0 || >=20.5.0' },
+#5 13.65 npm WARN EBADENGINE   current: { node: 'v16.20.2', npm: '8.19.4' }
+#5 13.65 npm WARN EBADENGINE }
+#5 13.66 npm WARN EBADENGINE Unsupported engine {
+#5 13.66 npm WARN EBADENGINE   package: 'fast-unique-numbers@9.0.1',
+#5 13.66 npm WARN EBADENGINE   required: { node: '>=18.2.0' },
+#5 13.66 npm WARN EBADENGINE   current: { node: 'v16.20.2', npm: '8.19.4' }
+#5 13.66 npm WARN EBADENGINE }
+#5 24.83 
+#5 24.83 added 358 packages, and audited 883 packages in 24s
+#5 24.83 
+#5 24.83 101 packages are looking for funding
+#5 24.83   run `npm fund` for details
+#5 24.88 
+#5 24.88 20 high severity vulnerabilities
+#5 24.88 
+#5 24.88 To address issues that do not require attention, run:
+#5 24.88   npm audit fix
+#5 24.88 
+#5 24.88 Some issues need review, and may require choosing
+#5 24.88 a different dependency.
+#5 24.88 
+#5 24.88 Run `npm audit` for details.
+#5 24.88 npm notice 
+#5 24.88 npm notice New major version of npm available! 8.19.4 -> 10.5.0
+#5 24.88 npm notice Changelog: <https://github.com/npm/cli/releases/tag/v10.5.0>
+#5 24.88 npm notice Run `npm install -g npm@10.5.0` to update!
+#5 24.88 npm notice 
+#5 DONE 25.3s
+
+#6 exporting to image
+#6 exporting layers
+#6 exporting layers 3.3s done
+#6 writing image sha256:8d9626bbcede509dad6c6c8ee4efe0ec3be951adebbf4bcdb583db16e78a8321 done
+#6 naming to docker.io/library/tmp done
+#6 DONE 3.3s
+
+----
