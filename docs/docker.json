@@ -1,7 +1,207 @@
 {
   "name": "Catalogue for Docker",
-  "updated_at": "2024-03-03T15:53:04.659Z",
+  "updated_at": "2024-03-04T15:56:37.832Z",
   "modules": [
+    {
+      "id": "@blebtechnology/node-red-blebricks",
+      "version": "1.0.20",
+      "description": "A node-red package to manage blebricks data",
+      "updated_at": "2024-03-04T12:23:22.829Z",
+      "types": [
+        "CHT",
+        "ENV",
+        "OAQ",
+        "BLEB_TEMP",
+        "PTX",
+        "MAG",
+        "SOIL",
+        "LGH",
+        "UHF",
+        "PRT",
+        "REL",
+        "RELOUT",
+        "WPLOUT",
+        "VBROUT",
+        "BUZOUT",
+        "IRTOUT",
+        "ODCOUT",
+        "ODC",
+        "WPL",
+        "VBR",
+        "BUZ",
+        "IRT",
+        "PLV",
+        "WND",
+        "SOL",
+        "PYR",
+        "CMS",
+        "RHT",
+        "UVA",
+        "RGB",
+        "CLT",
+        "IMU",
+        "ACC",
+        "PDM",
+        "CAP",
+        "IRR",
+        "SMS",
+        "DSD",
+        "BLEB_IN",
+        "BLEB_RPS",
+        "SFX",
+        "ESP",
+        "UWS",
+        "RMS",
+        "VMS",
+        "GPS",
+        "BLEB_CNT",
+        "PMX",
+        "PROTECTOR",
+        "LCDOUT",
+        "SLS",
+        "PWMOUT",
+        "TPD",
+        "LEDOUT"
+      ],
+      "keywords": [
+        "node-red"
+      ],
+      "url": "https://flows.nodered.org/node/@blebtechnology/node-red-blebricks"
+    },
+    {
+      "id": "node-red-contrib-meross-cloud",
+      "version": "1.1.2",
+      "description": "A module to connect with Meross Cloud Services",
+      "updated_at": "2024-03-04T12:14:46.777Z",
+      "types": [
+        "merosslib-config",
+        "meross-smartplug",
+        "meross-switch",
+        "meross-garage"
+      ],
+      "keywords": [
+        "node-red",
+        "meross"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-meross-cloud"
+    },
+    {
+      "id": "@thingweb/node-red-node-wot",
+      "version": "1.0.1",
+      "description": "Web of Things nodes for Node-RED using node-wot",
+      "updated_at": "2024-03-04T12:08:42.539Z",
+      "types": [
+        "consumed-thing",
+        "read-property",
+        "write-property",
+        "invoke-action",
+        "subscribe-event",
+        "wot-server-config",
+        "wot-thing-config",
+        "wot-server-end",
+        "wot-server-property",
+        "wot-server-action",
+        "wot-server-event"
+      ],
+      "keywords": [
+        "internet-of-things",
+        "iot",
+        "web-of-things",
+        "wot",
+        "node-red"
+      ],
+      "url": "https://flows.nodered.org/node/@thingweb/node-red-node-wot"
+    },
+    {
+      "id": "node-red-contrib-web-worldmap",
+      "version": "4.6.3",
+      "description": "A Node-RED node to provide a web page of a world map for plotting things on.",
+      "updated_at": "2024-03-04T10:00:35.686Z",
+      "types": [
+        "worldmap",
+        "ui_worldmap",
+        "worldmap in",
+        "worldmap-tracks",
+        "worldmap-hull"
+      ],
+      "keywords": [
+        "node-red",
+        "map",
+        "world",
+        "tak",
+        "pmtiles",
+        "esri",
+        "gis"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-web-worldmap"
+    },
+    {
+      "id": "node-red-contrib-data-validator",
+      "version": "1.0.0",
+      "description": "A simple Node-RED node to validate the data type of incoming messages payload.",
+      "updated_at": "2024-03-04T08:33:21.533Z",
+      "types": [
+        "data-validator"
+      ],
+      "keywords": [
+        "node-red",
+        "data",
+        "validator",
+        "input",
+        "data type",
+        "switch"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-data-validator"
+    },
+    {
+      "id": "apconic-postgresql",
+      "version": "0.0.2",
+      "description": "Node for weight parser",
+      "updated_at": "2024-03-04T08:27:52.866Z",
+      "types": [
+        "postgreDBConfig",
+        "postgresql-connect"
+      ],
+      "keywords": [
+        "node-red"
+      ],
+      "url": "https://flows.nodered.org/node/apconic-postgresql"
+    },
+    {
+      "id": "@siglesiasg/node-red-event-manager",
+      "version": "0.0.3",
+      "description": "Event Manager for Node Red",
+      "updated_at": "2024-03-03T18:16:58.044Z",
+      "types": [],
+      "keywords": [
+        "node-red",
+        "event-management",
+        "flow-management",
+        "flow-controller",
+        "flow",
+        "slots",
+        "queue"
+      ],
+      "url": "https://flows.nodered.org/node/@siglesiasg/node-red-event-manager"
+    },
+    {
+      "id": "@gregoriusrippenstein/node-red-contrib-flowhub",
+      "version": "0.5.3",
+      "description": "Nodes for interacting with FlowHub.org.",
+      "updated_at": "2024-03-03T16:36:26.204Z",
+      "types": [
+        "FlowHubPull",
+        "FlowHubCfg"
+      ],
+      "keywords": [
+        "node-red",
+        "flowhub",
+        "flow-sharing",
+        "collaborative",
+        "flow-development"
+      ],
+      "url": "https://flows.nodered.org/node/@gregoriusrippenstein/node-red-contrib-flowhub"
+    },
     {
       "id": "node-red-contrib-tcp-client2",
       "version": "1.1.1",
@@ -78,6 +278,32 @@
         "mpb10"
       ],
       "url": "https://flows.nodered.org/node/iolinkmaster-mpb10"
+    },
+    {
+      "id": "@mschaeffler/node-red-logic",
+      "version": "2.2.1",
+      "description": "nodes for simple operations.",
+      "updated_at": "2024-03-02T11:34:34.182Z",
+      "types": [
+        "counter",
+        "tobool",
+        "not",
+        "or",
+        "and",
+        "tonumber",
+        "negate",
+        "reduce",
+        "__errors__",
+        "fallingEdge",
+        "raisingEdge",
+        "hysteresisEdge",
+        "statistics",
+        "mean"
+      ],
+      "keywords": [
+        "node-red"
+      ],
+      "url": "https://flows.nodered.org/node/@mschaeffler/node-red-logic"
     },
     {
       "id": "@machinechat/node-red-node-machinechat",
@@ -185,20 +411,6 @@
       "url": "https://flows.nodered.org/node/@semilimes/node-red-semilimes"
     },
     {
-      "id": "@siglesiasg/node-red-event-manager",
-      "version": "0.0.1",
-      "description": "Event Manager for Node Red",
-      "updated_at": "2024-03-01T08:21:07.209Z",
-      "types": [
-        "event-manager-dispatcher",
-        "event-manager-checkpoint"
-      ],
-      "keywords": [
-        "node-red"
-      ],
-      "url": "https://flows.nodered.org/node/@siglesiasg/node-red-event-manager"
-    },
-    {
       "id": "@gotillit/tillit-node-red",
       "version": "1.3.4",
       "description": "A TilliT node for Node-RED",
@@ -261,24 +473,6 @@
         "node-red"
       ],
       "url": "https://flows.nodered.org/node/@victronenergy/node-red-contrib-victron"
-    },
-    {
-      "id": "@gregoriusrippenstein/node-red-contrib-flowhub",
-      "version": "0.5.2",
-      "description": "Nodes for interacting with FlowHub.org.",
-      "updated_at": "2024-02-29T17:39:11.573Z",
-      "types": [
-        "FlowHubPull",
-        "FlowHubCfg"
-      ],
-      "keywords": [
-        "node-red",
-        "flowhub",
-        "flow-sharing",
-        "collaborative",
-        "flow-development"
-      ],
-      "url": "https://flows.nodered.org/node/@gregoriusrippenstein/node-red-contrib-flowhub"
     },
     {
       "id": "@flowfuse/node-red-dashboard",
@@ -1365,6 +1559,26 @@
       "url": "https://flows.nodered.org/node/@orbis-developers/node-red-viaris"
     },
     {
+      "id": "@mschaeffler/node-red-lora",
+      "version": "3.2.3",
+      "description": "Five nodes to send and receive LoRaWan messages via a gateway via the Semtech UDP protocol.",
+      "updated_at": "2024-02-22T07:46:32.938Z",
+      "types": [
+        "lorawan-server",
+        "lorawan-keys",
+        "lorawan-packet-decoder",
+        "lorawan-packet-encoder",
+        "lorawan-packet-checkFC",
+        "lorawan-queue-message"
+      ],
+      "keywords": [
+        "node-red",
+        "lora",
+        "LoRaWan"
+      ],
+      "url": "https://flows.nodered.org/node/@mschaeffler/node-red-lora"
+    },
+    {
       "id": "node-red-contrib-sonos-plus",
       "version": "6.7.6",
       "description": "A set of Node-RED nodes to control SONOS player in your local network.",
@@ -2440,29 +2654,6 @@
       "url": "https://flows.nodered.org/node/node-red-contrib-alice"
     },
     {
-      "id": "node-red-contrib-web-worldmap",
-      "version": "4.6.2",
-      "description": "A Node-RED node to provide a web page of a world map for plotting things on.",
-      "updated_at": "2024-02-08T11:45:11.276Z",
-      "types": [
-        "worldmap",
-        "ui_worldmap",
-        "worldmap in",
-        "worldmap-tracks",
-        "worldmap-hull"
-      ],
-      "keywords": [
-        "node-red",
-        "map",
-        "world",
-        "tak",
-        "pmtiles",
-        "esri",
-        "gis"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-web-worldmap"
-    },
-    {
       "id": "node-red-contrib-onstar2",
       "version": "2.1.21",
       "description": "An updated Node-RED Library using OnStarJS, an unofficial client library for the OnStar Vehicle API",
@@ -2835,32 +3026,6 @@
         "node-red"
       ],
       "url": "https://flows.nodered.org/node/smithtek-node-red-format"
-    },
-    {
-      "id": "@mschaeffler/node-red-logic",
-      "version": "1.5.0",
-      "description": "nodes for simple operations.",
-      "updated_at": "2024-02-03T10:20:09.294Z",
-      "types": [
-        "counter",
-        "tobool",
-        "not",
-        "or",
-        "and",
-        "tonumber",
-        "negate",
-        "reduce",
-        "__errors__",
-        "fallingEdge",
-        "raisingEdge",
-        "hysteresisEdge",
-        "statistics",
-        "mean"
-      ],
-      "keywords": [
-        "node-red"
-      ],
-      "url": "https://flows.nodered.org/node/@mschaeffler/node-red-logic"
     },
     {
       "id": "node-red-contrib-ifm-al13xx",
@@ -4055,71 +4220,6 @@
       "url": "https://flows.nodered.org/node/node-red-contrib-line-messaging-api"
     },
     {
-      "id": "@blebtechnology/node-red-blebricks",
-      "version": "1.0.19",
-      "description": "A node-red package to manage blebricks data",
-      "updated_at": "2024-01-18T14:51:41.655Z",
-      "types": [
-        "CHT",
-        "ENV",
-        "OAQ",
-        "BLEB_TEMP",
-        "PTX",
-        "MAG",
-        "SOIL",
-        "LGH",
-        "UHF",
-        "PRT",
-        "REL",
-        "RELOUT",
-        "WPLOUT",
-        "VBROUT",
-        "BUZOUT",
-        "IRTOUT",
-        "ODCOUT",
-        "ODC",
-        "WPL",
-        "VBR",
-        "BUZ",
-        "IRT",
-        "PLV",
-        "WND",
-        "SOL",
-        "PYR",
-        "CMS",
-        "RHT",
-        "UVA",
-        "RGB",
-        "CLT",
-        "IMU",
-        "ACC",
-        "PDM",
-        "CAP",
-        "IRR",
-        "SMS",
-        "DSD",
-        "BLEB_IN",
-        "BLEB_RPS",
-        "SFX",
-        "ESP",
-        "UWS",
-        "RMS",
-        "VMS",
-        "GPS",
-        "BLEB_CNT",
-        "PMX",
-        "PROTECTOR",
-        "LCDOUT",
-        "SLS",
-        "PWMOUT",
-        "TPD"
-      ],
-      "keywords": [
-        "node-red"
-      ],
-      "url": "https://flows.nodered.org/node/@blebtechnology/node-red-blebricks"
-    },
-    {
       "id": "@coremarine/nr-norsub-emru",
       "version": "1.0.1",
       "description": "Node-Red component to work with NorSub eMRU devices",
@@ -4369,26 +4469,6 @@
         "usb"
       ],
       "url": "https://flows.nodered.org/node/@gdziuba/node-red-usbhid"
-    },
-    {
-      "id": "@mschaeffler/node-red-lora",
-      "version": "3.2.2",
-      "description": "Five nodes to send and receive LoRaWan messages via a gateway via the Semtech UDP protocol.",
-      "updated_at": "2024-01-16T13:37:27.772Z",
-      "types": [
-        "lorawan-server",
-        "lorawan-keys",
-        "lorawan-packet-decoder",
-        "lorawan-packet-encoder",
-        "lorawan-packet-checkFC",
-        "lorawan-queue-message"
-      ],
-      "keywords": [
-        "node-red",
-        "lora",
-        "LoRaWan"
-      ],
-      "url": "https://flows.nodered.org/node/@mschaeffler/node-red-lora"
     },
     {
       "id": "@coremarine/nr-nmea-parser",
@@ -12919,21 +12999,6 @@
         "node-red"
       ],
       "url": "https://flows.nodered.org/node/six_hash"
-    },
-    {
-      "id": "node-red-contrib-meross-cloud",
-      "version": "1.0.4",
-      "description": "A module to connect with Meross Cloud Services",
-      "updated_at": "2023-08-15T15:43:30.448Z",
-      "types": [
-        "merosslib-config",
-        "meross-smartplug"
-      ],
-      "keywords": [
-        "node-red",
-        "meross"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-meross-cloud"
     },
     {
       "id": "node-red-contrib-simplepush",
