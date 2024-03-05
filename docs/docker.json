@@ -1,7 +1,526 @@
 {
   "name": "Catalogue for Docker",
-  "updated_at": "2024-03-04T15:56:37.832Z",
+  "updated_at": "2024-03-05T15:57:54.684Z",
   "modules": [
+    {
+      "id": "node-red-contrib-peak-value-range",
+      "version": "0.0.1",
+      "description": "A Node-RED node for filtering values within a specified range and finding the peak value.",
+      "updated_at": "2024-03-05T12:10:41.711Z",
+      "types": [
+        "peak-value-range"
+      ],
+      "keywords": [
+        "node-red",
+        "peak",
+        "value",
+        "range",
+        "filter",
+        "peak detection"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-peak-value-range"
+    },
+    {
+      "id": "@helix_italia/node-red-helix-odbc",
+      "version": "0.0.8",
+      "description": "NodeRed ODBC",
+      "updated_at": "2024-03-05T11:26:09.057Z",
+      "types": [
+        "hx-odbc-connect"
+      ],
+      "keywords": [
+        "node-red",
+        "ODBC",
+        "helix",
+        "database"
+      ],
+      "url": "https://flows.nodered.org/node/@helix_italia/node-red-helix-odbc"
+    },
+    {
+      "id": "@renyoo/node-red-dfrobot_noderedcomputer",
+      "version": "1.0.5",
+      "description": "node red nodes for NodeREDComputer",
+      "updated_at": "2024-03-05T10:19:37.334Z",
+      "types": [
+        "GPIO Out",
+        "GPIO In",
+        "ADC",
+        "DAC",
+        "Dev Event",
+        "ESP32 Burn",
+        "IO Interrupt",
+        "Flow Count",
+        "Special Event",
+        "RockchipBurn"
+      ],
+      "keywords": [
+        "node-red",
+        "dfrobot",
+        "NodeREDComputer"
+      ],
+      "url": "https://flows.nodered.org/node/@renyoo/node-red-dfrobot_noderedcomputer"
+    },
+    {
+      "id": "node-red-contrib-axis-host",
+      "version": "1.3.5",
+      "description": "Axis Devices resource binding nodes that provides access to events, image capture and analytics data.  Node-RED must be running on the Axis Device.",
+      "updated_at": "2024-03-05T10:15:36.024Z",
+      "types": [
+        "Events",
+        "Camera",
+        "Trigger",
+        "Objects"
+      ],
+      "keywords": [
+        "node-red",
+        "Axis"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-axis-host"
+    },
+    {
+      "id": "@gregoriusrippenstein/node-red-contrib-validation-and-documentation",
+      "version": "0.1.1",
+      "description": "JSON Schema validator for Node Red",
+      "updated_at": "2024-03-05T10:06:41.524Z",
+      "types": [
+        "JsonSchemaValidatorWithDocu"
+      ],
+      "keywords": [
+        "json",
+        "node",
+        "node-red",
+        "schema"
+      ],
+      "url": "https://flows.nodered.org/node/@gregoriusrippenstein/node-red-contrib-validation-and-documentation"
+    },
+    {
+      "id": "@gregoriusrippenstein/node-red-contrib-aisbreaker",
+      "version": "0.1.18",
+      "description": "Node-RED wrapper node for AIsBreaker.org",
+      "updated_at": "2024-03-05T10:03:12.742Z",
+      "types": [
+        "AIsBreaker"
+      ],
+      "keywords": [
+        "node-red",
+        "algorithmic-intelligence",
+        "ai",
+        "generative-ai",
+        "openai",
+        "huggingface"
+      ],
+      "url": "https://flows.nodered.org/node/@gregoriusrippenstein/node-red-contrib-aisbreaker"
+    },
+    {
+      "id": "@gregoriusrippenstein/node-red-contrib-filetype",
+      "version": "0.0.4",
+      "description": "Wrapper node around the file-type npmjs package.",
+      "updated_at": "2024-03-05T10:00:20.859Z",
+      "types": [
+        "filetype"
+      ],
+      "keywords": [
+        "node-red",
+        "file-type",
+        "filetype",
+        "file"
+      ],
+      "url": "https://flows.nodered.org/node/@gregoriusrippenstein/node-red-contrib-filetype"
+    },
+    {
+      "id": "@gregoriusrippenstein/node-red-contrib-flow2uml",
+      "version": "0.1.10",
+      "description": "Convert Node-RED to Mermaid UML flowchart diagram.",
+      "updated_at": "2024-03-05T09:57:17.377Z",
+      "types": [
+        "Flow2MermaidCfg"
+      ],
+      "keywords": [
+        "node-red",
+        "uml",
+        "mermaid"
+      ],
+      "url": "https://flows.nodered.org/node/@gregoriusrippenstein/node-red-contrib-flow2uml"
+    },
+    {
+      "id": "@gregoriusrippenstein/node-red-contrib-flowcompare",
+      "version": "0.1.4",
+      "description": "Compare editor flow with the flow deployed to the server.",
+      "updated_at": "2024-03-05T09:53:39.569Z",
+      "types": [
+        "FlowCompareCfg"
+      ],
+      "keywords": [
+        "node-red",
+        "comparison",
+        "flow-comparison"
+      ],
+      "url": "https://flows.nodered.org/node/@gregoriusrippenstein/node-red-contrib-flowcompare"
+    },
+    {
+      "id": "@gregoriusrippenstein/node-red-contrib-neuralnet-builder",
+      "version": "0.1.0",
+      "description": "Node-RED Nodes for creating Artificial Neural Networks (ANNs) using Node-Red.",
+      "updated_at": "2024-03-05T09:40:22.507Z",
+      "types": [
+        "nnb-input-node",
+        "nnb-layer-node",
+        "nnb-output-node",
+        "nnb-backprop",
+        "nnb-trainer"
+      ],
+      "keywords": [
+        "node-red",
+        "artificial neural networks",
+        "ANN"
+      ],
+      "url": "https://flows.nodered.org/node/@gregoriusrippenstein/node-red-contrib-neuralnet-builder"
+    },
+    {
+      "id": "@gregoriusrippenstein/node-red-contrib-tarball",
+      "version": "0.1.0",
+      "description": "Create tar files and extract tarballs in xz and gzip formats",
+      "updated_at": "2024-03-05T09:32:15.227Z",
+      "types": [
+        "tarball"
+      ],
+      "keywords": [
+        "node-red",
+        "tar",
+        "xz",
+        "gzip",
+        "tarball",
+        "archive"
+      ],
+      "url": "https://flows.nodered.org/node/@gregoriusrippenstein/node-red-contrib-tarball"
+    },
+    {
+      "id": "@gregoriusrippenstein/node-red-contrib-uglifyjs",
+      "version": "0.0.8",
+      "description": "Node-RED wrapper node around the uglify-js package.",
+      "updated_at": "2024-03-05T09:23:40.065Z",
+      "types": [
+        "UglifyJS",
+        "MinifyCSS"
+      ],
+      "keywords": [
+        "node-red",
+        "uglifyjs",
+        "uglify-js"
+      ],
+      "url": "https://flows.nodered.org/node/@gregoriusrippenstein/node-red-contrib-uglifyjs"
+    },
+    {
+      "id": "@gregoriusrippenstein/node-red-streaming",
+      "version": "0.0.11",
+      "description": "Nodes to make streaming possible in Node-RED.",
+      "updated_at": "2024-03-05T09:19:10.639Z",
+      "types": [
+        "PipeStart",
+        "FileStream",
+        "HttpRequestStream",
+        "CsvStream",
+        "JsonLStream",
+        "LineStream",
+        "IconvStream",
+        "Chunk2Msg",
+        "DeCompStream",
+        "ArchiveStream",
+        "PipeEnd"
+      ],
+      "keywords": [
+        "node-red",
+        "streaming",
+        "pipeline",
+        "etl",
+        "streamapi"
+      ],
+      "url": "https://flows.nodered.org/node/@gregoriusrippenstein/node-red-streaming"
+    },
+    {
+      "id": "@gregoriusrippenstein/node-red-contrib-introspection",
+      "version": "0.6.11",
+      "description": "Node-RED Editor-only nodes for introspecting with flows in the frontend.",
+      "updated_at": "2024-03-05T09:11:59.957Z",
+      "types": [
+        "Seeker",
+        "Sink",
+        "GetFlows",
+        "SendFlow",
+        "ClientCode"
+      ],
+      "keywords": [
+        "node-red",
+        "introspection",
+        "selfreflection",
+        "node-red-editor",
+        "screenshot"
+      ],
+      "url": "https://flows.nodered.org/node/@gregoriusrippenstein/node-red-contrib-introspection"
+    },
+    {
+      "id": "@gregoriusrippenstein/node-red-contrib-nodedev",
+      "version": "0.3.2",
+      "description": "Support the development of Node-RED nodes within Node-RED.",
+      "updated_at": "2024-03-05T09:07:52.545Z",
+      "types": [
+        "NodeDevOps",
+        "NodeFactory",
+        "PkgFile",
+        "NpmTarBall",
+        "NodeRedInstall",
+        "NpmPublish",
+        "NodeFactorySidebarCfg"
+      ],
+      "keywords": [
+        "node-red",
+        "node development",
+        "introspection",
+        "bootstrapping",
+        "recursion"
+      ],
+      "url": "https://flows.nodered.org/node/@gregoriusrippenstein/node-red-contrib-nodedev"
+    },
+    {
+      "id": "node-red-contrib-mastodon",
+      "version": "0.1.1",
+      "description": "Mastodon node for node-red platform",
+      "updated_at": "2024-03-05T08:56:41.503Z",
+      "types": [
+        "sendMessage",
+        "getMessage"
+      ],
+      "keywords": [
+        "node-red",
+        "mastodon"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-mastodon"
+    },
+    {
+      "id": "@gregoriusrippenstein/node-red-contrib-flowhub",
+      "version": "0.5.4",
+      "description": "Nodes for interacting with FlowHub.org.",
+      "updated_at": "2024-03-05T08:45:31.438Z",
+      "types": [
+        "FlowHubPull",
+        "FlowHubCfg"
+      ],
+      "keywords": [
+        "node-red",
+        "flowhub",
+        "flow-sharing",
+        "collaborative",
+        "flow-development"
+      ],
+      "url": "https://flows.nodered.org/node/@gregoriusrippenstein/node-red-contrib-flowhub"
+    },
+    {
+      "id": "@tec6/node-red-pisignage-services",
+      "version": "0.1.0",
+      "description": "A node providing the services offered by the RESTful API of pisignage.",
+      "updated_at": "2024-03-05T08:04:24.283Z",
+      "types": [
+        "client-pisignage-credentials",
+        "pisignage-services"
+      ],
+      "keywords": [
+        "node-red",
+        "pisignage"
+      ],
+      "url": "https://flows.nodered.org/node/@tec6/node-red-pisignage-services"
+    },
+    {
+      "id": "@skylord123/event-listener",
+      "version": "0.0.3",
+      "description": "Emit, listen for, and wait on events using nodes in Node-RED",
+      "updated_at": "2024-03-05T07:16:51.759Z",
+      "types": [
+        "event-listener-namespace",
+        "event-listener-emit",
+        "event-listener-on",
+        "event-listener-wait-for"
+      ],
+      "keywords": [
+        "node-red",
+        "event",
+        "listener",
+        "wait",
+        "for",
+        "on"
+      ],
+      "url": "https://flows.nodered.org/node/@skylord123/event-listener"
+    },
+    {
+      "id": "@datuo/node-red-wh-lower-case",
+      "version": "1.0.3",
+      "description": "这是node-red转小写的自定义节点",
+      "updated_at": "2024-03-05T03:40:25.684Z",
+      "types": [
+        "lower-case"
+      ],
+      "keywords": [
+        "node-red"
+      ],
+      "url": "https://flows.nodered.org/node/@datuo/node-red-wh-lower-case"
+    },
+    {
+      "id": "node-red-contrib-grovepi-iot4h",
+      "version": "0.1.2",
+      "description": "Node Red nodes for IoT4H workshops and the use of GrovePi+ sensors and actuators.",
+      "updated_at": "2024-03-05T03:07:25.320Z",
+      "types": [
+        "saveVariable",
+        "loadVariable",
+        "timestamp",
+        "comparisonFilter",
+        "thresholdFilter",
+        "variableFilter",
+        "movingAverage",
+        "arrayIndex",
+        "grovepi-button",
+        "grovepi-switch",
+        "grovepi-rotary",
+        "grovepi-slidePotentiometer",
+        "grovepi-rgblcd",
+        "grovepi-led",
+        "grovepi-pwm-led",
+        "grovepi-dht11",
+        "grovepi-dht22",
+        "grovepi-analog-input",
+        "grovepi-digital-input",
+        "grovepi-water",
+        "grovepi-moisture",
+        "grovepi-buzzer",
+        "grovepi-piezo",
+        "grovepi-gas-sensor",
+        "grovepi-ultrasonic",
+        "grovepi-light-sensor",
+        "grovepi-air-quality",
+        "grovepi-analog-output",
+        "grovepi-digital-output",
+        "grovepi-datapoint-lcd",
+        "grovepi-relay",
+        "grovepi-heart-rate",
+        "grovepi-heart-rate-bpm",
+        "grovepi-gesture-sensor",
+        "grovepi-loudness-sensor"
+      ],
+      "keywords": [
+        "node-red",
+        "iot",
+        "grovepi",
+        "IoT4H"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-grovepi-iot4h"
+    },
+    {
+      "id": "@bithead/node-red-ays-agent",
+      "version": "1.0.2",
+      "description": "Send sample values from HW/SW systems to the At Your Service agent.",
+      "updated_at": "2024-03-05T02:59:01.339Z",
+      "types": [],
+      "keywords": [
+        "node-red",
+        "ays-agent"
+      ],
+      "url": "https://flows.nodered.org/node/@bithead/node-red-ays-agent"
+    },
+    {
+      "id": "node-red-contrib-mqtt-sparkplug-plus",
+      "version": "2.1.0",
+      "description": "MQTT-Sparkplug-Plus is a set of Node-Red nodes, that will enable Node-Red to communicate with a MQTT Server using the sparkplug b protocol.",
+      "updated_at": "2024-03-05T01:57:13.885Z",
+      "types": [
+        "mqtt-sparkplug-broker",
+        "mqtt sparkplug device",
+        "mqtt sparkplug in",
+        "mqtt sparkplug out"
+      ],
+      "keywords": [
+        "MQTT",
+        "Sparkplug",
+        "node-red"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-mqtt-sparkplug-plus"
+    },
+    {
+      "id": "node-red-contrib-power-saver",
+      "version": "4.2.2",
+      "description": "A module for Node-RED that you can use to turn on and off a switch based on power prices",
+      "updated_at": "2024-03-04T18:14:13.347Z",
+      "types": [
+        "ps-receive-price",
+        "ps-strategy-best-save",
+        "ps-strategy-lowest-price",
+        "ps-strategy-heat-capacitor",
+        "ps-strategy-fixed-schedule",
+        "ps-schedule-merger",
+        "ps-elvia-config",
+        "ps-elvia-tariff-types",
+        "ps-elvia-tariff",
+        "ps-elvia-add-tariff",
+        "ps-general-add-tariff"
+      ],
+      "keywords": [
+        "node-red",
+        "tibber",
+        "energy",
+        "smarthome",
+        "home-automation",
+        "home-assistant",
+        "power"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-power-saver"
+    },
+    {
+      "id": "@siglesiasg/node-red-event-manager",
+      "version": "0.0.4",
+      "description": "Event Manager for Node Red",
+      "updated_at": "2024-03-04T17:38:01.648Z",
+      "types": [
+        "event-manager-dispatcher",
+        "event-manager-checkpoint"
+      ],
+      "keywords": [
+        "node-red",
+        "event-management",
+        "flow-management",
+        "flow-controller",
+        "flow",
+        "slots",
+        "queue"
+      ],
+      "url": "https://flows.nodered.org/node/@siglesiasg/node-red-event-manager"
+    },
+    {
+      "id": "@plus4nodered/node-red-contrib-wago-cc100",
+      "version": "2.0.2",
+      "description": "A WAGO CC100 contribution package for Node-RED.",
+      "updated_at": "2024-03-04T16:08:28.656Z",
+      "types": [
+        "CC100-Set-DO1",
+        "CC100-Set-DO2",
+        "CC100-Set-DO3",
+        "CC100-Set-DO4",
+        "CC100-Read-DO",
+        "CC100-Read-DI",
+        "CC100-Set-AO1",
+        "CC100-Set-AO2",
+        "CC100-Read-AO",
+        "CC100-Read-AI1",
+        "CC100-Read-AI2",
+        "CC100-Read-PT1",
+        "CC100-Read-PT2"
+      ],
+      "keywords": [
+        "node-red",
+        "plus4nodered",
+        "wago",
+        "CC100",
+        "automation"
+      ],
+      "url": "https://flows.nodered.org/node/@plus4nodered/node-red-contrib-wago-cc100"
+    },
     {
       "id": "@blebtechnology/node-red-blebricks",
       "version": "1.0.20",
@@ -168,41 +687,6 @@
       "url": "https://flows.nodered.org/node/apconic-postgresql"
     },
     {
-      "id": "@siglesiasg/node-red-event-manager",
-      "version": "0.0.3",
-      "description": "Event Manager for Node Red",
-      "updated_at": "2024-03-03T18:16:58.044Z",
-      "types": [],
-      "keywords": [
-        "node-red",
-        "event-management",
-        "flow-management",
-        "flow-controller",
-        "flow",
-        "slots",
-        "queue"
-      ],
-      "url": "https://flows.nodered.org/node/@siglesiasg/node-red-event-manager"
-    },
-    {
-      "id": "@gregoriusrippenstein/node-red-contrib-flowhub",
-      "version": "0.5.3",
-      "description": "Nodes for interacting with FlowHub.org.",
-      "updated_at": "2024-03-03T16:36:26.204Z",
-      "types": [
-        "FlowHubPull",
-        "FlowHubCfg"
-      ],
-      "keywords": [
-        "node-red",
-        "flowhub",
-        "flow-sharing",
-        "collaborative",
-        "flow-development"
-      ],
-      "url": "https://flows.nodered.org/node/@gregoriusrippenstein/node-red-contrib-flowhub"
-    },
-    {
       "id": "node-red-contrib-tcp-client2",
       "version": "1.1.1",
       "description": "Dynamic TCP Client",
@@ -234,35 +718,6 @@
         "systemair"
       ],
       "url": "https://flows.nodered.org/node/@nagisa~/node-red-systemair-save"
-    },
-    {
-      "id": "@plus4nodered/node-red-contrib-wago-cc100",
-      "version": "1.0.0",
-      "description": "A WAGO CC100 contribution package for Node-RED.",
-      "updated_at": "2024-03-02T15:42:56.170Z",
-      "types": [
-        "Set-DO1",
-        "Set-DO2",
-        "Set-DO3",
-        "Set-DO4",
-        "Read-DO",
-        "Read-DI",
-        "Set-AO1",
-        "Set-AO2",
-        "Read-AO",
-        "Read-AI1",
-        "Read-AI2",
-        "Read-PT1",
-        "Read-PT2"
-      ],
-      "keywords": [
-        "node-red",
-        "plus4nodered",
-        "wago",
-        "CC100",
-        "automation"
-      ],
-      "url": "https://flows.nodered.org/node/@plus4nodered/node-red-contrib-wago-cc100"
     },
     {
       "id": "iolinkmaster-mpb10",
@@ -648,55 +1103,6 @@
       "url": "https://flows.nodered.org/node/node-red-contrib-wazo-platform"
     },
     {
-      "id": "node-red-contrib-grovepi-iot4h",
-      "version": "0.1.0",
-      "description": "Node Red nodes for IoT4H workshops and the use of GrovePi+ sensors and actuators.",
-      "updated_at": "2024-02-29T01:25:02.085Z",
-      "types": [
-        "saveVariable",
-        "loadVariable",
-        "timestamp",
-        "comparisonFilter",
-        "thresholdFilter",
-        "variableFilter",
-        "movingAverage",
-        "grovepi-button",
-        "grovepi-switch",
-        "grovepi-rotary",
-        "grovepi-slidePotentiometer",
-        "grovepi-rgblcd",
-        "grovepi-led",
-        "grovepi-pwm-led",
-        "grovepi-dht11",
-        "grovepi-dht22",
-        "grovepi-analog-input",
-        "grovepi-digital-input",
-        "grovepi-water",
-        "grovepi-moisture",
-        "grovepi-buzzer",
-        "grovepi-piezo",
-        "grovepi-gas-sensor",
-        "grovepi-ultrasonic",
-        "grovepi-air-quality",
-        "grovepi-analog-output",
-        "grovepi-digital-output",
-        "grovepi-light-sensor",
-        "grovepi-datapoint-lcd",
-        "grovepi-relay",
-        "grovepi-heart-rate",
-        "grovepi-heart-rate-bpm",
-        "grovepi-gesture-sensor",
-        "grovepi-loudness-sensor"
-      ],
-      "keywords": [
-        "node-red",
-        "iot",
-        "grovepi",
-        "IoT4H"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-grovepi-iot4h"
-    },
-    {
       "id": "@xureilab/node-red-twitch-eventsub",
       "version": "0.0.1",
       "description": "Connect to Twitch EventSub API",
@@ -804,29 +1210,6 @@
       "url": "https://flows.nodered.org/node/@topcs/node-red-contrib-amqp-topcs"
     },
     {
-      "id": "@renyoo/node-red-dfrobot_noderedcomputer",
-      "version": "1.0.4",
-      "description": "node red nodes for NodeREDComputer",
-      "updated_at": "2024-02-28T10:49:45.459Z",
-      "types": [
-        "GPIO Out",
-        "GPIO In",
-        "ADC",
-        "DAC",
-        "Dev Event",
-        "ESP32 Burn",
-        "IO Interrupt",
-        "Flow Count",
-        "Special Event"
-      ],
-      "keywords": [
-        "node-red",
-        "dfrobot",
-        "NodeREDComputer"
-      ],
-      "url": "https://flows.nodered.org/node/@renyoo/node-red-dfrobot_noderedcomputer"
-    },
-    {
       "id": "node-red-contrib-tak-registration",
       "version": "0.11.6",
       "description": "A Node-RED node to register to TAK and to help wrap files as datapackages to send to TAK",
@@ -917,29 +1300,6 @@
         "node-red"
       ],
       "url": "https://flows.nodered.org/node/tams-cell-get"
-    },
-    {
-      "id": "@gregoriusrippenstein/node-red-contrib-nodedev",
-      "version": "0.3.1",
-      "description": "Support the development of Node-RED nodes within Node-RED.",
-      "updated_at": "2024-02-27T08:21:06.644Z",
-      "types": [
-        "NodeDevOps",
-        "NodeFactory",
-        "PkgFile",
-        "NpmTarBall",
-        "NodeRedInstall",
-        "NpmPublish",
-        "NodeFactorySidebarCfg"
-      ],
-      "keywords": [
-        "node-red",
-        "node development",
-        "introspection",
-        "bootstrapping",
-        "recursion"
-      ],
-      "url": "https://flows.nodered.org/node/@gregoriusrippenstein/node-red-contrib-nodedev"
     },
     {
       "id": "@pgspider/node-red-openmetadata",
@@ -1089,21 +1449,29 @@
       "url": "https://flows.nodered.org/node/@runvnc/node-red-chatgpt-model"
     },
     {
-      "id": "node-red-contrib-axis-host",
-      "version": "1.3.4",
-      "description": "Axis Devices resource binding nodes that provides access to events, image capture and analytics data.  Node-RED must be running on the Axis Device.",
-      "updated_at": "2024-02-26T15:31:08.698Z",
+      "id": "@inductiv/node-red-openai-api",
+      "version": "0.6.0",
+      "description": "Go beyond ChatGPT and DALL·E 3: this Node-RED node seamlessly integrates a range of OpenAI services, including Assistants, Threads, Vision, and Audio, enabling feature-rich enhancement of your AI workflows with any OpenAI REST API-compatible solution.",
+      "updated_at": "2024-02-26T17:36:24.637Z",
       "types": [
-        "Events",
-        "Camera",
-        "Trigger",
-        "Objects"
+        "OpenAI API",
+        "Service Host"
       ],
       "keywords": [
+        "openai",
+        "api",
+        "automation",
+        "chatgpt",
+        "llm",
+        "slm",
+        "agent",
+        "automation",
         "node-red",
-        "Axis"
+        "nodered",
+        "low-code",
+        "ai"
       ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-axis-host"
+      "url": "https://flows.nodered.org/node/@inductiv/node-red-openai-api"
     },
     {
       "id": "node-red-contrib-axis-com",
@@ -1176,20 +1544,6 @@
         "node-red"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-remote"
-    },
-    {
-      "id": "redis-cmd-test",
-      "version": "1.0.1",
-      "description": "Provides a set of nodes to Node-RED to help control tams.",
-      "updated_at": "2024-02-26T05:40:14.474Z",
-      "types": [
-        "redis-config",
-        "redis-command"
-      ],
-      "keywords": [
-        "node-red"
-      ],
-      "url": "https://flows.nodered.org/node/redis-cmd-test"
     },
     {
       "id": "node-red-contrib-superpower-test",
@@ -1739,6 +2093,24 @@
       "url": "https://flows.nodered.org/node/@manyos/node-red-contrib-rapi"
     },
     {
+      "id": "node-red-contrib-rhea-robustel",
+      "version": "0.0.6",
+      "description": "AMQP 1.0 nodes for Node-RED",
+      "updated_at": "2024-02-21T10:49:58.104Z",
+      "types": [
+        "amqp-sender",
+        "amqp-receiver",
+        "amqp-endpoint"
+      ],
+      "keywords": [
+        "node-red",
+        "amqp",
+        "messaging",
+        "iot"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-rhea-robustel"
+    },
+    {
       "id": "@anl-ioc/node-red-contrib-ocpp2",
       "version": "1.0.1-beta.2",
       "description": "Node-Red modules to support OCPP 2.0.1 CSMS and CS entities",
@@ -2032,27 +2404,6 @@
       "url": "https://flows.nodered.org/node/@nagisa~/node-red-dsmr"
     },
     {
-      "id": "@gregoriusrippenstein/node-red-contrib-introspection",
-      "version": "0.6.10",
-      "description": "Node-RED Editor-only nodes for introspecting with flows in the frontend.",
-      "updated_at": "2024-02-18T08:38:45.497Z",
-      "types": [
-        "Seeker",
-        "Sink",
-        "GetFlows",
-        "SendFlow",
-        "ClientCode"
-      ],
-      "keywords": [
-        "node-red",
-        "introspection",
-        "selfreflection",
-        "node-red-editor",
-        "screenshot"
-      ],
-      "url": "https://flows.nodered.org/node/@gregoriusrippenstein/node-red-contrib-introspection"
-    },
-    {
       "id": "node-red-contrib-tado-client",
       "version": "0.10.11",
       "description": "Tado web API client node for Node Red",
@@ -2286,35 +2637,6 @@
       "url": "https://flows.nodered.org/node/node-red-contrib-axios"
     },
     {
-      "id": "node-red-contrib-power-saver",
-      "version": "4.2.1",
-      "description": "A module for Node-RED that you can use to turn on and off a switch based on power prices",
-      "updated_at": "2024-02-14T18:41:59.705Z",
-      "types": [
-        "ps-receive-price",
-        "ps-strategy-best-save",
-        "ps-strategy-lowest-price",
-        "ps-strategy-heat-capacitor",
-        "ps-strategy-fixed-schedule",
-        "ps-schedule-merger",
-        "ps-elvia-config",
-        "ps-elvia-tariff-types",
-        "ps-elvia-tariff",
-        "ps-elvia-add-tariff",
-        "ps-general-add-tariff"
-      ],
-      "keywords": [
-        "node-red",
-        "tibber",
-        "energy",
-        "smarthome",
-        "home-automation",
-        "home-assistant",
-        "power"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-power-saver"
-    },
-    {
       "id": "node-red-contrib-html-to-pdf",
       "version": "1.1.1",
       "description": " Node-RED node for converting HTML files to PDF, using the Puppeteer library.",
@@ -2359,31 +2681,6 @@
         "rpc"
       ],
       "url": "https://flows.nodered.org/node/@edgepi-cloud/node-red-edgepi-dac"
-    },
-    {
-      "id": "@inductiv/node-red-openai-api",
-      "version": "0.5.0",
-      "description": "Go beyond ChatGPT and DALL·E 3: this Node-RED node seamlessly integrates a range of OpenAI services, including Assistants, Threads, Vision, and Audio, enabling feature-rich enhancement of your AI workflows with any OpenAI REST API-compatible solution.",
-      "updated_at": "2024-02-14T00:11:42.034Z",
-      "types": [
-        "OpenAI API",
-        "Service Host"
-      ],
-      "keywords": [
-        "openai",
-        "api",
-        "automation",
-        "chatgpt",
-        "llm",
-        "slm",
-        "agent",
-        "automation",
-        "node-red",
-        "nodered",
-        "low-code",
-        "ai"
-      ],
-      "url": "https://flows.nodered.org/node/@inductiv/node-red-openai-api"
     },
     {
       "id": "node-red-contrib-wago-plc-functions",
@@ -2808,22 +3105,6 @@
         "node-red"
       ],
       "url": "https://flows.nodered.org/node/@gulpetl/node-red-core"
-    },
-    {
-      "id": "@gregoriusrippenstein/node-red-contrib-uglifyjs",
-      "version": "0.0.7",
-      "description": "Node-RED wrapper node around the uglify-js package.",
-      "updated_at": "2024-02-06T09:58:10.054Z",
-      "types": [
-        "UglifyJS",
-        "MinifyCSS"
-      ],
-      "keywords": [
-        "node-red",
-        "uglifyjs",
-        "uglify-js"
-      ],
-      "url": "https://flows.nodered.org/node/@gregoriusrippenstein/node-red-contrib-uglifyjs"
     },
     {
       "id": "node-red-contrib-tapo-new-api",
@@ -3423,33 +3704,6 @@
         "node-red"
       ],
       "url": "https://flows.nodered.org/node/@aingtii/node-red-trashdate"
-    },
-    {
-      "id": "@gregoriusrippenstein/node-red-streaming",
-      "version": "0.0.10",
-      "description": "Nodes to make streaming possible in Node-RED.",
-      "updated_at": "2024-01-28T16:32:09.503Z",
-      "types": [
-        "PipeStart",
-        "FileStream",
-        "HttpRequestStream",
-        "CsvStream",
-        "JsonLStream",
-        "LineStream",
-        "IconvStream",
-        "Chunk2Msg",
-        "DeCompStream",
-        "ArchiveStream",
-        "PipeEnd"
-      ],
-      "keywords": [
-        "node-red",
-        "streaming",
-        "pipeline",
-        "etl",
-        "streamapi"
-      ],
-      "url": "https://flows.nodered.org/node/@gregoriusrippenstein/node-red-streaming"
     },
     {
       "id": "virtual-parameters",
@@ -4124,24 +4378,6 @@
       "url": "https://flows.nodered.org/node/@redplc/node-red-rpi-ads1115"
     },
     {
-      "id": "node-red-contrib-mqtt-sparkplug-plus",
-      "version": "2.0.2",
-      "description": "MQTT-Sparkplug-Plus is a set of Node-Red nodes, that will enable Node-Red to communicate with a MQTT Server using the sparkplug b protocol.",
-      "updated_at": "2024-01-20T17:20:16.680Z",
-      "types": [
-        "mqtt-sparkplug-broker",
-        "mqtt sparkplug device",
-        "mqtt sparkplug in",
-        "mqtt sparkplug out"
-      ],
-      "keywords": [
-        "MQTT",
-        "Sparkplug",
-        "node-red"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-mqtt-sparkplug-plus"
-    },
-    {
       "id": "node-red-contrib-ui-time-scheduler-italian",
       "version": "1.17.8",
       "description": "Italian translation of the ui-time-scheduler module for NodeRed",
@@ -4618,24 +4854,6 @@
         "flightradar24"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-flightradar24"
-    },
-    {
-      "id": "@gregoriusrippenstein/node-red-contrib-aisbreaker",
-      "version": "0.1.17",
-      "description": "Node-RED wrapper node for AIsBreaker.org",
-      "updated_at": "2024-01-12T20:13:14.212Z",
-      "types": [
-        "AIsBreaker"
-      ],
-      "keywords": [
-        "node-red",
-        "algorithmic-intelligence",
-        "ai",
-        "generative-ai",
-        "openai",
-        "huggingface"
-      ],
-      "url": "https://flows.nodered.org/node/@gregoriusrippenstein/node-red-contrib-aisbreaker"
     },
     {
       "id": "node-red-contrib-http-event-collector",
@@ -5723,21 +5941,6 @@
       "url": "https://flows.nodered.org/node/@gulpetl/vinyl-s3"
     },
     {
-      "id": "@gregoriusrippenstein/node-red-contrib-flow2uml",
-      "version": "0.1.9",
-      "description": "Convert Node-RED to Mermaid UML flowchart diagram.",
-      "updated_at": "2023-12-28T15:40:19.845Z",
-      "types": [
-        "Flow2MermaidCfg"
-      ],
-      "keywords": [
-        "node-red",
-        "uml",
-        "mermaid"
-      ],
-      "url": "https://flows.nodered.org/node/@gregoriusrippenstein/node-red-contrib-flow2uml"
-    },
-    {
       "id": "node-red-contrib-deconz",
       "version": "2.3.12",
       "description": "deCONZ connectivity nodes for node-red",
@@ -6248,21 +6451,6 @@
       "url": "https://flows.nodered.org/node/@stefa168/node-red-hysteresis"
     },
     {
-      "id": "@gregoriusrippenstein/node-red-contrib-flowcompare",
-      "version": "0.1.3",
-      "description": "Compare editor flow with the flow deployed to the server.",
-      "updated_at": "2023-12-17T16:32:25.790Z",
-      "types": [
-        "FlowCompareCfg"
-      ],
-      "keywords": [
-        "node-red",
-        "comparison",
-        "flow-comparison"
-      ],
-      "url": "https://flows.nodered.org/node/@gregoriusrippenstein/node-red-contrib-flowcompare"
-    },
-    {
       "id": "node-red-contrib-advanced-ping-multiple",
       "version": "1.4.3",
       "description": "A Node-RED node which takes input and pings a remote server or multiple servers.",
@@ -6641,24 +6829,6 @@
         "state-machine-cat"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-xstate-machine"
-    },
-    {
-      "id": "@gregoriusrippenstein/node-red-contrib-tarball",
-      "version": "0.0.3",
-      "description": "Create tar files and extract tarballs in xz and gzip formats",
-      "updated_at": "2023-12-09T16:00:39.783Z",
-      "types": [
-        "tarball"
-      ],
-      "keywords": [
-        "node-red",
-        "tar",
-        "xz",
-        "gzip",
-        "tarball",
-        "archive"
-      ],
-      "url": "https://flows.nodered.org/node/@gregoriusrippenstein/node-red-contrib-tarball"
     },
     {
       "id": "node-red-contrib-tibber-api",
@@ -7291,22 +7461,6 @@
       "url": "https://flows.nodered.org/node/node-red-contrib-victron-vedirect-usb"
     },
     {
-      "id": "@gregoriusrippenstein/node-red-contrib-filetype",
-      "version": "0.0.3",
-      "description": "Wrapper node around the file-type npmjs package.",
-      "updated_at": "2023-11-25T21:55:11.171Z",
-      "types": [
-        "filetype"
-      ],
-      "keywords": [
-        "node-red",
-        "file-type",
-        "filetype",
-        "file"
-      ],
-      "url": "https://flows.nodered.org/node/@gregoriusrippenstein/node-red-contrib-filetype"
-    },
-    {
       "id": "@marcelodf12/node-red-contrib-wca-integration",
       "version": "1.2.0",
       "description": "Whatsapp cloud api integration node for node-red",
@@ -7492,22 +7646,6 @@
         "delaytimer"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-delaytimer"
-    },
-    {
-      "id": "@gregoriusrippenstein/node-red-contrib-validation-and-documentation",
-      "version": "0.1.0",
-      "description": "JSON Schema validator for Node Red",
-      "updated_at": "2023-11-22T14:32:28.283Z",
-      "types": [
-        "JsonSchemaValidatorWithDocu"
-      ],
-      "keywords": [
-        "json",
-        "node",
-        "node-red",
-        "schema"
-      ],
-      "url": "https://flows.nodered.org/node/@gregoriusrippenstein/node-red-contrib-validation-and-documentation"
     },
     {
       "id": "@hylink/node-red-oracle",
@@ -8218,25 +8356,6 @@
         "layout"
       ],
       "url": "https://flows.nodered.org/node/@gregoriusrippenstein/node-red-contrib-auto-alignment"
-    },
-    {
-      "id": "@gregoriusrippenstein/node-red-contrib-neuralnet-builder",
-      "version": "0.0.8",
-      "description": "Node-RED Nodes for creating Artificial Neural Networks (ANNs) using Node-Red.",
-      "updated_at": "2023-11-05T18:24:36.093Z",
-      "types": [
-        "nnb-input-node",
-        "nnb-layer-node",
-        "nnb-output-node",
-        "nnb-backprop",
-        "nnb-trainer"
-      ],
-      "keywords": [
-        "node-red",
-        "artificial neural networks",
-        "ANN"
-      ],
-      "url": "https://flows.nodered.org/node/@gregoriusrippenstein/node-red-contrib-neuralnet-builder"
     },
     {
       "id": "@lightcode/node-red-contrib-github-sdk",
@@ -12806,22 +12925,6 @@
         "mdash"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-custom-mdash-ws"
-    },
-    {
-      "id": "@helix_italia/node-red-helix-odbc",
-      "version": "0.0.6",
-      "description": "NodeRed ODBC",
-      "updated_at": "2023-08-25T09:39:47.230Z",
-      "types": [
-        "hx-odbc-connect"
-      ],
-      "keywords": [
-        "node-red",
-        "ODBC",
-        "helix",
-        "database"
-      ],
-      "url": "https://flows.nodered.org/node/@helix_italia/node-red-helix-odbc"
     },
     {
       "id": "node-red-contrib-life360",
@@ -67644,21 +67747,6 @@
         "Dlink"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-dlink-dspw"
-    },
-    {
-      "id": "node-red-contrib-mastodon",
-      "version": "0.1.0",
-      "description": "Mastodon node for node-red platform",
-      "updated_at": "2018-11-01T18:58:17.472Z",
-      "types": [
-        "sendMessage",
-        "getMessage"
-      ],
-      "keywords": [
-        "node-red",
-        "mastodon"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-mastodon"
     },
     {
       "id": "node-red-contrib-mackerel",
