@@ -1,12 +1,54 @@
 {
   "name": "Catalogue for Docker",
-  "updated_at": "2024-03-05T15:57:54.684Z",
+  "updated_at": "2024-03-06T15:57:58.884Z",
   "modules": [
     {
+      "id": "node-red-contrib-ewelink-cube",
+      "version": "1.2.0",
+      "description": "Node-RED integration with eWeLink Cube",
+      "updated_at": "2024-03-06T12:51:45.468Z",
+      "types": [
+        "api-server",
+        "get-devices",
+        "event-state",
+        "event-online",
+        "control-device",
+        "event-add-device",
+        "event-del-device",
+        "event-device-info",
+        "put-device-state",
+        "register-device"
+      ],
+      "keywords": [
+        "node-red",
+        "ewelink",
+        "ewelink-cube"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-ewelink-cube"
+    },
+    {
+      "id": "node-red-contrib-data-validator",
+      "version": "1.0.1",
+      "description": "A simple Node-RED node to validate the data type of incoming messages payload.",
+      "updated_at": "2024-03-06T11:56:47.501Z",
+      "types": [
+        "data-validator"
+      ],
+      "keywords": [
+        "node-red",
+        "data",
+        "validator",
+        "input",
+        "data type",
+        "switch"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-data-validator"
+    },
+    {
       "id": "node-red-contrib-peak-value-range",
-      "version": "0.0.1",
+      "version": "0.0.2",
       "description": "A Node-RED node for filtering values within a specified range and finding the peak value.",
-      "updated_at": "2024-03-05T12:10:41.711Z",
+      "updated_at": "2024-03-06T10:42:04.272Z",
       "types": [
         "peak-value-range"
       ],
@@ -19,6 +61,136 @@
         "peak detection"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-peak-value-range"
+    },
+    {
+      "id": "@gregoriusrippenstein/node-red-contrib-introspection",
+      "version": "0.6.12",
+      "description": "Node-RED Editor-only nodes for introspecting with flows in the frontend.",
+      "updated_at": "2024-03-06T10:19:41.470Z",
+      "types": [
+        "Seeker",
+        "Sink",
+        "GetFlows",
+        "SendFlow",
+        "ClientCode"
+      ],
+      "keywords": [
+        "node-red",
+        "introspection",
+        "selfreflection",
+        "node-red-editor",
+        "screenshot"
+      ],
+      "url": "https://flows.nodered.org/node/@gregoriusrippenstein/node-red-contrib-introspection"
+    },
+    {
+      "id": "node-red-contrib-simple-bu",
+      "version": "1.2.9",
+      "description": "A Node-RED node that simplifies the data process.",
+      "updated_at": "2024-03-06T09:29:50.982Z",
+      "types": [
+        "simple-bu"
+      ],
+      "keywords": [
+        "node-red",
+        "simple-bu"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-simple-bu"
+    },
+    {
+      "id": "@gotillit/tillit-node-red",
+      "version": "1.4.0",
+      "description": "A TilliT node for Node-RED",
+      "updated_at": "2024-03-06T04:44:39.691Z",
+      "types": [
+        "tillit-node-connection",
+        "tillit-out",
+        "tillit-in",
+        "tillit-api",
+        "tillit-pv",
+        "tillit-event",
+        "tillit-progress"
+      ],
+      "keywords": [
+        "node-red",
+        "tillit"
+      ],
+      "url": "https://flows.nodered.org/node/@gotillit/tillit-node-red"
+    },
+    {
+      "id": "node-red-contrib-wazo-platform",
+      "version": "1.0.40",
+      "description": "Node Red module for the Wazo Platform API",
+      "updated_at": "2024-03-06T02:48:48.874Z",
+      "types": [
+        "wazo answer",
+        "wazo bridge_call",
+        "wazo call user",
+        "wazo create user",
+        "wazo chat",
+        "wazo continue",
+        "wazo config",
+        "wazo dtmf",
+        "wazo fetch voicemail",
+        "wazo hangup",
+        "wazo hangup call",
+        "wazo hold",
+        "wazo unhold",
+        "wazo mute",
+        "wazo unmute",
+        "wazo moh",
+        "wazo stop_moh",
+        "wazo new_call",
+        "wazo make call",
+        "wazo remove_call",
+        "wazo create_node",
+        "wazo delete_node",
+        "wazo list_calls_node",
+        "wazo create_snoop",
+        "wazo list_snoop",
+        "wazo view_snoop",
+        "wazo update_snoop",
+        "wazo delete_snoop",
+        "wazo add_to_node",
+        "wazo new_call_node",
+        "wazo playback",
+        "wazo stop_playback",
+        "wazo presence",
+        "wazo progress",
+        "wazo stop_progress",
+        "wazo push",
+        "wazo request",
+        "wazo switch",
+        "wazo trunk",
+        "wazo voicemail",
+        "wazo event",
+        "wazo send_fax",
+        "wazo websocket"
+      ],
+      "keywords": [
+        "node-red",
+        "wazo",
+        "call",
+        "chat",
+        "voice",
+        "api"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-wazo-platform"
+    },
+    {
+      "id": "@bithead/node-red-ays-agent",
+      "version": "1.1.3",
+      "description": "Send sample values from HW/SW agents to the At Your Service Agent Service.",
+      "updated_at": "2024-03-05T20:57:06.173Z",
+      "types": [
+        "ays-agent",
+        "ays-agent-config"
+      ],
+      "keywords": [
+        "node-red",
+        "ays-agent"
+      ],
+      "url": "https://flows.nodered.org/node/@bithead/node-red-ays-agent"
     },
     {
       "id": "@helix_italia/node-red-helix-odbc",
@@ -238,27 +410,6 @@
       "url": "https://flows.nodered.org/node/@gregoriusrippenstein/node-red-streaming"
     },
     {
-      "id": "@gregoriusrippenstein/node-red-contrib-introspection",
-      "version": "0.6.11",
-      "description": "Node-RED Editor-only nodes for introspecting with flows in the frontend.",
-      "updated_at": "2024-03-05T09:11:59.957Z",
-      "types": [
-        "Seeker",
-        "Sink",
-        "GetFlows",
-        "SendFlow",
-        "ClientCode"
-      ],
-      "keywords": [
-        "node-red",
-        "introspection",
-        "selfreflection",
-        "node-red-editor",
-        "screenshot"
-      ],
-      "url": "https://flows.nodered.org/node/@gregoriusrippenstein/node-red-contrib-introspection"
-    },
-    {
       "id": "@gregoriusrippenstein/node-red-contrib-nodedev",
       "version": "0.3.2",
       "description": "Support the development of Node-RED nodes within Node-RED.",
@@ -412,18 +563,6 @@
         "IoT4H"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-grovepi-iot4h"
-    },
-    {
-      "id": "@bithead/node-red-ays-agent",
-      "version": "1.0.2",
-      "description": "Send sample values from HW/SW systems to the At Your Service agent.",
-      "updated_at": "2024-03-05T02:59:01.339Z",
-      "types": [],
-      "keywords": [
-        "node-red",
-        "ays-agent"
-      ],
-      "url": "https://flows.nodered.org/node/@bithead/node-red-ays-agent"
     },
     {
       "id": "node-red-contrib-mqtt-sparkplug-plus",
@@ -655,24 +794,6 @@
       "url": "https://flows.nodered.org/node/node-red-contrib-web-worldmap"
     },
     {
-      "id": "node-red-contrib-data-validator",
-      "version": "1.0.0",
-      "description": "A simple Node-RED node to validate the data type of incoming messages payload.",
-      "updated_at": "2024-03-04T08:33:21.533Z",
-      "types": [
-        "data-validator"
-      ],
-      "keywords": [
-        "node-red",
-        "data",
-        "validator",
-        "input",
-        "data type",
-        "switch"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-data-validator"
-    },
-    {
       "id": "apconic-postgresql",
       "version": "0.0.2",
       "description": "Node for weight parser",
@@ -866,26 +987,6 @@
       "url": "https://flows.nodered.org/node/@semilimes/node-red-semilimes"
     },
     {
-      "id": "@gotillit/tillit-node-red",
-      "version": "1.3.4",
-      "description": "A TilliT node for Node-RED",
-      "updated_at": "2024-03-01T07:39:45.728Z",
-      "types": [
-        "tillit-node-connection",
-        "tillit-out",
-        "tillit-in",
-        "tillit-api",
-        "tillit-pv",
-        "tillit-event",
-        "tillit-progress"
-      ],
-      "keywords": [
-        "node-red",
-        "tillit"
-      ],
-      "url": "https://flows.nodered.org/node/@gotillit/tillit-node-red"
-    },
-    {
       "id": "node-red-contrib-mgrs",
       "version": "1.0.0",
       "description": "A Node-RED node to convert co-ordinates to and from mgrs",
@@ -1041,66 +1142,6 @@
         "IIoT"
       ],
       "url": "https://flows.nodered.org/node/@opcua/for-node-red"
-    },
-    {
-      "id": "node-red-contrib-wazo-platform",
-      "version": "1.0.39",
-      "description": "Node Red module for the Wazo Platform API",
-      "updated_at": "2024-02-29T02:16:31.624Z",
-      "types": [
-        "wazo answer",
-        "wazo bridge_call",
-        "wazo call user",
-        "wazo create user",
-        "wazo chat",
-        "wazo continue",
-        "wazo config",
-        "wazo dtmf",
-        "wazo fetch voicemail",
-        "wazo hangup",
-        "wazo hangup call",
-        "wazo hold",
-        "wazo unhold",
-        "wazo mute",
-        "wazo unmute",
-        "wazo moh",
-        "wazo stop_moh",
-        "wazo new_call",
-        "wazo make call",
-        "wazo remove_call",
-        "wazo create_node",
-        "wazo delete_node",
-        "wazo list_calls_node",
-        "wazo create_snoop",
-        "wazo list_snoop",
-        "wazo view_snoop",
-        "wazo update_snoop",
-        "wazo delete_snoop",
-        "wazo add_to_node",
-        "wazo new_call_node",
-        "wazo playback",
-        "wazo stop_playback",
-        "wazo presence",
-        "wazo progress",
-        "wazo stop_progress",
-        "wazo push",
-        "wazo request",
-        "wazo switch",
-        "wazo trunk",
-        "wazo voicemail",
-        "wazo event",
-        "wazo send_fax",
-        "wazo websocket"
-      ],
-      "keywords": [
-        "node-red",
-        "wazo",
-        "call",
-        "chat",
-        "voice",
-        "api"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-wazo-platform"
     },
     {
       "id": "@xureilab/node-red-twitch-eventsub",
@@ -8051,20 +8092,6 @@
       "url": "https://flows.nodered.org/node/connect-logic-nodes"
     },
     {
-      "id": "node-red-contrib-simple-bu",
-      "version": "1.2.8",
-      "description": "A Node-RED node that simplifies the data process.",
-      "updated_at": "2023-11-14T09:34:04.688Z",
-      "types": [
-        "simple-bu"
-      ],
-      "keywords": [
-        "node-red",
-        "simple-bu"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-simple-bu"
-    },
-    {
       "id": "@elipse/e3-node-red",
       "version": "1.0.7",
       "description": "Nodes for communication with Elipse E3",
@@ -10631,30 +10658,6 @@
         "monitor"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-amcrest-ad110"
-    },
-    {
-      "id": "node-red-contrib-ewelink-cube",
-      "version": "1.1.0",
-      "description": "Node-RED integration with eWeLink Cube",
-      "updated_at": "2023-09-28T08:36:26.046Z",
-      "types": [
-        "api-server",
-        "get-devices",
-        "event-state",
-        "event-online",
-        "control-device",
-        "event-add-device",
-        "event-del-device",
-        "event-device-info",
-        "put-device-state",
-        "register-device"
-      ],
-      "keywords": [
-        "node-red",
-        "ewelink",
-        "ewelink-cube"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-ewelink-cube"
     },
     {
       "id": "@gbl-sasm-alert/node-red-contrib-moduleflows",
