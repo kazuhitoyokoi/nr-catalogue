@@ -1,12 +1,101 @@
 {
   "name": "Catalogue for Docker",
-  "updated_at": "2024-03-06T15:57:58.884Z",
+  "updated_at": "2024-03-07T15:55:37.079Z",
   "modules": [
     {
+      "id": "node-red-contrib-websocket-iot",
+      "version": "0.0.3",
+      "description": "Data exchange from node-red to control center",
+      "updated_at": "2024-03-07T14:24:29.733Z",
+      "types": [
+        "IOT Send Web",
+        "IOT Get Web",
+        "IOT Function Web",
+        "IOT Request Web"
+      ],
+      "keywords": [
+        "node-red",
+        "websocket",
+        "iot"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-websocket-iot"
+    },
+    {
+      "id": "node-red-contrib-mastodon",
+      "version": "0.1.2",
+      "description": "Mastodon node for node-red platform",
+      "updated_at": "2024-03-07T12:50:05.947Z",
+      "types": [
+        "sendMessage",
+        "getMessage"
+      ],
+      "keywords": [
+        "node-red",
+        "mastodon"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-mastodon"
+    },
+    {
+      "id": "@fraunhofer-umsicht/node-red-contrib-thingsdata",
+      "version": "1.1.1",
+      "description": "Node-RED nodes to work with the ThingsData IoT Platform",
+      "updated_at": "2024-03-07T10:34:49.338Z",
+      "types": [
+        "thingsdata s3 watch",
+        "thingsdata-s3-config",
+        "thingsdata s3 list buckets",
+        "thingsdata s3 list objects",
+        "thingsdata s3 get",
+        "thingsdata s3 put",
+        "thingsdata s3 delete",
+        "value out"
+      ],
+      "keywords": [
+        "node-red",
+        "thingsdata"
+      ],
+      "url": "https://flows.nodered.org/node/@fraunhofer-umsicht/node-red-contrib-thingsdata"
+    },
+    {
+      "id": "node-red-contrib-relay",
+      "version": "1.0.0",
+      "description": "A Node-RED node that mimics relay logic.",
+      "updated_at": "2024-03-07T10:27:19.741Z",
+      "types": [
+        "relay"
+      ],
+      "keywords": [
+        "node-red",
+        "relay",
+        "logic",
+        "boolean",
+        "input",
+        "output"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-relay"
+    },
+    {
+      "id": "node-red-node-rdk-camera",
+      "version": "0.0.9",
+      "description": "搭配RDK硬件使用摄像头的Node-RED节点(Node-RED node for using camera on a RDK hardware)",
+      "updated_at": "2024-03-07T09:51:50.661Z",
+      "types": [
+        "rdk-camera takephoto",
+        "rdk-camera imagestream"
+      ],
+      "keywords": [
+        "node-red",
+        "rdk",
+        "x3",
+        "camera"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-node-rdk-camera"
+    },
+    {
       "id": "node-red-contrib-ewelink-cube",
-      "version": "1.2.0",
+      "version": "1.2.1",
       "description": "Node-RED integration with eWeLink Cube",
-      "updated_at": "2024-03-06T12:51:45.468Z",
+      "updated_at": "2024-03-07T09:24:07.133Z",
       "types": [
         "api-server",
         "get-devices",
@@ -25,6 +114,116 @@
         "ewelink-cube"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-ewelink-cube"
+    },
+    {
+      "id": "@sdalu/db",
+      "version": "0.1.1",
+      "description": "Provide basic database interaction.",
+      "updated_at": "2024-03-07T09:18:44.580Z",
+      "types": [
+        "db-config",
+        "db query",
+        "db insert"
+      ],
+      "keywords": [
+        "node-red",
+        "database"
+      ],
+      "url": "https://flows.nodered.org/node/@sdalu/db"
+    },
+    {
+      "id": "node-red-contrib-superpower-test",
+      "version": "1.1.7",
+      "description": "Node-RED integration with eWeLink Cube",
+      "updated_at": "2024-03-07T06:40:49.719Z",
+      "types": [
+        "api-server",
+        "get-devices",
+        "event-state",
+        "event-online",
+        "control-device",
+        "event-add-device",
+        "event-del-device",
+        "event-device-info",
+        "put-device-state",
+        "register-device"
+      ],
+      "keywords": [
+        "node-red",
+        "ewelink",
+        "ewelink-cube"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-superpower-test"
+    },
+    {
+      "id": "node-red-contrib-grovepi-iot4h",
+      "version": "0.1.3",
+      "description": "Node Red nodes for IoT4H workshops and the use of GrovePi+ sensors and actuators.",
+      "updated_at": "2024-03-06T21:22:42.915Z",
+      "types": [
+        "saveVariable",
+        "loadVariable",
+        "timestamp",
+        "comparisonFilter",
+        "thresholdFilter",
+        "variableFilter",
+        "movingAverage",
+        "arrayIndex",
+        "grovepi-button",
+        "grovepi-switch",
+        "grovepi-rotary",
+        "grovepi-slidePotentiometer",
+        "grovepi-rgblcd",
+        "grovepi-led",
+        "grovepi-pwm-led",
+        "grovepi-dht11",
+        "grovepi-dht22",
+        "grovepi-analog-input",
+        "grovepi-digital-input",
+        "grovepi-water",
+        "grovepi-moisture",
+        "grovepi-buzzer",
+        "grovepi-piezo",
+        "grovepi-gas-sensor",
+        "grovepi-ultrasonic",
+        "grovepi-light-sensor",
+        "grovepi-air-quality",
+        "grovepi-analog-output",
+        "grovepi-digital-output",
+        "grovepi-datapoint-lcd",
+        "grovepi-relay",
+        "grovepi-heart-rate",
+        "grovepi-heart-rate-bpm",
+        "grovepi-gesture-sensor",
+        "grovepi-loudness-sensor"
+      ],
+      "keywords": [
+        "node-red",
+        "iot",
+        "grovepi",
+        "IoT4H"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-grovepi-iot4h"
+    },
+    {
+      "id": "@gotillit/tillit-node-red",
+      "version": "1.4.1",
+      "description": "A TilliT node for Node-RED",
+      "updated_at": "2024-03-06T20:29:11.441Z",
+      "types": [
+        "tillit-node-connection",
+        "tillit-out",
+        "tillit-in",
+        "tillit-api",
+        "tillit-pv",
+        "tillit-event",
+        "tillit-progress"
+      ],
+      "keywords": [
+        "node-red",
+        "tillit"
+      ],
+      "url": "https://flows.nodered.org/node/@gotillit/tillit-node-red"
     },
     {
       "id": "node-red-contrib-data-validator",
@@ -96,26 +295,6 @@
         "simple-bu"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-simple-bu"
-    },
-    {
-      "id": "@gotillit/tillit-node-red",
-      "version": "1.4.0",
-      "description": "A TilliT node for Node-RED",
-      "updated_at": "2024-03-06T04:44:39.691Z",
-      "types": [
-        "tillit-node-connection",
-        "tillit-out",
-        "tillit-in",
-        "tillit-api",
-        "tillit-pv",
-        "tillit-event",
-        "tillit-progress"
-      ],
-      "keywords": [
-        "node-red",
-        "tillit"
-      ],
-      "url": "https://flows.nodered.org/node/@gotillit/tillit-node-red"
     },
     {
       "id": "node-red-contrib-wazo-platform",
@@ -433,21 +612,6 @@
       "url": "https://flows.nodered.org/node/@gregoriusrippenstein/node-red-contrib-nodedev"
     },
     {
-      "id": "node-red-contrib-mastodon",
-      "version": "0.1.1",
-      "description": "Mastodon node for node-red platform",
-      "updated_at": "2024-03-05T08:56:41.503Z",
-      "types": [
-        "sendMessage",
-        "getMessage"
-      ],
-      "keywords": [
-        "node-red",
-        "mastodon"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-mastodon"
-    },
-    {
       "id": "@gregoriusrippenstein/node-red-contrib-flowhub",
       "version": "0.5.4",
       "description": "Nodes for interacting with FlowHub.org.",
@@ -513,56 +677,6 @@
         "node-red"
       ],
       "url": "https://flows.nodered.org/node/@datuo/node-red-wh-lower-case"
-    },
-    {
-      "id": "node-red-contrib-grovepi-iot4h",
-      "version": "0.1.2",
-      "description": "Node Red nodes for IoT4H workshops and the use of GrovePi+ sensors and actuators.",
-      "updated_at": "2024-03-05T03:07:25.320Z",
-      "types": [
-        "saveVariable",
-        "loadVariable",
-        "timestamp",
-        "comparisonFilter",
-        "thresholdFilter",
-        "variableFilter",
-        "movingAverage",
-        "arrayIndex",
-        "grovepi-button",
-        "grovepi-switch",
-        "grovepi-rotary",
-        "grovepi-slidePotentiometer",
-        "grovepi-rgblcd",
-        "grovepi-led",
-        "grovepi-pwm-led",
-        "grovepi-dht11",
-        "grovepi-dht22",
-        "grovepi-analog-input",
-        "grovepi-digital-input",
-        "grovepi-water",
-        "grovepi-moisture",
-        "grovepi-buzzer",
-        "grovepi-piezo",
-        "grovepi-gas-sensor",
-        "grovepi-ultrasonic",
-        "grovepi-light-sensor",
-        "grovepi-air-quality",
-        "grovepi-analog-output",
-        "grovepi-digital-output",
-        "grovepi-datapoint-lcd",
-        "grovepi-relay",
-        "grovepi-heart-rate",
-        "grovepi-heart-rate-bpm",
-        "grovepi-gesture-sensor",
-        "grovepi-loudness-sensor"
-      ],
-      "keywords": [
-        "node-red",
-        "iot",
-        "grovepi",
-        "IoT4H"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-grovepi-iot4h"
     },
     {
       "id": "node-red-contrib-mqtt-sparkplug-plus",
@@ -1298,6 +1412,26 @@
       "url": "https://flows.nodered.org/node/@corentin-pasquier/node-red-contrib-amqp"
     },
     {
+      "id": "node-red-contrib-thingsdata",
+      "version": "1.0.19",
+      "description": "A Node-RED node to list, watch, put, get and delete files from the ThingsData S3 Storage System",
+      "updated_at": "2024-02-27T13:32:27.449Z",
+      "types": [
+        "thingsdata s3 watch",
+        "thingsdata-s3-config",
+        "thingsdata s3 list buckets",
+        "thingsdata s3 list objects",
+        "thingsdata s3 get",
+        "thingsdata s3 put",
+        "thingsdata s3 delete"
+      ],
+      "keywords": [
+        "node-red",
+        "thingsdata"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-thingsdata"
+    },
+    {
       "id": "node-red-contrib-peak-value-calculator",
       "version": "1.0.1",
       "description": "A Node-RED node for calculating peak (maximum) and lowest peak (minimum) value",
@@ -1585,30 +1719,6 @@
         "node-red"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-remote"
-    },
-    {
-      "id": "node-red-contrib-superpower-test",
-      "version": "1.1.5",
-      "description": "Node-RED integration with eWeLink Cube",
-      "updated_at": "2024-02-26T03:54:15.530Z",
-      "types": [
-        "api-server",
-        "get-devices",
-        "event-state",
-        "event-online",
-        "control-device",
-        "event-add-device",
-        "event-del-device",
-        "event-device-info",
-        "put-device-state",
-        "register-device"
-      ],
-      "keywords": [
-        "node-red",
-        "ewelink",
-        "ewelink-cube"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-superpower-test"
     },
     {
       "id": "@tbowmo/node-red-small-timer",
@@ -3526,23 +3636,6 @@
         "generate"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-blockly"
-    },
-    {
-      "id": "node-red-node-rdk-camera",
-      "version": "0.0.6",
-      "description": "Node Red node for using camera on a RDK hardware",
-      "updated_at": "2024-01-31T13:55:35.340Z",
-      "types": [
-        "rdk-camera takephoto",
-        "rdk-camera imagestream"
-      ],
-      "keywords": [
-        "node-red",
-        "rdk",
-        "x3",
-        "camera"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-node-rdk-camera"
     },
     {
       "id": "node-red-contrib-alice-self-hosting",
@@ -28265,21 +28358,6 @@
       "url": "https://flows.nodered.org/node/cml-test-module"
     },
     {
-      "id": "@sdalu/db",
-      "version": "0.0.2",
-      "description": "Provide basic database interaction.",
-      "updated_at": "2022-06-16T11:47:58.164Z",
-      "types": [
-        "db insert",
-        "db-config"
-      ],
-      "keywords": [
-        "node-red",
-        "database"
-      ],
-      "url": "https://flows.nodered.org/node/@sdalu/db"
-    },
-    {
       "id": "@rakwireless/ads7830",
       "version": "1.0.0",
       "description": "A Node-RED node providing access to an ADS7830 I2C analog to digital converter",
@@ -42505,26 +42583,6 @@
         "node-red"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-vmware-cbc"
-    },
-    {
-      "id": "node-red-contrib-thingsdata",
-      "version": "1.0.13",
-      "description": "A Node-RED node to list, watch, put, get and delete files from the ThingsData S3 Storage System",
-      "updated_at": "2021-04-15T10:49:27.572Z",
-      "types": [
-        "thingsdata s3 watch",
-        "thingsdata-s3-config",
-        "thingsdata s3 list buckets",
-        "thingsdata s3 list objects",
-        "thingsdata s3 get",
-        "thingsdata s3 put",
-        "thingsdata s3 delete"
-      ],
-      "keywords": [
-        "node-red",
-        "thingsdata"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-thingsdata"
     },
     {
       "id": "radwag-mass",
