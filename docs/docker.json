@@ -1,7 +1,246 @@
 {
   "name": "Catalogue for Docker",
-  "updated_at": "2024-03-08T15:56:06.595Z",
+  "updated_at": "2024-03-09T15:53:30.145Z",
   "modules": [
+    {
+      "id": "node-red-contrib-virtual-smart-home",
+      "version": "4.2.0",
+      "description": "A Node-RED node that represents a 'virtual device' which can be controlled via Alexa. Requires the virtual smart home skill to be enabled for your Amazon account.",
+      "updated_at": "2024-03-09T11:21:00.343Z",
+      "types": [
+        "vsh-connection",
+        "vsh-virtual-device"
+      ],
+      "keywords": [
+        "Alexa",
+        "Echo",
+        "smart-home",
+        "node-red",
+        "virtual smart home",
+        "virtual device",
+        "Home Assistant",
+        "vsh"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-virtual-smart-home"
+    },
+    {
+      "id": "@gregoriusrippenstein/node-red-contrib-introspection",
+      "version": "0.6.16",
+      "description": "Node-RED Editor-only nodes for introspecting with flows in the frontend.",
+      "updated_at": "2024-03-09T10:58:31.564Z",
+      "types": [
+        "Seeker",
+        "Sink",
+        "GetFlows",
+        "SendFlow",
+        "ClientCode"
+      ],
+      "keywords": [
+        "node-red",
+        "introspection",
+        "selfreflection",
+        "node-red-editor",
+        "screenshot"
+      ],
+      "url": "https://flows.nodered.org/node/@gregoriusrippenstein/node-red-contrib-introspection"
+    },
+    {
+      "id": "node-red-contrib-alice-self-hosting",
+      "version": "0.1.6",
+      "description": "Node-RED nodes to Yandex Alice devices in Self-Hosting",
+      "updated_at": "2024-03-09T07:42:27.888Z",
+      "types": [
+        "alice-sh-service",
+        "alice-sh-device",
+        "alice-sh-onoff",
+        "alice-sh-toggle",
+        "alice-sh-range",
+        "alice-sh-color",
+        "alice-sh-mode",
+        "alice-sh-sensor",
+        "alice-sh-event",
+        "alice-sh-video"
+      ],
+      "keywords": [
+        "node-red",
+        "yandex",
+        "alice",
+        "iot",
+        "self",
+        "hosting"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-alice-self-hosting"
+    },
+    {
+      "id": "@ncd-io/node-red-enterprise-sensors",
+      "version": "0.1.16",
+      "description": "You can install this library through the Palette Manager in Node-Red's UI.",
+      "updated_at": "2024-03-08T22:57:28.808Z",
+      "types": [
+        "ncd-gateway-node",
+        "ncd-wireless-node",
+        "ncd-gateway-config"
+      ],
+      "keywords": [
+        "Wireless",
+        "NCD",
+        "Sensors",
+        "Digi",
+        "node-red",
+        "enterprise"
+      ],
+      "url": "https://flows.nodered.org/node/@ncd-io/node-red-enterprise-sensors"
+    },
+    {
+      "id": "@logiccloud/node-red-runtime-variable-writer",
+      "version": "2.0.3",
+      "description": "A simple node that is writing a variable to a logiccloud runtime.",
+      "updated_at": "2024-03-08T17:55:37.670Z",
+      "types": [
+        "runtime-variable-writer"
+      ],
+      "keywords": [
+        "node-red",
+        "lc",
+        "LC",
+        "runtime",
+        "Runtime",
+        "iec61131-3",
+        "iec61131-10",
+        "IEC 61131-3",
+        "IEC 61131-10",
+        "iec61131",
+        "IEC 61131"
+      ],
+      "url": "https://flows.nodered.org/node/@logiccloud/node-red-runtime-variable-writer"
+    },
+    {
+      "id": "@logiccloud/node-red-runtime-variable-reader",
+      "version": "2.0.3",
+      "description": "A simple node that is reading variable from a logiccloud runtime.",
+      "updated_at": "2024-03-08T17:55:25.626Z",
+      "types": [
+        "runtime-variable-reader"
+      ],
+      "keywords": [
+        "node-red",
+        "lc",
+        "LC",
+        "runtime",
+        "Runtime",
+        "iec61131-3",
+        "iec61131-10",
+        "IEC 61131-3",
+        "IEC 61131-10",
+        "iec61131",
+        "IEC 61131"
+      ],
+      "url": "https://flows.nodered.org/node/@logiccloud/node-red-runtime-variable-reader"
+    },
+    {
+      "id": "@logiccloud/node-red-runtime-configuration",
+      "version": "2.0.3",
+      "description": "Configuration node for runtime connection.",
+      "updated_at": "2024-03-08T17:55:03.077Z",
+      "types": [
+        "runtime-configuration"
+      ],
+      "keywords": [
+        "node-red",
+        "lc",
+        "LC",
+        "runtime",
+        "Runtime",
+        "iec61131-3",
+        "iec61131-10",
+        "IEC 61131-3",
+        "IEC 61131-10",
+        "iec61131",
+        "IEC 61131"
+      ],
+      "url": "https://flows.nodered.org/node/@logiccloud/node-red-runtime-configuration"
+    },
+    {
+      "id": "@softwaredevelopment/node-red-contrib-bodhi-connector",
+      "version": "0.1.6",
+      "description": "Bodhi connector configuration for connecting nodes to bodhi through bodhi bridge",
+      "updated_at": "2024-03-08T16:31:14.593Z",
+      "types": [
+        "Bodhi Connector"
+      ],
+      "keywords": [
+        "node-red",
+        "connector",
+        "bodhi"
+      ],
+      "url": "https://flows.nodered.org/node/@softwaredevelopment/node-red-contrib-bodhi-connector"
+    },
+    {
+      "id": "@blebtechnology/node-red-blebricks",
+      "version": "1.0.21",
+      "description": "A node-red package to manage blebricks data",
+      "updated_at": "2024-03-08T15:25:14.059Z",
+      "types": [
+        "CHT",
+        "ENV",
+        "OAQ",
+        "BLEB_TEMP",
+        "PTX",
+        "MAG",
+        "SOIL",
+        "LGH",
+        "UHF",
+        "PRT",
+        "REL",
+        "RELOUT",
+        "WPLOUT",
+        "VBROUT",
+        "BUZOUT",
+        "IRTOUT",
+        "ODCOUT",
+        "ODC",
+        "WPL",
+        "VBR",
+        "BUZ",
+        "IRT",
+        "PLV",
+        "WND",
+        "SOL",
+        "PYR",
+        "CMS",
+        "RHT",
+        "UVA",
+        "RGB",
+        "CLT",
+        "IMU",
+        "ACC",
+        "PDM",
+        "CAP",
+        "IRR",
+        "SMS",
+        "DSD",
+        "BLEB_IN",
+        "BLEB_RPS",
+        "SFX",
+        "ESP",
+        "UWS",
+        "RMS",
+        "VMS",
+        "GPS",
+        "BLEB_CNT",
+        "PMX",
+        "PROTECTOR",
+        "LCDOUT",
+        "SLS",
+        "PWMOUT",
+        "TPD",
+        "LEDOUT"
+      ],
+      "keywords": [
+        "node-red"
+      ],
+      "url": "https://flows.nodered.org/node/@blebtechnology/node-red-blebricks"
+    },
     {
       "id": "node-red-contrib-io-key",
       "version": "1.5.3",
@@ -18,6 +257,24 @@
         "io-key"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-io-key"
+    },
+    {
+      "id": "@corentin-pasquier/node-red-contrib-amqp",
+      "version": "1.3.8",
+      "description": "AMQP Nodes for Node-RED",
+      "updated_at": "2024-03-08T13:49:56.069Z",
+      "types": [
+        "amqp-in",
+        "amqp-out",
+        "amqp-broker",
+        "amqp-in-manual-ack"
+      ],
+      "keywords": [
+        "node-red",
+        "amqp",
+        "rabbitmq"
+      ],
+      "url": "https://flows.nodered.org/node/@corentin-pasquier/node-red-contrib-amqp"
     },
     {
       "id": "node-red-node-rdk-gpio",
@@ -39,27 +296,6 @@
         "rdk-gpio"
       ],
       "url": "https://flows.nodered.org/node/node-red-node-rdk-gpio"
-    },
-    {
-      "id": "@gregoriusrippenstein/node-red-contrib-introspection",
-      "version": "0.6.13",
-      "description": "Node-RED Editor-only nodes for introspecting with flows in the frontend.",
-      "updated_at": "2024-03-08T11:13:33.357Z",
-      "types": [
-        "Seeker",
-        "Sink",
-        "GetFlows",
-        "SendFlow",
-        "ClientCode"
-      ],
-      "keywords": [
-        "node-red",
-        "introspection",
-        "selfreflection",
-        "node-red-editor",
-        "screenshot"
-      ],
-      "url": "https://flows.nodered.org/node/@gregoriusrippenstein/node-red-contrib-introspection"
     },
     {
       "id": "@renyoo/node-red-dfrobot_noderedcomputer",
@@ -91,24 +327,6 @@
         "NodeREDComputer"
       ],
       "url": "https://flows.nodered.org/node/@renyoo/node-red-dfrobot_noderedcomputer"
-    },
-    {
-      "id": "@corentin-pasquier/node-red-contrib-amqp",
-      "version": "1.3.7",
-      "description": "AMQP Nodes for Node-RED",
-      "updated_at": "2024-03-08T08:27:07.855Z",
-      "types": [
-        "amqp-in",
-        "amqp-out",
-        "amqp-broker",
-        "amqp-in-manual-ack"
-      ],
-      "keywords": [
-        "node-red",
-        "amqp",
-        "rabbitmq"
-      ],
-      "url": "https://flows.nodered.org/node/@corentin-pasquier/node-red-contrib-amqp"
     },
     {
       "id": "@gotillit/tillit-node-red",
@@ -907,72 +1125,6 @@
       "url": "https://flows.nodered.org/node/@plus4nodered/node-red-contrib-wago-cc100"
     },
     {
-      "id": "@blebtechnology/node-red-blebricks",
-      "version": "1.0.20",
-      "description": "A node-red package to manage blebricks data",
-      "updated_at": "2024-03-04T12:23:22.829Z",
-      "types": [
-        "CHT",
-        "ENV",
-        "OAQ",
-        "BLEB_TEMP",
-        "PTX",
-        "MAG",
-        "SOIL",
-        "LGH",
-        "UHF",
-        "PRT",
-        "REL",
-        "RELOUT",
-        "WPLOUT",
-        "VBROUT",
-        "BUZOUT",
-        "IRTOUT",
-        "ODCOUT",
-        "ODC",
-        "WPL",
-        "VBR",
-        "BUZ",
-        "IRT",
-        "PLV",
-        "WND",
-        "SOL",
-        "PYR",
-        "CMS",
-        "RHT",
-        "UVA",
-        "RGB",
-        "CLT",
-        "IMU",
-        "ACC",
-        "PDM",
-        "CAP",
-        "IRR",
-        "SMS",
-        "DSD",
-        "BLEB_IN",
-        "BLEB_RPS",
-        "SFX",
-        "ESP",
-        "UWS",
-        "RMS",
-        "VMS",
-        "GPS",
-        "BLEB_CNT",
-        "PMX",
-        "PROTECTOR",
-        "LCDOUT",
-        "SLS",
-        "PWMOUT",
-        "TPD",
-        "LEDOUT"
-      ],
-      "keywords": [
-        "node-red"
-      ],
-      "url": "https://flows.nodered.org/node/@blebtechnology/node-red-blebricks"
-    },
-    {
       "id": "node-red-contrib-meross-cloud",
       "version": "1.1.2",
       "description": "A module to connect with Meross Cloud Services",
@@ -1587,27 +1739,6 @@
         "openmetadata"
       ],
       "url": "https://flows.nodered.org/node/@pgspider/node-red-openmetadata"
-    },
-    {
-      "id": "node-red-contrib-virtual-smart-home",
-      "version": "4.1.12",
-      "description": "A Node-RED node that represents a 'virtual device' which can be controlled via Alexa. Requires the virtual smart home skill to be enabled for your Amazon account.",
-      "updated_at": "2024-02-27T07:07:07.925Z",
-      "types": [
-        "vsh-connection",
-        "vsh-virtual-device"
-      ],
-      "keywords": [
-        "Alexa",
-        "Echo",
-        "smart-home",
-        "node-red",
-        "virtual smart home",
-        "virtual device",
-        "Home Assistant",
-        "vsh"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-virtual-smart-home"
     },
     {
       "id": "@pgspider/node-red-db2chart",
@@ -3720,33 +3851,6 @@
       "url": "https://flows.nodered.org/node/node-red-contrib-blockly"
     },
     {
-      "id": "node-red-contrib-alice-self-hosting",
-      "version": "0.1.5",
-      "description": "Node-RED nodes to Yandex Alice devices in Self-Hosting",
-      "updated_at": "2024-01-31T13:26:49.131Z",
-      "types": [
-        "alice-sh-service",
-        "alice-sh-device",
-        "alice-sh-onoff",
-        "alice-sh-toggle",
-        "alice-sh-range",
-        "alice-sh-color",
-        "alice-sh-mode",
-        "alice-sh-sensor",
-        "alice-sh-event",
-        "alice-sh-video"
-      ],
-      "keywords": [
-        "node-red",
-        "yandex",
-        "alice",
-        "iot",
-        "self",
-        "hosting"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-alice-self-hosting"
-    },
-    {
       "id": "node-red-contrib-iot-controlcenter",
       "version": "2.1.0",
       "description": "Data exchange from node-red to control center",
@@ -4064,75 +4168,6 @@
       "url": "https://flows.nodered.org/node/node-red-contrib-alexa-remote2-applestrudel"
     },
     {
-      "id": "@logiccloud/node-red-runtime-configuration",
-      "version": "2.0.1",
-      "description": "Configuration node for runtime connection.",
-      "updated_at": "2024-01-26T14:56:53.297Z",
-      "types": [
-        "runtime-configuration"
-      ],
-      "keywords": [
-        "node-red",
-        "lc",
-        "LC",
-        "runtime",
-        "Runtime",
-        "iec61131-3",
-        "iec61131-10",
-        "IEC 61131-3",
-        "IEC 61131-10",
-        "iec61131",
-        "IEC 61131"
-      ],
-      "url": "https://flows.nodered.org/node/@logiccloud/node-red-runtime-configuration"
-    },
-    {
-      "id": "@logiccloud/node-red-runtime-variable-reader",
-      "version": "2.0.1",
-      "description": "A simple node that is reading variable from a logiccloud runtime.",
-      "updated_at": "2024-01-26T14:56:26.054Z",
-      "types": [
-        "runtime-variable-reader"
-      ],
-      "keywords": [
-        "node-red",
-        "lc",
-        "LC",
-        "runtime",
-        "Runtime",
-        "iec61131-3",
-        "iec61131-10",
-        "IEC 61131-3",
-        "IEC 61131-10",
-        "iec61131",
-        "IEC 61131"
-      ],
-      "url": "https://flows.nodered.org/node/@logiccloud/node-red-runtime-variable-reader"
-    },
-    {
-      "id": "@logiccloud/node-red-runtime-variable-writer",
-      "version": "2.0.1",
-      "description": "A simple node that is writing a variable to a logiccloud runtime.",
-      "updated_at": "2024-01-26T14:56:00.352Z",
-      "types": [
-        "runtime-variable-writer"
-      ],
-      "keywords": [
-        "node-red",
-        "lc",
-        "LC",
-        "runtime",
-        "Runtime",
-        "iec61131-3",
-        "iec61131-10",
-        "IEC 61131-3",
-        "IEC 61131-10",
-        "iec61131",
-        "IEC 61131"
-      ],
-      "url": "https://flows.nodered.org/node/@logiccloud/node-red-runtime-variable-writer"
-    },
-    {
       "id": "do-red",
       "version": "0.4.1",
       "description": "A do-node and corresponding return-node for creating loops and task-lists.",
@@ -4197,26 +4232,6 @@
         "node-red"
       ],
       "url": "https://flows.nodered.org/node/node-red-lower-case-25-en"
-    },
-    {
-      "id": "@ncd-io/node-red-enterprise-sensors",
-      "version": "0.1.15",
-      "description": "You can install this library through the Palette Manager in Node-Red's UI.",
-      "updated_at": "2024-01-25T23:37:47.161Z",
-      "types": [
-        "ncd-gateway-node",
-        "ncd-wireless-node",
-        "ncd-gateway-config"
-      ],
-      "keywords": [
-        "Wireless",
-        "NCD",
-        "Sensors",
-        "Digi",
-        "node-red",
-        "enterprise"
-      ],
-      "url": "https://flows.nodered.org/node/@ncd-io/node-red-enterprise-sensors"
     },
     {
       "id": "node-red-contrib-millheat",
@@ -8305,21 +8320,6 @@
         "generic"
       ],
       "url": "https://flows.nodered.org/node/@digitalnodecom/node-red-contrib-generic-s3"
-    },
-    {
-      "id": "@softwaredevelopment/node-red-contrib-bodhi-connector",
-      "version": "0.1.5",
-      "description": "Bodhi connector configuration for connecting nodes to bodhi through bodhi bridge",
-      "updated_at": "2023-11-10T15:56:09.465Z",
-      "types": [
-        "Bodhi Connector"
-      ],
-      "keywords": [
-        "node-red",
-        "connector",
-        "bodhi"
-      ],
-      "url": "https://flows.nodered.org/node/@softwaredevelopment/node-red-contrib-bodhi-connector"
     },
     {
       "id": "node-red-contrib-vib-smart-boiler",
