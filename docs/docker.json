@@ -1,7 +1,114 @@
 {
   "name": "Catalogue for Docker",
-  "updated_at": "2024-03-10T15:53:12.277Z",
+  "updated_at": "2024-03-11T15:55:36.482Z",
   "modules": [
+    {
+      "id": "@gregoriusrippenstein/node-red-contrib-introspection",
+      "version": "0.7.0",
+      "description": "Node-RED Editor-only nodes for introspecting with flows in the frontend.",
+      "updated_at": "2024-03-11T14:23:17.525Z",
+      "types": [
+        "Seeker",
+        "Sink",
+        "GetFlows",
+        "SendFlow",
+        "InstallPackage",
+        "ClientCode"
+      ],
+      "keywords": [
+        "node-red",
+        "introspection",
+        "selfreflection",
+        "node-red-editor",
+        "screenshot"
+      ],
+      "url": "https://flows.nodered.org/node/@gregoriusrippenstein/node-red-contrib-introspection"
+    },
+    {
+      "id": "@renyoo/node-red-dfrobot_noderedcomputer",
+      "version": "1.0.7",
+      "description": "node red nodes for NodeREDComputer",
+      "updated_at": "2024-03-11T10:32:49.411Z",
+      "types": [
+        "GPIO Out",
+        "GPIO In",
+        "ADC",
+        "DAC",
+        "Dev Event",
+        "Special Event",
+        "IO Interrupt",
+        "Flow Count",
+        "Flow Switch",
+        "ESP32 Burn",
+        "RockchipBurn",
+        "CH58x Burn",
+        "Get SN",
+        "Burn OTP",
+        "GW TEST",
+        "DTU SN",
+        "DTU Config"
+      ],
+      "keywords": [
+        "node-red",
+        "dfrobot",
+        "NodeREDComputer"
+      ],
+      "url": "https://flows.nodered.org/node/@renyoo/node-red-dfrobot_noderedcomputer"
+    },
+    {
+      "id": "@octobus/node-red-contrib-octobus-connector",
+      "version": "2.0.2",
+      "description": "A set of nodes to connect between the data from different sources and OCTOBUS cloud",
+      "updated_at": "2024-03-11T06:37:01.955Z",
+      "types": [
+        "octobus-json-extractor",
+        "octobus-payload"
+      ],
+      "keywords": [
+        "node-red",
+        "octobus"
+      ],
+      "url": "https://flows.nodered.org/node/@octobus/node-red-contrib-octobus-connector"
+    },
+    {
+      "id": "@gotillit/tillit-node-red",
+      "version": "1.5.0",
+      "description": "A TilliT node for Node-RED",
+      "updated_at": "2024-03-11T00:27:30.447Z",
+      "types": [
+        "tillit-node-connection",
+        "tillit-out",
+        "tillit-in",
+        "tillit-api",
+        "tillit-pv",
+        "tillit-event",
+        "tillit-progress"
+      ],
+      "keywords": [
+        "node-red",
+        "tillit"
+      ],
+      "url": "https://flows.nodered.org/node/@gotillit/tillit-node-red"
+    },
+    {
+      "id": "node-red-contrib-qsys",
+      "version": "1.0.2",
+      "description": "A collection of nodes for third party control of Q-Sys systems",
+      "updated_at": "2024-03-10T15:13:58.181Z",
+      "types": [
+        "qsys-core",
+        "qsys-ControlSet",
+        "qsys-Presets"
+      ],
+      "keywords": [
+        "node-red",
+        "q-sys",
+        "QSC",
+        "audio",
+        "audio DSP"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-qsys"
+    },
     {
       "id": "@gregoriusrippenstein/node-red-contrib-flowhub",
       "version": "0.5.5",
@@ -36,27 +143,6 @@
         "IIoT"
       ],
       "url": "https://flows.nodered.org/node/@opcua/for-node-red"
-    },
-    {
-      "id": "@gregoriusrippenstein/node-red-contrib-introspection",
-      "version": "0.6.17",
-      "description": "Node-RED Editor-only nodes for introspecting with flows in the frontend.",
-      "updated_at": "2024-03-10T09:02:24.759Z",
-      "types": [
-        "Seeker",
-        "Sink",
-        "GetFlows",
-        "SendFlow",
-        "ClientCode"
-      ],
-      "keywords": [
-        "node-red",
-        "introspection",
-        "selfreflection",
-        "node-red-editor",
-        "screenshot"
-      ],
-      "url": "https://flows.nodered.org/node/@gregoriusrippenstein/node-red-contrib-introspection"
     },
     {
       "id": "node-red-2stools-packetdecode",
@@ -417,57 +503,6 @@
         "rdk-gpio"
       ],
       "url": "https://flows.nodered.org/node/node-red-node-rdk-gpio"
-    },
-    {
-      "id": "@renyoo/node-red-dfrobot_noderedcomputer",
-      "version": "1.0.6",
-      "description": "node red nodes for NodeREDComputer",
-      "updated_at": "2024-03-08T10:42:30.194Z",
-      "types": [
-        "GPIO Out",
-        "GPIO In",
-        "ADC",
-        "DAC",
-        "Dev Event",
-        "Special Event",
-        "IO Interrupt",
-        "Flow Count",
-        "Flow Switch",
-        "ESP32 Burn",
-        "RockchipBurn",
-        "CH58x Burn",
-        "Get SN",
-        "Burn OTP",
-        "GW TEST",
-        "DTU SN",
-        "DTU Config"
-      ],
-      "keywords": [
-        "node-red",
-        "dfrobot",
-        "NodeREDComputer"
-      ],
-      "url": "https://flows.nodered.org/node/@renyoo/node-red-dfrobot_noderedcomputer"
-    },
-    {
-      "id": "@gotillit/tillit-node-red",
-      "version": "1.4.2",
-      "description": "A TilliT node for Node-RED",
-      "updated_at": "2024-03-08T02:30:23.051Z",
-      "types": [
-        "tillit-node-connection",
-        "tillit-out",
-        "tillit-in",
-        "tillit-api",
-        "tillit-pv",
-        "tillit-event",
-        "tillit-progress"
-      ],
-      "keywords": [
-        "node-red",
-        "tillit"
-      ],
-      "url": "https://flows.nodered.org/node/@gotillit/tillit-node-red"
     },
     {
       "id": "@rakwireless/field-tester-server",
@@ -14106,25 +14141,6 @@
       "url": "https://flows.nodered.org/node/nr-meross-cloud"
     },
     {
-      "id": "node-red-contrib-qsys",
-      "version": "1.0.1",
-      "description": "A collection of nodes for third party control of Q-Sys systems",
-      "updated_at": "2023-07-25T23:49:59.003Z",
-      "types": [
-        "qsys-core",
-        "qsys-ControlSet",
-        "qsys-Presets"
-      ],
-      "keywords": [
-        "node-red",
-        "q-sys",
-        "QSC",
-        "audio",
-        "audio DSP"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-qsys"
-    },
-    {
       "id": "@studiobox/node-red-contrib-ui-widget-bulb-basic",
       "version": "0.4.0",
       "description": "Easy to use Node-RED UI Widget on Node-RED Dashboard for easy to display virtual bulb (for turn on/off).",
@@ -22555,21 +22571,6 @@
         "tail"
       ],
       "url": "https://flows.nodered.org/node/node-red-node-tail"
-    },
-    {
-      "id": "@octobus/node-red-contrib-octobus-connector",
-      "version": "2.0.1",
-      "description": "A set of nodes to connect between the data from different sources and OCTOBUS cloud ![Alt text](https://iworks-public-assets.s3.ap-southeast-1.amazonaws.com/npm/octobus_logo.png?raw=true \"Optional Title\")",
-      "updated_at": "2022-12-14T04:58:30.879Z",
-      "types": [
-        "octobus-json-extractor",
-        "octobus-payload"
-      ],
-      "keywords": [
-        "node-red",
-        "octobus"
-      ],
-      "url": "https://flows.nodered.org/node/@octobus/node-red-contrib-octobus-connector"
     },
     {
       "id": "node-red-contrib-time-range-switch",
