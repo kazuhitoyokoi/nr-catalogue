@@ -1,12 +1,149 @@
 {
   "name": "Catalogue for Docker",
-  "updated_at": "2024-03-11T15:55:36.482Z",
+  "updated_at": "2024-03-12T15:56:08.853Z",
   "modules": [
     {
+      "id": "@umsicht/node-red-contrib-thingsdata",
+      "version": "1.2.0",
+      "description": "Node-RED nodes to work with the ThingsData S3 Storage System and ThingsData InfluxDB",
+      "updated_at": "2024-03-12T14:08:58.145Z",
+      "types": [
+        "thingsdata-s3-config",
+        "thingsdata s3 delete",
+        "thingsdata s3 get",
+        "thingsdata s3 list buckets",
+        "thingsdata s3 list objects",
+        "thingsdata s3 put",
+        "thingsdata s3 watch",
+        "value out",
+        "flex out",
+        "latest in"
+      ],
+      "keywords": [
+        "node-red",
+        "thingsdata"
+      ],
+      "url": "https://flows.nodered.org/node/@umsicht/node-red-contrib-thingsdata"
+    },
+    {
+      "id": "node-red-node-email",
+      "version": "2.2.1",
+      "description": "Node-RED nodes to send and receive simple emails.",
+      "updated_at": "2024-03-12T12:22:37.749Z",
+      "types": [
+        "e-mail",
+        "e-mail in",
+        "e-mail mta"
+      ],
+      "keywords": [
+        "node-red",
+        "email",
+        "gmail",
+        "imap",
+        "pop",
+        "smtp",
+        "smtp-server",
+        "mta"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-node-email"
+    },
+    {
+      "id": "node-red-node-rdk-vision",
+      "version": "0.0.4",
+      "description": "配合RDK硬件使用视觉算法的Node-RED功能包(Node-RED nodes for using vision algorithms on a RDK hardware)",
+      "updated_at": "2024-03-12T12:02:11.193Z",
+      "types": [
+        "rdk-vision yolov3",
+        "rdk-vision yolov5",
+        "rdk-vision unet",
+        "rdk-vision fcos"
+      ],
+      "keywords": [
+        "node-red",
+        "rdk",
+        "x3",
+        "vision",
+        "algorithm"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-node-rdk-vision"
+    },
+    {
+      "id": "node-red-contrib-web-worldmap",
+      "version": "4.6.4",
+      "description": "A Node-RED node to provide a web page of a world map for plotting things on.",
+      "updated_at": "2024-03-12T11:27:55.999Z",
+      "types": [
+        "worldmap",
+        "ui_worldmap",
+        "worldmap in",
+        "worldmap-tracks",
+        "worldmap-hull"
+      ],
+      "keywords": [
+        "node-red",
+        "map",
+        "world",
+        "tak",
+        "pmtiles",
+        "esri",
+        "gis"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-web-worldmap"
+    },
+    {
+      "id": "node-red-contrib-iot-controlcenter",
+      "version": "2.2.0",
+      "description": "Data exchange from node-red to control center",
+      "updated_at": "2024-03-12T10:13:20.250Z",
+      "types": [
+        "IOT Send",
+        "IOT Get",
+        "IOT Function",
+        "IOT Request"
+      ],
+      "keywords": [
+        "node-red",
+        "iot",
+        "controlcenter"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-iot-controlcenter"
+    },
+    {
+      "id": "@renyoo/node-red-dfrobot_noderedcomputer",
+      "version": "1.0.8",
+      "description": "node red nodes for NodeREDComputer",
+      "updated_at": "2024-03-12T09:56:34.837Z",
+      "types": [
+        "GPIO Out",
+        "GPIO In",
+        "ADC",
+        "DAC",
+        "Dev Event",
+        "Special Event",
+        "IO Interrupt",
+        "Flow Count",
+        "Flow Switch",
+        "ESP32 Burn",
+        "RockchipBurn",
+        "CH58x Burn",
+        "GW SN",
+        "Burn OTP",
+        "GW TEST",
+        "DTU SN",
+        "DTU Config"
+      ],
+      "keywords": [
+        "node-red",
+        "dfrobot",
+        "NodeREDComputer"
+      ],
+      "url": "https://flows.nodered.org/node/@renyoo/node-red-dfrobot_noderedcomputer"
+    },
+    {
       "id": "@gregoriusrippenstein/node-red-contrib-introspection",
-      "version": "0.7.0",
+      "version": "0.7.2",
       "description": "Node-RED Editor-only nodes for introspecting with flows in the frontend.",
-      "updated_at": "2024-03-11T14:23:17.525Z",
+      "updated_at": "2024-03-11T18:11:50.155Z",
       "types": [
         "Seeker",
         "Sink",
@@ -25,35 +162,84 @@
       "url": "https://flows.nodered.org/node/@gregoriusrippenstein/node-red-contrib-introspection"
     },
     {
-      "id": "@renyoo/node-red-dfrobot_noderedcomputer",
-      "version": "1.0.7",
-      "description": "node red nodes for NodeREDComputer",
-      "updated_at": "2024-03-11T10:32:49.411Z",
+      "id": "@ncd-io/node-red-enterprise-sensors",
+      "version": "0.1.17",
+      "description": "You can install this library through the Palette Manager in Node-Red's UI.",
+      "updated_at": "2024-03-11T18:07:24.576Z",
       "types": [
-        "GPIO Out",
-        "GPIO In",
-        "ADC",
-        "DAC",
-        "Dev Event",
-        "Special Event",
-        "IO Interrupt",
-        "Flow Count",
-        "Flow Switch",
-        "ESP32 Burn",
-        "RockchipBurn",
-        "CH58x Burn",
-        "Get SN",
-        "Burn OTP",
-        "GW TEST",
-        "DTU SN",
-        "DTU Config"
+        "ncd-gateway-node",
+        "ncd-wireless-node",
+        "ncd-gateway-config"
+      ],
+      "keywords": [
+        "Wireless",
+        "NCD",
+        "Sensors",
+        "Digi",
+        "node-red",
+        "enterprise"
+      ],
+      "url": "https://flows.nodered.org/node/@ncd-io/node-red-enterprise-sensors"
+    },
+    {
+      "id": "node-red-contrib-thinger",
+      "version": "1.7.0",
+      "description": "Node-Red library for Thinger.io Platform",
+      "updated_at": "2024-03-11T17:01:27.515Z",
+      "types": [
+        "asset-iterator",
+        "bucket-create",
+        "bucket-read",
+        "bucket-write",
+        "device-callback",
+        "device-create",
+        "device-read",
+        "device-stream",
+        "device-write",
+        "endpoint-call",
+        "property-read",
+        "property-write",
+        "storage-read",
+        "storage-write",
+        "server-events",
+        "thinger-server"
       ],
       "keywords": [
         "node-red",
-        "dfrobot",
-        "NodeREDComputer"
+        "thinger.io",
+        "IoT",
+        "arduino",
+        "raspberry"
       ],
-      "url": "https://flows.nodered.org/node/@renyoo/node-red-dfrobot_noderedcomputer"
+      "url": "https://flows.nodered.org/node/node-red-contrib-thinger"
+    },
+    {
+      "id": "node-red-contrib-haas",
+      "version": "1.0.3",
+      "description": "Client to communicate with Haas machine using Telnet",
+      "updated_at": "2024-03-11T16:18:19.651Z",
+      "types": [],
+      "keywords": [
+        "telnet",
+        "haas",
+        "node-red"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-haas"
+    },
+    {
+      "id": "node-red-2stools-packetdecode",
+      "version": "0.11.0",
+      "description": "Decode string data to a respective sensor on IC",
+      "updated_at": "2024-03-11T15:16:16.349Z",
+      "types": [
+        "2stools-packetdecode"
+      ],
+      "keywords": [
+        "node-red",
+        "2solve",
+        "2stools"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-2stools-packetdecode"
     },
     {
       "id": "@octobus/node-red-contrib-octobus-connector",
@@ -143,21 +329,6 @@
         "IIoT"
       ],
       "url": "https://flows.nodered.org/node/@opcua/for-node-red"
-    },
-    {
-      "id": "node-red-2stools-packetdecode",
-      "version": "0.10.0",
-      "description": "Decode string data to a respective sensor on IC",
-      "updated_at": "2024-03-09T21:05:12.902Z",
-      "types": [
-        "2stools-packetdecode"
-      ],
-      "keywords": [
-        "node-red",
-        "2solve",
-        "2stools"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-2stools-packetdecode"
     },
     {
       "id": "@appcube/node-red-contrib-listenai",
@@ -277,26 +448,6 @@
         "hosting"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-alice-self-hosting"
-    },
-    {
-      "id": "@ncd-io/node-red-enterprise-sensors",
-      "version": "0.1.16",
-      "description": "You can install this library through the Palette Manager in Node-Red's UI.",
-      "updated_at": "2024-03-08T22:57:28.808Z",
-      "types": [
-        "ncd-gateway-node",
-        "ncd-wireless-node",
-        "ncd-gateway-config"
-      ],
-      "keywords": [
-        "Wireless",
-        "NCD",
-        "Sensors",
-        "Digi",
-        "node-red",
-        "enterprise"
-      ],
-      "url": "https://flows.nodered.org/node/@ncd-io/node-red-enterprise-sensors"
     },
     {
       "id": "@logiccloud/node-red-runtime-variable-writer",
@@ -1305,29 +1456,6 @@
         "node-red"
       ],
       "url": "https://flows.nodered.org/node/@thingweb/node-red-node-wot"
-    },
-    {
-      "id": "node-red-contrib-web-worldmap",
-      "version": "4.6.3",
-      "description": "A Node-RED node to provide a web page of a world map for plotting things on.",
-      "updated_at": "2024-03-04T10:00:35.686Z",
-      "types": [
-        "worldmap",
-        "ui_worldmap",
-        "worldmap in",
-        "worldmap-tracks",
-        "worldmap-hull"
-      ],
-      "keywords": [
-        "node-red",
-        "map",
-        "world",
-        "tak",
-        "pmtiles",
-        "esri",
-        "gis"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-web-worldmap"
     },
     {
       "id": "apconic-postgresql",
@@ -2696,28 +2824,6 @@
       "url": "https://flows.nodered.org/node/@edgepi-cloud/node-red-edgepi-thermocouple"
     },
     {
-      "id": "node-red-node-email",
-      "version": "2.2.0",
-      "description": "Node-RED nodes to send and receive simple emails.",
-      "updated_at": "2024-02-20T09:11:46.885Z",
-      "types": [
-        "e-mail",
-        "e-mail in",
-        "e-mail mta"
-      ],
-      "keywords": [
-        "node-red",
-        "email",
-        "gmail",
-        "imap",
-        "pop",
-        "smtp",
-        "smtp-server",
-        "mta"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-node-email"
-    },
-    {
       "id": "@sumit_shinde_84/node-red-dashboard-2-ui-webcam",
       "version": "1.0.2",
       "description": "The ui-webcam node for Node-RED Dashboard 2.0 enables users to integrate webcam functionality into Node-RED Dashboard 2.0. It allows users to capture images, select different cameras, and control webcam features through an intuitive user interface within ",
@@ -3658,25 +3764,6 @@
       "url": "https://flows.nodered.org/node/node-red-contrib-smart-door"
     },
     {
-      "id": "node-red-node-rdk-vision",
-      "version": "0.0.2",
-      "description": "Node Red node for using vision algorithms on a RDK hardware",
-      "updated_at": "2024-02-04T02:46:19.948Z",
-      "types": [
-        "rdk-vision yolov3",
-        "rdk-vision yolov5",
-        "rdk-vision unet"
-      ],
-      "keywords": [
-        "node-red",
-        "rdk",
-        "x3",
-        "vision",
-        "algorithm"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-node-rdk-vision"
-    },
-    {
       "id": "node-red-contrib-solaredge-optimizers",
       "version": "0.2.2",
       "description": "Read optimizer data from solaredge cloud",
@@ -3926,24 +4013,6 @@
         "generate"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-blockly"
-    },
-    {
-      "id": "node-red-contrib-iot-controlcenter",
-      "version": "2.1.0",
-      "description": "Data exchange from node-red to control center",
-      "updated_at": "2024-01-31T09:27:23.972Z",
-      "types": [
-        "IOT Send",
-        "IOT Get",
-        "IOT Function",
-        "IOT Request"
-      ],
-      "keywords": [
-        "node-red",
-        "iot",
-        "controlcenter"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-iot-controlcenter"
     },
     {
       "id": "kdbx-red",
@@ -4446,31 +4515,6 @@
         "dashboard"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-ui-statechart"
-    },
-    {
-      "id": "@iiot2k/node-red-rpi-gpiox",
-      "version": "2.0.2",
-      "description": "Node-RED nodes for Raspberry Pi GPIO",
-      "updated_at": "2024-01-22T21:40:21.824Z",
-      "types": [
-        "iiot2k-rpi-gpiox-in",
-        "iiot2k-rpi-gpiox-out",
-        "iiot2k-rpi-gpiox-pwm"
-      ],
-      "keywords": [
-        "node-red",
-        "iot",
-        "iiot2k",
-        "raspberry pi",
-        "rpi",
-        "digital",
-        "gpio",
-        "gpiox",
-        "input",
-        "output",
-        "pwm"
-      ],
-      "url": "https://flows.nodered.org/node/@iiot2k/node-red-rpi-gpiox"
     },
     {
       "id": "node-red-contrib-openbci-eegmetrics",
@@ -5873,38 +5917,6 @@
       "url": "https://flows.nodered.org/node/node-red-contrib-log-elk"
     },
     {
-      "id": "node-red-contrib-thinger",
-      "version": "1.6.3",
-      "description": "Node-Red library for Thinger.io Platform",
-      "updated_at": "2024-01-03T10:49:03.448Z",
-      "types": [
-        "asset-iterator",
-        "bucket-create",
-        "bucket-read",
-        "bucket-write",
-        "device-callback",
-        "device-create",
-        "device-read",
-        "device-stream",
-        "device-write",
-        "endpoint-call",
-        "property-read",
-        "property-write",
-        "storage-read",
-        "storage-write",
-        "server-events",
-        "thinger-server"
-      ],
-      "keywords": [
-        "node-red",
-        "thinger.io",
-        "IoT",
-        "arduino",
-        "raspberry"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-thinger"
-    },
-    {
       "id": "node-red-contrib-smartnora",
       "version": "1.22.0",
       "description": "Google Smart Home integration via Smart Nora https://smart-nora.eu/",
@@ -6353,6 +6365,24 @@
         "ai"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-pinecone"
+    },
+    {
+      "id": "node-red-contrib-countdown-3000",
+      "version": "1.6.0",
+      "description": "A countdown that supports dynamic setting of (future) run time and stopping with or without payload output",
+      "updated_at": "2023-12-26T15:42:47.034Z",
+      "types": [
+        "countdown"
+      ],
+      "keywords": [
+        "node-red",
+        "count down timer",
+        "countdown",
+        "timer",
+        "timeout",
+        "stop timer"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-countdown-3000"
     },
     {
       "id": "@headless-architecture/node-red-contrib-slack-bolt",
@@ -13587,24 +13617,6 @@
         "security"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-eufy-security"
-    },
-    {
-      "id": "node-red-contrib-countdown-3000",
-      "version": "1.5.1-L",
-      "description": "A countdown that supports dynamic setting of (future) run time and stopping with or without payload output",
-      "updated_at": "2023-08-07T21:28:07.471Z",
-      "types": [
-        "countdown"
-      ],
-      "keywords": [
-        "node-red",
-        "count down timer",
-        "countdown",
-        "timer",
-        "timeout",
-        "stop timmer"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-countdown-3000"
     },
     {
       "id": "node-red-contrib-kopal-lower-case",
