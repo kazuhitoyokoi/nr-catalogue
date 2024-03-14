@@ -1,0 +1,44 @@
+#0 building with "default" instance using docker driver
+
+#1 [internal] load .dockerignore
+#1 transferring context: 2B done
+#1 DONE 0.0s
+
+#2 [internal] load build definition from Dockerfile
+#2 transferring dockerfile: 138B done
+#2 DONE 0.0s
+
+#3 [internal] load metadata for docker.io/nodered/node-red:latest
+#3 DONE 0.3s
+
+#4 [1/2] FROM docker.io/nodered/node-red@sha256:b3bee638741091bf6548f77aa08ec9ff5f879cdf6a0a43c761dcd009217636a5
+#4 CACHED
+
+#5 [2/2] RUN npm install npm install @machinechat/node-red-node-machinechat-bridge@1.0.4
+#5 1.806 npm WARN EBADENGINE Unsupported engine {
+#5 1.807 npm WARN EBADENGINE   package: 'npm@10.5.0',
+#5 1.807 npm WARN EBADENGINE   required: { node: '^18.17.0 || >=20.5.0' },
+#5 1.807 npm WARN EBADENGINE   current: { node: 'v16.20.2', npm: '8.19.4' }
+#5 1.807 npm WARN EBADENGINE }
+#5 3.242 
+#5 3.242 added 4 packages, and audited 529 packages in 3s
+#5 3.242 
+#5 3.242 69 packages are looking for funding
+#5 3.242   run `npm fund` for details
+#5 3.243 
+#5 3.243 found 0 vulnerabilities
+#5 3.244 npm notice 
+#5 3.244 npm notice New major version of npm available! 8.19.4 -> 10.5.0
+#5 3.244 npm notice Changelog: <https://github.com/npm/cli/releases/tag/v10.5.0>
+#5 3.244 npm notice Run `npm install -g npm@10.5.0` to update!
+#5 3.244 npm notice 
+#5 DONE 3.3s
+
+#6 exporting to image
+#6 exporting layers
+#6 exporting layers 1.0s done
+#6 writing image sha256:7b732188a9a670a4c4d490e0457d8e3036a6dfa2575ba3973469a4ebdedc833d done
+#6 naming to docker.io/library/tmp done
+#6 DONE 1.0s
+
+----
