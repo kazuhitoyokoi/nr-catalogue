@@ -1,12 +1,369 @@
 {
   "name": "Catalogue for Docker",
-  "updated_at": "2024-03-12T15:56:08.853Z",
+  "updated_at": "2024-03-14T16:34:57.145Z",
   "modules": [
     {
+      "id": "@strato-automation/node-red-contrib-strato-automation",
+      "version": "0.5.1",
+      "description": "Strato Automation Official Node Red Library",
+      "updated_at": "2024-03-14T13:58:31.714Z",
+      "types": [
+        "input",
+        "output-ip",
+        "output-mstp",
+        "ocn-server",
+        "func-on-off",
+        "func-ramp",
+        "func-min",
+        "func-max",
+        "const",
+        "input-topic",
+        "unit-converter",
+        "logic-gate",
+        "not-gate",
+        "psychrometric-calculator",
+        "strato-pid",
+        "signal-generator",
+        "deadband"
+      ],
+      "keywords": [
+        "node-red",
+        "node-red-node"
+      ],
+      "url": "https://flows.nodered.org/node/@strato-automation/node-red-contrib-strato-automation"
+    },
+    {
+      "id": "@digitalnodecom/node-red-contrib-puppeteer",
+      "version": "1.1.0",
+      "description": "NodeRED nodes to control a headless chrome with puppeteer",
+      "updated_at": "2024-03-14T13:11:45.345Z",
+      "types": [
+        "puppeteer-browser-launch",
+        "puppeteer-browser-close",
+        "puppeteer-browser-newPage",
+        "puppeteer-page-goto",
+        "puppeteer-page-screenshot",
+        "puppeteer-page-content",
+        "puppeteer-page-click",
+        "puppeteer-page-download",
+        "puppeteer-page-focus",
+        "puppeteer-page-waitFor",
+        "puppeteer-page-getCookies",
+        "puppeteer-page-setCookies",
+        "puppeteer-page-deleteCookies",
+        "puppeteer-page-close",
+        "puppeteer-page-keyboard-type",
+        "puppeteer-page-keyboard-press",
+        "puppeteer-page-get-value",
+        "puppeteer-page-set-value",
+        "puppeteer-page-upload",
+        "puppeteer-rename"
+      ],
+      "keywords": [
+        "chrome",
+        "browser automation",
+        "puppeteer",
+        "node-red"
+      ],
+      "url": "https://flows.nodered.org/node/@digitalnodecom/node-red-contrib-puppeteer"
+    },
+    {
+      "id": "@background404/node-red-contrib-mcu-servo",
+      "version": "0.0.1",
+      "description": "Node for Servomotor with Node-RED MCU",
+      "updated_at": "2024-03-14T08:21:48.945Z",
+      "types": [
+        "servo"
+      ],
+      "keywords": [
+        "node-red",
+        "node-red-mcu",
+        "mcu",
+        "PWM"
+      ],
+      "url": "https://flows.nodered.org/node/@background404/node-red-contrib-mcu-servo"
+    },
+    {
+      "id": "@tq-bit/node-red-contrib-server-sent-events",
+      "version": "1.2.5",
+      "description": "Nodes to create - or subscribe to - server-sent events",
+      "updated_at": "2024-03-14T08:21:25.767Z",
+      "types": [
+        "sse-server",
+        "sse-client"
+      ],
+      "keywords": [
+        "node-red",
+        "nodes",
+        "server-sent-events",
+        "sse"
+      ],
+      "url": "https://flows.nodered.org/node/@tq-bit/node-red-contrib-server-sent-events"
+    },
+    {
+      "id": "tams-cell-get",
+      "version": "1.0.3",
+      "description": "Node that provides the corresponding value through CellId of DYNA_CELL_DATA.",
+      "updated_at": "2024-03-14T04:33:42.300Z",
+      "types": [
+        "cell-config",
+        "cell-cmd"
+      ],
+      "keywords": [
+        "node-red"
+      ],
+      "url": "https://flows.nodered.org/node/tams-cell-get"
+    },
+    {
+      "id": "@chvdapi/node-red-en6400-led",
+      "version": "0.0.1",
+      "description": "A node by chvda to drive LED on EN6400",
+      "updated_at": "2024-03-14T01:23:08.388Z",
+      "types": [
+        "EN6400_LED"
+      ],
+      "keywords": [
+        "node-red"
+      ],
+      "url": "https://flows.nodered.org/node/@chvdapi/node-red-en6400-led"
+    },
+    {
+      "id": "@ncd-io/node-red-enterprise-sensors",
+      "version": "0.1.18",
+      "description": "You can install this library through the Palette Manager in Node-Red's UI.",
+      "updated_at": "2024-03-13T21:43:44.668Z",
+      "types": [
+        "ncd-gateway-node",
+        "ncd-wireless-node",
+        "ncd-gateway-config"
+      ],
+      "keywords": [
+        "Wireless",
+        "NCD",
+        "Sensors",
+        "Digi",
+        "node-red",
+        "enterprise"
+      ],
+      "url": "https://flows.nodered.org/node/@ncd-io/node-red-enterprise-sensors"
+    },
+    {
+      "id": "@jpdlm/node-red-contrib-sap-service-layer",
+      "version": "0.1.2",
+      "description": "Unofficial Module SAP Service Layer for Node-Red",
+      "updated_at": "2024-03-13T21:41:51.358Z",
+      "types": [
+        "authenticateSap",
+        "listSap",
+        "createSap",
+        "deleteSap",
+        "getSap",
+        "patchSap",
+        "closeSap",
+        "crossJoinSap",
+        "nextLink",
+        "serviceSap",
+        "manipulateEntitySap",
+        "createSQLQuery",
+        "SQLQuery"
+      ],
+      "keywords": [
+        "node-red",
+        "SAP",
+        "service layer",
+        "API",
+        "ERP",
+        "integration"
+      ],
+      "url": "https://flows.nodered.org/node/@jpdlm/node-red-contrib-sap-service-layer"
+    },
+    {
+      "id": "@softwaredevelopment/node-red-contrib-bodhi-connector",
+      "version": "1.0.0",
+      "description": "Bodhi connector configuration for connecting nodes to bodhi through bodhi bridge",
+      "updated_at": "2024-03-13T21:05:12.433Z",
+      "types": [
+        "Bodhi Connector"
+      ],
+      "keywords": [
+        "node-red",
+        "connector",
+        "bodhi"
+      ],
+      "url": "https://flows.nodered.org/node/@softwaredevelopment/node-red-contrib-bodhi-connector"
+    },
+    {
+      "id": "@flowfuse/node-red-dashboard",
+      "version": "1.4.1",
+      "description": "Dashboard 2.0 - A collection of Node-RED nodes that provide functionality to build your own UI applications (inc. forms, buttons, charts).",
+      "updated_at": "2024-03-13T19:26:56.987Z",
+      "types": [
+        "ui-base",
+        "ui-page",
+        "ui-group",
+        "ui-theme",
+        "ui-form",
+        "__errors__",
+        "ui-text-input",
+        "__errors__",
+        "ui-button",
+        "__errors__",
+        "ui-button-group",
+        "__errors__",
+        "ui-dropdown",
+        "__errors__",
+        "ui-radio-group",
+        "__errors__",
+        "ui-slider",
+        "__errors__",
+        "ui-switch",
+        "__errors__",
+        "ui-text",
+        "__errors__",
+        "ui-table",
+        "__errors__",
+        "ui-chart",
+        "__errors__",
+        "ui-gauge",
+        "__errors__",
+        "ui-notification",
+        "__errors__",
+        "ui-markdown",
+        "__errors__",
+        "ui-template",
+        "__errors__",
+        "ui-event",
+        "__errors__",
+        "ui-control",
+        "__errors__"
+      ],
+      "keywords": [
+        "node-red"
+      ],
+      "url": "https://flows.nodered.org/node/@flowfuse/node-red-dashboard"
+    },
+    {
+      "id": "@siglesiasg/node-red-event-manager",
+      "version": "0.0.8",
+      "description": "Event Manager for Node Red",
+      "updated_at": "2024-03-13T17:40:05.347Z",
+      "types": [
+        "event-manager-dispatcher",
+        "event-manager-checkpoint"
+      ],
+      "keywords": [
+        "node-red",
+        "event-management",
+        "flow-management",
+        "flow-controller",
+        "flow",
+        "slots",
+        "queue"
+      ],
+      "url": "https://flows.nodered.org/node/@siglesiasg/node-red-event-manager"
+    },
+    {
+      "id": "node-red-contrib-obs-ws",
+      "version": "1.0.0",
+      "description": "Connect to OBS Studio and control it/receive events. Node-Red bindings for obs-websocket-js.",
+      "updated_at": "2024-03-13T16:18:34.981Z",
+      "types": [
+        "obs-instance",
+        "obs connection status",
+        "obs event",
+        "obs request",
+        "SetCurrentProgramScene",
+        "TriggerStudioModeTransition"
+      ],
+      "keywords": [
+        "node-red",
+        "obs-websocket",
+        "obs-websocket-js"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-obs-ws"
+    },
+    {
+      "id": "@gregoriusrippenstein/node-red-contrib-flowhub",
+      "version": "0.6.1",
+      "description": "Nodes for interacting with FlowHub.org.",
+      "updated_at": "2024-03-13T15:33:29.808Z",
+      "types": [
+        "FlowHubPull",
+        "FlowHubCfg"
+      ],
+      "keywords": [
+        "node-red",
+        "flowhub",
+        "flow-sharing",
+        "collaborative",
+        "flow-development"
+      ],
+      "url": "https://flows.nodered.org/node/@gregoriusrippenstein/node-red-contrib-flowhub"
+    },
+    {
+      "id": "@machinechat/node-red-node-machinechat-bridge",
+      "version": "1.0.4",
+      "description": "Machinechat Bridge forwards Node-RED messages to Machinechat data visualization, monitoring, and analytics applications. Effortlessly upgrade Node-RED flows with web-based user interface, responsive custom dashboards, timeseries data storage, role-based u",
+      "updated_at": "2024-03-13T15:17:10.374Z",
+      "types": [
+        "machinechat-bridge"
+      ],
+      "keywords": [
+        "Machinechat",
+        "Dashboard",
+        "Rules",
+        "RBE",
+        "Storage",
+        "Report",
+        "Notification",
+        "node-red"
+      ],
+      "url": "https://flows.nodered.org/node/@machinechat/node-red-node-machinechat-bridge"
+    },
+    {
+      "id": "@gregoriusrippenstein/node-red-contrib-nodedev",
+      "version": "0.3.3",
+      "description": "Support the development of Node-RED nodes within Node-RED.",
+      "updated_at": "2024-03-13T14:35:15.409Z",
+      "types": [
+        "NodeDevOps",
+        "NodeFactory",
+        "PkgFile",
+        "NpmTarBall",
+        "NodeRedInstall",
+        "NpmPublish",
+        "NodeFactorySidebarCfg"
+      ],
+      "keywords": [
+        "node-red",
+        "node development",
+        "introspection",
+        "bootstrapping",
+        "recursion"
+      ],
+      "url": "https://flows.nodered.org/node/@gregoriusrippenstein/node-red-contrib-nodedev"
+    },
+    {
+      "id": "node-red-contrib-relay-persistent",
+      "version": "1.0.0",
+      "description": "A Node-RED node for relay with persistent mode.",
+      "updated_at": "2024-03-13T14:19:43.925Z",
+      "types": [
+        "relay-persistent"
+      ],
+      "keywords": [
+        "node-red",
+        "relay",
+        "persistent",
+        "node"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-relay-persistent"
+    },
+    {
       "id": "@umsicht/node-red-contrib-thingsdata",
-      "version": "1.2.0",
+      "version": "1.2.1",
       "description": "Node-RED nodes to work with the ThingsData S3 Storage System and ThingsData InfluxDB",
-      "updated_at": "2024-03-12T14:08:58.145Z",
+      "updated_at": "2024-03-13T12:01:13.604Z",
       "types": [
         "thingsdata-s3-config",
         "thingsdata s3 delete",
@@ -24,6 +381,164 @@
         "thingsdata"
       ],
       "url": "https://flows.nodered.org/node/@umsicht/node-red-contrib-thingsdata"
+    },
+    {
+      "id": "node-red-dashboard",
+      "version": "3.6.5",
+      "description": "A set of dashboard nodes for Node-RED",
+      "updated_at": "2024-03-12T22:59:49.700Z",
+      "types": [
+        "ui_base",
+        "ui_button",
+        "ui_dropdown",
+        "ui_switch",
+        "ui_slider",
+        "ui_numeric",
+        "ui_text_input",
+        "ui_date_picker",
+        "ui_colour_picker",
+        "ui_form",
+        "ui_text",
+        "ui_gauge",
+        "ui_chart",
+        "ui_audio",
+        "ui_toast",
+        "ui_ui_control",
+        "ui_template",
+        "ui_link",
+        "ui_tab",
+        "ui_group",
+        "ui_spacer"
+      ],
+      "keywords": [
+        "node-red"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-dashboard"
+    },
+    {
+      "id": "node-red-contrib-shelly",
+      "version": "10.18.0",
+      "description": "Shelly nodes.",
+      "updated_at": "2024-03-12T20:37:11.307Z",
+      "types": [
+        "shelly-gen1-server",
+        "shelly-gen1",
+        "shelly-gen2-server",
+        "shelly-gen2",
+        "shelly-cloud-server",
+        "shelly-cloud"
+      ],
+      "keywords": [
+        "node-red",
+        "shelly"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-shelly"
+    },
+    {
+      "id": "node-red-contrib-relay-no-nc",
+      "version": "1.0.1",
+      "description": "A Node-RED node that mimics latched NO NC relay logic.",
+      "updated_at": "2024-03-12T19:19:18.854Z",
+      "types": [
+        "relay-no",
+        "relay-nc"
+      ],
+      "keywords": [
+        "node-red",
+        "relay",
+        "logic",
+        "boolean",
+        "input",
+        "output"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-relay-no-nc"
+    },
+    {
+      "id": "node-red-contrib-thinger",
+      "version": "1.7.1",
+      "description": "Node-Red library for Thinger.io Platform",
+      "updated_at": "2024-03-12T17:17:50.878Z",
+      "types": [
+        "asset-iterator",
+        "bucket-create",
+        "bucket-read",
+        "bucket-write",
+        "device-callback",
+        "device-create",
+        "device-read",
+        "device-stream",
+        "device-write",
+        "endpoint-call",
+        "property-read",
+        "property-write",
+        "storage-read",
+        "storage-write",
+        "server-events",
+        "thinger-server"
+      ],
+      "keywords": [
+        "node-red",
+        "thinger.io",
+        "IoT",
+        "arduino",
+        "raspberry"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-thinger"
+    },
+    {
+      "id": "node-red-contrib-haas",
+      "version": "1.0.8",
+      "description": "Client to communicate with Haas machine using Telnet",
+      "updated_at": "2024-03-12T16:04:07.747Z",
+      "types": [
+        "haas-command",
+        "haas-dprint"
+      ],
+      "keywords": [
+        "telnet",
+        "haas",
+        "node-red"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-haas"
+    },
+    {
+      "id": "node-red-node-rdk-ros2",
+      "version": "0.0.1",
+      "description": "A collection of Node-RED nodes for connecting with ROS2.",
+      "updated_at": "2024-03-12T15:12:54.861Z",
+      "types": [
+        "dds-settings",
+        "Publisher",
+        "Subscriber",
+        "IDL Type",
+        "ROS2 Type",
+        "ROS2 Inject",
+        "FIWARE Publisher",
+        "FIWARE Subscriber",
+        "fiware-settings"
+      ],
+      "keywords": [
+        "ros2",
+        "node-red",
+        "contrib",
+        "fiware",
+        "ngsi",
+        "rdk"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-node-rdk-ros2"
+    },
+    {
+      "id": "@inteli.city/node-red-contrib-exec-collection",
+      "version": "1.0.0",
+      "description": "* exec.queue - Creates a process queue * exec.service - Uses pm2 to create services that run for a long time * thread.queue - Creates a queue of threads (Python and Node.js) in a separate process. * thread.function - Creates a queue of threads (Node.js on",
+      "updated_at": "2024-03-12T14:32:34.043Z",
+      "types": [
+        "exec.queue"
+      ],
+      "keywords": [
+        "node-red"
+      ],
+      "url": "https://flows.nodered.org/node/@inteli.city/node-red-contrib-exec-collection"
     },
     {
       "id": "node-red-node-email",
@@ -162,71 +677,6 @@
       "url": "https://flows.nodered.org/node/@gregoriusrippenstein/node-red-contrib-introspection"
     },
     {
-      "id": "@ncd-io/node-red-enterprise-sensors",
-      "version": "0.1.17",
-      "description": "You can install this library through the Palette Manager in Node-Red's UI.",
-      "updated_at": "2024-03-11T18:07:24.576Z",
-      "types": [
-        "ncd-gateway-node",
-        "ncd-wireless-node",
-        "ncd-gateway-config"
-      ],
-      "keywords": [
-        "Wireless",
-        "NCD",
-        "Sensors",
-        "Digi",
-        "node-red",
-        "enterprise"
-      ],
-      "url": "https://flows.nodered.org/node/@ncd-io/node-red-enterprise-sensors"
-    },
-    {
-      "id": "node-red-contrib-thinger",
-      "version": "1.7.0",
-      "description": "Node-Red library for Thinger.io Platform",
-      "updated_at": "2024-03-11T17:01:27.515Z",
-      "types": [
-        "asset-iterator",
-        "bucket-create",
-        "bucket-read",
-        "bucket-write",
-        "device-callback",
-        "device-create",
-        "device-read",
-        "device-stream",
-        "device-write",
-        "endpoint-call",
-        "property-read",
-        "property-write",
-        "storage-read",
-        "storage-write",
-        "server-events",
-        "thinger-server"
-      ],
-      "keywords": [
-        "node-red",
-        "thinger.io",
-        "IoT",
-        "arduino",
-        "raspberry"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-thinger"
-    },
-    {
-      "id": "node-red-contrib-haas",
-      "version": "1.0.3",
-      "description": "Client to communicate with Haas machine using Telnet",
-      "updated_at": "2024-03-11T16:18:19.651Z",
-      "types": [],
-      "keywords": [
-        "telnet",
-        "haas",
-        "node-red"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-haas"
-    },
-    {
       "id": "node-red-2stools-packetdecode",
       "version": "0.11.0",
       "description": "Decode string data to a respective sensor on IC",
@@ -296,24 +746,6 @@
       "url": "https://flows.nodered.org/node/node-red-contrib-qsys"
     },
     {
-      "id": "@gregoriusrippenstein/node-red-contrib-flowhub",
-      "version": "0.5.5",
-      "description": "Nodes for interacting with FlowHub.org.",
-      "updated_at": "2024-03-10T13:49:28.816Z",
-      "types": [
-        "FlowHubPull",
-        "FlowHubCfg"
-      ],
-      "keywords": [
-        "node-red",
-        "flowhub",
-        "flow-sharing",
-        "collaborative",
-        "flow-development"
-      ],
-      "url": "https://flows.nodered.org/node/@gregoriusrippenstein/node-red-contrib-flowhub"
-    },
-    {
       "id": "@opcua/for-node-red",
       "version": "2.9.0",
       "description": "The Node-RED node to communicate via OPC UA, powered NodeOPCUA and developed by Sterfive's team",
@@ -349,35 +781,6 @@
         "node-red"
       ],
       "url": "https://flows.nodered.org/node/@appcube/node-red-contrib-listenai"
-    },
-    {
-      "id": "@strato-automation/node-red-contrib-strato-automation",
-      "version": "0.4.5",
-      "description": "Strato Automation Official Node Red Library",
-      "updated_at": "2024-03-09T16:11:53.067Z",
-      "types": [
-        "input",
-        "output",
-        "ocn-server",
-        "func-on-off",
-        "func-ramp",
-        "func-min",
-        "func-max",
-        "const",
-        "input-topic",
-        "unit-converter",
-        "logic-gate",
-        "not-gate",
-        "psychrometric-calculator",
-        "strato-pid",
-        "signal-generator",
-        "deadband"
-      ],
-      "keywords": [
-        "node-red",
-        "node-red-node"
-      ],
-      "url": "https://flows.nodered.org/node/@strato-automation/node-red-contrib-strato-automation"
     },
     {
       "id": "node-red-contrib-soundweb",
@@ -517,21 +920,6 @@
         "IEC 61131"
       ],
       "url": "https://flows.nodered.org/node/@logiccloud/node-red-runtime-configuration"
-    },
-    {
-      "id": "@softwaredevelopment/node-red-contrib-bodhi-connector",
-      "version": "0.1.6",
-      "description": "Bodhi connector configuration for connecting nodes to bodhi through bodhi bridge",
-      "updated_at": "2024-03-08T16:31:14.593Z",
-      "types": [
-        "Bodhi Connector"
-      ],
-      "keywords": [
-        "node-red",
-        "connector",
-        "bodhi"
-      ],
-      "url": "https://flows.nodered.org/node/@softwaredevelopment/node-red-contrib-bodhi-connector"
     },
     {
       "id": "@blebtechnology/node-red-blebricks",
@@ -1246,29 +1634,6 @@
       "url": "https://flows.nodered.org/node/@gregoriusrippenstein/node-red-streaming"
     },
     {
-      "id": "@gregoriusrippenstein/node-red-contrib-nodedev",
-      "version": "0.3.2",
-      "description": "Support the development of Node-RED nodes within Node-RED.",
-      "updated_at": "2024-03-05T09:07:52.545Z",
-      "types": [
-        "NodeDevOps",
-        "NodeFactory",
-        "PkgFile",
-        "NpmTarBall",
-        "NodeRedInstall",
-        "NpmPublish",
-        "NodeFactorySidebarCfg"
-      ],
-      "keywords": [
-        "node-red",
-        "node development",
-        "introspection",
-        "bootstrapping",
-        "recursion"
-      ],
-      "url": "https://flows.nodered.org/node/@gregoriusrippenstein/node-red-contrib-nodedev"
-    },
-    {
       "id": "@tec6/node-red-pisignage-services",
       "version": "0.1.0",
       "description": "A node providing the services offered by the RESTful API of pisignage.",
@@ -1363,26 +1728,6 @@
         "power"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-power-saver"
-    },
-    {
-      "id": "@siglesiasg/node-red-event-manager",
-      "version": "0.0.4",
-      "description": "Event Manager for Node Red",
-      "updated_at": "2024-03-04T17:38:01.648Z",
-      "types": [
-        "event-manager-dispatcher",
-        "event-manager-checkpoint"
-      ],
-      "keywords": [
-        "node-red",
-        "event-management",
-        "flow-management",
-        "flow-controller",
-        "flow",
-        "slots",
-        "queue"
-      ],
-      "url": "https://flows.nodered.org/node/@siglesiasg/node-red-event-manager"
     },
     {
       "id": "@plus4nodered/node-red-contrib-wago-cc100",
@@ -1665,56 +2010,6 @@
       "url": "https://flows.nodered.org/node/@victronenergy/node-red-contrib-victron"
     },
     {
-      "id": "@flowfuse/node-red-dashboard",
-      "version": "1.3.0",
-      "description": "Dashboard 2.0 - A collection of Node-RED nodes that provide functionality to build your own UI applications (inc. forms, buttons, charts).",
-      "updated_at": "2024-02-29T13:25:06.999Z",
-      "types": [
-        "ui-base",
-        "ui-page",
-        "ui-group",
-        "ui-theme",
-        "ui-form",
-        "__errors__",
-        "ui-text-input",
-        "__errors__",
-        "ui-button",
-        "__errors__",
-        "ui-button-group",
-        "__errors__",
-        "ui-dropdown",
-        "__errors__",
-        "ui-radio-group",
-        "__errors__",
-        "ui-slider",
-        "__errors__",
-        "ui-switch",
-        "__errors__",
-        "ui-text",
-        "__errors__",
-        "ui-table",
-        "__errors__",
-        "ui-chart",
-        "__errors__",
-        "ui-gauge",
-        "__errors__",
-        "ui-notification",
-        "__errors__",
-        "ui-markdown",
-        "__errors__",
-        "ui-template",
-        "__errors__",
-        "ui-event",
-        "__errors__",
-        "ui-control",
-        "__errors__"
-      ],
-      "keywords": [
-        "node-red"
-      ],
-      "url": "https://flows.nodered.org/node/@flowfuse/node-red-dashboard"
-    },
-    {
       "id": "node-red-contrib-openai-ubos",
       "version": "1.0.8",
       "description": "A Node-RED node that interacts with OpenAI machine learning models to generate text like ChatGPT.",
@@ -1946,20 +2241,6 @@
         "nsca"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-nagios-nsca-send"
-    },
-    {
-      "id": "tams-cell-get",
-      "version": "1.0.2",
-      "description": "Node that provides the corresponding value through CellId of DYNA_CELL_DATA.",
-      "updated_at": "2024-02-27T08:27:06.036Z",
-      "types": [
-        "cell-config",
-        "cell-cmd"
-      ],
-      "keywords": [
-        "node-red"
-      ],
-      "url": "https://flows.nodered.org/node/tams-cell-get"
     },
     {
       "id": "@pgspider/node-red-openmetadata",
@@ -6734,23 +7015,6 @@
       "url": "https://flows.nodered.org/node/node-red-contrib-doorbird-ultimate"
     },
     {
-      "id": "@tq-bit/node-red-contrib-server-sent-events",
-      "version": "1.2.1",
-      "description": "Nodes to create - or subscribe to - server-sent events",
-      "updated_at": "2023-12-17T19:36:34.545Z",
-      "types": [
-        "sse-server",
-        "sse-client"
-      ],
-      "keywords": [
-        "node-red",
-        "nodes",
-        "server-sent-events",
-        "sse"
-      ],
-      "url": "https://flows.nodered.org/node/@tq-bit/node-red-contrib-server-sent-events"
-    },
-    {
       "id": "@stefa168/node-red-hysteresis",
       "version": "0.5.0",
       "description": "Adds hysteresis function to node-red",
@@ -7269,39 +7533,6 @@
       "url": "https://flows.nodered.org/node/node-red-contrib-mobilealerts"
     },
     {
-      "id": "node-red-dashboard",
-      "version": "3.6.2",
-      "description": "A set of dashboard nodes for Node-RED",
-      "updated_at": "2023-12-06T17:43:45.951Z",
-      "types": [
-        "ui_base",
-        "ui_button",
-        "ui_dropdown",
-        "ui_switch",
-        "ui_slider",
-        "ui_numeric",
-        "ui_text_input",
-        "ui_date_picker",
-        "ui_colour_picker",
-        "ui_form",
-        "ui_text",
-        "ui_gauge",
-        "ui_chart",
-        "ui_audio",
-        "ui_toast",
-        "ui_ui_control",
-        "ui_template",
-        "ui_link",
-        "ui_tab",
-        "ui_group",
-        "ui_spacer"
-      ],
-      "keywords": [
-        "node-red"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-dashboard"
-    },
-    {
       "id": "connect-nodes",
       "version": "0.0.4",
       "description": "Node-RED contribution package with nodes for interaction with CONNECT Smart Home system and configure your own UI",
@@ -7516,25 +7747,6 @@
         "node-red"
       ],
       "url": "https://flows.nodered.org/node/apconic-oracledb-connect"
-    },
-    {
-      "id": "node-red-contrib-shelly",
-      "version": "10.16.1",
-      "description": "Shelly nodes.",
-      "updated_at": "2023-12-03T21:51:02.454Z",
-      "types": [
-        "shelly-gen1-server",
-        "shelly-gen1",
-        "shelly-gen2-server",
-        "shelly-gen2",
-        "shelly-cloud-server",
-        "shelly-cloud"
-      ],
-      "keywords": [
-        "node-red",
-        "shelly"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-shelly"
     },
     {
       "id": "@fetchbot/node-red-contrib-ikea-home-smart",
@@ -8054,26 +8266,6 @@
         "timeout"
       ],
       "url": "https://flows.nodered.org/node/thingzi-logic-timers"
-    },
-    {
-      "id": "node-red-contrib-obs-ws",
-      "version": "0.2.11",
-      "description": "Connect to OBS Studio and control it/receive events. Node-Red bindings for obs-websocket-js.",
-      "updated_at": "2023-11-19T09:50:21.066Z",
-      "types": [
-        "obs-instance",
-        "obs connection status",
-        "obs event",
-        "obs request",
-        "SetCurrentProgramScene",
-        "TriggerStudioModeTransition"
-      ],
-      "keywords": [
-        "node-red",
-        "obs-websocket",
-        "obs-websocket-js"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-obs-ws"
     },
     {
       "id": "topological-nodered-wdio",
@@ -14082,41 +14274,6 @@
         "node-red"
       ],
       "url": "https://flows.nodered.org/node/@tonymacdonald/node-red-msg-encapsulation"
-    },
-    {
-      "id": "@digitalnodecom/node-red-contrib-puppeteer",
-      "version": "1.0.1",
-      "description": "NodeRED nodes to control a headless chrome with puppeteer",
-      "updated_at": "2023-07-26T08:56:05.094Z",
-      "types": [
-        "puppeteer-browser-launch",
-        "puppeteer-browser-close",
-        "puppeteer-browser-newPage",
-        "puppeteer-page-goto",
-        "puppeteer-page-screenshot",
-        "puppeteer-page-content",
-        "puppeteer-page-click",
-        "puppeteer-page-download",
-        "puppeteer-page-focus",
-        "puppeteer-page-waitFor",
-        "puppeteer-page-getCookies",
-        "puppeteer-page-setCookies",
-        "puppeteer-page-deleteCookies",
-        "puppeteer-page-close",
-        "puppeteer-page-keyboard-type",
-        "puppeteer-page-keyboard-press",
-        "puppeteer-page-get-value",
-        "puppeteer-page-set-value",
-        "puppeteer-page-upload",
-        "puppeteer-rename"
-      ],
-      "keywords": [
-        "chrome",
-        "browser automation",
-        "puppeteer",
-        "node-red"
-      ],
-      "url": "https://flows.nodered.org/node/@digitalnodecom/node-red-contrib-puppeteer"
     },
     {
       "id": "rootedge-node-red-datasource",
@@ -30183,6 +30340,24 @@
         "metrics"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-graphite-tcp"
+    },
+    {
+      "id": "node-red-contrib-google-oauth-calendar",
+      "version": "0.1.2",
+      "description": "Nodes to interact with Google Calendar API",
+      "updated_at": "2022-05-11T03:17:30.805Z",
+      "types": [
+        "googleCredentials",
+        "listUpcomingEvents",
+        "listEventsOnDays",
+        "list-tasks"
+      ],
+      "keywords": [
+        "node-red",
+        "google",
+        "calendar"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-google-oauth-calendar"
     },
     {
       "id": "node-red-contrib-dynamic-dimmer",
@@ -49427,24 +49602,6 @@
         "pg_notify"
       ],
       "url": "https://flows.nodered.org/node/@itcoordinadora/pg-listen-new"
-    },
-    {
-      "id": "node-red-contrib-google-oauth-calendar",
-      "version": "0.1.1",
-      "description": "Nodes to interact with Google Calendar API",
-      "updated_at": "2020-10-08T16:06:39.639Z",
-      "types": [
-        "googleCredentials",
-        "listUpcomingEvents",
-        "listEventsOnDays",
-        "list-tasks"
-      ],
-      "keywords": [
-        "node-red",
-        "google",
-        "calendar"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-google-oauth-calendar"
     },
     {
       "id": "node-red-contrib-bit-mux",
