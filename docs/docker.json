@@ -1,7 +1,200 @@
 {
   "name": "Catalogue for Docker",
-  "updated_at": "2024-03-14T16:34:57.145Z",
+  "updated_at": "2024-03-15T15:56:03.875Z",
   "modules": [
+    {
+      "id": "node-red-node-rdk-tools",
+      "version": "0.0.4",
+      "description": "配合RDK硬件及TROS使用的Node-RED功能包(Node-RED nodes for using TROS on a RDK hardware and TROS)",
+      "updated_at": "2024-03-15T14:11:53.237Z",
+      "types": [
+        "rdk-tools smartupdate",
+        "rdk-tools checkexecute",
+        "rdk-tools texttoaudio"
+      ],
+      "keywords": [
+        "node-red",
+        "rdk",
+        "x3",
+        "TROS",
+        "NodeHub"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-node-rdk-tools"
+    },
+    {
+      "id": "@adeunis/node-red-contrib-adeunis-codecs",
+      "version": "1.4.2",
+      "description": "Node-RED node for adeunis-codecs v1.7.x library",
+      "updated_at": "2024-03-15T10:25:41.638Z",
+      "types": [
+        "adeunis-codecs"
+      ],
+      "keywords": [
+        "node-red",
+        "adeunis",
+        "codec"
+      ],
+      "url": "https://flows.nodered.org/node/@adeunis/node-red-contrib-adeunis-codecs"
+    },
+    {
+      "id": "@gregoriusrippenstein/node-red-contrib-nodedev",
+      "version": "0.3.5",
+      "description": "Support the development of Node-RED nodes within Node-RED.",
+      "updated_at": "2024-03-15T09:32:48.470Z",
+      "types": [
+        "NodeDevOps",
+        "NodeFactory",
+        "PkgFile",
+        "NpmTarBall",
+        "NodeRedInstall",
+        "NpmPublish",
+        "OTPGenerate",
+        "NodeFactorySidebarCfg"
+      ],
+      "keywords": [
+        "node-red",
+        "node development",
+        "introspection",
+        "bootstrapping",
+        "recursion"
+      ],
+      "url": "https://flows.nodered.org/node/@gregoriusrippenstein/node-red-contrib-nodedev"
+    },
+    {
+      "id": "@machinechat/node-red-node-machinechat-bridge",
+      "version": "1.0.5",
+      "description": "Machinechat Bridge forwards Node-RED messages to Machinechat data visualization, monitoring, and analytics applications. Effortlessly upgrade Node-RED flows with web-based user interface, responsive custom dashboards, timeseries data storage, role-based u",
+      "updated_at": "2024-03-15T09:18:49.365Z",
+      "types": [
+        "machinechat-bridge"
+      ],
+      "keywords": [
+        "Machinechat",
+        "Dashboard",
+        "Rules",
+        "RBE",
+        "Storage",
+        "Report",
+        "Notification",
+        "node-red"
+      ],
+      "url": "https://flows.nodered.org/node/@machinechat/node-red-node-machinechat-bridge"
+    },
+    {
+      "id": "node-red-contrib-simple-bu",
+      "version": "1.3.0",
+      "description": "A Node-RED node that simplifies the data process.",
+      "updated_at": "2024-03-15T09:18:29.133Z",
+      "types": [
+        "simple-bu"
+      ],
+      "keywords": [
+        "node-red",
+        "simple-bu"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-simple-bu"
+    },
+    {
+      "id": "node-red-contrib-google-smarthome",
+      "version": "0.4.11",
+      "description": "Lets you control Node-Red via Google Assistant or the Google Home App",
+      "updated_at": "2024-03-15T07:16:30.255Z",
+      "types": [
+        "googlesmarthome-client",
+        "google-mgmt",
+        "google-device"
+      ],
+      "keywords": [
+        "google",
+        "smarthome",
+        "assistant",
+        "iot",
+        "node-red"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-google-smarthome"
+    },
+    {
+      "id": "node-red-contrib-grovepi-iot4h",
+      "version": "0.1.4",
+      "description": "Node Red nodes for IoT4H workshops and the use of GrovePi+ sensors and actuators.",
+      "updated_at": "2024-03-14T19:50:02.082Z",
+      "types": [
+        "saveVariable",
+        "loadVariable",
+        "gate",
+        "timestamp",
+        "comparisonFilter",
+        "thresholdFilter",
+        "variableFilter",
+        "movingAverage",
+        "arrayIndex",
+        "grovepi-button",
+        "grovepi-switch",
+        "grovepi-rotary",
+        "grovepi-slidePotentiometer",
+        "grovepi-rgblcd",
+        "grovepi-led",
+        "grovepi-pwm-led",
+        "grovepi-dht11",
+        "grovepi-dht22",
+        "grovepi-analog-input",
+        "grovepi-digital-input",
+        "grovepi-water",
+        "grovepi-moisture",
+        "grovepi-buzzer",
+        "grovepi-piezo",
+        "grovepi-gas-sensor",
+        "grovepi-ultrasonic",
+        "grovepi-light-sensor",
+        "grovepi-air-quality",
+        "grovepi-analog-output",
+        "grovepi-digital-output",
+        "grovepi-datapoint-lcd",
+        "grovepi-relay",
+        "grovepi-heart-rate",
+        "grovepi-heart-rate-bpm",
+        "grovepi-gesture-sensor",
+        "grovepi-loudness-sensor"
+      ],
+      "keywords": [
+        "node-red",
+        "iot",
+        "grovepi",
+        "IoT4H"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-grovepi-iot4h"
+    },
+    {
+      "id": "@gregoriusrippenstein/node-red-contrib-uglifyjs",
+      "version": "0.0.9",
+      "description": "Node-RED wrapper node around the uglify-js package.",
+      "updated_at": "2024-03-14T16:32:11.928Z",
+      "types": [
+        "UglifyJS",
+        "MinifyCSS"
+      ],
+      "keywords": [
+        "node-red",
+        "uglifyjs",
+        "uglify-js"
+      ],
+      "url": "https://flows.nodered.org/node/@gregoriusrippenstein/node-red-contrib-uglifyjs"
+    },
+    {
+      "id": "@gastmanager/node-red-client",
+      "version": "1.3.0",
+      "description": "Connects to the gastmanager cloud and provides nodes to listen and publish events",
+      "updated_at": "2024-03-14T15:37:18.075Z",
+      "types": [
+        "gastmanager-config",
+        "gastmanager-listener",
+        "gastmanager-publisher"
+      ],
+      "keywords": [
+        "node-red"
+      ],
+      "url": "https://flows.nodered.org/node/@gastmanager/node-red-client"
+    },
     {
       "id": "@strato-automation/node-red-contrib-strato-automation",
       "version": "0.5.1",
@@ -299,49 +492,6 @@
         "flow-development"
       ],
       "url": "https://flows.nodered.org/node/@gregoriusrippenstein/node-red-contrib-flowhub"
-    },
-    {
-      "id": "@machinechat/node-red-node-machinechat-bridge",
-      "version": "1.0.4",
-      "description": "Machinechat Bridge forwards Node-RED messages to Machinechat data visualization, monitoring, and analytics applications. Effortlessly upgrade Node-RED flows with web-based user interface, responsive custom dashboards, timeseries data storage, role-based u",
-      "updated_at": "2024-03-13T15:17:10.374Z",
-      "types": [
-        "machinechat-bridge"
-      ],
-      "keywords": [
-        "Machinechat",
-        "Dashboard",
-        "Rules",
-        "RBE",
-        "Storage",
-        "Report",
-        "Notification",
-        "node-red"
-      ],
-      "url": "https://flows.nodered.org/node/@machinechat/node-red-node-machinechat-bridge"
-    },
-    {
-      "id": "@gregoriusrippenstein/node-red-contrib-nodedev",
-      "version": "0.3.3",
-      "description": "Support the development of Node-RED nodes within Node-RED.",
-      "updated_at": "2024-03-13T14:35:15.409Z",
-      "types": [
-        "NodeDevOps",
-        "NodeFactory",
-        "PkgFile",
-        "NpmTarBall",
-        "NodeRedInstall",
-        "NpmPublish",
-        "NodeFactorySidebarCfg"
-      ],
-      "keywords": [
-        "node-red",
-        "node development",
-        "introspection",
-        "bootstrapping",
-        "recursion"
-      ],
-      "url": "https://flows.nodered.org/node/@gregoriusrippenstein/node-red-contrib-nodedev"
     },
     {
       "id": "node-red-contrib-relay-persistent",
@@ -1266,56 +1416,6 @@
       "url": "https://flows.nodered.org/node/node-red-contrib-superpower-test"
     },
     {
-      "id": "node-red-contrib-grovepi-iot4h",
-      "version": "0.1.3",
-      "description": "Node Red nodes for IoT4H workshops and the use of GrovePi+ sensors and actuators.",
-      "updated_at": "2024-03-06T21:22:42.915Z",
-      "types": [
-        "saveVariable",
-        "loadVariable",
-        "timestamp",
-        "comparisonFilter",
-        "thresholdFilter",
-        "variableFilter",
-        "movingAverage",
-        "arrayIndex",
-        "grovepi-button",
-        "grovepi-switch",
-        "grovepi-rotary",
-        "grovepi-slidePotentiometer",
-        "grovepi-rgblcd",
-        "grovepi-led",
-        "grovepi-pwm-led",
-        "grovepi-dht11",
-        "grovepi-dht22",
-        "grovepi-analog-input",
-        "grovepi-digital-input",
-        "grovepi-water",
-        "grovepi-moisture",
-        "grovepi-buzzer",
-        "grovepi-piezo",
-        "grovepi-gas-sensor",
-        "grovepi-ultrasonic",
-        "grovepi-light-sensor",
-        "grovepi-air-quality",
-        "grovepi-analog-output",
-        "grovepi-digital-output",
-        "grovepi-datapoint-lcd",
-        "grovepi-relay",
-        "grovepi-heart-rate",
-        "grovepi-heart-rate-bpm",
-        "grovepi-gesture-sensor",
-        "grovepi-loudness-sensor"
-      ],
-      "keywords": [
-        "node-red",
-        "iot",
-        "grovepi",
-        "IoT4H"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-grovepi-iot4h"
-    },
-    {
       "id": "node-red-contrib-data-validator",
       "version": "1.0.1",
       "description": "A simple Node-RED node to validate the data type of incoming messages payload.",
@@ -1350,20 +1450,6 @@
         "peak detection"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-peak-value-range"
-    },
-    {
-      "id": "node-red-contrib-simple-bu",
-      "version": "1.2.9",
-      "description": "A Node-RED node that simplifies the data process.",
-      "updated_at": "2024-03-06T09:29:50.982Z",
-      "types": [
-        "simple-bu"
-      ],
-      "keywords": [
-        "node-red",
-        "simple-bu"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-simple-bu"
     },
     {
       "id": "node-red-contrib-wazo-platform",
@@ -1589,22 +1675,6 @@
         "archive"
       ],
       "url": "https://flows.nodered.org/node/@gregoriusrippenstein/node-red-contrib-tarball"
-    },
-    {
-      "id": "@gregoriusrippenstein/node-red-contrib-uglifyjs",
-      "version": "0.0.8",
-      "description": "Node-RED wrapper node around the uglify-js package.",
-      "updated_at": "2024-03-05T09:23:40.065Z",
-      "types": [
-        "UglifyJS",
-        "MinifyCSS"
-      ],
-      "keywords": [
-        "node-red",
-        "uglifyjs",
-        "uglify-js"
-      ],
-      "url": "https://flows.nodered.org/node/@gregoriusrippenstein/node-red-contrib-uglifyjs"
     },
     {
       "id": "@gregoriusrippenstein/node-red-streaming",
@@ -2666,25 +2736,6 @@
       "url": "https://flows.nodered.org/node/@alvarobc2412/status"
     },
     {
-      "id": "node-red-contrib-google-smarthome",
-      "version": "0.4.10",
-      "description": "Lets you control Node-Red via Google Assistant or the Google Home App",
-      "updated_at": "2024-02-23T18:36:31.501Z",
-      "types": [
-        "googlesmarthome-client",
-        "google-mgmt",
-        "google-device"
-      ],
-      "keywords": [
-        "google",
-        "smarthome",
-        "assistant",
-        "iot",
-        "node-red"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-google-smarthome"
-    },
-    {
       "id": "@nkhhphuc/semilimes-node-red",
       "version": "1.0.1",
       "description": "semilimes Node-RED",
@@ -2730,21 +2781,6 @@
         "semilimes"
       ],
       "url": "https://flows.nodered.org/node/@nkhhphuc/semilimes-node-red"
-    },
-    {
-      "id": "@gastmanager/node-red-client",
-      "version": "1.2.1",
-      "description": "Connects to the gastmanager cloud and provides nodes to listen and publish events",
-      "updated_at": "2024-02-23T04:16:43.693Z",
-      "types": [
-        "gastmanager-config",
-        "gastmanager-listener",
-        "gastmanager-publisher"
-      ],
-      "keywords": [
-        "node-red"
-      ],
-      "url": "https://flows.nodered.org/node/@gastmanager/node-red-client"
     },
     {
       "id": "atomic-gravity",
@@ -3590,21 +3626,6 @@
         "node-red"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-cip-st-ethernet-ip"
-    },
-    {
-      "id": "@adeunis/node-red-contrib-adeunis-codecs",
-      "version": "1.4.1",
-      "description": "Node-RED node for adeunis-codecs v1.7.x library",
-      "updated_at": "2024-02-12T16:53:15.011Z",
-      "types": [
-        "adeunis-codecs"
-      ],
-      "keywords": [
-        "node-red",
-        "adeunis",
-        "codec"
-      ],
-      "url": "https://flows.nodered.org/node/@adeunis/node-red-contrib-adeunis-codecs"
     },
     {
       "id": "@ifp-software/node-red-contrib-oee-ai-connector",
@@ -28305,6 +28326,25 @@
         "speedtest"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-speedtest"
+    },
+    {
+      "id": "node-red-contrib-ibm-maximo-oslc-api",
+      "version": "0.1.5",
+      "description": "Maximo Oslc Api node for Node-RED",
+      "updated_at": "2022-06-21T19:22:08.171Z",
+      "types": [
+        "maximoConnection",
+        "retrieve",
+        "create",
+        "update",
+        "delete"
+      ],
+      "keywords": [
+        "node-red",
+        "ibm",
+        "maximo"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-ibm-maximo-oslc-api"
     },
     {
       "id": "node-red-contrib-https",
@@ -69307,25 +69347,6 @@
         "emulator"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-alexa-local"
-    },
-    {
-      "id": "node-red-contrib-ibm-maximo-oslc-api",
-      "version": "0.1.4",
-      "description": "Maximo Oslc Api node for Node-RED",
-      "updated_at": "2018-08-24T19:39:06.787Z",
-      "types": [
-        "maximoConnection",
-        "retrieve",
-        "create",
-        "update",
-        "delete"
-      ],
-      "keywords": [
-        "node-red",
-        "ibm",
-        "maximo"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-ibm-maximo-oslc-api"
     },
     {
       "id": "node-red-contrib-chatwork",
