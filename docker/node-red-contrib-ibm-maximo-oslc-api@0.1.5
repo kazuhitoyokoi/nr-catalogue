@@ -1,0 +1,64 @@
+#0 building with "default" instance using docker driver
+
+#1 [internal] load .dockerignore
+#1 transferring context: 2B done
+#1 DONE 0.0s
+
+#2 [internal] load build definition from Dockerfile
+#2 transferring dockerfile: 129B done
+#2 DONE 0.0s
+
+#3 [internal] load metadata for docker.io/nodered/node-red:latest
+#3 DONE 0.3s
+
+#4 [1/2] FROM docker.io/nodered/node-red@sha256:b3bee638741091bf6548f77aa08ec9ff5f879cdf6a0a43c761dcd009217636a5
+#4 CACHED
+
+#5 [2/2] RUN npm install npm install node-red-contrib-ibm-maximo-oslc-api@0.1.5
+#5 4.384 npm WARN EBADENGINE Unsupported engine {
+#5 4.384 npm WARN EBADENGINE   package: 'npm@10.5.0',
+#5 4.384 npm WARN EBADENGINE   required: { node: '^18.17.0 || >=20.5.0' },
+#5 4.384 npm WARN EBADENGINE   current: { node: 'v16.20.2', npm: '8.19.4' }
+#5 4.384 npm WARN EBADENGINE }
+#5 5.528 npm WARN deprecated bcrypt@2.0.1: versions < v5.0.0 do not handle NUL in passwords properly
+#5 6.530 npm WARN deprecated mailcomposer@2.1.0: This project is unmaintained
+#5 6.633 npm WARN deprecated buildmail@2.0.0: This project is unmaintained
+#5 6.634 npm WARN deprecated mimelib@0.3.1: This project is unmaintained
+#5 6.670 npm WARN deprecated nodemailer@1.11.0: All versions below 4.0.1 of Nodemailer are deprecated. See https://nodemailer.com/status/
+#5 6.750 npm WARN deprecated har-validator@5.1.5: this library is no longer supported
+#5 6.790 npm WARN deprecated mailparser@0.6.2: Mailparser versions older than v2.3.0 are deprecated
+#5 7.058 npm WARN deprecated uuid@3.4.0: Please upgrade  to version 7 or higher.  Older versions may use Math.random() in certain circumstances, which is known to be problematic.  See https://v8.dev/blog/math-random for details.
+#5 7.113 npm WARN deprecated multer@1.4.1: Multer 1.x is affected by CVE-2022-24434. This is fixed in v1.4.4-lts.1 which drops support for versions of Node.js before 6. Please upgrade to at least Node.js 6 and version 1.4.4-lts.1 of Multer. If you need support for older versions of Node.js, we are open to accepting patches that would fix the CVE on the main 1.x release line, whilst maintaining compatibility with Node.js 0.10.
+#5 7.230 npm WARN deprecated request@2.88.2: request has been deprecated, see https://github.com/request/request/issues/3142
+#5 7.243 npm WARN deprecated request@2.88.0: request has been deprecated, see https://github.com/request/request/issues/3142
+#5 7.295 npm WARN deprecated uuid@3.4.0: Please upgrade  to version 7 or higher.  Older versions may use Math.random() in certain circumstances, which is known to be problematic.  See https://v8.dev/blog/math-random for details.
+#5 11.04 
+#5 11.04 added 254 packages, and audited 779 packages in 11s
+#5 11.04 
+#5 11.04 70 packages are looking for funding
+#5 11.04   run `npm fund` for details
+#5 11.07 
+#5 11.07 42 vulnerabilities (1 low, 17 moderate, 18 high, 6 critical)
+#5 11.07 
+#5 11.07 To address issues that do not require attention, run:
+#5 11.07   npm audit fix
+#5 11.07 
+#5 11.07 Some issues need review, and may require choosing
+#5 11.07 a different dependency.
+#5 11.07 
+#5 11.07 Run `npm audit` for details.
+#5 11.08 npm notice 
+#5 11.08 npm notice New major version of npm available! 8.19.4 -> 10.5.0
+#5 11.08 npm notice Changelog: <https://github.com/npm/cli/releases/tag/v10.5.0>
+#5 11.08 npm notice Run `npm install -g npm@10.5.0` to update!
+#5 11.08 npm notice 
+#5 DONE 11.2s
+
+#6 exporting to image
+#6 exporting layers
+#6 exporting layers 1.9s done
+#6 writing image sha256:7c47d98df9c5a896a125ec04af4af260627b8489b6bbb3ef70fe42ad14c5f5ee done
+#6 naming to docker.io/library/tmp done
+#6 DONE 1.9s
+
+----
