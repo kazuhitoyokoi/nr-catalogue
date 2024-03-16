@@ -1,7 +1,180 @@
 {
   "name": "Catalogue for Docker",
-  "updated_at": "2024-03-15T15:56:03.875Z",
+  "updated_at": "2024-03-16T15:54:34.651Z",
   "modules": [
+    {
+      "id": "node-red-contrib-solaredge-optimizers",
+      "version": "0.3.0",
+      "description": "Read optimizer data from solaredge cloud",
+      "updated_at": "2024-03-16T14:02:36.935Z",
+      "types": [
+        "solaredge-optimizers"
+      ],
+      "keywords": [
+        "node-red",
+        "solaredge",
+        "optimizers"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-solaredge-optimizers"
+    },
+    {
+      "id": "@gregoriusrippenstein/node-red-contrib-nodedev",
+      "version": "0.3.6",
+      "description": "Support the development of Node-RED nodes within Node-RED.",
+      "updated_at": "2024-03-16T10:31:43.483Z",
+      "types": [
+        "NodeDevOps",
+        "NodeFactory",
+        "PkgFile",
+        "NpmTarBall",
+        "NodeRedInstall",
+        "NpmPublish",
+        "OTPGenerate",
+        "NodeFactorySidebarCfg"
+      ],
+      "keywords": [
+        "node-red",
+        "node development",
+        "introspection",
+        "bootstrapping",
+        "recursion"
+      ],
+      "url": "https://flows.nodered.org/node/@gregoriusrippenstein/node-red-contrib-nodedev"
+    },
+    {
+      "id": "@gregoriusrippenstein/node-red-contrib-flowhub",
+      "version": "0.6.3",
+      "description": "Nodes for interacting with FlowHub.org.",
+      "updated_at": "2024-03-16T09:02:03.099Z",
+      "types": [
+        "FlowHubPull",
+        "FlowHubCfg"
+      ],
+      "keywords": [
+        "node-red",
+        "flowhub",
+        "flow-sharing",
+        "collaborative",
+        "flow-development"
+      ],
+      "url": "https://flows.nodered.org/node/@gregoriusrippenstein/node-red-contrib-flowhub"
+    },
+    {
+      "id": "node-red-contrib-route53-update",
+      "version": "1.0.3",
+      "description": "Updates Route53 hostzone",
+      "updated_at": "2024-03-16T08:20:53.334Z",
+      "types": [
+        "route53"
+      ],
+      "keywords": [
+        "node-red"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-route53-update"
+    },
+    {
+      "id": "victron-dynamic-ess",
+      "version": "0.1.17",
+      "description": "Fetch the ideal ESS setpoint from VRM",
+      "updated_at": "2024-03-15T21:00:19.608Z",
+      "types": [
+        "victron-dynamic-ess"
+      ],
+      "keywords": [
+        "node-red",
+        "victron",
+        "dynamic ess",
+        "scheduled charging",
+        "ess"
+      ],
+      "url": "https://flows.nodered.org/node/victron-dynamic-ess"
+    },
+    {
+      "id": "@blebtechnology/node-red-blebricks",
+      "version": "1.0.22",
+      "description": "A node-red package to manage blebricks data",
+      "updated_at": "2024-03-15T17:31:10.917Z",
+      "types": [
+        "CHT",
+        "ENV",
+        "OAQ",
+        "BLEB_TEMP",
+        "PTX",
+        "MAG",
+        "SOIL",
+        "LGH",
+        "UHF",
+        "PRT",
+        "REL",
+        "RELOUT",
+        "WPLOUT",
+        "VBROUT",
+        "BUZOUT",
+        "IRTOUT",
+        "ODCOUT",
+        "ODC",
+        "WPL",
+        "VBR",
+        "BUZ",
+        "IRT",
+        "PLV",
+        "WND",
+        "SOL",
+        "PYR",
+        "CMS",
+        "RHT",
+        "UVA",
+        "RGB",
+        "CLT",
+        "IMU",
+        "ACC",
+        "PDM",
+        "CAP",
+        "IRR",
+        "SMS",
+        "DSD",
+        "BLEB_IN",
+        "BLEB_RPS",
+        "SFX",
+        "ESP",
+        "UWS",
+        "RMS",
+        "VMS",
+        "GPS",
+        "BLEB_CNT",
+        "PMX",
+        "PROTECTOR",
+        "LCDOUT",
+        "SLS",
+        "PWMOUT",
+        "TPD",
+        "LEDOUT"
+      ],
+      "keywords": [
+        "node-red"
+      ],
+      "url": "https://flows.nodered.org/node/@blebtechnology/node-red-blebricks"
+    },
+    {
+      "id": "node-red-contrib-bit",
+      "version": "1.0.2",
+      "description": "A Bit helper contribution package for Node-RED maintained by P4NR B2B Community.",
+      "updated_at": "2024-03-15T17:19:15.053Z",
+      "types": [
+        "bit-simple-sixteen",
+        "bit-sixteen",
+        "bit-simple-thirtytwo",
+        "bit-thirtytwo"
+      ],
+      "keywords": [
+        "node-red",
+        "plusfornodered",
+        "converter",
+        "modbus",
+        "biancoroyal"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-bit"
+    },
     {
       "id": "node-red-node-rdk-tools",
       "version": "0.0.4",
@@ -35,30 +208,6 @@
         "codec"
       ],
       "url": "https://flows.nodered.org/node/@adeunis/node-red-contrib-adeunis-codecs"
-    },
-    {
-      "id": "@gregoriusrippenstein/node-red-contrib-nodedev",
-      "version": "0.3.5",
-      "description": "Support the development of Node-RED nodes within Node-RED.",
-      "updated_at": "2024-03-15T09:32:48.470Z",
-      "types": [
-        "NodeDevOps",
-        "NodeFactory",
-        "PkgFile",
-        "NpmTarBall",
-        "NodeRedInstall",
-        "NpmPublish",
-        "OTPGenerate",
-        "NodeFactorySidebarCfg"
-      ],
-      "keywords": [
-        "node-red",
-        "node development",
-        "introspection",
-        "bootstrapping",
-        "recursion"
-      ],
-      "url": "https://flows.nodered.org/node/@gregoriusrippenstein/node-red-contrib-nodedev"
     },
     {
       "id": "@machinechat/node-red-node-machinechat-bridge",
@@ -476,24 +625,6 @@
       "url": "https://flows.nodered.org/node/node-red-contrib-obs-ws"
     },
     {
-      "id": "@gregoriusrippenstein/node-red-contrib-flowhub",
-      "version": "0.6.1",
-      "description": "Nodes for interacting with FlowHub.org.",
-      "updated_at": "2024-03-13T15:33:29.808Z",
-      "types": [
-        "FlowHubPull",
-        "FlowHubCfg"
-      ],
-      "keywords": [
-        "node-red",
-        "flowhub",
-        "flow-sharing",
-        "collaborative",
-        "flow-development"
-      ],
-      "url": "https://flows.nodered.org/node/@gregoriusrippenstein/node-red-contrib-flowhub"
-    },
-    {
       "id": "node-red-contrib-relay-persistent",
       "version": "1.0.0",
       "description": "A Node-RED node for relay with persistent mode.",
@@ -842,6 +973,32 @@
       "url": "https://flows.nodered.org/node/node-red-2stools-packetdecode"
     },
     {
+      "id": "@mschaeffler/node-red-logic",
+      "version": "2.3.1",
+      "description": "nodes for simple operations.",
+      "updated_at": "2024-03-11T10:09:18.107Z",
+      "types": [
+        "counter",
+        "tobool",
+        "not",
+        "or",
+        "and",
+        "tonumber",
+        "negate",
+        "reduce",
+        "__errors__",
+        "fallingEdge",
+        "raisingEdge",
+        "hysteresisEdge",
+        "statistics",
+        "mean"
+      ],
+      "keywords": [
+        "node-red"
+      ],
+      "url": "https://flows.nodered.org/node/@mschaeffler/node-red-logic"
+    },
+    {
       "id": "@octobus/node-red-contrib-octobus-connector",
       "version": "2.0.2",
       "description": "A set of nodes to connect between the data from different sources and OCTOBUS cloud",
@@ -1070,72 +1227,6 @@
         "IEC 61131"
       ],
       "url": "https://flows.nodered.org/node/@logiccloud/node-red-runtime-configuration"
-    },
-    {
-      "id": "@blebtechnology/node-red-blebricks",
-      "version": "1.0.21",
-      "description": "A node-red package to manage blebricks data",
-      "updated_at": "2024-03-08T15:25:14.059Z",
-      "types": [
-        "CHT",
-        "ENV",
-        "OAQ",
-        "BLEB_TEMP",
-        "PTX",
-        "MAG",
-        "SOIL",
-        "LGH",
-        "UHF",
-        "PRT",
-        "REL",
-        "RELOUT",
-        "WPLOUT",
-        "VBROUT",
-        "BUZOUT",
-        "IRTOUT",
-        "ODCOUT",
-        "ODC",
-        "WPL",
-        "VBR",
-        "BUZ",
-        "IRT",
-        "PLV",
-        "WND",
-        "SOL",
-        "PYR",
-        "CMS",
-        "RHT",
-        "UVA",
-        "RGB",
-        "CLT",
-        "IMU",
-        "ACC",
-        "PDM",
-        "CAP",
-        "IRR",
-        "SMS",
-        "DSD",
-        "BLEB_IN",
-        "BLEB_RPS",
-        "SFX",
-        "ESP",
-        "UWS",
-        "RMS",
-        "VMS",
-        "GPS",
-        "BLEB_CNT",
-        "PMX",
-        "PROTECTOR",
-        "LCDOUT",
-        "SLS",
-        "PWMOUT",
-        "TPD",
-        "LEDOUT"
-      ],
-      "keywords": [
-        "node-red"
-      ],
-      "url": "https://flows.nodered.org/node/@blebtechnology/node-red-blebricks"
     },
     {
       "id": "node-red-contrib-io-key",
@@ -1920,32 +2011,6 @@
       "url": "https://flows.nodered.org/node/iolinkmaster-mpb10"
     },
     {
-      "id": "@mschaeffler/node-red-logic",
-      "version": "2.2.1",
-      "description": "nodes for simple operations.",
-      "updated_at": "2024-03-02T11:34:34.182Z",
-      "types": [
-        "counter",
-        "tobool",
-        "not",
-        "or",
-        "and",
-        "tonumber",
-        "negate",
-        "reduce",
-        "__errors__",
-        "fallingEdge",
-        "raisingEdge",
-        "hysteresisEdge",
-        "statistics",
-        "mean"
-      ],
-      "keywords": [
-        "node-red"
-      ],
-      "url": "https://flows.nodered.org/node/@mschaeffler/node-red-logic"
-    },
-    {
       "id": "@machinechat/node-red-node-machinechat",
       "version": "0.2.1",
       "description": "Machinechat JEDI connector enables you to easily add enterprise-grade data dashboards data storage, rules and multi-user web-based interface to any  Node-RED project. Machinechat JEDI runs locally on Microsoft Windows, Raspberry Pi OS, Linux and Apple mac",
@@ -2481,23 +2546,6 @@
         "Camera"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-axis-com"
-    },
-    {
-      "id": "victron-dynamic-ess",
-      "version": "0.1.14",
-      "description": "Fetch the ideal ESS setpoint from VRM",
-      "updated_at": "2024-02-26T12:03:58.761Z",
-      "types": [
-        "victron-dynamic-ess"
-      ],
-      "keywords": [
-        "node-red",
-        "victron",
-        "dynamic ess",
-        "scheduled charging",
-        "ess"
-      ],
-      "url": "https://flows.nodered.org/node/victron-dynamic-ess"
     },
     {
       "id": "node-red-contrib-bigtimer",
@@ -4064,21 +4112,6 @@
         "node-red"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-smart-door"
-    },
-    {
-      "id": "node-red-contrib-solaredge-optimizers",
-      "version": "0.2.2",
-      "description": "Read optimizer data from solaredge cloud",
-      "updated_at": "2024-02-03T23:11:51.606Z",
-      "types": [
-        "solaredge-optimizers"
-      ],
-      "keywords": [
-        "node-red",
-        "solaredge",
-        "optimizers"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-solaredge-optimizers"
     },
     {
       "id": "node-red-contrib-zigbee2mqtt-devices",
@@ -25506,26 +25539,6 @@
         "biancoroyal"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-helper"
-    },
-    {
-      "id": "node-red-contrib-bit",
-      "version": "1.0.1",
-      "description": "A Bit helper contribution package for Node-RED.",
-      "updated_at": "2022-09-25T18:24:43.701Z",
-      "types": [
-        "bit-simple-sixteen",
-        "bit-sixteen",
-        "bit-simple-thirtytwo",
-        "bit-thirtytwo"
-      ],
-      "keywords": [
-        "node-red",
-        "plusfornodered",
-        "converter",
-        "modbus",
-        "biancoroyal"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-bit"
     },
     {
       "id": "node-red-node-ui-lineargauge",
