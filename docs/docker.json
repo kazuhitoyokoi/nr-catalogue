@@ -1,7 +1,47 @@
 {
   "name": "Catalogue for Docker",
-  "updated_at": "2024-03-16T15:54:34.651Z",
+  "updated_at": "2024-03-17T15:55:42.453Z",
   "modules": [
+    {
+      "id": "@gregoriusrippenstein/node-red-contrib-flowhub",
+      "version": "0.6.4",
+      "description": "Nodes for interacting with FlowHub.org.",
+      "updated_at": "2024-03-17T09:56:13.144Z",
+      "types": [
+        "FlowHubPull",
+        "FlowHubCfg"
+      ],
+      "keywords": [
+        "node-red",
+        "flowhub",
+        "flow-sharing",
+        "collaborative",
+        "flow-development"
+      ],
+      "url": "https://flows.nodered.org/node/@gregoriusrippenstein/node-red-contrib-flowhub"
+    },
+    {
+      "id": "@gregoriusrippenstein/node-red-contrib-introspection",
+      "version": "0.7.3",
+      "description": "Node-RED Editor-only nodes for introspecting with flows in the frontend.",
+      "updated_at": "2024-03-17T09:51:45.251Z",
+      "types": [
+        "Seeker",
+        "Sink",
+        "GetFlows",
+        "SendFlow",
+        "InstallPackage",
+        "ClientCode"
+      ],
+      "keywords": [
+        "node-red",
+        "introspection",
+        "selfreflection",
+        "node-red-editor",
+        "screenshot"
+      ],
+      "url": "https://flows.nodered.org/node/@gregoriusrippenstein/node-red-contrib-introspection"
+    },
     {
       "id": "node-red-contrib-solaredge-optimizers",
       "version": "0.3.0",
@@ -40,24 +80,6 @@
         "recursion"
       ],
       "url": "https://flows.nodered.org/node/@gregoriusrippenstein/node-red-contrib-nodedev"
-    },
-    {
-      "id": "@gregoriusrippenstein/node-red-contrib-flowhub",
-      "version": "0.6.3",
-      "description": "Nodes for interacting with FlowHub.org.",
-      "updated_at": "2024-03-16T09:02:03.099Z",
-      "types": [
-        "FlowHubPull",
-        "FlowHubCfg"
-      ],
-      "keywords": [
-        "node-red",
-        "flowhub",
-        "flow-sharing",
-        "collaborative",
-        "flow-development"
-      ],
-      "url": "https://flows.nodered.org/node/@gregoriusrippenstein/node-red-contrib-flowhub"
     },
     {
       "id": "node-red-contrib-route53-update",
@@ -934,28 +956,6 @@
         "NodeREDComputer"
       ],
       "url": "https://flows.nodered.org/node/@renyoo/node-red-dfrobot_noderedcomputer"
-    },
-    {
-      "id": "@gregoriusrippenstein/node-red-contrib-introspection",
-      "version": "0.7.2",
-      "description": "Node-RED Editor-only nodes for introspecting with flows in the frontend.",
-      "updated_at": "2024-03-11T18:11:50.155Z",
-      "types": [
-        "Seeker",
-        "Sink",
-        "GetFlows",
-        "SendFlow",
-        "InstallPackage",
-        "ClientCode"
-      ],
-      "keywords": [
-        "node-red",
-        "introspection",
-        "selfreflection",
-        "node-red-editor",
-        "screenshot"
-      ],
-      "url": "https://flows.nodered.org/node/@gregoriusrippenstein/node-red-contrib-introspection"
     },
     {
       "id": "node-red-2stools-packetdecode",
