@@ -1,7 +1,321 @@
 {
   "name": "Catalogue for Docker",
-  "updated_at": "2024-03-18T15:56:57.060Z",
+  "updated_at": "2024-03-19T16:00:49.387Z",
   "modules": [
+    {
+      "id": "@appmodule/node-red-contrib-siot",
+      "version": "3.0.0-rc26",
+      "description": "Node-RED interactions with SIOT",
+      "updated_at": "2024-03-19T13:21:51.535Z",
+      "types": [
+        "ack",
+        "de-subscriber",
+        "de-publisher",
+        "siot-config",
+        "class-config",
+        "plugin-cnf"
+      ],
+      "keywords": [
+        "node-red"
+      ],
+      "url": "https://flows.nodered.org/node/@appmodule/node-red-contrib-siot"
+    },
+    {
+      "id": "node-red-contrib-ctrlx-automation",
+      "version": "1.9.5",
+      "description": "Node-RED nodes for ctrlX AUTOMATION",
+      "updated_at": "2024-03-19T12:09:10.179Z",
+      "types": [
+        "ctrlx-config",
+        "ctrlx-config-subscription",
+        "ctrlx-datalayer-request",
+        "ctrlx-datalayer-subscribe"
+      ],
+      "keywords": [
+        "node-red",
+        "ctrlX AUTOMATION",
+        "ctrlX CORE",
+        "ctrlX DRIVE",
+        "Bosch Rexroth AG",
+        "www.ctrlx-automation.com",
+        "www.boschrexroth.com"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-ctrlx-automation"
+    },
+    {
+      "id": "node-red-node-rdk-tools",
+      "version": "0.0.6",
+      "description": "配合RDK硬件及TROS使用的Node-RED功能包(Node-RED nodes for using TROS on a RDK hardware and TROS)",
+      "updated_at": "2024-03-19T11:32:58.604Z",
+      "types": [
+        "rdk-tools smartupdate",
+        "rdk-tools checkexecute",
+        "rdk-tools texttoaudio",
+        "rdk-tools openurl"
+      ],
+      "keywords": [
+        "node-red",
+        "rdk",
+        "x3",
+        "TROS",
+        "NodeHub",
+        "Chinese TTS",
+        "Open Website"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-node-rdk-tools"
+    },
+    {
+      "id": "node-red-contrib-inline-keyboard",
+      "version": "1.0.3",
+      "description": "creating function node code for node-red-contrib-telegrambot inline keyboard from pre-structured csv file",
+      "updated_at": "2024-03-19T11:18:36.626Z",
+      "types": [],
+      "keywords": [
+        "node-red",
+        "inline keyboard",
+        "telegrambot"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-inline-keyboard"
+    },
+    {
+      "id": "node-red-contrib-google-sheets-advance",
+      "version": "0.0.2",
+      "description": "Nodered node for reading, writing, appending, clearing, adding, and removing sheets",
+      "updated_at": "2024-03-19T10:20:14.228Z",
+      "types": [
+        "GSheetAdvance",
+        "gauthAdv"
+      ],
+      "keywords": [
+        "node-red",
+        "gsuite",
+        "google sheets",
+        "gSheetAdvance",
+        "googleapis"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-google-sheets-advance"
+    },
+    {
+      "id": "@machinechat/node-red-node-machinechat-bridge",
+      "version": "1.1.0",
+      "description": "Machinechat Bridge forwards Node-RED messages to Machinechat data visualization, monitoring, and analytics applications. Effortlessly upgrade Node-RED flows with web-based user interface, responsive custom dashboards, timeseries data storage, role-based u",
+      "updated_at": "2024-03-19T10:05:48.353Z",
+      "types": [
+        "machinechat-bridge"
+      ],
+      "keywords": [
+        "Machinechat",
+        "Dashboard",
+        "Rules",
+        "RBE",
+        "Storage",
+        "Report",
+        "Notification",
+        "node-red"
+      ],
+      "url": "https://flows.nodered.org/node/@machinechat/node-red-node-machinechat-bridge"
+    },
+    {
+      "id": "@stormpass/node-red-contrib-amqp",
+      "version": "1.4.1",
+      "description": "Amqp nodes for node-red",
+      "updated_at": "2024-03-19T07:53:54.839Z",
+      "types": [
+        "amqp-in",
+        "amqp-out",
+        "amqp-broker",
+        "amqp-in-manual-ack"
+      ],
+      "keywords": [
+        "node-red",
+        "amqp",
+        "rabbitmq"
+      ],
+      "url": "https://flows.nodered.org/node/@stormpass/node-red-contrib-amqp"
+    },
+    {
+      "id": "node-red-contrib-mqtt-sparkplug-plus",
+      "version": "2.1.2",
+      "description": "MQTT-Sparkplug-Plus is a set of Node-Red nodes, that will enable Node-Red to communicate with a MQTT Server using the sparkplug b protocol.",
+      "updated_at": "2024-03-19T02:58:58.046Z",
+      "types": [
+        "mqtt-sparkplug-broker",
+        "mqtt sparkplug device",
+        "mqtt sparkplug in",
+        "mqtt sparkplug out"
+      ],
+      "keywords": [
+        "MQTT",
+        "Sparkplug",
+        "node-red"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-mqtt-sparkplug-plus"
+    },
+    {
+      "id": "@okedge/node-red-okedge",
+      "version": "1.0.2",
+      "description": "okedge&node-red",
+      "updated_at": "2024-03-19T02:23:04.498Z",
+      "types": [
+        "qywx-notice",
+        "dd-notice"
+      ],
+      "keywords": [
+        "node-red",
+        "nodes",
+        "flow",
+        "okedge"
+      ],
+      "url": "https://flows.nodered.org/node/@okedge/node-red-okedge"
+    },
+    {
+      "id": "smart-nodes",
+      "version": "0.3.26",
+      "description": "Smart Nodes",
+      "updated_at": "2024-03-18T21:27:09.755Z",
+      "types": [
+        "smart_light-control",
+        "smart_scene-control",
+        "smart_shutter-control",
+        "smart_shutter-complex-control",
+        "smart_long-press-control",
+        "smart_multi-press-control",
+        "smart_logic",
+        "smart_forwarder",
+        "smart_compare",
+        "smart_hysteresis",
+        "smart_statistic",
+        "smart_counter",
+        "smart_scheduler",
+        "smart_delay",
+        "smart_central-control",
+        "__errors__",
+        "smart_mixing-valve",
+        "smart_heating-curve",
+        "smart_text-exec"
+      ],
+      "keywords": [
+        "node-red",
+        "smart nodes",
+        "light control",
+        "shutter control",
+        "long press",
+        "multi press",
+        "scene",
+        "scenes",
+        "delay",
+        "forwarder",
+        "logic",
+        "hysteresis",
+        "compare",
+        "comparator",
+        "statistic",
+        "counter",
+        "scheduler",
+        "central",
+        "heating",
+        "mixing valve",
+        "heating curve",
+        "text execution"
+      ],
+      "url": "https://flows.nodered.org/node/smart-nodes"
+    },
+    {
+      "id": "@strato-automation/node-red-contrib-strato-automation",
+      "version": "0.5.2",
+      "description": "Strato Automation Official Node Red Library",
+      "updated_at": "2024-03-18T20:37:30.869Z",
+      "types": [
+        "input",
+        "output-ip",
+        "output-mstp",
+        "ocn-server",
+        "func-on-off",
+        "func-ramp",
+        "func-min",
+        "func-max",
+        "const",
+        "input-topic",
+        "unit-converter",
+        "logic-gate",
+        "not-gate",
+        "psychrometric-calculator",
+        "strato-pid",
+        "signal-generator",
+        "deadband",
+        "ocn-diagnostic"
+      ],
+      "keywords": [
+        "node-red",
+        "node-red-node"
+      ],
+      "url": "https://flows.nodered.org/node/@strato-automation/node-red-contrib-strato-automation"
+    },
+    {
+      "id": "connect-nodes",
+      "version": "0.0.5",
+      "description": "Node-RED contribution package with nodes for interaction with CONNECT Smart Home system and configure your own UI",
+      "updated_at": "2024-03-18T18:17:39.373Z",
+      "types": [
+        "CONNECT digital input",
+        "__errors__",
+        "CONNECT relay",
+        "__errors__",
+        "CONNECT RS485 in",
+        "__errors__",
+        "CONNECT RS485 out",
+        "__errors__",
+        "CONNECT DMX",
+        "__errors__",
+        "CONNECT dimmer",
+        "__errors__",
+        "CONNECT DMX mode config",
+        "CONNECT DMX sending period config",
+        "CONNECT modbus RS485",
+        "CONNECT Ajax",
+        "__errors__",
+        "CONNECT Ajax add",
+        "CONNECT Ajax delete",
+        "CONNECT Ajax protection",
+        "CONNECT ZigBee",
+        "CONNECT ZigBee add",
+        "CONNECT ZigBee delete",
+        "CONNECT UI switch",
+        "CONNECT UI dimmer",
+        "CONNECT UI rgb",
+        "CONNECT UI rgbw",
+        "CONNECT UI warm cold",
+        "CONNECT UI thermostat",
+        "CONNECT UI status",
+        "CONNECT UI curtains",
+        "CONNECT UI notification",
+        "CONNECT UI scene",
+        "CONNECT UI room config",
+        "CONNECT UI category config"
+      ],
+      "keywords": [
+        "node-red",
+        "connect-smart-home",
+        "connect",
+        "iot",
+        "smarthome",
+        "smart",
+        "home",
+        "homekit",
+        "dmx",
+        "1-wire",
+        "modbus",
+        "rs485",
+        "dimmer",
+        "rgbw",
+        "rgb",
+        "led",
+        "ajax",
+        "zigbee",
+        "0-10v"
+      ],
+      "url": "https://flows.nodered.org/node/connect-nodes"
+    },
     {
       "id": "node-red-contrib-timeouttrigger",
       "version": "0.0.6",
@@ -17,6 +331,26 @@
         "iot"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-timeouttrigger"
+    },
+    {
+      "id": "node-red-contrib-bosch-shc",
+      "version": "0.4.31",
+      "description": "Bosch Smart Home Controller (SHC) nodes for Node-Red",
+      "updated_at": "2024-03-18T10:16:39.139Z",
+      "types": [
+        "shc-config",
+        "shc-device",
+        "shc-scenario",
+        "shc-fault"
+      ],
+      "keywords": [
+        "node-red",
+        "bosch",
+        "smart",
+        "home",
+        "controller"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-bosch-shc"
     },
     {
       "id": "@ifp-software/node-red-contrib-oee-ai-connector",
@@ -58,24 +392,6 @@
       "url": "https://flows.nodered.org/node/red-contrib-mssql-yuzhi"
     },
     {
-      "id": "node-red-contrib-mqtt-sparkplug-plus",
-      "version": "2.1.1",
-      "description": "MQTT-Sparkplug-Plus is a set of Node-Red nodes, that will enable Node-Red to communicate with a MQTT Server using the sparkplug b protocol.",
-      "updated_at": "2024-03-18T05:53:47.361Z",
-      "types": [
-        "mqtt-sparkplug-broker",
-        "mqtt sparkplug device",
-        "mqtt sparkplug in",
-        "mqtt sparkplug out"
-      ],
-      "keywords": [
-        "MQTT",
-        "Sparkplug",
-        "node-red"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-mqtt-sparkplug-plus"
-    },
-    {
       "id": "node-red-contrib-home-assistant-websocket",
       "version": "0.63.1",
       "description": "Node-RED integration with Home Assistant through websocket and REST API",
@@ -89,26 +405,6 @@
         "websocket"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-home-assistant-websocket"
-    },
-    {
-      "id": "@machinechat/node-red-node-machinechat-bridge",
-      "version": "1.0.6",
-      "description": "Machinechat Bridge forwards Node-RED messages to Machinechat data visualization, monitoring, and analytics applications. Effortlessly upgrade Node-RED flows with web-based user interface, responsive custom dashboards, timeseries data storage, role-based u",
-      "updated_at": "2024-03-17T15:30:11.389Z",
-      "types": [
-        "machinechat-bridge"
-      ],
-      "keywords": [
-        "Machinechat",
-        "Dashboard",
-        "Rules",
-        "RBE",
-        "Storage",
-        "Report",
-        "Notification",
-        "node-red"
-      ],
-      "url": "https://flows.nodered.org/node/@machinechat/node-red-node-machinechat-bridge"
     },
     {
       "id": "@gregoriusrippenstein/node-red-contrib-flowhub",
@@ -330,25 +626,6 @@
       "url": "https://flows.nodered.org/node/node-red-contrib-bit"
     },
     {
-      "id": "node-red-node-rdk-tools",
-      "version": "0.0.4",
-      "description": "配合RDK硬件及TROS使用的Node-RED功能包(Node-RED nodes for using TROS on a RDK hardware and TROS)",
-      "updated_at": "2024-03-15T14:11:53.237Z",
-      "types": [
-        "rdk-tools smartupdate",
-        "rdk-tools checkexecute",
-        "rdk-tools texttoaudio"
-      ],
-      "keywords": [
-        "node-red",
-        "rdk",
-        "x3",
-        "TROS",
-        "NodeHub"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-node-rdk-tools"
-    },
-    {
       "id": "@adeunis/node-red-contrib-adeunis-codecs",
       "version": "1.4.2",
       "description": "Node-RED node for adeunis-codecs v1.7.x library",
@@ -477,36 +754,6 @@
         "node-red"
       ],
       "url": "https://flows.nodered.org/node/@gastmanager/node-red-client"
-    },
-    {
-      "id": "@strato-automation/node-red-contrib-strato-automation",
-      "version": "0.5.1",
-      "description": "Strato Automation Official Node Red Library",
-      "updated_at": "2024-03-14T13:58:31.714Z",
-      "types": [
-        "input",
-        "output-ip",
-        "output-mstp",
-        "ocn-server",
-        "func-on-off",
-        "func-ramp",
-        "func-min",
-        "func-max",
-        "const",
-        "input-topic",
-        "unit-converter",
-        "logic-gate",
-        "not-gate",
-        "psychrometric-calculator",
-        "strato-pid",
-        "signal-generator",
-        "deadband"
-      ],
-      "keywords": [
-        "node-red",
-        "node-red-node"
-      ],
-      "url": "https://flows.nodered.org/node/@strato-automation/node-red-contrib-strato-automation"
     },
     {
       "id": "@digitalnodecom/node-red-contrib-puppeteer",
@@ -2267,24 +2514,6 @@
       "url": "https://flows.nodered.org/node/node-red-contrib-openai-ubos"
     },
     {
-      "id": "@appmodule/node-red-contrib-siot",
-      "version": "3.0.0-rc25",
-      "description": "Node-RED interactions with SIOT",
-      "updated_at": "2024-02-29T10:42:46.293Z",
-      "types": [
-        "ack",
-        "de-subscriber",
-        "de-publisher",
-        "siot-config",
-        "class-config",
-        "plugin-cnf"
-      ],
-      "keywords": [
-        "node-red"
-      ],
-      "url": "https://flows.nodered.org/node/@appmodule/node-red-contrib-siot"
-    },
-    {
       "id": "@xureilab/node-red-twitch-eventsub",
       "version": "0.0.1",
       "description": "Connect to Twitch EventSub API",
@@ -2730,51 +2959,6 @@
         "humhub"
       ],
       "url": "https://flows.nodered.org/node/@tec6/node-red-humhub-services"
-    },
-    {
-      "id": "smart-nodes",
-      "version": "0.3.22",
-      "description": "Smart Nodes",
-      "updated_at": "2024-02-25T13:28:56.026Z",
-      "types": [
-        "smart_light-control",
-        "smart_scene-control",
-        "smart_shutter-control",
-        "smart_shutter-complex-control",
-        "smart_long-press-control",
-        "smart_multi-press-control",
-        "smart_logic",
-        "smart_forwarder",
-        "smart_compare",
-        "smart_hysteresis",
-        "smart_statistic",
-        "smart_scheduler",
-        "smart_delay",
-        "smart_central-control",
-        "__errors__",
-        "smart_text-exec"
-      ],
-      "keywords": [
-        "node-red",
-        "smart nodes",
-        "light control",
-        "shutter control",
-        "long press",
-        "multi press",
-        "scene",
-        "scenes",
-        "delay",
-        "forwarder",
-        "logic",
-        "hysteresis",
-        "compare",
-        "comparator",
-        "statistic",
-        "scheduler",
-        "central",
-        "text execution"
-      ],
-      "url": "https://flows.nodered.org/node/smart-nodes"
     },
     {
       "id": "node-red-contrib-wmi",
@@ -7607,71 +7791,6 @@
       "url": "https://flows.nodered.org/node/node-red-contrib-mobilealerts"
     },
     {
-      "id": "connect-nodes",
-      "version": "0.0.4",
-      "description": "Node-RED contribution package with nodes for interaction with CONNECT Smart Home system and configure your own UI",
-      "updated_at": "2023-12-06T17:42:56.948Z",
-      "types": [
-        "CONNECT digital input",
-        "__errors__",
-        "CONNECT relay",
-        "__errors__",
-        "CONNECT RS485 in",
-        "__errors__",
-        "CONNECT RS485 out",
-        "__errors__",
-        "CONNECT DMX",
-        "__errors__",
-        "CONNECT dimmer",
-        "__errors__",
-        "CONNECT DMX mode config",
-        "CONNECT DMX sending period config",
-        "CONNECT modbus RS485",
-        "CONNECT Ajax",
-        "__errors__",
-        "CONNECT Ajax add",
-        "CONNECT Ajax delete",
-        "CONNECT Ajax protection",
-        "CONNECT ZigBee",
-        "CONNECT ZigBee add",
-        "CONNECT ZigBee delete",
-        "CONNECT UI switch",
-        "CONNECT UI dimmer",
-        "CONNECT UI rgb",
-        "CONNECT UI rgbw",
-        "CONNECT UI warm cold",
-        "CONNECT UI thermostat",
-        "CONNECT UI status",
-        "CONNECT UI curtains",
-        "CONNECT UI notification",
-        "CONNECT UI scene",
-        "CONNECT UI room config",
-        "CONNECT UI category config"
-      ],
-      "keywords": [
-        "node-red",
-        "connect-smart-home",
-        "connect",
-        "iot",
-        "smarthome",
-        "smart",
-        "home",
-        "homekit",
-        "dmx",
-        "1-wire",
-        "modbus",
-        "rs485",
-        "dimmer",
-        "rgbw",
-        "rgb",
-        "led",
-        "ajax",
-        "zigbee",
-        "0-10v"
-      ],
-      "url": "https://flows.nodered.org/node/connect-nodes"
-    },
-    {
       "id": "node-red-contrib-zwave-js",
       "version": "9.0.3",
       "description": "The most powerful, high performing and highly polished Z-Wave node for Node-RED based on Z-Wave JS. If you want a fully featured Z-Wave framework in your Node-RED instance, you have found it.",
@@ -9108,28 +9227,6 @@
         "node-red"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-homeconnect"
-    },
-    {
-      "id": "node-red-contrib-ctrlx-automation",
-      "version": "1.9.3",
-      "description": "Node-RED nodes for ctrlX AUTOMATION",
-      "updated_at": "2023-10-27T08:20:28.681Z",
-      "types": [
-        "ctrlx-config",
-        "ctrlx-config-subscription",
-        "ctrlx-datalayer-request",
-        "ctrlx-datalayer-subscribe"
-      ],
-      "keywords": [
-        "node-red",
-        "ctrlX AUTOMATION",
-        "ctrlX CORE",
-        "ctrlX DRIVE",
-        "Bosch Rexroth AG",
-        "www.ctrlx-automation.com",
-        "www.boschrexroth.com"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-ctrlx-automation"
     },
     {
       "id": "@hsync/node-red-ble-uart",
@@ -14189,26 +14286,6 @@
       "url": "https://flows.nodered.org/node/node-red-contrib-dotnsf-watsonxai"
     },
     {
-      "id": "node-red-contrib-bosch-shc",
-      "version": "0.3.30",
-      "description": "Bosch Smart Home Controller (SHC) nodes for Node-Red",
-      "updated_at": "2023-07-28T20:40:54.698Z",
-      "types": [
-        "shc-config",
-        "shc-device",
-        "shc-scenario",
-        "shc-fault"
-      ],
-      "keywords": [
-        "node-red",
-        "bosch",
-        "smart",
-        "home",
-        "controller"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-bosch-shc"
-    },
-    {
       "id": "node-red-contrib-airship-fourth",
       "version": "1.0.0",
       "description": "Fourth to Airship integration for node-red",
@@ -15700,24 +15777,6 @@
         "easy"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-nefit-easy2"
-    },
-    {
-      "id": "@stormpass/node-red-contrib-amqp",
-      "version": "1.2.1",
-      "description": "Better Amqp nodes for node-red",
-      "updated_at": "2023-06-16T14:24:07.522Z",
-      "types": [
-        "amqp-in",
-        "amqp-out",
-        "amqp-broker",
-        "amqp-in-manual-ack"
-      ],
-      "keywords": [
-        "node-red",
-        "amqp",
-        "rabbitmq"
-      ],
-      "url": "https://flows.nodered.org/node/@stormpass/node-red-contrib-amqp"
     },
     {
       "id": "node-red-contrib-iohook-napi",
