@@ -1,7 +1,160 @@
 {
   "name": "Catalogue for Docker",
-  "updated_at": "2024-03-21T15:57:48.616Z",
+  "updated_at": "2024-03-22T15:57:27.550Z",
   "modules": [
+    {
+      "id": "@appmodule/node-red-contrib-siot",
+      "version": "3.0.0-rc27",
+      "description": "Node-RED interactions with SIOT",
+      "updated_at": "2024-03-22T14:23:40.142Z",
+      "types": [
+        "ack",
+        "de-subscriber",
+        "de-publisher",
+        "siot-config",
+        "class-config",
+        "plugin-cnf"
+      ],
+      "keywords": [
+        "node-red"
+      ],
+      "url": "https://flows.nodered.org/node/@appmodule/node-red-contrib-siot"
+    },
+    {
+      "id": "smithtek-node-red-format",
+      "version": "1.2.0",
+      "description": "A custom node for Node-RED to format messages with timestamps.",
+      "updated_at": "2024-03-22T14:19:20.523Z",
+      "types": [
+        "smithtek format"
+      ],
+      "keywords": [
+        "node-red"
+      ],
+      "url": "https://flows.nodered.org/node/smithtek-node-red-format"
+    },
+    {
+      "id": "smithtek-nodered-gps",
+      "version": "3.6.0",
+      "description": "A Node-RED node to parse NMEA sentences from a GPS system",
+      "updated_at": "2024-03-22T14:02:46.928Z",
+      "types": [
+        "smithtek-nodered-gps"
+      ],
+      "keywords": [
+        "node-red",
+        "gps",
+        "nmea"
+      ],
+      "url": "https://flows.nodered.org/node/smithtek-nodered-gps"
+    },
+    {
+      "id": "node-red-contrib-osem",
+      "version": "1.0.0",
+      "description": "node-red node for handling API calls to OpenScape Endpoint Management",
+      "updated_at": "2024-03-22T09:48:42.719Z",
+      "types": [
+        "osem-api"
+      ],
+      "keywords": [
+        "node-red",
+        "OpenScape",
+        "OSEM",
+        "CP",
+        "Devices",
+        "Mitel",
+        "Unify"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-osem"
+    },
+    {
+      "id": "@gastmanager/node-red-client",
+      "version": "1.3.1",
+      "description": "Connects to the gastmanager cloud and provides nodes to listen and publish events",
+      "updated_at": "2024-03-22T07:45:27.784Z",
+      "types": [
+        "gastmanager-config",
+        "gastmanager-listener",
+        "gastmanager-publisher"
+      ],
+      "keywords": [
+        "node-red"
+      ],
+      "url": "https://flows.nodered.org/node/@gastmanager/node-red-client"
+    },
+    {
+      "id": "@flowfuse/node-red-dashboard",
+      "version": "1.5.1",
+      "description": "Dashboard 2.0 - A collection of Node-RED nodes that provide functionality to build your own UI applications (inc. forms, buttons, charts).",
+      "updated_at": "2024-03-21T18:05:33.524Z",
+      "types": [
+        "ui-base",
+        "ui-page",
+        "ui-group",
+        "ui-theme",
+        "ui-form",
+        "__errors__",
+        "ui-text-input",
+        "__errors__",
+        "ui-button",
+        "__errors__",
+        "ui-button-group",
+        "__errors__",
+        "ui-dropdown",
+        "__errors__",
+        "ui-radio-group",
+        "__errors__",
+        "ui-slider",
+        "__errors__",
+        "ui-switch",
+        "__errors__",
+        "ui-text",
+        "__errors__",
+        "ui-table",
+        "__errors__",
+        "ui-chart",
+        "__errors__",
+        "ui-gauge",
+        "__errors__",
+        "ui-notification",
+        "__errors__",
+        "ui-markdown",
+        "__errors__",
+        "ui-template",
+        "__errors__",
+        "ui-event",
+        "__errors__",
+        "ui-control",
+        "__errors__"
+      ],
+      "keywords": [
+        "node-red"
+      ],
+      "url": "https://flows.nodered.org/node/@flowfuse/node-red-dashboard"
+    },
+    {
+      "id": "node-red-contrib-power-monitor",
+      "version": "1.2.3",
+      "description": "A Node-RED node to monitor home appliances based on their power consumption.",
+      "updated_at": "2024-03-21T17:18:58.848Z",
+      "types": [
+        "power-monitor"
+      ],
+      "keywords": [
+        "node-red",
+        "power",
+        "monitor",
+        "measure",
+        "duration",
+        "energy",
+        "consumption",
+        "washer",
+        "dryer",
+        "dishwasher",
+        "notification"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-power-monitor"
+    },
     {
       "id": "@background404/node-red-contrib-python-venv",
       "version": "0.0.2",
@@ -418,24 +571,6 @@
         "node-red"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-haas"
-    },
-    {
-      "id": "@appmodule/node-red-contrib-siot",
-      "version": "3.0.0-rc26",
-      "description": "Node-RED interactions with SIOT",
-      "updated_at": "2024-03-19T13:21:51.535Z",
-      "types": [
-        "ack",
-        "de-subscriber",
-        "de-publisher",
-        "siot-config",
-        "class-config",
-        "plugin-cnf"
-      ],
-      "keywords": [
-        "node-red"
-      ],
-      "url": "https://flows.nodered.org/node/@appmodule/node-red-contrib-siot"
     },
     {
       "id": "node-red-contrib-ctrlx-automation",
@@ -1041,21 +1176,6 @@
       "url": "https://flows.nodered.org/node/@gregoriusrippenstein/node-red-contrib-uglifyjs"
     },
     {
-      "id": "@gastmanager/node-red-client",
-      "version": "1.3.0",
-      "description": "Connects to the gastmanager cloud and provides nodes to listen and publish events",
-      "updated_at": "2024-03-14T15:37:18.075Z",
-      "types": [
-        "gastmanager-config",
-        "gastmanager-listener",
-        "gastmanager-publisher"
-      ],
-      "keywords": [
-        "node-red"
-      ],
-      "url": "https://flows.nodered.org/node/@gastmanager/node-red-client"
-    },
-    {
       "id": "@digitalnodecom/node-red-contrib-puppeteer",
       "version": "1.1.0",
       "description": "NodeRED nodes to control a headless chrome with puppeteer",
@@ -1214,56 +1334,6 @@
         "bodhi"
       ],
       "url": "https://flows.nodered.org/node/@softwaredevelopment/node-red-contrib-bodhi-connector"
-    },
-    {
-      "id": "@flowfuse/node-red-dashboard",
-      "version": "1.4.1",
-      "description": "Dashboard 2.0 - A collection of Node-RED nodes that provide functionality to build your own UI applications (inc. forms, buttons, charts).",
-      "updated_at": "2024-03-13T19:26:56.987Z",
-      "types": [
-        "ui-base",
-        "ui-page",
-        "ui-group",
-        "ui-theme",
-        "ui-form",
-        "__errors__",
-        "ui-text-input",
-        "__errors__",
-        "ui-button",
-        "__errors__",
-        "ui-button-group",
-        "__errors__",
-        "ui-dropdown",
-        "__errors__",
-        "ui-radio-group",
-        "__errors__",
-        "ui-slider",
-        "__errors__",
-        "ui-switch",
-        "__errors__",
-        "ui-text",
-        "__errors__",
-        "ui-table",
-        "__errors__",
-        "ui-chart",
-        "__errors__",
-        "ui-gauge",
-        "__errors__",
-        "ui-notification",
-        "__errors__",
-        "ui-markdown",
-        "__errors__",
-        "ui-template",
-        "__errors__",
-        "ui-event",
-        "__errors__",
-        "ui-control",
-        "__errors__"
-      ],
-      "keywords": [
-        "node-red"
-      ],
-      "url": "https://flows.nodered.org/node/@flowfuse/node-red-dashboard"
     },
     {
       "id": "@siglesiasg/node-red-event-manager",
@@ -2650,6 +2720,24 @@
       "url": "https://flows.nodered.org/node/@infozap/node-red-contrib-ai-gpt-intent"
     },
     {
+      "id": "@node-red-contrib-themes/theme-collection",
+      "version": "3.1.11",
+      "description": "A collection of themes for Node-RED",
+      "updated_at": "2024-03-01T20:23:58.763Z",
+      "types": [],
+      "keywords": [
+        "node-red",
+        "nodered",
+        "theme",
+        "themes",
+        "plugin",
+        "plugins",
+        "dark",
+        "light"
+      ],
+      "url": "https://flows.nodered.org/node/@node-red-contrib-themes/theme-collection"
+    },
+    {
       "id": "node-red-contrib-iberdrola",
       "version": "1.2.2",
       "description": "A Node-RED node which connects to i-DE iberdrola api and returns your consumption data",
@@ -3904,21 +3992,6 @@
       "url": "https://flows.nodered.org/node/node-red-contrib-ngrok"
     },
     {
-      "id": "smithtek-nodered-gps",
-      "version": "2.9.0",
-      "description": "A Node-RED node to parse NMEA sentences from a GPS system",
-      "updated_at": "2024-02-16T13:26:56.578Z",
-      "types": [
-        "smithtek-nodered-gps"
-      ],
-      "keywords": [
-        "node-red",
-        "gps",
-        "nmea"
-      ],
-      "url": "https://flows.nodered.org/node/smithtek-nodered-gps"
-    },
-    {
       "id": "tams-node-contrib",
       "version": "1.0.11",
       "description": "Provides a set of nodes to Node-RED to help control tams.",
@@ -4602,19 +4675,6 @@
         "smart home"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-zigbee2mqtt-devices"
-    },
-    {
-      "id": "smithtek-node-red-format",
-      "version": "1.0.3",
-      "description": "A custom node for Node-RED to format messages with timestamps.",
-      "updated_at": "2024-02-03T12:37:45.784Z",
-      "types": [
-        "smithtek format"
-      ],
-      "keywords": [
-        "node-red"
-      ],
-      "url": "https://flows.nodered.org/node/smithtek-node-red-format"
     },
     {
       "id": "node-red-contrib-ifm-al13xx",
@@ -7711,24 +7771,6 @@
         "node-red"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-simple-gpt-vision"
-    },
-    {
-      "id": "@node-red-contrib-themes/theme-collection",
-      "version": "3.1.7",
-      "description": "A collection of themes for Node-RED",
-      "updated_at": "2023-12-13T02:13:21.677Z",
-      "types": [],
-      "keywords": [
-        "node-red",
-        "nodered",
-        "theme",
-        "themes",
-        "plugin",
-        "plugins",
-        "dark",
-        "light"
-      ],
-      "url": "https://flows.nodered.org/node/@node-red-contrib-themes/theme-collection"
     },
     {
       "id": "@thingspal/node-red-contrib-analog-alarm",
@@ -24164,29 +24206,6 @@
         "node-red"
       ],
       "url": "https://flows.nodered.org/node/@ridort/node-red-contrib-socketio-simple"
-    },
-    {
-      "id": "node-red-contrib-power-monitor",
-      "version": "1.2.1",
-      "description": "A Node-RED node to monitor home appliances based on their power consumption.",
-      "updated_at": "2022-11-07T10:01:27.642Z",
-      "types": [
-        "power-monitor"
-      ],
-      "keywords": [
-        "node-red",
-        "power",
-        "monitor",
-        "measure",
-        "duration",
-        "energy",
-        "consumption",
-        "washer",
-        "dryer",
-        "dishwasher",
-        "notification"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-power-monitor"
     },
     {
       "id": "eciot3s-panasonic-plc",
