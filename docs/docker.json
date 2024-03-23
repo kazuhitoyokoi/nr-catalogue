@@ -1,7 +1,79 @@
 {
   "name": "Catalogue for Docker",
-  "updated_at": "2024-03-22T15:57:27.550Z",
+  "updated_at": "2024-03-23T15:57:19.181Z",
   "modules": [
+    {
+      "id": "node-red-contrib-string-filter",
+      "version": "0.0.1",
+      "description": "A node that filters strings based on the configuration.",
+      "updated_at": "2024-03-23T13:34:39.843Z",
+      "types": [
+        "string-filter"
+      ],
+      "keywords": [
+        "node-red",
+        "peak",
+        "value",
+        "range",
+        "filter",
+        "string filter"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-string-filter"
+    },
+    {
+      "id": "node-red-contrib-axis-host",
+      "version": "1.3.6",
+      "description": "Axis Devices resource binding nodes that provides access to events, image capture and analytics data.  Node-RED must be running on the Axis Device.",
+      "updated_at": "2024-03-23T11:37:47.829Z",
+      "types": [
+        "Events",
+        "Camera",
+        "Trigger",
+        "Objects"
+      ],
+      "keywords": [
+        "node-red",
+        "Axis"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-axis-host"
+    },
+    {
+      "id": "node-red-contrib-knx-ultimate",
+      "version": "2.4.7",
+      "description": "Control your KNX intallation via Node-Red! A bunch of KNX nodes, with integrated Philips HUE control and ETS group address importer. Easy to use and highly configurable.",
+      "updated_at": "2024-03-23T08:39:31.605Z",
+      "types": [
+        "knxUltimate",
+        "knxUltimateSceneController",
+        "knxUltimateWatchDog",
+        "knxUltimateLogger",
+        "knxUltimate-config",
+        "knxUltimateGlobalContext",
+        "knxUltimateAlerter",
+        "knxUltimateLoadControl",
+        "knxUltimateViewer",
+        "hue-config",
+        "knxUltimateHueLight",
+        "knxUltimateHueButton",
+        "knxUltimateHueMotion",
+        "knxUltimateHueTapDial",
+        "knxUltimateHueLightSensor",
+        "knxUltimateHueTemperatureSensor",
+        "knxUltimateHueScene",
+        "knxUltimateHueBattery",
+        "knxUltimateHueZigbeeConnectivity"
+      ],
+      "keywords": [
+        "node-red",
+        "KNX",
+        "ETS",
+        "eib",
+        "konnex",
+        "IOT",
+        "philips hue"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-knx-ultimate"
+    },
     {
       "id": "@appmodule/node-red-contrib-siot",
       "version": "3.0.0-rc27",
@@ -2321,23 +2393,6 @@
       "url": "https://flows.nodered.org/node/@helix_italia/node-red-helix-odbc"
     },
     {
-      "id": "node-red-contrib-axis-host",
-      "version": "1.3.5",
-      "description": "Axis Devices resource binding nodes that provides access to events, image capture and analytics data.  Node-RED must be running on the Axis Device.",
-      "updated_at": "2024-03-05T10:15:36.024Z",
-      "types": [
-        "Events",
-        "Camera",
-        "Trigger",
-        "Objects"
-      ],
-      "keywords": [
-        "node-red",
-        "Axis"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-axis-host"
-    },
-    {
       "id": "@gregoriusrippenstein/node-red-contrib-validation-and-documentation",
       "version": "0.1.1",
       "description": "JSON Schema validator for Node Red",
@@ -4047,43 +4102,6 @@
         "node-opcua"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-opcua"
-    },
-    {
-      "id": "node-red-contrib-knx-ultimate",
-      "version": "2.4.6",
-      "description": "Control your KNX intallation via Node-Red! A bunch of KNX nodes, with integrated Philips HUE control and ETS group address importer. Easy to use and highly configurable.",
-      "updated_at": "2024-02-15T06:49:45.376Z",
-      "types": [
-        "knxUltimate",
-        "knxUltimateSceneController",
-        "knxUltimateWatchDog",
-        "knxUltimateLogger",
-        "knxUltimate-config",
-        "knxUltimateGlobalContext",
-        "knxUltimateAlerter",
-        "knxUltimateLoadControl",
-        "knxUltimateViewer",
-        "hue-config",
-        "knxUltimateHueLight",
-        "knxUltimateHueButton",
-        "knxUltimateHueMotion",
-        "knxUltimateHueTapDial",
-        "knxUltimateHueLightSensor",
-        "knxUltimateHueTemperatureSensor",
-        "knxUltimateHueScene",
-        "knxUltimateHueBattery",
-        "knxUltimateHueZigbeeConnectivity"
-      ],
-      "keywords": [
-        "node-red",
-        "KNX",
-        "ETS",
-        "eib",
-        "konnex",
-        "IOT",
-        "philips hue"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-knx-ultimate"
     },
     {
       "id": "node-red-contrib-br_navigator-webassistant",
