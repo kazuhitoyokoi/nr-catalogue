@@ -1,7 +1,136 @@
 {
   "name": "Catalogue for Docker",
-  "updated_at": "2024-03-23T15:57:19.181Z",
+  "updated_at": "2024-03-24T15:55:22.015Z",
   "modules": [
+    {
+      "id": "node-red-contrib-stepper",
+      "version": "1.2.0",
+      "description": "A Node-RED node that steps through numbers from a start value to an end value at configurable intervals.",
+      "updated_at": "2024-03-24T11:29:52.572Z",
+      "types": [
+        "stepper"
+      ],
+      "keywords": [
+        "node-red",
+        "stepper",
+        "counter",
+        "Up Counter",
+        "Down Counter"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-stepper"
+    },
+    {
+      "id": "node-red-contrib-ollama",
+      "version": "0.1.6",
+      "description": "A Node-RED module that wraps the ollama.js library, offering its functionalities as configurable nodes for easy integration into flows.",
+      "updated_at": "2024-03-24T05:56:00.327Z",
+      "types": [
+        "ollama-chat",
+        "ollama-copy",
+        "ollama-create",
+        "ollama-delete",
+        "ollama-embeddings",
+        "ollama-generate",
+        "ollama-list",
+        "ollama-pull",
+        "ollama-push",
+        "ollama-show"
+      ],
+      "keywords": [
+        "ai",
+        "llama",
+        "llm",
+        "llms",
+        "node-red",
+        "ollama"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-ollama"
+    },
+    {
+      "id": "@tbowmo/node-red-small-timer",
+      "version": "0.16.0",
+      "description": "Small timer node for Node-RED with support for sunrise, sunset etc. timers",
+      "updated_at": "2024-03-24T00:19:20.248Z",
+      "types": [
+        "smalltimer",
+        "position"
+      ],
+      "keywords": [
+        "node-red",
+        "timer",
+        "sunset",
+        "sunrise",
+        "dawn",
+        "dusk"
+      ],
+      "url": "https://flows.nodered.org/node/@tbowmo/node-red-small-timer"
+    },
+    {
+      "id": "node-red-contrib-boolean-logic-ultimate",
+      "version": "1.1.3",
+      "description": "A set of Node-RED enhanced boolean logic and utility nodes, flow interruption, blinker, invert, filter, toggle etc.., with persistent values after reboot. Compatible also with Homeassistant values.",
+      "updated_at": "2024-03-23T19:34:42.469Z",
+      "types": [
+        "BooleanLogicUltimate",
+        "InvertUltimate",
+        "FilterUltimate",
+        "InterruptFlowUltimate",
+        "BlinkerUltimate",
+        "SimpleOutputUltimate",
+        "InjectUltimate",
+        "StatusUltimate",
+        "ImpulseUltimate",
+        "SumUltimate",
+        "toggleUltimate",
+        "RailwaySwitchUltimate",
+        "Comparator",
+        "translator-config"
+      ],
+      "keywords": [
+        "node-red",
+        "boolean",
+        "gate",
+        "filter",
+        "logic"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-boolean-logic-ultimate"
+    },
+    {
+      "id": "node-red-contrib-onstar2",
+      "version": "2.2.0",
+      "description": "An updated Node-RED Library using OnStarJS, an unofficial client library for the OnStar Vehicle API",
+      "updated_at": "2024-03-23T19:30:38.796Z",
+      "types": [
+        "get-account-vehicles",
+        "get-diagnostics",
+        "lock-myvehicle",
+        "unlock-myvehicle",
+        "lock-mytrunk",
+        "unlock-mytrunk",
+        "start-myvehicle",
+        "cancel-start-myvehicle",
+        "alert-myvehicle",
+        "alert-myvehicle-lights",
+        "alert-myvehicle-horn",
+        "cancel-alert-myvehicle",
+        "locate-vehicle",
+        "mycharge-override",
+        "get-mycharge-profile",
+        "set-mycharge-profile",
+        "onstar2"
+      ],
+      "keywords": [
+        "node-red",
+        "OnStar",
+        "Chevrolet",
+        "Chevy",
+        "GM",
+        "GMC",
+        "Buick",
+        "Cadillac"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-onstar2"
+    },
     {
       "id": "node-red-contrib-string-filter",
       "version": "0.0.1",
@@ -3308,25 +3437,6 @@
       "url": "https://flows.nodered.org/node/node-red-contrib-remote"
     },
     {
-      "id": "@tbowmo/node-red-small-timer",
-      "version": "0.15.1",
-      "description": "Small timer node for node red with support for sunrise, sunset etc. timers",
-      "updated_at": "2024-02-25T19:32:07.461Z",
-      "types": [
-        "smalltimer",
-        "position"
-      ],
-      "keywords": [
-        "node-red",
-        "timer",
-        "sunset",
-        "sunrise",
-        "dawn",
-        "dusk"
-      ],
-      "url": "https://flows.nodered.org/node/@tbowmo/node-red-small-timer"
-    },
-    {
       "id": "node-red-v4-contrib-redis",
       "version": "1.0.4",
       "description": "Node Red client for Redis with pub/sub, list, lua scripting  and other commands support. Including the possibility to set cluster mode as an env variable",
@@ -4382,40 +4492,6 @@
         "алиса"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-alice"
-    },
-    {
-      "id": "node-red-contrib-onstar2",
-      "version": "2.1.21",
-      "description": "An updated Node-RED Library using OnStarJS, an unofficial client library for the OnStar Vehicle API",
-      "updated_at": "2024-02-07T17:48:37.475Z",
-      "types": [
-        "get-account-vehicles",
-        "get-diagnostics",
-        "lock-myvehicle",
-        "unlock-myvehicle",
-        "start-myvehicle",
-        "cancel-start-myvehicle",
-        "alert-myvehicle",
-        "alert-myvehicle-lights",
-        "alert-myvehicle-horn",
-        "cancel-alert-myvehicle",
-        "locate-vehicle",
-        "mycharge-override",
-        "get-mycharge-profile",
-        "set-mycharge-profile",
-        "onstar2"
-      ],
-      "keywords": [
-        "node-red",
-        "OnStar",
-        "Chevrolet",
-        "Chevy",
-        "GM",
-        "GMC",
-        "Buick",
-        "Cadillac"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-onstar2"
     },
     {
       "id": "node-red-contrib-modbus",
@@ -5654,36 +5730,6 @@
         "freebox"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-freebox"
-    },
-    {
-      "id": "node-red-contrib-boolean-logic-ultimate",
-      "version": "1.1.2",
-      "description": "A set of Node-RED enhanced boolean logic and utility nodes, flow interruption, blinker, invert, filter, toggle etc.., with persistent values after reboot. Compatible also with Homeassistant values.",
-      "updated_at": "2024-01-18T07:36:04.248Z",
-      "types": [
-        "BooleanLogicUltimate",
-        "InvertUltimate",
-        "FilterUltimate",
-        "InterruptFlowUltimate",
-        "BlinkerUltimate",
-        "SimpleOutputUltimate",
-        "InjectUltimate",
-        "StatusUltimate",
-        "ImpulseUltimate",
-        "SumUltimate",
-        "toggleUltimate",
-        "RailwaySwitchUltimate",
-        "Comparator",
-        "translator-config"
-      ],
-      "keywords": [
-        "node-red",
-        "boolean",
-        "gate",
-        "filter",
-        "logic"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-boolean-logic-ultimate"
     },
     {
       "id": "node-red-contrib-antenna-genius",
@@ -9083,23 +9129,6 @@
         "lawn mower"
       ],
       "url": "https://flows.nodered.org/node/@diidum/node-red-contrib-husqvarna-automower-connect"
-    },
-    {
-      "id": "node-red-contrib-stepper",
-      "version": "1.0.0",
-      "description": "A Node-RED node that steps through numbers from a start value to an end value at configurable intervals.",
-      "updated_at": "2023-11-08T11:11:42.114Z",
-      "types": [
-        "stepper"
-      ],
-      "keywords": [
-        "node-red",
-        "stepper",
-        "counter",
-        "Up Counter",
-        "Down Counter"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-stepper"
     },
     {
       "id": "@marcus-j-davies/node-red-semaphore-plus",
