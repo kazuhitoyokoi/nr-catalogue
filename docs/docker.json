@@ -1,7 +1,205 @@
 {
   "name": "Catalogue for Docker",
-  "updated_at": "2024-03-24T15:55:22.015Z",
+  "updated_at": "2024-03-25T15:56:34.160Z",
   "modules": [
+    {
+      "id": "node-red-contrib-mqtt-sparkplug-plus",
+      "version": "2.1.6",
+      "description": "MQTT-Sparkplug-Plus is a set of Node-Red nodes, that will enable Node-Red to communicate with a MQTT Server using the sparkplug b protocol.",
+      "updated_at": "2024-03-25T14:25:23.842Z",
+      "types": [
+        "mqtt-sparkplug-broker",
+        "mqtt sparkplug device",
+        "mqtt sparkplug in",
+        "mqtt sparkplug out"
+      ],
+      "keywords": [
+        "MQTT",
+        "Sparkplug",
+        "node-red"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-mqtt-sparkplug-plus"
+    },
+    {
+      "id": "node-red-contrib-knx-ultimate-plus-hue-contact-sensor",
+      "version": "2.5.5",
+      "description": "This is a fork of node-red-contrib-knx-ultimate. Thanks to the original author! Control your KNX installation via Node-Red! A bunch of KNX nodes, with integrated Philips HUE control and ETS group address importer. Easy to use and highly configurable.",
+      "updated_at": "2024-03-25T10:27:54.366Z",
+      "types": [
+        "knxUltimate",
+        "knxUltimateSceneController",
+        "knxUltimateWatchDog",
+        "knxUltimateLogger",
+        "knxUltimate-config",
+        "knxUltimateGlobalContext",
+        "knxUltimateAlerter",
+        "knxUltimateLoadControl",
+        "knxUltimateViewer",
+        "hue-config",
+        "knxUltimateHueLight",
+        "knxUltimateHueButton",
+        "knxUltimateHueMotion",
+        "knxUltimatePlusHueContact",
+        "knxUltimateHueTapDial",
+        "knxUltimateHueLightSensor",
+        "knxUltimateHueTemperatureSensor",
+        "knxUltimateHueScene",
+        "knxUltimateHueBattery",
+        "knxUltimateHueZigbeeConnectivity"
+      ],
+      "keywords": [
+        "node-red",
+        "KNX",
+        "ETS",
+        "eib",
+        "konnex",
+        "IOT",
+        "philips hue"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-knx-ultimate-plus-hue-contact-sensor"
+    },
+    {
+      "id": "@renyoo/node-red-dfrobot_noderedcomputer",
+      "version": "1.0.9",
+      "description": "node red nodes for NodeREDComputer",
+      "updated_at": "2024-03-25T10:15:22.661Z",
+      "types": [
+        "GPIO Out",
+        "GPIO In",
+        "ADC",
+        "DAC",
+        "Dev Event",
+        "Special Event",
+        "IO Interrupt",
+        "Flow Count",
+        "Flow Switch",
+        "ESP32 Burn",
+        "RockchipBurn",
+        "CH58x Burn",
+        "GW SN",
+        "Burn OTP",
+        "GW TEST",
+        "DTU SN",
+        "DTU Config",
+        "background",
+        "line",
+        "rectangle",
+        "circle",
+        "text"
+      ],
+      "keywords": [
+        "node-red",
+        "dfrobot",
+        "NodeREDComputer"
+      ],
+      "url": "https://flows.nodered.org/node/@renyoo/node-red-dfrobot_noderedcomputer"
+    },
+    {
+      "id": "node-red-contrib-simpletime-input",
+      "version": "3.0.1",
+      "description": "A lightweight node-red node to provide and format date and time.",
+      "updated_at": "2024-03-25T00:17:15.340Z",
+      "types": [
+        "simpletime-input"
+      ],
+      "keywords": [
+        "node-red",
+        "time",
+        "date",
+        "moment"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-simpletime-input"
+    },
+    {
+      "id": "@thingweb/node-red-node-wot",
+      "version": "1.1.0",
+      "description": "Web of Things nodes for Node-RED using node-wot",
+      "updated_at": "2024-03-24T20:36:41.372Z",
+      "types": [
+        "consumed-thing",
+        "read-property",
+        "write-property",
+        "invoke-action",
+        "subscribe-event",
+        "update-td",
+        "wot-server-config",
+        "wot-thing-config",
+        "wot-server-end",
+        "wot-server-property",
+        "wot-server-action",
+        "wot-server-event",
+        "wot-server-td"
+      ],
+      "keywords": [
+        "internet-of-things",
+        "iot",
+        "web-of-things",
+        "wot",
+        "node-red"
+      ],
+      "url": "https://flows.nodered.org/node/@thingweb/node-red-node-wot"
+    },
+    {
+      "id": "node-red-contrib-onstar2",
+      "version": "2.2.1",
+      "description": "An updated Node-RED Library using OnStarJS, an unofficial client library for the OnStar Vehicle API",
+      "updated_at": "2024-03-24T16:58:00.958Z",
+      "types": [
+        "get-account-vehicles",
+        "get-diagnostics",
+        "lock-myvehicle",
+        "unlock-myvehicle",
+        "lock-mytrunk",
+        "unlock-mytrunk",
+        "start-myvehicle",
+        "cancel-start-myvehicle",
+        "alert-myvehicle",
+        "alert-myvehicle-lights",
+        "alert-myvehicle-horn",
+        "cancel-alert-myvehicle",
+        "locate-vehicle",
+        "mycharge-override",
+        "get-mycharge-profile",
+        "set-mycharge-profile",
+        "onstar2"
+      ],
+      "keywords": [
+        "node-red",
+        "OnStar",
+        "Chevrolet",
+        "Chevy",
+        "GM",
+        "GMC",
+        "Buick",
+        "Cadillac"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-onstar2"
+    },
+    {
+      "id": "node-red-contrib-chronos",
+      "version": "1.21.0",
+      "description": "Time-based Node-RED scheduling, repeating, queueing, routing, filtering and manipulating nodes",
+      "updated_at": "2024-03-24T15:55:13.282Z",
+      "types": [
+        "chronos-config",
+        "chronos-scheduler",
+        "chronos-state",
+        "chronos-repeat",
+        "chronos-delay",
+        "chronos-switch",
+        "chronos-filter",
+        "chronos-change"
+      ],
+      "keywords": [
+        "node-red",
+        "scheduler",
+        "timer",
+        "time",
+        "sun",
+        "moon"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-chronos"
+    },
     {
       "id": "node-red-contrib-stepper",
       "version": "1.2.0",
@@ -94,42 +292,6 @@
         "logic"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-boolean-logic-ultimate"
-    },
-    {
-      "id": "node-red-contrib-onstar2",
-      "version": "2.2.0",
-      "description": "An updated Node-RED Library using OnStarJS, an unofficial client library for the OnStar Vehicle API",
-      "updated_at": "2024-03-23T19:30:38.796Z",
-      "types": [
-        "get-account-vehicles",
-        "get-diagnostics",
-        "lock-myvehicle",
-        "unlock-myvehicle",
-        "lock-mytrunk",
-        "unlock-mytrunk",
-        "start-myvehicle",
-        "cancel-start-myvehicle",
-        "alert-myvehicle",
-        "alert-myvehicle-lights",
-        "alert-myvehicle-horn",
-        "cancel-alert-myvehicle",
-        "locate-vehicle",
-        "mycharge-override",
-        "get-mycharge-profile",
-        "set-mycharge-profile",
-        "onstar2"
-      ],
-      "keywords": [
-        "node-red",
-        "OnStar",
-        "Chevrolet",
-        "Chevy",
-        "GM",
-        "GMC",
-        "Buick",
-        "Cadillac"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-onstar2"
     },
     {
       "id": "node-red-contrib-string-filter",
@@ -657,24 +819,6 @@
         "rdk"
       ],
       "url": "https://flows.nodered.org/node/node-red-node-rdk-ros2"
-    },
-    {
-      "id": "node-red-contrib-mqtt-sparkplug-plus",
-      "version": "2.1.5",
-      "description": "MQTT-Sparkplug-Plus is a set of Node-Red nodes, that will enable Node-Red to communicate with a MQTT Server using the sparkplug b protocol.",
-      "updated_at": "2024-03-20T00:17:03.060Z",
-      "types": [
-        "mqtt-sparkplug-broker",
-        "mqtt sparkplug device",
-        "mqtt sparkplug in",
-        "mqtt sparkplug out"
-      ],
-      "keywords": [
-        "MQTT",
-        "Sparkplug",
-        "node-red"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-mqtt-sparkplug-plus"
     },
     {
       "id": "node-red-contrib-myhome-bticino-v2",
@@ -1815,37 +1959,6 @@
       "url": "https://flows.nodered.org/node/node-red-contrib-iot-controlcenter"
     },
     {
-      "id": "@renyoo/node-red-dfrobot_noderedcomputer",
-      "version": "1.0.8",
-      "description": "node red nodes for NodeREDComputer",
-      "updated_at": "2024-03-12T09:56:34.837Z",
-      "types": [
-        "GPIO Out",
-        "GPIO In",
-        "ADC",
-        "DAC",
-        "Dev Event",
-        "Special Event",
-        "IO Interrupt",
-        "Flow Count",
-        "Flow Switch",
-        "ESP32 Burn",
-        "RockchipBurn",
-        "CH58x Burn",
-        "GW SN",
-        "Burn OTP",
-        "GW TEST",
-        "DTU SN",
-        "DTU Config"
-      ],
-      "keywords": [
-        "node-red",
-        "dfrobot",
-        "NodeREDComputer"
-      ],
-      "url": "https://flows.nodered.org/node/@renyoo/node-red-dfrobot_noderedcomputer"
-    },
-    {
       "id": "node-red-2stools-packetdecode",
       "version": "0.11.0",
       "description": "Decode string data to a respective sensor on IC",
@@ -2788,33 +2901,6 @@
         "meross"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-meross-cloud"
-    },
-    {
-      "id": "@thingweb/node-red-node-wot",
-      "version": "1.0.1",
-      "description": "Web of Things nodes for Node-RED using node-wot",
-      "updated_at": "2024-03-04T12:08:42.539Z",
-      "types": [
-        "consumed-thing",
-        "read-property",
-        "write-property",
-        "invoke-action",
-        "subscribe-event",
-        "wot-server-config",
-        "wot-thing-config",
-        "wot-server-end",
-        "wot-server-property",
-        "wot-server-action",
-        "wot-server-event"
-      ],
-      "keywords": [
-        "internet-of-things",
-        "iot",
-        "web-of-things",
-        "wot",
-        "node-red"
-      ],
-      "url": "https://flows.nodered.org/node/@thingweb/node-red-node-wot"
     },
     {
       "id": "apconic-postgresql",
@@ -4406,30 +4492,6 @@
         "xslt3.0"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-xsltransform"
-    },
-    {
-      "id": "node-red-contrib-chronos",
-      "version": "1.20.1",
-      "description": "Time-based Node-RED scheduling, repeating, queueing, routing, filtering and manipulating nodes",
-      "updated_at": "2024-02-10T09:48:42.016Z",
-      "types": [
-        "chronos-config",
-        "chronos-scheduler",
-        "chronos-repeat",
-        "chronos-delay",
-        "chronos-switch",
-        "chronos-filter",
-        "chronos-change"
-      ],
-      "keywords": [
-        "node-red",
-        "scheduler",
-        "timer",
-        "time",
-        "sun",
-        "moon"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-chronos"
     },
     {
       "id": "@technithusiast/node-red-contrib-ai-intent",
