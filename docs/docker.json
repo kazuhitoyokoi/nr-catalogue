@@ -1,12 +1,288 @@
 {
   "name": "Catalogue for Docker",
-  "updated_at": "2024-03-25T15:56:34.160Z",
+  "updated_at": "2024-03-26T15:57:09.955Z",
   "modules": [
     {
+      "id": "@gregoriusrippenstein/node-red-contrib-nodedev",
+      "version": "0.3.7",
+      "description": "Support the development of Node-RED nodes within Node-RED.",
+      "updated_at": "2024-03-26T14:21:50.979Z",
+      "types": [
+        "NodeDevOps",
+        "NodeFactory",
+        "PkgFile",
+        "NpmTarBall",
+        "NodeRedInstall",
+        "NpmPublish",
+        "OTPGenerate",
+        "NodeFactorySidebarCfg"
+      ],
+      "keywords": [
+        "node-red",
+        "node development",
+        "introspection",
+        "bootstrapping",
+        "recursion"
+      ],
+      "url": "https://flows.nodered.org/node/@gregoriusrippenstein/node-red-contrib-nodedev"
+    },
+    {
+      "id": "node-red-contrib-openai",
+      "version": "1.0.3",
+      "description": "Node-RED node for openai",
+      "updated_at": "2024-03-26T12:46:38.462Z",
+      "types": [
+        "openai",
+        "openaiApiKey"
+      ],
+      "keywords": [
+        "node-red-contrib-contribgen",
+        "node-red",
+        "openai",
+        "chatbot",
+        "AI",
+        "search api",
+        "AI 검색",
+        "Completion",
+        "image generation",
+        "Text Embeddings",
+        "Fine tunes",
+        "Moderations",
+        "nodejs"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-openai"
+    },
+    {
+      "id": "connect-nodes",
+      "version": "0.0.6",
+      "description": "Node-RED contribution package with nodes for interaction with CONNECT Smart Home system and configure your own UI",
+      "updated_at": "2024-03-26T12:31:23.653Z",
+      "types": [
+        "CONNECT digital input",
+        "__errors__",
+        "CONNECT relay",
+        "__errors__",
+        "CONNECT RS485 in",
+        "__errors__",
+        "CONNECT RS485 out",
+        "__errors__",
+        "CONNECT DMX",
+        "__errors__",
+        "CONNECT dimmer",
+        "__errors__",
+        "CONNECT DMX mode config",
+        "CONNECT DMX sending period config",
+        "CONNECT modbus RS485",
+        "CONNECT Ajax",
+        "__errors__",
+        "CONNECT Ajax add",
+        "CONNECT Ajax delete",
+        "CONNECT Ajax protection",
+        "CONNECT ZigBee",
+        "CONNECT ZigBee add",
+        "CONNECT ZigBee delete",
+        "CONNECT UI switch",
+        "CONNECT UI dimmer",
+        "CONNECT UI rgb",
+        "CONNECT UI rgbw",
+        "CONNECT UI warm cold",
+        "CONNECT UI thermostat",
+        "CONNECT UI status",
+        "CONNECT UI curtains",
+        "CONNECT UI notification",
+        "CONNECT UI scene",
+        "CONNECT UI room config",
+        "CONNECT UI category config"
+      ],
+      "keywords": [
+        "node-red",
+        "connect-smart-home",
+        "connect",
+        "iot",
+        "smarthome",
+        "smart",
+        "home",
+        "homekit",
+        "dmx",
+        "1-wire",
+        "modbus",
+        "rs485",
+        "dimmer",
+        "rgbw",
+        "rgb",
+        "led",
+        "ajax",
+        "zigbee",
+        "0-10v"
+      ],
+      "url": "https://flows.nodered.org/node/connect-nodes"
+    },
+    {
+      "id": "node-red-contrib-tinkerforge-openinc",
+      "version": "0.0.33",
+      "description": "Node-RED Nodes to access Tinkerforge Sensors",
+      "updated_at": "2024-03-26T11:47:14.689Z",
+      "types": [
+        "TinkerForgeConfig",
+        "TinkerForge MotionV2",
+        "TinkerForge HumidityV2",
+        "TinkerForge RotaryPotiV2",
+        "TinkerForge DistanceIRV2",
+        "TinkerForge RGBButton",
+        "TinkerForge RGBLight",
+        "TinkerForge LCD"
+      ],
+      "keywords": [
+        "tinkerforge",
+        "node-red"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-tinkerforge-openinc"
+    },
+    {
+      "id": "node-red-contrib-knx-ultimate",
+      "version": "2.4.8",
+      "description": "Control your KNX intallation via Node-Red! A bunch of KNX nodes, with integrated Philips HUE control and ETS group address importer. Easy to use and highly configurable.",
+      "updated_at": "2024-03-26T06:32:35.113Z",
+      "types": [
+        "knxUltimate",
+        "knxUltimateSceneController",
+        "knxUltimateWatchDog",
+        "knxUltimateLogger",
+        "knxUltimate-config",
+        "knxUltimateGlobalContext",
+        "knxUltimateAlerter",
+        "knxUltimateLoadControl",
+        "knxUltimateViewer",
+        "hue-config",
+        "knxUltimateHueLight",
+        "knxUltimateHueButton",
+        "knxUltimateHueMotion",
+        "knxUltimateHueTapDial",
+        "knxUltimateHueLightSensor",
+        "knxUltimateHueTemperatureSensor",
+        "knxUltimateHueScene",
+        "knxUltimateHueBattery",
+        "knxUltimateHueZigbeeConnectivity"
+      ],
+      "keywords": [
+        "node-red",
+        "KNX",
+        "ETS",
+        "eib",
+        "konnex",
+        "IOT",
+        "philips hue"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-knx-ultimate"
+    },
+    {
+      "id": "@background404/node-red-contrib-mcu-serial",
+      "version": "0.0.1",
+      "description": "Node to use serial communication with Node-RED MCU",
+      "updated_at": "2024-03-26T05:16:39.691Z",
+      "types": [
+        "mcu_serial_in",
+        "mcu_serial_out"
+      ],
+      "keywords": [
+        "node-red",
+        "node-red-mcu",
+        "moddable",
+        "Serial"
+      ],
+      "url": "https://flows.nodered.org/node/@background404/node-red-contrib-mcu-serial"
+    },
+    {
+      "id": "wincc-unified-nodes",
+      "version": "1.0.13",
+      "description": "Node-Red custom nodes to connect to WINCC UNIFIED PC RT V18^",
+      "updated_at": "2024-03-26T03:54:59.655Z",
+      "types": [
+        "graphql-server",
+        "ReadWrite_Tag",
+        "Unified Login",
+        "SUBCRIBE_TagValue",
+        "SUBCRIBE_AlarmID"
+      ],
+      "keywords": [
+        "node-red",
+        "wincc",
+        "unified",
+        "wincc",
+        "tia",
+        "portal",
+        "wincc unified",
+        "wincc unified pc",
+        "wincc unified pc rt",
+        "graphql"
+      ],
+      "url": "https://flows.nodered.org/node/wincc-unified-nodes"
+    },
+    {
+      "id": "@renyoo/node-red-dfrobot_noderedcomputer",
+      "version": "1.0.10",
+      "description": "node red nodes for NodeREDComputer",
+      "updated_at": "2024-03-26T02:45:00.103Z",
+      "types": [
+        "GPIO Out",
+        "GPIO In",
+        "ADC",
+        "DAC",
+        "Dev Event",
+        "Special Event",
+        "IO Interrupt",
+        "Flow Count",
+        "Flow Switch",
+        "ESP32 Burn",
+        "RockchipBurn",
+        "CH58x Burn",
+        "GW SN",
+        "Burn OTP",
+        "GW TEST",
+        "DTU SN",
+        "DTU Config",
+        "background",
+        "line",
+        "rectangle",
+        "circle",
+        "text",
+        "更改属性"
+      ],
+      "keywords": [
+        "node-red",
+        "dfrobot",
+        "NodeREDComputer"
+      ],
+      "url": "https://flows.nodered.org/node/@renyoo/node-red-dfrobot_noderedcomputer"
+    },
+    {
+      "id": "@umsicht/node-red-contrib-thingsdata",
+      "version": "1.2.2",
+      "description": "Node-RED nodes to work with the ThingsData S3 Storage System and ThingsData InfluxDB",
+      "updated_at": "2024-03-25T14:53:58.860Z",
+      "types": [
+        "thingsdata-s3-config",
+        "thingsdata s3 delete",
+        "thingsdata s3 get",
+        "thingsdata s3 list buckets",
+        "thingsdata s3 list objects",
+        "thingsdata s3 put",
+        "thingsdata s3 watch",
+        "value out",
+        "flex out",
+        "latest in"
+      ],
+      "keywords": [
+        "node-red",
+        "thingsdata"
+      ],
+      "url": "https://flows.nodered.org/node/@umsicht/node-red-contrib-thingsdata"
+    },
+    {
       "id": "node-red-contrib-mqtt-sparkplug-plus",
-      "version": "2.1.6",
+      "version": "2.1.7",
       "description": "MQTT-Sparkplug-Plus is a set of Node-Red nodes, that will enable Node-Red to communicate with a MQTT Server using the sparkplug b protocol.",
-      "updated_at": "2024-03-25T14:25:23.842Z",
+      "updated_at": "2024-03-25T14:36:06.176Z",
       "types": [
         "mqtt-sparkplug-broker",
         "mqtt sparkplug device",
@@ -57,42 +333,6 @@
         "philips hue"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-knx-ultimate-plus-hue-contact-sensor"
-    },
-    {
-      "id": "@renyoo/node-red-dfrobot_noderedcomputer",
-      "version": "1.0.9",
-      "description": "node red nodes for NodeREDComputer",
-      "updated_at": "2024-03-25T10:15:22.661Z",
-      "types": [
-        "GPIO Out",
-        "GPIO In",
-        "ADC",
-        "DAC",
-        "Dev Event",
-        "Special Event",
-        "IO Interrupt",
-        "Flow Count",
-        "Flow Switch",
-        "ESP32 Burn",
-        "RockchipBurn",
-        "CH58x Burn",
-        "GW SN",
-        "Burn OTP",
-        "GW TEST",
-        "DTU SN",
-        "DTU Config",
-        "background",
-        "line",
-        "rectangle",
-        "circle",
-        "text"
-      ],
-      "keywords": [
-        "node-red",
-        "dfrobot",
-        "NodeREDComputer"
-      ],
-      "url": "https://flows.nodered.org/node/@renyoo/node-red-dfrobot_noderedcomputer"
     },
     {
       "id": "node-red-contrib-simpletime-input",
@@ -329,43 +569,6 @@
       "url": "https://flows.nodered.org/node/node-red-contrib-axis-host"
     },
     {
-      "id": "node-red-contrib-knx-ultimate",
-      "version": "2.4.7",
-      "description": "Control your KNX intallation via Node-Red! A bunch of KNX nodes, with integrated Philips HUE control and ETS group address importer. Easy to use and highly configurable.",
-      "updated_at": "2024-03-23T08:39:31.605Z",
-      "types": [
-        "knxUltimate",
-        "knxUltimateSceneController",
-        "knxUltimateWatchDog",
-        "knxUltimateLogger",
-        "knxUltimate-config",
-        "knxUltimateGlobalContext",
-        "knxUltimateAlerter",
-        "knxUltimateLoadControl",
-        "knxUltimateViewer",
-        "hue-config",
-        "knxUltimateHueLight",
-        "knxUltimateHueButton",
-        "knxUltimateHueMotion",
-        "knxUltimateHueTapDial",
-        "knxUltimateHueLightSensor",
-        "knxUltimateHueTemperatureSensor",
-        "knxUltimateHueScene",
-        "knxUltimateHueBattery",
-        "knxUltimateHueZigbeeConnectivity"
-      ],
-      "keywords": [
-        "node-red",
-        "KNX",
-        "ETS",
-        "eib",
-        "konnex",
-        "IOT",
-        "philips hue"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-knx-ultimate"
-    },
-    {
       "id": "@appmodule/node-red-contrib-siot",
       "version": "3.0.0-rc27",
       "description": "Node-RED interactions with SIOT",
@@ -568,24 +771,6 @@
       "url": "https://flows.nodered.org/node/node-red-contrib-opendash"
     },
     {
-      "id": "node-red-contrib-tinkerforge-openinc",
-      "version": "0.0.31",
-      "description": "Node-RED Nodes to access Tinkerforge Sensors",
-      "updated_at": "2024-03-20T20:28:43.233Z",
-      "types": [
-        "TinkerForgeConfig",
-        "TinkerForge MotionV2",
-        "TinkerForge HumidityV2",
-        "TinkerForge RotaryPotiV2",
-        "TinkerForge DistanceIRV2"
-      ],
-      "keywords": [
-        "tinkerforge",
-        "node-red"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-tinkerforge-openinc"
-    },
-    {
       "id": "smart-nodes",
       "version": "0.3.27",
       "description": "Smart Nodes",
@@ -636,32 +821,6 @@
         "text execution"
       ],
       "url": "https://flows.nodered.org/node/smart-nodes"
-    },
-    {
-      "id": "wincc-unified-nodes",
-      "version": "1.0.11",
-      "description": "Node-Red custom nodes to connect to WINCC UNIFIED PC RT V18^",
-      "updated_at": "2024-03-20T15:04:30.951Z",
-      "types": [
-        "graphql-server",
-        "ReadWrite_Tag",
-        "Unified Login",
-        "SUBCRIBE_TagValue",
-        "SUBCRIBE_AlarmID"
-      ],
-      "keywords": [
-        "node-red",
-        "wincc",
-        "unified",
-        "wincc",
-        "tia",
-        "portal",
-        "wincc unified",
-        "wincc unified pc",
-        "wincc unified pc rt",
-        "graphql"
-      ],
-      "url": "https://flows.nodered.org/node/wincc-unified-nodes"
     },
     {
       "id": "node-red-contrib-sendurl",
@@ -1037,71 +1196,6 @@
       "url": "https://flows.nodered.org/node/@strato-automation/node-red-contrib-strato-automation"
     },
     {
-      "id": "connect-nodes",
-      "version": "0.0.5",
-      "description": "Node-RED contribution package with nodes for interaction with CONNECT Smart Home system and configure your own UI",
-      "updated_at": "2024-03-18T18:17:39.373Z",
-      "types": [
-        "CONNECT digital input",
-        "__errors__",
-        "CONNECT relay",
-        "__errors__",
-        "CONNECT RS485 in",
-        "__errors__",
-        "CONNECT RS485 out",
-        "__errors__",
-        "CONNECT DMX",
-        "__errors__",
-        "CONNECT dimmer",
-        "__errors__",
-        "CONNECT DMX mode config",
-        "CONNECT DMX sending period config",
-        "CONNECT modbus RS485",
-        "CONNECT Ajax",
-        "__errors__",
-        "CONNECT Ajax add",
-        "CONNECT Ajax delete",
-        "CONNECT Ajax protection",
-        "CONNECT ZigBee",
-        "CONNECT ZigBee add",
-        "CONNECT ZigBee delete",
-        "CONNECT UI switch",
-        "CONNECT UI dimmer",
-        "CONNECT UI rgb",
-        "CONNECT UI rgbw",
-        "CONNECT UI warm cold",
-        "CONNECT UI thermostat",
-        "CONNECT UI status",
-        "CONNECT UI curtains",
-        "CONNECT UI notification",
-        "CONNECT UI scene",
-        "CONNECT UI room config",
-        "CONNECT UI category config"
-      ],
-      "keywords": [
-        "node-red",
-        "connect-smart-home",
-        "connect",
-        "iot",
-        "smarthome",
-        "smart",
-        "home",
-        "homekit",
-        "dmx",
-        "1-wire",
-        "modbus",
-        "rs485",
-        "dimmer",
-        "rgbw",
-        "rgb",
-        "led",
-        "ajax",
-        "zigbee",
-        "0-10v"
-      ],
-      "url": "https://flows.nodered.org/node/connect-nodes"
-    },
-    {
       "id": "node-red-contrib-timeouttrigger",
       "version": "0.0.6",
       "description": "This node will pipe any received `msg` to its output. At the same time a time-out interval is set. Upon time-out a defined payload is sent. Each new message will reset the time-out.",
@@ -1264,30 +1358,6 @@
         "optimizers"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-solaredge-optimizers"
-    },
-    {
-      "id": "@gregoriusrippenstein/node-red-contrib-nodedev",
-      "version": "0.3.6",
-      "description": "Support the development of Node-RED nodes within Node-RED.",
-      "updated_at": "2024-03-16T10:31:43.483Z",
-      "types": [
-        "NodeDevOps",
-        "NodeFactory",
-        "PkgFile",
-        "NpmTarBall",
-        "NodeRedInstall",
-        "NpmPublish",
-        "OTPGenerate",
-        "NodeFactorySidebarCfg"
-      ],
-      "keywords": [
-        "node-red",
-        "node development",
-        "introspection",
-        "bootstrapping",
-        "recursion"
-      ],
-      "url": "https://flows.nodered.org/node/@gregoriusrippenstein/node-red-contrib-nodedev"
     },
     {
       "id": "node-red-contrib-route53-update",
@@ -1735,29 +1805,6 @@
         "node"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-relay-persistent"
-    },
-    {
-      "id": "@umsicht/node-red-contrib-thingsdata",
-      "version": "1.2.1",
-      "description": "Node-RED nodes to work with the ThingsData S3 Storage System and ThingsData InfluxDB",
-      "updated_at": "2024-03-13T12:01:13.604Z",
-      "types": [
-        "thingsdata-s3-config",
-        "thingsdata s3 delete",
-        "thingsdata s3 get",
-        "thingsdata s3 list buckets",
-        "thingsdata s3 list objects",
-        "thingsdata s3 put",
-        "thingsdata s3 watch",
-        "value out",
-        "flex out",
-        "latest in"
-      ],
-      "keywords": [
-        "node-red",
-        "thingsdata"
-      ],
-      "url": "https://flows.nodered.org/node/@umsicht/node-red-contrib-thingsdata"
     },
     {
       "id": "node-red-dashboard",
@@ -23166,32 +23213,6 @@
         "sun events"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-time-range-switch"
-    },
-    {
-      "id": "node-red-contrib-openai",
-      "version": "1.0.2",
-      "description": "Node-RED node for openai",
-      "updated_at": "2022-12-13T22:42:45.780Z",
-      "types": [
-        "openai",
-        "openaiApiKey"
-      ],
-      "keywords": [
-        "node-red-contrib-contribgen",
-        "node-red",
-        "openai",
-        "chatbot",
-        "AI",
-        "search api",
-        "AI 검색",
-        "Completion",
-        "image generation",
-        "Text Embeddings",
-        "Fine tunes",
-        "Moderations",
-        "nodejs"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-openai"
     },
     {
       "id": "red-contrib-turf-module",
