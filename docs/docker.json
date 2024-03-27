@@ -1,12 +1,50 @@
 {
   "name": "Catalogue for Docker",
-  "updated_at": "2024-03-26T15:57:09.955Z",
+  "updated_at": "2024-03-27T15:59:10.194Z",
   "modules": [
     {
+      "id": "node-red-contrib-sia-ultimate",
+      "version": "1.0.8",
+      "description": "Connect your SIA-DCS compatible alarm system to node-red. It works with Ajax System too.",
+      "updated_at": "2024-03-27T14:16:05.334Z",
+      "types": [
+        "siaendpoint-config",
+        "SIAUltimate"
+      ],
+      "keywords": [
+        "node-red",
+        "sia",
+        "alarm",
+        "dcs",
+        "dc09",
+        "ajax",
+        "burglar"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-sia-ultimate"
+    },
+    {
+      "id": "node-red-contrib-sonos-plus",
+      "version": "6.7.7",
+      "description": "A set of Node-RED nodes to control SONOS player in your local network.",
+      "updated_at": "2024-03-27T14:12:48.592Z",
+      "types": [
+        "sonos-config",
+        "sonos-manage-mysonos",
+        "sonos-universal"
+      ],
+      "keywords": [
+        "sonos",
+        "node-red",
+        "music",
+        "node-red-contrib-sonos-plus"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-sonos-plus"
+    },
+    {
       "id": "@gregoriusrippenstein/node-red-contrib-nodedev",
-      "version": "0.3.7",
+      "version": "0.3.8",
       "description": "Support the development of Node-RED nodes within Node-RED.",
-      "updated_at": "2024-03-26T14:21:50.979Z",
+      "updated_at": "2024-03-27T09:43:58.486Z",
       "types": [
         "NodeDevOps",
         "NodeFactory",
@@ -25,6 +63,81 @@
         "recursion"
       ],
       "url": "https://flows.nodered.org/node/@gregoriusrippenstein/node-red-contrib-nodedev"
+    },
+    {
+      "id": "node-red-contrib-dialoqbase",
+      "version": "1.0.0",
+      "description": "Node-RED node for dialoqbase",
+      "updated_at": "2024-03-27T08:15:55.705Z",
+      "types": [
+        "dialoqbase",
+        "dialoqbaseApiKey"
+      ],
+      "keywords": [
+        "node-red-contrib-contribgen",
+        "node-red",
+        "dialoqbase",
+        "chatbot",
+        "AI",
+        "search api",
+        "AI 검색",
+        "Completion",
+        "image generation",
+        "Text Embeddings",
+        "Fine tunes",
+        "Moderations",
+        "ChatGPT",
+        "Ollama",
+        "LLM",
+        "Local LLM",
+        "nodejs"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-dialoqbase"
+    },
+    {
+      "id": "node-red-contrib-google-sheets-advance",
+      "version": "0.0.4",
+      "description": "Nodered node for reading, writing, appending, clearing, adding, and removing sheets",
+      "updated_at": "2024-03-27T07:39:38.824Z",
+      "types": [
+        "GSheetAdvance",
+        "gauthAdv"
+      ],
+      "keywords": [
+        "node-red",
+        "gsuite",
+        "google sheets",
+        "gSheetAdvance",
+        "googleapis"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-google-sheets-advance"
+    },
+    {
+      "id": "node-red-contrib-alice-self-hosting",
+      "version": "0.1.7",
+      "description": "Node-RED nodes to Yandex Alice devices in Self-Hosting",
+      "updated_at": "2024-03-26T20:06:00.538Z",
+      "types": [
+        "alice-sh-service",
+        "alice-sh-device",
+        "alice-sh-onoff",
+        "alice-sh-toggle",
+        "alice-sh-range",
+        "alice-sh-color",
+        "alice-sh-mode",
+        "alice-sh-sensor",
+        "alice-sh-event",
+        "alice-sh-video"
+      ],
+      "keywords": [
+        "node-red",
+        "yandex",
+        "alice",
+        "iot",
+        "self",
+        "hosting"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-alice-self-hosting"
     },
     {
       "id": "node-red-contrib-openai",
@@ -1112,24 +1225,6 @@
       "url": "https://flows.nodered.org/node/node-red-contrib-inline-keyboard"
     },
     {
-      "id": "node-red-contrib-google-sheets-advance",
-      "version": "0.0.2",
-      "description": "Nodered node for reading, writing, appending, clearing, adding, and removing sheets",
-      "updated_at": "2024-03-19T10:20:14.228Z",
-      "types": [
-        "GSheetAdvance",
-        "gauthAdv"
-      ],
-      "keywords": [
-        "node-red",
-        "gsuite",
-        "google sheets",
-        "gSheetAdvance",
-        "googleapis"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-google-sheets-advance"
-    },
-    {
       "id": "@stormpass/node-red-contrib-amqp",
       "version": "1.4.1",
       "description": "Amqp nodes for node-red",
@@ -2179,33 +2274,6 @@
         "vsh"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-virtual-smart-home"
-    },
-    {
-      "id": "node-red-contrib-alice-self-hosting",
-      "version": "0.1.6",
-      "description": "Node-RED nodes to Yandex Alice devices in Self-Hosting",
-      "updated_at": "2024-03-09T07:42:27.888Z",
-      "types": [
-        "alice-sh-service",
-        "alice-sh-device",
-        "alice-sh-onoff",
-        "alice-sh-toggle",
-        "alice-sh-range",
-        "alice-sh-color",
-        "alice-sh-mode",
-        "alice-sh-sensor",
-        "alice-sh-event",
-        "alice-sh-video"
-      ],
-      "keywords": [
-        "node-red",
-        "yandex",
-        "alice",
-        "iot",
-        "self",
-        "hosting"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-alice-self-hosting"
     },
     {
       "id": "@logiccloud/node-red-runtime-variable-writer",
@@ -3780,24 +3848,6 @@
         "LoRaWan"
       ],
       "url": "https://flows.nodered.org/node/@mschaeffler/node-red-lora"
-    },
-    {
-      "id": "node-red-contrib-sonos-plus",
-      "version": "6.7.6",
-      "description": "A set of Node-RED nodes to control SONOS player in your local network.",
-      "updated_at": "2024-02-21T20:01:02.076Z",
-      "types": [
-        "sonos-config",
-        "sonos-manage-mysonos",
-        "sonos-universal"
-      ],
-      "keywords": [
-        "sonos",
-        "node-red",
-        "music",
-        "node-red-contrib-sonos-plus"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-sonos-plus"
     },
     {
       "id": "@objectif-lune/node-red-contrib-sendgrid",
@@ -9605,26 +9655,6 @@
         "node-red"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-edgesignal-connector"
-    },
-    {
-      "id": "node-red-contrib-sia-ultimate",
-      "version": "1.0.7",
-      "description": "Connect your SIA-DCS compatible alarm system to node-red. It works with Ajax System too.",
-      "updated_at": "2023-10-26T05:56:31.222Z",
-      "types": [
-        "siaendpoint-config",
-        "SIAUltimate"
-      ],
-      "keywords": [
-        "node-red",
-        "sia",
-        "alarm",
-        "dcs",
-        "dc09",
-        "ajax",
-        "burglar"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-sia-ultimate"
     },
     {
       "id": "node-red-contrib-load-balance-knapsack",
