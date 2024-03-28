@@ -1,12 +1,315 @@
 {
   "name": "Catalogue for Docker",
-  "updated_at": "2024-03-27T15:59:10.194Z",
+  "updated_at": "2024-03-28T15:59:47.777Z",
   "modules": [
     {
+      "id": "l2l-endpoints",
+      "version": "0.1.16",
+      "description": "First commit of l2l endpoints node",
+      "updated_at": "2024-03-28T14:15:26.465Z",
+      "types": [
+        "example"
+      ],
+      "keywords": [
+        "node-red"
+      ],
+      "url": "https://flows.nodered.org/node/l2l-endpoints"
+    },
+    {
+      "id": "@and-rom/node-red-contrib-mapper",
+      "version": "0.0.2",
+      "description": "Map the contents of a message property from one value to another",
+      "updated_at": "2024-03-28T14:07:35.801Z",
+      "types": [
+        "mapper"
+      ],
+      "keywords": [
+        "node-red",
+        "map",
+        "search",
+        "replace"
+      ],
+      "url": "https://flows.nodered.org/node/@and-rom/node-red-contrib-mapper"
+    },
+    {
+      "id": "node-red-contrib-dayjs",
+      "version": "0.0.2",
+      "description": "Wrapper of dayjs for Node-RED",
+      "updated_at": "2024-03-28T13:33:18.650Z",
+      "types": [
+        "day.js"
+      ],
+      "keywords": [
+        "node-red",
+        "dayjs"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-dayjs"
+    },
+    {
+      "id": "node-red-contrib-aula-education",
+      "version": "0.6.1",
+      "description": "A Node-Red Node for collecting data from aula the danish educational platform.",
+      "updated_at": "2024-03-28T12:08:46.202Z",
+      "types": [
+        "aulaNode-config",
+        "aulaNode"
+      ],
+      "keywords": [
+        "node-red",
+        "aula",
+        "education"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-aula-education"
+    },
+    {
+      "id": "@flowfuse/node-red-dashboard",
+      "version": "1.6.0",
+      "description": "Dashboard 2.0 - A collection of Node-RED nodes that provide functionality to build your own UI applications (inc. forms, buttons, charts).",
+      "updated_at": "2024-03-28T11:54:30.143Z",
+      "types": [
+        "ui-base",
+        "ui-page",
+        "ui-group",
+        "ui-theme",
+        "ui-form",
+        "__errors__",
+        "ui-text-input",
+        "__errors__",
+        "ui-button",
+        "__errors__",
+        "ui-button-group",
+        "__errors__",
+        "ui-dropdown",
+        "__errors__",
+        "ui-radio-group",
+        "__errors__",
+        "ui-slider",
+        "__errors__",
+        "ui-switch",
+        "__errors__",
+        "ui-text",
+        "__errors__",
+        "ui-table",
+        "__errors__",
+        "ui-chart",
+        "__errors__",
+        "ui-gauge",
+        "__errors__",
+        "ui-notification",
+        "__errors__",
+        "ui-markdown",
+        "__errors__",
+        "ui-template",
+        "__errors__",
+        "ui-event",
+        "__errors__",
+        "ui-control",
+        "__errors__"
+      ],
+      "keywords": [
+        "node-red"
+      ],
+      "url": "https://flows.nodered.org/node/@flowfuse/node-red-dashboard"
+    },
+    {
+      "id": "node-red-contrib-knx-ultimate",
+      "version": "2.4.9",
+      "description": "Control your KNX intallation via Node-Red! A bunch of KNX nodes, with integrated Philips HUE control and ETS group address importer. Easy to use and highly configurable.",
+      "updated_at": "2024-03-28T11:08:07.532Z",
+      "types": [
+        "knxUltimate",
+        "knxUltimateSceneController",
+        "knxUltimateWatchDog",
+        "knxUltimateLogger",
+        "knxUltimate-config",
+        "knxUltimateGlobalContext",
+        "knxUltimateAlerter",
+        "knxUltimateLoadControl",
+        "knxUltimateViewer",
+        "hue-config",
+        "knxUltimateHueLight",
+        "knxUltimateHueButton",
+        "knxUltimateHueMotion",
+        "knxUltimateHueTapDial",
+        "knxUltimateHueLightSensor",
+        "knxUltimateHueTemperatureSensor",
+        "knxUltimateHueScene",
+        "knxUltimateHueBattery",
+        "knxUltimateHueZigbeeConnectivity"
+      ],
+      "keywords": [
+        "node-red",
+        "KNX",
+        "ETS",
+        "eib",
+        "konnex",
+        "IOT",
+        "philips hue"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-knx-ultimate"
+    },
+    {
+      "id": "@renyoo/node-red-dfrobot_noderedcomputer",
+      "version": "1.0.11",
+      "description": "node red nodes for NodeREDComputer",
+      "updated_at": "2024-03-28T10:56:33.979Z",
+      "types": [
+        "GPIO Out",
+        "GPIO In",
+        "ADC",
+        "DAC",
+        "Dev Event",
+        "Special Event",
+        "IO Interrupt",
+        "Flow Count",
+        "Flow Switch",
+        "Dev Shell",
+        "ESP32 Burn",
+        "RockchipBurn",
+        "CH58x Burn",
+        "GW SN",
+        "Burn OTP",
+        "GW TEST",
+        "DTU SN",
+        "DTU Config",
+        "background",
+        "line",
+        "rectangle",
+        "circle",
+        "text",
+        "更改属性"
+      ],
+      "keywords": [
+        "node-red",
+        "dfrobot",
+        "NodeREDComputer"
+      ],
+      "url": "https://flows.nodered.org/node/@renyoo/node-red-dfrobot_noderedcomputer"
+    },
+    {
+      "id": "@gregoriusrippenstein/node-red-contrib-nodedev",
+      "version": "0.3.9",
+      "description": "Support the development of Node-RED nodes within Node-RED.",
+      "updated_at": "2024-03-28T10:39:08.931Z",
+      "types": [
+        "NodeDevOps",
+        "NodeFactory",
+        "PkgFile",
+        "NpmTarBall",
+        "NodeRedInstall",
+        "NpmPublish",
+        "OTPGenerate",
+        "NodeFactorySidebarCfg"
+      ],
+      "keywords": [
+        "node-red",
+        "node development",
+        "introspection",
+        "bootstrapping",
+        "recursion"
+      ],
+      "url": "https://flows.nodered.org/node/@gregoriusrippenstein/node-red-contrib-nodedev"
+    },
+    {
+      "id": "node-red-contrib-virtual-smart-home",
+      "version": "4.3.0",
+      "description": "A Node-RED node that represents a 'virtual device' which can be controlled via Alexa. Requires the virtual smart home skill to be enabled for your Amazon account.",
+      "updated_at": "2024-03-28T10:20:07.090Z",
+      "types": [
+        "vsh-connection",
+        "vsh-virtual-device"
+      ],
+      "keywords": [
+        "Alexa",
+        "Echo",
+        "smart-home",
+        "node-red",
+        "virtual smart home",
+        "virtual device",
+        "Home Assistant",
+        "vsh"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-virtual-smart-home"
+    },
+    {
+      "id": "node-red-node-rdk-tools",
+      "version": "0.0.8",
+      "description": "配合RDK硬件及TROS使用的Node-RED功能包(Node-RED nodes for using TROS on a RDK hardware and TROS)",
+      "updated_at": "2024-03-28T09:23:48.908Z",
+      "types": [
+        "rdk-tools smartupdate",
+        "rdk-tools checkexecute",
+        "rdk-tools texttoaudio",
+        "rdk-tools openurl"
+      ],
+      "keywords": [
+        "node-red",
+        "rdk",
+        "x3",
+        "TROS",
+        "NodeHub",
+        "Chinese TTS",
+        "Open Website"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-node-rdk-tools"
+    },
+    {
+      "id": "@demirdeniz/node-red-contrib-tuya-kepler-device",
+      "version": "6.0.8",
+      "description": "A node-red module to interact with the tuya smart devices",
+      "updated_at": "2024-03-28T01:21:51.090Z",
+      "types": [
+        "tuya-kepler-device",
+        "tuya-kepler-device-generic"
+      ],
+      "keywords": [
+        "node-red",
+        "tuya",
+        "LOYTEC",
+        "kepler",
+        "kepler-elec",
+        "demir"
+      ],
+      "url": "https://flows.nodered.org/node/@demirdeniz/node-red-contrib-tuya-kepler-device"
+    },
+    {
+      "id": "@background404/node-red-contrib-mcu-serial",
+      "version": "0.1.0",
+      "description": "Node to use serial communication with Node-RED MCU",
+      "updated_at": "2024-03-27T19:57:22.488Z",
+      "types": [
+        "mcu_serial_in",
+        "mcu_serial_out"
+      ],
+      "keywords": [
+        "node-red",
+        "node-red-mcu",
+        "moddable",
+        "Serial"
+      ],
+      "url": "https://flows.nodered.org/node/@background404/node-red-contrib-mcu-serial"
+    },
+    {
+      "id": "@background404/node-red-contrib-mcu-servo",
+      "version": "0.1.0",
+      "description": "Node for Servomotor with Node-RED MCU",
+      "updated_at": "2024-03-27T19:50:31.083Z",
+      "types": [
+        "servo"
+      ],
+      "keywords": [
+        "node-red",
+        "node-red-mcu",
+        "mcu",
+        "PWM"
+      ],
+      "url": "https://flows.nodered.org/node/@background404/node-red-contrib-mcu-servo"
+    },
+    {
       "id": "node-red-contrib-sia-ultimate",
-      "version": "1.0.8",
+      "version": "1.0.9",
       "description": "Connect your SIA-DCS compatible alarm system to node-red. It works with Ajax System too.",
-      "updated_at": "2024-03-27T14:16:05.334Z",
+      "updated_at": "2024-03-27T14:18:38.675Z",
       "types": [
         "siaendpoint-config",
         "SIAUltimate"
@@ -39,30 +342,6 @@
         "node-red-contrib-sonos-plus"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-sonos-plus"
-    },
-    {
-      "id": "@gregoriusrippenstein/node-red-contrib-nodedev",
-      "version": "0.3.8",
-      "description": "Support the development of Node-RED nodes within Node-RED.",
-      "updated_at": "2024-03-27T09:43:58.486Z",
-      "types": [
-        "NodeDevOps",
-        "NodeFactory",
-        "PkgFile",
-        "NpmTarBall",
-        "NodeRedInstall",
-        "NpmPublish",
-        "OTPGenerate",
-        "NodeFactorySidebarCfg"
-      ],
-      "keywords": [
-        "node-red",
-        "node development",
-        "introspection",
-        "bootstrapping",
-        "recursion"
-      ],
-      "url": "https://flows.nodered.org/node/@gregoriusrippenstein/node-red-contrib-nodedev"
     },
     {
       "id": "node-red-contrib-dialoqbase",
@@ -138,6 +417,23 @@
         "hosting"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-alice-self-hosting"
+    },
+    {
+      "id": "node-red-contrib-axios",
+      "version": "1.2.2",
+      "description": "A http request node for Node-RED",
+      "updated_at": "2024-03-26T19:38:15.599Z",
+      "types": [
+        "axios-endpoint",
+        "axios-request"
+      ],
+      "keywords": [
+        "node-red",
+        "http",
+        "request",
+        "axios"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-axios"
     },
     {
       "id": "node-red-contrib-openai",
@@ -252,60 +548,6 @@
       "url": "https://flows.nodered.org/node/node-red-contrib-tinkerforge-openinc"
     },
     {
-      "id": "node-red-contrib-knx-ultimate",
-      "version": "2.4.8",
-      "description": "Control your KNX intallation via Node-Red! A bunch of KNX nodes, with integrated Philips HUE control and ETS group address importer. Easy to use and highly configurable.",
-      "updated_at": "2024-03-26T06:32:35.113Z",
-      "types": [
-        "knxUltimate",
-        "knxUltimateSceneController",
-        "knxUltimateWatchDog",
-        "knxUltimateLogger",
-        "knxUltimate-config",
-        "knxUltimateGlobalContext",
-        "knxUltimateAlerter",
-        "knxUltimateLoadControl",
-        "knxUltimateViewer",
-        "hue-config",
-        "knxUltimateHueLight",
-        "knxUltimateHueButton",
-        "knxUltimateHueMotion",
-        "knxUltimateHueTapDial",
-        "knxUltimateHueLightSensor",
-        "knxUltimateHueTemperatureSensor",
-        "knxUltimateHueScene",
-        "knxUltimateHueBattery",
-        "knxUltimateHueZigbeeConnectivity"
-      ],
-      "keywords": [
-        "node-red",
-        "KNX",
-        "ETS",
-        "eib",
-        "konnex",
-        "IOT",
-        "philips hue"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-knx-ultimate"
-    },
-    {
-      "id": "@background404/node-red-contrib-mcu-serial",
-      "version": "0.0.1",
-      "description": "Node to use serial communication with Node-RED MCU",
-      "updated_at": "2024-03-26T05:16:39.691Z",
-      "types": [
-        "mcu_serial_in",
-        "mcu_serial_out"
-      ],
-      "keywords": [
-        "node-red",
-        "node-red-mcu",
-        "moddable",
-        "Serial"
-      ],
-      "url": "https://flows.nodered.org/node/@background404/node-red-contrib-mcu-serial"
-    },
-    {
       "id": "wincc-unified-nodes",
       "version": "1.0.13",
       "description": "Node-Red custom nodes to connect to WINCC UNIFIED PC RT V18^",
@@ -330,43 +572,6 @@
         "graphql"
       ],
       "url": "https://flows.nodered.org/node/wincc-unified-nodes"
-    },
-    {
-      "id": "@renyoo/node-red-dfrobot_noderedcomputer",
-      "version": "1.0.10",
-      "description": "node red nodes for NodeREDComputer",
-      "updated_at": "2024-03-26T02:45:00.103Z",
-      "types": [
-        "GPIO Out",
-        "GPIO In",
-        "ADC",
-        "DAC",
-        "Dev Event",
-        "Special Event",
-        "IO Interrupt",
-        "Flow Count",
-        "Flow Switch",
-        "ESP32 Burn",
-        "RockchipBurn",
-        "CH58x Burn",
-        "GW SN",
-        "Burn OTP",
-        "GW TEST",
-        "DTU SN",
-        "DTU Config",
-        "background",
-        "line",
-        "rectangle",
-        "circle",
-        "text",
-        "更改属性"
-      ],
-      "keywords": [
-        "node-red",
-        "dfrobot",
-        "NodeREDComputer"
-      ],
-      "url": "https://flows.nodered.org/node/@renyoo/node-red-dfrobot_noderedcomputer"
     },
     {
       "id": "@umsicht/node-red-contrib-thingsdata",
@@ -762,56 +967,6 @@
       "url": "https://flows.nodered.org/node/@gastmanager/node-red-client"
     },
     {
-      "id": "@flowfuse/node-red-dashboard",
-      "version": "1.5.1",
-      "description": "Dashboard 2.0 - A collection of Node-RED nodes that provide functionality to build your own UI applications (inc. forms, buttons, charts).",
-      "updated_at": "2024-03-21T18:05:33.524Z",
-      "types": [
-        "ui-base",
-        "ui-page",
-        "ui-group",
-        "ui-theme",
-        "ui-form",
-        "__errors__",
-        "ui-text-input",
-        "__errors__",
-        "ui-button",
-        "__errors__",
-        "ui-button-group",
-        "__errors__",
-        "ui-dropdown",
-        "__errors__",
-        "ui-radio-group",
-        "__errors__",
-        "ui-slider",
-        "__errors__",
-        "ui-switch",
-        "__errors__",
-        "ui-text",
-        "__errors__",
-        "ui-table",
-        "__errors__",
-        "ui-chart",
-        "__errors__",
-        "ui-gauge",
-        "__errors__",
-        "ui-notification",
-        "__errors__",
-        "ui-markdown",
-        "__errors__",
-        "ui-template",
-        "__errors__",
-        "ui-event",
-        "__errors__",
-        "ui-control",
-        "__errors__"
-      ],
-      "keywords": [
-        "node-red"
-      ],
-      "url": "https://flows.nodered.org/node/@flowfuse/node-red-dashboard"
-    },
-    {
       "id": "node-red-contrib-power-monitor",
       "version": "1.2.3",
       "description": "A Node-RED node to monitor home appliances based on their power consumption.",
@@ -951,28 +1106,6 @@
         "CP"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-sendurl"
-    },
-    {
-      "id": "node-red-node-rdk-tools",
-      "version": "0.0.7",
-      "description": "配合RDK硬件及TROS使用的Node-RED功能包(Node-RED nodes for using TROS on a RDK hardware and TROS)",
-      "updated_at": "2024-03-20T11:23:45.760Z",
-      "types": [
-        "rdk-tools smartupdate",
-        "rdk-tools checkexecute",
-        "rdk-tools texttoaudio",
-        "rdk-tools openurl"
-      ],
-      "keywords": [
-        "node-red",
-        "rdk",
-        "x3",
-        "TROS",
-        "NodeHub",
-        "Chinese TTS",
-        "Open Website"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-node-rdk-tools"
     },
     {
       "id": "@yousolution/node-red-contrib-you-nth-layerone",
@@ -1721,22 +1854,6 @@
       "url": "https://flows.nodered.org/node/@digitalnodecom/node-red-contrib-puppeteer"
     },
     {
-      "id": "@background404/node-red-contrib-mcu-servo",
-      "version": "0.0.1",
-      "description": "Node for Servomotor with Node-RED MCU",
-      "updated_at": "2024-03-14T08:21:48.945Z",
-      "types": [
-        "servo"
-      ],
-      "keywords": [
-        "node-red",
-        "node-red-mcu",
-        "mcu",
-        "PWM"
-      ],
-      "url": "https://flows.nodered.org/node/@background404/node-red-contrib-mcu-servo"
-    },
-    {
       "id": "@tq-bit/node-red-contrib-server-sent-events",
       "version": "1.2.5",
       "description": "Nodes to create - or subscribe to - server-sent events",
@@ -2253,27 +2370,6 @@
         "London Architect"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-soundweb"
-    },
-    {
-      "id": "node-red-contrib-virtual-smart-home",
-      "version": "4.2.0",
-      "description": "A Node-RED node that represents a 'virtual device' which can be controlled via Alexa. Requires the virtual smart home skill to be enabled for your Amazon account.",
-      "updated_at": "2024-03-09T11:21:00.343Z",
-      "types": [
-        "vsh-connection",
-        "vsh-virtual-device"
-      ],
-      "keywords": [
-        "Alexa",
-        "Echo",
-        "smart-home",
-        "node-red",
-        "virtual smart home",
-        "virtual device",
-        "Home Assistant",
-        "vsh"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-virtual-smart-home"
     },
     {
       "id": "@logiccloud/node-red-runtime-variable-writer",
@@ -3315,22 +3411,6 @@
         "crop"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-image-tools"
-    },
-    {
-      "id": "node-red-contrib-aula-education",
-      "version": "0.6.0",
-      "description": "A Node-Red Node for collecting data from aula the danish educational platform.",
-      "updated_at": "2024-02-28T15:37:35.123Z",
-      "types": [
-        "aulaNode-config",
-        "aulaNode"
-      ],
-      "keywords": [
-        "node-red",
-        "aula",
-        "education"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-aula-education"
     },
     {
       "id": "@topcs/node-red-contrib-amqp-topcs",
@@ -4409,23 +4489,6 @@
         "rov"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-br_navigator-webassistant"
-    },
-    {
-      "id": "node-red-contrib-axios",
-      "version": "1.2.1",
-      "description": "A http request node for Node-RED",
-      "updated_at": "2024-02-14T19:43:19.837Z",
-      "types": [
-        "axios-endpoint",
-        "axios-request"
-      ],
-      "keywords": [
-        "node-red",
-        "http",
-        "request",
-        "axios"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-axios"
     },
     {
       "id": "node-red-contrib-html-to-pdf",
@@ -28724,6 +28787,23 @@
       "url": "https://flows.nodered.org/node/node-red-contrib-speedtest"
     },
     {
+      "id": "node-red-contrib-schedex",
+      "version": "1.10.7",
+      "description": "Scheduler for node-red which allows you to enter on/off times as 24hr clock (e.g. 01:10) or suncalc events (e.g. goldenHour). It also allows you to offset times and randomise the time within the offset.",
+      "updated_at": "2022-06-21T20:01:41.741Z",
+      "types": [
+        "schedex"
+      ],
+      "keywords": [
+        "node-red",
+        "schedule",
+        "scheduler",
+        "timer",
+        "sun events"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-schedex"
+    },
+    {
       "id": "node-red-contrib-ibm-maximo-oslc-api",
       "version": "0.1.5",
       "description": "Maximo Oslc Api node for Node-RED",
@@ -38869,23 +38949,6 @@
         "hs100"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-hs100"
-    },
-    {
-      "id": "node-red-contrib-schedex",
-      "version": "1.10.6",
-      "description": "Scheduler for node-red which allows you to enter on/off times as 24hr clock (e.g. 01:10) or suncalc events (e.g. goldenHour). It also allows you to offset times and randomise the time within the offset.",
-      "updated_at": "2021-09-11T21:28:31.885Z",
-      "types": [
-        "schedex"
-      ],
-      "keywords": [
-        "node-red",
-        "schedule",
-        "scheduler",
-        "timer",
-        "sun events"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-schedex"
     },
     {
       "id": "node-red-contrib-latching-router",
