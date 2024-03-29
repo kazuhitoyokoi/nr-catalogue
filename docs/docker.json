@@ -1,19 +1,171 @@
 {
   "name": "Catalogue for Docker",
-  "updated_at": "2024-03-28T15:59:47.777Z",
+  "updated_at": "2024-03-29T16:03:07.450Z",
   "modules": [
     {
       "id": "l2l-endpoints",
-      "version": "0.1.16",
+      "version": "0.1.17",
       "description": "First commit of l2l endpoints node",
-      "updated_at": "2024-03-28T14:15:26.465Z",
+      "updated_at": "2024-03-29T14:25:17.887Z",
       "types": [
-        "example"
+        "l2lEndpoints"
       ],
       "keywords": [
         "node-red"
       ],
       "url": "https://flows.nodered.org/node/l2l-endpoints"
+    },
+    {
+      "id": "@rotflorg/node-red-contrib-ecoflow-powerstream",
+      "version": "0.5.1",
+      "description": "Extract data from Ecoflow PowerStream",
+      "updated_at": "2024-03-29T12:27:03.525Z",
+      "types": [
+        "ecoflow-in",
+        "ecoflow-cmd"
+      ],
+      "keywords": [
+        "Ecoflow",
+        "PowerStream",
+        "node-red"
+      ],
+      "url": "https://flows.nodered.org/node/@rotflorg/node-red-contrib-ecoflow-powerstream"
+    },
+    {
+      "id": "node-red-contrib-copy-array",
+      "version": "1.0.0",
+      "description": "A Node-RED node to copy array data obtained from influxdb out node and display it on FlowFuse Dashboard 2.0",
+      "updated_at": "2024-03-29T11:05:42.447Z",
+      "types": [
+        "copy-array"
+      ],
+      "keywords": [
+        "node-red",
+        "influxdb",
+        "node",
+        "copy",
+        "array",
+        "Pune",
+        "Bufferstack.IO"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-copy-array"
+    },
+    {
+      "id": "@gregoriusrippenstein/node-red-contrib-flowhub",
+      "version": "0.6.7",
+      "description": "Nodes for interacting with FlowHub.org.",
+      "updated_at": "2024-03-29T09:22:40.760Z",
+      "types": [
+        "FlowHubPull",
+        "FlowHubCfg"
+      ],
+      "keywords": [
+        "node-red",
+        "flowhub",
+        "flow-sharing",
+        "collaborative",
+        "flow-development"
+      ],
+      "url": "https://flows.nodered.org/node/@gregoriusrippenstein/node-red-contrib-flowhub"
+    },
+    {
+      "id": "node-red-contrib-alice-self-hosting",
+      "version": "0.1.8",
+      "description": "Node-RED nodes to Yandex Alice devices in Self-Hosting",
+      "updated_at": "2024-03-29T06:46:01.853Z",
+      "types": [
+        "alice-sh-service",
+        "alice-sh-device",
+        "alice-sh-onoff",
+        "alice-sh-toggle",
+        "alice-sh-range",
+        "alice-sh-color",
+        "alice-sh-mode",
+        "alice-sh-sensor",
+        "alice-sh-event",
+        "alice-sh-video"
+      ],
+      "keywords": [
+        "node-red",
+        "yandex",
+        "alice",
+        "iot",
+        "self",
+        "hosting"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-alice-self-hosting"
+    },
+    {
+      "id": "@flowfuse/node-red-dashboard",
+      "version": "1.6.1",
+      "description": "Dashboard 2.0 - A collection of Node-RED nodes that provide functionality to build your own UI applications (inc. forms, buttons, charts).",
+      "updated_at": "2024-03-28T18:52:40.324Z",
+      "types": [
+        "ui-base",
+        "ui-page",
+        "ui-group",
+        "ui-theme",
+        "ui-form",
+        "__errors__",
+        "ui-text-input",
+        "__errors__",
+        "ui-button",
+        "__errors__",
+        "ui-button-group",
+        "__errors__",
+        "ui-dropdown",
+        "__errors__",
+        "ui-radio-group",
+        "__errors__",
+        "ui-slider",
+        "__errors__",
+        "ui-switch",
+        "__errors__",
+        "ui-text",
+        "__errors__",
+        "ui-table",
+        "__errors__",
+        "ui-chart",
+        "__errors__",
+        "ui-gauge",
+        "__errors__",
+        "ui-notification",
+        "__errors__",
+        "ui-markdown",
+        "__errors__",
+        "ui-template",
+        "__errors__",
+        "ui-event",
+        "__errors__",
+        "ui-control",
+        "__errors__"
+      ],
+      "keywords": [
+        "node-red"
+      ],
+      "url": "https://flows.nodered.org/node/@flowfuse/node-red-dashboard"
+    },
+    {
+      "id": "node-red-node-rdk-tools",
+      "version": "0.0.9",
+      "description": "配合RDK硬件及TROS使用的Node-RED功能包(Node-RED nodes for using TROS on a RDK hardware and TROS)",
+      "updated_at": "2024-03-28T16:18:18.083Z",
+      "types": [
+        "rdk-tools smartupdate",
+        "rdk-tools checkexecute",
+        "rdk-tools texttoaudio",
+        "rdk-tools openurl"
+      ],
+      "keywords": [
+        "node-red",
+        "rdk",
+        "x3",
+        "TROS",
+        "NodeHub",
+        "Chinese TTS",
+        "Open Website"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-node-rdk-tools"
     },
     {
       "id": "@and-rom/node-red-contrib-mapper",
@@ -60,56 +212,6 @@
         "education"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-aula-education"
-    },
-    {
-      "id": "@flowfuse/node-red-dashboard",
-      "version": "1.6.0",
-      "description": "Dashboard 2.0 - A collection of Node-RED nodes that provide functionality to build your own UI applications (inc. forms, buttons, charts).",
-      "updated_at": "2024-03-28T11:54:30.143Z",
-      "types": [
-        "ui-base",
-        "ui-page",
-        "ui-group",
-        "ui-theme",
-        "ui-form",
-        "__errors__",
-        "ui-text-input",
-        "__errors__",
-        "ui-button",
-        "__errors__",
-        "ui-button-group",
-        "__errors__",
-        "ui-dropdown",
-        "__errors__",
-        "ui-radio-group",
-        "__errors__",
-        "ui-slider",
-        "__errors__",
-        "ui-switch",
-        "__errors__",
-        "ui-text",
-        "__errors__",
-        "ui-table",
-        "__errors__",
-        "ui-chart",
-        "__errors__",
-        "ui-gauge",
-        "__errors__",
-        "ui-notification",
-        "__errors__",
-        "ui-markdown",
-        "__errors__",
-        "ui-template",
-        "__errors__",
-        "ui-event",
-        "__errors__",
-        "ui-control",
-        "__errors__"
-      ],
-      "keywords": [
-        "node-red"
-      ],
-      "url": "https://flows.nodered.org/node/@flowfuse/node-red-dashboard"
     },
     {
       "id": "node-red-contrib-knx-ultimate",
@@ -230,28 +332,6 @@
         "vsh"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-virtual-smart-home"
-    },
-    {
-      "id": "node-red-node-rdk-tools",
-      "version": "0.0.8",
-      "description": "配合RDK硬件及TROS使用的Node-RED功能包(Node-RED nodes for using TROS on a RDK hardware and TROS)",
-      "updated_at": "2024-03-28T09:23:48.908Z",
-      "types": [
-        "rdk-tools smartupdate",
-        "rdk-tools checkexecute",
-        "rdk-tools texttoaudio",
-        "rdk-tools openurl"
-      ],
-      "keywords": [
-        "node-red",
-        "rdk",
-        "x3",
-        "TROS",
-        "NodeHub",
-        "Chinese TTS",
-        "Open Website"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-node-rdk-tools"
     },
     {
       "id": "@demirdeniz/node-red-contrib-tuya-kepler-device",
@@ -390,33 +470,6 @@
         "googleapis"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-google-sheets-advance"
-    },
-    {
-      "id": "node-red-contrib-alice-self-hosting",
-      "version": "0.1.7",
-      "description": "Node-RED nodes to Yandex Alice devices in Self-Hosting",
-      "updated_at": "2024-03-26T20:06:00.538Z",
-      "types": [
-        "alice-sh-service",
-        "alice-sh-device",
-        "alice-sh-onoff",
-        "alice-sh-toggle",
-        "alice-sh-range",
-        "alice-sh-color",
-        "alice-sh-mode",
-        "alice-sh-sensor",
-        "alice-sh-event",
-        "alice-sh-video"
-      ],
-      "keywords": [
-        "node-red",
-        "yandex",
-        "alice",
-        "iot",
-        "self",
-        "hosting"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-alice-self-hosting"
     },
     {
       "id": "node-red-contrib-axios",
@@ -1529,24 +1582,6 @@
         "email"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-email"
-    },
-    {
-      "id": "@gregoriusrippenstein/node-red-contrib-flowhub",
-      "version": "0.6.4",
-      "description": "Nodes for interacting with FlowHub.org.",
-      "updated_at": "2024-03-17T09:56:13.144Z",
-      "types": [
-        "FlowHubPull",
-        "FlowHubCfg"
-      ],
-      "keywords": [
-        "node-red",
-        "flowhub",
-        "flow-sharing",
-        "collaborative",
-        "flow-development"
-      ],
-      "url": "https://flows.nodered.org/node/@gregoriusrippenstein/node-red-contrib-flowhub"
     },
     {
       "id": "node-red-contrib-discord-advanced",
