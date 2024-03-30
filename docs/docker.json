@@ -1,12 +1,162 @@
 {
   "name": "Catalogue for Docker",
-  "updated_at": "2024-03-29T16:03:07.450Z",
+  "updated_at": "2024-03-30T15:56:40.420Z",
   "modules": [
     {
+      "id": "node-red-contrib-gatewayex",
+      "version": "0.0.5",
+      "description": "SharpSCADA GatewayEx",
+      "updated_at": "2024-03-30T13:39:47.643Z",
+      "types": [
+        "gateway-broker",
+        "tag value changed",
+        "read tag value",
+        "dynamic tag write",
+        "alarm trigger"
+      ],
+      "keywords": [
+        "node-red",
+        "gatewayex",
+        "sharpscada"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-gatewayex"
+    },
+    {
+      "id": "@gregoriusrippenstein/node-red-contrib-flowhub",
+      "version": "0.7.0",
+      "description": "Nodes for interacting with FlowHub.org.",
+      "updated_at": "2024-03-30T11:47:34.207Z",
+      "types": [
+        "FlowHubPull",
+        "FlowHubCfg"
+      ],
+      "keywords": [
+        "node-red",
+        "flowhub",
+        "flow-sharing",
+        "collaborative",
+        "flow-development"
+      ],
+      "url": "https://flows.nodered.org/node/@gregoriusrippenstein/node-red-contrib-flowhub"
+    },
+    {
+      "id": "node-red-contrib-ecowitt-gateway",
+      "version": "1.0.4",
+      "description": "Ecowitt Gateway for NodeRED",
+      "updated_at": "2024-03-30T06:22:42.849Z",
+      "types": [
+        "ew-config-node",
+        "livedata-node"
+      ],
+      "keywords": [
+        "node-red",
+        "ecowitt",
+        "GW1000",
+        "GW1100",
+        "GW2000",
+        "weather",
+        "api"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-ecowitt-gateway"
+    },
+    {
+      "id": "@demirdeniz/node-red-contrib-tuya-kepler-device",
+      "version": "6.0.9",
+      "description": "A node-red module to interact with the tuya smart devices",
+      "updated_at": "2024-03-29T22:23:28.912Z",
+      "types": [
+        "tuya-kepler-device",
+        "tuya-kepler-device-generic"
+      ],
+      "keywords": [
+        "node-red",
+        "tuya",
+        "zigbee",
+        "LOYTEC",
+        "kepler",
+        "kepler-elec",
+        "demir"
+      ],
+      "url": "https://flows.nodered.org/node/@demirdeniz/node-red-contrib-tuya-kepler-device"
+    },
+    {
+      "id": "node-red-contrib-onstar2",
+      "version": "2.2.2",
+      "description": "An updated Node-RED Library using OnStarJS, an unofficial client library for the OnStar Vehicle API",
+      "updated_at": "2024-03-29T21:39:32.203Z",
+      "types": [
+        "get-account-vehicles",
+        "get-diagnostics",
+        "lock-myvehicle",
+        "unlock-myvehicle",
+        "lock-mytrunk",
+        "unlock-mytrunk",
+        "start-myvehicle",
+        "cancel-start-myvehicle",
+        "alert-myvehicle",
+        "alert-myvehicle-lights",
+        "alert-myvehicle-horn",
+        "cancel-alert-myvehicle",
+        "locate-vehicle",
+        "mycharge-override",
+        "get-mycharge-profile",
+        "set-mycharge-profile",
+        "onstar2"
+      ],
+      "keywords": [
+        "node-red",
+        "OnStar",
+        "Chevrolet",
+        "Chevy",
+        "GM",
+        "GMC",
+        "Buick",
+        "Cadillac"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-onstar2"
+    },
+    {
+      "id": "@tec6/node-red-pisignage-services",
+      "version": "1.0.0",
+      "description": "A node providing the services offered by the RESTful API of pisignage.",
+      "updated_at": "2024-03-29T18:52:24.115Z",
+      "types": [
+        "client-pisignage-credentials",
+        "pisignage-services"
+      ],
+      "keywords": [
+        "node-red",
+        "pisignage"
+      ],
+      "url": "https://flows.nodered.org/node/@tec6/node-red-pisignage-services"
+    },
+    {
+      "id": "@gregoriusrippenstein/node-red-contrib-introspection",
+      "version": "0.7.5",
+      "description": "Node-RED Editor-only nodes for introspecting with flows in the frontend.",
+      "updated_at": "2024-03-29T15:35:16.771Z",
+      "types": [
+        "Seeker",
+        "Sink",
+        "ClientCode",
+        "GetFlows",
+        "SendFlow",
+        "InstallPackage"
+      ],
+      "keywords": [
+        "node-red",
+        "introspection",
+        "selfreflection",
+        "node-red-editor",
+        "screenshot"
+      ],
+      "url": "https://flows.nodered.org/node/@gregoriusrippenstein/node-red-contrib-introspection"
+    },
+    {
       "id": "l2l-endpoints",
-      "version": "0.1.17",
+      "version": "0.1.22",
       "description": "First commit of l2l endpoints node",
-      "updated_at": "2024-03-29T14:25:17.887Z",
+      "updated_at": "2024-03-29T14:51:40.468Z",
       "types": [
         "l2lEndpoints"
       ],
@@ -49,24 +199,6 @@
         "Bufferstack.IO"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-copy-array"
-    },
-    {
-      "id": "@gregoriusrippenstein/node-red-contrib-flowhub",
-      "version": "0.6.7",
-      "description": "Nodes for interacting with FlowHub.org.",
-      "updated_at": "2024-03-29T09:22:40.760Z",
-      "types": [
-        "FlowHubPull",
-        "FlowHubCfg"
-      ],
-      "keywords": [
-        "node-red",
-        "flowhub",
-        "flow-sharing",
-        "collaborative",
-        "flow-development"
-      ],
-      "url": "https://flows.nodered.org/node/@gregoriusrippenstein/node-red-contrib-flowhub"
     },
     {
       "id": "node-red-contrib-alice-self-hosting",
@@ -332,25 +464,6 @@
         "vsh"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-virtual-smart-home"
-    },
-    {
-      "id": "@demirdeniz/node-red-contrib-tuya-kepler-device",
-      "version": "6.0.8",
-      "description": "A node-red module to interact with the tuya smart devices",
-      "updated_at": "2024-03-28T01:21:51.090Z",
-      "types": [
-        "tuya-kepler-device",
-        "tuya-kepler-device-generic"
-      ],
-      "keywords": [
-        "node-red",
-        "tuya",
-        "LOYTEC",
-        "kepler",
-        "kepler-elec",
-        "demir"
-      ],
-      "url": "https://flows.nodered.org/node/@demirdeniz/node-red-contrib-tuya-kepler-device"
     },
     {
       "id": "@background404/node-red-contrib-mcu-serial",
@@ -749,42 +862,6 @@
         "node-red"
       ],
       "url": "https://flows.nodered.org/node/@thingweb/node-red-node-wot"
-    },
-    {
-      "id": "node-red-contrib-onstar2",
-      "version": "2.2.1",
-      "description": "An updated Node-RED Library using OnStarJS, an unofficial client library for the OnStar Vehicle API",
-      "updated_at": "2024-03-24T16:58:00.958Z",
-      "types": [
-        "get-account-vehicles",
-        "get-diagnostics",
-        "lock-myvehicle",
-        "unlock-myvehicle",
-        "lock-mytrunk",
-        "unlock-mytrunk",
-        "start-myvehicle",
-        "cancel-start-myvehicle",
-        "alert-myvehicle",
-        "alert-myvehicle-lights",
-        "alert-myvehicle-horn",
-        "cancel-alert-myvehicle",
-        "locate-vehicle",
-        "mycharge-override",
-        "get-mycharge-profile",
-        "set-mycharge-profile",
-        "onstar2"
-      ],
-      "keywords": [
-        "node-red",
-        "OnStar",
-        "Chevrolet",
-        "Chevy",
-        "GM",
-        "GMC",
-        "Buick",
-        "Cadillac"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-onstar2"
     },
     {
       "id": "node-red-contrib-chronos",
@@ -1229,28 +1306,6 @@
         "thingzi"
       ],
       "url": "https://flows.nodered.org/node/thingzi-logic-climate"
-    },
-    {
-      "id": "@gregoriusrippenstein/node-red-contrib-introspection",
-      "version": "0.7.4",
-      "description": "Node-RED Editor-only nodes for introspecting with flows in the frontend.",
-      "updated_at": "2024-03-20T07:28:54.525Z",
-      "types": [
-        "Seeker",
-        "Sink",
-        "ClientCode",
-        "GetFlows",
-        "SendFlow",
-        "InstallPackage"
-      ],
-      "keywords": [
-        "node-red",
-        "introspection",
-        "selfreflection",
-        "node-red-editor",
-        "screenshot"
-      ],
-      "url": "https://flows.nodered.org/node/@gregoriusrippenstein/node-red-contrib-introspection"
     },
     {
       "id": "node-red-node-rdk-ros2",
@@ -3023,21 +3078,6 @@
         "streamapi"
       ],
       "url": "https://flows.nodered.org/node/@gregoriusrippenstein/node-red-streaming"
-    },
-    {
-      "id": "@tec6/node-red-pisignage-services",
-      "version": "0.1.0",
-      "description": "A node providing the services offered by the RESTful API of pisignage.",
-      "updated_at": "2024-03-05T08:04:24.283Z",
-      "types": [
-        "client-pisignage-credentials",
-        "pisignage-services"
-      ],
-      "keywords": [
-        "node-red",
-        "pisignage"
-      ],
-      "url": "https://flows.nodered.org/node/@tec6/node-red-pisignage-services"
     },
     {
       "id": "@skylord123/event-listener",
@@ -19784,25 +19824,6 @@
         "stoptimer"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-stoptimer-varidelay"
-    },
-    {
-      "id": "node-red-contrib-gatewayex",
-      "version": "0.0.4",
-      "description": "SharpSCADA GatewayEx",
-      "updated_at": "2023-03-20T13:48:07.439Z",
-      "types": [
-        "gateway-broker",
-        "tag value changed",
-        "read tag value",
-        "dynamic tag write",
-        "alarm trigger"
-      ],
-      "keywords": [
-        "node-red",
-        "gatewayex",
-        "sharpscada"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-gatewayex"
     },
     {
       "id": "node-red-contrib-discrete-fsm",
