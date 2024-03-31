@@ -1,7 +1,135 @@
 {
   "name": "Catalogue for Docker",
-  "updated_at": "2024-03-30T15:56:40.420Z",
+  "updated_at": "2024-03-31T15:55:39.766Z",
   "modules": [
+    {
+      "id": "@puke3615/node-red-contrib-wechat",
+      "version": "0.0.3",
+      "description": "一个支持微信的Node-Red插件",
+      "updated_at": "2024-03-31T14:12:05.470Z",
+      "types": [
+        "wechat",
+        "send-user-msg",
+        "send-room-msg",
+        "receive-user-msg",
+        "receive-room-msg"
+      ],
+      "keywords": [
+        "wehcat",
+        "node-red",
+        "plugin"
+      ],
+      "url": "https://flows.nodered.org/node/@puke3615/node-red-contrib-wechat"
+    },
+    {
+      "id": "@tbowmo/node-red-small-timer",
+      "version": "0.17.0",
+      "description": "Small timer node for Node-RED with support for sunrise, sunset etc. timers",
+      "updated_at": "2024-03-31T13:07:35.122Z",
+      "types": [
+        "smalltimer",
+        "position"
+      ],
+      "keywords": [
+        "node-red",
+        "timer",
+        "sunset",
+        "sunrise",
+        "dawn",
+        "dusk"
+      ],
+      "url": "https://flows.nodered.org/node/@tbowmo/node-red-small-timer"
+    },
+    {
+      "id": "node-red-contrib-unifi",
+      "version": "0.3.15",
+      "description": "Node for Node-RED to connect to a UniFi Controller ",
+      "updated_at": "2024-03-30T20:20:22.990Z",
+      "types": [
+        "unificonfig",
+        "Unifi",
+        "UnifiWS"
+      ],
+      "keywords": [
+        "node-red",
+        "unifi",
+        "ubnt",
+        "Ubiquiti Networks"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-unifi"
+    },
+    {
+      "id": "smart-nodes",
+      "version": "0.3.28",
+      "description": "Smart Nodes",
+      "updated_at": "2024-03-30T14:58:01.502Z",
+      "types": [
+        "smart_light-control",
+        "smart_scene-control",
+        "smart_shutter-control",
+        "smart_shutter-complex-control",
+        "smart_long-press-control",
+        "smart_multi-press-control",
+        "smart_logic",
+        "smart_forwarder",
+        "smart_compare",
+        "smart_hysteresis",
+        "smart_statistic",
+        "smart_counter",
+        "smart_scheduler",
+        "smart_delay",
+        "smart_central-control",
+        "__errors__",
+        "smart_mixing-valve",
+        "smart_heating-curve",
+        "smart_text-exec"
+      ],
+      "keywords": [
+        "node-red",
+        "smart nodes",
+        "light control",
+        "shutter control",
+        "long press",
+        "multi press",
+        "scene",
+        "scenes",
+        "delay",
+        "forwarder",
+        "logic",
+        "hysteresis",
+        "compare",
+        "comparator",
+        "statistic",
+        "counter",
+        "scheduler",
+        "central",
+        "heating",
+        "mixing valve",
+        "heating curve",
+        "text execution"
+      ],
+      "url": "https://flows.nodered.org/node/smart-nodes"
+    },
+    {
+      "id": "@demirdeniz/node-red-contrib-tuya-kepler-device",
+      "version": "6.0.10",
+      "description": "A node-red module to interact with the tuya smart devices",
+      "updated_at": "2024-03-30T14:11:45.508Z",
+      "types": [
+        "tuya-kepler-device",
+        "tuya-kepler-device-generic"
+      ],
+      "keywords": [
+        "node-red",
+        "tuya",
+        "zigbee",
+        "LOYTEC",
+        "kepler",
+        "kepler-elec",
+        "demir"
+      ],
+      "url": "https://flows.nodered.org/node/@demirdeniz/node-red-contrib-tuya-kepler-device"
+    },
     {
       "id": "node-red-contrib-gatewayex",
       "version": "0.0.5",
@@ -58,26 +186,6 @@
         "api"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-ecowitt-gateway"
-    },
-    {
-      "id": "@demirdeniz/node-red-contrib-tuya-kepler-device",
-      "version": "6.0.9",
-      "description": "A node-red module to interact with the tuya smart devices",
-      "updated_at": "2024-03-29T22:23:28.912Z",
-      "types": [
-        "tuya-kepler-device",
-        "tuya-kepler-device-generic"
-      ],
-      "keywords": [
-        "node-red",
-        "tuya",
-        "zigbee",
-        "LOYTEC",
-        "kepler",
-        "kepler-elec",
-        "demir"
-      ],
-      "url": "https://flows.nodered.org/node/@demirdeniz/node-red-contrib-tuya-kepler-device"
     },
     {
       "id": "node-red-contrib-onstar2",
@@ -933,25 +1041,6 @@
       "url": "https://flows.nodered.org/node/node-red-contrib-ollama"
     },
     {
-      "id": "@tbowmo/node-red-small-timer",
-      "version": "0.16.0",
-      "description": "Small timer node for Node-RED with support for sunrise, sunset etc. timers",
-      "updated_at": "2024-03-24T00:19:20.248Z",
-      "types": [
-        "smalltimer",
-        "position"
-      ],
-      "keywords": [
-        "node-red",
-        "timer",
-        "sunset",
-        "sunrise",
-        "dawn",
-        "dusk"
-      ],
-      "url": "https://flows.nodered.org/node/@tbowmo/node-red-small-timer"
-    },
-    {
       "id": "node-red-contrib-boolean-logic-ultimate",
       "version": "1.1.3",
       "description": "A set of Node-RED enhanced boolean logic and utility nodes, flow interruption, blinker, invert, filter, toggle etc.., with persistent values after reboot. Compatible also with Homeassistant values.",
@@ -1167,58 +1256,6 @@
         "node-red"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-opendash"
-    },
-    {
-      "id": "smart-nodes",
-      "version": "0.3.27",
-      "description": "Smart Nodes",
-      "updated_at": "2024-03-20T18:46:20.978Z",
-      "types": [
-        "smart_light-control",
-        "smart_scene-control",
-        "smart_shutter-control",
-        "smart_shutter-complex-control",
-        "smart_long-press-control",
-        "smart_multi-press-control",
-        "smart_logic",
-        "smart_forwarder",
-        "smart_compare",
-        "smart_hysteresis",
-        "smart_statistic",
-        "smart_counter",
-        "smart_scheduler",
-        "smart_delay",
-        "smart_central-control",
-        "__errors__",
-        "smart_mixing-valve",
-        "smart_heating-curve",
-        "smart_text-exec"
-      ],
-      "keywords": [
-        "node-red",
-        "smart nodes",
-        "light control",
-        "shutter control",
-        "long press",
-        "multi press",
-        "scene",
-        "scenes",
-        "delay",
-        "forwarder",
-        "logic",
-        "hysteresis",
-        "compare",
-        "comparator",
-        "statistic",
-        "counter",
-        "scheduler",
-        "central",
-        "heating",
-        "mixing valve",
-        "heating curve",
-        "text execution"
-      ],
-      "url": "https://flows.nodered.org/node/smart-nodes"
     },
     {
       "id": "node-red-contrib-sendurl",
@@ -2403,23 +2440,6 @@
       "url": "https://flows.nodered.org/node/node-red-contrib-qsys"
     },
     {
-      "id": "@opcua/for-node-red",
-      "version": "2.9.0",
-      "description": "The Node-RED node to communicate via OPC UA, powered NodeOPCUA and developed by Sterfive's team",
-      "updated_at": "2024-03-10T10:03:48.734Z",
-      "types": [],
-      "keywords": [
-        "node-red",
-        "OPC UA",
-        "opc-ua",
-        "unified architecture",
-        "opc foundation",
-        "node-opcua",
-        "IIoT"
-      ],
-      "url": "https://flows.nodered.org/node/@opcua/for-node-red"
-    },
-    {
       "id": "@appcube/node-red-contrib-listenai",
       "version": "0.0.1",
       "description": "A node set for raising the interactions of automation for a user, powered by AI.",
@@ -3276,6 +3296,19 @@
       "url": "https://flows.nodered.org/node/@infozap/node-red-contrib-ai-gpt-intent"
     },
     {
+      "id": "@victronenergy/node-red-contrib-victron",
+      "version": "1.5.15",
+      "description": "Custom Node-RED Nodes for Victron Energy",
+      "updated_at": "2024-03-01T23:05:28.651Z",
+      "types": [
+        "victron-client"
+      ],
+      "keywords": [
+        "node-red"
+      ],
+      "url": "https://flows.nodered.org/node/@victronenergy/node-red-contrib-victron"
+    },
+    {
       "id": "@node-red-contrib-themes/theme-collection",
       "version": "3.1.11",
       "description": "A collection of themes for Node-RED",
@@ -3375,19 +3408,6 @@
       "url": "https://flows.nodered.org/node/node-red-contrib-mgrs"
     },
     {
-      "id": "@victronenergy/node-red-contrib-victron",
-      "version": "1.5.13",
-      "description": "Custom Node-RED Nodes for Victron Energy",
-      "updated_at": "2024-02-29T19:14:47.959Z",
-      "types": [
-        "victron-client"
-      ],
-      "keywords": [
-        "node-red"
-      ],
-      "url": "https://flows.nodered.org/node/@victronenergy/node-red-contrib-victron"
-    },
-    {
       "id": "node-red-contrib-openai-ubos",
       "version": "1.0.8",
       "description": "A Node-RED node that interacts with OpenAI machine learning models to generate text like ChatGPT.",
@@ -3435,24 +3455,6 @@
         "subscribe"
       ],
       "url": "https://flows.nodered.org/node/@xureilab/node-red-twitch-eventsub"
-    },
-    {
-      "id": "node-red-contrib-unifi",
-      "version": "0.3.14",
-      "description": "Node for Node-RED to connect to a UniFi Controller ",
-      "updated_at": "2024-02-28T19:15:23.200Z",
-      "types": [
-        "unificonfig",
-        "Unifi",
-        "UnifiWS"
-      ],
-      "keywords": [
-        "node-red",
-        "unifi",
-        "ubnt",
-        "Ubiquiti Networks"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-unifi"
     },
     {
       "id": "node-red-contrib-image-tools",
