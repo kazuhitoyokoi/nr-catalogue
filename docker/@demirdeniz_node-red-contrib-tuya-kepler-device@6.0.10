@@ -1,0 +1,44 @@
+#0 building with "default" instance using docker driver
+
+#1 [internal] load .dockerignore
+#1 transferring context: 2B done
+#1 DONE 0.0s
+
+#2 [internal] load build definition from Dockerfile
+#2 transferring dockerfile: 141B done
+#2 DONE 0.0s
+
+#3 [internal] load metadata for docker.io/nodered/node-red:latest
+#3 DONE 0.1s
+
+#4 [1/2] FROM docker.io/nodered/node-red@sha256:c2990ca2ed6ca3d36cc558f25c21e261ca966b3dc7194fc4df83352573cfb5f9
+#4 CACHED
+
+#5 [2/2] RUN npm install npm install @demirdeniz/node-red-contrib-tuya-kepler-device@6.0.10
+#5 2.396 npm WARN EBADENGINE Unsupported engine {
+#5 2.396 npm WARN EBADENGINE   package: 'npm@10.5.0',
+#5 2.397 npm WARN EBADENGINE   required: { node: '^18.17.0 || >=20.5.0' },
+#5 2.397 npm WARN EBADENGINE   current: { node: 'v16.20.2', npm: '8.19.4' }
+#5 2.397 npm WARN EBADENGINE }
+#5 4.054 
+#5 4.054 added 13 packages, and audited 536 packages in 4s
+#5 4.054 
+#5 4.054 70 packages are looking for funding
+#5 4.055   run `npm fund` for details
+#5 4.056 
+#5 4.056 found 0 vulnerabilities
+#5 4.056 npm notice 
+#5 4.056 npm notice New major version of npm available! 8.19.4 -> 10.5.0
+#5 4.056 npm notice Changelog: <https://github.com/npm/cli/releases/tag/v10.5.0>
+#5 4.056 npm notice Run `npm install -g npm@10.5.0` to update!
+#5 4.056 npm notice 
+#5 DONE 4.2s
+
+#6 exporting to image
+#6 exporting layers
+#6 exporting layers 1.0s done
+#6 writing image sha256:ea4f67bd6277230bae65c210ce8b4f6ab4d0523e34fda77bba515670bf8171fa done
+#6 naming to docker.io/library/tmp done
+#6 DONE 1.0s
+
+----
