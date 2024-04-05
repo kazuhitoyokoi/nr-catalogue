@@ -1,30 +1,69 @@
 {
   "name": "Catalogue for Docker",
-  "updated_at": "2024-04-04T15:58:55.816Z",
+  "updated_at": "2024-04-05T15:58:03.460Z",
   "modules": [
     {
-      "id": "@appmodule/node-red-contrib-siot",
-      "version": "3.0.0-rc30",
-      "description": "Node-RED interactions with SIOT",
-      "updated_at": "2024-04-04T13:28:19.051Z",
+      "id": "node-red-contrib-hikvision-ultimate",
+      "version": "1.1.16",
+      "description": "A native set of nodes for Hikvision (and compatible) Cameras, Alarms, Radars, NVR, Doorbells, etc.",
+      "updated_at": "2024-04-05T13:04:18.104Z",
       "types": [
-        "ack",
-        "de-subscriber",
-        "de-publisher",
-        "siot-config",
-        "class-config",
-        "plugin-cnf"
+        "Hikvision-config",
+        "AXPro-config",
+        "Doorbell-config",
+        "ANPR-config",
+        "AccessControl-config",
+        "hikvisionUltimateText",
+        "hikvisionUltimateAlarm",
+        "hikvisionUltimateAlarmRaw",
+        "hikvisionUltimateANPR",
+        "hikvisionUltimatePTZ",
+        "hikvisionUltimatePicture",
+        "hikvisionUltimateXML",
+        "hikvisionUltimateDoorbell",
+        "hikvisionUltimateAxPro",
+        "hikvisionUltimateAccessControlTerminal"
       ],
       "keywords": [
-        "node-red"
+        "node-red",
+        "hikvision",
+        "alarm",
+        "camera",
+        "radar",
+        "ANPR",
+        "license plate",
+        "doorbell",
+        "door intercom",
+        "access control terminal",
+        "Ax Pro"
       ],
-      "url": "https://flows.nodered.org/node/@appmodule/node-red-contrib-siot"
+      "url": "https://flows.nodered.org/node/node-red-contrib-hikvision-ultimate"
+    },
+    {
+      "id": "node-red-contrib-bosch-shc",
+      "version": "0.4.32",
+      "description": "Bosch Smart Home Controller (SHC) nodes for Node-Red",
+      "updated_at": "2024-04-05T12:20:58.762Z",
+      "types": [
+        "shc-config",
+        "shc-device",
+        "shc-scenario",
+        "shc-fault"
+      ],
+      "keywords": [
+        "node-red",
+        "bosch",
+        "smart",
+        "home",
+        "controller"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-bosch-shc"
     },
     {
       "id": "node-red-contrib-knx-ultimate",
-      "version": "2.4.10",
+      "version": "2.4.12",
       "description": "Control your KNX intallation via Node-Red! A bunch of KNX nodes, with integrated Philips HUE control and ETS group address importer. Easy to use and highly configurable.",
-      "updated_at": "2024-04-04T12:42:48.789Z",
+      "updated_at": "2024-04-05T09:05:56.173Z",
       "types": [
         "knxUltimate",
         "knxUltimateSceneController",
@@ -45,6 +84,7 @@
         "knxUltimateHueScene",
         "knxUltimateHueBattery",
         "knxUltimateHueZigbeeConnectivity",
+        "knxUltimateHueContactSensor",
         "knxUltimateHATranslator"
       ],
       "keywords": [
@@ -59,10 +99,58 @@
       "url": "https://flows.nodered.org/node/node-red-contrib-knx-ultimate"
     },
     {
+      "id": "@background404/node-red-contrib-mcu-serial",
+      "version": "0.2.0",
+      "description": "Node to use serial communication with Node-RED MCU",
+      "updated_at": "2024-04-05T04:31:19.669Z",
+      "types": [
+        "mcu_serial_in",
+        "mcu_serial_out"
+      ],
+      "keywords": [
+        "node-red",
+        "node-red-mcu",
+        "moddable",
+        "Serial"
+      ],
+      "url": "https://flows.nodered.org/node/@background404/node-red-contrib-mcu-serial"
+    },
+    {
+      "id": "@strato-automation/node-red-contrib-strato-automation",
+      "version": "0.5.3",
+      "description": "Strato Automation Official Node Red Library",
+      "updated_at": "2024-04-04T20:22:58.114Z",
+      "types": [
+        "input",
+        "output-ip",
+        "output-mstp",
+        "ocn-server",
+        "func-on-off",
+        "func-ramp",
+        "func-min",
+        "func-max",
+        "const",
+        "input-topic",
+        "unit-converter",
+        "logic-gate",
+        "not-gate",
+        "psychrometric-calculator",
+        "strato-pid",
+        "signal-generator",
+        "deadband",
+        "ocn-diagnostic"
+      ],
+      "keywords": [
+        "node-red",
+        "node-red-node"
+      ],
+      "url": "https://flows.nodered.org/node/@strato-automation/node-red-contrib-strato-automation"
+    },
+    {
       "id": "@gregoriusrippenstein/node-red-contrib-nodedev",
-      "version": "0.4.0",
+      "version": "0.4.1",
       "description": "Support the development of Node-RED nodes within Node-RED.",
-      "updated_at": "2024-04-04T10:19:12.766Z",
+      "updated_at": "2024-04-04T17:47:53.513Z",
       "types": [
         "NodeDevOps",
         "NodeFactory",
@@ -81,6 +169,40 @@
         "recursion"
       ],
       "url": "https://flows.nodered.org/node/@gregoriusrippenstein/node-red-contrib-nodedev"
+    },
+    {
+      "id": "@gregoriusrippenstein/node-red-contrib-validation-and-documentation",
+      "version": "0.1.2",
+      "description": "JSON Schema validator for Node Red",
+      "updated_at": "2024-04-04T15:49:07.716Z",
+      "types": [
+        "JsonSchemaValidatorWithDocu"
+      ],
+      "keywords": [
+        "json",
+        "node",
+        "node-red",
+        "schema"
+      ],
+      "url": "https://flows.nodered.org/node/@gregoriusrippenstein/node-red-contrib-validation-and-documentation"
+    },
+    {
+      "id": "@appmodule/node-red-contrib-siot",
+      "version": "3.0.0-rc30",
+      "description": "Node-RED interactions with SIOT",
+      "updated_at": "2024-04-04T13:28:19.051Z",
+      "types": [
+        "ack",
+        "de-subscriber",
+        "de-publisher",
+        "siot-config",
+        "class-config",
+        "plugin-cnf"
+      ],
+      "keywords": [
+        "node-red"
+      ],
+      "url": "https://flows.nodered.org/node/@appmodule/node-red-contrib-siot"
     },
     {
       "id": "iolinkmaster-mpb10",
@@ -345,9 +467,9 @@
     },
     {
       "id": "l2l-endpoints",
-      "version": "0.1.21",
+      "version": "0.1.23",
       "description": "First commit of l2l endpoints node",
-      "updated_at": "2024-04-01T16:49:22.629Z",
+      "updated_at": "2024-04-01T18:59:32.306Z",
       "types": [
         "l2lEndpoints"
       ],
@@ -459,43 +581,6 @@
         "Camera"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-axis-com"
-    },
-    {
-      "id": "node-red-contrib-hikvision-ultimate",
-      "version": "1.1.15",
-      "description": "A native set of nodes for Hikvision (and compatible) Cameras, Alarms, Radars, NVR, Doorbells, etc.",
-      "updated_at": "2024-03-31T19:34:21.229Z",
-      "types": [
-        "Hikvision-config",
-        "AXPro-config",
-        "Doorbell-config",
-        "ANPR-config",
-        "AccessControl-config",
-        "hikvisionUltimateText",
-        "hikvisionUltimateAlarm",
-        "hikvisionUltimateAlarmRaw",
-        "hikvisionUltimateANPR",
-        "hikvisionUltimatePTZ",
-        "hikvisionUltimatePicture",
-        "hikvisionUltimateXML",
-        "hikvisionUltimateDoorbell",
-        "hikvisionUltimateAxPro",
-        "hikvisionUltimateAccessControlTerminal"
-      ],
-      "keywords": [
-        "node-red",
-        "hikvision",
-        "alarm",
-        "camera",
-        "radar",
-        "ANPR",
-        "license plate",
-        "doorbell",
-        "door intercom",
-        "access control terminal",
-        "Ax Pro"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-hikvision-ultimate"
     },
     {
       "id": "@demirdeniz/node-red-contrib-tuya-kepler-device",
@@ -903,23 +988,6 @@
         "vsh"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-virtual-smart-home"
-    },
-    {
-      "id": "@background404/node-red-contrib-mcu-serial",
-      "version": "0.1.0",
-      "description": "Node to use serial communication with Node-RED MCU",
-      "updated_at": "2024-03-27T19:57:22.488Z",
-      "types": [
-        "mcu_serial_in",
-        "mcu_serial_out"
-      ],
-      "keywords": [
-        "node-red",
-        "node-red-mcu",
-        "moddable",
-        "Serial"
-      ],
-      "url": "https://flows.nodered.org/node/@background404/node-red-contrib-mcu-serial"
     },
     {
       "id": "@background404/node-red-contrib-mcu-servo",
@@ -1828,37 +1896,6 @@
       "url": "https://flows.nodered.org/node/@okedge/node-red-okedge"
     },
     {
-      "id": "@strato-automation/node-red-contrib-strato-automation",
-      "version": "0.5.2",
-      "description": "Strato Automation Official Node Red Library",
-      "updated_at": "2024-03-18T20:37:30.869Z",
-      "types": [
-        "input",
-        "output-ip",
-        "output-mstp",
-        "ocn-server",
-        "func-on-off",
-        "func-ramp",
-        "func-min",
-        "func-max",
-        "const",
-        "input-topic",
-        "unit-converter",
-        "logic-gate",
-        "not-gate",
-        "psychrometric-calculator",
-        "strato-pid",
-        "signal-generator",
-        "deadband",
-        "ocn-diagnostic"
-      ],
-      "keywords": [
-        "node-red",
-        "node-red-node"
-      ],
-      "url": "https://flows.nodered.org/node/@strato-automation/node-red-contrib-strato-automation"
-    },
-    {
       "id": "node-red-contrib-timeouttrigger",
       "version": "0.0.6",
       "description": "This node will pipe any received `msg` to its output. At the same time a time-out interval is set. Upon time-out a defined payload is sent. Each new message will reset the time-out.",
@@ -1873,26 +1910,6 @@
         "iot"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-timeouttrigger"
-    },
-    {
-      "id": "node-red-contrib-bosch-shc",
-      "version": "0.4.31",
-      "description": "Bosch Smart Home Controller (SHC) nodes for Node-Red",
-      "updated_at": "2024-03-18T10:16:39.139Z",
-      "types": [
-        "shc-config",
-        "shc-device",
-        "shc-scenario",
-        "shc-fault"
-      ],
-      "keywords": [
-        "node-red",
-        "bosch",
-        "smart",
-        "home",
-        "controller"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-bosch-shc"
     },
     {
       "id": "@ifp-software/node-red-contrib-oee-ai-connector",
@@ -3195,22 +3212,6 @@
         "database"
       ],
       "url": "https://flows.nodered.org/node/@helix_italia/node-red-helix-odbc"
-    },
-    {
-      "id": "@gregoriusrippenstein/node-red-contrib-validation-and-documentation",
-      "version": "0.1.1",
-      "description": "JSON Schema validator for Node Red",
-      "updated_at": "2024-03-05T10:06:41.524Z",
-      "types": [
-        "JsonSchemaValidatorWithDocu"
-      ],
-      "keywords": [
-        "json",
-        "node",
-        "node-red",
-        "schema"
-      ],
-      "url": "https://flows.nodered.org/node/@gregoriusrippenstein/node-red-contrib-validation-and-documentation"
     },
     {
       "id": "@gregoriusrippenstein/node-red-contrib-aisbreaker",
