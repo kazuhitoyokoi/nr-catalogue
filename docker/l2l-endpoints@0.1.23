@@ -1,0 +1,45 @@
+#0 building with "default" instance using docker driver
+
+#1 [internal] load .dockerignore
+#1 transferring context: 2B done
+#1 DONE 0.0s
+
+#2 [internal] load build definition from Dockerfile
+#2 transferring dockerfile: 107B done
+#2 DONE 0.0s
+
+#3 [internal] load metadata for docker.io/nodered/node-red:latest
+#3 DONE 0.1s
+
+#4 [1/2] FROM docker.io/nodered/node-red@sha256:c2990ca2ed6ca3d36cc558f25c21e261ca966b3dc7194fc4df83352573cfb5f9
+#4 CACHED
+
+#5 [2/2] RUN npm install npm install l2l-endpoints@0.1.23
+#5 2.579 npm WARN EBADENGINE Unsupported engine {
+#5 2.579 npm WARN EBADENGINE   package: 'npm@10.5.1',
+#5 2.579 npm WARN EBADENGINE   required: { node: '^18.17.0 || >=20.5.0' },
+#5 2.580 npm WARN EBADENGINE   current: { node: 'v16.20.2', npm: '8.19.4' }
+#5 2.580 npm WARN EBADENGINE }
+#5 3.700 npm WARN deprecated l2l-endpoints@0.1.23: Package no longer supported. Contact Support at https://www.npmjs.com/support for more info.
+#5 3.829 
+#5 3.829 added 8 packages, and audited 532 packages in 3s
+#5 3.829 
+#5 3.829 72 packages are looking for funding
+#5 3.829   run `npm fund` for details
+#5 3.831 
+#5 3.831 found 0 vulnerabilities
+#5 3.831 npm notice 
+#5 3.831 npm notice New major version of npm available! 8.19.4 -> 10.5.1
+#5 3.831 npm notice Changelog: <https://github.com/npm/cli/releases/tag/v10.5.1>
+#5 3.831 npm notice Run `npm install -g npm@10.5.1` to update!
+#5 3.831 npm notice 
+#5 DONE 3.9s
+
+#6 exporting to image
+#6 exporting layers
+#6 exporting layers 1.0s done
+#6 writing image sha256:e04cd26e8d30b02b829b72d77fd6f860cdcfe4e10996fa97e7588000c24fd829 done
+#6 naming to docker.io/library/tmp done
+#6 DONE 1.0s
+
+----
