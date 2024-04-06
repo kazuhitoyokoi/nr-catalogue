@@ -1,0 +1,50 @@
+#0 building with "default" instance using docker driver
+
+#1 [internal] load .dockerignore
+#1 transferring context: 2B done
+#1 DONE 0.0s
+
+#2 [internal] load build definition from Dockerfile
+#2 transferring dockerfile: 130B done
+#2 DONE 0.0s
+
+#3 [internal] load metadata for docker.io/nodered/node-red:latest
+#3 DONE 0.1s
+
+#4 [1/2] FROM docker.io/nodered/node-red@sha256:c2990ca2ed6ca3d36cc558f25c21e261ca966b3dc7194fc4df83352573cfb5f9
+#4 CACHED
+
+#5 [2/2] RUN npm install npm install @baroldgene/node-red-contrib-victron@1.5.17
+#5 4.661 npm WARN EBADENGINE Unsupported engine {
+#5 4.661 npm WARN EBADENGINE   package: 'npm@10.5.1',
+#5 4.661 npm WARN EBADENGINE   required: { node: '^18.17.0 || >=20.5.0' },
+#5 4.661 npm WARN EBADENGINE   current: { node: 'v16.20.2', npm: '8.19.4' }
+#5 4.661 npm WARN EBADENGINE }
+#5 7.377 npm WARN deprecated @baroldgene/node-red-contrib-victron@1.5.17: Package no longer supported. Contact Support at https://www.npmjs.com/support for more info.
+#5 10.22 
+#5 10.22 added 249 packages, and audited 773 packages in 10s
+#5 10.22 
+#5 10.22 165 packages are looking for funding
+#5 10.22   run `npm fund` for details
+#5 10.23 
+#5 10.23 6 vulnerabilities (1 low, 4 moderate, 1 critical)
+#5 10.23 
+#5 10.23 Some issues need review, and may require choosing
+#5 10.23 a different dependency.
+#5 10.23 
+#5 10.23 Run `npm audit` for details.
+#5 10.23 npm notice 
+#5 10.23 npm notice New major version of npm available! 8.19.4 -> 10.5.1
+#5 10.23 npm notice Changelog: <https://github.com/npm/cli/releases/tag/v10.5.1>
+#5 10.23 npm notice Run `npm install -g npm@10.5.1` to update!
+#5 10.23 npm notice 
+#5 DONE 10.5s
+
+#6 exporting to image
+#6 exporting layers
+#6 exporting layers 2.2s done
+#6 writing image sha256:d8e8ba2d05b9ffc7b2d91fa539369e99416278a4966c4b2c1d27f488ef37c6c4 done
+#6 naming to docker.io/library/tmp done
+#6 DONE 2.2s
+
+----
