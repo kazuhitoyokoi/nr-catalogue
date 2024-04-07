@@ -1,7 +1,185 @@
 {
   "name": "Catalogue for Docker",
-  "updated_at": "2024-04-06T15:54:18.610Z",
+  "updated_at": "2024-04-07T15:56:51.523Z",
   "modules": [
+    {
+      "id": "thingzi-logic-climate",
+      "version": "1.0.5",
+      "description": "Climate control via node red",
+      "updated_at": "2024-04-07T12:33:34.735Z",
+      "types": [
+        "thingzi-climate"
+      ],
+      "keywords": [
+        "node-red",
+        "climate",
+        "smart home",
+        "temperature",
+        "thermostat",
+        "zone",
+        "hot water",
+        "heat",
+        "cool",
+        "hvac",
+        "mqtt",
+        "homeassistant",
+        "hass",
+        "thingzi"
+      ],
+      "url": "https://flows.nodered.org/node/thingzi-logic-climate"
+    },
+    {
+      "id": "@rotflorg/node-red-contrib-ecoflow-powerstream",
+      "version": "0.5.2",
+      "description": "Extract data from Ecoflow PowerStream",
+      "updated_at": "2024-04-07T11:00:17.701Z",
+      "types": [
+        "ecoflow-in",
+        "ecoflow-cmd"
+      ],
+      "keywords": [
+        "Ecoflow",
+        "PowerStream",
+        "node-red"
+      ],
+      "url": "https://flows.nodered.org/node/@rotflorg/node-red-contrib-ecoflow-powerstream"
+    },
+    {
+      "id": "node-red-contrib-knx-ultimate",
+      "version": "2.4.19",
+      "description": "Control your KNX intallation via Node-Red! A bunch of KNX nodes, with integrated Philips HUE control and ETS group address importer. Easy to use and highly configurable.",
+      "updated_at": "2024-04-07T10:06:10.936Z",
+      "types": [
+        "knxUltimate",
+        "knxUltimateSceneController",
+        "knxUltimateWatchDog",
+        "knxUltimateLogger",
+        "knxUltimate-config",
+        "knxUltimateGlobalContext",
+        "knxUltimateAlerter",
+        "knxUltimateLoadControl",
+        "knxUltimateViewer",
+        "hue-config",
+        "knxUltimateHueLight",
+        "knxUltimateHueButton",
+        "knxUltimateHueMotion",
+        "knxUltimateHueTapDial",
+        "knxUltimateHueLightSensor",
+        "knxUltimateHueTemperatureSensor",
+        "knxUltimateHueScene",
+        "knxUltimateHueBattery",
+        "knxUltimateHueZigbeeConnectivity",
+        "knxUltimateHueContactSensor",
+        "knxUltimateHATranslator"
+      ],
+      "keywords": [
+        "node-red",
+        "KNX",
+        "ETS",
+        "eib",
+        "konnex",
+        "IOT",
+        "philips hue"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-knx-ultimate"
+    },
+    {
+      "id": "node-red-contrib-smb2.5",
+      "version": "1.14.0",
+      "description": "Node-RED for the SMB protocol",
+      "updated_at": "2024-04-07T01:55:26.792Z",
+      "types": [
+        "SMB",
+        "smb config"
+      ],
+      "keywords": [
+        "node-red",
+        "smb"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-smb2.5"
+    },
+    {
+      "id": "node-red-contrib-superpower-smart-test",
+      "version": "1.2.2",
+      "description": "Node-RED integration with eWeLink Cube",
+      "updated_at": "2024-04-07T01:50:12.056Z",
+      "types": [
+        "api-server",
+        "get-devices",
+        "event-state",
+        "event-online",
+        "control-device",
+        "event-add-device",
+        "event-del-device",
+        "event-device-info",
+        "put-device-state",
+        "register-device"
+      ],
+      "keywords": [
+        "node-red",
+        "ewelink",
+        "ewelink-cube"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-superpower-smart-test"
+    },
+    {
+      "id": "node-red-contrib-superpower-test",
+      "version": "1.1.8",
+      "description": "Node-RED integration with eWeLink Cube",
+      "updated_at": "2024-04-07T01:46:38.376Z",
+      "types": [
+        "api-server",
+        "get-devices",
+        "event-state",
+        "event-online",
+        "control-device",
+        "event-add-device",
+        "event-del-device",
+        "event-device-info",
+        "put-device-state",
+        "register-device"
+      ],
+      "keywords": [
+        "node-red",
+        "ewelink",
+        "ewelink-cube"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-superpower-test"
+    },
+    {
+      "id": "@ralphwetzel/node-red-mcu-plugin",
+      "version": "1.5.0",
+      "description": "Plugin to integrate Node-RED MCU Edition into the Node-RED Editor",
+      "updated_at": "2024-04-06T20:11:22.630Z",
+      "types": [],
+      "keywords": [
+        "node-red",
+        "node-red-mcu",
+        "Node-RED",
+        "Node-RED MCU Edition",
+        "node-red-mcu-plugin"
+      ],
+      "url": "https://flows.nodered.org/node/@ralphwetzel/node-red-mcu-plugin"
+    },
+    {
+      "id": "node-red-contrib-qsys",
+      "version": "1.0.3",
+      "description": "A collection of nodes for third party control of Q-Sys systems",
+      "updated_at": "2024-04-06T16:43:42.351Z",
+      "types": [
+        "qsys-core",
+        "qsys-ControlSet",
+        "qsys-Presets"
+      ],
+      "keywords": [
+        "node-red",
+        "q-sys",
+        "QSC",
+        "audio",
+        "audio DSP"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-qsys"
+    },
     {
       "id": "@flowfuse/node-red-dashboard",
       "version": "1.7.1",
@@ -51,45 +229,6 @@
         "node-red"
       ],
       "url": "https://flows.nodered.org/node/@flowfuse/node-red-dashboard"
-    },
-    {
-      "id": "node-red-contrib-knx-ultimate",
-      "version": "2.4.18",
-      "description": "Control your KNX intallation via Node-Red! A bunch of KNX nodes, with integrated Philips HUE control and ETS group address importer. Easy to use and highly configurable.",
-      "updated_at": "2024-04-05T18:34:18.311Z",
-      "types": [
-        "knxUltimate",
-        "knxUltimateSceneController",
-        "knxUltimateWatchDog",
-        "knxUltimateLogger",
-        "knxUltimate-config",
-        "knxUltimateGlobalContext",
-        "knxUltimateAlerter",
-        "knxUltimateLoadControl",
-        "knxUltimateViewer",
-        "hue-config",
-        "knxUltimateHueLight",
-        "knxUltimateHueButton",
-        "knxUltimateHueMotion",
-        "knxUltimateHueTapDial",
-        "knxUltimateHueLightSensor",
-        "knxUltimateHueTemperatureSensor",
-        "knxUltimateHueScene",
-        "knxUltimateHueBattery",
-        "knxUltimateHueZigbeeConnectivity",
-        "knxUltimateHueContactSensor",
-        "knxUltimateHATranslator"
-      ],
-      "keywords": [
-        "node-red",
-        "KNX",
-        "ETS",
-        "eib",
-        "konnex",
-        "IOT",
-        "philips hue"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-knx-ultimate"
     },
     {
       "id": "@baroldgene/node-red-contrib-victron",
@@ -367,21 +506,6 @@
         "dayjs"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-dayjs"
-    },
-    {
-      "id": "node-red-contrib-smb2.5",
-      "version": "1.13.0",
-      "description": "Node-RED for the SMB protocol",
-      "updated_at": "2024-04-03T10:12:37.651Z",
-      "types": [
-        "SMB",
-        "smb config"
-      ],
-      "keywords": [
-        "node-red",
-        "smb"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-smb2.5"
     },
     {
       "id": "@renyoo/node-red-dfrobot_noderedcomputer",
@@ -864,22 +988,6 @@
         "screenshot"
       ],
       "url": "https://flows.nodered.org/node/@gregoriusrippenstein/node-red-contrib-introspection"
-    },
-    {
-      "id": "@rotflorg/node-red-contrib-ecoflow-powerstream",
-      "version": "0.5.1",
-      "description": "Extract data from Ecoflow PowerStream",
-      "updated_at": "2024-03-29T12:27:03.525Z",
-      "types": [
-        "ecoflow-in",
-        "ecoflow-cmd"
-      ],
-      "keywords": [
-        "Ecoflow",
-        "PowerStream",
-        "node-red"
-      ],
-      "url": "https://flows.nodered.org/node/@rotflorg/node-red-contrib-ecoflow-powerstream"
     },
     {
       "id": "node-red-contrib-copy-array",
@@ -1690,32 +1798,6 @@
       "url": "https://flows.nodered.org/node/@yousolution/node-red-contrib-you-nth-layerone"
     },
     {
-      "id": "thingzi-logic-climate",
-      "version": "1.0.4",
-      "description": "Climate control via node red",
-      "updated_at": "2024-03-20T10:36:41.242Z",
-      "types": [
-        "thingzi-climate"
-      ],
-      "keywords": [
-        "node-red",
-        "climate",
-        "smart home",
-        "temperature",
-        "thermostat",
-        "zone",
-        "hot water",
-        "heat",
-        "cool",
-        "hvac",
-        "mqtt",
-        "homeassistant",
-        "hass",
-        "thingzi"
-      ],
-      "url": "https://flows.nodered.org/node/thingzi-logic-climate"
-    },
-    {
       "id": "node-red-node-rdk-ros2",
       "version": "0.0.2",
       "description": "A collection of Node-RED nodes for connecting with ROS2.",
@@ -1892,6 +1974,50 @@
       "url": "https://flows.nodered.org/node/@stormpass/node-red-contrib-amqp"
     },
     {
+      "id": "node-red-contrib-smartnora",
+      "version": "1.22.1",
+      "description": "Google Smart Home integration via Smart Nora https://smart-nora.eu/",
+      "updated_at": "2024-03-19T05:30:55.809Z",
+      "types": [
+        "noraf-ac",
+        "noraf-airpurifier",
+        "noraf-blinds",
+        "noraf-camera",
+        "noraf-charger",
+        "noraf-config",
+        "noraf-doorbell",
+        "noraf-fan",
+        "noraf-garage",
+        "noraf-light",
+        "noraf-lock",
+        "noraf-media",
+        "noraf-notify",
+        "noraf-openclose",
+        "noraf-outlet",
+        "noraf-scene",
+        "noraf-security",
+        "noraf-sensor",
+        "noraf-sousvide",
+        "noraf-speaker",
+        "noraf-sprinkler",
+        "noraf-switch",
+        "noraf-thermostat",
+        "noraf-vacuum",
+        "noraf-async"
+      ],
+      "keywords": [
+        "node-red",
+        "google",
+        "google home",
+        "assistant",
+        "smarthome",
+        "smart",
+        "home",
+        "iot"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-smartnora"
+    },
+    {
       "id": "@okedge/node-red-okedge",
       "version": "1.0.2",
       "description": "okedge&node-red",
@@ -1977,6 +2103,25 @@
         "websocket"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-home-assistant-websocket"
+    },
+    {
+      "id": "node-red-contrib-shelly",
+      "version": "10.21.0",
+      "description": "Shelly nodes.",
+      "updated_at": "2024-03-17T16:57:40.701Z",
+      "types": [
+        "shelly-gen1-server",
+        "shelly-gen1",
+        "shelly-gen2-server",
+        "shelly-gen2",
+        "shelly-cloud-server",
+        "shelly-cloud"
+      ],
+      "keywords": [
+        "node-red",
+        "shelly"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-shelly"
     },
     {
       "id": "node-red-contrib-email",
@@ -2499,25 +2644,6 @@
       "url": "https://flows.nodered.org/node/node-red-dashboard"
     },
     {
-      "id": "node-red-contrib-shelly",
-      "version": "10.18.0",
-      "description": "Shelly nodes.",
-      "updated_at": "2024-03-12T20:37:11.307Z",
-      "types": [
-        "shelly-gen1-server",
-        "shelly-gen1",
-        "shelly-gen2-server",
-        "shelly-gen2",
-        "shelly-cloud-server",
-        "shelly-cloud"
-      ],
-      "keywords": [
-        "node-red",
-        "shelly"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-shelly"
-    },
-    {
       "id": "node-red-contrib-relay-no-nc",
       "version": "1.0.1",
       "description": "A Node-RED node that mimics latched NO NC relay logic.",
@@ -2690,25 +2816,6 @@
         "tillit"
       ],
       "url": "https://flows.nodered.org/node/@gotillit/tillit-node-red"
-    },
-    {
-      "id": "node-red-contrib-qsys",
-      "version": "1.0.2",
-      "description": "A collection of nodes for third party control of Q-Sys systems",
-      "updated_at": "2024-03-10T15:13:58.181Z",
-      "types": [
-        "qsys-core",
-        "qsys-ControlSet",
-        "qsys-Presets"
-      ],
-      "keywords": [
-        "node-red",
-        "q-sys",
-        "QSC",
-        "audio",
-        "audio DSP"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-qsys"
     },
     {
       "id": "@appcube/node-red-contrib-listenai",
@@ -3074,30 +3181,6 @@
         "database"
       ],
       "url": "https://flows.nodered.org/node/@sdalu/db"
-    },
-    {
-      "id": "node-red-contrib-superpower-test",
-      "version": "1.1.7",
-      "description": "Node-RED integration with eWeLink Cube",
-      "updated_at": "2024-03-07T06:40:49.719Z",
-      "types": [
-        "api-server",
-        "get-devices",
-        "event-state",
-        "event-online",
-        "control-device",
-        "event-add-device",
-        "event-del-device",
-        "event-device-info",
-        "put-device-state",
-        "register-device"
-      ],
-      "keywords": [
-        "node-red",
-        "ewelink",
-        "ewelink-cube"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-superpower-test"
     },
     {
       "id": "node-red-contrib-data-validator",
@@ -7243,50 +7326,6 @@
         "node-red"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-log-elk"
-    },
-    {
-      "id": "node-red-contrib-smartnora",
-      "version": "1.22.0",
-      "description": "Google Smart Home integration via Smart Nora https://smart-nora.eu/",
-      "updated_at": "2024-01-03T10:14:09.415Z",
-      "types": [
-        "noraf-ac",
-        "noraf-airpurifier",
-        "noraf-blinds",
-        "noraf-camera",
-        "noraf-charger",
-        "noraf-config",
-        "noraf-doorbell",
-        "noraf-fan",
-        "noraf-garage",
-        "noraf-light",
-        "noraf-lock",
-        "noraf-media",
-        "noraf-notify",
-        "noraf-openclose",
-        "noraf-outlet",
-        "noraf-scene",
-        "noraf-security",
-        "noraf-sensor",
-        "noraf-sousvide",
-        "noraf-speaker",
-        "noraf-sprinkler",
-        "noraf-switch",
-        "noraf-thermostat",
-        "noraf-vacuum",
-        "noraf-async"
-      ],
-      "keywords": [
-        "node-red",
-        "google",
-        "google home",
-        "assistant",
-        "smarthome",
-        "smart",
-        "home",
-        "iot"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-smartnora"
     },
     {
       "id": "@thib3113/node-red-lovebox",
@@ -11995,21 +12034,6 @@
         "node-red"
       ],
       "url": "https://flows.nodered.org/node/@hexelink/node-red-aries-hw-io"
-    },
-    {
-      "id": "@ralphwetzel/node-red-mcu-plugin",
-      "version": "1.4.0",
-      "description": "Plugin to integrate Node-RED MCU Edition into the Node-RED Editor",
-      "updated_at": "2023-09-26T08:47:19.531Z",
-      "types": [],
-      "keywords": [
-        "node-red",
-        "node-red-mcu",
-        "Node-RED",
-        "Node-RED MCU Edition",
-        "node-red-mcu-plugin"
-      ],
-      "url": "https://flows.nodered.org/node/@ralphwetzel/node-red-mcu-plugin"
     },
     {
       "id": "@softwaredevelopment/node-red-contrib-bodhi-device-television",
