@@ -1,12 +1,12 @@
 {
   "name": "Catalogue for Docker",
-  "updated_at": "2024-04-09T16:06:22.820Z",
+  "updated_at": "2024-04-10T15:58:37.052Z",
   "modules": [
     {
       "id": "node-red-subflow-axis-provisioning",
-      "version": "1.0.0",
+      "version": "1.1.1",
       "description": "Axis device staging and mass configuration",
-      "updated_at": "2024-04-09T11:24:30.376Z",
+      "updated_at": "2024-04-10T13:38:46.582Z",
       "types": [],
       "keywords": [
         "node-red",
@@ -16,10 +16,147 @@
       "url": "https://flows.nodered.org/node/node-red-subflow-axis-provisioning"
     },
     {
+      "id": "node-red-contrib-superpower-smart-test",
+      "version": "1.2.3",
+      "description": "Node-RED integration with eWeLink Cube",
+      "updated_at": "2024-04-10T10:46:05.743Z",
+      "types": [
+        "api-server",
+        "get-devices",
+        "event-state",
+        "event-online",
+        "control-device",
+        "event-add-device",
+        "event-del-device",
+        "event-device-info",
+        "put-device-state",
+        "register-device"
+      ],
+      "keywords": [
+        "node-red",
+        "ewelink",
+        "ewelink-cube"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-superpower-smart-test"
+    },
+    {
+      "id": "node-red-contrib-knx-ultimate",
+      "version": "2.4.22",
+      "description": "Control your KNX intallation via Node-Red! A bunch of KNX nodes, with integrated Philips HUE control and ETS group address importer. Easy to use and highly configurable.",
+      "updated_at": "2024-04-10T09:09:01.538Z",
+      "types": [
+        "knxUltimate",
+        "knxUltimateSceneController",
+        "knxUltimateWatchDog",
+        "knxUltimateLogger",
+        "knxUltimate-config",
+        "knxUltimateGlobalContext",
+        "knxUltimateAlerter",
+        "knxUltimateLoadControl",
+        "knxUltimateViewer",
+        "hue-config",
+        "knxUltimateHueLight",
+        "knxUltimateHueButton",
+        "knxUltimateHueMotion",
+        "knxUltimateHueTapDial",
+        "knxUltimateHueLightSensor",
+        "knxUltimateHueTemperatureSensor",
+        "knxUltimateHueScene",
+        "knxUltimateHueBattery",
+        "knxUltimateHueZigbeeConnectivity",
+        "knxUltimateHueContactSensor",
+        "knxUltimateHATranslator"
+      ],
+      "keywords": [
+        "node-red",
+        "KNX",
+        "ETS",
+        "eib",
+        "konnex",
+        "IOT",
+        "philips hue"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-knx-ultimate"
+    },
+    {
+      "id": "node-red-contrib-trexmes-oee-calculator",
+      "version": "1.1.8",
+      "description": "TrexMes OEE Calculator from IoBox Data",
+      "updated_at": "2024-04-09T21:54:14.786Z",
+      "types": [
+        "oee-calculator"
+      ],
+      "keywords": [
+        "node-red",
+        "TrexMes",
+        "oee",
+        "IoBox"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-trexmes-oee-calculator"
+    },
+    {
+      "id": "node-red-contrib-axis-com",
+      "version": "1.8.1",
+      "description": "Simplified integration with Axis devices",
+      "updated_at": "2024-04-09T19:04:01.989Z",
+      "types": [
+        "Device Access",
+        "Axis device",
+        "Axis camera",
+        "Axis ACAP",
+        "Axis Security"
+      ],
+      "keywords": [
+        "node-red",
+        "Axis",
+        "Camera"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-axis-com"
+    },
+    {
+      "id": "node-red-contrib-sonos-plus",
+      "version": "6.8.0",
+      "description": "A set of Node-RED nodes to control SONOS player in your local network.",
+      "updated_at": "2024-04-09T18:21:04.727Z",
+      "types": [
+        "sonos-config",
+        "sonos-manage-mysonos",
+        "sonos-universal"
+      ],
+      "keywords": [
+        "sonos",
+        "node-red",
+        "music",
+        "node-red-contrib-sonos-plus"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-sonos-plus"
+    },
+    {
+      "id": "node-red-contrib-virtual-smart-home",
+      "version": "4.4.0",
+      "description": "A Node-RED node that represents a 'virtual device' which can be controlled via Alexa. Requires the virtual smart home skill to be enabled for your Amazon account.",
+      "updated_at": "2024-04-09T16:11:12.009Z",
+      "types": [
+        "vsh-connection",
+        "vsh-virtual-device"
+      ],
+      "keywords": [
+        "Alexa",
+        "Echo",
+        "smart-home",
+        "node-red",
+        "virtual smart home",
+        "virtual device",
+        "Home Assistant",
+        "vsh"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-virtual-smart-home"
+    },
+    {
       "id": "node-red-contrib-boolean-logic-ultimate",
-      "version": "1.1.5",
+      "version": "1.1.7",
       "description": "A set of Node-RED enhanced boolean logic and utility nodes, flow interruption, blinker, invert, filter, toggle etc.., with persistent values after reboot. Compatible also with Homeassistant values.",
-      "updated_at": "2024-04-09T11:06:14.394Z",
+      "updated_at": "2024-04-09T15:59:35.223Z",
       "types": [
         "BooleanLogicUltimate",
         "InvertUltimate",
@@ -46,6 +183,37 @@
       "url": "https://flows.nodered.org/node/node-red-contrib-boolean-logic-ultimate"
     },
     {
+      "id": "@strato-automation/node-red-contrib-strato-automation",
+      "version": "0.5.8",
+      "description": "Strato Automation Official Node Red Library",
+      "updated_at": "2024-04-09T15:30:11.609Z",
+      "types": [
+        "input",
+        "output-ip",
+        "output-mstp",
+        "ocn-server",
+        "func-on-off",
+        "func-ramp",
+        "func-min",
+        "func-max",
+        "const",
+        "input-topic",
+        "unit-converter",
+        "logic-gate",
+        "not-gate",
+        "psychrometric-calculator",
+        "strato-pid",
+        "signal-generator",
+        "deadband",
+        "ocn-diagnostic"
+      ],
+      "keywords": [
+        "node-red",
+        "node-red-node"
+      ],
+      "url": "https://flows.nodered.org/node/@strato-automation/node-red-contrib-strato-automation"
+    },
+    {
       "id": "thingzi-logic-climate",
       "version": "1.0.7",
       "description": "Climate control via node red",
@@ -70,41 +238,6 @@
         "thingzi"
       ],
       "url": "https://flows.nodered.org/node/thingzi-logic-climate"
-    },
-    {
-      "id": "node-red-contrib-trexmes-oee-calculator",
-      "version": "1.1.6",
-      "description": "TrexMes OEE Calculator from IoBox Data",
-      "updated_at": "2024-04-09T10:55:57.748Z",
-      "types": [
-        "oee-calculator"
-      ],
-      "keywords": [
-        "node-red",
-        "TrexMes",
-        "oee",
-        "IoBox"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-trexmes-oee-calculator"
-    },
-    {
-      "id": "node-red-contrib-axis-com",
-      "version": "1.8.0",
-      "description": "Simplified integration with Axis devices",
-      "updated_at": "2024-04-09T10:06:12.854Z",
-      "types": [
-        "Device Access",
-        "Axis device",
-        "Axis camera",
-        "Axis ACAP",
-        "Axis Security"
-      ],
-      "keywords": [
-        "node-red",
-        "Axis",
-        "Camera"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-axis-com"
     },
     {
       "id": "@renyoo/node-red-dfrobot_noderedcomputer",
@@ -334,76 +467,6 @@
       "url": "https://flows.nodered.org/node/node-red-contrib-pushbell"
     },
     {
-      "id": "@strato-automation/node-red-contrib-strato-automation",
-      "version": "0.5.4",
-      "description": "Strato Automation Official Node Red Library",
-      "updated_at": "2024-04-08T13:01:35.115Z",
-      "types": [
-        "input",
-        "output-ip",
-        "output-mstp",
-        "ocn-server",
-        "func-on-off",
-        "func-ramp",
-        "func-min",
-        "func-max",
-        "const",
-        "input-topic",
-        "unit-converter",
-        "logic-gate",
-        "not-gate",
-        "psychrometric-calculator",
-        "strato-pid",
-        "signal-generator",
-        "deadband",
-        "ocn-diagnostic"
-      ],
-      "keywords": [
-        "node-red",
-        "node-red-node"
-      ],
-      "url": "https://flows.nodered.org/node/@strato-automation/node-red-contrib-strato-automation"
-    },
-    {
-      "id": "node-red-contrib-knx-ultimate",
-      "version": "2.4.21",
-      "description": "Control your KNX intallation via Node-Red! A bunch of KNX nodes, with integrated Philips HUE control and ETS group address importer. Easy to use and highly configurable.",
-      "updated_at": "2024-04-08T09:43:52.344Z",
-      "types": [
-        "knxUltimate",
-        "knxUltimateSceneController",
-        "knxUltimateWatchDog",
-        "knxUltimateLogger",
-        "knxUltimate-config",
-        "knxUltimateGlobalContext",
-        "knxUltimateAlerter",
-        "knxUltimateLoadControl",
-        "knxUltimateViewer",
-        "hue-config",
-        "knxUltimateHueLight",
-        "knxUltimateHueButton",
-        "knxUltimateHueMotion",
-        "knxUltimateHueTapDial",
-        "knxUltimateHueLightSensor",
-        "knxUltimateHueTemperatureSensor",
-        "knxUltimateHueScene",
-        "knxUltimateHueBattery",
-        "knxUltimateHueZigbeeConnectivity",
-        "knxUltimateHueContactSensor",
-        "knxUltimateHATranslator"
-      ],
-      "keywords": [
-        "node-red",
-        "KNX",
-        "ETS",
-        "eib",
-        "konnex",
-        "IOT",
-        "philips hue"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-knx-ultimate"
-    },
-    {
       "id": "node-red-contrib-ui-ctrl-multistate-switch",
       "version": "1.0.0",
       "description": "A Node Red node to show a switch with multiple states in the Node-RED dashboard",
@@ -432,24 +495,6 @@
         "node-red"
       ],
       "url": "https://flows.nodered.org/node/@autexis/node-red-contrib-balluff-smartlight"
-    },
-    {
-      "id": "node-red-contrib-sonos-plus",
-      "version": "6.7.8",
-      "description": "A set of Node-RED nodes to control SONOS player in your local network.",
-      "updated_at": "2024-04-08T08:31:49.871Z",
-      "types": [
-        "sonos-config",
-        "sonos-manage-mysonos",
-        "sonos-universal"
-      ],
-      "keywords": [
-        "sonos",
-        "node-red",
-        "music",
-        "node-red-contrib-sonos-plus"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-sonos-plus"
     },
     {
       "id": "@tec6/node-red-humhub-services",
@@ -627,30 +672,6 @@
         "smb"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-smb2.5"
-    },
-    {
-      "id": "node-red-contrib-superpower-smart-test",
-      "version": "1.2.2",
-      "description": "Node-RED integration with eWeLink Cube",
-      "updated_at": "2024-04-07T01:50:12.056Z",
-      "types": [
-        "api-server",
-        "get-devices",
-        "event-state",
-        "event-online",
-        "control-device",
-        "event-add-device",
-        "event-del-device",
-        "event-device-info",
-        "put-device-state",
-        "register-device"
-      ],
-      "keywords": [
-        "node-red",
-        "ewelink",
-        "ewelink-cube"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-superpower-smart-test"
     },
     {
       "id": "node-red-contrib-superpower-test",
@@ -1447,27 +1468,6 @@
         "education"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-aula-education"
-    },
-    {
-      "id": "node-red-contrib-virtual-smart-home",
-      "version": "4.3.0",
-      "description": "A Node-RED node that represents a 'virtual device' which can be controlled via Alexa. Requires the virtual smart home skill to be enabled for your Amazon account.",
-      "updated_at": "2024-03-28T10:20:07.090Z",
-      "types": [
-        "vsh-connection",
-        "vsh-virtual-device"
-      ],
-      "keywords": [
-        "Alexa",
-        "Echo",
-        "smart-home",
-        "node-red",
-        "virtual smart home",
-        "virtual device",
-        "Home Assistant",
-        "vsh"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-virtual-smart-home"
     },
     {
       "id": "@background404/node-red-contrib-mcu-servo",
