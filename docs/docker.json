@@ -1,7 +1,171 @@
 {
   "name": "Catalogue for Docker",
-  "updated_at": "2024-04-10T15:58:37.052Z",
+  "updated_at": "2024-04-11T15:59:14.346Z",
   "modules": [
+    {
+      "id": "node-red-contrib-thinger",
+      "version": "1.7.2",
+      "description": "Node-Red library for Thinger.io Platform",
+      "updated_at": "2024-04-11T14:18:42.291Z",
+      "types": [
+        "asset-iterator",
+        "bucket-create",
+        "bucket-read",
+        "bucket-write",
+        "device-callback",
+        "device-create",
+        "device-read",
+        "device-stream",
+        "device-write",
+        "endpoint-call",
+        "property-read",
+        "property-write",
+        "storage-read",
+        "storage-write",
+        "server-events",
+        "thinger-server"
+      ],
+      "keywords": [
+        "node-red",
+        "thinger.io",
+        "IoT",
+        "arduino",
+        "raspberry"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-thinger"
+    },
+    {
+      "id": "node-red-contrib-smb2.5",
+      "version": "1.16.0",
+      "description": "Node-RED for the SMB protocol",
+      "updated_at": "2024-04-11T09:35:24.460Z",
+      "types": [
+        "SMB",
+        "smb config"
+      ],
+      "keywords": [
+        "node-red",
+        "smb"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-smb2.5"
+    },
+    {
+      "id": "node-red-contrib-better-queue",
+      "version": "1.0.1",
+      "description": "Better Queue library implementation in node-red",
+      "updated_at": "2024-04-10T21:07:24.364Z",
+      "types": [
+        "queue",
+        "retry-config"
+      ],
+      "keywords": [
+        "node-red"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-better-queue"
+    },
+    {
+      "id": "@strato-automation/node-red-contrib-strato-automation",
+      "version": "0.5.9",
+      "description": "Strato Automation Official Node Red Library",
+      "updated_at": "2024-04-10T19:27:39.805Z",
+      "types": [
+        "input",
+        "output-ip",
+        "output-mstp",
+        "ocn-server",
+        "func-on-off",
+        "func-ramp",
+        "func-min",
+        "func-max",
+        "const",
+        "input-topic",
+        "unit-converter",
+        "logic-gate",
+        "not-gate",
+        "psychrometric-calculator",
+        "strato-pid",
+        "signal-generator",
+        "deadband",
+        "ocn-diagnostic"
+      ],
+      "keywords": [
+        "node-red",
+        "node-red-node"
+      ],
+      "url": "https://flows.nodered.org/node/@strato-automation/node-red-contrib-strato-automation"
+    },
+    {
+      "id": "smart-nodes",
+      "version": "0.3.30",
+      "description": "Smart Nodes",
+      "updated_at": "2024-04-10T18:56:04.811Z",
+      "types": [
+        "smart_light-control",
+        "smart_scene-control",
+        "smart_shutter-control",
+        "smart_shutter-complex-control",
+        "smart_long-press-control",
+        "smart_multi-press-control",
+        "smart_logic",
+        "smart_forwarder",
+        "smart_compare",
+        "smart_hysteresis",
+        "smart_statistic",
+        "smart_counter",
+        "smart_scheduler",
+        "smart_delay",
+        "smart_central-control",
+        "__errors__",
+        "smart_mixing-valve",
+        "smart_heating-curve",
+        "smart_text-exec"
+      ],
+      "keywords": [
+        "node-red",
+        "smart nodes",
+        "light control",
+        "shutter control",
+        "long press",
+        "multi press",
+        "scene",
+        "scenes",
+        "delay",
+        "forwarder",
+        "logic",
+        "hysteresis",
+        "compare",
+        "comparator",
+        "statistic",
+        "counter",
+        "scheduler",
+        "central",
+        "heating",
+        "mixing valve",
+        "heating curve",
+        "text execution"
+      ],
+      "url": "https://flows.nodered.org/node/smart-nodes"
+    },
+    {
+      "id": "@ncd-io/node-red-enterprise-sensors",
+      "version": "0.1.19",
+      "description": "You can install this library through the Palette Manager in Node-Red's UI.",
+      "updated_at": "2024-04-10T14:43:17.842Z",
+      "types": [
+        "ncd-gateway-node",
+        "ncd-wireless-node",
+        "ncd-gateway-config"
+      ],
+      "keywords": [
+        "Wireless",
+        "NCD",
+        "Sensors",
+        "Digi",
+        "node-red",
+        "enterprise"
+      ],
+      "url": "https://flows.nodered.org/node/@ncd-io/node-red-enterprise-sensors"
+    },
     {
       "id": "node-red-subflow-axis-provisioning",
       "version": "1.1.1",
@@ -181,37 +345,6 @@
         "logic"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-boolean-logic-ultimate"
-    },
-    {
-      "id": "@strato-automation/node-red-contrib-strato-automation",
-      "version": "0.5.8",
-      "description": "Strato Automation Official Node Red Library",
-      "updated_at": "2024-04-09T15:30:11.609Z",
-      "types": [
-        "input",
-        "output-ip",
-        "output-mstp",
-        "ocn-server",
-        "func-on-off",
-        "func-ramp",
-        "func-min",
-        "func-max",
-        "const",
-        "input-topic",
-        "unit-converter",
-        "logic-gate",
-        "not-gate",
-        "psychrometric-calculator",
-        "strato-pid",
-        "signal-generator",
-        "deadband",
-        "ocn-diagnostic"
-      ],
-      "keywords": [
-        "node-red",
-        "node-red-node"
-      ],
-      "url": "https://flows.nodered.org/node/@strato-automation/node-red-contrib-strato-automation"
     },
     {
       "id": "thingzi-logic-climate",
@@ -657,21 +790,6 @@
         "node-red"
       ],
       "url": "https://flows.nodered.org/node/@rotflorg/node-red-contrib-ecoflow-powerstream"
-    },
-    {
-      "id": "node-red-contrib-smb2.5",
-      "version": "1.14.0",
-      "description": "Node-RED for the SMB protocol",
-      "updated_at": "2024-04-07T01:55:26.792Z",
-      "types": [
-        "SMB",
-        "smb config"
-      ],
-      "keywords": [
-        "node-red",
-        "smb"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-smb2.5"
     },
     {
       "id": "node-red-contrib-superpower-test",
@@ -1292,58 +1410,6 @@
         "Ubiquiti Networks"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-unifi"
-    },
-    {
-      "id": "smart-nodes",
-      "version": "0.3.28",
-      "description": "Smart Nodes",
-      "updated_at": "2024-03-30T14:58:01.502Z",
-      "types": [
-        "smart_light-control",
-        "smart_scene-control",
-        "smart_shutter-control",
-        "smart_shutter-complex-control",
-        "smart_long-press-control",
-        "smart_multi-press-control",
-        "smart_logic",
-        "smart_forwarder",
-        "smart_compare",
-        "smart_hysteresis",
-        "smart_statistic",
-        "smart_counter",
-        "smart_scheduler",
-        "smart_delay",
-        "smart_central-control",
-        "__errors__",
-        "smart_mixing-valve",
-        "smart_heating-curve",
-        "smart_text-exec"
-      ],
-      "keywords": [
-        "node-red",
-        "smart nodes",
-        "light control",
-        "shutter control",
-        "long press",
-        "multi press",
-        "scene",
-        "scenes",
-        "delay",
-        "forwarder",
-        "logic",
-        "hysteresis",
-        "compare",
-        "comparator",
-        "statistic",
-        "counter",
-        "scheduler",
-        "central",
-        "heating",
-        "mixing valve",
-        "heating curve",
-        "text execution"
-      ],
-      "url": "https://flows.nodered.org/node/smart-nodes"
     },
     {
       "id": "node-red-contrib-onstar2",
@@ -2753,26 +2819,6 @@
       "url": "https://flows.nodered.org/node/@chvdapi/node-red-en6400-led"
     },
     {
-      "id": "@ncd-io/node-red-enterprise-sensors",
-      "version": "0.1.18",
-      "description": "You can install this library through the Palette Manager in Node-Red's UI.",
-      "updated_at": "2024-03-13T21:43:44.668Z",
-      "types": [
-        "ncd-gateway-node",
-        "ncd-wireless-node",
-        "ncd-gateway-config"
-      ],
-      "keywords": [
-        "Wireless",
-        "NCD",
-        "Sensors",
-        "Digi",
-        "node-red",
-        "enterprise"
-      ],
-      "url": "https://flows.nodered.org/node/@ncd-io/node-red-enterprise-sensors"
-    },
-    {
       "id": "@jpdlm/node-red-contrib-sap-service-layer",
       "version": "0.1.2",
       "description": "Unofficial Module SAP Service Layer for Node-Red",
@@ -2904,38 +2950,6 @@
         "output"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-relay-no-nc"
-    },
-    {
-      "id": "node-red-contrib-thinger",
-      "version": "1.7.1",
-      "description": "Node-Red library for Thinger.io Platform",
-      "updated_at": "2024-03-12T17:17:50.878Z",
-      "types": [
-        "asset-iterator",
-        "bucket-create",
-        "bucket-read",
-        "bucket-write",
-        "device-callback",
-        "device-create",
-        "device-read",
-        "device-stream",
-        "device-write",
-        "endpoint-call",
-        "property-read",
-        "property-write",
-        "storage-read",
-        "storage-write",
-        "server-events",
-        "thinger-server"
-      ],
-      "keywords": [
-        "node-red",
-        "thinger.io",
-        "IoT",
-        "arduino",
-        "raspberry"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-thinger"
     },
     {
       "id": "@inteli.city/node-red-contrib-exec-collection",
