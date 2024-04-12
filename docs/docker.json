@@ -1,12 +1,73 @@
 {
   "name": "Catalogue for Docker",
-  "updated_at": "2024-04-11T15:59:14.346Z",
+  "updated_at": "2024-04-12T15:57:20.674Z",
   "modules": [
     {
+      "id": "@gregoriusrippenstein/node-red-contrib-flowhub",
+      "version": "0.7.4",
+      "description": "Nodes for interacting with FlowHub.org.",
+      "updated_at": "2024-04-12T13:10:25.424Z",
+      "types": [
+        "FlowHubPull",
+        "FlowHubCfg"
+      ],
+      "keywords": [
+        "node-red",
+        "flowhub",
+        "flow-sharing",
+        "collaborative",
+        "flow-development"
+      ],
+      "url": "https://flows.nodered.org/node/@gregoriusrippenstein/node-red-contrib-flowhub"
+    },
+    {
+      "id": "victron-dynamic-ess",
+      "version": "0.1.18",
+      "description": "Fetch the ideal ESS setpoint from VRM",
+      "updated_at": "2024-04-12T12:23:45.537Z",
+      "types": [
+        "victron-dynamic-ess"
+      ],
+      "keywords": [
+        "node-red",
+        "victron",
+        "dynamic ess",
+        "scheduled charging",
+        "ess"
+      ],
+      "url": "https://flows.nodered.org/node/victron-dynamic-ess"
+    },
+    {
+      "id": "node-red-contrib-opcua",
+      "version": "0.2.325",
+      "description": "A Node-RED node to communicate via OPC UA based on node-opcua library.",
+      "updated_at": "2024-04-12T10:15:33.114Z",
+      "types": [
+        "OpcUa-Item",
+        "OpcUa-Client",
+        "OpcUa-Browser",
+        "OpcUa-Server",
+        "OpcUa-Endpoint",
+        "OpcUa-Event",
+        "OpcUa-Method",
+        "OpcUa-Rights",
+        "OpcUa-Discovery"
+      ],
+      "keywords": [
+        "node-red",
+        "OPC UA",
+        "opc-ua",
+        "unified automation",
+        "opc foundation",
+        "node-opcua"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-opcua"
+    },
+    {
       "id": "node-red-contrib-thinger",
-      "version": "1.7.2",
+      "version": "1.7.4",
       "description": "Node-Red library for Thinger.io Platform",
-      "updated_at": "2024-04-11T14:18:42.291Z",
+      "updated_at": "2024-04-12T09:56:47.827Z",
       "types": [
         "asset-iterator",
         "bucket-create",
@@ -33,6 +94,135 @@
         "raspberry"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-thinger"
+    },
+    {
+      "id": "@chvdapi/node-red-pn4800-do",
+      "version": "0.0.2",
+      "description": "A node by chvda to drive DO on PN4800",
+      "updated_at": "2024-04-12T08:50:02.936Z",
+      "types": [
+        "PN4800_DO",
+        "PN4800_DO_manual",
+        "PN4800_DO_Status"
+      ],
+      "keywords": [
+        "node-red"
+      ],
+      "url": "https://flows.nodered.org/node/@chvdapi/node-red-pn4800-do"
+    },
+    {
+      "id": "@umsicht/node-red-contrib-thingsdata",
+      "version": "1.3.2",
+      "description": "Node-RED nodes to work with the ThingsData S3 Storage System and ThingsData InfluxDB",
+      "updated_at": "2024-04-12T07:58:00.209Z",
+      "types": [
+        "thingsdata-s3-config",
+        "thingsdata s3 delete",
+        "thingsdata s3 get",
+        "thingsdata s3 list buckets",
+        "thingsdata s3 list objects",
+        "thingsdata s3 put",
+        "thingsdata s3 watch",
+        "value out",
+        "flex out",
+        "latest in"
+      ],
+      "keywords": [
+        "node-red",
+        "thingsdata"
+      ],
+      "url": "https://flows.nodered.org/node/@umsicht/node-red-contrib-thingsdata"
+    },
+    {
+      "id": "node-red-contrib-ha-light-transition",
+      "version": "0.1.13",
+      "description": "Light transition node for Home Assistant",
+      "updated_at": "2024-04-12T06:52:08.733Z",
+      "types": [],
+      "keywords": [
+        "node-red",
+        "home-assistant",
+        "ha",
+        "transition",
+        "light"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-ha-light-transition"
+    },
+    {
+      "id": "node-red-subflow-axis-provisioning",
+      "version": "1.1.3",
+      "description": "Axis device staging and mass configuration",
+      "updated_at": "2024-04-11T20:00:53.545Z",
+      "types": [],
+      "keywords": [
+        "node-red",
+        "Axis",
+        "Provisioning"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-subflow-axis-provisioning"
+    },
+    {
+      "id": "smart-nodes",
+      "version": "0.3.31",
+      "description": "Smart Nodes",
+      "updated_at": "2024-04-11T18:55:11.107Z",
+      "types": [
+        "smart_light-control",
+        "smart_scene-control",
+        "smart_shutter-control",
+        "smart_shutter-complex-control",
+        "smart_long-press-control",
+        "smart_multi-press-control",
+        "smart_logic",
+        "smart_forwarder",
+        "smart_compare",
+        "smart_hysteresis",
+        "smart_statistic",
+        "smart_counter",
+        "smart_scheduler",
+        "smart_delay",
+        "smart_central-control",
+        "__errors__",
+        "smart_mixing-valve",
+        "smart_heating-curve",
+        "smart_text-exec"
+      ],
+      "keywords": [
+        "node-red",
+        "smart nodes",
+        "light control",
+        "shutter control",
+        "long press",
+        "multi press",
+        "scene",
+        "scenes",
+        "delay",
+        "forwarder",
+        "logic",
+        "hysteresis",
+        "compare",
+        "comparator",
+        "statistic",
+        "counter",
+        "scheduler",
+        "central",
+        "heating",
+        "mixing valve",
+        "heating curve",
+        "text execution"
+      ],
+      "url": "https://flows.nodered.org/node/smart-nodes"
+    },
+    {
+      "id": "@colinl/node-red-guaranteed-delivery",
+      "version": "1.0.0",
+      "description": "A node-red node to facilitate guaranteed delivery of messages (upload, email, MQTT etc) across a network",
+      "updated_at": "2024-04-11T13:20:14.655Z",
+      "types": [],
+      "keywords": [
+        "node-red"
+      ],
+      "url": "https://flows.nodered.org/node/@colinl/node-red-guaranteed-delivery"
     },
     {
       "id": "node-red-contrib-smb2.5",
@@ -95,58 +285,6 @@
       "url": "https://flows.nodered.org/node/@strato-automation/node-red-contrib-strato-automation"
     },
     {
-      "id": "smart-nodes",
-      "version": "0.3.30",
-      "description": "Smart Nodes",
-      "updated_at": "2024-04-10T18:56:04.811Z",
-      "types": [
-        "smart_light-control",
-        "smart_scene-control",
-        "smart_shutter-control",
-        "smart_shutter-complex-control",
-        "smart_long-press-control",
-        "smart_multi-press-control",
-        "smart_logic",
-        "smart_forwarder",
-        "smart_compare",
-        "smart_hysteresis",
-        "smart_statistic",
-        "smart_counter",
-        "smart_scheduler",
-        "smart_delay",
-        "smart_central-control",
-        "__errors__",
-        "smart_mixing-valve",
-        "smart_heating-curve",
-        "smart_text-exec"
-      ],
-      "keywords": [
-        "node-red",
-        "smart nodes",
-        "light control",
-        "shutter control",
-        "long press",
-        "multi press",
-        "scene",
-        "scenes",
-        "delay",
-        "forwarder",
-        "logic",
-        "hysteresis",
-        "compare",
-        "comparator",
-        "statistic",
-        "counter",
-        "scheduler",
-        "central",
-        "heating",
-        "mixing valve",
-        "heating curve",
-        "text execution"
-      ],
-      "url": "https://flows.nodered.org/node/smart-nodes"
-    },
-    {
       "id": "@ncd-io/node-red-enterprise-sensors",
       "version": "0.1.19",
       "description": "You can install this library through the Palette Manager in Node-Red's UI.",
@@ -165,19 +303,6 @@
         "enterprise"
       ],
       "url": "https://flows.nodered.org/node/@ncd-io/node-red-enterprise-sensors"
-    },
-    {
-      "id": "node-red-subflow-axis-provisioning",
-      "version": "1.1.1",
-      "description": "Axis device staging and mass configuration",
-      "updated_at": "2024-04-10T13:38:46.582Z",
-      "types": [],
-      "keywords": [
-        "node-red",
-        "Axis",
-        "Provisioning"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-subflow-axis-provisioning"
     },
     {
       "id": "node-red-contrib-superpower-smart-test",
@@ -1086,24 +1211,6 @@
       "url": "https://flows.nodered.org/node/@mschaeffler/node-red-logic"
     },
     {
-      "id": "@gregoriusrippenstein/node-red-contrib-flowhub",
-      "version": "0.7.3",
-      "description": "Nodes for interacting with FlowHub.org.",
-      "updated_at": "2024-04-04T07:49:51.416Z",
-      "types": [
-        "FlowHubPull",
-        "FlowHubCfg"
-      ],
-      "keywords": [
-        "node-red",
-        "flowhub",
-        "flow-sharing",
-        "collaborative",
-        "flow-development"
-      ],
-      "url": "https://flows.nodered.org/node/@gregoriusrippenstein/node-red-contrib-flowhub"
-    },
-    {
       "id": "@mschaeffler/node-red-format",
       "version": "1.0.0",
       "description": "nodes for formatting of simple data.",
@@ -1144,29 +1251,6 @@
         "dayjs"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-dayjs"
-    },
-    {
-      "id": "@umsicht/node-red-contrib-thingsdata",
-      "version": "1.3.0",
-      "description": "Node-RED nodes to work with the ThingsData S3 Storage System and ThingsData InfluxDB",
-      "updated_at": "2024-04-03T09:23:33.654Z",
-      "types": [
-        "thingsdata-s3-config",
-        "thingsdata s3 delete",
-        "thingsdata s3 get",
-        "thingsdata s3 list buckets",
-        "thingsdata s3 list objects",
-        "thingsdata s3 put",
-        "thingsdata s3 watch",
-        "value out",
-        "flex out",
-        "latest in"
-      ],
-      "keywords": [
-        "node-red",
-        "thingsdata"
-      ],
-      "url": "https://flows.nodered.org/node/@umsicht/node-red-contrib-thingsdata"
     },
     {
       "id": "@gogovega/node-red-contrib-firebase-realtime-database",
@@ -2536,23 +2620,6 @@
       "url": "https://flows.nodered.org/node/node-red-contrib-route53-update"
     },
     {
-      "id": "victron-dynamic-ess",
-      "version": "0.1.17",
-      "description": "Fetch the ideal ESS setpoint from VRM",
-      "updated_at": "2024-03-15T21:00:19.608Z",
-      "types": [
-        "victron-dynamic-ess"
-      ],
-      "keywords": [
-        "node-red",
-        "victron",
-        "dynamic ess",
-        "scheduled charging",
-        "ess"
-      ],
-      "url": "https://flows.nodered.org/node/victron-dynamic-ess"
-    },
-    {
       "id": "@blebtechnology/node-red-blebricks",
       "version": "1.0.22",
       "description": "A node-red package to manage blebricks data",
@@ -2862,6 +2929,20 @@
         "bodhi"
       ],
       "url": "https://flows.nodered.org/node/@softwaredevelopment/node-red-contrib-bodhi-connector"
+    },
+    {
+      "id": "node-red-contrib-uddf-to-srt",
+      "version": "1.2.8",
+      "description": "Convert UDDF to SRT",
+      "updated_at": "2024-03-13T20:45:21.291Z",
+      "types": [
+        "uddf-to-srt",
+        "uddf-to-srt-mini"
+      ],
+      "keywords": [
+        "node-red"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-uddf-to-srt"
     },
     {
       "id": "node-red-contrib-obs-ws",
@@ -5042,32 +5123,6 @@
         "smithtek"
       ],
       "url": "https://flows.nodered.org/node/smithtek-node-red-lora"
-    },
-    {
-      "id": "node-red-contrib-opcua",
-      "version": "0.2.323",
-      "description": "A Node-RED node to communicate via OPC UA based on node-opcua library.",
-      "updated_at": "2024-02-15T07:55:49.056Z",
-      "types": [
-        "OpcUa-Item",
-        "OpcUa-Client",
-        "OpcUa-Browser",
-        "OpcUa-Server",
-        "OpcUa-Endpoint",
-        "OpcUa-Event",
-        "OpcUa-Method",
-        "OpcUa-Rights",
-        "OpcUa-Discovery"
-      ],
-      "keywords": [
-        "node-red",
-        "OPC UA",
-        "opc-ua",
-        "unified automation",
-        "opc foundation",
-        "node-opcua"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-opcua"
     },
     {
       "id": "node-red-contrib-br_navigator-webassistant",
@@ -18494,21 +18549,6 @@
         "Harshad Joshi"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-oee-fsm"
-    },
-    {
-      "id": "@chvdapi/node-red-pn4800-do",
-      "version": "0.0.1",
-      "description": "A node by chvda to drive DO on PN4800",
-      "updated_at": "2023-04-27T04:34:46.210Z",
-      "types": [
-        "PN4800_DO",
-        "PN4800_DO_manual",
-        "PN4800_DO_Status"
-      ],
-      "keywords": [
-        "node-red"
-      ],
-      "url": "https://flows.nodered.org/node/@chvdapi/node-red-pn4800-do"
     },
     {
       "id": "@chvdapi/node-red-pn4800-di",
