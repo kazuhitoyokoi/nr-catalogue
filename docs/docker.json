@@ -1,12 +1,29 @@
 {
   "name": "Catalogue for Docker",
-  "updated_at": "2024-04-12T15:57:20.674Z",
+  "updated_at": "2024-04-13T15:52:47.376Z",
   "modules": [
     {
+      "id": "@opcua/for-node-red",
+      "version": "2.12.0",
+      "description": "The Node-RED node to communicate via OPC UA, powered NodeOPCUA and developed by Sterfive's team",
+      "updated_at": "2024-04-13T10:11:33.181Z",
+      "types": [],
+      "keywords": [
+        "node-red",
+        "OPC UA",
+        "opc-ua",
+        "unified architecture",
+        "opc foundation",
+        "node-opcua",
+        "IIoT"
+      ],
+      "url": "https://flows.nodered.org/node/@opcua/for-node-red"
+    },
+    {
       "id": "@gregoriusrippenstein/node-red-contrib-flowhub",
-      "version": "0.7.4",
-      "description": "Nodes for interacting with FlowHub.org.",
-      "updated_at": "2024-04-12T13:10:25.424Z",
+      "version": "0.7.5",
+      "description": "FlowHub.org: flow management with GitHub.",
+      "updated_at": "2024-04-13T10:00:44.455Z",
       "types": [
         "FlowHubPull",
         "FlowHubCfg"
@@ -16,9 +33,79 @@
         "flowhub",
         "flow-sharing",
         "collaborative",
-        "flow-development"
+        "flow-development",
+        "flow-management",
+        "github"
       ],
       "url": "https://flows.nodered.org/node/@gregoriusrippenstein/node-red-contrib-flowhub"
+    },
+    {
+      "id": "@breshinas/node-red-contrib-amqp",
+      "version": "1.5.0",
+      "description": "Amqp nodes for node-red",
+      "updated_at": "2024-04-13T07:20:53.220Z",
+      "types": [],
+      "keywords": [
+        "node-red",
+        "amqp",
+        "rabbitmq"
+      ],
+      "url": "https://flows.nodered.org/node/@breshinas/node-red-contrib-amqp"
+    },
+    {
+      "id": "node-red-contrib-smarthomefans",
+      "version": "1.1.4",
+      "description": "小爱啊",
+      "updated_at": "2024-04-13T06:04:13.539Z",
+      "types": [
+        "SmartHome-Bot-Account",
+        "SmartHome-Bot-Config",
+        "SmartHome-Bot",
+        "SmartHome-Bot-End",
+        "BizWeChat-Bot",
+        "BizWeChat-Pushbear",
+        "Fanyi-Bot",
+        "Fanyi-Hass-Config"
+      ],
+      "keywords": [
+        "node-red"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-smarthomefans"
+    },
+    {
+      "id": "node-red-contrib-home-assistant-websocket",
+      "version": "0.64.0",
+      "description": "Node-RED integration with Home Assistant through websocket and REST API",
+      "updated_at": "2024-04-12T23:27:03.154Z",
+      "types": [],
+      "keywords": [
+        "node-red",
+        "home-assistant",
+        "home assistant",
+        "home automation",
+        "websocket"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-home-assistant-websocket"
+    },
+    {
+      "id": "@ncd-io/node-red-enterprise-sensors",
+      "version": "0.1.20",
+      "description": "You can install this library through the Palette Manager in Node-Red's UI.",
+      "updated_at": "2024-04-12T16:43:56.172Z",
+      "types": [
+        "ncd-gateway-node",
+        "ncd-wireless-node",
+        "ncd-gateway-config"
+      ],
+      "keywords": [
+        "Wireless",
+        "NCD",
+        "Sensors",
+        "Digi",
+        "node-red",
+        "enterprise"
+      ],
+      "url": "https://flows.nodered.org/node/@ncd-io/node-red-enterprise-sensors"
     },
     {
       "id": "victron-dynamic-ess",
@@ -283,26 +370,6 @@
         "node-red-node"
       ],
       "url": "https://flows.nodered.org/node/@strato-automation/node-red-contrib-strato-automation"
-    },
-    {
-      "id": "@ncd-io/node-red-enterprise-sensors",
-      "version": "0.1.19",
-      "description": "You can install this library through the Palette Manager in Node-Red's UI.",
-      "updated_at": "2024-04-10T14:43:17.842Z",
-      "types": [
-        "ncd-gateway-node",
-        "ncd-wireless-node",
-        "ncd-gateway-config"
-      ],
-      "keywords": [
-        "Wireless",
-        "NCD",
-        "Sensors",
-        "Digi",
-        "node-red",
-        "enterprise"
-      ],
-      "url": "https://flows.nodered.org/node/@ncd-io/node-red-enterprise-sensors"
     },
     {
       "id": "node-red-contrib-superpower-smart-test",
@@ -597,21 +664,6 @@
         "node-red"
       ],
       "url": "https://flows.nodered.org/node/tams-node-contrib"
-    },
-    {
-      "id": "node-red-contrib-home-assistant-websocket",
-      "version": "0.63.2",
-      "description": "Node-RED integration with Home Assistant through websocket and REST API",
-      "updated_at": "2024-04-09T02:59:44.445Z",
-      "types": [],
-      "keywords": [
-        "node-red",
-        "home-assistant",
-        "home assistant",
-        "home automation",
-        "websocket"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-home-assistant-websocket"
     },
     {
       "id": "@soupbowl/node-red-sharp",
@@ -1348,23 +1400,6 @@
         "node-red"
       ],
       "url": "https://flows.nodered.org/node/l2l-endpoints"
-    },
-    {
-      "id": "@opcua/for-node-red",
-      "version": "2.11.0",
-      "description": "The Node-RED node to communicate via OPC UA, powered NodeOPCUA and developed by Sterfive's team",
-      "updated_at": "2024-04-01T15:36:57.409Z",
-      "types": [],
-      "keywords": [
-        "node-red",
-        "OPC UA",
-        "opc-ua",
-        "unified architecture",
-        "opc foundation",
-        "node-opcua",
-        "IIoT"
-      ],
-      "url": "https://flows.nodered.org/node/@opcua/for-node-red"
     },
     {
       "id": "@kitazaki/node-red-contrib-obniz",
@@ -5995,6 +6030,49 @@
         "api"
       ],
       "url": "https://flows.nodered.org/node/victron-vrm-api"
+    },
+    {
+      "id": "node-red-contrib-ha-mqtt",
+      "version": "1.2.14",
+      "description": "Generate MQTT entities in HomeAssistant",
+      "updated_at": "2024-01-27T15:22:01.743Z",
+      "types": [
+        "ha-mqtt-device",
+        "ha-mqtt-discovery",
+        "ha-mqtt-alarm_control_panel",
+        "ha-mqtt-binary_sensor",
+        "ha-mqtt-button",
+        "ha-mqtt-camera",
+        "ha-mqtt-climate",
+        "ha-mqtt-cover",
+        "ha-mqtt-device_automation",
+        "ha-mqtt-device_tracker",
+        "ha-mqtt-event",
+        "ha-mqtt-fan",
+        "ha-mqtt-humidifier",
+        "ha-mqtt-image",
+        "ha-mqtt-lawn_mower",
+        "ha-mqtt-light",
+        "ha-mqtt-lock",
+        "ha-mqtt-number",
+        "ha-mqtt-scene",
+        "ha-mqtt-select",
+        "ha-mqtt-sensor",
+        "ha-mqtt-siren",
+        "ha-mqtt-switch",
+        "ha-mqtt-tag",
+        "ha-mqtt-text",
+        "ha-mqtt-update",
+        "ha-mqtt-vacuum",
+        "ha-mqtt-water_heater"
+      ],
+      "keywords": [
+        "node-red",
+        "ha-mqtt",
+        "homeassistant",
+        "home-assistant"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-ha-mqtt"
     },
     {
       "id": "node-red-contrib-niu-cloud",
@@ -11473,49 +11551,6 @@
         "node-red"
       ],
       "url": "https://flows.nodered.org/node/@sammachin/node-red-matter-bridge"
-    },
-    {
-      "id": "node-red-contrib-ha-mqtt",
-      "version": "1.2.13",
-      "description": "Generate MQTT entities in HomeAssistant",
-      "updated_at": "2023-10-09T08:48:14.396Z",
-      "types": [
-        "ha-mqtt-device",
-        "ha-mqtt-discovery",
-        "ha-mqtt-alarm_control_panel",
-        "ha-mqtt-binary_sensor",
-        "ha-mqtt-button",
-        "ha-mqtt-camera",
-        "ha-mqtt-climate",
-        "ha-mqtt-cover",
-        "ha-mqtt-device_automation",
-        "ha-mqtt-device_tracker",
-        "ha-mqtt-event",
-        "ha-mqtt-fan",
-        "ha-mqtt-humidifier",
-        "ha-mqtt-image",
-        "ha-mqtt-lawn_mower",
-        "ha-mqtt-light",
-        "ha-mqtt-lock",
-        "ha-mqtt-number",
-        "ha-mqtt-scene",
-        "ha-mqtt-select",
-        "ha-mqtt-sensor",
-        "ha-mqtt-siren",
-        "ha-mqtt-switch",
-        "ha-mqtt-tag",
-        "ha-mqtt-text",
-        "ha-mqtt-update",
-        "ha-mqtt-vacuum",
-        "ha-mqtt-water_heater"
-      ],
-      "keywords": [
-        "node-red",
-        "ha-mqtt",
-        "homeassistant",
-        "home-assistant"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-ha-mqtt"
     },
     {
       "id": "@terranlabs/email-nodes",
@@ -45476,26 +45511,6 @@
         "calendar"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-ddate"
-    },
-    {
-      "id": "node-red-contrib-smarthomefans",
-      "version": "1.1.2",
-      "description": "小爱啊",
-      "updated_at": "2021-03-13T15:39:11.220Z",
-      "types": [
-        "SmartHome-Bot-Account",
-        "SmartHome-Bot-Config",
-        "SmartHome-Bot",
-        "SmartHome-Bot-End",
-        "BizWeChat-Bot",
-        "BizWeChat-Pushbear",
-        "Fanyi-Bot",
-        "Fanyi-Hass-Config"
-      ],
-      "keywords": [
-        "node-red"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-smarthomefans"
     },
     {
       "id": "node-red-contrib-require",
