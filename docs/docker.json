@@ -1,7 +1,297 @@
 {
   "name": "Catalogue for Docker",
-  "updated_at": "2024-04-15T15:56:33.259Z",
+  "updated_at": "2024-04-16T15:57:46.840Z",
   "modules": [
+    {
+      "id": "node-red-contrib-operatelogic",
+      "version": "1.0.10",
+      "description": "Node-RED OperateLogic Node",
+      "updated_at": "2024-04-16T14:20:20.807Z",
+      "types": [
+        "OperateLogic"
+      ],
+      "keywords": [
+        "node-red",
+        "operate",
+        "mode",
+        "rules"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-operatelogic"
+    },
+    {
+      "id": "victron-vrm-api",
+      "version": "0.2.2",
+      "description": "Interface with the Victron Energy VRM API",
+      "updated_at": "2024-04-16T13:44:08.728Z",
+      "types": [
+        "config-vrm-api",
+        "vrm-api"
+      ],
+      "keywords": [
+        "node-red",
+        "victron",
+        "vrm",
+        "api"
+      ],
+      "url": "https://flows.nodered.org/node/victron-vrm-api"
+    },
+    {
+      "id": "node-red-contrib-hikvision-ultimate",
+      "version": "1.1.17",
+      "description": "A native set of nodes for Hikvision (and compatible) Cameras, Alarms, Radars, NVR, Doorbells, etc.",
+      "updated_at": "2024-04-16T10:18:54.359Z",
+      "types": [
+        "Hikvision-config",
+        "AXPro-config",
+        "Doorbell-config",
+        "ANPR-config",
+        "AccessControl-config",
+        "hikvisionUltimateText",
+        "hikvisionUltimateAlarm",
+        "hikvisionUltimateAlarmRaw",
+        "hikvisionUltimateANPR",
+        "hikvisionUltimatePTZ",
+        "hikvisionUltimatePicture",
+        "hikvisionUltimateXML",
+        "hikvisionUltimateDoorbell",
+        "hikvisionUltimateAxPro",
+        "hikvisionUltimateAccessControlTerminal"
+      ],
+      "keywords": [
+        "node-red",
+        "hikvision",
+        "alarm",
+        "camera",
+        "radar",
+        "ANPR",
+        "license plate",
+        "doorbell",
+        "door intercom",
+        "access control terminal",
+        "Ax Pro"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-hikvision-ultimate"
+    },
+    {
+      "id": "@chenyan454544/node-red-electricity",
+      "version": "1.0.5",
+      "description": "Calculation of cumulative electricity consumption",
+      "updated_at": "2024-04-16T10:11:36.194Z",
+      "types": [
+        "electricity"
+      ],
+      "keywords": [
+        "node-red"
+      ],
+      "url": "https://flows.nodered.org/node/@chenyan454544/node-red-electricity"
+    },
+    {
+      "id": "victron-dynamic-ess",
+      "version": "0.1.19",
+      "description": "Fetch the ideal ESS setpoint from VRM",
+      "updated_at": "2024-04-16T09:03:00.405Z",
+      "types": [
+        "victron-dynamic-ess"
+      ],
+      "keywords": [
+        "node-red",
+        "victron",
+        "dynamic ess",
+        "scheduled charging",
+        "ess"
+      ],
+      "url": "https://flows.nodered.org/node/victron-dynamic-ess"
+    },
+    {
+      "id": "node-red-contrib-sonos-events",
+      "version": "1.2.3",
+      "description": "A single Node-RED node to handle SONOS events in a local network.",
+      "updated_at": "2024-04-16T07:47:17.517Z",
+      "types": [
+        "sonosevents-selection",
+        "sonosevents-config"
+      ],
+      "keywords": [
+        "sonos",
+        "node-red",
+        "music",
+        "events",
+        "node-red-contrib-sonos-events"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-sonos-events"
+    },
+    {
+      "id": "tams-order-get",
+      "version": "1.0.6",
+      "description": "Provides a set of nodes to Node-RED to help control tams.",
+      "updated_at": "2024-04-16T07:15:33.951Z",
+      "types": [
+        "porder-config",
+        "porder-cmd"
+      ],
+      "keywords": [
+        "node-red"
+      ],
+      "url": "https://flows.nodered.org/node/tams-order-get"
+    },
+    {
+      "id": "@parallaxcontrol/node-red-control",
+      "version": "1.0.45",
+      "description": "A comprehensive package of Node-RED nodes designed to seamlessly integrate with the Parallax Control Engine, offering enhanced control capabilities for AV Automation.",
+      "updated_at": "2024-04-16T05:45:31.747Z",
+      "types": [
+        "and-gate",
+        "compare-string-text",
+        "input-select",
+        "inverter-gate",
+        "or-gate",
+        "set-reset-latch",
+        "send-single-dictionary",
+        "set-feedback",
+        "clear-signal-state",
+        "recall-signal-state",
+        "save-signal-state",
+        "bool-toggle",
+        "extract-message-data",
+        "system-management",
+        "message-array",
+        "cm4-pro-relay",
+        "cm4-pro-serial"
+      ],
+      "keywords": [
+        "parallaxcontrol",
+        "node-red",
+        "audiovisual",
+        "av"
+      ],
+      "url": "https://flows.nodered.org/node/@parallaxcontrol/node-red-control"
+    },
+    {
+      "id": "node-red-contrib-axis-com",
+      "version": "1.8.2",
+      "description": "Simplified integration with Axis devices",
+      "updated_at": "2024-04-15T19:40:00.234Z",
+      "types": [
+        "Device Access",
+        "Axis device",
+        "Axis camera",
+        "Axis ACAP",
+        "Axis Security"
+      ],
+      "keywords": [
+        "node-red",
+        "Axis",
+        "Camera"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-axis-com"
+    },
+    {
+      "id": "node-red-contrib-amazon-echo",
+      "version": "0.1.11",
+      "description": "Alexa controlled Node-Red nodes supporting latest Amazon Echo devices",
+      "updated_at": "2024-04-15T19:21:48.493Z",
+      "types": [
+        "amazon-echo-device",
+        "amazon-echo-hub"
+      ],
+      "keywords": [
+        "node-red",
+        "amazon",
+        "echo",
+        "alexa",
+        "phillips",
+        "hue",
+        "emulator"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-amazon-echo"
+    },
+    {
+      "id": "node-red-contrib-bacnet",
+      "version": "0.3.0",
+      "description": "The BACnet toolbox package for Node-RED from the P4NR B2B Community.",
+      "updated_at": "2024-04-15T18:40:53.143Z",
+      "types": [
+        "BACnet-Client",
+        "BACnet-Device",
+        "BACnet-Instance",
+        "BACnet-Read",
+        "BACnet-Write",
+        "BACnet-Command"
+      ],
+      "keywords": [
+        "node-red",
+        "plusfornodered",
+        "bacnet",
+        "fieldbus",
+        "biancoroyal"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-bacnet"
+    },
+    {
+      "id": "node-red-contrib-car-bmw",
+      "version": "0.6.0",
+      "description": "Node-RED nodes to connect to BMW ConnectedDrive and read infos of your car.",
+      "updated_at": "2024-04-15T18:10:37.338Z",
+      "types": [
+        "car-bmw",
+        "car-bmw-list",
+        "car-bmw-get",
+        "car-bmw-action"
+      ],
+      "keywords": [
+        "node-red",
+        "BMW",
+        "ConnectedDrive",
+        "Remote Services",
+        "www.bmw-connecteddrive.de/",
+        "www.bmw-connecteddrive.com/"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-car-bmw"
+    },
+    {
+      "id": "thingzi-logic-climate",
+      "version": "1.1.0",
+      "description": "Climate control via node red",
+      "updated_at": "2024-04-15T16:28:40.320Z",
+      "types": [
+        "thingzi-climate"
+      ],
+      "keywords": [
+        "node-red",
+        "climate",
+        "smart home",
+        "temperature",
+        "thermostat",
+        "zone",
+        "hot water",
+        "heat",
+        "cool",
+        "hvac",
+        "mqtt",
+        "homeassistant",
+        "hass",
+        "thingzi"
+      ],
+      "url": "https://flows.nodered.org/node/thingzi-logic-climate"
+    },
+    {
+      "id": "node-red-contrib-sonos-plus",
+      "version": "6.8.1",
+      "description": "A set of Node-RED nodes to control SONOS player in your local network.",
+      "updated_at": "2024-04-15T14:40:44.596Z",
+      "types": [
+        "sonos-config",
+        "sonos-manage-mysonos",
+        "sonos-universal"
+      ],
+      "keywords": [
+        "sonos",
+        "node-red",
+        "music",
+        "node-red-contrib-sonos-plus"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-sonos-plus"
+    },
     {
       "id": "@gregoriusrippenstein/node-red-contrib-flowhub",
       "version": "0.8.0",
@@ -277,36 +567,6 @@
       "url": "https://flows.nodered.org/node/@breshinas/node-red-contrib-amqp"
     },
     {
-      "id": "@parallaxcontrol/node-red-control",
-      "version": "1.0.42",
-      "description": "A comprehensive package of Node-RED nodes designed to seamlessly integrate with the Parallax Control Engine, offering enhanced control capabilities for AV, IoT, and Industrial Automation.",
-      "updated_at": "2024-04-14T04:34:15.850Z",
-      "types": [
-        "and-gate",
-        "compare-string-text",
-        "input-select",
-        "inverter-gate",
-        "or-gate",
-        "set-reset-latch",
-        "send-single-dictionary",
-        "set-feedback",
-        "clear-signal-state",
-        "recall-signal-state",
-        "save-signal-state",
-        "bool-toggle",
-        "extract-message-data",
-        "system-management",
-        "message-array"
-      ],
-      "keywords": [
-        "parallaxcontrol",
-        "node-red",
-        "audiovisual",
-        "av"
-      ],
-      "url": "https://flows.nodered.org/node/@parallaxcontrol/node-red-control"
-    },
-    {
       "id": "@ralphwetzel/node-red-mcu-plugin",
       "version": "1.5.1",
       "description": "Plugin to integrate Node-RED MCU Edition into the Node-RED Editor",
@@ -392,23 +652,6 @@
         "enterprise"
       ],
       "url": "https://flows.nodered.org/node/@ncd-io/node-red-enterprise-sensors"
-    },
-    {
-      "id": "victron-dynamic-ess",
-      "version": "0.1.18",
-      "description": "Fetch the ideal ESS setpoint from VRM",
-      "updated_at": "2024-04-12T12:23:45.537Z",
-      "types": [
-        "victron-dynamic-ess"
-      ],
-      "keywords": [
-        "node-red",
-        "victron",
-        "dynamic ess",
-        "scheduled charging",
-        "ess"
-      ],
-      "url": "https://flows.nodered.org/node/victron-dynamic-ess"
     },
     {
       "id": "node-red-contrib-opcua",
@@ -670,43 +913,6 @@
       "url": "https://flows.nodered.org/node/node-red-contrib-trexmes-oee-calculator"
     },
     {
-      "id": "node-red-contrib-axis-com",
-      "version": "1.8.1",
-      "description": "Simplified integration with Axis devices",
-      "updated_at": "2024-04-09T19:04:01.989Z",
-      "types": [
-        "Device Access",
-        "Axis device",
-        "Axis camera",
-        "Axis ACAP",
-        "Axis Security"
-      ],
-      "keywords": [
-        "node-red",
-        "Axis",
-        "Camera"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-axis-com"
-    },
-    {
-      "id": "node-red-contrib-sonos-plus",
-      "version": "6.8.0",
-      "description": "A set of Node-RED nodes to control SONOS player in your local network.",
-      "updated_at": "2024-04-09T18:21:04.727Z",
-      "types": [
-        "sonos-config",
-        "sonos-manage-mysonos",
-        "sonos-universal"
-      ],
-      "keywords": [
-        "sonos",
-        "node-red",
-        "music",
-        "node-red-contrib-sonos-plus"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-sonos-plus"
-    },
-    {
       "id": "node-red-contrib-virtual-smart-home",
       "version": "4.4.0",
       "description": "A Node-RED node that represents a 'virtual device' which can be controlled via Alexa. Requires the virtual smart home skill to be enabled for your Amazon account.",
@@ -756,32 +962,6 @@
         "logic"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-boolean-logic-ultimate"
-    },
-    {
-      "id": "thingzi-logic-climate",
-      "version": "1.0.7",
-      "description": "Climate control via node red",
-      "updated_at": "2024-04-09T11:01:39.031Z",
-      "types": [
-        "thingzi-climate"
-      ],
-      "keywords": [
-        "node-red",
-        "climate",
-        "smart home",
-        "temperature",
-        "thermostat",
-        "zone",
-        "hot water",
-        "heat",
-        "cool",
-        "hvac",
-        "mqtt",
-        "homeassistant",
-        "hass",
-        "thingzi"
-      ],
-      "url": "https://flows.nodered.org/node/thingzi-logic-climate"
     },
     {
       "id": "@renyoo/node-red-dfrobot_noderedcomputer",
@@ -1230,43 +1410,6 @@
         "node-red"
       ],
       "url": "https://flows.nodered.org/node/@baroldgene/node-red-contrib-victron"
-    },
-    {
-      "id": "node-red-contrib-hikvision-ultimate",
-      "version": "1.1.16",
-      "description": "A native set of nodes for Hikvision (and compatible) Cameras, Alarms, Radars, NVR, Doorbells, etc.",
-      "updated_at": "2024-04-05T13:04:18.104Z",
-      "types": [
-        "Hikvision-config",
-        "AXPro-config",
-        "Doorbell-config",
-        "ANPR-config",
-        "AccessControl-config",
-        "hikvisionUltimateText",
-        "hikvisionUltimateAlarm",
-        "hikvisionUltimateAlarmRaw",
-        "hikvisionUltimateANPR",
-        "hikvisionUltimatePTZ",
-        "hikvisionUltimatePicture",
-        "hikvisionUltimateXML",
-        "hikvisionUltimateDoorbell",
-        "hikvisionUltimateAxPro",
-        "hikvisionUltimateAccessControlTerminal"
-      ],
-      "keywords": [
-        "node-red",
-        "hikvision",
-        "alarm",
-        "camera",
-        "radar",
-        "ANPR",
-        "license plate",
-        "doorbell",
-        "door intercom",
-        "access control terminal",
-        "Ax Pro"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-hikvision-ultimate"
     },
     {
       "id": "node-red-contrib-bosch-shc",
@@ -6063,23 +6206,6 @@
         "RFXtrx433"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-rfxcom"
-    },
-    {
-      "id": "victron-vrm-api",
-      "version": "0.2.1",
-      "description": "Interface with the Victron Energy VRM API",
-      "updated_at": "2024-01-27T21:44:46.977Z",
-      "types": [
-        "config-vrm-api",
-        "vrm-api"
-      ],
-      "keywords": [
-        "node-red",
-        "victron",
-        "vrm",
-        "api"
-      ],
-      "url": "https://flows.nodered.org/node/victron-vrm-api"
     },
     {
       "id": "node-red-contrib-ha-mqtt",
@@ -15009,27 +15135,6 @@
       "url": "https://flows.nodered.org/node/@tolgaulas/node-red-contrib-beanstalkd"
     },
     {
-      "id": "node-red-contrib-car-bmw",
-      "version": "0.5.3",
-      "description": "Node-RED nodes to connect to BMW ConnectedDrive and read infos of your car.",
-      "updated_at": "2023-08-05T18:24:11.307Z",
-      "types": [
-        "car-bmw",
-        "car-bmw-list",
-        "car-bmw-get",
-        "car-bmw-action"
-      ],
-      "keywords": [
-        "node-red",
-        "BMW",
-        "ConnectedDrive",
-        "Remote Services",
-        "www.bmw-connecteddrive.de/",
-        "www.bmw-connecteddrive.com/"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-car-bmw"
-    },
-    {
       "id": "node-red-contrib-image-output",
       "version": "0.6.4",
       "description": "Easy way of previewing and examining images in your flows",
@@ -22819,24 +22924,6 @@
       "url": "https://flows.nodered.org/node/@gorootde/node-red-grist"
     },
     {
-      "id": "node-red-contrib-sonos-events",
-      "version": "1.2.1",
-      "description": "A single Node-RED node to handle SONOS events in a local network.",
-      "updated_at": "2023-01-06T16:00:52.229Z",
-      "types": [
-        "sonosevents-selection",
-        "sonosevents-config"
-      ],
-      "keywords": [
-        "sonos",
-        "node-red",
-        "music",
-        "events",
-        "node-red-contrib-sonos-events"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-sonos-events"
-    },
-    {
       "id": "@equans/smart-buildings-occupancy",
       "version": "2.1.0",
       "description": "Node-Red block for occupancy strategy",
@@ -26390,28 +26477,6 @@
       "url": "https://flows.nodered.org/node/node-red-contrib-c1-salesforce"
     },
     {
-      "id": "node-red-contrib-bacnet",
-      "version": "0.2.7",
-      "description": "The BACnet toolbox package for Node-RED.",
-      "updated_at": "2022-09-25T18:47:25.193Z",
-      "types": [
-        "BACnet-Client",
-        "BACnet-Device",
-        "BACnet-Instance",
-        "BACnet-Read",
-        "BACnet-Write",
-        "BACnet-Command"
-      ],
-      "keywords": [
-        "node-red",
-        "plusfornodered",
-        "bacnet",
-        "fieldbus",
-        "biancoroyal"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-bacnet"
-    },
-    {
       "id": "node-red-contrib-helper",
       "version": "1.2.3",
       "description": "The test helper node toolbox contribution package for visual Node-RED package testing.",
@@ -27262,6 +27327,19 @@
         "node-red"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-mclient-c1"
+    },
+    {
+      "id": "node-red-contrib-arcgis-rest",
+      "version": "1.0.6",
+      "description": "Utilizes ArcGIS REST JS to query,delete,update or insert rest data",
+      "updated_at": "2022-08-29T13:51:03.572Z",
+      "types": [
+        "ArcGIS-Rest-Feature-Layer"
+      ],
+      "keywords": [
+        "node-red"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-arcgis-rest"
     },
     {
       "id": "node-red-contrib-larkea-local-device",
@@ -56500,26 +56578,6 @@
         " Bluetooth"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-meraki-dashboard-api"
-    },
-    {
-      "id": "node-red-contrib-amazon-echo",
-      "version": "0.1.10",
-      "description": "Alexa controlled Node-Red nodes supporting latest Amazon Echo devices",
-      "updated_at": "2020-03-05T11:01:49.890Z",
-      "types": [
-        "amazon-echo-hub",
-        "amazon-echo-device"
-      ],
-      "keywords": [
-        "node-red",
-        "amazon",
-        "echo",
-        "alexa",
-        "phillips",
-        "hue",
-        "emulator"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-amazon-echo"
     },
     {
       "id": "node-red-contrib-linux-network-stats",
