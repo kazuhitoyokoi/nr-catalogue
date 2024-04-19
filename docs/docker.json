@@ -1,7 +1,179 @@
 {
   "name": "Catalogue for Docker",
-  "updated_at": "2024-04-18T15:58:06.463Z",
+  "updated_at": "2024-04-19T15:57:27.619Z",
   "modules": [
+    {
+      "id": "@gregoriusrippenstein/node-red-contrib-flowcompare",
+      "version": "0.1.6",
+      "description": "Compare editor flow with the flow deployed to the server.",
+      "updated_at": "2024-04-19T12:32:36.377Z",
+      "types": [
+        "FlowCompareCfg"
+      ],
+      "keywords": [
+        "node-red",
+        "comparison",
+        "flow-comparison"
+      ],
+      "url": "https://flows.nodered.org/node/@gregoriusrippenstein/node-red-contrib-flowcompare"
+    },
+    {
+      "id": "@gregoriusrippenstein/node-red-contrib-introspection",
+      "version": "0.7.7",
+      "description": "Node-RED Editor-only nodes for introspecting with flows in the frontend.",
+      "updated_at": "2024-04-19T11:40:12.393Z",
+      "types": [
+        "Seeker",
+        "Sink",
+        "ClientCode",
+        "GetFlows",
+        "SendFlow",
+        "InstallPackage"
+      ],
+      "keywords": [
+        "node-red",
+        "introspection",
+        "selfreflection",
+        "node-red-editor",
+        "screenshot"
+      ],
+      "url": "https://flows.nodered.org/node/@gregoriusrippenstein/node-red-contrib-introspection"
+    },
+    {
+      "id": "@gregoriusrippenstein/node-red-contrib-flowhub",
+      "version": "0.8.2",
+      "description": "FlowHub.org: flow management with GitHub.",
+      "updated_at": "2024-04-19T11:31:45.106Z",
+      "types": [
+        "FlowHubPull",
+        "FlowHubCfg"
+      ],
+      "keywords": [
+        "node-red",
+        "flowhub",
+        "flow-sharing",
+        "collaborative",
+        "flow-development",
+        "flow-management",
+        "github"
+      ],
+      "url": "https://flows.nodered.org/node/@gregoriusrippenstein/node-red-contrib-flowhub"
+    },
+    {
+      "id": "@gocontroll-nl/node-red-gocontroll",
+      "version": "1.0.0",
+      "description": "Node-RED nodes for GOcontroll Moduline controllers",
+      "updated_at": "2024-04-19T11:29:42.621Z",
+      "types": [
+        "4-20mA-Module",
+        "Settings",
+        "Controller-Active",
+        "Controller-Supply",
+        "CPU-Temperature",
+        "Status-Led",
+        "GPS",
+        "Input-Module",
+        "Input-Module-Reset",
+        "Output-Module",
+        "Bridge-Module",
+        "CAN-Receive",
+        "CAN-Send",
+        "Read-Memory",
+        "Write-Memory",
+        "Read-Simulink-Signal",
+        "Write-Simulink-Parameter"
+      ],
+      "keywords": [
+        "node-red",
+        "GOcontroll"
+      ],
+      "url": "https://flows.nodered.org/node/@gocontroll-nl/node-red-gocontroll"
+    },
+    {
+      "id": "@sargerino/node-red-ecs-logger",
+      "version": "1.0.0",
+      "description": "A Node-RED ECS format logging output node that outputs to the System Console",
+      "updated_at": "2024-04-19T10:20:24.659Z",
+      "types": [
+        "log-ecs",
+        "log-ecs-logger"
+      ],
+      "keywords": [
+        "logger",
+        "winston",
+        "elasticsearch",
+        "ecs",
+        "node-red"
+      ],
+      "url": "https://flows.nodered.org/node/@sargerino/node-red-ecs-logger"
+    },
+    {
+      "id": "@nagisa~/node-red-systemair-save",
+      "version": "1.0.5",
+      "description": "Node-RED nodes to interact with SystemAIR’s SAVE line of products",
+      "updated_at": "2024-04-19T07:54:41.430Z",
+      "types": [
+        "systemair register",
+        "systemair save device"
+      ],
+      "keywords": [
+        "node-red",
+        "systemair"
+      ],
+      "url": "https://flows.nodered.org/node/@nagisa~/node-red-systemair-save"
+    },
+    {
+      "id": "node-red-contrib-axis-host",
+      "version": "1.3.7",
+      "description": "Axis Devices resource binding nodes that provides access to events, image capture and analytics data.  Node-RED must be running on the Axis Device.",
+      "updated_at": "2024-04-18T21:51:11.913Z",
+      "types": [
+        "Events",
+        "Camera",
+        "Trigger",
+        "Objects"
+      ],
+      "keywords": [
+        "node-red",
+        "Axis"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-axis-host"
+    },
+    {
+      "id": "node-red-contrib-operatelogic",
+      "version": "1.0.26",
+      "description": "Node-RED OperateLogic Node",
+      "updated_at": "2024-04-18T18:50:35.471Z",
+      "types": [
+        "OperateLogic"
+      ],
+      "keywords": [
+        "node-red",
+        "operate",
+        "mode",
+        "rules"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-operatelogic"
+    },
+    {
+      "id": "node-red-contrib-gatewayex",
+      "version": "0.0.8",
+      "description": "SharpSCADA GatewayEx",
+      "updated_at": "2024-04-18T17:18:16.665Z",
+      "types": [
+        "gateway-broker",
+        "tag value changed",
+        "read tag value",
+        "dynamic tag write",
+        "alarm trigger"
+      ],
+      "keywords": [
+        "node-red",
+        "gatewayex",
+        "sharpscada"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-gatewayex"
+    },
     {
       "id": "@platmac/node-red-platma-inbuilddb",
       "version": "1.0.6",
@@ -109,26 +281,6 @@
         "recursion"
       ],
       "url": "https://flows.nodered.org/node/@gregoriusrippenstein/node-red-contrib-nodedev"
-    },
-    {
-      "id": "@gregoriusrippenstein/node-red-contrib-flowhub",
-      "version": "0.8.1",
-      "description": "FlowHub.org: flow management with GitHub.",
-      "updated_at": "2024-04-18T08:08:31.843Z",
-      "types": [
-        "FlowHubPull",
-        "FlowHubCfg"
-      ],
-      "keywords": [
-        "node-red",
-        "flowhub",
-        "flow-sharing",
-        "collaborative",
-        "flow-development",
-        "flow-management",
-        "github"
-      ],
-      "url": "https://flows.nodered.org/node/@gregoriusrippenstein/node-red-contrib-flowhub"
     },
     {
       "id": "node-red-contrib-alexa-remote2-applestrudel",
@@ -258,22 +410,6 @@
       "url": "https://flows.nodered.org/node/node-red-contrib-axis-com"
     },
     {
-      "id": "node-red-contrib-operatelogic",
-      "version": "1.0.25",
-      "description": "Node-RED OperateLogic Node",
-      "updated_at": "2024-04-17T18:47:10.967Z",
-      "types": [
-        "OperateLogic"
-      ],
-      "keywords": [
-        "node-red",
-        "operate",
-        "mode",
-        "rules"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-operatelogic"
-    },
-    {
       "id": "node-red-contrib-zont-online",
       "version": "0.0.9-fix2",
       "description": "Coming soon",
@@ -346,25 +482,6 @@
         "thingsdata"
       ],
       "url": "https://flows.nodered.org/node/@umsicht/node-red-contrib-thingsdata"
-    },
-    {
-      "id": "node-red-contrib-gatewayex",
-      "version": "0.0.7",
-      "description": "SharpSCADA GatewayEx",
-      "updated_at": "2024-04-17T05:34:54.507Z",
-      "types": [
-        "gateway-broker",
-        "tag value changed",
-        "read tag value",
-        "dynamic tag write",
-        "alarm trigger"
-      ],
-      "keywords": [
-        "node-red",
-        "gatewayex",
-        "sharpscada"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-gatewayex"
     },
     {
       "id": "node-red-contrib-onstar2",
@@ -507,6 +624,20 @@
         "node-red-contrib-sonos-events"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-sonos-events"
+    },
+    {
+      "id": "tams-plc-order-get",
+      "version": "1.0.50",
+      "description": "Provides a set of nodes to Node-RED to help control tams.",
+      "updated_at": "2024-04-16T07:21:59.904Z",
+      "types": [
+        "plc-config",
+        "plc-cmd"
+      ],
+      "keywords": [
+        "node-red"
+      ],
+      "url": "https://flows.nodered.org/node/tams-plc-order-get"
     },
     {
       "id": "tams-order-get",
@@ -693,20 +824,6 @@
       "url": "https://flows.nodered.org/node/tams-node-contrib"
     },
     {
-      "id": "tams-plc-order-get",
-      "version": "1.0.13",
-      "description": "Provides a set of nodes to Node-RED to help control tams.",
-      "updated_at": "2024-04-15T07:29:03.492Z",
-      "types": [
-        "plc-config",
-        "plc-cmd"
-      ],
-      "keywords": [
-        "node-red"
-      ],
-      "url": "https://flows.nodered.org/node/tams-plc-order-get"
-    },
-    {
       "id": "node-red-gene-cmd",
       "version": "0.0.2",
       "description": "A Node-RED node that set cmd to gene ctrl.",
@@ -796,28 +913,6 @@
         "moon"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-chronos"
-    },
-    {
-      "id": "@gregoriusrippenstein/node-red-contrib-introspection",
-      "version": "0.7.6",
-      "description": "Node-RED Editor-only nodes for introspecting with flows in the frontend.",
-      "updated_at": "2024-04-14T14:13:48.370Z",
-      "types": [
-        "Seeker",
-        "Sink",
-        "ClientCode",
-        "GetFlows",
-        "SendFlow",
-        "InstallPackage"
-      ],
-      "keywords": [
-        "node-red",
-        "introspection",
-        "selfreflection",
-        "node-red-editor",
-        "screenshot"
-      ],
-      "url": "https://flows.nodered.org/node/@gregoriusrippenstein/node-red-contrib-introspection"
     },
     {
       "id": "node-red-contrib-ha-light-transition",
@@ -1707,21 +1802,6 @@
       "url": "https://flows.nodered.org/node/@mschaeffler/node-red-format"
     },
     {
-      "id": "@gregoriusrippenstein/node-red-contrib-flowcompare",
-      "version": "0.1.5",
-      "description": "Compare editor flow with the flow deployed to the server.",
-      "updated_at": "2024-04-03T16:00:28.052Z",
-      "types": [
-        "FlowCompareCfg"
-      ],
-      "keywords": [
-        "node-red",
-        "comparison",
-        "flow-comparison"
-      ],
-      "url": "https://flows.nodered.org/node/@gregoriusrippenstein/node-red-contrib-flowcompare"
-    },
-    {
       "id": "node-red-contrib-dayjs",
       "version": "0.1.1",
       "description": "Wrapper of dayjs for Node-RED",
@@ -2127,6 +2207,55 @@
       "url": "https://flows.nodered.org/node/node-red-contrib-google-sheets-advance"
     },
     {
+      "id": "node-red-contrib-uhppoted",
+      "version": "1.1.7",
+      "description": "A set of nodes for the UHPPOTE Wiegand Access Controller",
+      "updated_at": "2024-03-26T23:02:11.248Z",
+      "types": [
+        "uhppoted-config",
+        "uhppoted-get-devices",
+        "uhppoted-get-device",
+        "uhppoted-set-ip",
+        "uhppoted-get-time",
+        "uhppoted-set-time",
+        "uhppoted-get-door-control",
+        "uhppoted-set-door-control",
+        "uhppoted-get-listener",
+        "uhppoted-set-listener",
+        "uhppoted-record-special-events",
+        "uhppoted-get-status",
+        "uhppoted-get-cards",
+        "uhppoted-get-card",
+        "uhppoted-get-card-by-index",
+        "uhppoted-put-card",
+        "uhppoted-delete-card",
+        "uhppoted-delete-all-cards",
+        "uhppoted-get-time-profile",
+        "uhppoted-set-time-profile",
+        "uhppoted-clear-time-profiles",
+        "uhppoted-add-task",
+        "uhppoted-clear-task-list",
+        "uhppoted-refresh-task-list",
+        "uhppoted-get-event-index",
+        "uhppoted-set-event-index",
+        "uhppoted-get-event",
+        "uhppoted-open-door",
+        "uhppoted-set-pc-control",
+        "uhppoted-set-interlock",
+        "uhppoted-activate-keypads",
+        "uhppoted-set-door-passcodes",
+        "uhppoted-restore-default-parameters",
+        "uhppoted-listen"
+      ],
+      "keywords": [
+        "node-red",
+        "uhppote",
+        "Wiegand",
+        "access control"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-uhppoted"
+    },
+    {
       "id": "node-red-contrib-axios",
       "version": "1.2.2",
       "description": "A http request node for Node-RED",
@@ -2443,23 +2572,6 @@
         "string filter"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-string-filter"
-    },
-    {
-      "id": "node-red-contrib-axis-host",
-      "version": "1.3.6",
-      "description": "Axis Devices resource binding nodes that provides access to events, image capture and analytics data.  Node-RED must be running on the Axis Device.",
-      "updated_at": "2024-03-23T11:37:47.829Z",
-      "types": [
-        "Events",
-        "Camera",
-        "Trigger",
-        "Objects"
-      ],
-      "keywords": [
-        "node-red",
-        "Axis"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-axis-host"
     },
     {
       "id": "smithtek-node-red-format",
@@ -3737,21 +3849,6 @@
         "mapping"
       ],
       "url": "https://flows.nodered.org/node/@rakwireless/field-tester-server"
-    },
-    {
-      "id": "@nagisa~/node-red-systemair-save",
-      "version": "1.0.4",
-      "description": "Node-RED nodes to interact with SystemAIR’s SAVE line of products",
-      "updated_at": "2024-03-07T21:07:31.805Z",
-      "types": [
-        "systemair register",
-        "systemair save device"
-      ],
-      "keywords": [
-        "node-red",
-        "systemair"
-      ],
-      "url": "https://flows.nodered.org/node/@nagisa~/node-red-systemair-save"
     },
     {
       "id": "@bartbutenaers/node-red-rtsp-to-mjpeg",
@@ -14494,53 +14591,6 @@
         "emoji"
       ],
       "url": "https://flows.nodered.org/node/node-red-node-multilang-sentiment"
-    },
-    {
-      "id": "node-red-contrib-uhppoted",
-      "version": "1.1.5",
-      "description": "A set of nodes for the UHPPOTE Wiegand Access Controller",
-      "updated_at": "2023-08-30T16:29:55.145Z",
-      "types": [
-        "uhppoted-config",
-        "uhppoted-get-devices",
-        "uhppoted-get-device",
-        "uhppoted-set-ip",
-        "uhppoted-get-time",
-        "uhppoted-set-time",
-        "uhppoted-get-door-control",
-        "uhppoted-set-door-control",
-        "uhppoted-get-listener",
-        "uhppoted-set-listener",
-        "uhppoted-record-special-events",
-        "uhppoted-get-status",
-        "uhppoted-get-cards",
-        "uhppoted-get-card",
-        "uhppoted-get-card-by-index",
-        "uhppoted-put-card",
-        "uhppoted-delete-card",
-        "uhppoted-delete-all-cards",
-        "uhppoted-get-time-profile",
-        "uhppoted-set-time-profile",
-        "uhppoted-clear-time-profiles",
-        "uhppoted-add-task",
-        "uhppoted-clear-task-list",
-        "uhppoted-refresh-task-list",
-        "uhppoted-get-event-index",
-        "uhppoted-set-event-index",
-        "uhppoted-get-event",
-        "uhppoted-open-door",
-        "uhppoted-set-pc-control",
-        "uhppoted-set-interlock",
-        "uhppoted-activate-keypads",
-        "uhppoted-listen"
-      ],
-      "keywords": [
-        "node-red",
-        "uhppote",
-        "Wiegand",
-        "access control"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-uhppoted"
     },
     {
       "id": "node-red-contrib-teachable-machine",
