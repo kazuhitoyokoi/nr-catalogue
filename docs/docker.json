@@ -1,7 +1,99 @@
 {
   "name": "Catalogue for Docker",
-  "updated_at": "2024-04-19T15:57:27.619Z",
+  "updated_at": "2024-04-20T15:53:28.273Z",
   "modules": [
+    {
+      "id": "@runnane/node-red-contrib-easee",
+      "version": "0.5.7",
+      "description": "Module for streaming Easee data. Based on node-red-contrib-signalrcore",
+      "updated_at": "2024-04-20T10:57:21.026Z",
+      "types": [
+        "easee-configuration",
+        "easee-rest-client",
+        "charger-streaming-client"
+      ],
+      "keywords": [
+        "easee",
+        "charger",
+        "ev",
+        "signalr",
+        "node-red"
+      ],
+      "url": "https://flows.nodered.org/node/@runnane/node-red-contrib-easee"
+    },
+    {
+      "id": "node-red-contrib-simpletime",
+      "version": "2.11.1",
+      "description": "A lightweight node-red node to provide and format date and time.",
+      "updated_at": "2024-04-20T09:12:15.384Z",
+      "types": [
+        "simpletime"
+      ],
+      "keywords": [
+        "node-red",
+        "time",
+        "date",
+        "moment"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-simpletime"
+    },
+    {
+      "id": "node-red-subflow-axis-provisioning",
+      "version": "1.1.6",
+      "description": "Axis device staging and mass configuration",
+      "updated_at": "2024-04-20T08:54:52.897Z",
+      "types": [],
+      "keywords": [
+        "node-red",
+        "Axis",
+        "Provisioning"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-subflow-axis-provisioning"
+    },
+    {
+      "id": "node-red-contrib-shelly",
+      "version": "10.23.0",
+      "description": "Shelly nodes.",
+      "updated_at": "2024-04-19T18:56:27.028Z",
+      "types": [
+        "shelly-gen1-server",
+        "shelly-gen1",
+        "shelly-gen2-server",
+        "shelly-gen2",
+        "shelly-cloud-server",
+        "shelly-cloud"
+      ],
+      "keywords": [
+        "node-red",
+        "shelly"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-shelly"
+    },
+    {
+      "id": "@inductiv/node-red-openai-api",
+      "version": "0.8.0",
+      "description": "Go beyond ChatGPT and DALL·E 3: this Node-RED node seamlessly integrates a range of OpenAI services, including Assistants, Threads, Vision, and Audio, enabling feature-rich enhancement of your AI workflows with any OpenAI REST API-compatible solution.",
+      "updated_at": "2024-04-19T15:04:42.122Z",
+      "types": [
+        "OpenAI API",
+        "Service Host"
+      ],
+      "keywords": [
+        "openai",
+        "api",
+        "automation",
+        "chatgpt",
+        "llm",
+        "slm",
+        "agent",
+        "automation",
+        "node-red",
+        "nodered",
+        "low-code",
+        "ai"
+      ],
+      "url": "https://flows.nodered.org/node/@inductiv/node-red-openai-api"
+    },
     {
       "id": "@gregoriusrippenstein/node-red-contrib-flowcompare",
       "version": "0.1.6",
@@ -378,19 +470,6 @@
       "url": "https://flows.nodered.org/node/@ncd-io/node-red-enterprise-sensors"
     },
     {
-      "id": "node-red-subflow-axis-provisioning",
-      "version": "1.1.4",
-      "description": "Axis device staging and mass configuration",
-      "updated_at": "2024-04-17T19:31:02.364Z",
-      "types": [],
-      "keywords": [
-        "node-red",
-        "Axis",
-        "Provisioning"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-subflow-axis-provisioning"
-    },
-    {
       "id": "node-red-contrib-axis-com",
       "version": "1.8.3",
       "description": "Simplified integration with Axis devices",
@@ -551,31 +630,6 @@
         "av"
       ],
       "url": "https://flows.nodered.org/node/@parallaxcontrol/node-red-control"
-    },
-    {
-      "id": "@inductiv/node-red-openai-api",
-      "version": "0.7.0",
-      "description": "Go beyond ChatGPT and DALL·E 3: this Node-RED node seamlessly integrates a range of OpenAI services, including Assistants, Threads, Vision, and Audio, enabling feature-rich enhancement of your AI workflows with any OpenAI REST API-compatible solution.",
-      "updated_at": "2024-04-16T15:02:04.225Z",
-      "types": [
-        "OpenAI API",
-        "Service Host"
-      ],
-      "keywords": [
-        "openai",
-        "api",
-        "automation",
-        "chatgpt",
-        "llm",
-        "slm",
-        "agent",
-        "automation",
-        "node-red",
-        "nodered",
-        "low-code",
-        "ai"
-      ],
-      "url": "https://flows.nodered.org/node/@inductiv/node-red-openai-api"
     },
     {
       "id": "@chenyan454544/node-red-electricity",
@@ -1474,25 +1528,6 @@
         "sentry"
       ],
       "url": "https://flows.nodered.org/node/custom-sentry"
-    },
-    {
-      "id": "node-red-contrib-shelly",
-      "version": "10.22.0",
-      "description": "Shelly nodes.",
-      "updated_at": "2024-04-07T20:14:34.662Z",
-      "types": [
-        "shelly-gen1-server",
-        "shelly-gen1",
-        "shelly-gen2-server",
-        "shelly-gen2",
-        "shelly-cloud-server",
-        "shelly-cloud"
-      ],
-      "keywords": [
-        "node-red",
-        "shelly"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-shelly"
     },
     {
       "id": "node-red-contrib-holiday-euskadi",
@@ -9882,25 +9917,6 @@
         "topological"
       ],
       "url": "https://flows.nodered.org/node/topological-nodered-wdio"
-    },
-    {
-      "id": "@runnane/node-red-contrib-easee",
-      "version": "0.5.6",
-      "description": "Module for streaming Easee data. Based on node-red-contrib-signalrcore",
-      "updated_at": "2023-11-18T16:36:56.982Z",
-      "types": [
-        "easee-configuration",
-        "easee-rest-client",
-        "charger-streaming-client"
-      ],
-      "keywords": [
-        "easee",
-        "charger",
-        "ev",
-        "signalr",
-        "node-red"
-      ],
-      "url": "https://flows.nodered.org/node/@runnane/node-red-contrib-easee"
     },
     {
       "id": "@hylink/node-red-kafka-client",
@@ -33599,22 +33615,6 @@
         "example"
       ],
       "url": "https://flows.nodered.org/node/@flexdash/node-red-fd-testnodes"
-    },
-    {
-      "id": "node-red-contrib-simpletime",
-      "version": "2.10.4",
-      "description": "A lightweight node-red node to provide and format date and time.",
-      "updated_at": "2022-03-12T19:06:37.347Z",
-      "types": [
-        "simpletime"
-      ],
-      "keywords": [
-        "node-red",
-        "time",
-        "date",
-        "moment"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-simpletime"
     },
     {
       "id": "node-red-contrib-yandex-alice-command",
