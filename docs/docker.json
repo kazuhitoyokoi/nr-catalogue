@@ -1,12 +1,97 @@
 {
   "name": "Catalogue for Docker",
-  "updated_at": "2024-04-21T15:54:07.761Z",
+  "updated_at": "2024-04-22T15:57:50.432Z",
   "modules": [
     {
+      "id": "kdbx-red",
+      "version": "1.2.3",
+      "description": "Node-Red nodes to work with keepass files.",
+      "updated_at": "2024-04-22T09:24:30.672Z",
+      "types": [],
+      "keywords": [
+        "node-red",
+        "kdbx",
+        "keepass",
+        "password",
+        "manager"
+      ],
+      "url": "https://flows.nodered.org/node/kdbx-red"
+    },
+    {
+      "id": "@semilimes/node-red-semilimes",
+      "version": "1.1.1",
+      "description": "The new semilimes connector which integrates with the public API",
+      "updated_at": "2024-04-22T07:52:41.216Z",
+      "types": [
+        "smeMessage",
+        "smeFormSetup",
+        "smeFormComponent",
+        "smeFormUpdater",
+        "smeSender",
+        "smeListener",
+        "smeFilter",
+        "smeUploader",
+        "smeDownloader",
+        "smeTunnel",
+        "sme-main-connector"
+      ],
+      "keywords": [
+        "semilimes",
+        "iot",
+        "connector",
+        "node-red",
+        "mobile phone",
+        "interface",
+        "remote access",
+        "ssh tunnel",
+        "websocket"
+      ],
+      "url": "https://flows.nodered.org/node/@semilimes/node-red-semilimes"
+    },
+    {
+      "id": "node-red-contrib-ha-light-transition",
+      "version": "0.2.3",
+      "description": "Light transition node for Home Assistant",
+      "updated_at": "2024-04-22T07:41:25.510Z",
+      "types": [],
+      "keywords": [
+        "node-red",
+        "home-assistant",
+        "ha",
+        "transition",
+        "light"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-ha-light-transition"
+    },
+    {
+      "id": "node-red-contrib-superpower-smart-test",
+      "version": "1.2.4",
+      "description": "Node-RED integration with eWeLink Cube",
+      "updated_at": "2024-04-22T05:52:30.666Z",
+      "types": [
+        "api-server",
+        "get-devices",
+        "event-state",
+        "event-online",
+        "control-device",
+        "event-add-device",
+        "event-del-device",
+        "event-device-info",
+        "put-device-state",
+        "register-device"
+      ],
+      "keywords": [
+        "node-red",
+        "ewelink",
+        "ewelink-cube"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-superpower-smart-test"
+    },
+    {
       "id": "@sumit_shinde_84/node-red-contrib-watch-dog",
-      "version": "1.0.4",
+      "version": "1.0.8",
       "description": "Node-RED Dashboard 2.0 Webcam Widget\r =======================",
-      "updated_at": "2024-04-21T14:28:51.780Z",
+      "updated_at": "2024-04-21T17:08:19.817Z",
       "types": [],
       "keywords": [
         "node-red"
@@ -358,21 +443,6 @@
         "node-red"
       ],
       "url": "https://flows.nodered.org/node/@parasaurolophus/node-red-eventsource"
-    },
-    {
-      "id": "kdbx-red",
-      "version": "1.2.2",
-      "description": "Node-Red nodes to work with keepass files.",
-      "updated_at": "2024-04-18T09:48:28.791Z",
-      "types": [],
-      "keywords": [
-        "node-red",
-        "kdbx",
-        "keepass",
-        "password",
-        "manager"
-      ],
-      "url": "https://flows.nodered.org/node/kdbx-red"
     },
     {
       "id": "node-red-contrib-hikvision-ultimate",
@@ -980,21 +1050,6 @@
       "url": "https://flows.nodered.org/node/node-red-contrib-chronos"
     },
     {
-      "id": "node-red-contrib-ha-light-transition",
-      "version": "0.2.1",
-      "description": "Light transition node for Home Assistant",
-      "updated_at": "2024-04-14T13:42:22.159Z",
-      "types": [],
-      "keywords": [
-        "node-red",
-        "home-assistant",
-        "ha",
-        "transition",
-        "light"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-ha-light-transition"
-    },
-    {
       "id": "@chvdapi/node-red-pn6400-do",
       "version": "0.0.3",
       "description": "A node by chvda to drive DO on PN6400",
@@ -1237,30 +1292,6 @@
         "node-red-node"
       ],
       "url": "https://flows.nodered.org/node/@strato-automation/node-red-contrib-strato-automation"
-    },
-    {
-      "id": "node-red-contrib-superpower-smart-test",
-      "version": "1.2.3",
-      "description": "Node-RED integration with eWeLink Cube",
-      "updated_at": "2024-04-10T10:46:05.743Z",
-      "types": [
-        "api-server",
-        "get-devices",
-        "event-state",
-        "event-online",
-        "control-device",
-        "event-add-device",
-        "event-del-device",
-        "event-device-info",
-        "put-device-state",
-        "register-device"
-      ],
-      "keywords": [
-        "node-red",
-        "ewelink",
-        "ewelink-cube"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-superpower-smart-test"
     },
     {
       "id": "node-red-contrib-knx-ultimate",
@@ -1846,6 +1877,20 @@
         "node-red"
       ],
       "url": "https://flows.nodered.org/node/@mschaeffler/node-red-format"
+    },
+    {
+      "id": "@autexis/node-red-payload-logger",
+      "version": "1.2.0",
+      "description": "Node-RED Contribution to log data",
+      "updated_at": "2024-04-04T07:22:10.229Z",
+      "types": [
+        "Logger",
+        "LogConfig"
+      ],
+      "keywords": [
+        "node-red"
+      ],
+      "url": "https://flows.nodered.org/node/@autexis/node-red-payload-logger"
     },
     {
       "id": "node-red-contrib-dayjs",
@@ -4531,37 +4576,6 @@
         "weekdays"
       ],
       "url": "https://flows.nodered.org/node/@tataille/node-red-french-holidays"
-    },
-    {
-      "id": "@semilimes/node-red-semilimes",
-      "version": "1.1.0",
-      "description": "The new semilimes connector which integrates with the public API",
-      "updated_at": "2024-03-01T09:42:46.678Z",
-      "types": [
-        "smeMessage",
-        "smeFormSetup",
-        "smeFormComponent",
-        "smeFormUpdater",
-        "smeSender",
-        "smeListener",
-        "smeFilter",
-        "smeUploader",
-        "smeDownloader",
-        "smeTunnel",
-        "sme-main-connector"
-      ],
-      "keywords": [
-        "semilimes",
-        "iot",
-        "connector",
-        "node-red",
-        "mobile phone",
-        "interface",
-        "remote access",
-        "ssh tunnel",
-        "websocket"
-      ],
-      "url": "https://flows.nodered.org/node/@semilimes/node-red-semilimes"
     },
     {
       "id": "node-red-contrib-mgrs",
@@ -9988,20 +10002,6 @@
         "topsail"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-topsail"
-    },
-    {
-      "id": "@autexis/node-red-payload-logger",
-      "version": "1.1.0",
-      "description": "Node-RED Contribution to log data",
-      "updated_at": "2023-11-16T08:22:06.306Z",
-      "types": [
-        "Logger",
-        "LogConfig"
-      ],
-      "keywords": [
-        "node-red"
-      ],
-      "url": "https://flows.nodered.org/node/@autexis/node-red-payload-logger"
     },
     {
       "id": "node-red-contrib-melcloud-atw",
