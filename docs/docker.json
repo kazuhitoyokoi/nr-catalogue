@@ -1,7 +1,70 @@
 {
   "name": "Catalogue for Docker",
-  "updated_at": "2024-04-22T15:57:50.432Z",
+  "updated_at": "2024-04-23T15:57:57.654Z",
   "modules": [
+    {
+      "id": "node-red-contrib-modbus",
+      "version": "5.31.0",
+      "description": "The all in one Modbus TCP and Serial contribution long term supported package for Node-RED.",
+      "updated_at": "2024-04-23T13:44:38.613Z",
+      "types": [
+        "modbus-client",
+        "modbus-response",
+        "modbus-read",
+        "modbus-getter",
+        "modbus-flex-getter",
+        "modbus-write",
+        "modbus-flex-write",
+        "modbus-server",
+        "modbus-flex-server",
+        "modbus-queue-info",
+        "modbus-flex-connector",
+        "modbus-io-config",
+        "modbus-response-filter",
+        "modbus-flex-sequencer",
+        "modbus-flex-fc"
+      ],
+      "keywords": [
+        "node-red",
+        "plusfornodered",
+        "modbus",
+        "automation",
+        "biancoroyal"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-modbus"
+    },
+    {
+      "id": "victron-dynamic-ess",
+      "version": "0.1.20",
+      "description": "Fetch the ideal ESS setpoint from VRM",
+      "updated_at": "2024-04-23T13:26:58.274Z",
+      "types": [
+        "victron-dynamic-ess"
+      ],
+      "keywords": [
+        "node-red",
+        "victron",
+        "dynamic ess",
+        "scheduled charging",
+        "ess"
+      ],
+      "url": "https://flows.nodered.org/node/victron-dynamic-ess"
+    },
+    {
+      "id": "node-red-contrib-ha-light-transition",
+      "version": "0.2.9",
+      "description": "Light transition node for Home Assistant",
+      "updated_at": "2024-04-23T04:28:35.923Z",
+      "types": [],
+      "keywords": [
+        "node-red",
+        "home-assistant",
+        "ha",
+        "transition",
+        "light"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-ha-light-transition"
+    },
     {
       "id": "kdbx-red",
       "version": "1.2.3",
@@ -47,21 +110,6 @@
         "websocket"
       ],
       "url": "https://flows.nodered.org/node/@semilimes/node-red-semilimes"
-    },
-    {
-      "id": "node-red-contrib-ha-light-transition",
-      "version": "0.2.3",
-      "description": "Light transition node for Home Assistant",
-      "updated_at": "2024-04-22T07:41:25.510Z",
-      "types": [],
-      "keywords": [
-        "node-red",
-        "home-assistant",
-        "ha",
-        "transition",
-        "light"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-ha-light-transition"
     },
     {
       "id": "node-red-contrib-superpower-smart-test",
@@ -776,23 +824,6 @@
         "node-red"
       ],
       "url": "https://flows.nodered.org/node/@chenyan454544/node-red-electricity"
-    },
-    {
-      "id": "victron-dynamic-ess",
-      "version": "0.1.19",
-      "description": "Fetch the ideal ESS setpoint from VRM",
-      "updated_at": "2024-04-16T09:03:00.405Z",
-      "types": [
-        "victron-dynamic-ess"
-      ],
-      "keywords": [
-        "node-red",
-        "victron",
-        "dynamic ess",
-        "scheduled charging",
-        "ess"
-      ],
-      "url": "https://flows.nodered.org/node/victron-dynamic-ess"
     },
     {
       "id": "node-red-contrib-sonos-events",
@@ -5832,37 +5863,6 @@
         "алиса"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-alice"
-    },
-    {
-      "id": "node-red-contrib-modbus",
-      "version": "5.30.0",
-      "description": "The all in one Modbus TCP and Serial contribution long term supported package for Node-RED.",
-      "updated_at": "2024-02-07T08:18:22.804Z",
-      "types": [
-        "modbus-client",
-        "modbus-response",
-        "modbus-read",
-        "modbus-getter",
-        "modbus-flex-getter",
-        "modbus-write",
-        "modbus-flex-write",
-        "modbus-server",
-        "modbus-flex-server",
-        "modbus-queue-info",
-        "modbus-flex-connector",
-        "modbus-io-config",
-        "modbus-response-filter",
-        "modbus-flex-sequencer",
-        "modbus-flex-fc"
-      ],
-      "keywords": [
-        "node-red",
-        "plusfornodered",
-        "modbus",
-        "automation",
-        "biancoroyal"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-modbus"
     },
     {
       "id": "node-red-contrib-melcloud",
