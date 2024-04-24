@@ -1,7 +1,275 @@
 {
   "name": "Catalogue for Docker",
-  "updated_at": "2024-04-23T15:57:57.654Z",
+  "updated_at": "2024-04-24T15:58:50.233Z",
   "modules": [
+    {
+      "id": "@gregoriusrippenstein/node-red-streaming",
+      "version": "0.0.12",
+      "description": "Nodes to make streaming possible in Node-RED.",
+      "updated_at": "2024-04-24T13:41:29.314Z",
+      "types": [
+        "PipeStart",
+        "FileStream",
+        "HttpRequestStream",
+        "CsvStream",
+        "JsonLStream",
+        "LineStream",
+        "IconvStream",
+        "Chunk2Msg",
+        "DeCompStream",
+        "ArchiveStream",
+        "PipeEnd"
+      ],
+      "keywords": [
+        "node-red",
+        "streaming",
+        "pipeline",
+        "etl",
+        "streamapi"
+      ],
+      "url": "https://flows.nodered.org/node/@gregoriusrippenstein/node-red-streaming"
+    },
+    {
+      "id": "@yousolution/node-red-contrib-you-nth-layerone",
+      "version": "0.0.5",
+      "description": "NodeRed library node for connection to LayerOne ",
+      "updated_at": "2024-04-24T12:52:14.363Z",
+      "types": [
+        "authenticate",
+        "logout",
+        "query",
+        "company",
+        "companyInfo",
+        "companyAdminInfo",
+        "document",
+        "getObject",
+        "businessPartner",
+        "item",
+        "pick",
+        "stockTransfer",
+        "authenticateLayerOneSL",
+        "listLayerOneSL",
+        "createLayerOneSl",
+        "deleteLayerOneSl",
+        "getLayerOneSL",
+        "patchLayerOneSL",
+        "closeLayerOneSl",
+        "crossJoinLayerOneSL",
+        "nextLinkLayerOneSL",
+        "serviceLayerOneSL",
+        "manipulateEntityLayerOneSL",
+        "createLayerOneSlSQLQuery",
+        "SQLQueryLayerOneSL"
+      ],
+      "keywords": [
+        "node-red",
+        "LayerOne",
+        "NTH",
+        "service layer",
+        "API",
+        "ERP",
+        "integration",
+        "youSolution.Cloud"
+      ],
+      "url": "https://flows.nodered.org/node/@yousolution/node-red-contrib-you-nth-layerone"
+    },
+    {
+      "id": "grunig-nodes",
+      "version": "1.0.8",
+      "description": "Grünig Nodes Library",
+      "updated_at": "2024-04-24T12:41:49.478Z",
+      "types": [
+        "OpcUa-Read"
+      ],
+      "keywords": [
+        "grünig",
+        "grunig",
+        "node-red"
+      ],
+      "url": "https://flows.nodered.org/node/grunig-nodes"
+    },
+    {
+      "id": "@digitalsystemsrl/node-red-contrib-mssql-pool",
+      "version": "1.2.0",
+      "description": "Node for node-red to connect to a Microsoft MS SQL Database with Poll Size config support",
+      "updated_at": "2024-04-24T12:30:10.436Z",
+      "types": [
+        "MSSQL-CN",
+        "MSSQL"
+      ],
+      "keywords": [
+        "node-red",
+        "odbc",
+        "unixodbc",
+        "mssql",
+        "sql",
+        "Microsoft",
+        "database"
+      ],
+      "url": "https://flows.nodered.org/node/@digitalsystemsrl/node-red-contrib-mssql-pool"
+    },
+    {
+      "id": "victron-vrm-api",
+      "version": "0.2.4",
+      "description": "Interface with the Victron Energy VRM API",
+      "updated_at": "2024-04-24T08:58:52.052Z",
+      "types": [
+        "config-vrm-api",
+        "vrm-api"
+      ],
+      "keywords": [
+        "node-red",
+        "victron",
+        "vrm",
+        "api"
+      ],
+      "url": "https://flows.nodered.org/node/victron-vrm-api"
+    },
+    {
+      "id": "node-red-contrib-samsung-automation-studio-nodes",
+      "version": "1.1.20",
+      "description": "Samsung Automation Studio Nodes for Node-RED",
+      "updated_at": "2024-04-24T05:01:44.365Z",
+      "types": [
+        "device-profile",
+        "installed-device",
+        "automation",
+        "event-device",
+        "status-device",
+        "command-device",
+        "bixby in",
+        "bixby out",
+        "basic-auth",
+        "aws-config",
+        "aws-sdk",
+        "db-config",
+        "db-query",
+        "slack-notification",
+        "data-extractor",
+        "data-filter"
+      ],
+      "keywords": [
+        "SmartThings",
+        "Bixby",
+        "node-red",
+        "Samsung Automation Studio",
+        "AWS"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-samsung-automation-studio-nodes"
+    },
+    {
+      "id": "node-red-contrib-ecowitt-gateway",
+      "version": "1.0.6",
+      "description": "Ecowitt Gateway for NodeRED",
+      "updated_at": "2024-04-24T02:00:15.793Z",
+      "types": [
+        "ew-config-node",
+        "livedata-node"
+      ],
+      "keywords": [
+        "node-red",
+        "ecowitt",
+        "GW1000",
+        "GW1100",
+        "GW2000",
+        "weather",
+        "api"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-ecowitt-gateway"
+    },
+    {
+      "id": "@parallaxcontrol/node-red-control",
+      "version": "1.0.51",
+      "description": "A comprehensive package of Node-RED nodes designed to seamlessly integrate with the Parallax Control Engine, offering enhanced control capabilities for AV Automation.",
+      "updated_at": "2024-04-24T01:01:25.940Z",
+      "types": [
+        "and-gate",
+        "compare-string-text",
+        "input-select",
+        "inverter-gate",
+        "or-gate",
+        "set-reset-latch",
+        "send-single-dictionary",
+        "set-feedback",
+        "clear-signal-state",
+        "recall-signal-state",
+        "save-signal-state",
+        "bool-toggle",
+        "extract-message-data",
+        "system-management",
+        "message-array",
+        "cm4-pro-relay",
+        "cm4-pro-serial",
+        "cm4-pro-digital-input"
+      ],
+      "keywords": [
+        "parallaxcontrol",
+        "node-red",
+        "audiovisual",
+        "av"
+      ],
+      "url": "https://flows.nodered.org/node/@parallaxcontrol/node-red-control"
+    },
+    {
+      "id": "@digitalnodecom/node-red-contrib-generic-s3",
+      "version": "1.15.1",
+      "description": "Generic node-red S3 nodes",
+      "updated_at": "2024-04-23T21:00:57.347Z",
+      "types": [
+        "client-s3",
+        "List Buckets",
+        "Create Bucket",
+        "List Objects",
+        "List Objects V2",
+        "List Object Versions",
+        "Get Object",
+        "Get Objects",
+        "Head Object",
+        "Put Object",
+        "Put Objects",
+        "Delete Object",
+        "Copy Object",
+        "Move Object",
+        "Object Exists",
+        "Put Object ACL"
+      ],
+      "keywords": [
+        "node-red",
+        "s3",
+        "generic"
+      ],
+      "url": "https://flows.nodered.org/node/@digitalnodecom/node-red-contrib-generic-s3"
+    },
+    {
+      "id": "@strato-automation/node-red-contrib-strato-automation",
+      "version": "0.6.0",
+      "description": "Strato Automation Official Node Red Library",
+      "updated_at": "2024-04-23T19:53:24.036Z",
+      "types": [
+        "input",
+        "output-ip",
+        "output-mstp",
+        "ocn-server",
+        "func-on-off",
+        "func-ramp",
+        "func-min",
+        "func-max",
+        "const",
+        "input-topic",
+        "unit-converter",
+        "logic-gate",
+        "not-gate",
+        "psychrometric-calculator",
+        "strato-pid",
+        "signal-generator",
+        "ocn-diagnostic"
+      ],
+      "keywords": [
+        "node-red",
+        "node-red-node"
+      ],
+      "url": "https://flows.nodered.org/node/@strato-automation/node-red-contrib-strato-automation"
+    },
     {
       "id": "node-red-contrib-modbus",
       "version": "5.31.0",
@@ -704,23 +972,6 @@
       "url": "https://flows.nodered.org/node/@appmodule/node-red-contrib-siot"
     },
     {
-      "id": "victron-vrm-api",
-      "version": "0.2.3",
-      "description": "Interface with the Victron Energy VRM API",
-      "updated_at": "2024-04-17T10:04:47.682Z",
-      "types": [
-        "config-vrm-api",
-        "vrm-api"
-      ],
-      "keywords": [
-        "node-red",
-        "victron",
-        "vrm",
-        "api"
-      ],
-      "url": "https://flows.nodered.org/node/victron-vrm-api"
-    },
-    {
       "id": "@umsicht/node-red-contrib-thingsdata",
       "version": "1.3.3",
       "description": "Node-RED nodes to work with the ThingsData S3 Storage System and ThingsData InfluxDB",
@@ -778,39 +1029,6 @@
         "Cadillac"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-onstar2"
-    },
-    {
-      "id": "@parallaxcontrol/node-red-control",
-      "version": "1.0.50",
-      "description": "A comprehensive package of Node-RED nodes designed to seamlessly integrate with the Parallax Control Engine, offering enhanced control capabilities for AV Automation.",
-      "updated_at": "2024-04-17T01:02:07.021Z",
-      "types": [
-        "and-gate",
-        "compare-string-text",
-        "input-select",
-        "inverter-gate",
-        "or-gate",
-        "set-reset-latch",
-        "send-single-dictionary",
-        "set-feedback",
-        "clear-signal-state",
-        "recall-signal-state",
-        "save-signal-state",
-        "bool-toggle",
-        "extract-message-data",
-        "system-management",
-        "message-array",
-        "cm4-pro-relay",
-        "cm4-pro-serial",
-        "cm4-pro-digital-input"
-      ],
-      "keywords": [
-        "parallaxcontrol",
-        "node-red",
-        "audiovisual",
-        "av"
-      ],
-      "url": "https://flows.nodered.org/node/@parallaxcontrol/node-red-control"
     },
     {
       "id": "@chenyan454544/node-red-electricity",
@@ -1292,37 +1510,6 @@
         "node-red"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-better-queue"
-    },
-    {
-      "id": "@strato-automation/node-red-contrib-strato-automation",
-      "version": "0.5.9",
-      "description": "Strato Automation Official Node Red Library",
-      "updated_at": "2024-04-10T19:27:39.805Z",
-      "types": [
-        "input",
-        "output-ip",
-        "output-mstp",
-        "ocn-server",
-        "func-on-off",
-        "func-ramp",
-        "func-min",
-        "func-max",
-        "const",
-        "input-topic",
-        "unit-converter",
-        "logic-gate",
-        "not-gate",
-        "psychrometric-calculator",
-        "strato-pid",
-        "signal-generator",
-        "deadband",
-        "ocn-diagnostic"
-      ],
-      "keywords": [
-        "node-red",
-        "node-red-node"
-      ],
-      "url": "https://flows.nodered.org/node/@strato-automation/node-red-contrib-strato-automation"
     },
     {
       "id": "node-red-contrib-knx-ultimate",
@@ -2000,26 +2187,6 @@
         "gis"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-web-worldmap"
-    },
-    {
-      "id": "node-red-contrib-ecowitt-gateway",
-      "version": "1.0.5",
-      "description": "Ecowitt Gateway for NodeRED",
-      "updated_at": "2024-04-02T03:03:06.069Z",
-      "types": [
-        "ew-config-node",
-        "livedata-node"
-      ],
-      "keywords": [
-        "node-red",
-        "ecowitt",
-        "GW1000",
-        "GW1100",
-        "GW2000",
-        "weather",
-        "api"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-ecowitt-gateway"
     },
     {
       "id": "l2l-endpoints",
@@ -2845,50 +3012,6 @@
         "CP"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-sendurl"
-    },
-    {
-      "id": "@yousolution/node-red-contrib-you-nth-layerone",
-      "version": "0.0.4",
-      "description": "NodeRed library node for connection to LayerOne ",
-      "updated_at": "2024-03-20T11:00:05.773Z",
-      "types": [
-        "authenticate",
-        "logout",
-        "query",
-        "company",
-        "companyInfo",
-        "companyAdminInfo",
-        "document",
-        "getObject",
-        "businessPartner",
-        "item",
-        "pick",
-        "stockTransfer",
-        "authenticateLayerOneSL",
-        "listLayerOneSL",
-        "createLayerOneSl",
-        "deleteLayerOneSl",
-        "getLayerOneSL",
-        "patchLayerOneSL",
-        "closeLayerOneSl",
-        "crossJoinLayerOneSL",
-        "nextLinkLayerOneSL",
-        "serviceLayerOneSL",
-        "manipulateEntityLayerOneSL",
-        "createLayerOneSlSQLQuery",
-        "SQLQueryLayerOneSL"
-      ],
-      "keywords": [
-        "node-red",
-        "LayerOne",
-        "NTH",
-        "service layer",
-        "API",
-        "ERP",
-        "integration",
-        "youSolution.Cloud"
-      ],
-      "url": "https://flows.nodered.org/node/@yousolution/node-red-contrib-you-nth-layerone"
     },
     {
       "id": "node-red-node-rdk-ros2",
@@ -4334,33 +4457,6 @@
         "archive"
       ],
       "url": "https://flows.nodered.org/node/@gregoriusrippenstein/node-red-contrib-tarball"
-    },
-    {
-      "id": "@gregoriusrippenstein/node-red-streaming",
-      "version": "0.0.11",
-      "description": "Nodes to make streaming possible in Node-RED.",
-      "updated_at": "2024-03-05T09:19:10.639Z",
-      "types": [
-        "PipeStart",
-        "FileStream",
-        "HttpRequestStream",
-        "CsvStream",
-        "JsonLStream",
-        "LineStream",
-        "IconvStream",
-        "Chunk2Msg",
-        "DeCompStream",
-        "ArchiveStream",
-        "PipeEnd"
-      ],
-      "keywords": [
-        "node-red",
-        "streaming",
-        "pipeline",
-        "etl",
-        "streamapi"
-      ],
-      "url": "https://flows.nodered.org/node/@gregoriusrippenstein/node-red-streaming"
     },
     {
       "id": "@skylord123/event-listener",
@@ -6785,38 +6881,6 @@
         "nspanel"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-nspanel-lui"
-    },
-    {
-      "id": "node-red-contrib-samsung-automation-studio-nodes",
-      "version": "1.1.19",
-      "description": "Samsung Automation Studio Nodes for Node-RED",
-      "updated_at": "2024-01-22T05:27:01.302Z",
-      "types": [
-        "device-profile",
-        "installed-device",
-        "automation",
-        "event-device",
-        "status-device",
-        "command-device",
-        "bixby in",
-        "bixby out",
-        "basic-auth",
-        "aws-config",
-        "aws-sdk",
-        "db-config",
-        "db-query",
-        "slack-notification",
-        "data-extractor",
-        "data-filter"
-      ],
-      "keywords": [
-        "SmartThings",
-        "Bixby",
-        "node-red",
-        "Samsung Automation Studio",
-        "AWS"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-samsung-automation-studio-nodes"
     },
     {
       "id": "@redplc/node-red-rpi-mcp3424",
@@ -10206,36 +10270,6 @@
         "xlsx"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-json2xlsx"
-    },
-    {
-      "id": "@digitalnodecom/node-red-contrib-generic-s3",
-      "version": "1.15.0",
-      "description": "Generic node-red S3 nodes",
-      "updated_at": "2023-11-10T20:10:18.051Z",
-      "types": [
-        "client-s3",
-        "List Buckets",
-        "Create Bucket",
-        "List Objects",
-        "List Objects V2",
-        "List Object Versions",
-        "Get Object",
-        "Get Objects",
-        "Head Object",
-        "Put Object",
-        "Put Objects",
-        "Delete Object",
-        "Copy Object",
-        "Move Object",
-        "Object Exists",
-        "Put Object ACL"
-      ],
-      "keywords": [
-        "node-red",
-        "s3",
-        "generic"
-      ],
-      "url": "https://flows.nodered.org/node/@digitalnodecom/node-red-contrib-generic-s3"
     },
     {
       "id": "node-red-contrib-vib-smart-boiler",
