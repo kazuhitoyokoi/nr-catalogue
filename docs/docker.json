@@ -1,7 +1,140 @@
 {
   "name": "Catalogue for Docker",
-  "updated_at": "2024-04-24T15:58:50.233Z",
+  "updated_at": "2024-04-25T15:56:15.845Z",
   "modules": [
+    {
+      "id": "node-red-contrib-ewelink-cube",
+      "version": "1.2.2",
+      "description": "Node-RED integration with eWeLink Cube",
+      "updated_at": "2024-04-25T13:34:27.410Z",
+      "types": [
+        "api-server",
+        "get-devices",
+        "event-state",
+        "event-online",
+        "control-device",
+        "event-add-device",
+        "event-del-device",
+        "event-device-info",
+        "put-device-state",
+        "register-device"
+      ],
+      "keywords": [
+        "node-red",
+        "ewelink",
+        "ewelink-cube"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-ewelink-cube"
+    },
+    {
+      "id": "@prescient-devices/node-red-contrib-promptinput",
+      "version": "1.2.2",
+      "description": "Emits an output message based on user input entered via browser's prompt.",
+      "updated_at": "2024-04-25T12:47:26.447Z",
+      "types": [
+        "promptinput"
+      ],
+      "keywords": [
+        "node-red",
+        "user input"
+      ],
+      "url": "https://flows.nodered.org/node/@prescient-devices/node-red-contrib-promptinput"
+    },
+    {
+      "id": "grunig-nodes",
+      "version": "1.0.11",
+      "description": "Grünig Nodes Library",
+      "updated_at": "2024-04-25T10:16:27.790Z",
+      "types": [
+        "OpcUa-Read",
+        "MQTT-InfluxDB-Write",
+        "Modbus-Read",
+        "AlarmOutput"
+      ],
+      "keywords": [
+        "grünig",
+        "grunig",
+        "node-red",
+        "OpcUa",
+        "MQTT",
+        "InfluxDB",
+        "Modbus",
+        "Read",
+        "Write"
+      ],
+      "url": "https://flows.nodered.org/node/grunig-nodes"
+    },
+    {
+      "id": "node-red-hexa-data-lib",
+      "version": "1.0.2",
+      "description": "Hexa-data library",
+      "updated_at": "2024-04-25T09:36:27.582Z",
+      "types": [],
+      "keywords": [
+        "hexa-data",
+        "node-red",
+        "hexa-ai",
+        "iot"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-hexa-data-lib"
+    },
+    {
+      "id": "node-red-contrib-superpower-smart-test",
+      "version": "1.2.5",
+      "description": "Node-RED integration with eWeLink Cube",
+      "updated_at": "2024-04-25T02:58:35.224Z",
+      "types": [
+        "api-server",
+        "get-devices",
+        "event-state",
+        "event-online",
+        "control-device",
+        "event-add-device",
+        "event-del-device",
+        "event-device-info",
+        "put-device-state",
+        "register-device"
+      ],
+      "keywords": [
+        "node-red",
+        "ewelink",
+        "ewelink-cube"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-superpower-smart-test"
+    },
+    {
+      "id": "@chenyan454544/node-red-electricity",
+      "version": "1.0.6",
+      "description": "Calculation of cumulative electricity consumption",
+      "updated_at": "2024-04-25T01:11:10.038Z",
+      "types": [
+        "electricity"
+      ],
+      "keywords": [
+        "node-red"
+      ],
+      "url": "https://flows.nodered.org/node/@chenyan454544/node-red-electricity"
+    },
+    {
+      "id": "@digitalsystemsrl/node-red-contrib-mssql-pool",
+      "version": "1.4.0",
+      "description": "Node for node-red to connect to a Microsoft MS SQL Database with Poll Size config support",
+      "updated_at": "2024-04-24T14:38:09.625Z",
+      "types": [
+        "MSSQL-CN",
+        "MSSQL"
+      ],
+      "keywords": [
+        "node-red",
+        "odbc",
+        "unixodbc",
+        "mssql",
+        "sql",
+        "Microsoft",
+        "database"
+      ],
+      "url": "https://flows.nodered.org/node/@digitalsystemsrl/node-red-contrib-mssql-pool"
+    },
     {
       "id": "@gregoriusrippenstein/node-red-streaming",
       "version": "0.0.12",
@@ -72,41 +205,6 @@
         "youSolution.Cloud"
       ],
       "url": "https://flows.nodered.org/node/@yousolution/node-red-contrib-you-nth-layerone"
-    },
-    {
-      "id": "grunig-nodes",
-      "version": "1.0.8",
-      "description": "Grünig Nodes Library",
-      "updated_at": "2024-04-24T12:41:49.478Z",
-      "types": [
-        "OpcUa-Read"
-      ],
-      "keywords": [
-        "grünig",
-        "grunig",
-        "node-red"
-      ],
-      "url": "https://flows.nodered.org/node/grunig-nodes"
-    },
-    {
-      "id": "@digitalsystemsrl/node-red-contrib-mssql-pool",
-      "version": "1.2.0",
-      "description": "Node for node-red to connect to a Microsoft MS SQL Database with Poll Size config support",
-      "updated_at": "2024-04-24T12:30:10.436Z",
-      "types": [
-        "MSSQL-CN",
-        "MSSQL"
-      ],
-      "keywords": [
-        "node-red",
-        "odbc",
-        "unixodbc",
-        "mssql",
-        "sql",
-        "Microsoft",
-        "database"
-      ],
-      "url": "https://flows.nodered.org/node/@digitalsystemsrl/node-red-contrib-mssql-pool"
     },
     {
       "id": "victron-vrm-api",
@@ -378,30 +476,6 @@
         "websocket"
       ],
       "url": "https://flows.nodered.org/node/@semilimes/node-red-semilimes"
-    },
-    {
-      "id": "node-red-contrib-superpower-smart-test",
-      "version": "1.2.4",
-      "description": "Node-RED integration with eWeLink Cube",
-      "updated_at": "2024-04-22T05:52:30.666Z",
-      "types": [
-        "api-server",
-        "get-devices",
-        "event-state",
-        "event-online",
-        "control-device",
-        "event-add-device",
-        "event-del-device",
-        "event-device-info",
-        "put-device-state",
-        "register-device"
-      ],
-      "keywords": [
-        "node-red",
-        "ewelink",
-        "ewelink-cube"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-superpower-smart-test"
     },
     {
       "id": "@sumit_shinde_84/node-red-contrib-watch-dog",
@@ -1029,19 +1103,6 @@
         "Cadillac"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-onstar2"
-    },
-    {
-      "id": "@chenyan454544/node-red-electricity",
-      "version": "1.0.5",
-      "description": "Calculation of cumulative electricity consumption",
-      "updated_at": "2024-04-16T10:11:36.194Z",
-      "types": [
-        "electricity"
-      ],
-      "keywords": [
-        "node-red"
-      ],
-      "url": "https://flows.nodered.org/node/@chenyan454544/node-red-electricity"
     },
     {
       "id": "node-red-contrib-sonos-events",
@@ -4219,30 +4280,6 @@
         "camera"
       ],
       "url": "https://flows.nodered.org/node/node-red-node-rdk-camera"
-    },
-    {
-      "id": "node-red-contrib-ewelink-cube",
-      "version": "1.2.1",
-      "description": "Node-RED integration with eWeLink Cube",
-      "updated_at": "2024-03-07T09:24:07.133Z",
-      "types": [
-        "api-server",
-        "get-devices",
-        "event-state",
-        "event-online",
-        "control-device",
-        "event-add-device",
-        "event-del-device",
-        "event-device-info",
-        "put-device-state",
-        "register-device"
-      ],
-      "keywords": [
-        "node-red",
-        "ewelink",
-        "ewelink-cube"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-ewelink-cube"
     },
     {
       "id": "@sdalu/db",
@@ -24658,20 +24695,6 @@
         "node-red"
       ],
       "url": "https://flows.nodered.org/node/@prescient-devices/node-red-contrib-admin-api-url"
-    },
-    {
-      "id": "@prescient-devices/node-red-contrib-promptinput",
-      "version": "1.0.7",
-      "description": "Emits an output message based on user input entered via browser's prompt.",
-      "updated_at": "2022-11-19T21:31:00.209Z",
-      "types": [
-        "promptinput"
-      ],
-      "keywords": [
-        "node-red",
-        "user input"
-      ],
-      "url": "https://flows.nodered.org/node/@prescient-devices/node-red-contrib-promptinput"
     },
     {
       "id": "node-red-contrib-catalogue",
