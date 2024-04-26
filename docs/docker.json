@@ -1,7 +1,204 @@
 {
   "name": "Catalogue for Docker",
-  "updated_at": "2024-04-25T15:56:15.845Z",
+  "updated_at": "2024-04-26T15:57:58.182Z",
   "modules": [
+    {
+      "id": "@efficientip/node-red-eip-sds",
+      "version": "0.1.8",
+      "description": "A set of nodes to access and interact with EfficientIP SOLIDserver using the API",
+      "updated_at": "2024-04-26T14:26:07.673Z",
+      "types": [
+        "sds-cnx",
+        "sds-generic"
+      ],
+      "keywords": [
+        "node-red",
+        "solidserver",
+        "DDI",
+        "IPAM",
+        "DNS"
+      ],
+      "url": "https://flows.nodered.org/node/@efficientip/node-red-eip-sds"
+    },
+    {
+      "id": "@digitalsystemsrl/node-red-contrib-mssql-pool",
+      "version": "1.5.1",
+      "description": "Node for node-red to connect to a Microsoft MS SQL Database with Poll Size config support",
+      "updated_at": "2024-04-26T13:08:06.847Z",
+      "types": [
+        "MSSQL-CN",
+        "MSSQL"
+      ],
+      "keywords": [
+        "node-red",
+        "odbc",
+        "unixodbc",
+        "mssql",
+        "sql",
+        "Microsoft",
+        "database"
+      ],
+      "url": "https://flows.nodered.org/node/@digitalsystemsrl/node-red-contrib-mssql-pool"
+    },
+    {
+      "id": "grunig-nodes",
+      "version": "1.0.12",
+      "description": "Grünig Nodes Library",
+      "updated_at": "2024-04-26T13:03:46.704Z",
+      "types": [
+        "OpcUa-Read",
+        "MQTT-InfluxDB-Write",
+        "Modbus-Read",
+        "AlarmOutput",
+        "Visualization"
+      ],
+      "keywords": [
+        "grünig",
+        "grunig",
+        "node-red",
+        "OpcUa",
+        "MQTT",
+        "InfluxDB",
+        "Modbus",
+        "Read",
+        "Write"
+      ],
+      "url": "https://flows.nodered.org/node/grunig-nodes"
+    },
+    {
+      "id": "@5minds/node-red-contrib-processcube",
+      "version": "0.2.4",
+      "description": "Node-RED nodes for ProcessCube",
+      "updated_at": "2024-04-26T08:37:29.876Z",
+      "types": [
+        "externaltask-input",
+        "externaltask-output",
+        "externaltask-error",
+        "process-start"
+      ],
+      "keywords": [
+        "node-red",
+        "processcube",
+        "workflow",
+        "bpmn",
+        "low-code"
+      ],
+      "url": "https://flows.nodered.org/node/@5minds/node-red-contrib-processcube"
+    },
+    {
+      "id": "@starke-dms/node-red",
+      "version": "0.0.12",
+      "description": "node-red for starke-dms rest-api",
+      "updated_at": "2024-04-26T07:17:47.663Z",
+      "types": [
+        "starke-dms-login",
+        "starke-dms-logout",
+        "starke-dms-write-log",
+        "starke-dms-get-metadata",
+        "starke-dms-set-metadata",
+        "starke-dms-set-client",
+        "starke-dms-set-doctype",
+        "starke-dms-set-indexes",
+        "starke-dms-set-protection",
+        "starke-dms-set-year",
+        "starke-dms-search",
+        "starke-dms-download-document",
+        "starke-dms-archive-document",
+        "starke-dms-versionize-document",
+        "starke-dms-generic"
+      ],
+      "keywords": [
+        "starke-dms",
+        "node-red"
+      ],
+      "url": "https://flows.nodered.org/node/@starke-dms/node-red"
+    },
+    {
+      "id": "node-red-contrib-operatelogic",
+      "version": "1.0.27",
+      "description": "Node-RED OperateLogic Node",
+      "updated_at": "2024-04-26T06:29:11.225Z",
+      "types": [
+        "OperateLogic"
+      ],
+      "keywords": [
+        "node-red",
+        "operate",
+        "mode",
+        "rules"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-operatelogic"
+    },
+    {
+      "id": "@technithusiast/node-red-contrib-ai-intent",
+      "version": "1.1.52",
+      "description": "A collection of nodes to elevate a user's automation interactions",
+      "updated_at": "2024-04-26T05:54:43.254Z",
+      "types": [
+        "Register Intent",
+        "Call Intent",
+        "OpenAI User",
+        "OpenAI System",
+        "OpenAI Chat",
+        "OpenAI Response",
+        "OpenAI Tool",
+        "openai-configuration"
+      ],
+      "keywords": [
+        "node-red"
+      ],
+      "url": "https://flows.nodered.org/node/@technithusiast/node-red-contrib-ai-intent"
+    },
+    {
+      "id": "node-red-contrib-ecowitt-gateway",
+      "version": "1.0.7",
+      "description": "Ecowitt Gateway for NodeRED",
+      "updated_at": "2024-04-25T21:58:38.507Z",
+      "types": [
+        "ew-config-node",
+        "livedata-node"
+      ],
+      "keywords": [
+        "node-red",
+        "ecowitt",
+        "GW1000",
+        "GW1100",
+        "GW2000",
+        "weather",
+        "api"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-ecowitt-gateway"
+    },
+    {
+      "id": "node-red-contrib-mqtt-auto",
+      "version": "1.0.3",
+      "description": "Node group for NodeRed that maintains multiple MQTT connections and you can change connection credentials during runtime.",
+      "updated_at": "2024-04-25T20:03:04.434Z",
+      "types": [
+        "mqtt-auto-connect",
+        "mqtt-auto-disconnect",
+        "mqtt-auto-subscribe",
+        "mqtt-auto-publish",
+        "mqtt-auto-unsubscribe",
+        "mqtt-auto-status"
+      ],
+      "keywords": [
+        "node-red",
+        "mqtt"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-mqtt-auto"
+    },
+    {
+      "id": "@sumit_shinde_84/node-red-contrib-watch-dog",
+      "version": "1.0.10",
+      "description": "This is watch-dog node",
+      "updated_at": "2024-04-25T16:10:50.287Z",
+      "types": [],
+      "keywords": [
+        "node-red"
+      ],
+      "url": "https://flows.nodered.org/node/@sumit_shinde_84/node-red-contrib-watch-dog"
+    },
     {
       "id": "node-red-contrib-ewelink-cube",
       "version": "1.2.2",
@@ -27,6 +224,56 @@
       "url": "https://flows.nodered.org/node/node-red-contrib-ewelink-cube"
     },
     {
+      "id": "@flowfuse/node-red-dashboard",
+      "version": "1.8.0",
+      "description": "Dashboard 2.0 - A collection of Node-RED nodes that provide functionality to build your own UI applications (inc. forms, buttons, charts).",
+      "updated_at": "2024-04-25T12:54:25.568Z",
+      "types": [
+        "ui-base",
+        "ui-page",
+        "ui-group",
+        "ui-theme",
+        "ui-form",
+        "__errors__",
+        "ui-text-input",
+        "__errors__",
+        "ui-button",
+        "__errors__",
+        "ui-button-group",
+        "__errors__",
+        "ui-dropdown",
+        "__errors__",
+        "ui-radio-group",
+        "__errors__",
+        "ui-slider",
+        "__errors__",
+        "ui-switch",
+        "__errors__",
+        "ui-text",
+        "__errors__",
+        "ui-table",
+        "__errors__",
+        "ui-chart",
+        "__errors__",
+        "ui-gauge",
+        "__errors__",
+        "ui-notification",
+        "__errors__",
+        "ui-markdown",
+        "__errors__",
+        "ui-template",
+        "__errors__",
+        "ui-event",
+        "__errors__",
+        "ui-control",
+        "__errors__"
+      ],
+      "keywords": [
+        "node-red"
+      ],
+      "url": "https://flows.nodered.org/node/@flowfuse/node-red-dashboard"
+    },
+    {
       "id": "@prescient-devices/node-red-contrib-promptinput",
       "version": "1.2.2",
       "description": "Emits an output message based on user input entered via browser's prompt.",
@@ -39,30 +286,6 @@
         "user input"
       ],
       "url": "https://flows.nodered.org/node/@prescient-devices/node-red-contrib-promptinput"
-    },
-    {
-      "id": "grunig-nodes",
-      "version": "1.0.11",
-      "description": "Grünig Nodes Library",
-      "updated_at": "2024-04-25T10:16:27.790Z",
-      "types": [
-        "OpcUa-Read",
-        "MQTT-InfluxDB-Write",
-        "Modbus-Read",
-        "AlarmOutput"
-      ],
-      "keywords": [
-        "grünig",
-        "grunig",
-        "node-red",
-        "OpcUa",
-        "MQTT",
-        "InfluxDB",
-        "Modbus",
-        "Read",
-        "Write"
-      ],
-      "url": "https://flows.nodered.org/node/grunig-nodes"
     },
     {
       "id": "node-red-hexa-data-lib",
@@ -114,26 +337,6 @@
         "node-red"
       ],
       "url": "https://flows.nodered.org/node/@chenyan454544/node-red-electricity"
-    },
-    {
-      "id": "@digitalsystemsrl/node-red-contrib-mssql-pool",
-      "version": "1.4.0",
-      "description": "Node for node-red to connect to a Microsoft MS SQL Database with Poll Size config support",
-      "updated_at": "2024-04-24T14:38:09.625Z",
-      "types": [
-        "MSSQL-CN",
-        "MSSQL"
-      ],
-      "keywords": [
-        "node-red",
-        "odbc",
-        "unixodbc",
-        "mssql",
-        "sql",
-        "Microsoft",
-        "database"
-      ],
-      "url": "https://flows.nodered.org/node/@digitalsystemsrl/node-red-contrib-mssql-pool"
     },
     {
       "id": "@gregoriusrippenstein/node-red-streaming",
@@ -254,26 +457,6 @@
         "AWS"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-samsung-automation-studio-nodes"
-    },
-    {
-      "id": "node-red-contrib-ecowitt-gateway",
-      "version": "1.0.6",
-      "description": "Ecowitt Gateway for NodeRED",
-      "updated_at": "2024-04-24T02:00:15.793Z",
-      "types": [
-        "ew-config-node",
-        "livedata-node"
-      ],
-      "keywords": [
-        "node-red",
-        "ecowitt",
-        "GW1000",
-        "GW1100",
-        "GW2000",
-        "weather",
-        "api"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-ecowitt-gateway"
     },
     {
       "id": "@parallaxcontrol/node-red-control",
@@ -476,17 +659,6 @@
         "websocket"
       ],
       "url": "https://flows.nodered.org/node/@semilimes/node-red-semilimes"
-    },
-    {
-      "id": "@sumit_shinde_84/node-red-contrib-watch-dog",
-      "version": "1.0.8",
-      "description": "Node-RED Dashboard 2.0 Webcam Widget\r =======================",
-      "updated_at": "2024-04-21T17:08:19.817Z",
-      "types": [],
-      "keywords": [
-        "node-red"
-      ],
-      "url": "https://flows.nodered.org/node/@sumit_shinde_84/node-red-contrib-watch-dog"
     },
     {
       "id": "node-red-contrib-axis-host",
@@ -768,22 +940,6 @@
         "systemair"
       ],
       "url": "https://flows.nodered.org/node/@nagisa~/node-red-systemair-save"
-    },
-    {
-      "id": "node-red-contrib-operatelogic",
-      "version": "1.0.26",
-      "description": "Node-RED OperateLogic Node",
-      "updated_at": "2024-04-18T18:50:35.471Z",
-      "types": [
-        "OperateLogic"
-      ],
-      "keywords": [
-        "node-red",
-        "operate",
-        "mode",
-        "rules"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-operatelogic"
     },
     {
       "id": "node-red-contrib-gatewayex",
@@ -1986,56 +2142,6 @@
         "audio DSP"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-qsys"
-    },
-    {
-      "id": "@flowfuse/node-red-dashboard",
-      "version": "1.7.1",
-      "description": "Dashboard 2.0 - A collection of Node-RED nodes that provide functionality to build your own UI applications (inc. forms, buttons, charts).",
-      "updated_at": "2024-04-06T10:09:24.084Z",
-      "types": [
-        "ui-base",
-        "ui-page",
-        "ui-group",
-        "ui-theme",
-        "ui-form",
-        "__errors__",
-        "ui-text-input",
-        "__errors__",
-        "ui-button",
-        "__errors__",
-        "ui-button-group",
-        "__errors__",
-        "ui-dropdown",
-        "__errors__",
-        "ui-radio-group",
-        "__errors__",
-        "ui-slider",
-        "__errors__",
-        "ui-switch",
-        "__errors__",
-        "ui-text",
-        "__errors__",
-        "ui-table",
-        "__errors__",
-        "ui-chart",
-        "__errors__",
-        "ui-gauge",
-        "__errors__",
-        "ui-notification",
-        "__errors__",
-        "ui-markdown",
-        "__errors__",
-        "ui-template",
-        "__errors__",
-        "ui-event",
-        "__errors__",
-        "ui-control",
-        "__errors__"
-      ],
-      "keywords": [
-        "node-red"
-      ],
-      "url": "https://flows.nodered.org/node/@flowfuse/node-red-dashboard"
     },
     {
       "id": "@baroldgene/node-red-contrib-victron",
@@ -5936,26 +6042,6 @@
       "url": "https://flows.nodered.org/node/node-red-contrib-xsltransform"
     },
     {
-      "id": "@technithusiast/node-red-contrib-ai-intent",
-      "version": "1.1.51",
-      "description": "A collection of nodes to elevate a user's automation interactions",
-      "updated_at": "2024-02-10T08:17:42.892Z",
-      "types": [
-        "Register Intent",
-        "Call Intent",
-        "OpenAI User",
-        "OpenAI System",
-        "OpenAI Chat",
-        "OpenAI Response",
-        "OpenAI Tool",
-        "openai-configuration"
-      ],
-      "keywords": [
-        "node-red"
-      ],
-      "url": "https://flows.nodered.org/node/@technithusiast/node-red-contrib-ai-intent"
-    },
-    {
       "id": "@helander/node-red-boolean-gates",
       "version": "1.1.0",
       "description": "A Node-RED node to provide a boolean gate and to interconnect them into a boolean network.",
@@ -6690,34 +6776,6 @@
         "rename"
       ],
       "url": "https://flows.nodered.org/node/do-red"
-    },
-    {
-      "id": "@starke-dms/node-red",
-      "version": "0.0.11",
-      "description": "node-red for starke-dms rest-api",
-      "updated_at": "2024-01-26T12:48:09.931Z",
-      "types": [
-        "starke-dms-login",
-        "starke-dms-logout",
-        "starke-dms-write-log",
-        "starke-dms-get-metadata",
-        "starke-dms-set-metadata",
-        "starke-dms-set-client",
-        "starke-dms-set-doctype",
-        "starke-dms-set-indexes",
-        "starke-dms-set-protection",
-        "starke-dms-set-year",
-        "starke-dms-search",
-        "starke-dms-download-document",
-        "starke-dms-archive-document",
-        "starke-dms-versionize-document",
-        "starke-dms-generic"
-      ],
-      "keywords": [
-        "starke-dms",
-        "node-red"
-      ],
-      "url": "https://flows.nodered.org/node/@starke-dms/node-red"
     },
     {
       "id": "node-red-lower-case-25-en",
