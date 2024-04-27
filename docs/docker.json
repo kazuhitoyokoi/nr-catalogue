@@ -1,7 +1,117 @@
 {
   "name": "Catalogue for Docker",
-  "updated_at": "2024-04-26T15:57:58.182Z",
+  "updated_at": "2024-04-27T15:54:32.398Z",
   "modules": [
+    {
+      "id": "@5minds/node-red-contrib-processcube",
+      "version": "0.2.6",
+      "description": "Node-RED nodes for ProcessCube",
+      "updated_at": "2024-04-27T09:25:10.843Z",
+      "types": [
+        "externaltask-input",
+        "externaltask-output",
+        "externaltask-error",
+        "process-start",
+        "processcube-engine-config"
+      ],
+      "keywords": [
+        "node-red",
+        "processcube",
+        "workflow",
+        "bpmn",
+        "low-code"
+      ],
+      "url": "https://flows.nodered.org/node/@5minds/node-red-contrib-processcube"
+    },
+    {
+      "id": "node-red-contrib-telegrambot",
+      "version": "15.1.10",
+      "description": "Telegram bot nodes for Node-RED",
+      "updated_at": "2024-04-26T20:37:43.228Z",
+      "types": [
+        "telegram bot",
+        "telegram receiver",
+        "telegram command",
+        "telegram event",
+        "telegram sender",
+        "telegram reply",
+        "telegram control"
+      ],
+      "keywords": [
+        "node-red",
+        "telegram",
+        "bot"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-telegrambot"
+    },
+    {
+      "id": "@unipitechnology/node-red-contrib-unipi-evok",
+      "version": "0.0.6",
+      "description": "EVOK Unipi in Node-RED",
+      "updated_at": "2024-04-26T17:53:24.093Z",
+      "types": [
+        "unipi-input",
+        "unipi-output",
+        "unipi-input-v3",
+        "unipi-output-v3"
+      ],
+      "keywords": [
+        "unipi",
+        "evok",
+        "node-red"
+      ],
+      "url": "https://flows.nodered.org/node/@unipitechnology/node-red-contrib-unipi-evok"
+    },
+    {
+      "id": "@flowfuse/node-red-dashboard",
+      "version": "1.8.1",
+      "description": "Dashboard 2.0 - A collection of Node-RED nodes that provide functionality to build your own UI applications (inc. forms, buttons, charts).",
+      "updated_at": "2024-04-26T15:18:21.552Z",
+      "types": [
+        "ui-base",
+        "ui-page",
+        "ui-group",
+        "ui-theme",
+        "ui-form",
+        "__errors__",
+        "ui-text-input",
+        "__errors__",
+        "ui-button",
+        "__errors__",
+        "ui-button-group",
+        "__errors__",
+        "ui-dropdown",
+        "__errors__",
+        "ui-radio-group",
+        "__errors__",
+        "ui-slider",
+        "__errors__",
+        "ui-switch",
+        "__errors__",
+        "ui-text",
+        "__errors__",
+        "ui-table",
+        "__errors__",
+        "ui-chart",
+        "__errors__",
+        "ui-gauge",
+        "__errors__",
+        "ui-notification",
+        "__errors__",
+        "ui-markdown",
+        "__errors__",
+        "ui-template",
+        "__errors__",
+        "ui-event",
+        "__errors__",
+        "ui-control",
+        "__errors__"
+      ],
+      "keywords": [
+        "node-red"
+      ],
+      "url": "https://flows.nodered.org/node/@flowfuse/node-red-dashboard"
+    },
     {
       "id": "@efficientip/node-red-eip-sds",
       "version": "0.1.8",
@@ -64,26 +174,6 @@
         "Write"
       ],
       "url": "https://flows.nodered.org/node/grunig-nodes"
-    },
-    {
-      "id": "@5minds/node-red-contrib-processcube",
-      "version": "0.2.4",
-      "description": "Node-RED nodes for ProcessCube",
-      "updated_at": "2024-04-26T08:37:29.876Z",
-      "types": [
-        "externaltask-input",
-        "externaltask-output",
-        "externaltask-error",
-        "process-start"
-      ],
-      "keywords": [
-        "node-red",
-        "processcube",
-        "workflow",
-        "bpmn",
-        "low-code"
-      ],
-      "url": "https://flows.nodered.org/node/@5minds/node-red-contrib-processcube"
     },
     {
       "id": "@starke-dms/node-red",
@@ -224,56 +314,6 @@
       "url": "https://flows.nodered.org/node/node-red-contrib-ewelink-cube"
     },
     {
-      "id": "@flowfuse/node-red-dashboard",
-      "version": "1.8.0",
-      "description": "Dashboard 2.0 - A collection of Node-RED nodes that provide functionality to build your own UI applications (inc. forms, buttons, charts).",
-      "updated_at": "2024-04-25T12:54:25.568Z",
-      "types": [
-        "ui-base",
-        "ui-page",
-        "ui-group",
-        "ui-theme",
-        "ui-form",
-        "__errors__",
-        "ui-text-input",
-        "__errors__",
-        "ui-button",
-        "__errors__",
-        "ui-button-group",
-        "__errors__",
-        "ui-dropdown",
-        "__errors__",
-        "ui-radio-group",
-        "__errors__",
-        "ui-slider",
-        "__errors__",
-        "ui-switch",
-        "__errors__",
-        "ui-text",
-        "__errors__",
-        "ui-table",
-        "__errors__",
-        "ui-chart",
-        "__errors__",
-        "ui-gauge",
-        "__errors__",
-        "ui-notification",
-        "__errors__",
-        "ui-markdown",
-        "__errors__",
-        "ui-template",
-        "__errors__",
-        "ui-event",
-        "__errors__",
-        "ui-control",
-        "__errors__"
-      ],
-      "keywords": [
-        "node-red"
-      ],
-      "url": "https://flows.nodered.org/node/@flowfuse/node-red-dashboard"
-    },
-    {
       "id": "@prescient-devices/node-red-contrib-promptinput",
       "version": "1.2.2",
       "description": "Emits an output message based on user input entered via browser's prompt.",
@@ -300,6 +340,29 @@
         "iot"
       ],
       "url": "https://flows.nodered.org/node/node-red-hexa-data-lib"
+    },
+    {
+      "id": "node-red-contrib-bizwechat",
+      "version": "1.1.3",
+      "description": "企业微信消息接收转发至NodeRed",
+      "updated_at": "2024-04-25T05:32:30.927Z",
+      "types": [
+        "bizwechat-input",
+        "bizwechat-output",
+        "bizwechat-push",
+        "bizwechat-upload",
+        "bizwechat-pushbear",
+        "bizwechat-template",
+        "bizwechat-configurator"
+      ],
+      "keywords": [
+        "node-red",
+        "nodered",
+        "NodeRed",
+        "WeChat",
+        "BizWeChat"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-bizwechat"
     },
     {
       "id": "node-red-contrib-superpower-smart-test",
@@ -3236,24 +3299,6 @@
         "SCS"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-myhome-bticino-v2"
-    },
-    {
-      "id": "@unipitechnology/node-red-contrib-unipi-evok",
-      "version": "0.0.5",
-      "description": "EVOK UniPi in Node-RED",
-      "updated_at": "2024-03-19T15:50:48.690Z",
-      "types": [
-        "unipi-input",
-        "unipi-output",
-        "unipi-input-beta",
-        "unipi-output-beta"
-      ],
-      "keywords": [
-        "unipi",
-        "evok",
-        "node-red"
-      ],
-      "url": "https://flows.nodered.org/node/@unipitechnology/node-red-contrib-unipi-evok"
     },
     {
       "id": "@ptarmiganlabs/ctrl-q-nr",
@@ -6489,27 +6534,6 @@
         "pulse counter"
       ],
       "url": "https://flows.nodered.org/node/@metz-connect/node-red-ewio2"
-    },
-    {
-      "id": "node-red-contrib-telegrambot",
-      "version": "15.1.9",
-      "description": "Telegram bot nodes for Node-RED",
-      "updated_at": "2024-01-30T21:03:40.697Z",
-      "types": [
-        "telegram bot",
-        "telegram receiver",
-        "telegram command",
-        "telegram event",
-        "telegram sender",
-        "telegram reply",
-        "telegram control"
-      ],
-      "keywords": [
-        "node-red",
-        "telegram",
-        "bot"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-telegrambot"
     },
     {
       "id": "@gemini86/node-red-contrib-alarm-manager",
@@ -29485,6 +29509,25 @@
       "url": "https://flows.nodered.org/node/node-red-contrib-wemo-emulator"
     },
     {
+      "id": "node-red-contrib-unipi-evok",
+      "version": "0.0.1",
+      "description": "UniPi EVOK node for Node-RED",
+      "updated_at": "2022-06-21T20:23:01.575Z",
+      "types": [
+        "unipi",
+        "unipi-api",
+        "unipi-input",
+        "unipi-output"
+      ],
+      "keywords": [
+        "unipi",
+        "evok",
+        "neuron",
+        "node-red"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-unipi-evok"
+    },
+    {
       "id": "node-red-contrib-speedtest",
       "version": "1.1.0",
       "description": "Test speed input node",
@@ -45636,29 +45679,6 @@
         "node-red"
       ],
       "url": "https://flows.nodered.org/node/intech-read-mb"
-    },
-    {
-      "id": "node-red-contrib-bizwechat",
-      "version": "1.1.2",
-      "description": "企业微信消息接收转发至NodeRed",
-      "updated_at": "2021-03-15T15:24:06.876Z",
-      "types": [
-        "bizwechat-input",
-        "bizwechat-output",
-        "bizwechat-push",
-        "bizwechat-upload",
-        "bizwechat-pushbear",
-        "bizwechat-template",
-        "bizwechat-configurator"
-      ],
-      "keywords": [
-        "node-red",
-        "nodered",
-        "NodeRed",
-        "WeChat",
-        "BizWeChat"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-bizwechat"
     },
     {
       "id": "node-red-contrib-moving-average",
