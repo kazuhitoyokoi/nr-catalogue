@@ -1,7 +1,109 @@
 {
   "name": "Catalogue for Docker",
-  "updated_at": "2024-04-28T15:54:11.384Z",
+  "updated_at": "2024-04-29T15:56:41.170Z",
   "modules": [
+    {
+      "id": "node-red-contrib-bizwechat",
+      "version": "1.1.4",
+      "description": "企业微信消息接收转发至NodeRed",
+      "updated_at": "2024-04-29T14:20:25.941Z",
+      "types": [
+        "bizwechat-input",
+        "bizwechat-output",
+        "bizwechat-push",
+        "bizwechat-upload",
+        "bizwechat-pushbear",
+        "bizwechat-template",
+        "bizwechat-configurator"
+      ],
+      "keywords": [
+        "node-red",
+        "nodered",
+        "NodeRed",
+        "WeChat",
+        "BizWeChat"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-bizwechat"
+    },
+    {
+      "id": "grunig-nodes",
+      "version": "1.0.16",
+      "description": "Grünig Nodes Library",
+      "updated_at": "2024-04-29T14:00:03.801Z",
+      "types": [
+        "OpcUa-Read",
+        "MQTT-InfluxDB-Write",
+        "Modbus-Read",
+        "AlarmOutput",
+        "Visualization",
+        "Magazine-Position",
+        "Move-Beam",
+        "MQTT-InfluxDB-Alarm",
+        "G-Remote",
+        "G-Framemanager"
+      ],
+      "keywords": [
+        "grünig",
+        "grunig",
+        "node-red",
+        "OpcUa",
+        "MQTT",
+        "InfluxDB",
+        "Modbus",
+        "Read",
+        "Write"
+      ],
+      "url": "https://flows.nodered.org/node/grunig-nodes"
+    },
+    {
+      "id": "node-red-contrib-opcua",
+      "version": "0.2.326",
+      "description": "A Node-RED node to communicate via OPC UA based on node-opcua library.",
+      "updated_at": "2024-04-29T04:50:21.794Z",
+      "types": [
+        "OpcUa-Item",
+        "OpcUa-Client",
+        "OpcUa-Browser",
+        "OpcUa-Server",
+        "OpcUa-Endpoint",
+        "OpcUa-Event",
+        "OpcUa-Method",
+        "OpcUa-Rights",
+        "OpcUa-Discovery"
+      ],
+      "keywords": [
+        "node-red",
+        "OPC UA",
+        "opc-ua",
+        "unified automation",
+        "opc foundation",
+        "node-opcua"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-opcua"
+    },
+    {
+      "id": "node-red-contrib-zwave-js",
+      "version": "9.0.4",
+      "description": "The most powerful, high performing and highly polished Z-Wave node for Node-RED based on Z-Wave JS. If you want a fully featured Z-Wave framework in your Node-RED instance, you have found it.",
+      "updated_at": "2024-04-28T16:55:15.792Z",
+      "types": [
+        "zwave-js",
+        "zwave-device",
+        "event-filter",
+        "cmd-factory"
+      ],
+      "keywords": [
+        "node-red",
+        "zwave",
+        "zwave-js",
+        "controller",
+        "smart",
+        "automation",
+        "home-automation",
+        "home"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-zwave-js"
+    },
     {
       "id": "node-red-node-openweathermap",
       "version": "1.0.0",
@@ -258,31 +360,6 @@
       "url": "https://flows.nodered.org/node/@digitalsystemsrl/node-red-contrib-mssql-pool"
     },
     {
-      "id": "grunig-nodes",
-      "version": "1.0.12",
-      "description": "Grünig Nodes Library",
-      "updated_at": "2024-04-26T13:03:46.704Z",
-      "types": [
-        "OpcUa-Read",
-        "MQTT-InfluxDB-Write",
-        "Modbus-Read",
-        "AlarmOutput",
-        "Visualization"
-      ],
-      "keywords": [
-        "grünig",
-        "grunig",
-        "node-red",
-        "OpcUa",
-        "MQTT",
-        "InfluxDB",
-        "Modbus",
-        "Read",
-        "Write"
-      ],
-      "url": "https://flows.nodered.org/node/grunig-nodes"
-    },
-    {
       "id": "@starke-dms/node-red",
       "version": "0.0.12",
       "description": "node-red for starke-dms rest-api",
@@ -447,29 +524,6 @@
         "iot"
       ],
       "url": "https://flows.nodered.org/node/node-red-hexa-data-lib"
-    },
-    {
-      "id": "node-red-contrib-bizwechat",
-      "version": "1.1.3",
-      "description": "企业微信消息接收转发至NodeRed",
-      "updated_at": "2024-04-25T05:32:30.927Z",
-      "types": [
-        "bizwechat-input",
-        "bizwechat-output",
-        "bizwechat-push",
-        "bizwechat-upload",
-        "bizwechat-pushbear",
-        "bizwechat-template",
-        "bizwechat-configurator"
-      ],
-      "keywords": [
-        "node-red",
-        "nodered",
-        "NodeRed",
-        "WeChat",
-        "BizWeChat"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-bizwechat"
     },
     {
       "id": "node-red-contrib-superpower-smart-test",
@@ -1723,32 +1777,6 @@
         "websocket"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-home-assistant-websocket"
-    },
-    {
-      "id": "node-red-contrib-opcua",
-      "version": "0.2.325",
-      "description": "A Node-RED node to communicate via OPC UA based on node-opcua library.",
-      "updated_at": "2024-04-12T10:15:33.114Z",
-      "types": [
-        "OpcUa-Item",
-        "OpcUa-Client",
-        "OpcUa-Browser",
-        "OpcUa-Server",
-        "OpcUa-Endpoint",
-        "OpcUa-Event",
-        "OpcUa-Method",
-        "OpcUa-Rights",
-        "OpcUa-Discovery"
-      ],
-      "keywords": [
-        "node-red",
-        "OPC UA",
-        "opc-ua",
-        "unified automation",
-        "opc foundation",
-        "node-opcua"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-opcua"
     },
     {
       "id": "node-red-contrib-thinger",
@@ -9445,29 +9473,6 @@
         "Mobile Alerts"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-mobilealerts"
-    },
-    {
-      "id": "node-red-contrib-zwave-js",
-      "version": "9.0.3",
-      "description": "The most powerful, high performing and highly polished Z-Wave node for Node-RED based on Z-Wave JS. If you want a fully featured Z-Wave framework in your Node-RED instance, you have found it.",
-      "updated_at": "2023-12-06T16:49:50.375Z",
-      "types": [
-        "zwave-js",
-        "zwave-device",
-        "event-filter",
-        "cmd-factory"
-      ],
-      "keywords": [
-        "node-red",
-        "zwave",
-        "zwave-js",
-        "controller",
-        "smart",
-        "automation",
-        "home-automation",
-        "home"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-zwave-js"
     },
     {
       "id": "@thewiw/node-red-contrib-wiw-bridge",
