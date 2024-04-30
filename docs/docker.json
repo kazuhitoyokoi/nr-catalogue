@@ -1,7 +1,64 @@
 {
   "name": "Catalogue for Docker",
-  "updated_at": "2024-04-29T15:56:41.170Z",
+  "updated_at": "2024-04-30T15:55:20.341Z",
   "modules": [
+    {
+      "id": "grunig-nodes",
+      "version": "1.0.21",
+      "description": "Grünig Nodes Library",
+      "updated_at": "2024-04-30T07:48:23.790Z",
+      "types": [
+        "OpcUa-Read",
+        "MQTT-InfluxDB-Write",
+        "Modbus-Read",
+        "AlarmOutput",
+        "Visualization",
+        "Magazine-Position",
+        "Move-Beam",
+        "MQTT-InfluxDB-Alarm",
+        "G-Remote",
+        "G-SQLManager",
+        "G-Framemanager"
+      ],
+      "keywords": [
+        "grünig",
+        "grunig",
+        "node-red",
+        "OpcUa",
+        "MQTT",
+        "InfluxDB",
+        "Modbus",
+        "Read",
+        "Write"
+      ],
+      "url": "https://flows.nodered.org/node/grunig-nodes"
+    },
+    {
+      "id": "node-red-contrib-opcua",
+      "version": "0.2.327",
+      "description": "A Node-RED node to communicate via OPC UA based on node-opcua library.",
+      "updated_at": "2024-04-30T04:02:04.742Z",
+      "types": [
+        "OpcUa-Item",
+        "OpcUa-Client",
+        "OpcUa-Browser",
+        "OpcUa-Server",
+        "OpcUa-Endpoint",
+        "OpcUa-Event",
+        "OpcUa-Method",
+        "OpcUa-Rights",
+        "OpcUa-Discovery"
+      ],
+      "keywords": [
+        "node-red",
+        "OPC UA",
+        "opc-ua",
+        "unified automation",
+        "opc foundation",
+        "node-opcua"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-opcua"
+    },
     {
       "id": "node-red-contrib-bizwechat",
       "version": "1.1.4",
@@ -24,62 +81,6 @@
         "BizWeChat"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-bizwechat"
-    },
-    {
-      "id": "grunig-nodes",
-      "version": "1.0.16",
-      "description": "Grünig Nodes Library",
-      "updated_at": "2024-04-29T14:00:03.801Z",
-      "types": [
-        "OpcUa-Read",
-        "MQTT-InfluxDB-Write",
-        "Modbus-Read",
-        "AlarmOutput",
-        "Visualization",
-        "Magazine-Position",
-        "Move-Beam",
-        "MQTT-InfluxDB-Alarm",
-        "G-Remote",
-        "G-Framemanager"
-      ],
-      "keywords": [
-        "grünig",
-        "grunig",
-        "node-red",
-        "OpcUa",
-        "MQTT",
-        "InfluxDB",
-        "Modbus",
-        "Read",
-        "Write"
-      ],
-      "url": "https://flows.nodered.org/node/grunig-nodes"
-    },
-    {
-      "id": "node-red-contrib-opcua",
-      "version": "0.2.326",
-      "description": "A Node-RED node to communicate via OPC UA based on node-opcua library.",
-      "updated_at": "2024-04-29T04:50:21.794Z",
-      "types": [
-        "OpcUa-Item",
-        "OpcUa-Client",
-        "OpcUa-Browser",
-        "OpcUa-Server",
-        "OpcUa-Endpoint",
-        "OpcUa-Event",
-        "OpcUa-Method",
-        "OpcUa-Rights",
-        "OpcUa-Discovery"
-      ],
-      "keywords": [
-        "node-red",
-        "OPC UA",
-        "opc-ua",
-        "unified automation",
-        "opc foundation",
-        "node-opcua"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-opcua"
     },
     {
       "id": "node-red-contrib-zwave-js",
