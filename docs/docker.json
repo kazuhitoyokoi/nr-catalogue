@@ -1,7 +1,95 @@
 {
   "name": "Catalogue for Docker",
-  "updated_at": "2024-05-03T15:58:06.226Z",
+  "updated_at": "2024-05-04T15:56:15.256Z",
   "modules": [
+    {
+      "id": "node-red-subflow-axis-provisioning",
+      "version": "1.1.7",
+      "description": "Axis device staging and mass configuration",
+      "updated_at": "2024-05-04T10:05:48.036Z",
+      "types": [],
+      "keywords": [
+        "node-red",
+        "Axis",
+        "Provisioning"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-subflow-axis-provisioning"
+    },
+    {
+      "id": "thingzi-logic-climate",
+      "version": "1.1.1",
+      "description": "Climate control via node red",
+      "updated_at": "2024-05-04T08:48:35.421Z",
+      "types": [
+        "thingzi-climate"
+      ],
+      "keywords": [
+        "node-red",
+        "climate",
+        "smart home",
+        "temperature",
+        "thermostat",
+        "zone",
+        "hot water",
+        "heat",
+        "cool",
+        "hvac",
+        "mqtt",
+        "homeassistant",
+        "hass",
+        "thingzi"
+      ],
+      "url": "https://flows.nodered.org/node/thingzi-logic-climate"
+    },
+    {
+      "id": "node-red-contrib-duckdb",
+      "version": "0.1.5",
+      "description": "Node-red node for duckdb",
+      "updated_at": "2024-05-03T23:36:18.022Z",
+      "types": [
+        "duckdb",
+        "duckdb-sql",
+        "duckdb func",
+        "duckdb import",
+        "duckdb export"
+      ],
+      "keywords": [
+        "node-red",
+        "node-red-contrib",
+        "duckdb",
+        "duck db",
+        "embedded database"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-duckdb"
+    },
+    {
+      "id": "node-red-contrib-pdf-reader",
+      "version": "1.0.0",
+      "description": "Node-RED node to read pdf data using pdfjs",
+      "updated_at": "2024-05-03T20:48:54.955Z",
+      "types": [
+        "pdf"
+      ],
+      "keywords": [
+        "node-red",
+        "pdfjs"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-pdf-reader"
+    },
+    {
+      "id": "@jotiotech/node-red-bj-parser",
+      "version": "1.0.4",
+      "description": "- parser form binary to simple json format",
+      "updated_at": "2024-05-03T14:44:16.408Z",
+      "types": [
+        "BJ-parser"
+      ],
+      "keywords": [
+        "node-red",
+        "parsing"
+      ],
+      "url": "https://flows.nodered.org/node/@jotiotech/node-red-bj-parser"
+    },
     {
       "id": "node-red-contrib-genetic-charging-strategy",
       "version": "1.4.0",
@@ -39,20 +127,6 @@
         "node-red"
       ],
       "url": "https://flows.nodered.org/node/@appmodule/node-red-contrib-siot"
-    },
-    {
-      "id": "@jotiotech/node-red-bj-parser",
-      "version": "1.0.3",
-      "description": "- parser form binary to simple json format",
-      "updated_at": "2024-05-03T12:42:11.635Z",
-      "types": [
-        "BJ-parser"
-      ],
-      "keywords": [
-        "node-red",
-        "parsing"
-      ],
-      "url": "https://flows.nodered.org/node/@jotiotech/node-red-bj-parser"
     },
     {
       "id": "grunig-nodes",
@@ -193,27 +267,6 @@
         "openweathermap"
       ],
       "url": "https://flows.nodered.org/node/node-red-node-openweathermap"
-    },
-    {
-      "id": "node-red-contrib-duckdb",
-      "version": "0.1.4",
-      "description": "Node-red node for duckdb",
-      "updated_at": "2024-05-01T21:52:25.900Z",
-      "types": [
-        "duckdb",
-        "duckdb-sql",
-        "duckdb func",
-        "duckdb import",
-        "duckdb export"
-      ],
-      "keywords": [
-        "node-red",
-        "node-red-contrib",
-        "duckdb",
-        "duck db",
-        "embedded database"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-duckdb"
     },
     {
       "id": "node-red-contrib-sonos-events",
@@ -1173,19 +1226,6 @@
       "url": "https://flows.nodered.org/node/node-red-contrib-simpletime"
     },
     {
-      "id": "node-red-subflow-axis-provisioning",
-      "version": "1.1.6",
-      "description": "Axis device staging and mass configuration",
-      "updated_at": "2024-04-20T08:54:52.897Z",
-      "types": [],
-      "keywords": [
-        "node-red",
-        "Axis",
-        "Provisioning"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-subflow-axis-provisioning"
-    },
-    {
       "id": "node-red-contrib-shelly",
       "version": "10.23.0",
       "description": "Shelly nodes.",
@@ -1715,32 +1755,6 @@
         "www.bmw-connecteddrive.com/"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-car-bmw"
-    },
-    {
-      "id": "thingzi-logic-climate",
-      "version": "1.1.0",
-      "description": "Climate control via node red",
-      "updated_at": "2024-04-15T16:28:40.320Z",
-      "types": [
-        "thingzi-climate"
-      ],
-      "keywords": [
-        "node-red",
-        "climate",
-        "smart home",
-        "temperature",
-        "thermostat",
-        "zone",
-        "hot water",
-        "heat",
-        "cool",
-        "hvac",
-        "mqtt",
-        "homeassistant",
-        "hass",
-        "thingzi"
-      ],
-      "url": "https://flows.nodered.org/node/thingzi-logic-climate"
     },
     {
       "id": "node-red-contrib-sonos-plus",
@@ -2523,6 +2537,25 @@
         "node-red"
       ],
       "url": "https://flows.nodered.org/node/@autexis/node-red-payload-logger"
+    },
+    {
+      "id": "@meowwolf/node-red-contrib-amqp",
+      "version": "2.4.2",
+      "description": "Amqp nodes for node-red",
+      "updated_at": "2024-04-03T20:43:10.733Z",
+      "types": [
+        "amqp-in",
+        "amqp-out",
+        "amqp-broker",
+        "amqp-in-manual-ack"
+      ],
+      "keywords": [
+        "node-red",
+        "amqp",
+        "rabbitmq",
+        "meow wolf"
+      ],
+      "url": "https://flows.nodered.org/node/@meowwolf/node-red-contrib-amqp"
     },
     {
       "id": "node-red-contrib-dayjs",
@@ -39085,25 +39118,6 @@
         "flow control"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-simple-gate"
-    },
-    {
-      "id": "@meowwolf/node-red-contrib-amqp",
-      "version": "2.4.1",
-      "description": "Amqp nodes for node-red",
-      "updated_at": "2021-10-07T18:19:04.163Z",
-      "types": [
-        "amqp-in",
-        "amqp-out",
-        "amqp-broker",
-        "amqp-in-manual-ack"
-      ],
-      "keywords": [
-        "node-red",
-        "amqp",
-        "rabbitmq",
-        "meow wolf"
-      ],
-      "url": "https://flows.nodered.org/node/@meowwolf/node-red-contrib-amqp"
     },
     {
       "id": "node-red-contrib-meraki-dashboard-api-v1",
