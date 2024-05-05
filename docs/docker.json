@@ -1,7 +1,80 @@
 {
   "name": "Catalogue for Docker",
-  "updated_at": "2024-05-04T15:56:15.256Z",
+  "updated_at": "2024-05-05T15:56:52.584Z",
   "modules": [
+    {
+      "id": "node-red-contrib-context-nodes",
+      "version": "1.0.0",
+      "description": "Custom nodes for setting and getting context variables in Node-RED.",
+      "updated_at": "2024-05-05T13:35:11.312Z",
+      "types": [
+        "context-set",
+        "context-get"
+      ],
+      "keywords": [
+        "node-red",
+        "context",
+        "nodes"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-context-nodes"
+    },
+    {
+      "id": "node-red-contrib-sia-ultimate",
+      "version": "1.0.10",
+      "description": "Connect your SIA-DCS compatible alarm system to node-red. It works with Ajax System too.",
+      "updated_at": "2024-05-05T12:56:49.051Z",
+      "types": [
+        "siaendpoint-config",
+        "SIAUltimate"
+      ],
+      "keywords": [
+        "node-red",
+        "sia",
+        "alarm",
+        "dcs",
+        "dc09",
+        "ajax",
+        "burglar"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-sia-ultimate"
+    },
+    {
+      "id": "@5minds/node-red-contrib-processcube-amqp",
+      "version": "0.3.0",
+      "description": "Node-RED nodes for AMQP",
+      "updated_at": "2024-05-05T10:15:37.230Z",
+      "types": [
+        "amqp-input",
+        "amqp-output",
+        "amqp-config"
+      ],
+      "keywords": [
+        "node-red",
+        "processcube",
+        "amqp",
+        "messagebus",
+        "rabbitmq"
+      ],
+      "url": "https://flows.nodered.org/node/@5minds/node-red-contrib-processcube-amqp"
+    },
+    {
+      "id": "node-red-contrib-log-elk",
+      "version": "1.3.0",
+      "description": "A Node-RED logging node with multiple outputs using the winston,winston-elasticsearch and winston-loki logging libraries",
+      "updated_at": "2024-05-04T15:09:10.949Z",
+      "types": [
+        "log-elk",
+        "log-elk-logger"
+      ],
+      "keywords": [
+        "logger",
+        "winston",
+        "elasticsearch",
+        "loki",
+        "node-red"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-log-elk"
+    },
     {
       "id": "node-red-subflow-axis-provisioning",
       "version": "1.1.7",
@@ -2850,26 +2923,6 @@
         "PWM"
       ],
       "url": "https://flows.nodered.org/node/@background404/node-red-contrib-mcu-servo"
-    },
-    {
-      "id": "node-red-contrib-sia-ultimate",
-      "version": "1.0.9",
-      "description": "Connect your SIA-DCS compatible alarm system to node-red. It works with Ajax System too.",
-      "updated_at": "2024-03-27T14:18:38.675Z",
-      "types": [
-        "siaendpoint-config",
-        "SIAUltimate"
-      ],
-      "keywords": [
-        "node-red",
-        "sia",
-        "alarm",
-        "dcs",
-        "dc09",
-        "ajax",
-        "burglar"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-sia-ultimate"
     },
     {
       "id": "node-red-contrib-dialoqbase",
@@ -8410,23 +8463,6 @@
         "home automation"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-dyson-purelink"
-    },
-    {
-      "id": "node-red-contrib-log-elk",
-      "version": "1.2.8",
-      "description": "A Node-RED logging node with multiple outputs using the winston and winston-elasticsearch logging libraries",
-      "updated_at": "2024-01-03T11:06:38.547Z",
-      "types": [
-        "log-elk",
-        "log-elk-logger"
-      ],
-      "keywords": [
-        "logger",
-        "winston",
-        "elasticsearch",
-        "node-red"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-log-elk"
     },
     {
       "id": "@thib3113/node-red-lovebox",
