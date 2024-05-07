@@ -1,30 +1,44 @@
 {
   "name": "Catalogue for Docker",
-  "updated_at": "2024-05-06T15:56:14.383Z",
+  "updated_at": "2024-05-07T15:57:56.018Z",
   "modules": [
     {
-      "id": "@unipitechnology/node-red-contrib-unipi-evok",
-      "version": "0.0.7",
-      "description": "EVOK Unipi in Node-RED",
-      "updated_at": "2024-05-06T14:21:57.950Z",
+      "id": "@inductiv/node-red-openai-api",
+      "version": "1.3.0",
+      "description": "Enhance your Node-RED flows with advanced AI capabilities.",
+      "updated_at": "2024-05-07T14:19:58.351Z",
       "types": [
-        "unipi-input",
-        "unipi-output",
-        "unipi-input-v3",
-        "unipi-output-v3"
+        "OpenAI API",
+        "Service Host"
       ],
       "keywords": [
-        "unipi",
-        "evok",
-        "node-red"
+        "node-red",
+        "aiot",
+        "openai",
+        "ai",
+        "openai api",
+        "assistants v2",
+        "batch requests",
+        "vector store",
+        "iot",
+        "node-red-contrib",
+        "automation",
+        "smart devices",
+        "node-red-node",
+        "artificial intelligence",
+        "api integration",
+        "llm",
+        "slm",
+        "ai agent",
+        "low-code"
       ],
-      "url": "https://flows.nodered.org/node/@unipitechnology/node-red-contrib-unipi-evok"
+      "url": "https://flows.nodered.org/node/@inductiv/node-red-openai-api"
     },
     {
       "id": "grunig-nodes",
-      "version": "1.1.16",
+      "version": "1.1.22",
       "description": "Grünig Nodes Library",
-      "updated_at": "2024-05-06T13:55:54.208Z",
+      "updated_at": "2024-05-07T13:55:08.060Z",
       "types": [
         "OpcUa-Read",
         "MQTT-InfluxDB-Write",
@@ -52,6 +66,185 @@
         "Write"
       ],
       "url": "https://flows.nodered.org/node/grunig-nodes"
+    },
+    {
+      "id": "node-red-contrib-context-set-get",
+      "version": "1.0.0",
+      "description": "Node-RED nodes for setting and getting context variables",
+      "updated_at": "2024-05-07T13:10:41.053Z",
+      "types": [
+        "set-context",
+        "get-context"
+      ],
+      "keywords": [
+        "node-red",
+        "context",
+        "set",
+        "get"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-context-set-get"
+    },
+    {
+      "id": "node-red-contrib-hera-screenshot",
+      "version": "1.0.1",
+      "description": "A Node-RED node that takes a screenshot of the host and outputs it as a buffer.",
+      "updated_at": "2024-05-07T11:01:39.768Z",
+      "types": [
+        "hera-screenshot"
+      ],
+      "keywords": [
+        "node-red",
+        "hera-screenshot"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-hera-screenshot"
+    },
+    {
+      "id": "node-red-contrib-whatsapp-media-decrypt",
+      "version": "0.0.1",
+      "description": "a NodeRed node to decrypt whatsapp media",
+      "updated_at": "2024-05-07T06:20:40.807Z",
+      "types": [
+        "decrypt-media"
+      ],
+      "keywords": [
+        "Whatsapp",
+        "whatsapp media",
+        "whatsapp image",
+        "Node Red",
+        "node-red",
+        "nodered"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-whatsapp-media-decrypt"
+    },
+    {
+      "id": "node-red-contrib-samsung-automation-studio-nodes",
+      "version": "1.1.21",
+      "description": "Samsung Automation Studio Nodes for Node-RED",
+      "updated_at": "2024-05-07T00:24:06.173Z",
+      "types": [
+        "device-profile",
+        "installed-device",
+        "automation",
+        "event-device",
+        "status-device",
+        "command-device",
+        "bixby in",
+        "bixby out",
+        "basic-auth",
+        "aws-config",
+        "aws-sdk",
+        "db-config",
+        "db-query",
+        "slack-notification",
+        "data-extractor",
+        "data-filter"
+      ],
+      "keywords": [
+        "SmartThings",
+        "Bixby",
+        "node-red",
+        "Samsung Automation Studio",
+        "AWS"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-samsung-automation-studio-nodes"
+    },
+    {
+      "id": "node-red-contrib-xiaoai-tts",
+      "version": "1.0.6",
+      "description": "小爱tts",
+      "updated_at": "2024-05-06T18:09:23.319Z",
+      "types": [
+        "xiaoai-tts",
+        "xiaoai-devices",
+        "xiaoai-ai-service",
+        "xiaoai-nlp-result",
+        "xiaoai-nlp-conversation",
+        "xiaoai-nlp-session",
+        "xiaoai-nlp-debug",
+        "xiaoai-volume",
+        "xiaoai-phone-devices",
+        "xiaoai-find-devices",
+        "xiaoai-device-status",
+        "xiaoai-device-noise",
+        "xiaoai-device-clipboard",
+        "xiaoai-mediaplayer",
+        "xiaoai-media_player_url",
+        "xiaoai-tts-configurator"
+      ],
+      "keywords": [
+        "node-red"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-xiaoai-tts"
+    },
+    {
+      "id": "@joe-ab1do/mcp-pcf-aio",
+      "version": "3.2.2",
+      "description": "Node-Red nodes for i2c port expanders MCP23008, MCP23017, PCF8574(A) & PCF8575",
+      "updated_at": "2024-05-06T17:39:58.297Z",
+      "types": [
+        "mcp pcf chip",
+        "mcp pcf in",
+        "mcp pcf out"
+      ],
+      "keywords": [
+        "node-red",
+        "mcp23008",
+        "mcp23017",
+        "pcf8574",
+        "pcf8574A",
+        "pcf8575"
+      ],
+      "url": "https://flows.nodered.org/node/@joe-ab1do/mcp-pcf-aio"
+    },
+    {
+      "id": "lower_case_node_11",
+      "version": "1.0.2",
+      "description": "A sample node for node-red",
+      "updated_at": "2024-05-06T16:19:59.318Z",
+      "types": [
+        "lower-case"
+      ],
+      "keywords": [
+        "node-red"
+      ],
+      "url": "https://flows.nodered.org/node/lower_case_node_11"
+    },
+    {
+      "id": "node-red-contrib-openpgp-by-bhk",
+      "version": "1.0.2",
+      "description": "OpenPGP Node by BHK.",
+      "updated_at": "2024-05-06T16:12:45.518Z",
+      "types": [
+        "PGP_GENERATE_KEY_PAIR",
+        "PGP_ENCRYPT",
+        "PGP_DECRYPT",
+        "PGP_ENCRYPT_SIGN",
+        "PGP_DECRYPT_SIGNED"
+      ],
+      "keywords": [
+        "node-red",
+        "PGP",
+        "OpenPGP"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-openpgp-by-bhk"
+    },
+    {
+      "id": "@unipitechnology/node-red-contrib-unipi-evok",
+      "version": "0.0.7",
+      "description": "EVOK Unipi in Node-RED",
+      "updated_at": "2024-05-06T14:21:57.950Z",
+      "types": [
+        "unipi-input",
+        "unipi-output",
+        "unipi-input-v3",
+        "unipi-output-v3"
+      ],
+      "keywords": [
+        "unipi",
+        "evok",
+        "node-red"
+      ],
+      "url": "https://flows.nodered.org/node/@unipitechnology/node-red-contrib-unipi-evok"
     },
     {
       "id": "node-red-contrib-boolean-logic-ultimate",
@@ -120,6 +313,22 @@
         "screenshot"
       ],
       "url": "https://flows.nodered.org/node/@gregoriusrippenstein/node-red-contrib-introspection"
+    },
+    {
+      "id": "node-red-contrib-context-nodes",
+      "version": "1.0.1",
+      "description": "Nodes for setting and getting context variables in Node-RED.",
+      "updated_at": "2024-05-06T08:23:24.942Z",
+      "types": [
+        "context-set",
+        "context-get"
+      ],
+      "keywords": [
+        "node-red",
+        "context",
+        "nodes"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-context-nodes"
     },
     {
       "id": "@mschaeffler/node-red-format",
@@ -207,54 +416,6 @@
         "schedule"
       ],
       "url": "https://flows.nodered.org/node/@buglss/node-red-crontinject"
-    },
-    {
-      "id": "@inductiv/node-red-openai-api",
-      "version": "1.2.0",
-      "description": "Enhance your Node-RED flows with advanced AI capabilities.",
-      "updated_at": "2024-05-05T17:59:10.834Z",
-      "types": [
-        "OpenAI API",
-        "Service Host"
-      ],
-      "keywords": [
-        "node-red",
-        "aiot",
-        "openai",
-        "ai",
-        "openai api",
-        "assistants v2",
-        "batch requests",
-        "vector store",
-        "iot",
-        "node-red-contrib",
-        "automation",
-        "smart devices",
-        "node-red-node",
-        "artificial intelligence",
-        "api integration",
-        "llm",
-        "slm",
-        "ai agent",
-        "low-code"
-      ],
-      "url": "https://flows.nodered.org/node/@inductiv/node-red-openai-api"
-    },
-    {
-      "id": "node-red-contrib-context-nodes",
-      "version": "1.0.0",
-      "description": "Custom nodes for setting and getting context variables in Node-RED.",
-      "updated_at": "2024-05-05T13:35:11.312Z",
-      "types": [
-        "context-set",
-        "context-get"
-      ],
-      "keywords": [
-        "node-red",
-        "context",
-        "nodes"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-context-nodes"
     },
     {
       "id": "node-red-contrib-sia-ultimate",
@@ -461,25 +622,6 @@
         "gis"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-web-worldmap"
-    },
-    {
-      "id": "node-red-contrib-openpgp-by-bhk",
-      "version": "1.0.0",
-      "description": "OpenGPG Node by BHK.",
-      "updated_at": "2024-05-02T16:18:56.460Z",
-      "types": [
-        "PGP_GENERATE_KEY_PAIR",
-        "PGP_ENCRYPT",
-        "PGP_DECRYPT",
-        "PGP_ENCRYPT_SIGN",
-        "PGP_DECRYPT_SIGNED"
-      ],
-      "keywords": [
-        "node-red",
-        "PGP",
-        "OpenPGP"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-openpgp-by-bhk"
     },
     {
       "id": "@tq-bit/node-red-contrib-server-sent-events",
@@ -1106,38 +1248,6 @@
         "api"
       ],
       "url": "https://flows.nodered.org/node/victron-vrm-api"
-    },
-    {
-      "id": "node-red-contrib-samsung-automation-studio-nodes",
-      "version": "1.1.20",
-      "description": "Samsung Automation Studio Nodes for Node-RED",
-      "updated_at": "2024-04-24T05:01:44.365Z",
-      "types": [
-        "device-profile",
-        "installed-device",
-        "automation",
-        "event-device",
-        "status-device",
-        "command-device",
-        "bixby in",
-        "bixby out",
-        "basic-auth",
-        "aws-config",
-        "aws-sdk",
-        "db-config",
-        "db-query",
-        "slack-notification",
-        "data-extractor",
-        "data-filter"
-      ],
-      "keywords": [
-        "SmartThings",
-        "Bixby",
-        "node-red",
-        "Samsung Automation Studio",
-        "AWS"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-samsung-automation-studio-nodes"
     },
     {
       "id": "@parallaxcontrol/node-red-control",
@@ -10970,26 +11080,6 @@
         "vpn"
       ],
       "url": "https://flows.nodered.org/node/@hsync/node-red-hsync"
-    },
-    {
-      "id": "@joe-ab1do/mcp-pcf-aio",
-      "version": "3.2.1",
-      "description": "Node-Red nodes for i2c port expanders MCP23008, MCP23017, PCF8574(A) & PCF8575",
-      "updated_at": "2023-10-31T18:23:55.819Z",
-      "types": [
-        "mcp pcf chip",
-        "mcp pcf in",
-        "mcp pcf out"
-      ],
-      "keywords": [
-        "node-red",
-        "mcp23008",
-        "mcp23017",
-        "pcf8574",
-        "pcf8574A",
-        "pcf8575"
-      ],
-      "url": "https://flows.nodered.org/node/@joe-ab1do/mcp-pcf-aio"
     },
     {
       "id": "node-red-contrib-pylips-philips-tv-control",
@@ -47836,30 +47926,6 @@
         "jpeg"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-animate-gif"
-    },
-    {
-      "id": "node-red-contrib-xiaoai-tts",
-      "version": "1.0.5",
-      "description": "小爱tts",
-      "updated_at": "2021-01-23T02:53:52.365Z",
-      "types": [
-        "xiaoai-tts",
-        "xiaoai-devices",
-        "xiaoai-ai-service",
-        "xiaoai-nlp-result",
-        "xiaoai-volume",
-        "xiaoai-phone-devices",
-        "xiaoai-find-devices",
-        "xiaoai-device-status",
-        "xiaoai-device-noise",
-        "xiaoai-device-clipboard",
-        "xiaoai-mediaplayer",
-        "xiaoai-tts-configurator"
-      ],
-      "keywords": [
-        "node-red"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-xiaoai-tts"
     },
     {
       "id": "node-red-contrib-github-plus",
