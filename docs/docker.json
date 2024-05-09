@@ -1,7 +1,159 @@
 {
   "name": "Catalogue for Docker",
-  "updated_at": "2024-05-08T15:56:04.369Z",
+  "updated_at": "2024-05-09T15:57:47.570Z",
   "modules": [
+    {
+      "id": "@ravaga/assistiot-composite-services-manager",
+      "version": "1.0.1",
+      "description": "Node-RED nodes for the ASSIST-IoT's Composite services manager enabler",
+      "updated_at": "2024-05-09T14:55:30.734Z",
+      "types": [
+        "edbe",
+        "ltse",
+        "mqtt-http",
+        "http-mqtt",
+        "http-endpoint"
+      ],
+      "keywords": [
+        "ASSIST-IoT",
+        "node-red",
+        "manageability",
+        "composite-services",
+        "enabler",
+        "agent",
+        "translation",
+        "flow"
+      ],
+      "url": "https://flows.nodered.org/node/@ravaga/assistiot-composite-services-manager"
+    },
+    {
+      "id": "node-red-contrib-knx-ultimate",
+      "version": "2.4.24",
+      "description": "Control your KNX intallation via Node-Red! A bunch of KNX nodes, with integrated Philips HUE control and ETS group address importer. Easy to use and highly configurable.",
+      "updated_at": "2024-05-09T10:36:59.769Z",
+      "types": [
+        "knxUltimate",
+        "knxUltimateSceneController",
+        "knxUltimateWatchDog",
+        "knxUltimateLogger",
+        "knxUltimate-config",
+        "knxUltimateGlobalContext",
+        "knxUltimateAlerter",
+        "knxUltimateLoadControl",
+        "knxUltimateViewer",
+        "hue-config",
+        "knxUltimateHueLight",
+        "knxUltimateHueButton",
+        "knxUltimateHueMotion",
+        "knxUltimateHueTapDial",
+        "knxUltimateHueLightSensor",
+        "knxUltimateHueTemperatureSensor",
+        "knxUltimateHueScene",
+        "knxUltimateHueBattery",
+        "knxUltimateHueZigbeeConnectivity",
+        "knxUltimateHueContactSensor",
+        "knxUltimateHATranslator"
+      ],
+      "keywords": [
+        "node-red",
+        "KNX",
+        "ETS",
+        "eib",
+        "konnex",
+        "IOT",
+        "philips hue"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-knx-ultimate"
+    },
+    {
+      "id": "node-red-contrib-voicebase",
+      "version": "1.0.2",
+      "description": "This node allows you to use several API options from Voicebase",
+      "updated_at": "2024-05-09T10:31:53.017Z",
+      "types": [
+        "get-info-media",
+        "get-metadata",
+        "get-transcript",
+        "get-url"
+      ],
+      "keywords": [
+        "node-red",
+        "node-red-contrib-voicebase",
+        "node-red-voicebase",
+        "voicebase"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-voicebase"
+    },
+    {
+      "id": "node-red-contrib-web-worldmap",
+      "version": "4.8.0",
+      "description": "A Node-RED node to provide a web page of a world map for plotting things on.",
+      "updated_at": "2024-05-09T08:05:19.460Z",
+      "types": [
+        "worldmap",
+        "ui_worldmap",
+        "worldmap in",
+        "worldmap-tracks",
+        "worldmap-hull"
+      ],
+      "keywords": [
+        "node-red",
+        "map",
+        "world",
+        "tak",
+        "pmtiles",
+        "esri",
+        "gis"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-web-worldmap"
+    },
+    {
+      "id": "@5minds/node-red-contrib-processcube-amqp",
+      "version": "0.4.0",
+      "description": "Node-RED nodes for AMQP",
+      "updated_at": "2024-05-08T18:36:02.045Z",
+      "types": [
+        "amqp-input",
+        "amqp-output",
+        "amqp-config"
+      ],
+      "keywords": [
+        "node-red",
+        "processcube",
+        "amqp",
+        "messagebus",
+        "rabbitmq"
+      ],
+      "url": "https://flows.nodered.org/node/@5minds/node-red-contrib-processcube-amqp"
+    },
+    {
+      "id": "node-red-contrib-xiaoai-tts",
+      "version": "1.0.7",
+      "description": "小爱tts",
+      "updated_at": "2024-05-08T14:32:44.049Z",
+      "types": [
+        "xiaoai-tts",
+        "xiaoai-devices",
+        "xiaoai-ai-service",
+        "xiaoai-nlp-result",
+        "xiaoai-nlp-conversation",
+        "xiaoai-nlp-session",
+        "xiaoai-nlp-debug",
+        "xiaoai-volume",
+        "xiaoai-phone-devices",
+        "xiaoai-find-devices",
+        "xiaoai-device-status",
+        "xiaoai-device-noise",
+        "xiaoai-device-clipboard",
+        "xiaoai-mediaplayer",
+        "xiaoai-media_player_url",
+        "xiaoai-tts-configurator"
+      ],
+      "keywords": [
+        "node-red"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-xiaoai-tts"
+    },
     {
       "id": "@yousolution/node-red-contrib-you-nth-layerone",
       "version": "0.0.6",
@@ -100,45 +252,6 @@
         "kaa"
       ],
       "url": "https://flows.nodered.org/node/@kaaiot/node-red-contrib-kaa"
-    },
-    {
-      "id": "node-red-contrib-knx-ultimate",
-      "version": "2.4.23",
-      "description": "Control your KNX intallation via Node-Red! A bunch of KNX nodes, with integrated Philips HUE control and ETS group address importer. Easy to use and highly configurable.",
-      "updated_at": "2024-05-08T09:52:07.806Z",
-      "types": [
-        "knxUltimate",
-        "knxUltimateSceneController",
-        "knxUltimateWatchDog",
-        "knxUltimateLogger",
-        "knxUltimate-config",
-        "knxUltimateGlobalContext",
-        "knxUltimateAlerter",
-        "knxUltimateLoadControl",
-        "knxUltimateViewer",
-        "hue-config",
-        "knxUltimateHueLight",
-        "knxUltimateHueButton",
-        "knxUltimateHueMotion",
-        "knxUltimateHueTapDial",
-        "knxUltimateHueLightSensor",
-        "knxUltimateHueTemperatureSensor",
-        "knxUltimateHueScene",
-        "knxUltimateHueBattery",
-        "knxUltimateHueZigbeeConnectivity",
-        "knxUltimateHueContactSensor",
-        "knxUltimateHATranslator"
-      ],
-      "keywords": [
-        "node-red",
-        "KNX",
-        "ETS",
-        "eib",
-        "konnex",
-        "IOT",
-        "philips hue"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-knx-ultimate"
     },
     {
       "id": "@coremarine/nr-nmea-parser",
@@ -316,34 +429,6 @@
         "AWS"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-samsung-automation-studio-nodes"
-    },
-    {
-      "id": "node-red-contrib-xiaoai-tts",
-      "version": "1.0.6",
-      "description": "小爱tts",
-      "updated_at": "2024-05-06T18:09:23.319Z",
-      "types": [
-        "xiaoai-tts",
-        "xiaoai-devices",
-        "xiaoai-ai-service",
-        "xiaoai-nlp-result",
-        "xiaoai-nlp-conversation",
-        "xiaoai-nlp-session",
-        "xiaoai-nlp-debug",
-        "xiaoai-volume",
-        "xiaoai-phone-devices",
-        "xiaoai-find-devices",
-        "xiaoai-device-status",
-        "xiaoai-device-noise",
-        "xiaoai-device-clipboard",
-        "xiaoai-mediaplayer",
-        "xiaoai-media_player_url",
-        "xiaoai-tts-configurator"
-      ],
-      "keywords": [
-        "node-red"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-xiaoai-tts"
     },
     {
       "id": "@joe-ab1do/mcp-pcf-aio",
@@ -607,25 +692,6 @@
       "url": "https://flows.nodered.org/node/node-red-contrib-sia-ultimate"
     },
     {
-      "id": "@5minds/node-red-contrib-processcube-amqp",
-      "version": "0.3.0",
-      "description": "Node-RED nodes for AMQP",
-      "updated_at": "2024-05-05T10:15:37.230Z",
-      "types": [
-        "amqp-input",
-        "amqp-output",
-        "amqp-config"
-      ],
-      "keywords": [
-        "node-red",
-        "processcube",
-        "amqp",
-        "messagebus",
-        "rabbitmq"
-      ],
-      "url": "https://flows.nodered.org/node/@5minds/node-red-contrib-processcube-amqp"
-    },
-    {
       "id": "node-red-contrib-log-elk",
       "version": "1.3.0",
       "description": "A Node-RED logging node with multiple outputs using the winston,winston-elasticsearch and winston-loki logging libraries",
@@ -784,29 +850,6 @@
         "node-red"
       ],
       "url": "https://flows.nodered.org/node/@flowfuse/nr-project-nodes"
-    },
-    {
-      "id": "node-red-contrib-web-worldmap",
-      "version": "4.7.0",
-      "description": "A Node-RED node to provide a web page of a world map for plotting things on.",
-      "updated_at": "2024-05-03T09:26:05.042Z",
-      "types": [
-        "worldmap",
-        "ui_worldmap",
-        "worldmap in",
-        "worldmap-tracks",
-        "worldmap-hull"
-      ],
-      "keywords": [
-        "node-red",
-        "map",
-        "world",
-        "tak",
-        "pmtiles",
-        "esri",
-        "gis"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-web-worldmap"
     },
     {
       "id": "@tq-bit/node-red-contrib-server-sent-events",
@@ -3486,22 +3529,6 @@
         "philips hue"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-knx-ultimate-plus-hue-contact-sensor"
-    },
-    {
-      "id": "node-red-contrib-simpletime-input",
-      "version": "3.0.1",
-      "description": "A lightweight node-red node to provide and format date and time.",
-      "updated_at": "2024-03-25T00:17:15.340Z",
-      "types": [
-        "simpletime-input"
-      ],
-      "keywords": [
-        "node-red",
-        "time",
-        "date",
-        "moment"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-simpletime-input"
     },
     {
       "id": "@thingweb/node-red-node-wot",
@@ -13290,6 +13317,24 @@
       "url": "https://flows.nodered.org/node/@softwaredevelopment/node-red-contrib-bodhi-device-window-sensor"
     },
     {
+      "id": "@softwaredevelopment/node-red-contrib-bodhi-device-water-sensor",
+      "version": "0.0.5",
+      "description": "water sensor device for node red bodhi",
+      "updated_at": "2023-09-25T13:02:14.032Z",
+      "types": [
+        "Water Sensor",
+        "Remote Water Sensor"
+      ],
+      "keywords": [
+        "node-red",
+        "device",
+        "bodhi",
+        "water",
+        "sensor"
+      ],
+      "url": "https://flows.nodered.org/node/@softwaredevelopment/node-red-contrib-bodhi-device-water-sensor"
+    },
+    {
       "id": "@softwaredevelopment/node-red-contrib-bodhi-device-smoke-detector",
       "version": "0.0.4",
       "description": "Smoke Detector device for bodhi node red",
@@ -16215,23 +16260,6 @@
         "hvac"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-midea-hvac"
-    },
-    {
-      "id": "@softwaredevelopment/node-red-contrib-bodhi-device-water-sensor",
-      "version": "0.0.3",
-      "description": "water sensor node for bodhi",
-      "updated_at": "2023-07-21T15:17:18.918Z",
-      "types": [
-        "Water Sensor"
-      ],
-      "keywords": [
-        "node-red",
-        "device",
-        "bodhi",
-        "water",
-        "sensor"
-      ],
-      "url": "https://flows.nodered.org/node/@softwaredevelopment/node-red-contrib-bodhi-device-water-sensor"
     },
     {
       "id": "@brainboxes/node-red-contrib-brainboxes",
