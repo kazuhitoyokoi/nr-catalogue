@@ -1,12 +1,162 @@
 {
   "name": "Catalogue for Docker",
-  "updated_at": "2024-05-09T15:57:47.570Z",
+  "updated_at": "2024-05-10T15:58:06.352Z",
   "modules": [
     {
+      "id": "@jotiotech/node-red-bj-parser",
+      "version": "1.0.5",
+      "description": "- parser form binary to simple json format",
+      "updated_at": "2024-05-10T12:02:30.280Z",
+      "types": [
+        "BJ-parser"
+      ],
+      "keywords": [
+        "node-red",
+        "parsing"
+      ],
+      "url": "https://flows.nodered.org/node/@jotiotech/node-red-bj-parser"
+    },
+    {
+      "id": "@semilimes/node-red-semilimes",
+      "version": "1.1.2",
+      "description": "The new semilimes connector which integrates with the public API",
+      "updated_at": "2024-05-10T10:40:28.262Z",
+      "types": [
+        "smeMessage",
+        "smeFormSetup",
+        "smeFormComponent",
+        "smeFormUpdater",
+        "smeSender",
+        "smeListener",
+        "smeFilter",
+        "smeUploader",
+        "smeDownloader",
+        "smeTunnel",
+        "sme-main-connector"
+      ],
+      "keywords": [
+        "semilimes",
+        "iot",
+        "connector",
+        "node-red",
+        "mobile phone",
+        "interface",
+        "remote access",
+        "ssh tunnel",
+        "websocket"
+      ],
+      "url": "https://flows.nodered.org/node/@semilimes/node-red-semilimes"
+    },
+    {
+      "id": "node-red-contrib-oscar-bird-sound-classifier",
+      "version": "0.0.3",
+      "description": "Bird sound classifier service",
+      "updated_at": "2024-05-10T08:39:43.811Z",
+      "types": [],
+      "keywords": [
+        "node-red",
+        "UPV",
+        "OSCAR",
+        "GRyCAP",
+        "Bird sound classifier"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-oscar-bird-sound-classifier"
+    },
+    {
+      "id": "node-red-contrib-oscar-segmentation-data",
+      "version": "0.0.2",
+      "description": "Segmentation Data Service",
+      "updated_at": "2024-05-10T07:29:26.790Z",
+      "types": [],
+      "keywords": [
+        "node-red",
+        "UPV",
+        "OSCAR",
+        "GRyCAP",
+        "Bird sound classifier"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-oscar-segmentation-data"
+    },
+    {
+      "id": "node-red-contrib-oscar-object-detection-classifier",
+      "version": "0.0.2",
+      "description": "Object Detection Classifier Service",
+      "updated_at": "2024-05-10T07:25:23.900Z",
+      "types": [],
+      "keywords": [
+        "node-red",
+        "UPV",
+        "OSCAR",
+        "GRyCAP",
+        "Bird sound classifier"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-oscar-object-detection-classifier"
+    },
+    {
+      "id": "node-red-contrib-wazo-platform",
+      "version": "1.0.41",
+      "description": "Node Red module for the Wazo Platform API",
+      "updated_at": "2024-05-09T23:13:51.360Z",
+      "types": [
+        "wazo answer",
+        "wazo bridge_call",
+        "wazo call user",
+        "wazo create user",
+        "wazo chat",
+        "wazo continue",
+        "wazo config",
+        "wazo dtmf",
+        "wazo fetch voicemail",
+        "wazo hangup",
+        "wazo hangup call",
+        "wazo hold",
+        "wazo unhold",
+        "wazo mute",
+        "wazo unmute",
+        "wazo moh",
+        "wazo stop_moh",
+        "wazo new_call",
+        "wazo make call",
+        "wazo remove_call",
+        "wazo create_node",
+        "wazo delete_node",
+        "wazo list_calls_node",
+        "wazo create_snoop",
+        "wazo list_snoop",
+        "wazo view_snoop",
+        "wazo update_snoop",
+        "wazo delete_snoop",
+        "wazo add_to_node",
+        "wazo new_call_node",
+        "wazo playback",
+        "wazo stop_playback",
+        "wazo presence",
+        "wazo progress",
+        "wazo stop_progress",
+        "wazo push",
+        "wazo request",
+        "wazo switch",
+        "wazo trunk",
+        "wazo voicemail",
+        "wazo event",
+        "wazo send_fax",
+        "wazo websocket"
+      ],
+      "keywords": [
+        "node-red",
+        "wazo",
+        "call",
+        "chat",
+        "voice",
+        "api"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-wazo-platform"
+    },
+    {
       "id": "@ravaga/assistiot-composite-services-manager",
-      "version": "1.0.1",
+      "version": "1.0.3",
       "description": "Node-RED nodes for the ASSIST-IoT's Composite services manager enabler",
-      "updated_at": "2024-05-09T14:55:30.734Z",
+      "updated_at": "2024-05-09T15:42:31.477Z",
       "types": [
         "edbe",
         "ltse",
@@ -782,20 +932,6 @@
         "pdfjs"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-pdf-reader"
-    },
-    {
-      "id": "@jotiotech/node-red-bj-parser",
-      "version": "1.0.4",
-      "description": "- parser form binary to simple json format",
-      "updated_at": "2024-05-03T14:44:16.408Z",
-      "types": [
-        "BJ-parser"
-      ],
-      "keywords": [
-        "node-red",
-        "parsing"
-      ],
-      "url": "https://flows.nodered.org/node/@jotiotech/node-red-bj-parser"
     },
     {
       "id": "node-red-contrib-genetic-charging-strategy",
@@ -1577,37 +1713,6 @@
         "manager"
       ],
       "url": "https://flows.nodered.org/node/kdbx-red"
-    },
-    {
-      "id": "@semilimes/node-red-semilimes",
-      "version": "1.1.1",
-      "description": "The new semilimes connector which integrates with the public API",
-      "updated_at": "2024-04-22T07:52:41.216Z",
-      "types": [
-        "smeMessage",
-        "smeFormSetup",
-        "smeFormComponent",
-        "smeFormUpdater",
-        "smeSender",
-        "smeListener",
-        "smeFilter",
-        "smeUploader",
-        "smeDownloader",
-        "smeTunnel",
-        "sme-main-connector"
-      ],
-      "keywords": [
-        "semilimes",
-        "iot",
-        "connector",
-        "node-red",
-        "mobile phone",
-        "interface",
-        "remote access",
-        "ssh tunnel",
-        "websocket"
-      ],
-      "url": "https://flows.nodered.org/node/@semilimes/node-red-semilimes"
     },
     {
       "id": "smart-nodes",
@@ -4995,66 +5100,6 @@
         "peak detection"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-peak-value-range"
-    },
-    {
-      "id": "node-red-contrib-wazo-platform",
-      "version": "1.0.40",
-      "description": "Node Red module for the Wazo Platform API",
-      "updated_at": "2024-03-06T02:48:48.874Z",
-      "types": [
-        "wazo answer",
-        "wazo bridge_call",
-        "wazo call user",
-        "wazo create user",
-        "wazo chat",
-        "wazo continue",
-        "wazo config",
-        "wazo dtmf",
-        "wazo fetch voicemail",
-        "wazo hangup",
-        "wazo hangup call",
-        "wazo hold",
-        "wazo unhold",
-        "wazo mute",
-        "wazo unmute",
-        "wazo moh",
-        "wazo stop_moh",
-        "wazo new_call",
-        "wazo make call",
-        "wazo remove_call",
-        "wazo create_node",
-        "wazo delete_node",
-        "wazo list_calls_node",
-        "wazo create_snoop",
-        "wazo list_snoop",
-        "wazo view_snoop",
-        "wazo update_snoop",
-        "wazo delete_snoop",
-        "wazo add_to_node",
-        "wazo new_call_node",
-        "wazo playback",
-        "wazo stop_playback",
-        "wazo presence",
-        "wazo progress",
-        "wazo stop_progress",
-        "wazo push",
-        "wazo request",
-        "wazo switch",
-        "wazo trunk",
-        "wazo voicemail",
-        "wazo event",
-        "wazo send_fax",
-        "wazo websocket"
-      ],
-      "keywords": [
-        "node-red",
-        "wazo",
-        "call",
-        "chat",
-        "voice",
-        "api"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-wazo-platform"
     },
     {
       "id": "@bithead/node-red-ays-agent",
