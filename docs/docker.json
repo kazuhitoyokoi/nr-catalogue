@@ -1,7 +1,158 @@
 {
   "name": "Catalogue for Docker",
-  "updated_at": "2024-05-10T15:58:06.352Z",
+  "updated_at": "2024-05-11T15:55:01.513Z",
   "modules": [
+    {
+      "id": "node-red-contrib-renault-ze",
+      "version": "1.4.3",
+      "description": "Node Red nodes for Renault ZE services",
+      "updated_at": "2024-05-11T08:58:09.664Z",
+      "types": [
+        "renault-ze"
+      ],
+      "keywords": [
+        "node-red",
+        "renault",
+        "ze"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-renault-ze"
+    },
+    {
+      "id": "smithtek-node-red-format",
+      "version": "1.4.0",
+      "description": "A custom node for Node-RED to format messages with timestamps.",
+      "updated_at": "2024-05-11T08:44:18.150Z",
+      "types": [
+        "smithtek format"
+      ],
+      "keywords": [
+        "node-red"
+      ],
+      "url": "https://flows.nodered.org/node/smithtek-node-red-format"
+    },
+    {
+      "id": "@5minds/node-red-contrib-processcube-amqp",
+      "version": "0.5.0",
+      "description": "Node-RED nodes for AMQP",
+      "updated_at": "2024-05-11T07:08:52.684Z",
+      "types": [
+        "amqp-input",
+        "amqp-output",
+        "amqp-config"
+      ],
+      "keywords": [
+        "node-red",
+        "processcube",
+        "amqp",
+        "messagebus",
+        "rabbitmq"
+      ],
+      "url": "https://flows.nodered.org/node/@5minds/node-red-contrib-processcube-amqp"
+    },
+    {
+      "id": "virtual-parameters",
+      "version": "1.0.5",
+      "description": "virtual parameters setting",
+      "updated_at": "2024-05-11T06:41:10.514Z",
+      "types": [
+        "virtual-parameters"
+      ],
+      "keywords": [
+        "node-red",
+        "parameters",
+        "virtual"
+      ],
+      "url": "https://flows.nodered.org/node/virtual-parameters"
+    },
+    {
+      "id": "node-red-contrib-sonos-plus",
+      "version": "6.9.0",
+      "description": "A set of Node-RED nodes to control SONOS player in your local network.",
+      "updated_at": "2024-05-10T19:39:14.117Z",
+      "types": [
+        "sonos-config",
+        "sonos-manage-mysonos",
+        "sonos-universal"
+      ],
+      "keywords": [
+        "sonos",
+        "node-red",
+        "music",
+        "node-red-contrib-sonos-plus"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-sonos-plus"
+    },
+    {
+      "id": "node-red-contrib-knx-ultimate",
+      "version": "2.4.28",
+      "description": "Control your KNX intallation via Node-Red! A bunch of KNX nodes, with integrated Philips HUE control and ETS group address importer. Easy to use and highly configurable.",
+      "updated_at": "2024-05-10T19:10:30.701Z",
+      "types": [
+        "knxUltimate",
+        "knxUltimateSceneController",
+        "knxUltimateWatchDog",
+        "knxUltimateLogger",
+        "knxUltimate-config",
+        "knxUltimateGlobalContext",
+        "knxUltimateAlerter",
+        "knxUltimateLoadControl",
+        "knxUltimateViewer",
+        "hue-config",
+        "knxUltimateHueLight",
+        "knxUltimateHueButton",
+        "knxUltimateHueMotion",
+        "knxUltimateHueTapDial",
+        "knxUltimateHueLightSensor",
+        "knxUltimateHueTemperatureSensor",
+        "knxUltimateHueScene",
+        "knxUltimateHueBattery",
+        "knxUltimateHueZigbeeConnectivity",
+        "knxUltimateHueContactSensor",
+        "knxUltimateHATranslator"
+      ],
+      "keywords": [
+        "node-red",
+        "KNX",
+        "ETS",
+        "eib",
+        "konnex",
+        "IOT",
+        "philips hue"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-knx-ultimate"
+    },
+    {
+      "id": "@flowfuse/node-red-dashboard-2-ui-iframe",
+      "version": "1.0.0",
+      "description": "A Node-RED Dashboard 2.0 widget that allows you to embed an iframe into your dashboard",
+      "updated_at": "2024-05-10T15:08:45.185Z",
+      "types": [
+        "ui-iframe",
+        "__errors__"
+      ],
+      "keywords": [
+        "node-red",
+        "node-red-dashboard-2"
+      ],
+      "url": "https://flows.nodered.org/node/@flowfuse/node-red-dashboard-2-ui-iframe"
+    },
+    {
+      "id": "node-red-contrib-context-set-get",
+      "version": "1.0.1",
+      "description": "Node-RED nodes for setting and getting context variables",
+      "updated_at": "2024-05-10T13:17:45.548Z",
+      "types": [
+        "set-context",
+        "get-context"
+      ],
+      "keywords": [
+        "node-red",
+        "context",
+        "set",
+        "get"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-context-set-get"
+    },
     {
       "id": "@jotiotech/node-red-bj-parser",
       "version": "1.0.5",
@@ -177,45 +328,6 @@
       "url": "https://flows.nodered.org/node/@ravaga/assistiot-composite-services-manager"
     },
     {
-      "id": "node-red-contrib-knx-ultimate",
-      "version": "2.4.24",
-      "description": "Control your KNX intallation via Node-Red! A bunch of KNX nodes, with integrated Philips HUE control and ETS group address importer. Easy to use and highly configurable.",
-      "updated_at": "2024-05-09T10:36:59.769Z",
-      "types": [
-        "knxUltimate",
-        "knxUltimateSceneController",
-        "knxUltimateWatchDog",
-        "knxUltimateLogger",
-        "knxUltimate-config",
-        "knxUltimateGlobalContext",
-        "knxUltimateAlerter",
-        "knxUltimateLoadControl",
-        "knxUltimateViewer",
-        "hue-config",
-        "knxUltimateHueLight",
-        "knxUltimateHueButton",
-        "knxUltimateHueMotion",
-        "knxUltimateHueTapDial",
-        "knxUltimateHueLightSensor",
-        "knxUltimateHueTemperatureSensor",
-        "knxUltimateHueScene",
-        "knxUltimateHueBattery",
-        "knxUltimateHueZigbeeConnectivity",
-        "knxUltimateHueContactSensor",
-        "knxUltimateHATranslator"
-      ],
-      "keywords": [
-        "node-red",
-        "KNX",
-        "ETS",
-        "eib",
-        "konnex",
-        "IOT",
-        "philips hue"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-knx-ultimate"
-    },
-    {
       "id": "node-red-contrib-voicebase",
       "version": "1.0.2",
       "description": "This node allows you to use several API options from Voicebase",
@@ -256,25 +368,6 @@
         "gis"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-web-worldmap"
-    },
-    {
-      "id": "@5minds/node-red-contrib-processcube-amqp",
-      "version": "0.4.0",
-      "description": "Node-RED nodes for AMQP",
-      "updated_at": "2024-05-08T18:36:02.045Z",
-      "types": [
-        "amqp-input",
-        "amqp-output",
-        "amqp-config"
-      ],
-      "keywords": [
-        "node-red",
-        "processcube",
-        "amqp",
-        "messagebus",
-        "rabbitmq"
-      ],
-      "url": "https://flows.nodered.org/node/@5minds/node-red-contrib-processcube-amqp"
     },
     {
       "id": "node-red-contrib-xiaoai-tts",
@@ -498,23 +591,6 @@
         "low-code"
       ],
       "url": "https://flows.nodered.org/node/@inductiv/node-red-openai-api"
-    },
-    {
-      "id": "node-red-contrib-context-set-get",
-      "version": "1.0.0",
-      "description": "Node-RED nodes for setting and getting context variables",
-      "updated_at": "2024-05-07T13:10:41.053Z",
-      "types": [
-        "set-context",
-        "get-context"
-      ],
-      "keywords": [
-        "node-red",
-        "context",
-        "set",
-        "get"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-context-set-get"
     },
     {
       "id": "node-red-contrib-hera-screenshot",
@@ -2311,24 +2387,6 @@
       "url": "https://flows.nodered.org/node/node-red-contrib-car-bmw"
     },
     {
-      "id": "node-red-contrib-sonos-plus",
-      "version": "6.8.1",
-      "description": "A set of Node-RED nodes to control SONOS player in your local network.",
-      "updated_at": "2024-04-15T14:40:44.596Z",
-      "types": [
-        "sonos-config",
-        "sonos-manage-mysonos",
-        "sonos-universal"
-      ],
-      "keywords": [
-        "sonos",
-        "node-red",
-        "music",
-        "node-red-contrib-sonos-plus"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-sonos-plus"
-    },
-    {
       "id": "@gregoriusrippenstein/node-red-contrib-flow2uml",
       "version": "0.1.11",
       "description": "Convert Node-RED to Mermaid UML flowchart diagram.",
@@ -3725,19 +3783,6 @@
         "string filter"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-string-filter"
-    },
-    {
-      "id": "smithtek-node-red-format",
-      "version": "1.2.0",
-      "description": "A custom node for Node-RED to format messages with timestamps.",
-      "updated_at": "2024-03-22T14:19:20.523Z",
-      "types": [
-        "smithtek format"
-      ],
-      "keywords": [
-        "node-red"
-      ],
-      "url": "https://flows.nodered.org/node/smithtek-node-red-format"
     },
     {
       "id": "smithtek-nodered-gps",
@@ -7148,21 +7193,6 @@
         "node-red"
       ],
       "url": "https://flows.nodered.org/node/@aingtii/node-red-trashdate"
-    },
-    {
-      "id": "virtual-parameters",
-      "version": "1.0.3",
-      "description": "virtual parameters setting",
-      "updated_at": "2024-01-28T14:14:10.337Z",
-      "types": [
-        "virtual-parameters"
-      ],
-      "keywords": [
-        "node-red",
-        "parameters",
-        "virtual"
-      ],
-      "url": "https://flows.nodered.org/node/virtual-parameters"
     },
     {
       "id": "node-red-contrib-rfxcom",
@@ -19771,21 +19801,6 @@
         "red"
       ],
       "url": "https://flows.nodered.org/node/@iomtbvk/red-contrib-kafkalis"
-    },
-    {
-      "id": "node-red-contrib-renault-ze",
-      "version": "1.4.2",
-      "description": "Node Red nodes for Renault ZE services",
-      "updated_at": "2023-04-19T05:25:13.216Z",
-      "types": [
-        "renault-ze"
-      ],
-      "keywords": [
-        "node-red",
-        "renault",
-        "ze"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-renault-ze"
     },
     {
       "id": "node-red-contrib-alexa-virtual-smarthome",
