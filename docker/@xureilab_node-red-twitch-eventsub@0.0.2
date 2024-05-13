@@ -1,0 +1,44 @@
+#0 building with "default" instance using docker driver
+
+#1 [internal] load .dockerignore
+#1 transferring context: 2B done
+#1 DONE 0.0s
+
+#2 [internal] load build definition from Dockerfile
+#2 transferring dockerfile: 127B done
+#2 DONE 0.0s
+
+#3 [internal] load metadata for docker.io/nodered/node-red:latest
+#3 DONE 0.1s
+
+#4 [1/2] FROM docker.io/nodered/node-red@sha256:df827e6ee450221ff68e2edd3bf9b43a991f6abb49121b0db95b744ad4e17a8c
+#4 CACHED
+
+#5 [2/2] RUN npm install npm install @xureilab/node-red-twitch-eventsub@0.0.2
+#5 5.163 npm WARN EBADENGINE Unsupported engine {
+#5 5.163 npm WARN EBADENGINE   package: 'npm@10.7.0',
+#5 5.163 npm WARN EBADENGINE   required: { node: '^18.17.0 || >=20.5.0' },
+#5 5.164 npm WARN EBADENGINE   current: { node: 'v16.20.2', npm: '8.19.4' }
+#5 5.164 npm WARN EBADENGINE }
+#5 7.463 
+#5 7.463 added 25 packages, and audited 536 packages in 7s
+#5 7.463 
+#5 7.463 81 packages are looking for funding
+#5 7.463   run `npm fund` for details
+#5 7.465 
+#5 7.465 found 0 vulnerabilities
+#5 7.465 npm notice 
+#5 7.465 npm notice New major version of npm available! 8.19.4 -> 10.7.0
+#5 7.465 npm notice Changelog: <https://github.com/npm/cli/releases/tag/v10.7.0>
+#5 7.465 npm notice Run `npm install -g npm@10.7.0` to update!
+#5 7.465 npm notice 
+#5 DONE 7.6s
+
+#6 exporting to image
+#6 exporting layers
+#6 exporting layers 1.3s done
+#6 writing image sha256:d31b6d2d9cab10185f1ea87a48109f8b3a9bd08dfe793e589c3d10190b316bb2 done
+#6 naming to docker.io/library/tmp done
+#6 DONE 1.3s
+
+----
