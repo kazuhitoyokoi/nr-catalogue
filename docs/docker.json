@@ -1,7 +1,88 @@
 {
   "name": "Catalogue for Docker",
-  "updated_at": "2024-05-12T15:56:28.374Z",
+  "updated_at": "2024-05-13T16:00:12.466Z",
   "modules": [
+    {
+      "id": "node-red-contrib-s-tech-alice",
+      "version": "0.1.3",
+      "description": "Connection to S-Tech cloud",
+      "updated_at": "2024-05-13T14:55:01.879Z",
+      "types": [
+        "S-Tech-cloud",
+        "device",
+        "ST-On/Off",
+        "ST-Range",
+        "ST-Color",
+        "ST-Toggle",
+        "ST-Mode",
+        "ST-Sensor",
+        "ST-Event"
+      ],
+      "keywords": [
+        "node-red",
+        "s-tech"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-s-tech-alice"
+    },
+    {
+      "id": "@xureilab/node-red-twitch-eventsub",
+      "version": "0.0.2",
+      "description": "Connect to Twitch EventSub API",
+      "updated_at": "2024-05-12T23:59:48.635Z",
+      "types": [
+        "twitch-eventsub",
+        "twitch-eventsub-config"
+      ],
+      "keywords": [
+        "node-red",
+        "twitch",
+        "stream",
+        "rewards",
+        "bits",
+        "cheer",
+        "follow",
+        "subscribe"
+      ],
+      "url": "https://flows.nodered.org/node/@xureilab/node-red-twitch-eventsub"
+    },
+    {
+      "id": "node-red-contrib-simpletime",
+      "version": "3.0.1",
+      "description": "A lightweight node-red node to provide and format date and time.",
+      "updated_at": "2024-05-12T19:14:44.226Z",
+      "types": [
+        "simpletime"
+      ],
+      "keywords": [
+        "node-red",
+        "time",
+        "date",
+        "moment"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-simpletime"
+    },
+    {
+      "id": "node-red-contrib-bosch-shc",
+      "version": "0.5.34",
+      "description": "Bosch Smart Home Controller (SHC) nodes for Node-Red",
+      "updated_at": "2024-05-12T17:53:12.373Z",
+      "types": [
+        "shc-config",
+        "shc-device",
+        "shc-opendoors",
+        "shc-scenario",
+        "shc-state",
+        "shc-fault"
+      ],
+      "keywords": [
+        "node-red",
+        "bosch",
+        "smart",
+        "home",
+        "controller"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-bosch-shc"
+    },
     {
       "id": "@blebtechnology/node-red-blebricks",
       "version": "1.0.23",
@@ -1930,22 +2011,6 @@
       "url": "https://flows.nodered.org/node/@runnane/node-red-contrib-easee"
     },
     {
-      "id": "node-red-contrib-simpletime",
-      "version": "2.11.1",
-      "description": "A lightweight node-red node to provide and format date and time.",
-      "updated_at": "2024-04-20T09:12:15.384Z",
-      "types": [
-        "simpletime"
-      ],
-      "keywords": [
-        "node-red",
-        "time",
-        "date",
-        "moment"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-simpletime"
-    },
-    {
       "id": "node-red-contrib-shelly",
       "version": "10.23.0",
       "description": "Shelly nodes.",
@@ -3057,26 +3122,6 @@
         "node-red"
       ],
       "url": "https://flows.nodered.org/node/@baroldgene/node-red-contrib-victron"
-    },
-    {
-      "id": "node-red-contrib-bosch-shc",
-      "version": "0.4.32",
-      "description": "Bosch Smart Home Controller (SHC) nodes for Node-Red",
-      "updated_at": "2024-04-05T12:20:58.762Z",
-      "types": [
-        "shc-config",
-        "shc-device",
-        "shc-scenario",
-        "shc-fault"
-      ],
-      "keywords": [
-        "node-red",
-        "bosch",
-        "smart",
-        "home",
-        "controller"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-bosch-shc"
     },
     {
       "id": "@background404/node-red-contrib-mcu-serial",
@@ -5539,27 +5584,6 @@
         "ai"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-openai-ubos"
-    },
-    {
-      "id": "@xureilab/node-red-twitch-eventsub",
-      "version": "0.0.1",
-      "description": "Connect to Twitch EventSub API",
-      "updated_at": "2024-02-29T01:13:25.565Z",
-      "types": [
-        "twitch-eventsub",
-        "twitch-eventsub-config"
-      ],
-      "keywords": [
-        "node-red",
-        "twitch",
-        "stream",
-        "rewards",
-        "bits",
-        "cheer",
-        "follow",
-        "subscribe"
-      ],
-      "url": "https://flows.nodered.org/node/@xureilab/node-red-twitch-eventsub"
     },
     {
       "id": "node-red-contrib-image-tools",
