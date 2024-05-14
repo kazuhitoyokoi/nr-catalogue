@@ -1,12 +1,46 @@
 {
   "name": "Catalogue for Docker",
-  "updated_at": "2024-05-13T16:00:12.466Z",
+  "updated_at": "2024-05-14T16:00:14.422Z",
   "modules": [
     {
+      "id": "@noemarius/nodered-adt-create",
+      "version": "0.0.7",
+      "description": "Azure DT Nodes",
+      "updated_at": "2024-05-14T14:23:07.327Z",
+      "types": [
+        "createTwin"
+      ],
+      "keywords": [
+        "node-red",
+        "azure digital twin",
+        "adt",
+        "azure dt"
+      ],
+      "url": "https://flows.nodered.org/node/@noemarius/nodered-adt-create"
+    },
+    {
+      "id": "@unipitechnology/node-red-contrib-unipi-evok",
+      "version": "0.0.8",
+      "description": "EVOK Unipi in Node-RED",
+      "updated_at": "2024-05-14T12:33:16.881Z",
+      "types": [
+        "unipi-input",
+        "unipi-output",
+        "unipi-input-v3",
+        "unipi-output-v3"
+      ],
+      "keywords": [
+        "unipi",
+        "evok",
+        "node-red"
+      ],
+      "url": "https://flows.nodered.org/node/@unipitechnology/node-red-contrib-unipi-evok"
+    },
+    {
       "id": "node-red-contrib-s-tech-alice",
-      "version": "0.1.3",
+      "version": "0.1.7",
       "description": "Connection to S-Tech cloud",
-      "updated_at": "2024-05-13T14:55:01.879Z",
+      "updated_at": "2024-05-14T09:34:32.255Z",
       "types": [
         "S-Tech-cloud",
         "device",
@@ -23,6 +57,80 @@
         "s-tech"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-s-tech-alice"
+    },
+    {
+      "id": "@martijndierckx/node-red-contrib-gardena-smart-mower",
+      "version": "0.0.2",
+      "description": "Nodes for controlling/monitoring Gardena smart system mowers",
+      "updated_at": "2024-05-14T09:21:33.207Z",
+      "types": [
+        "gardena-mower-config",
+        "gardena-mower"
+      ],
+      "keywords": [
+        "node-red",
+        "gardena",
+        "sileno",
+        "mower",
+        "lawn mower"
+      ],
+      "url": "https://flows.nodered.org/node/@martijndierckx/node-red-contrib-gardena-smart-mower"
+    },
+    {
+      "id": "virtual-parameters",
+      "version": "1.0.6",
+      "description": "virtual parameters setting",
+      "updated_at": "2024-05-14T09:08:27.917Z",
+      "types": [
+        "virtual-parameters"
+      ],
+      "keywords": [
+        "node-red",
+        "parameters",
+        "virtual"
+      ],
+      "url": "https://flows.nodered.org/node/virtual-parameters"
+    },
+    {
+      "id": "@edgeflow/kafka-client",
+      "version": "1.0.3",
+      "description": "EdgeFlow Kafka Consumer and Producer",
+      "updated_at": "2024-05-14T06:38:12.032Z",
+      "types": [
+        "hm-kafka-consumer",
+        "hm-kafka-producer",
+        "hm-kafka-broker"
+      ],
+      "keywords": [
+        "kafka-producer",
+        "kafka-consumer",
+        "node-red",
+        "kafka-broker",
+        "kafka-node",
+        "big-data",
+        "data"
+      ],
+      "url": "https://flows.nodered.org/node/@edgeflow/kafka-client"
+    },
+    {
+      "id": "@ncd-io/node-red-enterprise-sensors",
+      "version": "0.1.22",
+      "description": "You can install this library through the Palette Manager in Node-Red's UI.",
+      "updated_at": "2024-05-13T20:59:25.893Z",
+      "types": [
+        "ncd-gateway-node",
+        "ncd-wireless-node",
+        "ncd-gateway-config"
+      ],
+      "keywords": [
+        "Wireless",
+        "NCD",
+        "Sensors",
+        "Digi",
+        "node-red",
+        "enterprise"
+      ],
+      "url": "https://flows.nodered.org/node/@ncd-io/node-red-enterprise-sensors"
     },
     {
       "id": "@xureilab/node-red-twitch-eventsub",
@@ -274,21 +382,6 @@
         "rabbitmq"
       ],
       "url": "https://flows.nodered.org/node/@5minds/node-red-contrib-processcube-amqp"
-    },
-    {
-      "id": "virtual-parameters",
-      "version": "1.0.5",
-      "description": "virtual parameters setting",
-      "updated_at": "2024-05-11T06:41:10.514Z",
-      "types": [
-        "virtual-parameters"
-      ],
-      "keywords": [
-        "node-red",
-        "parameters",
-        "virtual"
-      ],
-      "url": "https://flows.nodered.org/node/virtual-parameters"
     },
     {
       "id": "node-red-contrib-sonos-plus",
@@ -896,24 +989,6 @@
       "url": "https://flows.nodered.org/node/node-red-contrib-openpgp-by-bhk"
     },
     {
-      "id": "@unipitechnology/node-red-contrib-unipi-evok",
-      "version": "0.0.7",
-      "description": "EVOK Unipi in Node-RED",
-      "updated_at": "2024-05-06T14:21:57.950Z",
-      "types": [
-        "unipi-input",
-        "unipi-output",
-        "unipi-input-v3",
-        "unipi-output-v3"
-      ],
-      "keywords": [
-        "unipi",
-        "evok",
-        "node-red"
-      ],
-      "url": "https://flows.nodered.org/node/@unipitechnology/node-red-contrib-unipi-evok"
-    },
-    {
       "id": "node-red-contrib-boolean-logic-ultimate",
       "version": "1.1.9",
       "description": "A set of Node-RED enhanced boolean logic and utility nodes, flow interruption, blinker, invert, filter, toggle etc.., with persistent values after reboot. Compatible also with Homeassistant values.",
@@ -1220,6 +1295,23 @@
         "node-red"
       ],
       "url": "https://flows.nodered.org/node/@appmodule/node-red-contrib-siot"
+    },
+    {
+      "id": "node-red-contrib-modbus-flex-server",
+      "version": "1.0.0",
+      "description": "The flexible Modbus TCP server contribution package for Node-RED.",
+      "updated_at": "2024-05-03T12:03:46.013Z",
+      "types": [
+        "modbus-flex-server"
+      ],
+      "keywords": [
+        "node-red",
+        "plusfornodered",
+        "modbus",
+        "automation",
+        "biancoroyal"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-modbus-flex-server"
     },
     {
       "id": "@flowfuse/nr-project-nodes",
@@ -2313,26 +2405,6 @@
         "NodeREDComputer"
       ],
       "url": "https://flows.nodered.org/node/@renyoo/node-red-dfrobot_noderedcomputer"
-    },
-    {
-      "id": "@ncd-io/node-red-enterprise-sensors",
-      "version": "0.1.21",
-      "description": "You can install this library through the Palette Manager in Node-Red's UI.",
-      "updated_at": "2024-04-17T21:06:52.195Z",
-      "types": [
-        "ncd-gateway-node",
-        "ncd-wireless-node",
-        "ncd-gateway-config"
-      ],
-      "keywords": [
-        "Wireless",
-        "NCD",
-        "Sensors",
-        "Digi",
-        "node-red",
-        "enterprise"
-      ],
-      "url": "https://flows.nodered.org/node/@ncd-io/node-red-enterprise-sensors"
     },
     {
       "id": "node-red-contrib-axis-com",
@@ -6659,22 +6731,6 @@
       "url": "https://flows.nodered.org/node/node-red-contrib-cip-st-ethernet-ip"
     },
     {
-      "id": "@noemarius/nodered-adt-create",
-      "version": "0.0.6",
-      "description": "Azure DT Nodes",
-      "updated_at": "2024-02-12T11:44:24.201Z",
-      "types": [
-        "createTwin"
-      ],
-      "keywords": [
-        "node-red",
-        "azure digital twin",
-        "adt",
-        "azure dt"
-      ],
-      "url": "https://flows.nodered.org/node/@noemarius/nodered-adt-create"
-    },
-    {
       "id": "node-red-contrib-xsltransform",
       "version": "0.5.28",
       "description": "Node-RED node node to tranform xml content using saxon-js.",
@@ -7165,27 +7221,6 @@
         "node-red"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-ampio"
-    },
-    {
-      "id": "@edgeflow/kafka-client",
-      "version": "1.0.2",
-      "description": "EdgeFlow Kafka Consumer and Producer",
-      "updated_at": "2024-01-29T11:57:10.175Z",
-      "types": [
-        "hm-kafka-consumer",
-        "hm-kafka-producer",
-        "hm-kafka-broker"
-      ],
-      "keywords": [
-        "kafka-producer",
-        "kafka-consumer",
-        "node-red",
-        "kafka-broker",
-        "kafka-node",
-        "big-data",
-        "data"
-      ],
-      "url": "https://flows.nodered.org/node/@edgeflow/kafka-client"
     },
     {
       "id": "node-red-contrib-spruthub",
@@ -15546,24 +15581,6 @@
         "amateurradio"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-aprs"
-    },
-    {
-      "id": "@martijndierckx/node-red-contrib-gardena-smart-mower",
-      "version": "0.0.1",
-      "description": "Nodes for controlling/monitoring Gardena smart system mowers",
-      "updated_at": "2023-08-17T10:39:41.371Z",
-      "types": [
-        "gardena-mower-config",
-        "gardena-mower"
-      ],
-      "keywords": [
-        "node-red",
-        "gardena",
-        "sileno",
-        "mower",
-        "lawn mower"
-      ],
-      "url": "https://flows.nodered.org/node/@martijndierckx/node-red-contrib-gardena-smart-mower"
     },
     {
       "id": "six_hash",
@@ -31935,6 +31952,26 @@
         "merge"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-join-wait"
+    },
+    {
+      "id": "node-red-contrib-insteon",
+      "version": "0.7.5",
+      "description": "A library of Node-RED nodes for interacting with the Insteon home automation ecosystem",
+      "updated_at": "2022-05-11T03:24:04.431Z",
+      "types": [
+        "insteon-modem-config",
+        "insteon-powerlinc-modem",
+        "insteon-device-config",
+        "insteon-device-subscribe",
+        "insteon-device-request",
+        "insteon-device-command",
+        "insteon-scene-config",
+        "insteon-scene-command"
+      ],
+      "keywords": [
+        "node-red"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-insteon"
     },
     {
       "id": "node-red-contrib-hubspot",
@@ -57265,26 +57302,6 @@
         "repeat"
       ],
       "url": "https://flows.nodered.org/node/sense-control"
-    },
-    {
-      "id": "node-red-contrib-insteon",
-      "version": "0.7.1",
-      "description": "A library of Node-RED nodes for interacting with the Insteon home automation ecosystem",
-      "updated_at": "2020-03-02T03:10:51.730Z",
-      "types": [
-        "insteon-modem-config",
-        "insteon-powerlinc-modem",
-        "insteon-device-config",
-        "insteon-device-subscribe",
-        "insteon-device-request",
-        "insteon-device-command",
-        "insteon-scene-config",
-        "insteon-scene-command"
-      ],
-      "keywords": [
-        "node-red"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-insteon"
     },
     {
       "id": "node-red-contrib-neato-botvac",
