@@ -1,0 +1,45 @@
+#0 building with "default" instance using docker driver
+
+#1 [internal] load .dockerignore
+#1 transferring context: 2B done
+#1 DONE 0.0s
+
+#2 [internal] load build definition from Dockerfile
+#2 transferring dockerfile: 117B done
+#2 DONE 0.0s
+
+#3 [internal] load metadata for docker.io/nodered/node-red:latest
+#3 DONE 0.3s
+
+#4 [1/2] FROM docker.io/nodered/node-red@sha256:df827e6ee450221ff68e2edd3bf9b43a991f6abb49121b0db95b744ad4e17a8c
+#4 CACHED
+
+#5 [2/2] RUN npm install npm install node-red-contrib-opcua@0.2.329
+#5 4.965 npm WARN EBADENGINE Unsupported engine {
+#5 4.966 npm WARN EBADENGINE   package: 'npm@10.8.0',
+#5 4.966 npm WARN EBADENGINE   required: { node: '^18.17.0 || >=20.5.0' },
+#5 4.966 npm WARN EBADENGINE   current: { node: 'v16.20.2', npm: '8.19.4' }
+#5 4.966 npm WARN EBADENGINE }
+#5 7.583 npm WARN deprecated node-opcua-client-crawler@2.124.0: This package is deprecated, please contact sterfive to acquire access to @sterfive/crawler revamped and improved module
+#5 8.732 
+#5 8.732 added 208 packages, and audited 717 packages in 8s
+#5 8.732 
+#5 8.732 92 packages are looking for funding
+#5 8.732   run `npm fund` for details
+#5 8.733 
+#5 8.733 found 0 vulnerabilities
+#5 8.734 npm notice 
+#5 8.734 npm notice New major version of npm available! 8.19.4 -> 10.8.0
+#5 8.734 npm notice Changelog: <https://github.com/npm/cli/releases/tag/v10.8.0>
+#5 8.734 npm notice Run `npm install -g npm@10.8.0` to update!
+#5 8.734 npm notice 
+#5 DONE 8.8s
+
+#6 exporting to image
+#6 exporting layers
+#6 exporting layers 3.0s done
+#6 writing image sha256:fd46ee6f4f50a080d24aa57707845f58509802dae6256b2b7ab7a2b1a32e3c9b done
+#6 naming to docker.io/library/tmp done
+#6 DONE 3.0s
+
+----
