@@ -1,7 +1,52 @@
 {
   "name": "Catalogue for Docker",
-  "updated_at": "2024-05-18T15:54:40.862Z",
+  "updated_at": "2024-05-19T15:55:18.020Z",
   "modules": [
+    {
+      "id": "node-red-contrib-obniz",
+      "version": "0.8.0",
+      "description": "Obniz node to send json data to obniz cloud. Obniz is electronics as a service and you can use electronics with json APIs. ",
+      "updated_at": "2024-05-19T11:55:35.142Z",
+      "types": [
+        "obniz",
+        "obniz-repeat",
+        "obniz-function",
+        "obniz-connect",
+        "obniz-close"
+      ],
+      "keywords": [
+        "node-red",
+        "obniz"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-obniz"
+    },
+    {
+      "id": "node-red-contrib-ollama",
+      "version": "0.1.7",
+      "description": "A Node-RED module that wraps the ollama.js library, offering its functionalities as configurable nodes for easy integration into flows.",
+      "updated_at": "2024-05-19T09:35:06.298Z",
+      "types": [
+        "ollama-chat",
+        "ollama-copy",
+        "ollama-create",
+        "ollama-delete",
+        "ollama-embeddings",
+        "ollama-generate",
+        "ollama-list",
+        "ollama-pull",
+        "ollama-push",
+        "ollama-show"
+      ],
+      "keywords": [
+        "ai",
+        "llama",
+        "llm",
+        "llms",
+        "node-red",
+        "ollama"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-ollama"
+    },
     {
       "id": "@blebtechnology/node-red-blebricks",
       "version": "1.0.24",
@@ -4309,33 +4354,6 @@
         "Down Counter"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-stepper"
-    },
-    {
-      "id": "node-red-contrib-ollama",
-      "version": "0.1.6",
-      "description": "A Node-RED module that wraps the ollama.js library, offering its functionalities as configurable nodes for easy integration into flows.",
-      "updated_at": "2024-03-24T05:56:00.327Z",
-      "types": [
-        "ollama-chat",
-        "ollama-copy",
-        "ollama-create",
-        "ollama-delete",
-        "ollama-embeddings",
-        "ollama-generate",
-        "ollama-list",
-        "ollama-pull",
-        "ollama-push",
-        "ollama-show"
-      ],
-      "keywords": [
-        "ai",
-        "llama",
-        "llm",
-        "llms",
-        "node-red",
-        "ollama"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-ollama"
     },
     {
       "id": "node-red-contrib-string-filter",
@@ -11104,22 +11122,6 @@
         "embedding"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-chromadb"
-    },
-    {
-      "id": "node-red-contrib-obniz",
-      "version": "0.7.0",
-      "description": "Obniz node to send json data to obniz cloud. Obniz is electronics as a service and you can use electronics with json APIs. ",
-      "updated_at": "2023-11-09T06:30:33.355Z",
-      "types": [
-        "obniz",
-        "obniz-repeat",
-        "obniz-function"
-      ],
-      "keywords": [
-        "node-red",
-        "obniz"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-obniz"
     },
     {
       "id": "@diidum/node-red-contrib-husqvarna-automower-connect",
