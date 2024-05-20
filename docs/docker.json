@@ -1,7 +1,47 @@
 {
   "name": "Catalogue for Docker",
-  "updated_at": "2024-05-19T15:55:18.020Z",
+  "updated_at": "2024-05-20T15:57:00.254Z",
   "modules": [
+    {
+      "id": "@coremarine/norsub-emru-nodered",
+      "version": "1.0.0",
+      "description": "Node-Red component to work with NorSub eMRU devices",
+      "updated_at": "2024-05-20T10:02:41.776Z",
+      "types": [
+        "cma-norsub-parser"
+      ],
+      "keywords": [
+        "node-red",
+        "mru",
+        "imu",
+        "norsub",
+        "nmea",
+        "nmea0183",
+        "0183",
+        "parser"
+      ],
+      "url": "https://flows.nodered.org/node/@coremarine/norsub-emru-nodered"
+    },
+    {
+      "id": "@coremarine/nmea-parser-nodered",
+      "version": "1.0.0",
+      "description": "Node-Red component to read NMEA 0183 sentences",
+      "updated_at": "2024-05-20T08:00:26.209Z",
+      "types": [
+        "cma-nmea-parser"
+      ],
+      "keywords": [
+        "node-red",
+        "nmea",
+        "nmea0183",
+        "0183",
+        "gnss",
+        "gps",
+        "parser",
+        "protocol"
+      ],
+      "url": "https://flows.nodered.org/node/@coremarine/nmea-parser-nodered"
+    },
     {
       "id": "node-red-contrib-obniz",
       "version": "0.8.0",
