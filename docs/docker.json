@@ -1,7 +1,110 @@
 {
   "name": "Catalogue for Docker",
-  "updated_at": "2024-05-20T15:57:00.254Z",
+  "updated_at": "2024-05-21T15:57:06.490Z",
   "modules": [
+    {
+      "id": "@flowfuse/node-red-dashboard-2-ui-iframe",
+      "version": "1.1.0",
+      "description": "A Node-RED Dashboard 2.0 widget that allows you to embed an iframe into your dashboard",
+      "updated_at": "2024-05-21T14:48:05.247Z",
+      "types": [
+        "ui-iframe",
+        "__errors__"
+      ],
+      "keywords": [
+        "node-red",
+        "node-red-dashboard-2"
+      ],
+      "url": "https://flows.nodered.org/node/@flowfuse/node-red-dashboard-2-ui-iframe"
+    },
+    {
+      "id": "node-red-contrib-oauth2",
+      "version": "6.0.0",
+      "description": "The node-red-contrib-oauth2 is a Node-RED node that provides an OAuth2 authentication flow. This node uses the OAuth2 protocol to obtain an access token, which can be used to make authenticated API requests.",
+      "updated_at": "2024-05-21T10:41:02.782Z",
+      "types": [
+        "oauth2"
+      ],
+      "keywords": [
+        "node-red",
+        "oauth2",
+        "security"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-oauth2"
+    },
+    {
+      "id": "node-red-contrib-cx-alarm-log",
+      "version": "1.1.2",
+      "description": "A Node-RED industrial alarm parser for simple HMI applications.",
+      "updated_at": "2024-05-21T00:49:53.524Z",
+      "types": [
+        "cx_alarm_log"
+      ],
+      "keywords": [
+        "node-red",
+        "alarm",
+        "industrial",
+        "alarm log",
+        "alarm logger",
+        "hmi",
+        "cx_alarm_log",
+        "cx",
+        "controlx",
+        "controlx.io"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-cx-alarm-log"
+    },
+    {
+      "id": "node-red-contrib-unifi-client",
+      "version": "0.0.5",
+      "description": "Nodes to access UniFi",
+      "updated_at": "2024-05-20T17:09:54.879Z",
+      "types": [
+        "unifi-controller",
+        "unifi-door-events",
+        "unifi-raw-controller-request",
+        "unifi-get-access-devices",
+        "unifi-network-get-devices",
+        "unifi-network-get-active-clients",
+        "unifi-core-events",
+        "unifi-access-unlock-relais"
+      ],
+      "keywords": [
+        "node-red",
+        "iot",
+        "unifi",
+        "ubiquiti",
+        "unifi-controller",
+        "unifi-events",
+        "Ubiquiti Networks",
+        "ubnt",
+        "network",
+        "UDR",
+        "UDM",
+        "UDM pro",
+        "cloud-key"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-unifi-client"
+    },
+    {
+      "id": "@coremarine/septentrio-sbf-nodered",
+      "version": "1.0.0",
+      "description": "A group of Node-Red components to work with Septentrio SBF protocol",
+      "updated_at": "2024-05-20T16:05:18.285Z",
+      "types": [
+        "cma-septentrio-parser"
+      ],
+      "keywords": [
+        "node-red",
+        "sbf",
+        "septentrio",
+        "gnss",
+        "parser",
+        "binary",
+        "protocol"
+      ],
+      "url": "https://flows.nodered.org/node/@coremarine/septentrio-sbf-nodered"
+    },
     {
       "id": "@coremarine/norsub-emru-nodered",
       "version": "1.0.0",
@@ -1030,21 +1133,6 @@
         "node-red-contrib-sonos-plus"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-sonos-plus"
-    },
-    {
-      "id": "@flowfuse/node-red-dashboard-2-ui-iframe",
-      "version": "1.0.0",
-      "description": "A Node-RED Dashboard 2.0 widget that allows you to embed an iframe into your dashboard",
-      "updated_at": "2024-05-10T15:08:45.185Z",
-      "types": [
-        "ui-iframe",
-        "__errors__"
-      ],
-      "keywords": [
-        "node-red",
-        "node-red-dashboard-2"
-      ],
-      "url": "https://flows.nodered.org/node/@flowfuse/node-red-dashboard-2-ui-iframe"
     },
     {
       "id": "node-red-contrib-context-set-get",
@@ -10792,21 +10880,6 @@
         "smartpi"
       ],
       "url": "https://flows.nodered.org/node/@nd-enerserve/node-red-smartpi"
-    },
-    {
-      "id": "node-red-contrib-oauth2",
-      "version": "5.2.7",
-      "description": "The node-red-contrib-oauth2 is a Node-RED node that provides an OAuth2 authentication flow. This node uses the OAuth2 protocol to obtain an access token, which can be used to make authenticated API requests.",
-      "updated_at": "2023-11-20T18:14:47.630Z",
-      "types": [
-        "oauth2"
-      ],
-      "keywords": [
-        "node-red",
-        "oauth2",
-        "security"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-oauth2"
     },
     {
       "id": "thingzi-logic-timers",
@@ -35275,28 +35348,6 @@
       "url": "https://flows.nodered.org/node/node-red-contrib-message-queue"
     },
     {
-      "id": "node-red-contrib-cx-alarm-log",
-      "version": "1.1.0",
-      "description": "A Node-RED industrial alarm parser for simple HMI applications.",
-      "updated_at": "2022-02-15T13:03:25.296Z",
-      "types": [
-        "cx_alarm_log"
-      ],
-      "keywords": [
-        "node-red",
-        "alarm",
-        "industrial",
-        "alarm log",
-        "alarm logger",
-        "hmi",
-        "cx_alarm_log",
-        "cx",
-        "controlx",
-        "controlx.io"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-cx-alarm-log"
-    },
-    {
       "id": "node-red-contrib-nooperation",
       "version": "1.0.6",
       "description": "just do nothing.",
@@ -38121,35 +38172,6 @@
         "round"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-rate-avg"
-    },
-    {
-      "id": "node-red-contrib-unifi-client",
-      "version": "0.0.4",
-      "description": "Nodes to access UniFi",
-      "updated_at": "2021-11-29T13:43:27.595Z",
-      "types": [
-        "unifi-controller",
-        "unifi-door-events",
-        "unifi-raw-controller-request",
-        "unifi-get-access-devices",
-        "unifi-access-unlock-relais"
-      ],
-      "keywords": [
-        "node-red",
-        "iot",
-        "unifi",
-        "ubiquiti",
-        "unifi-controller",
-        "unifi-events",
-        "Ubiquiti Networks",
-        "ubnt",
-        "network",
-        "UDR",
-        "UDM",
-        "UDM pro",
-        "cloud-key"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-unifi-client"
     },
     {
       "id": "node-red-node-pi-mcp3008",
