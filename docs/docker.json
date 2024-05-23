@@ -1,7 +1,126 @@
 {
   "name": "Catalogue for Docker",
-  "updated_at": "2024-05-22T15:55:06.457Z",
+  "updated_at": "2024-05-23T15:58:09.879Z",
   "modules": [
+    {
+      "id": "node-red-contrib-thinger",
+      "version": "1.7.6",
+      "description": "Node-Red library for Thinger.io Platform",
+      "updated_at": "2024-05-23T14:15:15.302Z",
+      "types": [
+        "asset-iterator",
+        "bucket-create",
+        "bucket-read",
+        "bucket-write",
+        "device-callback",
+        "device-create",
+        "device-read",
+        "device-stream",
+        "device-write",
+        "endpoint-call",
+        "property-read",
+        "property-write",
+        "storage-read",
+        "storage-write",
+        "server-events",
+        "thinger-server"
+      ],
+      "keywords": [
+        "node-red",
+        "thinger.io",
+        "IoT",
+        "arduino",
+        "raspberry"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-thinger"
+    },
+    {
+      "id": "node-red-contrib-eskomsepush",
+      "version": "0.0.18",
+      "description": "Node-RED interface for the Eskomsepush API",
+      "updated_at": "2024-05-23T11:21:10.335Z",
+      "types": [
+        "eskomsepush"
+      ],
+      "keywords": [
+        "node-red",
+        "eskomsepush",
+        "loadshedding",
+        "south africa",
+        "scheduled charging",
+        "victron",
+        "ess"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-eskomsepush"
+    },
+    {
+      "id": "@nickiv/node-red-huawei-sms",
+      "version": "0.0.10",
+      "description": "Nodes to send and receive SMS from Huawei LTE USB Stick",
+      "updated_at": "2024-05-23T09:06:21.196Z",
+      "types": [
+        "huawei-sms-send",
+        "huawei-sms-receive",
+        "huawei-sms-config"
+      ],
+      "keywords": [
+        "node-red",
+        "sms",
+        "huawei"
+      ],
+      "url": "https://flows.nodered.org/node/@nickiv/node-red-huawei-sms"
+    },
+    {
+      "id": "@flowfuse/node-red-dashboard",
+      "version": "1.10.0",
+      "description": "Dashboard 2.0 - A collection of Node-RED nodes that provide functionality to build your own UI applications (inc. forms, buttons, charts).",
+      "updated_at": "2024-05-22T15:42:44.127Z",
+      "types": [
+        "ui-base",
+        "ui-page",
+        "ui-link",
+        "ui-group",
+        "ui-theme",
+        "ui-form",
+        "__errors__",
+        "ui-text-input",
+        "__errors__",
+        "ui-button",
+        "__errors__",
+        "ui-button-group",
+        "__errors__",
+        "ui-dropdown",
+        "__errors__",
+        "ui-radio-group",
+        "__errors__",
+        "ui-slider",
+        "__errors__",
+        "ui-switch",
+        "__errors__",
+        "ui-text",
+        "__errors__",
+        "ui-table",
+        "__errors__",
+        "ui-chart",
+        "__errors__",
+        "ui-gauge",
+        "__errors__",
+        "ui-notification",
+        "__errors__",
+        "ui-markdown",
+        "__errors__",
+        "ui-template",
+        "__errors__",
+        "ui-event",
+        "__errors__",
+        "ui-control",
+        "__errors__"
+      ],
+      "keywords": [
+        "node-red"
+      ],
+      "url": "https://flows.nodered.org/node/@flowfuse/node-red-dashboard"
+    },
     {
       "id": "node-red-contrib-s-tech-alice",
       "version": "0.1.11",
@@ -23,6 +142,22 @@
         "s-tech"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-s-tech-alice"
+    },
+    {
+      "id": "node-red-contrib-snap4city-tunnel",
+      "version": "0.0.4",
+      "description": "Nodes for Snap4city project, targeted to tunneling edge device",
+      "updated_at": "2024-05-22T10:33:44.758Z",
+      "types": [
+        "edge-tunnel-to-cloud",
+        "snap4city-authentication-tunnel"
+      ],
+      "keywords": [
+        "node-red",
+        "smartcity",
+        "iot"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-snap4city-tunnel"
     },
     {
       "id": "node-red-contrib-ruuvi-gateway",
@@ -118,6 +253,65 @@
       "url": "https://flows.nodered.org/node/node-red-contrib-oauth2"
     },
     {
+      "id": "@coremarine/nmea-parser-nodered",
+      "version": "1.0.1",
+      "description": "Node-Red component to read NMEA 0183 sentences",
+      "updated_at": "2024-05-21T06:49:05.760Z",
+      "types": [
+        "cma-nmea-parser"
+      ],
+      "keywords": [
+        "node-red",
+        "nmea",
+        "nmea0183",
+        "0183",
+        "gnss",
+        "gps",
+        "parser",
+        "protocol"
+      ],
+      "url": "https://flows.nodered.org/node/@coremarine/nmea-parser-nodered"
+    },
+    {
+      "id": "@coremarine/norsub-emru-nodered",
+      "version": "1.0.1",
+      "description": "Node-Red component to work with NorSub eMRU devices",
+      "updated_at": "2024-05-21T06:49:02.923Z",
+      "types": [
+        "cma-norsub-parser"
+      ],
+      "keywords": [
+        "node-red",
+        "mru",
+        "imu",
+        "norsub",
+        "nmea",
+        "nmea0183",
+        "0183",
+        "parser"
+      ],
+      "url": "https://flows.nodered.org/node/@coremarine/norsub-emru-nodered"
+    },
+    {
+      "id": "@coremarine/septentrio-sbf-nodered",
+      "version": "1.0.1",
+      "description": "A group of Node-Red components to work with Septentrio SBF protocol",
+      "updated_at": "2024-05-21T06:49:02.644Z",
+      "types": [
+        "cma-septentrio-parser"
+      ],
+      "keywords": [
+        "node-red",
+        "sbf",
+        "septentrio",
+        "gnss",
+        "parser",
+        "binary",
+        "protocol"
+      ],
+      "url": "https://flows.nodered.org/node/@coremarine/septentrio-sbf-nodered"
+    },
+    {
       "id": "node-red-contrib-cx-alarm-log",
       "version": "1.1.2",
       "description": "A Node-RED industrial alarm parser for simple HMI applications.",
@@ -138,65 +332,6 @@
         "controlx.io"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-cx-alarm-log"
-    },
-    {
-      "id": "@coremarine/septentrio-sbf-nodered",
-      "version": "1.0.0",
-      "description": "A group of Node-Red components to work with Septentrio SBF protocol",
-      "updated_at": "2024-05-20T16:05:18.285Z",
-      "types": [
-        "cma-septentrio-parser"
-      ],
-      "keywords": [
-        "node-red",
-        "sbf",
-        "septentrio",
-        "gnss",
-        "parser",
-        "binary",
-        "protocol"
-      ],
-      "url": "https://flows.nodered.org/node/@coremarine/septentrio-sbf-nodered"
-    },
-    {
-      "id": "@coremarine/norsub-emru-nodered",
-      "version": "1.0.0",
-      "description": "Node-Red component to work with NorSub eMRU devices",
-      "updated_at": "2024-05-20T10:02:41.776Z",
-      "types": [
-        "cma-norsub-parser"
-      ],
-      "keywords": [
-        "node-red",
-        "mru",
-        "imu",
-        "norsub",
-        "nmea",
-        "nmea0183",
-        "0183",
-        "parser"
-      ],
-      "url": "https://flows.nodered.org/node/@coremarine/norsub-emru-nodered"
-    },
-    {
-      "id": "@coremarine/nmea-parser-nodered",
-      "version": "1.0.0",
-      "description": "Node-Red component to read NMEA 0183 sentences",
-      "updated_at": "2024-05-20T08:00:26.209Z",
-      "types": [
-        "cma-nmea-parser"
-      ],
-      "keywords": [
-        "node-red",
-        "nmea",
-        "nmea0183",
-        "0183",
-        "gnss",
-        "gps",
-        "parser",
-        "protocol"
-      ],
-      "url": "https://flows.nodered.org/node/@coremarine/nmea-parser-nodered"
     },
     {
       "id": "node-red-contrib-obniz",
@@ -847,57 +982,6 @@
         "low-code"
       ],
       "url": "https://flows.nodered.org/node/@inductiv/node-red-openai-api"
-    },
-    {
-      "id": "@flowfuse/node-red-dashboard",
-      "version": "1.9.1",
-      "description": "Dashboard 2.0 - A collection of Node-RED nodes that provide functionality to build your own UI applications (inc. forms, buttons, charts).",
-      "updated_at": "2024-05-14T15:30:25.627Z",
-      "types": [
-        "ui-base",
-        "ui-page",
-        "ui-link",
-        "ui-group",
-        "ui-theme",
-        "ui-form",
-        "__errors__",
-        "ui-text-input",
-        "__errors__",
-        "ui-button",
-        "__errors__",
-        "ui-button-group",
-        "__errors__",
-        "ui-dropdown",
-        "__errors__",
-        "ui-radio-group",
-        "__errors__",
-        "ui-slider",
-        "__errors__",
-        "ui-switch",
-        "__errors__",
-        "ui-text",
-        "__errors__",
-        "ui-table",
-        "__errors__",
-        "ui-chart",
-        "__errors__",
-        "ui-gauge",
-        "__errors__",
-        "ui-notification",
-        "__errors__",
-        "ui-markdown",
-        "__errors__",
-        "ui-template",
-        "__errors__",
-        "ui-event",
-        "__errors__",
-        "ui-control",
-        "__errors__"
-      ],
-      "keywords": [
-        "node-red"
-      ],
-      "url": "https://flows.nodered.org/node/@flowfuse/node-red-dashboard"
     },
     {
       "id": "@unipitechnology/node-red-contrib-unipi-evok",
@@ -3324,38 +3408,6 @@
         "websocket"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-home-assistant-websocket"
-    },
-    {
-      "id": "node-red-contrib-thinger",
-      "version": "1.7.4",
-      "description": "Node-Red library for Thinger.io Platform",
-      "updated_at": "2024-04-12T09:56:47.827Z",
-      "types": [
-        "asset-iterator",
-        "bucket-create",
-        "bucket-read",
-        "bucket-write",
-        "device-callback",
-        "device-create",
-        "device-read",
-        "device-stream",
-        "device-write",
-        "endpoint-call",
-        "property-read",
-        "property-write",
-        "storage-read",
-        "storage-write",
-        "server-events",
-        "thinger-server"
-      ],
-      "keywords": [
-        "node-red",
-        "thinger.io",
-        "IoT",
-        "arduino",
-        "raspberry"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-thinger"
     },
     {
       "id": "@chvdapi/node-red-pn4800-do",
@@ -8288,23 +8340,6 @@
       "url": "https://flows.nodered.org/node/@gdziuba/node-red-usbhid"
     },
     {
-      "id": "@nickiv/node-red-huawei-sms",
-      "version": "0.0.9",
-      "description": "Nodes to send and receive SMS from Huawei LTE USB Stick",
-      "updated_at": "2024-01-15T14:11:40.266Z",
-      "types": [
-        "huawei-sms-send",
-        "huawei-sms-receive",
-        "huawei-sms-config"
-      ],
-      "keywords": [
-        "node-red",
-        "sms",
-        "huawei"
-      ],
-      "url": "https://flows.nodered.org/node/@nickiv/node-red-huawei-sms"
-    },
-    {
       "id": "node-red-contrib-oscar-plants-classification",
       "version": "0.0.1",
       "description": "Classify plant images among 10K species from the iNaturalist dataset.",
@@ -9334,6 +9369,25 @@
         "node-red"
       ],
       "url": "https://flows.nodered.org/node/@gulpetl/vinyl-s3"
+    },
+    {
+      "id": "@gorootde/node-red-grist",
+      "version": "2.1.0",
+      "description": "getgrist.com connectivity for NodeRed",
+      "updated_at": "2023-12-28T19:33:49.960Z",
+      "types": [
+        "grist-document-export",
+        "grist-add-records",
+        "grist-get-records",
+        "grist-update-records",
+        "grist-document",
+        "grist-server"
+      ],
+      "keywords": [
+        "node-red",
+        "grist"
+      ],
+      "url": "https://flows.nodered.org/node/@gorootde/node-red-grist"
     },
     {
       "id": "node-red-contrib-deconz",
@@ -14645,25 +14699,6 @@
         "automation"
       ],
       "url": "https://flows.nodered.org/node/cosmos8-clp"
-    },
-    {
-      "id": "node-red-contrib-eskomsepush",
-      "version": "0.0.17",
-      "description": "Node-RED interface for the Eskomsepush API",
-      "updated_at": "2023-09-19T09:23:52.883Z",
-      "types": [
-        "eskomsepush"
-      ],
-      "keywords": [
-        "node-red",
-        "eskomsepush",
-        "loadshedding",
-        "south africa",
-        "scheduled charging",
-        "victron",
-        "ess"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-eskomsepush"
     },
     {
       "id": "node-red-node-data-generator",
@@ -23858,22 +23893,6 @@
         "smart-contract"
       ],
       "url": "https://flows.nodered.org/node/node-red-near-protocol"
-    },
-    {
-      "id": "@gorootde/node-red-grist",
-      "version": "1.1.0",
-      "description": "getgrist.com connectivity for NodeRed",
-      "updated_at": "2023-01-07T16:43:41.369Z",
-      "types": [
-        "grist-records",
-        "grist-document",
-        "grist-server"
-      ],
-      "keywords": [
-        "node-red",
-        "grist"
-      ],
-      "url": "https://flows.nodered.org/node/@gorootde/node-red-grist"
     },
     {
       "id": "@equans/smart-buildings-occupancy",
@@ -34227,22 +34246,6 @@
         "line-protocol"
       ],
       "url": "https://flows.nodered.org/node/@wz2b/node-red-influxdb-line-protocol"
-    },
-    {
-      "id": "node-red-contrib-snap4city-tunnel",
-      "version": "0.0.3",
-      "description": "Nodes for Snap4city project, targeted to tunneling edge device",
-      "updated_at": "2022-03-24T14:21:42.847Z",
-      "types": [
-        "edge-tunnel-to-cloud",
-        "snap4city-authentication-tunnel"
-      ],
-      "keywords": [
-        "node-red",
-        "smartcity",
-        "iot"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-snap4city-tunnel"
     },
     {
       "id": "node-red-contrib-advanced-logger",
