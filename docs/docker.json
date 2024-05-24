@@ -1,7 +1,190 @@
 {
   "name": "Catalogue for Docker",
-  "updated_at": "2024-05-23T15:58:09.879Z",
+  "updated_at": "2024-05-24T15:59:02.075Z",
   "modules": [
+    {
+      "id": "node-red-contrib-mgrs",
+      "version": "1.1.0",
+      "description": "A Node-RED node to convert co-ordinates to and from mgrs",
+      "updated_at": "2024-05-24T12:04:57.652Z",
+      "types": [
+        "mgrs"
+      ],
+      "keywords": [
+        "node-red",
+        "map",
+        "world",
+        "mgrs"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-mgrs"
+    },
+    {
+      "id": "@jotiotech/node-red-bj-parser",
+      "version": "1.0.9",
+      "description": "- parser form binary to simple json format",
+      "updated_at": "2024-05-24T09:37:21.831Z",
+      "types": [
+        "BJ-parser"
+      ],
+      "keywords": [
+        "node-red",
+        "parsing"
+      ],
+      "url": "https://flows.nodered.org/node/@jotiotech/node-red-bj-parser"
+    },
+    {
+      "id": "node-red-contrib-chi-socketio",
+      "version": "0.4.17",
+      "description": "Node Red client to work with socket.io server",
+      "updated_at": "2024-05-24T09:36:51.508Z",
+      "types": [
+        "socketio-config",
+        "socketio-connector",
+        "socketio-listener",
+        "socketio-emitter"
+      ],
+      "keywords": [
+        "node-red",
+        "socket.io"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-chi-socketio"
+    },
+    {
+      "id": "node-red-contrib-oscar-segmentation-data",
+      "version": "0.1.2",
+      "description": "Segmentation Data Service",
+      "updated_at": "2024-05-24T08:54:42.154Z",
+      "types": [],
+      "keywords": [
+        "node-red",
+        "upv",
+        "grycap",
+        "segmentation data service",
+        "segmentation data service",
+        "oscar"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-oscar-segmentation-data"
+    },
+    {
+      "id": "node-red-contrib-oscar-bird-sound-classifier",
+      "version": "0.1.1",
+      "description": "Bird sound classifier service",
+      "updated_at": "2024-05-24T08:47:10.021Z",
+      "types": [],
+      "keywords": [
+        "node-red",
+        "upv",
+        "oscar",
+        "grycap",
+        "bird sound classifier",
+        "audio-bird-service",
+        "audio-bird",
+        "audio",
+        "bird"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-oscar-bird-sound-classifier"
+    },
+    {
+      "id": "node-red-contrib-oscar-object-detection-classifier",
+      "version": "0.1.0",
+      "description": "Object Detection Classifier Service",
+      "updated_at": "2024-05-24T08:20:42.759Z",
+      "types": [],
+      "keywords": [
+        "node-red",
+        "upv",
+        "grycap",
+        "object detector classifier",
+        "object detector classifier service",
+        "oscar"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-oscar-object-detection-classifier"
+    },
+    {
+      "id": "@platmac/node-red-pdfbuilder",
+      "version": "1.0.0",
+      "description": "a node to create pdf documents from a well defined json",
+      "updated_at": "2024-05-24T07:41:19.107Z",
+      "types": [
+        "pdfbuilder"
+      ],
+      "keywords": [
+        "node-red",
+        "pdf",
+        "svg",
+        "pdfmake",
+        "json"
+      ],
+      "url": "https://flows.nodered.org/node/@platmac/node-red-pdfbuilder"
+    },
+    {
+      "id": "@marcus-j-davies/node-red-semaphore-plus",
+      "version": "3.4.0",
+      "description": "An advanced set of semaphore Nodes for Node RED, with a dynamic fail-safe",
+      "updated_at": "2024-05-24T06:37:32.159Z",
+      "types": [
+        "semaphore-plus-take",
+        "semaphore-plus-release",
+        "semaphore-plus-fs-reset",
+        "semaphore-plus-config"
+      ],
+      "keywords": [
+        "node-red",
+        "semaphore",
+        "control",
+        "single",
+        "lock",
+        "release",
+        "take",
+        "reset",
+        "plus",
+        "advanced",
+        "queue"
+      ],
+      "url": "https://flows.nodered.org/node/@marcus-j-davies/node-red-semaphore-plus"
+    },
+    {
+      "id": "node-red-contrib-ecowitt-gateway",
+      "version": "1.0.8",
+      "description": "Ecowitt Gateway for NodeRED",
+      "updated_at": "2024-05-24T02:07:07.486Z",
+      "types": [
+        "ew-config-node",
+        "livedata-node"
+      ],
+      "keywords": [
+        "node-red",
+        "ecowitt",
+        "GW1000",
+        "GW1100",
+        "GW2000",
+        "weather",
+        "api"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-ecowitt-gateway"
+    },
+    {
+      "id": "@coremarine/sbg-ecom-nodered",
+      "version": "0.0.2",
+      "description": "sbg-ecom",
+      "updated_at": "2024-05-23T16:55:38.995Z",
+      "types": [
+        "cma-sbg-ecom"
+      ],
+      "keywords": [
+        "node-red",
+        "sbg-ecom",
+        "sbg",
+        "gnss",
+        "gps",
+        "mru",
+        "imu",
+        "binary",
+        "protocol",
+        "parser"
+      ],
+      "url": "https://flows.nodered.org/node/@coremarine/sbg-ecom-nodered"
+    },
     {
       "id": "node-red-contrib-thinger",
       "version": "1.7.6",
@@ -33,6 +216,110 @@
         "raspberry"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-thinger"
+    },
+    {
+      "id": "node-red-contrib-snap4city-developer",
+      "version": "0.5.17",
+      "description": "A description of the available nodes can be found [here](https://www.km4city.org/iot-micro-doc/developer.html).",
+      "updated_at": "2024-05-23T13:31:02.122Z",
+      "types": [
+        "service-search",
+        "service-search-near-gps-position",
+        "service-search-near-service",
+        "service-search-within-gps-area",
+        "service-search-within-wkt-area",
+        "service-search-within-stored-wkt-area",
+        "service-search-by-municipality",
+        "service-search-by-queryid",
+        "service-info-dev",
+        "service-info-mapped",
+        "full-text-search-dev",
+        "full-text-search-within-wkt-area",
+        "full-text-search-within-gps-area",
+        "full-text-search-near-gps-position",
+        "full-text-search-exp",
+        "event-search-dev",
+        "event-search-exp",
+        "event-search-within-wkt-area",
+        "event-search-within-gps-area",
+        "event-search-near-gps-position",
+        "address-geometry-search-near-gps-position",
+        "address-search-near-gps-position",
+        "geometry-search-near-gps-position",
+        "address-poi-search-by-text",
+        "address-poi-search-by-text-exp",
+        "address-poi-search-by-text-near-gps-position",
+        "bus-routes-search",
+        "bus-routes-search-near-gps-position",
+        "bus-routes-search-within-gps-area",
+        "bus-routes-search-within-wkt-area",
+        "bus-routes-search-within-stored-wkt-area",
+        "tpl-routes",
+        "tpl-stops",
+        "check-exist-job",
+        "check-exist-trigger",
+        "is-in-standby-mode",
+        "is-shutdown",
+        "is-started",
+        "get-currently-executing-jobs",
+        "get-job-detail",
+        "get-triggers-of-job",
+        "get-job-group-names",
+        "get-trigger-group-names",
+        "get-paused-trigger-groups",
+        "get-job-fire-times",
+        "get-system-status",
+        "group-list-entity",
+        "group-insert-entity",
+        "group-remove-entity",
+        "trigger-job",
+        "pause-all",
+        "pause-job",
+        "pause-jobs",
+        "pause-trigger",
+        "pause-triggers",
+        "resume-all",
+        "resume-job",
+        "resume-jobs",
+        "resume-trigger",
+        "resume-triggers",
+        "notificator-history-events",
+        "datagate insert",
+        "datagate search",
+        "__errors__",
+        "datagate create",
+        "__errors__",
+        "datagate-credentials",
+        "mapping",
+        "set-mapping",
+        "plumber-data-analytic",
+        "python-data-analytic",
+        "snap4city-authentication-dev",
+        "portia-crawler",
+        "iotapp-restart",
+        "iotapp-upgrade",
+        "delete-device",
+        "ownership",
+        "om-get-processes",
+        "om-get-teams",
+        "om-get-components",
+        "om-get-plants",
+        "om-get-status",
+        "om-create-new-process",
+        "om-advance-process",
+        "om-details-process",
+        "om-delete-process",
+        "save-typical-time-trends",
+        "get-typical-time-trends",
+        "get-my-scenarios",
+        "save-a-scenario"
+      ],
+      "keywords": [
+        "node-red",
+        "smartcity",
+        "iot"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-snap4city-developer"
     },
     {
       "id": "node-red-contrib-eskomsepush",
@@ -207,20 +494,6 @@
         "cloud-key"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-unifi-client"
-    },
-    {
-      "id": "@jotiotech/node-red-bj-parser",
-      "version": "1.0.8",
-      "description": "- parser form binary to simple json format",
-      "updated_at": "2024-05-22T07:47:20.139Z",
-      "types": [
-        "BJ-parser"
-      ],
-      "keywords": [
-        "node-red",
-        "parsing"
-      ],
-      "url": "https://flows.nodered.org/node/@jotiotech/node-red-bj-parser"
     },
     {
       "id": "@flowfuse/node-red-dashboard-2-ui-iframe",
@@ -1284,51 +1557,6 @@
       "url": "https://flows.nodered.org/node/@semilimes/node-red-semilimes"
     },
     {
-      "id": "node-red-contrib-oscar-bird-sound-classifier",
-      "version": "0.0.3",
-      "description": "Bird sound classifier service",
-      "updated_at": "2024-05-10T08:39:43.811Z",
-      "types": [],
-      "keywords": [
-        "node-red",
-        "UPV",
-        "OSCAR",
-        "GRyCAP",
-        "Bird sound classifier"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-oscar-bird-sound-classifier"
-    },
-    {
-      "id": "node-red-contrib-oscar-segmentation-data",
-      "version": "0.0.2",
-      "description": "Segmentation Data Service",
-      "updated_at": "2024-05-10T07:29:26.790Z",
-      "types": [],
-      "keywords": [
-        "node-red",
-        "UPV",
-        "OSCAR",
-        "GRyCAP",
-        "Bird sound classifier"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-oscar-segmentation-data"
-    },
-    {
-      "id": "node-red-contrib-oscar-object-detection-classifier",
-      "version": "0.0.2",
-      "description": "Object Detection Classifier Service",
-      "updated_at": "2024-05-10T07:25:23.900Z",
-      "types": [],
-      "keywords": [
-        "node-red",
-        "UPV",
-        "OSCAR",
-        "GRyCAP",
-        "Bird sound classifier"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-oscar-object-detection-classifier"
-    },
-    {
       "id": "node-red-contrib-wazo-platform",
       "version": "1.0.41",
       "description": "Node Red module for the Wazo Platform API",
@@ -2343,26 +2571,6 @@
         "node-red"
       ],
       "url": "https://flows.nodered.org/node/@technithusiast/node-red-contrib-ai-intent"
-    },
-    {
-      "id": "node-red-contrib-ecowitt-gateway",
-      "version": "1.0.7",
-      "description": "Ecowitt Gateway for NodeRED",
-      "updated_at": "2024-04-25T21:58:38.507Z",
-      "types": [
-        "ew-config-node",
-        "livedata-node"
-      ],
-      "keywords": [
-        "node-red",
-        "ecowitt",
-        "GW1000",
-        "GW1100",
-        "GW2000",
-        "weather",
-        "api"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-ecowitt-gateway"
     },
     {
       "id": "node-red-contrib-mqtt-auto",
@@ -6131,22 +6339,6 @@
         "weekdays"
       ],
       "url": "https://flows.nodered.org/node/@tataille/node-red-french-holidays"
-    },
-    {
-      "id": "node-red-contrib-mgrs",
-      "version": "1.0.0",
-      "description": "A Node-RED node to convert co-ordinates to and from mgrs",
-      "updated_at": "2024-02-29T19:58:23.671Z",
-      "types": [
-        "mgrs"
-      ],
-      "keywords": [
-        "node-red",
-        "map",
-        "world",
-        "mgrs"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-mgrs"
     },
     {
       "id": "node-red-contrib-openai-ubos",
@@ -11325,32 +11517,6 @@
       "url": "https://flows.nodered.org/node/@diidum/node-red-contrib-husqvarna-automower-connect"
     },
     {
-      "id": "@marcus-j-davies/node-red-semaphore-plus",
-      "version": "3.3.1",
-      "description": "An advanced set of semaphore Nodes for Node RED, with a dynamic fail-safe",
-      "updated_at": "2023-11-07T20:35:51.509Z",
-      "types": [
-        "semaphore-plus-take",
-        "semaphore-plus-release",
-        "semaphore-plus-fs-reset",
-        "semaphore-plus-config"
-      ],
-      "keywords": [
-        "node-red",
-        "semaphore",
-        "control",
-        "single",
-        "lock",
-        "release",
-        "take",
-        "reset",
-        "plus",
-        "advanced",
-        "queue"
-      ],
-      "url": "https://flows.nodered.org/node/@marcus-j-davies/node-red-semaphore-plus"
-    },
-    {
       "id": "node-red-contrib-pid",
       "version": "2.0.0",
       "description": "PID loop controller for Node-RED",
@@ -12397,107 +12563,6 @@
         "node-red"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-mock-cli"
-    },
-    {
-      "id": "node-red-contrib-snap4city-developer",
-      "version": "0.5.16",
-      "description": "A description of the available nodes can be found [here](https://www.km4city.org/iot-micro-doc/developer.html).",
-      "updated_at": "2023-10-13T10:04:57.874Z",
-      "types": [
-        "service-search",
-        "service-search-near-gps-position",
-        "service-search-near-service",
-        "service-search-within-gps-area",
-        "service-search-within-wkt-area",
-        "service-search-within-stored-wkt-area",
-        "service-search-by-municipality",
-        "service-search-by-queryid",
-        "service-info-dev",
-        "service-info-mapped",
-        "full-text-search-dev",
-        "full-text-search-within-wkt-area",
-        "full-text-search-within-gps-area",
-        "full-text-search-near-gps-position",
-        "full-text-search-exp",
-        "event-search-dev",
-        "event-search-exp",
-        "event-search-within-wkt-area",
-        "event-search-within-gps-area",
-        "event-search-near-gps-position",
-        "address-geometry-search-near-gps-position",
-        "address-search-near-gps-position",
-        "geometry-search-near-gps-position",
-        "address-poi-search-by-text",
-        "address-poi-search-by-text-exp",
-        "address-poi-search-by-text-near-gps-position",
-        "bus-routes-search",
-        "bus-routes-search-near-gps-position",
-        "bus-routes-search-within-gps-area",
-        "bus-routes-search-within-wkt-area",
-        "bus-routes-search-within-stored-wkt-area",
-        "tpl-routes",
-        "tpl-stops",
-        "check-exist-job",
-        "check-exist-trigger",
-        "is-in-standby-mode",
-        "is-shutdown",
-        "is-started",
-        "get-currently-executing-jobs",
-        "get-job-detail",
-        "get-triggers-of-job",
-        "get-job-group-names",
-        "get-trigger-group-names",
-        "get-paused-trigger-groups",
-        "get-job-fire-times",
-        "get-system-status",
-        "trigger-job",
-        "pause-all",
-        "pause-job",
-        "pause-jobs",
-        "pause-trigger",
-        "pause-triggers",
-        "resume-all",
-        "resume-job",
-        "resume-jobs",
-        "resume-trigger",
-        "resume-triggers",
-        "notificator-history-events",
-        "datagate insert",
-        "datagate search",
-        "__errors__",
-        "datagate create",
-        "__errors__",
-        "datagate-credentials",
-        "mapping",
-        "set-mapping",
-        "plumber-data-analytic",
-        "python-data-analytic",
-        "snap4city-authentication-dev",
-        "portia-crawler",
-        "iotapp-restart",
-        "iotapp-upgrade",
-        "delete-device",
-        "ownership",
-        "om-get-processes",
-        "om-get-teams",
-        "om-get-components",
-        "om-get-plants",
-        "om-get-status",
-        "om-create-new-process",
-        "om-advance-process",
-        "om-details-process",
-        "om-delete-process",
-        "save-typical-time-trends",
-        "get-typical-time-trends",
-        "get-my-scenarios",
-        "save-a-scenario"
-      ],
-      "keywords": [
-        "node-red",
-        "smartcity",
-        "iot"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-snap4city-developer"
     },
     {
       "id": "node-red-contrib-snap4city-user",
@@ -52333,40 +52398,6 @@
         "NCU"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-scp"
-    },
-    {
-      "id": "node-red-contrib-chi-socketio",
-      "version": "0.0.2",
-      "description": "Node Red client to work with socket.io server",
-      "updated_at": "2020-09-02T08:42:12.164Z",
-      "types": [
-        "socketio-config",
-        "socketio-connector",
-        "socketio-listener",
-        "socketio-emitter"
-      ],
-      "keywords": [
-        "node-red",
-        "socket.io"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-chi-socketio"
-    },
-    {
-      "id": "node-red-contrib-socketio-client-chi",
-      "version": "0.4.0",
-      "description": "Node Red client to work with socket.io server",
-      "updated_at": "2020-09-02T08:32:18.388Z",
-      "types": [
-        "socketio-config",
-        "socketio-connector",
-        "socketio-listener",
-        "socketio-emitter"
-      ],
-      "keywords": [
-        "node-red",
-        "socket.io"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-socketio-client-chi"
     },
     {
       "id": "node-red-contrib-orion",
