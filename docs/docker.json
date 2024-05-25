@@ -1,7 +1,86 @@
 {
   "name": "Catalogue for Docker",
-  "updated_at": "2024-05-24T15:59:02.075Z",
+  "updated_at": "2024-05-25T15:56:31.978Z",
   "modules": [
+    {
+      "id": "@bypb/node-red-siman",
+      "version": "0.0.5",
+      "description": "Node collection for Node-RED to connect with Siman server",
+      "updated_at": "2024-05-25T12:57:39.816Z",
+      "types": [
+        "BYPB Siman",
+        "BYPB Siman-Input"
+      ],
+      "keywords": [
+        "node-red",
+        "Siman"
+      ],
+      "url": "https://flows.nodered.org/node/@bypb/node-red-siman"
+    },
+    {
+      "id": "@background404/node-red-contrib-whisper",
+      "version": "0.0.2",
+      "description": "Node for Whisper",
+      "updated_at": "2024-05-25T08:40:18.914Z",
+      "types": [
+        "whisper"
+      ],
+      "keywords": [
+        "node-red",
+        "whisper",
+        "OpenAI",
+        "Python"
+      ],
+      "url": "https://flows.nodered.org/node/@background404/node-red-contrib-whisper"
+    },
+    {
+      "id": "node-red-contrib-gatewayex",
+      "version": "0.0.10",
+      "description": "SharpSCADA GatewayEx",
+      "updated_at": "2024-05-25T04:13:08.305Z",
+      "types": [
+        "gateway-broker",
+        "tag value changed",
+        "read tag value",
+        "dynamic tag write",
+        "alarm trigger"
+      ],
+      "keywords": [
+        "node-red",
+        "gatewayex",
+        "sharpscada"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-gatewayex"
+    },
+    {
+      "id": "node-red-contrib-oauth2",
+      "version": "6.1.0",
+      "description": "The node-red-contrib-oauth2 is a Node-RED node that provides an OAuth2 authentication flow. This node uses the OAuth2 protocol to obtain an access token, which can be used to make authenticated API requests.",
+      "updated_at": "2024-05-24T22:23:54.216Z",
+      "types": [
+        "oauth2"
+      ],
+      "keywords": [
+        "node-red",
+        "oauth2",
+        "security"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-oauth2"
+    },
+    {
+      "id": "@jotiotech/node-red-bj-parser",
+      "version": "1.1.0",
+      "description": "- parser form binary to simple json format",
+      "updated_at": "2024-05-24T19:15:27.350Z",
+      "types": [
+        "BJ-parser"
+      ],
+      "keywords": [
+        "node-red",
+        "parsing"
+      ],
+      "url": "https://flows.nodered.org/node/@jotiotech/node-red-bj-parser"
+    },
     {
       "id": "node-red-contrib-mgrs",
       "version": "1.1.0",
@@ -17,20 +96,6 @@
         "mgrs"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-mgrs"
-    },
-    {
-      "id": "@jotiotech/node-red-bj-parser",
-      "version": "1.0.9",
-      "description": "- parser form binary to simple json format",
-      "updated_at": "2024-05-24T09:37:21.831Z",
-      "types": [
-        "BJ-parser"
-      ],
-      "keywords": [
-        "node-red",
-        "parsing"
-      ],
-      "url": "https://flows.nodered.org/node/@jotiotech/node-red-bj-parser"
     },
     {
       "id": "node-red-contrib-chi-socketio",
@@ -511,21 +576,6 @@
       "url": "https://flows.nodered.org/node/@flowfuse/node-red-dashboard-2-ui-iframe"
     },
     {
-      "id": "node-red-contrib-oauth2",
-      "version": "6.0.0",
-      "description": "The node-red-contrib-oauth2 is a Node-RED node that provides an OAuth2 authentication flow. This node uses the OAuth2 protocol to obtain an access token, which can be used to make authenticated API requests.",
-      "updated_at": "2024-05-21T10:41:02.782Z",
-      "types": [
-        "oauth2"
-      ],
-      "keywords": [
-        "node-red",
-        "oauth2",
-        "security"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-oauth2"
-    },
-    {
       "id": "@coremarine/nmea-parser-nodered",
       "version": "1.0.1",
       "description": "Node-Red component to read NMEA 0183 sentences",
@@ -759,25 +809,6 @@
         "time"
       ],
       "url": "https://flows.nodered.org/node/@hj91/node-red-contrib-stop-watch"
-    },
-    {
-      "id": "node-red-contrib-gatewayex",
-      "version": "0.0.9",
-      "description": "SharpSCADA GatewayEx",
-      "updated_at": "2024-05-17T08:40:57.447Z",
-      "types": [
-        "gateway-broker",
-        "tag value changed",
-        "read tag value",
-        "dynamic tag write",
-        "alarm trigger"
-      ],
-      "keywords": [
-        "node-red",
-        "gatewayex",
-        "sharpscada"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-gatewayex"
     },
     {
       "id": "node-red-contrib-opcua",
