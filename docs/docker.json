@@ -1,7 +1,70 @@
 {
   "name": "Catalogue for Docker",
-  "updated_at": "2024-05-25T15:56:31.978Z",
+  "updated_at": "2024-05-26T15:56:52.926Z",
   "modules": [
+    {
+      "id": "@thingweb/node-red-node-wot",
+      "version": "1.2.1",
+      "description": "Web of Things nodes for Node-RED using node-wot",
+      "updated_at": "2024-05-26T08:57:32.846Z",
+      "types": [
+        "consumed-thing",
+        "read-property",
+        "write-property",
+        "invoke-action",
+        "subscribe-event",
+        "update-td",
+        "wot-server-config",
+        "wot-thing-config",
+        "wot-server-end",
+        "wot-server-property",
+        "wot-server-action",
+        "wot-server-event",
+        "wot-server-td"
+      ],
+      "keywords": [
+        "internet-of-things",
+        "iot",
+        "web-of-things",
+        "wot",
+        "node-red"
+      ],
+      "url": "https://flows.nodered.org/node/@thingweb/node-red-node-wot"
+    },
+    {
+      "id": "node-red-contrib-gatewayex",
+      "version": "0.0.11",
+      "description": "SharpSCADA GatewayEx",
+      "updated_at": "2024-05-26T04:09:17.800Z",
+      "types": [
+        "gateway-broker",
+        "tag value changed",
+        "read tag value",
+        "dynamic tag write",
+        "alarm trigger"
+      ],
+      "keywords": [
+        "node-red",
+        "gatewayex",
+        "sharpscada"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-gatewayex"
+    },
+    {
+      "id": "node-red-contrib-oauth2",
+      "version": "6.2.1",
+      "description": "The node-red-contrib-oauth2 is a Node-RED node that provides an OAuth2 authentication flow. This node uses the OAuth2 protocol to obtain an access token, which can be used to make authenticated API requests.",
+      "updated_at": "2024-05-25T16:49:11.710Z",
+      "types": [
+        "oauth2"
+      ],
+      "keywords": [
+        "node-red",
+        "oauth2",
+        "security"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-oauth2"
+    },
     {
       "id": "@bypb/node-red-siman",
       "version": "0.0.5",
@@ -32,40 +95,6 @@
         "Python"
       ],
       "url": "https://flows.nodered.org/node/@background404/node-red-contrib-whisper"
-    },
-    {
-      "id": "node-red-contrib-gatewayex",
-      "version": "0.0.10",
-      "description": "SharpSCADA GatewayEx",
-      "updated_at": "2024-05-25T04:13:08.305Z",
-      "types": [
-        "gateway-broker",
-        "tag value changed",
-        "read tag value",
-        "dynamic tag write",
-        "alarm trigger"
-      ],
-      "keywords": [
-        "node-red",
-        "gatewayex",
-        "sharpscada"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-gatewayex"
-    },
-    {
-      "id": "node-red-contrib-oauth2",
-      "version": "6.1.0",
-      "description": "The node-red-contrib-oauth2 is a Node-RED node that provides an OAuth2 authentication flow. This node uses the OAuth2 protocol to obtain an access token, which can be used to make authenticated API requests.",
-      "updated_at": "2024-05-24T22:23:54.216Z",
-      "types": [
-        "oauth2"
-      ],
-      "keywords": [
-        "node-red",
-        "oauth2",
-        "security"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-oauth2"
     },
     {
       "id": "@jotiotech/node-red-bj-parser",
@@ -4744,35 +4773,6 @@
         "philips hue"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-knx-ultimate-plus-hue-contact-sensor"
-    },
-    {
-      "id": "@thingweb/node-red-node-wot",
-      "version": "1.1.0",
-      "description": "Web of Things nodes for Node-RED using node-wot",
-      "updated_at": "2024-03-24T20:36:41.372Z",
-      "types": [
-        "consumed-thing",
-        "read-property",
-        "write-property",
-        "invoke-action",
-        "subscribe-event",
-        "update-td",
-        "wot-server-config",
-        "wot-thing-config",
-        "wot-server-end",
-        "wot-server-property",
-        "wot-server-action",
-        "wot-server-event",
-        "wot-server-td"
-      ],
-      "keywords": [
-        "internet-of-things",
-        "iot",
-        "web-of-things",
-        "wot",
-        "node-red"
-      ],
-      "url": "https://flows.nodered.org/node/@thingweb/node-red-node-wot"
     },
     {
       "id": "node-red-contrib-stepper",
