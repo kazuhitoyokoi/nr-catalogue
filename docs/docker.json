@@ -1,7 +1,70 @@
 {
   "name": "Catalogue for Docker",
-  "updated_at": "2024-05-26T15:56:52.926Z",
+  "updated_at": "2024-05-27T16:03:22.203Z",
   "modules": [
+    {
+      "id": "node-red-contrib-zenitel-wamp-auth",
+      "version": "1.0.1",
+      "description": "Nodes for accessing Zenitel Connect Pro using token",
+      "updated_at": "2024-05-27T13:44:18.319Z",
+      "types": [
+        "wamp in",
+        "wamp out",
+        "wamp call",
+        "wamp-client"
+      ],
+      "keywords": [
+        "node-red",
+        "wamp",
+        "token"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-zenitel-wamp-auth"
+    },
+    {
+      "id": "@starke-dms/node-red",
+      "version": "0.0.13",
+      "description": "node-red for starke-dms rest-api",
+      "updated_at": "2024-05-27T05:42:30.438Z",
+      "types": [
+        "starke-dms-login",
+        "starke-dms-logout",
+        "starke-dms-write-log",
+        "starke-dms-get-metadata",
+        "starke-dms-set-metadata",
+        "starke-dms-set-client",
+        "starke-dms-set-doctype",
+        "starke-dms-set-indexes",
+        "starke-dms-set-protection",
+        "starke-dms-set-year",
+        "starke-dms-search",
+        "starke-dms-download-document",
+        "starke-dms-archive-document",
+        "starke-dms-versionize-document",
+        "starke-dms-generic"
+      ],
+      "keywords": [
+        "starke-dms",
+        "node-red"
+      ],
+      "url": "https://flows.nodered.org/node/@starke-dms/node-red"
+    },
+    {
+      "id": "node-red-contrib-chi-socketio",
+      "version": "0.4.22",
+      "description": "Node Red client to work with socket.io server",
+      "updated_at": "2024-05-27T03:30:32.256Z",
+      "types": [
+        "socketio-config",
+        "socketio-connector",
+        "socketio-listener",
+        "socketio-emitter"
+      ],
+      "keywords": [
+        "node-red",
+        "socket.io"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-chi-socketio"
+    },
     {
       "id": "@thingweb/node-red-node-wot",
       "version": "1.2.1",
@@ -125,23 +188,6 @@
         "mgrs"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-mgrs"
-    },
-    {
-      "id": "node-red-contrib-chi-socketio",
-      "version": "0.4.17",
-      "description": "Node Red client to work with socket.io server",
-      "updated_at": "2024-05-24T09:36:51.508Z",
-      "types": [
-        "socketio-config",
-        "socketio-connector",
-        "socketio-listener",
-        "socketio-emitter"
-      ],
-      "keywords": [
-        "node-red",
-        "socket.io"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-chi-socketio"
     },
     {
       "id": "node-red-contrib-oscar-segmentation-data",
@@ -2567,34 +2613,6 @@
         "database"
       ],
       "url": "https://flows.nodered.org/node/@digitalsystemsrl/node-red-contrib-mssql-pool"
-    },
-    {
-      "id": "@starke-dms/node-red",
-      "version": "0.0.12",
-      "description": "node-red for starke-dms rest-api",
-      "updated_at": "2024-04-26T07:17:47.663Z",
-      "types": [
-        "starke-dms-login",
-        "starke-dms-logout",
-        "starke-dms-write-log",
-        "starke-dms-get-metadata",
-        "starke-dms-set-metadata",
-        "starke-dms-set-client",
-        "starke-dms-set-doctype",
-        "starke-dms-set-indexes",
-        "starke-dms-set-protection",
-        "starke-dms-set-year",
-        "starke-dms-search",
-        "starke-dms-download-document",
-        "starke-dms-archive-document",
-        "starke-dms-versionize-document",
-        "starke-dms-generic"
-      ],
-      "keywords": [
-        "starke-dms",
-        "node-red"
-      ],
-      "url": "https://flows.nodered.org/node/@starke-dms/node-red"
     },
     {
       "id": "node-red-contrib-operatelogic",
