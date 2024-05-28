@@ -1,12 +1,211 @@
 {
   "name": "Catalogue for Docker",
-  "updated_at": "2024-05-27T16:03:22.203Z",
+  "updated_at": "2024-05-28T15:56:50.989Z",
   "modules": [
     {
+      "id": "node-red-contrib-cx-tag-emitter",
+      "version": "2.4.15",
+      "description": "Emits tag values on change",
+      "updated_at": "2024-05-28T13:03:49.103Z",
+      "types": [
+        "tag-storage",
+        "tags_in",
+        "value_emitter"
+      ],
+      "keywords": [
+        "node-red",
+        "tag",
+        "emitter",
+        "cx_tag_emitter",
+        "cx",
+        "controlx",
+        "controlx.io"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-cx-tag-emitter"
+    },
+    {
+      "id": "@platmac/node-red-pdfbuilder",
+      "version": "1.0.2",
+      "description": "a node to create pdf documents from a well defined json",
+      "updated_at": "2024-05-28T12:38:20.148Z",
+      "types": [
+        "pdfbuilder"
+      ],
+      "keywords": [
+        "node-red",
+        "pdf",
+        "svg",
+        "pdfmake",
+        "json"
+      ],
+      "url": "https://flows.nodered.org/node/@platmac/node-red-pdfbuilder"
+    },
+    {
+      "id": "grunig-nodes",
+      "version": "1.1.26",
+      "description": "Grünig Nodes Library",
+      "updated_at": "2024-05-28T11:43:25.478Z",
+      "types": [
+        "OpcUa-Read",
+        "MQTT-InfluxDB-Write",
+        "Modbus-Read",
+        "AlarmOutput",
+        "Visualization",
+        "Magazine-Position",
+        "Move-Beam",
+        "MQTT-InfluxDB-Alarm",
+        "G-Remote",
+        "G-FrameManager",
+        "G-StorageManager",
+        "ProcessControl",
+        "remote-database"
+      ],
+      "keywords": [
+        "grünig",
+        "grunig",
+        "node-red",
+        "OpcUa",
+        "MQTT",
+        "InfluxDB",
+        "Modbus",
+        "Read",
+        "Write"
+      ],
+      "url": "https://flows.nodered.org/node/grunig-nodes"
+    },
+    {
+      "id": "node-red-contrib-signal-cmb",
+      "version": "1.0.4",
+      "description": "Node-RED node to send Signal Messages with Signal CallmeBot",
+      "updated_at": "2024-05-28T11:02:51.921Z",
+      "types": [
+        "node-red-contrib-signal-cmb-account",
+        "node-red-contrib-signal-cmb-send-message"
+      ],
+      "keywords": [
+        "signal",
+        "node-red",
+        "node",
+        "messages"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-signal-cmb"
+    },
+    {
+      "id": "@renyoo/node-red-dfrobot_noderedcomputer",
+      "version": "1.1.2",
+      "description": "node red nodes for NodeREDComputer",
+      "updated_at": "2024-05-28T07:09:01.335Z",
+      "types": [
+        "GPIO输出",
+        "GPIO输入",
+        "IO中断",
+        "ADC",
+        "DAC",
+        "串口通信",
+        "IIC通信",
+        "设备监听",
+        "流计数",
+        "流开关",
+        "Device Shell",
+        "Rockchip烧录",
+        "CH58x烧录",
+        "ESP32烧录",
+        "特殊烧录事件",
+        "背景颜色",
+        "绘制直线",
+        "绘制矩形",
+        "绘制圆形",
+        "绘制文本",
+        "更改属性"
+      ],
+      "keywords": [
+        "node-red",
+        "dfrobot",
+        "NodeREDComputer"
+      ],
+      "url": "https://flows.nodered.org/node/@renyoo/node-red-dfrobot_noderedcomputer"
+    },
+    {
+      "id": "node-red-contrib-mgrs",
+      "version": "1.1.1",
+      "description": "A Node-RED node to convert co-ordinates to and from mgrs",
+      "updated_at": "2024-05-27T17:48:59.999Z",
+      "types": [
+        "mgrs"
+      ],
+      "keywords": [
+        "node-red",
+        "map",
+        "world",
+        "mgrs"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-mgrs"
+    },
+    {
+      "id": "@marcel-domke/node-red-contrib-toolkit",
+      "version": "1.0.0",
+      "description": "A collection of useful Node-Red nodes.",
+      "updated_at": "2024-05-27T16:02:36.869Z",
+      "types": [
+        "lower case",
+        "upper case",
+        "replace umlauts",
+        "restore umlauts",
+        "ping",
+        "watchdog",
+        "blacklist",
+        "whitelist"
+      ],
+      "keywords": [
+        "node-red",
+        "node",
+        "red",
+        "toolkit",
+        "tools",
+        "whitelist",
+        "blacklist",
+        "watchdog",
+        "ping",
+        "case",
+        "upper",
+        "lower",
+        "umlauts",
+        "umlaute"
+      ],
+      "url": "https://flows.nodered.org/node/@marcel-domke/node-red-contrib-toolkit"
+    },
+    {
+      "id": "node-red-contrib-alice-self-hosting",
+      "version": "0.2.0",
+      "description": "Node-RED nodes to Yandex Alice devices in Self-Hosting",
+      "updated_at": "2024-05-27T15:28:31.854Z",
+      "types": [
+        "alice-sh-service",
+        "alice-sh-device",
+        "alice-sh-onoff",
+        "alice-sh-toggle",
+        "alice-sh-range",
+        "alice-sh-color",
+        "alice-sh-mode",
+        "alice-sh-sensor",
+        "alice-sh-event",
+        "alice-sh-video"
+      ],
+      "keywords": [
+        "node-red",
+        "yandex",
+        "alice",
+        "iot",
+        "self",
+        "hosting"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-alice-self-hosting"
+    },
+    {
       "id": "node-red-contrib-zenitel-wamp-auth",
-      "version": "1.0.1",
+      "version": "1.0.2",
       "description": "Nodes for accessing Zenitel Connect Pro using token",
-      "updated_at": "2024-05-27T13:44:18.319Z",
+      "updated_at": "2024-05-27T14:37:35.284Z",
       "types": [
         "wamp in",
         "wamp out",
@@ -15,8 +214,7 @@
       ],
       "keywords": [
         "node-red",
-        "wamp",
-        "token"
+        "wamp"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-zenitel-wamp-auth"
     },
@@ -174,22 +372,6 @@
       "url": "https://flows.nodered.org/node/@jotiotech/node-red-bj-parser"
     },
     {
-      "id": "node-red-contrib-mgrs",
-      "version": "1.1.0",
-      "description": "A Node-RED node to convert co-ordinates to and from mgrs",
-      "updated_at": "2024-05-24T12:04:57.652Z",
-      "types": [
-        "mgrs"
-      ],
-      "keywords": [
-        "node-red",
-        "map",
-        "world",
-        "mgrs"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-mgrs"
-    },
-    {
       "id": "node-red-contrib-oscar-segmentation-data",
       "version": "0.1.2",
       "description": "Segmentation Data Service",
@@ -239,23 +421,6 @@
         "oscar"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-oscar-object-detection-classifier"
-    },
-    {
-      "id": "@platmac/node-red-pdfbuilder",
-      "version": "1.0.0",
-      "description": "a node to create pdf documents from a well defined json",
-      "updated_at": "2024-05-24T07:41:19.107Z",
-      "types": [
-        "pdfbuilder"
-      ],
-      "keywords": [
-        "node-red",
-        "pdf",
-        "svg",
-        "pdfmake",
-        "json"
-      ],
-      "url": "https://flows.nodered.org/node/@platmac/node-red-pdfbuilder"
     },
     {
       "id": "@marcus-j-davies/node-red-semaphore-plus",
@@ -1861,39 +2026,6 @@
       "url": "https://flows.nodered.org/node/@yousolution/node-red-contrib-you-nth-layerone"
     },
     {
-      "id": "grunig-nodes",
-      "version": "1.1.25",
-      "description": "Grünig Nodes Library",
-      "updated_at": "2024-05-08T12:50:52.491Z",
-      "types": [
-        "OpcUa-Read",
-        "MQTT-InfluxDB-Write",
-        "Modbus-Read",
-        "AlarmOutput",
-        "Visualization",
-        "Magazine-Position",
-        "Move-Beam",
-        "MQTT-InfluxDB-Alarm",
-        "G-Remote",
-        "G-FrameManager",
-        "G-StorageManager",
-        "ProcessControl",
-        "remote-database"
-      ],
-      "keywords": [
-        "grünig",
-        "grunig",
-        "node-red",
-        "OpcUa",
-        "MQTT",
-        "InfluxDB",
-        "Modbus",
-        "Read",
-        "Write"
-      ],
-      "url": "https://flows.nodered.org/node/grunig-nodes"
-    },
-    {
       "id": "@kaaiot/node-red-contrib-kaa",
       "version": "1.0.1",
       "description": "Kaa Node RED Integration",
@@ -3332,41 +3464,6 @@
       "url": "https://flows.nodered.org/node/node-red-contrib-incident-handler"
     },
     {
-      "id": "@renyoo/node-red-dfrobot_noderedcomputer",
-      "version": "1.1.1",
-      "description": "node red nodes for NodeREDComputer",
-      "updated_at": "2024-04-18T01:12:27.864Z",
-      "types": [
-        "GPIO输出",
-        "GPIO输入",
-        "IO中断",
-        "ADC",
-        "DAC",
-        "串口通信",
-        "IIC通信",
-        "设备监听",
-        "流计数",
-        "流开关",
-        "Device Shell",
-        "Rockchip烧录",
-        "CH58x烧录",
-        "ESP32烧录",
-        "特殊烧录事件",
-        "背景颜色",
-        "绘制直线",
-        "绘制矩形",
-        "绘制圆形",
-        "绘制文本",
-        "更改属性"
-      ],
-      "keywords": [
-        "node-red",
-        "dfrobot",
-        "NodeREDComputer"
-      ],
-      "url": "https://flows.nodered.org/node/@renyoo/node-red-dfrobot_noderedcomputer"
-    },
-    {
       "id": "node-red-contrib-axis-com",
       "version": "1.8.3",
       "description": "Simplified integration with Axis devices",
@@ -3973,33 +4070,6 @@
         "euskadi"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-holiday-euskadi"
-    },
-    {
-      "id": "node-red-contrib-alice-self-hosting",
-      "version": "0.1.9",
-      "description": "Node-RED nodes to Yandex Alice devices in Self-Hosting",
-      "updated_at": "2024-04-07T18:13:15.214Z",
-      "types": [
-        "alice-sh-service",
-        "alice-sh-device",
-        "alice-sh-onoff",
-        "alice-sh-toggle",
-        "alice-sh-range",
-        "alice-sh-color",
-        "alice-sh-mode",
-        "alice-sh-sensor",
-        "alice-sh-event",
-        "alice-sh-video"
-      ],
-      "keywords": [
-        "node-red",
-        "yandex",
-        "alice",
-        "iot",
-        "self",
-        "hosting"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-alice-self-hosting"
     },
     {
       "id": "node-red-contrib-simple-webdriver",
@@ -12562,27 +12632,6 @@
         "daylight simulator"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-hue-tunable-white"
-    },
-    {
-      "id": "node-red-contrib-cx-tag-emitter",
-      "version": "2.4.14",
-      "description": "Emits tag values on change",
-      "updated_at": "2023-10-15T10:34:03.944Z",
-      "types": [
-        "tag-storage",
-        "tags_in",
-        "value_emitter"
-      ],
-      "keywords": [
-        "node-red",
-        "tag",
-        "emitter",
-        "cx_tag_emitter",
-        "cx",
-        "controlx",
-        "controlx.io"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-cx-tag-emitter"
     },
     {
       "id": "node-red-contrib-payload-cron",
@@ -32447,6 +32496,24 @@
         "calendar"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-google-oauth-calendar"
+    },
+    {
+      "id": "node-red-contrib-google-docs",
+      "version": "0.0.4",
+      "description": "Let you access the Google Docs API from NodeRED",
+      "updated_at": "2022-05-11T03:17:20.759Z",
+      "types": [
+        "google auth",
+        "google-drive",
+        "google-slides"
+      ],
+      "keywords": [
+        "node-red",
+        "google",
+        "drive",
+        "google docs"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-google-docs"
     },
     {
       "id": "node-red-contrib-dynamic-dimmer",
@@ -55400,24 +55467,6 @@
         "multiple"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-multifeed-parser"
-    },
-    {
-      "id": "node-red-contrib-google-docs",
-      "version": "0.0.2",
-      "description": "Let you access the Google Docs API from NodeRED",
-      "updated_at": "2020-05-06T13:09:50.978Z",
-      "types": [
-        "google auth",
-        "google-drive",
-        "google-slides"
-      ],
-      "keywords": [
-        "node-red",
-        "google",
-        "drive",
-        "google docs"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-google-docs"
     },
     {
       "id": "node-red-contrib-otpauth",
