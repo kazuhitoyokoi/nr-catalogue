@@ -1,0 +1,44 @@
+#0 building with "default" instance using docker driver
+
+#1 [internal] load .dockerignore
+#1 transferring context: 2B done
+#1 DONE 0.0s
+
+#2 [internal] load build definition from Dockerfile
+#2 transferring dockerfile: 139B done
+#2 DONE 0.0s
+
+#3 [internal] load metadata for docker.io/nodered/node-red:latest
+#3 DONE 0.1s
+
+#4 [1/2] FROM docker.io/nodered/node-red@sha256:4872f67418a36ac2adf9f2793cfab1e3130796dd0c874acce7eddaca2e2e96e6
+#4 CACHED
+
+#5 [2/2] RUN npm install npm install @colinl/node-red-dashboard-2-ui-gauge-classic@0.0.10
+#5 2.996 npm WARN EBADENGINE Unsupported engine {
+#5 2.996 npm WARN EBADENGINE   package: 'npm@10.8.1',
+#5 2.996 npm WARN EBADENGINE   required: { node: '^18.17.0 || >=20.5.0' },
+#5 2.996 npm WARN EBADENGINE   current: { node: 'v16.20.2', npm: '8.19.4' }
+#5 2.996 npm WARN EBADENGINE }
+#5 4.663 
+#5 4.663 added 25 packages, and audited 534 packages in 4s
+#5 4.664 
+#5 4.664 72 packages are looking for funding
+#5 4.664   run `npm fund` for details
+#5 4.665 
+#5 4.665 found 0 vulnerabilities
+#5 4.665 npm notice 
+#5 4.665 npm notice New major version of npm available! 8.19.4 -> 10.8.1
+#5 4.665 npm notice Changelog: <https://github.com/npm/cli/releases/tag/v10.8.1>
+#5 4.665 npm notice Run `npm install -g npm@10.8.1` to update!
+#5 4.665 npm notice 
+#5 DONE 4.7s
+
+#6 exporting to image
+#6 exporting layers
+#6 exporting layers 1.2s done
+#6 writing image sha256:a140b6be73a48d1bf0da9d86e38fa9767a73e8c0f0800f22a38ae7e23c26557e done
+#6 naming to docker.io/library/tmp done
+#6 DONE 1.3s
+
+----
