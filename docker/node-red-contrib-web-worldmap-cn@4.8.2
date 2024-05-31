@@ -1,0 +1,44 @@
+#0 building with "default" instance using docker driver
+
+#1 [internal] load .dockerignore
+#1 transferring context: 2B done
+#1 DONE 0.0s
+
+#2 [internal] load build definition from Dockerfile
+#2 transferring dockerfile: 125B done
+#2 DONE 0.0s
+
+#3 [internal] load metadata for docker.io/nodered/node-red:latest
+#3 DONE 0.1s
+
+#4 [1/2] FROM docker.io/nodered/node-red@sha256:4872f67418a36ac2adf9f2793cfab1e3130796dd0c874acce7eddaca2e2e96e6
+#4 CACHED
+
+#5 [2/2] RUN npm install npm install node-red-contrib-web-worldmap-cn@4.8.2
+#5 1.387 npm WARN EBADENGINE Unsupported engine {
+#5 1.387 npm WARN EBADENGINE   package: 'npm@10.8.1',
+#5 1.387 npm WARN EBADENGINE   required: { node: '^18.17.0 || >=20.5.0' },
+#5 1.388 npm WARN EBADENGINE   current: { node: 'v16.20.2', npm: '8.19.4' }
+#5 1.388 npm WARN EBADENGINE }
+#5 2.956 
+#5 2.956 added 3 packages, and audited 598 packages in 3s
+#5 2.956 
+#5 2.956 72 packages are looking for funding
+#5 2.956   run `npm fund` for details
+#5 2.957 
+#5 2.957 found 0 vulnerabilities
+#5 2.957 npm notice 
+#5 2.958 npm notice New major version of npm available! 8.19.4 -> 10.8.1
+#5 2.958 npm notice Changelog: <https://github.com/npm/cli/releases/tag/v10.8.1>
+#5 2.958 npm notice Run `npm install -g npm@10.8.1` to update!
+#5 2.958 npm notice 
+#5 DONE 3.1s
+
+#6 exporting to image
+#6 exporting layers
+#6 exporting layers 1.1s done
+#6 writing image sha256:8bbb31932133eb5567c01c5b2eef63905abeac59ab6e7acf6404a7b646269c0b done
+#6 naming to docker.io/library/tmp done
+#6 DONE 1.1s
+
+----
