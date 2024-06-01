@@ -1,12 +1,230 @@
 {
   "name": "Catalogue for Docker",
-  "updated_at": "2024-05-31T15:55:23.606Z",
+  "updated_at": "2024-06-01T15:54:34.593Z",
   "modules": [
     {
+      "id": "smart-nodes",
+      "version": "0.3.36",
+      "description": "Smart Nodes",
+      "updated_at": "2024-06-01T13:34:56.648Z",
+      "types": [
+        "smart_light-control",
+        "smart_scene-control",
+        "smart_shutter-control",
+        "smart_shutter-complex-control",
+        "smart_long-press-control",
+        "smart_multi-press-control",
+        "smart_logic",
+        "smart_forwarder",
+        "smart_compare",
+        "smart_hysteresis",
+        "smart_statistic",
+        "smart_counter",
+        "smart_scheduler",
+        "smart_delay",
+        "smart_central-control",
+        "__errors__",
+        "smart_mixing-valve",
+        "smart_heating-curve",
+        "smart_text-exec"
+      ],
+      "keywords": [
+        "node-red",
+        "smart nodes",
+        "light control",
+        "shutter control",
+        "long press",
+        "multi press",
+        "scene",
+        "scenes",
+        "delay",
+        "forwarder",
+        "logic",
+        "hysteresis",
+        "compare",
+        "comparator",
+        "statistic",
+        "counter",
+        "scheduler",
+        "central",
+        "heating",
+        "mixing valve",
+        "heating curve",
+        "text execution"
+      ],
+      "url": "https://flows.nodered.org/node/smart-nodes"
+    },
+    {
+      "id": "node-red-contrib-shelly",
+      "version": "10.24.0",
+      "description": "Shelly nodes.",
+      "updated_at": "2024-06-01T12:52:44.126Z",
+      "types": [
+        "shelly-gen1-server",
+        "shelly-gen1",
+        "shelly-gen2-server",
+        "shelly-gen2",
+        "shelly-cloud-server",
+        "shelly-cloud"
+      ],
+      "keywords": [
+        "node-red",
+        "shelly"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-shelly"
+    },
+    {
+      "id": "@flowfuse/node-red-dashboard",
+      "version": "1.11.1",
+      "description": "Dashboard 2.0 - A collection of Node-RED nodes that provide functionality to build your own UI applications (inc. forms, buttons, charts).",
+      "updated_at": "2024-06-01T11:52:04.028Z",
+      "types": [
+        "ui-base",
+        "ui-page",
+        "ui-link",
+        "ui-group",
+        "ui-theme",
+        "ui-form",
+        "__errors__",
+        "ui-text-input",
+        "__errors__",
+        "ui-button",
+        "__errors__",
+        "ui-button-group",
+        "__errors__",
+        "ui-dropdown",
+        "__errors__",
+        "ui-radio-group",
+        "__errors__",
+        "ui-slider",
+        "__errors__",
+        "ui-switch",
+        "__errors__",
+        "ui-text",
+        "__errors__",
+        "ui-table",
+        "__errors__",
+        "ui-chart",
+        "__errors__",
+        "ui-gauge",
+        "__errors__",
+        "ui-notification",
+        "__errors__",
+        "ui-markdown",
+        "__errors__",
+        "ui-template",
+        "__errors__",
+        "ui-event",
+        "__errors__",
+        "ui-control",
+        "__errors__"
+      ],
+      "keywords": [
+        "node-red"
+      ],
+      "url": "https://flows.nodered.org/node/@flowfuse/node-red-dashboard"
+    },
+    {
+      "id": "@colinl/node-red-dashboard-2-ui-gauge-classic",
+      "version": "1.0.0",
+      "description": "A classic style gauge node for @flowfuse/node-red-dashboard",
+      "updated_at": "2024-06-01T10:46:12.533Z",
+      "types": [
+        "ui-gauge-classic",
+        "__errors__"
+      ],
+      "keywords": [
+        "node-red",
+        "node-red-dashboard-2"
+      ],
+      "url": "https://flows.nodered.org/node/@colinl/node-red-dashboard-2-ui-gauge-classic"
+    },
+    {
+      "id": "node-red-contrib-boolean-logic-ultimate",
+      "version": "1.1.10",
+      "description": "A set of Node-RED enhanced boolean logic and utility nodes, flow interruption, blinker, invert, filter, toggle etc.., with persistent values after reboot. Compatible also with Homeassistant values.",
+      "updated_at": "2024-05-31T18:18:21.391Z",
+      "types": [
+        "BooleanLogicUltimate",
+        "InvertUltimate",
+        "FilterUltimate",
+        "InterruptFlowUltimate",
+        "BlinkerUltimate",
+        "SimpleOutputUltimate",
+        "InjectUltimate",
+        "StatusUltimate",
+        "ImpulseUltimate",
+        "SumUltimate",
+        "toggleUltimate",
+        "RailwaySwitchUltimate",
+        "Comparator",
+        "translator-config"
+      ],
+      "keywords": [
+        "node-red",
+        "boolean",
+        "gate",
+        "filter",
+        "logic"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-boolean-logic-ultimate"
+    },
+    {
+      "id": "node-red-contrib-smarthome-shading",
+      "version": "1.0.1",
+      "description": "This is a node to control your window blinds.",
+      "updated_at": "2024-05-31T17:19:11.747Z",
+      "types": [
+        "shading configuration",
+        "shading"
+      ],
+      "keywords": [
+        "node",
+        "node-red",
+        "nodered",
+        "smarthome",
+        "loxone",
+        "sps",
+        "plc",
+        "shading",
+        "blind",
+        "blinds",
+        "shutter",
+        "roller",
+        "roller blind",
+        "rolling shutter",
+        "roller shutter",
+        "sunblind",
+        "jalousie",
+        "sun blind"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-smarthome-shading"
+    },
+    {
+      "id": "node-red-contrib-azure-iothub-service",
+      "version": "0.0.1",
+      "description": "Nodes to communicate with devices via Azure IoT Hub and Event Hubs.",
+      "updated_at": "2024-05-31T16:37:34.967Z",
+      "types": [
+        "eventhub-recv",
+        "iothub-registry",
+        "iothub-send"
+      ],
+      "keywords": [
+        "node-red",
+        "Azure",
+        "Azure Event Hub",
+        "Event Hub",
+        "IoT",
+        "Event Hubs"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-azure-iothub-service"
+    },
+    {
       "id": "node-red-trexmes-commands",
-      "version": "1.3.0",
+      "version": "1.4.0",
       "description": "A node-red node to execute commands for Trex Mes Systems",
-      "updated_at": "2024-05-31T11:35:31.113Z",
+      "updated_at": "2024-05-31T15:20:22.427Z",
       "types": [
         "trexMes-CN",
         "trexMes-CMD"
@@ -107,37 +325,6 @@
       "url": "https://flows.nodered.org/node/node-red-contrib-energy-charts"
     },
     {
-      "id": "node-red-contrib-smarthome-shading",
-      "version": "1.0.0",
-      "description": "This is a node to control your window blinds.",
-      "updated_at": "2024-05-31T06:24:29.070Z",
-      "types": [
-        "shading configuration",
-        "shading"
-      ],
-      "keywords": [
-        "node",
-        "node-red",
-        "nodered",
-        "smarthome",
-        "loxone",
-        "sps",
-        "plc",
-        "shading",
-        "blind",
-        "blinds",
-        "shutter",
-        "roller",
-        "roller blind",
-        "rolling shutter",
-        "roller shutter",
-        "sunblind",
-        "jalousie",
-        "sun blind"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-smarthome-shading"
-    },
-    {
       "id": "node-red-contrib-web-worldmap-cn",
       "version": "4.8.2",
       "description": "A Node-RED node to provide a web page of a world map for plotting things on.",
@@ -209,21 +396,6 @@
         "greyorange"
       ],
       "url": "https://flows.nodered.org/node/@greyorange/node-red-contrib-amqp"
-    },
-    {
-      "id": "@colinl/node-red-dashboard-2-ui-gauge-classic",
-      "version": "0.0.10",
-      "description": "A classic style gauge node for @flowfuse/node-red-dashboard",
-      "updated_at": "2024-05-30T08:48:14.738Z",
-      "types": [
-        "ui-gauge-classic",
-        "__errors__"
-      ],
-      "keywords": [
-        "node-red",
-        "node-red-dashboard-2"
-      ],
-      "url": "https://flows.nodered.org/node/@colinl/node-red-dashboard-2-ui-gauge-classic"
     },
     {
       "id": "node-red-contrib-ecovacs-deebot",
@@ -1096,57 +1268,6 @@
         "huawei"
       ],
       "url": "https://flows.nodered.org/node/@nickiv/node-red-huawei-sms"
-    },
-    {
-      "id": "@flowfuse/node-red-dashboard",
-      "version": "1.10.0",
-      "description": "Dashboard 2.0 - A collection of Node-RED nodes that provide functionality to build your own UI applications (inc. forms, buttons, charts).",
-      "updated_at": "2024-05-22T15:42:44.127Z",
-      "types": [
-        "ui-base",
-        "ui-page",
-        "ui-link",
-        "ui-group",
-        "ui-theme",
-        "ui-form",
-        "__errors__",
-        "ui-text-input",
-        "__errors__",
-        "ui-button",
-        "__errors__",
-        "ui-button-group",
-        "__errors__",
-        "ui-dropdown",
-        "__errors__",
-        "ui-radio-group",
-        "__errors__",
-        "ui-slider",
-        "__errors__",
-        "ui-switch",
-        "__errors__",
-        "ui-text",
-        "__errors__",
-        "ui-table",
-        "__errors__",
-        "ui-chart",
-        "__errors__",
-        "ui-gauge",
-        "__errors__",
-        "ui-notification",
-        "__errors__",
-        "ui-markdown",
-        "__errors__",
-        "ui-template",
-        "__errors__",
-        "ui-event",
-        "__errors__",
-        "ui-control",
-        "__errors__"
-      ],
-      "keywords": [
-        "node-red"
-      ],
-      "url": "https://flows.nodered.org/node/@flowfuse/node-red-dashboard"
     },
     {
       "id": "node-red-contrib-s-tech-alice",
@@ -2503,36 +2624,6 @@
       "url": "https://flows.nodered.org/node/node-red-contrib-openpgp-by-bhk"
     },
     {
-      "id": "node-red-contrib-boolean-logic-ultimate",
-      "version": "1.1.9",
-      "description": "A set of Node-RED enhanced boolean logic and utility nodes, flow interruption, blinker, invert, filter, toggle etc.., with persistent values after reboot. Compatible also with Homeassistant values.",
-      "updated_at": "2024-05-06T12:35:05.905Z",
-      "types": [
-        "BooleanLogicUltimate",
-        "InvertUltimate",
-        "FilterUltimate",
-        "InterruptFlowUltimate",
-        "BlinkerUltimate",
-        "SimpleOutputUltimate",
-        "InjectUltimate",
-        "StatusUltimate",
-        "ImpulseUltimate",
-        "SumUltimate",
-        "toggleUltimate",
-        "RailwaySwitchUltimate",
-        "Comparator",
-        "translator-config"
-      ],
-      "keywords": [
-        "node-red",
-        "boolean",
-        "gate",
-        "filter",
-        "logic"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-boolean-logic-ultimate"
-    },
-    {
       "id": "@jung.group/node-red-contrib",
       "version": "1.0.1",
       "description": "JUNG Open API for Node-RED",
@@ -3423,58 +3514,6 @@
       "url": "https://flows.nodered.org/node/kdbx-red"
     },
     {
-      "id": "smart-nodes",
-      "version": "0.3.35",
-      "description": "Smart Nodes",
-      "updated_at": "2024-04-20T21:18:07.914Z",
-      "types": [
-        "smart_light-control",
-        "smart_scene-control",
-        "smart_shutter-control",
-        "smart_shutter-complex-control",
-        "smart_long-press-control",
-        "smart_multi-press-control",
-        "smart_logic",
-        "smart_forwarder",
-        "smart_compare",
-        "smart_hysteresis",
-        "smart_statistic",
-        "smart_counter",
-        "smart_scheduler",
-        "smart_delay",
-        "smart_central-control",
-        "__errors__",
-        "smart_mixing-valve",
-        "smart_heating-curve",
-        "smart_text-exec"
-      ],
-      "keywords": [
-        "node-red",
-        "smart nodes",
-        "light control",
-        "shutter control",
-        "long press",
-        "multi press",
-        "scene",
-        "scenes",
-        "delay",
-        "forwarder",
-        "logic",
-        "hysteresis",
-        "compare",
-        "comparator",
-        "statistic",
-        "counter",
-        "scheduler",
-        "central",
-        "heating",
-        "mixing valve",
-        "heating curve",
-        "text execution"
-      ],
-      "url": "https://flows.nodered.org/node/smart-nodes"
-    },
-    {
       "id": "@runnane/node-red-contrib-easee",
       "version": "0.5.7",
       "description": "Module for streaming Easee data. Based on node-red-contrib-signalrcore",
@@ -3492,25 +3531,6 @@
         "node-red"
       ],
       "url": "https://flows.nodered.org/node/@runnane/node-red-contrib-easee"
-    },
-    {
-      "id": "node-red-contrib-shelly",
-      "version": "10.23.0",
-      "description": "Shelly nodes.",
-      "updated_at": "2024-04-19T18:56:27.028Z",
-      "types": [
-        "shelly-gen1-server",
-        "shelly-gen1",
-        "shelly-gen2-server",
-        "shelly-gen2",
-        "shelly-cloud-server",
-        "shelly-cloud"
-      ],
-      "keywords": [
-        "node-red",
-        "shelly"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-shelly"
     },
     {
       "id": "@gregoriusrippenstein/node-red-contrib-flowcompare",
