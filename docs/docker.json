@@ -1,7 +1,84 @@
 {
   "name": "Catalogue for Docker",
-  "updated_at": "2024-06-01T15:54:34.593Z",
+  "updated_at": "2024-06-02T15:53:34.477Z",
   "modules": [
+    {
+      "id": "@scepiconsulting/node-red-scepiconsulting-node",
+      "version": "0.0.2",
+      "description": "A Node-RED node that calculates the watering amount based on provided parameters.",
+      "updated_at": "2024-06-02T14:09:34.294Z",
+      "types": [
+        "watering"
+      ],
+      "keywords": [
+        "node-red"
+      ],
+      "url": "https://flows.nodered.org/node/@scepiconsulting/node-red-scepiconsulting-node"
+    },
+    {
+      "id": "node-red-scepiconsulting-node",
+      "version": "0.0.1",
+      "description": "A Node-RED node that calculates the watering amount based on provided parameters.",
+      "updated_at": "2024-06-02T13:30:20.181Z",
+      "types": [
+        "watering"
+      ],
+      "keywords": [
+        "node-red"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-scepiconsulting-node"
+    },
+    {
+      "id": "node-red-contrib-alice-self-hosting",
+      "version": "0.2.1",
+      "description": "Node-RED nodes to Yandex Alice devices in Self-Hosting",
+      "updated_at": "2024-06-02T13:22:21.241Z",
+      "types": [
+        "alice-sh-service",
+        "alice-sh-device",
+        "alice-sh-onoff",
+        "alice-sh-toggle",
+        "alice-sh-range",
+        "alice-sh-color",
+        "alice-sh-mode",
+        "alice-sh-sensor",
+        "alice-sh-event",
+        "alice-sh-video"
+      ],
+      "keywords": [
+        "node-red",
+        "yandex",
+        "alice",
+        "iot",
+        "self",
+        "hosting"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-alice-self-hosting"
+    },
+    {
+      "id": "node-red-contrib-bizwechat-share",
+      "version": "1.0.1",
+      "description": "共享版企业微信",
+      "updated_at": "2024-06-02T11:41:14.806Z",
+      "types": [
+        "bizwechat-input-share",
+        "bizwechat-output-share",
+        "bizwechat-push-share",
+        "bizwechat-upload-share",
+        "bizwechat-pushbear-share",
+        "bizwechat-template-share",
+        "BizWeChat-Push-share",
+        "bizwechat-configurator-share"
+      ],
+      "keywords": [
+        "node-red",
+        "nodered",
+        "NodeRed",
+        "WeChat",
+        "BizWeChat"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-bizwechat-share"
+    },
     {
       "id": "smart-nodes",
       "version": "0.3.36",
@@ -780,33 +857,6 @@
         "umlaute"
       ],
       "url": "https://flows.nodered.org/node/@marcel-domke/node-red-contrib-toolkit"
-    },
-    {
-      "id": "node-red-contrib-alice-self-hosting",
-      "version": "0.2.0",
-      "description": "Node-RED nodes to Yandex Alice devices in Self-Hosting",
-      "updated_at": "2024-05-27T15:28:31.854Z",
-      "types": [
-        "alice-sh-service",
-        "alice-sh-device",
-        "alice-sh-onoff",
-        "alice-sh-toggle",
-        "alice-sh-range",
-        "alice-sh-color",
-        "alice-sh-mode",
-        "alice-sh-sensor",
-        "alice-sh-event",
-        "alice-sh-video"
-      ],
-      "keywords": [
-        "node-red",
-        "yandex",
-        "alice",
-        "iot",
-        "self",
-        "hosting"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-alice-self-hosting"
     },
     {
       "id": "node-red-contrib-zenitel-wamp-auth",
