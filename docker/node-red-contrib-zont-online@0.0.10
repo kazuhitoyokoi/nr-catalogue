@@ -1,0 +1,114 @@
+#0 building with "default" instance using docker driver
+
+#1 [internal] load .dockerignore
+#1 transferring context: 2B done
+#1 DONE 0.0s
+
+#2 [internal] load build definition from Dockerfile
+#2 transferring dockerfile: 122B done
+#2 DONE 0.0s
+
+#3 [auth] nodered/node-red:pull token for registry-1.docker.io
+#3 DONE 0.0s
+
+#4 [internal] load metadata for docker.io/nodered/node-red:latest
+#4 DONE 0.4s
+
+#5 [1/2] FROM docker.io/nodered/node-red@sha256:4872f67418a36ac2adf9f2793cfab1e3130796dd0c874acce7eddaca2e2e96e6
+#5 resolve docker.io/nodered/node-red@sha256:4872f67418a36ac2adf9f2793cfab1e3130796dd0c874acce7eddaca2e2e96e6 done
+#5 extracting sha256:c9f298e949d22f94fda48d5abefc1db2b7bfd3da64503208a33aa9813defc54d done
+#5 sha256:806c0b6ea88df38b8b3411070dbe0c3a67a02af83350636d0ac2825be11f9af9 13.11kB / 13.11kB done
+#5 sha256:c9f298e949d22f94fda48d5abefc1db2b7bfd3da64503208a33aa9813defc54d 598B / 598B 0.1s done
+#5 sha256:6c854a14995ee49b24be54f1f6b4809b0249045f911e3693fd70fde87948a7b6 467B / 467B 0.1s done
+#5 sha256:4872f67418a36ac2adf9f2793cfab1e3130796dd0c874acce7eddaca2e2e96e6 3.16kB / 3.16kB done
+#5 sha256:f79ef199c84f8fe32b921027bc31a42d5b7763e3a0d3f36fc92efe44aae4cd01 3.52kB / 3.52kB done
+#5 sha256:309379ab94ee276db53217532a365707463e36bacc5906a27933883cccb5ec83 0B / 10.65MB 0.1s
+#5 sha256:4f4fb700ef54461cfa02571ae0db9a0dc1e0cdb5577484a6d75e68dc38e8acc1 0B / 32B 0.1s
+#5 sha256:309379ab94ee276db53217532a365707463e36bacc5906a27933883cccb5ec83 5.24MB / 10.65MB 0.2s
+#5 sha256:4f4fb700ef54461cfa02571ae0db9a0dc1e0cdb5577484a6d75e68dc38e8acc1 32B / 32B 0.2s done
+#5 extracting sha256:6c854a14995ee49b24be54f1f6b4809b0249045f911e3693fd70fde87948a7b6 done
+#5 sha256:1ee646c3f117962784e4e5711fe510f07d84f2ec97f10780ade74b4b1bced5b3 0B / 2.19kB 0.2s
+#5 sha256:5b38212930347417f6a7bb2513b379bed100fd54388b07c85138f3670f682a07 0B / 934B 0.2s
+#5 sha256:e369ead89f0f984b7ab63662ac5ac4df83fe49bdfab33b9493625d11ea4c3fbf 1.60kB / 1.60kB 0.1s done
+#5 sha256:309379ab94ee276db53217532a365707463e36bacc5906a27933883cccb5ec83 10.65MB / 10.65MB 0.3s done
+#5 sha256:1ee646c3f117962784e4e5711fe510f07d84f2ec97f10780ade74b4b1bced5b3 2.19kB / 2.19kB 0.2s done
+#5 sha256:5b38212930347417f6a7bb2513b379bed100fd54388b07c85138f3670f682a07 934B / 934B 0.2s done
+#5 sha256:b45f780a0ab05d050c68b6d8dc213837388f93392ecfcffaac5c7db064b485a7 585B / 585B 0.3s done
+#5 sha256:fe75a7bfb77a8bb956d08c21d2f59e7cd08fdb2cb6336c1dfd0d903f9a99ff64 4.83MB / 16.36MB 0.4s
+#5 sha256:0e1940d8da6dc7059f0a44cab2f7807558523c686be1fb249a7e1438bc6ba032 832B / 832B 0.3s done
+#5 sha256:ef78fe6daeb6e5cd09ec88abb1566cb8d12960972bb015077c4a26c5203067d8 357B / 357B 0.3s done
+#5 sha256:118872890206c7dc94a31739748dc34264fc3704f292c2df14ff14e325027753 809B / 809B 0.4s done
+#5 sha256:ad53bde2d97edaad5279d866e20c3090f9f3982d8c1fa513e8e926486f042beb 0B / 116.67MB 0.4s
+#5 sha256:fe75a7bfb77a8bb956d08c21d2f59e7cd08fdb2cb6336c1dfd0d903f9a99ff64 7.34MB / 16.36MB 0.5s
+#5 sha256:ad53bde2d97edaad5279d866e20c3090f9f3982d8c1fa513e8e926486f042beb 8.39MB / 116.67MB 0.5s
+#5 sha256:fe75a7bfb77a8bb956d08c21d2f59e7cd08fdb2cb6336c1dfd0d903f9a99ff64 12.58MB / 16.36MB 0.6s
+#5 sha256:fe75a7bfb77a8bb956d08c21d2f59e7cd08fdb2cb6336c1dfd0d903f9a99ff64 16.36MB / 16.36MB 0.7s
+#5 sha256:ad53bde2d97edaad5279d866e20c3090f9f3982d8c1fa513e8e926486f042beb 19.92MB / 116.67MB 0.7s
+#5 extracting sha256:309379ab94ee276db53217532a365707463e36bacc5906a27933883cccb5ec83 0.1s
+#5 sha256:fe75a7bfb77a8bb956d08c21d2f59e7cd08fdb2cb6336c1dfd0d903f9a99ff64 16.36MB / 16.36MB 0.7s done
+#5 sha256:ad53bde2d97edaad5279d866e20c3090f9f3982d8c1fa513e8e926486f042beb 30.41MB / 116.67MB 0.8s
+#5 sha256:ad53bde2d97edaad5279d866e20c3090f9f3982d8c1fa513e8e926486f042beb 42.99MB / 116.67MB 1.0s
+#5 sha256:ad53bde2d97edaad5279d866e20c3090f9f3982d8c1fa513e8e926486f042beb 52.43MB / 116.67MB 1.2s
+#5 extracting sha256:309379ab94ee276db53217532a365707463e36bacc5906a27933883cccb5ec83 0.5s done
+#5 sha256:ad53bde2d97edaad5279d866e20c3090f9f3982d8c1fa513e8e926486f042beb 69.21MB / 116.67MB 1.4s
+#5 extracting sha256:4f4fb700ef54461cfa02571ae0db9a0dc1e0cdb5577484a6d75e68dc38e8acc1 done
+#5 extracting sha256:e369ead89f0f984b7ab63662ac5ac4df83fe49bdfab33b9493625d11ea4c3fbf done
+#5 extracting sha256:1ee646c3f117962784e4e5711fe510f07d84f2ec97f10780ade74b4b1bced5b3 done
+#5 extracting sha256:5b38212930347417f6a7bb2513b379bed100fd54388b07c85138f3670f682a07 done
+#5 extracting sha256:b45f780a0ab05d050c68b6d8dc213837388f93392ecfcffaac5c7db064b485a7 done
+#5 extracting sha256:0e1940d8da6dc7059f0a44cab2f7807558523c686be1fb249a7e1438bc6ba032 done
+#5 extracting sha256:ef78fe6daeb6e5cd09ec88abb1566cb8d12960972bb015077c4a26c5203067d8 done
+#5 extracting sha256:fe75a7bfb77a8bb956d08c21d2f59e7cd08fdb2cb6336c1dfd0d903f9a99ff64 0.1s
+#5 sha256:ad53bde2d97edaad5279d866e20c3090f9f3982d8c1fa513e8e926486f042beb 79.69MB / 116.67MB 1.6s
+#5 sha256:ad53bde2d97edaad5279d866e20c3090f9f3982d8c1fa513e8e926486f042beb 87.03MB / 116.67MB 1.7s
+#5 sha256:ad53bde2d97edaad5279d866e20c3090f9f3982d8c1fa513e8e926486f042beb 93.32MB / 116.67MB 1.8s
+#5 sha256:ad53bde2d97edaad5279d866e20c3090f9f3982d8c1fa513e8e926486f042beb 113.25MB / 116.67MB 2.0s
+#5 sha256:ad53bde2d97edaad5279d866e20c3090f9f3982d8c1fa513e8e926486f042beb 116.67MB / 116.67MB 2.1s done
+#5 extracting sha256:fe75a7bfb77a8bb956d08c21d2f59e7cd08fdb2cb6336c1dfd0d903f9a99ff64 1.7s done
+#5 extracting sha256:ad53bde2d97edaad5279d866e20c3090f9f3982d8c1fa513e8e926486f042beb
+#5 extracting sha256:ad53bde2d97edaad5279d866e20c3090f9f3982d8c1fa513e8e926486f042beb 4.4s done
+#5 extracting sha256:118872890206c7dc94a31739748dc34264fc3704f292c2df14ff14e325027753
+#5 extracting sha256:118872890206c7dc94a31739748dc34264fc3704f292c2df14ff14e325027753 done
+#5 DONE 8.7s
+
+#6 [2/2] RUN npm install npm install node-red-contrib-zont-online@0.0.10
+#6 10.79 npm WARN EBADENGINE Unsupported engine {
+#6 10.79 npm WARN EBADENGINE   package: 'npm@10.8.1',
+#6 10.79 npm WARN EBADENGINE   required: { node: '^18.17.0 || >=20.5.0' },
+#6 10.79 npm WARN EBADENGINE   current: { node: 'v16.20.2', npm: '8.19.4' }
+#6 10.79 npm WARN EBADENGINE }
+#6 12.28 npm WARN deprecated har-validator@5.1.5: this library is no longer supported
+#6 12.28 npm WARN deprecated request-promise@4.2.6: request-promise has been deprecated because it extends the now deprecated request package, see https://github.com/request/request/issues/3142
+#6 12.29 npm WARN deprecated request-promise-native@1.0.9: request-promise-native has been deprecated because it extends the now deprecated request package, see https://github.com/request/request/issues/3142
+#6 12.31 npm WARN deprecated uuid@3.4.0: Please upgrade  to version 7 or higher.  Older versions may use Math.random() in certain circumstances, which is known to be problematic.  See https://v8.dev/blog/math-random for details.
+#6 12.33 npm WARN deprecated request@2.88.2: request has been deprecated, see https://github.com/request/request/issues/3142
+#6 12.65 
+#6 12.65 added 46 packages, and audited 555 packages in 4s
+#6 12.65 
+#6 12.65 70 packages are looking for funding
+#6 12.65   run `npm fund` for details
+#6 12.65 
+#6 12.65 6 moderate severity vulnerabilities
+#6 12.65 
+#6 12.65 To address issues that do not require attention, run:
+#6 12.65   npm audit fix
+#6 12.65 
+#6 12.65 To address all issues (including breaking changes), run:
+#6 12.65   npm audit fix --force
+#6 12.65 
+#6 12.65 Run `npm audit` for details.
+#6 12.65 npm notice 
+#6 12.65 npm notice New major version of npm available! 8.19.4 -> 10.8.1
+#6 12.65 npm notice Changelog: <https://github.com/npm/cli/releases/tag/v10.8.1>
+#6 12.65 npm notice Run `npm install -g npm@10.8.1` to update!
+#6 12.65 npm notice 
+#6 DONE 12.8s
+
+#7 exporting to image
+#7 exporting layers
+#7 exporting layers 3.8s done
+#7 writing image sha256:1e08d57f73788f8f602559ed3b68447a40036729b6f8b140d7f1b57ea6d1a0de done
+#7 naming to docker.io/library/tmp done
+#7 DONE 3.8s
+
+----
