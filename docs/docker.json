@@ -1,7 +1,96 @@
 {
   "name": "Catalogue for Docker",
-  "updated_at": "2024-06-02T15:53:34.477Z",
+  "updated_at": "2024-06-03T15:58:14.088Z",
   "modules": [
+    {
+      "id": "node-red-contrib-zont-online",
+      "version": "0.0.10",
+      "description": "Coming soon",
+      "updated_at": "2024-06-03T13:21:53.487Z",
+      "types": [
+        "zont-account",
+        "zont-device"
+      ],
+      "keywords": [
+        "node-red",
+        "zont",
+        "zont-online"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-zont-online"
+    },
+    {
+      "id": "node-red-trexmes-commands",
+      "version": "1.5.2",
+      "description": "A node-red node to execute commands for Trex Mes Systems",
+      "updated_at": "2024-06-03T08:38:32.207Z",
+      "types": [
+        "trexMes-CN",
+        "trexMes-CMD"
+      ],
+      "keywords": [
+        "node-red",
+        "trex-mes",
+        "trex",
+        "mes"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-trexmes-commands"
+    },
+    {
+      "id": "node-red-contrib-ctrlx-automation",
+      "version": "1.9.6",
+      "description": "Node-RED nodes for ctrlX AUTOMATION",
+      "updated_at": "2024-06-03T08:20:28.669Z",
+      "types": [
+        "ctrlx-config",
+        "ctrlx-config-subscription",
+        "ctrlx-datalayer-request",
+        "ctrlx-datalayer-subscribe"
+      ],
+      "keywords": [
+        "node-red",
+        "ctrlX AUTOMATION",
+        "ctrlX CORE",
+        "ctrlX DRIVE",
+        "Bosch Rexroth AG",
+        "www.ctrlx-automation.com",
+        "www.boschrexroth.com"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-ctrlx-automation"
+    },
+    {
+      "id": "node-red-contrib-shelly",
+      "version": "10.25.0",
+      "description": "Shelly nodes.",
+      "updated_at": "2024-06-02T17:16:36.908Z",
+      "types": [
+        "shelly-gen1-server",
+        "shelly-gen1",
+        "shelly-gen2-server",
+        "shelly-gen2",
+        "shelly-cloud-server",
+        "shelly-cloud"
+      ],
+      "keywords": [
+        "node-red",
+        "shelly"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-shelly"
+    },
+    {
+      "id": "@colinl/node-red-dashboard-2-ui-gauge-classic",
+      "version": "1.0.1",
+      "description": "A classic style gauge node for @flowfuse/node-red-dashboard",
+      "updated_at": "2024-06-02T15:17:30.291Z",
+      "types": [
+        "ui-gauge-classic",
+        "__errors__"
+      ],
+      "keywords": [
+        "node-red",
+        "node-red-dashboard-2"
+      ],
+      "url": "https://flows.nodered.org/node/@colinl/node-red-dashboard-2-ui-gauge-classic"
+    },
     {
       "id": "@scepiconsulting/node-red-scepiconsulting-node",
       "version": "0.0.2",
@@ -132,25 +221,6 @@
       "url": "https://flows.nodered.org/node/smart-nodes"
     },
     {
-      "id": "node-red-contrib-shelly",
-      "version": "10.24.0",
-      "description": "Shelly nodes.",
-      "updated_at": "2024-06-01T12:52:44.126Z",
-      "types": [
-        "shelly-gen1-server",
-        "shelly-gen1",
-        "shelly-gen2-server",
-        "shelly-gen2",
-        "shelly-cloud-server",
-        "shelly-cloud"
-      ],
-      "keywords": [
-        "node-red",
-        "shelly"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-shelly"
-    },
-    {
       "id": "@flowfuse/node-red-dashboard",
       "version": "1.11.1",
       "description": "Dashboard 2.0 - A collection of Node-RED nodes that provide functionality to build your own UI applications (inc. forms, buttons, charts).",
@@ -200,21 +270,6 @@
         "node-red"
       ],
       "url": "https://flows.nodered.org/node/@flowfuse/node-red-dashboard"
-    },
-    {
-      "id": "@colinl/node-red-dashboard-2-ui-gauge-classic",
-      "version": "1.0.0",
-      "description": "A classic style gauge node for @flowfuse/node-red-dashboard",
-      "updated_at": "2024-06-01T10:46:12.533Z",
-      "types": [
-        "ui-gauge-classic",
-        "__errors__"
-      ],
-      "keywords": [
-        "node-red",
-        "node-red-dashboard-2"
-      ],
-      "url": "https://flows.nodered.org/node/@colinl/node-red-dashboard-2-ui-gauge-classic"
     },
     {
       "id": "node-red-contrib-boolean-logic-ultimate",
@@ -296,23 +351,6 @@
         "Event Hubs"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-azure-iothub-service"
-    },
-    {
-      "id": "node-red-trexmes-commands",
-      "version": "1.4.0",
-      "description": "A node-red node to execute commands for Trex Mes Systems",
-      "updated_at": "2024-05-31T15:20:22.427Z",
-      "types": [
-        "trexMes-CN",
-        "trexMes-CMD"
-      ],
-      "keywords": [
-        "node-red",
-        "trex-mes",
-        "trex",
-        "mes"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-trexmes-commands"
     },
     {
       "id": "@blebtechnology/node-red-blebricks",
@@ -3794,22 +3832,6 @@
       "url": "https://flows.nodered.org/node/node-red-contrib-axis-com"
     },
     {
-      "id": "node-red-contrib-zont-online",
-      "version": "0.0.9-fix2",
-      "description": "Coming soon",
-      "updated_at": "2024-04-17T14:02:15.718Z",
-      "types": [
-        "zont-account",
-        "zont-device"
-      ],
-      "keywords": [
-        "node-red",
-        "zont",
-        "zont-online"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-zont-online"
-    },
-    {
       "id": "@umsicht/node-red-contrib-thingsdata",
       "version": "1.3.3",
       "description": "Node-RED nodes to work with the ThingsData S3 Storage System and ThingsData InfluxDB",
@@ -5434,28 +5456,6 @@
         "node-red"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-haas"
-    },
-    {
-      "id": "node-red-contrib-ctrlx-automation",
-      "version": "1.9.5",
-      "description": "Node-RED nodes for ctrlX AUTOMATION",
-      "updated_at": "2024-03-19T12:09:10.179Z",
-      "types": [
-        "ctrlx-config",
-        "ctrlx-config-subscription",
-        "ctrlx-datalayer-request",
-        "ctrlx-datalayer-subscribe"
-      ],
-      "keywords": [
-        "node-red",
-        "ctrlX AUTOMATION",
-        "ctrlX CORE",
-        "ctrlX DRIVE",
-        "Bosch Rexroth AG",
-        "www.ctrlx-automation.com",
-        "www.boschrexroth.com"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-ctrlx-automation"
     },
     {
       "id": "node-red-contrib-inline-keyboard",
