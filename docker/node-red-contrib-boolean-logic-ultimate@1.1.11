@@ -1,0 +1,44 @@
+#0 building with "default" instance using docker driver
+
+#1 [internal] load .dockerignore
+#1 transferring context: 2B done
+#1 DONE 0.0s
+
+#2 [internal] load build definition from Dockerfile
+#2 transferring dockerfile: 133B done
+#2 DONE 0.0s
+
+#3 [internal] load metadata for docker.io/nodered/node-red:latest
+#3 DONE 0.1s
+
+#4 [1/2] FROM docker.io/nodered/node-red@sha256:4872f67418a36ac2adf9f2793cfab1e3130796dd0c874acce7eddaca2e2e96e6
+#4 CACHED
+
+#5 [2/2] RUN npm install npm install node-red-contrib-boolean-logic-ultimate@1.1.11
+#5 1.592 npm WARN EBADENGINE Unsupported engine {
+#5 1.593 npm WARN EBADENGINE   package: 'npm@10.8.1',
+#5 1.593 npm WARN EBADENGINE   required: { node: '^18.17.0 || >=20.5.0' },
+#5 1.593 npm WARN EBADENGINE   current: { node: 'v16.20.2', npm: '8.19.4' }
+#5 1.593 npm WARN EBADENGINE }
+#5 3.012 
+#5 3.012 added 8 packages, and audited 517 packages in 3s
+#5 3.012 
+#5 3.012 69 packages are looking for funding
+#5 3.012   run `npm fund` for details
+#5 3.013 
+#5 3.013 found 0 vulnerabilities
+#5 3.014 npm notice 
+#5 3.014 npm notice New major version of npm available! 8.19.4 -> 10.8.1
+#5 3.014 npm notice Changelog: <https://github.com/npm/cli/releases/tag/v10.8.1>
+#5 3.014 npm notice Run `npm install -g npm@10.8.1` to update!
+#5 3.014 npm notice 
+#5 DONE 3.1s
+
+#6 exporting to image
+#6 exporting layers
+#6 exporting layers 1.0s done
+#6 writing image sha256:a41265c859c49c64c42b08fd114fafb86f6a58baf7cc332acfb218d6bf185107 done
+#6 naming to docker.io/library/tmp done
+#6 DONE 1.0s
+
+----
