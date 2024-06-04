@@ -1,0 +1,44 @@
+#0 building with "default" instance using docker driver
+
+#1 [internal] load .dockerignore
+#1 transferring context: 2B done
+#1 DONE 0.0s
+
+#2 [internal] load build definition from Dockerfile
+#2 transferring dockerfile: 138B done
+#2 DONE 0.0s
+
+#3 [internal] load metadata for docker.io/nodered/node-red:latest
+#3 DONE 0.1s
+
+#4 [1/2] FROM docker.io/nodered/node-red@sha256:4872f67418a36ac2adf9f2793cfab1e3130796dd0c874acce7eddaca2e2e96e6
+#4 CACHED
+
+#5 [2/2] RUN npm install npm install @inteli.city/node-red-contrib-exec-collection@1.0.3
+#5 4.082 npm WARN EBADENGINE Unsupported engine {
+#5 4.082 npm WARN EBADENGINE   package: 'npm@10.8.1',
+#5 4.082 npm WARN EBADENGINE   required: { node: '^18.17.0 || >=20.5.0' },
+#5 4.082 npm WARN EBADENGINE   current: { node: 'v16.20.2', npm: '8.19.4' }
+#5 4.082 npm WARN EBADENGINE }
+#5 7.130 
+#5 7.130 added 187 packages, and audited 696 packages in 7s
+#5 7.131 
+#5 7.131 76 packages are looking for funding
+#5 7.131   run `npm fund` for details
+#5 7.132 
+#5 7.132 found 0 vulnerabilities
+#5 7.132 npm notice 
+#5 7.132 npm notice New major version of npm available! 8.19.4 -> 10.8.1
+#5 7.133 npm notice Changelog: <https://github.com/npm/cli/releases/tag/v10.8.1>
+#5 7.133 npm notice Run `npm install -g npm@10.8.1` to update!
+#5 7.133 npm notice 
+#5 DONE 7.3s
+
+#6 exporting to image
+#6 exporting layers
+#6 exporting layers 1.8s done
+#6 writing image sha256:8e754383517b7c235eaf9de7bca5b54d5782d03f3151deed79c686701192f6ce done
+#6 naming to docker.io/library/tmp done
+#6 DONE 1.8s
+
+----
