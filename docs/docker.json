@@ -1,7 +1,477 @@
 {
   "name": "Catalogue for Docker",
-  "updated_at": "2024-06-06T15:59:23.686Z",
+  "updated_at": "2024-06-07T15:59:54.335Z",
   "modules": [
+    {
+      "id": "@blockbax/node-red-contrib-blockbax",
+      "version": "0.0.14",
+      "description": "A set of Node-RED nodes to interact with the Blockbax Platform",
+      "updated_at": "2024-06-07T13:12:51.012Z",
+      "types": [
+        "blockbax-parse",
+        "blockbax-send",
+        "blockbax-aggregate",
+        "blockbax-project",
+        "blockbax-subscribe"
+      ],
+      "keywords": [
+        "node-red",
+        "blockbax",
+        "iot",
+        "edge",
+        "sensors",
+        "data"
+      ],
+      "url": "https://flows.nodered.org/node/@blockbax/node-red-contrib-blockbax"
+    },
+    {
+      "id": "node-red-contrib-spreadsheet-in",
+      "version": "0.7.2",
+      "description": "This package provides Node-RED nodes to read data from spreadsheet (Excel, ODS, etc.) file.",
+      "updated_at": "2024-06-07T01:42:48.511Z",
+      "types": [
+        "book",
+        "sheet",
+        "cell",
+        "sheet-to-json"
+      ],
+      "keywords": [
+        "node-red",
+        "spreadsheet",
+        "excel"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-spreadsheet-in"
+    },
+    {
+      "id": "atomic-jetstream",
+      "version": "0.0.20",
+      "description": "NATS JetStream module for Brobridge Atomic",
+      "updated_at": "2024-06-06T21:43:11.795Z",
+      "types": [
+        "NATS JetStream Consumer",
+        "NATS JetStream Publish",
+        "NATS JetStream Server",
+        "NATS JetStream Acknowledge",
+        "NATS JetStream Stream"
+      ],
+      "keywords": [
+        "jetstream",
+        "node-red",
+        "atomic"
+      ],
+      "url": "https://flows.nodered.org/node/atomic-jetstream"
+    },
+    {
+      "id": "node-red-contrib-bluelinky",
+      "version": "0.0.31",
+      "description": "A Node Red Library for BlueLinky, a Hyundai and Kia 3rd-party wrapper",
+      "updated_at": "2024-06-06T20:57:52.706Z",
+      "types": [
+        "car-status",
+        "car-fullstatus",
+        "get-tripinfo",
+        "get-drivehistory",
+        "get-monthlyreport",
+        "set-navigation",
+        "set-chargetargets",
+        "get-chargetargets",
+        "start-car",
+        "stop-car",
+        "car-odometer",
+        "car-location",
+        "unlock-car",
+        "lock-car",
+        "start-charge",
+        "stop-charge",
+        "login",
+        "bluelinky"
+      ],
+      "keywords": [
+        "Hyundai",
+        "Kia",
+        "Bluelink",
+        "UVO",
+        "Bluelinky",
+        "node-red"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-bluelinky"
+    },
+    {
+      "id": "node-red-contrib-snap4city-user",
+      "version": "0.9.51",
+      "description": "Nodes for Snap4city project, targeted to standard user (no developer)",
+      "updated_at": "2024-06-06T12:50:08.866Z",
+      "types": [
+        "service-search-near-marker",
+        "service-search-within-circle",
+        "service-search-within-polygon",
+        "service-search-along-path",
+        "distance-from-coordinates",
+        "point-within-polygon",
+        "routing",
+        "heatmap-picker",
+        "coordinates-to-address",
+        "service-info",
+        "full-text-search-near-marker",
+        "full-text-search-within-circle",
+        "full-text-search-within-polygon",
+        "full-text-search-along-path",
+        "full-text-search-usr",
+        "event-search-near-marker",
+        "event-search-within-circle",
+        "event-search-within-polygon",
+        "event-search-along-path",
+        "event-search-usr",
+        "address-search-near-marker",
+        "geometry-search-near-marker",
+        "address-poi-search-by-text-usr",
+        "address-poi-search-by-text-near-marker",
+        "address-poi-search-by-text-within-circle",
+        "bus-routes-search-near-marker",
+        "bus-routes-search-within-circle",
+        "bus-routes-search-within-polygon",
+        "tpl-agencies",
+        "tpl-lines",
+        "tpl-routes-by-agency",
+        "tpl-routes-by-line",
+        "tpl-stops-by-route",
+        "tpl-stop-timeline",
+        "recommendations-within-circle",
+        "value-type-search-near-marker",
+        "value-type-search-within-circle",
+        "value-type-search-within-polygon",
+        "value-type-search-along-path",
+        "get-access-token",
+        "get-my-data",
+        "get-my-kpidata",
+        "get-delegated-kpidata",
+        "get-public-kpidata",
+        "get-my-kpidata-values",
+        "get-public-kpidata-values",
+        "get-delegated-kpidata-values",
+        "get-my-delegator",
+        "get-my-delegated",
+        "get-my-activity",
+        "delegate-my-kpidata",
+        "get-other-activity-on-my-data",
+        "get-iotapps-using-my-kpidata",
+        "save-my-data",
+        "save-my-kpidata-values",
+        "get-my-annotation",
+        "get-anonymous-data",
+        "get-other-data",
+        "iotdirectory-new-device-from-model",
+        "delegate-my-device",
+        "get-my-devices",
+        "remove-delegation-my-device",
+        "change-visibility-my-device",
+        "get-delegation-my-device",
+        "change-ownership-my-device",
+        "coordinates-from-map",
+        "impulse-button",
+        "numeric-keyboard",
+        "switch-button",
+        "dimmer",
+        "dashboardEvent",
+        "dashboardDevice",
+        "dashboard-geolocator",
+        "dropdown",
+        "dashboardForm",
+        "gauge-chart",
+        "single-content",
+        "speedometer",
+        "bar-content",
+        "column-content",
+        "web-content",
+        "dashboard-time-trend",
+        "bar-series",
+        "radar-series",
+        "pie-chart",
+        "curved-line-series",
+        "table-content",
+        "speak-synthesis",
+        "selector-to-map",
+        "dashboard-map",
+        "event-driven-my-kpi",
+        "synoptic-read",
+        "synoptic-write",
+        "synoptic-subscribe",
+        "sigfox device filter",
+        "sigfox in",
+        "iotdirectory-get-device",
+        "event-log",
+        "orion-service",
+        "fiware orion in",
+        "fiware orion",
+        "orion-test",
+        "fiware-orion-out",
+        "orion-service-api-v2",
+        "orion-subscribe-api-v2",
+        "orion-query-api-v2",
+        "orion-update-api-v2",
+        "orion-out-api-v2",
+        "orion-service-v22",
+        "fiware-orion-in-v22",
+        "fiware-orion-query-v22",
+        "fiware-orion-out-v22",
+        "orion-service-v2",
+        "fiware-orion-in-v2",
+        "fiware-orion-query-v2",
+        "fiware-orion-out-v2",
+        "show-micro-web-app",
+        "show-general-iframe",
+        "twitter-last-channel",
+        "twitter-last-tweet",
+        "snap4city-authentication",
+        "snap4all-button"
+      ],
+      "keywords": [
+        "node-red",
+        "smartcity",
+        "iot"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-snap4city-user"
+    },
+    {
+      "id": "@bitpoolos/edge-bacnet",
+      "version": "1.3.1",
+      "description": "A bacnet gateway for node-red",
+      "updated_at": "2024-06-06T05:08:32.459Z",
+      "types": [
+        "Bacnet-Gateway",
+        "Bacnet-Discovery",
+        "Bacnet-Write",
+        "Bitpool-Inject"
+      ],
+      "keywords": [
+        "node-red",
+        "bitpool",
+        "bitpoolos",
+        "edge",
+        "big data",
+        "iot",
+        "BACnet"
+      ],
+      "url": "https://flows.nodered.org/node/@bitpoolos/edge-bacnet"
+    },
+    {
+      "id": "node-red-pisignage",
+      "version": "0.0.2",
+      "description": "uses pisignage api to be able to controll from node-red",
+      "updated_at": "2024-06-06T01:15:40.236Z",
+      "types": [
+        "pisignage-creds",
+        "pisignage",
+        "pisignage-tv-power"
+      ],
+      "keywords": [
+        "node-red",
+        "pisignage"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-pisignage"
+    },
+    {
+      "id": "@joelaw9/node-red-threshold",
+      "version": "1.0.1",
+      "description": "Threshold",
+      "updated_at": "2024-06-05T18:40:19.516Z",
+      "types": [
+        "threshold"
+      ],
+      "keywords": [
+        "node-red",
+        "victron",
+        "threshold control"
+      ],
+      "url": "https://flows.nodered.org/node/@joelaw9/node-red-threshold"
+    },
+    {
+      "id": "@gregoriusrippenstein/node-red-contrib-flowhub",
+      "version": "0.8.3",
+      "description": "FlowHub.org: flow management with GitHub.",
+      "updated_at": "2024-06-05T15:33:20.580Z",
+      "types": [
+        "FlowHubPull",
+        "FlowHubCfg"
+      ],
+      "keywords": [
+        "node-red",
+        "flowhub",
+        "flow-sharing",
+        "collaborative",
+        "flow-development",
+        "flow-management",
+        "github"
+      ],
+      "url": "https://flows.nodered.org/node/@gregoriusrippenstein/node-red-contrib-flowhub"
+    },
+    {
+      "id": "@gregoriusrippenstein/node-red-contrib-introspection",
+      "version": "0.7.9",
+      "description": "Node-RED Editor-only nodes for introspecting with flows in the frontend.",
+      "updated_at": "2024-06-05T15:23:56.942Z",
+      "types": [
+        "Seeker",
+        "Sink",
+        "ClientCode",
+        "GetFlows",
+        "SendFlow",
+        "InstallPackage"
+      ],
+      "keywords": [
+        "node-red",
+        "introspection",
+        "selfreflection",
+        "node-red-editor",
+        "screenshot"
+      ],
+      "url": "https://flows.nodered.org/node/@gregoriusrippenstein/node-red-contrib-introspection"
+    },
+    {
+      "id": "@appmodule/node-red-contrib-siot",
+      "version": "3.0.0-rc37",
+      "description": "Node-RED interactions with SIOT",
+      "updated_at": "2024-06-05T11:19:59.994Z",
+      "types": [
+        "ack",
+        "de-subscriber",
+        "de-publisher",
+        "siot-config",
+        "class-config",
+        "plugin-cnf"
+      ],
+      "keywords": [
+        "node-red"
+      ],
+      "url": "https://flows.nodered.org/node/@appmodule/node-red-contrib-siot"
+    },
+    {
+      "id": "@5minds/node-red-contrib-processcube",
+      "version": "0.3.3",
+      "description": "Node-RED nodes for ProcessCube",
+      "updated_at": "2024-06-05T10:24:46.680Z",
+      "types": [
+        "externaltask-input",
+        "externaltask-output",
+        "externaltask-error",
+        "process-start",
+        "processcube-engine-config"
+      ],
+      "keywords": [
+        "node-red",
+        "processcube",
+        "workflow",
+        "bpmn",
+        "low-code"
+      ],
+      "url": "https://flows.nodered.org/node/@5minds/node-red-contrib-processcube"
+    },
+    {
+      "id": "node-red-contrib-enoceanip-dcnext",
+      "version": "0.1.4",
+      "description": "I/O nodes for Node-RED to communicate with EnOcean API. Copyright (c) 2024 DC Next GmbH",
+      "updated_at": "2024-06-05T08:06:18.731Z",
+      "types": [
+        "enocean gw",
+        "enocean out",
+        "enocean in"
+      ],
+      "keywords": [
+        "node-red",
+        "enocean",
+        "iot",
+        "home automation",
+        "digital concepts",
+        "energy harvesting"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-enoceanip-dcnext"
+    },
+    {
+      "id": "@colinl/node-red-dashboard-2-ui-gauge-classic",
+      "version": "1.1.0",
+      "description": "A classic style gauge node for @flowfuse/node-red-dashboard",
+      "updated_at": "2024-06-05T06:37:57.721Z",
+      "types": [
+        "ui-gauge-classic",
+        "__errors__"
+      ],
+      "keywords": [
+        "node-red",
+        "node-red-dashboard-2"
+      ],
+      "url": "https://flows.nodered.org/node/@colinl/node-red-dashboard-2-ui-gauge-classic"
+    },
+    {
+      "id": "node-red-contrib-cegna-nodes",
+      "version": "0.2.4",
+      "description": "Nodes that are useful to do RPA/automation process.",
+      "updated_at": "2024-06-04T20:11:50.878Z",
+      "types": [
+        "start-session",
+        "close-session",
+        "workbench-settings",
+        "browser-actions",
+        "browser-element",
+        "desktop-element"
+      ],
+      "keywords": [
+        "node-red",
+        "cegna"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-cegna-nodes"
+    },
+    {
+      "id": "node-red-contrib-onstar2",
+      "version": "2.2.4",
+      "description": "An updated Node-RED Library using OnStarJS, an unofficial client library for the OnStar Vehicle API",
+      "updated_at": "2024-06-04T16:26:19.644Z",
+      "types": [
+        "get-account-vehicles",
+        "get-diagnostics",
+        "lock-myvehicle",
+        "unlock-myvehicle",
+        "lock-mytrunk",
+        "unlock-mytrunk",
+        "start-myvehicle",
+        "cancel-start-myvehicle",
+        "alert-myvehicle",
+        "alert-myvehicle-lights",
+        "alert-myvehicle-horn",
+        "cancel-alert-myvehicle",
+        "locate-vehicle",
+        "mycharge-override",
+        "get-mycharge-profile",
+        "set-mycharge-profile",
+        "onstar2"
+      ],
+      "keywords": [
+        "node-red",
+        "OnStar",
+        "Chevrolet",
+        "Chevy",
+        "GM",
+        "GMC",
+        "Buick",
+        "Cadillac"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-onstar2"
+    },
+    {
+      "id": "node-red-contrib-remote",
+      "version": "1.6.0",
+      "description": "Remote-RED is an ecosystem to bring remote access, push notification and geofencing to Node-RED. There are also additional functions like directly answer on a notification and homescreen widgets.",
+      "updated_at": "2024-06-04T15:56:12.407Z",
+      "types": [
+        "remote-config",
+        "remote-access",
+        "remote-notification",
+        "remote-question"
+      ],
+      "keywords": [
+        "node-red"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-remote"
+    },
     {
       "id": "@kitazaki/node-red-contrib-mcu-display-image",
       "version": "0.0.5",
@@ -38,26 +508,6 @@
         "lunatone"
       ],
       "url": "https://flows.nodered.org/node/@lunatone/node-red-dali"
-    },
-    {
-      "id": "node-red-contrib-enoceanip-dcnext",
-      "version": "0.1.3",
-      "description": "I/O nodes for Node-RED to communicate with EnOcean API. Copyright (c) 2024 DC Next GmbH",
-      "updated_at": "2024-06-04T11:27:42.655Z",
-      "types": [
-        "enocean gw",
-        "enocean out",
-        "enocean in"
-      ],
-      "keywords": [
-        "node-red",
-        "enocean",
-        "iot",
-        "home automation",
-        "digital concepts",
-        "energy harvesting"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-enoceanip-dcnext"
     },
     {
       "id": "node-red-contrib-boolean-logic-ultimate",
@@ -272,21 +722,6 @@
         "shelly"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-shelly"
-    },
-    {
-      "id": "@colinl/node-red-dashboard-2-ui-gauge-classic",
-      "version": "1.0.1",
-      "description": "A classic style gauge node for @flowfuse/node-red-dashboard",
-      "updated_at": "2024-06-02T15:17:30.291Z",
-      "types": [
-        "ui-gauge-classic",
-        "__errors__"
-      ],
-      "keywords": [
-        "node-red",
-        "node-red-dashboard-2"
-      ],
-      "url": "https://flows.nodered.org/node/@colinl/node-red-dashboard-2-ui-gauge-classic"
     },
     {
       "id": "@scepiconsulting/node-red-scepiconsulting-node",
@@ -921,27 +1356,6 @@
         "ollama"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-ollama"
-    },
-    {
-      "id": "@5minds/node-red-contrib-processcube",
-      "version": "0.3.2",
-      "description": "Node-RED nodes for ProcessCube",
-      "updated_at": "2024-05-28T14:02:28.650Z",
-      "types": [
-        "externaltask-input",
-        "externaltask-output",
-        "externaltask-error",
-        "process-start",
-        "processcube-engine-config"
-      ],
-      "keywords": [
-        "node-red",
-        "processcube",
-        "workflow",
-        "bpmn",
-        "low-code"
-      ],
-      "url": "https://flows.nodered.org/node/@5minds/node-red-contrib-processcube"
     },
     {
       "id": "node-red-contrib-cx-tag-emitter",
@@ -1862,28 +2276,6 @@
         "endian"
       ],
       "url": "https://flows.nodered.org/node/smithtek-nodered-mako-decoder"
-    },
-    {
-      "id": "@bitpoolos/edge-bacnet",
-      "version": "1.3.0",
-      "description": "A bacnet gateway for node-red",
-      "updated_at": "2024-05-16T07:20:29.893Z",
-      "types": [
-        "Bacnet-Gateway",
-        "Bacnet-Discovery",
-        "Bacnet-Write",
-        "Bitpool-Inject"
-      ],
-      "keywords": [
-        "node-red",
-        "bitpool",
-        "bitpoolos",
-        "edge",
-        "big data",
-        "iot",
-        "BACnet"
-      ],
-      "url": "https://flows.nodered.org/node/@bitpoolos/edge-bacnet"
     },
     {
       "id": "node-red-contrib-bizwechat",
@@ -2881,28 +3273,6 @@
       "url": "https://flows.nodered.org/node/@jung.group/node-red-contrib"
     },
     {
-      "id": "@gregoriusrippenstein/node-red-contrib-introspection",
-      "version": "0.7.8",
-      "description": "Node-RED Editor-only nodes for introspecting with flows in the frontend.",
-      "updated_at": "2024-05-06T09:02:22.411Z",
-      "types": [
-        "Seeker",
-        "Sink",
-        "ClientCode",
-        "GetFlows",
-        "SendFlow",
-        "InstallPackage"
-      ],
-      "keywords": [
-        "node-red",
-        "introspection",
-        "selfreflection",
-        "node-red-editor",
-        "screenshot"
-      ],
-      "url": "https://flows.nodered.org/node/@gregoriusrippenstein/node-red-contrib-introspection"
-    },
-    {
       "id": "node-red-contrib-context-nodes",
       "version": "1.0.1",
       "description": "Nodes for setting and getting context variables in Node-RED.",
@@ -3102,24 +3472,6 @@
         "powersaver"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-genetic-charging-strategy"
-    },
-    {
-      "id": "@appmodule/node-red-contrib-siot",
-      "version": "3.0.0-rc34",
-      "description": "Node-RED interactions with SIOT",
-      "updated_at": "2024-05-03T12:54:04.644Z",
-      "types": [
-        "ack",
-        "de-subscriber",
-        "de-publisher",
-        "siot-config",
-        "class-config",
-        "plugin-cnf"
-      ],
-      "keywords": [
-        "node-red"
-      ],
-      "url": "https://flows.nodered.org/node/@appmodule/node-red-contrib-siot"
     },
     {
       "id": "node-red-contrib-modbus-flex-server",
@@ -3789,26 +4141,6 @@
       "url": "https://flows.nodered.org/node/@gregoriusrippenstein/node-red-contrib-flowcompare"
     },
     {
-      "id": "@gregoriusrippenstein/node-red-contrib-flowhub",
-      "version": "0.8.2",
-      "description": "FlowHub.org: flow management with GitHub.",
-      "updated_at": "2024-04-19T11:31:45.106Z",
-      "types": [
-        "FlowHubPull",
-        "FlowHubCfg"
-      ],
-      "keywords": [
-        "node-red",
-        "flowhub",
-        "flow-sharing",
-        "collaborative",
-        "flow-development",
-        "flow-management",
-        "github"
-      ],
-      "url": "https://flows.nodered.org/node/@gregoriusrippenstein/node-red-contrib-flowhub"
-    },
-    {
       "id": "@gocontroll-nl/node-red-gocontroll",
       "version": "1.0.0",
       "description": "Node-RED nodes for GOcontroll Moduline controllers",
@@ -4006,42 +4338,6 @@
         "thingsdata"
       ],
       "url": "https://flows.nodered.org/node/@umsicht/node-red-contrib-thingsdata"
-    },
-    {
-      "id": "node-red-contrib-onstar2",
-      "version": "2.2.3",
-      "description": "An updated Node-RED Library using OnStarJS, an unofficial client library for the OnStar Vehicle API",
-      "updated_at": "2024-04-17T01:15:52.201Z",
-      "types": [
-        "get-account-vehicles",
-        "get-diagnostics",
-        "lock-myvehicle",
-        "unlock-myvehicle",
-        "lock-mytrunk",
-        "unlock-mytrunk",
-        "start-myvehicle",
-        "cancel-start-myvehicle",
-        "alert-myvehicle",
-        "alert-myvehicle-lights",
-        "alert-myvehicle-horn",
-        "cancel-alert-myvehicle",
-        "locate-vehicle",
-        "mycharge-override",
-        "get-mycharge-profile",
-        "set-mycharge-profile",
-        "onstar2"
-      ],
-      "keywords": [
-        "node-red",
-        "OnStar",
-        "Chevrolet",
-        "Chevy",
-        "GM",
-        "GMC",
-        "Buick",
-        "Cadillac"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-onstar2"
     },
     {
       "id": "tams-plc-order-get",
@@ -7130,22 +7426,6 @@
         "scheduler"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-bigtimer"
-    },
-    {
-      "id": "node-red-contrib-remote",
-      "version": "1.5.3",
-      "description": "Remote-RED is an ecosystem to bring remote access, push notification and geofencing to Node-RED. There are also additional functions like directly answer on a notification and homescreen widgets.",
-      "updated_at": "2024-02-26T10:09:40.456Z",
-      "types": [
-        "remote-config",
-        "remote-access",
-        "remote-notification",
-        "remote-question"
-      ],
-      "keywords": [
-        "node-red"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-remote"
     },
     {
       "id": "node-red-v4-contrib-redis",
@@ -11054,25 +11334,6 @@
       "url": "https://flows.nodered.org/node/@thewiw/node-red-contrib-wiw-bridge"
     },
     {
-      "id": "atomic-jetstream",
-      "version": "0.0.17",
-      "description": "NATS JetStream module for Brobridge Atomic",
-      "updated_at": "2023-12-06T02:16:57.309Z",
-      "types": [
-        "NATS JetStream Consumer",
-        "NATS JetStream Publish",
-        "NATS JetStream Server",
-        "NATS JetStream Acknowledge",
-        "NATS JetStream Stream"
-      ],
-      "keywords": [
-        "jetstream",
-        "node-red",
-        "atomic"
-      ],
-      "url": "https://flows.nodered.org/node/atomic-jetstream"
-    },
-    {
       "id": "node-red-node-stomp",
       "version": "1.0.6",
       "description": "A Node-RED node to publish and subscribe to/from a Stomp server",
@@ -12983,142 +13244,6 @@
         "node-red"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-mock-cli"
-    },
-    {
-      "id": "node-red-contrib-snap4city-user",
-      "version": "0.9.50",
-      "description": "Nodes for Snap4city project, targeted to standard user (no developer)",
-      "updated_at": "2023-10-13T10:04:26.479Z",
-      "types": [
-        "service-search-near-marker",
-        "service-search-within-circle",
-        "service-search-within-polygon",
-        "service-search-along-path",
-        "distance-from-coordinates",
-        "point-within-polygon",
-        "routing",
-        "heatmap-picker",
-        "coordinates-to-address",
-        "service-info",
-        "full-text-search-near-marker",
-        "full-text-search-within-circle",
-        "full-text-search-within-polygon",
-        "full-text-search-along-path",
-        "full-text-search-usr",
-        "event-search-near-marker",
-        "event-search-within-circle",
-        "event-search-within-polygon",
-        "event-search-along-path",
-        "event-search-usr",
-        "address-search-near-marker",
-        "geometry-search-near-marker",
-        "address-poi-search-by-text-usr",
-        "address-poi-search-by-text-near-marker",
-        "address-poi-search-by-text-within-circle",
-        "bus-routes-search-near-marker",
-        "bus-routes-search-within-circle",
-        "bus-routes-search-within-polygon",
-        "tpl-agencies",
-        "tpl-lines",
-        "tpl-routes-by-agency",
-        "tpl-routes-by-line",
-        "tpl-stops-by-route",
-        "tpl-stop-timeline",
-        "recommendations-within-circle",
-        "value-type-search-near-marker",
-        "value-type-search-within-circle",
-        "value-type-search-within-polygon",
-        "value-type-search-along-path",
-        "get-access-token",
-        "get-my-data",
-        "get-my-kpidata",
-        "get-delegated-kpidata",
-        "get-public-kpidata",
-        "get-my-kpidata-values",
-        "get-public-kpidata-values",
-        "get-delegated-kpidata-values",
-        "get-my-delegator",
-        "get-my-delegated",
-        "get-my-activity",
-        "delegate-my-kpidata",
-        "get-other-activity-on-my-data",
-        "get-iotapps-using-my-kpidata",
-        "save-my-data",
-        "save-my-kpidata-values",
-        "get-my-annotation",
-        "get-anonymous-data",
-        "get-other-data",
-        "iotdirectory-new-device-from-model",
-        "delegate-my-device",
-        "get-my-devices",
-        "remove-delegation-my-device",
-        "change-visibility-my-device",
-        "get-delegation-my-device",
-        "change-ownership-my-device",
-        "coordinates-from-map",
-        "impulse-button",
-        "numeric-keyboard",
-        "switch-button",
-        "dimmer",
-        "dashboardEvent",
-        "dashboardDevice",
-        "dashboard-geolocator",
-        "dropdown",
-        "dashboardForm",
-        "gauge-chart",
-        "single-content",
-        "speedometer",
-        "bar-content",
-        "column-content",
-        "web-content",
-        "dashboard-time-trend",
-        "bar-series",
-        "radar-series",
-        "pie-chart",
-        "curved-line-series",
-        "table-content",
-        "speak-synthesis",
-        "selector-to-map",
-        "dashboard-map",
-        "event-driven-my-kpi",
-        "synoptic-read",
-        "synoptic-write",
-        "synoptic-subscribe",
-        "sigfox device filter",
-        "sigfox in",
-        "iotdirectory-get-device",
-        "event-log",
-        "orion-service",
-        "fiware orion in",
-        "fiware orion",
-        "orion-test",
-        "fiware-orion-out",
-        "orion-service-api-v2",
-        "orion-subscribe-api-v2",
-        "orion-query-api-v2",
-        "orion-update-api-v2",
-        "orion-out-api-v2",
-        "orion-service-v22",
-        "fiware-orion-in-v22",
-        "fiware-orion-query-v22",
-        "fiware-orion-out-v22",
-        "orion-service-v2",
-        "fiware-orion-in-v2",
-        "fiware-orion-query-v2",
-        "fiware-orion-out-v2",
-        "show-micro-web-app",
-        "show-general-iframe",
-        "twitter-last-channel",
-        "twitter-last-tweet",
-        "snap4city-authentication",
-        "snap4all-button"
-      ],
-      "keywords": [
-        "node-red",
-        "smartcity",
-        "iot"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-snap4city-user"
     },
     {
       "id": "@oqdo/node-red-oqdobos",
@@ -15304,24 +15429,6 @@
         "sqlite"
       ],
       "url": "https://flows.nodered.org/node/node-red-node-sqlite"
-    },
-    {
-      "id": "node-red-contrib-spreadsheet-in",
-      "version": "0.7.1",
-      "description": "This package provides Node-RED nodes to read data from spreadsheet (Excel, ODS, etc.) file.",
-      "updated_at": "2023-09-15T21:39:26.543Z",
-      "types": [
-        "book",
-        "sheet",
-        "cell",
-        "sheet-to-json"
-      ],
-      "keywords": [
-        "node-red",
-        "spreadsheet",
-        "excel"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-spreadsheet-in"
     },
     {
       "id": "node-red-contrib-postgresql",
@@ -21588,41 +21695,6 @@
       "url": "https://flows.nodered.org/node/node-red-contrib-pdf-merger"
     },
     {
-      "id": "node-red-contrib-bluelinky",
-      "version": "0.0.30",
-      "description": "A Node Red Library for BlueLinky, a Hyundai and Kia 3rd-party wrapper",
-      "updated_at": "2023-03-25T17:46:03.788Z",
-      "types": [
-        "car-status",
-        "car-fullstatus",
-        "get-tripinfo",
-        "get-drivehistory",
-        "get-monthlyreport",
-        "set-navigation",
-        "set-chargetargets",
-        "get-chargetargets",
-        "start-car",
-        "stop-car",
-        "car-odometer",
-        "car-location",
-        "unlock-car",
-        "lock-car",
-        "start-charge",
-        "stop-charge",
-        "login",
-        "bluelinky"
-      ],
-      "keywords": [
-        "Hyundai",
-        "Kia",
-        "Bluelink",
-        "UVO",
-        "Bluelinky",
-        "node-red"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-bluelinky"
-    },
-    {
       "id": "node-red-contrib-wsjt-x",
       "version": "2.0.1",
       "description": "WSJT-X Data Decoding",
@@ -23727,28 +23799,6 @@
         "twitter"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-twitter-media"
-    },
-    {
-      "id": "@blockbax/node-red-contrib-blockbax",
-      "version": "0.0.13",
-      "description": "A set of Node-RED nodes to interact with the Blockbax Platform",
-      "updated_at": "2023-01-27T16:52:18.609Z",
-      "types": [
-        "blockbax-parse",
-        "blockbax-send",
-        "blockbax-aggregate",
-        "blockbax-project",
-        "blockbax-subscribe"
-      ],
-      "keywords": [
-        "node-red",
-        "blockbax",
-        "iot",
-        "edge",
-        "sensors",
-        "data"
-      ],
-      "url": "https://flows.nodered.org/node/@blockbax/node-red-contrib-blockbax"
     },
     {
       "id": "nr-gotify",
