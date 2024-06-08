@@ -1,7 +1,42 @@
 {
   "name": "Catalogue for Docker",
-  "updated_at": "2024-06-07T15:59:54.335Z",
+  "updated_at": "2024-06-08T15:56:00.523Z",
   "modules": [
+    {
+      "id": "@kitazaki/node-red-contrib-mcu-display-image",
+      "version": "0.1.0",
+      "description": "display JPEG/PNG with Node-RED MCU",
+      "updated_at": "2024-06-08T12:42:42.084Z",
+      "types": [
+        "mcu_displayjpeg",
+        "mcu_displaypng"
+      ],
+      "keywords": [
+        "node-red",
+        "node-red-mcu",
+        "moddable",
+        "display",
+        "image"
+      ],
+      "url": "https://flows.nodered.org/node/@kitazaki/node-red-contrib-mcu-display-image"
+    },
+    {
+      "id": "@kitazaki/node-red-contrib-mcu-display-text",
+      "version": "0.0.4",
+      "description": "display TEXT with Node-RED MCU",
+      "updated_at": "2024-06-08T12:38:45.200Z",
+      "types": [
+        "mcu_displaytext"
+      ],
+      "keywords": [
+        "node-red",
+        "node-red-mcu",
+        "moddable",
+        "display",
+        "text"
+      ],
+      "url": "https://flows.nodered.org/node/@kitazaki/node-red-contrib-mcu-display-text"
+    },
     {
       "id": "@blockbax/node-red-contrib-blockbax",
       "version": "0.0.14",
@@ -471,24 +506,6 @@
         "node-red"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-remote"
-    },
-    {
-      "id": "@kitazaki/node-red-contrib-mcu-display-image",
-      "version": "0.0.5",
-      "description": "display JPEG/PNG with Node-RED MCU",
-      "updated_at": "2024-06-04T14:54:40.812Z",
-      "types": [
-        "mcu_displayjpeg",
-        "mcu_displaypng"
-      ],
-      "keywords": [
-        "node-red",
-        "node-red-mcu",
-        "moddable",
-        "display",
-        "image"
-      ],
-      "url": "https://flows.nodered.org/node/@kitazaki/node-red-contrib-mcu-display-image"
     },
     {
       "id": "@lunatone/node-red-dali",
