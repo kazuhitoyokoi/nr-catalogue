@@ -1,7 +1,83 @@
 {
   "name": "Catalogue for Docker",
-  "updated_at": "2024-06-09T15:53:57.247Z",
+  "updated_at": "2024-06-10T15:56:38.860Z",
   "modules": [
+    {
+      "id": "grunig-nodes",
+      "version": "1.1.28",
+      "description": "Grünig Nodes Library",
+      "updated_at": "2024-06-10T07:16:03.305Z",
+      "types": [
+        "OpcUa-Read",
+        "MQTT-InfluxDB-Write",
+        "Modbus-Read",
+        "AlarmOutput",
+        "Visualization",
+        "Magazine-Position",
+        "Move-Beam",
+        "MQTT-InfluxDB-Alarm",
+        "G-Remote",
+        "G-FrameManager",
+        "G-StorageManager",
+        "ProcessControl",
+        "remote-database"
+      ],
+      "keywords": [
+        "grünig",
+        "grunig",
+        "node-red",
+        "OpcUa",
+        "MQTT",
+        "InfluxDB",
+        "Modbus",
+        "Read",
+        "Write"
+      ],
+      "url": "https://flows.nodered.org/node/grunig-nodes"
+    },
+    {
+      "id": "node-red-contrib-remote",
+      "version": "1.6.1",
+      "description": "Remote-RED is an ecosystem to bring remote access, push notification and geofencing to Node-RED. There are also additional functions like directly answer on a notification and homescreen widgets.",
+      "updated_at": "2024-06-09T19:23:51.725Z",
+      "types": [
+        "remote-config",
+        "remote-access",
+        "remote-notification",
+        "remote-question"
+      ],
+      "keywords": [
+        "node-red"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-remote"
+    },
+    {
+      "id": "node-red-contrib-ollama",
+      "version": "0.1.9",
+      "description": "Add AI functionality to your flows! This module includes a set of nodes that enable easy communication with Ollama, enriching your projects with intelligent solutions.",
+      "updated_at": "2024-06-09T16:22:14.726Z",
+      "types": [
+        "ollama-chat",
+        "ollama-copy",
+        "ollama-create",
+        "ollama-delete",
+        "ollama-embeddings",
+        "ollama-generate",
+        "ollama-list",
+        "ollama-pull",
+        "ollama-push",
+        "ollama-show"
+      ],
+      "keywords": [
+        "ai",
+        "llama",
+        "llm",
+        "llms",
+        "node-red",
+        "ollama"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-ollama"
+    },
     {
       "id": "@sisodiakaran/node-red-contrib-atomberg",
       "version": "1.0.7",
@@ -527,22 +603,6 @@
         "Cadillac"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-onstar2"
-    },
-    {
-      "id": "node-red-contrib-remote",
-      "version": "1.6.0",
-      "description": "Remote-RED is an ecosystem to bring remote access, push notification and geofencing to Node-RED. There are also additional functions like directly answer on a notification and homescreen widgets.",
-      "updated_at": "2024-06-04T15:56:12.407Z",
-      "types": [
-        "remote-config",
-        "remote-access",
-        "remote-notification",
-        "remote-question"
-      ],
-      "keywords": [
-        "node-red"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-remote"
     },
     {
       "id": "@lunatone/node-red-dali",
@@ -1361,33 +1421,6 @@
       "url": "https://flows.nodered.org/node/node-red-contrib-hikvision-ultimate"
     },
     {
-      "id": "node-red-contrib-ollama",
-      "version": "0.1.8",
-      "description": "A Node-RED module that wraps the ollama.js library, offering its functionalities as configurable nodes for easy integration into flows.",
-      "updated_at": "2024-05-28T16:16:55.413Z",
-      "types": [
-        "ollama-chat",
-        "ollama-copy",
-        "ollama-create",
-        "ollama-delete",
-        "ollama-embeddings",
-        "ollama-generate",
-        "ollama-list",
-        "ollama-pull",
-        "ollama-push",
-        "ollama-show"
-      ],
-      "keywords": [
-        "ai",
-        "llama",
-        "llm",
-        "llms",
-        "node-red",
-        "ollama"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-ollama"
-    },
-    {
       "id": "node-red-contrib-cx-tag-emitter",
       "version": "2.4.15",
       "description": "Emits tag values on change",
@@ -1407,39 +1440,6 @@
         "controlx.io"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-cx-tag-emitter"
-    },
-    {
-      "id": "grunig-nodes",
-      "version": "1.1.26",
-      "description": "Grünig Nodes Library",
-      "updated_at": "2024-05-28T11:43:25.478Z",
-      "types": [
-        "OpcUa-Read",
-        "MQTT-InfluxDB-Write",
-        "Modbus-Read",
-        "AlarmOutput",
-        "Visualization",
-        "Magazine-Position",
-        "Move-Beam",
-        "MQTT-InfluxDB-Alarm",
-        "G-Remote",
-        "G-FrameManager",
-        "G-StorageManager",
-        "ProcessControl",
-        "remote-database"
-      ],
-      "keywords": [
-        "grünig",
-        "grunig",
-        "node-red",
-        "OpcUa",
-        "MQTT",
-        "InfluxDB",
-        "Modbus",
-        "Read",
-        "Write"
-      ],
-      "url": "https://flows.nodered.org/node/grunig-nodes"
     },
     {
       "id": "node-red-contrib-signal-cmb",
