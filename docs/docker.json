@@ -1,7 +1,255 @@
 {
   "name": "Catalogue for Docker",
-  "updated_at": "2024-06-10T15:56:38.860Z",
+  "updated_at": "2024-06-11T15:57:02.300Z",
   "modules": [
+    {
+      "id": "@platmac/node-red-google-calendar",
+      "version": "0.1.1",
+      "description": "The simplest of simple nodes with google calendar",
+      "updated_at": "2024-06-11T12:11:43.320Z",
+      "types": [
+        "google-credentials",
+        "google-api-config",
+        "addEvent",
+        "GetEvent",
+        "updateEvent"
+      ],
+      "keywords": [
+        "node-red",
+        "google-calendar"
+      ],
+      "url": "https://flows.nodered.org/node/@platmac/node-red-google-calendar"
+    },
+    {
+      "id": "@jung.group/node-red-contrib",
+      "version": "1.0.2",
+      "description": "JUNG Open API for Node-RED",
+      "updated_at": "2024-06-11T11:56:01.788Z",
+      "types": [
+        "jung-send-command",
+        "jung-receive-status",
+        "jungcloud-config"
+      ],
+      "keywords": [
+        "jung",
+        "node-red"
+      ],
+      "url": "https://flows.nodered.org/node/@jung.group/node-red-contrib"
+    },
+    {
+      "id": "node-red-contrib-daichi-cloud",
+      "version": "1.1.1",
+      "description": "Daichi Cloud connectivity nodes for node-red",
+      "updated_at": "2024-06-11T10:11:08.216Z",
+      "types": [
+        "daichi-service",
+        "__errors__",
+        "daichi-device"
+      ],
+      "keywords": [
+        "node-red",
+        "daichi",
+        "daikin"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-daichi-cloud"
+    },
+    {
+      "id": "@gocontroll-nl/node-red-gocontroll",
+      "version": "2.0.0",
+      "description": "Node-RED nodes for GOcontroll Moduline controllers",
+      "updated_at": "2024-06-11T09:39:56.539Z",
+      "types": [
+        "4-20mA-Module",
+        "Input-Module-10",
+        "Input-Module",
+        "Output-Module-10",
+        "Output-Module",
+        "Bridge-Module",
+        "Settings",
+        "Controller-Active",
+        "Controller-Supply",
+        "CPU-Temperature",
+        "Status-Led",
+        "GPS",
+        "CAN-Receive",
+        "CAN-Send",
+        "Read-Memory",
+        "Write-Memory",
+        "Read-Simulink-Signal",
+        "Write-Simulink-Parameter"
+      ],
+      "keywords": [
+        "node-red",
+        "GOcontroll"
+      ],
+      "url": "https://flows.nodered.org/node/@gocontroll-nl/node-red-gocontroll"
+    },
+    {
+      "id": "node-red-contrib-tado-client",
+      "version": "0.11.0",
+      "description": "Tado web API client node for Node Red",
+      "updated_at": "2024-06-11T06:05:42.218Z",
+      "types": [
+        "tado-config",
+        "tado"
+      ],
+      "keywords": [
+        "node-red",
+        "tado"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-tado-client"
+    },
+    {
+      "id": "@insectos/ssh-exec",
+      "version": "0.3.5",
+      "description": "A flexible SSH client for Node-RED",
+      "updated_at": "2024-06-11T00:30:13.883Z",
+      "types": [
+        "ssh-exec"
+      ],
+      "keywords": [
+        "node-red",
+        "ssh",
+        "interactive"
+      ],
+      "url": "https://flows.nodered.org/node/@insectos/ssh-exec"
+    },
+    {
+      "id": "node-red-contrib-snap4city-user",
+      "version": "0.9.52",
+      "description": "Nodes for Snap4city project, targeted to standard user (no developer)",
+      "updated_at": "2024-06-10T15:04:34.715Z",
+      "types": [
+        "service-search-near-marker",
+        "service-search-within-circle",
+        "service-search-within-polygon",
+        "service-search-along-path",
+        "distance-from-coordinates",
+        "point-within-polygon",
+        "routing",
+        "heatmap-picker",
+        "coordinates-to-address",
+        "service-info",
+        "full-text-search-near-marker",
+        "full-text-search-within-circle",
+        "full-text-search-within-polygon",
+        "full-text-search-along-path",
+        "full-text-search-usr",
+        "event-search-near-marker",
+        "event-search-within-circle",
+        "event-search-within-polygon",
+        "event-search-along-path",
+        "event-search-usr",
+        "address-search-near-marker",
+        "geometry-search-near-marker",
+        "address-poi-search-by-text-usr",
+        "address-poi-search-by-text-near-marker",
+        "address-poi-search-by-text-within-circle",
+        "bus-routes-search-near-marker",
+        "bus-routes-search-within-circle",
+        "bus-routes-search-within-polygon",
+        "tpl-agencies",
+        "tpl-lines",
+        "tpl-routes-by-agency",
+        "tpl-routes-by-line",
+        "tpl-stops-by-route",
+        "tpl-stop-timeline",
+        "recommendations-within-circle",
+        "value-type-search-near-marker",
+        "value-type-search-within-circle",
+        "value-type-search-within-polygon",
+        "value-type-search-along-path",
+        "get-access-token",
+        "get-my-data",
+        "get-my-kpidata",
+        "get-delegated-kpidata",
+        "get-public-kpidata",
+        "get-my-kpidata-values",
+        "get-public-kpidata-values",
+        "get-delegated-kpidata-values",
+        "get-my-delegator",
+        "get-my-delegated",
+        "get-my-activity",
+        "delegate-my-kpidata",
+        "get-other-activity-on-my-data",
+        "get-iotapps-using-my-kpidata",
+        "save-my-data",
+        "save-my-kpidata-values",
+        "get-my-annotation",
+        "get-anonymous-data",
+        "get-other-data",
+        "iotdirectory-new-device-from-model",
+        "delegate-my-device",
+        "get-my-devices",
+        "remove-delegation-my-device",
+        "change-visibility-my-device",
+        "get-delegation-my-device",
+        "change-ownership-my-device",
+        "coordinates-from-map",
+        "impulse-button",
+        "numeric-keyboard",
+        "switch-button",
+        "dimmer",
+        "dashboardEvent",
+        "dashboardDevice",
+        "dashboard-geolocator",
+        "dropdown",
+        "dashboardForm",
+        "gauge-chart",
+        "single-content",
+        "speedometer",
+        "bar-content",
+        "column-content",
+        "web-content",
+        "dashboard-time-trend",
+        "bar-series",
+        "radar-series",
+        "pie-chart",
+        "curved-line-series",
+        "table-content",
+        "speak-synthesis",
+        "selector-to-map",
+        "dashboard-map",
+        "event-driven-my-kpi",
+        "synoptic-read",
+        "synoptic-write",
+        "synoptic-subscribe",
+        "sigfox device filter",
+        "sigfox in",
+        "iotdirectory-get-device",
+        "event-log",
+        "orion-service",
+        "fiware orion in",
+        "fiware orion",
+        "orion-test",
+        "fiware-orion-out",
+        "orion-service-api-v2",
+        "orion-subscribe-api-v2",
+        "orion-query-api-v2",
+        "orion-update-api-v2",
+        "orion-out-api-v2",
+        "orion-service-v22",
+        "fiware-orion-in-v22",
+        "fiware-orion-query-v22",
+        "fiware-orion-out-v22",
+        "orion-service-v2",
+        "fiware-orion-in-v2",
+        "fiware-orion-query-v2",
+        "fiware-orion-out-v2",
+        "show-micro-web-app",
+        "show-general-iframe",
+        "twitter-last-channel",
+        "twitter-last-tweet",
+        "snap4city-authentication",
+        "snap4all-button"
+      ],
+      "keywords": [
+        "node-red",
+        "smartcity",
+        "iot"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-snap4city-user"
+    },
     {
       "id": "grunig-nodes",
       "version": "1.1.28",
@@ -245,142 +493,6 @@
       "url": "https://flows.nodered.org/node/node-red-contrib-bluelinky"
     },
     {
-      "id": "node-red-contrib-snap4city-user",
-      "version": "0.9.51",
-      "description": "Nodes for Snap4city project, targeted to standard user (no developer)",
-      "updated_at": "2024-06-06T12:50:08.866Z",
-      "types": [
-        "service-search-near-marker",
-        "service-search-within-circle",
-        "service-search-within-polygon",
-        "service-search-along-path",
-        "distance-from-coordinates",
-        "point-within-polygon",
-        "routing",
-        "heatmap-picker",
-        "coordinates-to-address",
-        "service-info",
-        "full-text-search-near-marker",
-        "full-text-search-within-circle",
-        "full-text-search-within-polygon",
-        "full-text-search-along-path",
-        "full-text-search-usr",
-        "event-search-near-marker",
-        "event-search-within-circle",
-        "event-search-within-polygon",
-        "event-search-along-path",
-        "event-search-usr",
-        "address-search-near-marker",
-        "geometry-search-near-marker",
-        "address-poi-search-by-text-usr",
-        "address-poi-search-by-text-near-marker",
-        "address-poi-search-by-text-within-circle",
-        "bus-routes-search-near-marker",
-        "bus-routes-search-within-circle",
-        "bus-routes-search-within-polygon",
-        "tpl-agencies",
-        "tpl-lines",
-        "tpl-routes-by-agency",
-        "tpl-routes-by-line",
-        "tpl-stops-by-route",
-        "tpl-stop-timeline",
-        "recommendations-within-circle",
-        "value-type-search-near-marker",
-        "value-type-search-within-circle",
-        "value-type-search-within-polygon",
-        "value-type-search-along-path",
-        "get-access-token",
-        "get-my-data",
-        "get-my-kpidata",
-        "get-delegated-kpidata",
-        "get-public-kpidata",
-        "get-my-kpidata-values",
-        "get-public-kpidata-values",
-        "get-delegated-kpidata-values",
-        "get-my-delegator",
-        "get-my-delegated",
-        "get-my-activity",
-        "delegate-my-kpidata",
-        "get-other-activity-on-my-data",
-        "get-iotapps-using-my-kpidata",
-        "save-my-data",
-        "save-my-kpidata-values",
-        "get-my-annotation",
-        "get-anonymous-data",
-        "get-other-data",
-        "iotdirectory-new-device-from-model",
-        "delegate-my-device",
-        "get-my-devices",
-        "remove-delegation-my-device",
-        "change-visibility-my-device",
-        "get-delegation-my-device",
-        "change-ownership-my-device",
-        "coordinates-from-map",
-        "impulse-button",
-        "numeric-keyboard",
-        "switch-button",
-        "dimmer",
-        "dashboardEvent",
-        "dashboardDevice",
-        "dashboard-geolocator",
-        "dropdown",
-        "dashboardForm",
-        "gauge-chart",
-        "single-content",
-        "speedometer",
-        "bar-content",
-        "column-content",
-        "web-content",
-        "dashboard-time-trend",
-        "bar-series",
-        "radar-series",
-        "pie-chart",
-        "curved-line-series",
-        "table-content",
-        "speak-synthesis",
-        "selector-to-map",
-        "dashboard-map",
-        "event-driven-my-kpi",
-        "synoptic-read",
-        "synoptic-write",
-        "synoptic-subscribe",
-        "sigfox device filter",
-        "sigfox in",
-        "iotdirectory-get-device",
-        "event-log",
-        "orion-service",
-        "fiware orion in",
-        "fiware orion",
-        "orion-test",
-        "fiware-orion-out",
-        "orion-service-api-v2",
-        "orion-subscribe-api-v2",
-        "orion-query-api-v2",
-        "orion-update-api-v2",
-        "orion-out-api-v2",
-        "orion-service-v22",
-        "fiware-orion-in-v22",
-        "fiware-orion-query-v22",
-        "fiware-orion-out-v22",
-        "orion-service-v2",
-        "fiware-orion-in-v2",
-        "fiware-orion-query-v2",
-        "fiware-orion-out-v2",
-        "show-micro-web-app",
-        "show-general-iframe",
-        "twitter-last-channel",
-        "twitter-last-tweet",
-        "snap4city-authentication",
-        "snap4all-button"
-      ],
-      "keywords": [
-        "node-red",
-        "smartcity",
-        "iot"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-snap4city-user"
-    },
-    {
       "id": "@bitpoolos/edge-bacnet",
       "version": "1.3.1",
       "description": "A bacnet gateway for node-red",
@@ -513,6 +625,23 @@
         "low-code"
       ],
       "url": "https://flows.nodered.org/node/@5minds/node-red-contrib-processcube"
+    },
+    {
+      "id": "victron-vrm-api",
+      "version": "0.2.5",
+      "description": "Interface with the Victron Energy VRM API",
+      "updated_at": "2024-06-05T08:56:07.121Z",
+      "types": [
+        "config-vrm-api",
+        "vrm-api"
+      ],
+      "keywords": [
+        "node-red",
+        "victron",
+        "vrm",
+        "api"
+      ],
+      "url": "https://flows.nodered.org/node/victron-vrm-api"
     },
     {
       "id": "node-red-contrib-enoceanip-dcnext",
@@ -669,23 +798,6 @@
         "node-red"
       ],
       "url": "https://flows.nodered.org/node/@inteli.city/node-red-contrib-exec-collection"
-    },
-    {
-      "id": "node-red-contrib-daichi-cloud",
-      "version": "1.0.3",
-      "description": "Daichi Cloud connectivity nodes for node-red",
-      "updated_at": "2024-06-03T22:55:33.586Z",
-      "types": [
-        "daichi-service",
-        "__errors__",
-        "daichi-device"
-      ],
-      "keywords": [
-        "node-red",
-        "daichi",
-        "daikin"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-daichi-cloud"
     },
     {
       "id": "node-red-contrib-tibber-api",
@@ -3287,22 +3399,6 @@
       "url": "https://flows.nodered.org/node/node-red-contrib-openpgp-by-bhk"
     },
     {
-      "id": "@jung.group/node-red-contrib",
-      "version": "1.0.1",
-      "description": "JUNG Open API for Node-RED",
-      "updated_at": "2024-05-06T10:23:40.100Z",
-      "types": [
-        "jung-send-command",
-        "jung-receive-status",
-        "jungcloud-config"
-      ],
-      "keywords": [
-        "jung",
-        "node-red"
-      ],
-      "url": "https://flows.nodered.org/node/@jung.group/node-red-contrib"
-    },
-    {
       "id": "node-red-contrib-context-nodes",
       "version": "1.0.1",
       "description": "Nodes for setting and getting context variables in Node-RED.",
@@ -3949,23 +4045,6 @@
       "url": "https://flows.nodered.org/node/@gregoriusrippenstein/node-red-streaming"
     },
     {
-      "id": "victron-vrm-api",
-      "version": "0.2.4",
-      "description": "Interface with the Victron Energy VRM API",
-      "updated_at": "2024-04-24T08:58:52.052Z",
-      "types": [
-        "config-vrm-api",
-        "vrm-api"
-      ],
-      "keywords": [
-        "node-red",
-        "victron",
-        "vrm",
-        "api"
-      ],
-      "url": "https://flows.nodered.org/node/victron-vrm-api"
-    },
-    {
       "id": "@parallaxcontrol/node-red-control",
       "version": "1.0.51",
       "description": "A comprehensive package of Node-RED nodes designed to seamlessly integrate with the Parallax Control Engine, offering enhanced control capabilities for AV Automation.",
@@ -4169,36 +4248,6 @@
         "flow-comparison"
       ],
       "url": "https://flows.nodered.org/node/@gregoriusrippenstein/node-red-contrib-flowcompare"
-    },
-    {
-      "id": "@gocontroll-nl/node-red-gocontroll",
-      "version": "1.0.0",
-      "description": "Node-RED nodes for GOcontroll Moduline controllers",
-      "updated_at": "2024-04-19T11:29:42.621Z",
-      "types": [
-        "4-20mA-Module",
-        "Settings",
-        "Controller-Active",
-        "Controller-Supply",
-        "CPU-Temperature",
-        "Status-Led",
-        "GPS",
-        "Input-Module",
-        "Input-Module-Reset",
-        "Output-Module",
-        "Bridge-Module",
-        "CAN-Receive",
-        "CAN-Send",
-        "Read-Memory",
-        "Write-Memory",
-        "Read-Simulink-Signal",
-        "Write-Simulink-Parameter"
-      ],
-      "keywords": [
-        "node-red",
-        "GOcontroll"
-      ],
-      "url": "https://flows.nodered.org/node/@gocontroll-nl/node-red-gocontroll"
     },
     {
       "id": "@sargerino/node-red-ecs-logger",
@@ -7910,21 +7959,6 @@
       "url": "https://flows.nodered.org/node/@nagisa~/node-red-dsmr"
     },
     {
-      "id": "node-red-contrib-tado-client",
-      "version": "0.10.11",
-      "description": "Tado web API client node for Node Red",
-      "updated_at": "2024-02-17T16:22:17.777Z",
-      "types": [
-        "tado-config",
-        "tado"
-      ],
-      "keywords": [
-        "node-red",
-        "tado"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-tado-client"
-    },
-    {
       "id": "@flowfuse/node-red-dashboard-2-ui-led",
       "version": "1.0.0",
       "description": "A simple LED status indicator for the Node-RED Dashboard 2.0",
@@ -10144,6 +10178,21 @@
         "home automation"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-dyson-purelink"
+    },
+    {
+      "id": "@insectos/node-red-ssh-exec",
+      "version": "0.3.5",
+      "description": "A flexible SSH client for Node-RED",
+      "updated_at": "2024-01-02T18:50:11.372Z",
+      "types": [
+        "ssh-exec"
+      ],
+      "keywords": [
+        "node-red",
+        "ssh",
+        "interactive"
+      ],
+      "url": "https://flows.nodered.org/node/@insectos/node-red-ssh-exec"
     },
     {
       "id": "@thib3113/node-red-lovebox",
@@ -15622,21 +15671,6 @@
         "node-red"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-mf-mavlink"
-    },
-    {
-      "id": "@insectos/ssh-exec",
-      "version": "0.3.2",
-      "description": "A flexible SSH client for Node-RED",
-      "updated_at": "2023-09-12T06:45:48.724Z",
-      "types": [
-        "ssh-exec"
-      ],
-      "keywords": [
-        "node-red",
-        "ssh",
-        "interactive"
-      ],
-      "url": "https://flows.nodered.org/node/@insectos/ssh-exec"
     },
     {
       "id": "node-red-contrib-schedule-generator",
