@@ -1,12 +1,12 @@
 {
   "name": "Catalogue for Docker",
-  "updated_at": "2024-06-11T15:57:02.300Z",
+  "updated_at": "2024-06-12T15:57:24.328Z",
   "modules": [
     {
       "id": "@platmac/node-red-google-calendar",
-      "version": "0.1.1",
+      "version": "0.1.2",
       "description": "The simplest of simple nodes with google calendar",
-      "updated_at": "2024-06-11T12:11:43.320Z",
+      "updated_at": "2024-06-12T12:16:48.788Z",
       "types": [
         "google-credentials",
         "google-api-config",
@@ -19,6 +19,50 @@
         "google-calendar"
       ],
       "url": "https://flows.nodered.org/node/@platmac/node-red-google-calendar"
+    },
+    {
+      "id": "@ncd-io/node-red-enterprise-sensors",
+      "version": "1.0.0",
+      "description": "You can install this library through the Palette Manager in Node-Red's UI.",
+      "updated_at": "2024-06-11T19:26:49.079Z",
+      "types": [
+        "ncd-gateway-node",
+        "ncd-wireless-node",
+        "ncd-gateway-config"
+      ],
+      "keywords": [
+        "Wireless",
+        "NCD",
+        "Sensors",
+        "Digi",
+        "node-red",
+        "enterprise"
+      ],
+      "url": "https://flows.nodered.org/node/@ncd-io/node-red-enterprise-sensors"
+    },
+    {
+      "id": "node-red-contrib-tfr2cot",
+      "version": "1.1.6",
+      "description": "If msg.payload or env.state is a 2 letter U.S. abbreviation for a state, this node returns a msg.payload as JSON cursor-on-target (CoT) message for use with node-red-contrib-tak node and tcp out node.",
+      "updated_at": "2024-06-11T15:00:25.468Z",
+      "types": [
+        "tfr2cot",
+        "dataSyncSubscription"
+      ],
+      "keywords": [
+        "nodered",
+        "node-red",
+        "atak",
+        "itak",
+        "tak",
+        "cot",
+        "tak",
+        "server",
+        "tak-server",
+        "tfr",
+        "faa"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-tfr2cot"
     },
     {
       "id": "@jung.group/node-red-contrib",
@@ -1371,26 +1415,6 @@
         "node-red"
       ],
       "url": "https://flows.nodered.org/node/@rotflorg/node-red-contrib-ecoflow-powerstream"
-    },
-    {
-      "id": "@ncd-io/node-red-enterprise-sensors",
-      "version": "0.1.23",
-      "description": "You can install this library through the Palette Manager in Node-Red's UI.",
-      "updated_at": "2024-05-29T21:43:43.436Z",
-      "types": [
-        "ncd-gateway-node",
-        "ncd-wireless-node",
-        "ncd-gateway-config"
-      ],
-      "keywords": [
-        "Wireless",
-        "NCD",
-        "Sensors",
-        "Digi",
-        "node-red",
-        "enterprise"
-      ],
-      "url": "https://flows.nodered.org/node/@ncd-io/node-red-enterprise-sensors"
     },
     {
       "id": "openapi-red",
@@ -13174,30 +13198,6 @@
         "server"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-cot2xtopo"
-    },
-    {
-      "id": "node-red-contrib-tfr2cot",
-      "version": "1.1.4",
-      "description": "If msg.payload or env.state is a 2 letter U.S. abbreviation for a state, this node returns a msg.payload as JSON cursor-on-target (CoT) message for use with node-red-contrib-tak node and tcp out node.",
-      "updated_at": "2023-10-16T19:08:51.470Z",
-      "types": [
-        "tfr2cot",
-        "dataSyncSubscription"
-      ],
-      "keywords": [
-        "nodered",
-        "node-red",
-        "atak",
-        "itak",
-        "tak",
-        "cot",
-        "tak",
-        "server",
-        "tak-server",
-        "tfr",
-        "faa"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-tfr2cot"
     },
     {
       "id": "node-red-contrib-melsoft",
