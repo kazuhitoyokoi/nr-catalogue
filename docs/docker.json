@@ -1,7 +1,218 @@
 {
   "name": "Catalogue for Docker",
-  "updated_at": "2024-06-12T15:57:24.328Z",
+  "updated_at": "2024-06-13T15:58:18.615Z",
   "modules": [
+    {
+      "id": "@strato-automation/node-red-contrib-strato-automation",
+      "version": "0.6.1",
+      "description": "Strato Automation Official Node Red Library",
+      "updated_at": "2024-06-13T14:04:37.959Z",
+      "types": [
+        "input",
+        "output-ip",
+        "output-mstp",
+        "ocn-server",
+        "func-on-off",
+        "func-ramp",
+        "func-min",
+        "func-max",
+        "const",
+        "input-topic",
+        "unit-converter",
+        "logic-gate",
+        "not-gate",
+        "psychrometric-calculator",
+        "strato-pid",
+        "signal-generator",
+        "ocn-diagnostic"
+      ],
+      "keywords": [
+        "node-red",
+        "node-red-node"
+      ],
+      "url": "https://flows.nodered.org/node/@strato-automation/node-red-contrib-strato-automation"
+    },
+    {
+      "id": "@omrid01/node-red-dashboard-2-table-tabulator",
+      "version": "0.2.7",
+      "description": "Table node, using Tabulator-tables package, for Node-RED Dashboard 2.0",
+      "updated_at": "2024-06-13T11:29:58.215Z",
+      "types": [
+        "ui-tabulator",
+        "__errors__"
+      ],
+      "keywords": [
+        "node-red",
+        "node-red-dashboard-2",
+        "tabulator"
+      ],
+      "url": "https://flows.nodered.org/node/@omrid01/node-red-dashboard-2-table-tabulator"
+    },
+    {
+      "id": "grunig-nodes",
+      "version": "1.1.29",
+      "description": "Grünig Nodes Library",
+      "updated_at": "2024-06-13T11:27:37.168Z",
+      "types": [
+        "OpcUa-Read",
+        "MQTT-InfluxDB-Write",
+        "Modbus-Read",
+        "AlarmOutput",
+        "Visualization",
+        "Magazine-Position",
+        "Move-Beam",
+        "MQTT-InfluxDB-Alarm",
+        "G-Remote",
+        "G-FrameManager",
+        "G-StorageManager",
+        "ProcessControl",
+        "remote-database"
+      ],
+      "keywords": [
+        "grünig",
+        "grunig",
+        "node-red",
+        "OpcUa",
+        "MQTT",
+        "InfluxDB",
+        "Modbus",
+        "Read",
+        "Write"
+      ],
+      "url": "https://flows.nodered.org/node/grunig-nodes"
+    },
+    {
+      "id": "node-red-contrib-custom-chatgpt4o",
+      "version": "1.2.18",
+      "description": "A Node-RED node that interacts with OpenAI machine learning models to generate text and image outputs like 'ChatGPT-4o' and 'DALL·E 2'.",
+      "updated_at": "2024-06-13T08:32:01.006Z",
+      "types": [
+        "chatgpt"
+      ],
+      "keywords": [
+        "node-red",
+        "chatgpt",
+        "nodejs",
+        "javascript",
+        "api",
+        "flow",
+        "npm",
+        "machine-learning",
+        "node",
+        "example",
+        "text-generation",
+        "openai",
+        "image-generation",
+        "code-generation",
+        "conversational-ai",
+        "gpt-3",
+        "gpt-4",
+        "gpt-4o",
+        "dall-e",
+        "ai"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-custom-chatgpt4o"
+    },
+    {
+      "id": "@colinl/node-red-dashboard-2-ui-gauge-classic",
+      "version": "1.1.1",
+      "description": "A classic style gauge node for @flowfuse/node-red-dashboard",
+      "updated_at": "2024-06-13T08:02:16.511Z",
+      "types": [
+        "ui-gauge-classic",
+        "__errors__"
+      ],
+      "keywords": [
+        "node-red",
+        "node-red-dashboard-2"
+      ],
+      "url": "https://flows.nodered.org/node/@colinl/node-red-dashboard-2-ui-gauge-classic"
+    },
+    {
+      "id": "@blokcert/node-red-azure-storage",
+      "version": "1.1.5",
+      "description": "Node-red node for Azure Storage",
+      "updated_at": "2024-06-13T03:22:47.085Z",
+      "types": [
+        "AzureStorageUpload",
+        "AzureStorageDownload",
+        "AzureStorage"
+      ],
+      "keywords": [
+        "Javascript",
+        "node-red",
+        "Azure Blob Storage"
+      ],
+      "url": "https://flows.nodered.org/node/@blokcert/node-red-azure-storage"
+    },
+    {
+      "id": "@ncd-io/node-red-enterprise-sensors",
+      "version": "1.0.1",
+      "description": "You can install this library through the Palette Manager in Node-Red's UI.",
+      "updated_at": "2024-06-12T21:39:10.347Z",
+      "types": [
+        "ncd-gateway-node",
+        "ncd-wireless-node",
+        "ncd-gateway-config"
+      ],
+      "keywords": [
+        "Wireless",
+        "NCD",
+        "Sensors",
+        "Digi",
+        "node-red",
+        "enterprise"
+      ],
+      "url": "https://flows.nodered.org/node/@ncd-io/node-red-enterprise-sensors"
+    },
+    {
+      "id": "@semilimes/node-red-semilimes",
+      "version": "1.1.3",
+      "description": "The new semilimes connector which integrates with the public API",
+      "updated_at": "2024-06-12T17:09:39.913Z",
+      "types": [
+        "smeMessage",
+        "smeFormSetup",
+        "smeFormComponent",
+        "smeFormUpdater",
+        "smeSender",
+        "smeListener",
+        "smeFilter",
+        "smeUploader",
+        "smeDownloader",
+        "smeTunnel",
+        "sme-main-connector"
+      ],
+      "keywords": [
+        "semilimes",
+        "iot",
+        "connector",
+        "node-red",
+        "mobile phone",
+        "interface",
+        "remote access",
+        "ssh tunnel",
+        "websocket"
+      ],
+      "url": "https://flows.nodered.org/node/@semilimes/node-red-semilimes"
+    },
+    {
+      "id": "node-red-contrib-gaode",
+      "version": "2.0.1",
+      "description": "node red node for gaode",
+      "updated_at": "2024-06-12T16:34:29.957Z",
+      "types": [
+        "gaode",
+        "gaode-convert",
+        "gaode-direction",
+        "gaode-server"
+      ],
+      "keywords": [
+        "node-red",
+        "gaode"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-gaode"
+    },
     {
       "id": "@platmac/node-red-google-calendar",
       "version": "0.1.2",
@@ -19,26 +230,6 @@
         "google-calendar"
       ],
       "url": "https://flows.nodered.org/node/@platmac/node-red-google-calendar"
-    },
-    {
-      "id": "@ncd-io/node-red-enterprise-sensors",
-      "version": "1.0.0",
-      "description": "You can install this library through the Palette Manager in Node-Red's UI.",
-      "updated_at": "2024-06-11T19:26:49.079Z",
-      "types": [
-        "ncd-gateway-node",
-        "ncd-wireless-node",
-        "ncd-gateway-config"
-      ],
-      "keywords": [
-        "Wireless",
-        "NCD",
-        "Sensors",
-        "Digi",
-        "node-red",
-        "enterprise"
-      ],
-      "url": "https://flows.nodered.org/node/@ncd-io/node-red-enterprise-sensors"
     },
     {
       "id": "node-red-contrib-tfr2cot",
@@ -293,39 +484,6 @@
         "iot"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-snap4city-user"
-    },
-    {
-      "id": "grunig-nodes",
-      "version": "1.1.28",
-      "description": "Grünig Nodes Library",
-      "updated_at": "2024-06-10T07:16:03.305Z",
-      "types": [
-        "OpcUa-Read",
-        "MQTT-InfluxDB-Write",
-        "Modbus-Read",
-        "AlarmOutput",
-        "Visualization",
-        "Magazine-Position",
-        "Move-Beam",
-        "MQTT-InfluxDB-Alarm",
-        "G-Remote",
-        "G-FrameManager",
-        "G-StorageManager",
-        "ProcessControl",
-        "remote-database"
-      ],
-      "keywords": [
-        "grünig",
-        "grunig",
-        "node-red",
-        "OpcUa",
-        "MQTT",
-        "InfluxDB",
-        "Modbus",
-        "Read",
-        "Write"
-      ],
-      "url": "https://flows.nodered.org/node/grunig-nodes"
     },
     {
       "id": "node-red-contrib-remote",
@@ -706,21 +864,6 @@
         "energy harvesting"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-enoceanip-dcnext"
-    },
-    {
-      "id": "@colinl/node-red-dashboard-2-ui-gauge-classic",
-      "version": "1.1.0",
-      "description": "A classic style gauge node for @flowfuse/node-red-dashboard",
-      "updated_at": "2024-06-05T06:37:57.721Z",
-      "types": [
-        "ui-gauge-classic",
-        "__errors__"
-      ],
-      "keywords": [
-        "node-red",
-        "node-red-dashboard-2"
-      ],
-      "url": "https://flows.nodered.org/node/@colinl/node-red-dashboard-2-ui-gauge-classic"
     },
     {
       "id": "node-red-contrib-cegna-nodes",
@@ -3036,37 +3179,6 @@
       "url": "https://flows.nodered.org/node/node-red-contrib-context-set-get"
     },
     {
-      "id": "@semilimes/node-red-semilimes",
-      "version": "1.1.2",
-      "description": "The new semilimes connector which integrates with the public API",
-      "updated_at": "2024-05-10T10:40:28.262Z",
-      "types": [
-        "smeMessage",
-        "smeFormSetup",
-        "smeFormComponent",
-        "smeFormUpdater",
-        "smeSender",
-        "smeListener",
-        "smeFilter",
-        "smeUploader",
-        "smeDownloader",
-        "smeTunnel",
-        "sme-main-connector"
-      ],
-      "keywords": [
-        "semilimes",
-        "iot",
-        "connector",
-        "node-red",
-        "mobile phone",
-        "interface",
-        "remote access",
-        "ssh tunnel",
-        "websocket"
-      ],
-      "url": "https://flows.nodered.org/node/@semilimes/node-red-semilimes"
-    },
-    {
       "id": "node-red-contrib-wazo-platform",
       "version": "1.0.41",
       "description": "Node Red module for the Wazo Platform API",
@@ -4130,36 +4242,6 @@
         "generic"
       ],
       "url": "https://flows.nodered.org/node/@digitalnodecom/node-red-contrib-generic-s3"
-    },
-    {
-      "id": "@strato-automation/node-red-contrib-strato-automation",
-      "version": "0.6.0",
-      "description": "Strato Automation Official Node Red Library",
-      "updated_at": "2024-04-23T19:53:24.036Z",
-      "types": [
-        "input",
-        "output-ip",
-        "output-mstp",
-        "ocn-server",
-        "func-on-off",
-        "func-ramp",
-        "func-min",
-        "func-max",
-        "const",
-        "input-topic",
-        "unit-converter",
-        "logic-gate",
-        "not-gate",
-        "psychrometric-calculator",
-        "strato-pid",
-        "signal-generator",
-        "ocn-diagnostic"
-      ],
-      "keywords": [
-        "node-red",
-        "node-red-node"
-      ],
-      "url": "https://flows.nodered.org/node/@strato-automation/node-red-contrib-strato-automation"
     },
     {
       "id": "node-red-contrib-modbus",
@@ -16564,23 +16646,6 @@
         "message"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-ack"
-    },
-    {
-      "id": "@blokcert/node-red-azure-storage",
-      "version": "1.1.3",
-      "description": "Node-red node for Azure Storage",
-      "updated_at": "2023-08-14T03:19:21.044Z",
-      "types": [
-        "AzureStorageUpload",
-        "AzureStorageDownload",
-        "AzureStorage"
-      ],
-      "keywords": [
-        "Javascript",
-        "node-red",
-        "Azure Blob Storage"
-      ],
-      "url": "https://flows.nodered.org/node/@blokcert/node-red-azure-storage"
     },
     {
       "id": "node-red-contrib-domain-wildcard-parking",
@@ -46471,22 +46536,6 @@
         "Web Messaging API"
       ],
       "url": "https://flows.nodered.org/node/node-red-node-ui-iframe"
-    },
-    {
-      "id": "node-red-contrib-gaode",
-      "version": "1.0.3",
-      "description": "node red node for gaode",
-      "updated_at": "2021-03-22T03:11:52.500Z",
-      "types": [
-        "gaode",
-        "gaode-direction",
-        "gaode-server"
-      ],
-      "keywords": [
-        "node-red",
-        "gaode"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-gaode"
     },
     {
       "id": "node-red-contrib-lorawan-packet-decrypt-nwkey-appkey",
