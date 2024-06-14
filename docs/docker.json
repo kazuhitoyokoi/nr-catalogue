@@ -1,7 +1,143 @@
 {
   "name": "Catalogue for Docker",
-  "updated_at": "2024-06-13T15:58:18.615Z",
+  "updated_at": "2024-06-14T15:58:24.458Z",
   "modules": [
+    {
+      "id": "node-red-node-email",
+      "version": "3.0.0",
+      "description": "Node-RED nodes to send and receive simple emails.",
+      "updated_at": "2024-06-14T14:23:47.464Z",
+      "types": [
+        "e-mail",
+        "e-mail in",
+        "e-mail mta"
+      ],
+      "keywords": [
+        "node-red",
+        "email",
+        "gmail",
+        "imap",
+        "pop",
+        "smtp",
+        "smtp-server",
+        "mta"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-node-email"
+    },
+    {
+      "id": "node-red-contrib-boolean-logic-ultimate",
+      "version": "1.1.12",
+      "description": "A set of Node-RED enhanced boolean logic and utility nodes, flow interruption, blinker, invert, filter, toggle etc.., with persistent values after reboot. Compatible also with Homeassistant values.",
+      "updated_at": "2024-06-14T13:43:17.461Z",
+      "types": [
+        "BooleanLogicUltimate",
+        "InvertUltimate",
+        "FilterUltimate",
+        "InterruptFlowUltimate",
+        "BlinkerUltimate",
+        "SimpleOutputUltimate",
+        "InjectUltimate",
+        "StatusUltimate",
+        "ImpulseUltimate",
+        "SumUltimate",
+        "toggleUltimate",
+        "RailwaySwitchUltimate",
+        "Comparator",
+        "translator-config"
+      ],
+      "keywords": [
+        "node-red",
+        "boolean",
+        "gate",
+        "filter",
+        "logic"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-boolean-logic-ultimate"
+    },
+    {
+      "id": "@umsicht/node-red-contrib-thingsdata",
+      "version": "1.4.0",
+      "description": "Node-RED nodes to work with the ThingsData S3 Storage System and ThingsData InfluxDB",
+      "updated_at": "2024-06-14T11:15:52.533Z",
+      "types": [
+        "thingsdata-s3-config",
+        "thingsdata s3 delete",
+        "thingsdata s3 get",
+        "thingsdata s3 list buckets",
+        "thingsdata s3 list objects",
+        "thingsdata s3 put",
+        "thingsdata s3 watch",
+        "value out",
+        "flex out",
+        "latest in"
+      ],
+      "keywords": [
+        "node-red",
+        "thingsdata"
+      ],
+      "url": "https://flows.nodered.org/node/@umsicht/node-red-contrib-thingsdata"
+    },
+    {
+      "id": "@omrid01/node-red-dashboard-2-table-tabulator",
+      "version": "0.2.8",
+      "description": "Table node, using Tabulator-tables package, for Node-RED Dashboard 2.0",
+      "updated_at": "2024-06-14T08:37:28.894Z",
+      "types": [
+        "ui-tabulator",
+        "__errors__"
+      ],
+      "keywords": [
+        "node-red",
+        "node-red-dashboard-2",
+        "tabulator"
+      ],
+      "url": "https://flows.nodered.org/node/@omrid01/node-red-dashboard-2-table-tabulator"
+    },
+    {
+      "id": "node-red-contrib-zdm",
+      "version": "1.0.0",
+      "description": "什么值得买机器人",
+      "updated_at": "2024-06-13T16:27:31.493Z",
+      "types": [
+        "ZDM-Config",
+        "ZDM-Bot"
+      ],
+      "keywords": [
+        "node-red"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-zdm"
+    },
+    {
+      "id": "@jotiotech/node-red-bj-parser",
+      "version": "1.1.2",
+      "description": "- parser form binary to simple json format",
+      "updated_at": "2024-06-13T15:29:37.739Z",
+      "types": [
+        "BJ-parser"
+      ],
+      "keywords": [
+        "node-red",
+        "parsing"
+      ],
+      "url": "https://flows.nodered.org/node/@jotiotech/node-red-bj-parser"
+    },
+    {
+      "id": "node-red-contrib-gaode",
+      "version": "2.0.2",
+      "description": "node red node for gaode",
+      "updated_at": "2024-06-13T14:49:43.062Z",
+      "types": [
+        "gaode",
+        "gaode-convert",
+        "gaode-direction",
+        "gaode-server"
+      ],
+      "keywords": [
+        "node-red",
+        "gaode"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-gaode"
+    },
     {
       "id": "@strato-automation/node-red-contrib-strato-automation",
       "version": "0.6.1",
@@ -31,22 +167,6 @@
         "node-red-node"
       ],
       "url": "https://flows.nodered.org/node/@strato-automation/node-red-contrib-strato-automation"
-    },
-    {
-      "id": "@omrid01/node-red-dashboard-2-table-tabulator",
-      "version": "0.2.7",
-      "description": "Table node, using Tabulator-tables package, for Node-RED Dashboard 2.0",
-      "updated_at": "2024-06-13T11:29:58.215Z",
-      "types": [
-        "ui-tabulator",
-        "__errors__"
-      ],
-      "keywords": [
-        "node-red",
-        "node-red-dashboard-2",
-        "tabulator"
-      ],
-      "url": "https://flows.nodered.org/node/@omrid01/node-red-dashboard-2-table-tabulator"
     },
     {
       "id": "grunig-nodes",
@@ -195,23 +315,6 @@
         "websocket"
       ],
       "url": "https://flows.nodered.org/node/@semilimes/node-red-semilimes"
-    },
-    {
-      "id": "node-red-contrib-gaode",
-      "version": "2.0.1",
-      "description": "node red node for gaode",
-      "updated_at": "2024-06-12T16:34:29.957Z",
-      "types": [
-        "gaode",
-        "gaode-convert",
-        "gaode-direction",
-        "gaode-server"
-      ],
-      "keywords": [
-        "node-red",
-        "gaode"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-gaode"
     },
     {
       "id": "@platmac/node-red-google-calendar",
@@ -940,36 +1043,6 @@
       "url": "https://flows.nodered.org/node/@lunatone/node-red-dali"
     },
     {
-      "id": "node-red-contrib-boolean-logic-ultimate",
-      "version": "1.1.11",
-      "description": "A set of Node-RED enhanced boolean logic and utility nodes, flow interruption, blinker, invert, filter, toggle etc.., with persistent values after reboot. Compatible also with Homeassistant values.",
-      "updated_at": "2024-06-04T10:10:14.541Z",
-      "types": [
-        "BooleanLogicUltimate",
-        "InvertUltimate",
-        "FilterUltimate",
-        "InterruptFlowUltimate",
-        "BlinkerUltimate",
-        "SimpleOutputUltimate",
-        "InjectUltimate",
-        "StatusUltimate",
-        "ImpulseUltimate",
-        "SumUltimate",
-        "toggleUltimate",
-        "RailwaySwitchUltimate",
-        "Comparator",
-        "translator-config"
-      ],
-      "keywords": [
-        "node-red",
-        "boolean",
-        "gate",
-        "filter",
-        "logic"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-boolean-logic-ultimate"
-    },
-    {
       "id": "@inteli.city/node-red-contrib-exec-collection",
       "version": "1.0.3",
       "description": "* exec.queue - Creates a process queue * exec.service - Uses pm2 to create services that run for a long time * thread.queue - Creates a queue of threads (Python and Node.js) in a separate process. * thread.function - Creates a queue of threads (Node.js on",
@@ -1008,20 +1081,6 @@
         "energy"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-tibber-api"
-    },
-    {
-      "id": "@jotiotech/node-red-bj-parser",
-      "version": "1.1.1",
-      "description": "- parser form binary to simple json format",
-      "updated_at": "2024-06-03T19:35:27.491Z",
-      "types": [
-        "BJ-parser"
-      ],
-      "keywords": [
-        "node-red",
-        "parsing"
-      ],
-      "url": "https://flows.nodered.org/node/@jotiotech/node-red-bj-parser"
     },
     {
       "id": "node-red-contrib-zont-online",
@@ -4502,29 +4561,6 @@
       "url": "https://flows.nodered.org/node/node-red-contrib-axis-com"
     },
     {
-      "id": "@umsicht/node-red-contrib-thingsdata",
-      "version": "1.3.3",
-      "description": "Node-RED nodes to work with the ThingsData S3 Storage System and ThingsData InfluxDB",
-      "updated_at": "2024-04-17T08:29:24.729Z",
-      "types": [
-        "thingsdata-s3-config",
-        "thingsdata s3 delete",
-        "thingsdata s3 get",
-        "thingsdata s3 list buckets",
-        "thingsdata s3 list objects",
-        "thingsdata s3 put",
-        "thingsdata s3 watch",
-        "value out",
-        "flex out",
-        "latest in"
-      ],
-      "keywords": [
-        "node-red",
-        "thingsdata"
-      ],
-      "url": "https://flows.nodered.org/node/@umsicht/node-red-contrib-thingsdata"
-    },
-    {
       "id": "tams-plc-order-get",
       "version": "1.0.50",
       "description": "Provides a set of nodes to Node-RED to help control tams.",
@@ -6621,28 +6657,6 @@
         "output"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-relay-no-nc"
-    },
-    {
-      "id": "node-red-node-email",
-      "version": "2.2.1",
-      "description": "Node-RED nodes to send and receive simple emails.",
-      "updated_at": "2024-03-12T12:22:37.749Z",
-      "types": [
-        "e-mail",
-        "e-mail in",
-        "e-mail mta"
-      ],
-      "keywords": [
-        "node-red",
-        "email",
-        "gmail",
-        "imap",
-        "pop",
-        "smtp",
-        "smtp-server",
-        "mta"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-node-email"
     },
     {
       "id": "node-red-node-rdk-vision",
