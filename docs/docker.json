@@ -1,7 +1,103 @@
 {
   "name": "Catalogue for Docker",
-  "updated_at": "2024-06-14T15:58:24.458Z",
+  "updated_at": "2024-06-15T15:56:16.866Z",
   "modules": [
+    {
+      "id": "node-red-contrib-virtual-smart-home",
+      "version": "4.4.1",
+      "description": "A Node-RED node that represents a 'virtual device' which can be controlled via Alexa. Requires the virtual smart home skill to be enabled for your Amazon account.",
+      "updated_at": "2024-06-15T13:22:00.438Z",
+      "types": [
+        "vsh-connection",
+        "vsh-virtual-device"
+      ],
+      "keywords": [
+        "Alexa",
+        "Echo",
+        "smart-home",
+        "node-red",
+        "virtual smart home",
+        "virtual device",
+        "Home Assistant",
+        "vsh"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-virtual-smart-home"
+    },
+    {
+      "id": "@not7cd/node-red-contrib-megalodon",
+      "version": "0.1.0",
+      "description": "Node-RED wrapper around Megalodon. The library that allows for interfacing with Mastodon, Pleroma, Friendica, and Firefish servers.",
+      "updated_at": "2024-06-14T21:39:19.111Z",
+      "types": [
+        "post-status",
+        "fediverse-instance",
+        "lookup-account",
+        "streaming"
+      ],
+      "keywords": [
+        "node-red"
+      ],
+      "url": "https://flows.nodered.org/node/@not7cd/node-red-contrib-megalodon"
+    },
+    {
+      "id": "node-red-node-xmpp",
+      "version": "0.6.3",
+      "description": "A Node-RED node to talk to an XMPP server",
+      "updated_at": "2024-06-14T15:39:50.682Z",
+      "types": [
+        "xmpp in",
+        "xmpp out",
+        "xmpp-server"
+      ],
+      "keywords": [
+        "node-red",
+        "xmpp"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-node-xmpp"
+    },
+    {
+      "id": "node-red-node-google",
+      "version": "0.2.3",
+      "description": "A set of Node-RED nodes to access various Google services",
+      "updated_at": "2024-06-14T15:20:32.347Z",
+      "types": [
+        "google plus",
+        "google places",
+        "google-credentials",
+        "google-api-config",
+        "google geocoding",
+        "google directions",
+        "google calendar in",
+        "google calendar",
+        "google calendar out"
+      ],
+      "keywords": [
+        "node-red",
+        "google",
+        "calendar",
+        "directions",
+        "places",
+        "geocoding",
+        "google plus"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-node-google"
+    },
+    {
+      "id": "@flowfuse/nr-project-nodes",
+      "version": "0.7.0",
+      "description": "A collection of Node-RED nodes for easy communication between Node-RED instances running in the FlowFuse platform",
+      "updated_at": "2024-06-14T14:46:34.635Z",
+      "types": [
+        "project link in",
+        "project link out",
+        "project link call",
+        "__errors__"
+      ],
+      "keywords": [
+        "node-red"
+      ],
+      "url": "https://flows.nodered.org/node/@flowfuse/nr-project-nodes"
+    },
     {
       "id": "node-red-node-email",
       "version": "3.0.0",
@@ -3812,22 +3908,6 @@
       "url": "https://flows.nodered.org/node/node-red-contrib-modbus-flex-server"
     },
     {
-      "id": "@flowfuse/nr-project-nodes",
-      "version": "0.6.4",
-      "description": "A collection of Node-RED nodes for easy communication between Node-RED instances running in the FlowFuse platform",
-      "updated_at": "2024-05-03T10:31:29.259Z",
-      "types": [
-        "project link in",
-        "project link out",
-        "project link call",
-        "__errors__"
-      ],
-      "keywords": [
-        "node-red"
-      ],
-      "url": "https://flows.nodered.org/node/@flowfuse/nr-project-nodes"
-    },
-    {
       "id": "@tq-bit/node-red-contrib-server-sent-events",
       "version": "1.2.6",
       "description": "Nodes to create - or subscribe to - server-sent events",
@@ -4850,27 +4930,6 @@
         "IoBox"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-trexmes-oee-calculator"
-    },
-    {
-      "id": "node-red-contrib-virtual-smart-home",
-      "version": "4.4.0",
-      "description": "A Node-RED node that represents a 'virtual device' which can be controlled via Alexa. Requires the virtual smart home skill to be enabled for your Amazon account.",
-      "updated_at": "2024-04-09T16:11:12.009Z",
-      "types": [
-        "vsh-connection",
-        "vsh-virtual-device"
-      ],
-      "keywords": [
-        "Alexa",
-        "Echo",
-        "smart-home",
-        "node-red",
-        "virtual smart home",
-        "virtual device",
-        "Home Assistant",
-        "vsh"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-virtual-smart-home"
     },
     {
       "id": "@siglesiasg/node-red-event-manager",
@@ -30650,22 +30709,6 @@
         "home automation"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-generate-password"
-    },
-    {
-      "id": "node-red-node-xmpp",
-      "version": "0.6.0",
-      "description": "A Node-RED node to talk to an XMPP server",
-      "updated_at": "2022-06-29T09:09:37.859Z",
-      "types": [
-        "xmpp in",
-        "xmpp out",
-        "xmpp-server"
-      ],
-      "keywords": [
-        "node-red",
-        "xmpp"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-node-xmpp"
     },
     {
       "id": "node-red-contrib-nuki",
@@ -58120,33 +58163,6 @@
         "node-red"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-easybotics-led-matrix"
-    },
-    {
-      "id": "node-red-node-google",
-      "version": "0.2.2",
-      "description": "A set of Node-RED nodes to access various Google services",
-      "updated_at": "2020-02-27T19:56:43.570Z",
-      "types": [
-        "google plus",
-        "google places",
-        "google-credentials",
-        "google-api-config",
-        "google geocoding",
-        "google directions",
-        "google calendar in",
-        "google calendar",
-        "google calendar out"
-      ],
-      "keywords": [
-        "node-red",
-        "google",
-        "calendar",
-        "directions",
-        "places",
-        "geocoding",
-        "google plus"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-node-google"
     },
     {
       "id": "node-red-contrib-matrix",
