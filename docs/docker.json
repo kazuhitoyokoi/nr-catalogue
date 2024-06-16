@@ -1,7 +1,62 @@
 {
   "name": "Catalogue for Docker",
-  "updated_at": "2024-06-15T15:56:16.866Z",
+  "updated_at": "2024-06-16T15:55:44.937Z",
   "modules": [
+    {
+      "id": "node-red-contrib-unifi-os",
+      "version": "1.0.0",
+      "description": "Nodes to access UniFi data using endpoints and websockets",
+      "updated_at": "2024-06-16T13:20:27.216Z",
+      "types": [
+        "unifi-access-controller",
+        "unifi-request",
+        "unifi-web-socket",
+        "unifi-protect"
+      ],
+      "keywords": [
+        "node-red",
+        "iot",
+        "unifi"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-unifi-os"
+    },
+    {
+      "id": "node-red-contrib-shelly",
+      "version": "10.25.1",
+      "description": "Shelly nodes.",
+      "updated_at": "2024-06-15T19:58:00.702Z",
+      "types": [
+        "shelly-gen1-server",
+        "shelly-gen1",
+        "shelly-gen2-server",
+        "shelly-gen2",
+        "shelly-cloud-server",
+        "shelly-cloud"
+      ],
+      "keywords": [
+        "node-red",
+        "shelly"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-shelly"
+    },
+    {
+      "id": "node-red-contrib-sonos-events",
+      "version": "1.2.5",
+      "description": "A single Node-RED node to handle SONOS events in a local network.",
+      "updated_at": "2024-06-15T14:32:01.057Z",
+      "types": [
+        "sonosevents-selection",
+        "sonosevents-config"
+      ],
+      "keywords": [
+        "sonos",
+        "node-red",
+        "music",
+        "events",
+        "node-red-contrib-sonos-events"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-sonos-events"
+    },
     {
       "id": "node-red-contrib-virtual-smart-home",
       "version": "4.4.1",
@@ -1247,25 +1302,6 @@
         "www.boschrexroth.com"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-ctrlx-automation"
-    },
-    {
-      "id": "node-red-contrib-shelly",
-      "version": "10.25.0",
-      "description": "Shelly nodes.",
-      "updated_at": "2024-06-02T17:16:36.908Z",
-      "types": [
-        "shelly-gen1-server",
-        "shelly-gen1",
-        "shelly-gen2-server",
-        "shelly-gen2",
-        "shelly-cloud-server",
-        "shelly-cloud"
-      ],
-      "keywords": [
-        "node-red",
-        "shelly"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-shelly"
     },
     {
       "id": "@scepiconsulting/node-red-scepiconsulting-node",
@@ -3939,24 +3975,6 @@
         "openweathermap"
       ],
       "url": "https://flows.nodered.org/node/node-red-node-openweathermap"
-    },
-    {
-      "id": "node-red-contrib-sonos-events",
-      "version": "1.2.4",
-      "description": "A single Node-RED node to handle SONOS events in a local network.",
-      "updated_at": "2024-05-01T12:23:16.775Z",
-      "types": [
-        "sonosevents-selection",
-        "sonosevents-config"
-      ],
-      "keywords": [
-        "sonos",
-        "node-red",
-        "music",
-        "events",
-        "node-red-contrib-sonos-events"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-sonos-events"
     },
     {
       "id": "node-red-contrib-pdfparse",
@@ -15779,24 +15797,6 @@
         "regression"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-automl"
-    },
-    {
-      "id": "node-red-contrib-unifi-os",
-      "version": "0.9.1",
-      "description": "Nodes to access UniFi data using endpoints and websockets",
-      "updated_at": "2023-09-12T20:57:51.638Z",
-      "types": [
-        "unifi-access-controller",
-        "unifi-request",
-        "unifi-web-socket",
-        "unifi-protect"
-      ],
-      "keywords": [
-        "node-red",
-        "iot",
-        "unifi"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-unifi-os"
     },
     {
       "id": "node-red-contrib-ui-state-trail",
