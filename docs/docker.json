@@ -1,7 +1,208 @@
 {
   "name": "Catalogue for Docker",
-  "updated_at": "2024-06-16T15:55:44.937Z",
+  "updated_at": "2024-06-17T16:01:53.544Z",
   "modules": [
+    {
+      "id": "@joelaw9/node-red-threshold",
+      "version": "1.0.3",
+      "description": "Threshold",
+      "updated_at": "2024-06-17T13:37:08.562Z",
+      "types": [
+        "threshold"
+      ],
+      "keywords": [
+        "node-red",
+        "victron",
+        "threshold control"
+      ],
+      "url": "https://flows.nodered.org/node/@joelaw9/node-red-threshold"
+    },
+    {
+      "id": "@energyweb/node-red-contrib-energywebx",
+      "version": "0.1.2",
+      "description": "Turn your flows to become SmartFlows in-order to be able to have your node-red flows being installed and executed on thousands of decentralised worker nodes around the world (Powered by Energy Web X)",
+      "updated_at": "2024-06-17T12:36:16.676Z",
+      "types": [
+        "submit-result",
+        "consensus-node"
+      ],
+      "keywords": [
+        "SmartFlow",
+        "Energy",
+        "Web",
+        "Worker",
+        "Nodes",
+        "Decentralised",
+        "Decentralized",
+        "Energy Web X",
+        "Blockchain",
+        "EWT",
+        "node-red"
+      ],
+      "url": "https://flows.nodered.org/node/@energyweb/node-red-contrib-energywebx"
+    },
+    {
+      "id": "@gocontroll-nl/node-red-gocontroll",
+      "version": "2.1.0",
+      "description": "Node-RED nodes for GOcontroll Moduline controllers",
+      "updated_at": "2024-06-17T12:05:08.391Z",
+      "types": [
+        "4-20mA-Module",
+        "Input-Module-10",
+        "Input-Module",
+        "Output-Module-10",
+        "Output-Module",
+        "Bridge-Module",
+        "Settings",
+        "Controller-Active",
+        "Controller-Supply",
+        "CPU-Temperature",
+        "Status-Led",
+        "GPS",
+        "CAN-Receive",
+        "CAN-Send",
+        "Read-Memory",
+        "Write-Memory",
+        "Read-Simulink-Signal",
+        "Write-Simulink-Parameter"
+      ],
+      "keywords": [
+        "node-red",
+        "GOcontroll"
+      ],
+      "url": "https://flows.nodered.org/node/@gocontroll-nl/node-red-gocontroll"
+    },
+    {
+      "id": "@energyweb/node-red-contrib-green-proof-worker",
+      "version": "0.1.1",
+      "updated_at": "2024-06-17T08:19:42.753Z",
+      "types": [
+        "kafka-config",
+        "sqlite-config",
+        "ledger-sqlite",
+        "ledger-query",
+        "ledger-update",
+        "source-kafka",
+        "source-validator",
+        "tx-validator",
+        "voting-service",
+        "voting-service-config",
+        "voting-marketplace",
+        "processed-filter-sqlite",
+        "processed-update-sqlite"
+      ],
+      "keywords": [
+        "node-red",
+        "worker",
+        "green-proof"
+      ],
+      "url": "https://flows.nodered.org/node/@energyweb/node-red-contrib-green-proof-worker"
+    },
+    {
+      "id": "node-red-contrib-tuya-smart-device",
+      "version": "5.3.0",
+      "description": "A node-red module to interact with the tuya smart devices",
+      "updated_at": "2024-06-17T05:29:00.461Z",
+      "types": [
+        "tuya-smart-device",
+        "tuya-smart-device-generic"
+      ],
+      "keywords": [
+        "node-red"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-tuya-smart-device"
+    },
+    {
+      "id": "@omrid01/node-red-dashboard-2-table-tabulator",
+      "version": "0.2.94",
+      "description": "Table node, using Tabulator-tables package, for Node-RED Dashboard 2.0",
+      "updated_at": "2024-06-16T19:15:14.224Z",
+      "types": [
+        "ui-tabulator",
+        "__errors__"
+      ],
+      "keywords": [
+        "node-red",
+        "node-red-dashboard-2",
+        "tabulator"
+      ],
+      "url": "https://flows.nodered.org/node/@omrid01/node-red-dashboard-2-table-tabulator"
+    },
+    {
+      "id": "node-red-contrib-boolean-logic-ultimate",
+      "version": "1.1.14",
+      "description": "A set of Node-RED enhanced boolean logic and utility nodes, flow interruption, blinker, invert, filter, toggle etc.., with persistent values after reboot. Compatible also with Homeassistant values.",
+      "updated_at": "2024-06-16T18:55:15.711Z",
+      "types": [
+        "BooleanLogicUltimate",
+        "InvertUltimate",
+        "FilterUltimate",
+        "InterruptFlowUltimate",
+        "BlinkerUltimate",
+        "SimpleOutputUltimate",
+        "InjectUltimate",
+        "StatusUltimate",
+        "ImpulseUltimate",
+        "SumUltimate",
+        "toggleUltimate",
+        "RailwaySwitchUltimate",
+        "Comparator",
+        "translator-config"
+      ],
+      "keywords": [
+        "node-red",
+        "boolean",
+        "gate",
+        "filter",
+        "logic"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-boolean-logic-ultimate"
+    },
+    {
+      "id": "node-red-contrib-chronos",
+      "version": "1.25.0",
+      "description": "Time-based Node-RED scheduling, repeating, queueing, routing, filtering and manipulating nodes",
+      "updated_at": "2024-06-16T15:46:21.998Z",
+      "types": [
+        "chronos-config",
+        "chronos-scheduler",
+        "chronos-state",
+        "chronos-repeat",
+        "chronos-delay",
+        "chronos-switch",
+        "chronos-filter",
+        "chronos-change"
+      ],
+      "keywords": [
+        "node-red",
+        "schedule",
+        "scheduler",
+        "scheduling",
+        "time",
+        "timestamp",
+        "timespan",
+        "time-switch",
+        "time-filter",
+        "time-change",
+        "timer",
+        "timers",
+        "timing",
+        "delay",
+        "repeat",
+        "repetition",
+        "cron",
+        "crontab",
+        "sun",
+        "suntime",
+        "moon",
+        "moontime",
+        "sunrise",
+        "sunset",
+        "smart-home",
+        "home-automation"
+      ],
+      "url": "https://flows.nodered.org/node/node-red-contrib-chronos"
+    },
     {
       "id": "node-red-contrib-unifi-os",
       "version": "1.0.0",
@@ -19,6 +220,19 @@
         "unifi"
       ],
       "url": "https://flows.nodered.org/node/node-red-contrib-unifi-os"
+    },
+    {
+      "id": "@scepiconsulting/node-red-contrib-smart-watering",
+      "version": "0.0.3",
+      "description": "A Node-RED node that calculates the watering amount based on provided parameters.",
+      "updated_at": "2024-06-16T09:52:45.569Z",
+      "types": [
+        "watering"
+      ],
+      "keywords": [
+        "node-red"
+      ],
+      "url": "https://flows.nodered.org/node/@scepiconsulting/node-red-contrib-smart-watering"
     },
     {
       "id": "node-red-contrib-shelly",
@@ -176,36 +390,6 @@
       "url": "https://flows.nodered.org/node/node-red-node-email"
     },
     {
-      "id": "node-red-contrib-boolean-logic-ultimate",
-      "version": "1.1.12",
-      "description": "A set of Node-RED enhanced boolean logic and utility nodes, flow interruption, blinker, invert, filter, toggle etc.., with persistent values after reboot. Compatible also with Homeassistant values.",
-      "updated_at": "2024-06-14T13:43:17.461Z",
-      "types": [
-        "BooleanLogicUltimate",
-        "InvertUltimate",
-        "FilterUltimate",
-        "InterruptFlowUltimate",
-        "BlinkerUltimate",
-        "SimpleOutputUltimate",
-        "InjectUltimate",
-        "StatusUltimate",
-        "ImpulseUltimate",
-        "SumUltimate",
-        "toggleUltimate",
-        "RailwaySwitchUltimate",
-        "Comparator",
-        "translator-config"
-      ],
-      "keywords": [
-        "node-red",
-        "boolean",
-        "gate",
-        "filter",
-        "logic"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-boolean-logic-ultimate"
-    },
-    {
       "id": "@umsicht/node-red-contrib-thingsdata",
       "version": "1.4.0",
       "description": "Node-RED nodes to work with the ThingsData S3 Storage System and ThingsData InfluxDB",
@@ -227,22 +411,6 @@
         "thingsdata"
       ],
       "url": "https://flows.nodered.org/node/@umsicht/node-red-contrib-thingsdata"
-    },
-    {
-      "id": "@omrid01/node-red-dashboard-2-table-tabulator",
-      "version": "0.2.8",
-      "description": "Table node, using Tabulator-tables package, for Node-RED Dashboard 2.0",
-      "updated_at": "2024-06-14T08:37:28.894Z",
-      "types": [
-        "ui-tabulator",
-        "__errors__"
-      ],
-      "keywords": [
-        "node-red",
-        "node-red-dashboard-2",
-        "tabulator"
-      ],
-      "url": "https://flows.nodered.org/node/@omrid01/node-red-dashboard-2-table-tabulator"
     },
     {
       "id": "node-red-contrib-zdm",
@@ -543,37 +711,6 @@
       "url": "https://flows.nodered.org/node/node-red-contrib-daichi-cloud"
     },
     {
-      "id": "@gocontroll-nl/node-red-gocontroll",
-      "version": "2.0.0",
-      "description": "Node-RED nodes for GOcontroll Moduline controllers",
-      "updated_at": "2024-06-11T09:39:56.539Z",
-      "types": [
-        "4-20mA-Module",
-        "Input-Module-10",
-        "Input-Module",
-        "Output-Module-10",
-        "Output-Module",
-        "Bridge-Module",
-        "Settings",
-        "Controller-Active",
-        "Controller-Supply",
-        "CPU-Temperature",
-        "Status-Led",
-        "GPS",
-        "CAN-Receive",
-        "CAN-Send",
-        "Read-Memory",
-        "Write-Memory",
-        "Read-Simulink-Signal",
-        "Write-Simulink-Parameter"
-      ],
-      "keywords": [
-        "node-red",
-        "GOcontroll"
-      ],
-      "url": "https://flows.nodered.org/node/@gocontroll-nl/node-red-gocontroll"
-    },
-    {
       "id": "node-red-contrib-tado-client",
       "version": "0.11.0",
       "description": "Tado web API client node for Node Red",
@@ -807,19 +944,6 @@
       "url": "https://flows.nodered.org/node/@sisodiakaran/node-red-contrib-atomberg"
     },
     {
-      "id": "@scepiconsulting/node-red-contrib-smart-watering",
-      "version": "0.0.1",
-      "description": "A Node-RED node that calculates the watering amount based on provided parameters.",
-      "updated_at": "2024-06-08T18:34:24.884Z",
-      "types": [
-        "watering"
-      ],
-      "keywords": [
-        "node-red"
-      ],
-      "url": "https://flows.nodered.org/node/@scepiconsulting/node-red-contrib-smart-watering"
-    },
-    {
       "id": "@kitazaki/node-red-contrib-mcu-display-image",
       "version": "0.1.0",
       "description": "display JPEG/PNG with Node-RED MCU",
@@ -985,21 +1109,6 @@
         "pisignage"
       ],
       "url": "https://flows.nodered.org/node/node-red-pisignage"
-    },
-    {
-      "id": "@joelaw9/node-red-threshold",
-      "version": "1.0.1",
-      "description": "Threshold",
-      "updated_at": "2024-06-05T18:40:19.516Z",
-      "types": [
-        "threshold"
-      ],
-      "keywords": [
-        "node-red",
-        "victron",
-        "threshold control"
-      ],
-      "url": "https://flows.nodered.org/node/@joelaw9/node-red-threshold"
     },
     {
       "id": "@gregoriusrippenstein/node-red-contrib-flowhub",
@@ -3250,31 +3359,6 @@
       "url": "https://flows.nodered.org/node/node-red-contrib-bosch-shc"
     },
     {
-      "id": "node-red-contrib-chronos",
-      "version": "1.24.0",
-      "description": "Time-based Node-RED scheduling, repeating, queueing, routing, filtering and manipulating nodes",
-      "updated_at": "2024-05-12T13:10:57.939Z",
-      "types": [
-        "chronos-config",
-        "chronos-scheduler",
-        "chronos-state",
-        "chronos-repeat",
-        "chronos-delay",
-        "chronos-switch",
-        "chronos-filter",
-        "chronos-change"
-      ],
-      "keywords": [
-        "node-red",
-        "scheduler",
-        "timer",
-        "time",
-        "sun",
-        "moon"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-chronos"
-    },
-    {
       "id": "node-red-subflow-axis-provisioning",
       "version": "1.1.8",
       "description": "Axis device staging and mass configuration",
@@ -3754,38 +3838,6 @@
         "node-red"
       ],
       "url": "https://flows.nodered.org/node/@mschaeffler/node-red-format"
-    },
-    {
-      "id": "@energyweb/node-red-contrib-energywebx",
-      "version": "0.0.1",
-      "description": "Turn your flows to become SmartFlows in-order to be able to have your node-red flows being instaled and executed on tousands of decentralised worker nodes around the world (Powered by EnergyWebX)",
-      "updated_at": "2024-05-06T02:00:21.288Z",
-      "types": [
-        "energywebx-config",
-        "submit-result",
-        "upsert-state",
-        "query-state",
-        "extrinsic",
-        "consensus",
-        "send-xcm",
-        "xcm-events",
-        "call-eth",
-        "listen-eth",
-        "call-ewc",
-        "listen-ewc"
-      ],
-      "keywords": [
-        "SmartFlow",
-        "Energy",
-        "Web",
-        "Worker",
-        "Nodes",
-        "Decentralised",
-        "Blockchain",
-        "EWT",
-        "node-red"
-      ],
-      "url": "https://flows.nodered.org/node/@energyweb/node-red-contrib-energywebx"
     },
     {
       "id": "@buglss/node-red-crontinject",
@@ -18789,20 +18841,6 @@
         "cctv"
       ],
       "url": "https://flows.nodered.org/node/@kevingodell/node-red-pipe2jpeg"
-    },
-    {
-      "id": "node-red-contrib-tuya-smart-device",
-      "version": "5.2.0",
-      "description": "A node-red module to interact with the tuya smart devices",
-      "updated_at": "2023-06-11T06:23:20.649Z",
-      "types": [
-        "tuya-smart-device",
-        "tuya-smart-device-generic"
-      ],
-      "keywords": [
-        "node-red"
-      ],
-      "url": "https://flows.nodered.org/node/node-red-contrib-tuya-smart-device"
     },
     {
       "id": "@foxleigh81/node-red-contrib-todoist-api",
