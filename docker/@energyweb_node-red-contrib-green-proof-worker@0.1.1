@@ -1,0 +1,194 @@
+#0 building with "default" instance using docker driver
+
+#1 [internal] load build definition from Dockerfile
+#1 transferring dockerfile: 139B done
+#1 DONE 0.0s
+
+#2 [internal] load metadata for docker.io/nodered/node-red:latest
+#2 DONE 0.1s
+
+#3 [internal] load .dockerignore
+#3 transferring context: 2B done
+#3 DONE 0.0s
+
+#4 [1/2] FROM docker.io/nodered/node-red:latest@sha256:13b5783bf170e87df18d3b881750d2b00c0164163f89ad47d03f6fc4cbe5e2d9
+#4 CACHED
+
+#5 [2/2] RUN npm install npm install @energyweb/node-red-contrib-green-proof-worker@0.1.1
+#5 4.436 npm WARN EBADENGINE Unsupported engine {
+#5 4.436 npm WARN EBADENGINE   package: 'npm@10.8.1',
+#5 4.436 npm WARN EBADENGINE   required: { node: '^18.17.0 || >=20.5.0' },
+#5 4.436 npm WARN EBADENGINE   current: { node: 'v16.20.2', npm: '8.19.4' }
+#5 4.436 npm WARN EBADENGINE }
+#5 4.437 npm WARN EBADENGINE Unsupported engine {
+#5 4.437 npm WARN EBADENGINE   package: '@polkadot/api@11.0.3',
+#5 4.437 npm WARN EBADENGINE   required: { node: '>=18' },
+#5 4.437 npm WARN EBADENGINE   current: { node: 'v16.20.2', npm: '8.19.4' }
+#5 4.437 npm WARN EBADENGINE }
+#5 4.438 npm WARN EBADENGINE Unsupported engine {
+#5 4.438 npm WARN EBADENGINE   package: '@polkadot/util-crypto@12.6.2',
+#5 4.438 npm WARN EBADENGINE   required: { node: '>=18' },
+#5 4.438 npm WARN EBADENGINE   current: { node: 'v16.20.2', npm: '8.19.4' }
+#5 4.438 npm WARN EBADENGINE }
+#5 4.438 npm WARN EBADENGINE Unsupported engine {
+#5 4.439 npm WARN EBADENGINE   package: '@polkadot/api-augment@11.0.3',
+#5 4.439 npm WARN EBADENGINE   required: { node: '>=18' },
+#5 4.439 npm WARN EBADENGINE   current: { node: 'v16.20.2', npm: '8.19.4' }
+#5 4.439 npm WARN EBADENGINE }
+#5 4.439 npm WARN EBADENGINE Unsupported engine {
+#5 4.439 npm WARN EBADENGINE   package: '@polkadot/api-base@11.0.3',
+#5 4.439 npm WARN EBADENGINE   required: { node: '>=18' },
+#5 4.439 npm WARN EBADENGINE   current: { node: 'v16.20.2', npm: '8.19.4' }
+#5 4.439 npm WARN EBADENGINE }
+#5 4.440 npm WARN EBADENGINE Unsupported engine {
+#5 4.440 npm WARN EBADENGINE   package: '@polkadot/api-derive@11.0.3',
+#5 4.440 npm WARN EBADENGINE   required: { node: '>=18' },
+#5 4.440 npm WARN EBADENGINE   current: { node: 'v16.20.2', npm: '8.19.4' }
+#5 4.440 npm WARN EBADENGINE }
+#5 4.440 npm WARN EBADENGINE Unsupported engine {
+#5 4.440 npm WARN EBADENGINE   package: '@polkadot/keyring@12.6.2',
+#5 4.440 npm WARN EBADENGINE   required: { node: '>=18' },
+#5 4.440 npm WARN EBADENGINE   current: { node: 'v16.20.2', npm: '8.19.4' }
+#5 4.440 npm WARN EBADENGINE }
+#5 4.441 npm WARN EBADENGINE Unsupported engine {
+#5 4.441 npm WARN EBADENGINE   package: '@polkadot/rpc-augment@11.0.3',
+#5 4.441 npm WARN EBADENGINE   required: { node: '>=18' },
+#5 4.441 npm WARN EBADENGINE   current: { node: 'v16.20.2', npm: '8.19.4' }
+#5 4.441 npm WARN EBADENGINE }
+#5 4.441 npm WARN EBADENGINE Unsupported engine {
+#5 4.441 npm WARN EBADENGINE   package: '@polkadot/rpc-core@11.0.3',
+#5 4.441 npm WARN EBADENGINE   required: { node: '>=18' },
+#5 4.441 npm WARN EBADENGINE   current: { node: 'v16.20.2', npm: '8.19.4' }
+#5 4.442 npm WARN EBADENGINE }
+#5 4.442 npm WARN EBADENGINE Unsupported engine {
+#5 4.442 npm WARN EBADENGINE   package: '@polkadot/rpc-provider@11.0.3',
+#5 4.442 npm WARN EBADENGINE   required: { node: '>=18' },
+#5 4.442 npm WARN EBADENGINE   current: { node: 'v16.20.2', npm: '8.19.4' }
+#5 4.442 npm WARN EBADENGINE }
+#5 4.442 npm WARN EBADENGINE Unsupported engine {
+#5 4.442 npm WARN EBADENGINE   package: '@polkadot/types@11.0.3',
+#5 4.442 npm WARN EBADENGINE   required: { node: '>=18' },
+#5 4.442 npm WARN EBADENGINE   current: { node: 'v16.20.2', npm: '8.19.4' }
+#5 4.442 npm WARN EBADENGINE }
+#5 4.443 npm WARN EBADENGINE Unsupported engine {
+#5 4.443 npm WARN EBADENGINE   package: '@polkadot/types-augment@11.0.3',
+#5 4.443 npm WARN EBADENGINE   required: { node: '>=18' },
+#5 4.443 npm WARN EBADENGINE   current: { node: 'v16.20.2', npm: '8.19.4' }
+#5 4.443 npm WARN EBADENGINE }
+#5 4.443 npm WARN EBADENGINE Unsupported engine {
+#5 4.443 npm WARN EBADENGINE   package: '@polkadot/types-codec@11.0.3',
+#5 4.443 npm WARN EBADENGINE   required: { node: '>=18' },
+#5 4.443 npm WARN EBADENGINE   current: { node: 'v16.20.2', npm: '8.19.4' }
+#5 4.443 npm WARN EBADENGINE }
+#5 4.443 npm WARN EBADENGINE Unsupported engine {
+#5 4.443 npm WARN EBADENGINE   package: '@polkadot/types-create@11.0.3',
+#5 4.444 npm WARN EBADENGINE   required: { node: '>=18' },
+#5 4.444 npm WARN EBADENGINE   current: { node: 'v16.20.2', npm: '8.19.4' }
+#5 4.444 npm WARN EBADENGINE }
+#5 4.444 npm WARN EBADENGINE Unsupported engine {
+#5 4.444 npm WARN EBADENGINE   package: '@polkadot/types-known@11.0.3',
+#5 4.444 npm WARN EBADENGINE   required: { node: '>=18' },
+#5 4.444 npm WARN EBADENGINE   current: { node: 'v16.20.2', npm: '8.19.4' }
+#5 4.444 npm WARN EBADENGINE }
+#5 4.444 npm WARN EBADENGINE Unsupported engine {
+#5 4.444 npm WARN EBADENGINE   package: '@polkadot/util@12.6.2',
+#5 4.444 npm WARN EBADENGINE   required: { node: '>=18' },
+#5 4.445 npm WARN EBADENGINE   current: { node: 'v16.20.2', npm: '8.19.4' }
+#5 4.445 npm WARN EBADENGINE }
+#5 4.445 npm WARN EBADENGINE Unsupported engine {
+#5 4.445 npm WARN EBADENGINE   package: '@polkadot/types-support@11.0.3',
+#5 4.445 npm WARN EBADENGINE   required: { node: '>=18' },
+#5 4.445 npm WARN EBADENGINE   current: { node: 'v16.20.2', npm: '8.19.4' }
+#5 4.445 npm WARN EBADENGINE }
+#5 4.445 npm WARN EBADENGINE Unsupported engine {
+#5 4.445 npm WARN EBADENGINE   package: '@polkadot/x-fetch@12.6.2',
+#5 4.445 npm WARN EBADENGINE   required: { node: '>=18' },
+#5 4.445 npm WARN EBADENGINE   current: { node: 'v16.20.2', npm: '8.19.4' }
+#5 4.445 npm WARN EBADENGINE }
+#5 4.446 npm WARN EBADENGINE Unsupported engine {
+#5 4.446 npm WARN EBADENGINE   package: '@polkadot/x-global@12.6.2',
+#5 4.446 npm WARN EBADENGINE   required: { node: '>=18' },
+#5 4.446 npm WARN EBADENGINE   current: { node: 'v16.20.2', npm: '8.19.4' }
+#5 4.446 npm WARN EBADENGINE }
+#5 4.446 npm WARN EBADENGINE Unsupported engine {
+#5 4.446 npm WARN EBADENGINE   package: '@polkadot/x-ws@12.6.2',
+#5 4.446 npm WARN EBADENGINE   required: { node: '>=18' },
+#5 4.446 npm WARN EBADENGINE   current: { node: 'v16.20.2', npm: '8.19.4' }
+#5 4.446 npm WARN EBADENGINE }
+#5 4.447 npm WARN EBADENGINE Unsupported engine {
+#5 4.447 npm WARN EBADENGINE   package: '@polkadot/x-bigint@12.6.2',
+#5 4.447 npm WARN EBADENGINE   required: { node: '>=18' },
+#5 4.447 npm WARN EBADENGINE   current: { node: 'v16.20.2', npm: '8.19.4' }
+#5 4.447 npm WARN EBADENGINE }
+#5 4.447 npm WARN EBADENGINE Unsupported engine {
+#5 4.447 npm WARN EBADENGINE   package: '@polkadot/networks@12.6.2',
+#5 4.447 npm WARN EBADENGINE   required: { node: '>=18' },
+#5 4.447 npm WARN EBADENGINE   current: { node: 'v16.20.2', npm: '8.19.4' }
+#5 4.447 npm WARN EBADENGINE }
+#5 4.447 npm WARN EBADENGINE Unsupported engine {
+#5 4.447 npm WARN EBADENGINE   package: '@polkadot/x-textdecoder@12.6.2',
+#5 4.448 npm WARN EBADENGINE   required: { node: '>=18' },
+#5 4.448 npm WARN EBADENGINE   current: { node: 'v16.20.2', npm: '8.19.4' }
+#5 4.448 npm WARN EBADENGINE }
+#5 4.448 npm WARN EBADENGINE Unsupported engine {
+#5 4.448 npm WARN EBADENGINE   package: '@polkadot/x-textencoder@12.6.2',
+#5 4.448 npm WARN EBADENGINE   required: { node: '>=18' },
+#5 4.448 npm WARN EBADENGINE   current: { node: 'v16.20.2', npm: '8.19.4' }
+#5 4.448 npm WARN EBADENGINE }
+#5 4.448 npm WARN EBADENGINE Unsupported engine {
+#5 4.448 npm WARN EBADENGINE   package: '@polkadot/wasm-crypto@7.3.2',
+#5 4.448 npm WARN EBADENGINE   required: { node: '>=18' },
+#5 4.448 npm WARN EBADENGINE   current: { node: 'v16.20.2', npm: '8.19.4' }
+#5 4.449 npm WARN EBADENGINE }
+#5 4.449 npm WARN EBADENGINE Unsupported engine {
+#5 4.449 npm WARN EBADENGINE   package: '@polkadot/x-randomvalues@12.6.2',
+#5 4.449 npm WARN EBADENGINE   required: { node: '>=18' },
+#5 4.449 npm WARN EBADENGINE   current: { node: 'v16.20.2', npm: '8.19.4' }
+#5 4.449 npm WARN EBADENGINE }
+#5 4.450 npm WARN EBADENGINE Unsupported engine {
+#5 4.450 npm WARN EBADENGINE   package: '@polkadot/wasm-util@7.3.2',
+#5 4.450 npm WARN EBADENGINE   required: { node: '>=18' },
+#5 4.450 npm WARN EBADENGINE   current: { node: 'v16.20.2', npm: '8.19.4' }
+#5 4.450 npm WARN EBADENGINE }
+#5 4.450 npm WARN EBADENGINE Unsupported engine {
+#5 4.450 npm WARN EBADENGINE   package: '@polkadot/wasm-bridge@7.3.2',
+#5 4.450 npm WARN EBADENGINE   required: { node: '>=18' },
+#5 4.450 npm WARN EBADENGINE   current: { node: 'v16.20.2', npm: '8.19.4' }
+#5 4.450 npm WARN EBADENGINE }
+#5 4.450 npm WARN EBADENGINE Unsupported engine {
+#5 4.450 npm WARN EBADENGINE   package: '@polkadot/wasm-crypto-asmjs@7.3.2',
+#5 4.450 npm WARN EBADENGINE   required: { node: '>=18' },
+#5 4.450 npm WARN EBADENGINE   current: { node: 'v16.20.2', npm: '8.19.4' }
+#5 4.450 npm WARN EBADENGINE }
+#5 4.450 npm WARN EBADENGINE Unsupported engine {
+#5 4.450 npm WARN EBADENGINE   package: '@polkadot/wasm-crypto-init@7.3.2',
+#5 4.450 npm WARN EBADENGINE   required: { node: '>=18' },
+#5 4.450 npm WARN EBADENGINE   current: { node: 'v16.20.2', npm: '8.19.4' }
+#5 4.450 npm WARN EBADENGINE }
+#5 4.450 npm WARN EBADENGINE Unsupported engine {
+#5 4.450 npm WARN EBADENGINE   package: '@polkadot/wasm-crypto-wasm@7.3.2',
+#5 4.450 npm WARN EBADENGINE   required: { node: '>=18' },
+#5 4.450 npm WARN EBADENGINE   current: { node: 'v16.20.2', npm: '8.19.4' }
+#5 4.450 npm WARN EBADENGINE }
+#5 95.02 
+#5 95.02 added 93 packages, and audited 602 packages in 2m
+#5 95.02 
+#5 95.02 78 packages are looking for funding
+#5 95.02   run `npm fund` for details
+#5 95.02 
+#5 95.02 found 0 vulnerabilities
+#5 95.02 npm notice 
+#5 95.02 npm notice New major version of npm available! 8.19.4 -> 10.8.1
+#5 95.02 npm notice Changelog: <https://github.com/npm/cli/releases/tag/v10.8.1>
+#5 95.02 npm notice Run `npm install -g npm@10.8.1` to update!
+#5 95.02 npm notice 
+#5 DONE 95.1s
+
+#6 exporting to image
+#6 exporting layers
+#6 exporting layers 2.6s done
+#6 writing image sha256:c636b9803f689584494e084a2bf32638fd8a900d6c595254cd73eac9744f49cb done
+#6 naming to docker.io/library/tmp done
+#6 DONE 2.6s
+
+----
