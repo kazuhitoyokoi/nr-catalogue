@@ -1,0 +1,61 @@
+#0 building with "default" instance using docker driver
+
+#1 [internal] load build definition from Dockerfile
+#1 transferring dockerfile: 125B done
+#1 DONE 0.0s
+
+#2 [internal] load metadata for docker.io/nodered/node-red:latest
+#2 DONE 0.3s
+
+#3 [internal] load .dockerignore
+#3 transferring context: 2B done
+#3 DONE 0.0s
+
+#4 [1/2] FROM docker.io/nodered/node-red:latest@sha256:db8329d3cc6c6d6aa8bf9c558c89a1f0f33813acb73955815b32e34c15bd1df4
+#4 CACHED
+
+#5 [2/2] RUN npm install npm install node-red-contrib-snap4city-user@0.9.53
+#5 3.434 npm WARN EBADENGINE Unsupported engine {
+#5 3.434 npm WARN EBADENGINE   package: 'npm@10.8.1',
+#5 3.434 npm WARN EBADENGINE   required: { node: '^18.17.0 || >=20.5.0' },
+#5 3.434 npm WARN EBADENGINE   current: { node: 'v16.20.2', npm: '8.19.4' }
+#5 3.434 npm WARN EBADENGINE }
+#5 5.401 npm WARN deprecated terraformer@1.0.12: terraformer is deprecated and no longer supported. Please use @terraformer/arcgis.
+#5 5.555 npm WARN deprecated har-validator@5.1.5: this library is no longer supported
+#5 5.683 npm WARN deprecated terraformer-wkt-parser@1.2.1: terraformer-wkt-parser is deprecated and no longer supported. Please use @terraformer/wkt.
+#5 5.696 npm WARN deprecated date-format@3.0.0: 3.x is no longer supported. Please upgrade to 4.x or higher.
+#5 5.707 npm WARN deprecated httpclient@0.1.0: Use standard fetch API instead
+#5 5.752 npm WARN deprecated date-format@2.1.0: 2.x is no longer supported. Please upgrade to 4.x or higher.
+#5 5.780 npm WARN deprecated node-uuid@1.4.8: Use uuid module instead
+#5 5.794 npm WARN deprecated streamroller@2.2.4: 2.x is no longer supported. Please upgrade to 3.x or higher.
+#5 5.799 npm WARN deprecated uuid@3.4.0: Please upgrade  to version 7 or higher.  Older versions may use Math.random() in certain circumstances, which is known to be problematic.  See https://v8.dev/blog/math-random for details.
+#5 5.810 npm WARN deprecated request@2.88.2: request has been deprecated, see https://github.com/request/request/issues/3142
+#5 5.898 npm WARN deprecated google-protobuf@4.0.0-rc.2: 4.0.0 RC releases have been superseded by 3.13.0 release
+#5 6.038 npm WARN deprecated mysqlx@1.1.8: The official MySQL Connector for NodeJS has already been written in TypeScript for a while now, so this wrapper is not required anymore.
+#5 6.962 
+#5 6.962 added 192 packages, and audited 701 packages in 6s
+#5 6.962 
+#5 6.962 84 packages are looking for funding
+#5 6.962   run `npm fund` for details
+#5 6.967 
+#5 6.967 7 vulnerabilities (6 moderate, 1 critical)
+#5 6.967 
+#5 6.967 Some issues need review, and may require choosing
+#5 6.967 a different dependency.
+#5 6.967 
+#5 6.967 Run `npm audit` for details.
+#5 6.967 npm notice 
+#5 6.967 npm notice New major version of npm available! 8.19.4 -> 10.8.1
+#5 6.967 npm notice Changelog: <https://github.com/npm/cli/releases/tag/v10.8.1>
+#5 6.967 npm notice Run `npm install -g npm@10.8.1` to update!
+#5 6.967 npm notice 
+#5 DONE 7.2s
+
+#6 exporting to image
+#6 exporting layers
+#6 exporting layers 1.8s done
+#6 writing image sha256:74666694a3c0a36944ce604711ed59fca0f4027e8742b0a2543836e711cc2a22 done
+#6 naming to docker.io/library/tmp done
+#6 DONE 1.8s
+
+----
