@@ -1,0 +1,50 @@
+#0 building with "default" instance using docker driver
+
+#1 [internal] load build definition from Dockerfile
+#1 transferring dockerfile: 116B done
+#1 DONE 0.0s
+
+#2 [internal] load metadata for docker.io/nodered/node-red:latest
+#2 DONE 0.1s
+
+#3 [internal] load .dockerignore
+#3 transferring context: 2B done
+#3 DONE 0.0s
+
+#4 [1/2] FROM docker.io/nodered/node-red:latest@sha256:db8329d3cc6c6d6aa8bf9c558c89a1f0f33813acb73955815b32e34c15bd1df4
+#4 CACHED
+
+#5 [2/2] RUN npm install npm install @lunatone/node-red-dali@0.4.2
+#5 3.234 npm WARN EBADENGINE Unsupported engine {
+#5 3.234 npm WARN EBADENGINE   package: 'npm@10.8.1',
+#5 3.234 npm WARN EBADENGINE   required: { node: '^18.17.0 || >=20.5.0' },
+#5 3.235 npm WARN EBADENGINE   current: { node: 'v16.20.2', npm: '8.19.4' }
+#5 3.235 npm WARN EBADENGINE }
+#5 4.694 npm WARN deprecated vm2@3.9.19: The library contains critical security issues and should not be used for production! The maintenance of the project has been discontinued. Consider migrating your code to isolated-vm.
+#5 5.305 
+#5 5.305 added 46 packages, and audited 555 packages in 5s
+#5 5.305 
+#5 5.305 83 packages are looking for funding
+#5 5.305   run `npm fund` for details
+#5 5.308 
+#5 5.308 3 critical severity vulnerabilities
+#5 5.308 
+#5 5.308 Some issues need review, and may require choosing
+#5 5.308 a different dependency.
+#5 5.308 
+#5 5.308 Run `npm audit` for details.
+#5 5.309 npm notice 
+#5 5.309 npm notice New major version of npm available! 8.19.4 -> 10.8.1
+#5 5.309 npm notice Changelog: <https://github.com/npm/cli/releases/tag/v10.8.1>
+#5 5.309 npm notice Run `npm install -g npm@10.8.1` to update!
+#5 5.309 npm notice 
+#5 DONE 5.4s
+
+#6 exporting to image
+#6 exporting layers
+#6 exporting layers 1.2s done
+#6 writing image sha256:aed5962d81a681fcea1d8e0d95733d654c5fe5d805c176d6e9230be83ba13849 done
+#6 naming to docker.io/library/tmp done
+#6 DONE 1.2s
+
+----
