@@ -1,0 +1,45 @@
+#0 building with "default" instance using docker driver
+
+#1 [internal] load build definition from Dockerfile
+#1 transferring dockerfile: 129B done
+#1 DONE 0.0s
+
+#2 [internal] load metadata for docker.io/nodered/node-red:latest
+#2 DONE 0.1s
+
+#3 [internal] load .dockerignore
+#3 transferring context: 2B done
+#3 DONE 0.0s
+
+#4 [1/2] FROM docker.io/nodered/node-red:latest@sha256:db8329d3cc6c6d6aa8bf9c558c89a1f0f33813acb73955815b32e34c15bd1df4
+#4 CACHED
+
+#5 [2/2] RUN npm install npm install @5minds/node-red-contrib-processcube@0.4.0
+#5 3.617 npm WARN EBADENGINE Unsupported engine {
+#5 3.617 npm WARN EBADENGINE   package: 'npm@10.8.1',
+#5 3.617 npm WARN EBADENGINE   required: { node: '^18.17.0 || >=20.5.0' },
+#5 3.617 npm WARN EBADENGINE   current: { node: 'v16.20.2', npm: '8.19.4' }
+#5 3.617 npm WARN EBADENGINE }
+#5 5.125 npm WARN deprecated @types/socket.io@3.0.2: This is a stub types definition. socket.io provides its own type definitions, so you do not need this installed.
+#5 5.709 
+#5 5.709 added 74 packages, and audited 583 packages in 5s
+#5 5.709 
+#5 5.709 71 packages are looking for funding
+#5 5.710   run `npm fund` for details
+#5 5.711 
+#5 5.711 found 0 vulnerabilities
+#5 5.711 npm notice 
+#5 5.711 npm notice New major version of npm available! 8.19.4 -> 10.8.1
+#5 5.711 npm notice Changelog: <https://github.com/npm/cli/releases/tag/v10.8.1>
+#5 5.711 npm notice Run `npm install -g npm@10.8.1` to update!
+#5 5.712 npm notice 
+#5 DONE 5.8s
+
+#6 exporting to image
+#6 exporting layers
+#6 exporting layers 1.3s done
+#6 writing image sha256:363bdeeb8e9fb4175999de724ee4633a7c614de60e629edaa4eec88272f81030 done
+#6 naming to docker.io/library/tmp done
+#6 DONE 1.3s
+
+----
