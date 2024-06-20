@@ -1,0 +1,39 @@
+#0 building with "default" instance using docker driver
+
+#1 [internal] load build definition from Dockerfile
+#1 transferring dockerfile: 134B done
+#1 DONE 0.0s
+
+#2 [internal] load metadata for docker.io/nodered/node-red:latest
+#2 DONE 0.1s
+
+#3 [internal] load .dockerignore
+#3 transferring context: 2B done
+#3 DONE 0.0s
+
+#4 [1/2] FROM docker.io/nodered/node-red:latest@sha256:aa2d35ab4cbc1c3bf791a22bbf4de251635c5cbc06b3ec9e6b26a31b1296f7e5
+#4 CACHED
+
+#5 [2/2] RUN npm install npm install @flowfuse/node-red-dashboard-2-user-addon@1.1.0
+#5 3.954 
+#5 3.954 added 3 packages, and audited 521 packages in 4s
+#5 3.954 
+#5 3.954 73 packages are looking for funding
+#5 3.955   run `npm fund` for details
+#5 3.956 
+#5 3.956 found 0 vulnerabilities
+#5 3.957 npm notice
+#5 3.957 npm notice New minor version of npm available! 10.7.0 -> 10.8.1
+#5 3.957 npm notice Changelog: https://github.com/npm/cli/releases/tag/v10.8.1
+#5 3.957 npm notice To update run: npm install -g npm@10.8.1
+#5 3.957 npm notice
+#5 DONE 4.1s
+
+#6 exporting to image
+#6 exporting layers
+#6 exporting layers 1.0s done
+#6 writing image sha256:f1373853374626a1663599bad9fb88c72c774177367b1790f2579455366bb084 done
+#6 naming to docker.io/library/tmp done
+#6 DONE 1.0s
+
+----
