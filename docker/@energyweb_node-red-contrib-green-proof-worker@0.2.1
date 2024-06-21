@@ -1,0 +1,59 @@
+#0 building with "default" instance using docker driver
+
+#1 [internal] load build definition from Dockerfile
+#1 DONE 0.0s
+
+#1 [internal] load build definition from Dockerfile
+#1 transferring dockerfile: 139B done
+#1 DONE 0.0s
+
+#2 [internal] load metadata for docker.io/nodered/node-red:latest
+#2 DONE 0.1s
+
+#3 [internal] load .dockerignore
+#3 transferring context: 2B done
+#3 DONE 0.0s
+
+#4 [1/2] FROM docker.io/nodered/node-red:latest@sha256:aa2d35ab4cbc1c3bf791a22bbf4de251635c5cbc06b3ec9e6b26a31b1296f7e5
+#4 CACHED
+
+#5 [2/2] RUN npm install npm install @energyweb/node-red-contrib-green-proof-worker@0.2.1
+#5 22.56 npm warn deprecated gauge@3.0.2: This package is no longer supported.
+#5 22.57 npm warn deprecated inflight@1.0.6: This module is not supported, and leaks memory. Do not use it. Check out lru-cache if you want a good and tested way to coalesce async requests by a key value, which is much more comprehensive and powerful.
+#5 22.58 npm warn deprecated npmlog@5.0.1: This package is no longer supported.
+#5 22.67 npm warn deprecated are-we-there-yet@2.0.0: This package is no longer supported.
+#5 22.80 npm warn deprecated har-validator@5.1.5: this library is no longer supported
+#5 23.13 npm warn deprecated request-promise@4.2.6: request-promise has been deprecated because it extends the now deprecated request package, see https://github.com/request/request/issues/3142
+#5 23.35 npm warn deprecated glob@7.2.3: Glob versions prior to v9 are no longer supported
+#5 23.42 npm warn deprecated rimraf@3.0.2: Rimraf versions prior to v4 are no longer supported
+#5 23.59 npm warn deprecated glob@7.2.3: Glob versions prior to v9 are no longer supported
+#5 23.64 npm warn deprecated request@2.88.2: request has been deprecated, see https://github.com/request/request/issues/3142
+#5 23.68 npm warn deprecated uuid@3.4.0: Please upgrade  to version 7 or higher.  Older versions may use Math.random() in certain circumstances, which is known to be problematic.  See https://v8.dev/blog/math-random for details.
+#5 23.71 npm warn deprecated @substrate/connect@0.8.10: versions below 1.x are no longer maintained
+#5 26.50 
+#5 26.50 added 236 packages, and audited 754 packages in 26s
+#5 26.50 
+#5 26.50 90 packages are looking for funding
+#5 26.50   run `npm fund` for details
+#5 26.51 
+#5 26.51 5 moderate severity vulnerabilities
+#5 26.51 
+#5 26.51 To address all issues, run:
+#5 26.51   npm audit fix
+#5 26.51 
+#5 26.51 Run `npm audit` for details.
+#5 26.51 npm notice
+#5 26.51 npm notice New minor version of npm available! 10.7.0 -> 10.8.1
+#5 26.51 npm notice Changelog: https://github.com/npm/cli/releases/tag/v10.8.1
+#5 26.51 npm notice To update run: npm install -g npm@10.8.1
+#5 26.51 npm notice
+#5 DONE 27.8s
+
+#6 exporting to image
+#6 exporting layers
+#6 exporting layers 3.5s done
+#6 writing image sha256:8da5b8dc8b8ef2fdf1fca6b6d416492436c770a4019b8e3132e5a23a13468e13 done
+#6 naming to docker.io/library/tmp done
+#6 DONE 3.5s
+
+----
