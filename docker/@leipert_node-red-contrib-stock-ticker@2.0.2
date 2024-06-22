@@ -1,0 +1,40 @@
+#0 building with "default" instance using docker driver
+
+#1 [internal] load build definition from Dockerfile
+#1 transferring dockerfile: 131B done
+#1 DONE 0.0s
+
+#2 [internal] load metadata for docker.io/nodered/node-red:latest
+#2 DONE 0.1s
+
+#3 [internal] load .dockerignore
+#3 transferring context: 2B done
+#3 DONE 0.0s
+
+#4 [1/2] FROM docker.io/nodered/node-red:latest@sha256:aa2d35ab4cbc1c3bf791a22bbf4de251635c5cbc06b3ec9e6b26a31b1296f7e5
+#4 CACHED
+
+#5 [2/2] RUN npm install npm install @leipert/node-red-contrib-stock-ticker@2.0.2
+#5 5.695 npm warn deprecated stocksocket@2.1.2: Package no longer supported. Contact Support at https://www.npmjs.com/support for more info.
+#5 6.628 
+#5 6.628 added 30 packages, and audited 548 packages in 6s
+#5 6.628 
+#5 6.628 74 packages are looking for funding
+#5 6.628   run `npm fund` for details
+#5 6.630 
+#5 6.630 found 0 vulnerabilities
+#5 6.631 npm notice
+#5 6.631 npm notice New minor version of npm available! 10.7.0 -> 10.8.1
+#5 6.631 npm notice Changelog: https://github.com/npm/cli/releases/tag/v10.8.1
+#5 6.631 npm notice To update run: npm install -g npm@10.8.1
+#5 6.631 npm notice
+#5 DONE 6.8s
+
+#6 exporting to image
+#6 exporting layers
+#6 exporting layers 1.4s done
+#6 writing image sha256:94a03da8d394238c117f25f8bc70490841997ea77abbddc7754194bd3877e3f0 done
+#6 naming to docker.io/library/tmp done
+#6 DONE 1.4s
+
+----
