@@ -1,0 +1,47 @@
+#0 building with "default" instance using docker driver
+
+#1 [internal] load build definition from Dockerfile
+#1 transferring dockerfile: 122B done
+#1 DONE 0.0s
+
+#2 [internal] load metadata for docker.io/nodered/node-red:latest
+#2 DONE 0.1s
+
+#3 [internal] load .dockerignore
+#3 transferring context: 2B done
+#3 DONE 0.0s
+
+#4 [1/2] FROM docker.io/nodered/node-red:latest@sha256:aa2d35ab4cbc1c3bf791a22bbf4de251635c5cbc06b3ec9e6b26a31b1296f7e5
+#4 CACHED
+
+#5 [2/2] RUN npm install npm install node-red-contrib-telegrambot@16.0.0
+#5 6.394 npm warn deprecated har-validator@5.1.5: this library is no longer supported
+#5 6.721 npm warn deprecated request@2.88.2: request has been deprecated, see https://github.com/request/request/issues/3142
+#5 6.726 npm warn deprecated uuid@3.4.0: Please upgrade  to version 7 or higher.  Older versions may use Math.random() in certain circumstances, which is known to be problematic.  See https://v8.dev/blog/math-random for details.
+#5 7.481 
+#5 7.481 added 125 packages, and audited 643 packages in 7s
+#5 7.481 
+#5 7.481 117 packages are looking for funding
+#5 7.481   run `npm fund` for details
+#5 7.484 
+#5 7.484 6 moderate severity vulnerabilities
+#5 7.484 
+#5 7.484 To address all issues (including breaking changes), run:
+#5 7.484   npm audit fix --force
+#5 7.484 
+#5 7.484 Run `npm audit` for details.
+#5 7.485 npm notice
+#5 7.485 npm notice New minor version of npm available! 10.7.0 -> 10.8.1
+#5 7.485 npm notice Changelog: https://github.com/npm/cli/releases/tag/v10.8.1
+#5 7.485 npm notice To update run: npm install -g npm@10.8.1
+#5 7.485 npm notice
+#5 DONE 7.5s
+
+#6 exporting to image
+#6 exporting layers
+#6 exporting layers 1.7s done
+#6 writing image sha256:ccd6fe4643200b7edaf85b5278555bad7671dc9336a9f73bd7159f2a23eaf980 done
+#6 naming to docker.io/library/tmp done
+#6 DONE 1.7s
+
+----
