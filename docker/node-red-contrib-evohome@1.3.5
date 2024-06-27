@@ -1,0 +1,50 @@
+#0 building with "default" instance using docker driver
+
+#1 [internal] load build definition from Dockerfile
+#1 transferring dockerfile: 117B done
+#1 DONE 0.0s
+
+#2 [internal] load metadata for docker.io/nodered/node-red:latest
+#2 DONE 0.3s
+
+#3 [internal] load .dockerignore
+#3 transferring context: 2B done
+#3 DONE 0.0s
+
+#4 [1/2] FROM docker.io/nodered/node-red:latest@sha256:53cdec75f709686da5b086a8545e55fd6471d26b435c99cc9de02b51a810a7e9
+#4 CACHED
+
+#5 [2/2] RUN npm install npm install node-red-contrib-evohome@1.3.5
+#5 4.301 npm warn deprecated har-validator@5.1.5: this library is no longer supported
+#5 4.336 npm warn deprecated uuid@3.4.0: Please upgrade  to version 7 or higher.  Older versions may use Math.random() in certain circumstances, which is known to be problematic.  See https://v8.dev/blog/math-random for details.
+#5 4.363 npm warn deprecated q@1.5.1: You or someone you depend on is using Q, the JavaScript Promise library that gave JavaScript developers strong feelings about promises. They can almost certainly migrate to the native JavaScript promise now. Thank you literally everyone for joining me in this bet against the odds. Be excellent to each other.
+#5 4.363 npm warn deprecated
+#5 4.363 npm warn deprecated (For a CapTP with native promises, see @endo/eventual-send and @endo/captp)
+#5 4.372 npm warn deprecated request@2.88.2: request has been deprecated, see https://github.com/request/request/issues/3142
+#5 4.710 
+#5 4.710 added 40 packages, and audited 558 packages in 4s
+#5 4.710 
+#5 4.710 75 packages are looking for funding
+#5 4.710   run `npm fund` for details
+#5 4.713 
+#5 4.713 3 moderate severity vulnerabilities
+#5 4.713 
+#5 4.713 Some issues need review, and may require choosing
+#5 4.713 a different dependency.
+#5 4.713 
+#5 4.713 Run `npm audit` for details.
+#5 4.714 npm notice
+#5 4.714 npm notice New minor version of npm available! 10.7.0 -> 10.8.1
+#5 4.714 npm notice Changelog: https://github.com/npm/cli/releases/tag/v10.8.1
+#5 4.714 npm notice To update run: npm install -g npm@10.8.1
+#5 4.714 npm notice
+#5 DONE 4.8s
+
+#6 exporting to image
+#6 exporting layers
+#6 exporting layers 1.2s done
+#6 writing image sha256:eb1c5199857238d76c9f2a8e4651759e21fa6b37b799ec5f7cf2cc1025c0b98f done
+#6 naming to docker.io/library/tmp done
+#6 DONE 1.2s
+
+----
