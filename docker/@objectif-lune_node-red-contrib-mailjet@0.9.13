@@ -1,0 +1,39 @@
+#0 building with "default" instance using docker driver
+
+#1 [internal] load build definition from Dockerfile
+#1 transferring dockerfile: 133B done
+#1 DONE 0.0s
+
+#2 [internal] load metadata for docker.io/nodered/node-red:latest
+#2 DONE 0.3s
+
+#3 [internal] load .dockerignore
+#3 transferring context: 2B done
+#3 DONE 0.0s
+
+#4 [1/2] FROM docker.io/nodered/node-red:latest@sha256:53cdec75f709686da5b086a8545e55fd6471d26b435c99cc9de02b51a810a7e9
+#4 CACHED
+
+#5 [2/2] RUN npm install npm install @objectif-lune/node-red-contrib-mailjet@0.9.13
+#5 4.442 
+#5 4.442 added 11 packages, and audited 529 packages in 4s
+#5 4.443 
+#5 4.443 74 packages are looking for funding
+#5 4.443   run `npm fund` for details
+#5 4.444 
+#5 4.444 found 0 vulnerabilities
+#5 4.444 npm notice
+#5 4.444 npm notice New minor version of npm available! 10.7.0 -> 10.8.1
+#5 4.444 npm notice Changelog: https://github.com/npm/cli/releases/tag/v10.8.1
+#5 4.444 npm notice To update run: npm install -g npm@10.8.1
+#5 4.444 npm notice
+#5 DONE 4.6s
+
+#6 exporting to image
+#6 exporting layers
+#6 exporting layers 1.2s done
+#6 writing image sha256:ad129e6044160324d78c47ab6fa3abfbff0e732c025d8575a51a3e48c2505212 done
+#6 naming to docker.io/library/tmp done
+#6 DONE 1.2s
+
+----
