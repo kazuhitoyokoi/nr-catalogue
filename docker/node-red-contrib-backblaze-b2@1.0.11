@@ -1,0 +1,47 @@
+#0 building with "default" instance using docker driver
+
+#1 [internal] load build definition from Dockerfile
+#1 transferring dockerfile: 123B done
+#1 DONE 0.0s
+
+#2 [internal] load metadata for docker.io/nodered/node-red:latest
+#2 DONE 0.1s
+
+#3 [internal] load .dockerignore
+#3 transferring context: 2B done
+#3 DONE 0.0s
+
+#4 [1/2] FROM docker.io/nodered/node-red:latest@sha256:53cdec75f709686da5b086a8545e55fd6471d26b435c99cc9de02b51a810a7e9
+#4 CACHED
+
+#5 [2/2] RUN npm install npm install node-red-contrib-backblaze-b2@1.0.11
+#5 6.787 
+#5 6.787 added 30 packages, and audited 548 packages in 7s
+#5 6.787 
+#5 6.787 75 packages are looking for funding
+#5 6.787   run `npm fund` for details
+#5 6.792 
+#5 6.792 10 vulnerabilities (2 moderate, 8 critical)
+#5 6.792 
+#5 6.792 To address issues that do not require attention, run:
+#5 6.792   npm audit fix
+#5 6.792 
+#5 6.792 Some issues need review, and may require choosing
+#5 6.792 a different dependency.
+#5 6.792 
+#5 6.792 Run `npm audit` for details.
+#5 6.793 npm notice
+#5 6.793 npm notice New minor version of npm available! 10.7.0 -> 10.8.1
+#5 6.793 npm notice Changelog: https://github.com/npm/cli/releases/tag/v10.8.1
+#5 6.793 npm notice To update run: npm install -g npm@10.8.1
+#5 6.793 npm notice
+#5 DONE 6.9s
+
+#6 exporting to image
+#6 exporting layers
+#6 exporting layers 1.2s done
+#6 writing image sha256:a08a02a7cf5f8699ffbd553584229eb2566f888cf258605c9e2d8cc5923abc65 done
+#6 naming to docker.io/library/tmp done
+#6 DONE 1.2s
+
+----
