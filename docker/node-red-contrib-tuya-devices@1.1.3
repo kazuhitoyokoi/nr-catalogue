@@ -1,0 +1,49 @@
+#0 building with "default" instance using docker driver
+
+#1 [internal] load build definition from Dockerfile
+#1 transferring dockerfile: 122B done
+#1 DONE 0.0s
+
+#2 [internal] load metadata for docker.io/nodered/node-red:latest
+#2 DONE 0.3s
+
+#3 [internal] load .dockerignore
+#3 transferring context: 2B done
+#3 DONE 0.0s
+
+#4 [1/2] FROM docker.io/nodered/node-red:latest@sha256:4b3872b729a42f2369ccc26364b6e7b71a60a35fc910597d81b540e5911137f5
+#4 CACHED
+
+#5 [2/2] RUN npm install npm install node-red-contrib-tuya-devices@1.1.3
+#5 4.809 npm warn deprecated inflight@1.0.6: This module is not supported, and leaks memory. Do not use it. Check out lru-cache if you want a good and tested way to coalesce async requests by a key value, which is much more comprehensive and powerful.
+#5 4.887 npm warn deprecated har-validator@5.1.5: this library is no longer supported
+#5 4.953 npm warn deprecated glob@7.2.3: Glob versions prior to v9 are no longer supported
+#5 4.959 npm warn deprecated uuid@3.4.0: Please upgrade  to version 7 or higher.  Older versions may use Math.random() in certain circumstances, which is known to be problematic.  See https://v8.dev/blog/math-random for details.
+#5 4.981 npm warn deprecated request@2.88.2: request has been deprecated, see https://github.com/request/request/issues/3142
+#5 5.256 
+#5 5.256 added 78 packages, and audited 596 packages in 5s
+#5 5.256 
+#5 5.256 78 packages are looking for funding
+#5 5.256   run `npm fund` for details
+#5 5.259 
+#5 5.259 3 moderate severity vulnerabilities
+#5 5.259 
+#5 5.259 Some issues need review, and may require choosing
+#5 5.259 a different dependency.
+#5 5.259 
+#5 5.259 Run `npm audit` for details.
+#5 5.260 npm notice
+#5 5.260 npm notice New minor version of npm available! 10.7.0 -> 10.8.1
+#5 5.260 npm notice Changelog: https://github.com/npm/cli/releases/tag/v10.8.1
+#5 5.260 npm notice To update run: npm install -g npm@10.8.1
+#5 5.260 npm notice
+#5 DONE 5.3s
+
+#6 exporting to image
+#6 exporting layers
+#6 exporting layers 1.2s done
+#6 writing image sha256:be2192c670da63d0221a97721659be5e75065805ca7957b17eca0d7239833e5c done
+#6 naming to docker.io/library/tmp done
+#6 DONE 1.2s
+
+----
