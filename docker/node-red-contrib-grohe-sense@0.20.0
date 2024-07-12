@@ -1,0 +1,40 @@
+#0 building with "default" instance using docker driver
+
+#1 [internal] load build definition from Dockerfile
+#1 transferring dockerfile: 122B done
+#1 DONE 0.0s
+
+#2 [internal] load metadata for docker.io/nodered/node-red:latest
+#2 DONE 0.1s
+
+#3 [internal] load .dockerignore
+#3 transferring context: 2B done
+#3 DONE 0.0s
+
+#4 [1/2] FROM docker.io/nodered/node-red:latest@sha256:fa8fbcf2ddc1e1b2cdea3c1e6d027413f583956fc499289c432650a3ea03c10b
+#4 CACHED
+
+#5 [2/2] RUN npm install npm install node-red-contrib-grohe-sense@0.20.0
+#5 4.034 npm warn deprecated superagent@7.1.6: Please upgrade to v9.0.0+ as we have fixed a public vulnerability with formidable dependency. Note that v9.0.0+ requires Node.js v14.18.0+. See https://github.com/ladjs/superagent/pull/1800 for insight. This project is supported and maintained by the team at Forward Email @ https://forwardemail.net
+#5 4.207 
+#5 4.207 added 21 packages, and audited 535 packages in 4s
+#5 4.207 
+#5 4.207 74 packages are looking for funding
+#5 4.207   run `npm fund` for details
+#5 4.208 
+#5 4.208 found 0 vulnerabilities
+#5 4.209 npm notice
+#5 4.209 npm notice New minor version of npm available! 10.7.0 -> 10.8.2
+#5 4.209 npm notice Changelog: https://github.com/npm/cli/releases/tag/v10.8.2
+#5 4.209 npm notice To update run: npm install -g npm@10.8.2
+#5 4.209 npm notice
+#5 DONE 4.3s
+
+#6 exporting to image
+#6 exporting layers
+#6 exporting layers 1.0s done
+#6 writing image sha256:e73a72195262049244963fc7428166edd08244d921c87b2822a6044a4a0a668e done
+#6 naming to docker.io/library/tmp done
+#6 DONE 1.0s
+
+----
