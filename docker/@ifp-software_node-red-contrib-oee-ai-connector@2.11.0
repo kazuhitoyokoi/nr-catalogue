@@ -1,0 +1,41 @@
+#0 building with "default" instance using docker driver
+
+#1 [internal] load build definition from Dockerfile
+#1 transferring dockerfile: 141B done
+#1 DONE 0.0s
+
+#2 [internal] load metadata for docker.io/nodered/node-red:latest
+#2 DONE 0.2s
+
+#3 [internal] load .dockerignore
+#3 transferring context: 2B done
+#3 DONE 0.0s
+
+#4 [1/2] FROM docker.io/nodered/node-red:latest@sha256:fa8fbcf2ddc1e1b2cdea3c1e6d027413f583956fc499289c432650a3ea03c10b
+#4 CACHED
+
+#5 [2/2] RUN npm install npm install @ifp-software/node-red-contrib-oee-ai-connector@2.11.0
+#5 4.648 npm warn deprecated inflight@1.0.6: This module is not supported, and leaks memory. Do not use it. Check out lru-cache if you want a good and tested way to coalesce async requests by a key value, which is much more comprehensive and powerful.
+#5 4.685 npm warn deprecated glob@7.2.3: Glob versions prior to v9 are no longer supported
+#5 4.994 
+#5 4.994 added 30 packages, and audited 544 packages in 5s
+#5 4.994 
+#5 4.994 73 packages are looking for funding
+#5 4.994   run `npm fund` for details
+#5 4.996 
+#5 4.996 found 0 vulnerabilities
+#5 4.996 npm notice
+#5 4.996 npm notice New minor version of npm available! 10.7.0 -> 10.8.2
+#5 4.996 npm notice Changelog: https://github.com/npm/cli/releases/tag/v10.8.2
+#5 4.996 npm notice To update run: npm install -g npm@10.8.2
+#5 4.996 npm notice
+#5 DONE 5.1s
+
+#6 exporting to image
+#6 exporting layers
+#6 exporting layers 1.0s done
+#6 writing image sha256:cf027ffa7509e3b014d92372bc9b80b81d5d18e08151231eef05b09527f46de0 done
+#6 naming to docker.io/library/tmp done
+#6 DONE 1.0s
+
+----
