@@ -1,0 +1,39 @@
+#0 building with "default" instance using docker driver
+
+#1 [internal] load build definition from Dockerfile
+#1 transferring dockerfile: 125B done
+#1 DONE 0.0s
+
+#2 [internal] load metadata for docker.io/nodered/node-red:latest
+#2 DONE 0.1s
+
+#3 [internal] load .dockerignore
+#3 transferring context: 2B done
+#3 DONE 0.0s
+
+#4 [1/2] FROM docker.io/nodered/node-red:latest@sha256:fa8fbcf2ddc1e1b2cdea3c1e6d027413f583956fc499289c432650a3ea03c10b
+#4 CACHED
+
+#5 [2/2] RUN npm install npm install @danpeig/node-red-meshtastic-msg@1.1.0
+#5 5.449 
+#5 5.449 added 10 packages, and audited 524 packages in 5s
+#5 5.449 
+#5 5.449 72 packages are looking for funding
+#5 5.449   run `npm fund` for details
+#5 5.450 
+#5 5.450 found 0 vulnerabilities
+#5 5.451 npm notice
+#5 5.451 npm notice New minor version of npm available! 10.7.0 -> 10.8.2
+#5 5.451 npm notice Changelog: https://github.com/npm/cli/releases/tag/v10.8.2
+#5 5.451 npm notice To update run: npm install -g npm@10.8.2
+#5 5.451 npm notice
+#5 DONE 5.5s
+
+#6 exporting to image
+#6 exporting layers
+#6 exporting layers 1.1s done
+#6 writing image sha256:15bcd54c0b8ad3a8d13efac96c5ad470e368cef28c3014f4436ac6f1f7a8ba2b done
+#6 naming to docker.io/library/tmp done
+#6 DONE 1.1s
+
+----
