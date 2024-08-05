@@ -1,0 +1,39 @@
+#0 building with "default" instance using docker driver
+
+#1 [internal] load build definition from Dockerfile
+#1 transferring dockerfile: 133B done
+#1 DONE 0.0s
+
+#2 [internal] load metadata for docker.io/nodered/node-red:latest
+#2 DONE 0.1s
+
+#3 [internal] load .dockerignore
+#3 transferring context: 2B done
+#3 DONE 0.0s
+
+#4 [1/2] FROM docker.io/nodered/node-red:latest@sha256:fa8fbcf2ddc1e1b2cdea3c1e6d027413f583956fc499289c432650a3ea03c10b
+#4 CACHED
+
+#5 [2/2] RUN npm install npm install node-red-contrib-boolean-logic-ultimate@1.1.15
+#5 4.180 
+#5 4.180 added 7 packages, and audited 521 packages in 4s
+#5 4.180 
+#5 4.180 71 packages are looking for funding
+#5 4.180   run `npm fund` for details
+#5 4.181 
+#5 4.181 found 0 vulnerabilities
+#5 4.182 npm notice
+#5 4.182 npm notice New minor version of npm available! 10.7.0 -> 10.8.2
+#5 4.182 npm notice Changelog: https://github.com/npm/cli/releases/tag/v10.8.2
+#5 4.182 npm notice To update run: npm install -g npm@10.8.2
+#5 4.182 npm notice
+#5 DONE 4.3s
+
+#6 exporting to image
+#6 exporting layers
+#6 exporting layers 1.0s done
+#6 writing image sha256:3ee3c3074892b3b8a1000fda55e7a8a17379be9616c9484cad839ced9cb8d65b done
+#6 naming to docker.io/library/tmp done
+#6 DONE 1.1s
+
+----
