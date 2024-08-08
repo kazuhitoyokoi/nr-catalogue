@@ -1,0 +1,61 @@
+#0 building with "default" instance using docker driver
+
+#1 [internal] load build definition from Dockerfile
+#1 transferring dockerfile: 128B done
+#1 DONE 0.0s
+
+#2 [internal] load metadata for docker.io/nodered/node-red:latest
+#2 DONE 0.1s
+
+#3 [internal] load .dockerignore
+#3 transferring context: 2B done
+#3 DONE 0.0s
+
+#4 [1/2] FROM docker.io/nodered/node-red:latest@sha256:fa8fbcf2ddc1e1b2cdea3c1e6d027413f583956fc499289c432650a3ea03c10b
+#4 CACHED
+
+#5 [2/2] RUN npm install npm install node-red-contrib-html-pdf-converter@0.1.2
+#5 8.412 npm warn deprecated inflight@1.0.6: This module is not supported, and leaks memory. Do not use it. Check out lru-cache if you want a good and tested way to coalesce async requests by a key value, which is much more comprehensive and powerful.
+#5 8.565 npm warn deprecated are-we-there-yet@2.0.0: This package is no longer supported.
+#5 8.604 npm warn deprecated npmlog@5.0.1: This package is no longer supported.
+#5 8.631 npm warn deprecated har-validator@5.1.5: this library is no longer supported
+#5 8.712 npm warn deprecated gauge@3.0.2: This package is no longer supported.
+#5 8.923 npm warn deprecated glob@7.2.3: Glob versions prior to v9 are no longer supported
+#5 8.979 npm warn deprecated rimraf@3.0.2: Rimraf versions prior to v4 are no longer supported
+#5 8.992 npm warn deprecated phantomjs-prebuilt@2.1.16: this package is now deprecated
+#5 8.992 npm warn deprecated glob@7.2.3: Glob versions prior to v9 are no longer supported
+#5 9.053 npm warn deprecated uuid@3.4.0: Please upgrade  to version 7 or higher.  Older versions may use Math.random() in certain circumstances, which is known to be problematic.  See https://v8.dev/blog/math-random for details.
+#5 9.108 npm warn deprecated request@2.88.2: request has been deprecated, see https://github.com/request/request/issues/3142
+#5 9.131 npm warn deprecated multer@1.4.4: Multer 1.x is affected by CVE-2022-24434. This is fixed in v1.4.4-lts.1 which drops support for versions of Node.js before 6. Please upgrade to at least Node.js 6 and version 1.4.4-lts.1 of Multer. If you need support for older versions of Node.js, we are open to accepting patches that would fix the CVE on the main 1.x release line, whilst maintaining compatibility with Node.js 0.10.
+#5 9.198 npm warn deprecated html-pdf@3.0.1: Please migrate your projects to a newer library like puppeteer
+#5 9.360 npm warn deprecated axios@0.27.0: Formdata complete broken, incorrect build size
+#5 14.16 
+#5 14.16 added 234 packages, and audited 748 packages in 14s
+#5 14.16 
+#5 14.16 88 packages are looking for funding
+#5 14.16   run `npm fund` for details
+#5 14.18 
+#5 14.18 27 vulnerabilities (13 moderate, 8 high, 6 critical)
+#5 14.18 
+#5 14.18 To address issues that do not require attention, run:
+#5 14.18   npm audit fix
+#5 14.18 
+#5 14.18 Some issues need review, and may require choosing
+#5 14.18 a different dependency.
+#5 14.18 
+#5 14.18 Run `npm audit` for details.
+#5 14.18 npm notice
+#5 14.18 npm notice New minor version of npm available! 10.7.0 -> 10.8.2
+#5 14.18 npm notice Changelog: https://github.com/npm/cli/releases/tag/v10.8.2
+#5 14.18 npm notice To update run: npm install -g npm@10.8.2
+#5 14.18 npm notice
+#5 DONE 14.5s
+
+#6 exporting to image
+#6 exporting layers
+#6 exporting layers 1.9s done
+#6 writing image sha256:d5a0b0663b25aeb83984eb179104ec558cbda74e2cb3de659e063320c858b44d done
+#6 naming to docker.io/library/tmp done
+#6 DONE 1.9s
+
+----
