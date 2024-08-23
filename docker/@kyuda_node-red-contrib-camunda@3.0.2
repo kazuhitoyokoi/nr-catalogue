@@ -1,0 +1,53 @@
+#0 building with "default" instance using docker driver
+
+#1 [internal] load build definition from Dockerfile
+#1 transferring dockerfile: 124B done
+#1 DONE 0.0s
+
+#2 [internal] load metadata for docker.io/nodered/node-red:latest
+#2 DONE 0.1s
+
+#3 [internal] load .dockerignore
+#3 transferring context: 2B done
+#3 DONE 0.0s
+
+#4 [1/2] FROM docker.io/nodered/node-red:latest@sha256:f86afc0129a060f73fa2af34e3dffdeb9eaaa6f5620cfc181f63ade86aad4991
+#4 CACHED
+
+#5 [2/2] RUN npm install npm install @kyuda/node-red-contrib-camunda@3.0.2
+#5 5.462 npm warn deprecated formidable@1.2.6: Please upgrade to latest, formidable@v2 or formidable@v3! Check these notes: https://bit.ly/2ZEqIau
+#5 5.610 npm warn deprecated q@1.5.1: You or someone you depend on is using Q, the JavaScript Promise library that gave JavaScript developers strong feelings about promises. They can almost certainly migrate to the native JavaScript promise now. Thank you literally everyone for joining me in this bet against the odds. Be excellent to each other.
+#5 5.610 npm warn deprecated
+#5 5.610 npm warn deprecated (For a CapTP with native promises, see @endo/eventual-send and @endo/captp)
+#5 5.629 npm warn deprecated uuid@3.4.0: Please upgrade  to version 7 or higher.  Older versions may use Math.random() in certain circumstances, which is known to be problematic.  See https://v8.dev/blog/math-random for details.
+#5 5.669 npm warn deprecated superagent@6.1.0: Please upgrade to v9.0.0+ as we have fixed a public vulnerability with formidable dependency. Note that v9.0.0+ requires Node.js v14.18.0+. See https://github.com/ladjs/superagent/pull/1800 for insight. This project is supported and maintained by the team at Forward Email @ https://forwardemail.net
+#5 6.322 
+#5 6.322 added 43 packages, and audited 557 packages in 6s
+#5 6.322 
+#5 6.322 82 packages are looking for funding
+#5 6.322   run `npm fund` for details
+#5 6.325 
+#5 6.325 3 vulnerabilities (1 moderate, 2 high)
+#5 6.325 
+#5 6.325 To address issues that do not require attention, run:
+#5 6.325   npm audit fix
+#5 6.325 
+#5 6.325 Some issues need review, and may require choosing
+#5 6.325 a different dependency.
+#5 6.325 
+#5 6.325 Run `npm audit` for details.
+#5 6.326 npm notice
+#5 6.326 npm notice New patch version of npm available! 10.8.1 -> 10.8.2
+#5 6.326 npm notice Changelog: https://github.com/npm/cli/releases/tag/v10.8.2
+#5 6.326 npm notice To update run: npm install -g npm@10.8.2
+#5 6.326 npm notice
+#5 DONE 6.4s
+
+#6 exporting to image
+#6 exporting layers
+#6 exporting layers 1.2s done
+#6 writing image sha256:103d0315b6188e2f62a2eb292cafee6130d1e1a9435946cbca5a43539d179028 done
+#6 naming to docker.io/library/tmp done
+#6 DONE 1.2s
+
+----
