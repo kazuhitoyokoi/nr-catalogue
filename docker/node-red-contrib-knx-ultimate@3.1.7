@@ -1,0 +1,46 @@
+#0 building with "default" instance using docker driver
+
+#1 [internal] load build definition from Dockerfile
+#1 transferring dockerfile: 122B done
+#1 DONE 0.0s
+
+#2 [internal] load metadata for docker.io/nodered/node-red:latest
+#2 DONE 0.1s
+
+#3 [internal] load .dockerignore
+#3 transferring context: 2B done
+#3 DONE 0.0s
+
+#4 [1/2] FROM docker.io/nodered/node-red:latest@sha256:f86afc0129a060f73fa2af34e3dffdeb9eaaa6f5620cfc181f63ade86aad4991
+#4 CACHED
+
+#5 [2/2] RUN npm install npm install node-red-contrib-knx-ultimate@3.1.7
+#5 5.546 npm warn deprecated inflight@1.0.6: This module is not supported, and leaks memory. Do not use it. Check out lru-cache if you want a good and tested way to coalesce async requests by a key value, which is much more comprehensive and powerful.
+#5 5.694 npm warn deprecated glob@7.2.3: Glob versions prior to v9 are no longer supported
+#5 6.412 
+#5 6.412 added 46 packages, and audited 560 packages in 6s
+#5 6.412 
+#5 6.412 78 packages are looking for funding
+#5 6.412   run `npm fund` for details
+#5 6.415 
+#5 6.415 1 high severity vulnerability
+#5 6.415 
+#5 6.415 To address all issues, run:
+#5 6.415   npm audit fix
+#5 6.415 
+#5 6.415 Run `npm audit` for details.
+#5 6.416 npm notice
+#5 6.416 npm notice New patch version of npm available! 10.8.1 -> 10.8.2
+#5 6.416 npm notice Changelog: https://github.com/npm/cli/releases/tag/v10.8.2
+#5 6.416 npm notice To update run: npm install -g npm@10.8.2
+#5 6.416 npm notice
+#5 DONE 6.6s
+
+#6 exporting to image
+#6 exporting layers
+#6 exporting layers 1.5s done
+#6 writing image sha256:f424e4dcab47e216e6723487c84c29429d665c979c1d7a9b6125bef588566bd1 done
+#6 naming to docker.io/library/tmp done
+#6 DONE 1.5s
+
+----
