@@ -1,0 +1,44 @@
+#0 building with "default" instance using docker driver
+
+#1 [internal] load build definition from Dockerfile
+#1 transferring dockerfile: 133B done
+#1 DONE 0.0s
+
+#2 [internal] load metadata for docker.io/nodered/node-red:latest
+#2 DONE 0.3s
+
+#3 [internal] load .dockerignore
+#3 transferring context: 2B done
+#3 DONE 0.0s
+
+#4 [1/2] FROM docker.io/nodered/node-red:latest@sha256:f86afc0129a060f73fa2af34e3dffdeb9eaaa6f5620cfc181f63ade86aad4991
+#4 CACHED
+
+#5 [2/2] RUN npm install npm install node-red-contrib-boolean-logic-ultimate@1.1.17
+#5 3.979 
+#5 3.979 added 7 packages, and audited 521 packages in 4s
+#5 3.979 
+#5 3.979 72 packages are looking for funding
+#5 3.979   run `npm fund` for details
+#5 3.981 
+#5 3.981 1 high severity vulnerability
+#5 3.981 
+#5 3.981 To address all issues, run:
+#5 3.981   npm audit fix
+#5 3.981 
+#5 3.981 Run `npm audit` for details.
+#5 3.982 npm notice
+#5 3.982 npm notice New patch version of npm available! 10.8.1 -> 10.8.2
+#5 3.982 npm notice Changelog: https://github.com/npm/cli/releases/tag/v10.8.2
+#5 3.982 npm notice To update run: npm install -g npm@10.8.2
+#5 3.982 npm notice
+#5 DONE 4.1s
+
+#6 exporting to image
+#6 exporting layers
+#6 exporting layers 1.0s done
+#6 writing image sha256:c7a79e687832be1d0451060465d67028b25bffcb9e200a46ac2180ad5b0aefb2 done
+#6 naming to docker.io/library/tmp done
+#6 DONE 1.0s
+
+----
