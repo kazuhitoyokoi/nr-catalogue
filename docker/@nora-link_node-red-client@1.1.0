@@ -1,0 +1,47 @@
+#0 building with "default" instance using docker driver
+
+#1 [internal] load build definition from Dockerfile
+#1 transferring dockerfile: 119B done
+#1 DONE 0.0s
+
+#2 [internal] load metadata for docker.io/nodered/node-red:latest
+#2 DONE 0.3s
+
+#3 [internal] load .dockerignore
+#3 transferring context: 2B done
+#3 DONE 0.0s
+
+#4 [1/2] FROM docker.io/nodered/node-red:latest@sha256:5df8027df1f7f1bc2e87f7b78f6caa5edb1b4f2ddf9e7321cb9358b27f3d51b3
+#4 CACHED
+
+#5 [2/2] RUN npm install npm install @nora-link/node-red-client@1.1.0
+#5 14.95 
+#5 14.95 added 85 packages, and audited 598 packages in 15s
+#5 14.95 
+#5 14.95 69 packages are looking for funding
+#5 14.95   run `npm fund` for details
+#5 14.96 
+#5 14.96 9 vulnerabilities (3 moderate, 6 high)
+#5 14.96 
+#5 14.96 To address issues that do not require attention, run:
+#5 14.96   npm audit fix
+#5 14.96 
+#5 14.96 Some issues need review, and may require choosing
+#5 14.96 a different dependency.
+#5 14.96 
+#5 14.96 Run `npm audit` for details.
+#5 14.96 npm notice
+#5 14.96 npm notice New patch version of npm available! 10.8.2 -> 10.8.3
+#5 14.96 npm notice Changelog: https://github.com/npm/cli/releases/tag/v10.8.3
+#5 14.96 npm notice To update run: npm install -g npm@10.8.3
+#5 14.96 npm notice
+#5 DONE 15.8s
+
+#6 exporting to image
+#6 exporting layers
+#6 exporting layers 3.4s done
+#6 writing image sha256:846ea5c3dac7c40c5ff921a019f86c9e5a35b2d5f9d7072b86bf8cd8da553d93 done
+#6 naming to docker.io/library/tmp done
+#6 DONE 3.4s
+
+----
