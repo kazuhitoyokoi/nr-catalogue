@@ -1,0 +1,47 @@
+#0 building with "default" instance using docker driver
+
+#1 [internal] load build definition from Dockerfile
+#1 transferring dockerfile: 117B done
+#1 DONE 0.0s
+
+#2 [internal] load metadata for docker.io/nodered/node-red:latest
+#2 DONE 0.3s
+
+#3 [internal] load .dockerignore
+#3 transferring context: 2B done
+#3 DONE 0.0s
+
+#4 [1/2] FROM docker.io/nodered/node-red:latest@sha256:5df8027df1f7f1bc2e87f7b78f6caa5edb1b4f2ddf9e7321cb9358b27f3d51b3
+#4 CACHED
+
+#5 [2/2] RUN npm install npm install node-red-node-rdk-tools@0.0.14
+#5 4.159 
+#5 4.159 added 3 packages, and audited 516 packages in 4s
+#5 4.159 
+#5 4.159 69 packages are looking for funding
+#5 4.160   run `npm fund` for details
+#5 4.169 
+#5 4.169 9 vulnerabilities (3 moderate, 6 high)
+#5 4.169 
+#5 4.169 To address issues that do not require attention, run:
+#5 4.169   npm audit fix
+#5 4.169 
+#5 4.169 Some issues need review, and may require choosing
+#5 4.169 a different dependency.
+#5 4.169 
+#5 4.169 Run `npm audit` for details.
+#5 4.171 npm notice
+#5 4.171 npm notice New patch version of npm available! 10.8.2 -> 10.8.3
+#5 4.171 npm notice Changelog: https://github.com/npm/cli/releases/tag/v10.8.3
+#5 4.171 npm notice To update run: npm install -g npm@10.8.3
+#5 4.171 npm notice
+#5 DONE 4.3s
+
+#6 exporting to image
+#6 exporting layers
+#6 exporting layers 1.0s done
+#6 writing image sha256:927ba947bd58367f437c054d94416dcd397f1aece48ea2e3dfe0600bfdeba0e0 done
+#6 naming to docker.io/library/tmp done
+#6 DONE 1.0s
+
+----
