@@ -1,0 +1,47 @@
+#0 building with "default" instance using docker driver
+
+#1 [internal] load build definition from Dockerfile
+#1 transferring dockerfile: 117B done
+#1 DONE 0.0s
+
+#2 [auth] nodered/node-red:pull token for registry-1.docker.io
+#2 DONE 0.0s
+
+#3 [internal] load metadata for docker.io/nodered/node-red:latest
+#3 DONE 0.5s
+
+#4 [internal] load .dockerignore
+#4 transferring context: 2B done
+#4 DONE 0.0s
+
+#5 [1/2] FROM docker.io/nodered/node-red:latest@sha256:f57fc35cc39a9734ada6680c7d3a177c38d01e815dbc7a5e56fa99d9a9767778
+#5 CACHED
+
+#6 [2/2] RUN npm install npm install node-red-contrib-graphql@2.2.0
+#6 4.275 
+#6 4.275 added 4 packages, and audited 514 packages in 4s
+#6 4.275 
+#6 4.275 70 packages are looking for funding
+#6 4.275   run `npm fund` for details
+#6 4.277 
+#6 4.277 2 moderate severity vulnerabilities
+#6 4.277 
+#6 4.277 To address all issues (including breaking changes), run:
+#6 4.277   npm audit fix --force
+#6 4.277 
+#6 4.277 Run `npm audit` for details.
+#6 4.278 npm notice
+#6 4.278 npm notice New patch version of npm available! 10.8.2 -> 10.8.3
+#6 4.278 npm notice Changelog: https://github.com/npm/cli/releases/tag/v10.8.3
+#6 4.278 npm notice To update run: npm install -g npm@10.8.3
+#6 4.278 npm notice
+#6 DONE 4.4s
+
+#7 exporting to image
+#7 exporting layers
+#7 exporting layers 1.0s done
+#7 writing image sha256:4945b27eb753516cb4de91a1965398d7ea183187a7b2d68e3cba4f63470bb922 done
+#7 naming to docker.io/library/tmp done
+#7 DONE 1.0s
+
+----
