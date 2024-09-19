@@ -1,0 +1,40 @@
+#0 building with "default" instance using docker driver
+
+#1 [internal] load build definition from Dockerfile
+#1 transferring dockerfile: 117B done
+#1 DONE 0.0s
+
+#2 [internal] load metadata for docker.io/nodered/node-red:latest
+#2 DONE 0.1s
+
+#3 [internal] load .dockerignore
+#3 transferring context: 2B done
+#3 DONE 0.0s
+
+#4 [1/2] FROM docker.io/nodered/node-red:latest@sha256:55fc57012066ce49fc5615b83b558552ba464bbeaa299b688e11e51dc90b0fd7
+#4 CACHED
+
+#5 [2/2] RUN npm install npm install node-red-contrib-shelly@11.1.0
+#5 4.716 npm warn deprecated crypto@1.0.1: This package is no longer supported. It's now a built-in Node module. If you've depended on crypto, you should switch to the one that's built-in.
+#5 5.101 
+#5 5.101 added 46 packages, and audited 556 packages in 5s
+#5 5.101 
+#5 5.101 71 packages are looking for funding
+#5 5.101   run `npm fund` for details
+#5 5.103 
+#5 5.103 found 0 vulnerabilities
+#5 5.104 npm notice
+#5 5.104 npm notice New patch version of npm available! 10.8.2 -> 10.8.3
+#5 5.104 npm notice Changelog: https://github.com/npm/cli/releases/tag/v10.8.3
+#5 5.104 npm notice To update run: npm install -g npm@10.8.3
+#5 5.104 npm notice
+#5 DONE 5.2s
+
+#6 exporting to image
+#6 exporting layers
+#6 exporting layers 1.2s done
+#6 writing image sha256:e311c34effffabb094e81fb344b43cebf8eccc8bc11d2ef8566a0105cd73363b done
+#6 naming to docker.io/library/tmp done
+#6 DONE 1.2s
+
+----
