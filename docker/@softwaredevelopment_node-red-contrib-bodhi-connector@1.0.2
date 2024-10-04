@@ -1,0 +1,43 @@
+#0 building with "default" instance using docker driver
+
+#1 [internal] load build definition from Dockerfile
+#1 transferring dockerfile: 146B done
+#1 DONE 0.0s
+
+#2 [internal] load metadata for docker.io/nodered/node-red:latest
+#2 DONE 0.3s
+
+#3 [internal] load .dockerignore
+#3 transferring context: 2B done
+#3 DONE 0.0s
+
+#4 [1/2] FROM docker.io/nodered/node-red:latest@sha256:55fc57012066ce49fc5615b83b558552ba464bbeaa299b688e11e51dc90b0fd7
+#4 CACHED
+
+#5 [2/2] RUN npm install npm install @softwaredevelopment/node-red-contrib-bodhi-connector@1.0.2
+#5 5.996 npm warn deprecated inflight@1.0.6: This module is not supported, and leaks memory. Do not use it. Check out lru-cache if you want a good and tested way to coalesce async requests by a key value, which is much more comprehensive and powerful.
+#5 6.119 npm warn deprecated glob@7.2.3: Glob versions prior to v9 are no longer supported
+#5 6.129 npm warn deprecated rimraf@3.0.2: Rimraf versions prior to v4 are no longer supported
+#5 6.141 npm warn deprecated glob@7.2.3: Glob versions prior to v9 are no longer supported
+#5 6.486 
+#5 6.486 added 83 packages, and audited 635 packages in 6s
+#5 6.486 
+#5 6.486 75 packages are looking for funding
+#5 6.486   run `npm fund` for details
+#5 6.487 
+#5 6.487 found 0 vulnerabilities
+#5 6.488 npm notice
+#5 6.488 npm notice New minor version of npm available! 10.8.2 -> 10.9.0
+#5 6.488 npm notice Changelog: https://github.com/npm/cli/releases/tag/v10.9.0
+#5 6.488 npm notice To update run: npm install -g npm@10.9.0
+#5 6.488 npm notice
+#5 DONE 6.6s
+
+#6 exporting to image
+#6 exporting layers
+#6 exporting layers 1.3s done
+#6 writing image sha256:e4a024d85e7da4a3b8981d5395123f8ed5b98fb301fd57916938ed9988c60610 done
+#6 naming to docker.io/library/tmp done
+#6 DONE 1.3s
+
+----
