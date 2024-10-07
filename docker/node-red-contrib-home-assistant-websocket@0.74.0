@@ -1,0 +1,47 @@
+#0 building with "default" instance using docker driver
+
+#1 [internal] load build definition from Dockerfile
+#1 transferring dockerfile: 135B done
+#1 DONE 0.0s
+
+#2 [internal] load metadata for docker.io/nodered/node-red:latest
+#2 DONE 0.1s
+
+#3 [internal] load .dockerignore
+#3 transferring context: 2B done
+#3 DONE 0.0s
+
+#4 [1/2] FROM docker.io/nodered/node-red:latest@sha256:55fc57012066ce49fc5615b83b558552ba464bbeaa299b688e11e51dc90b0fd7
+#4 CACHED
+
+#5 [2/2] RUN npm install npm install node-red-contrib-home-assistant-websocket@0.74.0
+#5 6.980 
+#5 6.980 added 49 packages, and audited 601 packages in 7s
+#5 6.980 
+#5 6.980 80 packages are looking for funding
+#5 6.980   run `npm fund` for details
+#5 6.998 
+#5 6.998 13 vulnerabilities (8 low, 5 high)
+#5 6.998 
+#5 6.998 To address issues that do not require attention, run:
+#5 6.998   npm audit fix
+#5 6.998 
+#5 6.998 To address all issues (including breaking changes), run:
+#5 6.998   npm audit fix --force
+#5 6.998 
+#5 6.998 Run `npm audit` for details.
+#5 6.999 npm notice
+#5 6.999 npm notice New minor version of npm available! 10.8.2 -> 10.9.0
+#5 6.999 npm notice Changelog: https://github.com/npm/cli/releases/tag/v10.9.0
+#5 6.999 npm notice To update run: npm install -g npm@10.9.0
+#5 6.999 npm notice
+#5 DONE 7.0s
+
+#6 exporting to image
+#6 exporting layers
+#6 exporting layers 1.4s done
+#6 writing image sha256:fb3298c3bfa474a6f8c58246d2d1f916536208c9fd7cea27b592222883820564 done
+#6 naming to docker.io/library/tmp done
+#6 DONE 1.4s
+
+----
