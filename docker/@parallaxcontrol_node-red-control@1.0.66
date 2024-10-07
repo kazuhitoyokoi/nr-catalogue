@@ -1,0 +1,48 @@
+#0 building with "default" instance using docker driver
+
+#1 [internal] load build definition from Dockerfile
+#1 transferring dockerfile: 127B done
+#1 DONE 0.0s
+
+#2 [internal] load metadata for docker.io/nodered/node-red:latest
+#2 DONE 0.1s
+
+#3 [internal] load .dockerignore
+#3 transferring context: 2B done
+#3 DONE 0.0s
+
+#4 [1/2] FROM docker.io/nodered/node-red:latest@sha256:55fc57012066ce49fc5615b83b558552ba464bbeaa299b688e11e51dc90b0fd7
+#4 CACHED
+
+#5 [2/2] RUN npm install npm install @parallaxcontrol/node-red-control@1.0.66
+#5 9.171 npm warn deprecated querystring@0.2.1: The querystring API is considered Legacy. new code should use the URLSearchParams API instead.
+#5 11.41 
+#5 11.41 added 144 packages, and audited 696 packages in 11s
+#5 11.41 
+#5 11.41 77 packages are looking for funding
+#5 11.41   run `npm fund` for details
+#5 11.42 
+#5 11.42 11 vulnerabilities (8 low, 3 high)
+#5 11.42 
+#5 11.42 To address issues that do not require attention, run:
+#5 11.42   npm audit fix
+#5 11.42 
+#5 11.42 Some issues need review, and may require choosing
+#5 11.42 a different dependency.
+#5 11.42 
+#5 11.42 Run `npm audit` for details.
+#5 11.42 npm notice
+#5 11.42 npm notice New minor version of npm available! 10.8.2 -> 10.9.0
+#5 11.42 npm notice Changelog: https://github.com/npm/cli/releases/tag/v10.9.0
+#5 11.42 npm notice To update run: npm install -g npm@10.9.0
+#5 11.42 npm notice
+#5 DONE 11.7s
+
+#6 exporting to image
+#6 exporting layers
+#6 exporting layers 1.8s done
+#6 writing image sha256:24cb1b0499d2aafca68aa14c0ed50d31f6fb7044286de70f98e891d9ca72943c done
+#6 naming to docker.io/library/tmp done
+#6 DONE 1.8s
+
+----
