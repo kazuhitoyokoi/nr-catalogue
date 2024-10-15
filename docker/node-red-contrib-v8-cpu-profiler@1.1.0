@@ -1,0 +1,56 @@
+#0 building with "default" instance using docker driver
+
+#1 [internal] load build definition from Dockerfile
+#1 transferring dockerfile: 125B done
+#1 DONE 0.0s
+
+#2 [internal] load metadata for docker.io/nodered/node-red:latest
+#2 DONE 0.1s
+
+#3 [internal] load .dockerignore
+#3 transferring context: 2B done
+#3 DONE 0.0s
+
+#4 [1/2] FROM docker.io/nodered/node-red:latest@sha256:7b635f720d9d1aba676925a93fcf20811bbb62b476752b896177faccb28e5ee9
+#4 CACHED
+
+#5 [2/2] RUN npm install npm install node-red-contrib-v8-cpu-profiler@1.1.0
+#5 7.418 npm warn deprecated inflight@1.0.6: This module is not supported, and leaks memory. Do not use it. Check out lru-cache if you want a good and tested way to coalesce async requests by a key value, which is much more comprehensive and powerful.
+#5 7.509 npm warn deprecated are-we-there-yet@2.0.0: This package is no longer supported.
+#5 7.594 npm warn deprecated gauge@3.0.2: This package is no longer supported.
+#5 7.595 npm warn deprecated @npmcli/move-file@2.0.1: This functionality has been moved to @npmcli/fs
+#5 7.660 npm warn deprecated npmlog@5.0.1: This package is no longer supported.
+#5 7.717 npm warn deprecated glob@7.2.3: Glob versions prior to v9 are no longer supported
+#5 7.746 npm warn deprecated glob@7.2.3: Glob versions prior to v9 are no longer supported
+#5 7.747 npm warn deprecated rimraf@3.0.2: Rimraf versions prior to v4 are no longer supported
+#5 7.757 npm warn deprecated rimraf@3.0.2: Rimraf versions prior to v4 are no longer supported
+#5 7.782 npm warn deprecated rimraf@3.0.2: Rimraf versions prior to v4 are no longer supported
+#5 7.784 npm warn deprecated are-we-there-yet@3.0.1: This package is no longer supported.
+#5 7.786 npm warn deprecated npmlog@6.0.2: This package is no longer supported.
+#5 7.789 npm warn deprecated glob@8.1.0: Glob versions prior to v9 are no longer supported
+#5 7.790 npm warn deprecated rimraf@3.0.2: Rimraf versions prior to v4 are no longer supported
+#5 7.792 npm warn deprecated glob@7.2.3: Glob versions prior to v9 are no longer supported
+#5 7.796 npm warn deprecated glob@7.2.3: Glob versions prior to v9 are no longer supported
+#5 7.813 npm warn deprecated gauge@4.0.4: This package is no longer supported.
+#5 8.463 
+#5 8.463 added 144 packages, and audited 694 packages in 8s
+#5 8.463 
+#5 8.463 75 packages are looking for funding
+#5 8.464   run `npm fund` for details
+#5 8.465 
+#5 8.465 found 0 vulnerabilities
+#5 8.466 npm notice
+#5 8.466 npm notice New minor version of npm available! 10.8.2 -> 10.9.0
+#5 8.466 npm notice Changelog: https://github.com/npm/cli/releases/tag/v10.9.0
+#5 8.466 npm notice To update run: npm install -g npm@10.9.0
+#5 8.466 npm notice
+#5 DONE 8.6s
+
+#6 exporting to image
+#6 exporting layers
+#6 exporting layers 1.3s done
+#6 writing image sha256:1577c132159422c759abad475efcdef2f3523c5777b0e86da4ef16b07be8a194 done
+#6 naming to docker.io/library/tmp done
+#6 DONE 1.3s
+
+----
