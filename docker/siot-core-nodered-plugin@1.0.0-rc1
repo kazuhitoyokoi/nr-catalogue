@@ -1,0 +1,39 @@
+#0 building with "default" instance using docker driver
+
+#1 [internal] load build definition from Dockerfile
+#1 transferring dockerfile: 121B done
+#1 DONE 0.0s
+
+#2 [internal] load metadata for docker.io/nodered/node-red:latest
+#2 DONE 0.1s
+
+#3 [internal] load .dockerignore
+#3 transferring context: 2B done
+#3 DONE 0.0s
+
+#4 [1/2] FROM docker.io/nodered/node-red:latest@sha256:7b635f720d9d1aba676925a93fcf20811bbb62b476752b896177faccb28e5ee9
+#4 CACHED
+
+#5 [2/2] RUN npm install npm install siot-core-nodered-plugin@1.0.0-rc1
+#5 4.795 
+#5 4.795 added 8 packages, and audited 558 packages in 5s
+#5 4.795 
+#5 4.795 71 packages are looking for funding
+#5 4.795   run `npm fund` for details
+#5 4.796 
+#5 4.796 found 0 vulnerabilities
+#5 4.797 npm notice
+#5 4.797 npm notice New minor version of npm available! 10.8.2 -> 10.9.0
+#5 4.797 npm notice Changelog: https://github.com/npm/cli/releases/tag/v10.9.0
+#5 4.797 npm notice To update run: npm install -g npm@10.9.0
+#5 4.797 npm notice
+#5 DONE 4.8s
+
+#6 exporting to image
+#6 exporting layers
+#6 exporting layers 1.2s done
+#6 writing image sha256:e7ff3102d44081c5b583f5c5a5f77c60b5ede68d3ff7c7b0eed30efebec0550e done
+#6 naming to docker.io/library/tmp done
+#6 DONE 1.2s
+
+----
