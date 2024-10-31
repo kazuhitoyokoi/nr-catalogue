@@ -1,0 +1,45 @@
+#0 building with "default" instance using docker driver
+
+#1 [internal] load build definition from Dockerfile
+#1 transferring dockerfile: 119B done
+#1 DONE 0.0s
+
+#2 [internal] load metadata for docker.io/nodered/node-red:latest
+#2 DONE 0.2s
+
+#3 [internal] load .dockerignore
+#3 transferring context: 2B done
+#3 DONE 0.0s
+
+#4 [1/2] FROM docker.io/nodered/node-red:latest@sha256:7b635f720d9d1aba676925a93fcf20811bbb62b476752b896177faccb28e5ee9
+#4 CACHED
+
+#5 [2/2] RUN npm install npm install @ng-galien/node-red-pulsar@1.1.6
+#5 6.244 npm warn deprecated gauge@3.0.2: This package is no longer supported.
+#5 6.306 npm warn deprecated are-we-there-yet@2.0.0: This package is no longer supported.
+#5 6.330 npm warn deprecated npmlog@5.0.1: This package is no longer supported.
+#5 6.441 npm warn deprecated glob@7.2.3: Glob versions prior to v9 are no longer supported
+#5 6.447 npm warn deprecated rimraf@3.0.2: Rimraf versions prior to v4 are no longer supported
+#5 6.597 npm warn deprecated inflight@1.0.6: This module is not supported, and leaks memory. Do not use it. Check out lru-cache if you want a good and tested way to coalesce async requests by a key value, which is much more comprehensive and powerful.
+#5 9.425 
+#5 9.425 added 53 packages, and audited 603 packages in 9s
+#5 9.425 
+#5 9.425 75 packages are looking for funding
+#5 9.425   run `npm fund` for details
+#5 9.426 
+#5 9.426 found 0 vulnerabilities
+#5 9.427 npm notice
+#5 9.427 npm notice New minor version of npm available! 10.8.2 -> 10.9.0
+#5 9.427 npm notice Changelog: https://github.com/npm/cli/releases/tag/v10.9.0
+#5 9.427 npm notice To update run: npm install -g npm@10.9.0
+#5 9.427 npm notice
+#5 DONE 9.5s
+
+#6 exporting to image
+#6 exporting layers
+#6 exporting layers 1.2s done
+#6 writing image sha256:d4154ca97a7d68c86d380e94fdf522350f963a800fc771e5508857ea3ea31ef5 done
+#6 naming to docker.io/library/tmp done
+#6 DONE 1.2s
+
+----
