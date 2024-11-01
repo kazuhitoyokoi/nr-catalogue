@@ -1,0 +1,39 @@
+#0 building with "default" instance using docker driver
+
+#1 [internal] load build definition from Dockerfile
+#1 transferring dockerfile: 127B done
+#1 DONE 0.0s
+
+#2 [internal] load metadata for docker.io/nodered/node-red:latest
+#2 DONE 0.1s
+
+#3 [internal] load .dockerignore
+#3 transferring context: 2B done
+#3 DONE 0.0s
+
+#4 [1/2] FROM docker.io/nodered/node-red:latest@sha256:7b635f720d9d1aba676925a93fcf20811bbb62b476752b896177faccb28e5ee9
+#4 CACHED
+
+#5 [2/2] RUN npm install npm install node-red-contrib-postgres-variable@0.2.0
+#5 5.090 
+#5 5.090 added 17 packages, and audited 567 packages in 5s
+#5 5.090 
+#5 5.090 71 packages are looking for funding
+#5 5.090   run `npm fund` for details
+#5 5.091 
+#5 5.091 found 0 vulnerabilities
+#5 5.093 npm notice
+#5 5.093 npm notice New minor version of npm available! 10.8.2 -> 10.9.0
+#5 5.093 npm notice Changelog: https://github.com/npm/cli/releases/tag/v10.9.0
+#5 5.093 npm notice To update run: npm install -g npm@10.9.0
+#5 5.093 npm notice
+#5 DONE 5.2s
+
+#6 exporting to image
+#6 exporting layers
+#6 exporting layers 1.2s done
+#6 writing image sha256:ebde82e275dd02aae696869bb570acbad0e00053258eb2410bad004a6813845d done
+#6 naming to docker.io/library/tmp done
+#6 DONE 1.2s
+
+----
