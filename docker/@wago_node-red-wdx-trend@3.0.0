@@ -1,0 +1,44 @@
+#0 building with "default" instance using docker driver
+
+#1 [internal] load build definition from Dockerfile
+#1 transferring dockerfile: 117B done
+#1 DONE 0.0s
+
+#2 [internal] load metadata for docker.io/nodered/node-red:latest
+#2 DONE 0.1s
+
+#3 [internal] load .dockerignore
+#3 transferring context: 2B done
+#3 DONE 0.0s
+
+#4 [1/2] FROM docker.io/nodered/node-red:latest@sha256:7b635f720d9d1aba676925a93fcf20811bbb62b476752b896177faccb28e5ee9
+#4 CACHED
+
+#5 [2/2] RUN npm install npm install @wago/node-red-wdx-trend@3.0.0
+#5 33.80 
+#5 33.80 added 111 packages, and audited 661 packages in 34s
+#5 33.80 
+#5 33.80 81 packages are looking for funding
+#5 33.80   run `npm fund` for details
+#5 33.81 
+#5 33.81 3 high severity vulnerabilities
+#5 33.81 
+#5 33.81 Some issues need review, and may require choosing
+#5 33.81 a different dependency.
+#5 33.81 
+#5 33.81 Run `npm audit` for details.
+#5 33.81 npm notice
+#5 33.81 npm notice New minor version of npm available! 10.8.2 -> 10.9.0
+#5 33.81 npm notice Changelog: https://github.com/npm/cli/releases/tag/v10.9.0
+#5 33.81 npm notice To update run: npm install -g npm@10.9.0
+#5 33.81 npm notice
+#5 DONE 34.3s
+
+#6 exporting to image
+#6 exporting layers
+#6 exporting layers 3.5s done
+#6 writing image sha256:cc888e84eeba2306655f9fa3663e0c0b3fe0b4661db975b17a03c0b7722c41dc done
+#6 naming to docker.io/library/tmp done
+#6 DONE 3.5s
+
+----
