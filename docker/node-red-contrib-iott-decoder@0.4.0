@@ -1,0 +1,91 @@
+#0 building with "default" instance using docker driver
+
+#1 [internal] load build definition from Dockerfile
+#1 transferring dockerfile: 122B 0.0s done
+#1 DONE 0.1s
+
+#2 [auth] nodered/node-red:pull token for registry-1.docker.io
+#2 DONE 0.0s
+
+#3 [internal] load metadata for docker.io/nodered/node-red:latest
+#3 DONE 0.4s
+
+#4 [internal] load .dockerignore
+#4 transferring context: 2B done
+#4 DONE 0.0s
+
+#5 [1/2] FROM docker.io/nodered/node-red:latest@sha256:7b635f720d9d1aba676925a93fcf20811bbb62b476752b896177faccb28e5ee9
+#5 resolve docker.io/nodered/node-red:latest@sha256:7b635f720d9d1aba676925a93fcf20811bbb62b476752b896177faccb28e5ee9 done
+#5 extracting sha256:d2e45aab2b8461d55860f29135e53c5d0f43616d61091c3782d776070cef57ca done
+#5 extracting sha256:6da589a67dde6be16cbf146616f170ca838f5996e00aa02ecfa58ccc613c35b3
+#5 extracting sha256:6da589a67dde6be16cbf146616f170ca838f5996e00aa02ecfa58ccc613c35b3 done
+#5 sha256:4f4fb700ef54461cfa02571ae0db9a0dc1e0cdb5577484a6d75e68dc38e8acc1 32B / 32B 0.1s done
+#5 sha256:40a84973ec4874d519fcf261320427991f8c694a02d69d5d30fbb8ec86e142e9 3.52kB / 3.52kB done
+#5 sha256:6da589a67dde6be16cbf146616f170ca838f5996e00aa02ecfa58ccc613c35b3 466B / 466B 0.1s done
+#5 sha256:ccab9d481c24024c0966d8a4e04706a5ce3336574aac2a8b6d4fa898d54f1b74 8.39MB / 9.37MB 0.2s
+#5 sha256:d2e45aab2b8461d55860f29135e53c5d0f43616d61091c3782d776070cef57ca 595B / 595B 0.1s done
+#5 sha256:7b635f720d9d1aba676925a93fcf20811bbb62b476752b896177faccb28e5ee9 2.38kB / 2.38kB done
+#5 sha256:6f2635bc0c23967e990d315537f6423a189056601281527ae219a16b36e89bcf 13.82kB / 13.82kB done
+#5 sha256:22e7261cd64bf69eb0b4750196a205f59ca338468098e17dd684f1c14435557d 1.60kB / 1.60kB 0.1s done
+#5 sha256:642b66283f05a4ce9040aa55eb2f965f89785c1421ca55d5b7586cf9be5b30ae 2.19kB / 2.19kB 0.1s done
+#5 sha256:6d4e8d73dc09134636c5ad1cb6de2568636b38b07e2b8095e4c4a6caca21de8d 995B / 995B 0.2s done
+#5 sha256:59fd2efc201e7524e30bca0c6df48e0e642da1428788b00fbdc1b75e8fb313c2 587B / 587B 0.2s done
+#5 sha256:b8a57bd5596441d3991ff4d30752598566c8fb235d4b2cfd5c67ee0b9a24fca2 0B / 832B 0.2s
+#5 sha256:22cf664a9cc36597899810821dbb892dc00bb4053f07ffb2b694e53dbec09c3e 0B / 355B 0.2s
+#5 sha256:ccab9d481c24024c0966d8a4e04706a5ce3336574aac2a8b6d4fa898d54f1b74 9.37MB / 9.37MB 0.2s done
+#5 sha256:b8a57bd5596441d3991ff4d30752598566c8fb235d4b2cfd5c67ee0b9a24fca2 832B / 832B 0.2s done
+#5 sha256:22cf664a9cc36597899810821dbb892dc00bb4053f07ffb2b694e53dbec09c3e 355B / 355B 0.2s done
+#5 sha256:fc4cb610678b7598a2f5f2f53a8bf7efa8a967acfe775cc5363dc6e5c727b234 3.15MB / 111.68MB 0.4s
+#5 sha256:0a32890ed67ad8b12375cf9039051191471ca64408e35368cf85d638e83fb3f2 19.32MB / 19.32MB 0.4s done
+#5 sha256:29cd60b8a0dc32c3aab35355ad66416bfab1a0f63e5583ae4370d1d76539d19c 582B / 582B 0.3s done
+#5 sha256:fc4cb610678b7598a2f5f2f53a8bf7efa8a967acfe775cc5363dc6e5c727b234 10.49MB / 111.68MB 0.6s
+#5 extracting sha256:ccab9d481c24024c0966d8a4e04706a5ce3336574aac2a8b6d4fa898d54f1b74 0.1s
+#5 sha256:fc4cb610678b7598a2f5f2f53a8bf7efa8a967acfe775cc5363dc6e5c727b234 17.83MB / 111.68MB 0.8s
+#5 extracting sha256:ccab9d481c24024c0966d8a4e04706a5ce3336574aac2a8b6d4fa898d54f1b74 0.4s done
+#5 sha256:fc4cb610678b7598a2f5f2f53a8bf7efa8a967acfe775cc5363dc6e5c727b234 26.21MB / 111.68MB 1.0s
+#5 extracting sha256:4f4fb700ef54461cfa02571ae0db9a0dc1e0cdb5577484a6d75e68dc38e8acc1 done
+#5 extracting sha256:22e7261cd64bf69eb0b4750196a205f59ca338468098e17dd684f1c14435557d done
+#5 extracting sha256:642b66283f05a4ce9040aa55eb2f965f89785c1421ca55d5b7586cf9be5b30ae done
+#5 extracting sha256:6d4e8d73dc09134636c5ad1cb6de2568636b38b07e2b8095e4c4a6caca21de8d done
+#5 extracting sha256:59fd2efc201e7524e30bca0c6df48e0e642da1428788b00fbdc1b75e8fb313c2 done
+#5 extracting sha256:b8a57bd5596441d3991ff4d30752598566c8fb235d4b2cfd5c67ee0b9a24fca2 done
+#5 extracting sha256:22cf664a9cc36597899810821dbb892dc00bb4053f07ffb2b694e53dbec09c3e done
+#5 extracting sha256:0a32890ed67ad8b12375cf9039051191471ca64408e35368cf85d638e83fb3f2 0.1s
+#5 sha256:fc4cb610678b7598a2f5f2f53a8bf7efa8a967acfe775cc5363dc6e5c727b234 33.55MB / 111.68MB 1.3s
+#5 sha256:fc4cb610678b7598a2f5f2f53a8bf7efa8a967acfe775cc5363dc6e5c727b234 42.99MB / 111.68MB 1.4s
+#5 sha256:fc4cb610678b7598a2f5f2f53a8bf7efa8a967acfe775cc5363dc6e5c727b234 63.96MB / 111.68MB 1.6s
+#5 sha256:fc4cb610678b7598a2f5f2f53a8bf7efa8a967acfe775cc5363dc6e5c727b234 72.35MB / 111.68MB 1.7s
+#5 sha256:fc4cb610678b7598a2f5f2f53a8bf7efa8a967acfe775cc5363dc6e5c727b234 83.89MB / 111.68MB 1.8s
+#5 sha256:fc4cb610678b7598a2f5f2f53a8bf7efa8a967acfe775cc5363dc6e5c727b234 103.81MB / 111.68MB 2.0s
+#5 sha256:fc4cb610678b7598a2f5f2f53a8bf7efa8a967acfe775cc5363dc6e5c727b234 111.68MB / 111.68MB 2.1s
+#5 sha256:fc4cb610678b7598a2f5f2f53a8bf7efa8a967acfe775cc5363dc6e5c727b234 111.68MB / 111.68MB 2.1s done
+#5 extracting sha256:0a32890ed67ad8b12375cf9039051191471ca64408e35368cf85d638e83fb3f2 1.9s done
+#5 extracting sha256:fc4cb610678b7598a2f5f2f53a8bf7efa8a967acfe775cc5363dc6e5c727b234
+#5 extracting sha256:fc4cb610678b7598a2f5f2f53a8bf7efa8a967acfe775cc5363dc6e5c727b234 4.3s done
+#5 extracting sha256:29cd60b8a0dc32c3aab35355ad66416bfab1a0f63e5583ae4370d1d76539d19c
+#5 extracting sha256:29cd60b8a0dc32c3aab35355ad66416bfab1a0f63e5583ae4370d1d76539d19c done
+#5 DONE 8.4s
+
+#6 [2/2] RUN npm install npm install node-red-contrib-iott-decoder@0.4.0
+#6 13.56 
+#6 13.56 added 6 packages, and audited 556 packages in 11s
+#6 13.56 
+#6 13.56 71 packages are looking for funding
+#6 13.56   run `npm fund` for details
+#6 13.56 
+#6 13.56 found 0 vulnerabilities
+#6 13.56 npm notice
+#6 13.56 npm notice New minor version of npm available! 10.8.2 -> 10.9.0
+#6 13.56 npm notice Changelog: https://github.com/npm/cli/releases/tag/v10.9.0
+#6 13.56 npm notice To update run: npm install -g npm@10.9.0
+#6 13.56 npm notice
+#6 DONE 13.7s
+
+#7 exporting to image
+#7 exporting layers
+#7 exporting layers 1.8s done
+#7 writing image sha256:d65457f13bd0eeab8c8cc01699a9f81662ac8765514e848fc5f5a7aa15ff616f done
+#7 naming to docker.io/library/tmp done
+#7 DONE 1.8s
+
+----
