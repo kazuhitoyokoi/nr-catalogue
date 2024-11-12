@@ -1,0 +1,39 @@
+#0 building with "default" instance using docker driver
+
+#1 [internal] load build definition from Dockerfile
+#1 transferring dockerfile: 140B done
+#1 DONE 0.0s
+
+#2 [internal] load metadata for docker.io/nodered/node-red:latest
+#2 DONE 0.1s
+
+#3 [internal] load .dockerignore
+#3 transferring context: 2B done
+#3 DONE 0.0s
+
+#4 [1/2] FROM docker.io/nodered/node-red:latest@sha256:7b635f720d9d1aba676925a93fcf20811bbb62b476752b896177faccb28e5ee9
+#4 CACHED
+
+#5 [2/2] RUN npm install npm install @hotnipi/node-red-dashboard-2-ui-edgewise-meter@0.3.0
+#5 6.418 
+#5 6.418 added 28 packages, and audited 578 packages in 6s
+#5 6.418 
+#5 6.418 74 packages are looking for funding
+#5 6.418   run `npm fund` for details
+#5 6.419 
+#5 6.419 found 0 vulnerabilities
+#5 6.421 npm notice
+#5 6.421 npm notice New minor version of npm available! 10.8.2 -> 10.9.0
+#5 6.421 npm notice Changelog: https://github.com/npm/cli/releases/tag/v10.9.0
+#5 6.421 npm notice To update run: npm install -g npm@10.9.0
+#5 6.421 npm notice
+#5 DONE 6.5s
+
+#6 exporting to image
+#6 exporting layers
+#6 exporting layers 1.3s done
+#6 writing image sha256:bb323ce4d33d9e4587f92c484c38923b8b05b0f00ea8f5010dbeeb920a617482 done
+#6 naming to docker.io/library/tmp done
+#6 DONE 1.3s
+
+----
