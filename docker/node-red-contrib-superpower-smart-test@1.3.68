@@ -1,0 +1,45 @@
+#0 building with "default" instance using docker driver
+
+#1 [internal] load build definition from Dockerfile
+#1 transferring dockerfile: 132B done
+#1 DONE 0.0s
+
+#2 [internal] load metadata for docker.io/nodered/node-red:latest
+#2 DONE 0.2s
+
+#3 [internal] load .dockerignore
+#3 transferring context: 2B done
+#3 DONE 0.0s
+
+#4 [1/2] FROM docker.io/nodered/node-red:latest@sha256:7b635f720d9d1aba676925a93fcf20811bbb62b476752b896177faccb28e5ee9
+#4 CACHED
+
+#5 [2/2] RUN npm install npm install node-red-contrib-superpower-smart-test@1.3.68
+#5 4.410 npm warn deprecated babel@6.23.0: In 6.x, the babel package has been deprecated in favor of babel-cli. Check https://opencollective.com/babel to support the Babel maintainers
+#5 4.872 
+#5 4.872 added 10 packages, and audited 560 packages in 5s
+#5 4.872 
+#5 4.872 71 packages are looking for funding
+#5 4.872   run `npm fund` for details
+#5 4.875 
+#5 4.875 1 high severity vulnerability
+#5 4.875 
+#5 4.875 To address all issues, run:
+#5 4.875   npm audit fix
+#5 4.875 
+#5 4.875 Run `npm audit` for details.
+#5 4.877 npm notice
+#5 4.877 npm notice New minor version of npm available! 10.8.2 -> 10.9.0
+#5 4.877 npm notice Changelog: https://github.com/npm/cli/releases/tag/v10.9.0
+#5 4.877 npm notice To update run: npm install -g npm@10.9.0
+#5 4.877 npm notice
+#5 DONE 5.0s
+
+#6 exporting to image
+#6 exporting layers
+#6 exporting layers 1.2s done
+#6 writing image sha256:3a814a1df148b333fc900cf1f724ad66311b2144a573c4293bb9afc31f5ce547 done
+#6 naming to docker.io/library/tmp done
+#6 DONE 1.2s
+
+----
