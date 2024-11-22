@@ -1,0 +1,50 @@
+#0 building with "default" instance using docker driver
+
+#1 [internal] load build definition from Dockerfile
+#1 transferring dockerfile: 110B done
+#1 DONE 0.0s
+
+#2 [internal] load metadata for docker.io/nodered/node-red:latest
+#2 DONE 0.1s
+
+#3 [internal] load .dockerignore
+#3 transferring context: 2B done
+#3 DONE 0.0s
+
+#4 [1/2] FROM docker.io/nodered/node-red:latest@sha256:4053e9a39c64ddcf384d0eef616f6d33207a812cdb659dcc852ff7240e9f79fb
+#4 CACHED
+
+#5 [2/2] RUN npm install npm install gulp-etl-tap-csv@1.0.11
+#5 9.276 npm warn deprecated inflight@1.0.6: This module is not supported, and leaks memory. Do not use it. Check out lru-cache if you want a good and tested way to coalesce async requests by a key value, which is much more comprehensive and powerful.
+#5 9.633 npm warn deprecated urix@0.1.0: Please see https://github.com/lydell/urix#deprecated
+#5 9.683 npm warn deprecated source-map-url@0.4.1: See https://github.com/lydell/source-map-url#deprecated
+#5 9.755 npm warn deprecated resolve-url@0.2.1: https://github.com/lydell/resolve-url#deprecated
+#5 9.919 npm warn deprecated source-map-resolve@0.5.3: See https://github.com/lydell/source-map-resolve#deprecated
+#5 10.29 npm warn deprecated glob@7.2.3: Glob versions prior to v9 are no longer supported
+#5 11.69 
+#5 11.69 added 373 packages, and audited 906 packages in 11s
+#5 11.69 
+#5 11.69 81 packages are looking for funding
+#5 11.69   run `npm fund` for details
+#5 11.69 
+#5 11.69 13 vulnerabilities (9 moderate, 4 high)
+#5 11.69 
+#5 11.69 To address all issues (including breaking changes), run:
+#5 11.69   npm audit fix --force
+#5 11.69 
+#5 11.69 Run `npm audit` for details.
+#5 11.69 npm notice
+#5 11.69 npm notice New minor version of npm available! 10.8.2 -> 10.9.1
+#5 11.69 npm notice Changelog: https://github.com/npm/cli/releases/tag/v10.9.1
+#5 11.69 npm notice To update run: npm install -g npm@10.9.1
+#5 11.69 npm notice
+#5 DONE 11.9s
+
+#6 exporting to image
+#6 exporting layers
+#6 exporting layers 1.7s done
+#6 writing image sha256:a17148ec7f42592abc9494d45ee239745fd7f9d7d73a3fb24b2c09b8102299b2 done
+#6 naming to docker.io/library/tmp done
+#6 DONE 1.7s
+
+----
