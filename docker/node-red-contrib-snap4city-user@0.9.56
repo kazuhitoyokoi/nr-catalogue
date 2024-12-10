@@ -1,0 +1,62 @@
+#0 building with "default" instance using docker driver
+
+#1 [internal] load build definition from Dockerfile
+#1 transferring dockerfile: 125B done
+#1 DONE 0.0s
+
+#2 [internal] load metadata for docker.io/nodered/node-red:latest
+#2 DONE 0.1s
+
+#3 [internal] load .dockerignore
+#3 transferring context: 2B done
+#3 DONE 0.0s
+
+#4 [1/2] FROM docker.io/nodered/node-red:latest@sha256:4053e9a39c64ddcf384d0eef616f6d33207a812cdb659dcc852ff7240e9f79fb
+#4 CACHED
+
+#5 [2/2] RUN npm install npm install node-red-contrib-snap4city-user@0.9.56
+#5 8.739 npm warn deprecated terraformer@1.0.12: terraformer is deprecated and no longer supported. Please use @terraformer/arcgis.
+#5 8.927 npm warn deprecated har-validator@5.1.5: this library is no longer supported
+#5 9.148 npm warn deprecated terraformer-wkt-parser@1.2.1: terraformer-wkt-parser is deprecated and no longer supported. Please use @terraformer/wkt.
+#5 9.149 npm warn deprecated httpclient@0.1.0: Use standard fetch API instead
+#5 9.149 npm warn deprecated date-format@3.0.0: 3.x is no longer supported. Please upgrade to 4.x or higher.
+#5 9.219 npm warn deprecated date-format@2.1.0: 2.x is no longer supported. Please upgrade to 4.x or higher.
+#5 9.241 npm warn deprecated node-uuid@1.4.8: Use uuid module instead
+#5 9.290 npm warn deprecated uuid@3.4.0: Please upgrade  to version 7 or higher.  Older versions may use Math.random() in certain circumstances, which is known to be problematic.  See https://v8.dev/blog/math-random for details.
+#5 9.296 npm warn deprecated request@2.88.2: request has been deprecated, see https://github.com/request/request/issues/3142
+#5 9.311 npm warn deprecated streamroller@2.2.4: 2.x is no longer supported. Please upgrade to 3.x or higher.
+#5 9.390 npm warn deprecated google-protobuf@4.0.0-rc.2: 4.0.0 RC releases have been superseded by 3.13.0 release
+#5 9.499 npm warn deprecated mysqlx@1.1.8: The official MySQL Connector for NodeJS has already been written in TypeScript for a while now, so this wrapper is not required anymore.
+#5 10.57 
+#5 10.57 added 199 packages, and audited 722 packages in 10s
+#5 10.57 
+#5 10.57 87 packages are looking for funding
+#5 10.57   run `npm fund` for details
+#5 10.58 
+#5 10.58 12 vulnerabilities (9 moderate, 3 critical)
+#5 10.58 
+#5 10.58 To address issues that do not require attention, run:
+#5 10.58   npm audit fix
+#5 10.58 
+#5 10.58 To address all issues possible (including breaking changes), run:
+#5 10.58   npm audit fix --force
+#5 10.58 
+#5 10.58 Some issues need review, and may require choosing
+#5 10.58 a different dependency.
+#5 10.58 
+#5 10.58 Run `npm audit` for details.
+#5 10.58 npm notice
+#5 10.58 npm notice New minor version of npm available! 10.8.2 -> 10.9.2
+#5 10.58 npm notice Changelog: https://github.com/npm/cli/releases/tag/v10.9.2
+#5 10.58 npm notice To update run: npm install -g npm@10.9.2
+#5 10.58 npm notice
+#5 DONE 10.9s
+
+#6 exporting to image
+#6 exporting layers
+#6 exporting layers 2.0s done
+#6 writing image sha256:22b46a83200fe6f1392151fac6ac04daa58be545f73c8e9285364793defe6c70 done
+#6 naming to docker.io/library/tmp done
+#6 DONE 2.0s
+
+----
