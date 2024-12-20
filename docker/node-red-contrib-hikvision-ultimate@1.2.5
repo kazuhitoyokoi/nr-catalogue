@@ -1,0 +1,44 @@
+#0 building with "default" instance using docker driver
+
+#1 [internal] load build definition from Dockerfile
+#1 transferring dockerfile: 128B done
+#1 DONE 0.0s
+
+#2 [internal] load metadata for docker.io/nodered/node-red:latest
+#2 DONE 0.3s
+
+#3 [internal] load .dockerignore
+#3 transferring context: 2B done
+#3 DONE 0.0s
+
+#4 [1/2] FROM docker.io/nodered/node-red:latest@sha256:871225abb46d62e434c75c73ec264c406ae1d0ea09b365ed9ffa122fdc327879
+#4 CACHED
+
+#5 [2/2] RUN npm install npm install node-red-contrib-hikvision-ultimate@1.2.5
+#5 6.481 
+#5 6.481 added 94 packages, and audited 614 packages in 6s
+#5 6.481 
+#5 6.481 78 packages are looking for funding
+#5 6.481   run `npm fund` for details
+#5 6.484 
+#5 6.484 3 vulnerabilities (1 moderate, 2 high)
+#5 6.484 
+#5 6.484 To address all issues (including breaking changes), run:
+#5 6.484   npm audit fix --force
+#5 6.484 
+#5 6.484 Run `npm audit` for details.
+#5 6.486 npm notice
+#5 6.486 npm notice New major version of npm available! 10.8.2 -> 11.0.0
+#5 6.486 npm notice Changelog: https://github.com/npm/cli/releases/tag/v11.0.0
+#5 6.486 npm notice To update run: npm install -g npm@11.0.0
+#5 6.486 npm notice
+#5 DONE 6.6s
+
+#6 exporting to image
+#6 exporting layers
+#6 exporting layers 1.6s done
+#6 writing image sha256:7c46b045985a505f0888cfdab0667b44d4e1b8dab8d856a99842c62f80f14bec done
+#6 naming to docker.io/library/tmp done
+#6 DONE 1.6s
+
+----
