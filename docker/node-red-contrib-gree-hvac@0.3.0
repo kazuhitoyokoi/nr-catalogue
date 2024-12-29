@@ -1,0 +1,39 @@
+#0 building with "default" instance using docker driver
+
+#1 [internal] load build definition from Dockerfile
+#1 transferring dockerfile: 119B done
+#1 DONE 0.0s
+
+#2 [internal] load metadata for docker.io/nodered/node-red:latest
+#2 DONE 0.1s
+
+#3 [internal] load .dockerignore
+#3 transferring context: 2B done
+#3 DONE 0.0s
+
+#4 [1/2] FROM docker.io/nodered/node-red:latest@sha256:871225abb46d62e434c75c73ec264c406ae1d0ea09b365ed9ffa122fdc327879
+#4 CACHED
+
+#5 [2/2] RUN npm install npm install node-red-contrib-gree-hvac@0.3.0
+#5 5.442 
+#5 5.442 added 32 packages, and audited 552 packages in 5s
+#5 5.442 
+#5 5.442 72 packages are looking for funding
+#5 5.442   run `npm fund` for details
+#5 5.443 
+#5 5.443 found 0 vulnerabilities
+#5 5.444 npm notice
+#5 5.444 npm notice New major version of npm available! 10.8.2 -> 11.0.0
+#5 5.444 npm notice Changelog: https://github.com/npm/cli/releases/tag/v11.0.0
+#5 5.444 npm notice To update run: npm install -g npm@11.0.0
+#5 5.444 npm notice
+#5 DONE 5.5s
+
+#6 exporting to image
+#6 exporting layers
+#6 exporting layers 1.1s done
+#6 writing image sha256:f0ebf1fe52f1fdb6e05c81b03f80cfc58de6432918ef68beef039ce628ede719 done
+#6 naming to docker.io/library/tmp done
+#6 DONE 1.1s
+
+----
