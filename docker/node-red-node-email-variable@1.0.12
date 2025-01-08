@@ -1,0 +1,44 @@
+#0 building with "default" instance using docker driver
+
+#1 [internal] load build definition from Dockerfile
+#1 transferring dockerfile: 122B done
+#1 DONE 0.0s
+
+#2 [internal] load metadata for docker.io/nodered/node-red:latest
+#2 DONE 0.1s
+
+#3 [internal] load .dockerignore
+#3 transferring context: 2B done
+#3 DONE 0.0s
+
+#4 [1/2] FROM docker.io/nodered/node-red:latest@sha256:871225abb46d62e434c75c73ec264c406ae1d0ea09b365ed9ffa122fdc327879
+#4 CACHED
+
+#5 [2/2] RUN npm install npm install node-red-node-email-variable@1.0.12
+#5 4.234 
+#5 4.234 added 3 packages, and audited 565 packages in 4s
+#5 4.234 
+#5 4.234 81 packages are looking for funding
+#5 4.234   run `npm fund` for details
+#5 4.236 
+#5 4.236 2 critical severity vulnerabilities
+#5 4.236 
+#5 4.236 To address all issues, run:
+#5 4.236   npm audit fix
+#5 4.236 
+#5 4.236 Run `npm audit` for details.
+#5 4.238 npm notice
+#5 4.238 npm notice New major version of npm available! 10.8.2 -> 11.0.0
+#5 4.238 npm notice Changelog: https://github.com/npm/cli/releases/tag/v11.0.0
+#5 4.238 npm notice To update run: npm install -g npm@11.0.0
+#5 4.238 npm notice
+#5 DONE 4.4s
+
+#6 exporting to image
+#6 exporting layers
+#6 exporting layers 1.2s done
+#6 writing image sha256:c285d2a14c5ed615480bc2508948505d2a9148d38a8084644ec416764fbd75a4 done
+#6 naming to docker.io/library/tmp done
+#6 DONE 1.2s
+
+----
