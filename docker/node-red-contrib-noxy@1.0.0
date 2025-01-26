@@ -1,0 +1,46 @@
+#0 building with "default" instance using docker driver
+
+#1 [internal] load build definition from Dockerfile
+#1 transferring dockerfile: 114B done
+#1 DONE 0.0s
+
+#2 [internal] load metadata for docker.io/nodered/node-red:latest
+#2 DONE 0.1s
+
+#3 [internal] load .dockerignore
+#3 transferring context: 2B done
+#3 DONE 0.0s
+
+#4 [1/2] FROM docker.io/nodered/node-red:latest@sha256:871225abb46d62e434c75c73ec264c406ae1d0ea09b365ed9ffa122fdc327879
+#4 CACHED
+
+#5 [2/2] RUN npm install npm install node-red-contrib-noxy@1.0.0
+#5 7.222 npm warn deprecated inflight@1.0.6: This module is not supported, and leaks memory. Do not use it. Check out lru-cache if you want a good and tested way to coalesce async requests by a key value, which is much more comprehensive and powerful.
+#5 7.408 npm warn deprecated are-we-there-yet@2.0.0: This package is no longer supported.
+#5 7.415 npm warn deprecated npmlog@5.0.1: This package is no longer supported.
+#5 7.479 npm warn deprecated rimraf@3.0.2: Rimraf versions prior to v4 are no longer supported
+#5 7.518 npm warn deprecated glob@7.2.3: Glob versions prior to v9 are no longer supported
+#5 7.525 npm warn deprecated glob@7.2.3: Glob versions prior to v9 are no longer supported
+#5 7.528 npm warn deprecated gauge@3.0.2: This package is no longer supported.
+#5 8.729 
+#5 8.729 added 111 packages, and audited 631 packages in 9s
+#5 8.729 
+#5 8.729 80 packages are looking for funding
+#5 8.729   run `npm fund` for details
+#5 8.730 
+#5 8.730 found 0 vulnerabilities
+#5 8.731 npm notice
+#5 8.731 npm notice New major version of npm available! 10.8.2 -> 11.0.0
+#5 8.731 npm notice Changelog: https://github.com/npm/cli/releases/tag/v11.0.0
+#5 8.731 npm notice To update run: npm install -g npm@11.0.0
+#5 8.731 npm notice
+#5 DONE 8.9s
+
+#6 exporting to image
+#6 exporting layers
+#6 exporting layers 1.6s done
+#6 writing image sha256:06313c4e7ddc5116f092d942291e9c5db20d8d006af3668c243e5e22864b5353 done
+#6 naming to docker.io/library/tmp done
+#6 DONE 1.6s
+
+----
