@@ -1,0 +1,39 @@
+#0 building with "default" instance using docker driver
+
+#1 [internal] load build definition from Dockerfile
+#1 transferring dockerfile: 122B done
+#1 DONE 0.0s
+
+#2 [internal] load metadata for docker.io/nodered/node-red:latest
+#2 DONE 0.1s
+
+#3 [internal] load .dockerignore
+#3 transferring context: 2B done
+#3 DONE 0.0s
+
+#4 [1/2] FROM docker.io/nodered/node-red:latest@sha256:871225abb46d62e434c75c73ec264c406ae1d0ea09b365ed9ffa122fdc327879
+#4 CACHED
+
+#5 [2/2] RUN npm install npm install @mcfitz2/node-red-xml-stream@0.0.12
+#5 20.83 
+#5 20.83 added 12 packages, and audited 532 packages in 21s
+#5 20.83 
+#5 20.83 71 packages are looking for funding
+#5 20.83   run `npm fund` for details
+#5 20.83 
+#5 20.83 found 0 vulnerabilities
+#5 20.83 npm notice
+#5 20.83 npm notice New major version of npm available! 10.8.2 -> 11.0.0
+#5 20.83 npm notice Changelog: https://github.com/npm/cli/releases/tag/v11.0.0
+#5 20.83 npm notice To update run: npm install -g npm@11.0.0
+#5 20.83 npm notice
+#5 DONE 20.9s
+
+#6 exporting to image
+#6 exporting layers
+#6 exporting layers 1.5s done
+#6 writing image sha256:1e9dc4e005feaa33b9a7230e0e7840cd1b32771c6429fe78a4576f52d7c6eb0e done
+#6 naming to docker.io/library/tmp done
+#6 DONE 1.5s
+
+----
