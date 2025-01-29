@@ -1,0 +1,40 @@
+#0 building with "default" instance using docker driver
+
+#1 [internal] load build definition from Dockerfile
+#1 transferring dockerfile: 129B done
+#1 DONE 0.0s
+
+#2 [internal] load metadata for docker.io/nodered/node-red:latest
+#2 DONE 0.1s
+
+#3 [internal] load .dockerignore
+#3 transferring context: 2B done
+#3 DONE 0.0s
+
+#4 [1/2] FROM docker.io/nodered/node-red:latest@sha256:871225abb46d62e434c75c73ec264c406ae1d0ea09b365ed9ffa122fdc327879
+#4 CACHED
+
+#5 [2/2] RUN npm install npm install @blockbax/node-red-contrib-blockbax@0.0.15
+#5 19.86 npm warn deprecated node-opcua-client-crawler@2.127.1: true
+#5 24.79 
+#5 24.79 added 269 packages, and audited 789 packages in 25s
+#5 24.79 
+#5 24.79 128 packages are looking for funding
+#5 24.79   run `npm fund` for details
+#5 24.80 
+#5 24.80 found 0 vulnerabilities
+#5 24.80 npm notice
+#5 24.80 npm notice New major version of npm available! 10.8.2 -> 11.0.0
+#5 24.80 npm notice Changelog: https://github.com/npm/cli/releases/tag/v11.0.0
+#5 24.80 npm notice To update run: npm install -g npm@11.0.0
+#5 24.80 npm notice
+#5 DONE 25.4s
+
+#6 exporting to image
+#6 exporting layers
+#6 exporting layers 3.9s done
+#6 writing image sha256:d8d78d010352b5a6f05d6453dc65674f0ce04465974b5de9f148accebcdaadd2 done
+#6 naming to docker.io/library/tmp done
+#6 DONE 3.9s
+
+----
