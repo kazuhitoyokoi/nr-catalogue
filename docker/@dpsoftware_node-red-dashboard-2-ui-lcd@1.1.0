@@ -1,0 +1,39 @@
+#0 building with "default" instance using docker driver
+
+#1 [internal] load build definition from Dockerfile
+#1 transferring dockerfile: 132B done
+#1 DONE 0.0s
+
+#2 [internal] load metadata for docker.io/nodered/node-red:latest
+#2 DONE 0.1s
+
+#3 [internal] load .dockerignore
+#3 transferring context: 2B done
+#3 DONE 0.0s
+
+#4 [1/2] FROM docker.io/nodered/node-red:latest@sha256:871225abb46d62e434c75c73ec264c406ae1d0ea09b365ed9ffa122fdc327879
+#4 CACHED
+
+#5 [2/2] RUN npm install npm install @dpsoftware/node-red-dashboard-2-ui-lcd@1.1.0
+#5 6.492 
+#5 6.492 added 29 packages, and audited 549 packages in 6s
+#5 6.492 
+#5 6.492 74 packages are looking for funding
+#5 6.492   run `npm fund` for details
+#5 6.494 
+#5 6.494 found 0 vulnerabilities
+#5 6.495 npm notice
+#5 6.495 npm notice New major version of npm available! 10.8.2 -> 11.1.0
+#5 6.495 npm notice Changelog: https://github.com/npm/cli/releases/tag/v11.1.0
+#5 6.495 npm notice To update run: npm install -g npm@11.1.0
+#5 6.495 npm notice
+#5 DONE 6.6s
+
+#6 exporting to image
+#6 exporting layers
+#6 exporting layers 1.2s done
+#6 writing image sha256:9b5f4da2bbdf66f82cde272139956f3e2169649af8f2c0412ea7d926ec93c3c1 done
+#6 naming to docker.io/library/tmp done
+#6 DONE 1.2s
+
+----
