@@ -1,0 +1,47 @@
+#0 building with "default" instance using docker driver
+
+#1 [internal] load build definition from Dockerfile
+#1 transferring dockerfile: 123B done
+#1 DONE 0.0s
+
+#2 [internal] load metadata for docker.io/nodered/node-red:latest
+#2 DONE 0.1s
+
+#3 [internal] load .dockerignore
+#3 transferring context: 2B done
+#3 DONE 0.0s
+
+#4 [1/2] FROM docker.io/nodered/node-red:latest@sha256:871225abb46d62e434c75c73ec264c406ae1d0ea09b365ed9ffa122fdc327879
+#4 CACHED
+
+#5 [2/2] RUN npm install npm install node-red-contrib-iot4h-grovepi@1.0.0
+#5 5.134 npm warn deprecated npmlog@2.0.4: This package is no longer supported.
+#5 5.145 npm warn deprecated gauge@1.2.7: This package is no longer supported.
+#5 5.147 npm warn deprecated are-we-there-yet@1.1.7: This package is no longer supported.
+#5 12.21 
+#5 12.21 added 37 packages, and audited 557 packages in 12s
+#5 12.21 
+#5 12.21 71 packages are looking for funding
+#5 12.21   run `npm fund` for details
+#5 12.21 
+#5 12.21 3 high severity vulnerabilities
+#5 12.21 
+#5 12.21 Some issues need review, and may require choosing
+#5 12.21 a different dependency.
+#5 12.21 
+#5 12.21 Run `npm audit` for details.
+#5 12.21 npm notice
+#5 12.21 npm notice New major version of npm available! 10.8.2 -> 11.1.0
+#5 12.21 npm notice Changelog: https://github.com/npm/cli/releases/tag/v11.1.0
+#5 12.21 npm notice To update run: npm install -g npm@11.1.0
+#5 12.21 npm notice
+#5 DONE 12.3s
+
+#6 exporting to image
+#6 exporting layers
+#6 exporting layers 1.7s done
+#6 writing image sha256:5646d8e7b1a1a95a1d01af0c0b8677f8168a8f211b33f20be4270849e57b53bb done
+#6 naming to docker.io/library/tmp done
+#6 DONE 1.7s
+
+----
