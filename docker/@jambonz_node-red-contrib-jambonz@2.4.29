@@ -1,0 +1,40 @@
+#0 building with "default" instance using docker driver
+
+#1 [internal] load build definition from Dockerfile
+#1 transferring dockerfile: 127B done
+#1 DONE 0.0s
+
+#2 [internal] load metadata for docker.io/nodered/node-red:latest
+#2 DONE 0.1s
+
+#3 [internal] load .dockerignore
+#3 transferring context: 2B done
+#3 DONE 0.0s
+
+#4 [1/2] FROM docker.io/nodered/node-red:latest@sha256:871225abb46d62e434c75c73ec264c406ae1d0ea09b365ed9ffa122fdc327879
+#4 CACHED
+
+#5 [2/2] RUN npm install npm install @jambonz/node-red-contrib-jambonz@2.4.29
+#5 5.167 npm warn deprecated querystring@0.2.0: The querystring API is considered Legacy. new code should use the URLSearchParams API instead.
+#5 6.366 
+#5 6.366 added 36 packages, and audited 556 packages in 6s
+#5 6.366 
+#5 6.366 84 packages are looking for funding
+#5 6.366   run `npm fund` for details
+#5 6.367 
+#5 6.367 found 0 vulnerabilities
+#5 6.368 npm notice
+#5 6.368 npm notice New major version of npm available! 10.8.2 -> 11.1.0
+#5 6.368 npm notice Changelog: https://github.com/npm/cli/releases/tag/v11.1.0
+#5 6.368 npm notice To update run: npm install -g npm@11.1.0
+#5 6.368 npm notice
+#5 DONE 6.5s
+
+#6 exporting to image
+#6 exporting layers
+#6 exporting layers 1.6s done
+#6 writing image sha256:8c5c6f2e65644871a3d6acb9d4ff1a48ef955031a0b8fb8cd46558f507f84347 done
+#6 naming to docker.io/library/tmp done
+#6 DONE 1.6s
+
+----
