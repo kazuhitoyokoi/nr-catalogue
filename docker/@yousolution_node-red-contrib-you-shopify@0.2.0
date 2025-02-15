@@ -1,0 +1,39 @@
+#0 building with "default" instance using docker driver
+
+#1 [internal] load build definition from Dockerfile
+#1 transferring dockerfile: 134B done
+#1 DONE 0.0s
+
+#2 [internal] load metadata for docker.io/nodered/node-red:latest
+#2 DONE 0.1s
+
+#3 [internal] load .dockerignore
+#3 transferring context: 2B done
+#3 DONE 0.0s
+
+#4 [1/2] FROM docker.io/nodered/node-red:latest@sha256:7a3e18f29578feb271bb8daab4379e4ebd355b87ea64b699ce74e6ff49d907aa
+#4 CACHED
+
+#5 [2/2] RUN npm install npm install @yousolution/node-red-contrib-you-shopify@0.2.0
+#5 4.698 
+#5 4.698 added 26 packages, and audited 547 packages in 4s
+#5 4.698 
+#5 4.698 78 packages are looking for funding
+#5 4.698   run `npm fund` for details
+#5 4.699 
+#5 4.699 found 0 vulnerabilities
+#5 4.701 npm notice
+#5 4.701 npm notice New major version of npm available! 10.8.2 -> 11.1.0
+#5 4.701 npm notice Changelog: https://github.com/npm/cli/releases/tag/v11.1.0
+#5 4.701 npm notice To update run: npm install -g npm@11.1.0
+#5 4.701 npm notice
+#5 DONE 4.8s
+
+#6 exporting to image
+#6 exporting layers
+#6 exporting layers 1.2s done
+#6 writing image sha256:f282153167222c0a7d241863c2ae5d92661fed18dbd4610522117cf61d7ae69a done
+#6 naming to docker.io/library/tmp done
+#6 DONE 1.2s
+
+----
