@@ -1,0 +1,41 @@
+#0 building with "default" instance using docker driver
+
+#1 [internal] load build definition from Dockerfile
+#1 transferring dockerfile: 128B done
+#1 DONE 0.0s
+
+#2 [internal] load metadata for docker.io/nodered/node-red:latest
+#2 DONE 0.1s
+
+#3 [internal] load .dockerignore
+#3 transferring context: 2B done
+#3 DONE 0.0s
+
+#4 [1/2] FROM docker.io/nodered/node-red:latest@sha256:7a3e18f29578feb271bb8daab4379e4ebd355b87ea64b699ce74e6ff49d907aa
+#4 CACHED
+
+#5 [2/2] RUN npm install npm install @blockbax/node-red-contrib-blockbax@1.0.0
+#5 20.08 npm warn deprecated node-opcua-client-crawler@2.127.1: true
+#5 20.56 npm warn deprecated bson@6.9.0: a critical bug affecting only useBigInt64=true deserialization usage is fixed in bson@6.10.3
+#5 24.93 
+#5 24.93 added 268 packages, and audited 789 packages in 25s
+#5 24.93 
+#5 24.93 129 packages are looking for funding
+#5 24.93   run `npm fund` for details
+#5 24.93 
+#5 24.93 found 0 vulnerabilities
+#5 24.93 npm notice
+#5 24.93 npm notice New major version of npm available! 10.8.2 -> 11.1.0
+#5 24.93 npm notice Changelog: https://github.com/npm/cli/releases/tag/v11.1.0
+#5 24.93 npm notice To update run: npm install -g npm@11.1.0
+#5 24.93 npm notice
+#5 DONE 25.6s
+
+#6 exporting to image
+#6 exporting layers
+#6 exporting layers 3.8s done
+#6 writing image sha256:3673154ca3d0de5a8e5c14b6a3059fa2f857360da3464513a08e05fe0d6066b5 done
+#6 naming to docker.io/library/tmp done
+#6 DONE 3.8s
+
+----
