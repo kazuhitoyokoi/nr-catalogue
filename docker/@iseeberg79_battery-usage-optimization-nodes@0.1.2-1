@@ -1,0 +1,56 @@
+#0 building with "default" instance using docker driver
+
+#1 [internal] load build definition from Dockerfile
+#1 transferring dockerfile: 139B done
+#1 DONE 0.0s
+
+#2 [internal] load metadata for docker.io/nodered/node-red:latest
+#2 DONE 0.1s
+
+#3 [internal] load .dockerignore
+#3 transferring context: 2B done
+#3 DONE 0.0s
+
+#4 [1/2] FROM docker.io/nodered/node-red:latest@sha256:7a3e18f29578feb271bb8daab4379e4ebd355b87ea64b699ce74e6ff49d907aa
+#4 CACHED
+
+#5 [2/2] RUN npm install npm install @iseeberg79/battery-usage-optimization-nodes@0.1.2-1
+#5 8.666 npm warn deprecated inflight@1.0.6: This module is not supported, and leaks memory. Do not use it. Check out lru-cache if you want a good and tested way to coalesce async requests by a key value, which is much more comprehensive and powerful.
+#5 8.889 npm warn deprecated are-we-there-yet@2.0.0: This package is no longer supported.
+#5 8.921 npm warn deprecated npmlog@5.0.1: This package is no longer supported.
+#5 9.070 npm warn deprecated glob@7.2.3: Glob versions prior to v9 are no longer supported
+#5 9.125 npm warn deprecated rimraf@3.0.2: Rimraf versions prior to v4 are no longer supported
+#5 9.221 npm warn deprecated glob@7.2.3: Glob versions prior to v9 are no longer supported
+#5 9.281 npm warn deprecated gauge@3.0.2: This package is no longer supported.
+#5 9.322 npm warn deprecated multer@1.4.4: Multer 1.x is affected by CVE-2022-24434. This is fixed in v1.4.4-lts.1 which drops support for versions of Node.js before 6. Please upgrade to at least Node.js 6 and version 1.4.4-lts.1 of Multer. If you need support for older versions of Node.js, we are open to accepting patches that would fix the CVE on the main 1.x release line, whilst maintaining compatibility with Node.js 0.10.
+#5 9.623 npm warn deprecated axios@0.27.0: Formdata complete broken, incorrect build size
+#5 11.50 
+#5 11.50 added 182 packages, and audited 703 packages in 11s
+#5 11.50 
+#5 11.50 88 packages are looking for funding
+#5 11.50   run `npm fund` for details
+#5 11.53 
+#5 11.53 30 vulnerabilities (5 low, 9 moderate, 10 high, 6 critical)
+#5 11.53 
+#5 11.53 To address issues that do not require attention, run:
+#5 11.53   npm audit fix
+#5 11.53 
+#5 11.53 To address all issues (including breaking changes), run:
+#5 11.53   npm audit fix --force
+#5 11.53 
+#5 11.53 Run `npm audit` for details.
+#5 11.53 npm notice
+#5 11.53 npm notice New major version of npm available! 10.8.2 -> 11.1.0
+#5 11.53 npm notice Changelog: https://github.com/npm/cli/releases/tag/v11.1.0
+#5 11.53 npm notice To update run: npm install -g npm@11.1.0
+#5 11.53 npm notice
+#5 DONE 11.7s
+
+#6 exporting to image
+#6 exporting layers
+#6 exporting layers 1.7s done
+#6 writing image sha256:92ad47482f487190aa86b03e7bd398e5b71d3c9a821cab36160243215bce05c1 done
+#6 naming to docker.io/library/tmp done
+#6 DONE 1.7s
+
+----
