@@ -1,0 +1,50 @@
+#0 building with "default" instance using docker driver
+
+#1 [internal] load build definition from Dockerfile
+#1 transferring dockerfile: 124B done
+#1 DONE 0.0s
+
+#2 [internal] load metadata for docker.io/nodered/node-red:latest
+#2 DONE 0.1s
+
+#3 [internal] load .dockerignore
+#3 transferring context: 2B done
+#3 DONE 0.0s
+
+#4 [1/2] FROM docker.io/nodered/node-red:latest@sha256:7a3e18f29578feb271bb8daab4379e4ebd355b87ea64b699ce74e6ff49d907aa
+#4 CACHED
+
+#5 [2/2] RUN npm install npm install node-red-contrib-sma-webconnect@0.4.0
+#5 4.142 npm warn deprecated har-validator@5.1.5: this library is no longer supported
+#5 4.183 npm warn deprecated uuid@3.4.0: Please upgrade  to version 7 or higher.  Older versions may use Math.random() in certain circumstances, which is known to be problematic.  See https://v8.dev/blog/math-random for details.
+#5 4.216 npm warn deprecated request@2.88.2: request has been deprecated, see https://github.com/request/request/issues/3142
+#5 4.676 
+#5 4.676 added 43 packages, and audited 562 packages in 4s
+#5 4.676 
+#5 4.676 74 packages are looking for funding
+#5 4.676   run `npm fund` for details
+#5 4.679 
+#5 4.679 4 moderate severity vulnerabilities
+#5 4.679 
+#5 4.679 To address issues that do not require attention, run:
+#5 4.679   npm audit fix
+#5 4.679 
+#5 4.679 Some issues need review, and may require choosing
+#5 4.679 a different dependency.
+#5 4.679 
+#5 4.679 Run `npm audit` for details.
+#5 4.680 npm notice
+#5 4.680 npm notice New major version of npm available! 10.8.2 -> 11.2.0
+#5 4.680 npm notice Changelog: https://github.com/npm/cli/releases/tag/v11.2.0
+#5 4.680 npm notice To update run: npm install -g npm@11.2.0
+#5 4.680 npm notice
+#5 DONE 4.8s
+
+#6 exporting to image
+#6 exporting layers
+#6 exporting layers 1.2s done
+#6 writing image sha256:5450f894396439c9c6de2cae6bd1468c1dbf60f8e34ac0b7c77e513d4f774a50 done
+#6 naming to docker.io/library/tmp done
+#6 DONE 1.3s
+
+----
