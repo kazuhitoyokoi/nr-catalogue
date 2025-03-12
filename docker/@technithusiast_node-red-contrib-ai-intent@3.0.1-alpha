@@ -1,0 +1,44 @@
+#0 building with "default" instance using docker driver
+
+#1 [internal] load build definition from Dockerfile
+#1 transferring dockerfile: 141B done
+#1 DONE 0.0s
+
+#2 [internal] load metadata for docker.io/nodered/node-red:latest
+#2 DONE 0.3s
+
+#3 [internal] load .dockerignore
+#3 transferring context: 2B done
+#3 DONE 0.0s
+
+#4 [1/2] FROM docker.io/nodered/node-red:latest@sha256:7a3e18f29578feb271bb8daab4379e4ebd355b87ea64b699ce74e6ff49d907aa
+#4 CACHED
+
+#5 [2/2] RUN npm install npm install @technithusiast/node-red-contrib-ai-intent@3.0.1-alpha
+#5 6.553 
+#5 6.553 added 29 packages, and audited 548 packages in 6s
+#5 6.553 
+#5 6.553 73 packages are looking for funding
+#5 6.553   run `npm fund` for details
+#5 6.556 
+#5 6.556 2 vulnerabilities (1 moderate, 1 high)
+#5 6.556 
+#5 6.556 To address all issues, run:
+#5 6.556   npm audit fix
+#5 6.556 
+#5 6.556 Run `npm audit` for details.
+#5 6.557 npm notice
+#5 6.557 npm notice New major version of npm available! 10.8.2 -> 11.2.0
+#5 6.557 npm notice Changelog: https://github.com/npm/cli/releases/tag/v11.2.0
+#5 6.557 npm notice To update run: npm install -g npm@11.2.0
+#5 6.557 npm notice
+#5 DONE 6.7s
+
+#6 exporting to image
+#6 exporting layers
+#6 exporting layers 1.4s done
+#6 writing image sha256:2f3768eadd0442c690fa26218fe7f32d1dac9285f9b3534c5d3656cad7d81bc1 done
+#6 naming to docker.io/library/tmp done
+#6 DONE 1.5s
+
+----
