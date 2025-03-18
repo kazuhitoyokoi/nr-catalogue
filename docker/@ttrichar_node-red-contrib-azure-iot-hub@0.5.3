@@ -1,0 +1,49 @@
+#0 building with "default" instance using docker driver
+
+#1 [internal] load build definition from Dockerfile
+#1 transferring dockerfile: 133B done
+#1 DONE 0.0s
+
+#2 [internal] load metadata for docker.io/nodered/node-red:latest
+#2 DONE 0.1s
+
+#3 [internal] load .dockerignore
+#3 transferring context: 2B done
+#3 DONE 0.0s
+
+#4 [1/2] FROM docker.io/nodered/node-red:latest@sha256:0b295b3a14c512548567ca99db631bc37b23bfc79fd009ee8248a610fafdb4b5
+#4 CACHED
+
+#5 [2/2] RUN npm install npm install @ttrichar/node-red-contrib-azure-iot-hub@0.5.3
+#5 10.83 npm warn deprecated inflight@1.0.6: This module is not supported, and leaks memory. Do not use it. Check out lru-cache if you want a good and tested way to coalesce async requests by a key value, which is much more comprehensive and powerful.
+#5 11.51 npm warn deprecated glob@7.2.3: Glob versions prior to v9 are no longer supported
+#5 13.77 
+#5 13.77 added 236 packages, and audited 755 packages in 14s
+#5 13.77 
+#5 13.77 146 packages are looking for funding
+#5 13.77   run `npm fund` for details
+#5 13.78 
+#5 13.78 8 low severity vulnerabilities
+#5 13.78 
+#5 13.78 To address issues that do not require attention, run:
+#5 13.78   npm audit fix
+#5 13.78 
+#5 13.78 Some issues need review, and may require choosing
+#5 13.78 a different dependency.
+#5 13.78 
+#5 13.78 Run `npm audit` for details.
+#5 13.78 npm notice
+#5 13.78 npm notice New major version of npm available! 10.8.2 -> 11.2.0
+#5 13.78 npm notice Changelog: https://github.com/npm/cli/releases/tag/v11.2.0
+#5 13.78 npm notice To update run: npm install -g npm@11.2.0
+#5 13.78 npm notice
+#5 DONE 14.2s
+
+#6 exporting to image
+#6 exporting layers
+#6 exporting layers 3.0s done
+#6 writing image sha256:3f96686a2f954f03589e34ef95f58ff5c064405775cb0a4ad8201597c99f5f36 done
+#6 naming to docker.io/library/tmp done
+#6 DONE 3.0s
+
+----
