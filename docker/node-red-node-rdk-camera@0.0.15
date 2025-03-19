@@ -1,0 +1,39 @@
+#0 building with "default" instance using docker driver
+
+#1 [internal] load build definition from Dockerfile
+#1 transferring dockerfile: 118B done
+#1 DONE 0.0s
+
+#2 [internal] load metadata for docker.io/nodered/node-red:latest
+#2 DONE 0.1s
+
+#3 [internal] load .dockerignore
+#3 transferring context: 2B done
+#3 DONE 0.0s
+
+#4 [1/2] FROM docker.io/nodered/node-red:latest@sha256:0b295b3a14c512548567ca99db631bc37b23bfc79fd009ee8248a610fafdb4b5
+#4 CACHED
+
+#5 [2/2] RUN npm install npm install node-red-node-rdk-camera@0.0.15
+#5 4.268 
+#5 4.268 added 4 packages, and audited 523 packages in 4s
+#5 4.268 
+#5 4.268 72 packages are looking for funding
+#5 4.268   run `npm fund` for details
+#5 4.270 
+#5 4.270 found 0 vulnerabilities
+#5 4.271 npm notice
+#5 4.271 npm notice New major version of npm available! 10.8.2 -> 11.2.0
+#5 4.271 npm notice Changelog: https://github.com/npm/cli/releases/tag/v11.2.0
+#5 4.271 npm notice To update run: npm install -g npm@11.2.0
+#5 4.271 npm notice
+#5 DONE 4.3s
+
+#6 exporting to image
+#6 exporting layers
+#6 exporting layers 1.2s done
+#6 writing image sha256:c1b3f8b55135d1e2a2eac227c9cb103ca4be4aee7ddf66d1ada96cbd554c4c8e done
+#6 naming to docker.io/library/tmp done
+#6 DONE 1.2s
+
+----
