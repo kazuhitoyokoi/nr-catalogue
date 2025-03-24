@@ -1,0 +1,54 @@
+#0 building with "default" instance using docker driver
+
+#1 [internal] load build definition from Dockerfile
+#1 transferring dockerfile: 133B done
+#1 DONE 0.0s
+
+#2 [internal] load metadata for docker.io/nodered/node-red:latest
+#2 DONE 0.1s
+
+#3 [internal] load .dockerignore
+#3 transferring context: 2B done
+#3 DONE 0.0s
+
+#4 [1/2] FROM docker.io/nodered/node-red:latest@sha256:0b295b3a14c512548567ca99db631bc37b23bfc79fd009ee8248a610fafdb4b5
+#4 CACHED
+
+#5 [2/2] RUN npm install npm install @victronenergy/node-red-contrib-victron@1.6.21
+#5 10.03 npm warn deprecated inflight@1.0.6: This module is not supported, and leaks memory. Do not use it. Check out lru-cache if you want a good and tested way to coalesce async requests by a key value, which is much more comprehensive and powerful.
+#5 10.79 npm warn deprecated @humanwhocodes/object-schema@2.0.3: Use @eslint/object-schema instead
+#5 10.89 npm warn deprecated @humanwhocodes/config-array@0.13.0: Use @eslint/config-array instead
+#5 10.94 npm warn deprecated abstract-socket@2.1.1: Package no longer supported. Contact Support at https://www.npmjs.com/support for more info.
+#5 10.94 npm warn deprecated rimraf@3.0.2: Rimraf versions prior to v4 are no longer supported
+#5 10.95 npm warn deprecated glob@7.2.3: Glob versions prior to v9 are no longer supported
+#5 11.42 npm warn deprecated eslint@8.57.1: This version is no longer supported. Please see https://eslint.org/version-support for other options.
+#5 14.95 
+#5 14.95 added 271 packages, and audited 790 packages in 15s
+#5 14.95 
+#5 14.95 177 packages are looking for funding
+#5 14.95   run `npm fund` for details
+#5 14.95 
+#5 14.95 4 low severity vulnerabilities
+#5 14.95 
+#5 14.95 To address issues that do not require attention, run:
+#5 14.95   npm audit fix
+#5 14.95 
+#5 14.95 To address all issues (including breaking changes), run:
+#5 14.95   npm audit fix --force
+#5 14.95 
+#5 14.95 Run `npm audit` for details.
+#5 14.95 npm notice
+#5 14.95 npm notice New major version of npm available! 10.8.2 -> 11.2.0
+#5 14.95 npm notice Changelog: https://github.com/npm/cli/releases/tag/v11.2.0
+#5 14.95 npm notice To update run: npm install -g npm@11.2.0
+#5 14.95 npm notice
+#5 DONE 15.3s
+
+#6 exporting to image
+#6 exporting layers
+#6 exporting layers 2.5s done
+#6 writing image sha256:b7b54762c2d83461bc4fc2a641341f580a7048cb117f46d7b2f47fa8dc30721b done
+#6 naming to docker.io/library/tmp done
+#6 DONE 2.5s
+
+----
