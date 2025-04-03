@@ -1,0 +1,48 @@
+#0 building with "default" instance using docker driver
+
+#1 [internal] load build definition from Dockerfile
+#1 transferring dockerfile: 123B done
+#1 DONE 0.0s
+
+#2 [internal] load metadata for docker.io/nodered/node-red:latest
+#2 DONE 0.1s
+
+#3 [internal] load .dockerignore
+#3 transferring context: 2B done
+#3 DONE 0.0s
+
+#4 [1/2] FROM docker.io/nodered/node-red:latest@sha256:0b295b3a14c512548567ca99db631bc37b23bfc79fd009ee8248a610fafdb4b5
+#4 CACHED
+
+#5 [2/2] RUN npm install npm install @isaac-platform/isaac-node-red@3.3.3
+#5 5.004 npm warn deprecated axios@0.19.2: Critical security vulnerability fixed in v0.21.1. For more information, see https://github.com/axios/axios/pull/3410
+#5 5.865 
+#5 5.865 added 35 packages, and audited 554 packages in 6s
+#5 5.865 
+#5 5.865 79 packages are looking for funding
+#5 5.865   run `npm fund` for details
+#5 5.871 
+#5 5.871 4 vulnerabilities (1 low, 3 high)
+#5 5.871 
+#5 5.871 To address issues that do not require attention, run:
+#5 5.871   npm audit fix
+#5 5.871 
+#5 5.871 Some issues need review, and may require choosing
+#5 5.871 a different dependency.
+#5 5.871 
+#5 5.871 Run `npm audit` for details.
+#5 5.873 npm notice
+#5 5.873 npm notice New major version of npm available! 10.8.2 -> 11.2.0
+#5 5.873 npm notice Changelog: https://github.com/npm/cli/releases/tag/v11.2.0
+#5 5.873 npm notice To update run: npm install -g npm@11.2.0
+#5 5.873 npm notice
+#5 DONE 5.9s
+
+#6 exporting to image
+#6 exporting layers
+#6 exporting layers 1.2s done
+#6 writing image sha256:1a20afca9fb4ca0596a0790ff0381a352c6bc241bac42b112a672d8a79824836 done
+#6 naming to docker.io/library/tmp done
+#6 DONE 1.2s
+
+----
