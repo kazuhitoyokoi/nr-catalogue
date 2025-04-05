@@ -1,0 +1,39 @@
+#0 building with "default" instance using docker driver
+
+#1 [internal] load build definition from Dockerfile
+#1 transferring dockerfile: 117B done
+#1 DONE 0.0s
+
+#2 [internal] load metadata for docker.io/nodered/node-red:latest
+#2 DONE 0.3s
+
+#3 [internal] load .dockerignore
+#3 transferring context: 2B done
+#3 DONE 0.0s
+
+#4 [1/2] FROM docker.io/nodered/node-red:latest@sha256:0b295b3a14c512548567ca99db631bc37b23bfc79fd009ee8248a610fafdb4b5
+#4 CACHED
+
+#5 [2/2] RUN npm install npm install node-red-contrib-onstar2@2.4.0
+#5 5.288 
+#5 5.288 added 30 packages, changed 1 package, and audited 549 packages in 5s
+#5 5.288 
+#5 5.288 76 packages are looking for funding
+#5 5.289   run `npm fund` for details
+#5 5.290 
+#5 5.290 found 0 vulnerabilities
+#5 5.292 npm notice
+#5 5.292 npm notice New major version of npm available! 10.8.2 -> 11.2.0
+#5 5.292 npm notice Changelog: https://github.com/npm/cli/releases/tag/v11.2.0
+#5 5.292 npm notice To update run: npm install -g npm@11.2.0
+#5 5.292 npm notice
+#5 DONE 5.4s
+
+#6 exporting to image
+#6 exporting layers
+#6 exporting layers 1.3s done
+#6 writing image sha256:297638d5ef52c197f04c4e7af147037f52736240d94e4b1471150c7b1c8f8fc4 done
+#6 naming to docker.io/library/tmp done
+#6 DONE 1.3s
+
+----
