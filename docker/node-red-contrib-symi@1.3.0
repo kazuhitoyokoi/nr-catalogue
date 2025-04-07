@@ -1,0 +1,116 @@
+#0 building with "default" instance using docker driver
+
+#1 [internal] load build definition from Dockerfile
+#1 transferring dockerfile: 114B done
+#1 DONE 0.0s
+
+#2 [internal] load metadata for docker.io/nodered/node-red:latest
+#2 ...
+
+#3 [auth] nodered/node-red:pull token for registry-1.docker.io
+#3 DONE 0.0s
+
+#2 [internal] load metadata for docker.io/nodered/node-red:latest
+#2 DONE 1.0s
+
+#4 [internal] load .dockerignore
+#4 transferring context: 2B done
+#4 DONE 0.0s
+
+#5 [1/2] FROM docker.io/nodered/node-red:latest@sha256:0b295b3a14c512548567ca99db631bc37b23bfc79fd009ee8248a610fafdb4b5
+#5 resolve docker.io/nodered/node-red:latest@sha256:0b295b3a14c512548567ca99db631bc37b23bfc79fd009ee8248a610fafdb4b5 done
+#5 sha256:8cc209e5911cb71400e7dcbfccf23b57aebf6f4a308f6870a67d99d464426e2e 0B / 42.95MB 0.1s
+#5 sha256:f18232174bc91741fdf3da96d85011092101a032a93a388b79e99e69c2d5c870 0B / 3.64MB 0.1s
+#5 sha256:d7a069a788e09c70b6e7bd23a40de8714784738174cb975e7a9a20f3ae2be24b 0B / 1.26MB 0.1s
+#5 sha256:89ca28c7174037ae0e793ae8255f7f4f42773fcd39e2389e9ab5e7dfe0edc810 13.68kB / 13.68kB done
+#5 sha256:f18232174bc91741fdf3da96d85011092101a032a93a388b79e99e69c2d5c870 3.64MB / 3.64MB 0.1s done
+#5 sha256:d7a069a788e09c70b6e7bd23a40de8714784738174cb975e7a9a20f3ae2be24b 1.26MB / 1.26MB 0.2s done
+#5 sha256:0b295b3a14c512548567ca99db631bc37b23bfc79fd009ee8248a610fafdb4b5 2.38kB / 2.38kB done
+#5 sha256:8fdedf44af57c9cda93d7d8a09990c8e239ca1d8da80218e878e14c431505e4f 3.52kB / 3.52kB done
+#5 extracting sha256:f18232174bc91741fdf3da96d85011092101a032a93a388b79e99e69c2d5c870 0.1s done
+#5 sha256:b8ad66a22f58a7f3dbe4488a48ec420d7fb1f88a491b4f76aee218a3a52fe64a 0B / 597B 0.2s
+#5 sha256:42ec265e2954eaadbe3a9ad5bb4b55b8713189b49ad9cc1c0c9eac64ec479363 0B / 449B 0.2s
+#5 sha256:8cc209e5911cb71400e7dcbfccf23b57aebf6f4a308f6870a67d99d464426e2e 7.34MB / 42.95MB 0.4s
+#5 sha256:b8ad66a22f58a7f3dbe4488a48ec420d7fb1f88a491b4f76aee218a3a52fe64a 597B / 597B 0.3s done
+#5 sha256:42ec265e2954eaadbe3a9ad5bb4b55b8713189b49ad9cc1c0c9eac64ec479363 449B / 449B 0.3s done
+#5 sha256:d2c655ab5b313d5b3f8fa84f42bf2d28597aafecedae675c7d7848198411447a 0B / 9.54MB 0.4s
+#5 sha256:0c819a08606b503f41da4175bd0a6884af09b1d46a14b96ecad45d4260f4b703 465B / 465B 0.4s done
+#5 sha256:4f4fb700ef54461cfa02571ae0db9a0dc1e0cdb5577484a6d75e68dc38e8acc1 0B / 32B 0.4s
+#5 sha256:8cc209e5911cb71400e7dcbfccf23b57aebf6f4a308f6870a67d99d464426e2e 23.07MB / 42.95MB 0.6s
+#5 sha256:d2c655ab5b313d5b3f8fa84f42bf2d28597aafecedae675c7d7848198411447a 9.54MB / 9.54MB 0.6s done
+#5 sha256:4f4fb700ef54461cfa02571ae0db9a0dc1e0cdb5577484a6d75e68dc38e8acc1 32B / 32B 0.5s done
+#5 sha256:6c29a8500e6661386e30feb2bc9488bd8fd7684e54fd48463d130b91e9474296 0B / 1.60kB 0.6s
+#5 sha256:3a676a6931f5105bf027a497c368ddda0ac79203df93b1806d33efaf8fb927db 0B / 2.35kB 0.6s
+#5 sha256:8cc209e5911cb71400e7dcbfccf23b57aebf6f4a308f6870a67d99d464426e2e 42.95MB / 42.95MB 0.8s done
+#5 sha256:6c29a8500e6661386e30feb2bc9488bd8fd7684e54fd48463d130b91e9474296 1.60kB / 1.60kB 0.6s done
+#5 sha256:3a676a6931f5105bf027a497c368ddda0ac79203df93b1806d33efaf8fb927db 2.35kB / 2.35kB 0.7s done
+#5 sha256:6e68c1f06aa39e603156940fe97a9b3b89acd6a16119dd433c11b3266e895ff5 995B / 995B 0.7s done
+#5 sha256:a13ef429ac3d7227c39cca337563d2594524061782bb7fcdcb27f2720355791c 587B / 587B 0.8s done
+#5 sha256:5ddae236ff27c900dfaa55463651acc6ebd8ec298278c93d223dc19092ac6ba8 0B / 19.36MB 0.8s
+#5 sha256:729f1adceeac5f4542011c1ec42a6898f7051e8bcd4c4d47e9d3cc92ef23cb96 0B / 832B 0.8s
+#5 sha256:ecce3e0301cdc6a0f0996fa0c734b64b0a3b59f53fc54eeab962af6e89933ecf 0B / 356B 0.8s
+#5 sha256:729f1adceeac5f4542011c1ec42a6898f7051e8bcd4c4d47e9d3cc92ef23cb96 832B / 832B 0.8s done
+#5 sha256:ecce3e0301cdc6a0f0996fa0c734b64b0a3b59f53fc54eeab962af6e89933ecf 356B / 356B 0.9s done
+#5 extracting sha256:8cc209e5911cb71400e7dcbfccf23b57aebf6f4a308f6870a67d99d464426e2e 0.1s
+#5 sha256:7bdb2a9ac9c68e37024ad7c918d189b52af946b73ec7037c5750d98283359c1d 0B / 120.45MB 0.9s
+#5 sha256:97c02486c86f4004835d0af9ad96c65eaf9cd82e4da75f9b01eb23a3c0be1b44 0B / 586B 0.9s
+#5 sha256:5ddae236ff27c900dfaa55463651acc6ebd8ec298278c93d223dc19092ac6ba8 12.58MB / 19.36MB 1.0s
+#5 sha256:7bdb2a9ac9c68e37024ad7c918d189b52af946b73ec7037c5750d98283359c1d 6.29MB / 120.45MB 1.0s
+#5 sha256:5ddae236ff27c900dfaa55463651acc6ebd8ec298278c93d223dc19092ac6ba8 18.87MB / 19.36MB 1.1s
+#5 sha256:7bdb2a9ac9c68e37024ad7c918d189b52af946b73ec7037c5750d98283359c1d 19.92MB / 120.45MB 1.1s
+#5 sha256:97c02486c86f4004835d0af9ad96c65eaf9cd82e4da75f9b01eb23a3c0be1b44 586B / 586B 1.0s done
+#5 sha256:5ddae236ff27c900dfaa55463651acc6ebd8ec298278c93d223dc19092ac6ba8 19.36MB / 19.36MB 1.1s done
+#5 sha256:7bdb2a9ac9c68e37024ad7c918d189b52af946b73ec7037c5750d98283359c1d 29.36MB / 120.45MB 1.2s
+#5 sha256:7bdb2a9ac9c68e37024ad7c918d189b52af946b73ec7037c5750d98283359c1d 39.85MB / 120.45MB 1.3s
+#5 sha256:7bdb2a9ac9c68e37024ad7c918d189b52af946b73ec7037c5750d98283359c1d 58.72MB / 120.45MB 1.4s
+#5 sha256:7bdb2a9ac9c68e37024ad7c918d189b52af946b73ec7037c5750d98283359c1d 86.76MB / 120.45MB 1.6s
+#5 sha256:7bdb2a9ac9c68e37024ad7c918d189b52af946b73ec7037c5750d98283359c1d 110.10MB / 120.45MB 1.8s
+#5 extracting sha256:8cc209e5911cb71400e7dcbfccf23b57aebf6f4a308f6870a67d99d464426e2e 1.1s done
+#5 sha256:7bdb2a9ac9c68e37024ad7c918d189b52af946b73ec7037c5750d98283359c1d 120.45MB / 120.45MB 1.9s
+#5 sha256:7bdb2a9ac9c68e37024ad7c918d189b52af946b73ec7037c5750d98283359c1d 120.45MB / 120.45MB 2.0s done
+#5 extracting sha256:d7a069a788e09c70b6e7bd23a40de8714784738174cb975e7a9a20f3ae2be24b
+#5 extracting sha256:d7a069a788e09c70b6e7bd23a40de8714784738174cb975e7a9a20f3ae2be24b 0.0s done
+#5 extracting sha256:42ec265e2954eaadbe3a9ad5bb4b55b8713189b49ad9cc1c0c9eac64ec479363 done
+#5 extracting sha256:b8ad66a22f58a7f3dbe4488a48ec420d7fb1f88a491b4f76aee218a3a52fe64a done
+#5 extracting sha256:0c819a08606b503f41da4175bd0a6884af09b1d46a14b96ecad45d4260f4b703 done
+#5 extracting sha256:d2c655ab5b313d5b3f8fa84f42bf2d28597aafecedae675c7d7848198411447a 0.1s
+#5 extracting sha256:d2c655ab5b313d5b3f8fa84f42bf2d28597aafecedae675c7d7848198411447a 0.2s done
+#5 extracting sha256:4f4fb700ef54461cfa02571ae0db9a0dc1e0cdb5577484a6d75e68dc38e8acc1
+#5 extracting sha256:4f4fb700ef54461cfa02571ae0db9a0dc1e0cdb5577484a6d75e68dc38e8acc1 done
+#5 extracting sha256:6c29a8500e6661386e30feb2bc9488bd8fd7684e54fd48463d130b91e9474296 done
+#5 extracting sha256:3a676a6931f5105bf027a497c368ddda0ac79203df93b1806d33efaf8fb927db done
+#5 extracting sha256:6e68c1f06aa39e603156940fe97a9b3b89acd6a16119dd433c11b3266e895ff5 done
+#5 extracting sha256:a13ef429ac3d7227c39cca337563d2594524061782bb7fcdcb27f2720355791c done
+#5 extracting sha256:729f1adceeac5f4542011c1ec42a6898f7051e8bcd4c4d47e9d3cc92ef23cb96 done
+#5 extracting sha256:ecce3e0301cdc6a0f0996fa0c734b64b0a3b59f53fc54eeab962af6e89933ecf done
+#5 extracting sha256:5ddae236ff27c900dfaa55463651acc6ebd8ec298278c93d223dc19092ac6ba8 0.1s
+#5 extracting sha256:5ddae236ff27c900dfaa55463651acc6ebd8ec298278c93d223dc19092ac6ba8 1.9s done
+#5 extracting sha256:7bdb2a9ac9c68e37024ad7c918d189b52af946b73ec7037c5750d98283359c1d
+#5 extracting sha256:7bdb2a9ac9c68e37024ad7c918d189b52af946b73ec7037c5750d98283359c1d 4.4s done
+#5 extracting sha256:97c02486c86f4004835d0af9ad96c65eaf9cd82e4da75f9b01eb23a3c0be1b44
+#5 extracting sha256:97c02486c86f4004835d0af9ad96c65eaf9cd82e4da75f9b01eb23a3c0be1b44 done
+#5 DONE 10.6s
+
+#6 [2/2] RUN npm install npm install node-red-contrib-symi@1.3.0
+#6 10.45 
+#6 10.45 added 30 packages, and audited 549 packages in 10s
+#6 10.45 
+#6 10.45 84 packages are looking for funding
+#6 10.45   run `npm fund` for details
+#6 10.45 
+#6 10.45 found 0 vulnerabilities
+#6 10.45 npm notice
+#6 10.45 npm notice New major version of npm available! 10.8.2 -> 11.2.0
+#6 10.45 npm notice Changelog: https://github.com/npm/cli/releases/tag/v11.2.0
+#6 10.45 npm notice To update run: npm install -g npm@11.2.0
+#6 10.45 npm notice
+#6 DONE 10.5s
+
+#7 exporting to image
+#7 exporting layers
+#7 exporting layers 1.1s done
+#7 writing image sha256:39a1eb549f7005b652ef6b6ef5190a35ccc3457656a2cdfefe41bec843b16dfb done
+#7 naming to docker.io/library/tmp done
+#7 DONE 1.2s
+
+----
